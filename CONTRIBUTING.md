@@ -56,10 +56,10 @@ The language folder's own limits are smaller: `habits` 200 / 90 and each talk-st
 
 ## Translate Bageo's text
 
-Bageo's notifications, phone app and desktop program can be translated into any language on the Gemini Live list. Each language has a folder, `languages/<code>/`.
+Bageo's notifications, web console and desktop program can be translated into any language on the Gemini Live list (the phone APK ships its multi-language resources built into `bageo-call`). Each language has a folder, `languages/<code>/`.
 
 1. The English original is in `source/en`. Do not change it. `source/meta` says where each line shows up and who reads it, so you can pick the right tone.
-2. Put your translation in your language's folder: `notify.json` (notification messages), `app.json` (phone app), `desktop.json` (desktop program) and `names.json` (the language's own name; copy `templates/language-names.json`). Use the same keys as the English files.
+2. Put your translation in your language's folder: `notify.json` (notification messages), `console.json` (web console), `desktop.json` (desktop program) and `names.json` (the language's own name; copy `templates/language-names.json`). Use the same keys as the English files.
 3. Keep every placeholder, such as `{n}`, `{name}`, `{}` and `%1$s`. You may move it to where your language needs it, but do not add, drop or rename one.
 4. Use the fixed words in `source/glossary.json` every time. "Bageo" is never translated.
 5. No web addresses, e-mail, phone numbers or six or more digits in a row, unless the English line has them too.

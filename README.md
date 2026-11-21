@@ -9,7 +9,7 @@ Also in `README.zh-TW.md` (繁體中文).
 ## What is inside
 
 - `regions/<code>.json`: one file per region (74 regions). Countries, primary language, parcel rules, number/time readback, common scams, local words, five talk styles for owner and assistant, and local details for stalling a scam caller.
-- `languages/<code>/`: one folder per extra language (70 languages + shared call layers). `call.json`, `names.json`, `notify.json`, `app.json`, `desktop.json`, `console.json`, and `_review.json`.
+- `languages/<code>/`: one folder per extra language (70 languages + shared call layers). `call.json`, `names.json`, `notify.json`, `desktop.json`, `console.json`, and `_review.json` (Android APK translations are built directly into the APK in `bageo-call`).
 - `art/<region>.json`: SVG mascot drawings for the 64 non-built-in regions, downloaded on demand by the console once a region is reviewed.
 - `scams/`: isolated country phone-scam intelligence (`country_scams.json` and `countries/<iso>.json` for 112 countries) plus extra-language scam keywords and own-matter phrases (`keywords.json`).
 - `voices/`: regional voice pack lines (`lines.json`) and release voice-pack manifest (`bageo-voices-index.json`).
@@ -18,7 +18,7 @@ Also in `README.zh-TW.md` (繁體中文).
 
 ## Help in three steps
 
-1. Open the file for your region or language on GitHub (for example `regions/tw.json` or `languages/it/app.json`), click edit, and fix what is wrong. To add a region, copy `templates/region.json`.
+1. Open the file for your region or language on GitHub (for example `regions/tw.json` or `languages/it/notify.json`), click edit, and fix what is wrong. To add a region, copy `templates/region.json`.
 2. Open a Pull Request. Automated checks run cleanly and report any schema or translation rules in plain words.
 3. Tick the checklist boxes in the Pull Request form (CC0 license and local reviewer confirmation). Maintainers review before merging.
 

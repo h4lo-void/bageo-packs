@@ -42,7 +42,7 @@
     },
     "call.speech.im_here": {
       "status": "ai_checked",
-      "back": "Yes, I\u0027m here and I can hear you. Please, go ahead and tell me."
+      "back": "Yes, I'm here and I can hear you. Please, go ahead and tell me."
     },
     "call.speech.still_there": {
       "status": "ai_checked",
@@ -60,11 +60,11 @@
     "call.speech.no_thanks": {
       "status": "ai_checked",
       "back": "Oh no, thank you.",
-      "note": "Fixed per back-translation note. Review: Adds a reason the English does not have: \"det är inte för mig\" = \"it\u0027s not for me\". English is only \"Oh, no, thank you.\" It should say just that, e.g. \"Åh nej, tack.\""
+      "note": "Fixed per back-translation note. Review: Adds a reason the English does not have: \"det är inte för mig\" = \"it's not for me\". English is only \"Oh, no, thank you.\" It should say just that, e.g. \"Åh nej, tack.\""
     },
     "call.speech.think_about_it": {
       "status": "ai_checked",
-      "back": "I\u0027ll have to think about it a little."
+      "back": "I'll have to think about it a little."
     },
     "call.speech.wait_one_more": {
       "status": "ai_checked",
@@ -73,7 +73,7 @@
     },
     "call.speech.no_wait": {
       "status": "ai_checked",
-      "back": "\"one moment\", \"wait a bit\", \"wait a moment\", \"let me check\", \"I\u0027m checking a bit\", \"a second\"",
+      "back": "\"one moment\", \"wait a bit\", \"wait a moment\", \"let me check\", \"I'm checking a bit\", \"a second\"",
       "note": "Review: covers one moment / a second / wait / let me check. English also has find out / have a look / verify; consider adding \"vänta\", \"jag tar reda på det\", \"jag tittar på det\", \"jag ska bara kontrollera\". Du forms only, which matches the glossary (du with everyone)."
     },
     "call.speech.unavailable": {
@@ -86,7 +86,7 @@
     },
     "call.speech.closing": {
       "status": "ai_checked",
-      "back": "Farewells: goodbye, bye, we\u0027ll talk (hear each other), we\u0027ll talk tomorrow, we\u0027ll talk tomorrow (one word), take care, take good care, see you, see you tomorrow, so long for now, have a nice weekend, farewell, look after yourself. Wrap-ups: that\u0027s all, I have to hang up, I\u0027ll call later, I\u0027m not keeping you, thanks for the call. Ends: Thank you very much for the help, goodbye. / Let\u0027s do that then, we\u0027ll talk tomorrow. / Okay, then it\u0027s settled, take care. Not ends: Hi, this is Anna from the bank, we hear from each other rarely, but now it\u0027s about your account. / He left the meeting without saying goodbye, but what did you think of the proposal? / Do you think we can hear each other better now that I closed the window?",
+      "back": "Farewells: goodbye, bye, we'll talk (hear each other), we'll talk tomorrow, we'll talk tomorrow (one word), take care, take good care, see you, see you tomorrow, so long for now, have a nice weekend, farewell, look after yourself. Wrap-ups: that's all, I have to hang up, I'll call later, I'm not keeping you, thanks for the call. Ends: Thank you very much for the help, goodbye. / Let's do that then, we'll talk tomorrow. / Okay, then it's settled, take care. Not ends: Hi, this is Anna from the bank, we hear from each other rarely, but now it's about your account. / He left the meeting without saying goodbye, but what did you think of the proposal? / Do you think we can hear each other better now that I closed the window?",
       "note": "Added the whole goodbye people actually say, with tomorrow in it: vi hörs i morgon, vi hörs imorgon, vi ses i morgon. Bare hörs stays out. verified is false; a native speaker still needs to check the wording."
     },
     "notify.ap_already": {
@@ -159,7 +159,7 @@
     },
     "notify.ap_sms_no": {
       "status": "ai_checked",
-      "back": "Unfortunately, {} doesn\u0027t suit me after all. Can we find another time?"
+      "back": "Unfortunately, {} doesn't suit me after all. Can we find another time?"
     },
     "notify.ap_sms_not_sent": {
       "status": "ai_checked",
@@ -180,7 +180,7 @@
     },
     "notify.ap_sms_old_app": {
       "status": "ai_checked",
-      "back": "the phone\u0027s app is too old to send text messages"
+      "back": "the phone's app is too old to send text messages"
     },
     "notify.ap_sms_sent": {
       "status": "ai_checked",
@@ -268,7 +268,7 @@
     },
     "notify.f_callback_no_number": {
       "status": "ai_checked",
-      "back": "No number to call back: the task has no contact and the caller\u0027s number is empty."
+      "back": "No number to call back: the task has no contact and the caller's number is empty."
     },
     "notify.f_callback_send_failed": {
       "status": "ai_checked",
@@ -276,7 +276,7 @@
     },
     "notify.f_callback_waiting": {
       "status": "ai_checked",
-      "back": "The callback is scheduled, but the phone\u0027s control connection is offline. Check that the phone is connected to Bageo and then confirm again."
+      "back": "The callback is scheduled, but the phone's control connection is offline. Check that the phone is connected to Bageo and then confirm again."
     },
     "notify.f_callback_whitelist": {
       "status": "ai_checked",
@@ -292,15 +292,15 @@
     },
     "notify.f_openclaw_failed": {
       "status": "ai_checked",
-      "back": "Could not hand over the task to OpenClaw: {} (check OpenClaw\u0027s address and token in Settings)"
+      "back": "Could not hand over the task to OpenClaw: {} (check OpenClaw's address and token in Settings)"
     },
     "notify.g_bad_address": {
       "status": "ai_checked",
-      "back": "The Gmail address doesn\u0027t look right. Check it in Settings."
+      "back": "The Gmail address doesn't look right. Check it in Settings."
     },
     "notify.g_bad_recipient": {
       "status": "ai_checked",
-      "back": "Not sent: the recipient\u0027s address doesn\u0027t look right"
+      "back": "Not sent: the recipient's address doesn't look right"
     },
     "notify.g_no_recipient": {
       "status": "ai_checked",
@@ -320,7 +320,7 @@
     },
     "notify.h_ai_fail_voicemail": {
       "status": "ai_checked",
-      "back": "The AI didn\u0027t work; the call went to voicemail"
+      "back": "The AI didn't work; the call went to voicemail"
     },
     "notify.h_clip_mark": {
       "status": "ai_checked",
@@ -464,15 +464,15 @@
     },
     "notify.s_ai_fail_matter": {
       "status": "ai_checked",
-      "back": "The AI didn\u0027t connect; the system hung up after about {} and the caller heard nothing"
+      "back": "The AI didn't connect; the system hung up after about {} and the caller heard nothing"
     },
     "notify.s_ai_fail_prefix": {
       "status": "ai_checked",
-      "back": "[The AI didn\u0027t connect; the system hung up]"
+      "back": "[The AI didn't connect; the system hung up]"
     },
     "notify.s_ai_failed": {
       "status": "ai_checked",
-      "back": "The AI didn\u0027t connect and said nothing"
+      "back": "The AI didn't connect and said nothing"
     },
     "notify.s_call_back_if_known": {
       "status": "ai_checked",
@@ -548,7 +548,7 @@
     },
     "notify.tc_confirm_ack": {
       "status": "ai_checked",
-      "back": "Confirmed, I\u0027m working on it…"
+      "back": "Confirmed, I'm working on it…"
     },
     "notify.tc_confirm_failed": {
       "status": "ai_checked",
@@ -675,599 +675,6 @@
       "status": "ai_checked",
       "back": "%-d/%-m %H:%M"
     },
-    "app.about_dedicated": {
-      "status": "ai_checked",
-      "back": "In AI mode the module takes over the phone app, silences the ringtone and turns on Do Not Disturb, so a spare phone works best. If you want to use the phone as usual for a while, turn off the switch at the top."
-    },
-    "app.about_legal": {
-      "status": "ai_checked",
-      "back": "Laws about recording calls and about telling the caller that they\u0027re talking to an AI differ between places. It is your responsibility to follow them."
-    },
-    "app.about_rollback": {
-      "status": "ai_checked",
-      "back": "If you want to remove Bageo completely, first turn off the switch at the top (back to a normal phone), disable or remove the module in Magisk or KernelSU and restart the phone."
-    },
-    "app.advanced": {
-      "status": "ai_checked",
-      "back": "Advanced"
-    },
-    "app.agent_url_label": {
-      "status": "ai_checked",
-      "back": "Address of Bageo",
-      "note": "English says agent address; written as Bageo address, following the UI text rules."
-    },
-    "app.app_name": {
-      "status": "ai_checked",
-      "back": "Bageo"
-    },
-    "app.btn_allow": {
-      "status": "ai_checked",
-      "back": "Allow"
-    },
-    "app.btn_console": {
-      "status": "ai_checked",
-      "back": "Open the console"
-    },
-    "app.btn_forget_wifi": {
-      "status": "ai_checked",
-      "back": "Forget the Wi-Fi connection"
-    },
-    "app.btn_open_settings": {
-      "status": "ai_checked",
-      "back": "Open settings"
-    },
-    "app.btn_reset_usb": {
-      "status": "ai_checked",
-      "back": "Reset to USB default"
-    },
-    "app.btn_save": {
-      "status": "ai_checked",
-      "back": "Save"
-    },
-    "app.btn_set": {
-      "status": "ai_checked",
-      "back": "Set up"
-    },
-    "app.btn_start": {
-      "status": "ai_checked",
-      "back": "Start"
-    },
-    "app.btn_start_service": {
-      "status": "ai_checked",
-      "back": "Start the service"
-    },
-    "app.btn_stop_service": {
-      "status": "ai_checked",
-      "back": "Stop the service"
-    },
-    "app.btn_switch": {
-      "status": "ai_checked",
-      "back": "Switch"
-    },
-    "app.btn_test": {
-      "status": "ai_checked",
-      "back": "Test the connection"
-    },
-    "app.channel_info": {
-      "status": "ai_checked",
-      "back": "Bageo notifications"
-    },
-    "app.channel_service": {
-      "status": "ai_checked",
-      "back": "The Bageo service"
-    },
-    "app.check_priv_missing": {
-      "status": "ai_checked",
-      "back": "Installed as an ordinary app (%1$s). Flash the Bageo module in Magisk or KernelSU and restart. If you also installed the APK file yourself, uninstall that copy."
-    },
-    "app.check_priv_ok": {
-      "status": "ai_checked",
-      "back": "Installed at %1$s"
-    },
-    "app.check_priv_title": {
-      "status": "ai_checked",
-      "back": "Installed as a privileged system app"
-    },
-    "app.check_privperm_desc": {
-      "status": "ai_checked",
-      "back": "Given by the module at startup. They can\u0027t be given from this screen."
-    },
-    "app.check_privperm_title": {
-      "status": "ai_checked",
-      "back": "Privileged permissions"
-    },
-    "app.check_uplink_idle": {
-      "status": "ai_checked",
-      "back": "Not visible right now. On some phones it only appears during a call; the app notifies you if the audio input fails."
-    },
-    "app.check_uplink_missing": {
-      "status": "ai_checked",
-      "back": "Requires the module: the MODIFY_PHONE_STATE permission is missing."
-    },
-    "app.check_uplink_ok": {
-      "status": "ai_checked",
-      "back": "The phone\u0027s audio output was found."
-    },
-    "app.check_uplink_title": {
-      "status": "ai_checked",
-      "back": "AI voice into the call"
-    },
-    "app.confirm_ai_body": {
-      "status": "ai_checked",
-      "back": "This phone becomes an AI answering machine: calls no longer ring and the AI answers. Google\u0027s phone app is turned off and Do Not Disturb is turned on."
-    },
-    "app.confirm_ai_title": {
-      "status": "ai_checked",
-      "back": "Let the AI answer calls?"
-    },
-    "app.confirm_normal_body": {
-      "status": "ai_checked",
-      "back": "Calls ring and you answer yourself. The AI no longer answers calls on this phone."
-    },
-    "app.confirm_normal_title": {
-      "status": "ai_checked",
-      "back": "Use as a normal phone?"
-    },
-    "app.connection_hint_usb": {
-      "status": "ai_checked",
-      "back": "USB (default, recommended): keep ws://127.0.0.1:8765. The computer program forwards that port over the USB cable with adb reverse automatically."
-    },
-    "app.connection_hint_wifi": {
-      "status": "ai_checked",
-      "back": "Wi-Fi: enter the address the computer program shows, for example ws://192.0.2.10:8787/ws?token=… The phone and the computer must be on the same network."
-    },
-    "app.grant_perms": {
-      "status": "ai_checked",
-      "back": "Allow the requested permissions and then tap Start the service again."
-    },
-    "app.header_compat": {
-      "status": "ai_checked",
-      "back": "Tested on Pixel 7, 7a, 8 and 9. Other rooted phones may work; try at your own risk."
-    },
-    "app.header_device": {
-      "status": "ai_checked",
-      "back": "%1$s · Android %2$s (API %3$d)"
-    },
-    "app.header_version": {
-      "status": "ai_checked",
-      "back": "Version %1$s (%2$d)"
-    },
-    "app.ip_addr_hint": {
-      "status": "ai_checked",
-      "back": "For example 192.168.1.20"
-    },
-    "app.ip_addr_label": {
-      "status": "ai_checked",
-      "back": "Bageo\u0027s IP address"
-    },
-    "app.ip_code_hint": {
-      "status": "ai_checked",
-      "back": "Get it on the System page in the console"
-    },
-    "app.ip_code_label": {
-      "status": "ai_checked",
-      "back": "Pairing code"
-    },
-    "app.ip_connect": {
-      "status": "ai_checked",
-      "back": "Connect"
-    },
-    "app.ip_connect_btn": {
-      "status": "ai_checked",
-      "back": "Connect via IP address"
-    },
-    "app.ip_connected": {
-      "status": "ai_checked",
-      "back": "Connected to Bageo"
-    },
-    "app.ip_connecting": {
-      "status": "ai_checked",
-      "back": "Connecting…"
-    },
-    "app.ip_err_address": {
-      "status": "ai_checked",
-      "back": "Enter Bageo\u0027s IP address, for example 192.168.1.20."
-    },
-    "app.ip_err_busy": {
-      "status": "ai_checked",
-      "back": "Too many wrong codes. Wait a minute and try again."
-    },
-    "app.ip_err_code": {
-      "status": "ai_checked",
-      "back": "The pairing code is wrong or has expired. Get a new one in the console."
-    },
-    "app.ip_err_code_format": {
-      "status": "ai_checked",
-      "back": "The pairing code has 6 digits."
-    },
-    "app.ip_err_unreachable": {
-      "status": "ai_checked",
-      "back": "The address can\u0027t be reached. Check that the phone and Bageo are on the same network."
-    },
-    "app.ip_err_wifi_off": {
-      "status": "ai_checked",
-      "back": "First turn on \"Phones can also connect over Wi-Fi\" in the console."
-    },
-    "app.mode_err_busy": {
-      "status": "ai_checked",
-      "back": "The previous switch isn\u0027t finished yet."
-    },
-    "app.mode_err_dialer": {
-      "status": "ai_checked",
-      "back": "The default phone app couldn\u0027t be changed."
-    },
-    "app.mode_err_dnd": {
-      "status": "ai_checked",
-      "back": "Do Not Disturb couldn\u0027t be changed."
-    },
-    "app.mode_err_dnd_mode": {
-      "status": "ai_checked",
-      "back": "Do Not Disturb is still on. Open Settings → Modes on the phone and turn off \"%1$s\"."
-    },
-    "app.mode_err_in_call": {
-      "status": "ai_checked",
-      "back": "A call is in progress; hang up first."
-    },
-    "app.mode_err_no_root": {
-      "status": "ai_checked",
-      "back": "The Bageo module isn\u0027t running. Check in Magisk or KernelSU that the Bageo Uplink module is enabled and then restart the phone."
-    },
-    "app.mode_err_other": {
-      "status": "ai_checked",
-      "back": "Something unexpected went wrong."
-    },
-    "app.mode_err_save": {
-      "status": "ai_checked",
-      "back": "The mode couldn\u0027t be saved."
-    },
-    "app.mode_err_screening": {
-      "status": "ai_checked",
-      "back": "The call screening setting couldn\u0027t be changed."
-    },
-    "app.mode_err_volume": {
-      "status": "ai_checked",
-      "back": "The ringer volume couldn\u0027t be set."
-    },
-    "app.mode_failed": {
-      "status": "ai_checked",
-      "back": "The switch didn\u0027t finish. %1$s You can try again."
-    },
-    "app.mode_switch_hint": {
-      "status": "ai_checked",
-      "back": "Turn it off to use the phone as usual: calls ring and you answer yourself."
-    },
-    "app.mode_switch_label": {
-      "status": "ai_checked",
-      "back": "The AI answers my calls"
-    },
-    "app.msg_no_browser": {
-      "status": "ai_checked",
-      "back": "No app on this phone can open web pages."
-    },
-    "app.msg_perm_settings": {
-      "status": "ai_checked",
-      "back": "Some permissions can no longer be requested here. Allow them on the app\u0027s page in the system settings."
-    },
-    "app.msg_service_started": {
-      "status": "ai_checked",
-      "back": "The service started."
-    },
-    "app.msg_service_stopped": {
-      "status": "ai_checked",
-      "back": "The service stopped."
-    },
-    "app.msg_url_invalid": {
-      "status": "ai_checked",
-      "back": "The address must start with ws:// or wss:// and contain a host."
-    },
-    "app.msg_url_saved": {
-      "status": "ai_checked",
-      "back": "Saved."
-    },
-    "app.msg_url_saved_pending": {
-      "status": "ai_checked",
-      "back": "Saved. To use the new address, tap Stop the service and then Start the service when no call is in progress."
-    },
-    "app.msg_url_saved_restarted": {
-      "status": "ai_checked",
-      "back": "Saved. The service was restarted to use the new address."
-    },
-    "app.msg_wifi_forgotten": {
-      "status": "ai_checked",
-      "back": "The Wi-Fi connection is forgotten. Connect the USB cable once to set it up again."
-    },
-    "app.notification_text_armed": {
-      "status": "ai_checked",
-      "back": "Ready. Waiting for calls; the phone stays silent."
-    },
-    "app.notification_text_in_call": {
-      "status": "ai_checked",
-      "back": "The AI is handling a call."
-    },
-    "app.notification_text_normal": {
-      "status": "ai_checked",
-      "back": "Normal phone: calls ring and you answer yourself."
-    },
-    "app.notification_title": {
-      "status": "ai_checked",
-      "back": "Bageo"
-    },
-    "app.perm_answer_calls": {
-      "status": "ai_checked",
-      "back": "Answer calls: answer and hang up automatically"
-    },
-    "app.perm_call_phone": {
-      "status": "ai_checked",
-      "back": "Make calls: the callback feature"
-    },
-    "app.perm_capture_audio_output": {
-      "status": "ai_checked",
-      "back": "Capture the call audio"
-    },
-    "app.perm_control_incall": {
-      "status": "ai_checked",
-      "back": "Replace the call screen"
-    },
-    "app.perm_modify_phone_state": {
-      "status": "ai_checked",
-      "back": "Send the AI voice into the call"
-    },
-    "app.perm_post_notifications": {
-      "status": "ai_checked",
-      "back": "Notifications: show the service\u0027s notification"
-    },
-    "app.perm_read_call_log": {
-      "status": "ai_checked",
-      "back": "Call log: read the caller\u0027s number"
-    },
-    "app.perm_read_phone_state": {
-      "status": "ai_checked",
-      "back": "Phone: know when a call starts and ends"
-    },
-    "app.perm_record_audio": {
-      "status": "ai_checked",
-      "back": "Microphone: record the call audio"
-    },
-    "app.route_custom": {
-      "status": "ai_checked",
-      "back": "Connected to the address you entered."
-    },
-    "app.route_usb": {
-      "status": "ai_checked",
-      "back": "Connected via USB cable."
-    },
-    "app.route_wifi": {
-      "status": "ai_checked",
-      "back": "Connected via Wi-Fi."
-    },
-    "app.section_about": {
-      "status": "ai_checked",
-      "back": "About and security"
-    },
-    "app.section_connection": {
-      "status": "ai_checked",
-      "back": "Connection"
-    },
-    "app.section_details": {
-      "status": "ai_checked",
-      "back": "Detailed checks"
-    },
-    "app.section_runtime_perms": {
-      "status": "ai_checked",
-      "back": "App permissions"
-    },
-    "app.section_service": {
-      "status": "ai_checked",
-      "back": "Service"
-    },
-    "app.service_running": {
-      "status": "ai_checked",
-      "back": "Service: running"
-    },
-    "app.service_stopped": {
-      "status": "ai_checked",
-      "back": "Service: stopped"
-    },
-    "app.st_ai_on": {
-      "status": "ai_checked",
-      "back": "The AI answers your calls"
-    },
-    "app.st_ai_on_d": {
-      "status": "ai_checked",
-      "back": "Incoming calls are answered by the AI. The phone stays silent."
-    },
-    "app.st_legacy_off": {
-      "status": "ai_checked",
-      "back": "The old \"AI answers\" switch was off on this phone. Since this update the switch above decides: the AI now answers calls here. Turn it off if you want to keep a normal phone."
-    },
-    "app.st_normal": {
-      "status": "ai_checked",
-      "back": "Normal phone: calls ring as usual"
-    },
-    "app.st_normal_d": {
-      "status": "ai_checked",
-      "back": "The AI doesn\u0027t answer. You answer yourself, like on any phone. Turn on the switch below to let the AI answer again."
-    },
-    "app.st_offline": {
-      "status": "ai_checked",
-      "back": "Not connected to the computer yet"
-    },
-    "app.st_offline_d": {
-      "status": "ai_checked",
-      "back": "Check that Bageo is running on the computer and that the phone is connected by USB or on the same Wi-Fi (connect it by USB once first to pair)."
-    },
-    "app.st_service_off": {
-      "status": "ai_checked",
-      "back": "The answering service isn\u0027t running"
-    },
-    "app.st_service_off_d": {
-      "status": "ai_checked",
-      "back": "Tap Start to run it again."
-    },
-    "app.st_steps": {
-      "status": "ai_checked",
-      "back": "Remaining setup steps: %1$d"
-    },
-    "app.st_steps_d": {
-      "status": "ai_checked",
-      "back": "Finish the setup steps below so that the AI can answer calls."
-    },
-    "app.st_switching": {
-      "status": "ai_checked",
-      "back": "Switching…"
-    },
-    "app.st_switching_d": {
-      "status": "ai_checked",
-      "back": "It usually takes a few seconds."
-    },
-    "app.status_check": {
-      "status": "ai_checked",
-      "back": "Check"
-    },
-    "app.status_missing": {
-      "status": "ai_checked",
-      "back": "Missing"
-    },
-    "app.status_ok": {
-      "status": "ai_checked",
-      "back": "OK"
-    },
-    "app.step_battery_desc": {
-      "status": "ai_checked",
-      "back": "Stops Android from shutting down Bageo to save battery, so that no call is missed."
-    },
-    "app.step_battery_title": {
-      "status": "ai_checked",
-      "back": "Don\u0027t let Android put Bageo to sleep"
-    },
-    "app.step_dialer_desc": {
-      "status": "ai_checked",
-      "back": "So that the phone doesn\u0027t show a call screen while the AI is talking."
-    },
-    "app.step_dialer_title": {
-      "status": "ai_checked",
-      "back": "Make Bageo the default phone app"
-    },
-    "app.step_dnd_desc": {
-      "status": "ai_checked",
-      "back": "Keeps the phone quiet while the AI answers."
-    },
-    "app.step_dnd_title": {
-      "status": "ai_checked",
-      "back": "Let Bageo control Do Not Disturb"
-    },
-    "app.step_module_missing": {
-      "status": "ai_checked",
-      "back": "Flash the Bageo module in Magisk or KernelSU and then restart the phone."
-    },
-    "app.step_module_ok": {
-      "status": "ai_checked",
-      "back": "The module is active."
-    },
-    "app.step_module_title": {
-      "status": "ai_checked",
-      "back": "Install the Bageo module"
-    },
-    "app.step_pair_ip": {
-      "status": "ai_checked",
-      "back": "Can\u0027t connect USB (for example if Bageo runs in Docker)? Get a pairing code in the console and then tap \"Connect via IP address\"."
-    },
-    "app.step_pair_missing": {
-      "status": "ai_checked",
-      "back": "First time: turn on USB debugging and connect the phone to the computer running Bageo. After pairing, it also connects over Wi-Fi."
-    },
-    "app.step_pair_ok": {
-      "status": "ai_checked",
-      "back": "Paired with the computer. Calls keep working over Wi-Fi when the cable is unplugged."
-    },
-    "app.step_pair_title": {
-      "status": "ai_checked",
-      "back": "Connect to the computer by USB to pair"
-    },
-    "app.step_perms_desc": {
-      "status": "ai_checked",
-      "back": "Needed to mark calls, answer them and send the call audio to the computer."
-    },
-    "app.step_perms_title": {
-      "status": "ai_checked",
-      "back": "Let Bageo use the phone and the microphone"
-    },
-    "app.step_screening_desc": {
-      "status": "ai_checked",
-      "back": "So that incoming calls don\u0027t ring."
-    },
-    "app.step_screening_title": {
-      "status": "ai_checked",
-      "back": "Make Bageo the call screening app"
-    },
-    "app.steps_header": {
-      "status": "ai_checked",
-      "back": "Installation steps (%1$d of %2$d done)"
-    },
-    "app.test_details": {
-      "status": "ai_checked",
-      "back": "Details"
-    },
-    "app.test_fail_auth": {
-      "status": "ai_checked",
-      "back": "denied: the token in the address is missing or wrong"
-    },
-    "app.test_fail_host": {
-      "status": "ai_checked",
-      "back": "the address was not found"
-    },
-    "app.test_fail_network": {
-      "status": "ai_checked",
-      "back": "the address can\u0027t be reached. Are the phone and the computer on the same network?"
-    },
-    "app.test_fail_other": {
-      "status": "ai_checked",
-      "back": "couldn\u0027t connect"
-    },
-    "app.test_fail_refused": {
-      "status": "ai_checked",
-      "back": "the computer refused the connection. Is Bageo running there, and is the USB link set up?"
-    },
-    "app.test_fail_rejected": {
-      "status": "ai_checked",
-      "back": "something answered, but it isn\u0027t Bageo or it refused the connection"
-    },
-    "app.test_fail_timeout": {
-      "status": "ai_checked",
-      "back": "no answer within 5 seconds"
-    },
-    "app.test_fail_tls": {
-      "status": "ai_checked",
-      "back": "the secure connection (wss) failed"
-    },
-    "app.test_failed": {
-      "status": "ai_checked",
-      "back": "Failed: %1$s"
-    },
-    "app.test_ok": {
-      "status": "ai_checked",
-      "back": "Connected"
-    },
-    "app.test_running": {
-      "status": "ai_checked",
-      "back": "Connecting…"
-    },
-    "app.uplink_missing_text": {
-      "status": "ai_checked",
-      "back": "The audio path for calls doesn\u0027t exist. Check that the Bageo module is installed and enabled and then restart."
-    },
-    "app.uplink_missing_title": {
-      "status": "ai_checked",
-      "back": "The caller doesn\u0027t hear the AI"
-    },
-    "app.wifi_not_ready": {
-      "status": "ai_checked",
-      "back": "The Wi-Fi fallback isn\u0027t set up. Connect the USB cable once to set it up."
-    },
-    "app.wifi_ready": {
-      "status": "ai_checked",
-      "back": "The Wi-Fi fallback is ready. Calls keep working if the USB cable is pulled out."
-    },
     "desktop.adb_failed": {
       "status": "ai_checked",
       "back": "The download failed. Check the connection and try again."
@@ -1310,7 +717,7 @@
     },
     "desktop.err_save": {
       "status": "ai_checked",
-      "back": "Some settings couldn\u0027t be saved. Try again."
+      "back": "Some settings couldn't be saved. Try again."
     },
     "desktop.h_bad": {
       "status": "ai_checked",
@@ -1418,7 +825,7 @@
     },
     "desktop.r_launch_failed": {
       "status": "ai_checked",
-      "back": "Bageo didn\u0027t start. See bageo.log in its folder."
+      "back": "Bageo didn't start. See bageo.log in its folder."
     },
     "desktop.r_launching": {
       "status": "ai_checked",
@@ -1434,7 +841,7 @@
     },
     "desktop.r_offline": {
       "status": "ai_checked",
-      "back": "Bageo can\u0027t be reached. Is it still running?"
+      "back": "Bageo can't be reached. Is it still running?"
     },
     "desktop.r_phone_offline": {
       "status": "ai_checked",
@@ -1946,7 +1353,7 @@
     },
     "console.sms_c_old_app": {
       "status": "ai_checked",
-      "back": "the phone\u0027s app is too old"
+      "back": "the phone's app is too old"
     },
     "console.sms_c_timeout": {
       "status": "ai_checked",
@@ -1958,7 +1365,7 @@
     },
     "console.sms_c_no_permission": {
       "status": "ai_checked",
-      "back": "the phone\u0027s app may not send texts"
+      "back": "the phone's app may not send texts"
     },
     "console.sms_c_no_service": {
       "status": "ai_checked",
@@ -1974,7 +1381,7 @@
     },
     "console.sms_c_exception": {
       "status": "ai_checked",
-      "back": "an error occurred in the phone\u0027s app"
+      "back": "an error occurred in the phone's app"
     },
     "console.sms_c_bad_request": {
       "status": "ai_checked",
@@ -3437,7 +2844,7 @@
     },
     "console.mcp_on_h": {
       "status": "ai_checked",
-      "back": "Works only when the is on and token nedan is angiven. The address is the console\u0027s address plus /mcp."
+      "back": "Works only when the is on and token nedan is angiven. The address is the console's address plus /mcp."
     },
     "console.mcp_tok": {
       "status": "ai_checked",
@@ -3505,7 +2912,7 @@
     },
     "console.hint_telegram": {
       "status": "ai_checked",
-      "back": "Create a bot with @BotFather and paste in its token. Chat ID: @userinfobot shows yours; for a group you use the group\u0027s ID and add the bot there. Send a message to the bot first so it may write to you."
+      "back": "Create a bot with @BotFather and paste in its token. Chat ID: @userinfobot shows yours; for a group you use the group's ID and add the bot there. Send a message to the bot first so it may write to you."
     },
     "console.hint_discord": {
       "status": "ai_checked",
@@ -3581,7 +2988,7 @@
     },
     "console.hint_zulip": {
       "status": "ai_checked",
-      "back": "Personal settings, Bots, Add a new bot (Incoming webhook or Generic) and enter its email and API key as email:key. Target: channel \u003e topic (for example calls \u003e phone), or one or more emails for a direct message.",
+      "back": "Personal settings, Bots, Add a new bot (Incoming webhook or Generic) and enter its email and API key as email:key. Target: channel > topic (for example calls > phone), or one or more emails for a direct message.",
       "note": "L07 t.ex. was a false alarm; check fixed"
     },
     "console.hint_webex": {
@@ -3917,7 +3324,7 @@
     },
     "console.chk_all": {
       "status": "ai_checked",
-      "back": "Everything is ready. Call the phone\u0027s number in order to prova."
+      "back": "Everything is ready. Call the phone's number in order to prova."
     },
     "console.about": {
       "status": "ai_checked",
@@ -4313,7 +3720,7 @@
     },
     "console.nf_zulip_target": {
       "status": "ai_checked",
-      "back": "Channel \u003e topic, or e-post"
+      "back": "Channel > topic, or e-post"
     },
     "console.nf_webex_token": {
       "status": "ai_checked",
@@ -4533,7 +3940,7 @@
     },
     "console.err_blocked_address": {
       "status": "ai_checked",
-      "back": "Bageo sends not to the here the address. Enter the notification service\u0027s own address."
+      "back": "Bageo sends not to the here the address. Enter the notification service's own address."
     },
     "console.err_network_error": {
       "status": "ai_checked",
@@ -4561,7 +3968,7 @@
     },
     "console.cu_qr_h": {
       "status": "ai_checked",
-      "back": "Skanna koden with the phone\u0027s kamera in order to open the console where."
+      "back": "Skanna koden with the phone's kamera in order to open the console where."
     },
     "console.cu_local": {
       "status": "ai_checked",
@@ -4569,7 +3976,7 @@
     },
     "console.cu_qr_alt": {
       "status": "ai_checked",
-      "back": "QR-kod for the console\u0027s address"
+      "back": "QR-kod for the console's address"
     },
     "console.a2hs_title": {
       "status": "ai_checked",
@@ -5697,11 +5104,11 @@
     },
     "console.sms_err_old_app": {
       "status": "ai_checked",
-      "back": "The phone\u0027s app is for old in order to send text."
+      "back": "The phone's app is for old in order to send text."
     },
     "console.sms_err_permission": {
       "status": "ai_checked",
-      "back": "The phone\u0027s app may not send text. Allow it on the phone."
+      "back": "The phone's app may not send text. Allow it on the phone."
     },
     "console.sms_err_no_service": {
       "status": "ai_checked",
@@ -6214,7 +5621,7 @@
     },
     "console.wl_call_terms_3": {
       "status": "ai_checked",
-      "back": "The call to you rings from the here the phone\u0027s SIM-short. The carrier takes betalt that ordinary; utlands- or roamingsamtal can kosta more."
+      "back": "The call to you rings from the here the phone's SIM-short. The carrier takes betalt that ordinary; utlands- or roamingsamtal can kosta more."
     },
     "console.wl_call_terms_4": {
       "status": "ai_checked",

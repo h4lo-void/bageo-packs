@@ -56,10 +56,10 @@
 
 ## 翻譯 Bageo 的文字
 
-Bageo 的通知、手機 App 與電腦版程式，可以翻成 Gemini Live 清單上的任何語言。每種語言有一個資料夾：`languages/<代號>/`。
+Bageo 的通知、控制台與電腦版程式，可以翻成 Gemini Live 清單上的任何語言（手機 APK 的多語字串直接內建於 `bageo-call`）。每種語言有一個資料夾：`languages/<代號>/`。
 
 1. 英文原文在 `source/en`，不要改它。`source/meta` 寫了每一句出現在哪裡、給誰看，照它選合適的語氣。
-2. 譯文放進你那種語言的資料夾：`notify.json`（通知訊息）、`app.json`（手機 App）、`desktop.json`（電腦版程式）、`names.json`（這種語言自己的名稱，複製 `templates/language-names.json`）。key 要跟英文檔一樣。
+2. 譯文放進你那種語言的資料夾：`notify.json`（通知訊息）、`console.json`（網頁控制台）、`desktop.json`（電腦版程式）、`names.json`（這種語言自己的名稱，複製 `templates/language-names.json`）。key 要跟英文檔一樣。
 3. 佔位符都要保留，例如 `{n}`、`{name}`、`{}`、`%1$s`。可以搬到你的語言需要的位置，但不能多、不能少、不能改名。
 4. 固定用詞每次都照 `source/glossary.json`。「Bageo」不翻。
 5. 不放網址、email、電話，也不要連續 6 位以上的數字，除非英文那句本來就有。
