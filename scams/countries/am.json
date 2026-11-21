@@ -1,0 +1,174 @@
+{
+  "name": "Armenia",
+  "name_local": "Հայաստան",
+  "iso": "am",
+  "calling_code": "+374",
+  "languages": [
+    "hy"
+  ],
+  "prevalence_note": "Armenia 2025-2026 warnings: fake Telecom 5G Upgrade and Screen-Sharing Remote Access Scam; fake Pension Fund Recalculation and Account Freeze Scam; forged Central Bank Document and Unauthorized Online Loan Scam; unlicensed Investment Brokerage and Fake Securities Offer Scam.",
+  "cross_border_note": "Calls in Armenian or Russian, sometimes from abroad.",
+  "scams": [
+    {
+      "id": "am_telecom_screen_share",
+      "typology": "tech_support_remote",
+      "name": "Օպերատորի անվան տակ 5G ակտիվացման և էկրանի համօգտագործման խաբեություն",
+      "name_en": "Fake Telecom 5G Upgrade and Screen-Sharing Remote Access Scam",
+      "prevalence": "very_high",
+      "lang": "hy",
+      "context_keywords": [
+        "5G ակտիվացում",
+        "տեխնիկական մասնագետ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "էկրանի համօգտագործում",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "տեղադրել հավելվածը",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "հաստատման կոդ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call citizens via messaging apps or mobile networks posing as telecom technical specialists offering to improve mobile internet quality or activate 5G service.",
+      "legit_en": "Mobile operators in Armenia configure network upgrades automatically or through standard device settings and official service centers.",
+      "bait_tactics": [
+        "Մի վայրկյան սպասեք, հեռախոսիս հիշողությունը լրիվ լցված է և ոչ մի ֆայլ չի ներբեռնվում։",
+        "Կարգավորումների մենյուն կախվել է, իսկ մարտկոցը համարյա նստում է, գնամ լիցքավորիչը գտնեմ։",
+        "Այստեղ ինտերնետը շատ թույլ է աշխատում, էկրանին ոչ մի կոճակ չի բացվում հիմա։"
+      ],
+      "sources": [
+        "https://www.cba.am/hy/warning/warning-fraud-cases/51/"
+      ]
+    },
+    {
+      "id": "am_pension_recalculation_alert",
+      "typology": "fake_official",
+      "name": "Կենսաթոշակի վերահաշվարկի և պետական մարմինների անունից խարդախություն",
+      "name_en": "Fake Pension Fund Recalculation and Account Freeze Scam",
+      "prevalence": "very_high",
+      "lang": "hy",
+      "context_keywords": [
+        "վերահաշվարկ",
+        "լրավճար",
+        "տվյալների ճշգրտում"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "sms կոդ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "շտապ վերադարձրեք գումարը",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "հաշիվը կարգելափակվի",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers use spoofed numbers to impersonate state agencies or pension fund managers, claiming an error was found during pension recalculation.",
+      "legit_en": "Armenian pension funds and state social agencies never resolve benefit recalculations or overpayments by phone, never demand urgent data verification over unsolicited calls, and never ask citizens for bank card numbers, CVV codes, or SMS one-time passwords.",
+      "bait_tactics": [
+        "Սպասեք մի րոպե, ակնոցս մյուս սենյակում է մնացել, առանց դրա հաղորդագրությունը չեմ կարող կարդալ։",
+        "Թոշակի քարտս ու անձնագիրս պահարանի վերևի դարակում են, հիմա փորձեմ գտնել թղթապանակը։",
+        "Հեռախոսիս դեռ ոչ մի կարճ հաղորդագրություն չի եկել, երևի կապի խնդիր կա մեր թաղամասում։"
+      ],
+      "sources": [
+        "https://armenpress.am/hy/article/1255191"
+      ]
+    },
+    {
+      "id": "am_fake_cba_loan_fraud",
+      "typology": "fake_bank_account_alert",
+      "name": "Կենտրոնական բանկի կեղծ փաստաթղթերով և օնլայն վարկերով խաբեություն",
+      "name_en": "Forged Central Bank Document and Unauthorized Online Loan Scam",
+      "prevalence": "high",
+      "lang": "hy",
+      "context_keywords": [
+        "կենտրոնական բանկ",
+        "անվտանգության բաժին",
+        "օնլայն վարկ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "մեկանգամյա գաղտնաբառ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "անվտանգ հաշիվ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "եռանիշ կոդ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters contact victims claiming fraudulent loans are being opened in their name and present forged certificates or powers of attorney purportedly issued by the Central Bank of Armenia.",
+      "legit_en": "The Central Bank of Armenia does not call individual citizens to manage personal accounts or issue powers of attorney for routine customer banking. Commercial banks verify identity only when customers contact official hotlines or visit branches in person.",
+      "bait_tactics": [
+        "Բանկային հավելվածս հիմա թարմացում է պահանջում և ընդհանրապես չի մտնում իմ էջ։",
+        "Մի պահ համբերեք, գրիչ գտնեմ խոհանոցում, որ այդ տեղեկանքի համարը գրի առնեմ։",
+        "Ձայնը շատ է կտրտվում, կարո՞ղ եք դանդաղ կրկնել՝ որ բաժնից եք զանգահարում։"
+      ],
+      "sources": [
+        "https://www.cba.am/hy/warning/circulation-of-fraudulent-documents-in-the-name-of-the-central-bank/57",
+        "https://hetq.am/hy/article/173702"
+      ]
+    },
+    {
+      "id": "am_unlicensed_investment_offer",
+      "typology": "investment_group_scam",
+      "name": "Չլիցենզավորված ներդրումային հարթակների և բարձր եկամտի խաբեություն",
+      "name_en": "Unlicensed Investment Brokerage and Fake Securities Offer Scam",
+      "prevalence": "high",
+      "lang": "hy",
+      "context_keywords": [
+        "ներդրումային ընկերություն",
+        "բարձր եկամտաբերություն",
+        "բրոքերային հաշիվ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "երաշխավորված եկամուտ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "շտապ ներդրում",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "փոխանցեք քարտին",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers represent unlicensed investment brands or fake credit companies, pitching high-yield securities or rapid-return portfolios over phone calls and social media ads.",
+      "legit_en": "Public securities offerings and investment services in Armenia require licensing and registered prospectuses published on the Central Bank of Armenia official website.",
+      "bait_tactics": [
+        "Համակարգիչս դեռ նոր է միանում, մի րոպե սպասեք, որ բացեմ լիցենզավորված ընկերությունների ցանկը։",
+        "Դռան զանգը տվեցին, երևի առաքիչն է եկել, մի վայրկյանից կվերադառնամ, կրկնեք ընկերության անունը։",
+        "Քարտիս օրական փոխանցման սահմանաչափը զրոյացված է, առանց մասնաճյուղ գնալու չի փոխվում։"
+      ],
+      "sources": [
+        "https://www.cba.am/hy/Publications/10613/preview/",
+        "https://hetq.am/hy/article/173702"
+      ]
+    }
+  ]
+}

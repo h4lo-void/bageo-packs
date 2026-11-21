@@ -1,0 +1,178 @@
+{
+  "name": "Lithuania",
+  "name_local": "Lietuva",
+  "iso": "lt",
+  "calling_code": "+370",
+  "languages": [
+    "lt"
+  ],
+  "prevalence_note": "Lithuania 2025-2026 warnings: fake Bank and Police Investigation Digital PIN Theft; fake Relative Emergency and Doorstep Card Courier Scam; second-Pillar Pension Withdrawal and State Agency Impersonation; fake Investment Trading and Secondary Fund Recovery Scam.",
+  "cross_border_note": "Calls in Lithuanian or Russian, often from abroad.",
+  "scams": [
+    {
+      "id": "lt_fake_bank_police_eid_pin",
+      "typology": "fake_bank_account_alert",
+      "name": "Sukčių skambučiai apsimetus banko ar policijos darbuotojais (PIN1/PIN2)",
+      "name_en": "Fake Bank and Police Investigation Digital PIN Theft",
+      "prevalence": "very_high",
+      "lang": "lt",
+      "context_keywords": [
+        "įtartina operacija",
+        "tapatybės patvirtinimas"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pin1",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pin2",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pinigų plovimas",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "niekam nepasakokite",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate bank security officers, police, or financial crime investigators—either starting in broken Lithuanian before switching to Russian or using fluent AI-assisted Lithuanian.",
+      "legit_en": "Lithuania's Communications Regulatory Authority and the Lithuanian Banking Association confirm that commercial banks and law enforcement officers never ask citizens to dictate login passwords or enter mobile authentication PIN codes during unsolicited.",
+      "bait_tactics": [
+        "Palaukite minutėlę, man programėlėje jokia užklausa neatsirado, gal mobilusis internetas rūsyje trūkinėja.",
+        "Telefonas kažko visai pakibo ir neatidaro banko lango, tuoj pamėginsiu perkrauti ekraną.",
+        "Aš be skaitymo akinių neįžiūriu smulkių skaičių ekrane, tuoj paieškosiu jų svetainėje."
+      ],
+      "sources": [
+        "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/scam-prevencija",
+        "https://www.lba.lt/lt/apie-mus/asociacijos-naujienos/sukciai-vis-dazniau-kalba-taisyklinga-lietuviu-kalba-paaiskino-kas-pasikeite"
+      ]
+    },
+    {
+      "id": "lt_card_cash_courier_relative",
+      "typology": "fake_relative_money",
+      "name": "Sukčiavimas apsimetus į avariją patekusiu artimuoju arba banko kurjeriu",
+      "name_en": "Fake Relative Emergency and Doorstep Card Courier Scam",
+      "prevalence": "very_high",
+      "lang": "lt",
+      "context_keywords": [
+        "avarija",
+        "grynieji pinigai"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "atvyks kurjeris paimti",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "skubiai reikia grynųjų",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "paduokite kortelę ir pin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Targeting older residents in particular, scammers either claim a close family member caused a traffic accident requiring urgent cash for medical or legal settlement, or pose as bank staff claiming an unsafe payment card must be collected at the doorstep.",
+      "legit_en": "Lithuanian police investigators, public hospital physicians, and commercial banks never dispatch couriers to private residences to collect cash settlements, retrieve existing payment cards, or request secret card PIN codes from citizens under any.",
+      "bait_tactics": [
+        "Oi, labai prastai girdžiu per traškesį, pakartokite lėčiau, kurioje tiksliai ligoninėje ar gatvėje tai įvyko?",
+        "Palaukite sekundę, laiptinės domofonas pas mus šiandien sugedęs ir durys iš apačios neatsidaro.",
+        "Mano piniginė su kortele liko užrakinta kitame kambaryje, tuoj paieškosiu, kur padėjau raktelį."
+      ],
+      "sources": [
+        "https://gerasplanas.lt/telefoninis-sukciavimas-senjorams-apsisaugoti/",
+        "https://policija.lrv.lt/lt/naujienos/pranesk-apie-sukciavima/"
+      ]
+    },
+    {
+      "id": "lt_pension_payout_agency_phish",
+      "typology": "fake_government_subsidy",
+      "name": "Sukčiavimas prisidengus pensijų fondo išmokomis, mokesčiais ar paštu",
+      "name_en": "Second-Pillar Pension Withdrawal and State Agency Impersonation",
+      "prevalence": "high",
+      "lang": "lt",
+      "context_keywords": [
+        "pensijų fondas",
+        "mokesčių grąžinimas"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "atsiimti pensijų lėšas",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "atidaryti tarpinę sąskaitą",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "patvirtinkite tapatybę nuorodoje",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Exploiting 2026 second-pillar pension fund withdrawals and seasonal tax filings, scammers impersonate social insurance, tax, or postal staff via calls and messages.",
+      "legit_en": "Official Lithuanian tax authorities, social insurance offices, and national postal services process citizen applications exclusively through verified government portals and never phone residents to redirect pension fund payouts into external third-party.",
+      "bait_tactics": [
+        "Palaukite, mano kompiuteris labai lėtai jungiasi, dar neatidarė savitarnos puslapio patikrinimui.",
+        "Tuoj susirasiu tušinuką virtuvėje, padiktuokite lėtai rašto registracijos numerį.",
+        "Šiandien namų internetas vis atsijunginėja, jokia nuoroda telefone neužsikrauna."
+      ],
+      "sources": [
+        "https://sumin.lrv.lt/lt/naujienos/lietuvos-pastas-perspeja-sukciai-vilioja-i-fintech-saskaitas-ChIy",
+        "https://rrt.lt/veiklos-sritys/elektroniniai-rysiai/paslaugu-vartotojams/scam-prevencija"
+      ]
+    },
+    {
+      "id": "lt_investment_and_fake_recovery",
+      "typology": "investment_group_scam",
+      "name": "Investicinės platformos ir netikro prarastų lėšų susigrąžinimo sukčiavimas",
+      "name_en": "Fake Investment Trading and Secondary Fund Recovery Scam",
+      "prevalence": "high",
+      "lang": "lt",
+      "context_keywords": [
+        "kriptovaliutos",
+        "pinigų susigrąžinimas"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "garantuotas pelnas",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "išankstinis mokestis už grąžinimą",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pinigų susigrąžinimo tarnyba",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pitch high-yield stock or crypto trading platforms and coach victims into repeated bank transfers.",
+      "legit_en": "Neither the Bank of Lithuania, the Lithuanian Police, nor the National Cyber Security Centre ever charge citizens advance fees to recover defrauded funds, and licensed investment brokers never make cold calls promising guaranteed profits.",
+      "bait_tactics": [
+        "Luktelėkite, bandau Lietuvos banko sąraše suvesti jūsų įmonės pavadinimą, kaip tiksliai jis rašomas?",
+        "Mano telefone baigiasi baterija, liko vos du procentai, tuoj paieškosiu įkroviklio.",
+        "Pavedimų limitas mano sąskaitoje dabar nustatytas nulinis, be generatoriaus jo nepakeisiu."
+      ],
+      "sources": [
+        "https://sc.bns.lt/view/item/pries-juodaji-penktadieni-ir-kaledas-sukciai-per-diena-is-lietuviu-isvilioja-56-tukst-euru-kaip-per-minute-atpazinti-netikra-el-parduotuve-541750",
+        "https://policija.lrv.lt/lt/naujienos/pranesk-apie-sukciavima/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "code": "in",
+  "countries": [
+    "in"
+  ],
+  "name": {
+    "en": "India",
+    "native": "India / भारत",
+    "zh": "印度"
+  },
+  "lang": "en-IN",
+  "stt": "hi-IN",
+  "delivery": {
+    "en": "Parcels: gate security, lobby via MyGate or the door",
+    "zh": "包裹交給門口 security、經 MyGate 放大廳或放門口"
+  },
+  "readback": {
+    "en": "10-digit numbers go 5-5; dates day before month",
+    "zh": "10 位號碼照 5-5 唸；日期先日後月"
+  },
+  "fraud": {
+    "en": "\"Digital arrest\", TRAI SIM blocks, KYC updates, UPI refund pleas are scams",
+    "zh": "數位逮捕、TRAI 停卡、更新 KYC、UPI 誤轉款要你退錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say society, flat, lobby, security guard; sums in lakh and crore.",
+    "zh": "送貨說 society、flat、lobby、security guard；金額用 lakh 和 crore 算。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like UPI saying server busy, a late SMS code, lost glasses, the Aadhaar card locked away.",
+    "zh": "卡在日常狀況，例如 UPI 顯示伺服器忙碌、簡訊碼遲遲不來、老花眼鏡不見、Aadhaar 卡鎖起來了。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: first names, upbeat relaxed lines, a lively reaction plus a follow-up (oh acha, sure yaar), varied.",
+        "zh": "像跟好朋友：直接叫名字，輕鬆樂觀，句子短而活潑，真反應並多接一句（oh acha、sure yaar），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing, polite: first names or Sir/Ma'am as fits; after they explain, add a friendly remark (oh I see, makes sense), varied.",
+        "zh": "溫暖隨和，依情況叫名字或稱 Sir／Ma'am；對方講完，加一句自己的體貼回應（oh I see、makes sense），每次換說法。"
+      },
+      "3": {
+        "en": "Clear, balanced, Sir/Ma'am for elders. When they finish a point, reply in one full sentence, not a word or two (right).",
+        "zh": "清楚平衡，對長輩稱 Sir 或 Ma'am。對方講完一件事，用一句完整的話回應，不只回一兩個字（right）。"
+      },
+      "4": {
+        "en": "Composed, courteous: Mr./Ms. or Sir/Ma'am, measured full sentences; take up their main point first (understood), varied.",
+        "zh": "沉穩有禮，稱 Mr.／Ms. 或 Sir／Ma'am，句子完整；先回應對方重點（understood），每次換說法。"
+      },
+      "5": {
+        "en": "Sharp executive register: Sir/Ma'am with titles, brisk articulate sentences; answer each point in full (completely clear), varied.",
+        "zh": "俐落的商務口吻，稱 Sir 或 Ma'am 並用職稱，明快但有溫度；每個重點完整回應（completely clear），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly helper: a warm reaction first, then say you will pass it on (oh got it, sure thing), varied; no telecaller stiffness.",
+        "zh": "活潑親切的助理，不用電話行銷員的僵硬口吻：先熱絡回應對方，再說會轉告（oh got it、sure thing），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, approachable assistant: acknowledge their context kindly, then note the message (understood, thanks for calling in), varied.",
+        "zh": "溫和從容的助理，溫暖易親近：先體貼回應對方處境，再記下留言（understood、thanks for calling in），每次換說法。"
+      },
+      "3": {
+        "en": "Capable, natural assistant in Indian English: answer their point in one full sentence, never a bare OK, then confirm the relay.",
+        "zh": "自然幹練的助理，幹練自然的印度英語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（got all the details）。"
+      },
+      "4": {
+        "en": "Polished secretary: gracious Sir/Ma'am, calm full sentences; take up why they called, then pass it on (thank you), varied.",
+        "zh": "周到的秘書，稱 Sir 或 Ma'am：先用完整句子承接來意，再說會轉告（thank you），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: crisp corporate polish; answer the business details in full, then confirm the relay (thank you), varied.",
+        "zh": "主管級助理，俐落的企業風格，條理俐落：先完整回應公事重點，再確認轉達（thank you），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "society",
+      "lobby",
+      "security guard"
+    ],
+    "bank": [
+      "UPI",
+      "KYC",
+      "Aadhaar"
+    ]
+  },
+  "status": "draft"
+}

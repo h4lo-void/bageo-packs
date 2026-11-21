@@ -1,0 +1,143 @@
+{
+  "name": "Germany",
+  "name_local": "Deutschland",
+  "iso": "de",
+  "calling_code": "+49",
+  "languages": [
+    "de"
+  ],
+  "prevalence_note": "Bundesnetzagentur, Polizei-Beratung & Hiya: Sweepstakes notary-fee scams (Gewinnspiel-Betrug), shock calls / Enkeltrick bail demands (Schockanruf), fake police safekeeping valuables, and Europol robocalls dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "de_gewinnspiel_notar",
+      "typology": "prize_lottery",
+      "name": "Gewinnspiel-Betrug & Gewinnspiel-Abo（Notar / Gebühren）",
+      "name_en": "Sweepstakes win demanding upfront notary/tax fees or fake lottery subscription trap",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "gewinnspiel",
+        "notar",
+        "lotto",
+        "glückwunsch"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bearbeitungsgebühr vorab",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "gewinnspiel abo",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transportversicherung für den gewinn",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Congratulates owner on winning cash/car and demands upfront notary, tax or transport fee (often in gift cards or transfer), or claims a lottery subscription renewed unless IBAN is given to cancel.",
+      "legit_en": "Ordinary delivery or shop call about an item the owner actually ordered, with no upfront prize fee or IBAN demand.",
+      "bait_tactics": [
+        "Sich begeistert über den Gewinn zeigen und langsam fragen, wie der Geldtransporter oder Notar genau abläuft",
+        "Vorgeben, die Lesebrille und die Bankkarte im anderen Zimmer zu suchen, während man nach Steuerdetails fragt"
+      ],
+      "sources": [
+        "Bundesnetzagentur",
+        "Polizei-Beratung",
+        "Verbraucherzentrale"
+      ]
+    },
+    {
+      "id": "de_schockanruf_polizei",
+      "typology": "fake_relative_money",
+      "name": "Schockanruf, Enkeltrick & Falsche Polizisten（Kaution / Wertsachen）",
+      "name_en": "Shock call claiming fatal crash bail (Kaution) or fake police collecting valuables",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "staatsanwaltschaft",
+        "verkehrsunfall",
+        "einbruch",
+        "kriminalpolizei",
+        "goldmünzen",
+        "schließfach"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kaution für haftverschonung",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wertsachen sicher verwahren",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "rate mal wer dran ist",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bargeld oder gold übergeben",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Crying relative / fake officer claims a family member caused a fatal crash and needs instant bail cash/gold ('Kaution'), or claims burglars have the owner's address on a list and police must pick up valuables.",
+      "legit_en": "Real German local authorities or clinics scheduling an in-person visit without ever asking for bail cash, gold, or valuables.",
+      "bait_tactics": [
+        "Erschrocken und kooperativ klingen, langsam nach dem genauen Unfallort und den Formalitäten fragen",
+        "So tun, als wüsste man den Zahlencode vom Tresor nicht mehr auswendig und müsste erst im Ordner nachsehen",
+        "Langsam fragen, wie die Quittung bei der Übergabe aussieht, während man angeblich den Schlüssel sucht"
+      ],
+      "sources": [
+        "Polizei-Beratung",
+        "Bundeskriminalamt",
+        "BKA",
+        "Bundesnetzagentur 2025-2026"
+      ]
+    },
+    {
+      "id": "de_falsche_polizeibeamte",
+      "typology": "fake_official",
+      "name": "Falsche Polizeibeamte holen Wertsachen ab",
+      "name_en": "Fake police officers collecting valuables",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "kriminalpolizei"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "zivilbeamter holt",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wertsachen abholen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "strengste geheimhaltung",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police officer says burglars or a corrupt bank employee threaten the owner's savings, asks for secrecy and says a plain-clothes officer will collect cash and valuables.",
+      "legit_en": "German police never collect money or valuables at the door and never ask people to keep a call secret from their bank.",
+      "bait_tactics": [
+        "Sagen, dass der Schlüssel zum Schrank bei der Nachbarin liegt, und fragen, wann der Kollege kommen will",
+        "Ruhig fragen, wie der Kollege aussieht"
+      ],
+      "sources": [
+        "Polizeiliche Kriminalprävention"
+      ]
+    }
+  ]
+}

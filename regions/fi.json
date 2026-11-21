@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "fi",
+  "countries": [
+    "fi"
+  ],
+  "name": {
+    "en": "Finland",
+    "native": "Suomi",
+    "zh": "芬蘭"
+  },
+  "lang": "fi",
+  "hello": {
+    "hello": "Haloo?",
+    "hello_again": "Haloo, kuuluuko?"
+  },
+  "delivery": {
+    "en": "Parcels: pakettiautomaatti, Posti point or at the door",
+    "zh": "包裹放 pakettiautomaatti、Posti 取貨點或門口"
+  },
+  "readback": {
+    "en": "puoli kahdeksan = 7:30; mobile numbers read clearly",
+    "zh": "puoli kahdeksan＝7:30；手機號碼清楚唸"
+  },
+  "fraud": {
+    "en": "a turvatili \"safe account\", bank ID approvals or remote control are scams",
+    "zh": "轉到 turvatili 安全帳戶、要網銀憑證確認、遠端控制的都是詐騙"
+  },
+  "habits": {
+    "en": "On a stranger or hidden number, do not open with the owner's name.",
+    "zh": "陌生或未顯示號碼來電，開場不報主人名字。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a bank ID app update, the key-code list in a coat pocket, thick walls stalling data.",
+    "zh": "卡在網銀憑證 App 要更新、密碼表在外套口袋、厚牆讓行動數據卡住。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: sä, chatty spoken phrasing, short loose sentences, real reactions (no joo, kuulostaa hyvältä), varied.",
+        "zh": "像{owner}跟好朋友聊：用 sä，口語聊天感，句子短而隨興、反應真實（如 no joo, kuulostaa hyvältä），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: sinä; after they explain, add a friendly remark (totta kai, selvä homma), varied.",
+        "zh": "溫和隨和：用 sinä；對方講完，加一句自己的友善回應（如 totta kai, selvä homma），每次換說法。"
+      },
+      "3": {
+        "en": "sinä with everyone, plain and steady. After their point, reply with one full sentence, not a word or two (no niin, ymmärrän), varied.",
+        "zh": "對所有人都用 sinä，平實穩重。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 no niin, ymmärrän），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: sinä, but polished, full sentences; take up their main point first (ymmärrän oikein hyvin), varied.",
+        "zh": "有禮：用 sinä 但得體，句子完整，先回應重點（如 ymmärrän oikein hyvin），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: sinä, businesslike, brisk full sentences, little small talk; answer each point (asia on selvä), varied.",
+        "zh": "俐落公事口吻：用 sinä，務實，句子精簡完整，少閒聊；每個重點都回應（如 asia on selvä），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: sä, breezy lines; react warmly to what they share, then say you will pass it on (no selvä juttu), varied.",
+        "zh": "{owner}活潑的小幫手：用 sä，句子輕快；先熱絡回應對方，再說會轉告（如 no selvä juttu），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: sinä, unhurried; acknowledge their situation, then take the message (ymmärrän hyvin), varied.",
+        "zh": "親切從容的助理：用 sinä，不趕；先體貼回應處境，再記下留言（如 ymmärrän hyvin），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: sinä for all. After their point, answer in one full sentence, then confirm the relay (asia selvä), varied.",
+        "zh": "自然幹練的助理：對所有人用 sinä。對方講完一件事，先用一句完整的話回應，再確認轉達（如 asia selvä），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: sinä, but polished, full sentences; take up why they called, then offer to pass it on (kirjaan ylös), varied.",
+        "zh": "低調周到的秘書：用 sinä 但得體，句子完整；先承接來意再說會轉告（如 kirjaan ylös），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: sinä, businesslike, concise and brisk; answer key details in full, then confirm the relay (asia ymmärretty), varied.",
+        "zh": "主管級助理：用 sinä，務實，用語精簡明快；先完整回應重點，再確認轉達（如 asia ymmärretty），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "pakettiautomaatti",
+      "noutopiste",
+      "Posti"
+    ],
+    "bank": [
+      "verkkopankki",
+      "MobilePay",
+      "pankkitunnukset"
+    ]
+  },
+  "status": "draft"
+}

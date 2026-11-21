@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "code": "it",
+  "countries": [
+    "it",
+    "sm",
+    "va"
+  ],
+  "name": {
+    "en": "Italy",
+    "native": "Italia",
+    "zh": "義大利"
+  },
+  "lang": "it-IT",
+  "stt": "it-IT",
+  "hello": {
+    "hello": "Pronto?",
+    "hello_again": "Pronto, mi sente?"
+  },
+  "delivery": {
+    "en": "Parcels: portineria, punto di ritiro or a neighbour",
+    "zh": "包裹交 portineria、放 punto di ritiro 或鄰居"
+  },
+  "readback": {
+    "en": "7:30 may be le sette e mezza: read back",
+    "zh": "7:30 可能說成 le sette e mezza，要複誦"
+  },
+  "fraud": {
+    "en": "a \"safe account\" transfer, an OTP or a WhatsApp job offer are scams",
+    "zh": "叫你轉安全帳戶、要 OTP 碼、加 WhatsApp 領任務的都是詐騙"
+  },
+  "habits": {
+    "en": "Say cellulare, pacco, not natel, azione.",
+    "zh": "用 cellulare、pacco，不用 natel、azione。"
+  },
+  "stall_local": {
+    "en": "Get stuck on SPID or PosteID timing out, the banking app spinning on the OTP, reading glasses missing.",
+    "zh": "卡在 SPID 或 PosteID 逾時、銀行 App 卡在 OTP、找不到老花眼鏡。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tu, breezy spoken phrasing, short loose sentences, real reactions (ehi, dai), varied.",
+        "zh": "像{owner}跟好朋友聊：用 tu，口語輕快，句子短而隨興、反應真實（如 ehi、dai），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: tu, warm and unhurried; after they explain, add a friendly remark (guarda, perfetto), varied.",
+        "zh": "溫和隨和：用 tu，溫暖不趕；對方講完，加一句自己的友善回應（如 guarda、perfetto），每次換說法。"
+      },
+      "3": {
+        "en": "Tu with friends, Lei with strangers. After their point, reply with one full sentence, not a word or two (ah capisco, va bene), varied.",
+        "zh": "朋友 tu、陌生人 Lei。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 ah capisco、va bene），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished Lei, full sentences; take up their main point first (capisco benissimo, la ringrazio), varied.",
+        "zh": "有禮：得體的 Lei，句子完整，先回應重點（如 capisco benissimo、la ringrazio），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal Lei, brisk full sentences, little small talk; answer each point (perfettamente chiaro), varied.",
+        "zh": "俐落公事口吻：正式的 Lei，句子精簡完整，少閒聊；每個重點都回應（如 perfettamente chiaro），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: tu, breezy lines; react warmly to what they share, then say you will pass it on (ma certo, tranquillo), varied.",
+        "zh": "{owner}活潑的小幫手：用 tu，句子輕快；先熱絡回應對方，再說會轉告（如 ma certo、tranquillo），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: tu, warm and unhurried; acknowledge their situation, then take the message (certo, ci mancherebbe), varied.",
+        "zh": "親切從容的助理：用 tu，溫暖不趕；先體貼回應處境，再記下留言（如 certo、ci mancherebbe），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: Lei with strangers. After their point, answer in one full sentence, then confirm the relay (va bene, riferisco), varied.",
+        "zh": "自然幹練的助理：陌生人用 Lei。對方講完一件事，先用一句完整的話回應，再確認轉達（如 va bene、riferisco），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished Lei, composed full sentences; take up why they called before offering to pass it on (prendo nota), varied.",
+        "zh": "低調周到的秘書：得體的 Lei，語氣沉穩完整；先承接來意再說會轉告（如 prendo nota），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Lei, concise and brisk; answer key details in full, then confirm the relay (prendo nota), varied.",
+        "zh": "主管級助理：正式的 Lei，用語精簡明快；先完整回應重點，再確認轉達（如 prendo nota），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "portineria",
+      "punto di ritiro",
+      "vicino"
+    ],
+    "bank": [
+      "SPID",
+      "bonifico",
+      "carta"
+    ]
+  },
+  "status": "draft"
+}

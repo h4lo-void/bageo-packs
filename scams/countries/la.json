@@ -1,0 +1,168 @@
+{
+  "name": "Laos",
+  "name_local": "ລາວ",
+  "iso": "la",
+  "calling_code": "+856",
+  "languages": [
+    "lo"
+  ],
+  "prevalence_note": "Laos 2025-2026 warnings: mobile Banking App OTP Account Takeover; forged Official Notice and SIM Registration Vishing Scam; fake Family Accident or Arrest Urgent Money Scam; fake Lucky Draw Prize Handling-Fee Scam.",
+  "cross_border_note": "Calls in Lao or Thai, often from Thai numbers.",
+  "scams": [
+    {
+      "id": "la_mobile_banking_otp",
+      "typology": "otp_theft",
+      "name": "ການຫຼອກຂໍລະຫັດ OTP ແອັບທະນາຄານ",
+      "name_en": "Mobile Banking App OTP Account Takeover",
+      "prevalence": "very_high",
+      "lang": "lo",
+      "context_keywords": [
+        "ບັນຊີຖືກລະງັບ",
+        "otp"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ກົດລິ້ງເພື່ອຢືນຢັນ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ບັນຊີຈະຖືກອາຍັດ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate commercial bank officers, claiming your mobile banking account faces imminent suspension within twenty-four hours or requires urgent security verification.",
+      "legit_en": "Commercial banks and Lao cybersecurity authorities emphasize that banks never ask customers for OTPs, PINs, or passwords verbally or via SMS links.",
+      "bait_tactics": [
+        "ຖ້າບຶດໜຶ່ງເດີ້, ຕອນນີ້ສັນຍານອິນເຕີເນັດຢູ່ເຮືອນຂ້ອຍຊ້າຫຼາຍ ເປີດແອັບທະນາຄານບໍ່ທັນຂຶ້ນເທື່ອ.",
+        "ຍັງບໍ່ເຫັນມີຂໍ້ຄວາມຫຍັງສົ່ງເຂົ້າມາເລີຍ, ຊິມທີ່ຜູກບັນຊີໄວ້ຢູ່ໃນໂທລະສັບອີກໜ່ວຍໜຶ່ງທີ່ແບັດໝົດ.",
+        "ຂ້ອຍບໍ່ໄດ້ໃສ່ແວ່ນຕາ ອ່ານໂຕເລກນ້ອຍໆໃນໜ້າຈໍບໍ່ເຫັນເລີຍ, ຂໍຍ່າງໄປຊອກແວ່ນຕາໃນຫ້ອງກ່ອນເດີ້."
+      ],
+      "sources": [
+        "https://enison.ai/en/blog/laos-smartphone-fraud-prevention-guide",
+        "https://kpl.gov.la/En/detail.aspx?id=96241",
+        "https://www.bcel.com.la/bcel/product-review.html?prd=e-banking&id=bcel1"
+      ]
+    },
+    {
+      "id": "la_forged_sim_official_notice",
+      "typology": "fake_official",
+      "name": "ການແອບອ້າງເຈົ້າໜ້າທີ່ລັດ ແລະ ລົງທະບຽນຊິມກາດ",
+      "name_en": "Forged Official Notice and SIM Registration Vishing Scam",
+      "prevalence": "high",
+      "lang": "lo",
+      "context_keywords": [
+        "ຄ່າໂທຄ້າງຊຳລະ",
+        "ຕັດສັນຍານ",
+        "ເອກະສານທາງການ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ສົ່ງຮູບບັດປະຈຳຕົວ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ໂອນເງິນເພື່ອກວດສອບ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ຈະຖືກຕັດເບີທັນທີ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate telecommunications ministry officials, public security officers, or mobile carrier staff, citing overdue communication fees or forged government SIM registration notices.",
+      "legit_en": "Lao ministries and telecom operators never demand banking passwords, OTPs, or money transfers over phone calls. Citizens should hang up immediately and verify SIM registration status directly at official telecom service centers.",
+      "bait_tactics": [
+        "ສຽງລົດຢູ່ແຄມທາງດັງແຮງຫຼາຍ ຟັງບໍ່ຄ່ອຍແຈ້ງເລີຍ, ເຈົ້າເວົ້າຊື່ໜ່ວຍງານຄືນອີກເທື່ອໜຶ່ງໄດ້ບໍ່?",
+        "ບັດປະຈຳຕົວຂ້ອຍເກັບໄວ້ໃນຕູ້ຢູ່ເຮືອນພຸ້ນ, ຕອນນີ້ຂ້ອຍອອກມາຊື້ເຄື່ອງຢູ່ຕະຫຼາດ ບໍ່ໄດ້ຖືມານຳເດີ້.",
+        "ຊິມເບີນີ້ລູກຫຼານເປັນຄົນຊື້ມາໃສ່ເຄື່ອງໃຫ້, ຂ້ອຍບໍ່ຈື່ຂໍ້ມູນຕອນລົງທະບຽນເລີຍ ຖ້າຖາມລາວກ່ອນເດີ້."
+      ],
+      "sources": [
+        "https://enison.ai/en/blog/laos-smartphone-fraud-prevention-guide",
+        "https://kpl.gov.la/En/detail.aspx?id=96241",
+        "https://www.vientianetimes.org.la/freefreenews/freecontent_032_Ministry_y25.php"
+      ]
+    },
+    {
+      "id": "la_family_emergency_impersonation",
+      "typology": "fake_relative_money",
+      "name": "ການແອບອ້າງເປັນພີ່ນ້ອງເກີດອຸບັດຕິເຫດຂໍໂອນເງິນດ່ວນ",
+      "name_en": "Fake Family Accident or Arrest Urgent Money Scam",
+      "prevalence": "high",
+      "lang": "lo",
+      "context_keywords": [
+        "ຖືກກັກຕົວ",
+        "ໂອນເງິນດ່ວນ",
+        "ຢ່າຟ້າວບອກໃຜ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ໂອນເງິນມາດ່ວນດຽວນີ້",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ໂອນເຂົ້າບັນຊີຄົນອື່ນກ່ອນ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pretend to be a family member, hospital staff, or traffic officer, claiming a relative has just suffered a road accident or been detained and urgently needs medical or bail money.",
+      "legit_en": "Hospitals and public security offices in Laos never demand instant transfers to personal accounts over an unverified phone call. Authorities advise hanging up immediately and calling the family member's original number directly to verify.",
+      "bait_tactics": [
+        "ແມ່ນໃຜເກີດເຫດເກາະ? ສຽງໂທລະສັບມັນຂາດໆຫາຍໆ ຟັງຊື່ບໍ່ອອກເລີຍ ເວົ້າຊ້າໆແດ່ເດີ້.",
+        "ໃນບັນຊີໂທລະສັບຂ້ອຍຕອນນີ້ບໍ່ມີເງິນພໍເລີຍ, ຕ້ອງໄດ້ລໍຖ້າໃຫ້ຄົນຢູ່ເຮືອນກັບມາເບິ່ງຊ່ວຍກ່ອນ.",
+        "ເຈົ້າຢູ່ຄຸ້ມໃດແທ້ລະ? ຂ້ອຍກຳລັງຊອກເຈ້ຍກັບບິກມາຈົດໄວ້ ແຕ່ຍັງຊອກບິກບໍ່ເຫັນເທື່ອ."
+      ],
+      "sources": [
+        "https://enison.ai/en/blog/laos-smartphone-fraud-prevention-guide",
+        "https://kpl.gov.la/En/detail.aspx?id=96241"
+      ]
+    },
+    {
+      "id": "la_prize_lottery_fee",
+      "typology": "prize_lottery",
+      "name": "ການຫຼອກລວງວ່າຖືກລາງວັນພິເສດໃຫ້ໂອນຄ່າທຳນຽມ",
+      "name_en": "Fake Lucky Draw Prize Handling-Fee Scam",
+      "prevalence": "high",
+      "lang": "lo",
+      "context_keywords": [
+        "ຖືກລາງວັນ",
+        "ຜູ້ໂຊກດີ",
+        "ລົງທະບຽນຮັບສິດ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ຄ່າທຳນຽມກ່ອນ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ປ້ອນຂໍ້ມູນບັນຊີທະນາຄານ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers or messages congratulate you on winning a lucky draw cash prize, smartphone, or vehicle promotion you never entered.",
+      "legit_en": "Legitimate companies and telecom operators in Laos never require promotion winners to pay advance handling fees to personal accounts or disclose mobile banking passwords, and authorities urge reporting suspicious prize calls to official cybercrime hotlines.",
+      "bait_tactics": [
+        "ຂ້ອຍບໍ່ເຄີຍສົ່ງຊື່ຊິງໂຊກຢູ່ໃສເລີຍໃດ໋, ແມ່ນລາຍການຫຍັງເກາະ ລອງເລົ່າໃໝ່ຊ້າໆເບິ່ງດູ.",
+        "ຕອນນີ້ຝົນຕົກແຮງ ສັນຍານໂທລະສັບຢູ່ບ້ານຂ້ອຍມັນຂາດໆ, ເປີດເບິ່ງຫຍັງໃນມືຖືບໍ່ໄດ້ເລີຍເດີ້.",
+        "ຂ້ອຍໂອນເງິນຜ່ານມືຖືບໍ່ເປັນເລີຍ, ຕ້ອງຖ້າໃຫ້ຄົນໃນຄອບຄົວເລີກວຽກກັບມາເຮືອນຕອນແລງພຸ້ນເດີ້."
+      ],
+      "sources": [
+        "https://enison.ai/en/blog/laos-smartphone-fraud-prevention-guide",
+        "https://kpl.gov.la/En/detail.aspx?id=101697"
+      ]
+    }
+  ]
+}

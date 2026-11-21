@@ -1,0 +1,149 @@
+{
+  "name": "Norway",
+  "name_local": "Norge",
+  "iso": "no",
+  "calling_code": "+47",
+  "languages": [
+    "nb"
+  ],
+  "prevalence_note": "Politiet and Økokrim warnings 2025-2026: fake bank or police staff asking for BankID passwords and one-time codes (the 'Olga' method), fake Microsoft support, fake Skatteetaten refunds and investment scams.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "no_bankid_svindel",
+      "typology": "otp_theft",
+      "name": "BankID-svindel: falsk bank eller politi",
+      "name_en": "BankID fraud by fake bank or police staff",
+      "prevalence": "very_high",
+      "lang": "nb",
+      "context_keywords": [
+        "økokrim"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bankid-passord",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "trygg konto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bekreft med bankid-appen",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department, the police or Økokrim speaks of a suspicious loan and asks for the BankID password and one-time code, an approval in the BankID app or a transfer to a safe account.",
+      "legit_en": "Banks and the police never ask for BankID passwords or codes and never move money to a safe account.",
+      "bait_tactics": [
+        "Si at telefonen holder på å starte på nytt og be dem forklare en gang til, rolig",
+        "Spørre hvilken dag lånet skal være tatt opp og hvor mye"
+      ],
+      "sources": [
+        "Politiet",
+        "Finans Norge"
+      ]
+    },
+    {
+      "id": "no_falsk_microsoft",
+      "typology": "tech_support_remote",
+      "name": "Falsk Microsoft-support: fjerntilgang",
+      "name_en": "Fake Microsoft support with remote access",
+      "prevalence": "high",
+      "lang": "nb",
+      "context_keywords": [
+        "teknisk support"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "fjerntilgang til pc-en",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "logg inn i nettbanken mens",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from Microsoft or an IT company says the computer has a virus or a licence problem and asks for remote access and to log in to online banking while they watch.",
+      "legit_en": "Microsoft never calls about viruses or licences and never asks to watch online banking.",
+      "bait_tactics": [
+        "Si at PC-en starter veldig sakte og spørre hva som skal stå på skjermen",
+        "Spørre hvilken feilmelding de har fått"
+      ],
+      "sources": [
+        "Politiet",
+        "NorSIS"
+      ]
+    },
+    {
+      "id": "no_falsk_skatteetaten",
+      "typology": "tax_refund_scam",
+      "name": "Falsk Skatteetaten: penger til gode",
+      "name_en": "Fake tax office refund",
+      "prevalence": "medium",
+      "lang": "nb",
+      "context_keywords": [
+        "skatteoppgjør"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kortnummer og sikkerhetskode",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "klikk på lenken og bekreft",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from Skatteetaten says the owner has money back and asks to click a link and confirm with BankID or give card number and security code for the payout.",
+      "legit_en": "Skatteetaten pays refunds to the registered account and never asks for card numbers or codes.",
+      "bait_tactics": [
+        "Si at brillene ligger i bilen og spørre hvor mye det gjelder",
+        "Spørre hvilket år oppgjøret gjelder"
+      ],
+      "sources": [
+        "Skatteetaten"
+      ]
+    },
+    {
+      "id": "no_investering_krypto",
+      "typology": "investment_group_scam",
+      "name": "Investeringssvindel med krypto",
+      "name_en": "Crypto investment scam",
+      "prevalence": "high",
+      "lang": "nb",
+      "context_keywords": [
+        "aksjehandel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "gebyr for å få utbetalt",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sett inn startkapital",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a broker promises guaranteed returns on crypto or shares, asks for a starting deposit and remote access, then demands a fee to pay out the gain.",
+      "legit_en": "Licensed brokers never promise guaranteed returns or charge fees to release a gain.",
+      "bait_tactics": [
+        "Si at man skriver ned alt og spørre hvor mye man må begynne med",
+        "Spørre hvor lang tid en utbetaling tar"
+      ],
+      "sources": [
+        "Finanstilsynet",
+        "Økokrim"
+      ]
+    }
+  ]
+}

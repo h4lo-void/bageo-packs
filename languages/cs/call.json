@@ -1,0 +1,113 @@
+{
+  "schema": 2,
+  "layer": "cs",
+  "status": "draft",
+  "name": {
+    "en": "Czech",
+    "zh": "捷克文"
+  },
+  "hello": {
+    "hello": "Haló?",
+    "hello_again": "Haló, slyšíte mě?"
+  },
+  "common": {
+    "habits": {
+      "en": "Tykání with friends, vykání otherwise.",
+      "zh": "朋友用 tykání，其餘用 vykání。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: tykání, spoken cadence, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 tykání，口語節奏，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: tykání, or a soft vykání; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 tykání，或輕鬆的 vykání；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: tykání with friends, vykání with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 tykání、陌生人 vykání；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished vykání, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 vykání，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal vykání with titles, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 vykání，帶頭銜，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: tykání, spoken cadence; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 tykání，口語節奏；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: tykání, or a soft vykání; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 tykání，或輕鬆的 vykání；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: tykání with friends, vykání with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 tykání、陌生人 vykání；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished vykání; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 vykání；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal vykání with titles; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 vykání，帶頭銜；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ano, jsem tady, slyším vás. Povídejte.",
+    "still_there": "Haló? Jste tam ještě?",
+    "bye": "Na shledanou.",
+    "go_ahead": "Jistě, povídejte.",
+    "no_thanks": "Ach, ne, děkuji.",
+    "think_about_it": "Budu o tom muset popřemýšlet.",
+    "wait_one_more": "Ach, počkejte, ještě mám jednu otázku.",
+    "no_wait": "„moment“, „chvilku“, „vteřinku“, „počkejte“, „zjistím to“, „podívám se“, „jen to ověřím“, „počkej“, „chvíli“, „sekundu“",
+    "unavailable": "Volané číslo je nyní nedostupné. Zkuste to prosím později.",
+    "preview": [
+      "Haló?",
+      "Aha, balík? Jistě, nechte ho prosím před dveřmi, moc děkuji.",
+      "Dobře, na shledanou."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "na shledanou",
+        "na slyšenou",
+        "nashle",
+        "mějte se hezky",
+        "mějte se",
+        "měj se",
+        "hezký den",
+        "pěkný zbytek dne"
+      ],
+      "wrapups": [
+        "to je všechno",
+        "nebudu vás zdržovat",
+        "musím končit",
+        "zavoláme si později"
+      ],
+      "examples": {
+        "ends": [
+          "Děkuji vám za pomoc, na shledanou.",
+          "Tak jo, to je všechno, mějte se hezky.",
+          "Všechno jsem si poznamenal, děkuji, hezký den."
+        ],
+        "not_ends": [
+          "Dobrý den, tady Novák z banky, volám kvůli nabídce.",
+          "Kurýr včera neřekl na shledanou a odjel, můžete to prověřit?",
+          "Mějte se na pozoru před podvodnými zprávami, o kterých vám teď chci říct víc.",
+          "Nebudu vás zdržovat dlouho, jen potřebuji ověřit dvě položky."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": 2,
+  "layer": "la",
+  "status": "draft",
+  "name": {
+    "en": "Latin",
+    "zh": "拉丁語"
+  },
+  "hello": {
+    "hello": "Salve?",
+    "hello_again": "Salve? Audisne me?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Ita, adsum et audio, loquere quaeso.",
+    "still_there": "Adhucne ades?",
+    "bye": "Vale.",
+    "go_ahead": "Ita vero, perge quaeso.",
+    "no_thanks": "Minime, gratias ago.",
+    "think_about_it": "De hac re paulisper deliberabo.",
+    "wait_one_more": "Mane paulisper, unam adhuc quaestionem habeo.",
+    "no_wait": "«mane paulisper», «exspecta dum inspicio», «manete quaeso», «exspectate dum inspicio»",
+    "unavailable": "Numerus quem vocavisti nunc praesto non est. Quaeso postea iterum conare.",
+    "preview": [
+      "Salve?",
+      "Ah, fasciculus? Bene, pone illum ante ianuam quaeso, maximas gratias.",
+      "Omnia bona tibi opto, vale!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "vale",
+        "valete",
+        "bene vale",
+        "bene valete",
+        "mox colloquemur",
+        "cras colloquemur",
+        "cura ut valeas"
+      ],
+      "wrapups": [
+        "iam abire debeo",
+        "nunc depono",
+        "haec hactenus",
+        "postea colloquemur",
+        "non te morabor"
+      ],
+      "examples": {
+        "ends": [
+          "Maximas gratias pro auxilio, bene vale!",
+          "Omnia notavi, cras colloquemur, vale.",
+          "Bene, iam abire debeo, valete!"
+        ],
+        "not_ends": [
+          "Discessit ex conclavi nec vale dixit, sed nunc rem nostram pergamus.",
+          "Heri mihi vale dixit, at hodie aliam quaestionem tibi proponere volo.",
+          "In epistula bene vale scripsit, sed prius diem conventus constituamus."
+        ]
+      }
+    }
+  }
+}

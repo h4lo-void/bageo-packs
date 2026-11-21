@@ -1,0 +1,64 @@
+{
+  "schema": 2,
+  "layer": "fil",
+  "status": "draft",
+  "name": {
+    "en": "Filipino",
+    "zh": "菲律賓語"
+  },
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello? Naririnig ninyo po ba ako?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Opo, nandito po ako at naririnig ko kayo. Sige po, ano iyon?",
+    "still_there": "Nandiyan pa po ba kayo?",
+    "bye": "Sige po, paalam.",
+    "go_ahead": "Sige lang po, sabihin ninyo.",
+    "no_thanks": "Ay, hindi na po, salamat.",
+    "think_about_it": "Pag-iisipan ko po muna iyan.",
+    "wait_one_more": "Teka lang po, may isa pa akong tanong.",
+    "no_wait": "«sandali lang», «teka lang», «saglit, tingnan ko», «sandali po, titingnan ko», «wait lang», «pakihintay po saglit»",
+    "unavailable": "Hindi maabot ngayon ang numerong tinatawagan ninyo. Pakisubukan ulit mamaya.",
+    "preview": [
+      "Hello?",
+      "Ah, delivery po? Sige po, pakiiwan na lang sa harap ng pinto, maraming salamat.",
+      "Sige po, paalam."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "sige, bye",
+        "baba ko na",
+        "baba ko na po",
+        "ibaba ko na",
+        "ibaba ko na po",
+        "paalam",
+        "paalam po",
+        "ingat",
+        "ingat po",
+        "hanggang sa muli",
+        "bye po"
+      ],
+      "wrapups": [
+        "mamaya na lang",
+        "tawag na lang ulit",
+        "usap tayo mamaya",
+        "yun lang muna"
+      ],
+      "examples": {
+        "ends": [
+          "Maraming salamat po sa impormasyon, sige, bye!",
+          "Nakuha ko na lahat ng detalye, baba ko na po.",
+          "Salamat sa pagtawag, usap tayo bukas, ingat po!"
+        ],
+        "not_ends": [
+          "Bigla na lang niyang sinabing baba ko na kahapon kaya tumawag ulit ako.",
+          "Umalis na ang kasama ko at nagpaalam, kaya makakapag-usap na tayo.",
+          "Lagi naman silang nagsasabi ng ingat po sa simula ng mensahe nila."
+        ]
+      }
+    }
+  }
+}

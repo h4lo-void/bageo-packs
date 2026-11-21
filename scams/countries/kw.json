@@ -1,0 +1,137 @@
+{
+  "name": "Kuwait",
+  "name_local": "الكويت",
+  "iso": "kw",
+  "calling_code": "+965",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "prevalence_note": "Kuwait 2025-2026 warnings: digital Identity App and OTP Verification Scam; bank Account Freeze and KYC Update Call Scam; police and Financial Authority Impersonation Scam.",
+  "cross_border_note": "Calls in Arabic or English, often from abroad or over WhatsApp.",
+  "scams": [
+    {
+      "id": "kw_digital_id_otp",
+      "typology": "otp_theft",
+      "name": "انتحال منصات الهوية الرقمية وطلب رمز التحقق",
+      "name_en": "Digital Identity App and OTP Verification Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "الهوية الرقمية",
+        "إيقاف الخدمات"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "اقبل طلب الدخول",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رقم الهوية والرقم السري",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to represent a government portal or telecom regulator, warning that the resident's national ID, residency file, or SIM registration will be suspended today.",
+      "legit_en": "Government portals, central banks, and telecom operators across Gulf states never ask residents to read one-time verification codes over the phone or approve unsolicited login requests inside digital identity applications.",
+      "bait_tactics": [
+        "الشبكة عندي ضعيفة حالياً داخل المبنى ولم تصلني أي رسالة نصية، هل يمكنك الانتظار قليلاً حتى أتحرك لمكان فيه تغطية؟",
+        "التطبيق يطلب تحديثاً جديداً على الجوال والتحميل بطيء جداً، ما اسم القسم الرسمي الذي تتصل منه بالضبط؟",
+        "الشاشة علقت عندي وأنا أحاول فتح الإشعارات، أعد لي رقم المعاملة ببطء لو سمحت ريثما يفتح الجهاز."
+      ],
+      "sources": [
+        "https://my.gov.sa/ar/services/538742",
+        "https://centralbank.ae/en/our-operations/risk-management/cyber-security-centre-of-excellence-1/fraudulent-reporting/",
+        "https://mobilenumber.ae/news/uae-sms-otp-ban-2026-mobile-number-security"
+      ]
+    },
+    {
+      "id": "kw_fake_bank_kyc_freeze",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال موظف البنك لتحديث الحساب وتجميد البطاقة",
+      "name_en": "Bank Account Freeze and KYC Update Call Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تجميد الحساب",
+        "انتهاء صلاحية الهوية"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "الأرقام الثلاثة خلف البطاقة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز التفعيل لمرة واحدة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "سيتم إيقاف حسابك",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as bank customer support or central bank compliance staff, the caller warns that the victim's bank account and debit card are about to be frozen due to an expired ID record.",
+      "legit_en": "Banks and central banks across GCC countries require customers to update expired identification only in branch or directly inside verified official banking apps, and never request CVV numbers or OTP codes by phone.",
+      "bait_tactics": [
+        "محفظتي في الغرفة الثانية ولا أحفظ أرقام البطاقة عن ظهر قلب، انتظر لحظة أبحث عنها ولكن الخط يقطع قليلاً.",
+        "لدي أكثر من حساب بنكي ولا أعرف أي بطاقة تقصدون، هل تذكر لي الفرع المسجل لديكم أولاً؟",
+        "حاولت فتح تطبيق البنك للتأكد لكن يظهر لي خطأ في الاتصال بالإنترنت، أمهلني دقيقة أعيد تشغيل الشبكة."
+      ],
+      "sources": [
+        "https://www.sama.gov.sa/",
+        "https://centralbank.ae/ar/our-operations/risk-management/cyber-security-centre-of-excellence-1/fraudulent-reporting/",
+        "https://www.emaratalyoum.com/local-section/other/2025-05-09-1.1943051"
+      ]
+    },
+    {
+      "id": "kw_fake_police_authority",
+      "typology": "fake_official",
+      "name": "انتحال صفة الشرطة أو الجهات الأمنية والمالية",
+      "name_en": "Police and Financial Authority Impersonation Scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "التحريات والمباحث",
+        "بلاغ مالي",
+        "شبهة تحويل"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "حساب آمن",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "مذكرة توقيف فورية",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز الرسالة النصية",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to be from criminal investigations or financial crime police, alleging suspicious transfers on the resident's bank account.",
+      "legit_en": "Police departments across Gulf states repeatedly confirm that officers never call individuals to ask for bank card details, verification codes, or money transfers; official inquiries take place through formal police channels.",
+      "bait_tactics": [
+        "الصوت غير واضح بسبب التكييف عندي، هل يمكنك إعادة اسم الإدارة ورقم البلاغ ببطء حتى أكتبه؟",
+        "أبحث الآن عن ورقة وقلم لتدوين المعلومات، لكن الهاتف الآخر يرن في نفس الوقت، ثانية واحدة معك.",
+        "لم تصلني أي إشعارات رسمية على هاتفي، هل يمكنك توضيح تاريخ المعاملة التي تتحدث عنها بالضبط؟"
+      ],
+      "sources": [
+        "https://www.alkhaleej.ae/2025-03-26/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%AC%D9%87%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-5841121/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
+        "https://www.cst.gov.sa/services/Spam-Reports"
+      ]
+    }
+  ]
+}

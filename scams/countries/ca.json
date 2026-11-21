@@ -1,0 +1,115 @@
+{
+  "name": "Canada",
+  "name_local": "Canada",
+  "iso": "ca",
+  "calling_code": "+1",
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "prevalence_note": "Canadian Anti-Fraud Centre 2025-2026: fake CRA or Service Canada agents threatening arrest over a 'compromised SIN', fake CBSA parcel holds, and grandparent emergency scams with cash couriers dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ca_cra_service_canada",
+      "typology": "irs_ssa_impersonation",
+      "name": "Fake CRA / Service Canada (compromised SIN, arrest threat)",
+      "name_en": "Fake Canada Revenue Agency or Service Canada agent threatening arrest over a compromised SIN",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "canada revenue agency",
+        "service canada",
+        "rcmp"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "compromised sin",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "verify your sin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as CRA or Service Canada saying the owner's SIN is compromised or taxes are unpaid and the RCMP will arrest them unless they pay at once by gift cards, crypto ATM or e-Transfer.",
+      "legit_en": "Real CRA and Service Canada contact people mostly by mail or My Account messages and never threaten arrest or ask for gift cards, crypto or e-Transfers.",
+      "bait_tactics": [
+        "Sound worried and ask them to explain slowly which tax year it is about while you look for your old tax papers",
+        "Say your SIN card is in a drawer somewhere and keep asking which office and agent number to write down"
+      ],
+      "sources": [
+        "Canadian Anti-Fraud Centre",
+        "Canada Revenue Agency"
+      ]
+    },
+    {
+      "id": "ca_grandparent_emergency",
+      "typology": "fake_relative_money",
+      "name": "Grandparent scam (bail money, cash courier)",
+      "name_en": "Grandparent emergency scam asking for bail money through a cash courier",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "public defender",
+        "gag order"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bail money",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cash courier",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A 'grandchild' or a 'lawyer' says the grandchild crashed a car and sits in jail, needs bail money now, asks to keep it secret from the parents and sends a courier for cash.",
+      "legit_en": "Real family emergencies come with names and details the family can check, and courts never send couriers to collect bail cash at the door.",
+      "bait_tactics": [
+        "Act shaken and ask the 'grandchild' about family things while you look for your reading glasses",
+        "Ask slowly how the courier will find the house and what the receipt will look like"
+      ],
+      "sources": [
+        "Canadian Anti-Fraud Centre"
+      ]
+    },
+    {
+      "id": "ca_cbsa_parcel",
+      "typology": "fake_customs_parcel",
+      "name": "Fake CBSA intercepted parcel",
+      "name_en": "Fake Canada Border Services Agency call about an intercepted parcel in the owner's name",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "canada border services agency",
+        "cbsa"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "illegal bank cards",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "customs clearance fee",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as CBSA saying a parcel in the owner's name with drugs or illegal bank cards was intercepted, then transfers to 'police' and asks for money to clear their name.",
+      "legit_en": "Real couriers and CBSA notices about parcels the owner expects ask only for duties through the courier, with no threats or transfers to police.",
+      "bait_tactics": [
+        "Sound confused and ask them to read out every item and the sender's address slowly",
+        "Say you have to find the shipping email first and ask what the parcel looked like"
+      ],
+      "sources": [
+        "Canadian Anti-Fraud Centre"
+      ]
+    }
+  ]
+}

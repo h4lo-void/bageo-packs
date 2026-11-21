@@ -1,0 +1,80 @@
+{
+  "name": "Thailand",
+  "name_local": "ประเทศไทย",
+  "iso": "th",
+  "calling_code": "+66",
+  "languages": [
+    "th"
+  ],
+  "prevalence_note": "Royal Thai Police and PEA/MEA warnings 2025-2026: call-center gangs posing as police asking for a LINE video statement and a transfer to check the money, and fake electricity staff installing an app to refund the meter deposit dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "th_police_line_transfer",
+      "typology": "fake_official",
+      "name": "แก๊งคอลเซ็นเตอร์อ้างเป็นตำรวจ ให้โอนเงินมาตรวจสอบ",
+      "name_en": "Fake police taking a LINE statement and a transfer to check the money",
+      "prevalence": "very_high",
+      "lang": "th",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "โอนเงินมาตรวจสอบ",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "แอดไลน์สอบปากคำ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake police or DSI officers say the owner's account is tied to money laundering, take a statement over a LINE video call and ask for a transfer to prove the money is clean.",
+      "legit_en": "Thai police never take statements on LINE or ask for transfers to check money.",
+      "bait_tactics": [
+        "ทำเป็นกังวล ถามช้าๆ ว่าเป็นคดีอะไร ที่สถานีไหน",
+        "บอกว่าหาแว่นสายตาไม่เจอ ขอให้พูดซ้ำทีละคำ"
+      ],
+      "sources": [
+        "สำนักงานตำรวจแห่งชาติ"
+      ]
+    },
+    {
+      "id": "th_pea_meter_refund_app",
+      "typology": "fake_utility",
+      "name": "อ้างการไฟฟ้าคืนเงินประกันมิเตอร์ ให้โหลดแอป",
+      "name_en": "Fake electricity staff refunding the meter deposit through an app",
+      "prevalence": "high",
+      "lang": "th",
+      "context_keywords": [
+        "คืนเงินประกันมิเตอร์"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "กดลิงก์โหลดแอปการไฟฟ้า",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "โหลดแอปการไฟฟ้าจากลิงก์",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ติดตั้งไฟล์ apk",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake PEA or MEA staff offer to refund the meter deposit and ask the owner to install an app from a link, set a code and scan their face.",
+      "legit_en": "The electricity authorities refund deposits through their official channels and never send app links by LINE.",
+      "bait_tactics": [
+        "บอกว่าเน็ตมือถือหมุนติ้วๆ โหลดไม่ขึ้น",
+        "ถามว่ามิเตอร์ไหนและจะได้คืนเท่าไหร่"
+      ],
+      "sources": [
+        "การไฟฟ้าส่วนภูมิภาค"
+      ]
+    }
+  ]
+}

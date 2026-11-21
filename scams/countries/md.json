@@ -1,0 +1,159 @@
+{
+  "name": "Moldova",
+  "name_local": "Moldova",
+  "iso": "md",
+  "calling_code": "+373",
+  "languages": [
+    "ro",
+    "ru"
+  ],
+  "prevalence_note": "Moldovan police warnings 2025-2026: the relative-in-an-accident scheme with cash collected in person, and fake bank staff calling about loans.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "md_ruda_accident",
+      "typology": "fake_relative_money",
+      "name": "Ruda implicată într-un accident",
+      "name_en": "Relative in a car accident, cash collected by a courier",
+      "prevalence": "high",
+      "lang": "ro",
+      "context_keywords": [
+        "a provocat un accident",
+        "împăcare amiabilă",
+        "am avut un accident"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "trimitem un curier după bani",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vine un curier să ia banii",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ca să nu fie arestat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "dă bani unui om",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A fake lawyer, police officer or doctor says a relative caused a serious accident and a courier will come for cash to settle it amicably.",
+      "legit_en": "Police and lawyers never send couriers to collect cash for a relative in trouble.",
+      "bait_tactics": [
+        "Fă-te îngrijorat și întreabă încet ce s-a întâmplat exact și unde",
+        "Spune că trebuie să găsești ochelarii ca să notezi adresa"
+      ],
+      "sources": [
+        "IGP Moldova"
+      ]
+    },
+    {
+      "id": "md_credit_de_anulare",
+      "typology": "fake_bank_account_alert",
+      "name": "Fals angajat al băncii sau al BNM: credit de anulare",
+      "name_en": "Fake bank or central bank staff pushing a cancellation loan",
+      "prevalence": "high",
+      "lang": "ro",
+      "context_keywords": [
+        "banca națională a moldovei"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "facem un credit de anulare",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "mutăm banii într-un cont nou",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "spuneți-mi codul primit",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as bank anti-fraud staff, the central bank or the police says a loan was taken in the owner's name and a cancellation loan or a move to a new account is needed.",
+      "legit_en": "Banks and the central bank never ask customers to take a loan or move their money to another account over the phone.",
+      "bait_tactics": [
+        "Spune că aplicația băncii se actualizează și roagă-l să explice încă o dată, rar",
+        "Întreabă liniștit de ce zi este cererea de credit și pentru ce sumă"
+      ],
+      "sources": [
+        "IGP Moldova"
+      ]
+    },
+    {
+      "id": "md_spoofing_banca_politie",
+      "typology": "fake_official",
+      "name": "Apel falsificat de la bancă sau poliție: cont de siguranță",
+      "name_en": "Spoofed bank or police call about a safe account",
+      "prevalence": "high",
+      "lang": "ro",
+      "context_keywords": [
+        "serviciul de securitate"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "cont de siguranță",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "aplicație de acces la distanță",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank, the police or a cybersecurity agency says a loan was taken in the owner's name and asks for the PIN or CVV, a remote access app or a transfer to a safe account.",
+      "legit_en": "Banks and the police never ask for PIN or CVV codes or transfers to a safe account.",
+      "bait_tactics": [
+        "Spune că aplicația băncii se încarcă și roagă-l să explice încă o dată",
+        "Întreabă de ce zi este creditul"
+      ],
+      "sources": [
+        "Poliția Republicii Moldova"
+      ]
+    },
+    {
+      "id": "md_broker_fals_investitii",
+      "typology": "investment_group_scam",
+      "name": "Broker fals: câștig rapid garantat",
+      "name_en": "Fake broker promising quick guaranteed gains",
+      "prevalence": "high",
+      "lang": "ro",
+      "context_keywords": [
+        "platformă de tranzacționare"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "taxă de retragere",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "câștig rapid garantat",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a broker promises guaranteed quick gains, asks to install AnyDesk and later demands a withdrawal fee to release the profit.",
+      "legit_en": "Licensed brokers never promise guaranteed gains or charge fees to release money.",
+      "bait_tactics": [
+        "Spune că își notează și întreabă cât e prima depunere",
+        "Întreabă cât durează o retragere"
+      ],
+      "sources": [
+        "CNPF"
+      ]
+    }
+  ]
+}

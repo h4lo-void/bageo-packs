@@ -1,0 +1,181 @@
+{
+  "name": "Uruguay",
+  "name_local": "Uruguay",
+  "iso": "uy",
+  "calling_code": "+598",
+  "languages": [
+    "es"
+  ],
+  "prevalence_note": "Uruguay 2025-2026 warnings: cuento del Tio Impersonated Relative or Representative Scam; messaging Verification Code Account Takeover Scam; fake Bank or Digital Wallet Security Officer Scam; fraudulent High-Yield Investment Advisory Call Scam.",
+  "cross_border_note": "Calls in Rioplatense Spanish, often from neighbouring countries.",
+  "scams": [
+    {
+      "id": "uy_cuento_del_tio",
+      "typology": "fake_relative_money",
+      "name": "Estafa telefónica bajo la modalidad del Cuento del Tío",
+      "name_en": "Cuento del Tio Impersonated Relative or Representative Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "cambio urgente de billetes",
+        "pasar a retirar por domicilio",
+        "vencimiento de ahorros"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "entregar dólares o efectivo al contador",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "billetes que salen de circulación",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "preparar los ahorros en un sobre",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as a grandchild, nephew, bank accountant, or lawyer claiming an urgent currency note expiration or unexpected legal fee.",
+      "legit_en": "Banks, public pension agencies, and legal representatives in Argentina and Uruguay never send couriers to private homes to collect cash or exchange banknotes, nor do they request secretive phone arrangements without independent family verification.",
+      "bait_tactics": [
+        "Uy, aguantame un segundito que dejé la llave del cajón arriba y me cuesta subir la escalera rápido.",
+        "Se escucha re bajito por la línea, ¿me repetís cómo se llamaba el contador que decís que viene?",
+        "Esperá que justo están tocando el portero eléctrico del edificio y me fijo quién es."
+      ],
+      "sources": [
+        "https://www.gub.uy/ministerio-interior/comunicacion/noticias/policia-maldonado-aclara-varias-estafas-bajo-modalidad-cuento-del-tio",
+        "https://www.gub.uy/ministerio-interior/comunicacion/noticias/justicia-condena-hombre-estafa-bajo-modalidad-del-cuento-del-tio-colonia"
+      ]
+    },
+    {
+      "id": "uy_messaging_code_theft",
+      "typology": "otp_theft",
+      "name": "Robo de cuenta de mensajería con código de verificación",
+      "name_en": "Messaging Verification Code Account Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "turno de vacunación",
+        "validación de línea móvil"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pasame el código de seis números",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "código que te llegó por mensaje",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirmar el turno con el código",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating public health offices, parcel couriers, or customer support, callers claim they need to confirm an appointment or delivery by asking the recipient to read aloud a six-digit SMS code just sent to their phone, enabling immediate messaging.",
+      "legit_en": "Public agencies, health clinics, postal services, and companies in Argentina and Uruguay never ask citizens to read out SMS verification codes during a phone call, as registration codes belong exclusively to the user.",
+      "bait_tactics": [
+        "Todavía no me entró ningún mensajito de texto, acá en el fondo del departamento casi no agarra señal.",
+        "Pará que no tengo los anteojos de leer a mano y veo toda borrosa la pantalla del celular.",
+        "Disculpá, se me tildó la pantalla mientras hablábamos con el altavoz, dame un segundito."
+      ],
+      "sources": [
+        "https://chequeado.com/el-explicador/estafas-virtuales-que-podes-hacer-si-te-robaron-el-celular-o-te-hackearon-la-cuenta-de-whatsapp/",
+        "https://www.bcra.gob.ar/realizar-un-reclamo-ante-el-banco-central-por-fraude-o-estafa/"
+      ]
+    },
+    {
+      "id": "uy_bank_token_vishing",
+      "typology": "fake_bank_account_alert",
+      "name": "Falso soporte bancario o billetera virtual por operación sospechosa",
+      "name_en": "Fake Bank or Digital Wallet Security Officer Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "transferencia retenida",
+        "préstamo preaprobado por error",
+        "anulación de débito"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "generar clave token",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "descargar aplicación de soporte remoto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "simular una transferencia inversa",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "compartir pantalla",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters claim to call from a bank or digital wallet security desk regarding a suspicious transfer or accidental loan approval.",
+      "legit_en": "Central Bank consumer protection guidelines in Argentina and Uruguay confirm that banks and digital wallets never ask users to share banking passwords, security tokens, phone screens, or outgoing transfers to cancel unauthorized transactions.",
+      "bait_tactics": [
+        "Aguantame un cachito que la app del banco me pide reconocimiento facial y acá está medio oscuro.",
+        "Uy, me está quedando dos por ciento de batería y no encuentro dónde dejé el cargador del teléfono.",
+        "El wifi de casa anda cortándose desde hoy temprano y la ruedita del home banking gira sin abrir."
+      ],
+      "sources": [
+        "https://www.bcra.gob.ar/realizar-un-reclamo-ante-el-banco-central-por-fraude-o-estafa/",
+        "https://chequeado.com/el-explicador/estafas-virtuales-que-podes-hacer-si-te-robaron-el-celular-o-te-hackearon-la-cuenta-de-whatsapp/"
+      ]
+    },
+    {
+      "id": "uy_fake_investment_platform",
+      "typology": "investment_group_scam",
+      "name": "Estafa de falsas plataformas de inversión con rendimientos garantizados",
+      "name_en": "Fraudulent High-Yield Investment Advisory Call Scam",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "rendimiento diario asegurado",
+        "bono de bienvenida",
+        "liberación de ganancias"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "abonar tasa o impuesto para retirar",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ganancias rápidas garantizadas",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transferir a cuenta de tercero",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "After luring users through online advertisements impersonating financial institutions or public figures, fake advisors phone victims promising fast, guaranteed returns.",
+      "legit_en": "Authorized financial intermediaries registered with national securities regulators in Argentina and Uruguay never guarantee fixed high returns via cold calls, nor do they demand separate upfront fee transfers into third-party accounts to release client funds.",
+      "bait_tactics": [
+        "Pará que anoto el número de matrícula para buscarlo en el registro de valores, ¿me lo decís despacio?",
+        "Justo se me estaba hirviendo el agua para el mate en la cocina, dame un segundo que apago la hornalla.",
+        "La computadora del estudio tarda un montón en arrancar, así que todavía no me abre la página."
+      ],
+      "sources": [
+        "https://www.argentina.gob.ar/noticias/advertencia-al-publico-inversor-sobre-nuevas-estafas-virtuales",
+        "https://www.bcra.gob.ar/realizar-un-reclamo-ante-el-banco-central-por-fraude-o-estafa/"
+      ]
+    }
+  ]
+}

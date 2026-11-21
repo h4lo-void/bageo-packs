@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "code": "maghreb",
+  "countries": [
+    "ma",
+    "dz",
+    "tn",
+    "ly"
+  ],
+  "name": {
+    "en": "Maghreb",
+    "native": "المغرب العربي",
+    "zh": "摩洛哥、阿爾及利亞、突尼西亞、利比亞"
+  },
+  "lang": "ar-EG",
+  "stt": "ar-EG",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، هل تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: gardien, concierge or Amana post office",
+    "zh": "包裹交給 gardien、concierge 或 Amana 郵局"
+  },
+  "readback": {
+    "en": "Phone numbers go in pairs",
+    "zh": "電話號碼兩位一組唸"
+  },
+  "fraud": {
+    "en": "\"Bank\" code or card requests, Amana parcel fees, CNSS grants are scams",
+    "zh": "假銀行要簡訊碼或卡號、Amana 包裹補費、CNSS 補助金的都是詐騙"
+  },
+  "habits": {
+    "en": "Callers mix Arabic and French; follow the one they use now.",
+    "zh": "來電者常把阿拉伯語與法語混著說；跟著對方當下用的語言回。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like the bank app down on weak data, no SMS code, the bank card in another jacket.",
+    "zh": "卡在日常狀況，例如網路差銀行 App 打不開、簡訊碼沒到、銀行卡在另一件外套。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: easy, lively lines, first names, a real reaction plus a follow-up (مرحبا بك, c'est clair), varied.",
+        "zh": "像跟好朋友：直接叫名字，輕鬆活潑，句子短而活潑，真反應並多接一句（مرحبا بك、c'est clair），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, warm, gracious without stiffness; after they explain, add a kind remark (الله يحفظك, bien reçu), varied.",
+        "zh": "溫暖隨和，不生硬；對方講完，加一句自己的體貼回應（الله يحفظك、bien reçu），每次換說法。"
+      },
+      "3": {
+        "en": "Balanced and clear, easy with acquaintances. When they finish a point, reply in one full sentence, not a word or two (مفهوم).",
+        "zh": "平衡清楚，對熟人輕鬆。對方講完一件事，用一句完整的話回應，不只回一兩個字（مفهوم）。"
+      },
+      "4": {
+        "en": "Courteous, dignified: حضرتك or vous, measured full sentences; take up their main point first (شكراً على تواصلكم), varied.",
+        "zh": "沉穩有禮，用 حضرتك 或 vous，句子完整；先回應對方重點（شكراً على تواصلكم），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp professional register: full forms of address (أستاذ, Monsieur), concise full sentences; answer each point (الصورة واضحة تماماً), varied.",
+        "zh": "俐落的商務口吻，用完整稱謂（أستاذ、Monsieur），明快但有溫度；每個重點完整回應（الصورة واضحة تماماً），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Close, energetic helper: a quick warm reaction first, then pass it on (أهلاً وسهلاً, pas de souci), varied.",
+        "zh": "活潑親切的助理，親近有活力：先熱絡回應對方，再說會轉告（أهلاً وسهلاً、pas de souci），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, comfortable assistant: acknowledge the details with a short smooth remark, then note them (bien noté), varied.",
+        "zh": "溫和從容的助理，溫和自在：先體貼回應對方處境，再記下留言（bien noté），每次換說法。"
+      },
+      "3": {
+        "en": "Practical, natural assistant in the caller's language: answer their point in one full sentence, never a bare OK, then confirm the relay (très bien).",
+        "zh": "自然幹練的助理，務實自然，用對方的語言：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（très bien）。"
+      },
+      "4": {
+        "en": "Polished secretary with حضرتك or vous: take up why they called in full sentences, then relay it (أشكركم على التوضيح), varied.",
+        "zh": "周到的秘書，用 حضرتك 或 vous，周到：先用完整句子承接來意，再說會轉告（أشكركم على التوضيح），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in courteous business language: answer in full, then confirm the relay (شكراً لتواصلكم الكريم), varied.",
+        "zh": "主管級助理，有禮的商務用語，條理俐落：先完整回應公事重點，再確認轉達（شكراً لتواصلكم الكريم），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "gardien",
+      "concierge",
+      "Amana"
+    ],
+    "bank": [
+      "CIH",
+      "Attijariwafa",
+      "D17"
+    ]
+  },
+  "status": "draft"
+}

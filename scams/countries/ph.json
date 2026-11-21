@@ -1,0 +1,138 @@
+{
+  "name": "Philippines",
+  "name_local": "Pilipinas",
+  "iso": "ph",
+  "calling_code": "+63",
+  "languages": [
+    "en",
+    "tl"
+  ],
+  "prevalence_note": "Philippines 2025-2026 warnings: bank Account and Credit Card OTP Vishing; fake Telecom Regulator and SIM Deactivation Vishing; part-Time Online Task and Advance Deposit Scam.",
+  "cross_border_note": "Calls in English or Tagalog, often with texts sent first.",
+  "scams": [
+    {
+      "id": "ph_bank_otp_vishing",
+      "typology": "otp_theft",
+      "name": "Bank Verification and Credit Card Upgrade OTP Vishing",
+      "name_en": "Bank Account and Credit Card OTP Vishing",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "credit card upgrade",
+        "reward points",
+        "account suspension"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "one-time pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cvv number",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers address the recipient by name while posing as bank fraud officers or credit card agents offering a free limit upgrade, points conversion, or urgent account verification.",
+      "legit_en": "Philippine banks and the central bank remind consumers that official representatives never send clickable text links and never ask customers for passwords, card security numbers, or one-time PINs during phone calls.",
+      "bait_tactics": [
+        "Hold on for a second, the electric fan right beside me is pretty loud so I missed that part, could you repeat which department you're calling from?",
+        "Wait a bit, I left my reading glasses in the bedroom so I can't read any small messages on my phone screen right now.",
+        "Our home internet has been super slow since this morning, could you spell out the reference code again while I look for a notepad?"
+      ],
+      "sources": [
+        "https://pia.gov.ph/news/bsp-warns-media-information-officers-against-phishing-smishing-vishing/",
+        "https://business.inquirer.net/483053/new-scam-alert-fake-ntc-official-extorts-money-via-phone-calls"
+      ]
+    },
+    {
+      "id": "ph_fake_ntc_telecom",
+      "typology": "fake_telecom",
+      "name": "Fake Telecommunications Regulator SIM Suspension Call",
+      "name_en": "Fake Telecom Regulator and SIM Deactivation Vishing",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "telecommunications commission",
+        "number deactivation",
+        "illegal activity"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "settle a clearance fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "deactivate your sim today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transfer to verify",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate telecommunications commission personnel or mobile network compliance staff, alleging that the subscriber's registered SIM card was flagged for irregular activity and faces immediate deactivation.",
+      "legit_en": "The National Telecommunications Commission and Philippine mobile carriers never call individual subscribers to demand money, settle regulatory violations over the phone, or request personal banking details to prevent SIM deactivation.",
+      "bait_tactics": [
+        "Oh really, let me think which ID card was used when this SIM was registered, could you repeat the reference details slowly?",
+        "Give me a moment please, someone is knocking at the front gate for water delivery, go ahead and explain the notice again.",
+        "The signal indoors keeps cutting out every few seconds, could you repeat your office division name one more time?"
+      ],
+      "sources": [
+        "https://www.globe.com.ph/about-us/newsroom/corporate/globe-warns-of-fake-ntc-officials",
+        "https://business.inquirer.net/483053/new-scam-alert-fake-ntc-official-extorts-money-via-phone-calls"
+      ]
+    },
+    {
+      "id": "ph_task_investment_call",
+      "typology": "job_account_mule",
+      "name": "Online Task and Commission Deposit Recruitment Scam",
+      "name_en": "Part-Time Online Task and Advance Deposit Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "part-time task",
+        "daily commission",
+        "merchant order",
+        "online rating"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "top-up deposit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "unlock higher tasks",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send funds first",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers follow up on unsolicited recruitment messages promising easy daily income for completing simple online product-rating or e-commerce tasks.",
+      "legit_en": "Legitimate Philippine employers and licensed e-commerce platforms never cold-call applicants to offer paid clicking tasks or require workers to deposit personal money into external accounts before releasing earned compensation or commissions.",
+      "bait_tactics": [
+        "Wait, I'm not very familiar with how online merchant tasks work, could you walk me through how the organization is registered first?",
+        "Hold on a bit, my phone battery is almost drained and I can't find my charger cable, could you explain the schedule again?",
+        "Sorry, the rain on the roof just got really loud here, could you repeat what kind of work contract comes with that?"
+      ],
+      "sources": [
+        "https://pia.gov.ph/news/pnp-vows-to-intensify-anti-cybercrime-campaign-fight-vs-online-scams/",
+        "https://newsinfo.inquirer.net/2103620/pnp-logs-over-1300-online-selling-scams-in-first-8-months-of-2025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "layer": "af",
+  "status": "draft",
+  "name": {
+    "en": "Afrikaans",
+    "zh": "南非語"
+  },
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo, kan jy my hoor?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Ja, ek is hier en ek hoor jou. Praat maar.",
+    "still_there": "Hallo, is jy nog daar?",
+    "bye": "Totsiens.",
+    "go_ahead": "Seker, sê maar gerus.",
+    "no_thanks": "O, nee dankie.",
+    "think_about_it": "Ek sal bietjie daaroor moet dink.",
+    "wait_one_more": "Wag net 'n bietjie, ek het nog een vraag.",
+    "no_wait": "«net 'n oomblik», «een sekonde», «wag laat ek kyk», «wag asseblief dat ek nagaan», «wag bietjie», «gee my 'n oomblik»",
+    "unavailable": "Die nommer wat u geskakel het, is tans nie beskikbaar nie. Probeer later weer.",
+    "preview": [
+      "Hallo?",
+      "O, 'n pakkie? Seker, los dit maar voor die deur, baie dankie.",
+      "Reg so, totsiens."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "totsiens",
+        "mooi bly",
+        "mooi loop",
+        "praat later",
+        "lekker dag verder",
+        "tot later",
+        "sien jou later"
+      ],
+      "wrapups": [
+        "goed dan",
+        "reg so",
+        "dis al",
+        "ek moet nou gaan"
+      ],
+      "examples": {
+        "ends": [
+          "Baie dankie vir al die inligting, totsiens!",
+          "Goed dan, ek bel jou môreoggend terug, mooi bly.",
+          "Alles is reg, dankie vir jou hulp, praat later!"
+        ],
+        "not_ends": [
+          "Die vorige agent het net totsiens gesê en neergesit, daarom bel ek weer.",
+          "My kollega het nou net mooi bly gesê en uitgestap, so ons kan maar praat.",
+          "Jy het gister gesê ons praat later, daarom skakel ek jou nou."
+        ]
+      }
+    }
+  }
+}

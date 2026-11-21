@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "sw",
+  "status": "draft",
+  "name": {
+    "en": "Swahili",
+    "zh": "斯瓦希里文"
+  },
+  "hello": {
+    "hello": "Halo, habari?",
+    "hello_again": "Halo, unanisikia?"
+  },
+  "common": {
+    "habits": {
+      "en": "Swahili hours start at sunrise: confirm the hour.",
+      "zh": "斯瓦希里語鐘點從日出算，要確認幾點。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: informal address, short lively sentences, a real reaction plus a follow-up line.",
+          "zh": "跟好朋友：用 informal address，句子短而活潑，有真反應並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing: after the caller explains, add a friendly remark of your own.",
+          "zh": "溫暖隨和：對方講完，加一句自己的友善回應。"
+        },
+        "3": {
+          "en": "Everyday tone; when they finish a point, answer with one full sentence of your own, not a word or two.",
+          "zh": "日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Courteous formal address, measured complete sentences; take up their main point first.",
+          "zh": "有禮用 formal address，句子完整穩重，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business formal address and titles, brisk, answering each point in full.",
+          "zh": "公事口吻：formal address 加稱謂，明快，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper on informal address terms: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，用 informal address：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, calm assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary in formal address: take up why they called in complete sentences.",
+          "zh": "低調的秘書，用 formal address：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant in formal formal address: brisk, answering key details in full.",
+          "zh": "主管級助理，正式用 formal address：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ndiyo, nipo hapa, nakusikia. Tafadhali sema.",
+    "still_there": "Halo, bado upo kwenye simu?",
+    "bye": "Kwaheri.",
+    "go_ahead": "Sawa, tafadhali endelea.",
+    "no_thanks": "Hapana, asante.",
+    "think_about_it": "Nahitaji kufikiria kidogo kuhusu hilo.",
+    "wait_one_more": "Subiri kidogo, nina swali moja zaidi.",
+    "no_wait": "«dakika moja», «sekunde moja», «subiri niangalie», «tafadhali subiri nikague», «ngoja kidogo», «subiri kidogo»",
+    "unavailable": "Namba unayopiga haipatikani kwa sasa. Tafadhali jaribu tena baadaye.",
+    "preview": [
+      "Halo, habari?",
+      "Aha, kifurushi? Sawa, tafadhali kiache mlangoni, asante sana.",
+      "Sawa basi, kwaheri."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "kwaheri",
+        "kwaherini",
+        "baadaye",
+        "tutaonana",
+        "tutaonana baadaye",
+        "tutazungumza baadaye",
+        "baki salama"
+      ],
+      "wrapups": [
+        "haya basi",
+        "sawa, asante",
+        "ni hayo tu",
+        "wacha nikuache"
+      ],
+      "examples": {
+        "ends": [
+          "Asante sana kwa maelezo yako, kwaheri!",
+          "Sawa, nitakupigia nikifika nyumbani, baadaye.",
+          "Nimeelewa yote, asante kwa msaada, tutaonana baadaye."
+        ],
+        "not_ends": [
+          "Mhudumu aliyepita alisema kwaheri na kukata simu kabla sijamaliza.",
+          "Tulikubaliana tutazungumza baadaye jana, ndiyo maana nimekupigia sasa.",
+          "Mwenzangu ametoka chumbani na kusema baadaye, endelea tu kunieleza."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "lt",
+  "status": "draft",
+  "name": {
+    "en": "Lithuanian",
+    "zh": "立陶宛文"
+  },
+  "hello": {
+    "hello": "Klausau?",
+    "hello_again": "Alio, ar girdite mane?"
+  },
+  "common": {
+    "habits": {
+      "en": "Say times in 24 hours; read numbers in short groups.",
+      "zh": "時間用 24 小時制；號碼分短組複誦。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: tu, short lively sentences, a real reaction plus a follow-up line.",
+          "zh": "跟好朋友：用 tu，句子短而活潑，有真反應並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing: after the caller explains, add a friendly remark of your own.",
+          "zh": "溫暖隨和：對方講完，加一句自己的友善回應。"
+        },
+        "3": {
+          "en": "Everyday tone; when they finish a point, answer with one full sentence of your own, not a word or two.",
+          "zh": "日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Courteous Jūs, measured complete sentences; take up their main point first.",
+          "zh": "有禮用 Jūs，句子完整穩重，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business Jūs and titles, brisk, answering each point in full.",
+          "zh": "公事口吻：Jūs 加稱謂，明快，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper on tu terms: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，用 tu：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, calm assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary in Jūs: take up why they called in complete sentences.",
+          "zh": "低調的秘書，用 Jūs：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant in formal Jūs: brisk, answering key details in full.",
+          "zh": "主管級助理，正式用 Jūs：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Taip, esu čia, girdžiu jus. Prašau, sakykite.",
+    "still_there": "Ar dar esate linijoje?",
+    "bye": "Viso gero.",
+    "go_ahead": "Žinoma, prašom sakyti.",
+    "no_thanks": "O, ne, ačiū.",
+    "think_about_it": "Man reikia apie tai pagalvoti.",
+    "wait_one_more": "Palaukite sekundę, turiu dar vieną klausimą.",
+    "no_wait": "«vieną akimirką», «sekundėlę», «palauk, patikrinsiu», «palaukite, pažiūrėsiu», «luktelėk», «palaukite minutėlę»",
+    "unavailable": "Numeris, kuriuo skambinate, šiuo metu nepasiekiamas. Bandykite vėliau.",
+    "preview": [
+      "Klausau?",
+      "A, siuntinys? Žinoma, palikite jį prie durų, labai ačiū.",
+      "Gerai, viso gero."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "viso gero",
+        "iki",
+        "viso",
+        "iki malonaus",
+        "iki pasimatymo",
+        "iki greito",
+        "susiskambinsime"
+      ],
+      "wrapups": [
+        "turiu bėgti",
+        "pasikalbėsime vėliau",
+        "ačiū už skambutį",
+        "aš jums perskambinsiu"
+      ],
+      "examples": {
+        "ends": [
+          "Labai ačiū už informaciją, viso gero!",
+          "Gerai, susitiksime rytoj ryte prie įėjimo, iki!",
+          "Dėkoju už išsamų paaiškinimą ir iki malonaus!"
+        ],
+        "not_ends": [
+          "Ankstesnis konsultantas pasakė tik viso gero ir padėjo ragelį.",
+          "Mūsų skyrius dirba iki šeštos valandos, tad kada jums patogiausia?",
+          "Noriu sužinoti iš viso kiek kainuos remontas su visomis detalėmis."
+        ]
+      }
+    }
+  }
+}

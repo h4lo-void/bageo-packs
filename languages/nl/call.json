@@ -1,0 +1,110 @@
+{
+  "schema": 2,
+  "layer": "nl",
+  "status": "draft",
+  "name": {
+    "en": "Dutch",
+    "zh": "荷蘭文"
+  },
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo? Hoort u mij?"
+  },
+  "common": {
+    "habits": {
+      "en": "Je with friends, u with strangers and offices.",
+      "zh": "朋友用 je，陌生人和機關用 u。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: je, relaxed spoken phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 je，口語輕鬆，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: je, or a soft u with strangers; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 je，對陌生人用輕鬆的 u；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: je with friends, u with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 je、陌生人 u；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished u, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 u，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal u, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 u，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: je, relaxed spoken phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 je，口語輕鬆；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: je, or a soft u with strangers; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 je，對陌生人用輕鬆的 u；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: je with friends, u with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 je、陌生人 u；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished u; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 u；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal u; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 u；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ja, ik ben er, ik hoor u. Zegt u het maar.",
+    "still_there": "Hallo? Bent u er nog?",
+    "bye": "Tot ziens.",
+    "go_ahead": "Ja hoor, zegt u het maar.",
+    "no_thanks": "Oh, nee hoor, dank u.",
+    "think_about_it": "Daar moet ik even over nadenken.",
+    "wait_one_more": "Oh wacht, ik heb nog één vraag.",
+    "no_wait": "“momentje”, “een ogenblik”, “ik kijk even”, “wacht even”, “wacht u even”",
+    "unavailable": "Het nummer dat u belt, is nu niet bereikbaar. Probeer het later nog eens.",
+    "preview": [
+      "Hallo?",
+      "Oh, een pakketje? Prima, zet u het maar voor de deur, hartelijk bedankt.",
+      "Oké, tot ziens."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "tot ziens",
+        "doei",
+        "tot spreeks",
+        "dag hoor",
+        "fijne dag nog",
+        "fijne avond"
+      ],
+      "wrapups": [
+        "ik houd u niet langer op",
+        "dan spreken we later",
+        "ik bel u later terug",
+        "tot later"
+      ],
+      "examples": {
+        "ends": [
+          "Bedankt, tot ziens.",
+          "Prima, fijne dag nog.",
+          "Oké, dan spreken we later, doei."
+        ],
+        "not_ends": [
+          "Dag, met Eva van de bank.",
+          "Ik heb een fijne dag nog voor me, maar eerst even over uw abonnement.",
+          "Doei is de naam van onze nieuwe app, mag ik die uitleggen?"
+        ]
+      }
+    }
+  }
+}

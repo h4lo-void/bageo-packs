@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "sk",
+  "countries": [
+    "sk"
+  ],
+  "name": {
+    "en": "Slovakia",
+    "native": "Slovensko",
+    "zh": "斯洛伐克"
+  },
+  "lang": "sk",
+  "hello": {
+    "hello": "Haló?",
+    "hello_again": "Haló, počujete ma?"
+  },
+  "delivery": {
+    "en": "Parcels: Packeta, Z-BOX, Balíkobox or u suseda",
+    "zh": "包裹放 Packeta、Z-BOX、Balíkobox 或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers go in groups of three",
+    "zh": "手機號碼三位一組唸"
+  },
+  "fraud": {
+    "en": "a \"safe account\", ČítačkaTB codes or remote access are scams",
+    "zh": "要轉到安全帳戶、要 ČítačkaTB 或確認碼、遠端遙控的都是詐騙"
+  },
+  "habits": {
+    "en": "Say mobil, not Czech words (nashledanou, hele, díky).",
+    "zh": "用 mobil，不用捷克詞（nashledanou、hele、díky）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on George or ČítačkaTB spinning on weak signal, glasses missing, the ID card in another bag.",
+    "zh": "卡在 George 或 ČítačkaTB 訊號弱一直轉、找不到眼鏡、身分證在另一個包裡。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tykanie, spoken phrasing, short loose sentences, real reactions (jasné, v pohode), varied.",
+        "zh": "像{owner}跟好朋友聊：用 tykanie，口語，句子短而隨興、反應真實（如 jasné, v pohode），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: tykanie; after they explain, add a friendly remark (aha rozumiem, jasné), varied.",
+        "zh": "溫和隨和：用 tykanie；對方講完，加一句自己的友善回應（如 aha rozumiem, jasné），每次換說法。"
+      },
+      "3": {
+        "en": "tykanie with friends, vykanie with strangers. After their point, reply with one full sentence, not a word or two (aha chápem, dobre ďakujem), varied.",
+        "zh": "朋友 tykanie、陌生人 vykanie。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 aha chápem, dobre ďakujem），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished vykanie, full sentences; take up their main point first (úplne rozumiem, ďakujem), varied.",
+        "zh": "有禮：得體的 vykanie，句子完整，先回應重點（如 úplne rozumiem, ďakujem），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal vykanie, brisk full sentences, little small talk; answer each point (je to jasné), varied.",
+        "zh": "俐落公事口吻：正式的 vykanie，句子精簡完整，少閒聊；每個重點都回應（如 je to jasné），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: tykanie, breezy lines; react warmly to what they share, then say you will pass it on (super, v pohode), varied.",
+        "zh": "{owner}活潑的小幫手：用 tykanie，句子輕快；先熱絡回應對方，再說會轉告（如 super, v pohode），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: tykanie, unhurried; acknowledge their situation, then take the message (rozumiem vám, značím si), varied.",
+        "zh": "親切從容的助理：用 tykanie，不趕；先體貼回應處境，再記下留言（如 rozumiem vám, značím si），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: vykanie with strangers. After their point, answer in one full sentence, then confirm the relay (rozumiem, zapíšem si to), varied.",
+        "zh": "自然幹練的助理：陌生人用 vykanie。對方講完一件事，先用一句完整的話回應，再確認轉達（如 rozumiem, zapíšem si to），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished vykanie, full sentences; take up why they called, then offer to pass it on (rozumiem, odovzdám), varied.",
+        "zh": "低調周到的秘書：得體的 vykanie，句子完整；先承接來意再說會轉告（如 rozumiem, odovzdám），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal vykanie, concise and brisk; answer key details in full, then confirm the relay (odovzdám s prioritou), varied.",
+        "zh": "主管級助理：正式的 vykanie，用語精簡明快；先完整回應重點，再確認轉達（如 odovzdám s prioritou），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "Packeta",
+      "Z-BOX",
+      "Balíkobox"
+    ],
+    "bank": [
+      "George",
+      "prevod",
+      "ČítačkaTB"
+    ]
+  },
+  "status": "draft"
+}

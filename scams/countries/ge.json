@@ -1,0 +1,173 @@
+{
+  "name": "Georgia",
+  "name_local": "საქართველო",
+  "iso": "ge",
+  "calling_code": "+995",
+  "languages": [
+    "ka"
+  ],
+  "prevalence_note": "Georgia 2025-2026 warnings: fake Bank Representative Security Procedure and Online Loan Scam; fake National Bank of Georgia Officials Phone and Messaging Scam; fake Investment Brokerage Call-Center and Financial Pyramid Scam; fake Postal Courier Parcel Fee and Card Phishing Scam.",
+  "cross_border_note": "Calls in Georgian or Russian, often over WhatsApp or from abroad.",
+  "scams": [
+    {
+      "id": "ge_fake_bank_security_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "ბანკის უსაფრთხოების სამსახურის სახელით ერთჯერადი კოდისა და სესხის თაღლითობა",
+      "name_en": "Fake Bank Representative Security Procedure and Online Loan Scam",
+      "prevalence": "very_high",
+      "lang": "ka",
+      "context_keywords": [
+        "უსაფრთხოების პროცედურა",
+        "საეჭვო ტრანზაქცია"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ერთჯერადი კოდი",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sms კოდი",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cvv კოდი",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "მომხმარებლის სახელი და პაროლი",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as commercial bank representatives claiming the customer must complete urgent security procedures to stop unauthorized account activity.",
+      "legit_en": "Commercial banks in Georgia never call customers to ask for internet or mobile banking usernames, passwords, full card numbers, CVV codes, or SMS one-time passwords. Customers should always verify alerts through the bank's official hotline or mobile app.",
+      "bait_tactics": [
+        "ერთი წუთით მოითმინეთ, მობილბანკის აპლიკაცია განახლებას მთხოვს და ეკრანი გაჭედილია.",
+        "სათვალე მეორე ოთახში დამრჩა და ტელეფონის ეკრანზე წვრილ ციფრებს ვერ ვარჩევ.",
+        "ტელეფონზე ჯერ არანაირი მოკლე შეტყობინება არ მოსულა, აქ შენობაში მიღება ძალიან სუსტია."
+      ],
+      "sources": [
+        "https://www.association.ge/en/article/Attention/",
+        "https://www.interpressnews.ge/ka/article/882326-sakartvelos-sabanko-asociacia-pinansuri-taglitobis-axali-skema-taglitebi-bankis-saxelit-mokmedeben/"
+      ]
+    },
+    {
+      "id": "ge_nbg_whatsapp_impersonation",
+      "typology": "fake_official",
+      "name": "ეროვნული ბანკის თანამშრომლის სახელით განხორციელებული თაღლითური ზარები",
+      "name_en": "Fake National Bank of Georgia Officials Phone and Messaging Scam",
+      "prevalence": "very_high",
+      "lang": "ka",
+      "context_keywords": [
+        "ზედამხედველობის სამსახური",
+        "ანგარიშის შემოწმება"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ავტორიზაციის მონაცემები",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "გადადით ბმულზე",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "პაროლის გამჟღავნება",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unknown callers contact citizens via phone and messaging platforms like WhatsApp claiming to represent the National Bank of Georgia.",
+      "legit_en": "Under Georgian law, the National Bank of Georgia does not service personal retail accounts or assist individuals in obtaining commercial bank products.",
+      "bait_tactics": [
+        "მოიცადეთ, კალამს მოვძებნი სამზარეულოში, რომ თქვენი დეპარტამენტის სახელი ზუსტად ჩავიწერო.",
+        "ჩემი სახლის ინტერნეტი დღეს სულ ითიშება და არცერთი ბმული ბრაუზერში არ იხსნება.",
+        "ხმა ძალიან წყდება ხაზზე, შეგიძლიათ ნელა გამიმეოროთ განცხადების რეგისტრაციის ნომერი?"
+      ],
+      "sources": [
+        "https://nbg.gov.ge/en/media/news/warning-from-the-national-bank-of-georg-1",
+        "https://1tv.ge/lang/en/news/nbg-warns-consumers-of-swindling-scheme/"
+      ]
+    },
+    {
+      "id": "ge_investment_pyramid_broker",
+      "typology": "investment_group_scam",
+      "name": "ყალბი საბროკერო კომპანიებისა და ფინანსური პირამიდების ზარები",
+      "name_en": "Fake Investment Brokerage Call-Center and Financial Pyramid Scam",
+      "prevalence": "high",
+      "lang": "ka",
+      "context_keywords": [
+        "საბროკერო კომპანია",
+        "საინვესტიციო პლატფორმა",
+        "მაღალი სარგებელი"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "გარანტირებული მოგება",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "სწრაფი გამდიდრება",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ახალი წევრების მოზიდვა",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudulent call-center agents contact citizens using corporate titles containing words like brokerage, financial, or investment to appear regulated.",
+      "legit_en": "Incorporating financial or brokerage terms in a company name does not mean an entity is licensed in Georgia. Citizens should verify supervision status directly on the National Bank of Georgia registry before investing any funds.",
+      "bait_tactics": [
+        "ერთი წამით, კომპიუტერი ახლახან ჩავრთე და სისტემა ძალიან ნელა იტვირთება.",
+        "ასო-ასო მიკარნახეთ კომპანიის დასახელება, რომ ეროვნული ბანკის რეესტრში მოვძებნო.",
+        "ტელეფონის ელემენტი თითქმის დაჯდა, დამტენს შევაერთებ და მითხარით რა პირობაა."
+      ],
+      "sources": [
+        "https://www.businessinsider.ge/Society/national-bank-alerts-public-to-suspected-financial-pyramid-scams-39685?lng=eng",
+        "https://www.radiotavisupleba.ge/a/33689963.html"
+      ]
+    },
+    {
+      "id": "ge_postal_phishing_delivery",
+      "typology": "fake_customs_parcel",
+      "name": "საფოსტო გზავნილის მისამართის დაზუსტებისა და ყალბი გადახდის თაღლითობა",
+      "name_en": "Fake Postal Courier Parcel Fee and Card Phishing Scam",
+      "prevalence": "high",
+      "lang": "ka",
+      "context_keywords": [
+        "საბაჟო გადასახადი"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "შეიყვანეთ ბარათის მონაცემები",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sms კოდი",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers impersonate postal or courier services via calls and text messages, claiming an incoming parcel is stalled due to an invalid street address or small unpaid delivery fee.",
+      "legit_en": "Official Georgian postal and courier operators allow parcel tracking on verified domains using tracking numbers and never ask recipients over phone calls or text links to enter online banking passwords or card CVV codes.",
+      "bait_tactics": [
+        "უკაცრავად, კარზე კურიერმა ან მეზობელმა დარეკა, ერთ წამს გავიხედავ და გზავნილის კოდს ჩავიწერ.",
+        "საფულე მანქანაში დამრჩა და ზეპირად ბარათის ნომერი ნამდვილად არ მახსოვს.",
+        "მობილური ინტერნეტის პაკეტი ამომეწურა და გადახდის გვერდი საერთოდ არ იხსნება."
+      ],
+      "sources": [
+        "https://www.finedu.gov.ge/ge/internettaghlitoba-1",
+        "https://bankofgeorgia.ge/blog/ganatleba/finansuri-ganatleba/fishingis-gavrcelebuli-metodebi-rogor-undadaicva-tavi-internettaglitobisgan/"
+      ]
+    }
+  ]
+}

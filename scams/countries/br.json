@@ -1,0 +1,85 @@
+{
+  "name": "Brazil",
+  "name_local": "Brasil",
+  "iso": "br",
+  "calling_code": "+55",
+  "languages": [
+    "pt"
+  ],
+  "prevalence_note": "Febraban, Anatel & Truecaller/Hiya: Fake bank central 0800 + PIX safe-account / remote-access ('mão fantasma'), wrong-PIX return scam (Golpe do PIX errado), and fake Receita Federal CPF fee scams dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "br_falsa_central_pix",
+      "typology": "fake_bank_account_alert",
+      "name": "Falsa Central Bancária 0800 / Golpe do PIX e Mão Fantasma",
+      "name_en": "Fake Brazilian bank 0800 fraud desk asking PIX to safe account or security-module app",
+      "prevalence": "very_high",
+      "lang": "pt",
+      "context_keywords": [
+        "central de segurança",
+        "compra suspeita",
+        "módulo de segurança",
+        "chave pix"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transferir via pix para conta segura",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "atualizar módulo de segurança",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as bank security desk alerting to an unauthorized purchase/PIX; tells owner to transfer balance to a 'conta segura', scan a QR code, or install a 'módulo de segurança' remote app.",
+      "legit_en": "Real Brazilian bank confirming or blocking a transaction in-app without ever asking for PIX transfers, tokens, or app downloads.",
+      "bait_tactics": [
+        "Fingir preocupação, dizer que o aplicativo do banco está pedindo atualização e demorando para abrir no Wi-Fi",
+        "Perguntar devagar em qual cidade foi a compra suspeita e como funciona o estorno passo a passo"
+      ],
+      "sources": [
+        "Febraban",
+        "Banco Central do Brasil",
+        "Hiya"
+      ]
+    },
+    {
+      "id": "br_pix_errado_receita",
+      "typology": "fake_bank_account_alert",
+      "name": "Golpe do PIX Errado & Falsa Taxa da Receita Federal / CPF",
+      "name_en": "Wrong-PIX return to third-party key scam or fake Receita Federal CPF suspension PIX fee",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "receita federal",
+        "cpf suspenso",
+        "transferência por engano"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pix por engano devolva",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "regularizar cpf via pix",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims they sent a PIX by mistake and pressures owner to send a new PIX to a different third-party key (before triggering MED chargeback), or threatens CPF suspension unless a Receita fee is paid by PIX.",
+      "legit_en": "Accountant or bank discussing normal tax documents without urgent PIX fees or third-party return keys.",
+      "bait_tactics": [
+        "Dizer que está tentando abrir o extrato para conferir o horário exato mas o celular travou",
+        "Pedir para soletrar devagar o banco de origem e explicar como aparece no comprovante"
+      ],
+      "sources": [
+        "Febraban",
+        "Receita Federal"
+      ]
+    }
+  ]
+}

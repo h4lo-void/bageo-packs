@@ -1,0 +1,116 @@
+{
+  "schema": 2,
+  "layer": "uk",
+  "status": "draft",
+  "name": {
+    "en": "Ukrainian",
+    "zh": "烏克蘭文"
+  },
+  "hello": {
+    "hello": "Алло, слухаю вас.",
+    "hello_again": "Алло, ви мене чуєте?"
+  },
+  "common": {
+    "habits": {
+      "en": "Say times in 24 hours; read numbers in short groups.",
+      "zh": "時間用 24 小時制；號碼分短組複誦。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: ти, short lively sentences, a real reaction plus a follow-up line.",
+          "zh": "跟好朋友：用 ти，句子短而活潑，有真反應並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing: after the caller explains, add a friendly remark of your own.",
+          "zh": "溫暖隨和：對方講完，加一句自己的友善回應。"
+        },
+        "3": {
+          "en": "Everyday tone; when they finish a point, answer with one full sentence of your own, not a word or two.",
+          "zh": "日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Courteous Ви, measured complete sentences; take up their main point first.",
+          "zh": "有禮用 Ви，句子完整穩重，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business Ви and titles, brisk, answering each point in full.",
+          "zh": "公事口吻：Ви 加稱謂，明快，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper on ти terms: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，用 ти：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, calm assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary in Ви: take up why they called in complete sentences.",
+          "zh": "低調的秘書，用 Ви：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant in formal Ви: brisk, answering key details in full.",
+          "zh": "主管級助理，正式用 Ви：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Так, я тут, чую вас. Слухаю.",
+    "still_there": "Алло? Ви ще на лінії?",
+    "bye": "До побачення.",
+    "go_ahead": "Так, слухаю вас, кажіть.",
+    "no_thanks": "Ні, дякую, мені не потрібно.",
+    "think_about_it": "Мені треба подумати.",
+    "wait_one_more": "Ой, послухайте, у мене ще одне запитання.",
+    "no_wait": "«хвилинку», «секундочку», «зачекайте», «зараз перевірю», «дайте я перевірю», «почекайте хвилинку»",
+    "unavailable": "Абонент тимчасово недоступний. Передзвоніть, будь ласка, пізніше.",
+    "preview": [
+      "Алло?",
+      "А, посилка? Звісно, залиште біля дверей, дуже дякую.",
+      "Добре, до побачення."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "до побачення",
+        "на все добре",
+        "усього найкращого",
+        "бувай",
+        "бувайте",
+        "па-па",
+        "гарного дня",
+        "гарного вечора",
+        "до зв'язку",
+        "до зустрічі"
+      ],
+      "wrapups": [
+        "добре, тоді все",
+        "не буду вас затримувати",
+        "мушу бігти",
+        "поговоримо пізніше"
+      ],
+      "examples": {
+        "ends": [
+          "Дякую за консультацію, до побачення.",
+          "Питань більше немає, на все добре.",
+          "Домовилися на понеділок, усього найкращого.",
+          "Усе занотував, гарного дня."
+        ],
+        "not_ends": [
+          "Кур'єр побажав гарного дня, але забув дати квитанцію, що робити?",
+          "Не кажи бувай так швидко, я ще хотів запитати про ключі.",
+          "Залишилося пів години до зустрічі з лікарем, тож є час усе обговорити.",
+          "Бажаю вам гарного дня, підкажіть, чи працює сьогодні відділення."
+        ]
+      }
+    }
+  }
+}

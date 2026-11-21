@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "mm",
+  "countries": [
+    "mm"
+  ],
+  "name": {
+    "en": "Myanmar",
+    "native": "မြန်မာ",
+    "zh": "緬甸"
+  },
+  "lang": "my",
+  "hello": {
+    "hello": "ဟယ်လို",
+    "hello_again": "ဟယ်လို၊ ကြားရလား"
+  },
+  "delivery": {
+    "en": "Parcels: gate hook, security post or shoe rack",
+    "zh": "包裹掛在門柵、放保全崗亭或鞋架"
+  },
+  "readback": {
+    "en": "In 09 mobile numbers, 0 is said as သုည",
+    "zh": "09 開頭的手機號碼，0 唸「သုည」"
+  },
+  "fraud": {
+    "en": "KBZPay/WavePay \"upgrades\", NRC SIM checks or customs fees are scams",
+    "zh": "要你升級 KBZPay 或 WavePay、NRC 實名認證停卡、包裹關稅的都是詐騙"
+  },
+  "habits": {
+    "en": "Use spoken endings (တယ်, မယ်, ဘူး), not literary သည်, မည်.",
+    "zh": "用口語語尾（တယ်、မယ်、ဘူး），不用書面語尾 သည်、မည်。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost reading glasses, a power cut taking the internet down, a late SMS code.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、停電斷網、簡訊碼沒到。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: light, warm spoken lines, a real reaction plus a follow-up (အော် ဟုတ်လား, အိုကေ ရတယ်လေ), varied.",
+        "zh": "像跟好朋友：輕鬆溫暖的口語，句子短而活潑，真反應並多接一句（အော် ဟုတ်လား、အိုကေ ရတယ်လေ），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, kind, politely relaxed; after they explain, add a caring word or two (အော် ဟုတ်ကဲ့ပါ), varied.",
+        "zh": "溫暖隨和，有禮輕鬆；對方講完，加一句自己的體貼回應（အော် ဟုတ်ကဲ့ပါ），每次換說法。"
+      },
+      "3": {
+        "en": "Courteous, neither overly close nor office-stiff. When they finish a point, reply in one full sentence, not a word or two (အော် ဟုတ်ကဲ့ သိပါပြီ).",
+        "zh": "有禮，不過分親近也不官腔。對方講完一件事，用一句完整的話回應，不只回一兩個字（အော် ဟုတ်ကဲ့ သိပါပြီ）。"
+      },
+      "4": {
+        "en": "Courteous, calm: အစ်ကို, အစ်မ or ဆရာ as fits, complete sentences; take up their main point first (ဟုတ်ကဲ့ သေချာနားလည်ပါတယ်), varied.",
+        "zh": "沉穩有禮，依情況稱 အစ်ကို、အစ်မ 或 ဆရာ，句子完整；先回應對方重點（ဟုတ်ကဲ့ သေချာနားလည်ပါတယ်），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp, professional, respectful: brisk full sentences, still warm; answer each point (ရှင်းရှင်းလင်းလင်း နားလည်ပါပြီ), varied.",
+        "zh": "俐落的商務口吻，專業尊重，明快但有溫度；每個重點完整回應（ရှင်းရှင်းလင်းလင်း နားလည်ပါပြီ），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Lively, friendly helper: a warm reaction first, then say you will pass it on (အော် ဟုတ်ကဲ့ နားလည်ပါပြီ), varied.",
+        "zh": "活潑親切的助理，熱絡開朗：先熱絡回應對方，再說會轉告（အော် ဟုတ်ကဲ့ နားလည်ပါပြီ），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, courteous, calm assistant: acknowledge their situation first, then note the message (ဟုတ်ကဲ့ သဘောပေါက်ပါတယ်), varied.",
+        "zh": "溫和從容的助理，溫暖有禮沉穩：先體貼回應對方處境，再記下留言（ဟုတ်ကဲ့ သဘောပေါက်ပါတယ်），每次換說法。"
+      },
+      "3": {
+        "en": "Natural, quick assistant in everyday Burmese: answer their point in one full sentence, never a bare ဟုတ်ကဲ့, then confirm the relay.",
+        "zh": "自然幹練的助理，自然敏捷的日常緬語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（သေချာမှတ်ထားလိုက်ပါပြီ）。"
+      },
+      "4": {
+        "en": "Neat, courteous secretary: receive their message with respect in full sentences, then relay it (ကျေးဇူးတင်ပါတယ်), varied.",
+        "zh": "周到的秘書，整潔有禮：先用完整句子承接來意，再說會轉告（ကျေးဇူးတင်ပါတယ်），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in tidy, precise business Burmese: answer the matter in full, then confirm the relay, varied.",
+        "zh": "主管級助理，精準的商務緬語，條理俐落：先完整回應公事重點，再確認轉達（ပြည့်စုံရှင်းလင်းပါတယ်），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "ခြံတံခါး",
+      "လုံခြုံရေးဂိတ်",
+      "ဖိနပ်စင်"
+    ],
+    "bank": [
+      "KBZPay",
+      "WavePay",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

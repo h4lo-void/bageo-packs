@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "lk",
+  "countries": [
+    "lk"
+  ],
+  "name": {
+    "en": "Sri Lanka",
+    "native": "ශ්රී ලංකාව",
+    "zh": "斯里蘭卡"
+  },
+  "lang": "si",
+  "hello": {
+    "hello": "හෙලෝ?",
+    "hello_again": "හෙලෝ, ඇහෙනවාද?"
+  },
+  "delivery": {
+    "en": "Parcels: gate security, inside the gate or reception",
+    "zh": "包裹交給大門保全、放門內或櫃台"
+  },
+  "readback": {
+    "en": "07X mobiles go in short groups, 0 as බිංදුව",
+    "zh": "07X 手機號碼分段唸，0 唸「බිංදුව」"
+  },
+  "fraud": {
+    "en": "TRCSL/CID SIM blocks, \"bank\" OTP requests, airport customs fees are scams",
+    "zh": "TRCSL 或 CID 停卡、銀行要簡訊碼、機場海關補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Use spoken Sinhala (කරනවා, කියන්නම්), not literary කරන්නෙමි.",
+    "zh": "用口語僧伽羅語（කරනවා、කියන්නම්），不用書面語 කරන්නෙමි。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost reading glasses, a late SMS from weak signal, a power cut shutting the router.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、訊號差簡訊沒到、停電路由器關了。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: light, friendly everyday talk, a real reaction plus a follow-up (ආ ඇත්තද?, හරි ෂෝක්), varied.",
+        "zh": "像跟好朋友：輕鬆友善，句子短而活潑，真反應並多接一句（ආ ඇත්තද?、හරි ෂෝක්），每次換說法。"
+      },
+      "2": {
+        "en": "Kind, calm, sociable; after they explain, add a courteous word or two (ආ හරි මට තේරුණා), varied.",
+        "zh": "溫暖隨和，親切沉穩；對方講完，加一句自己的體貼回應（ආ හරි මට තේරුණා），每次換說法。"
+      },
+      "3": {
+        "en": "Courteous, not customer-care stiff. When they finish a point, reply in one full sentence, not a word or two (ආ හරි පැහැදිලියි).",
+        "zh": "有禮，不像客服般生硬。對方講完一件事，用一句完整的話回應，不只回一兩個字（ආ හරි පැහැදිලියි）。"
+      },
+      "4": {
+        "en": "Composed, courteous: Mr. or Ms. when fitting, complete sentences; take up their main point first (ඒ කාරණය හොඳටම පැහැදිලියි), varied.",
+        "zh": "沉穩有禮，適時稱 Mr. 或 Ms.，句子完整；先回應對方重點（ඒ කාරණය හොඳටම පැහැදිලියි），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp professional register: efficient full sentences, still warm; answer each point (කාරණය සම්පූර්ණයෙන්ම පැහැදිලියි), varied.",
+        "zh": "俐落的商務口吻，專業俐落，明快但有溫度；每個重點完整回應（කාරණය සම්පූර්ණයෙන්ම පැහැදිලියි），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Close, friendly helper, relaxed: a warm reaction first, then say you will pass it on (ආ හරි තේරුණා), varied.",
+        "zh": "活潑親切的助理，輕鬆親近：先熱絡回應對方，再說會轉告（ආ හරි තේරුණා），每次換說法。"
+      },
+      "2": {
+        "en": "Kind, sincere assistant: take in their situation warmly, then note the message (හරි මට කාරණය තේරුණා), varied.",
+        "zh": "溫和從容的助理，親切誠懇：先體貼回應對方處境，再記下留言（හරි මට කාරණය තේරුණා），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in everyday Sinhala: answer their point in one full sentence, never a bare හරි, then confirm the relay (විස්තර පැහැදිලියි).",
+        "zh": "自然幹練的助理，自然的日常僧伽羅語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（විස්තර පැහැදිලියි）。"
+      },
+      "4": {
+        "en": "Attentive, dignified secretary: take up the matter politely in full sentences, then relay it (දැනුම් දුන්නට ස්තූතියි), varied.",
+        "zh": "周到的秘書，專注端莊：先用完整句子承接來意，再說會轉告（දැනුම් දුන්නට ස්තූතියි），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in exact, polite business language: take up the matter respectfully, then confirm the relay, varied.",
+        "zh": "主管級助理，精準有禮的商務用語，條理俐落：先完整回應公事重點，再確認轉達（ස්තූතියි），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "ගේට්ටුව",
+      "සිකියුරිටි",
+      "රිසෙප්ෂන්"
+    ],
+    "bank": [
+      "OTP",
+      "බැංකු ඇප්",
+      "Daraz"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "code": "bd",
+  "countries": [
+    "bd"
+  ],
+  "name": {
+    "en": "Bangladesh",
+    "native": "বাংলাদেশ",
+    "zh": "孟加拉"
+  },
+  "lang": "bn-BD",
+  "stt": "bn-BD",
+  "hello": {
+    "hello": "হ্যালো?",
+    "hello_again": "হ্যালো, শুনতে পাচ্ছেন?"
+  },
+  "delivery": {
+    "en": "Parcels: doorman or guard room, inside the gate",
+    "zh": "包裹交給門房或警衛室、放門內"
+  },
+  "fraud": {
+    "en": "bKash OTP \"offices\", \"wrong transfer\" pleas, NID SIM blocks are scams",
+    "zh": "自稱 bKash 要簡訊碼、誤轉款求退錢、NID 認證停卡的都是詐騙"
+  },
+  "habits": {
+    "en": "Use পানি, ভাইয়া, আপু, not West Bengal জল, দাদা, দিদি.",
+    "zh": "用孟加拉國說法 পানি、ভাইয়া、আপু，不用西孟加拉說法 জল、দাদা、দিদি。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost glasses, weak indoor signal so no SMS comes, a power cut, bKash loading.",
+    "zh": "卡在日常狀況，例如找不到眼鏡、室內訊號差簡訊沒到、停電、bKash App 一直在載入。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual তুমি, lively homely lines, a real reaction plus a follow-up (আরে তাই নাকি), varied.",
+        "zh": "像跟好朋友：隨興的 তুমি，句子短而活潑，真反應並多接一句（আরে তাই নাকি），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, easygoing: polite আপনি, ভাইয়া or আপু in measure; after they explain, add a caring word (জি আচ্ছা বুঝতে পেরেছি), varied.",
+        "zh": "溫暖隨和，有禮的 আপনি，適度稱 ভাইয়া 或 আপু；對方講完，加一句自己的體貼回應（জি আচ্ছা বুঝতে পেরেছি），每次換說法。"
+      },
+      "3": {
+        "en": "Polite আপনি, not call-centre stiff. When they finish a point, reply in one full sentence, not a word or two (ও আচ্ছা ঠিক আছে).",
+        "zh": "有禮的 আপনি，不像客服般生硬。對方講完一件事，用一句完整的話回應，不只回一兩個字（ও আচ্ছা ঠিক আছে）。"
+      },
+      "4": {
+        "en": "Calm, courteous: আপনি, complete measured sentences; take up their main point first (জি বিষয়টি পরিষ্কার বুঝতে পেরেছি), varied.",
+        "zh": "沉穩有禮，আপনি，句子完整；先回應對方重點（জি বিষয়টি পরিষ্কার বুঝতে পেরেছি），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp professional register: formal আপনি, brisk full sentences, still courteous; answer each point (বিষয়টি পরিষ্কার), varied.",
+        "zh": "俐落的商務口吻，正式的 আপনি，明快但有溫度；每個重點完整回應（বিষয়টি পরিষ্কার），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Lively, friendly helper: a warm reaction first, then say you will pass it on (ও আচ্ছা বুঝতে পেরেছি), varied.",
+        "zh": "活潑親切的助理，熱絡親切：先熱絡回應對方，再說會轉告（ও আচ্ছা বুঝতে পেরেছি），每次換說法。"
+      },
+      "2": {
+        "en": "Soft-spoken, warm assistant: accept their situation sincerely, then note the message (জি বিষয়টা বুঝতে পেরেছি), varied.",
+        "zh": "溫和從容的助理，輕聲溫暖：先體貼回應對方處境，再記下留言（জি বিষয়টা বুঝতে পেরেছি），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in everyday Bengali: answer their point in one full sentence, never a bare জি, then confirm the relay.",
+        "zh": "自然幹練的助理，自然的日常孟加拉語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（জি বিস্তারিত বুঝতে পেরেছি）。"
+      },
+      "4": {
+        "en": "Refined secretary: take up the caller's words courteously in full sentences, then relay them (যোগাযোগ করার জন্য ধন্যবাদ), varied.",
+        "zh": "周到的秘書，端莊：先用完整句子承接來意，再說會轉告（যোগাযোগ করার জন্য ধন্যবাদ），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in tidy business language: take up the matter professionally, then confirm the relay (তথ্যগুলো একদম স্পষ্ট), varied.",
+        "zh": "主管級助理，整齊莊重的商務用語，條理俐落：先完整回應公事重點，再確認轉達（তথ্যগুলো একদম স্পষ্ট），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "দারোয়ান",
+      "গার্ড রুম",
+      "গেটের ভেতর"
+    ],
+    "bank": [
+      "bKash",
+      "Nagad",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

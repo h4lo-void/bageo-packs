@@ -1,0 +1,144 @@
+{
+  "name": "Slovenia",
+  "name_local": "Slovenija",
+  "iso": "si",
+  "calling_code": "+386",
+  "languages": [
+    "sl"
+  ],
+  "prevalence_note": "Slovenian police and SI-CERT warnings 2025-2026: fake crypto exchanges with 'forgotten bitcoins', fake Microsoft support, fake Pošta Slovenije parcel fees and fake bank security asking for passwords.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "si_kripto_pozabljeni_bitcoini",
+      "typology": "crypto_scam",
+      "name": "Lažna kripto borza: pozabljeni bitcoini",
+      "name_en": "Fake crypto exchange with forgotten bitcoins",
+      "prevalence": "high",
+      "lang": "sl",
+      "context_keywords": [
+        "pozabljeni bitcoini"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dostop do spletne banke",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sken osebnega dokumenta",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a crypto exchange says the owner has forgotten bitcoins to pay out and asks for remote access, online banking access, an ID scan or card details.",
+      "legit_en": "Real exchanges never call about forgotten coins and never ask for online banking access or remote control.",
+      "bait_tactics": [
+        "Reči, da mora poiskati očala, in vprašati, koliko naj bi bilo tega denarja",
+        "Vprašati, kdaj naj bi bil račun odprt"
+      ],
+      "sources": [
+        "Policija",
+        "SI-CERT"
+      ]
+    },
+    {
+      "id": "si_microsoft_podpora",
+      "typology": "tech_support_remote",
+      "name": "Lažna Microsoftova tehnična pomoč",
+      "name_en": "Fake Microsoft technical support",
+      "prevalence": "high",
+      "lang": "sl",
+      "context_keywords": [
+        "microsoftova tehnična pomoč"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "potekla licenca",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "okužba računalnika",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from Microsoft support says the computer is infected or the licence has expired and asks to install TeamViewer or similar and give card details.",
+      "legit_en": "Microsoft never calls users about viruses or licences.",
+      "bait_tactics": [
+        "Reči, da se računalnik zelo počasi prižiga, in vprašati, kaj naj bi videl na zaslonu",
+        "Vprašati, katero sporočilo so prejeli"
+      ],
+      "sources": [
+        "SI-CERT"
+      ]
+    },
+    {
+      "id": "si_posta_paket",
+      "typology": "fake_customs_parcel",
+      "name": "Lažna Pošta Slovenije: doplačilo poštnine",
+      "name_en": "Fake post office parcel fee",
+      "prevalence": "high",
+      "lang": "sl",
+      "context_keywords": [
+        "pošta slovenije"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "varnostna koda cvv",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "doplačilo poštnine",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the post says a parcel waits for a small extra postage and asks for card details and the CVV through a payment link.",
+      "legit_en": "Pošta Slovenije never asks for card details or CVV codes by phone or through links in texts.",
+      "bait_tactics": [
+        "Reči, da išče očala, in vprašati, od kod je paket",
+        "Vprašati, koliko točno stane"
+      ],
+      "sources": [
+        "Pošta Slovenije",
+        "SI-CERT"
+      ]
+    },
+    {
+      "id": "si_banka_varnostna_sluzba",
+      "typology": "fake_bank_account_alert",
+      "name": "Lažna varnostna služba banke: geslo in enkratna koda",
+      "name_en": "Fake bank security asking for password and code",
+      "prevalence": "high",
+      "lang": "sl",
+      "context_keywords": [
+        "varnostna služba banke"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "geslo za spletno banko",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "potrditev transakcije",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service reports a suspicious payment or a blocked account and asks for the online banking password, the SMS code or to confirm a transaction.",
+      "legit_en": "Banks never ask for online banking passwords or SMS codes by phone.",
+      "bait_tactics": [
+        "Reči, da se aplikacija banke posodablja, in prositi, naj še enkrat razloži",
+        "Vprašati, za kateri znesek gre"
+      ],
+      "sources": [
+        "Banka Slovenije",
+        "SI-CERT"
+      ]
+    }
+  ]
+}

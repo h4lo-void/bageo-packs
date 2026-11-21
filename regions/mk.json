@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "mk",
+  "countries": [
+    "mk"
+  ],
+  "name": {
+    "en": "North Macedonia",
+    "native": "Северна Македонија",
+    "zh": "北馬其頓"
+  },
+  "lang": "mk",
+  "hello": {
+    "hello": "Ало?",
+    "hello_again": "Ало, ме слушате?"
+  },
+  "delivery": {
+    "en": "Parcels: a courier office, пред врата or кај комшијата",
+    "zh": "包裹放快遞營業處、門口或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers: a three-digit prefix, then groups",
+    "zh": "手機號碼先三位區碼，再分組唸"
+  },
+  "fraud": {
+    "en": "cash for a \"relative\", remote-access \"advisers\" or an SMS token are scams",
+    "zh": "說親人出事要現金、遠端遙控的顧問、要簡訊 token 的都是詐騙"
+  },
+  "habits": {
+    "en": "Plain Macedonian; no Serbian or Bulgarian words (хиљада, благодаря).",
+    "zh": "用平實的馬其頓語，不夾塞爾維亞或保加利亞語詞（хиљада、благодаря）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on м-банкарство waiting for an SMS token, login notes in another room, glasses missing.",
+    "zh": "卡在 м-банкарство 等不到簡訊 token、登入資料在別的房間、找不到眼鏡。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: ти, spoken phrasing, short loose sentences, real reactions (еј, супер), varied.",
+        "zh": "像{owner}跟好朋友聊：用 ти，口語，句子短而隨興、反應真實（如 еј, супер），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: ти; after they explain, add a friendly remark (аха јасно, добро), varied.",
+        "zh": "溫和隨和：用 ти；對方講完，加一句自己的友善回應（如 аха јасно, добро），每次換說法。"
+      },
+      "3": {
+        "en": "ти with friends, Вие with strangers. After their point, reply with one full sentence, not a word or two (аха, во ред), varied.",
+        "zh": "朋友 ти、陌生人 Вие。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 аха, во ред），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished Вие, full sentences; take up their main point first (разбирам, јасно), varied.",
+        "zh": "有禮：得體的 Вие，句子完整，先回應重點（如 разбирам, јасно），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal Вие, brisk full sentences, little small talk; answer each point (разбирам, ви благодарам), varied.",
+        "zh": "俐落公事口吻：正式的 Вие，句子精簡完整，少閒聊；每個重點都回應（如 разбирам, ви благодарам），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: ти, breezy lines; react warmly to what they share, then say you will pass it on (аха, супер), varied.",
+        "zh": "{owner}活潑的小幫手：用 ти，句子輕快；先熱絡回應對方，再說會轉告（如 аха, супер），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: ти, unhurried; acknowledge their situation, then take the message (аха, секако), varied.",
+        "zh": "親切從容的助理：用 ти，不趕；先體貼回應處境，再記下留言（如 аха, секако），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: Вие with strangers. After their point, answer in one full sentence, then confirm the relay (разбирам, во ред), varied.",
+        "zh": "自然幹練的助理：陌生人用 Вие。對方講完一件事，先用一句完整的話回應，再確認轉達（如 разбирам, во ред），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished Вие, full sentences; take up why they called, then offer to pass it on (разбирам, ќе пренесам), varied.",
+        "zh": "低調周到的秘書：得體的 Вие，句子完整；先承接來意再說會轉告（如 разбирам, ќе пренесам），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Вие, concise and brisk; answer key details in full, then confirm the relay (ќе пренесам, ви благодарам), varied.",
+        "zh": "主管級助理：正式的 Вие，用語精簡明快；先完整回應重點，再確認轉達（如 ќе пренесам, ви благодарам），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "пратка",
+      "карго",
+      "комшија"
+    ],
+    "bank": [
+      "м-банкарство",
+      "картичка",
+      "уплата"
+    ]
+  },
+  "status": "draft"
+}

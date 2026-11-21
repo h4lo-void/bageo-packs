@@ -1,0 +1,180 @@
+{
+  "name": "Nepal",
+  "name_local": "नेपाल",
+  "iso": "np",
+  "calling_code": "+977",
+  "languages": [
+    "ne"
+  ],
+  "prevalence_note": "Nepal 2025-2026 warnings: digital Wallet and Mobile Banking KYC OTP Scam; overseas Gift Parcel and Customs Fee Scam; fake Lucky Draw and Cash Prize Advance-Fee Scam; fake Online Job Fee and Money-Mule Account Scam.",
+  "cross_border_note": "Calls in Nepali or Hindi, sometimes from Indian or foreign numbers.",
+  "scams": [
+    {
+      "id": "np_wallet_bank_kyc_otp",
+      "typology": "otp_theft",
+      "name": "मोबाइल बैंकिङ र डिजिटल वालेट केवाईसी ओटीपी ठगी",
+      "name_en": "Digital Wallet and Mobile Banking KYC OTP Scam",
+      "prevalence": "very_high",
+      "lang": "ne",
+      "context_keywords": [
+        "केवाईसी अपडेट",
+        "खाता रोक्का",
+        "भेरिफिकेसन कोड"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ओटीपी कोड",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "पिन नम्बर",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "क्युआर कोड स्क्यान",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as a digital wallet service center or commercial bank officer, the caller warns that the user's account will be blocked within hours due to an expired KYC profile or suspicious login.",
+      "legit_en": "Nepal Rastra Bank and the Nepal Police Cyber Bureau emphasize that licensed banks and digital wallet providers never call customers to ask for OTPs, PINs, or account recovery codes.",
+      "bait_tactics": [
+        "हजुर एकछिन है, मेरो अर्को फोनमा म्यासेज आउँछ तर त्यो फोन अर्कै कोठामा चार्जमा छ।",
+        "यहाँ नेटवर्क एकदमै कमजोर छ हजुर, म्यासेज आउनै ढिला भइरहेको छ।",
+        "पख्नुस् न, मैले चस्मा नलगाई मोबाइलको अक्षर नै राम्ररी देखिनँ, चस्मा खोज्दैछु।"
+      ],
+      "sources": [
+        "https://cyberbureau.nepalpolice.gov.np/media/filer_public/a4/23/a42313cf-5545-4a6c-a5f9-7313fbbb7fd9/financila_fraud_application_2083_06_14.pdf",
+        "https://www.gadgetbytenepal.com/spam-calls-in-nepal/",
+        "https://www.nrb.org.np/contents/uploads/2024/11/FIU-Nepal-Strategic-Analysis-Report-2024.pdf.pdf"
+      ]
+    },
+    {
+      "id": "np_customs_gift_parcel",
+      "typology": "fake_customs_parcel",
+      "name": "विदेशबाट आएको उपहार र भन्सार पार्सल ठगी",
+      "name_en": "Overseas Gift Parcel and Customs Fee Scam",
+      "prevalence": "very_high",
+      "lang": "ne",
+      "context_keywords": [
+        "विदेशबाट पार्सल",
+        "भन्सार शुल्क",
+        "उपहार बक्स",
+        "क्लियरेन्स चार्ज"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "भन्सार कर पठाउनुहोस्",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "तुरुन्तै रकम जम्मा",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "पार्सल जफत हुन्छ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to be a customs clearing agent or courier officer holding a valuable parcel containing electronics, jewelry, or foreign currency sent from abroad.",
+      "legit_en": "Nepal Customs offices and licensed courier operators issue official tracked notices and collect statutory duties exclusively through government revenue counters or authorized banking channels, never demanding urgent transfers into personal mobile wallets.",
+      "bait_tactics": [
+        "ए हो र हजुर? विदेशमा त मेरो आफन्त कोही हुनुहुन्न जस्तो लाग्छ, कुन देशबाट आएको भन्नुभयो?",
+        "मेरो मोबाइल बैंकिङ एप हिजोदेखि लगइन नै भइरहेको छैन, म भरै घरको मान्छे आएपछि हेर्न लगाउँछु।",
+        "एकैछिन रोक्नुस् है, ढोकामा कोही बोलाइरहेको जस्तो छ, आवाज राम्ररी बुझिएन।"
+      ],
+      "sources": [
+        "https://www.nrb.org.np/contents/uploads/2024/11/FIU-Nepal-Strategic-Analysis-Report-2024.pdf.pdf",
+        "https://newbusinessage.com/news/41287/students-top-cyber-fraud-cases-nrb-report/",
+        "https://cyberbureau.nepalpolice.gov.np/media/filer_public/a4/23/a42313cf-5545-4a6c-a5f9-7313fbbb7fd9/financila_fraud_application_2083_06_14.pdf"
+      ]
+    },
+    {
+      "id": "np_lottery_prize_fee",
+      "typology": "prize_lottery",
+      "name": "चिट्ठा र नगद पुरस्कार परेको प्रलोभन ठगी",
+      "name_en": "Fake Lucky Draw and Cash Prize Advance-Fee Scam",
+      "prevalence": "high",
+      "lang": "ne",
+      "context_keywords": [
+        "लक्की ड्र",
+        "लाखौंको चिट्ठा",
+        "पुरस्कार विजेता"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "प्रोसेसिङ शुल्क",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "अग्रिम कर जम्मा",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ओटीपी",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Calling from an international or unknown number on cellular lines or chat apps, the scammer congratulates the user on winning millions of rupees in a telecom promotion or television quiz draw they never entered.",
+      "legit_en": "Nepali telecom operators and Nepal Police advise that genuine promotional draws never contact winners via foreign numbers or require upfront tax or processing fee transfers to claim prizes, and never request secret PINs or OTP codes.",
+      "bait_tactics": [
+        "साँच्चै हो र हजुर? मैले त कुनै चिट्ठामा भाग लिएको यादै छैन, म कापी कलम खोजेर टिप्छु है।",
+        "कलम नै भेटिएन हजुर, एकछिन पख्नुस् म दराजमा हेर्दैछु।",
+        "तपाईंको आवाज अलि काटिएर आयो, बिस्तारै फेरि सुरुदेखि भनिदिनुस् न।"
+      ],
+      "sources": [
+        "https://www.ncell.com.np/en/individual/fraud-prevention",
+        "https://www.gadgetbytenepal.com/spam-calls-in-nepal/"
+      ]
+    },
+    {
+      "id": "np_job_mule_commission",
+      "typology": "job_account_mule",
+      "name": "अनलाइन रोजगारी दर्ता शुल्क र खाता भाडा ठगी",
+      "name_en": "Fake Online Job Fee and Money-Mule Account Scam",
+      "prevalence": "high",
+      "lang": "ne",
+      "context_keywords": [
+        "घरमै बसेर काम",
+        "कमिशन आम्दानी",
+        "बैंक खाता प्रयोग"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "दर्ता शुल्क पठाउनुस्",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "खाता भाडामा",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "कमिशन आउँछ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Targeting young adults and job seekers, the caller promises high-paying remote tasks, overseas employment placement, or easy commissions for receiving and forwarding funds through the user's bank or wallet account.",
+      "legit_en": "Nepal Rastra Bank's Financial Information Unit and Nepal Police warn that legitimate employers do not charge upfront registration fees over phone calls, and lending personal bank or wallet accounts for third-party commissions exposes account holders to.",
+      "bait_tactics": [
+        "हजुर म अहिले बाहिर हिँडिरहेको छु, घर पुगेर परिवारसँग सल्लाह नगरी केही बुझिँदैन।",
+        "मोबाइलमा ब्याट्री दुई प्रतिशत मात्र बाँकी छ, जतिबेला पनि निभ्न सक्छ है।",
+        "यहाँ गाडीको हर्नले केही सुनिएन हजुर, एकछिन पख्नुस् म शान्त ठाउँतिर सर्छु।"
+      ],
+      "sources": [
+        "https://www.nrb.org.np/contents/uploads/2024/11/FIU-Nepal-Strategic-Analysis-Report-2024.pdf.pdf",
+        "https://skillshikshya.com/blogs/best-skills-to-learn-dashain-tihar-festival-holidays"
+      ]
+    }
+  ]
+}

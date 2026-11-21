@@ -1,0 +1,115 @@
+{
+  "name": "Denmark",
+  "name_local": "Danmark",
+  "iso": "dk",
+  "calling_code": "+45",
+  "languages": [
+    "da"
+  ],
+  "prevalence_note": "Politiet and bank warnings 2025-2026: fake bank security asking for MitID approvals or a move to a security account, fake police or tax staff asking for card details, and fake technical support.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "dk_falsk_bank_mitid",
+      "typology": "fake_bank_account_alert",
+      "name": "Falsk bankrådgiver: godkend med MitID",
+      "name_en": "Fake bank adviser asking for a MitID approval",
+      "prevalence": "very_high",
+      "lang": "da",
+      "context_keywords": [
+        "sikkerhedsafdelingen"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "godkend med mitid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sikkerhedskonto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "udlever din kode",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department reports a suspicious transfer and asks the owner to approve in MitID, give a code or move money to a security account.",
+      "legit_en": "Danish banks never ask customers to approve MitID requests they did not start or to move money to a security account.",
+      "bait_tactics": [
+        "Sige at telefonen genstarter og bede dem forklare det en gang til, roligt",
+        "Spørge hvilken dag overførslen var og hvor stort beløbet var"
+      ],
+      "sources": [
+        "Politiet",
+        "Finans Danmark"
+      ]
+    },
+    {
+      "id": "dk_falsk_politi_skat",
+      "typology": "fake_official",
+      "name": "Falsk politi eller Skattestyrelsen: identitetsmisbrug",
+      "name_en": "Fake police or tax office about identity misuse",
+      "prevalence": "high",
+      "lang": "da",
+      "context_keywords": [
+        "identitetsmisbrug"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dine kortoplysninger",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "mitid for politiet",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the police or the tax agency speaks of identity misuse or an investigation and asks for card details, the CPR number and a MitID approval.",
+      "legit_en": "The police and Skattestyrelsen never ask for card details or MitID approvals by phone.",
+      "bait_tactics": [
+        "Sige at man lige skal finde brillerne og bede dem gentage det langsomt",
+        "Spørge hvornår misbruget skulle være sket"
+      ],
+      "sources": [
+        "Politiet"
+      ]
+    },
+    {
+      "id": "dk_falsk_teknisk_support",
+      "typology": "tech_support_remote",
+      "name": "Falsk teknisk support: overtage kontrollen",
+      "name_en": "Fake tech support taking control of the computer",
+      "prevalence": "medium",
+      "lang": "da",
+      "context_keywords": [
+        "teknisk afdeling"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "overtage kontrollen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "hent et program",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a technical department says the computer has a security problem and asks to download a program so they can take control, then to log in to online banking.",
+      "legit_en": "Software companies never call about security problems and never ask to control a computer.",
+      "bait_tactics": [
+        "Sige at computeren starter meget langsomt og spørge hvad der skal stå på skærmen",
+        "Spørge hvilken fejlbesked de har fået"
+      ],
+      "sources": [
+        "Politiet"
+      ]
+    }
+  ]
+}

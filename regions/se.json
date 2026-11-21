@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "se",
+  "countries": [
+    "se"
+  ],
+  "name": {
+    "en": "Sweden",
+    "native": "Sverige",
+    "zh": "瑞典"
+  },
+  "lang": "sv",
+  "hello": {
+    "hello": "Hallå?",
+    "hello_again": "Hallå, hör du mig?"
+  },
+  "delivery": {
+    "en": "Parcels: an ombud, a paketskåp or outside the door",
+    "zh": "包裹放 ombud 取貨點、paketskåp 或門外"
+  },
+  "readback": {
+    "en": "Mobile numbers go in digit pairs after the prefix",
+    "zh": "手機號碼區碼後兩位一組唸"
+  },
+  "fraud": {
+    "en": "a \"safe account\", BankID or Swish approvals or \"Hej mamma\" texts are scams",
+    "zh": "轉到安全帳戶、確認 BankID 或 Swish、「Hej mamma」訊息的都是詐騙"
+  },
+  "habits": {
+    "en": "On a stranger or hidden number, do not open with the owner's name.",
+    "zh": "陌生或未顯示號碼來電，開場不報主人名字。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the BankID app asking for an update or QR scan, a dead bankdosa battery, Swish spinning.",
+    "zh": "卡在 BankID App 要更新或掃 QR、bankdosa 沒電、Swish 一直轉。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: du, chatty spoken phrasing, short loose sentences, real reactions (ja men precis, vad fint), varied.",
+        "zh": "像{owner}跟好朋友聊：用 du，口語聊天感，句子短而隨興、反應真實（如 ja men precis, vad fint），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: du; after they explain, add a friendly remark (absolut, toppen), varied.",
+        "zh": "溫和隨和：用 du；對方講完，加一句自己的友善回應（如 absolut, toppen），每次換說法。"
+      },
+      "3": {
+        "en": "du with everyone, plain and steady. After their point, reply with one full sentence, not a word or two (okej då, jag är med), varied.",
+        "zh": "對所有人都用 du，平實穩重。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 okej då, jag är med），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: du, but polished, full sentences; take up their main point first (jag förstår, utmärkt), varied.",
+        "zh": "有禮：用 du 但得體，句子完整，先回應重點（如 jag förstår, utmärkt），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: du, businesslike, brisk full sentences, little small talk; answer each point (noterat, tack för informationen), varied.",
+        "zh": "俐落公事口吻：用 du，務實，句子精簡完整，少閒聊；每個重點都回應（如 noterat, tack för informationen），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: du, breezy lines; react warmly to what they share, then say you will pass it on (ja men absolut, ingen fara), varied.",
+        "zh": "{owner}活潑的小幫手：用 du，句子輕快；先熱絡回應對方，再說會轉告（如 ja men absolut, ingen fara），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: du, unhurried; acknowledge their situation, then take the message (visst, jag tar emot det), varied.",
+        "zh": "親切從容的助理：用 du，不趕；先體貼回應處境，再記下留言（如 visst, jag tar emot det），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: du for all. After their point, answer in one full sentence, then confirm the relay (just det, jag för det vidare), varied.",
+        "zh": "自然幹練的助理：對所有人用 du。對方講完一件事，先用一句完整的話回應，再確認轉達（如 just det, jag för det vidare），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: du, but polished, full sentences; take up why they called, then offer to pass it on (jag noterar det, utmärkt), varied.",
+        "zh": "低調周到的秘書：用 du 但得體，句子完整；先承接來意再說會轉告（如 jag noterar det, utmärkt），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: du, businesslike, concise and brisk; answer key details in full, then confirm the relay (uppfattat, jag framför det), varied.",
+        "zh": "主管級助理：用 du，務實，用語精簡明快；先完整回應重點，再確認轉達（如 uppfattat, jag framför det），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "ombud",
+      "paketskåp",
+      "utanför dörren"
+    ],
+    "bank": [
+      "BankID",
+      "Swish",
+      "bankdosa"
+    ]
+  },
+  "status": "draft"
+}

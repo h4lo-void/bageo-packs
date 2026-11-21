@@ -1,0 +1,116 @@
+{
+  "name": "Czechia",
+  "name_local": "Česko",
+  "iso": "cz",
+  "calling_code": "+420",
+  "languages": [
+    "cs"
+  ],
+  "prevalence_note": "Police ČR and ČNB warnings 2025-2026: fake bankers and police moving savings to a 'safe account' or a courier, crypto investment calls with remote access, and fake Citizen Portal fines.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "cz_falesny_banker_bezpecny_ucet",
+      "typology": "fake_bank_account_alert",
+      "name": "Falešný bankéř nebo policista: převod na bezpečný účet",
+      "name_en": "Fake banker or police moving money to a safe account",
+      "prevalence": "very_high",
+      "lang": "cs",
+      "context_keywords": [
+        "bezpečnostní oddělení"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bezpečný účet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "napadený účet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "předat kurýrovi",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department, the central bank or the police says the account was attacked and asks to move money to a safe account, take a pre-approved loan or hand cash to a courier.",
+      "legit_en": "Banks and the police never ask customers to move money to another account, take a loan or hand cash to a courier to protect it.",
+      "bait_tactics": [
+        "Říct, že bankovní aplikace se ještě načítá, a poprosit, ať to vysvětlí ještě jednou pomalu",
+        "Zeptat se, která platba to byla a kterého dne"
+      ],
+      "sources": [
+        "Policie ČR",
+        "ČNB"
+      ]
+    },
+    {
+      "id": "cz_krypto_investice",
+      "typology": "crypto_scam",
+      "name": "Falešný investiční poradce: kryptoměny a vzdálená správa",
+      "name_en": "Fake investment adviser with crypto and remote access",
+      "prevalence": "high",
+      "lang": "cs",
+      "context_keywords": [
+        "investiční poradce"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kryptoměnové peněženky",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "výplatu zisku",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as an investment adviser promises crypto profits, asks to send money to a crypto wallet or install a remote-control program, then demands fees to pay out profits.",
+      "legit_en": "Licensed advisers never ask clients to install remote-control programs or pay fees before paying out profits.",
+      "bait_tactics": [
+        "Říct, že si to musí zapsat, a zeptat se, kolik se platí na začátku",
+        "Zeptat se, jak dlouho trvá výplata"
+      ],
+      "sources": [
+        "ČNB",
+        "Policie ČR"
+      ]
+    },
+    {
+      "id": "cz_portal_obcana_pokuta",
+      "typology": "fake_official",
+      "name": "Falešný Portál občana: nezaplacená pokuta",
+      "name_en": "Fake Citizen Portal unpaid fine",
+      "prevalence": "medium",
+      "lang": "cs",
+      "context_keywords": [
+        "portál občana"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "nezaplacenou pokutu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "potvrdit bankovní identitu",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text says there is an unpaid fine or enforcement and asks to log in through a link or confirm the bank identity.",
+      "legit_en": "Czech authorities never ask anyone to confirm their bank identity through a link from a call or text.",
+      "bait_tactics": [
+        "Říct, že hledá brýle, a zeptat se, za jaký přestupek ta pokuta je",
+        "Zeptat se, kterého dne se to stalo"
+      ],
+      "sources": [
+        "Policie ČR"
+      ]
+    }
+  ]
+}

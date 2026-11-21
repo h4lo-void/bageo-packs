@@ -1,0 +1,172 @@
+{
+  "name": "Belarus",
+  "name_local": "Беларусь",
+  "iso": "by",
+  "calling_code": "+375",
+  "languages": [
+    "ru",
+    "be"
+  ],
+  "prevalence_note": "Belarus 2025-2026 warnings: fake Law Enforcement Cash Declaration and Courier Handover; fake Utility, Intercom, or Telecom Contract Renewal Call; fake Carrier or Bank APK Remote Access and NFC Card Theft; fake Investment Broker and Deepfake-Promoted Platform Scam.",
+  "cross_border_note": "Many of these calls come from abroad in Russian.",
+  "scams": [
+    {
+      "id": "by_cash_declaration_official",
+      "typology": "fake_official",
+      "name": "Ложное «декларирование» наличных и «безопасный счёт» от лжесиловиков",
+      "name_en": "Fake Law Enforcement Cash Declaration and Courier Handover",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "декларирование средств",
+        "обыск квартиры",
+        "безопасный счет"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "задекларировать наличные",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "передать деньги курьеру",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "угроза обыска",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers in messengers pose as investigators, state security, or central bank officers, often on video calls wearing uniforms.",
+      "legit_en": "Belarusian law enforcement agencies and the National Bank never call citizens via messengers, conduct video interrogations, demand cash declarations, ask people to take out bank loans, or send couriers to collect household savings for inspection.",
+      "bait_tactics": [
+        "Секундочку, я сейчас возьму ручку на кухне, чтобы аккуратно записать номер вашего отдела.",
+        "Связь в квартире очень плохая и звук пропадает, повторите, пожалуйста, медленнее фамилию следователя.",
+        "У меня домашний интернет сегодня отключается каждые две минуты, поэтому видеосвязь не включается."
+      ],
+      "sources": [
+        "https://mintrud.gov.by/printv/ru/news-ru/view/telefonnye-moshenniki-ne-dremljut-kak-rabotaet-ix-sxema-11810-2026/",
+        "https://grodno.mvd.gov.by/ru/news/9827"
+      ]
+    },
+    {
+      "id": "by_utility_domofon_contract",
+      "typology": "fake_utility",
+      "name": "Звонок от коммунальных служб, домофона или связи о замене и договоре",
+      "name_en": "Fake Utility, Intercom, or Telecom Contract Renewal Call",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "ключи от домофона",
+        "срочное переоформление договора"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "код из смс",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "продиктуйте идентификационный номер",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers phone landlines or messengers posing as water, electricity, intercom maintenance, clinic, or telecom staff.",
+      "legit_en": "Public utilities, telecom operators, polyclinics, and intercom companies in Belarus never renew contracts by requesting passport identification numbers or SMS codes over unsolicited calls;",
+      "bait_tactics": [
+        "Подождите минутку, паспорт лежит где-то в дальнем шкафу с документами, сразу и не найду.",
+        "Мне пока никакое СМС не приходило, тут на первом этаже мобильная сеть еле ловит.",
+        "А сколько ключей по нашей квартире у вас записано? Сейчас поищу старую квитанцию в прихожей."
+      ],
+      "sources": [
+        "https://mintrud.gov.by/printv/ru/news-ru/view/telefonnye-moshenniki-ne-dremljut-kak-rabotaet-ix-sxema-11810-2026/",
+        "https://belta.by/regions/view/minchaninu-pozvonil-sledovatel-i-ugrozhal-vozbudit-ugolovnoe-delo-esli-tot-ne-oformit-kredity-734214-2025/"
+      ]
+    },
+    {
+      "id": "by_fake_apk_nfc_banking",
+      "typology": "tech_support_remote",
+      "name": "Установка фейкового приложения банка или оператора и NFC-клонирование",
+      "name_en": "Fake Carrier or Bank APK Remote Access and NFC Card Theft",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "приложить карточку",
+        "удаленный доступ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "установите обновление приложения из мессенджера",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "приложите карточку к смартфону",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "пароль для удаленного подключения",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as bank or telecom technical staff, scammers urge the victim to update their mobile app by installing an APK file sent via messenger, granting full remote screen control, or ask the victim to tap a bank card to an NFC smartphone and enter the PIN.",
+      "legit_en": "Belarusian banks and mobile operators publish software updates exclusively through official app channels and never send installation files in messengers, request remote-access passwords, or instruct cardholders to tap cards against smartphones and enter.",
+      "bait_tactics": [
+        "Ой, у меня телефон пишет, что память заполнена и файл вообще не хочет скачиваться.",
+        "На этом старом смартфоне нет функции бесконтактной оплаты, он карточку совсем не видит.",
+        "Подождите, сейчас поставлю телефон на зарядку, а то экран потемнел и ничего не нажимается."
+      ],
+      "sources": [
+        "https://gosstandart.gov.by/mvd-belarusi-%E2%80%93-ob-aktualnykh-sposobakh-soversheniya-kiberprestupleniy",
+        "https://tech.onliner.by/2025/10/29/novaya-sxema-obmana-minchanin-lishilsya-45-000-rublej-cherez-funkciyu-nfc-v-smartfone",
+        "https://neg.by/novosti/otkrytj/ot-zvonkov-iz-banka-do-nfc-moshennichestva-kakie-skhemy-ispolzuyut-aferisty-v-belarusi-v-2026-godu/"
+      ]
+    },
+    {
+      "id": "by_fake_broker_investment",
+      "typology": "investment_group_scam",
+      "name": "Звонки лжеброкеров и кураторов фальшивых инвестиционных платформ",
+      "name_en": "Fake Investment Broker and Deepfake-Promoted Platform Scam",
+      "prevalence": "high",
+      "lang": "ru",
+      "context_keywords": [
+        "персональный брокер",
+        "комиссия за вывод",
+        "пассивный доход"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "оформите кредит для увеличения вклада",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "налог или комиссию для вывода",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "гарантированный высокий доход",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "After luring victims with AI-generated celebrity or official endorsement videos, self-styled curators and brokers call repeatedly promising guaranteed passive income on fake investment or crypto platforms.",
+      "legit_en": "Licensed financial intermediaries in Belarus are registered with official regulators, never guarantee risk-free high returns by cold call, never urge clients to take personal loans for trading, and never demand separate advance transfers to unlock withdrawals.",
+      "bait_tactics": [
+        "Подождите секунду, компьютер загружает обновления системы и браузер пока не открывается.",
+        "Продиктуйте по буквам точное юридическое название компании, чтобы я проверил его в реестре.",
+        "Я сейчас без очков не вижу реквизиты на экране, перезвоните, когда закончится обед."
+      ],
+      "sources": [
+        "https://gosstandart.gov.by/mvd-belarusi-%E2%80%93-ob-aktualnykh-sposobakh-soversheniya-kiberprestupleniy",
+        "https://neg.by/novosti/otkrytj/ot-zvonkov-iz-banka-do-nfc-moshennichestva-kakie-skhemy-ispolzuyut-aferisty-v-belarusi-v-2026-godu/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "name": "Syria",
+  "name_local": "سوريا",
+  "iso": "sy",
+  "calling_code": "+963",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "Syria 2025-2026 warnings: bank and Salary Card Verification Scam; messaging Account Verification Code Hijacking; fake Traffic Fine and Customs Fee Impersonation; fake Trading Platform and Daily Task Investment Scam.",
+  "cross_border_note": "Calls in Arabic, sometimes from neighbouring countries.",
+  "scams": [
+    {
+      "id": "sy_bank_salary_card_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال صفة المصارف ومكاتب بطاقات الرواتب والمحافظ الإلكترونية",
+      "name_en": "Bank and Salary Card Verification Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تحديث البيانات المصرفية",
+        "بطاقة الراتب",
+        "تجميد الحساب"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرقام البطاقة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to represent a central bank, commercial bank, electronic wallet provider, or state salary card office.",
+      "legit_en": "Central banks in the region do not manage retail accounts or call citizens directly. Licensed banks and electronic wallet operators never ask customers to read out full card numbers, PINs, or SMS verification codes over the phone to unlock accounts.",
+      "bait_tactics": [
+        "لحظة من فضلك، الرسائل النصية تتأخر بالوصول إلى هاتفي بسبب ضعف التغطية داخل المبنى الآن.",
+        "البطاقة المصرفية موجودة في حقيبتي بالغرفة الأخرى، انتظر قليلاً ريثما أبحث عن نظارتي أيضاً.",
+        "التطبيق المالي على هاتفي يطلب تحديثاً بطيئاً ولا يفتح الشاشة حالياً لأن الإنترنت متقطع."
+      ],
+      "sources": [
+        "https://www.cbj.gov.jo/Ar/newsdetails/%D8%A7%D8%B9%D9%84%D8%A7%D9%86_%D8%B5%D8%A7%D8%AF%D8%B1_%D8%B9%D9%86_%D8%A7%D9%84%D8%A8%D9%86%D9%83_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A_-__%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1_%D8%B5%D8%A7%D8%AF%D8%B1_%D8%B9%D9%86_%D8%A7%D9%84%D8%A8%D9%86%D9%83_%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A_%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A",
+        "https://daraj.media/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA-%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D8%AA%D8%B3%D8%B1%D9%82-%D8%B1%D9%88%D8%A7%D8%AA%D8%A8-%D8%A7%D9%84%D9%85%D9%88/"
+      ]
+    },
+    {
+      "id": "sy_messaging_otp_hijack",
+      "typology": "otp_theft",
+      "name": "سرقة حسابات المراسلة الفورية عبر طلب رمز التفعيل",
+      "name_en": "Messaging Account Verification Code Hijacking",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "رمز التفعيل",
+        "دعوة انضمام للمجموعة",
+        "استرجاع الحساب"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "الرمز المؤلف من ستة أرقام",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "وصلك رمز بالخطأ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "اقرأ لي الكود",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims they accidentally sent an SMS registration code to your phone number, or invites you into a community or event group requiring verification.",
+      "legit_en": "Legitimate group invitations and messaging platforms never require sharing an SMS login code with another person. Any six-digit registration code arriving on your phone authorizes full account takeover on a new device and must remain strictly private.",
+      "bait_tactics": [
+        "مهلاً، شاشة الهاتف أغلقت أثناء المكالمة ولا تفتح قائمة الرسائل النصية في هذه اللحظة.",
+        "لم تصلني أي رسالة جديدة حتى الآن، الشبكة ضعيفة جداً هنا عندما ينقطع التيار.",
+        "وصلتني رسالتان قديمتان منذ يوم أمس فقط، في أي دقيقة بالضبط أرسلت الرمز؟"
+      ],
+      "sources": [
+        "https://isf.gov.lb/ar/news/%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D9%82-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8/",
+        "https://isf.gov.lb/ar/news/%D9%8A%D8%B3%D8%B1%D9%82%D9%88%D9%86-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8-%D9%88%D9%8A%D8%A8%D8%AA%D8%B2%D9%91%D9%88%D9%86-%D8%A7%D9%84%D8%B6%D8%AD%D8%A7%D9%8A/"
+      ]
+    },
+    {
+      "id": "sy_fake_traffic_customs_fine",
+      "typology": "fake_official",
+      "name": "احتيال مخالفات السير والرسوم الجمركية الوهمية",
+      "name_en": "Fake Traffic Fine and Customs Fee Impersonation",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "مخالفة سرعة",
+        "تسديد الغرامة",
+        "سحب رخصة القيادة"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ادفع الغرامة عبر الرابط",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أدخل بيانات البطاقة للتسديد",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "حسم خمسين بالمئة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller or follow-up voice prompt impersonates internal security forces, traffic authorities, or customs offices regarding an unpaid radar speeding ticket or held postal shipment.",
+      "legit_en": "Official traffic penalties and customs duties in Levant countries are processed strictly through authorized postal offices, licensed payment counters, or verified government portals.",
+      "bait_tactics": [
+        "انتظر قليلاً ريثما أحضر أوراق المركبة من الدرج لأطابق رقم اللوحة وتاريخ المخالفة.",
+        "المتصفح على هاتفي بطيء جداً ولا يفتح أي رابط خارجي بسبب نفاد حزمة الإنترنت.",
+        "عفواً، الصوت يتقطع بسبب الضوضاء في الشارع، هل يمكنك قراءة رقم الإشعار ببطء لأكتبه؟"
+      ],
+      "sources": [
+        "https://isf.gov.lb/ar/news/%D9%82%D9%88%D9%89-%D8%A7%D9%84%D8%A3%D9%85%D9%86-%D8%AA%D8%AC%D8%AF%D9%91%D8%AF-%D8%A7%D9%84%D8%AA%D9%91%D8%AD%D8%B0%D9%8A%D8%B1-%D9%85%D9%86-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D8%AD%D8%AA%D9%8A/",
+        "https://petra.gov.jo/stats/index.php/ar/news/%D8%A7%D9%84%D8%AC%D9%85%D8%A7%D8%B1%D9%83-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D9%88%D8%B1%D9%88%D8%A7%D8%A8%D8%B7-%D9%88%D9%87%D9%85%D9%8A%D8%A9-%D9%87%D8%AF%D9%81%D9%87%D8%A7-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A"
+      ]
+    },
+    {
+      "id": "sy_fake_trading_task_investment",
+      "typology": "investment_group_scam",
+      "name": "منصات التداول الوهمية والمهام اليومية المربحة",
+      "name_en": "Fake Trading Platform and Daily Task Investment Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "منصة تداول",
+        "أرباح يومية مضمونة",
+        "تنفيذ مهام إلكترونية"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ربح مضمون بدون خسارة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "إيداع مبلغ لفك تجميد الأرباح",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تحميل التطبيق عبر الرابط",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller pitches an online trading platform or app-based daily task program promising rapid, guaranteed returns from a small initial deposit.",
+      "legit_en": "Regulated financial brokerages in Levant jurisdictions must hold verifiable central bank or securities commission licenses, never guarantee fixed daily profits, and distribute mobile apps exclusively through official app stores without demanding advance.",
+      "bait_tactics": [
+        "مساحة التخزين في هاتفي ممتلئة تماماً ولا يسمح بتنزيل أي تطبيق جديد حالياً.",
+        "أمهلني دقيقة لأبحث عن قلم وأكتب رقم ترخيص الشركة للتحقق منه في السجل الرسمي.",
+        "بطارية الهاتف أوشكت على النفاد ولا أجد الشاحن في المكتب الآن."
+      ],
+      "sources": [
+        "https://isf.gov.lb/ar/news/%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D8%B9%D8%A7%D8%AC%D9%84-%D8%A3%D8%BA%D9%84%D9%82%D9%88%D8%A7-%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D8%AA%D9%83%D9%85-%D9%85%D8%B9-%D9%87%D8%B0%D9%87-%D8%A7%D9%84%D8%B4/",
+        "https://www.hala.jo/2026/11/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86-13-%D8%A3%D9%84%D9%81-%D9%82%D8%B6/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Luxembourg",
+  "name_local": "Luxembourg / Lëtzebuerg",
+  "iso": "lu",
+  "calling_code": "+352",
+  "languages": [
+    "fr",
+    "de"
+  ],
+  "prevalence_note": "Police grand-ducale warnings 2025-2026: fake bank security staff using LuxTrust approvals, messages and calls from a relative with a new number, and fake technical support.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "lu_luxtrust_securite",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux service de sécurité : validation LuxTrust",
+      "name_en": "Fake bank security asking for a LuxTrust approval",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "luxtrust"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confirmer dans l'application luxtrust",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "remettre votre carte bancaire",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service reports a suspicious transaction and asks the owner to approve a request in the LuxTrust app or to hand the bank card to a courier.",
+      "legit_en": "Banks in Luxembourg never ask customers to approve a LuxTrust request they did not start or to hand over their card.",
+      "bait_tactics": [
+        "Dire que l'application LuxTrust se met à jour et demander de réexpliquer lentement",
+        "Demander de quelle transaction il s'agit et à quelle date"
+      ],
+      "sources": [
+        "Police grand-ducale",
+        "LuxTrust"
+      ]
+    },
+    {
+      "id": "lu_proche_nouveau_numero",
+      "typology": "fake_relative_money",
+      "name": "Faux proche avec un nouveau numéro qui demande un virement",
+      "name_en": "Fake relative with a new number asking for an urgent transfer",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "n'en parle à personne",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "fais-moi un virement",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says they are a son or daughter with a broken phone and a new number, needs an urgent transfer for a bill and asks the owner to tell nobody.",
+      "legit_en": "Relatives who change numbers can be reached on the old one or met in person; a request for an urgent secret transfer is the warning sign.",
+      "bait_tactics": [
+        "Dire que les lunettes sont restées dans la voiture et demander de répéter le montant",
+        "Demander tranquillement de quelle facture il s'agit"
+      ],
+      "sources": [
+        "Police grand-ducale"
+      ]
+    },
+    {
+      "id": "lu_support_technique",
+      "typology": "tech_support_remote",
+      "name": "Faux support technique : logiciel de téléassistance",
+      "name_en": "Fake technical support installing remote-assistance software",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "ordinateur infecté"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "logiciel de téléassistance",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "prendre la main sur votre ordinateur",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a software or security company says the computer is infected or the licence has expired and asks to install remote-assistance software.",
+      "legit_en": "Software companies do not call people about viruses or licences and never ask to control their computer.",
+      "bait_tactics": [
+        "Dire que l'ordinateur démarre très lentement et demander ce qu'il faut voir à l'écran",
+        "Demander quel message d'erreur ils ont reçu"
+      ],
+      "sources": [
+        "Police grand-ducale"
+      ]
+    }
+  ]
+}

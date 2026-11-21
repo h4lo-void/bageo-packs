@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "az",
+  "countries": [
+    "az"
+  ],
+  "name": {
+    "en": "Azerbaijan",
+    "native": "Azərbaycan",
+    "zh": "亞塞拜然"
+  },
+  "lang": "az",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, məni eşidirsiniz?"
+  },
+  "delivery": {
+    "en": "Parcels: the mühafizə, the komendant or the door",
+    "zh": "包裹交給 mühafizə、komendant 或放門口"
+  },
+  "readback": {
+    "en": "beşin yarısı means 4:30; mobiles go 3-3-2-2",
+    "zh": "beşin yarısı 是 4:30；手機號碼照 3-3-2-2 唸"
+  },
+  "fraud": {
+    "en": "a \"bank\" asking for SMS or CVV codes or a \"police\" safe account are scams",
+    "zh": "假銀行要簡訊碼或 CVV、假警察安全帳戶的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Azerbaijani words, not Türkiye's (efendim, abi, kapıcı).",
+    "zh": "用亞塞拜然說法，不用土耳其詞（efendim、abi、kapıcı）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the Birbank app spinning on weak data, the SMS code not arriving.",
+    "zh": "卡在當地日常狀況，例如 Birbank App 在弱網路一直轉、簡訊碼沒到。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a close friend: sən, loose chatty flow, a real reaction plus a follow-up thought (əla), varied.",
+        "zh": "跟好朋友聊：用 sən，節奏隨興愛聊，有真反應並多接一句（如 əla），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing: sən with friends, Siz with others; after they explain, add a friendly remark (başa düşdüm), varied.",
+        "zh": "溫暖隨和：對朋友用 sən，其他人用 Siz；對方講完，加一句友善回應（如 başa düşdüm），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday: sən with friends, Siz on errands. When they finish a point, reply with one full sentence, not a word or two (aydındır).",
+        "zh": "日常口氣：對朋友用 sən，辦事用 Siz。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 aydındır，每次換）。"
+      },
+      "4": {
+        "en": "Courteous: Siz, bəy/xanım when it fits, measured complete sentences; take up their main point first (tam aydındır), varied.",
+        "zh": "有禮：用 Siz，適合時加 bəy/xanım，句子完整穩重，先回應對方重點（如 tam aydındır），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register: Siz and bəy/xanım, concise, little small talk; answer each point in full (təşəkkür edirəm), varied.",
+        "zh": "俐落的主管口吻：用 Siz 與 bəy/xanım，精簡，少閒聊；每個重點完整回應（如 təşəkkür edirəm），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly and informal helper: a warm reaction before saying you will pass it on (lap yaxşı), varied.",
+        "zh": "活潑的小幫手，親切隨意：先熱絡回應，再說會轉告（如 lap yaxşı），每次換。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: acknowledge their situation kindly, then take the message (çox sağ olun ki dediniz), varied.",
+        "zh": "親切從容的助理：先體貼回應對方的處境，再記下留言（如 çox sağ olun ki dediniz），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet secretary: Siz and bəy/xanım, complete sentences; take up why they called first (məlumat üçün təşəkkür edirəm), varied.",
+        "zh": "低調的秘書：用 Siz 與 bəy/xanım，句子完整；先承接來意（如 məlumat üçün təşəkkür edirəm），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Siz, brisk; answer key details in full, then confirm the relay (təfərrüatları qeyd etdim), varied.",
+        "zh": "主管級助理：正式用 Siz，明快；先完整回應重點，再確認轉達（如 təfərrüatları qeyd etdim），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "mühafizə",
+      "komendant",
+      "Kargomat"
+    ],
+    "bank": [
+      "Birbank",
+      "Kapital Bank",
+      "SMS kod"
+    ]
+  },
+  "status": "draft"
+}

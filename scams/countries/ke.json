@@ -1,0 +1,102 @@
+{
+  "name": "Kenya",
+  "name_local": "Kenya",
+  "iso": "ke",
+  "calling_code": "+254",
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "prevalence_note": "Kenya 2025-2026 warnings: east Africa Fake Mobile Money Credit & Reversal Scam; false Medical Emergency & Acquaintance Impersonation Scam.",
+  "cross_border_note": "Calls in Swahili, Amharic, French or English, often from local mobile numbers.",
+  "scams": [
+    {
+      "id": "ke_mobile_money_reversal",
+      "typology": "fake_bank_account_alert",
+      "name": "Utapeli wa kutuma pesa kimakosa na kuomba urudishe (East Africa Mobile Money)",
+      "name_en": "East Africa Fake Mobile Money Credit & Reversal Scam",
+      "prevalence": "very_high",
+      "lang": "sw",
+      "context_keywords": [
+        "nimekosea namba",
+        "muamala wa simu",
+        "tuma kwenye namba hii"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "rudisha pesa sasa hivi",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ile fedha tuma kwenye namba hii",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "namba ya siri",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "usitumie huduma rasmi ya kurudisha",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers send a forged confirmation SMS from an ordinary mobile number or push a reversible transfer, then call in panic claiming they sent hospital or school money to the wrong recipient.",
+      "legit_en": "Legitimate accidental mobile money transfers in Kenya and Tanzania are reversed exclusively through the mobile operator's official reversal short code or customer care line, never by initiating a fresh manual transfer to a stranger's number or entering a.",
+      "bait_tactics": [
+        "Subiri kidogo, menyu ya huduma ya simu inakata kila nikijaribu kuangalia salio kwa sababu mtandao uko chini.",
+        "Sijapata ujumbe wowote mpya kwenye laini hii, ngoja nitafute miwani yangu ya kusomea chumbani.",
+        "Simu yangu ndogo yenye laini ya malipo imeishiwa chaji kabisa, subiri niweke kwenye umeme kwanza."
+      ],
+      "sources": [
+        "https://www.safaricom.co.ke/main-mpesa/m-pesa-for-you/getting-started/m-pesa-reversal",
+        "https://paybillke.com/guides/mpesa-scams-2026",
+        "https://www.tcra.go.tz/sw/news/tcra-yazindua-kampeni-kutokomeza-utapeli-mtandaoni"
+      ]
+    },
+    {
+      "id": "ke_false_emergency_impersonation",
+      "typology": "fake_relative_money",
+      "name": "False Medical Emergency & Stranded Relative Mobile Money Scam",
+      "name_en": "False Medical Emergency & Acquaintance Impersonation Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "police custody",
+        "send mobile money urgently",
+        "stranded"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money to this temporary number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "do not call anyone else right now",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urgent medical deposit",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call from an unfamiliar number or use a hijacked account to pose as a relative, colleague, or hospital staff member claiming a loved one had a sudden road accident or arrest.",
+      "legit_en": "Genuine hospitals and public authorities follow standard admission and family notification procedures without demanding instant mobile money transfers to private numbers.",
+      "bait_tactics": [
+        "Hold on, the line has terrible static—which clinic reception desk did you say you're calling from?",
+        "Wait a minute, my mobile wallet balance is nearly zero right now and the nearest agent shop is closed.",
+        "Let me find a pen to write down the doctor's name first because my screen keeps freezing."
+      ],
+      "sources": [
+        "https://www.safaricom.co.ke/fraud-awareness/scams-extortion",
+        "https://ministryofcyberaffairs.com/news/how-to-report-cybercrime-and-online-fraud-in-ethiopia-2026-b0115afa-4db3-4742-9600-c2ed60a80dd0"
+      ]
+    }
+  ]
+}

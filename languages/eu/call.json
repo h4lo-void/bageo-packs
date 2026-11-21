@@ -1,0 +1,63 @@
+{
+  "schema": 2,
+  "layer": "eu",
+  "status": "draft",
+  "name": {
+    "en": "Basque",
+    "zh": "巴斯克語"
+  },
+  "hello": {
+    "hello": "Bai, esan?",
+    "hello_again": "Kaixo? Entzuten didazu?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Bai, entzuten dizut, esan.",
+    "still_there": "Hor zaude oraindik?",
+    "bye": "Gero arte.",
+    "go_ahead": "Bai, aurrera, esan.",
+    "no_thanks": "Ez, eskerrik asko.",
+    "think_about_it": "Pixka bat pentsatu behar dut.",
+    "wait_one_more": "Itxaron une bat, beste galdera bat daukat.",
+    "no_wait": "«une bat», «momentu bat», «itxaron, begiratuko dut», «itxaron pixka bat», «itxaron mesedez, egiaztatuko dut»",
+    "unavailable": "Markatu duzun zenbakia ez dago erabilgarri une honetan. Saiatu berriro geroago.",
+    "preview": [
+      "Bai, esan?",
+      "A, pakete bat? Ados, utzi ate aurrean mesedez, mila esker.",
+      "Ondo izan, gero arte!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "gero arte",
+        "laster arte",
+        "ondo izan",
+        "ongi izan",
+        "adio",
+        "bihar arte",
+        "ikusi arte",
+        "hurrengo arte",
+        "ondo ibili"
+      ],
+      "wrapups": [
+        "utzi behar zaitut",
+        "eskegi behar dut",
+        "hitz egingo dugu",
+        "hori zen dena",
+        "joan behar dut"
+      ],
+      "examples": {
+        "ends": [
+          "Mila esker guztiagatik, gero arte!",
+          "Ederto, eskerrik asko eta laster arte!",
+          "Ados, bihar hitz egingo dugu, ondo izan."
+        ],
+        "not_ends": [
+          "Goizeko bilera gero arte atzeratu dute, beraz orain hitz egin dezakegu lasai.",
+          "Mezuan gero arte idatzi zidan, baina oraindik ez dit dokumentua bidali.",
+          "Gutunean laster arte jarri zuen arren, azaldu iezadazu orain zer gertatu zen."
+        ]
+      }
+    }
+  }
+}

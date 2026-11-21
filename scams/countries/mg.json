@@ -1,0 +1,56 @@
+{
+  "name": "Madagascar",
+  "name_local": "Madagasikara",
+  "iso": "mg",
+  "calling_code": "+261",
+  "languages": [
+    "fr",
+    "mg"
+  ],
+  "prevalence_note": "Madagascar 2025-2026 warnings: francophone Mobile Wallet Suspension & Unlock-Fee Scam.",
+  "cross_border_note": "Calls in Swahili, Amharic, French or English, often from local mobile numbers.",
+  "scams": [
+    {
+      "id": "mg_francophone_wallet_deactivation",
+      "typology": "fake_telecom",
+      "name": "Arnaque à la désactivation du portefeuille mobile et frais de déblocage",
+      "name_en": "Francophone Mobile Wallet Suspension & Unlock-Fee Scam",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "portefeuille mobile",
+        "frais de déblocage",
+        "désactivation du compte"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquez votre code secret",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "payer les frais de déblocage",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "compte bloqué dans vingt-quatre heures",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as mobile operator or mobile wallet support in Madagascar and Haiti, warning that the recipient's wallet will be deactivated within twenty-four hours or announcing a blocked transfer.",
+      "legit_en": "Mobile operators and licensed mobile wallet providers in Madagascar and Haiti never ask subscribers to share a secret PIN over the phone, enter wallet credentials on external web links, or send peer-to-peer advance fees to unlock accounts or incoming.",
+      "bait_tactics": [
+        "Attendez une petite minute, le réseau coupe énormément ici et le menu du téléphone ne s'affiche pas.",
+        "La carte SIM de mon portefeuille mobile est dans mon autre téléphone qui est déchargé dans la chambre.",
+        "Je n'ai pas mes lunettes sous la main pour lire le message, répétez-moi lentement le numéro de dossier."
+      ],
+      "sources": [
+        "https://www.parotsa.com/articles/arnaques-mobile-money-madagascar",
+        "https://www.orange.mg/fr/conseils-aux-clients.html",
+        "https://moncashdfs.com/fr/TCs"
+      ]
+    }
+  ]
+}

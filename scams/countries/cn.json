@@ -1,0 +1,146 @@
+{
+  "name": "China",
+  "name_local": "中国大陆",
+  "iso": "cn",
+  "calling_code": "+86",
+  "languages": [
+    "zh-CN"
+  ],
+  "prevalence_note": "National Anti-Fraud Center reports impersonation of police/prosecutors with screen sharing, fake JD/Alipay credit-record cancellation, FaceTime/meeting app scams, Xianyu buyer escrow verification, and express-parcel double-refund scams.",
+  "cross_border_note": "+86 or +86-170/171 virtual-carrier calls reaching overseas Chinese speakers frequently impersonate embassies, customs, or courier desks.",
+  "scams": [
+    {
+      "id": "cn_gongjianfa_screenshare",
+      "typology": "fake_official",
+      "name": "冒充公检法／反诈中心（资金清查・屏幕共享）",
+      "name_en": "Fake police, prosecutor or anti-fraud center demanding screen share or safe account",
+      "prevalence": "very_high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "公安局",
+        "检察院",
+        "协查通报",
+        "反诈中心",
+        "涉案账户"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "资金清查",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "腾讯会议屏幕共享",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "安全监管账户",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims to be police or anti-fraud officer alleging identity theft or money laundering; demands Tencent Meeting / Zoom screen sharing, secrecy, or transfer to a safe inspection account.",
+      "legit_en": "Real community officers only invite residents to the local police station in person and never verify funds or share screens.",
+      "bait_tactics": [
+        "装作很慌张想配合，说手机太卡打不开视频会议软件，请他一步一步慢点说流程",
+        "假装去卧室翻找银行卡和老花镜，故意报错卡号位数请他帮忙核对"
+      ],
+      "sources": [
+        "国家反诈中心",
+        "公安部刑侦局"
+      ]
+    },
+    {
+      "id": "cn_credit_million_insurance",
+      "typology": "credit_record_scam",
+      "name": "冒充京东白条・征信修复・百万保障自动扣费取消",
+      "name_en": "Fake credit-record repair or WeChat/Douyin 'Million Insurance' auto-debit cancellation",
+      "prevalence": "very_high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "京东金融",
+        "百万保障",
+        "校园贷",
+        "个人征信",
+        "自动扣费",
+        "百万医疗保险",
+        "facetime客服"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "关闭百万保障",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "修复征信记录",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "清空贷款额度验资",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "关闭百万医疗保险",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "刷流水提额",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims WeChat/Alipay/Douyin 'Million Insurance' or old student loan will deduct monthly fees or ruin PBOC credit unless cancelled via screen sharing and transfer.",
+      "legit_en": "Real payment platforms never call to cancel free account protection or ask users to borrow and transfer money to clear credit.",
+      "bait_tactics": [
+        "装作怕扣钱很着急，慢慢问这个保障是什么时候开通的、每个月具体几号扣多少钱",
+        "假装手机网络信号断断续续、找不到设置入口，让他从头一步步讲清楚菜单名字",
+        "假装听不清是哪家保险公司，让他把保单编号和投保日期慢慢念一遍"
+      ],
+      "sources": [
+        "国家反诈中心",
+        "人民银行征信中心提示",
+        "国家反诈中心 2025-2026"
+      ]
+    },
+    {
+      "id": "cn_xianyu_express_claim",
+      "typology": "marketplace_escrow_scam",
+      "name": "闲鱼卖家认证／快递丢件双倍理赔诈骗",
+      "name_en": "Xianyu seller deposit verification or lost-parcel double-compensation scam",
+      "prevalence": "high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "闲鱼客服",
+        "快递理赔",
+        "包裹丢失",
+        "消保金"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "双倍理赔通道",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "缴纳消保金解冻",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims a parcel was lost/damaged and offers double payout via third-party link/screen share, or claims Xianyu buyer funds are frozen until seller pays deposit.",
+      "legit_en": "Ordinary couriers delivering a parcel at the door or settling claims strictly inside the official shopping app.",
+      "bait_tactics": [
+        "装作记不清买了哪件东西，让他核对快递单号和里面装的是什么商品",
+        "假装支付宝页面加载不出来，慢慢问理赔金额是怎么算出来的"
+      ],
+      "sources": [
+        "国家反诈中心"
+      ]
+    }
+  ]
+}

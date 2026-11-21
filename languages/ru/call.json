@@ -1,0 +1,107 @@
+{
+  "schema": 2,
+  "layer": "ru",
+  "status": "draft",
+  "name": {
+    "en": "Russian",
+    "zh": "俄文"
+  },
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, меня слышно?"
+  },
+  "common": {
+    "habits": {
+      "en": "Say times in 24 hours; read numbers in short groups.",
+      "zh": "時間用 24 小時制；號碼分短組複誦。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: ты, short lively sentences, a real reaction plus a follow-up line.",
+          "zh": "跟好朋友：用 ты，句子短而活潑，有真反應並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing: after the caller explains, add a friendly remark of your own.",
+          "zh": "溫暖隨和：對方講完，加一句自己的友善回應。"
+        },
+        "3": {
+          "en": "Everyday tone; when they finish a point, answer with one full sentence of your own, not a word or two.",
+          "zh": "日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Courteous Вы, measured complete sentences; take up their main point first.",
+          "zh": "有禮用 Вы，句子完整穩重，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business Вы and titles, brisk, answering each point in full.",
+          "zh": "公事口吻：Вы 加稱謂，明快，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper on ты terms: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，用 ты：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, calm assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary in Вы: take up why they called in complete sentences.",
+          "zh": "低調的秘書，用 Вы：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant in formal Вы: brisk, answering key details in full.",
+          "zh": "主管級助理，正式用 Вы：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Да, я здесь, слышу вас. Слушаю вас.",
+    "still_there": "Алло? Вы ещё на линии?",
+    "bye": "До свидания.",
+    "go_ahead": "Да, конечно, слушаю вас.",
+    "no_thanks": "Ой, нет, спасибо.",
+    "think_about_it": "Мне нужно над этим подумать.",
+    "wait_one_more": "Ой, постойте, у меня ещё один вопрос.",
+    "no_wait": "«одну минутку», «секундочку», «сейчас посмотрю», «подождите»",
+    "unavailable": "Набранный вами номер сейчас недоступен. Пожалуйста, перезвоните позже.",
+    "preview": [
+      "Алло?",
+      "А, курьер? Хорошо, оставьте у двери, большое спасибо.",
+      "Ладно, до свидания."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "до свидания",
+        "всего доброго",
+        "хорошего дня",
+        "до встречи"
+      ],
+      "wrapups": [
+        "мне пора",
+        "поговорим позже",
+        "я перезвоню"
+      ],
+      "examples": {
+        "ends": [
+          "Хорошо, спасибо, до свидания.",
+          "Ладно, мне пора. Всего доброго!",
+          "Всё, поговорим позже, до встречи."
+        ],
+        "not_ends": [
+          "Здравствуйте, меня зовут Олег, я звоню по поводу вашего заказа.",
+          "Пока вы не положили трубку, скажу главное: у нас акция.",
+          "Что нужно сделать до встречи, чтобы всё прошло хорошо?"
+        ]
+      }
+    }
+  }
+}

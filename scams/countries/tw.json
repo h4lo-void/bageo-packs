@@ -1,0 +1,273 @@
+{
+  "name": "Taiwan",
+  "name_local": "台灣",
+  "iso": "tw",
+  "calling_code": "+886",
+  "languages": [
+    "zh-TW",
+    "en"
+  ],
+  "prevalence_note": "165 anti-fraud & Whoscall 2025-2026: fake police/prosecutor (安全帳戶・視訊筆錄), 7-11 賣貨便/好賣+ escrow verification + screen sharing, fast-approval loan fee/account-beautification scams, investment LINE groups, and fake utility/ETC/parcel fee links dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "tw_fake_police_prosecutor",
+      "typology": "fake_official",
+      "name": "假冒警察／檢察官／戶政事務所（安全帳戶・視訊筆錄）",
+      "name_en": "Fake police, prosecutor or household registry demanding safe account or video statement",
+      "prevalence": "very_high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "戶政事務所",
+        "刑事警察局",
+        "地檢署",
+        "證件遭冒用",
+        "165專線"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "視訊筆錄",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "公證金",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "資金公證",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "監管專戶",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "加line做筆錄",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Poses as household registry, police or prosecutor claiming the owner's ID or bank book appeared in a money-laundering case; demands secrecy, LINE video statement, cash handover to a clerk, or transfer to a supervised/safe account.",
+      "legit_en": "Real Taiwanese police, prosecutors or household offices send mailed summons to visit in person and never take LINE video statements, ask for secrecy, or inspect funds.",
+      "bait_tactics": [
+        "裝得很緊張配合，說存摺跟印章鎖在二樓鐵櫃裡、鑰匙塞在哪裡忘記了，請他等一下先慢慢講監管流程",
+        "故意聽錯案號或分機號碼，請他一個字一個字重新唸，順便細問公證金跟清查大概要幾天",
+        "說老花眼鏡找不到、手機字太小看不清楚，請他口頭一步一步慢慢教怎麼操作"
+      ],
+      "sources": [
+        "165全民防騙網",
+        "刑事警察局打詐儀錶板",
+        "Whoscall 2025-2026"
+      ]
+    },
+    {
+      "id": "tw_marketplace_escrow",
+      "typology": "marketplace_escrow_scam",
+      "name": "假網拍買家／賣貨便・好賣+・旋轉拍賣金流認證",
+      "name_en": "7-11 Maihuobian / FamilyMart / Carousell seller payout verification & screen-sharing scam",
+      "prevalence": "very_high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "旋轉拍賣",
+        "蝦皮賣場",
+        "賣場訂單",
+        "無法下單",
+        "台灣pay",
+        "行動支付綁定"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "開通金流服務",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "簽署金流協議",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "賣家身分認證",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "託管認證",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "簽署安全協定",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "綁定台灣pay驗證",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims buyer could not check out on 7-11 Maihuobian, FamilyMart Haomai+ or Carousell because the seller lacks payout/escrow verification; fake bank agent calls to guide online banking transfer or LINE screen sharing.",
+      "legit_en": "Real marketplace support never calls via LINE or phone to verify seller bank balances, transfer test codes, or share screens.",
+      "bait_tactics": [
+        "裝作剛開始在網路賣二手東西很怕弄錯，慢慢問那個金流認證是一次性還是每筆都要簽",
+        "假裝網銀 App 一直卡在更新轉圈圈或密碼打錯被鎖住，問能不能換郵局存摺慢慢對",
+        "故意把轉帳驗證欄位講成備註欄，請他從頭再講一次步驟",
+        "假裝沒用過台灣Pay找不到綁定畫面，請他從下載哪一個圖示開始慢慢教"
+      ],
+      "sources": [
+        "165全民防騙網",
+        "刑事警察局",
+        "165打詐儀錶板 165dashboard.tw"
+      ]
+    },
+    {
+      "id": "tw_loan_lending",
+      "typology": "loan_advance_fee",
+      "name": "假借貸／免聯徵快速核貸／美化帳戶",
+      "name_en": "Fast-approval loan advance-fee or bank-account beautification scam",
+      "prevalence": "very_high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "快速核貸",
+        "民間融資",
+        "政府補助貸款",
+        "當日撥款",
+        "整合負債"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "美化帳戶",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "包裝金流",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "免保人免聯徵",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "寄金融卡審核",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Promises guaranteed no-credit-check loan or debt consolidation, then asks to add LINE, pay an upfront guarantee/unlock fee, or mail ATM cards/passbooks to 'beautify cashflow'.",
+      "legit_en": "Real bank staff following up on a loan the owner actually applied for never ask for ATM cards, passwords, LINE fees, or cashflow packaging.",
+      "bait_tactics": [
+        "裝作剛好想整修房子很想借，但算術很慢，一直請他重算本利攤還每個月到底幾塊錢",
+        "慢慢問提前清償違約金怎麼算、開辦費能不能直接從撥款裡面扣、要準備哪些財力證明",
+        "假裝手邊沒有紙筆，請他等我翻抽屜找原子筆把方案一個字一個字抄下來"
+      ],
+      "sources": [
+        "Whoscall 2025-2026",
+        "金管會",
+        "165全民防騙網"
+      ]
+    },
+    {
+      "id": "tw_utility_package_fee",
+      "typology": "fake_utility",
+      "name": "假冒台電・台水・ETC・健保・郵局包裹欠費斷電通知",
+      "name_en": "Fake Taipower, water, ETC toll, NHI card or Chunghwa Post urgent fee/cut-off call",
+      "prevalence": "high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "台電",
+        "台水",
+        "中華郵政",
+        "健保署",
+        "遠通電收",
+        "通行費",
+        "國道通行費",
+        "雲端發票中獎",
+        "銀行積點過期"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "兩小時內斷電",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "健保卡鎖卡",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "點簡訊連結補繳",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "通行費逾期扣款失敗",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims electricity/water will be cut off within hours, NHI card is locked for illegal drug claims, or ETC/parcel needs instant link payment or transfer to personal/virtual account.",
+      "legit_en": "Polite utility, building-management or courier calls merely reminding the owner to pay at a convenience store or official app by month-end with no cut-off threat, link or card request.",
+      "bait_tactics": [
+        "裝緊張說家裡冰箱塞滿冷凍年菜不能斷電，假裝翻抽屜找上個月的水電單核對電號",
+        "故意報錯地址樓層或車牌號碼，請他幫我查看到底是登記在誰名下",
+        "問能不能現在走路去巷口超商印單子繳，請他先別掛電話等我穿鞋子找零錢",
+        "假裝記不清楚哪一天上國道，請他幫忙查車牌跟經過哪個收費站"
+      ],
+      "sources": [
+        "165全民防騙網",
+        "台電防詐專區",
+        "165打詐儀錶板 165dashboard.tw"
+      ]
+    },
+    {
+      "id": "tw_investment_line_group",
+      "typology": "investment_group_scam",
+      "name": "飆股老師帶單／抽籤申購墊付／虛擬幣穩賺群組",
+      "name_en": "Fake stock guru, IPO lottery margin or crypto guaranteed-profit LINE group",
+      "prevalence": "high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "抽籤申購",
+        "主力佈局",
+        "內線飆股",
+        "量化跟單"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "中籤補繳股款",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "老師親自帶單",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "專員到府收款儲值",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Pitches guaranteed-win stock club, unlimited IPO share lottery requiring urgent top-up transfer to avoid default, or cash courier deposit into a trading app.",
+      "legit_en": "Licensed Taiwanese securities brokers never guarantee profits, pool funds in private apps, or send cash couriers.",
+      "bait_tactics": [
+        "裝作手頭有一筆定存快到期很有興趣，但聽不懂股票術語，請他從什麼是融資跟抽籤慢慢解釋",
+        "一直問萬一跌了怎麼辦、獲利分成怎麼算、能不能先小額試個三千塊看看流程"
+      ],
+      "sources": [
+        "金管會",
+        "165全民防騙網"
+      ]
+    }
+  ]
+}

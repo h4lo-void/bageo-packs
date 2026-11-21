@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "code": "gulf",
+  "countries": [
+    "sa",
+    "ae",
+    "qa",
+    "kw",
+    "bh",
+    "om",
+    "ye"
+  ],
+  "name": {
+    "en": "Saudi Arabia and the Gulf",
+    "native": "دول الخليج العربية",
+    "zh": "沙烏地與海灣國家"
+  },
+  "lang": "ar-EG",
+  "stt": "ar-EG",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، هل تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the door, building guard or reception",
+    "zh": "包裹放門口、交給大樓警衛或櫃台"
+  },
+  "fraud": {
+    "en": "Absher/UAE Pass \"updates\", frozen-account notices, \"CID\" fines are scams",
+    "zh": "要你更新 Absher 或 UAE Pass、通知帳戶凍結、自稱刑警罰款的都是詐騙"
+  },
+  "habits": {
+    "en": "Answer السلام عليكم in kind; use أستاذ or أخي/أختي with strangers.",
+    "zh": "對方說 السلام عليكم 就同樣回應；對陌生人可稱 أستاذ 或 أخي／أختي。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like the bank app demanding an update, weak signal in the majlis, lost reading glasses.",
+    "zh": "卡在日常狀況，例如銀行 App 要更新、客廳訊號弱、老花眼鏡不見。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: warm casual talk, short lively lines, a real reaction plus a follow-up (يا هلا, فعلاً؟), varied.",
+        "zh": "像跟好朋友：溫暖隨興，句子短而活潑，真反應並多接一句（يا هلا、فعلاً؟），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, kind, easygoing with natural courtesy; after they explain, add a warm remark (حياك الله, يعطيك العافية), varied.",
+        "zh": "溫暖隨和，自然有禮；對方講完，加一句自己的體貼回應（حياك الله、يعطيك العافية），每次換說法。"
+      },
+      "3": {
+        "en": "Courteous, respectful but not over-formal. When they finish a point, reply in one full sentence, not a word or two (أهلاً بك, واضح تماماً).",
+        "zh": "有禮尊重，但不過度正式。對方講完一件事，用一句完整的話回應，不只回一兩個字（أهلاً بك、واضح تماماً）。"
+      },
+      "4": {
+        "en": "Dignified, courteous: titles when fitting, measured full sentences; take up their main point first (أقدّر اتصالك), varied.",
+        "zh": "沉穩有禮，適時用稱謂，句子完整；先回應對方重點（أقدّر اتصالك），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register with precise titles, brisk and gracious full sentences; answer each point (أشكر لك هذا التوضيح), varied.",
+        "zh": "俐落的商務口吻，用精準稱謂，明快得體，明快但有溫度；每個重點完整回應（أشكر لك هذا التوضيح），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful, close helper: a warm reaction first, then say you will pass it on (أهلاً بك, وصلت الفكرة), varied.",
+        "zh": "活潑親切的助理，開朗親近：先熱絡回應對方，再說會轉告（أهلاً بك、وصلت الفكرة），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, refined assistant: acknowledge their situation kindly, then note the message (فهمت عليك), varied.",
+        "zh": "溫和從容的助理，溫和得體：先體貼回應對方處境，再記下留言（فهمت عليك），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in clear courteous Arabic: answer their point in one full sentence, never a bare طيب, then confirm the relay (واضح, سجّلت التفاصيل).",
+        "zh": "自然幹練的助理，自然有禮的阿拉伯語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（واضح、سجّلت التفاصيل）。"
+      },
+      "4": {
+        "en": "Respectful, polished secretary: take up why they called in full sentences, then relay it (شاكرين تواصلك), varied.",
+        "zh": "周到的秘書，恭敬周到：先用完整句子承接來意，再說會轉告（شاكرين تواصلك），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in concise business Arabic: answer the details in full, then confirm the relay (كل الشكر لتواصلكم), varied.",
+        "zh": "主管級助理，簡潔的商務阿拉伯語，條理俐落：先完整回應公事重點，再確認轉達（كل الشكر لتواصلكم），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "الباب",
+      "حارس العمارة",
+      "الاستقبال"
+    ],
+    "bank": [
+      "أبشر",
+      "UAE Pass",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

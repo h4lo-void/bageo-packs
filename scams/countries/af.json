@@ -1,0 +1,173 @@
+{
+  "name": "Afghanistan",
+  "name_local": "افغانستان",
+  "iso": "af",
+  "calling_code": "+93",
+  "languages": [
+    "ps",
+    "fa"
+  ],
+  "prevalence_note": "Afghanistan 2025-2026 warnings: telecom Prize Lottery and Mobile Credit Card Fraud; fake Humanitarian Cash Aid and Resettlement Registration Scam; fake Overseas Visa Lottery and Work Permit Fee Scam; mobile Wallet and National ID OTP Account Takeover Scam.",
+  "cross_border_note": "Calls in Pashto or Dari, often from abroad.",
+  "scams": [
+    {
+      "id": "af_telecom_credit_prize",
+      "typology": "prize_lottery",
+      "name": "د ټیلیفوني پچې او جایزې په نوم د کریدت کارت درغلي",
+      "name_en": "Telecom Prize Lottery and Mobile Credit Card Fraud",
+      "prevalence": "very_high",
+      "lang": "ps",
+      "context_keywords": [
+        "لویه جایزه",
+        "نوی موټر",
+        "د سرو زرو جایزه"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "کریدت کارت واستوئ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "د جایزې فیس",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "پټ کوډ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Calling from ordinary domestic mobile SIM numbers, fraudsters announce that the recipient has won a brand-new car, gold, or household appliances in a telecom draw.",
+      "legit_en": "According to Afghanistan Telecom Regulatory Authority investigations, legitimate telecom operators announce official promotions only through verified corporate shortcodes and media channels, and never call subscribers from personal mobile numbers.",
+      "bait_tactics": [
+        "اوس خو زما په ټیلیفون کې بیخي کریدت نشته او دوکانونه هم له کوره ډېر لرې دي۔",
+        "یوه شېبه صبر وکړئ، دلته انټن ډېر کمزوری دی، ستاسو غږ سم نه راځي۔",
+        "زه قلم او کاغذ راواخلم چې ستاسو خبره ولیکم، خو عینکې مې نه پیدا کېږي۔"
+      ],
+      "sources": [
+        "https://8am.media/fa/telephone-fraudsters-you-won/",
+        "https://da.azadiradio.com/a/33348852.html"
+      ]
+    },
+    {
+      "id": "af_humanitarian_aid_fee",
+      "typology": "fake_charity",
+      "name": "د بشري مرستو او بیا مېشتېدنې د نوملیکنې جعلي اړیکه",
+      "name_en": "Fake Humanitarian Cash Aid and Resettlement Registration Scam",
+      "prevalence": "very_high",
+      "lang": "ps",
+      "context_keywords": [
+        "بشري مرسته",
+        "نغدي کومک",
+        "عاجله نوملیکنه"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "د نوملیکنې پیسې",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "کمیسیون ورکړئ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating international humanitarian agency staff via phone calls and messaging apps, scammers promise priority registration for emergency cash assistance packages or overseas family resettlement.",
+      "legit_en": "Humanitarian agencies operating in Afghanistan explicitly state that all humanitarian assistance, registration, and resettlement services are completely free of charge, and official aid staff never ask beneficiaries for money, commissions, or transfers.",
+      "bait_tactics": [
+        "وبخښئ، زه د کور له مشرانو سره له مشورې پرته هیڅ اسناد یا شمېره نشم درکولی۔",
+        "دا مهال برق تللی او زما د موبایل چارج په ختمېدو دی، خبره مو پرې کېږي۔",
+        "مهرباني وکړئ لږ ورو وغږېږئ، بهر شور دی او زه ستاسو خبره سمه نه اورم۔"
+      ],
+      "sources": [
+        "https://help.unhcr.org/afghanistan/topics/fraud/",
+        "https://help.unhcr.org/global/reporting-misconduct-or-sexual-abuse/online-fraud-schemes/"
+      ]
+    },
+    {
+      "id": "af_visa_work_permit_scam",
+      "typology": "fake_official",
+      "name": "د بهرنۍ ویزې او کاري جواز د پچې جعلي ټیلیفوني درغلي",
+      "name_en": "Fake Overseas Visa Lottery and Work Permit Fee Scam",
+      "prevalence": "high",
+      "lang": "ps",
+      "context_keywords": [
+        "د ویزې قرعه کشي",
+        "کاري جواز",
+        "بهرنۍ ویزه"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "د ویزې فیس واستوئ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "حساب ته پیسې تحویل کړئ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "عاجل فیس",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as a foreign consular officer or overseas recruiter, the caller claims the recipient won a diversity visa lottery or foreign work permit.",
+      "legit_en": "Official diplomatic advisories for Afghanistan emphasize that consular officers never cold-call citizens to announce visa lottery wins or work permits and never request fee transfers to personal or third-country accounts.",
+      "bait_tactics": [
+        "ما خو هیڅ ځای کې د ویزې فورمه نه ده ډکه کړې، تاسو د کوم دفتر نه غږېږئ؟",
+        "زما پاسپورټ او کاغذونه دلته نشته، په بل کور کې پاتې دي۔",
+        "یوه شېبه، کرښه ډېره خرابه ده او غږ مو غوڅېږي، زه اوس هیڅ نشم لیکلی۔"
+      ],
+      "sources": [
+        "https://af.usembassy.gov/internet-scam-warning/"
+      ]
+    },
+    {
+      "id": "af_sim_wallet_takeover",
+      "typology": "otp_theft",
+      "name": "د تذکرې او موبایل حساب د تایید کوډ غلا",
+      "name_en": "Mobile Wallet and National ID OTP Account Takeover Scam",
+      "prevalence": "high",
+      "lang": "ps",
+      "context_keywords": [
+        "سیمکارت ثبت",
+        "تایید کوډ",
+        "برېښنایي تذکره"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "د پیغام کوډ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "پټ نمبر",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "حساب مو بندېږي",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claiming to call from a commercial bank, mobile money operator, or SIM registration desk, the scammer warns that the user's SIM or mobile wallet will be deactivated unless they confirm their national ID number and read out a newly sent SMS verification.",
+      "legit_en": "Under Da Afghanistan Bank financial consumer protection rules and telecom SIM registration procedures, identity verification requires in-person biometric registration at authorized branches, and legitimate institutions never ask for OTPs or PINs by phone.",
+      "bait_tactics": [
+        "زما په موبایل کې تر اوسه هیڅ پیغام نه دی راغلی، شبکه ډېره ضعیفه ده۔",
+        "تذکره مې په المارۍ کې قلف ده او کیلي اوس زما سره نشته۔",
+        "یوه دقیقه صبر وکړئ، بل موبایل مې ګورم خو سکرین یې کار نه کوي۔"
+      ],
+      "sources": [
+        "https://shuftipro.com/supported-countries/afghanistan/",
+        "https://prodbaf.blob.core.windows.net/data/FCP-Regulation-Translation-english.pdf",
+        "https://didpress.com/153205/"
+      ]
+    }
+  ]
+}

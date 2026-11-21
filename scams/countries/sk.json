@@ -1,0 +1,125 @@
+{
+  "name": "Slovakia",
+  "name_local": "Slovensko",
+  "iso": "sk",
+  "calling_code": "+421",
+  "languages": [
+    "sk"
+  ],
+  "prevalence_note": "Police and NBS warnings 2025-2026: fake police investigators and fake central bank staff moving savings to 'safe' or 'investigation' accounts, and the grandchild accident method.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "sk_falosna_policia_vysetrovanie",
+      "typology": "fake_official",
+      "name": "Falošný policajt: tajné vyšetrovanie a vyšetrovací účet",
+      "name_en": "Fake police secret investigation and investigation account",
+      "prevalence": "very_high",
+      "lang": "sk",
+      "context_keywords": [
+        "kriminálna polícia"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "vyšetrovací účet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tajné vyšetrovanie",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pranie špinavých peňazí",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police investigator speaks of money laundering or identity misuse, asks for secrecy and tells the owner to move savings to an investigation or safe account.",
+      "legit_en": "The Slovak police never ask anyone to move money to an account or keep an investigation secret from their bank.",
+      "bait_tactics": [
+        "Povedať, že si musí sadnúť, a poprosiť, nech to zopakuje pomaly",
+        "Opýtať sa, odkedy sa to deje"
+      ],
+      "sources": [
+        "Policajný zbor SR"
+      ]
+    },
+    {
+      "id": "sk_falosna_nbs",
+      "typology": "fake_bank_account_alert",
+      "name": "Falošný pracovník banky alebo NBS: záchrana peňazí",
+      "name_en": "Fake bank or central bank staff saving the money",
+      "prevalence": "high",
+      "lang": "sk",
+      "context_keywords": [
+        "národná banka slovenska"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "účet nbs",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "záchranu peňazí",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "overovací kód",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department or the central bank reports a suspicious transaction or an unpaid loan and asks for card details, the SMS code or a transfer to an NBS account.",
+      "legit_en": "The central bank holds no accounts for citizens and banks never ask for SMS codes or transfers to save money.",
+      "bait_tactics": [
+        "Povedať, že aplikácia banky sa aktualizuje, a nechať si to vysvetliť ešte raz",
+        "Opýtať sa, o akú sumu ide"
+      ],
+      "sources": [
+        "NBS",
+        "Policajný zbor SR"
+      ]
+    },
+    {
+      "id": "sk_vnuk_nehoda",
+      "typology": "fake_relative_money",
+      "name": "Vnuk po nehode: príde kolega po peniaze",
+      "name_en": "Grandchild after an accident, a colleague comes for the money",
+      "prevalence": "high",
+      "lang": "sk",
+      "context_keywords": [
+        "dopravná nehoda"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pripraviť hotovosť",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "príde kolega pre peniaze",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "mimosúdne vyrovnanie",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a grandchild, doctor or police officer says a relative caused an accident and needs cash for a settlement or surgery; a colleague will come to collect it.",
+      "legit_en": "The police and hospitals never collect cash from relatives at the door.",
+      "bait_tactics": [
+        "Povedať, že nepočuje dobre, a poprosiť, nech zopakuje, kde sa to stalo",
+        "Opýtať sa, v ktorej nemocnici leží"
+      ],
+      "sources": [
+        "Policajný zbor SR"
+      ]
+    }
+  ]
+}

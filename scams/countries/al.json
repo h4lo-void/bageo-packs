@@ -1,0 +1,148 @@
+{
+  "name": "Albania",
+  "name_local": "Shqipëria",
+  "iso": "al",
+  "calling_code": "+355",
+  "languages": [
+    "sq"
+  ],
+  "prevalence_note": "Police and Bank of Albania warnings 2025-2026: fake parcel fees, fake bank data checks asking for OTP codes, fake traffic fines, and investment call centres.",
+  "cross_border_note": "Many investment call centres operate from the region and call abroad as well.",
+  "scams": [
+    {
+      "id": "al_posta_pako",
+      "typology": "fake_customs_parcel",
+      "name": "Postë e rreme: pagesë për pakon",
+      "name_en": "Fake post office parcel fee",
+      "prevalence": "high",
+      "lang": "sq",
+      "context_keywords": [
+        "adresa e pasaktë"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "konfirmoni adresën përmes linkut",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "numri i kartës dhe kodi cvv",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the post or a courier says a parcel has a wrong address and asks to confirm it through a link and pay a fee with card number and CVV.",
+      "legit_en": "The post never asks for card numbers or CVV codes by phone or through links.",
+      "bait_tactics": [
+        "Të thotë se po kërkon syzet dhe të pyesë nga vjen pakoja",
+        "Të pyesë sa kushton saktësisht"
+      ],
+      "sources": [
+        "Policia"
+      ]
+    },
+    {
+      "id": "al_banka_verifikim",
+      "typology": "fake_bank_account_alert",
+      "name": "Bankë e rreme: verifikim i të dhënave",
+      "name_en": "Fake bank data verification",
+      "prevalence": "high",
+      "lang": "sq",
+      "context_keywords": [
+        "përditësim i të dhënave"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "fjalëkalimi i e-banking",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pin-i i kartës",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kodi otp",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank says the card or account will be blocked unless data are updated and asks for the OTP code, the e-banking password or the card PIN.",
+      "legit_en": "Banks never ask for OTP codes, e-banking passwords or PINs by phone.",
+      "bait_tactics": [
+        "Të thotë se aplikacioni i bankës po përditësohet dhe të kërkojë ta shpjegojë sërish",
+        "Të pyesë për çfarë shume bëhet fjalë"
+      ],
+      "sources": [
+        "Banka e Shqipërisë",
+        "Policia"
+      ]
+    },
+    {
+      "id": "al_policia_gjobe",
+      "typology": "fake_official",
+      "name": "Policia e rreme: gjobë trafiku",
+      "name_en": "Fake police traffic fine",
+      "prevalence": "medium",
+      "lang": "sq",
+      "context_keywords": [
+        "gjobë trafiku"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "të paguar gjobën përmes linkut",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "të dhënat e kartës në telefon",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text posing as the police says there is an unpaid traffic fine and asks to pay through a link or give card details on the phone.",
+      "legit_en": "The police never collect fines through links or card details given by phone.",
+      "bait_tactics": [
+        "Të thotë se po kërkon dokumentet e makinës dhe të pyesë kur ka ndodhur",
+        "Të pyesë për cilën rrugë bëhet fjalë"
+      ],
+      "sources": [
+        "Policia"
+      ]
+    },
+    {
+      "id": "al_qendra_investimi",
+      "typology": "investment_group_scam",
+      "name": "Qendër thirrjesh investimi: fitim i garantuar",
+      "name_en": "Investment call centre with guaranteed profit",
+      "prevalence": "high",
+      "lang": "sq",
+      "context_keywords": [
+        "platformë tregtimi"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "depozitoni shumën fillestare",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "taksën për të tërhequr fitimin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a trading platform promises guaranteed profit, asks for a first deposit and AnyDesk, then demands a tax to withdraw the profit.",
+      "legit_en": "Licensed brokers never promise guaranteed profit or ask for a tax before paying out.",
+      "bait_tactics": [
+        "Të thotë se po i shkruan dhe të pyesë sa është depozita e parë",
+        "Të pyesë sa kohë zgjat tërheqja"
+      ],
+      "sources": [
+        "AMF",
+        "Policia"
+      ]
+    }
+  ]
+}

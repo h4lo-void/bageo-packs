@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "code": "de",
+  "countries": [
+    "de"
+  ],
+  "name": {
+    "en": "Germany",
+    "native": "Deutschland",
+    "zh": "德國"
+  },
+  "lang": "de-DE",
+  "delivery": {
+    "en": "Parcels: beim Nachbarn, Packstation or Paketshop",
+    "zh": "包裹交給鄰居、放 Packstation 或 Paketshop"
+  },
+  "readback": {
+    "en": "halb acht means 7:30: read it back as 19 Uhr 30",
+    "zh": "halb acht 是 7:30，複誦成 19 Uhr 30"
+  },
+  "fraud": {
+    "en": "a TAN, customs fees or a \"child\" on a new number needing money are scams",
+    "zh": "要 TAN 碼、補繳海關費、自稱孩子換了新號碼急著要錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say Handy, Paket, Tschüss, not Natel, Päckli, Sackerl, Grüezi.",
+    "zh": "用 Handy、Paket、Tschüss，不用 Natel、Päckli、Sackerl、Grüezi。"
+  },
+  "stall_local": {
+    "en": "Get stuck on pushTAN frozen in a dead zone, a dead TAN generator, a meter locked in the Keller.",
+    "zh": "卡在德國日常狀況，例如 pushTAN 在收訊死角卡住、TAN 產生器沒電、電錶鎖在地下室。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: du, relaxed forms (hab, grad), short lively sentences, real reactions (ach krass), varied.",
+        "zh": "像{owner}跟好朋友講話：用 du，口語省略（hab、grad），句子短而活潑、反應真實（如 ach krass），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and neighborly: du or a relaxed Sie to match the caller; after they explain, add a friendly remark (ach so), varied.",
+        "zh": "溫暖像鄰居：看對方用 du 或輕鬆的 Sie；對方講完，加一句自己的友善回應（如 ach so），每次換說法。"
+      },
+      "3": {
+        "en": "Sie with strangers, du with friends. After a caller's point, reply with one full sentence, not a bare Ja or Ok (ach ja).",
+        "zh": "陌生人用 Sie、熟人用 du。對方講完一件事，用一句完整的話回應，不只說 Ja 或 Ok（如 ach ja），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished, conversational Sie, complete sentences; take up their main point first (das verstehe ich gut), varied.",
+        "zh": "有禮：Sie 端正但口語，句子完整，先回應對方重點（如 das verstehe ich gut），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: Sie with surnames and titles, brisk and precise; answer each point in full (nachvollziehbar), varied.",
+        "zh": "俐落公事口吻：Sie 加姓氏與頭銜，簡潔精確；每個重點都完整回應（如 nachvollziehbar），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper: du or Sie to match the caller; react warmly, then say you will pass it on (ah super), varied.",
+        "zh": "{owner}活潑的小幫手：看對方用 du 或 Sie；先熱絡回應再說會轉告（如 ah super），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, reassuring assistant, gentle Sie: acknowledge their situation, then note the message for {owner} (ich verstehe), varied.",
+        "zh": "沉著讓人安心的助理，用溫和的 Sie：先體貼回應對方處境，再記下留言給{owner}（如 ich verstehe），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant, Sie. After the caller's point, reply in one full sentence, not a bare Ja, then confirm the relay (alles klar).",
+        "zh": "自然幹練的助理，用 Sie。對方講完一件事，先用一句完整的話回應，不只說 Ja，再確認轉達（如 alles klar）。"
+      },
+      "4": {
+        "en": "Discreet assistant: polished Sie, complete sentences; take up why they called, then offer to pass it on (habe ich notiert), varied.",
+        "zh": "低調得體的助理：Sie 端正，句子完整，先承接來意再說會轉告（如 habe ich notiert），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: Sie with surnames, concise; answer key details in full, then confirm the relay (ist vermerkt), varied.",
+        "zh": "主管級助理：Sie 加姓氏，精簡；先完整回應重點，再確認轉達（如 ist vermerkt），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "Packstation",
+      "beim Nachbarn",
+      "Paketshop"
+    ],
+    "bank": [
+      "pushTAN",
+      "Überweisung",
+      "Girokonto"
+    ]
+  },
+  "status": "draft"
+}

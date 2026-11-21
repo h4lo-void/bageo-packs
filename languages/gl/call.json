@@ -1,0 +1,64 @@
+{
+  "schema": 2,
+  "layer": "gl",
+  "status": "draft",
+  "name": {
+    "en": "Galician",
+    "zh": "加利西亞語"
+  },
+  "hello": {
+    "hello": "Diga?",
+    "hello_again": "Ola? Escóitame?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Si, escoito, dígame.",
+    "still_there": "Segue aí?",
+    "bye": "Deica logo!",
+    "go_ahead": "Si, adiante, diga.",
+    "no_thanks": "Non, moitas grazas.",
+    "think_about_it": "Teño que pensalo un pouco.",
+    "wait_one_more": "Agarde un momento, teño outra pregunta.",
+    "no_wait": "«un momento», «un segundo», «espera que miro», «agarde que o comprobo», «un instante», «agarde un momento»",
+    "unavailable": "O número marcado non está dispoñible neste momento. Inténteo máis tarde.",
+    "preview": [
+      "Diga?",
+      "Ah, un paquete? De acordo, déixeo diante da porta, moitas grazas.",
+      "Que vaia moi ben, deica logo!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "deica logo",
+        "deica agora",
+        "deica mañá",
+        "deica pronto",
+        "adeus",
+        "ata logo",
+        "ata mañá",
+        "ata pronto",
+        "ata a próxima",
+        "abur"
+      ],
+      "wrapups": [
+        "teño que colgar",
+        "xa falaremos",
+        "non o entreteño máis",
+        "iso era todo",
+        "non lle roubo máis tempo"
+      ],
+      "examples": {
+        "ends": [
+          "Moitas grazas por todo, deica logo!",
+          "Falamos mañá entón, ata logo.",
+          "Perfecto, paso por aí nun momento, deica agora!"
+        ],
+        "not_ends": [
+          "Díxome deica logo ao saír, pero agora quería consultarlle unha dúbida.",
+          "Na mensaxe puxo deica logo, aínda que seguimos pendentes da súa confirmación.",
+          "Todo o que revisamos deica agora está correcto, sigamos co punto seguinte."
+        ]
+      }
+    }
+  }
+}

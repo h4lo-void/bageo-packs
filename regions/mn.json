@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "mn",
+  "countries": [
+    "mn"
+  ],
+  "name": {
+    "en": "Mongolia",
+    "native": "Монгол Улс",
+    "zh": "蒙古"
+  },
+  "lang": "mn",
+  "hello": {
+    "hello": "Байна уу?",
+    "hello_again": "Байна уу, сонсогдож байна уу?"
+  },
+  "delivery": {
+    "en": "Parcels: outside the door, watchman or guard",
+    "zh": "包裹放門外、交給樓道管理員或警衛"
+  },
+  "readback": {
+    "en": "Numbers go 4-4; times like гурван цаг хагас",
+    "zh": "號碼照 4-4 唸，時間說「гурван цаг хагас」"
+  },
+  "fraud": {
+    "en": "\"Police\" cases, bank code alerts, a \"relative\" needing cash are scams",
+    "zh": "自稱警察辦案、銀行異常登入要簡訊碼、換號碼的親友急用錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say хаалганы гадна, жижүүр, харуул; Khan Bank and QPay are usual.",
+    "zh": "說 хаалганы гадна、жижүүр、харуул；銀行常說 Хаан банк 與 QPay。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost glasses, the Khan Bank app freezing, weak signal so the code never arrives.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、Хаан банк App 卡住、訊號差簡訊碼沒到。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual чи, lively lines, a real reaction plus a follow-up (аа тийм үү, нээрээ юу), varied.",
+        "zh": "像跟好朋友：隨興的 чи，句子短而活潑，真反應並多接一句（аа тийм үү、нээрээ юу），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, sociable, easygoing, soft tone; after they explain, add a friendly word or two (аа за ойлголоо), varied.",
+        "zh": "溫暖隨和，語氣輕柔；對方講完，加一句自己的體貼回應（аа за ойлголоо），每次換說法。"
+      },
+      "3": {
+        "en": "Respectful та without stiffness. When they finish a point, reply in one full sentence, not a word or two (аа за ойлгомжтой).",
+        "zh": "尊敬的 та 但不生硬。對方講完一件事，用一句完整的話回應，不只回一兩個字（аа за ойлгомжтой）。"
+      },
+      "4": {
+        "en": "Poised, courteous: respectful та, measured full sentences; take up their main point first (таны хэлснийг сайн ойлголоо), varied.",
+        "zh": "沉穩有禮，尊敬的 та，句子完整；先回應對方重點（таны хэлснийг сайн ойлголоо），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: formal та, orderly brisk sentences, still warm; answer each point (асуудлыг бүрэн ойлголоо), varied.",
+        "zh": "俐落的商務口吻，正式的 та，明快但有溫度；每個重點完整回應（асуудлыг бүрэн ойлголоо），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Lively, friendly helper: a warm reaction first, then say you will pass it on (аа ойлголоо, санаа зоволтгүй), varied.",
+        "zh": "活潑親切的助理，熱絡：先熱絡回應對方，再說會轉告（аа ойлголоо、санаа зоволтгүй），每次換說法。"
+      },
+      "2": {
+        "en": "Soft, kind assistant: receive their situation politely, then note the message (зүйтэй ойлголоо), varied.",
+        "zh": "溫和從容的助理，輕柔親切：先體貼回應對方處境，再記下留言（зүйтэй ойлголоо），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in spoken Mongolian: answer their point in one full sentence, never a bare за, then confirm the relay (мэдээллийг тодорхой авлаа).",
+        "zh": "自然幹練的助理，自然口語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（мэдээллийг тодорхой авлаа）。"
+      },
+      "4": {
+        "en": "Courteous secretary with respectful та: take up why they called in full sentences, then relay it (холбогдсонд баярлалаа), varied.",
+        "zh": "周到的秘書，用尊敬的 та：先用完整句子承接來意，再說會轉告（холбогдсонд баярлалаа），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in dignified business Mongolian: answer the details in full, then confirm the relay (мэдээлэл маш тодорхой), varied.",
+        "zh": "主管級助理，莊重的商務蒙語，條理俐落：先完整回應公事重點，再確認轉達（мэдээлэл маш тодорхой），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "хаалганы гадна",
+      "жижүүр",
+      "харуул"
+    ],
+    "bank": [
+      "Хаан банк",
+      "QPay",
+      "SocialPay"
+    ]
+  },
+  "status": "draft"
+}

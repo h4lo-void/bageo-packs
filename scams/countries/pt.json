@@ -1,0 +1,143 @@
+{
+  "name": "Portugal",
+  "name_local": "Portugal",
+  "iso": "pt",
+  "calling_code": "+351",
+  "languages": [
+    "pt"
+  ],
+  "prevalence_note": "Polícia Judiciária & Banco de Portugal: MB WAY marketplace/code scams, fake bank/Polícia Judiciária safe-account calls, and fake CTT/EDP urgent payment calls lead phone fraud.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "pt_burla_mbway",
+      "typology": "marketplace_escrow_scam",
+      "name": "Burla MB WAY（OLX / Vinted・associar número・pedido de dinheiro）",
+      "name_en": "Portuguese MB WAY marketplace scam asking to link phone number or accept money request",
+      "prevalence": "very_high",
+      "lang": "pt",
+      "context_keywords": [
+        "mb way",
+        "mbway",
+        "multibanco",
+        "artigo à venda"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "associar número no mb way",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "código de levantamento mb way",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Fake buyer or courier on OLX/Vinted asks seller to enter the scammer's phone number on MB WAY / Multibanco, share a cardless withdrawal code, or accept a 'Pedir Dinheiro' prompt.",
+      "legit_en": "Real buyer arranging in-person pickup or standard delivery without asking for MB WAY codes or ATM linking.",
+      "bait_tactics": [
+        "Fingir que nunca usou o MB WAY antes e pedir para explicar com muita calma para que serve cada botão da aplicação",
+        "Dizer que a aplicação deu erro de ligação e perguntar detalhes sobre quem vem buscar a encomenda"
+      ],
+      "sources": [
+        "Polícia Judiciária",
+        "Banco de Portugal",
+        "SIBS"
+      ]
+    },
+    {
+      "id": "pt_falso_banco_codigo",
+      "typology": "fake_bank_account_alert",
+      "name": "Falso banco: código recebido por SMS",
+      "name_en": "Fake bank asking for the SMS code",
+      "prevalence": "very_high",
+      "lang": "pt",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "código que recebeu por sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "credenciais de homebanking",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank says the account is blocked or a payment is suspicious and asks for the code received by SMS or the homebanking credentials.",
+      "legit_en": "Portuguese banks never ask for SMS codes or homebanking credentials by phone.",
+      "bait_tactics": [
+        "Dizer que a aplicação do banco está a atualizar e pedir para explicar outra vez",
+        "Perguntar de que pagamento se trata"
+      ],
+      "sources": [
+        "Banco de Portugal"
+      ]
+    },
+    {
+      "id": "pt_mbway_engano",
+      "typology": "otp_theft",
+      "name": "MB Way: dinheiro enviado por engano",
+      "name_en": "MB Way money sent by mistake",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "mb way"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "enviei dinheiro por engano",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "introduza o pin para receber",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says they sent money by mistake and asks the owner to return it to another number or to enter a PIN in MB Way to receive it.",
+      "legit_en": "No one needs a PIN to receive money in MB Way.",
+      "bait_tactics": [
+        "Dizer que o telemóvel está a carregar e perguntar quanto foi enviado",
+        "Perguntar a que horas foi"
+      ],
+      "sources": [
+        "SIBS",
+        "PSP"
+      ]
+    },
+    {
+      "id": "pt_ola_pai_ola_mae",
+      "typology": "fake_relative_money",
+      "name": "Olá pai, olá mãe: número novo e pagamento urgente",
+      "name_en": "Child with a new number asking for an urgent payment",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "este é o meu número novo",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "o meu telemóvel avariou",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or message says it is a son or daughter whose phone broke and who has a new number, and asks for an urgent payment.",
+      "legit_en": "Children who change numbers can be reached on the old one; an urgent payment request is the warning sign.",
+      "bait_tactics": [
+        "Dizer que os óculos ficaram no carro e perguntar de que pagamento se trata",
+        "Perguntar quanto é exatamente"
+      ],
+      "sources": [
+        "PSP"
+      ]
+    }
+  ]
+}

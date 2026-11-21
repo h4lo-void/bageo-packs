@@ -1,0 +1,64 @@
+{
+  "schema": 2,
+  "layer": "nn",
+  "status": "draft",
+  "name": {
+    "en": "Norwegian Nynorsk",
+    "zh": "新挪威語"
+  },
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo? Høyrer du meg?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Ja, eg er her og høyrer deg, berre sei frå.",
+    "still_there": "Er du der framleis?",
+    "bye": "Tusen takk, ha det bra!",
+    "go_ahead": "Ja, ver så god.",
+    "no_thanks": "Nei, ellers takk.",
+    "think_about_it": "Eg må tenkje litt på det.",
+    "wait_one_more": "Vent litt, eg har eit spørsmål til.",
+    "no_wait": "«eit augeblikk», «eit sekund», «vent litt så skal eg sjekke», «ver venleg og vent mens eg sjekkar»",
+    "unavailable": "Nummeret du ringde er ikkje tilgjengeleg no. Prøv igjen seinare.",
+    "preview": [
+      "Hallo?",
+      "Å ja, ei pakke? Den er grei, berre set ho ved døra, tusen takk.",
+      "Takk for samtalen, ha det bra!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "Ha det bra",
+        "Ha det",
+        "Ha det godt",
+        "Vi snakkast",
+        "Vi høyrast",
+        "Vi talast",
+        "Vi sest",
+        "Adjø",
+        "Farvel",
+        "Hei då"
+      ],
+      "wrapups": [
+        "Eg må leggje på no",
+        "Takk for praten",
+        "Eg ringer deg opp att",
+        "No må eg gå",
+        "Det var alt eg hadde"
+      ],
+      "examples": {
+        "ends": [
+          "Tusen takk for samtalen, ha det bra!",
+          "No må eg springe til bussen, vi snakkast, ha det!",
+          "Då har eg notert beskjeden din, ha det godt."
+        ],
+        "not_ends": [
+          "Eg håpar de kjem til å ha det bra på turen, men kva tid møtest vi?",
+          "Vi kjem til å ha det veldig travelt i morgon, så lat oss avklare alt no.",
+          "Korleis vil du ha det ordna med leveringa, skal vi ta det no?"
+        ]
+      }
+    }
+  }
+}

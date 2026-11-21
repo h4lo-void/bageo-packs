@@ -1,0 +1,187 @@
+{
+  "name": "Azerbaijan",
+  "name_local": "Azərbaycan",
+  "iso": "az",
+  "calling_code": "+994",
+  "languages": [
+    "az"
+  ],
+  "prevalence_note": "Azerbaijan 2025-2026 warnings: fake Bank Cyber-Intrusion and Card Security Alert Scam; fake Postal Parcel Address Update and Fee Phishing Scam; high-Pay Remote Job and Bank Card Money-Mule Recruitment Scam; fake State Energy Bond and High-Yield Investment Platform Scam.",
+  "cross_border_note": "Calls in Azerbaijani or Russian, sometimes from abroad.",
+  "scams": [
+    {
+      "id": "az_bank_card_cyber_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "Saxta bank təhlükəsizlik xidməti və kibermüdaxilə zəngləri",
+      "name_en": "Fake Bank Cyber-Intrusion and Card Security Alert Scam",
+      "prevalence": "very_high",
+      "lang": "az",
+      "context_keywords": [
+        "kibermüdaxilə",
+        "şübhəli əməliyyat",
+        "məxfi şifrə"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cvv kodu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "16 rəqəmli nömrə",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "telefonun dilini dəyişdirin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers or video callers impersonate bank security specialists claiming a cyber-intrusion or suspicious transfer was detected on the recipient's card.",
+      "legit_en": "Real banks in Azerbaijan block suspicious card transactions automatically and never ask customers over phone or video calls for full card numbers, PINs, CVV codes, or SMS one-time passwords.",
+      "bait_tactics": [
+        "Bir dəqiqə gözləyin, pulqabım və kartım digər otaqda çantada qalıb, indi gedib baxıram.",
+        "Telefonuma hələ heç bir təsdiq mesajı gəlməyib, binanın içində şəbəkə çox zəif tutur.",
+        "Mobil tətbiq yeniləmə tələb edir və ekran fırlanır, hələ heç nə açılmır."
+      ],
+      "sources": [
+        "https://muallim.edu.az/subhelendiyiniz-anda-zengi-sonlandirin---din-den-daha-bir-cagiris",
+        "https://xeber.azeri.net/texnologiya/bank-karti-firildaqciligi-otp-saxta-zeng-qorunma-qaydalari",
+        "https://qanunlar.az/deleduzluq/"
+      ]
+    },
+    {
+      "id": "az_postal_parcel_fee",
+      "typology": "fake_customs_parcel",
+      "name": "Poçt bağlaması ünvan yeniləməsi və saxta ödəniş keçidi dələduzluğu",
+      "name_en": "Fake Postal Parcel Address Update and Fee Phishing Scam",
+      "prevalence": "very_high",
+      "lang": "az",
+      "context_keywords": [
+        "gömrük rüsumu",
+        "izləmə kodu"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kart məlumatlarını daxil edin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "təsdiq kodu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "gömrük rüsumunu ödəyin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers contact citizens from foreign or spoofed numbers via phone and messaging apps, claiming an inbound parcel cannot be delivered due to incomplete address details or unpaid delivery charges.",
+      "legit_en": "Official postal services in Azerbaijan notify recipients through verified tracking channels and collect any applicable customs or delivery fees at official post branches or verified government portals, never via links sent from foreign mobile numbers.",
+      "bait_tactics": [
+        "Gözləyin, eynəyimi tapım ki, göndərdiyiniz izləmə nömrəsini vərəqə dəqiq yaza bilim.",
+        "Mənim mobil internet paketim bu gün bitib, ona görə heç bir xarici keçid açılmır.",
+        "Qapının zəngi çalınır, deyəsən qonşudur—bağlamanın hansı ölkədən gəldiyini bir də təkrar edərsiniz?"
+      ],
+      "sources": [
+        "https://cert.az/news/2025/etx-azerpoct-xeberdarliq6",
+        "https://cert.az/news/2025/etx-ezerpoct-deleduzluq"
+      ]
+    },
+    {
+      "id": "az_job_card_mule",
+      "typology": "job_account_mule",
+      "name": "Yüksək maaşlı uzaqdan iş adı ilə bank kartı icarəsi dələduzluğu",
+      "name_en": "High-Pay Remote Job and Bank Card Money-Mule Recruitment Scam",
+      "prevalence": "high",
+      "lang": "az",
+      "context_keywords": [
+        "uzaqdan iş",
+        "asan qazanc",
+        "komissiya faizi"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "hesabınızı icarəyə",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "köçürmələrdən faiz",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "internet bankçılıq şifrəsi",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kriptovalyutaya çevirmək",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Recruiters call or message applicants promising high-paying, effortless online work managing financial transfers from home.",
+      "legit_en": "Legitimate employers in Azerbaijan sign formal employment contracts registered through the state electronic labor system and pay salaries to the employee's own IBAN account.",
+      "bait_tactics": [
+        "Şirkətin vergi uçot nömrəsini hərflərlə yavaş-yavaş deyin, qələmim yaxşı yazmır.",
+        "Mənim köhnə maaş kartımın müddəti keçən ay bitib, hələ yenisini bankdan götürməmişəm.",
+        "Kompüterim hazırda yenilənir və elektron əmək portalını aça bilmirəm, bir az gözləyin."
+      ],
+      "sources": [
+        "https://tezadlar.az/ukraynadan-idare-olunan-kiberdeleduzluq-sebekesi-ifsa-olunub-din-axtarisda-olanlari-olkeye-getirdi-video/",
+        "https://technote.az/diger/kibertehlukesizlik-uzre-maariflendirme-ayinda-dayan-dusun-deqiqlesdir"
+      ]
+    },
+    {
+      "id": "az_fake_energy_investment",
+      "typology": "investment_group_scam",
+      "name": "Dövlət neft və istiqraz layihələri adı altında saxta investisiya",
+      "name_en": "Fake State Energy Bond and High-Yield Investment Platform Scam",
+      "prevalence": "high",
+      "lang": "az",
+      "context_keywords": [
+        "neft gəlirləri",
+        "aylıq dividend",
+        "broker hesabı"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "zəmanətli yüksək qazanc",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ilkin depozit köçürün",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uzaqdan giriş",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as investment advisors representing national energy projects or major banks after victims click social media ads.",
+      "legit_en": "Licensed investment companies and bond offerings in Azerbaijan are regulated by the Central Bank and traded via the Baku Stock Exchange through authorized banks.",
+      "bait_tactics": [
+        "Bir saniyə, çaydan qaynayır, mətbəxə keçib ocağı söndürüm, sonra lisenziya nömrəsini yazaram.",
+        "Telefonumun enerjisi iki faizə düşüb, indi şarj cihazını axtarıram ki, sönməsin.",
+        "Evdəki Wi-Fi modemi sönüb-yanır, heç bir qeydiyyat səhifəsi açılmır."
+      ],
+      "sources": [
+        "https://marja.az/116903/socar-kapital-bank-ve-abb-nin-adindan-saxta-elanlar-ile-pullari-ele-kecirenler-hebs-edildiler",
+        "https://www.marja.az/public/113581/socar-in-adindan-saxta-kampaniyalar-yeniden-aktivlesib-cagiris"
+      ]
+    }
+  ]
+}

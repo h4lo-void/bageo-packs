@@ -1,0 +1,65 @@
+{
+  "name": "Egypt",
+  "name_local": "مصر",
+  "iso": "eg",
+  "calling_code": "+20",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "Central Bank of Egypt warnings 2025-2026: fake bank or InstaPay staff asking for the card's back digits and a test transfer, and fake Vodafone Cash prizes with an activation fee dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "eg_instapay_card_digits",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال البنك وإنستاباي وطلب أرقام ضهر الكارت",
+      "name_en": "Fake bank or InstaPay staff asking for the card's back digits",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "الأرقام اللي على ضهر الكارت",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank or InstaPay says the account will be closed unless the owner reads the digits on the back of the card or makes a test transfer.",
+      "legit_en": "Egyptian banks never ask for card digits, codes or test transfers on the phone.",
+      "bait_tactics": [
+        "يقول إن الكارت في المحفظة في العربية ويروح يجيبه",
+        "يسأل بهدوء أنهي حساب وإمتى هيتقفل"
+      ],
+      "sources": [
+        "البنك المركزي المصري"
+      ]
+    },
+    {
+      "id": "eg_vodafone_cash_prize_fee",
+      "typology": "prize_lottery",
+      "name": "جايزة فودافون كاش ورسوم تشغيلها",
+      "name_en": "Fake Vodafone Cash prize with an activation fee",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "رسوم تشغيل"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رسوم تشغيل الجايزة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller congratulates the owner on a Vodafone Cash prize and asks for a fee or the wallet code to release it.",
+      "legit_en": "Real prizes are never released for a fee or a wallet code.",
+      "bait_tactics": [
+        "يسأل الجايزة قد إيه وهتوصل إزاي",
+        "يقول إن الموبايل التاني اللي عليه المحفظة مش معاه"
+      ],
+      "sources": [
+        "البنك المركزي المصري"
+      ]
+    }
+  ]
+}

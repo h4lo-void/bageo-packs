@@ -1,0 +1,165 @@
+{
+  "name": "Myanmar",
+  "name_local": "မြန်မာ",
+  "iso": "mm",
+  "calling_code": "+95",
+  "languages": [
+    "my"
+  ],
+  "prevalence_note": "Myanmar 2025-2026 warnings: mobile Wallet OTP and Device-Change Takeover Scam; fake Telecom Operator Promotion and Prize Scam; fake Proxy VPN and Malicious APK Remote Control Scam; fake High-Yield Forex and Gold Investment Scam.",
+  "cross_border_note": "Calls and app links in Burmese, often from Thai or foreign numbers.",
+  "scams": [
+    {
+      "id": "mm_wallet_otp_takeover",
+      "typology": "otp_theft",
+      "name": "မိုဘိုင်းပိုက်ဆံအိတ် OTP နှင့် PIN လိမ်လည်မှု",
+      "name_en": "Mobile Wallet OTP and Device-Change Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "my",
+      "context_keywords": [
+        "အကောင့်အဆင့်မြှင့်",
+        "ငွေမှားလွှဲ",
+        "စက်ပြောင်း"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "လျှို့ဝှက်နံပါတ်",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "အကောင့်ပိတ်သိမ်းမည်",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate mobile wallet or bank customer support staff, claiming your digital wallet requires urgent level-two identity verification, system maintenance, or reversal of a mistaken transfer.",
+      "legit_en": "The Central Bank of Myanmar and licensed mobile wallet providers state that official staff never call customers to ask for OTPs, passwords, or PINs, and advise users to contact official customer service channels directly if suspicious activity occurs.",
+      "bait_tactics": [
+        "ခဏလေးနော်၊ ဒီဘက်မှာ မီးပျက်သွားလို့ အင်တာနက်လိုင်းပါ ကျနေပြီး ဖုန်းအက်ပ်က လုံးဝဖွင့်မရသေးဘူး။",
+        "စာတိုက ဒီဖုန်းထဲ ဝင်မလာသေးဘူး၊ ဖုန်းလိုင်းက တစ်တုံးပဲမိနေလို့ ခဏစောင့်ပေးပါဦးနော်။",
+        "အကောင့်ဖွင့်ထားတဲ့ ဆင်းမ်ကဒ်က အိမ်ကနောက်ဖုန်းတစ်လုံးထဲမှာ ထည့်ထားတာမို့လို့ အခုလက်ထဲမရှိသေးဘူးနော်။"
+      ],
+      "sources": [
+        "https://www.wavemoney.com.mm/media-center/cbm-alert-against-mobile-financial-fraud/",
+        "https://www.gnlm.com.mm/245923-2/"
+      ]
+    },
+    {
+      "id": "mm_telecom_prize_impersonation",
+      "typology": "prize_lottery",
+      "name": "ဖုန်းအော်ပရေတာအမည်ခံ ကံစမ်းမဲလိမ်လည်မှု",
+      "name_en": "Fake Telecom Operator Promotion and Prize Scam",
+      "prevalence": "high",
+      "lang": "my",
+      "context_keywords": [
+        "ကံစမ်းမဲပေါက်",
+        "ဆုကြေးငွေ",
+        "အခွန်ဆောင်"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ကြိုတင်ငွေလွှဲ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ဘဏ်အကောင့်စကားဝှက်",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ဆုထုတ်ယူခပေးချေပါ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call or message pretending to represent major mobile telecom operators, congratulating you on winning a large cash or gold promotion prize.",
+      "legit_en": "Major telecom operators in Myanmar confirm they never request money transfers, account passwords, or mobile wallet details to claim prizes, and contact genuine promotion winners exclusively through verified official shortcodes.",
+      "bait_tactics": [
+        "ဟုတ်လား၊ ဘယ်တုန်းက ကံစမ်းမဲလဲမသိဘူး၊ အပြင်မှာ မိုးသံတွေဆူနေလို့ ပြန်ပြောပေးပါဦးနော်။",
+        "မှတ်ပုံတင်က အိမ်ကဗီရိုထဲမှာ သော့ခတ်ထားလို့ အခုချက်ချင်း ကြည့်ပြောလို့ မရသေးဘူးဖြစ်နေတယ်။",
+        "ဖုန်းအားက နှစ်ရာခိုင်နှုန်းပဲ ကျန်တော့လို့ စက်ပိတ်တော့မယ်၊ အားသွင်းကြိုး အရင်ရှာလိုက်ဦးမယ်နော်။"
+      ],
+      "sources": [
+        "https://mpt.com.mm/en/notification-to-mpt-users-en/",
+        "https://www.atom.com.mm/en/statement/statement-to-advise-customers-not-to-share-persona"
+      ]
+    },
+    {
+      "id": "mm_malicious_vpn_apk",
+      "typology": "tech_support_remote",
+      "name": "အတုအယောင် VPN နှင့် ပြင်ပ APK လင့်ခ်လိမ်လည်မှု",
+      "name_en": "Fake Proxy VPN and Malicious APK Remote Control Scam",
+      "prevalence": "high",
+      "lang": "my",
+      "context_keywords": [
+        "VPN လင့်ခ်",
+        "ဖုန်းထိန်းချုပ်",
+        "ပြင်ပလင့်ခ်"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ဒီလင့်ခ်ကနေ ဒေါင်းလုတ်ဆွဲပါ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ခွင့်ပြုချက်အားလုံးနှိပ်ပါ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Exploiting everyday network proxy needs or posing as technical and customer support staff, callers urge you to tap an unfamiliar link to install a proxy tool, media app, or wallet update.",
+      "legit_en": "Financial institutions and mobile wallet providers in Myanmar never send third-party APK files or proxy download links over phone calls or messages, and advise customers to update banking applications exclusively through official app stores.",
+      "bait_tactics": [
+        "ဖုန်းထဲမှာ မမ်မိုရီပြည့်နေလို့ ဘာဖိုင်မှ ထပ်ဒေါင်းလို့ မရတော့ဘူးဖြစ်နေတယ်နော်။",
+        "ဖုန်းပြောနေတုန်း မိုဘိုင်းဒေတာက သူ့အလိုလို ပြတ်သွားလို့ လင့်ခ်ကို နှိပ်ကြည့်လို့ မရသေးဘူး။",
+        "ဖုန်းက အဟောင်းလေးမို့လို့ မျက်နှာပြင်က ဟန်းနေပြီး ဘာမှနှိပ်မရသေးဘူး ခဏစောင့်ပါနော်။"
+      ],
+      "sources": [
+        "https://www.gnlm.com.mm/kbzpay-warns-of-new-types-of-fraud/"
+      ]
+    },
+    {
+      "id": "mm_high_return_investment",
+      "typology": "investment_group_scam",
+      "name": "အတိုးနှုန်းမြင့် အွန်လိုင်းရင်းနှီးမြှုပ်နှံမှု လိမ်လည်မှု",
+      "name_en": "Fake High-Yield Forex and Gold Investment Scam",
+      "prevalence": "high",
+      "lang": "my",
+      "context_keywords": [
+        "နေ့စဉ်အမြတ်",
+        "မန်ဘာကြေး",
+        "ငွေထုတ်ခ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "နေ့စဉ်အတိုးအမြတ်ရမည်",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ငွေထုတ်ရန်အခွန်အရင်သွင်းပါ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers promote online gold, real estate, or foreign currency trading groups falsely claiming cooperation or licensing from the Central Bank of Myanmar.",
+      "legit_en": "The Central Bank of Myanmar warns the public that authorized banks offer regulated annual interest rates rather than guaranteed daily payouts, and never partner with unlicensed online forex or gold investment promoters soliciting direct transfers.",
+      "bait_tactics": [
+        "စိတ်ဝင်စားဖို့တော့ ကောင်းသားပဲ၊ ဒါပေမဲ့ အိမ်ကမိသားစုနဲ့ အရင်တိုင်ပင်ကြည့်ရဦးမှာမို့လို့ အချက်အလက်လေး ပြန်ပြောပေးပါဦး။",
+        "လောလောဆယ် လက်ထဲမှာ ငွေသားပဲရှိပြီး အကောင့်ထဲ ငွေမထည့်ရသေးလို့ အပြင်ထွက်မှပဲ ကြည့်ရမယ်နော်။",
+        "အသံက လှိုင်းသံတွေဝင်ပြီး တိုးသွားလိုက် ကျယ်သွားလိုက် ဖြစ်နေလို့ သေချာမကြားလိုက်ရဘူးနော်။"
+      ],
+      "sources": [
+        "https://www.gnlm.com.mm/central-bank-of-myanmar-warns-of-online-scams/"
+      ]
+    }
+  ]
+}

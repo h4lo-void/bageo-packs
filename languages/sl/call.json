@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "sl",
+  "status": "draft",
+  "name": {
+    "en": "Slovenian",
+    "zh": "斯洛維尼亞文"
+  },
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, se slišiva?"
+  },
+  "common": {
+    "habits": {
+      "en": "Use dual forms for two people; vi by default.",
+      "zh": "指兩個人時用雙數形式；預設用 vi。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: ti, casual spoken phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 ti，口語隨性，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: ti, or a soft vi; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 ti，或輕鬆的 vi；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: ti with friends, vi with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 ti、陌生人 vi；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished vi, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 vi，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal vi, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 vi，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: ti, casual spoken phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 ti，口語隨性；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: ti, or a soft vi; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 ti，或輕鬆的 vi；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: ti with friends, vi with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 ti、陌生人 vi；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished vi; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 vi；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal vi; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 vi；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Da, tukaj sem, slišim vas. Izvolite, povejte.",
+    "still_there": "Ste še na zvezi?",
+    "bye": "Nasvidenje.",
+    "go_ahead": "Seveda, kar povejte.",
+    "no_thanks": "O, ne, hvala.",
+    "think_about_it": "O tem moram malo razmisliti.",
+    "wait_one_more": "Samo trenutek, počakajte, imam še eno vprašanje.",
+    "no_wait": "«samo trenutek», «sekundo», «počakaj, da preverim», «počakajte, da preverim», «samo malo», «počakajte trenutek»",
+    "unavailable": "Klicana številka trenutno ni dosegljiva. Prosimo, poskusite pozneje.",
+    "preview": [
+      "Halo?",
+      "A, dostava paketa? Seveda, kar pustite ga pred vrati, najlepša hvala.",
+      "V redu, nasvidenje."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "nasvidenje",
+        "adijo",
+        "se slišiva",
+        "se slišimo",
+        "lepo bodite",
+        "lep pozdrav",
+        "vse dobro"
+      ],
+      "wrapups": [
+        "to bi bilo vse",
+        "ne bom vas zadrževal",
+        "pokličem kasneje",
+        "moram končati"
+      ],
+      "examples": {
+        "ends": [
+          "Najlepša hvala za vse informacije, nasvidenje!",
+          "Hvala za klic, zdaj pa res hitim, adijo!",
+          "Prav, sporočim takoj, ko pridem domov, se slišiva!"
+        ],
+        "not_ends": [
+          "Kurir je odložil paket in rekel nasvidenje, jaz pa sem še na zvezi.",
+          "Sodelavec je zaklical adijo, ampak jaz sem še vedno na liniji.",
+          "Zdaj se slišiva veliko bolj čisto, tako da mi lahko mirno poveste."
+        ]
+      }
+    }
+  }
+}

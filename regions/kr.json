@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "code": "kr",
+  "countries": [
+    "kr"
+  ],
+  "name": {
+    "en": "South Korea",
+    "native": "대한민국",
+    "zh": "韓國"
+  },
+  "lang": "ko-KR",
+  "delivery": {
+    "en": "Parcels: 문 앞, the 무인택배함 or the 경비실",
+    "zh": "包裹常放 문 앞、무인택배함或경비실"
+  },
+  "readback": {
+    "en": "Numbers go 3-4-4, 0 said 공; times like 오후 세 시 반",
+    "zh": "號碼照 3-4-4 唸、0 唸「공」，時間說「오후 세 시 반」"
+  },
+  "fraud": {
+    "en": "\"Prosecutor\" safe accounts, card \"couriers\" or \"child\" cash pleas are scams",
+    "zh": "自稱檢察廳轉安全帳戶、卡片配送員、子女急用錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say 문 앞, 무인택배함, 경비실; avoid 당신 and the service-desk 고객님.",
+    "zh": "說 문 앞、무인택배함、경비실；不用 당신 和客服式的 고객님。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost reading glasses, a 공동인증서 password notebook, a banking app stuck updating.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、공동인증서密碼簿不見、網銀 App 一直更新。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: plain 반말, short lively lines, a real reaction plus a follow-up (어어, 아 진짜?), varied.",
+        "zh": "像跟好朋友：用반말，句子短而活潑，真反應並多接一句（어어、아 진짜?），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing 해요체; after they explain, add a considerate remark (아 네네, 고생 많으시네요), varied.",
+        "zh": "溫暖隨和，해요체；對方講完，加一句自己的體貼回應（아 네네、고생 많으시네요），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday 해요체, not stiff. When they finish a point, reply in one full sentence, not a word or two (아 네 그렇군요).",
+        "zh": "日常해요체，不生硬。對方講完一件事，用一句完整的話回應，不只回一兩個字（아 네 그렇군요）。"
+      },
+      "4": {
+        "en": "Courteous 존댓말, complete measured sentences; take up their main point first (말씀 감사합니다), varied.",
+        "zh": "沉穩有禮，존댓말，句子完整；先回應對方重點（말씀 감사합니다），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business 합쇼체 with titles, brisk but warm; answer each point in full (말씀 잘 들었습니다), varied.",
+        "zh": "俐落的商務口吻，합쇼체，明快但有溫度；每個重點完整回應（말씀 잘 들었습니다），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly helper in soft 해요체: a warm reaction first, then say you will pass it on (아 그러시구나), varied.",
+        "zh": "活潑親切的助理，柔和的해요체：先熱絡回應對方，再說會轉告（아 그러시구나），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, calm assistant in warm 해요체: acknowledge their situation kindly, then note the message (아 네 이해했어요), varied.",
+        "zh": "溫和從容的助理，溫暖的해요체：先體貼回應對方處境，再記下留言（아 네 이해했어요），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant, everyday 해요체: answer their point in one full sentence, never a bare 네, then confirm the relay (내용 잘 알겠어요).",
+        "zh": "自然幹練的助理，日常해요체：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（내용 잘 알겠어요）。"
+      },
+      "4": {
+        "en": "Polished secretary in refined 존댓말: take up why they called in full sentences, then pass it on (연락 주셔서 감사합니다), varied.",
+        "zh": "周到的秘書，端正的존댓말：先用完整句子承接來意，再說會轉告（연락 주셔서 감사합니다），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in formal 합쇼체, crisp: answer the details in full, then confirm the relay (용건 정확히 이해하였습니다), varied.",
+        "zh": "主管級助理，正式합쇼체，條理俐落：先完整回應公事重點，再確認轉達（용건 정확히 이해하였습니다），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "문 앞",
+      "무인택배함",
+      "경비실"
+    ],
+    "bank": [
+      "공동인증서",
+      "OTP",
+      "모바일뱅킹"
+    ]
+  },
+  "status": "draft"
+}

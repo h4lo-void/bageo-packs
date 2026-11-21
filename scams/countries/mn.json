@@ -1,0 +1,176 @@
+{
+  "name": "Mongolia",
+  "name_local": "Монгол Улс",
+  "iso": "mn",
+  "calling_code": "+976",
+  "languages": [
+    "mn"
+  ],
+  "prevalence_note": "Mongolia 2025-2026 warnings: verification Code and Phishing Link Account Takeover Scam; online Task and High-Return Commission Scam; bank Account Mule and Fake Bank Security Call Scam; fake Lottery Winner and Telecom Bonus Scam.",
+  "cross_border_note": "Calls and links come in Mongolian, sometimes from foreign numbers.",
+  "scams": [
+    {
+      "id": "mn_otp_link_theft",
+      "typology": "otp_theft",
+      "name": "Баталгаажуулах код болон хуурамч холбоосын залилан",
+      "name_en": "Verification Code and Phishing Link Account Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "mn",
+      "context_keywords": [
+        "судалгааны линк",
+        "мессэж код"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "утсанд очсон кодыг",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "баталгаажуулах дөрвөн оронтой код",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "энэ линкээр ороод",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as telecom staff, survey organizers, or acquaintances claiming a six-digit or four-digit verification code was accidentally sent to the victim's phone or needed to confirm an online survey.",
+      "legit_en": "Mongolian mobile network operators, commercial banks, and government agencies never call citizens to request SMS one-time verification codes or account passwords, and consistently warn users never to share login codes with anyone.",
+      "bait_tactics": [
+        "Өө тийм үү, миний утсанд одоохондоо ямар ч мессэж ирээгүй байна шүү дээ, сүлжээ жаахан муу байгаа юм болов уу?",
+        "Би нүдний шилээ өөр өрөөнд орхичихсон болохоор жижиг тоо харагддаггүй ээ, ямар учиртай бүртгэл гэдгийг дахиад тайлбарлаад өгөөч?",
+        "Утасны цэнэг дуусах гээд дэлгэц нь бүдгэрчихлээ, албан ёсны салбар дээр нь өөрөө очоод шалгуулж болох уу?"
+      ],
+      "sources": [
+        "https://unitel.mn/unitel/news/1004",
+        "https://itoim.mn/a/2026/01/06/society/zfq"
+      ]
+    },
+    {
+      "id": "mn_task_investment_scam",
+      "typology": "investment_group_scam",
+      "name": "Даалгавар биелүүлж мөнгө өсгөх цахим залилан",
+      "name_en": "Online Task and High-Return Commission Scam",
+      "prevalence": "very_high",
+      "lang": "mn",
+      "context_keywords": [
+        "мөнгө өсгөх",
+        "шимтгэл буцаах",
+        "онлайн ажил"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "даалгавар биелүүлээд",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "урьдчилгаа мөнгө шилжүүл",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "данс царцсан тул",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call or follow up on messaging apps offering easy part-time income for liking posts or completing online order tasks.",
+      "legit_en": "Legitimate employers, recruitment agencies, and e-commerce platforms in Mongolia pay salaries under formal contracts and never require workers or customers to deposit personal funds into private bank accounts to unlock commissions.",
+      "bait_tactics": [
+        "Ямар сонин ажил вэ, гэхдээ миний утасны интернэт дата дуусчихсан болохоор одоо юу ч нээж чадахгүй байна аа.",
+        "Байгууллагын албан ёсны гэрээ, татвар төлөгчийн бүртгэл нь хаана байдаг юм бол, цаасаар авч үзэж болох уу?",
+        "Гэрийнхэн маань хүний данс руу урьдчилж мөнгө хийж болохгүй гэж захисан болохоор би эхлээд сайн лавлаж асууя даа."
+      ],
+      "sources": [
+        "https://www.sonin.mn/newsDetail/13757",
+        "https://mddic.gov.mn/mn/%D1%86%D0%B0%D1%85%D0%B8%D0%BC-%D0%B7%D0%B0%D0%BB%D0%B8%D0%BB%D0%B0%D0%BD%D0%B3%D0%B0%D0%B0%D1%81-%D1%81%D1%8D%D1%80%D0%B3%D0%B8%D0%B9%D0%BB%D1%8C%D0%B5-%D0%B0%D1%8F%D0%BD%D1%8B/"
+      ]
+    },
+    {
+      "id": "mn_account_mule_bank",
+      "typology": "job_account_mule",
+      "name": "Данс ашиглуулах болон банкны ажилтан нэр барьсан залилан",
+      "name_en": "Bank Account Mule and Fake Bank Security Call Scam",
+      "prevalence": "high",
+      "lang": "mn",
+      "context_keywords": [
+        "данс түрээслэх",
+        "сэжигтэй гүйлгээ",
+        "гүйлгээ царцаах"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "дансаа түр ашиглуулаад",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "интернэт банкны нэвтрэх нэр",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "аюулгүй данс",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers either impersonate bank security staff claiming suspicious transfers require immediate login verification, or offer quick cash rewards to borrow or rent the recipient's personal bank account and mobile banking access, turning victims into money.",
+      "legit_en": "The Bank of Mongolia, commercial banks, and police strictly warn never to let others use personal bank accounts and confirm that bank staff never request online banking passwords by phone.",
+      "bait_tactics": [
+        "Аль салбараас ярьж байна гэлээ? Гадаа салхитай байгаад сайн сонсогдсонгүй, та дахиад тодруулаад хэлээд өгөөч?",
+        "Би банкны аппликейшнээ гар утсан дээрээ суулгаагүй ээ, маргааш өөрийн биеэр салбар дээр нь очоод шалгуулчихъя.",
+        "Манай дансны дэвтэр гэрт цоожтой шүүгээнд байгаа, яг ямар гүйлгээ гарсан гэдгийг цаг минуттай нь хэлж өгөх үү?"
+      ],
+      "sources": [
+        "https://www.mongolbank.mn/mn/r/10802",
+        "https://police.gov.mn/a/8396"
+      ]
+    },
+    {
+      "id": "mn_prize_lottery_call",
+      "typology": "prize_lottery",
+      "name": "Сугалааны азтан боллоо гэх урамшууллын залилан",
+      "name_en": "Fake Lottery Winner and Telecom Bonus Scam",
+      "prevalence": "high",
+      "lang": "mn",
+      "context_keywords": [
+        "сугалааны азтан",
+        "хонжвор таарлаа",
+        "хүргэлтийн хураамж"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "сугалаанд ялж",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "урьдчилгаа шимтгэл",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "картын дугаар болон нууц код",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers announce that the recipient's phone number won a major prize, cash lottery, or telecom promotion.",
+      "legit_en": "Official Mongolian companies and licensed mobile telecom operators publish verified prize promotions exclusively on official portals and never require lucky-draw winners to wire advance fees to personal accounts or disclose banking PINs.",
+      "bait_tactics": [
+        "Үгүй ээ мөн сонин юм даа, би ерөөсөө сугалаанд бүртгүүлээгүй санагдах юм, хэзээ явагдсан сугалаа билээ?",
+        "Шимтгэл шилжүүлэх боломж одоо алга байна аа, шагналыг нь танай төв байран дээр өөрөө очоод харж байж авч болох уу?",
+        "Утасны дуу сулхан сонсогдоод байна, ямар байгууллагын урамшуулал гэдгийг удаан тод хэлээд өгөөч?"
+      ],
+      "sources": [
+        "https://help.unitel.mn/unitel/pFu3cj/eaw4Y5",
+        "https://unitel.mn/unitel/news/1004"
+      ]
+    }
+  ]
+}

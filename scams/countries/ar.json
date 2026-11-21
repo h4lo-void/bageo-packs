@@ -1,0 +1,185 @@
+{
+  "name": "Argentina",
+  "name_local": "Argentina",
+  "iso": "ar",
+  "calling_code": "+54",
+  "languages": [
+    "es"
+  ],
+  "prevalence_note": "Argentine prosecutors' cybercrime unit 2024-2026: fake Mercado Pago or bank security asking to pass the CBU or change the alias, 'cuento del tío' relatives and old-dollar exchanges, and fake ANSES benefits dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ar_mercadopago_cbu",
+      "typology": "fake_bank_account_alert",
+      "name": "Falso soporte de Mercado Pago / banco (CBU, alias)",
+      "name_en": "Fake Mercado Pago or bank security asking to pass the CBU or change the alias",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "mercado pago"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pasar el cbu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cambiar el alias",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as Mercado Pago or the bank's security area about an unknown purchase, asks to pass the CBU, change the alias, share the screen or read out a security code.",
+      "legit_en": "Real Mercado Pago or bank support never asks to pass the CBU, change the alias, share the screen or read out codes.",
+      "bait_tactics": [
+        "Decir que no encuentra dónde está el CBU en la aplicación y pedir que se lo expliquen despacio",
+        "Preguntar con calma qué compra es y de qué día mientras busca el resumen"
+      ],
+      "sources": [
+        "Ministerio Público Fiscal"
+      ]
+    },
+    {
+      "id": "ar_cuento_del_tio_dolares",
+      "typology": "fake_relative_money",
+      "name": "Cuento del tío: dólares cara chica fuera de circulación",
+      "name_en": "Fake relative or bank clerk collecting 'old' small-face dollars",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "cambio de billetes"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dólares cara chica",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "billetes fuera de circulación",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Plays a relative or a bank clerk saying old small-face dollars go out of circulation and must be handed over or exchanged, then sends someone to the house to collect cash.",
+      "legit_en": "Banks never send people to the house to collect cash or exchange old notes; old US dollars stay valid.",
+      "bait_tactics": [
+        "Mostrarse interesado y preguntar despacio cómo se distinguen los billetes cara chica",
+        "Decir que la plata está guardada en otro lado y preguntar cómo es el trámite paso por paso"
+      ],
+      "sources": [
+        "Ministerio Público Fiscal"
+      ]
+    },
+    {
+      "id": "ar_anses_bono",
+      "typology": "fake_government_subsidy",
+      "name": "Falso bono de ANSES (clave de homebanking)",
+      "name_en": "Fake ANSES benefit asking for the home-banking password",
+      "prevalence": "medium",
+      "lang": "es",
+      "context_keywords": [
+        "anses"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "clave de homebanking",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as ANSES about an extra bonus or refund for retirees and asks for the home-banking password, a token or a trip to the ATM to 'activate' it.",
+      "legit_en": "Real ANSES benefits are paid without calls asking for passwords, tokens or ATM steps.",
+      "bait_tactics": [
+        "Preguntar despacio cuánto es el bono y cuándo se cobra",
+        "Decir que la clave la tiene anotada en un cuaderno que no encuentra y pedir que expliquen otra vez el trámite"
+      ],
+      "sources": [
+        "ANSES"
+      ]
+    },
+    {
+      "id": "ar_messaging_code_theft",
+      "typology": "otp_theft",
+      "name": "Robo de cuenta de mensajería con código de verificación",
+      "name_en": "Messaging Verification Code Account Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "turno de vacunación",
+        "validación de línea móvil"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pasame el código de seis números",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "código que te llegó por mensaje",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirmar el turno con el código",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating public health offices, parcel couriers, or customer support, callers claim they need to confirm an appointment or delivery by asking the recipient to read aloud a six-digit SMS code just sent to their phone, enabling immediate messaging.",
+      "legit_en": "Public agencies, health clinics, postal services, and companies in Argentina and Uruguay never ask citizens to read out SMS verification codes during a phone call, as registration codes belong exclusively to the user.",
+      "bait_tactics": [
+        "Todavía no me entró ningún mensajito de texto, acá en el fondo del departamento casi no agarra señal.",
+        "Pará que no tengo los anteojos de leer a mano y veo toda borrosa la pantalla del celular.",
+        "Disculpá, se me tildó la pantalla mientras hablábamos con el altavoz, dame un segundito."
+      ],
+      "sources": [
+        "https://chequeado.com/el-explicador/estafas-virtuales-que-podes-hacer-si-te-robaron-el-celular-o-te-hackearon-la-cuenta-de-whatsapp/",
+        "https://www.bcra.gob.ar/realizar-un-reclamo-ante-el-banco-central-por-fraude-o-estafa/"
+      ]
+    },
+    {
+      "id": "ar_fake_investment_platform",
+      "typology": "investment_group_scam",
+      "name": "Estafa de falsas plataformas de inversión con rendimientos garantizados",
+      "name_en": "Fraudulent High-Yield Investment Advisory Call Scam",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "rendimiento diario asegurado",
+        "bono de bienvenida",
+        "liberación de ganancias"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "abonar tasa o impuesto para retirar",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ganancias rápidas garantizadas",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transferir a cuenta de tercero",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "After luring users through online advertisements impersonating financial institutions or public figures, fake advisors phone victims promising fast, guaranteed returns.",
+      "legit_en": "Authorized financial intermediaries registered with national securities regulators in Argentina and Uruguay never guarantee fixed high returns via cold calls, nor do they demand separate upfront fee transfers into third-party accounts to release client funds.",
+      "bait_tactics": [
+        "Pará que anoto el número de matrícula para buscarlo en el registro de valores, ¿me lo decís despacio?",
+        "Justo se me estaba hirviendo el agua para el mate en la cocina, dame un segundo que apago la hornalla.",
+        "La computadora del estudio tarda un montón en arrancar, así que todavía no me abre la página."
+      ],
+      "sources": [
+        "https://www.argentina.gob.ar/noticias/advertencia-al-publico-inversor-sobre-nuevas-estafas-virtuales",
+        "https://www.bcra.gob.ar/realizar-un-reclamo-ante-el-banco-central-por-fraude-o-estafa/"
+      ]
+    }
+  ]
+}

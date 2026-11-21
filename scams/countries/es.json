@@ -1,0 +1,118 @@
+{
+  "name": "Spain",
+  "name_local": "España",
+  "iso": "es",
+  "calling_code": "+34",
+  "languages": [
+    "es"
+  ],
+  "prevalence_note": "INCIBE, OCU & Hiya: Double-call electricity/gas supplier switching & fake cut-off threats (Endesa/Iberdrola/CUPS), fake bank 'cuenta segura' & reverse-Bizum fraud, and InfoJobs/WhatsApp task job scams lead reports.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "es_electricidad_cups",
+      "typology": "fake_utility",
+      "name": "Suplantación eléctrica / doble llamada（CUPS・corte de luz）",
+      "name_en": "Fake electricity supplier or double-call tariff switch demanding CUPS/IBAN or threatening cut-off",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "endesa",
+        "iberdrola",
+        "naturgy",
+        "contador eléctrico",
+        "código cups"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "corte de suministro hoy",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "subida en la factura",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims urgent meter fault, immediate power cut-off, or bogus 20% tariff hike endorsed by OCU to extract DNI, CUPS code, IBAN, or SMS contract signature.",
+      "legit_en": "Polite utility or technician confirming a scheduled meter appointment or routine bill payable in the official client portal.",
+      "bait_tactics": [
+        "Mostrar preocupación por la subida o el corte, fingir que busca una factura antigua en el cajón para mirar la potencia contratada",
+        "Equivocarse leyendo números del recibo y pedir que expliquen despacio cómo funciona el tramo horario"
+      ],
+      "sources": [
+        "INCIBE",
+        "OCU",
+        "CNMC",
+        "Hiya"
+      ]
+    },
+    {
+      "id": "es_banco_bizum_inverso",
+      "typology": "fake_bank_account_alert",
+      "name": "Falso gestor bancario y estafa del Bizum inverso",
+      "name_en": "Fake Spanish bank manager demanding safe-account transfer or reverse Bizum payment request",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "gestor bancario",
+        "bizum",
+        "cargo no reconocido",
+        "seguridad bancaria"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "aceptar solicitud de bizum",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "traspasar a una cuenta segura",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake bank security alerts owner to fraudulent card charge and asks for SMS code or transfer to a 'cuenta segura', or buyer sends a Bizum money *request* pretending it is a payment.",
+      "legit_en": "Real bank risk desk blocking a suspicious card without asking for SMS codes, Bizum acceptance, or transfers.",
+      "bait_tactics": [
+        "Fingir que la aplicación del banco se está actualizando muy lento y pedir todos los detalles del supuesto comercio",
+        "Preguntar despacio qué diferencia hay entre enviar y recibir en Bizum porque no encuentra las gafas"
+      ],
+      "sources": [
+        "INCIBE",
+        "Banco de España"
+      ]
+    },
+    {
+      "id": "es_falso_soporte_tecnico",
+      "typology": "tech_support_remote",
+      "name": "Falso soporte técnico: control remoto",
+      "name_en": "Fake tech support with remote control",
+      "prevalence": "medium",
+      "lang": "es",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "programa de control remoto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "alertas de virus",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a software company says the computer sends virus alerts and asks to install a remote-control program and pay for a security renewal.",
+      "legit_en": "Software companies never call about viruses and never ask to control a computer.",
+      "bait_tactics": [
+        "Decir que el ordenador arranca muy lento y preguntar qué debería salir en la pantalla",
+        "Preguntar qué mensaje de error han recibido"
+      ],
+      "sources": [
+        "INCIBE"
+      ]
+    }
+  ]
+}

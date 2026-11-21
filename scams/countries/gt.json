@@ -1,0 +1,185 @@
+{
+  "name": "Guatemala",
+  "name_local": "Guatemala",
+  "iso": "gt",
+  "calling_code": "+502",
+  "languages": [
+    "es"
+  ],
+  "prevalence_note": "Guatemala 2025-2026 warnings: bank Security Impersonation and Vishing Scam; messaging Account Verification Code Takeover Scam; impersonated Relative Urgent Financial Emergency Scam; fake Phone Job Offer and Advance Fee Scam.",
+  "cross_border_note": "Calls in Spanish, often from other Latin American countries or from prisons.",
+  "scams": [
+    {
+      "id": "gt_bank_vishing",
+      "typology": "fake_bank_account_alert",
+      "name": "Suplantación telefónica de entidades bancarias (Vishing)",
+      "name_en": "Bank Security Impersonation and Vishing Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "bloqueo preventivo de tarjeta"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "clave dinámica",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "código enviado por mensaje",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "número completo y código de tarjeta",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters call impersonating bank security agents or telecom representatives, using leaked personal data to build trust.",
+      "legit_en": "Banks across Latin America never ask customers to disclose passwords, card security codes, or dynamic verification tokens over the phone. Customers should hang up immediately and call the official bank helpline.",
+      "bait_tactics": [
+        "Espéreme un momento, la aplicación del banco se quedó cargando porque en este piso casi no entra señal.",
+        "Un segundo, no tengo mis lentes a la mano y no alcanzo a ver los numeritos de la clave dinámica.",
+        "Déjeme buscar mi billetera en el otro cuarto porque no recuerdo cuál tarjeta tengo asociada ahí."
+      ],
+      "sources": [
+        "https://www.gob.pe/institucion/mininter/noticias/1126670-mininter-te-ensena-como-protegerte-del-vishing-y-evitar-que-roben-tus-datos-personales",
+        "https://caivirtual.policia.gov.co/"
+      ]
+    },
+    {
+      "id": "gt_messaging_otp_hijack",
+      "typology": "otp_theft",
+      "name": "Robo de cuenta de mensajería mediante código de verificación",
+      "name_en": "Messaging Account Verification Code Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "código enviado por error",
+        "soporte técnico de mensajería",
+        "registro de dispositivo"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "código de seis dígitos",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "leer el código del mensaje",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "validar cita con código",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pretend to be customer support, a health appointment desk, or a delivery coordinator, claiming they just sent a six-digit SMS code to confirm a booking or prevent account suspension.",
+      "legit_en": "Legitimate appointment desks, couriers, and messaging platforms never phone users to ask for six-digit SMS registration codes. Those verification codes are strictly private for the account holder's own device setup.",
+      "bait_tactics": [
+        "No me ha llegado ningún mensaje de texto todavía, seguro hay demora en la red móvil de mi sector.",
+        "Un momentito, que mientras hablo por altavoz se me bloqueó la pantalla y no me abre la bandeja de mensajes.",
+        "Disculpe, me salieron dos mensajes viejos de la semana pasada, ¿a qué hora exacta envió el suyo?"
+      ],
+      "sources": [
+        "https://www.gob.pe/institucion/mininter/campa%C3%B1as/97003-se-ciberconsciente",
+        "https://www.superfinanciera.gov.co/galeria/20360245/modalidades-de-fraude-cibernetico/"
+      ]
+    },
+    {
+      "id": "gt_relative_emergency",
+      "typology": "fake_relative_money",
+      "name": "Cuento del tío o falso familiar en apuros económicos",
+      "name_en": "Impersonated Relative Urgent Financial Emergency Scam",
+      "prevalence": "very_high",
+      "lang": "es",
+      "context_keywords": [
+        "cambié mi número telefónico",
+        "necesito pagar un trámite urgente",
+        "transferencia a cuenta de tercero"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transferir dinero de inmediato",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "entregar efectivo a un mensajero",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "no llames a mi otro número",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cuenta prestada de un compañero",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call pretending to be a close relative—sometimes using cloned voices or claiming a broken phone—facing an urgent car breakdown, luggage fee, or financial problem.",
+      "legit_en": "Genuine family emergencies across Latin America can always be verified by hanging up the phone and calling the relative's original known number, or by checking with another family member before transferring funds into unfamiliar third-party accounts.",
+      "bait_tactics": [
+        "Se escucha con mucha interferencia en la línea, háblame más despacio que no distingo bien tu voz.",
+        "Espérate un ratito que el token digital del banco se me desconfiguró ayer y no me deja hacer giros.",
+        "¿En qué comisaría o taller exacto me dijiste que estás? Déjame buscar un lapicero para anotar bien."
+      ],
+      "sources": [
+        "https://www.meganoticias.cl/nacional/500643-cuento-del-tio-adulta-mayor-concepcion-llamado-falso-hijo-estafa-200-millones-01-10-2025.html",
+        "https://cc-csirt.policia.gov.co/alertas-tips"
+      ]
+    },
+    {
+      "id": "gt_fake_job_recruitment",
+      "typology": "job_account_mule",
+      "name": "Estafa telefónica con falsas ofertas laborales",
+      "name_en": "Fake Phone Job Offer and Advance Fee Scam",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "trabajo remoto medio tiempo",
+        "cupo laboral aprobado",
+        "proceso de selección inmediato"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "abonar examen o certificado previo",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transferir para activar cuenta laboral",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "comisiones por calificar productos",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ganancias diarias sin experiencia",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited callers claim to represent recruitment agencies or international platforms offering immediate remote or part-time positions with generous daily pay.",
+      "legit_en": "Legitimate employers and recruitment agencies across Latin America conduct formal interviews through verified corporate channels, and they never require job candidates to pay upfront fees for certificates, exams, or task activation.",
+      "bait_tactics": [
+        "Disculpe, postulé a varios avisos el mes pasado; ¿me deletrea el nombre registrado de la empresa?",
+        "Ahorita estoy sin datos móviles para abrir enlaces, deme un segundo que intento conectarme al wifi.",
+        "Espéreme un momento que mi computadora está reiniciando actualizaciones y no puedo abrir el navegador."
+      ],
+      "sources": [
+        "https://g5noticias.cl/2026/11/14/con-mas-de-un-millon-de-personas-desempleadas-alertan-por-estafas-telefonicas-con-falsas-ofertas-laborales/",
+        "https://caivirtual.policia.gov.co/"
+      ]
+    }
+  ]
+}

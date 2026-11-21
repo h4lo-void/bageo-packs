@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "nb",
+  "status": "draft",
+  "name": {
+    "en": "Norwegian",
+    "zh": "挪威文"
+  },
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo, hører du meg?"
+  },
+  "common": {
+    "habits": {
+      "en": "Du with everyone; De is archaic.",
+      "zh": "對所有人都用 du，De 已過時。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: du, chatty spoken phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 du，口語健談，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: du, relaxed and warm; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 du，輕鬆溫暖；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: du with everyone, plain and steady; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：對誰都用 du，平實穩定；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: du, but polished, complete sentences; take up their main point first.",
+          "zh": "有禮：仍用 du，但得體，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: du, businesslike, brisk and precise, answering each point in full.",
+          "zh": "公事：仍用 du，公事化，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: du, chatty spoken phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 du，口語健談；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: du, relaxed and warm; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 du，輕鬆溫暖；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: du with everyone, plain and steady; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：對誰都用 du，平實穩定；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: du, but polished; take up why they called in complete sentences.",
+          "zh": "低調的秘書：仍用 du，但得體；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: du, businesslike; brisk, answering key details in full.",
+          "zh": "主管級助理：仍用 du，公事化；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ja, jeg er her og hører deg. Bare si hva det gjelder.",
+    "still_there": "Hallo, er du der fortsatt?",
+    "bye": "Ha det bra.",
+    "go_ahead": "Ja, vær så god, bare fortell.",
+    "no_thanks": "Å, nei takk.",
+    "think_about_it": "Jeg må tenke litt på det.",
+    "wait_one_more": "Vent litt, jeg har ett spørsmål til.",
+    "no_wait": "«et øyeblikk», «ett sekund», «vent litt», «la meg sjekke», «vent mens jeg sjekker», «bare et lite øyeblikk»",
+    "unavailable": "Nummeret du har ringt er ikke tilgjengelig for øyeblikket. Prøv igjen senere.",
+    "preview": [
+      "Hallo?",
+      "Å ja, en pakke? Bare sett den foran døren, tusen takk.",
+      "Den er grei, ha det bra."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "ha det",
+        "ha det bra",
+        "ha det godt",
+        "ha det fint",
+        "vi snakkes",
+        "snakkes",
+        "vi høres"
+      ],
+      "wrapups": [
+        "da sier vi det sånn",
+        "takk for at du ringte",
+        "jeg må legge på nå",
+        "vi snakkes senere"
+      ],
+      "examples": {
+        "ends": [
+          "Tusen takk for hjelpen i dag, ha det!",
+          "Da snakkes vi nærmere helgen, ha det bra.",
+          "Takk for en hyggelig prat, vi høres!"
+        ],
+        "not_ends": [
+          "Det er greit å ha det skriftlig først, men hva tenker du om tiden?",
+          "Jeg håper dere får ha det bra på hytta, men hvem tar nøklene?",
+          "Man vil jo gjerne ha det godt inne om vinteren, så hva koster det?"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "name": "Malaysia",
+  "name_local": "Malaysia",
+  "iso": "my",
+  "calling_code": "+60",
+  "languages": [
+    "ms",
+    "en",
+    "zh-CN",
+    "ta"
+  ],
+  "prevalence_note": "Malaysia 2025-2026 warnings: police, Tax Agency, and Court Warrant Impersonation Scam; communications Regulator Phone Line Suspension Scam; fake Bank Fraud Alert and Authorization Code Theft; courier Parcel Contraband and Identity Misuse Scam.",
+  "cross_border_note": "Calls in Malay, English or Mandarin, often from spoofed local numbers or from abroad.",
+  "scams": [
+    {
+      "id": "my_enforcement_mahkamah",
+      "typology": "fake_official",
+      "name": "Penipuan Menyamar Pegawai Polis, Cukai dan Mahkamah",
+      "name_en": "Police, Tax Agency, and Court Warrant Impersonation Scam",
+      "prevalence": "very_high",
+      "lang": "ms",
+      "context_keywords": [
+        "tunggakan cukai",
+        "mahkamah persekutuan",
+        "pengubahan wang haram",
+        "siasatan jenayah",
+        "beku akaun"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "waran tangkap",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "akaun selamat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pindahkan wang untuk audit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "jangan beritahu sesiapa",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ikat jamin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Known locally as a Macau Scam, the caller poses as a court, tax board, or police officer alleging unpaid tax arrears, illegal company registration, or money laundering tied to the victim's identity card.",
+      "legit_en": "Malaysian courts, tax authorities, and Royal Malaysia Police never transfer phone calls between enforcement agencies, issue arrest warrants via messaging apps, or instruct citizens to transfer money or share banking credentials.",
+      "bait_tactics": [
+        "Maaf tuan, garis telefon dekat kawasan perumahan saya ni tengah hujan lebat jadi putus-putus, boleh ulang nama jabatan perlahan sikit?",
+        "Saya memang bayar cukai potong gaji setiap bulan, kejap saya cari fail penyata dekat bilik belakang tapi kunci laci pula tak jumpa.",
+        "Kalau betul ada kes rasmi, biar saya pergi sendiri ke balai polis berdekatan petang nanti untuk semak laporan."
+      ],
+      "sources": [
+        "https://www.kehakiman.gov.my/ms/scam-alert",
+        "https://www.malaysia.gov.my/categories/keselamatan--komuniti/keselamatan-siber/hotline-nsrc-997"
+      ]
+    },
+    {
+      "id": "my_telecom_line_block",
+      "typology": "fake_telecom",
+      "name": "Penipuan Sekatan Talian Telefon Menyamar Pengawal Selia",
+      "name_en": "Communications Regulator Phone Line Suspension Scam",
+      "prevalence": "very_high",
+      "lang": "ms",
+      "context_keywords": [
+        "suruhanjaya komunikasi",
+        "bil tertunggak",
+        "aduan penyalahgunaan",
+        "daftar nombor palsu"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "talian disekat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sambung ke pegawai penyiasat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "talian akan ditamatkan",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to represent the national communications regulator or ministry, warning that all mobile numbers registered under the recipient's identity card will be terminated within hours due to spam complaints or unpaid bills.",
+      "legit_en": "Malaysia's communications ministry and telecommunications regulator never call individual subscribers to shut down phone lines, collect overdue bills, or transfer calls to police, as billing and account matters are handled solely by telecom operators.",
+      "bait_tactics": [
+        "Pelik juga sebab bil telefon saya memang potong automatik setiap bulan, nanti saya semak sendiri dalam aplikasi mudah alih saya.",
+        "Sekarang saya tengah memandu di lebuh raya, memang tak boleh salin apa-apa nombor rujukan, hantar surat rasmi ke alamat bil sajalah.",
+        "Talian ni elok saja saya tengah guna bercakap sekarang, petang nanti saya singgah pusat khidmat pelanggan tanya sendiri."
+      ],
+      "sources": [
+        "https://theedgemalaysia.com/node/825818",
+        "https://malaysia.news.yahoo.com/fahmi-wants-stronger-whatsapp-verification-064155883.html"
+      ]
+    },
+    {
+      "id": "my_bank_tac_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "Penipuan Amaran Transaksi Kad Bank dan Kod Pengesahan",
+      "name_en": "Fake Bank Fraud Alert and Authorization Code Theft",
+      "prevalence": "high",
+      "lang": "ms",
+      "context_keywords": [
+        "bahagian keselamatan bank",
+        "transaksi mencurigakan",
+        "batalkan transaksi",
+        "akaun dibekukan"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kod pengesahan",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "nombor pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kata laluan",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pasang fail aplikasi",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating a bank security unit or central bank officer, the caller alerts the recipient to a large overseas card charge or unauthorized transfer.",
+      "legit_en": "Malaysian commercial banks and the central bank only follow up on customer-initiated fraud reports and never make unsolicited calls asking customers to read out banking usernames, passwords, card PINs, or transaction authorization codes.",
+      "bait_tactics": [
+        "Kad bank tu ada dalam dompet saya sekarang dan saya langsung tak pernah aktifkan transaksi luar negara pun.",
+        "Kejap ya, saya letak telefon dulu dan terus hubungi sendiri nombor rasmi di belakang kad bank saya untuk sahkan.",
+        "Telefon saya ni tak keluar apa-apa mesej pengesahan pun sebab liputan dalam bangunan pejabat ni sangat lemah."
+      ],
+      "sources": [
+        "https://nfcc.jpm.gov.my/index.php/en/about-nsrc",
+        "https://www.mycert.org.my/portal/advisory?id=SR-028.122024"
+      ]
+    },
+    {
+      "id": "my_parcel_contraband",
+      "typology": "fake_customs_parcel",
+      "name": "Penipuan Bungkusan Kurier Mengandungi Barang Terlarang",
+      "name_en": "Courier Parcel Contraband and Identity Misuse Scam",
+      "prevalence": "high",
+      "lang": "ms",
+      "context_keywords": [
+        "bungkusan tidak dituntut",
+        "kastam tahan",
+        "barang terlarang",
+        "kad pengenalan palsu"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dokumen haram dalam bungkusan",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sambungkan talian ke balai polis",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bayaran pelepasan kastam",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller poses as a courier representative claiming a parcel sent under the recipient's name and identity number was intercepted containing illicit bank cards, passports, or contraband.",
+      "legit_en": "Legitimate courier and postal operators in Malaysia issue standard tracking numbers for lookup on official websites, never investigate criminal contraband over unsolicited calls, never request personal banking details, and never route customer calls.",
+      "bait_tactics": [
+        "Saya memang tak pernah kirim bungkusan ke negeri itu, bagi nombor jejak bungkusan biar saya semak sendiri dekat laman rasmi.",
+        "Sekarang saya tengah sibuk di tempat kerja, kalau bungkusan tu bukan nama alamat rumah saya, pulangkan saja kepada pengirim asal.",
+        "Tak perlu sambungkan talian ke mana-mana, saya boleh jalan kaki buat semakan sendiri dekat kaunter cawangan lepas waktu pejabat."
+      ],
+      "sources": [
+        "https://www.mycert.org.my/portal/advisory?id=SR-028.122024",
+        "https://help.celcomdigi.com/ms/solutions-latest-notices/penipuan-macau"
+      ]
+    }
+  ]
+}

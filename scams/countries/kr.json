@@ -1,0 +1,105 @@
+{
+  "name": "South Korea",
+  "name_local": "대한민국",
+  "iso": "kr",
+  "calling_code": "+82",
+  "languages": [
+    "ko"
+  ],
+  "prevalence_note": "FSS (금융감독원) & KNPA: Prosecutor/FSS impersonation (서울중앙지검·대포통장·안전계좌·악성 원격앱), low-interest refinancing loan scams (대환대출), card-delivery impersonation (카드 배송원 사칭), and broken-phone family scams dominate.",
+  "cross_border_note": "070 internet numbers and overseas prefixes relayed into Korean 010 numbers are heavily used in voice phishing.",
+  "scams": [
+    {
+      "id": "kr_prosecutor_card_delivery",
+      "typology": "fake_official",
+      "name": "검찰·금감원·카드배송원 사칭（대포통장·안전계좌·원격제어）",
+      "name_en": "Fake Seoul prosecutor, FSS or card courier leading to safe-account or remote-app phishing",
+      "prevalence": "very_high",
+      "lang": "ko",
+      "context_keywords": [
+        "서울중앙지검",
+        "금융감독원",
+        "명의도용",
+        "카드 배송",
+        "신청하지 않은 카드",
+        "우체국 집배원",
+        "신용카드가 발급"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "대포통장이 개설",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "안전계좌로 이체",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "약식조사",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "원격제어 앱 설치",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "보안 점검 앱 설치",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Poses as Seoul Central Prosecutor/FSS or fake credit-card courier ('an unrequested card was issued') routing victim to fake customer service and prosecutors demanding remote apps or safe-account transfers.",
+      "legit_en": "Real parcel/card delivery simply confirming drop-off address with no fake customer-service phone number, remote app, or prosecutor transfer.",
+      "bait_tactics": [
+        "깜짝 놀라 협조하려는 척하면서 돋보기를 찾느라 시간이 걸린다며 사건 경위를 천천히 다시 설명해 달라고 하기",
+        "스마트폰 조작이 서툰 척하며 화면에 뭐가 떠 있는지 모르겠다고 절차부터 자세히 물어보기",
+        "어떤 은행 카드인지 기억이 안 난다며 카드 색깔과 신청 날짜를 천천히 다시 확인해 달라고 하기"
+      ],
+      "sources": [
+        "금융감독원 보이스피싱 지킴이",
+        "경찰청 전기통신금융사기 통합신고대응센터",
+        "금융감독원 2025-2026"
+      ]
+    },
+    {
+      "id": "kr_daehwan_loan",
+      "typology": "loan_advance_fee",
+      "name": "저금리 대환대출·정부지원 서민대출 빙자 사기",
+      "name_en": "Fake government-backed low-interest refinancing loan demanding prior loan payoff",
+      "prevalence": "high",
+      "lang": "ko",
+      "context_keywords": [
+        "대환대출",
+        "정부지원 자금",
+        "서민금융",
+        "햇살론"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "기존 대출금을 먼저 상환",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "중복대출 계약위반",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Offers low-interest government refinancing, then claims applying violated an existing loan contract and demands immediate cash repayment to a designated account or installing a KakaoTalk APK.",
+      "legit_en": "Owner's own bank calmly answering a loan inquiry the owner initiated without cash-repayment threats or APK files.",
+      "bait_tactics": [
+        "금리가 낮아진다니 관심이 많은 척하며 월 상환액과 중도상환수수료를 하나하나 다시 계산해 달라고 하기",
+        "서류를 적어두겠다며 볼펜과 종이를 찾는 척 천천히 조건을 되묻기"
+      ],
+      "sources": [
+        "금융감독원",
+        "서민금융진흥원"
+      ]
+    }
+  ]
+}

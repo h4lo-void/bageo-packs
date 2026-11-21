@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "code": "ro-md",
+  "countries": [
+    "ro",
+    "md"
+  ],
+  "name": {
+    "en": "Romania and Moldova",
+    "native": "România și Republica Moldova",
+    "zh": "羅馬尼亞、摩爾多瓦"
+  },
+  "lang": "ro-RO",
+  "stt": "ro-RO",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, mă auziți?"
+  },
+  "delivery": {
+    "en": "Parcels: easybox, FANbox or la vecin",
+    "zh": "包裹放 easybox、FANbox 或交給鄰居"
+  },
+  "readback": {
+    "en": "Phone numbers go in groups of three",
+    "zh": "電話號碼三位一組唸"
+  },
+  "fraud": {
+    "en": "a \"safe account\", fake police or ANAF or a WhatsApp code are scams",
+    "zh": "要轉到安全帳戶、假警察或 ANAF、要 WhatsApp 碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Use plain Romanian, no Russian loanwords (davai, dostavka).",
+    "zh": "用平實的羅馬尼亞語，不夾俄語借詞（davai、dostavka）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on George, Home'Bank or BT Pay spinning on weak signal, glasses missing, the buletin lost.",
+    "zh": "卡在 George、Home'Bank 或 BT Pay 訊號弱一直轉、找不到眼鏡、buletin 不見。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tu, spoken phrasing, short loose sentences, real reactions (da clar, super), varied.",
+        "zh": "像{owner}跟好朋友聊：用 tu，口語，句子短而隨興、反應真實（如 da clar, super），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: tu; after they explain, add a friendly remark (aha am înțeles, perfect), varied.",
+        "zh": "溫和隨和：用 tu；對方講完，加一句自己的友善回應（如 aha am înțeles, perfect），每次換說法。"
+      },
+      "3": {
+        "en": "tu with friends, dumneavoastră with strangers. After their point, reply with one full sentence, not a word or two (aha înțeleg, bine mulțumesc), varied.",
+        "zh": "朋友 tu、陌生人 dumneavoastră。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 aha înțeleg, bine mulțumesc），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished dumneavoastră, full sentences; take up their main point first (înțeleg pe deplin, desigur), varied.",
+        "zh": "有禮：得體的 dumneavoastră，句子完整，先回應重點（如 înțeleg pe deplin, desigur），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal dumneavoastră, brisk full sentences, little small talk; answer each point (este foarte clar), varied.",
+        "zh": "俐落公事口吻：正式的 dumneavoastră，句子精簡完整，少閒聊；每個重點都回應（如 este foarte clar），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: tu, breezy lines; react warmly to what they share, then say you will pass it on (sigur, super), varied.",
+        "zh": "{owner}活潑的小幫手：用 tu，句子輕快；先熱絡回應對方，再說會轉告（如 sigur, super），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: tu, unhurried; acknowledge their situation, then take the message (înțeleg perfect, am notat), varied.",
+        "zh": "親切從容的助理：用 tu，不趕；先體貼回應處境，再記下留言（如 înțeleg perfect, am notat），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: dumneavoastră with strangers. After their point, answer in one full sentence, then confirm the relay (înțeleg, sigur îi transmit), varied.",
+        "zh": "自然幹練的助理：陌生人用 dumneavoastră。對方講完一件事，先用一句完整的話回應，再確認轉達（如 înțeleg, sigur îi transmit），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished dumneavoastră, full sentences; take up why they called, then offer to pass it on (am reținut, transmit), varied.",
+        "zh": "低調周到的秘書：得體的 dumneavoastră，句子完整；先承接來意再說會轉告（如 am reținut, transmit），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal dumneavoastră, concise and brisk; answer key details in full, then confirm the relay (am înțeles perfect), varied.",
+        "zh": "主管級助理：正式的 dumneavoastră，用語精簡明快；先完整回應重點，再確認轉達（如 am înțeles perfect），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "easybox",
+      "FANbox",
+      "punct de ridicare"
+    ],
+    "bank": [
+      "George",
+      "transfer",
+      "card"
+    ]
+  },
+  "status": "draft"
+}

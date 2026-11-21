@@ -1,0 +1,114 @@
+{
+  "schema": 2,
+  "layer": "fi",
+  "status": "draft",
+  "name": {
+    "en": "Finnish",
+    "zh": "芬蘭文"
+  },
+  "hello": {
+    "hello": "Haloo?",
+    "hello_again": "Haloo? Kuuluuko minua?"
+  },
+  "common": {
+    "habits": {
+      "en": "Sinä with nearly everyone, even at work.",
+      "zh": "幾乎對所有人都用 sinä，職場也是。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: sä, loose spoken forms, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 sä，口語隨興，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: sä, relaxed and warm; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 sä，輕鬆溫暖；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: sinä, spoken but tidy; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：用 sinä，口語但整齊；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: sinä, clean standard forms, complete sentences; take up their main point first.",
+          "zh": "有禮：用 sinä，端正標準語，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: sinä, crisp standard forms, brisk and precise, answering each point in full.",
+          "zh": "公事：用 sinä，俐落標準語，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: sä, loose spoken forms; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 sä，口語隨興；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: sä, relaxed and warm; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 sä，輕鬆溫暖；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: sinä, spoken but tidy; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：用 sinä，口語但整齊；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: sinä, clean standard forms; take up why they called in complete sentences.",
+          "zh": "低調的秘書：用 sinä，端正標準語；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: sinä, crisp standard forms; brisk, answering key details in full.",
+          "zh": "主管級助理：用 sinä，俐落標準語；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Joo, olen tässä ja kuulen sinut. Kerro vain.",
+    "still_there": "Haloo? Oletko vielä linjalla?",
+    "bye": "Moi moi.",
+    "go_ahead": "Joo, kerro vain.",
+    "no_thanks": "Ai, ei kiitos.",
+    "think_about_it": "Täytyy vähän miettiä.",
+    "wait_one_more": "Hei odota, mulla on vielä yksi kysymys.",
+    "no_wait": "«hetkinen», «odota hetki», «odottakaa hetki», «odotapas», «anna mun tarkistaa», «tarkistan», «katsotaanpa», «selvitän»",
+    "unavailable": "Numeroon, johon soitit, ei nyt saada yhteyttä. Yritä myöhemmin uudelleen.",
+    "preview": [
+      "Haloo?",
+      "Ai paketti? Joo, voit jättää sen oven eteen, kiitos paljon.",
+      "Selvä, kiitos, moi moi."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "moi moi",
+        "hei hei",
+        "kuulemiin",
+        "näkemiin",
+        "heippa",
+        "hyvää päivänjatkoa",
+        "soitellaan",
+        "palaillaan"
+      ],
+      "wrapups": [
+        "ei mulla muuta",
+        "ei muuta tällä kertaa",
+        "minun pitää nyt mennä",
+        "puhutaan myöhemmin lisää",
+        "kiitos soitosta",
+        "soitan sinulle myöhemmin"
+      ],
+      "examples": {
+        "ends": [
+          "Kiitos tiedosta, nähdään huomenna, moi moi.",
+          "Selvä, ei muuta tällä kertaa, hyvää päivänjatkoa.",
+          "Ei kiitos, en ole kiinnostunut, hei hei."
+        ],
+        "not_ends": [
+          "Naapuri huikkasi äsken moi moi, mutta jatka vain, kuuntelen.",
+          "Älä sano vielä hei hei, minulla on yksi kysymys laskusta.",
+          "Ohjelman nimi on Kuulemiin ja se maksaa sata euroa kuussa."
+        ]
+      }
+    }
+  }
+}

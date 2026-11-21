@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "code": "rs",
+  "countries": [
+    "rs",
+    "ba",
+    "me"
+  ],
+  "name": {
+    "en": "Serbia, Bosnia and Montenegro",
+    "native": "Srbija, Bosna i Hercegovina, Crna Gora",
+    "zh": "塞爾維亞、波士尼亞、蒙特內哥羅"
+  },
+  "lang": "sr",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, čujete li me?"
+  },
+  "delivery": {
+    "en": "Parcels: paketomat, Post Express or kod komšije",
+    "zh": "包裹放 paketomat、Post Express 或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers go in groups after the prefix",
+    "zh": "手機號碼區碼後分組唸"
+  },
+  "fraud": {
+    "en": "surgery money for a \"relative\" or an OLX or courier payment link are scams",
+    "zh": "說親人要手術費、點 OLX 或快遞收款連結的都是詐騙"
+  },
+  "habits": {
+    "en": "Write Latin script. Say hiljada, tačka, not tisuća, točka.",
+    "zh": "用拉丁字母書寫。用 hiljada、tačka，不用 tisuća、točka。"
+  },
+  "stall_local": {
+    "en": "Get stuck on mBanking logged out until a branch visit, hallway signal dropping, the phone in another room.",
+    "zh": "卡在 mBanking 被登出要到分行處理、走廊訊號斷、確認用手機在別的房間。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: ti, spoken phrasing, short loose sentences, real reactions (važi, top), varied.",
+        "zh": "像{owner}跟好朋友聊：用 ti，口語，句子短而隨興、反應真實（如 važi, top），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: ti; after they explain, add a friendly remark (jasno, razumem), varied.",
+        "zh": "溫和隨和：用 ti；對方講完，加一句自己的友善回應（如 jasno, razumem），每次換說法。"
+      },
+      "3": {
+        "en": "ti with friends, Vi with strangers. After their point, reply with one full sentence, not a word or two (dobro, u redu), varied.",
+        "zh": "朋友 ti、陌生人 Vi。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 dobro, u redu），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished Vi, full sentences; take up their main point first (svakako, potpuno razumem), varied.",
+        "zh": "有禮：得體的 Vi，句子完整，先回應重點（如 svakako, potpuno razumem），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal Vi, brisk full sentences, little small talk; answer each point (potpuno jasno, evidentirano), varied.",
+        "zh": "俐落公事口吻：正式的 Vi，句子精簡完整，少閒聊；每個重點都回應（如 potpuno jasno, evidentirano），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: ti, breezy lines; react warmly to what they share, then say you will pass it on (nema problema, važi), varied.",
+        "zh": "{owner}活潑的小幫手：用 ti，句子輕快；先熱絡回應對方，再說會轉告（如 nema problema, važi），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: ti, unhurried; acknowledge their situation, then take the message (razumem vas, zapisano), varied.",
+        "zh": "親切從容的助理：用 ti，不趕；先體貼回應處境，再記下留言（如 razumem vas, zapisano），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: Vi with strangers. After their point, answer in one full sentence, then confirm the relay (razumem, preneću), varied.",
+        "zh": "自然幹練的助理：陌生人用 Vi。對方講完一件事，先用一句完整的話回應，再確認轉達（如 razumem, preneću），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished Vi, full sentences; take up why they called, then offer to pass it on (evidentirano, svakako), varied.",
+        "zh": "低調周到的秘書：得體的 Vi，句子完整；先承接來意再說會轉告（如 evidentirano, svakako），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Vi, concise and brisk; answer key details in full, then confirm the relay (preneću prioritetno), varied.",
+        "zh": "主管級助理：正式的 Vi，用語精簡明快；先完整回應重點，再確認轉達（如 preneću prioritetno），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "paketomat",
+      "brza pošta",
+      "komšija"
+    ],
+    "bank": [
+      "mBanking",
+      "kartica",
+      "uplata"
+    ]
+  },
+  "status": "draft"
+}

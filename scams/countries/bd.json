@@ -1,0 +1,172 @@
+{
+  "name": "Bangladesh",
+  "name_local": "বাংলাদেশ",
+  "iso": "bd",
+  "calling_code": "+880",
+  "languages": [
+    "bn"
+  ],
+  "prevalence_note": "Bangladesh 2025-2026 warnings: mobile Financial Service PIN and OTP Takeover Scam; spoofed Emergency Helpline and Police Case Extortion; fake Low-Interest Loan Advance Fee Scam; fake Mobile Lottery and Prize Clearance Scam.",
+  "cross_border_note": "Calls in Bengali, often from local mobile numbers.",
+  "scams": [
+    {
+      "id": "bd_mfs_otp_pin",
+      "typology": "otp_theft",
+      "name": "মোবাইল ব্যাংকিং পিন ও ওটিপি প্রতারণা",
+      "name_en": "Mobile Financial Service PIN and OTP Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "bn",
+      "context_keywords": [
+        "ভুল করে টাকা",
+        "ওটিপি কোড"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "পিন নম্বর বলুন",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ভেরিফিকেশন কোড",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "অ্যাকাউন্ট লক হয়ে যাবে",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as mobile financial service customer care agents—or claim cash was mistakenly sent to your mobile wallet—warning that your account will be blocked within minutes unless updated.",
+      "legit_en": "Mobile financial service providers and Bangladesh Bank emphasize that official staff and agents never ask for a user's PIN or SMS OTP over the phone. Customers should verify account issues exclusively through verified official customer helplines.",
+      "bait_tactics": [
+        "ভাই, একটু ধরুন, এলাকায় কারেন্ট চলে গেছে আর রাউটার বন্ধ হয়ে যাওয়ায় মোবাইলের অ্যাপটা একদম খুলছে না।",
+        "আমার এই ফোনে তো কোনো মেসেজ আসেনি, যে সিমে অ্যাকাউন্ট খোলা সেটা অন্য ঘরে চার্জে দেওয়া আছে।",
+        "চশমাটা হাতের কাছে নেই তো, ফোনের ছোট লেখাগুলো একদম ঝাপসা দেখছি, একটু সময় দিন।"
+      ],
+      "sources": [
+        "https://www.bkash.com/en/page/terms-of-use-bkash-app",
+        "https://www.bssnews.net/others/328760",
+        "https://www.thedailystar.net/business/economy/news/bb-seeks-explanation-bkash-over-7000-fake-accounts-4320486"
+      ]
+    },
+    {
+      "id": "bd_police_emergency_spoof",
+      "typology": "fake_official",
+      "name": "জরুরি সেবা ও পুলিশ পরিচয়ে মামলা নিষ্পত্তি প্রতারণা",
+      "name_en": "Spoofed Emergency Helpline and Police Case Extortion",
+      "prevalence": "high",
+      "lang": "bn",
+      "context_keywords": [
+        "মামলা হয়েছে",
+        "গ্রেপ্তার",
+        "সাধারণ ডায়েরি"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "মামলা নিষ্পত্তি করতে টাকা",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "পিন নম্বর দিন",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "এখনই টাকা পাঠান",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters spoof the national emergency service number or impersonate police station officers, claiming a criminal case or formal complaint has been filed against you.",
+      "legit_en": "Bangladesh Police confirm that the national emergency helpline handles only police, fire, and ambulance dispatches. Law enforcement officers never call citizens to demand money, settle cases over the phone, or ask for mobile banking PINs.",
+      "bait_tactics": [
+        "স্যার, রাস্তায় রিকশা আর গাড়ির প্রচণ্ড হর্নের শব্দে আপনার কথা কেটে কেটে যাচ্ছে, কোন জায়গার কথা বললেন?",
+        "আমি তো একটু বাইরে বাজারে এসেছি, কাগজপত্র সব বাসার আলমারিতে তালা দেওয়া আছে।",
+        "নেটওয়ার্ক বারবার ছেড়ে দিচ্ছে স্যার, কথা পরিষ্কার শোনা যাচ্ছে না, একটু দাঁড়ান আমি জানালার পাশে যাচ্ছি।"
+      ],
+      "sources": [
+        "https://www.bssnews.net/others/328760"
+      ]
+    },
+    {
+      "id": "bd_fake_loan_fee",
+      "typology": "loan_advance_fee",
+      "name": "অনলাইন ঋণ ও অগ্রিম জামানত প্রতারণা",
+      "name_en": "Fake Low-Interest Loan Advance Fee Scam",
+      "prevalence": "very_high",
+      "lang": "bn",
+      "context_keywords": [
+        "কম সুদে লোন",
+        "প্রসেসিং ফি",
+        "সহজ কিস্তিতে ঋণ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "অগ্রিম জামানত পাঠান",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "প্রসেসিং ফি জমা দিন",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "বীমা ও ভ্যাটের টাকা",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as loan officers from international development agencies, microfinance bodies, or digital lending platforms, offering instant low-interest loans without collateral.",
+      "legit_en": "Bangladesh Police Cyber Police Center warns that genuine banks and international organizations never issue personal loans via unknown numbers or social media links, and never demand advance security deposits or tax transfers to personal mobile wallets.",
+      "bait_tactics": [
+        "আমি তো এখন অফিসে কাজের ভেতর আছি, মোবাইল ওয়ালেটে এখন কোনো ব্যালেন্সই নেই যে পাঠাব।",
+        "আপনাদের অফিসের নিয়মটা একটু ধীরে বলুন তো, আমি খাতা আর কলমটা খুঁজে লিখে নিচ্ছি।",
+        "ফোনে কথা বলার সময় আমার সিমে ইন্টারনেট ডেটা কাজ করে না, তাই কোনো ফর্ম এখন খোলা যাচ্ছে না।"
+      ],
+      "sources": [
+        "https://en.bonikbarta.com/bangladesh/Bw8ikKEDLzE2SXGc",
+        "https://www.bssnews.net/others/422415",
+        "https://www.thedailystar.net/opinion/editorial/news/protect-people-online-loan-scams-4256811"
+      ]
+    },
+    {
+      "id": "bd_lottery_remittance_prize",
+      "typology": "prize_lottery",
+      "name": "লটারি ও উপহার জেতার ফি প্রতারণা",
+      "name_en": "Fake Mobile Lottery and Prize Clearance Scam",
+      "prevalence": "high",
+      "lang": "bn",
+      "context_keywords": [
+        "লটারি জিতেছেন",
+        "পুরস্কারের টাকা",
+        "গিফট বক্স"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ট্যাক্সের টাকা আগে পাঠান",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "রেজিস্ট্রেশন ফি পাঠান",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers congratulate you on winning a telecom SIM lucky draw, television prize, or overseas gift parcel, then insist that government tax, customs duty, or registration charges must be transferred immediately through a mobile wallet account before the.",
+      "legit_en": "Telecom operators and licensed institutions in Bangladesh never ask promotion winners to send advance tax or clearance fees to personal mobile wallet numbers, and never request account PINs or OTPs to disburse prizes.",
+      "bait_tactics": [
+        "আমি তো কোনো লটারির টিকিটই কিনিনি ভাই, আপনি কি ভুল নম্বরে কল করলেন নাকি একটু দেখুন তো।",
+        "পাশের বাড়িতে ছাদে কাজ চলছে তো, হাতুড়ির শব্দে আপনার কথা কিছুই বোঝা যাচ্ছে না।",
+        "পুরস্কারের টাকা থেকে ফি কেটে রেখে বাকিটা পাঠানোর নিয়ম আছে কি না আমাকে একটু পরে জানান, আমার ফোনের চার্জ শেষ।"
+      ],
+      "sources": [
+        "https://sparkadvocates.com/online-fraud-bangladesh/",
+        "https://www.bssnews.net/others/328760"
+      ]
+    }
+  ]
+}

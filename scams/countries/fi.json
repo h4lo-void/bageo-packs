@@ -1,0 +1,117 @@
+{
+  "name": "Finland",
+  "name_local": "Suomi / Finland",
+  "iso": "fi",
+  "calling_code": "+358",
+  "languages": [
+    "fi",
+    "sv"
+  ],
+  "prevalence_note": "Poliisi and Traficom warnings 2025-2026: fake bank security asking for bank credentials and moving money to a 'safe account', fake police or tax staff asking for online bank codes, and fake technical support.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "fi_valepankki_turvatili",
+      "typology": "fake_bank_account_alert",
+      "name": "Valepankkivirkailija: pankkitunnukset ja turvatili",
+      "name_en": "Fake bank staff asking for credentials and a safe account",
+      "prevalence": "very_high",
+      "lang": "fi",
+      "context_keywords": [
+        "pankin turvallisuusosasto"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "turvatili",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pankkitunnuksesi",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vahvistuskoodi",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department reports a suspicious transfer and asks for bank credentials, a confirmation code or a move of money to a safe account.",
+      "legit_en": "Finnish banks never ask for bank credentials or codes by phone and never move money to a safe account.",
+      "bait_tactics": [
+        "Sanoa, että pankin sovellus päivittyy, ja pyytää selittämään uudestaan rauhassa",
+        "Kysyä, minä päivänä siirto tehtiin ja kuinka suuri summa"
+      ],
+      "sources": [
+        "Poliisi",
+        "Finanssiala"
+      ]
+    },
+    {
+      "id": "fi_valepoliisi_viranomainen",
+      "typology": "fake_official",
+      "name": "Valepoliisi tai -viranomainen: identiteettivarkaus",
+      "name_en": "Fake police or authority about identity theft",
+      "prevalence": "high",
+      "lang": "fi",
+      "context_keywords": [
+        "identiteettivarkaus"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "verkkopankkitunnu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kortin tiedot puhelimessa",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the police, the tax office or Traficom speaks of identity theft or a criminal case and asks for online bank codes, card details or a password.",
+      "legit_en": "The police and other authorities never ask for online bank codes, card details or passwords by phone.",
+      "bait_tactics": [
+        "Sanoa, että pitää etsiä silmälasit, ja pyytää toistamaan hitaasti",
+        "Kysyä, milloin varkauden piti tapahtua"
+      ],
+      "sources": [
+        "Poliisi"
+      ]
+    },
+    {
+      "id": "fi_vale_tekninen_tuki",
+      "typology": "tech_support_remote",
+      "name": "Vale tekninen tuki: etähallintaohjelma",
+      "name_en": "Fake tech support with a remote-control program",
+      "prevalence": "medium",
+      "lang": "fi",
+      "context_keywords": [
+        "tekninen tuki"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asenna ohjelma",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "etähallintaohjelma",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from technical support says the computer has a virus or a licence problem and asks to install a remote-control program and enter credit card details.",
+      "legit_en": "Software companies never call about viruses or licences and never ask to control a computer.",
+      "bait_tactics": [
+        "Sanoa, että tietokone käynnistyy hitaasti, ja kysyä, mitä ruudulla pitäisi näkyä",
+        "Kysyä, minkä virheilmoituksen he saivat"
+      ],
+      "sources": [
+        "Traficom",
+        "Poliisi"
+      ]
+    }
+  ]
+}

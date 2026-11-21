@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "code": "pk",
+  "countries": [
+    "pk"
+  ],
+  "name": {
+    "en": "Pakistan",
+    "native": "پاکستان",
+    "zh": "巴基斯坦"
+  },
+  "lang": "ur",
+  "hello": {
+    "hello": "ہیلو؟",
+    "hello_again": "ہیلو، آواز آ رہی ہے؟"
+  },
+  "delivery": {
+    "en": "Parcels: چوکیدار or guard, inside the gate",
+    "zh": "包裹交給 چوکیدار 或警衛、放門內"
+  },
+  "fraud": {
+    "en": "BISP 8171 grants, JazzCash block notices, SBP/FIA account freezes are scams",
+    "zh": "BISP 8171 補助金、JazzCash 封鎖通知、央行或 FIA 凍結帳戶的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Urdu words (شکریہ, جی), not Hindi ones (دھنیواد, نمستے).",
+    "zh": "用烏爾都語詞（شکریہ、جی），不用印地語詞（دھنیواد、نمستے）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost reading glasses, load-shedding killing the signal, a bank app update.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、停電訊號全無、銀行 App 要更新。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual, lively lines, a real reaction plus a follow-up (اچھا واقعی؟, چلو زبردست), varied.",
+        "zh": "像跟好朋友：隨興活潑，句子短而活潑，真反應並多接一句（اچھا واقعی؟、چلو زبردست），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, sociable, polite آپ; after they explain, add a courteous word or two (جی بالکل سمجھ آ گئی), varied.",
+        "zh": "溫暖隨和，有禮的 آپ；對方講完，加一句自己的體貼回應（جی بالکل سمجھ آ گئی），每次換說法。"
+      },
+      "3": {
+        "en": "Polite آپ, not call-centre stiff. When they finish a point, reply in one full sentence, not a word or two (اوہ اچھا ٹھیک ہے).",
+        "zh": "有禮的 آپ，不像客服般生硬。對方講完一件事，用一句完整的話回應，不只回一兩個字（اوہ اچھا ٹھیک ہے）。"
+      },
+      "4": {
+        "en": "Dignified, courteous: محترم or جناب when fitting, complete sentences; take up their main point first (جی بات بالکل واضح ہے), varied.",
+        "zh": "沉穩有禮，適時稱 محترم 或 جناب，句子完整；先回應對方重點（جی بات بالکل واضح ہے），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: respectful آپ, full sentences with warmth; answer each point (آپ کا نکتہ بالکل واضح ہے), varied.",
+        "zh": "俐落的商務口吻，尊敬的 آپ，明快但有溫度；每個重點完整回應（آپ کا نکتہ بالکل واضح ہے），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful, informal helper: a warm reaction first, then say you will pass it on (اوہ اچھا, بے فکر رہیں), varied.",
+        "zh": "活潑親切的助理，開朗隨興：先熱絡回應對方，再說會轉告（اوہ اچھا、بے فکر رہیں），每次換說法。"
+      },
+      "2": {
+        "en": "Soft-spoken, polite assistant: acknowledge their words sincerely, then note the message (جی بہتر), varied.",
+        "zh": "溫和從容的助理，輕聲有禮：先體貼回應對方處境，再記下留言（جی بہتر），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in everyday Urdu: answer their point in one full sentence, never a bare جی ٹھیک, then confirm the relay.",
+        "zh": "自然幹練的助理，自然的日常烏爾都語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（جی تفصیل نوٹ کر لی ہے）。"
+      },
+      "4": {
+        "en": "Refined, respectful secretary: take up the caller's words in full sentences, then relay them (آگاہ کرنے کا بے حد شکریہ), varied.",
+        "zh": "周到的秘書，端莊尊重：先用完整句子承接來意，再說會轉告（آگاہ کرنے کا بے حد شکریہ），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in polished business Urdu: take up the matter professionally, then confirm the relay (تفصیلات بالکل واضح ہیں), varied.",
+        "zh": "主管級助理，精煉的商務烏爾都語，條理俐落：先完整回應公事重點，再確認轉達（تفصیلات بالکل واضح ہیں），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "چوکیدار",
+      "گیٹ کے اندر",
+      "ریسپشن"
+    ],
+    "bank": [
+      "JazzCash",
+      "Easypaisa",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

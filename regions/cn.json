@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "code": "cn",
+  "countries": [
+    "cn"
+  ],
+  "name": {
+    "en": "Mainland China",
+    "native": "中国大陆",
+    "zh": "中國大陸"
+  },
+  "lang": "cmn",
+  "chinese_dialects": true,
+  "delivery": {
+    "en": "Parcels: the 快遞櫃 or 驛站, or at the door",
+    "zh": "包裹常放快遞櫃、驛站或門口"
+  },
+  "readback": {
+    "en": "Numbers go 3-4-4 with 1 said as 幺; days are 周幾",
+    "zh": "手機號碼照 3-4-4 唸，1 唸「幺」，星期說「周幾」"
+  },
+  "fraud": {
+    "en": "\"Police\" safe accounts, \"refund\" screen sharing, loan cancelling are scams",
+    "zh": "自稱公檢法轉安全帳戶、退款要共享螢幕、注銷貸款額度的都是詐騙"
+  },
+  "habits": {
+    "en": "Say 小區, 物業, 快遞櫃, 周幾; not Hong Kong or Taiwan 管理室, 速遞, 禮拜幾.",
+    "zh": "用大陸說法（小區、物業、快遞櫃、周幾），不用港台說法（管理室、速遞、禮拜幾）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost reading glasses, a phone too full to install an app, a late SMS code.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、手機記憶體滿裝不了 App、簡訊碼遲遲沒到。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a familiar friend: casual 你, lively reactions and a follow-up (哎對, 行啊, 真的假的), varied.",
+        "zh": "像跟好朋友：隨興的 你，句子短而活潑，真反應並多接一句（哎對、行啊、真的假的），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing, mostly 你; after they explain, add a friendly remark (噢好, 辛苦啦), varied.",
+        "zh": "溫暖隨和，多半用 你；對方講完，加一句自己的體貼回應（噢好、辛苦啦），每次換說法。"
+      },
+      "3": {
+        "en": "Balanced 你, relaxed yet steady. When they finish a point, reply in one full sentence, not a word or two (噢明白了).",
+        "zh": "平衡的 你，輕鬆而穩重。對方講完一件事，用一句完整的話回應，不只回一兩個字（噢明白了）。"
+      },
+      "4": {
+        "en": "Poised, courteous: 您 or 你 as fits; complete measured sentences, take up the key point first (有勞您了), varied.",
+        "zh": "沉穩有禮，依對方用 您 或 你，句子完整；先回應對方重點（有勞您了），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: 您 and proper titles, brisk yet engaged; answer each point (清楚, 這個情況我了解了), varied.",
+        "zh": "俐落的商務口吻，用 您 與正確稱謂，明快但有溫度；每個重點完整回應（清楚、這個情況我了解了），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat helper, friendly 你: react warmly first, then say you will pass it on (哎好嘞, 沒問題), varied.",
+        "zh": "活潑親切的助理，用親切的 你：先熱絡回應對方，再說會轉告（哎好嘞、沒問題），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, unhurried assistant, gentle cadence: acknowledge their situation kindly, then note the message (噢明白), varied.",
+        "zh": "溫和從容的助理，語調輕柔：先體貼回應對方處境，再記下留言（噢明白），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant, everyday style: answer their point in one full sentence, never a bare 好, then confirm the relay (明白, 我幫他記下轉達).",
+        "zh": "自然幹練的助理，日常風格：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（明白、我幫他記下轉達）。"
+      },
+      "4": {
+        "en": "Polished secretary, courteous 您: take up why they called in full sentences, then offer to pass it on (了解了), varied.",
+        "zh": "周到的秘書，用有禮的 您：先用完整句子承接來意，再說會轉告（了解了），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant, precise 您, crisp: answer the details in full, then confirm the relay (明白您的意思), varied.",
+        "zh": "主管級助理，用精準的 您，條理俐落：先完整回應公事重點，再確認轉達（明白您的意思），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "快遞櫃",
+      "驛站",
+      "門崗"
+    ],
+    "bank": [
+      "微信支付",
+      "網銀",
+      "銀行卡"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,175 @@
+{
+  "name": "Estonia",
+  "name_local": "Eesti",
+  "iso": "ee",
+  "calling_code": "+372",
+  "languages": [
+    "et",
+    "ru"
+  ],
+  "prevalence_note": "Estonia 2025-2026 warnings: multi-Stage Agency and Bank Digital ID PIN Theft; fake Bank and Police Remote Access Account Takeover; fraudulent Investment Advisor and Crypto Platform Scam; fake Mobile Operator Contract Discount and Billing Scam.",
+  "cross_border_note": "Calls in Estonian or Russian, often from abroad.",
+  "scams": [
+    {
+      "id": "ee_multi_stage_eid_pin_theft",
+      "typology": "otp_theft",
+      "name": "Mitmeastmeline riigiasutuse ja panga PIN1/PIN2 petukõne",
+      "name_en": "Multi-Stage Agency and Bank Digital ID PIN Theft",
+      "prevalence": "very_high",
+      "lang": "et",
+      "context_keywords": [
+        "autentimine"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pin1",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pin2",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uus autentimiskonto",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonate health fund, power grid, or state portal staff in fluent Estonian or Russian, asking victims to confirm meter replacement or unused benefits with PIN1.",
+      "legit_en": "Estonian state agencies, utility providers, and commercial banks never initiate unsolicited phone calls asking residents to enter PIN1 or PIN2 codes, register a new digital identity device, or verify personal state portal sessions during an incoming call.",
+      "bait_tactics": [
+        "Oodake hetk, mul ei tulnud ekraanile ühtegi teavitust, siin paksude seinte vahel on levi täna väga kehv.",
+        "Mu nutitelefon jooksis praegu kokku ja pilt hangus täiesti ära, pean vist seadme korraks taaskäivitama.",
+        "Ma ei leia oma lugemisprille köögist üles ega näe kontrollkoodi numbreid ekraanilt lugeda."
+      ],
+      "sources": [
+        "https://www.politsei.ee/et/uudised/kelmid-on-kasutanud-eesti-ee-andmeid-petuskeemides-13140",
+        "https://www.ria.ee/pettustelaviini-kahju-29-miljonit"
+      ]
+    },
+    {
+      "id": "ee_fake_bank_remote_access",
+      "typology": "tech_support_remote",
+      "name": "Libapanga ja politsei kaughalduse ning turvakonto pettus",
+      "name_en": "Fake Bank and Police Remote Access Account Takeover",
+      "prevalence": "very_high",
+      "lang": "et",
+      "context_keywords": [
+        "turvaosakond",
+        "kaughaldus",
+        "kriminaalmenetlus"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "turvakonto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ärge kellelegi rääkige",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tühistage ülekanne",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters pose as bank fraud officers or police investigators claiming unauthorized loans or outgoing transfers are underway on a personal or company account.",
+      "legit_en": "Legitimate Estonian commercial banks and Police and Border Guard officers never conduct official fraud investigations via consumer messaging apps, never request remote desktop access to personal computers, and never instruct clients to move money into.",
+      "bait_tactics": [
+        "Mul on vana sülearvuti alles uuendusi paigaldamas ja ekraanil näitab alles kahtteist protsenti.",
+        "Siin arvutis nõuab programm administraatori parooli, mille mu pereliige pani ja mida ma peast ei mäleta.",
+        "Kõne hakib praegu tugevalt, korrake palun aeglaselt oma osakonna ja uurija nime, ma otsin pastaka."
+      ],
+      "sources": [
+        "https://www.ria.ee/pettustelaviini-kahju-29-miljonit",
+        "https://pangaliit.ee/pettuste-ennetamine"
+      ]
+    },
+    {
+      "id": "ee_investment_crypto_broker",
+      "typology": "crypto_scam",
+      "name": "Libamaakleri ja krüptoraha investeerimisplatvormi pettus",
+      "name_en": "Fraudulent Investment Advisor and Crypto Platform Scam",
+      "prevalence": "high",
+      "lang": "et",
+      "context_keywords": [
+        "investeerimisplatvorm",
+        "krüptoraha",
+        "kauplemiskonto",
+        "isiklik maakler"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "garanteeritud tulu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "väljamakse tasu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "võtke lisalaenu",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers claiming to be financial brokers follow up on online ads or deepfake celebrity endorsements, promising low-risk high returns in cryptocurrency, stocks, or bonds.",
+      "legit_en": "Licensed investment firms operating in Estonia are strictly supervised by the Estonian Financial Supervision Authority, never guarantee risk-free returns during unsolicited phone calls, and never ask clients to take consumer loans or pay advance fees for.",
+      "bait_tactics": [
+        "Oodake korraks, ma proovin finantsinspektsiooni lehelt teie tegevusloa numbrit üles otsida, kuidas see täht-tähelt käib?",
+        "Mul on pangas päevalimiit nulli keeratud ja ID-kaardi lugeja jäi töö juurde laua peale.",
+        "Internet ruuteris jälle jupsib, veebileht lihtsalt ketrab ega lae ühtegi vormi ära."
+      ],
+      "sources": [
+        "https://www.ria.ee/pettustelaviini-kahju-29-miljonit",
+        "https://pangaliit.ee/pettuste-ennetamine"
+      ]
+    },
+    {
+      "id": "ee_fake_telecom_discount_pin",
+      "typology": "fake_telecom",
+      "name": "Libamobiilioperaatori lepingupikenduse ja sooduspaketi pettus",
+      "name_en": "Fake Mobile Operator Contract Discount and Billing Scam",
+      "prevalence": "high",
+      "lang": "et",
+      "context_keywords": [
+        "sooduspakett"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kinnitage soodustus pin-koodiga",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "number suletakse täna",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pangakaardi andmed",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Using local prepaid SIM-boxes to display genuine domestic numbers, scammers pose as mobile carrier representatives offering steep package discounts, SIM upgrades, or warning of unpaid invoices.",
+      "legit_en": "Estonian mobile network operators manage all plan changes, monthly invoices, and contract renewals inside their official self-service portals and never ask subscribers to dictate card details or approve unexpected banking PIN prompts during cold calls.",
+      "bait_tactics": [
+        "Oot-oot, ma kohe vaatan paberarve pealt järgi, aga ma ei leia sahtlist eelmise kuu kausta üles.",
+        "Iseteeninduse leht annab mulle praegu mingit veateadet ega lase sisse logida.",
+        "Uksekell just helises, kuller on vist ukse taga—rääkige korraks uuesti, mis paketist jutt oli?"
+      ],
+      "sources": [
+        "https://tele2.ee/uudised/petukoned-labi-uute-lahenduste",
+        "https://www.ria.ee/pettustelaviini-kahju-29-miljonit"
+      ]
+    }
+  ]
+}

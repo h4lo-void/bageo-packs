@@ -1,0 +1,112 @@
+{
+  "schema": 2,
+  "layer": "hu",
+  "status": "draft",
+  "name": {
+    "en": "Hungarian",
+    "zh": "匈牙利文"
+  },
+  "hello": {
+    "hello": "Halló?",
+    "hello_again": "Halló, hall engem?"
+  },
+  "common": {
+    "habits": {
+      "en": "Keep te or ön the same all call.",
+      "zh": "te 或 ön 整通電話保持一致。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: te, casual spoken forms, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 te，口語隨性，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: te, or a soft ön; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 te，或輕鬆的 ön；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: te with friends, ön with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 te、陌生人 ön；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished ön, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 ön，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal ön with titles, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 ön，帶頭銜，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: te, casual spoken forms; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 te，口語隨性；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: te, or a soft ön; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 te，或輕鬆的 ön；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: te with friends, ön with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 te、陌生人 ön；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished ön; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 ön；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal ön with titles; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 ön，帶頭銜；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Igen, itt vagyok, hallom önt. Tessék, mondja.",
+    "still_there": "Halló? Még a vonalban van?",
+    "bye": "Viszonthallásra.",
+    "go_ahead": "Hogyne, tessék.",
+    "no_thanks": "Á, nem, köszönöm.",
+    "think_about_it": "Ezen még gondolkodnom kell.",
+    "wait_one_more": "Ja, várjon, még egy kérdésem lenne.",
+    "no_wait": "„egy pillanat”, „várj”, „várjon”, „egy másodperc”, „egy kicsit várj”, „megnézem”, „utánanézek”, „most ellenőrzöm”",
+    "unavailable": "A hívott szám jelenleg nem elérhető. Kérjük, próbálja újra később.",
+    "preview": [
+      "Halló?",
+      "Á, egy csomag? Hogyne, tegye le nyugodtan az ajtó elé, nagyon köszönöm.",
+      "Rendben, viszonthallásra."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "viszontlátásra",
+        "viszonthallásra",
+        "viszlát",
+        "minden jót",
+        "szép napot",
+        "további szép napot",
+        "jó éjszakát"
+      ],
+      "wrapups": [
+        "akkor ennyi",
+        "nem tartom fel tovább",
+        "most le kell tennem",
+        "később visszahívom"
+      ],
+      "examples": {
+        "ends": [
+          "Nagyon köszönöm a segítségét, viszonthallásra.",
+          "Rendben, akkor ennyi, minden jót.",
+          "Mindent felírtam, köszönöm, további szép napot."
+        ],
+        "not_ends": [
+          "Jó napot kívánok, a holnapi kiszállítással kapcsolatban érdeklődnék.",
+          "A futár nem mondta, hogy viszontlátásra, ezért hívom az ügyfélszolgálatot.",
+          "Nem tartom fel tovább egy percnél, csak ellenőrizzük az adatot.",
+          "A kollégáknak minden jót kívánok, most nézzük a szerződés pontjait."
+        ]
+      }
+    }
+  }
+}

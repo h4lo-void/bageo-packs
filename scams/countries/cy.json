@@ -1,0 +1,174 @@
+{
+  "name": "Cyprus",
+  "name_local": "Κύπρος",
+  "iso": "cy",
+  "calling_code": "+357",
+  "languages": [
+    "el"
+  ],
+  "prevalence_note": "Cyprus Police warnings 2025-2026 follow the Greek pattern: fake police and technicians collecting valuables, relative-accident calls, and fake bank security asking for codes.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "cy_psevdo_logistis_epidoma",
+      "typology": "fake_government_subsidy",
+      "name": "Ψεύτικος λογιστής: κρατικό επίδομα",
+      "name_en": "Fake accountant promising a state allowance",
+      "prevalence": "high",
+      "lang": "el",
+      "context_keywords": [
+        "λογιστικό γραφείο"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "κωδικούς e-banking",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "μετρητά και τα κοσμήματα",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as an accountant or tax office says the owner is entitled to an allowance or tax refund and asks for e-banking codes, the OTP or to gather cash and jewellery for a record.",
+      "legit_en": "Accountants and the tax office never ask for e-banking codes or OTPs and never record cash or jewellery at home.",
+      "bait_tactics": [
+        "Να πει ότι ψάχνει τα γυαλιά του και να ζητήσει να του τα ξαναπεί αργά",
+        "Να ρωτήσει ήρεμα για ποιο επίδομα πρόκειται και πόσα χρήματα είναι"
+      ],
+      "sources": [
+        "Ελληνική Αστυνομία"
+      ]
+    },
+    {
+      "id": "cy_psevdo_astynomia_timalfi",
+      "typology": "fake_official",
+      "name": "Ψεύτικοι αστυνομικοί: φύλαξη τιμαλφών",
+      "name_en": "Fake police collecting valuables for safekeeping",
+      "prevalence": "very_high",
+      "lang": "el",
+      "context_keywords": [
+        "φύλαξη τιμαλφών"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "τα τιμαλφή για φύλαξη",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "αφήστε τα κοσμήματα",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police officer speaks of a criminal investigation and asks the owner to hand over money and valuables for safekeeping or leave jewellery at a given spot.",
+      "legit_en": "The police never collect money or valuables from citizens for safekeeping.",
+      "bait_tactics": [
+        "Να πει ότι πρέπει να καθίσει και να ζητήσει να του τα εξηγήσει πάλι",
+        "Να ρωτήσει από ποιο τμήμα τηλεφωνούν"
+      ],
+      "sources": [
+        "Ελληνική Αστυνομία"
+      ]
+    },
+    {
+      "id": "cy_syngenis_troxaio",
+      "typology": "fake_relative_money",
+      "name": "Συγγενής σε τροχαίο: μετρητά για χειρουργείο",
+      "name_en": "Relative in a traffic accident, cash for surgery",
+      "prevalence": "high",
+      "lang": "el",
+      "context_keywords": [
+        "τροχαίο ατύχημα"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "μετρητά για το χειρουργείο",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "να παραλάβει τα χρήματα",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a doctor or relative says a family member was in an accident and needs cash at once for surgery; a colleague will come to collect it.",
+      "legit_en": "Hospitals never collect cash from relatives at the door before treatment.",
+      "bait_tactics": [
+        "Να πει ότι δεν ακούει καλά και να ζητήσει να επαναλάβει σε ποιο νοσοκομείο",
+        "Να ρωτήσει πώς λέγεται ο γιατρός"
+      ],
+      "sources": [
+        "Ελληνική Αστυνομία"
+      ]
+    },
+    {
+      "id": "cy_psevdo_texnikos_reymatos",
+      "typology": "fake_utility",
+      "name": "Ψεύτικος τεχνικός ρεύματος: διαρροή και τιμαλφή",
+      "name_en": "Fake electricity technician and valuables",
+      "prevalence": "medium",
+      "lang": "el",
+      "context_keywords": [
+        "διαρροή ρεύματος"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "τυλίξτε τα τιμαλφή",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "σε αλουμινόχαρτο",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as an electricity network technician warns of a dangerous leak and asks the owner to take out cash and jewellery, wrap them in foil and leave them at the door.",
+      "legit_en": "Electricity companies never ask customers to move or hand over valuables.",
+      "bait_tactics": [
+        "Να πει ότι ο πίνακας είναι στο υπόγειο και να ρωτήσει τι ακριβώς να κοιτάξει",
+        "Να ρωτήσει πότε θα έρθει ο τεχνικός"
+      ],
+      "sources": [
+        "ΔΕΔΔΗΕ",
+        "Ελληνική Αστυνομία"
+      ]
+    },
+    {
+      "id": "cy_psevdo_trapeza_asfaleia",
+      "typology": "fake_bank_account_alert",
+      "name": "Ψεύτικο τμήμα ασφαλείας τράπεζας: κωδικός επιβεβαίωσης",
+      "name_en": "Fake bank security asking for a confirmation code",
+      "prevalence": "high",
+      "lang": "el",
+      "context_keywords": [
+        "ύποπτη συναλλαγή"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "εξαψήφιο κωδικό",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "εγκρίνετε την ειδοποίηση",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department reports a suspicious transaction and asks for the six-digit confirmation code or to approve a notification in the bank app.",
+      "legit_en": "Banks never ask for confirmation codes or approvals by phone to cancel a transaction.",
+      "bait_tactics": [
+        "Να πει ότι η εφαρμογή της τράπεζας ενημερώνεται και να ζητήσει να του το εξηγήσει πάλι",
+        "Να ρωτήσει για ποιο ποσό είναι η συναλλαγή"
+      ],
+      "sources": [
+        "Ελληνική Αστυνομία"
+      ]
+    }
+  ]
+}

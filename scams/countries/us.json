@@ -1,0 +1,166 @@
+{
+  "name": "United States",
+  "name_local": "United States",
+  "iso": "us",
+  "calling_code": "+1",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "prevalence_note": "FTC & Hiya 2025-2026: Medicare card/brace impersonation, IRS/SSA arrest-warrant & gift-card/crypto ATM scams, Amazon/Geek Squad refund + remote-access scams, and spoofed bank Zelle 'pay yourself' fraud lead losses.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "us_medicare_benefits",
+      "typology": "medicare_benefits",
+      "name": "Medicare Card / Free Brace / Genetic Kit Scam",
+      "name_en": "Medicare card update, back brace or genetic testing kit scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "medicare advantage",
+        "genetic testing",
+        "back brace",
+        "knee brace",
+        "plastic medicare card"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "verify your medicare number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "new chip medicare card",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited caller offering a new plastic/chip Medicare card, free back/knee brace, or DNA swab kit while asking for the owner's Medicare number, SSN or doctor details.",
+      "legit_en": "The owner's own clinic or pharmacy confirming an existing prescription or appointment without cold-calling for Medicare numbers.",
+      "bait_tactics": [
+        "Act interested in the brace or new card, pretend your wallet is upstairs and slowly ask what colors or sizes the brace comes in",
+        "Mishear letters on the card and ask them to explain step by step how the chip card is different from the paper one"
+      ],
+      "sources": [
+        "FTC",
+        "CMS Medicare",
+        "Hiya Global Call Threat Report"
+      ]
+    },
+    {
+      "id": "us_irs_ssa_warrant",
+      "typology": "irs_ssa_impersonation",
+      "name": "IRS Back-Tax / Social Security Suspension Scam",
+      "name_en": "IRS back-taxes or Social Security number suspended warrant scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "internal revenue",
+        "back taxes",
+        "social security administration",
+        "federal warrant"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "social security number has been suspended",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bitcoin atm",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "prepaid debit voucher",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Threatens arrest warrant or SSN suspension over unpaid taxes or a crime in Texas/border, demanding immediate payment via gift cards, wire, or crypto ATM.",
+      "legit_en": "Accountant or state office returning the owner's own tax inquiry without threats, gift cards, or arrest claims.",
+      "bait_tactics": [
+        "Sound flustered and cooperative, ask them to slowly spell out which tax year had the math error while looking for reading glasses",
+        "Ask convoluted questions about deductions and payment forms while pretending your car keys are missing"
+      ],
+      "sources": [
+        "IRS",
+        "SSA OIG",
+        "FTC"
+      ]
+    },
+    {
+      "id": "us_amazon_geek_zelle",
+      "typology": "fake_bank_account_alert",
+      "name": "Amazon / Geek Squad Refund & Bank Zelle Safe-Account Scam",
+      "name_en": "Fake Amazon/Geek Squad unauthorized order or bank Zelle fraud-desk scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "geek squad",
+        "unauthorized order",
+        "zelle",
+        "fraud department"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "zelle the money to yourself",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "accidental overpayment refund",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims an unauthorized $999 iPhone/Geek Squad renewal hit the account, or spoofed bank fraud desk instructs victim to Zelle money 'to yourself' / safe locker or install AnyDesk.",
+      "legit_en": "Real card fraud desk asking yes/no whether a specific purchase was yours and offering to mail a replacement card, with no Zelle, code, or remote app.",
+      "bait_tactics": [
+        "Act worried about the charge, pretend the banking or Amazon app is stuck loading on slow Wi-Fi, and ask every detail about the item model and shipping city",
+        "Pretend to misread screen buttons and ask them to walk through how Zelle reversal works from the beginning"
+      ],
+      "sources": [
+        "FTC",
+        "FBI IC3",
+        "Hiya"
+      ]
+    },
+    {
+      "id": "us_ezpass_toll_scam",
+      "typology": "fake_utility",
+      "name": "Unpaid Toll Road / E-ZPass Suspension Scam",
+      "name_en": "Fake E-ZPass or state toll agency threatening late penalty or license suspension",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "ezpass",
+        "toll balance",
+        "turnpike"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "unpaid toll balance",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "suspend your vehicle registration",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims an unpaid road toll will trigger immediate late fees or DMV registration suspension unless paid right now via link or card over the phone.",
+      "legit_en": "State toll agencies mail paper invoices and never demand instant phone/link card entry under registration threats.",
+      "bait_tactics": [
+        "Act puzzled because you haven't driven on the highway in months and slowly describe two old cars in your garage to check which plate it was"
+      ],
+      "sources": [
+        "FTC",
+        "FCC",
+        "FBI IC3 2025-2026"
+      ]
+    }
+  ]
+}

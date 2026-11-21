@@ -1,0 +1,64 @@
+{
+  "schema": 2,
+  "layer": "ceb",
+  "status": "draft",
+  "name": {
+    "en": "Cebuano",
+    "zh": "宿霧語"
+  },
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello? Nadungog nimo ko?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Oo, naa ko, nadungog tika. Sige, istorya lang.",
+    "still_there": "Naa pa ka diha?",
+    "bye": "Sige, babay.",
+    "go_ahead": "Sige, padayon lang.",
+    "no_thanks": "Dili lang, salamat.",
+    "think_about_it": "Hunahunaon nako una kana.",
+    "wait_one_more": "Hulat kadiyot, naa pa koy usa ka pangutana.",
+    "no_wait": "«kadiyot lang», «hulat kadiyot», «hulat, tan-awon nako», «palihog hulat kadiyot», «palihog hulat, i-check nako»",
+    "unavailable": "Ang numero nga imong gitawagan dili makontak karon. Suwayi pag-usab unya.",
+    "preview": [
+      "Hello?",
+      "Ah, package? Sige, ibutang lang palihog sa may pultahan, daghang salamat.",
+      "Sige ha, amping, babay!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "Babay",
+        "Ibutang na nako",
+        "Ayo-ayo",
+        "Amping",
+        "Amping mo diha",
+        "Sige, bye",
+        "Hangtod sa sunod",
+        "Una na ko",
+        "Kita ta puhon"
+      ],
+      "wrapups": [
+        "Sige ha",
+        "Mag-storya ta unya",
+        "Tawag lang ko balik",
+        "Molakaw na ko",
+        "Mao ra to",
+        "Unya na lang"
+      ],
+      "examples": {
+        "ends": [
+          "Salamat kaayo sa pagtawag ha, sige, babay!",
+          "Sige, klaro na tanan, ibutang na nako.",
+          "Mag-storya ta unya, amping mo diha!"
+        ],
+        "not_ends": [
+          "Niingon siya og babay ganina unya nakalimot sa bag, asa siya paingon?",
+          "Ayaw sa pag-ingon og babay kay naa pa koy importante nga pangutana.",
+          "Ibutang na nako kining papeles sa lamesa samtang nag-storya pa ta."
+        ]
+      }
+    }
+  }
+}

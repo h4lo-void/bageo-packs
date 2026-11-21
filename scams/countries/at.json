@@ -1,0 +1,178 @@
+{
+  "name": "Austria",
+  "name_local": "Österreich",
+  "iso": "at",
+  "calling_code": "+43",
+  "languages": [
+    "de"
+  ],
+  "prevalence_note": "Watchlist Internet and police 2025-2026: fake bank calls about expiring ID Austria certificates asking for the Verfügernummer and app approval, fake police collecting gold and cash, and fake post or customs fees dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "at_id_austria_bankanruf",
+      "typology": "fake_bank_account_alert",
+      "name": "ID Austria / Bankanruf (Verfügernummer, Freigabe)",
+      "name_en": "Fake bank call about ID Austria asking for the Verfügernummer and an app approval",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "id austria",
+        "finanzonline"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "verfügernummer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "freigabe in george",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as the bank's security team about an expiring ID Austria certificate, asks for the Verfügernummer, an approval in the banking app or a move to a 'Sicherheitskonto'.",
+      "legit_en": "Real Austrian banks never ask for the Verfügernummer, approvals in the app or moving money by phone.",
+      "bait_tactics": [
+        "Verwirrt fragen, wo man die Verfügernummer überhaupt findet, und sich alles langsam erklären lassen",
+        "Sagen, dass das Handy gerade lädt, und nachfragen, was genau mit dem Zertifikat passiert"
+      ],
+      "sources": [
+        "Watchlist Internet"
+      ]
+    },
+    {
+      "id": "at_falsche_polizisten",
+      "typology": "fake_relative_money",
+      "name": "Falsche Polizisten / Unfall-Kaution",
+      "name_en": "Fake police or relative-crash call collecting gold or cash",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "landeskriminalamt"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "goldmünzen übergeben",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "stillschweigen bewahren",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake officers say burglars or a relative's crash put the owner's savings at risk, ask to keep silent and hand cash, gold coins or valuables to a messenger.",
+      "legit_en": "Real Austrian police never collect cash, gold or valuables and never ask people to keep silent toward their family.",
+      "bait_tactics": [
+        "Erschrocken klingen und langsam nach dem Namen des Beamten und der Dienststelle fragen",
+        "Sagen, dass der Schlüssel zum Kasten gerade nicht auffindbar ist, und fragen, wie die Übergabe genau ablaufen soll"
+      ],
+      "sources": [
+        "Bundeskriminalamt",
+        "Watchlist Internet"
+      ]
+    },
+    {
+      "id": "at_falsche_kriminalpolizei",
+      "typology": "fake_official",
+      "name": "Falsche Kriminalpolizei: Sicherheitsverwahrung",
+      "name_en": "Fake criminal police taking valuables into safekeeping",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "kriminalpolizei"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "sicherheitsverwahrung",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "zivilbeamter holt",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kaution sofort bezahlen",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the criminal police says a relative is arrested or burglars are near and asks for bail at once or for cash and jewellery to be handed to a plain-clothes officer for safekeeping.",
+      "legit_en": "Austrian police never collect bail, cash or jewellery at the door.",
+      "bait_tactics": [
+        "Sagen, dass man sich erst hinsetzen muss, und bitten, alles noch einmal langsam zu erklären",
+        "Fragen, wann der Kollege vorbeikommen will"
+      ],
+      "sources": [
+        "Bundeskriminalamt"
+      ]
+    },
+    {
+      "id": "at_finanzonline_id_austria",
+      "typology": "tax_refund_scam",
+      "name": "Falsches Finanzamt: ID Austria Freigabe",
+      "name_en": "Fake tax office asking for an ID Austria approval",
+      "prevalence": "medium",
+      "lang": "de",
+      "context_keywords": [
+        "finanzonline"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "id austria freigabe",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "steuergutschrift verfällt",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the tax office says a tax credit expires today and asks for login details or to approve a request in ID Austria.",
+      "legit_en": "The tax office never asks for ID Austria approvals or login details by phone.",
+      "bait_tactics": [
+        "Sagen, dass die Brille im Auto liegt, und fragen, um welches Jahr es geht",
+        "Fragen, wie hoch die Gutschrift sein soll"
+      ],
+      "sources": [
+        "BMF"
+      ]
+    },
+    {
+      "id": "at_bank_tan_freigabe",
+      "typology": "otp_theft",
+      "name": "Falsche Bank: TAN vorlesen oder Freigabe bestätigen",
+      "name_en": "Fake bank asking to read out a TAN or confirm an approval",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "tan-code vorlesen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "freigabe in der banking-app",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security team reports a suspicious payment and asks to read out the TAN code or confirm an approval in the banking app to stop it.",
+      "legit_en": "Austrian banks never ask customers to read out TAN codes or confirm approvals to stop a payment.",
+      "bait_tactics": [
+        "Sagen, dass die Banking-App gerade lädt, und bitten, es noch einmal zu erklären",
+        "Fragen, welche Zahlung es war und an welchem Tag"
+      ],
+      "sources": [
+        "Bundeskriminalamt"
+      ]
+    }
+  ]
+}

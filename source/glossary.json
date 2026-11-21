@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "terms": [
+    {
+      "en": "Bageo",
+      "keep": true,
+      "note": "the product name; never translated"
+    },
+    {
+      "en": "console",
+      "note": "the web page where Bageo is set up (not 'admin panel' or 'web UI')"
+    },
+    {
+      "en": "password",
+      "note": "the password that opens the console (not 'access token')"
+    },
+    {
+      "en": "Token",
+      "keep": true,
+      "note": "only the MCP token; notification services keep the field names shown on screen"
+    },
+    {
+      "en": "normal phone",
+      "note": "the phone rings as usual and nobody answers for you; paired with 'AI answers'"
+    },
+    {
+      "en": "AI answers",
+      "note": "the AI picks up the call; paired with 'normal phone'"
+    },
+    {
+      "en": "blacklist",
+      "note": "numbers that are declined; not 'block list' as a list name"
+    },
+    {
+      "en": "whitelist",
+      "note": "trusted numbers"
+    },
+    {
+      "en": "stall list",
+      "note": "numbers the AI keeps talking to so they waste their time"
+    },
+    {
+      "en": "blocked-call announcement",
+      "note": "the voice played to declined numbers"
+    },
+    {
+      "en": "AI errand",
+      "note": "a call the AI places for you"
+    },
+    {
+      "en": "to-do",
+      "note": "things the owner has to deal with after a call"
+    },
+    {
+      "en": "notification channel",
+      "note": "where notifications are sent (Telegram, email ...), not 'channel' in the chat sense"
+    },
+    {
+      "en": "summary",
+      "note": "short write-up of a call"
+    },
+    {
+      "en": "transcript",
+      "note": "word-for-word text of a call"
+    },
+    {
+      "en": "text message",
+      "note": "SMS"
+    },
+    {
+      "en": "calendar",
+      "note": "the owner's calendar"
+    }
+  ]
+}

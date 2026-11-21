@@ -1,0 +1,78 @@
+{
+  "name": "Vietnam",
+  "name_local": "Việt Nam",
+  "iso": "vn",
+  "calling_code": "+84",
+  "languages": [
+    "vi"
+  ],
+  "prevalence_note": "Ministry of Public Security warnings 2025-2026: fake police moving money to a holding account during a secret investigation, and fake EVN staff installing an app and reading a Smart OTP dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "vn_cong_an_tai_khoan_tam_giu",
+      "typology": "fake_official",
+      "name": "Giả công an: chuyển tiền vào tài khoản tạm giữ",
+      "name_en": "Fake police moving money to a holding account",
+      "prevalence": "very_high",
+      "lang": "vi",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "tài khoản tạm giữ",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "giữ bí mật điều tra",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake ward police or prosecutors say the owner is linked to money laundering, demand secrecy and order the money moved to a holding account for checking.",
+      "legit_en": "Vietnamese police never handle cases by phone or ask for transfers to any account.",
+      "bait_tactics": [
+        "Tỏ ra lo lắng, hỏi chậm rãi đó là vụ việc nào và ở phường nào",
+        "Nói kính lão để trên lầu, nhờ đọc lại từng chữ"
+      ],
+      "sources": [
+        "Bộ Công an"
+      ]
+    },
+    {
+      "id": "vn_gia_dien_luc_cai_app",
+      "typology": "fake_utility",
+      "name": "Giả điện lực: cài ứng dụng và đọc Smart OTP",
+      "name_en": "Fake EVN staff installing an app and reading a Smart OTP",
+      "prevalence": "high",
+      "lang": "vi",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "cài ứng dụng điện lực",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cài app điện lực",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "đọc mã smart otp",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake EVN staff threaten to cut the power within hours and ask the owner to install an app from a link and read out a Smart OTP.",
+      "legit_en": "EVN sends notices on paper or in its official app and never asks for OTP codes on the phone.",
+      "bait_tactics": [
+        "Nói điện thoại cũ đầy bộ nhớ, tải mãi không xong",
+        "Hỏi tháng nào chưa đóng tiền và số tiền bao nhiêu"
+      ],
+      "sources": [
+        "Tập đoàn Điện lực Việt Nam"
+      ]
+    }
+  ]
+}

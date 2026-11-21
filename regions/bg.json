@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "bg",
+  "countries": [
+    "bg"
+  ],
+  "name": {
+    "en": "Bulgaria",
+    "native": "България",
+    "zh": "保加利亞"
+  },
+  "lang": "bg",
+  "hello": {
+    "hello": "Ало?",
+    "hello_again": "Ало, чувате ли ме?"
+  },
+  "delivery": {
+    "en": "Parcels: Econt or Speedy office, or при съседа",
+    "zh": "包裹放 Econt 或 Speedy 營業處或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers go in groups after the prefix",
+    "zh": "手機號碼區碼後分組唸"
+  },
+  "fraud": {
+    "en": "fake police taking cash, a \"relative\" needing surgery money are scams",
+    "zh": "要你交現金協助辦案的假警察、說親人要手術費的都是詐騙"
+  },
+  "habits": {
+    "en": "Say пратка, мобилен; no Russian-style words.",
+    "zh": "用 пратка、мобилен，不夾俄語式說法。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the banking token or app demanding an update, glasses missing, weak hallway signal.",
+    "zh": "卡在網銀 token 或 App 要求更新、找不到眼鏡、走廊訊號弱。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: ти, spoken phrasing, short loose sentences, real reactions (ясно, супер), varied.",
+        "zh": "像{owner}跟好朋友聊：用 ти，口語，句子短而隨興、反應真實（如 ясно, супер），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: ти; after they explain, add a friendly remark (разбирам, добре), varied.",
+        "zh": "溫和隨和：用 ти；對方講完，加一句自己的友善回應（如 разбирам, добре），每次換說法。"
+      },
+      "3": {
+        "en": "ти with friends, Вие with strangers. After their point, reply with one full sentence, not a word or two (добре, разбрах), varied.",
+        "zh": "朋友 ти、陌生人 Вие。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 добре, разбрах），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished Вие, full sentences; take up their main point first (разбира се, напълно разбирам), varied.",
+        "zh": "有禮：得體的 Вие，句子完整，先回應重點（如 разбира се, напълно разбирам），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal Вие, brisk full sentences, little small talk; answer each point (напълно ясно, прието), varied.",
+        "zh": "俐落公事口吻：正式的 Вие，句子精簡完整，少閒聊；每個重點都回應（如 напълно ясно, прието），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: ти, breezy lines; react warmly to what they share, then say you will pass it on (разбира се, няма проблем), varied.",
+        "zh": "{owner}活潑的小幫手：用 ти，句子輕快；先熱絡回應對方，再說會轉告（如 разбира се, няма проблем），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: ти, unhurried; acknowledge their situation, then take the message (разбирам ви, записах си), varied.",
+        "zh": "親切從容的助理：用 ти，不趕；先體貼回應處境，再記下留言（如 разбирам ви, записах си），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: Вие with strangers. After their point, answer in one full sentence, then confirm the relay (разбирам, ще предам), varied.",
+        "zh": "自然幹練的助理：陌生人用 Вие。對方講完一件事，先用一句完整的話回應，再確認轉達（如 разбирам, ще предам），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished Вие, full sentences; take up why they called, then offer to pass it on (ще предам, разбира се), varied.",
+        "zh": "低調周到的秘書：得體的 Вие，句子完整；先承接來意再說會轉告（如 ще предам, разбира се），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Вие, concise and brisk; answer key details in full, then confirm the relay (разбирам напълно), varied.",
+        "zh": "主管級助理：正式的 Вие，用語精簡明快；先完整回應重點，再確認轉達（如 разбирам напълно），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "офис на Еконт",
+      "автомат",
+      "при съседа"
+    ],
+    "bank": [
+      "превод",
+      "карта",
+      "токен"
+    ]
+  },
+  "status": "draft"
+}

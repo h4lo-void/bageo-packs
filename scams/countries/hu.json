@@ -1,0 +1,125 @@
+{
+  "name": "Hungary",
+  "name_local": "Magyarország",
+  "iso": "hu",
+  "calling_code": "+36",
+  "languages": [
+    "hu"
+  ],
+  "prevalence_note": "Police and MNB (KiberPajzs) warnings 2025-2026: fake bank security staff moving money to a 'security account' with remote access apps, fake police secret investigations, and the grandchild method.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "hu_hamis_bankbiztonsag",
+      "typology": "fake_bank_account_alert",
+      "name": "Hamis banki biztonsági munkatárs: biztonsági számla",
+      "name_en": "Fake bank security moving money to a security account",
+      "prevalence": "very_high",
+      "lang": "hu",
+      "context_keywords": [
+        "bankbiztonsági osztály"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "biztonsági számla",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "netbank belépési adatok",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "zárolják a számláját",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department or the central bank reports a suspicious transfer and asks for netbank login details, an SMS code, remote access or a transfer to a security account.",
+      "legit_en": "Banks never ask for netbank passwords or codes by phone and never move customers' money to a security account.",
+      "bait_tactics": [
+        "Mondani, hogy a banki alkalmazás még töltődik, és kérni, hogy magyarázza el újra lassan",
+        "Megkérdezni, melyik napon és mekkora összegről van szó"
+      ],
+      "sources": [
+        "MNB KiberPajzs",
+        "Rendőrség"
+      ]
+    },
+    {
+      "id": "hu_hamis_rendor_titkos_nyomozas",
+      "typology": "fake_official",
+      "name": "Hamis rendőr: titkos nyomozás és rendőrségi számla",
+      "name_en": "Fake police secret investigation",
+      "prevalence": "high",
+      "lang": "hu",
+      "context_keywords": [
+        "bűnügyi nyomozó"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "titkos nyomozás",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "titoktartási kötelezettség",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vegye fel a készpénzt",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police investigator says a corrupt bank employee is stealing money, asks for secrecy and tells the owner to withdraw cash or move it to a police account.",
+      "legit_en": "The Hungarian police never ask citizens to withdraw cash, move money or keep an investigation secret from their bank.",
+      "bait_tactics": [
+        "Mondani, hogy le kell ülnie, és megkérni, hogy ismételje el lassan",
+        "Megkérdezni, mióta tart ez az egész"
+      ],
+      "sources": [
+        "Rendőrség"
+      ]
+    },
+    {
+      "id": "hu_unokazos_csalas",
+      "typology": "fake_relative_money",
+      "name": "Unokázós csalás: baleset, egy ismerős jön a pénzért",
+      "name_en": "Grandchild method, an acquaintance comes for the money",
+      "prevalence": "high",
+      "lang": "hu",
+      "context_keywords": [
+        "autóbaleset"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "egy ismerőst a pénzért",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ne szólj a szülőknek",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "óvadék",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a grandchild, lawyer or police officer says a relative caused an accident and needs cash for bail or damages; an acquaintance will come to collect it.",
+      "legit_en": "The police and courts never collect bail or damages in cash at the door.",
+      "bait_tactics": [
+        "Mondani, hogy rosszul hall, és megkérni, hogy mondja el újra, hol történt",
+        "Megkérdezni, melyik kórházban van"
+      ],
+      "sources": [
+        "Rendőrség"
+      ]
+    }
+  ]
+}

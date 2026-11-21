@@ -1,0 +1,148 @@
+{
+  "name": "Croatia",
+  "name_local": "Hrvatska",
+  "iso": "hr",
+  "calling_code": "+385",
+  "languages": [
+    "hr"
+  ],
+  "prevalence_note": "Croatian police warnings 2025-2026: fake police checking banknotes, fake doctors after an accident, crypto brokers with remote access, and fake bank security asking for m-token codes.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "hr_lazna_policija_novcanice",
+      "typology": "fake_official",
+      "name": "Lažni policajci: provjera novčanica",
+      "name_en": "Fake police checking banknotes",
+      "prevalence": "very_high",
+      "lang": "hr",
+      "context_keywords": [
+        "krivotvorene novčanice"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "predajte novčanice",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "provjere otisaka",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "službeniku u civilu",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police officer says counterfeit banknotes are in circulation and asks the owner to withdraw savings and hand banknotes to an officer in plain clothes for checking.",
+      "legit_en": "The Croatian police never collect money from citizens to check banknotes.",
+      "bait_tactics": [
+        "Reći da mora sjesti i zamoliti da ponovi polako",
+        "Pitati iz koje postaje zovu"
+      ],
+      "sources": [
+        "MUP RH"
+      ]
+    },
+    {
+      "id": "hr_lazni_lijecnik_nesreca",
+      "typology": "fake_relative_money",
+      "name": "Lažni liječnik: nesreća i hitna operacija",
+      "name_en": "Fake doctor after an accident",
+      "prevalence": "high",
+      "lang": "hr",
+      "context_keywords": [
+        "teška prometna nesreća"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "gotovinu ili zlato",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "poslat ćemo posrednika",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a hospital doctor says a relative was badly hurt in an accident and asks for cash or gold for urgent surgery; someone will come to collect it.",
+      "legit_en": "Hospitals never ask relatives for cash or gold before treatment.",
+      "bait_tactics": [
+        "Reći da ne čuje dobro i zamoliti da ponovi u kojoj je bolnici",
+        "Pitati kako se zove liječnik"
+      ],
+      "sources": [
+        "MUP RH"
+      ]
+    },
+    {
+      "id": "hr_kripto_broker",
+      "typology": "crypto_scam",
+      "name": "Lažni broker: kriptovalute i AnyDesk",
+      "name_en": "Fake crypto broker with remote access",
+      "prevalence": "high",
+      "lang": "hr",
+      "context_keywords": [
+        "broker za kriptovalute"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "proviziju prije isplate",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "putem m-tokena",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a financial adviser promises crypto profits, asks to install a remote access app and approve payments with the m-token, then demands tax and commission before paying out.",
+      "legit_en": "Licensed brokers never ask clients to install remote access apps or pay commission before paying out.",
+      "bait_tactics": [
+        "Reći da si to zapisuje i pitati koliko je prva uplata",
+        "Pitati koliko traje isplata"
+      ],
+      "sources": [
+        "HANFA",
+        "MUP RH"
+      ]
+    },
+    {
+      "id": "hr_lazna_banka_mtoken",
+      "typology": "fake_bank_account_alert",
+      "name": "Lažna sigurnosna služba banke: kod m-tokena",
+      "name_en": "Fake bank security asking for m-token codes",
+      "prevalence": "high",
+      "lang": "hr",
+      "context_keywords": [
+        "služba za sigurnost banke"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kod koji generira",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "istek aplikacije",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service says the m-banking app expires or a transaction is suspicious and asks for the code the m-token generates or the PIN on a link.",
+      "legit_en": "Banks never ask for m-token codes or PINs by phone.",
+      "bait_tactics": [
+        "Reći da se aplikacija banke ažurira i zamoliti da još jednom objasni",
+        "Pitati o kojem iznosu je riječ"
+      ],
+      "sources": [
+        "HNB",
+        "MUP RH"
+      ]
+    }
+  ]
+}

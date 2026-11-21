@@ -1,0 +1,60 @@
+{
+  "schema": 2,
+  "layer": "mg",
+  "status": "draft",
+  "name": {
+    "en": "Malagasy",
+    "zh": "馬達加斯加語"
+  },
+  "hello": {
+    "hello": "Allô, salama?",
+    "hello_again": "Allô, mandre ahy ve ianao?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Eny, eto aho ary mandre anao. Lazao azafady.",
+    "still_there": "Allô, mbola eo ve ianao?",
+    "bye": "Veloma tompoko.",
+    "go_ahead": "Eny, lazao azafady.",
+    "no_thanks": "Tsia, misaotra.",
+    "think_about_it": "Mila mieritreritra kely momba izany aho.",
+    "wait_one_more": "Andraso kely azafady, mbola misy fanontaniana iray.",
+    "no_wait": "«andraso kely», «segondra iray», «andraso hojereko», «miandrasa kely hojereko», «minitra iray», «andraso vetivety»",
+    "unavailable": "Tsy azo antsoina amin'izao fotoana izao ny laharana. Andramo indray.",
+    "preview": [
+      "Allô, salama?",
+      "Ah, entana ve? Eny, apetraho eo anoloan'ny varavarana, misaotra betsaka.",
+      "Eny ary, veloma tompoko."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "veloma",
+        "veloma tompoko",
+        "mandrapihaona",
+        "mandra-pihaona indray",
+        "amin'ny manaraka",
+        "rahampitso indray",
+        "soava dia"
+      ],
+      "wrapups": [
+        "eny ary",
+        "izay ihany",
+        "misaotra anao",
+        "aoka ary aloha"
+      ],
+      "examples": {
+        "ends": [
+          "Misaotra betsaka amin'ny fanazavana, veloma tompoko!",
+          "Eny ary, hiresaka indray isika rahampitso, mandrapihaona.",
+          "Voaray daholo izany, misaotra anao, soava dia!"
+        ],
+        "not_ends": [
+          "Niteny veloma ilay mpiasa teo aloha dia tapaka ny antso, ka niantso indray aho.",
+          "Nivoaka ny namako ary niteny hoe mandrapihaona, fa izaho mbola mihaino anao.",
+          "Nilaza ianao omaly hoe rahampitso indray, ka izay no iantsoako izao."
+        ]
+      }
+    }
+  }
+}

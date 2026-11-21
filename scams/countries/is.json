@@ -1,0 +1,111 @@
+{
+  "name": "Iceland",
+  "name_local": "Ísland",
+  "iso": "is",
+  "calling_code": "+354",
+  "languages": [
+    "is"
+  ],
+  "prevalence_note": "Lögreglan and bank warnings 2025-2026: fake bank staff asking for an approval in rafræn skilríki or the Auðkenni app, fake technical support with AnyDesk, and crypto investment calls.",
+  "cross_border_note": "Many of these calls come from abroad in English.",
+  "scams": [
+    {
+      "id": "is_falskur_banki_audkenni",
+      "typology": "otp_theft",
+      "name": "Falskur bankastarfsmaður: samþykkja rafræn skilríki",
+      "name_en": "Fake bank staff asking to approve an e-ID request",
+      "prevalence": "very_high",
+      "lang": "is",
+      "context_keywords": [
+        "auðkennisappið"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "samþykkja rafræn skilríki",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "öryggisnúmer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department reports an unusual payment and asks the owner to approve a request in rafræn skilríki or the Auðkenni app or give a security number.",
+      "legit_en": "Icelandic banks never ask customers to approve an e-ID request they did not start or to give security numbers.",
+      "bait_tactics": [
+        "Segja að síminn sé að endurræsa sig og biðja þá að útskýra aftur í rólegheitum",
+        "Spyrja hvaða dag greiðslan var og hversu há"
+      ],
+      "sources": [
+        "Lögreglan",
+        "SFF"
+      ]
+    },
+    {
+      "id": "is_falsk_taeknithjonusta",
+      "typology": "tech_support_remote",
+      "name": "Fölsk tækniþjónusta: setja upp forrit",
+      "name_en": "Fake tech support installing a program",
+      "prevalence": "medium",
+      "lang": "is",
+      "context_keywords": [
+        "tæknileg aðstoð"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "setja upp forrit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "fjaraðgang",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from technical support says the computer has a problem or offers a refund and asks to install AnyDesk or a similar program and enter card details.",
+      "legit_en": "Software companies never call about refunds or viruses and never ask to control a computer.",
+      "bait_tactics": [
+        "Segja að tölvan sé mjög lengi að ræsa sig og spyrja hvað eigi að sjást á skjánum",
+        "Spyrja hvaða villuboð þeir fengu"
+      ],
+      "sources": [
+        "Lögreglan"
+      ]
+    },
+    {
+      "id": "is_rafmynt_fjarfesting",
+      "typology": "crypto_scam",
+      "name": "Rafmyntasvik: óinnleyst inneign",
+      "name_en": "Crypto investment with unclaimed balance",
+      "prevalence": "medium",
+      "lang": "is",
+      "context_keywords": [
+        "viðskiptareikningur"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "óinnleyst inneign",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "skrá þig inn í heimabanka",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says the owner has an unclaimed crypto balance or a profitable investment and asks for card details or to log in to online banking to receive it.",
+      "legit_en": "No real exchange calls about unclaimed balances or asks for online banking access.",
+      "bait_tactics": [
+        "Segja að maður skrifi allt niður og spyrja hversu há inneignin sé",
+        "Spyrja hvenær reikningurinn var stofnaður"
+      ],
+      "sources": [
+        "Lögreglan",
+        "Seðlabanki Íslands"
+      ]
+    }
+  ]
+}

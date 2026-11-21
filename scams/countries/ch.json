@@ -1,0 +1,150 @@
+{
+  "name": "Switzerland",
+  "name_local": "Schweiz",
+  "iso": "ch",
+  "calling_code": "+41",
+  "languages": [
+    "de",
+    "fr",
+    "it"
+  ],
+  "prevalence_note": "Swiss Crime Prevention and cantonal police 2025-2026: fake police shock calls collecting valuables, TWINT or e-banking approval scams, and spoofed fedpol robocalls dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ch_falsche_polizisten_schockanruf",
+      "typology": "fake_relative_money",
+      "name": "Falsche Polizisten / Schockanruf (Wertsachen)",
+      "name_en": "Fake police shock call collecting valuables",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "kantonspolizei",
+        "untersuchungshaft"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "an einen abholer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wertsachen übergeben",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "streng geheim",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake cantonal police say a relative caused a serious accident or burglars target the owner, demand strict secrecy and send a courier for cash or valuables.",
+      "legit_en": "Real Swiss police never collect cash or valuables at the door and never ask people to keep it secret from their family.",
+      "bait_tactics": [
+        "Besorgt klingen und langsam nach Namen, Posten und Aktenzeichen fragen",
+        "Sagen, dass der Tresorschlüssel bei der Nachbarin ist, und fragen, wie der Kurier genau vorgeht"
+      ],
+      "sources": [
+        "Schweizerische Kriminalprävention"
+      ]
+    },
+    {
+      "id": "ch_twint_freigabe",
+      "typology": "otp_theft",
+      "name": "TWINT / E-Banking Freigabe",
+      "name_en": "Fake support asking for a TWINT code or a payment approval",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "twint"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "twint code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "code aus der banking app",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "zahlung freigeben",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Poses as TWINT or bank support about a suspicious debit and asks the owner to read out a TWINT code, scan a QR code or approve a payment in the app.",
+      "legit_en": "Real TWINT and bank support never ask for codes, QR scans or payment approvals on the phone.",
+      "bait_tactics": [
+        "Sagen, dass die App gerade nicht aufgeht, und sich langsam erklären lassen, wo der Code steht",
+        "Nachfragen, welche Abbuchung genau gemeint ist und von welchem Tag"
+      ],
+      "sources": [
+        "Schweizerische Kriminalprävention"
+      ]
+    },
+    {
+      "id": "ch_fedpol_spoofing",
+      "typology": "fake_official",
+      "name": "Falscher fedpol-Anruf",
+      "name_en": "Spoofed fedpol or federal prosecutor robocall",
+      "prevalence": "medium",
+      "lang": "de",
+      "context_keywords": [
+        "fedpol",
+        "bundesanwaltschaft"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "strafanzeige vermeiden",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A recorded voice or fake officer from fedpol says the owner's identity was misused and they must pay or transfer money to avoid a criminal complaint.",
+      "legit_en": "Real federal authorities write letters and never demand payments or transfers on the phone.",
+      "bait_tactics": [
+        "Verwirrt nachfragen, welches Verfahren gemeint ist, und sich alles langsam erklären lassen",
+        "Sagen, dass man erst die Brille holen muss, und um die Aktennummer bitten"
+      ],
+      "sources": [
+        "fedpol"
+      ]
+    },
+    {
+      "id": "ch_falscher_techsupport",
+      "typology": "tech_support_remote",
+      "name": "Falscher technischer Support",
+      "name_en": "Fake technical support",
+      "prevalence": "medium",
+      "lang": "de",
+      "context_keywords": [
+        "microsoft-support"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "anydesk installieren",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "teamviewer öffnen",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a software company says the computer is infected and asks to install AnyDesk or open TeamViewer, then to log in to e-banking.",
+      "legit_en": "Software companies never call about viruses and never ask to control a computer or watch e-banking.",
+      "bait_tactics": [
+        "Sagen, dass der Computer sehr langsam startet, und fragen, was auf dem Bildschirm stehen soll",
+        "Fragen, welche Fehlermeldung sie bekommen haben"
+      ],
+      "sources": [
+        "NCSC"
+      ]
+    }
+  ]
+}

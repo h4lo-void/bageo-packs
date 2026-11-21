@@ -1,0 +1,148 @@
+{
+  "name": "North Macedonia",
+  "name_local": "Северна Македонија",
+  "iso": "mk",
+  "calling_code": "+389",
+  "languages": [
+    "mk"
+  ],
+  "prevalence_note": "MVR warnings 2025-2026: fake doctors after a traffic accident collecting cash, fake central bank staff asking for card data, fake post parcel fees, and crypto trading platforms.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "mk_lazen_doktor_nesreka",
+      "typology": "fake_relative_money",
+      "name": "Лажен доктор: сообраќајна несреќа и пари во готово",
+      "name_en": "Fake doctor after a traffic accident",
+      "prevalence": "very_high",
+      "lang": "mk",
+      "context_keywords": [
+        "сообраќајна несреќа"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "пари за импланти",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "човек ќе дојде пред зграда",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "итно да дадете пари",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a doctor says a relative was in a traffic accident and needs cash for implants or surgery; a man will come to the building to collect it.",
+      "legit_en": "Hospitals never collect cash from relatives in front of their building.",
+      "bait_tactics": [
+        "Да каже дека не слуша добро и да побара да повтори во која болница е",
+        "Да праша како се вика докторот"
+      ],
+      "sources": [
+        "МВР"
+      ]
+    },
+    {
+      "id": "mk_lazna_narodna_banka",
+      "typology": "fake_bank_account_alert",
+      "name": "Лажна Народна банка: податоци од картичка",
+      "name_en": "Fake central bank asking for card data",
+      "prevalence": "high",
+      "lang": "mk",
+      "context_keywords": [
+        "народна банка"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "број на платежна картичка",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "безбедносен код",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the central bank or a bank says the account is at risk and asks for the card number, PIN, the SMS security code or the personal ID number.",
+      "legit_en": "The central bank and banks never ask for card numbers, PINs or SMS codes by phone.",
+      "bait_tactics": [
+        "Да каже дека апликацијата се ажурира и да побара да објасни уште еднаш",
+        "Да праша за која сума станува збор"
+      ],
+      "sources": [
+        "НБРСМ",
+        "МВР"
+      ]
+    },
+    {
+      "id": "mk_posta_paket",
+      "typology": "fake_customs_parcel",
+      "name": "Лажна пошта: наплата за испорака",
+      "name_en": "Fake post office delivery fee",
+      "prevalence": "high",
+      "lang": "mk",
+      "context_keywords": [
+        "македонска пошта"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "линк за плаќање",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cvv број",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the post says a parcel has a wrong address and asks to pay a delivery fee through a link with card data and CVV.",
+      "legit_en": "The post never asks for card data or CVV through links or by phone.",
+      "bait_tactics": [
+        "Да каже дека ги бара очилата и да праша од каде е пакетот",
+        "Да праша колку точно чини"
+      ],
+      "sources": [
+        "Пошта на Северна Македонија"
+      ]
+    },
+    {
+      "id": "mk_kripto_platforma",
+      "typology": "crypto_scam",
+      "name": "Крипто платформа: брза заработка",
+      "name_en": "Crypto trading platform with quick earnings",
+      "prevalence": "medium",
+      "lang": "mk",
+      "context_keywords": [
+        "инвестициска платформа"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "уплата на провизија",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "исплата на добивка",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from an investment platform promises quick crypto earnings, asks to install AnyDesk and send an ID photo, then demands a commission before paying out.",
+      "legit_en": "Licensed brokers never ask for remote access or commissions before paying out.",
+      "bait_tactics": [
+        "Да каже дека запишува и да праша колку е првата уплата",
+        "Да праша колку трае исплатата"
+      ],
+      "sources": [
+        "КХВ",
+        "МВР"
+      ]
+    }
+  ]
+}

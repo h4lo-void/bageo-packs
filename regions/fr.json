@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "code": "fr",
+  "countries": [
+    "fr",
+    "mc",
+    "re",
+    "yt",
+    "gp",
+    "bl",
+    "mf",
+    "mq",
+    "gf",
+    "pm",
+    "nc",
+    "pf",
+    "wf"
+  ],
+  "name": {
+    "en": "France",
+    "native": "France",
+    "zh": "法國"
+  },
+  "lang": "fr-FR",
+  "delivery": {
+    "en": "Parcels: a point relais, the gardien or a neighbour",
+    "zh": "包裹放 point relais、交給管理員或鄰居"
+  },
+  "readback": {
+    "en": "Phone numbers go in pairs, 0 said as zéro",
+    "zh": "號碼兩位一組唸，0 唸 zéro"
+  },
+  "fraud": {
+    "en": "an SMS code, a courier collecting your card or parcel fees are scams",
+    "zh": "要簡訊碼、叫快遞來收銀行卡、補繳包裹費的都是詐騙"
+  },
+  "habits": {
+    "en": "Say portable, colis, not GSM, natel, bon matin; septante, nonante.",
+    "zh": "用 portable、colis，不用 GSM、natel、bon matin；用 septante、nonante。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Clé Digitale spinning on bad reception, glasses missing, the wrong account sheet in hand.",
+    "zh": "卡在 Clé Digitale 訊號差一直轉、找不到眼鏡、拿錯帳戶文件。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tu, spoken contractions, short loose sentences, real reactions (ah carrément, nickel), varied.",
+        "zh": "像{owner}跟好朋友聊：用 tu、口語縮略，句子短而隨興、反應真實（如 ah carrément、nickel），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: tu or a relaxed vous to match the caller; after they explain, add a friendly remark (ah d'accord, ça marche), varied.",
+        "zh": "溫和隨和：看對方用 tu 或輕鬆的 vous；對方講完，加一句自己的友善回應（如 ah d'accord、ça marche），每次換說法。"
+      },
+      "3": {
+        "en": "Vous by default, tu with close contacts. After their point, reply with one full sentence, not a word or two (ah oui je vois), varied.",
+        "zh": "一般用 vous，親近的人用 tu。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 ah oui je vois），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished vous, fluid full sentences; take up their main point first (je comprends tout à fait, c'est bien noté), varied.",
+        "zh": "有禮：得體的 vous，口語流暢，句子完整，先回應重點（如 je comprends tout à fait、c'est bien noté），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: refined vous, brisk full sentences, little small talk; answer each point (c'est très clair, bien entendu), varied.",
+        "zh": "俐落公事口吻：正式的 vous，句子精簡完整，少閒聊；每個重點都回應（如 c'est très clair、bien entendu），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: tu, breezy lines; react warmly to what they share, then say you will pass it on (ah super, pas de souci), varied.",
+        "zh": "{owner}活潑的小幫手：用 tu，句子輕快；先熱絡回應對方，再說會轉告（如 ah super、pas de souci），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: tu or relaxed vous to match the caller; acknowledge their situation, then take the message (c'est noté), varied.",
+        "zh": "親切從容的助理：看對方用 tu 或輕鬆的 vous；先體貼回應處境，再記下留言（如 c'est noté），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: vous by default. After their point, answer in one full sentence, then confirm the relay (ah d'accord, je prends note), varied.",
+        "zh": "自然幹練的助理：一般用 vous。對方講完一件事，先用一句完整的話回應，再確認轉達（如 ah d'accord、je prends note），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished vous, composed full sentences; take up why they called before offering to pass it on (bien reçu, je comprends), varied.",
+        "zh": "低調周到的秘書：得體的 vous，語氣沉穩完整；先承接來意再說會轉告（如 bien reçu、je comprends），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: refined vous, concise and brisk; answer key details in full, then confirm the relay (parfaitement clair, entendu), varied.",
+        "zh": "主管級助理：正式的 vous，用語精簡明快；先完整回應重點，再確認轉達（如 parfaitement clair、entendu），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "point relais",
+      "gardien",
+      "boîte aux lettres"
+    ],
+    "bank": [
+      "appli bancaire",
+      "carte bancaire",
+      "virement"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,177 @@
+{
+  "name": "Iran",
+  "name_local": "ایران",
+  "iso": "ir",
+  "calling_code": "+98",
+  "languages": [
+    "fa"
+  ],
+  "prevalence_note": "Iran 2025-2026 warnings: fake Electronic Voucher and Livelihood Subsidy Scam; fake Judicial Summons and Cyber Police Impersonation; fake Mobile Operator and Contest Prize Lottery Scam; bank Account Security Freeze and Dynamic PIN Scam.",
+  "cross_border_note": "Calls and texts in Persian, often from personal mobile numbers.",
+  "scams": [
+    {
+      "id": "ir_kalabarg_yaraneh_subsidy",
+      "typology": "fake_government_subsidy",
+      "name": "کلاهبرداری ثبت اعتراض به حذف کالابرگ الکترونیکی و یارانه معیشتی",
+      "name_en": "Fake Electronic Voucher and Livelihood Subsidy Scam",
+      "prevalence": "very_high",
+      "lang": "fa",
+      "context_keywords": [
+        "حذف یارانه",
+        "ثبت اعتراض",
+        "کالابرگ الکترونیکی"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز پویا",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "اطلاعات کارت بانکی",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "نصب برنامه از لینک",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller or message claims your household cash subsidy or electronic food voucher is being cut or awaits retroactive deposit.",
+      "legit_en": "Official livelihood subsidies and electronic vouchers in Iran are announced strictly through verified government sender IDs such as YARANEH-IRI and official ministry portals, without telephoning citizens for bank card CVV2 numbers, dynamic passwords, or.",
+      "bait_tactics": [
+        "ببخشید یک لحظه، کیف پولم که کارت یارانه داخلش است در اتاق دیگر جا مانده، الان پیدایش می‌کنم.",
+        "پیامک رمز پویا به خاطر ضعیف بودن آنتن داخل ساختمان هنوز برای من نیامده است.",
+        "گوشی من حافظه‌اش کاملاً پر شده و اجازه باز کردن لینک یا نصب هیچ برنامه‌ای را نمی‌دهد."
+      ],
+      "sources": [
+        "https://www.asriran.com/fa/news/1204222/%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D9%BE%D9%84%DB%8C%D8%B3-%D9%81%D8%AA%D8%A7-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%DA%A9%D9%84%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A8%D8%A7-%D8%AA%D8%B1%D9%81%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%A8%D9%87-%D8%AD%D8%B0%D9%81-%DA%A9%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%DA%AF",
+        "https://www.irna.ir/news/86293467/%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D9%BE%D9%84%DB%8C%D8%B3-%D9%81%D8%AA%D8%A7-%DA%AF%DB%8C%D9%84%D8%A7%D9%86-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%BE%DB%8C%D8%A7%D9%85%DA%A9-%D9%87%D8%A7%DB%8C-%D8%AC%D8%B9%D9%84%DB%8C-%DA%A9%D8%A7%D9%84%D8%A7%D8%A8%D8%B1%DA%AF-%D9%88-%DB%8C%D8%A7%D8%B1%D8%A7%D9%86%D9%87"
+      ]
+    },
+    {
+      "id": "ir_fake_sana_judicial_fata_police",
+      "typology": "fake_official",
+      "name": "کلاهبرداری ابلاغیه قضایی جعلی سامانه ثنا و جعل عنوان پلیس فتا",
+      "name_en": "Fake Judicial Summons and Cyber Police Impersonation",
+      "prevalence": "very_high",
+      "lang": "fa",
+      "context_keywords": [
+        "ابلاغیه قضایی",
+        "پلیس فتا",
+        "تراکنش مشکوک"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "حکم جلب",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "هزینه دادرسی از طریق لینک",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز دوم",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller adopts a stern official tone claiming to be a cyber police officer or judicial clerk investigating a suspicious bank transaction or newly filed complaint.",
+      "legit_en": "Iranian police and judicial authorities never issue arrest threats by phone or send clickable payment links in messaging apps.",
+      "bait_tactics": [
+        "یک لحظه اجازه بدهید عینک مطالعه‌ام را پیدا کنم تا شماره پرونده را روی کاغذ یادداشت کنم.",
+        "اینترنت خط من الان قطع و وصل می‌شود و هیچ صفحه‌ای روی مرورگر گوشی باز نمی‌شود.",
+        "ببخشید صدای خط خش‌خش دارد، می‌شود نام شعبه و کد پیگیری را شمرده‌تر بفرمایید؟"
+      ],
+      "sources": [
+        "https://www.mehrnews.com/news/6884548/%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D9%BE%D9%84%DB%8C%D8%B3-%D9%85%D9%88%D8%AC-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%BE%DB%8C%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D8%AC%D8%B9%D9%84%DB%8C-%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%DB%8C%D9%87-%D9%82%D8%B6%D8%A7%DB%8C%DB%8C",
+        "https://mci.ir/blog/post/guide-to-dealing-with-telephone-fraud"
+      ]
+    },
+    {
+      "id": "ir_telecom_radio_prize_lottery",
+      "typology": "prize_lottery",
+      "name": "کلاهبرداری برنده شدن در قرعه‌کشی اپراتورها و مسابقات تلفنی",
+      "name_en": "Fake Mobile Operator and Contest Prize Lottery Scam",
+      "prevalence": "very_high",
+      "lang": "fa",
+      "context_keywords": [
+        "برنده قرعه کشی",
+        "جایزه نقدی",
+        "مسابقه تلفنی"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "کد تایید",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "مراجعه به عابربانک",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "هزینه گمرکی",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller congratulates the recipient on winning tens of millions of tomans or home appliances in a mobile operator or media draw for active SIM cards.",
+      "legit_en": "Iranian mobile operators announce draw winners only through official customer numbers such as 9990 and verified portals. Transferring cash prizes requires at most a public IBAN or card number, never an ATM visit, OTP code, or delivery fee.",
+      "bait_tactics": [
+        "چه جالب، فقط من شماره شبای حسابم را از حفظ نیستم، بگذارید دفترچه بانک را در کمد بگردم.",
+        "هنوز هیچ پیامکی روی گوشی من نیامده، شاید سیم‌کارت دومم در تنظیمات غیرفعال شده باشد.",
+        "الان کتری روی گاز سوت می‌کشد، یک ثانیه صبر کنید زیرش را کم کنم و برگردم."
+      ],
+      "sources": [
+        "https://www.mizanonline.ir/fa/news/4840901/%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D9%BE%D9%84%DB%8C%D8%B3-%D9%81%D8%AA%D8%A7-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%DA%A9%D9%84%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A8%D8%A7-%D8%AA%D8%B1%D9%81%D9%86%D8%AF-%D8%A8%D8%B1%D9%86%D8%AF%D9%87-%D8%B4%D8%AF%D9%86-%D8%AF%D8%B1-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A7%D8%AA",
+        "https://mci.ir/blog/post/guide-to-dealing-with-telephone-fraud"
+      ]
+    },
+    {
+      "id": "ir_fake_bank_card_freeze_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "کلاهبرداری مسدودی حساب بانکی و سرقت رمز دوم پویا",
+      "name_en": "Bank Account Security Freeze and Dynamic PIN Scam",
+      "prevalence": "high",
+      "lang": "fa",
+      "context_keywords": [
+        "واحد امنیت بانک",
+        "رفع مسدودی کارت",
+        "شماره کارت شانزده رقمی"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز دوم",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "کد پیامک شده",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "حسابتان بسته",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller uses simulated call-center background noise and recites leaked personal details while claiming to be bank security staff.",
+      "legit_en": "Banks operating under Central Bank of Iran regulations never ask customers over the phone for CVV2 codes, card expiration dates, or dynamic OTP passwords. Account unblocking is handled exclusively through official banking apps or in-person branch visits.",
+      "bait_tactics": [
+        "گوشی ساده دکمه‌ای که پیامک‌های بانک رویش می‌آید الان خاموش است و شارژرش را پیدا نمی‌کنم.",
+        "اعداد پشت کارت بانکی من در اثر استفاده زیاد پاک شده و خوانا نیست، یک لحظه صبر کنید.",
+        "برنامه همراه بانک خطای به‌روزرسانی می‌دهد و اصلاً وارد صفحه کارت‌ها نمی‌شود."
+      ],
+      "sources": [
+        "https://mci.ir/blog/post/guide-to-dealing-with-telephone-fraud",
+        "https://vatanemrooz.ir/fa/news/412920/%D9%BE%D9%84%DB%8C%D8%B3-%D9%81%D8%AA%D8%A7-%D9%87%D8%B4%D8%AF%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF-%D9%BE%DB%8C%D8%B4-%D8%A7%D8%B2-%D9%88%D8%A7%D8%B1%DB%8C%D8%B2-%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%DA%AF%DB%8C%D8%B1%DB%8C%D8%AF-%D9%81%D8%B1%DB%8C%D8%A8-%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%81%D9%88%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%D8%A7%D9%86-%D8%B1%D8%A7-%D9%86%D8%AE%D9%88%D8%B1%DB%8C%D8%AF"
+      ]
+    }
+  ]
+}

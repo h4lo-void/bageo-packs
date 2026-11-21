@@ -1,0 +1,118 @@
+{
+  "schema": 2,
+  "layer": "sv",
+  "status": "draft",
+  "name": {
+    "en": "Swedish",
+    "zh": "瑞典文"
+  },
+  "hello": {
+    "hello": "Hallå?",
+    "hello_again": "Hallå, hör du mig?"
+  },
+  "common": {
+    "habits": {
+      "en": "Du with everyone, even in business.",
+      "zh": "對所有人都用 du，商務也是。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: du, chatty spoken phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 du，口語健談，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: du, relaxed and warm; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 du，輕鬆溫暖；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: du with everyone, plain and steady; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：對誰都用 du，平實穩定；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: du, but polished, complete sentences; take up their main point first.",
+          "zh": "有禮：仍用 du，但得體，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: du, businesslike, brisk and precise, answering each point in full.",
+          "zh": "公事：仍用 du，公事化，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: du, chatty spoken phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 du，口語健談；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: du, relaxed and warm; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 du，輕鬆溫暖；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: du with everyone, plain and steady; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：對誰都用 du，平實穩定；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: du, but polished; take up why they called in complete sentences.",
+          "zh": "低調的秘書：仍用 du，但得體；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: du, businesslike; brisk, answering key details in full.",
+          "zh": "主管級助理：仍用 du，公事化；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ja, jag är här och hör dig. Berätta gärna.",
+    "still_there": "Hallå, är du kvar?",
+    "bye": "Hej då, ha det bra.",
+    "go_ahead": "Javisst, berätta.",
+    "no_thanks": "Åh nej, tack.",
+    "think_about_it": "Jag får fundera lite på det.",
+    "wait_one_more": "Åh, innan du lägger på, jag har en fråga till.",
+    "no_wait": "”ett ögonblick”, ”vänta lite”, ”vänta ett ögonblick”, ”låt mig kolla”, ”jag kollar lite”, ”en sekund”",
+    "unavailable": "Det nummer du har ringt kan inte nås just nu. Försök igen senare.",
+    "preview": [
+      "Hallå?",
+      "Ah, ett paket? Javisst, ställ det bara utanför dörren, tack så mycket.",
+      "Okej, hej då."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "hej då",
+        "hejdå",
+        "vi hörs",
+        "vi hörs i morgon",
+        "vi hörs imorgon",
+        "ha det bra",
+        "ha det så bra",
+        "vi ses",
+        "vi ses i morgon",
+        "hej så länge",
+        "trevlig helg",
+        "adjö",
+        "ta hand om dig"
+      ],
+      "wrapups": [
+        "det var allt",
+        "jag måste lägga på",
+        "jag ringer senare",
+        "jag uppehåller dig inte",
+        "tack för samtalet"
+      ],
+      "examples": {
+        "ends": [
+          "Tack så mycket för hjälpen, hej då.",
+          "Då gör vi så, vi hörs i morgon.",
+          "Okej, då är det klart, ha det bra."
+        ],
+        "not_ends": [
+          "Hej, det är Anna från banken, vi hörs sällan, men nu gäller det ditt konto.",
+          "Han gick från mötet utan att säga hej då, men vad tyckte du om förslaget?",
+          "Tycker du att vi hörs bättre nu när jag stängde fönstret?"
+        ]
+      }
+    }
+  }
+}

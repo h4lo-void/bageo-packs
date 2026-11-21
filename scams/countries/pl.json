@@ -1,0 +1,120 @@
+{
+  "name": "Poland",
+  "name_local": "Polska",
+  "iso": "pl",
+  "calling_code": "+48",
+  "languages": [
+    "pl"
+  ],
+  "prevalence_note": "Police and CERT Polska warnings 2025-2026: fake bank security staff moving money to a technical account, and fake CBŚP officers collecting cash during a secret action dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "pl_konto_techniczne",
+      "typology": "fake_bank_account_alert",
+      "name": "Fałszywy pracownik banku: konto techniczne",
+      "name_en": "Fake bank security moving money to a technical account",
+      "prevalence": "very_high",
+      "lang": "pl",
+      "context_keywords": [
+        "departamentu bezpieczeństwa"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "przelać środki na konto techniczne",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "przelać pieniądze na konto techniczne",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wpłacić gotówkę na konto techniczne",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wpłacić pieniądze na konto techniczne",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department says someone is applying for a loan in the owner's name and the money must go to a technical or safe account.",
+      "legit_en": "Banks never ask customers to move money to a technical account on the phone.",
+      "bait_tactics": [
+        "Mówić, że aplikacja banku się aktualizuje, i prosić o powolne tłumaczenie",
+        "Pytać spokojnie, o jaki wniosek chodzi i z którego dnia"
+      ],
+      "sources": [
+        "CERT Polska"
+      ]
+    },
+    {
+      "id": "pl_policjant_tajna_akcja",
+      "typology": "fake_official",
+      "name": "Na policjanta: tajna akcja i zabezpieczenie gotówki",
+      "name_en": "Fake police collecting cash during a secret action",
+      "prevalence": "high",
+      "lang": "pl",
+      "context_keywords": [
+        "z prokuratury"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "zabezpieczenie gotówki",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tajemnica śledztwa",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake police or CBŚP officers say a gang works inside the owner's bank, impose investigation secrecy and ask for the cash to be secured by a courier.",
+      "legit_en": "Polish police never collect money and never ask people to keep it from their family.",
+      "bait_tactics": [
+        "Udawać zaniepokojenie i powoli dopytywać, o jaką akcję chodzi",
+        "Mówić, że okulary zostały w kuchni, i prosić o powtórzenie"
+      ],
+      "sources": [
+        "Policja"
+      ]
+    },
+    {
+      "id": "pl_falszywy_zus_dodatek",
+      "typology": "fake_government_subsidy",
+      "name": "Fałszywy ZUS: dodatek i opłata weryfikacyjna",
+      "name_en": "Fake social insurance allowance with a verification fee",
+      "prevalence": "medium",
+      "lang": "pl",
+      "context_keywords": [
+        "zakład ubezpieczeń społecznych"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "opłata weryfikacyjna",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "dane logowania do banku",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as ZUS or another office says the owner is entitled to an allowance and asks for a small verification fee or bank login details.",
+      "legit_en": "ZUS never asks for fees or bank login details to pay an allowance.",
+      "bait_tactics": [
+        "Powiedzieć, że trzeba znaleźć okulary, i zapytać, o jaki dodatek chodzi",
+        "Zapytać, ile ma wynosić ten dodatek"
+      ],
+      "sources": [
+        "ZUS",
+        "CERT Polska"
+      ]
+    }
+  ]
+}

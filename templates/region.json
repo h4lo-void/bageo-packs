@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "code": "example",
+  "countries": [
+    "ie"
+  ],
+  "name": {
+    "en": "Example Land",
+    "native": "Example Land",
+    "zh": "範例國"
+  },
+  "lang": "en-US",
+  "delivery": {
+    "en": "Parcels: the front desk or the neighbour's door",
+    "zh": "包裹放大樓櫃檯或鄰居門口"
+  },
+  "delivery_key": {
+    "en": "front desk",
+    "zh": "櫃檯"
+  },
+  "readback": {
+    "en": "Phone numbers go in groups of 3-3-4; the day comes first in dates",
+    "zh": "電話號碼三三四分組唸，日期先說日"
+  },
+  "fraud": {
+    "en": "a fake bank call asking you to move money to a safe account is a scam",
+    "zh": "自稱銀行要你轉到安全帳戶的都是詐騙"
+  },
+  "habits": {
+    "en": "Use the words locals use for shops and public transport.",
+    "zh": "用當地人說店家和交通工具的說法。"
+  },
+  "stall_local": {
+    "en": "Get stuck on everyday snags: the shop's card reader is down, the bus app will not load.",
+    "zh": "卡在日常小狀況，例如店裡刷卡機當掉、公車 App 打不開。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: casual first names, short lively sentences, a warm reaction and a follow-up remark (no way, really), varied.",
+        "zh": "像{owner}跟熟人講電話：直接叫名字，句子短、反應熱絡、多接半句（真的假的、這樣喔），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: a relaxed tone; after the caller explains, add a friendly remark (oh good, I see), varied.",
+        "zh": "溫和隨和的日常口氣；對方講完先順口接一句友善的話（太好了、原來如此），每次換說法。"
+      },
+      "3": {
+        "en": "Like an ordinary person picking up: plain everyday tone; when the caller finishes a point, reply with one full sentence, not a word or two (right, got it).",
+        "zh": "像一般人接電話：平實日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字（好的、了解）。"
+      },
+      "4": {
+        "en": "Poised and courteous: polite titles with strangers, complete measured sentences; take up the caller's main point first (understood, thank you), varied.",
+        "zh": "有禮穩重：對陌生人用敬稱，句子完整；先回應對方重點（明白、謝謝），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: formal address, brisk but warm, complete sentences; answer each point in full (noted, thank you for telling me), varied.",
+        "zh": "談公事的俐落口吻：用正式稱呼，節奏明快但有溫度，每個重點完整回應（了解、謝謝告知），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper: friendly and informal; a warm reaction to what the caller shares, then say you will pass it on (sure thing, of course), varied.",
+        "zh": "{owner}活潑熱情的小幫手：親切隨意；先熱絡回應對方說的事，再說會轉告（沒問題、當然），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, unhurried assistant: gentle tone; acknowledge the caller's situation, then take the message for {owner} (I understand, thanks for calling), varied.",
+        "zh": "溫暖不趕的助理：語氣柔和；先體諒對方的處境，再記下要給{owner}的話（了解、謝謝來電），每次換說法。"
+      },
+      "3": {
+        "en": "Natural, capable assistant: everyday tone; answer the point in one full sentence, then confirm you will relay it to {owner}, never a bare OK.",
+        "zh": "自然幹練的助理：日常口氣；先用一句完整的話回應重點，再確認會轉達給{owner}，不只回「好」。"
+      },
+      "4": {
+        "en": "Attentive secretary: polite titles, composed voice, complete sentences; take up why the caller rang before offering to pass it on (thank you for letting us know).",
+        "zh": "周到的秘書：用敬稱、語氣穩重、句子完整；先承接來意，再說會轉告（謝謝您的通知）。"
+      },
+      "5": {
+        "en": "Executive assistant: formal and brisk; answer the key details in full, then confirm the relay to {owner} (understood, noted), varied.",
+        "zh": "主管級助理：正式明快；先完整回應重點，再確認轉達給{owner}（了解、記下了），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "front desk",
+      "parcel locker"
+    ],
+    "bank": [
+      "card reader",
+      "transfer"
+    ]
+  },
+  "status": "draft"
+}

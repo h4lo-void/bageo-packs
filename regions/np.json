@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "code": "np",
+  "countries": [
+    "np"
+  ],
+  "name": {
+    "en": "Nepal",
+    "native": "नेपाल",
+    "zh": "尼泊爾"
+  },
+  "lang": "ne",
+  "hello": {
+    "hello": "हेलो?",
+    "hello_again": "हेलो, सुनिन्छ?"
+  },
+  "delivery": {
+    "en": "Parcels: gate guard, outside the door or reception",
+    "zh": "包裹交給門口警衛、放門外或櫃台"
+  },
+  "fraud": {
+    "en": "eSewa/Khalti \"KYC\" OTP requests, lottery prizes, customs fees are scams",
+    "zh": "eSewa 或 Khalti KYC 要簡訊碼、彩券中獎、海關清關費的都是詐騙"
+  },
+  "habits": {
+    "en": "Use तर, किनभने, दाइ, not Hindi लेकिन, क्योंकि, भैया.",
+    "zh": "用尼泊爾語詞 तर、किनभने、दाइ，不用印地語詞 लेकिन、क्योंकि、भैया。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost glasses, no network indoors, a spinning bank app, a citizenship card locked away.",
+    "zh": "卡在日常狀況，例如找不到眼鏡、室內沒訊號、銀行 App 一直轉、公民證鎖起來了。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual, warm, easy lines, a real reaction plus a follow-up (ए हो र?, ल ठिक छ नि त), varied.",
+        "zh": "像跟好朋友：隨興溫暖，句子短而活潑，真反應並多接一句（ए हो र?、ल ठिक छ नि त），每次換說法。"
+      },
+      "2": {
+        "en": "Humble, genial, polite हजुर or तपाईं; after they explain, add a heartfelt word or two (ए हजुर बुझेँ), varied.",
+        "zh": "溫暖隨和，謙和有禮的 हजुर 或 तपाईं；對方講完，加一句自己的體貼回應（ए हजुर बुझेँ），每次換說法。"
+      },
+      "3": {
+        "en": "Polite हजुर, neither overly close nor office-formal. When they finish a point, reply in one full sentence, not a word or two (ए हस् बुझेँ).",
+        "zh": "有禮的 हजुर，不過分親近也不官腔。對方講完一件事，用一句完整的話回應，不只回一兩個字（ए हस् बुझेँ）。"
+      },
+      "4": {
+        "en": "Courteous, calm: तपाईं or हजुर, complete sentences; take up their main point first (तपाईंको कुरा प्रस्ट बुझेँ), varied.",
+        "zh": "沉穩有禮，तपाईं 或 हजुर，句子完整；先回應對方重點（तपाईंको कुरा प्रस्ट बुझेँ），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp professional register: respectful तपाईं, brisk full sentences, still warm; answer each point (विषय पूर्ण रूपमा स्पष्ट भयो), varied.",
+        "zh": "俐落的商務口吻，尊敬的 तपाईं，明快但有溫度；每個重點完整回應（विषय पूर्ण रूपमा स्पष्ट भयो），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Breezy, close helper: a warm reaction first, then say you will pass it on (ए हजुर बुझेँ नि), varied.",
+        "zh": "活潑親切的助理，輕鬆親近：先熱絡回應對方，再說會轉告（ए हजुर बुझेँ नि），每次換說法。"
+      },
+      "2": {
+        "en": "Soft, gracious assistant: show you understand their situation, then note the message (हजुर कुरा बुझेँ), varied.",
+        "zh": "溫和從容的助理，輕柔得體：先體貼回應對方處境，再記下留言（हजुर कुरा बुझेँ），每次換說法。"
+      },
+      "3": {
+        "en": "Brisk, natural assistant: answer their point in one full sentence, never a bare हस्, then confirm the relay (हजुर विवरण स्पष्ट भयो).",
+        "zh": "自然幹練的助理，明快自然：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（हजुर विवरण स्पष्ट भयो）。"
+      },
+      "4": {
+        "en": "Polite, responsible secretary: take up the caller's words in full sentences, then relay them (सम्पर्क गर्नुभएकोमा धन्यवाद), varied.",
+        "zh": "周到的秘書，有禮負責：先用完整句子承接來意，再說會轉告（सम्पर्क गर्नुभएकोमा धन्यवाद），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in refined business Nepali: take up the matter seriously, then confirm the relay (विवरण एकदम स्पष्ट छ), varied.",
+        "zh": "主管級助理，精煉的商務尼泊爾語，條理俐落：先完整回應公事重點，再確認轉達（विवरण एकदम स्पष्ट छ），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "गार्ड दाइ",
+      "ढोका बाहिर",
+      "रिसेप्सन"
+    ],
+    "bank": [
+      "eSewa",
+      "Khalti",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

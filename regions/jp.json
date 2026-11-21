@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "code": "jp",
+  "countries": [
+    "jp"
+  ],
+  "name": {
+    "en": "Japan",
+    "native": "日本",
+    "zh": "日本"
+  },
+  "lang": "ja-JP",
+  "delivery": {
+    "en": "Parcels: 置き配, 宅配ボックス or a 不在票",
+    "zh": "包裹常置き配、放宅配ボックス或留不在票"
+  },
+  "readback": {
+    "en": "Phone numbers go 3-4-4, 0 as ゼロ; times carry 午前/午後",
+    "zh": "手機號碼照 3-4-4 唸、0 唸「ゼロ」，時間帶午前或午後"
+  },
+  "fraud": {
+    "en": "an ATM trip for a 還付金, or a \"relative\" needing cash (オレオレ), are scams",
+    "zh": "叫你去 ATM 領還付金、自稱家人急著要錢（オレオレ）的都是詐騙"
+  },
+  "habits": {
+    "en": "No double keigo (おっしゃられる); callers lead with their company.",
+    "zh": "不用二重敬語（おっしゃられる）；來電者先報公司名。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Japan snags: lost reading glasses, the 通帳 locked in a drawer, the konbini ATM under maintenance.",
+    "zh": "卡在日本日常狀況，例如找不到老花眼鏡、存摺鎖在抽屜、超商 ATM 維修中。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: plain タメ口, short lively sentences, warm reactions, a follow-up thought (うんうん), varied.",
+        "zh": "像{owner}跟好朋友講電話：用タメ口，句子短而活潑，反應熱絡並多接一句（如「うんうん」），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, easygoing です・ます with warm aizuchi; after the caller explains, add a considerate remark (助かります), varied.",
+        "zh": "溫和隨和的です・ます體，相槌溫暖；對方講完，加一句體貼回應（如「助かります」），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday 丁寧語. When the caller finishes a point, reply with one full sentence, not just はい (あ、なるほど).",
+        "zh": "日常丁寧語。對方講完一件事，用一句完整的話回應，不只說「はい」（如「あ、なるほど」，每次換）。"
+      },
+      "4": {
+        "en": "Composed and well-mannered: polite keigo touches, measured complete sentences; take up their main point first (恐れ入ります), varied.",
+        "zh": "沉穩有禮：帶些敬語，句子完整穩重，先回應對方重點（如「恐れ入ります」），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business keigo, 尊敬語 for them and 謙譲語 for yourself; answer each point in full sentences (承知いたしました), varied.",
+        "zh": "俐落的商務敬語，對方用尊敬語、自己用謙譲語；每個重點都用完整句子回應（如「承知いたしました」），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper in friendly 丁寧語: a warm reaction before saying you will pass it on (伝えておきますね), varied.",
+        "zh": "{owner}活潑的小幫手，用親切丁寧語：先熱絡回應，再說會轉告（如「伝えておきますね」），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, unhurried assistant: acknowledge the caller's situation kindly, then take the message for {owner} (お伝えしますね), varied.",
+        "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言給{owner}（如「お伝えしますね」），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in everyday 丁寧語. When the caller finishes a point, answer in one full sentence before confirming the relay.",
+        "zh": "自然幹練的助理，用日常丁寧語。對方講完一件事，先用一句完整的話回應，再確認轉達，不只說「はい」。"
+      },
+      "4": {
+        "en": "Poised secretary in refined keigo: take up why they called in complete sentences, then offer to pass it on (承りました), varied.",
+        "zh": "沉穩的秘書，用端正的敬語：先用完整句子承接來意，再說會轉告（如「承りました」），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant with exact 尊敬語 and 謙譲語: answer the business details in full, then confirm the relay (確かに申し伝えます), varied.",
+        "zh": "主管級助理，尊敬語與謙譲語到位：先完整回應公事重點，再確認轉達（如「確かに申し伝えます」），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "置き配",
+      "宅配ボックス",
+      "不在票"
+    ],
+    "bank": [
+      "通帳",
+      "振込",
+      "キャッシュカード"
+    ]
+  },
+  "status": "draft"
+}

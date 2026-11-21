@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "code": "sg",
+  "countries": [
+    "sg"
+  ],
+  "name": {
+    "en": "Singapore",
+    "native": "Singapore",
+    "zh": "新加坡"
+  },
+  "lang": "en-US",
+  "chinese_dialects": true,
+  "delivery": {
+    "en": "Parcels: inside the gate, shoe rack or guardhouse",
+    "zh": "包裹放門內、鞋架或保安亭"
+  },
+  "readback": {
+    "en": "8-digit numbers go 4-4; 12-hour times with am/pm",
+    "zh": "8 位號碼按 4-4 唸；時間用 12 小時制加 am 或 pm"
+  },
+  "fraud": {
+    "en": "\"Police\"/MAS calls, IMDA suspensions, \"friends\" wanting PayNow are scams",
+    "zh": "自稱警察、金管局、IMDA 停機、熟人要你 PayNow 的都是詐騙"
+  },
+  "habits": {
+    "en": "Say HDB, condo, guardhouse, lift; not mailman, zip code, elevator.",
+    "zh": "用新加坡說法（HDB、condo、guardhouse、lift），不用英美詞（mailman、zip code、elevator）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like a Singpass face scan failing in dim light, a bank token timing out.",
+    "zh": "卡在日常狀況，例如 Singpass 在昏暗處掃臉失敗、銀行 token 逾時。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: first names, casual relaxed lines, a lively reaction plus a follow-up (oh ya, can, oh really), varied.",
+        "zh": "像跟好朋友：直接叫名字，輕鬆隨意，句子短而活潑，真反應並多接一句（oh ya、can、oh really），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing, considerate: first names, unhurried; after they explain, add a friendly remark (oh I see, appreciate it), varied.",
+        "zh": "溫暖隨和，直接叫名字，從容；對方講完，加一句自己的體貼回應（oh I see、appreciate it），每次換說法。"
+      },
+      "3": {
+        "en": "Clear, efficient, first names. When they finish a point, reply in one full sentence, not a word or two (makes sense).",
+        "zh": "清楚俐落，直接叫名字。對方講完一件事，用一句完整的話回應，不只回一兩個字（makes sense）。"
+      },
+      "4": {
+        "en": "Composed, courteous: Mr./Ms. until invited otherwise, measured full sentences; take up their main point first (understood), varied.",
+        "zh": "沉穩有禮，稱 Mr.／Ms.，對方邀請後才叫名字，句子完整；先回應對方重點（understood），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register: titles and surnames, brisk sentences, little small talk; answer each point in full (that is clear), varied.",
+        "zh": "俐落的商務口吻，稱謂加姓氏，明快但有溫度；每個重點完整回應（that is clear），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat helper on first-name terms: a warm reaction first, then say you will pass it on (oh got it, sure thing), varied.",
+        "zh": "活潑親切的助理，直接叫名字：先熱絡回應對方，再說會轉告（oh got it、sure thing），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, personable assistant: acknowledge their situation kindly, then take down the message (oh understood), varied.",
+        "zh": "溫和從容的助理，溫暖親切：先體貼回應對方處境，再記下留言（oh understood），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in crisp everyday English: answer their point in one full sentence, never a bare OK, then confirm the relay (got that).",
+        "zh": "自然幹練的助理，俐落的日常英語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（got that）。"
+      },
+      "4": {
+        "en": "Polished secretary: Mr./Ms. unless invited otherwise; take up why they called in full sentences, then pass it on (thank you), varied.",
+        "zh": "周到的秘書，稱 Mr.／Ms.：先用完整句子承接來意，再說會轉告（thank you），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Mr./Ms., brisk; answer the business points in full, then confirm the relay (thank you), varied.",
+        "zh": "主管級助理，正式稱 Mr.／Ms.，條理俐落：先完整回應公事重點，再確認轉達（thank you），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "HDB",
+      "shoe rack",
+      "guardhouse"
+    ],
+    "bank": [
+      "PayNow",
+      "Singpass",
+      "digibank"
+    ]
+  },
+  "status": "draft"
+}

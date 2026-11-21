@@ -1,0 +1,154 @@
+{
+  "name": "Sweden",
+  "name_local": "Sverige",
+  "iso": "se",
+  "calling_code": "+46",
+  "languages": [
+    "sv"
+  ],
+  "prevalence_note": "Polisen and PTS warnings 2025-2026: fake bank security asking for Mobilt BankID or bankdosa codes, fake police collecting cards and jewellery, telecom contract tricks signed with BankID, and investment scams.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "se_bankid_sakerhetsavdelning",
+      "typology": "otp_theft",
+      "name": "Falsk säkerhetsavdelning: BankID och bankdosa",
+      "name_en": "Fake bank security asking for BankID or bankdosa codes",
+      "prevalence": "very_high",
+      "lang": "sv",
+      "context_keywords": [
+        "säkerhetsavdelningen"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "logga in med mobilt bankid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "koden från bankdosan",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "säkerhetskonto",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department warns of a loan or card payment the owner did not make and asks to sign in with Mobilt BankID, read codes from the bankdosa or move money to a security account.",
+      "legit_en": "Swedish banks never call and ask customers to sign in with BankID, read bankdosa codes or move money to a security account.",
+      "bait_tactics": [
+        "Säga att mobilen just startar om och be dem förklara en gång till, lugnt",
+        "Fråga vilken dag lånet ska ha tagits och på hur mycket"
+      ],
+      "sources": [
+        "Polisen",
+        "PTS"
+      ]
+    },
+    {
+      "id": "se_falska_poliser_vardesaker",
+      "typology": "fake_official",
+      "name": "Falska poliser hämtar kort och smycken",
+      "name_en": "Fake police collecting bank cards and jewellery",
+      "prevalence": "very_high",
+      "lang": "sv",
+      "context_keywords": [
+        "inbrottsvåg"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "hämtar ditt bankkort",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "guld och smycken",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "legitimera dig med bankid",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police officer says burglars or identity thieves target the owner, asks for BankID verification and says plain-clothes staff will come to collect bank cards, codes, gold and jewellery.",
+      "legit_en": "The Swedish police never ask people to verify themselves with BankID by phone or collect cards, codes or valuables at home.",
+      "bait_tactics": [
+        "Säga att nycklarna till skåpet ligger hos grannen och fråga när de tänkte komma",
+        "Fråga lugnt hur personen som kommer ser ut"
+      ],
+      "sources": [
+        "Polisen"
+      ]
+    },
+    {
+      "id": "se_telefonforsaljning_bankid",
+      "typology": "fake_telecom",
+      "name": "Falsk mobiloperatör: signera med BankID direkt",
+      "name_en": "Fake mobile operator pushing a BankID signature",
+      "prevalence": "medium",
+      "lang": "sv",
+      "context_keywords": [
+        "sänkt månadskostnad"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "signera avtalet direkt med bankid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ditt nummer stängs av idag",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a mobile operator promises a lower monthly cost or a network update and pushes the owner to sign a contract with BankID at once or lose the number today.",
+      "legit_en": "Operators do not shut numbers off the same day and never require a BankID signature during a cold call.",
+      "bait_tactics": [
+        "Säga att glasögonen ligger i bilen och be dem läsa upp villkoren igen",
+        "Fråga vad det kostar efter första året"
+      ],
+      "sources": [
+        "PTS",
+        "Konsumentverket"
+      ]
+    },
+    {
+      "id": "se_investering_krypto",
+      "typology": "investment_group_scam",
+      "name": "Investeringsbedrägeri med krypto",
+      "name_en": "Crypto investment scam",
+      "prevalence": "high",
+      "lang": "sv",
+      "context_keywords": [
+        "handelsplattform"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "fjärrstyrningsprogram",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "avgift för att få ut vinsten",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a financial adviser promises returns on crypto, asks to install a remote-control program and later demands a tax or fee to pay out the profit.",
+      "legit_en": "Licensed advisers never ask clients to install remote-control programs or pay a fee to get their profit out.",
+      "bait_tactics": [
+        "Säga att man skriver upp allt och fråga hur mycket man ska börja med",
+        "Fråga hur lång tid en utbetalning tar"
+      ],
+      "sources": [
+        "Finansinspektionen",
+        "Polisen"
+      ]
+    }
+  ]
+}

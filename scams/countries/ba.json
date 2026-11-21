@@ -1,0 +1,145 @@
+{
+  "name": "Bosnia and Herzegovina",
+  "name_local": "Bosna i Hercegovina",
+  "iso": "ba",
+  "calling_code": "+387",
+  "languages": [
+    "sr"
+  ],
+  "prevalence_note": "Police warnings 2025-2026 follow the Serbian pattern: fake parcel fees, fake bank card blocks asking for codes, crypto advisers, and relatives with a new number.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ba_posta_paket",
+      "typology": "fake_customs_parcel",
+      "name": "Lažna pošta: plaćanje dostave paketa",
+      "name_en": "Fake post office parcel fee",
+      "prevalence": "high",
+      "lang": "sr",
+      "context_keywords": [
+        "bh pošta"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "cvv kod",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "link za potvrdu adrese",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the post or a courier says a parcel is held for an incomplete address and asks for card number, CVV and an SMS code on a link to pay the delivery fee.",
+      "legit_en": "Post offices never ask for card numbers, CVV codes or SMS codes by phone or through a link.",
+      "bait_tactics": [
+        "Reći da traži naočare i pitati odakle je paket",
+        "Pitati koliko tačno košta dostava"
+      ],
+      "sources": [
+        "MUP"
+      ]
+    },
+    {
+      "id": "ba_banka_kartica",
+      "typology": "fake_bank_account_alert",
+      "name": "Lažna banka: blokada kartice i jednokratni kod",
+      "name_en": "Fake bank card block and one-time code",
+      "prevalence": "high",
+      "lang": "sr",
+      "context_keywords": [
+        "nagradni poeni"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "jednokratni kod",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "fotografiju lične karte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cvc kod",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service says the card is blocked or reward points expire and asks for the one-time code, CVC, PIN or a photo of the ID card.",
+      "legit_en": "Banks never ask for one-time codes, CVC, PIN or ID photos by phone.",
+      "bait_tactics": [
+        "Reći da se aplikacija banke učitava i zamoliti da ponovi polako",
+        "Pitati o kojoj transakciji je reč"
+      ],
+      "sources": [
+        "NBS",
+        "MUP"
+      ]
+    },
+    {
+      "id": "ba_kripto_savetnik",
+      "typology": "crypto_scam",
+      "name": "Lažni investicioni savetnik: kripto i daljinski pristup",
+      "name_en": "Fake investment adviser with crypto and remote access",
+      "prevalence": "high",
+      "lang": "sr",
+      "context_keywords": [
+        "kripto novčanik"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otključavanje profita",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "isplata profita",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as an investment adviser promises safe earnings, asks to install a remote access app and later demands a payment to unlock the profit.",
+      "legit_en": "Licensed advisers never ask for payments to unlock profits or for remote access to a phone.",
+      "bait_tactics": [
+        "Reći da zapisuje i pitati koliko je prva uplata",
+        "Pitati koliko traje isplata"
+      ],
+      "sources": [
+        "MUP"
+      ]
+    },
+    {
+      "id": "ba_whatsapp_rodjak",
+      "typology": "fake_relative_money",
+      "name": "Rođak sa novim brojem: hitna uplata",
+      "name_en": "Relative with a new number asking for an urgent payment",
+      "prevalence": "medium",
+      "lang": "sr",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "hitno prebaci novac",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uplata na tuđi račun",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or message from a relative with a new number asks for a verification code or an urgent transfer to someone else's account.",
+      "legit_en": "Relatives who change numbers can be reached on the old one; an urgent transfer to another person's account is the warning sign.",
+      "bait_tactics": [
+        "Reći da je telefon na punjenju i pitati za koji račun je to",
+        "Pitati koliko tačno treba"
+      ],
+      "sources": [
+        "MUP"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "ee",
+  "countries": [
+    "ee"
+  ],
+  "name": {
+    "en": "Estonia",
+    "native": "Eesti",
+    "zh": "愛沙尼亞"
+  },
+  "lang": "et",
+  "hello": {
+    "hello": "Halloo?",
+    "hello_again": "Halloo, kas kuulete mind?"
+  },
+  "delivery": {
+    "en": "Parcels: a pakiautomaat or outside the door",
+    "zh": "包裹放 pakiautomaat 或門口"
+  },
+  "readback": {
+    "en": "24-hour times, or pool kolm for 14:30",
+    "zh": "24 小時制或說 pool kolm"
+  },
+  "fraud": {
+    "en": "Smart-ID PINs, a \"police\" or bank safe account or Omniva fees are scams",
+    "zh": "要 Smart-ID 的 PIN、假警察或銀行「安全帳戶」、Omniva 補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Calm, plain Estonian: no American-style small talk or cheer.",
+    "zh": "說平靜樸實的愛沙尼亞語，不寒暄、不裝熱絡。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: Smart-ID frozen on a blank screen, the ID-card reader missing the card.",
+    "zh": "卡在當地日常狀況，例如 Smart-ID 卡在白畫面、讀卡機認不到身分證。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a close friend: sina, loose cadence without over-the-top cheer, a real reaction plus a follow-up thought (ohoh), varied.",
+        "zh": "跟好朋友聊：用 sina，節奏隨興但不誇張熱絡，有真反應並多接一句（如 ohoh），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing: sina with friends, Teie with others; after they explain, add a friendly remark (aa arusaadav), varied.",
+        "zh": "溫暖隨和：對朋友用 sina，其他人用 Teie；對方講完，加一句友善回應（如 aa arusaadav），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday: sina with friends, Teie on errands. When they finish a point, reply with one full sentence, not a word or two (selge).",
+        "zh": "日常口氣：對朋友用 sina，辦事用 Teie。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 selge，每次換）。"
+      },
+      "4": {
+        "en": "Courteous: Teie, measured complete sentences; take up their main point first (tänan helistamast), varied.",
+        "zh": "有禮：用 Teie，句子完整穩重，先回應對方重點（如 tänan helistamast），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register: Teie, concise, little small talk; answer each point in full (olukord on arusaadav), varied.",
+        "zh": "俐落的主管口吻：用 Teie，精簡，少閒聊；每個重點完整回應（如 olukord on arusaadav），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly and informal helper: a warm reaction before saying you will pass it on (aa, selge), varied.",
+        "zh": "活潑的小幫手，親切隨意：先熱絡回應，再說會轉告（如 aa, selge），每次換。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: acknowledge their situation kindly, then take the message (aitäh teatamast), varied.",
+        "zh": "親切從容的助理：先體貼回應對方的處境，再記下留言（如 aitäh teatamast），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet secretary: Teie, complete sentences; take up why they called first (tänan täpsustuse eest), varied.",
+        "zh": "低調的秘書：用 Teie，句子完整；先承接來意（如 tänan täpsustuse eest），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Teie, brisk; answer key details in full, then confirm the relay (kõik on kirjas), varied.",
+        "zh": "主管級助理：正式用 Teie，明快；先完整回應重點，再確認轉達（如 kõik on kirjas），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "pakiautomaat",
+      "Omniva",
+      "Smartposti"
+    ],
+    "bank": [
+      "Smart-ID",
+      "ID-kaart",
+      "pangakaart"
+    ]
+  },
+  "status": "draft"
+}

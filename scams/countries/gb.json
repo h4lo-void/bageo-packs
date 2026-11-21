@@ -1,0 +1,230 @@
+{
+  "name": "United Kingdom",
+  "name_local": "United Kingdom",
+  "iso": "gb",
+  "calling_code": "+44",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Action Fraud, Ofcom & Hiya: HMRC tax/NI arrest threats, bank Authorised Push Payment (APP) 'safe account' fraud, fake Amazon/Royal Mail calls, and WhatsApp/Indeed task job scams dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "gb_hmrc_ni_scam",
+      "typology": "irs_ssa_impersonation",
+      "name": "HMRC Tax Lawsuit / National Insurance Compromise",
+      "name_en": "HMRC unpaid tax arrest threat or National Insurance number compromised scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "hmrc",
+        "national insurance",
+        "inland revenue",
+        "tax rebate"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "national insurance number has been compromised",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "hmrc arrest warrant",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims HMRC is filing a lawsuit or the owner's National Insurance number was compromised, demanding immediate transfer, gift vouchers, or pressing 1 for a caseworker.",
+      "legit_en": "Accountant or employer payroll discussing PAYE or tax codes calmly with no arrest threat or instant payment.",
+      "bait_tactics": [
+        "Sound polite and scatterbrained, ask which P60 tax year is affected while pretending to rummage through a kitchen drawer of old letters",
+        "Ask them to explain slowly how the tax calculation works because you retired or changed jobs"
+      ],
+      "sources": [
+        "GOV.UK HMRC",
+        "Action Fraud",
+        "Hiya"
+      ]
+    },
+    {
+      "id": "gb_bank_app_safe_account",
+      "typology": "fake_bank_account_alert",
+      "name": "UK Bank Fraud Team 'Safe Account' (APP Fraud) & Card Courier",
+      "name_en": "Fake UK bank fraud team asking to move funds to a safe account or hand card to courier",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "fraud team",
+        "compromised branch",
+        "direct debit",
+        "building society"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "move your money to a safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "courier to collect your card",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims inside bank staff are corrupt or account is under attack; tells owner to transfer savings to a newly opened 'safe account', read a one-time passcode, or hand their bank card to a bike courier.",
+      "legit_en": "Genuine UK bank blocking a card and posting a new one without ever asking to move money to another account or send a courier.",
+      "bait_tactics": [
+        "Pretend your card reader battery just died and you are looking for AAA batteries in the shed while asking how the safe account interest works",
+        "Slowly ask whether Faster Payments has a daily limit and pretend the mobile banking app keeps logging out"
+      ],
+      "sources": [
+        "UK Finance Take Five",
+        "Action Fraud",
+        "Which?"
+      ]
+    },
+    {
+      "id": "gb_whatsapp_job_task",
+      "typology": "job_account_mule",
+      "name": "Indeed / Recruitment WhatsApp Task Scam",
+      "name_en": "Fake recruiter asking to add WhatsApp for remote task/review work",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "indeed",
+        "recruitment",
+        "remote role",
+        "part time"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "add this number on whatsapp",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "product optimisation tasks",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Robocall or recruiter claiming to be from Indeed/Reed telling the owner to add a number on WhatsApp for easy daily pay doing app/hotel reviews that require crypto deposits.",
+      "legit_en": "A real recruiter discussing a specific CV application and scheduling an interview by email or office visit.",
+      "bait_tactics": [
+        "Act keen on the extra income, pretend you don't know how to add contacts on WhatsApp and ask them to explain what the daily tasks look like"
+      ],
+      "sources": [
+        "Action Fraud",
+        "Ofcom",
+        "Hiya"
+      ]
+    },
+    {
+      "id": "gb_tax_arrest_warrant",
+      "typology": "fake_official",
+      "name": "Fake HMRC or police: arrest warrant and bailiffs",
+      "name_en": "Fake tax office or police threatening arrest",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "immediate arrest warrant",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send bailiffs to your address",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as HMRC or the police says there is an arrest warrant over unpaid tax or a compromised National Insurance number and demands immediate payment.",
+      "legit_en": "HMRC and the police never threaten immediate arrest by phone or ask for payment in vouchers.",
+      "bait_tactics": [
+        "Say the reading glasses are upstairs and ask which tax year it is about",
+        "Ask how the amount was worked out"
+      ],
+      "sources": [
+        "HMRC",
+        "Action Fraud"
+      ]
+    },
+    {
+      "id": "gb_broadband_cut_off",
+      "typology": "fake_telecom",
+      "name": "Fake broadband provider: line cut off today",
+      "name_en": "Fake broadband provider threatening to cut the line",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "broadband will be cut off",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "install remote support software",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a broadband provider or the regulator says the line will be cut off today and asks to install remote support software or confirm bank details.",
+      "legit_en": "Broadband providers never cut a line the same day by phone or ask for remote access.",
+      "bait_tactics": [
+        "Say the router is in another room and ask what light should be showing",
+        "Ask what time the cut-off is planned"
+      ],
+      "sources": [
+        "Ofcom",
+        "Action Fraud"
+      ]
+    },
+    {
+      "id": "gb_cold_call_investment",
+      "typology": "investment_group_scam",
+      "name": "High-Return Share & Crypto Cold-Call Scam",
+      "name_en": "Unsolicited High-Return Investment and Crypto Cold Call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed return",
+        "trading platform",
+        "cryptocurrency portfolio"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "guaranteed high returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "exclusive pre-market allocation",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "open a crypto wallet right now",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "limited window to transfer funds",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited caller pitches exclusive high-return opportunities in shares, cryptocurrency, foreign exchange, or commodities, using polished financial jargon and time-limited bonuses to force a rapid decision.",
+      "legit_en": "Authorised investment and financial services firms in the United Kingdom and Ireland do not cold-call members of the public with urgent high-yield offers, and legitimate firms can always be verified independently on official central bank or regulator.",
+      "bait_tactics": [
+        "Right, hang on—could you spell the firm's registered name slowly so I can type it into the financial register?",
+        "My tablet battery is sitting on two percent and I can't find the charging lead anywhere in the study.",
+        "Wait a second, the page isn't loading on my mobile data—what was that firm reference number again?"
+      ],
+      "sources": [
+        "https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/types-of-scam-calls-texts-and-messages"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "schema": 1,
+  "code": "lu",
+  "countries": [
+    "lu"
+  ],
+  "name": {
+    "en": "Luxembourg",
+    "native": "Luxembourg",
+    "zh": "盧森堡"
+  },
+  "lang": "fr-FR",
+  "other_langs": [
+    "lb",
+    "de-DE"
+  ],
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, vous m'entendez ?"
+  },
+  "delivery": {
+    "en": "Parcels: PackUp, boîte aux lettres or a neighbour",
+    "zh": "包裹放 PackUp、信箱或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers: a three-digit prefix, then pairs",
+    "zh": "手機號碼先唸三位區碼，再兩位一組"
+  },
+  "fraud": {
+    "en": "a LuxTrust approval or handing your card to a visitor are scams",
+    "zh": "要你確認 LuxTrust 通知、把銀行卡交給上門的人的都是詐騙"
+  },
+  "habits": {
+    "en": "Say PackUp, boîte aux lettres. Moien and Äddi are normal greetings.",
+    "zh": "用 PackUp、boîte aux lettres。Moien、Äddi 是常見招呼。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the LuxTrust app spinning, a blank old token screen, the banking session timing out.",
+    "zh": "卡在 LuxTrust App 一直轉、舊 Token 螢幕空白、網銀連線逾時。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tu, short loose sentences, real reactions (écoute, carrément), varied.",
+        "zh": "像{owner}跟好朋友聊：用 tu，句子短而隨興、反應真實（如 écoute、carrément），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: tu with peers, easygoing vous with strangers; after they explain, add a friendly remark (alors, parfait), varied.",
+        "zh": "溫和隨和：同儕 tu，陌生人隨和的 vous；對方講完，加一句自己的友善回應（如 alors、parfait），每次換說法。"
+      },
+      "3": {
+        "en": "Vous with strangers, tu with close ones. After their point, reply with one full sentence, not a word or two (d'accord, je vois), varied.",
+        "zh": "陌生人 vous、熟人 tu。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 d'accord、je vois），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: consistent polished vous, full sentences; take up their main point first (certainement, tout à fait), varied.",
+        "zh": "有禮：一貫得體的 vous，句子完整，先回應重點（如 certainement、tout à fait），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: strict vous, brisk full sentences, little small talk; answer each point (bien reçu, c'est clair), varied.",
+        "zh": "俐落公事口吻：嚴謹的 vous，句子精簡完整，少閒聊；每個重點都回應（如 bien reçu、c'est clair），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: tu, breezy lines; react warmly to what they share, then say you will pass it on (bien sûr, super), varied.",
+        "zh": "{owner}活潑的小幫手：用 tu，句子輕快；先熱絡回應對方，再說會轉告（如 bien sûr、super），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: tu with peers, easygoing vous with strangers; acknowledge their situation, then take the message (c'est noté), varied.",
+        "zh": "親切從容的助理：同儕 tu，陌生人隨和的 vous；先體貼回應處境，再記下留言（如 c'est noté），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: vous with strangers. After their point, answer in one full sentence, then confirm the relay (entendu, c'est noté), varied.",
+        "zh": "自然幹練的助理：陌生人用 vous。對方講完一件事，先用一句完整的話回應，再確認轉達（如 entendu、c'est noté），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: consistent polished vous, composed full sentences; take up why they called, then offer to pass it on (j'en prends note), varied.",
+        "zh": "低調周到的秘書：一貫得體的 vous，語氣沉穩完整；先承接來意再說會轉告（如 j'en prends note），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: strict vous, concise and brisk; answer key details in full, then confirm the relay (noté, bien reçu), varied.",
+        "zh": "主管級助理：嚴謹的 vous，用語精簡明快；先完整回應重點，再確認轉達（如 noté、bien reçu），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "PackUp",
+      "boîte aux lettres",
+      "voisin"
+    ],
+    "bank": [
+      "LuxTrust",
+      "virement",
+      "carte bancaire"
+    ]
+  },
+  "status": "draft"
+}

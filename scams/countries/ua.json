@@ -1,0 +1,195 @@
+{
+  "name": "Ukraine",
+  "name_local": "Україна",
+  "iso": "ua",
+  "calling_code": "+380",
+  "languages": [
+    "uk"
+  ],
+  "prevalence_note": "Cyberpolice and National Bank warnings 2025-2026: fake bank security asking for card codes or a reserve account, relatives in a car accident with cash handed to a driver, and fake aid payouts.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ua_bank_security_card",
+      "typology": "fake_bank_account_alert",
+      "name": "Фейкова служба безпеки банку: дані картки і резервний рахунок",
+      "name_en": "Fake bank security asking for card details or a move to a reserve account",
+      "prevalence": "very_high",
+      "lang": "uk",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "назвіть три цифри на звороті",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "перекажіть кошти на резервний рахунок",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "переведіть кошти на резервний рахунок",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank security service reports a suspicious payment and asks for the three digits on the back of the card or a transfer to a reserve account.",
+      "legit_en": "Banks never ask for the code on the back of the card or a transfer to another account by phone.",
+      "bait_tactics": [
+        "Скажи, що застосунок банку оновлюється, і попроси повторити повільніше",
+        "Спокійно перепитай, про який саме платіж і на яку суму йдеться"
+      ],
+      "sources": [
+        "Kiberpolitsiia",
+        "National Bank of Ukraine"
+      ]
+    },
+    {
+      "id": "ua_relative_accident_driver",
+      "typology": "fake_relative_money",
+      "name": "Родич у ДТП: гроші через водія",
+      "name_en": "Relative in a car accident, cash handed to a driver",
+      "prevalence": "high",
+      "lang": "uk",
+      "context_keywords": [
+        "потрапив у дтп",
+        "щоб закрити кримінальну справу"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "передайте гроші водію",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "передайте гроші водієві",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "передайте гроші водієм",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "терміново переведи гроші",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "переведи гроші на цю картку",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says a son or grandchild caused a car accident or is held by the police, and cash must be handed to a driver to close the case.",
+      "legit_en": "Police never settle a case for cash handed to a driver.",
+      "bait_tactics": [
+        "Хвилюйся і повільно розпитуй, де саме сталося ДТП",
+        "Скажи, що шукаєш окуляри, щоб записати адресу"
+      ],
+      "sources": [
+        "Kiberpolitsiia"
+      ]
+    },
+    {
+      "id": "ua_aid_payout_link",
+      "typology": "fake_government_subsidy",
+      "name": "Фейкова виплата єПідтримки або ООН",
+      "name_en": "Fake state or UN aid payout asking for card details",
+      "prevalence": "high",
+      "lang": "uk",
+      "context_keywords": [
+        "грошова допомога оон",
+        "єпідтримка"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "для зарахування виплати введіть",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "для отримання виплати введіть",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "сплатіть податок за посиланням",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller announces a state or UN aid payment and asks the owner to enter card details or a PIN through a link to receive it.",
+      "legit_en": "State and UN aid programmes never ask for a card PIN to pay out.",
+      "bait_tactics": [
+        "Запитай, з якого місяця нараховано виплату",
+        "Скажи, що картка лежить в іншій кімнаті, і попроси почекати"
+      ],
+      "sources": [
+        "Kiberpolitsiia"
+      ]
+    },
+    {
+      "id": "ua_zamina_esim",
+      "typology": "fake_telecom",
+      "name": "Шахрайська заміна eSIM",
+      "name_en": "Fake operator switching to a new eSIM",
+      "prevalence": "high",
+      "lang": "uk",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "код від оператора",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "нову esim",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a mobile operator says the SIM is outdated and asks for the code from the operator to switch to a new eSIM, which hands the number to the caller.",
+      "legit_en": "Operators never ask for codes by phone to switch a SIM or eSIM.",
+      "bait_tactics": [
+        "Сказати, що телефон заряджається, і попросити пояснити ще раз повільно",
+        "Запитати, до якого числа треба замінити"
+      ],
+      "sources": [
+        "Кіберполіція"
+      ]
+    },
+    {
+      "id": "ua_falshyva_politsiia_prohrama",
+      "typology": "fake_official",
+      "name": "Фальшива поліція: програма для перевірки",
+      "name_en": "Fake police asking to install a checking program",
+      "prevalence": "high",
+      "lang": "uk",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "програму для перевірки",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "гроші для експертизи",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the police says a criminal case was opened over the owner's account and asks to install a program to check the device or transfer money for an examination.",
+      "legit_en": "The police never ask to install programs or transfer money for an examination.",
+      "bait_tactics": [
+        "Сказати, що треба знайти окуляри, і попросити повторити повільно",
+        "Запитати, з якого відділку дзвонять"
+      ],
+      "sources": [
+        "Національна поліція"
+      ]
+    }
+  ]
+}

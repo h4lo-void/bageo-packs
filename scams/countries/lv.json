@@ -1,0 +1,183 @@
+{
+  "name": "Latvia",
+  "name_local": "Latvija",
+  "iso": "lv",
+  "calling_code": "+371",
+  "languages": [
+    "lv",
+    "ru"
+  ],
+  "prevalence_note": "Latvia 2025-2026 warnings: fake Courier and Institution Digital ID PIN Phishing; multi-Call Telecom, e-Signature, and Central Bank Impersonation; fake Police Cash and Bank Card Courier Pickup Scam; fake Investment Broker and Trading Platform Scam.",
+  "cross_border_note": "Calls in Latvian or Russian, often from abroad.",
+  "scams": [
+    {
+      "id": "lv_courier_eid_pin_scam",
+      "typology": "otp_theft",
+      "name": "Viltus kurjera vai iestādes digitālās identifikācijas PIN1/PIN2 izkrāpšana",
+      "name_en": "Fake Courier and Institution Digital ID PIN Phishing",
+      "prevalence": "very_high",
+      "lang": "lv",
+      "context_keywords": [
+        "kredīta pieteikums",
+        "identifikācija"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pin1",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pin2",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "noformēts kredīts",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "drošai uzglabāšanai",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call posing as parcel couriers or public agency staff to trick victims into entering PIN1 for identity verification.",
+      "legit_en": "CERT.LV confirms that Latvian commercial banks, parcel couriers, and state authorities never call citizens in Russian, never ask residents to reveal or enter digital authentication PIN codes during incoming calls, and never collect money for safe custody.",
+      "bait_tactics": [
+        "Pagaidiet mirklīti, man telefonā neparādījās neviens logs, laikam interneta zona te pagrabstāvā pazuda.",
+        "Ekrāns tikko sasala un lietotne vispār neatveras, man jāatrod lādētājs otrā istabā.",
+        "Es bez lasāmbrillēm neredzu tos mazos ciparus ekrānā, tūlīt paskatīšos, kur es tās noliku."
+      ],
+      "sources": [
+        "https://cert.lv/lv/2026/06/krapnieki-censas-iegut-smart-id-kodus-un-citus-iedzivotaju-datus",
+        "https://neuzkeries.lv/jaunumi/telefonkrapnieki-uzdodas-par-smart-id-parstavjiem-iedzivotajus-aicina-but-piesardzigiem"
+      ]
+    },
+    {
+      "id": "lv_multi_agency_telecom_bank",
+      "typology": "fake_official",
+      "name": "Daudzpakāpju sakaru operatora, e-paraksta un centrālās bankas krāpšana",
+      "name_en": "Multi-Call Telecom, e-Signature, and Central Bank Impersonation",
+      "prevalence": "very_high",
+      "lang": "lv",
+      "context_keywords": [
+        "centrālā banka",
+        "drošības pārbaude"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pārslēgsim uz drošības daļu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "konfidenciāla izmeklēšana",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bloķēsim sim karti",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Victims receive rapid back-to-back calls from fraudsters impersonating mobile operators, national electronic signature support, and central bank or police officials.",
+      "legit_en": "Latvian mobile network operators, the State Radio and Television Centre, the Bank of Latvia, and State Police never chain-transfer citizens between institutions during a phone call or demand urgent mobile signature approvals over unsolicited calls.",
+      "bait_tactics": [
+        "Sakari šobrīd ļoti raustās, vai varat pa burtiem lēnām nosaukt savu nodaļu, kamēr es meklēju pildspalvu?",
+        "Man elektroniskā paraksta lietotne prasa atjauninājumu un rāda, ka jāgaida desmit minūtes.",
+        "Pagaidiet, es neatceros savu līguma numuru no galvas, tūlīt pameklēšu papīra mapi plauktā."
+      ],
+      "sources": [
+        "https://www.lvrtc.lv/jaunumi/jaunumi/krapnieki-uzdodas-par-lmt-tele2-eparaksta-un-latvijas-bankas-parstavjiem/",
+        "https://www.lsm.lv/raksts/zinas/latvija/21.07.2026-si-gada-pirmajos-sesos-menesos-latvijas-iedzivotajiem-izkrapti-teju-8-miljoni-eiro.a655765/"
+      ]
+    },
+    {
+      "id": "lv_fake_police_cash_courier",
+      "typology": "fake_bank_account_alert",
+      "name": "Viltus policijas un kurjera skaidras naudas vai bankas kartes izkrāpšana",
+      "name_en": "Fake Police Cash and Bank Card Courier Pickup Scam",
+      "prevalence": "very_high",
+      "lang": "lv",
+      "context_keywords": [
+        "kriminālprocess",
+        "izmeklētājs"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "nododiet skaidru naudu kurjeram",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ielieciet karti pakomātā",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "deklarēt skaidros līdzekļus",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "viltotas banknotes",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers impersonating State Police or tax investigators claim the victim's bank account is compromised or that home savings must be inspected for counterfeit banknotes.",
+      "legit_en": "Latvian State Police officers, State Revenue Service inspectors, and commercial banks never dispatch couriers to private homes to collect cash or payment cards, and never ask citizens to deposit bank cards inside parcel lockers.",
+      "bait_tactics": [
+        "Uzgaidiet, mūsu kāpņutelpas durvju kods šodien nestrādā, un suns pagalmā skaļi rej, es slikti dzirdu.",
+        "Man bankas karte palika makā darba jakā, un es vispār neatceros, kurš PIN kods tai bija.",
+        "Pagaidiet minūti, tējkanna uz plīts sāk svilpt, tūlīt nogriezīšu uguni un pierakstīšu lietas numuru."
+      ],
+      "sources": [
+        "https://www.lsm.lv/raksts/zinas/ekonomika/28.11.2025-mobilo-sakaru-un-interneta-operatori-lukos-pasargat-klientus-no-digitalas-krapniecibas.a624299/",
+        "https://cert.lv/lv/2026/06/krapnieki-censas-iegut-smart-id-kodus-un-citus-iedzivotaju-datus"
+      ]
+    },
+    {
+      "id": "lv_investment_platform_fraud",
+      "typology": "investment_group_scam",
+      "name": "Viltus investīciju brokeru un tirdzniecības platformu krāpšana",
+      "name_en": "Fake Investment Broker and Trading Platform Scam",
+      "prevalence": "high",
+      "lang": "lv",
+      "context_keywords": [
+        "kriptovalūta",
+        "finanšu konsultants"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "garantēta peļņa",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "komisija par naudas izmaksu",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "attālinātā piekļuve",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Self-proclaimed investment analysts call persistently after social media ads, persuading residents to make initial small transfers into fake stock or crypto platforms showing fabricated profits.",
+      "legit_en": "Legitimate investment service providers in Latvia must hold an active license registered with Latvijas Banka, never promise guaranteed rapid returns over cold calls, and never demand separate advance transfers to release existing investor balances.",
+      "bait_tactics": [
+        "Pagaidiet, es mēģinu Latvijas Bankas mājaslapā atvērt licencēto brokeru sarakstu, bet lapa lēni ielādējas.",
+        "Mans dators tikko sāka instalēt sistēmas atjauninājumus un neļauj atvērt pārlūkprogrammu.",
+        "Nosauciet lēnām pa burtiem uzņēmuma reģistrācijas numuru, man pildspalva gandrīz vairs neraksta."
+      ],
+      "sources": [
+        "https://www.lsm.lv/raksts/zinas/latvija/21.07.2026-si-gada-pirmajos-sesos-menesos-latvijas-iedzivotajiem-izkrapti-teju-8-miljoni-eiro.a655765/"
+      ]
+    }
+  ]
+}

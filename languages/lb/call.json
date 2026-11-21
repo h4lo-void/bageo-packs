@@ -1,0 +1,62 @@
+{
+  "schema": 2,
+  "layer": "lb",
+  "status": "draft",
+  "name": {
+    "en": "Luxembourgish",
+    "zh": "盧森堡語"
+  },
+  "hello": {
+    "hello": "Moien!",
+    "hello_again": "Moien? Héiert Dir mech?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Jo, ech lauschteren, sot mir.",
+    "still_there": "Sidd Dir nach um Apparat?",
+    "bye": "Villmools Merci, äddi!",
+    "go_ahead": "Jo, sot roueg.",
+    "no_thanks": "Nee, villmools Merci.",
+    "think_about_it": "Ech muss mir dat nach iwwerleeën.",
+    "wait_one_more": "Waart ee Moment, ech hunn nach eng Fro.",
+    "no_wait": "«ee Moment», «eng Sekonn», «waart ech kucken», «waart wannechgelift ech préiwen dat», «een Ablack»",
+    "unavailable": "D'Nummer déi Dir gewielt hutt ass momentan net erreechbar. Probéiert méi spéit.",
+    "preview": [
+      "Moien!",
+      "Ah, e Pak? An der Rei, stellt en einfach virun d'Dier, villmools Merci.",
+      "Maacht et gutt, äddi!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "äddi",
+        "bis geschwënn",
+        "bis dann",
+        "bis herno",
+        "bis muer",
+        "versuergt Iech",
+        "versuerg dech",
+        "maach et gutt",
+        "awuer"
+      ],
+      "wrapups": [
+        "ech muss elo goen",
+        "ech loossen dech elo",
+        "dat war alles",
+        "mir schwätzen eis"
+      ],
+      "examples": {
+        "ends": [
+          "Merci fir Ären Uruff, äddi!",
+          "Merci fir d'Hëllef, bis geschwënn!",
+          "Mir ruffen eis muer un, bis dann."
+        ],
+        "not_ends": [
+          "Hien ass fortgaangen ouni äddi ze soen, an elo wësse mir net wou hien ass.",
+          "Ech hunn him gëschter äddi gesot, mee ech wollt Iech elo nach eppes froen.",
+          "An der Noriicht stoung bis geschwënn, mee mir mussen den Datum elo klären."
+        ]
+      }
+    }
+  }
+}

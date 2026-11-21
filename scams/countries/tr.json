@@ -1,0 +1,75 @@
+{
+  "name": "Turkey",
+  "name_local": "Türkiye",
+  "iso": "tr",
+  "calling_code": "+90",
+  "languages": [
+    "tr"
+  ],
+  "prevalence_note": "Police and bank warnings 2025-2026: fake police or prosecutors linking the owner to terrorism and moving money to a state account, and fake bank staff refunding card fees for an SMS code dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "tr_sahte_polis_guvence_hesabi",
+      "typology": "fake_official",
+      "name": "Sahte polis ve savcı: devlet güvence hesabı",
+      "name_en": "Fake police or prosecutor moving money to a state safe account",
+      "prevalence": "very_high",
+      "lang": "tr",
+      "context_keywords": [
+        "terörle mücadele"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "devlet güvence hesab",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "sivil polise teslim",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake counter-terrorism police or a prosecutor say the owner's name came up in a terror or money-laundering case and the money must go to a state account or be handed to a plain-clothes officer.",
+      "legit_en": "Turkish police and prosecutors never ask for transfers, cash or gold on the phone.",
+      "bait_tactics": [
+        "Endişeli görünüp hangi dosyadan bahsettiklerini yavaşça sormak",
+        "Yakın gözlüğünü bulamadığını söyleyip her şeyi tekrar ettirmek"
+      ],
+      "sources": [
+        "Emniyet Genel Müdürlüğü"
+      ]
+    },
+    {
+      "id": "tr_kart_aidati_iadesi",
+      "typology": "fake_bank_account_alert",
+      "name": "Kart aidatı iadesi bahanesiyle şifre",
+      "name_en": "Fake bank refunding card fees for an SMS code",
+      "prevalence": "high",
+      "lang": "tr",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "kart aidatı iade",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "güvenli hesaba havale",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's head office offers to refund past card fees or stop a suspicious charge and asks for the SMS code or a transfer to a safe account.",
+      "legit_en": "Banks refund fees without calls and never ask for SMS codes or transfers on the phone.",
+      "bait_tactics": [
+        "Mobil bankacılık uygulamasının güncelleme istediğini söyleyip beklemek",
+        "Hangi kartın aidatından bahsettiklerini ve tutarı yavaşça sormak"
+      ],
+      "sources": [
+        "Türkiye Bankalar Birliği"
+      ]
+    }
+  ]
+}

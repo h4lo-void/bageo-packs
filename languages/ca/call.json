@@ -1,0 +1,65 @@
+{
+  "schema": 2,
+  "layer": "ca",
+  "status": "draft",
+  "name": {
+    "en": "Catalan",
+    "zh": "加泰隆尼亞語"
+  },
+  "hello": {
+    "hello": "Digui?",
+    "hello_again": "Hola? Em sent?"
+  },
+  "common": {},
+  "speech": {
+    "im_here": "Sí, l'escolto, digui'm.",
+    "still_there": "Encara hi és?",
+    "bye": "Moltes gràcies, adeu!",
+    "go_ahead": "Sí, endavant, digui.",
+    "no_thanks": "No, moltes gràcies.",
+    "think_about_it": "M'ho haig de pensar una mica.",
+    "wait_one_more": "Esperi, que tinc una altra pregunta.",
+    "no_wait": "«un moment», «un segon», «espera que ho miro», «esperi que ho comprovo», «un instant»",
+    "unavailable": "El número marcat no està disponible ara mateix. Torni-ho a provar més tard.",
+    "preview": [
+      "Digui?",
+      "Ah, un paquet? D'acord, deixi'l davant de la porta, moltes gràcies.",
+      "Que vagi molt bé, adeu-siau!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "adeu",
+        "adeu-siau",
+        "a reveure",
+        "fins aviat",
+        "fins ara",
+        "fins demà",
+        "fins després",
+        "fins la propera",
+        "que vagi bé",
+        "passi-ho bé"
+      ],
+      "wrapups": [
+        "no et robo més temps",
+        "et deixo",
+        "ja parlarem",
+        "haig de penjar",
+        "no l'entretinc més",
+        "ho deixem aquí"
+      ],
+      "examples": {
+        "ends": [
+          "Moltes gràcies per tot, adeu!",
+          "Que vagi molt bé, adeu-siau!",
+          "Ja en parlem demà, fins aviat."
+        ],
+        "not_ends": [
+          "Va marxar de la sala sense dir adeu i encara hem de resoldre aquest punt.",
+          "Li vaig dir adeu al matí, però ara li truco per confirmar l'adreça.",
+          "Sempre diu adeu-siau amb molta pressa, tot i que avui tenim temps de parlar."
+        ]
+      }
+    }
+  }
+}

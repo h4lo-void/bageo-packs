@@ -1,0 +1,115 @@
+{
+  "schema": 2,
+  "layer": "be",
+  "status": "draft",
+  "name": {
+    "en": "Belarusian",
+    "zh": "白俄羅斯文"
+  },
+  "hello": {
+    "hello": "Алё, слухаю!",
+    "hello_again": "Алё? Мяне чуваць?"
+  },
+  "common": {
+    "habits": {
+      "en": "Say times in 24 hours; follow the caller's language.",
+      "zh": "時間用 24 小時制；對方用什麼語言就跟著用。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: ты, short lively sentences, a real reaction plus a follow-up line.",
+          "zh": "跟好朋友：用 ты，句子短而活潑，有真反應並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing: after the caller explains, add a friendly remark of your own.",
+          "zh": "溫暖隨和：對方講完，加一句自己的友善回應。"
+        },
+        "3": {
+          "en": "Everyday tone; when they finish a point, answer with one full sentence of your own, not a word or two.",
+          "zh": "日常口氣；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Courteous Вы, measured complete sentences; take up their main point first.",
+          "zh": "有禮用 Вы，句子完整穩重，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business Вы and titles, brisk, answering each point in full.",
+          "zh": "公事口吻：Вы 加稱謂，明快，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper on ты terms: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，用 ты：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, calm assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary in Вы: take up why they called in complete sentences.",
+          "zh": "低調的秘書，用 Вы：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant in formal Вы: brisk, answering key details in full.",
+          "zh": "主管級助理，正式用 Вы：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Так, я слухаю, калі ласка, гаварыце.",
+    "still_there": "Вы яшчэ на сувязі?",
+    "bye": "Дзякуй за званок, да пабачэння!",
+    "go_ahead": "Так, калі ласка, гаварыце.",
+    "no_thanks": "Не, вялікі дзякуй.",
+    "think_about_it": "Мне трэба крыху падумаць над гэтым.",
+    "wait_one_more": "Пачакайце, у мяне яшчэ адно пытанне.",
+    "no_wait": "«хвілінку», «секунду», «пачакай я пагляджу», «пачакайце я праверу», «імгненне», «зараз праверу»",
+    "unavailable": "Нумар, які вы набралі, зараз недаступны. Калі ласка, паспрабуйце пазней.",
+    "preview": [
+      "Алё, слухаю!",
+      "А, пасылка? Добра, пакіньце каля дзвярэй, вялікі дзякуй.",
+      "Усяго добрага, да пабачэння!"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "да пабачэння",
+        "бывайце",
+        "бывай",
+        "пакуль",
+        "шчасліва",
+        "да сустрэчы",
+        "да заўтра",
+        "да хуткай сустрэчы",
+        "усяго добрага",
+        "усяго найлепшага"
+      ],
+      "wrapups": [
+        "мне трэба бегчы",
+        "мне пара ісці",
+        "пазней пагаворым",
+        "на гэтым усё",
+        "мушу класці слухаўку"
+      ],
+      "examples": {
+        "ends": [
+          "Вялікі дзякуй за дапамогу, да пабачэння!",
+          "Дзякуй за размову, бывайце!",
+          "Добра, пазней пагаворым, да сустрэчы."
+        ],
+        "not_ends": [
+          "Ён выйшаў з кабінета і не сказаў да пабачэння, таму я тэлефаную.",
+          "Мы ўчора сказалі да пабачэння, але засталося яшчэ адно пытанне.",
+          "Ён заўсёды кажа бывайце вельмі хутка, але раскажыце мне пра ўмовы."
+        ]
+      }
+    }
+  }
+}

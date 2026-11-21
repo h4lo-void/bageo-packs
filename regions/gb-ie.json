@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "gb-ie",
+  "countries": [
+    "gb",
+    "ie",
+    "im",
+    "je",
+    "gg"
+  ],
+  "name": {
+    "en": "United Kingdom and Ireland",
+    "native": "United Kingdom and Ireland",
+    "zh": "英國與愛爾蘭"
+  },
+  "lang": "en-US",
+  "delivery": {
+    "en": "Parcels: a safe place, the porch or a neighbour",
+    "zh": "包裹放 safe place、門廊或交給鄰居"
+  },
+  "readback": {
+    "en": "07 mobiles use oh and double; times like half two",
+    "zh": "07 手機用 oh 和 double 唸；時間說 half two"
+  },
+  "fraud": {
+    "en": "HMRC threats, a \"safe account\" or a courier collecting your card are scams",
+    "zh": "冒充 HMRC 威脅、叫你轉到安全帳戶、派人收你金融卡的都是詐騙"
+  },
+  "habits": {
+    "en": "Say mobile, postcode, flat, not cell, zip code, apartment; day first",
+    "zh": "用 mobile、postcode、flat，不用 cell、zip code、apartment；日期先日後月。"
+  },
+  "stall_local": {
+    "en": "Get stuck on UK and Irish snags: reading glasses upstairs, the banking app spinning, a missing card reader.",
+    "zh": "卡在英愛日常狀況，例如老花眼鏡在樓上、銀行 App 一直轉、找不到讀卡機。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a mate on the mobile: first names, contractions, short chatty lines, a warm reaction plus a follow-up (lovely), varied.",
+        "zh": "用手機跟好朋友聊：叫名字，口語縮寫，句子短而愛聊，熱絡回應並多接一句（如 lovely），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing: first names unless they use titles; after they explain, add a friendly remark (fair enough), varied.",
+        "zh": "溫暖隨和：對方沒用頭銜就叫名字；對方講完，加一句友善回應（如 fair enough），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday, understated, first names. When they finish a point, reply with one full sentence, not a word or two (right, got it).",
+        "zh": "日常內斂，叫名字。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 right, got it，每次換）。"
+      },
+      "4": {
+        "en": "Well-mannered: Mr/Ms until invited to first names, measured complete sentences; take up their main point first (understood).",
+        "zh": "有禮：沒受邀前用 Mr/Ms，句子完整穩重，先回應對方重點（如 understood），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp senior register: Mr/Ms and surnames, concise; answer each point in full (thank you for flagging that), varied.",
+        "zh": "俐落的資深口吻：Mr/Ms 加姓氏，精簡；每個重點都完整回應（如 thank you for flagging that），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful helper on first names: breezy short lines, a warm reaction before saying you will pass it on (brilliant), varied.",
+        "zh": "開朗的小幫手，直接叫名字：句子輕快簡短，先熱絡回應，再說會轉告（如 brilliant），每次換。"
+      },
+      "2": {
+        "en": "Warm, calm assistant on first names: acknowledge their situation kindly, then take the message (oh lovely), varied.",
+        "zh": "溫暖從容的助理，叫名字：先體貼回應對方的處境，再記下留言（如 oh lovely），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然幹練的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet PA: Mr/Ms unless invited to first names, complete sentences; take up why they called first (understood), varied.",
+        "zh": "低調的私人秘書：沒受邀前用 Mr/Ms，句子完整，先承接來意再說會轉告（如 understood），每次換說法。"
+      },
+      "5": {
+        "en": "Executive PA: formal Mr/Ms, concise, brisk; answer the key details in full, then confirm the relay (certainly), varied.",
+        "zh": "主管級助理：正式用 Mr/Ms，精簡明快；先完整回應重點，再確認轉達（如 certainly），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "safe place",
+      "neighbour",
+      "parcel shop"
+    ],
+    "bank": [
+      "current account",
+      "sort code",
+      "Faster Payments"
+    ]
+  },
+  "status": "draft"
+}

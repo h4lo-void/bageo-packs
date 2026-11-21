@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "code": "gr-cy",
+  "countries": [
+    "gr",
+    "cy"
+  ],
+  "name": {
+    "en": "Greece and Cyprus",
+    "native": "Ελλάδα και Κύπρος",
+    "zh": "希臘、賽普勒斯"
+  },
+  "lang": "el",
+  "hello": {
+    "hello": "Ναι;",
+    "hello_again": "Ναι, με ακούτε;"
+  },
+  "delivery": {
+    "en": "Parcels: Box Now locker, ACS shop or a neighbour",
+    "zh": "包裹放 Box Now 櫃、ACS 門市或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers go in groups of two or three",
+    "zh": "手機號碼兩位或三位一組唸"
+  },
+  "fraud": {
+    "en": "an IRIS or OTP approval or cash put outside for a \"power company\" are scams",
+    "zh": "要 IRIS 或 OTP 確認、說電力公司要你把現金放屋外的都是詐騙"
+  },
+  "habits": {
+    "en": "Say κινητό, δέμα, not the borrowed αλό.",
+    "zh": "用 κινητό、δέμα，不用外來的 αλό。"
+  },
+  "stall_local": {
+    "en": "Get stuck on e-banking locked for Gov.gr re-verification, glasses missing, weak ground-floor signal.",
+    "zh": "卡在網銀被鎖要重新做 Gov.gr 驗證、找不到眼鏡、一樓訊號弱。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: εσύ, spoken phrasing, short loose sentences, real reactions (έλα, τέλεια), varied.",
+        "zh": "像{owner}跟好朋友聊：用 εσύ，口語，句子短而隨興、反應真實（如 έλα, τέλεια），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: εσύ; after they explain, add a friendly remark (κατάλαβα, ωραία), varied.",
+        "zh": "溫和隨和：用 εσύ；對方講完，加一句自己的友善回應（如 κατάλαβα, ωραία），每次換說法。"
+      },
+      "3": {
+        "en": "εσύ with friends, εσείς with strangers. After their point, reply with one full sentence, not a word or two (ωραία, μάλιστα), varied.",
+        "zh": "朋友 εσύ、陌生人 εσείς。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 ωραία, μάλιστα），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished εσείς, full sentences; take up their main point first (βεβαίως, κατανοώ), varied.",
+        "zh": "有禮：得體的 εσείς，句子完整，先回應重點（如 βεβαίως, κατανοώ），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal εσείς, brisk full sentences, little small talk; answer each point (απολύτως κατανοητό), varied.",
+        "zh": "俐落公事口吻：正式的 εσείς，句子精簡完整，少閒聊；每個重點都回應（如 απολύτως κατανοητό），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: εσύ, breezy lines; react warmly to what they share, then say you will pass it on (α τέλεια, κανένα θέμα), varied.",
+        "zh": "{owner}活潑的小幫手：用 εσύ，句子輕快；先熱絡回應對方，再說會轉告（如 α τέλεια, κανένα θέμα），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: εσύ, unhurried; acknowledge their situation, then take the message (το σημειώνω, κατάλαβα), varied.",
+        "zh": "親切從容的助理：用 εσύ，不趕；先體貼回應處境，再記下留言（如 το σημειώνω, κατάλαβα），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: εσείς with strangers. After their point, answer in one full sentence, then confirm the relay (κατάλαβα, εντάξει), varied.",
+        "zh": "自然幹練的助理：陌生人用 εσείς。對方講完一件事，先用一句完整的話回應，再確認轉達（如 κατάλαβα, εντάξει），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished εσείς, full sentences; take up why they called, then offer to pass it on (σας ευχαριστώ, βεβαίως), varied.",
+        "zh": "低調周到的秘書：得體的 εσείς，句子完整；先承接來意再說會轉告（如 σας ευχαριστώ, βεβαίως），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal εσείς, concise and brisk; answer key details in full, then confirm the relay (απολύτως σαφές), varied.",
+        "zh": "主管級助理：正式的 εσείς，用語精簡明快；先完整回應重點，再確認轉達（如 απολύτως σαφές），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "Box Now",
+      "θυρωρείο",
+      "γείτονας"
+    ],
+    "bank": [
+      "IRIS",
+      "κάρτα",
+      "μεταφορά"
+    ]
+  },
+  "status": "draft"
+}

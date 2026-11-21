@@ -1,0 +1,153 @@
+{
+  "name": "Japan",
+  "name_local": "日本",
+  "iso": "jp",
+  "calling_code": "+81",
+  "languages": [
+    "ja"
+  ],
+  "prevalence_note": "NPA (警察庁) 2025-2026 special fraud (特殊詐欺): SNS/LINE fake police arrest warrants (ニセ警察), Ore-ore family settlement money, municipal medical/tax ATM refund scams (還付金詐欺), and cash-card pickup fraud lead damages.",
+  "cross_border_note": "Calls from +1 / +44 / +800 international prefixes to Japanese numbers are heavily used by ニセ警察 (fake police) rings spoofing Prefectural Police.",
+  "scams": [
+    {
+      "id": "jp_nise_police_card",
+      "typology": "fake_official",
+      "name": "ニセ警察官・検察官・全銀協（口座悪用・LINE逮捕状・カード預かり）",
+      "name_en": "Fake Japanese police, prosecutor or bank association demanding safe transfer or cash card handover",
+      "prevalence": "very_high",
+      "lang": "ja",
+      "context_keywords": [
+        "県警",
+        "捜査二課",
+        "検察庁",
+        "銀行協会",
+        "警察手帳",
+        "金地金",
+        "金塊",
+        "コインロッカー"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "キャッシュカードを預かり",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "lineで逮捕状",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "資金調査のため振込",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "キャッシュカードの封印",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "金地金を購入",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "警察庁のセキュリティアプリ",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Poses as Prefectural Police Division 2, prosecutor or bank association saying the owner's account appeared in a fraud arrest; shows fake badge/warrant on LINE video, asks PIN, sends courier for cash cards, or demands fund-inspection transfer.",
+      "legit_en": "Real Japanese police ask citizens to visit the local station in person and never show warrants on LINE, ask PINs, collect cash cards, or transfer funds.",
+      "bait_tactics": [
+        "とても驚いて協力するふりをしつつ、通帳を仏壇の奥にしまったまま場所が分からないと言って時間を稼ぐ",
+        "老眼鏡を探しているふりをして、事件の内容や手続きの流れを何度もゆっくり聞き返す",
+        "インターネットバンキングの使い方がよく分からないふりをして一つずつ説明させる",
+        "金地金はどこで買うのか全く分からないふりをして、重さや手数料の計算をゆっくり聞く"
+      ],
+      "sources": [
+        "警察庁・SOS47特殊詐欺対策ページ",
+        "警視庁",
+        "警察庁 2025-2026"
+      ]
+    },
+    {
+      "id": "jp_oreore_family",
+      "typology": "fake_relative_money",
+      "name": "オレオレ詐欺（かばん紛失・示談金・会社の資金補填）",
+      "name_en": "Ore-ore relative impersonation asking urgent cash for lost bag or settlement",
+      "prevalence": "high",
+      "lang": "ja",
+      "context_keywords": [
+        "風邪をひいて声",
+        "携帯の番号が変わった",
+        "会社の小切手",
+        "不倫の示談"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "かばんをなくした",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "今日中に示談金",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "代理の者が取りに行く",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Pretends to be son/grandson saying their voice changed from a cold or phone changed, lost a work bag/cheque or needs urgent settlement cash picked up by a 'colleague'.",
+      "legit_en": "Saved family contact chatting normally without secret cash couriers or urgent third-party transfers.",
+      "bait_tactics": [
+        "心配しているふりをして、いつどこで失くしたのか・上司の名前は誰なのかゆっくり詳しく聞く",
+        "銀行に行く支度をしているふりをして、金額の内訳やどうやって返す予定か長々と質問する"
+      ],
+      "sources": [
+        "警察庁",
+        "国民生活センター"
+      ]
+    },
+    {
+      "id": "jp_kanpukin_atm",
+      "typology": "tax_refund_scam",
+      "name": "還付金詐欺（市役所・医療費・保険料のATM操作）",
+      "name_en": "Municipal medical or insurance refund scam guiding victim to an ATM",
+      "prevalence": "high",
+      "lang": "ja",
+      "context_keywords": [
+        "医療費の還付",
+        "保険課",
+        "介護保険料",
+        "過払い金"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "atmで還付手続き",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "本日が還付期限",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims to be city hall health/insurance desk saying a medical or insurance refund expires today and tells the owner to bring their cash card to an ATM and call back while pressing buttons.",
+      "legit_en": "Genuine municipal notices handled by mailed form, never by operating an ATM on the phone.",
+      "bait_tactics": [
+        "還付金があると聞いて喜ぶふりをし、いつの病院代の分か・書類は何色の封筒だったか細かく尋ねる",
+        "足が悪くてすぐATMに行けないと言い、計算方法や別の受け取り方をゆっくり説明させる"
+      ],
+      "sources": [
+        "警察庁",
+        "国民生活センター"
+      ]
+    }
+  ]
+}

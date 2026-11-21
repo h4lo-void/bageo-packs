@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "code": "tr",
+  "countries": [
+    "tr"
+  ],
+  "name": {
+    "en": "Turkey",
+    "native": "Türkiye",
+    "zh": "土耳其"
+  },
+  "lang": "tr-TR",
+  "stt": "tr-TR",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, duyuyor musunuz?"
+  },
+  "delivery": {
+    "en": "Parcels: kapıcı, site security or the doormat",
+    "zh": "包裹交給 kapıcı、社區保全或放門墊上"
+  },
+  "readback": {
+    "en": "05XX numbers go 4-3-2-2; 3:30 is said üç buçuk",
+    "zh": "05XX 號碼照 4-3-2-2 唸；3:30 說 üç buçuk"
+  },
+  "fraud": {
+    "en": "\"Police\" safe accounts, parcel enforcement threats or HGS fines are scams",
+    "zh": "自稱警察轉安全帳戶、包裹強制執行威脅、HGS 罰單的都是詐騙"
+  },
+  "habits": {
+    "en": "Say kapıcı, site güvenliği, danışma; Bey or Hanım follows a name.",
+    "zh": "說 kapıcı、site güvenliği、danışma；稱人時名字後加 Bey 或 Hanım。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost glasses, a bank app demanding an update, no data so the SMS code never lands.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、銀行 App 要更新、沒網路簡訊碼進不來。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: warm casual sen, lively reactions plus a follow-up (aa öyle mi, tamamdır süper), varied.",
+        "zh": "像跟好朋友：親切隨興的 sen，句子短而活潑，真反應並多接一句（aa öyle mi、tamamdır süper），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing, kind: sen or gentle siz; after they explain, add a short understanding remark (haa anladım), varied.",
+        "zh": "溫暖隨和，sen 或溫和的 siz；對方講完，加一句自己的體貼回應（haa anladım），每次換說法。"
+      },
+      "3": {
+        "en": "Balanced sen/siz, neither chummy nor official. When they finish a point, reply in one full sentence, not a word or two (anladım).",
+        "zh": "sen 與 siz 平衡，不裝熟也不官腔。對方講完一件事，用一句完整的話回應，不只回一兩個字（anladım）。"
+      },
+      "4": {
+        "en": "Poised, courteous: measured siz, complete sentences; take up their main point first (gayet iyi anladım), varied.",
+        "zh": "沉穩有禮，用 siz，句子完整；先回應對方重點（gayet iyi anladım），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp corporate register: siz with Bey or Hanım, brisk yet warm; answer each point in full (konu anlaşıldı), varied.",
+        "zh": "俐落的商務口吻，siz 搭配 Bey 或 Hanım，明快但有溫度；每個重點完整回應（konu anlaşıldı），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful, friendly helper: a warm reaction first, then say you will pass it on (aa anladım tabii), varied.",
+        "zh": "活潑親切的助理，開朗親切：先熱絡回應對方，再說會轉告（aa anladım tabii），每次換說法。"
+      },
+      "2": {
+        "en": "Soft, kind assistant using siz: acknowledge their situation warmly, then note the message (anlıyorum), varied.",
+        "zh": "溫和從容的助理，用 siz，輕柔親切：先體貼回應對方處境，再記下留言（anlıyorum），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant with siz: answer their point in one full sentence, never a bare tamam, then confirm the relay (konuyu net anladım).",
+        "zh": "自然幹練的助理，用 siz：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（konuyu net anladım）。"
+      },
+      "4": {
+        "en": "Graceful secretary with siz: take up why they called in full sentences, then pass it on (bilgilendirmeniz için teşekkürler), varied.",
+        "zh": "周到的秘書，用 siz，優雅：先用完整句子承接來意，再說會轉告（bilgilendirmeniz için teşekkürler），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in polished business Turkish: answer the points in full, then confirm the relay (aktardığınız hususlar net), varied.",
+        "zh": "主管級助理，精煉的商務土耳其語，條理俐落：先完整回應公事重點，再確認轉達（aktardığınız hususlar net），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "kapıcı",
+      "site güvenliği",
+      "danışma"
+    ],
+    "bank": [
+      "EFT",
+      "FAST",
+      "mobil bankacılık"
+    ]
+  },
+  "status": "draft"
+}

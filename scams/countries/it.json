@@ -1,0 +1,111 @@
+{
+  "name": "Italy",
+  "name_local": "Italia",
+  "iso": "it",
+  "calling_code": "+39",
+  "languages": [
+    "it"
+  ],
+  "prevalence_note": "Polizia Postale & CERTFin 2025-2026: fake PostePay/bank anti-fraud alerts (spoofed SMS codes, bonifico istantaneo) and finto maresciallo / Carabinieri relative-accident bail or safe-account scams dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "it_finto_maresciallo_postepay",
+      "typology": "fake_official",
+      "name": "Finto Maresciallo dei Carabinieri / Polizia Postale (Conto Sicuro o Cauzione)",
+      "name_en": "Fake Italian Carabinieri / Polizia Postale demanding bail or safe-account transfer",
+      "prevalence": "very_high",
+      "lang": "it",
+      "context_keywords": [
+        "postepay",
+        "polizia postale",
+        "agenzia delle entrate"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "spostare i soldi su conto sicuro",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "cauzione urgente in contanti",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Claims a relative caused an accident or an investigation found cloned accounts; demands immediate cash/jewelry handover for bail or wire to a safe account.",
+      "legit_en": "Real Carabinieri or Polizia Postale never ask for cash bail, PostePay codes, or transfers to safe accounts over the phone.",
+      "bait_tactics": [
+        "Chiedere di ripetere lentamente il numero di protocollo perché non si trovano gli occhiali da lettura",
+        "Dire che l'app della banca non si apre per mancanza di campo e chiedere di spiegare tutto con calma"
+      ],
+      "sources": [
+        "Polizia Postale",
+        "CERTFin Italia"
+      ]
+    },
+    {
+      "id": "it_finta_banca_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "Finto Servizio Antifrode / PostePay (Bonifico Istantaneo & OTP)",
+      "name_en": "Fake Italian bank or PostePay fraud desk asking for OTP or instant transfer",
+      "prevalence": "high",
+      "lang": "it",
+      "context_keywords": [
+        "servizio antifrode",
+        "blocco carta"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confermare il bonifico istantaneo",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "comunicare il codice dispositivo",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonates bank or Poste Italiane anti-fraud team warning of an unauthorized debit; pressures user to read a one-time code or authorize an instant transfer.",
+      "legit_en": "Real Italian banks block a card directly without ever asking for SMS OTPs or instant transfers to cancel a charge.",
+      "bait_tactics": [
+        "Chiedere di leggere cifra per cifra la data e l'importo dell'operazione sospetta mentre si cerca la carta nel cassetto"
+      ],
+      "sources": [
+        "CERTFin Italia",
+        "Banca d'Italia"
+      ]
+    },
+    {
+      "id": "it_teleselling_energia",
+      "typology": "telecom_energy_sales",
+      "name": "Teleselling energia: codice POD e consenso vocale",
+      "name_en": "Energy teleselling asking for the POD code and voice consent",
+      "prevalence": "medium",
+      "lang": "it",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "codice pod",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "registrare il consenso",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from an energy supplier asks to read the POD code from the bill and to record a voice consent, sometimes threatening a supply cut.",
+      "legit_en": "Suppliers cannot switch a contract without written confirmation and never threaten a cut during a sales call.",
+      "bait_tactics": [
+        "Dire che la bolletta è nell'altra stanza e chiedere quanto si risparmia al mese",
+        "Chiedere quanto dura l'offerta"
+      ],
+      "sources": [
+        "ARERA"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+name: Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get this repository
+        uses: actions/checkout@v4
+        with:
+          path: data
+
+      - name: Read the checker version
+        id: ref
+        run: echo "commit=$(tr -d '[:space:]' < data/tools/bageo-call.ref)" >> "$GITHUB_OUTPUT"
+
+      - name: Get the checker (bageo-call)
+        uses: actions/checkout@v4
+        with:
+          repository: h4lo-void/bageo-call
+          ref: ${{ steps.ref.outputs.commit }}
+          path: bageo-call
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Check regions, languages and translations
+        working-directory: bageo-call
+        run: cargo run -p bageo-packs --release -- check "$GITHUB_WORKSPACE/data"
+
+      - name: Check on-demand extras pack and mascot art
+        working-directory: bageo-call
+        run: >
+          cargo run -p bageo-packs --release -- build-extras "$GITHUB_WORKSPACE/data"
+          --version 2026112101
+          --commit 0123456789abcdef0123456789abcdef01234567
+          --out "$RUNNER_TEMP/extras"
+
+      - name: Check scam and voice data JSON structure
+        run: |
+          python3 - "$GITHUB_WORKSPACE/data" <<'PY'
+          import json, pathlib, sys
+          root = pathlib.Path(sys.argv[1])
+          cs = json.loads((root / "scams/country_scams.json").read_text(encoding="utf-8"))
+          assert isinstance(cs.get("countries"), dict) and len(cs["countries"]) > 0, "scams/country_scams.json"
+          country_files = sorted((root / "scams/countries").glob("*.json"))
+          assert len(country_files) == len(cs["countries"]), "scams/countries count mismatch"
+          for p in country_files:
+              obj = json.loads(p.read_text(encoding="utf-8"))
+              assert isinstance(obj.get("scams"), list) and obj["scams"], p.name
+          kw = json.loads((root / "scams/keywords.json").read_text(encoding="utf-8"))
+          assert kw.get("format") == 1 and isinstance(kw.get("keywords"), list) and kw["keywords"], "scams/keywords.json"
+          lines = json.loads((root / "voices/lines.json").read_text(encoding="utf-8"))
+          assert lines.get("format") == 1 and isinstance(lines.get("regions"), dict) and lines["regions"], "voices/lines.json"
+          vidx = json.loads((root / "voices/bageo-voices-index.json").read_text(encoding="utf-8"))
+          assert vidx.get("format") == 1 and isinstance(vidx.get("voices"), list), "voices/bageo-voices-index.json"
+          print(f"ok: {len(country_files)} country scam file(s), {len(kw['keywords'])} keyword group(s), {len(lines['regions'])} voice line region(s)")
+          PY

@@ -1,0 +1,121 @@
+{
+  "schema": 2,
+  "layer": "el",
+  "status": "draft",
+  "name": {
+    "en": "Greek",
+    "zh": "希臘文"
+  },
+  "hello": {
+    "hello": "Παρακαλώ;",
+    "hello_again": "Παρακαλώ, με ακούτε;"
+  },
+  "common": {
+    "habits": {
+      "en": "Εσύ with friends, εσείς otherwise.",
+      "zh": "朋友用 εσύ，其餘用 εσείς。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: εσύ, brisk expressive phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 εσύ，口語明快有表情，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: εσύ, or a soft εσείς; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 εσύ，或輕鬆的 εσείς；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: εσύ with friends, εσείς with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 εσύ、陌生人 εσείς；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished εσείς, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 εσείς，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal εσείς, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 εσείς，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: εσύ, brisk expressive phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 εσύ，口語明快有表情；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: εσύ, or a soft εσείς; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 εσύ，或輕鬆的 εσείς；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: εσύ with friends, εσείς with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 εσύ、陌生人 εσείς；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished εσείς; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 εσείς；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal εσείς; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 εσείς；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Ναι, είμαι εδώ και σας ακούω. Πείτε μου.",
+    "still_there": "Παρακαλώ; Είστε ακόμα στη γραμμή;",
+    "bye": "Εντάξει, γεια σας.",
+    "go_ahead": "Ναι, πείτε μου.",
+    "no_thanks": "Α, όχι, ευχαριστώ.",
+    "think_about_it": "Θα πρέπει να το σκεφτώ.",
+    "wait_one_more": "Α, πριν κλείσετε, έχω ακόμα μία ερώτηση.",
+    "no_wait": "«μισό λεπτό», «μια στιγμή», «ένα λεπτό», «να δω», «θα το ελέγξω», «περιμένετε», «περίμενε λίγο»",
+    "unavailable": "Ο αριθμός που καλέσατε δεν είναι διαθέσιμος. Δοκιμάστε ξανά αργότερα.",
+    "preview": [
+      "Παρακαλώ;",
+      "Α, δέμα; Βεβαίως, αφήστε το έξω από την πόρτα, ευχαριστώ πολύ.",
+      "Εντάξει, γεια σας."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "αντίο",
+        "αντίο σας",
+        "αντίο σου",
+        "τα λέμε",
+        "τα ξαναλέμε",
+        "καλή συνέχεια",
+        "να είστε καλά",
+        "γεια χαρά",
+        "εις το επανιδείν",
+        "καλό βράδυ",
+        "καληνύχτα",
+        "καλό υπόλοιπο",
+        "καλή σας μέρα",
+        "καλή σας ημέρα"
+      ],
+      "wrapups": [
+        "πρέπει να κλείσω",
+        "θα σας πάρω αργότερα",
+        "δεν σας καθυστερώ άλλο",
+        "αυτά από εμένα",
+        "πρέπει να φύγω",
+        "μιλάμε αργότερα"
+      ],
+      "examples": {
+        "ends": [
+          "Ευχαριστώ πολύ για τη βοήθεια, καλή συνέχεια!",
+          "Εντάξει, αυτά από εμένα, τα λέμε!",
+          "Σας ευχαριστώ, δεν σας καθυστερώ άλλο, αντίο σας.",
+          "Σας ευχαριστώ πολύ και καλή σας μέρα!"
+        ],
+        "not_ends": [
+          "Θα τα ξαναλέμε και στη συνάντηση, αλλά πείτε μου πρώτα για την παραγγελία.",
+          "Ο διανομέας είπε αντίο και έφυγε, εγώ όμως είμαι ακόμα εδώ και σας ακούω.",
+          "Καλημέρα, είμαι η Μαρία από το κατάστημα, σας καλώ για το δέμα σας."
+        ]
+      }
+    }
+  }
+}

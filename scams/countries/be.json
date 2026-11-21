@@ -1,0 +1,150 @@
+{
+  "name": "Belgium",
+  "name_local": "België / Belgique",
+  "iso": "be",
+  "calling_code": "+32",
+  "languages": [
+    "nl",
+    "fr",
+    "de"
+  ],
+  "prevalence_note": "Safeonweb and Febelfin warnings 2025-2026: fake bank or Card Stop staff asking for card reader codes or collecting cards, itsme approval tricks, and fake tax office threats.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "be_cardstop_kaartlezer",
+      "typology": "fake_bank_account_alert",
+      "name": "Valse bankmedewerker of Card Stop: code van de kaartlezer",
+      "name_en": "Fake bank or Card Stop staff asking for card reader codes",
+      "prevalence": "very_high",
+      "lang": "nl",
+      "context_keywords": [
+        "card stop"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "code van uw kaartlezer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uw bankkaart ophalen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kluisrekening",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service or Card Stop reports a suspicious payment and asks for card reader codes, sends a courier for the bank card or moves money to a vault account.",
+      "legit_en": "Belgian banks and Card Stop never ask for card reader codes by phone and never send anyone to collect a bank card.",
+      "bait_tactics": [
+        "Zeggen dat de kaartlezer in een andere kamer ligt en rustig laten uitleggen welke betaling het was",
+        "Vragen op welke dag en voor welk bedrag de betaling was"
+      ],
+      "sources": [
+        "Febelfin",
+        "Safeonweb"
+      ]
+    },
+    {
+      "id": "be_itsme_bevestigen",
+      "typology": "otp_theft",
+      "name": "Valse helpdesk laat een itsme-aanvraag bevestigen",
+      "name_en": "Fake helpdesk asking to confirm an itsme request",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "itsme"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bevestig in de itsme-app",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uw itsme-code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says the owner's access is blocked or needs a security update and asks to confirm a request in the itsme app or to give the itsme code.",
+      "legit_en": "Banks and government services never ask anyone to approve an itsme request they did not start themselves.",
+      "bait_tactics": [
+        "Zeggen dat de telefoon net opnieuw opstart en vragen wat er precies op het scherm zou moeten staan",
+        "Rustig vragen voor welke dienst de aanvraag is"
+      ],
+      "sources": [
+        "Safeonweb",
+        "Febelfin"
+      ]
+    },
+    {
+      "id": "be_fod_financien_beslag",
+      "typology": "tax_refund_scam",
+      "name": "Valse FOD Financiën: onmiddellijk betalen of beslag",
+      "name_en": "Fake tax office demanding immediate payment or seizure",
+      "prevalence": "medium",
+      "lang": "nl",
+      "context_keywords": [
+        "fod financiën"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "beslaglegging vandaag",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "onmiddellijk overschrijven",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the federal tax office or a bailiff claims an unpaid tax debt and threatens seizure today unless money is transferred at once.",
+      "legit_en": "The Belgian tax office sends letters and never demands immediate transfers by phone under threat of seizure the same day.",
+      "bait_tactics": [
+        "Zeggen dat de briefwisseling bij de boekhouder ligt en vragen om welk jaar het gaat",
+        "Vragen hoe het bedrag precies berekend is"
+      ],
+      "sources": [
+        "FOD Financiën"
+      ]
+    },
+    {
+      "id": "be_carte_lecteur_code",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux service de sécurité bancaire : codes du lecteur de carte",
+      "name_en": "Fake bank security asking for card reader codes (French)",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "card stop"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "code de votre lecteur de carte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "chercher votre carte bancaire",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security service or Card Stop reports a suspicious payment, asks for codes from the card reader or announces a courier to pick up the bank card.",
+      "legit_en": "Belgian banks never ask for card reader codes by phone and never send a courier to collect a bank card.",
+      "bait_tactics": [
+        "Dire que le lecteur de carte est dans une autre pièce et demander calmement de quel paiement il s'agit",
+        "Demander à quelle date et pour quel montant"
+      ],
+      "sources": [
+        "Febelfin"
+      ]
+    }
+  ]
+}

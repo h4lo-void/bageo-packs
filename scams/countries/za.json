@@ -1,0 +1,183 @@
+{
+  "name": "South Africa",
+  "name_local": "South Africa",
+  "iso": "za",
+  "calling_code": "+27",
+  "languages": [
+    "en",
+    "af"
+  ],
+  "prevalence_note": "South Africa 2025-2026 warnings: bank Fraud Department & SIM-Swap OTP Vishing; iCASA & SAPS Criminal Warrant Impersonation Scam; sARS Tax Refund Audit & Outstanding Debt Scam; sARS Customs Suspicious Parcel Impersonation Scam.",
+  "cross_border_note": "Calls in English or Afrikaans, often from local numbers.",
+  "scams": [
+    {
+      "id": "za_bank_fraud_otp_vishing",
+      "typology": "otp_theft",
+      "name": "Bank Fraud Department & SIM-Swap OTP Vishing Scam",
+      "name_en": "Bank Fraud Department & SIM-Swap OTP Vishing",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "sim swap request"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read out the one-time pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "approve the reversal prompt",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "safe account",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as a bank fraud investigator warning of an unauthorised transaction or pending SIM swap, already quoting leaked personal details to build trust.",
+      "legit_en": "South African banks never ask customers to share a PIN, password, one-time PIN, or verification code over the phone, nor instruct clients to transfer funds into a separate safe account.",
+      "bait_tactics": [
+        "Hang on a second, our inverter just clicked over and the home Wi-Fi is rebooting, so my banking app won't open.",
+        "Wait a bit, no one-time PIN text has come through yet—cell signal on this side of the house is terrible.",
+        "Sorry, my reading glasses are in the study and I can't read the small pop-up message on my screen."
+      ],
+      "sources": [
+        "https://www.sabric.co.za/how-to-stay-safe/",
+        "https://www.sabric.co.za/wp-content/uploads/2026/08/SABRIC-Annual-Crime-Statistics-Report-2025.pdf",
+        "https://comric.co.za/think-before-you-click/"
+      ]
+    },
+    {
+      "id": "za_saps_icasa_impersonation",
+      "typology": "fake_official",
+      "name": "ICASA & SAPS Criminal Warrant Impersonation Scam",
+      "name_en": "ICASA & SAPS Criminal Warrant Impersonation Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "communications regulator",
+        "illegal sim registration",
+        "identity number linked"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "deactivate all your numbers",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transferring you to a police officer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay bail or clearance fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "warrant for your arrest",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to represent the telecommunications regulator or a network fraud desk, alleging the victim's mobile number or identity number was used in money laundering or illegal SIM registrations and faces disconnection within hours.",
+      "legit_en": "Neither South Africa's communications regulator nor the police phone citizens to threaten sudden SIM deactivation, transfer calls directly to investigating officers, or request banking credentials and clearance payments.",
+      "bait_tactics": [
+        "Hold on, let me find a pen in the kitchen drawer so I can write down that case docket number properly.",
+        "Sorry, the dogs are barking right at the front gate for a courier—could you repeat which station you said?",
+        "My green ID book is locked away in the safe upstairs and I don't have the keys on me right now."
+      ],
+      "sources": [
+        "https://www.icasa.org.za/news/2025/icasa-warns-stakeholders-and-the-public-about-ongoing-fraudulent-scam",
+        "https://www.capitecbank.co.za/fraud-centre/saps-impersonation-scam-on-the-rise/",
+        "https://mybroadband.co.za/news/security/588818-cellphone-number-scam-warning-in-south-africa.html"
+      ]
+    },
+    {
+      "id": "za_sars_tax_scam",
+      "typology": "tax_refund_scam",
+      "name": "SARS Tax Refund Audit & Outstanding Debt Scam",
+      "name_en": "SARS Tax Refund Audit & Outstanding Debt Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "tax refund audit",
+        "outstanding tax debt",
+        "final demand"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share your tax portal password",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "deposit into this account to avoid arrest",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "click the link to release your refund",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers impersonate revenue service officials during filing season, claiming a substantial tax refund is on hold under audit or threatening immediate penalties and arrest over fabricated tax arrears.",
+      "legit_en": "The South African Revenue Service pays verified refunds automatically into the registered bank account on file and never phones taxpayers to ask for passwords, banking PINs, or payments to personal accounts.",
+      "bait_tactics": [
+        "Wait a second, my laptop is taking forever to boot up so I can't open my tax filing profile yet.",
+        "My bookkeeper changed my tax portal password during filing season and I don't have it written down here.",
+        "The line is breaking up badly—could you slowly read out the assessment reference number again?"
+      ],
+      "sources": [
+        "https://www.sars.gov.za/targeting-tax-crime/scams-and-phishing/",
+        "https://www.sars.gov.za/latest-news/scam-alert-tax-return-notification/",
+        "https://personal.nedbank.co.za/learn/blog/tax-scams-verify-sars-messages.html"
+      ]
+    },
+    {
+      "id": "za_customs_parcel_extortion",
+      "typology": "fake_customs_parcel",
+      "name": "Customs Inspector Flagged Parcel Extortion Scam",
+      "name_en": "SARS Customs Suspicious Parcel Impersonation Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "customs inspector",
+        "flagged international parcel",
+        "imprisonment threat"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "parcel containing illegal drugs",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay a customs clearance bribe",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transferring your call to the police",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters call pretending to be customs inspectors, reciting leaked names and identity numbers while claiming an international parcel in the target's name was intercepted with illegal documents or narcotics.",
+      "legit_en": "Customs officials in South Africa do not phone individuals to demand personal data, solicit payments, or transfer calls to police officers over detained shipments.",
+      "bait_tactics": [
+        "Hold on, which airport depot did you say that parcel is sitting at? Let me grab a notepad.",
+        "My mobile data bundle just ran out so I can't load any tracking link while we're on this call.",
+        "Wait a minute, my phone battery is on two percent—let me quickly plug it into the wall."
+      ],
+      "sources": [
+        "https://www.sars.gov.za/latest-news/alert-scamsters-are-pretending-to-be-customs-inspectors-from-sars-customs/"
+      ]
+    }
+  ]
+}

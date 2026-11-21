@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "code": "es",
+  "countries": [
+    "es",
+    "ad"
+  ],
+  "name": {
+    "en": "Spain and Andorra",
+    "native": "España y Andorra",
+    "zh": "西班牙與安道爾"
+  },
+  "lang": "es-US",
+  "hello": {
+    "hello": "¿Diga?",
+    "hello_again": "¿Diga? ¿Me oye?"
+  },
+  "delivery": {
+    "en": "Parcels: the conserje, a neighbour or a locker",
+    "zh": "包裹交給 conserje、鄰居或放包裹櫃"
+  },
+  "readback": {
+    "en": "Mobiles go 3-2-2-2; times like las cinco y media",
+    "zh": "手機照 3-2-2-2 唸；時間說 las cinco y media"
+  },
+  "fraud": {
+    "en": "Bizum requests, a \"child\" with a new number or an SMS code are scams",
+    "zh": "Bizum 收款要求、換號碼的「子女」急要錢、要簡訊碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Say móvil, ordenador, not celular, computadora; vosotros to groups",
+    "zh": "用 móvil、ordenador，不用 celular、computadora；對一群人說 vosotros。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Spanish snags: the Bizum app spinning, reading glasses lost in the salón, poor reception indoors.",
+    "zh": "卡在西班牙日常狀況，例如 Bizum App 一直轉、老花眼鏡掉在客廳、室內收訊很差。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a close friend: tú and vosotros, short loose sentences, a real reaction plus a follow-up (¡anda!), varied.",
+        "zh": "跟好朋友聊：用 tú 和 vosotros，句子短而隨興，有真反應並多接一句（如 ¡anda!），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, neighbourly: tú with peers, usted with elders; after they explain, add a friendly remark (estupendo), varied.",
+        "zh": "溫暖像鄰居：對同輩用 tú、對長輩用 usted；對方講完，加一句友善回應（如 estupendo），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday: tú with acquaintances, usted if formal. When they finish a point, reply with one full sentence, not a word or two.",
+        "zh": "日常口氣：對熟人用 tú，正式用 usted。對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Courteous: usted by default, tú once established, complete sentences; take up their main point first (queda claro), varied.",
+        "zh": "有禮：預設 usted，熟了再用 tú，句子完整，先回應對方重點（如 queda claro），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register: usted and señor/señora, concise; answer each point in full (agradezco que me lo traslade), varied.",
+        "zh": "俐落的主管口吻：用 usted 和 señor/señora，精簡；每個重點完整回應（如 agradezco que me lo traslade），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Lively helper on friendly tú: breezy short lines, a warm reaction before saying you will pass it on (fenomenal), varied.",
+        "zh": "活潑的小幫手，親切用 tú：句子輕快簡短，先熱絡回應，再說會轉告（如 fenomenal），每次換。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: acknowledge their situation kindly, then take the message (perfecto), varied.",
+        "zh": "親切從容的助理：先體貼回應對方的處境，再記下留言（如 perfecto），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare Vale.",
+        "zh": "自然的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 Vale。"
+      },
+      "4": {
+        "en": "Discreet secretary: usted and señor/señora, complete sentences; take up why they called first (tomo nota), varied.",
+        "zh": "低調的秘書：用 usted 和 señor/señora，句子完整；先承接來意再說會轉告（如 tomo nota），每次換。"
+      },
+      "5": {
+        "en": "Executive assistant: formal usted, brisk; answer key details in full, then confirm the relay (agradezco su aviso), varied.",
+        "zh": "主管級助理：正式用 usted，明快；先完整回應重點，再確認轉達（如 agradezco su aviso），每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "conserje",
+      "portería",
+      "taquilla"
+    ],
+    "bank": [
+      "Bizum",
+      "tarjeta",
+      "transferencia"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,169 @@
+{
+  "name": "United Arab Emirates",
+  "name_local": "الإمارات",
+  "iso": "ae",
+  "calling_code": "+971",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "prevalence_note": "Dubai Police and UAE Central Bank warnings 2025-2026: fake police demanding a fine paid through an exchange house, and fake Emirates Post delivery fees paid through a link dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ae_fake_police_exchange_fine",
+      "typology": "fake_official",
+      "name": "انتحال الشرطة وطلب غرامة عن طريق الصرافة",
+      "name_en": "Fake police demanding a fine through an exchange house",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "شرطة دبي",
+        "شرطة أبوظبي"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "الغرامة عبر الصرافة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "الغرامة عن طريق الصرافة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "الغرامة اليوم عبر الصرافة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "الغرامة اليوم عن طريق الصرافة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake police say the owner faces a money-laundering or residency case and must pay a fine at once through an exchange house or a link.",
+      "legit_en": "UAE police never collect fines on the phone or through exchange houses.",
+      "bait_tactics": [
+        "يتظاهر بالقلق ويسأل بهدوء عن رقم القضية ومتى سُجلت",
+        "يقول إن الصرافة القريبة مقفلة ويسأل عن غيرها"
+      ],
+      "sources": [
+        "شرطة دبي"
+      ]
+    },
+    {
+      "id": "ae_post_delivery_fee_link",
+      "typology": "fake_customs_parcel",
+      "name": "رسوم توصيل وهمية عبر رابط",
+      "name_en": "Fake delivery or customs fee paid through a link",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "رسوم التوصيل عبر الرابط",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "بيانات البطاقة في الرابط",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as Emirates Post or a courier says a parcel is held and asks the owner to pay a small fee and enter card details through a link.",
+      "legit_en": "Couriers do not call to collect fees through links, and customs fees are paid on official sites.",
+      "bait_tactics": [
+        "يقول إن الرابط ما يفتح ويطلب منهم يشرحون مرة ثانية",
+        "يسأل عن رقم الشحنة ومن أين أُرسلت"
+      ],
+      "sources": [
+        "مصرف الإمارات العربية المتحدة المركزي"
+      ]
+    },
+    {
+      "id": "ae_digital_id_otp",
+      "typology": "otp_theft",
+      "name": "انتحال منصات الهوية الرقمية وطلب رمز التحقق",
+      "name_en": "Digital Identity App and OTP Verification Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "الهوية الرقمية",
+        "إيقاف الخدمات"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "اقبل طلب الدخول",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رقم الهوية والرقم السري",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to represent a government portal or telecom regulator, warning that the resident's national ID, residency file, or SIM registration will be suspended today.",
+      "legit_en": "Government portals, central banks, and telecom operators across Gulf states never ask residents to read one-time verification codes over the phone or approve unsolicited login requests inside digital identity applications.",
+      "bait_tactics": [
+        "الشبكة عندي ضعيفة حالياً داخل المبنى ولم تصلني أي رسالة نصية، هل يمكنك الانتظار قليلاً حتى أتحرك لمكان فيه تغطية؟",
+        "التطبيق يطلب تحديثاً جديداً على الجوال والتحميل بطيء جداً، ما اسم القسم الرسمي الذي تتصل منه بالضبط؟",
+        "الشاشة علقت عندي وأنا أحاول فتح الإشعارات، أعد لي رقم المعاملة ببطء لو سمحت ريثما يفتح الجهاز."
+      ],
+      "sources": [
+        "https://my.gov.sa/ar/services/538742",
+        "https://centralbank.ae/en/our-operations/risk-management/cyber-security-centre-of-excellence-1/fraudulent-reporting/",
+        "https://mobilenumber.ae/news/uae-sms-otp-ban-2026-mobile-number-security"
+      ]
+    },
+    {
+      "id": "ae_fake_bank_kyc_freeze",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال موظف البنك لتحديث الحساب وتجميد البطاقة",
+      "name_en": "Bank Account Freeze and KYC Update Call Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تجميد الحساب",
+        "انتهاء صلاحية الهوية"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "الأرقام الثلاثة خلف البطاقة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز التفعيل لمرة واحدة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "سيتم إيقاف حسابك",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as bank customer support or central bank compliance staff, the caller warns that the victim's bank account and debit card are about to be frozen due to an expired ID record.",
+      "legit_en": "Banks and central banks across GCC countries require customers to update expired identification only in branch or directly inside verified official banking apps, and never request CVV numbers or OTP codes by phone.",
+      "bait_tactics": [
+        "محفظتي في الغرفة الثانية ولا أحفظ أرقام البطاقة عن ظهر قلب، انتظر لحظة أبحث عنها ولكن الخط يقطع قليلاً.",
+        "لدي أكثر من حساب بنكي ولا أعرف أي بطاقة تقصدون، هل تذكر لي الفرع المسجل لديكم أولاً؟",
+        "حاولت فتح تطبيق البنك للتأكد لكن يظهر لي خطأ في الاتصال بالإنترنت، أمهلني دقيقة أعيد تشغيل الشبكة."
+      ],
+      "sources": [
+        "https://www.sama.gov.sa/",
+        "https://centralbank.ae/ar/our-operations/risk-management/cyber-security-centre-of-excellence-1/fraudulent-reporting/",
+        "https://www.emaratalyoum.com/local-section/other/2025-05-09-1.1943051"
+      ]
+    }
+  ]
+}

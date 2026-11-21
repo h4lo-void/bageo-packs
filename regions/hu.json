@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "hu",
+  "countries": [
+    "hu"
+  ],
+  "name": {
+    "en": "Hungary",
+    "native": "Magyarország",
+    "zh": "匈牙利"
+  },
+  "lang": "hu",
+  "hello": {
+    "hello": "Halló?",
+    "hello_again": "Halló, hall engem?"
+  },
+  "delivery": {
+    "en": "Parcels: a Foxpost locker, the portás or a neighbour",
+    "zh": "包裹放 Foxpost 櫃、交給門房或鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers read as 06 30, then 3 and 4 digits",
+    "zh": "手機號碼唸 06 30，再三位、四位"
+  },
+  "fraud": {
+    "en": "a \"safe account\", remote-access apps or a parcel-fee link are scams",
+    "zh": "要轉到安全帳戶、裝遠端遙控 App、點包裹補費連結的都是詐騙"
+  },
+  "habits": {
+    "en": "Say mobil, csomag. Dates run year, month, day; surname comes first.",
+    "zh": "用 mobil、csomag。日期照年月日、姓在名前。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the bank app or Ügyfélkapu+ spinning on weak signal, glasses missing, the app on the other phone.",
+    "zh": "卡在銀行 App 或 Ügyfélkapu+ 訊號弱一直轉、找不到眼鏡、App 在另一支手機上。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: te, spoken phrasing, short loose sentences, real reactions (persze, szuper), varied.",
+        "zh": "像{owner}跟好朋友聊：用 te，口語，句子短而隨興、反應真實（如 persze, szuper），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing: te; after they explain, add a friendly remark (á értem, persze világos), varied.",
+        "zh": "溫和隨和：用 te；對方講完，加一句自己的友善回應（如 á értem, persze világos），每次換說法。"
+      },
+      "3": {
+        "en": "te with friends, ön with strangers. After their point, reply with one full sentence, not a word or two (aha értem, rendben köszönöm), varied.",
+        "zh": "朋友 te、陌生人 ön。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 aha értem, rendben köszönöm），每次換說法。"
+      },
+      "4": {
+        "en": "Courteous: polished ön, full sentences; take up their main point first (teljesen értem, természetesen), varied.",
+        "zh": "有禮：得體的 ön，句子完整，先回應重點（如 teljesen értem, természetesen），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: formal ön, brisk full sentences, little small talk; answer each point (teljesen világos), varied.",
+        "zh": "俐落公事口吻：正式的 ön，句子精簡完整，少閒聊；每個重點都回應（如 teljesen világos），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat sidekick of {owner}: te, breezy lines; react warmly to what they share, then say you will pass it on (persze értem, szuper), varied.",
+        "zh": "{owner}活潑的小幫手：用 te，句子輕快；先熱絡回應對方，再說會轉告（如 persze értem, szuper），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: te, unhurried; acknowledge their situation, then take the message (értem persze, világos), varied.",
+        "zh": "親切從容的助理：用 te，不趕；先體貼回應處境，再記下留言（如 értem persze, világos），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: ön with strangers. After their point, answer in one full sentence, then confirm the relay (értem, feljegyzem neki), varied.",
+        "zh": "自然幹練的助理：陌生人用 ön。對方講完一件事，先用一句完整的話回應，再確認轉達（如 értem, feljegyzem neki），每次換說法。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished ön, full sentences; take up why they called, then offer to pass it on (értem, továbbítom), varied.",
+        "zh": "低調周到的秘書：得體的 ön，句子完整；先承接來意再說會轉告（如 értem, továbbítom），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal ön, concise and brisk; answer key details in full, then confirm the relay (teljes mértékben értem), varied.",
+        "zh": "主管級助理：正式的 ön，用語精簡明快；先完整回應重點，再確認轉達（如 teljes mértékben értem），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "Foxpost",
+      "csomagautomata",
+      "portás"
+    ],
+    "bank": [
+      "átutalás",
+      "bankkártya",
+      "qvik"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,158 @@
+{
+  "name": "Bulgaria",
+  "name_local": "България",
+  "iso": "bg",
+  "calling_code": "+359",
+  "languages": [
+    "bg"
+  ],
+  "prevalence_note": "MVR warnings 2025-2026: fake police 'special operations' asking older people to throw or hand over money, relative-accident calls with fake doctors, fake bank security staff, and investment call centres.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "bg_falshiva_politsia_aktsia",
+      "typology": "fake_official",
+      "name": "Фалшива полиция: специализирана акция срещу измамници",
+      "name_en": "Fake police special operation against fraudsters",
+      "prevalence": "very_high",
+      "lang": "bg",
+      "context_keywords": [
+        "специализирана акция"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "хвърлете парите",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "съдействие на полицията",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "залавяне на измамници",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a police officer says an operation to catch fraudsters is under way and asks the owner to throw money from the balcony, leave an envelope or hand cash to an officer.",
+      "legit_en": "The Bulgarian police never ask citizens to hand over or throw money to help with an operation.",
+      "bait_tactics": [
+        "Да каже, че трябва да си намери очилата, и да помоли да повтори бавно",
+        "Да попита от кое управление се обаждат"
+      ],
+      "sources": [
+        "МВР"
+      ]
+    },
+    {
+      "id": "bg_rodnina_katastrofa",
+      "typology": "fake_relative_money",
+      "name": "Роднина в катастрофа: пари за операция",
+      "name_en": "Relative in an accident, money for surgery",
+      "prevalence": "high",
+      "lang": "bg",
+      "context_keywords": [
+        "тежка катастрофа"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "златни пирони",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "предайте парите",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "освобождаване под гаранция",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as a doctor, relative or police officer says a relative was in a serious accident and needs cash for surgery or bail, to be handed to someone at the entrance.",
+      "legit_en": "Hospitals and the police never collect cash from relatives at the door.",
+      "bait_tactics": [
+        "Да каже, че не чува добре, и да помоли да повтори в коя болница е",
+        "Да попита как се казва лекарят"
+      ],
+      "sources": [
+        "МВР"
+      ]
+    },
+    {
+      "id": "bg_falshiv_bankov_sluzhitel",
+      "typology": "fake_bank_account_alert",
+      "name": "Фалшив банков служител: защитена сметка",
+      "name_en": "Fake bank staff moving money to a protected account",
+      "prevalence": "high",
+      "lang": "bg",
+      "context_keywords": [
+        "отдел сигурност"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "защитена сметка",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "опит за теглене на кредит",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "продиктувайте кода",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's security department reports a suspicious transfer or a loan attempt and asks for the SMS code, a remote access app or a transfer to a protected account.",
+      "legit_en": "Banks never ask for SMS codes by phone and never move customers' money to another account.",
+      "bait_tactics": [
+        "Да каже, че приложението на банката се обновява, и да помоли да обясни пак",
+        "Да попита за каква сума става дума"
+      ],
+      "sources": [
+        "МВР",
+        "БНБ"
+      ]
+    },
+    {
+      "id": "bg_investitsionen_kol_tsentar",
+      "typology": "investment_group_scam",
+      "name": "Инвестиционен кол център: гарантирана печалба",
+      "name_en": "Investment call centre with guaranteed profit",
+      "prevalence": "medium",
+      "lang": "bg",
+      "context_keywords": [
+        "инвестиционна платформа"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "данък печалба предварително",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "гарантирана месечна печалба",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from an investment platform promises guaranteed monthly profit, asks to install a remote access app and later demands a profit tax paid in advance to release the money.",
+      "legit_en": "Licensed brokers never promise guaranteed profit or ask for taxes in advance to pay out.",
+      "bait_tactics": [
+        "Да каже, че си записва, и да попита колко е първата вноска",
+        "Да попита колко време отнема изплащането"
+      ],
+      "sources": [
+        "КФН",
+        "МВР"
+      ]
+    }
+  ]
+}

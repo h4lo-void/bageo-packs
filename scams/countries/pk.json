@@ -1,0 +1,175 @@
+{
+  "name": "Pakistan",
+  "name_local": "پاکستان",
+  "iso": "pk",
+  "calling_code": "+92",
+  "languages": [
+    "ur",
+    "en"
+  ],
+  "prevalence_note": "Pakistan 2025-2026 warnings: fake Welfare Subsidy Verification Call; fake Telecom Regulator SIM and Mobile Wallet OTP Scam; spoofed Bank Helpline Card Block and Mistaken Transfer Scam; fake Courier or Network USSD Call Forwarding Hijack.",
+  "cross_border_note": "Calls in Urdu or English, often from spoofed bank or government numbers.",
+  "scams": [
+    {
+      "id": "pk_welfare_subsidy_fraud",
+      "typology": "fake_government_subsidy",
+      "name": "سرکاری امدادی پروگرام کی جعلی کال",
+      "name_en": "Fake Welfare Subsidy Verification Call",
+      "prevalence": "very_high",
+      "lang": "ur",
+      "context_keywords": [
+        "سرکاری امداد",
+        "امدادی رقم",
+        "نئی قسط",
+        "سروے تصدیق"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رجسٹریشن فیس جمع",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "کوڈ بتائیں",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "قسط بند ہو جائے گی",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to speak from a national welfare support office using an ordinary ten-digit mobile number rather than an official government shortcode.",
+      "legit_en": "Pakistan's welfare support agency sends official eligibility notifications exclusively from its verified government shortcode and operates an official toll-free helpline.",
+      "bait_tactics": [
+        "اچھا جی، ذرا رکیے، گھر میں سگنل بہت کم آ رہے ہیں، آپ کی آواز کٹ رہی ہے۔",
+        "میری عینک دوسرے کمرے میں رکھی ہے، کارڈ کے ہندسے ابھی صاف نظر نہیں آ رہے۔",
+        "فون پر ابھی تک کوئی پیغام نہیں آیا، شاید نیٹ ورک سست چل رہا ہے، ایک منٹ ٹھہریں۔"
+      ],
+      "sources": [
+        "https://bisp.gov.pk/NewsDetail/M2MzZDg0ZjctYjBkMS00YzQ1LTkwMjQtMmVhZWFiZDgyZmI0",
+        "https://bisp.gov.pk/NewsDetail/MWI3NmM4OWMtY2M1Yy00NTdjLWFjMWItNTY5MTQwNDk3NWZj",
+        "https://psta.com.pk/blog/fraud-calls-in-pakistan"
+      ]
+    },
+    {
+      "id": "pk_pta_sim_wallet_otp",
+      "typology": "otp_theft",
+      "name": "سم کارڈ اور موبائل والٹ بندش کا جعلی او ٹی پی فراڈ",
+      "name_en": "Fake Telecom Regulator SIM and Mobile Wallet OTP Scam",
+      "prevalence": "very_high",
+      "lang": "ur",
+      "context_keywords": [
+        "ٹیلی کام اتھارٹی",
+        "سم بلاک",
+        "بائیو میٹرک تصدیق"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "او ٹی پی",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "پانچ منٹ میں سم بند",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تصدیقی کوڈ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating telecom regulator staff or mobile wallet support, the caller warns that the user's SIM card, device registration, or digital wallet will be blocked within five minutes due to incomplete verification.",
+      "legit_en": "Neither the Pakistan Telecommunication Authority nor licensed mobile wallet providers ever phone users to request OTPs, five-digit PINs, or passwords.",
+      "bait_tactics": [
+        "جی میں سن رہا ہوں لیکن دوسرے فون پر میسج آتا ہے اور اس کی بیٹری بالکل ختم ہو گئی ہے۔",
+        "چارجر ڈھونڈ رہا ہوں، بجلی ابھی گئی ہوئی ہے تو تھوڑا وقت لگ رہا ہے۔",
+        "ایک سیکنڈ رکیے، سکرین لاک کھل نہیں رہا، میں دوبارہ چیک کر کے دیکھتا ہوں۔"
+      ],
+      "sources": [
+        "https://www.lwfcsc.org/news/pta-warns-fake-calls-asking-for-otp-cnic",
+        "https://www.geo.tv/latest/606599-watch-out-fraudsters-using-fake-pta-calls-messages-to-steal-personal-data"
+      ]
+    },
+    {
+      "id": "pk_spoofed_bank_uan_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "جعلی بینک ہیلپ لائن اور کارڈ بلاک فراڈ کال",
+      "name_en": "Spoofed Bank Helpline Card Block and Mistaken Transfer Scam",
+      "prevalence": "very_high",
+      "lang": "ur",
+      "context_keywords": [
+        "مشکوک ٹرانزیکشن",
+        "غلطی سے پیسے",
+        "اکاؤنٹ منجمد"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "کارڈ کے پیچھے تین ہندسے",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "اے ٹی ایم پن",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ون ٹائم پاس ورڈ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Using a spoofed bank helpline number on caller ID, the fraudster claims a debit card has been frozen after a suspicious debit or alleges money was sent to the victim's account by mistake.",
+      "legit_en": "Under State Bank of Pakistan consumer protection guidance, bank helplines primarily receive inbound customer calls and never make unsolicited calls asking for PINs, CVVs, passwords, or OTPs.",
+      "bait_tactics": [
+        "ہولڈ کیجیے گا، میں ذرا بٹوے میں دیکھوں کہ کارڈ کس جیب میں رکھا ہوا ہے۔",
+        "بینک کی ایپ کھولنے کی کوشش کر رہا ہوں مگر انٹرنیٹ بالکل نہیں چل رہا۔",
+        "ذرا آہستہ بولیے، باہر گلی میں شور بہت زیادہ ہے، مجھے آپ کی بات سمجھ نہیں آئی۔"
+      ],
+      "sources": [
+        "https://psta.com.pk/blog/fraud-calls-in-pakistan",
+        "https://www.sbp.org.pk/help-desk"
+      ]
+    },
+    {
+      "id": "pk_ussd_call_forwarding",
+      "typology": "fake_telecom",
+      "name": "کوریئر یا نیٹ ورک کے بہانے کال فارورڈنگ کوڈ فراڈ",
+      "name_en": "Fake Courier or Network USSD Call Forwarding Hijack",
+      "prevalence": "high",
+      "lang": "ur",
+      "context_keywords": [
+        "کال فارورڈنگ",
+        "نیٹ ورک سیٹنگ",
+        "لائن اپ گریڈ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "یہ کوڈ ملا کر کال کریں",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ڈائلر کوڈ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Posing as a parcel delivery rider unable to locate an address or a mobile network technician fixing signal issues, the caller instructs the victim to open their phone dialer and dial a star-hash USSD string starting with *21* or *62* followed by an.",
+      "legit_en": "Legitimate couriers and telecom operators never ask customers to dial USSD call-diversion codes prefixed with *21* or *62* plus a stranger's mobile number.",
+      "bait_tactics": [
+        "میری کال چل رہی ہے تو ڈائل پیڈ میرے فون پر کھل ہی نہیں رہا، کیسے دباؤں؟",
+        "ایک منٹ، میں کاغذ قلم ڈھونڈ لوں تاکہ بعد میں تسلی سے دیکھ سکوں۔",
+        "قلم کی سیاہی ختم ہو گئی ہے، ذرا ٹھہریے میں پنسل لے کر آتا ہوں۔"
+      ],
+      "sources": [
+        "https://www.express.pk/story/2808842/hidden-mobile-settings-just-one-code-and-your-bank-account-is-empty-2808842",
+        "https://www.inquilab.com/news/articles/is-your-call-being-forwarded-to-another-number-how-to-find-out-81547"
+      ]
+    }
+  ]
+}

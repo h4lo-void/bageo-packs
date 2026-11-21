@@ -1,0 +1,146 @@
+{
+  "name": "Israel",
+  "name_local": "ישראל",
+  "iso": "il",
+  "calling_code": "+972",
+  "languages": [
+    "he",
+    "ar",
+    "en"
+  ],
+  "prevalence_note": "Israel 2025-2026 warnings: fake Bank or Credit Card Security Department Scam; fake Police and Telecom Remote-Access Vishing Scam; fake Postal and Customs Held Parcel Fee Scam.",
+  "cross_border_note": "Calls in Hebrew, Russian, Arabic or English; spoofed bank numbers are common.",
+  "scams": [
+    {
+      "id": "il_fake_bank_security_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "התחזות למחלקת הביטחון של הבנק או חברת האשראי",
+      "name_en": "Fake Bank or Credit Card Security Department Scam",
+      "prevalence": "very_high",
+      "lang": "he",
+      "context_keywords": [
+        "מחלקת הביטחון",
+        "פעולה חשודה",
+        "חסימת חשבון"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "קוד אימות",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "חשבון מאובטח",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "סיסמה וקוד סודי",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Spoofing an official bank or card-company telephone number, the caller claims to be from the bank security department investigating an unauthorized transaction.",
+      "legit_en": "The Bank of Israel and Israeli National Cyber Directorate state that genuine banks and card issuers never ask customers to reveal SMS verification codes, account passwords, or transfer savings into external accounts over the phone.",
+      "bait_tactics": [
+        "רגע, הקליטה פה בחדר הפנימי ממש חלשה ולא הגיע שום מסרון, תן לי שנייה לצאת לסלון לבדוק אם יש קליטה.",
+        "האפליקציה של הבנק נתקעה לי על מסך הטעינה, מאיזה סניף בדיוק אמרת שאתה מתקשר אליי?",
+        "אני לא מוצא את המשקפיים שלי כדי לקרוא מה כתוב על המסך, תוכל לחזור שוב לאט על מספר הפנייה?"
+      ],
+      "sources": [
+        "https://www.boi.org.il/publications/pressreleases/7-5-25/",
+        "https://www.boi.org.il/information/public-enquiries-unit/warning_public/",
+        "https://www.gov.il/he/pages/us080726"
+      ]
+    },
+    {
+      "id": "il_fake_police_remote_access",
+      "typology": "tech_support_remote",
+      "name": "התחזות למשטרה ולחברת תקשורת להתקנת שליטה מרחוק",
+      "name_en": "Fake Police and Telecom Remote-Access Vishing Scam",
+      "prevalence": "very_high",
+      "lang": "he",
+      "context_keywords": [
+        "משטרת ישראל",
+        "פריצה לחשבון",
+        "בדיקת אבטחה",
+        "חשבון מוגן"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "אפליקציה לתמיכה מרחוק",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "להפקיד בחשבון משטרתי",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "אסור לספר לאף אחד",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Frequently targeting seniors and immigrants, scammers impersonate police officers, telecom technicians, and bank staff in coordinated calls.",
+      "legit_en": "Israel Police and telecom operators never instruct citizens to install remote-access apps on phones or computers, and police never ask anyone to withdraw cash or transfer funds into so-called protected police accounts.",
+      "bait_tactics": [
+        "הטלפון כותב לי שאין מספיק מקום אחסון להוריד שום דבר עכשיו, תחכה רגע שאני אבדוק מה תופס מקום.",
+        "האינטרנט הביתי התנתק לי בדיוק לפני דקה ואני מנסה לחבר אותו מחדש, מאיזו תחנה אמרת שאתה מדבר?",
+        "יש לי רעש מהשיפוצים של השכנים ואני בקושי שומע אותך, תוכל לאיית לי שוב את השם והתפקיד שלך?"
+      ],
+      "sources": [
+        "https://www.gov.il/he/pages/russian_seniors_vishing_news",
+        "https://www.gov.il/he/pages/12092024",
+        "https://www.gov.il/he/pages/telephonefraud"
+      ]
+    },
+    {
+      "id": "il_fake_customs_postal_fee",
+      "typology": "fake_customs_parcel",
+      "name": "התחזות לדואר ולמכס לשחרור חבילה מעוכבת",
+      "name_en": "Fake Postal and Customs Held Parcel Fee Scam",
+      "prevalence": "high",
+      "lang": "he",
+      "context_keywords": [
+        "חבילה מעוכבת",
+        "בדיקת מכס",
+        "דמי שחרור"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "מספר כרטיס אשראי ושלוש ספרות",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "שלוש הספרות בגב הכרטיס",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "תשלום אגרה מיידי",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "קוד חד פעמי",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Following up on phishing texts or calling directly as postal or customs staff, the caller claims an international package is detained due to unpaid customs duty or incomplete address data.",
+      "legit_en": "Legitimate postal and customs notifications in Israel are verified independently using the official tracking number on the official postal portal, and couriers never ask for one-time SMS banking codes by phone.",
+      "bait_tactics": [
+        "אני מחכה לכמה הזמנות שונות ולא יודע על איזו חבילה מדובר, מה מספר המעקב שמופיע אצלך במערכת?",
+        "אני בדיוק במעלית והשיחה מתנתקת כל רגע, תמתין שנייה שאני אצא החוצה ואבדוק בהודעות שלי.",
+        "הארנק שלי נשאר בתיק בחדר השני, תגיד לי קודם מאיזו מדינה החבילה נשלחה ומתי היא הגיעה?"
+      ],
+      "sources": [
+        "https://www.gov.il/he/pages/phishing190226",
+        "https://www.gov.il/he/pages/us080726"
+      ]
+    }
+  ]
+}

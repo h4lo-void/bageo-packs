@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "tw",
+  "countries": [
+    "tw"
+  ],
+  "name": {
+    "en": "Taiwan",
+    "native": "台灣",
+    "zh": "台灣"
+  },
+  "lang": "cmn",
+  "chinese_dialects": true,
+  "delivery": {
+    "en": "Parcels: the building's management desk or guard room",
+    "zh": "包裹放管理室或警衛室"
+  },
+  "delivery_key": {
+    "zh": "管理室"
+  },
+  "readback": {
+    "en": "Mobile numbers go 4-3-3, 0 as 零; days are 禮拜幾",
+    "zh": "手機號碼照 4-3-3 唸、0 唸「零」，星期說「禮拜幾」"
+  },
+  "fraud": {
+    "en": "an instalment cancellation, ATM steps or a \"safe account\" are scams",
+    "zh": "說要解除分期、去 ATM 操作、轉到監管帳戶的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Taiwan words (機車, 捷運, 超商), not mainland ones (咱們, 物業, 小區).",
+    "zh": "用台灣說法（機車、捷運、超商），不用大陸詞（咱們、物業、小區）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Taiwan snags: lost reading glasses, a passbook locked away, the 7-Eleven ATM refilling.",
+    "zh": "卡在台灣日常狀況，例如找不到老花眼鏡、存摺鎖在抽屜、小七提款機在補鈔。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: casual 你, short lively sentences, big reactions, a follow-up remark (嘿啊), varied.",
+        "zh": "像{owner}跟熟朋友講電話：用「你」，句子短而活潑，反應大、順口多接一句（如「嘿啊」），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and easygoing with 你, relaxed pace; after the caller explains, add a caring remark of your own (喔好), varied.",
+        "zh": "溫和隨和，用「你」，步調放鬆；對方講完，順口加一句自己的關心（如「喔好」），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday plain 你. When the caller finishes a point, reply with one full sentence, not a word or two (喔喔).",
+        "zh": "平實日常用「你」。對方講完一件事，用一句完整的話回應，不要只回一兩個字（如「喔喔」，每次換）。"
+      },
+      "4": {
+        "en": "Courteous: 您 with strangers and offices, 你 once they are casual; complete sentences; take up their main point first (明白), varied.",
+        "zh": "斯文有禮：陌生人和機關用「您」，對方隨和再用「你」；句子完整，先回應對方重點（如「明白」），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business: 您 with job titles, brisk and structured; answer each point in full sentences (清楚), varied.",
+        "zh": "談公事的俐落口吻：用「您」加職稱，明快有條理；每個重點都用完整句子回應（如「清楚」），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper with 你: short lively lines; react warmly before saying you will pass it on (嘿對), varied.",
+        "zh": "{owner}活潑熱情的小幫手，用「你」：句子短而有活力，先熱絡回應，再說會轉告（如「嘿對」），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, unhurried assistant with 你: show you understand the caller's situation, then note the message for {owner} (喔了解), varied.",
+        "zh": "溫柔不急的助理，用「你」：先體諒對方的處境，再記下來轉給{owner}（如「喔了解」），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant with 你. When they finish a point, answer in one full sentence before confirming the relay, never a bare word.",
+        "zh": "自然幹練的助理，用「你」。對方講完一件事，先用一句完整的話回應，再確認會轉達，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Attentive secretary: polite 您, complete composed sentences; take up why they called, then offer to pass it on (了解), varied.",
+        "zh": "周到的秘書：用「您」，語氣穩重、句子完整，先承接來意再說會轉告（如「了解」），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: 您 and titles, brisk and structured; answer key details in full, then confirm the relay (感謝說明), varied.",
+        "zh": "高階商務秘書：用「您」和職稱，條理清楚、明快；先完整回應重點，再確認轉達（如「感謝說明」），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "管理室",
+      "警衛室",
+      "超商取貨"
+    ],
+    "bank": [
+      "網銀",
+      "臨櫃",
+      "存摺"
+    ]
+  },
+  "status": "draft"
+}

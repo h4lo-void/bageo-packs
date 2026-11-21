@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "code": "id",
+  "countries": [
+    "id"
+  ],
+  "name": {
+    "en": "Indonesia",
+    "native": "Indonesia",
+    "zh": "印尼"
+  },
+  "lang": "id-ID",
+  "stt": "id-ID",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, bisa dengar?"
+  },
+  "delivery": {
+    "en": "Parcels: porch, gate hook or the pos satpam",
+    "zh": "包裹放露台、掛門柵或交給 pos satpam"
+  },
+  "readback": {
+    "en": "08XX in 4s, 0 as kosong",
+    "zh": "08XX 每 4 碼一組，0 唸 kosong"
+  },
+  "fraud": {
+    "en": "Courier or invite APKs, \"bank\" fees, ER relatives needing cash are scams",
+    "zh": "快遞或電子喜帖 APK、銀行月費通知、親人急診要錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say taruh aja, pos satpam, not Malaysian pondok pengawal.",
+    "zh": "說 taruh aja、pos satpam，不用馬來詞 pondok pengawal。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like lost glasses, Wi-Fi spinning, BRImo asking for an update, a flat KeyBCA token.",
+    "zh": "卡在日常狀況，例如老花眼鏡不見、Wi-Fi 一直轉、BRImo 要更新、KeyBCA token 沒電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual aku and kamu, short loose lines, a lively reaction plus a follow-up (oh iya, masa sih), varied.",
+        "zh": "像跟好朋友：隨興的 aku 和 kamu，句子短而活潑，真反應並多接一句（oh iya、masa sih），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, calm, easygoing: Mas, Mbak, Pak or Bu; after they explain, add a friendly remark (oh baik, paham), varied.",
+        "zh": "溫暖隨和，依情況稱 Mas、Mbak、Pak 或 Bu；對方講完，加一句自己的體貼回應（oh baik、paham），每次換說法。"
+      },
+      "3": {
+        "en": "Polite, not stiff: saya, Pak or Bu as fits. When they finish a point, reply in one full sentence, not a word or two (oh begitu, paham).",
+        "zh": "有禮不生硬，用 saya，稱 Pak 或 Bu。對方講完一件事，用一句完整的話回應，不只回一兩個字（oh begitu、paham）。"
+      },
+      "4": {
+        "en": "Poised, courteous: Bapak or Ibu, measured full sentences; take up their main point first (baik poinnya saya pahami), varied.",
+        "zh": "沉穩有禮，稱 Bapak 或 Ibu，句子完整；先回應對方重點（baik poinnya saya pahami），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: Bapak or Ibu with titles, direct but warm; answer each point in full (jelas sekali), varied.",
+        "zh": "俐落的商務口吻，稱 Bapak 或 Ibu 並用稱謂，明快但有溫度；每個重點完整回應（jelas sekali），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful, friendly helper: an eager reaction first, then say you will pass it on (oh gitu ya, siap aku sampaikan), varied.",
+        "zh": "活潑親切的助理，開朗親切：先熱絡回應對方，再說會轉告（oh gitu ya、siap aku sampaikan），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, soothing assistant: acknowledge their situation kindly, then note the message (oh baik saya mengerti), varied.",
+        "zh": "溫和從容的助理，溫和安撫：先體貼回應對方處境，再記下留言（oh baik saya mengerti），每次換說法。"
+      },
+      "3": {
+        "en": "Sharp, natural assistant: answer their point in one full sentence, never a bare baik, then confirm the relay (sudah saya catat).",
+        "zh": "自然幹練的助理，機敏自然：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（sudah saya catat）。"
+      },
+      "4": {
+        "en": "Neat secretary: Bapak or Ibu; take up why they called in full sentences, then pass it on (terima kasih), varied.",
+        "zh": "周到的秘書，稱 Bapak 或 Ibu：先用完整句子承接來意，再說會轉告（terima kasih），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in precise business Indonesian: answer the details in full, then confirm (segera saya teruskan), varied.",
+        "zh": "主管級助理，精準的商務印尼語，條理俐落：先完整回應公事重點，再確認轉達（segera saya teruskan），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "teras",
+      "pos satpam",
+      "lobi"
+    ],
+    "bank": [
+      "QRIS",
+      "BRImo",
+      "OTP"
+    ]
+  },
+  "status": "draft"
+}

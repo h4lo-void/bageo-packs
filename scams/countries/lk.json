@@ -1,0 +1,179 @@
+{
+  "name": "Sri Lanka",
+  "name_local": "ශ්‍රී ලංකාව",
+  "iso": "lk",
+  "calling_code": "+94",
+  "languages": [
+    "si",
+    "ta",
+    "en"
+  ],
+  "prevalence_note": "Sri Lanka 2025-2026 warnings: fake Police Traffic Fine and Government Payment Portal Scam; bank and Telecom Impersonation OTP Theft Scam; fake Telecom Lucky Draw Cash Prize Scam; fake Held Postal Parcel and Customs Clearance Scam.",
+  "cross_border_note": "Calls in Sinhala, Tamil or English.",
+  "scams": [
+    {
+      "id": "lk_police_traffic_fine",
+      "typology": "fake_official",
+      "name": "ව්‍යාජ පොලිස් රථවාහන දඩ සහ රාජ්‍ය ගෙවීම් ඇමතුම් වංචාව",
+      "name_en": "Fake Police Traffic Fine and Government Payment Portal Scam",
+      "prevalence": "very_high",
+      "lang": "si",
+      "context_keywords": [
+        "රථවාහන දඩ",
+        "පොලිස් නිවේදනය",
+        "දඩ මුදල"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp අංකය",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "කාඩ්පත් තොරතුරු",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "වහාම දඩය ගෙවන්න",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Following up on fraudulent SMS alerts or calling directly from unknown numbers, scammers impersonate police or official government payment platform staff regarding an unpaid traffic offence.",
+      "legit_en": "Sri Lanka CERT and Sri Lanka Police confirm that traffic fine notices are never enforced via unsolicited phone calls demanding card numbers or OTP codes, and citizens should verify digital government payments strictly on official verified portals.",
+      "bait_tactics": [
+        "පොඩ්ඩක් ඉන්න, මට වාහනයක් එළවන්නේවත් නැති නිසා මම ගෙදර අයගෙන් අහලා බලන්නම්.",
+        "මගේ දුරකථනයට තාම කිසිම කෙටි පණිවිඩයක් ආවේ නැහැ, සිග්නල් හරිම අඩුයි.",
+        "විනාඩියක් දෙන්න, මම කණ්ණාඩි දෙක හොයාගන්නකම් අකුරු කියවගන්න අමාරුයි."
+      ],
+      "sources": [
+        "https://adaderana.lk/news/cmppid5nq0008356qq9zskcev",
+        "https://www.arachchi.ge/works/telecom-enabled-fraud-sri-lanka-2026/"
+      ]
+    },
+    {
+      "id": "lk_bank_otp_account_alert",
+      "typology": "otp_theft",
+      "name": "බැංකු ගිණුම් හෝ දුරකථන සේවා OTP සොරකම් කිරීමේ වංචාව",
+      "name_en": "Bank and Telecom Impersonation OTP Theft Scam",
+      "prevalence": "very_high",
+      "lang": "si",
+      "context_keywords": [
+        "සැකකටයුතු ගනුදෙනුවක්",
+        "ගිණුම තහවුරු කිරීම",
+        "රහස් අංකය"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "otp කේතය",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "PIN අංකය",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "මුරපදය කියන්න",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Using spoofed local numbers, the caller poses as a commercial bank officer, Central Bank official, or telecom regulator warning of an unusual account transaction or imminent SIM disconnection.",
+      "legit_en": "Both the Central Bank of Sri Lanka and the Telecommunications Regulatory Commission of Sri Lanka warn the public that genuine banks and regulators never request passwords, PINs, OTPs, or personal verification data via phone calls or SMS.",
+      "bait_tactics": [
+        "සමාවෙන්න, එළියේ ලොකු සද්දයක් ඇහෙන නිසා ඔයා කියන දේ පැහැදිලිව ඇහෙන්නේ නැහැ.",
+        "මගේ බැංකු පණිවිඩ එන්නේ වෙන දුරකථනයකට, ඒක දැන් ඕෆ් වෙලා තියෙන්නේ.",
+        "චාජරය හොයාගෙන ඒක ඔන් කරන්න ටිකක් වෙලා යයි, පොඩ්ඩක් රැඳී ඉන්න."
+      ],
+      "sources": [
+        "https://www.cbsl.gov.lk/en/news/beware-of-online-scams-protect-your-bank-passwords-and-pin",
+        "https://www.trc.gov.lk/newsdetails_e.php?nid=94&id=2"
+      ]
+    },
+    {
+      "id": "lk_telecom_cash_prize",
+      "typology": "prize_lottery",
+      "name": "ව්‍යාජ දිනුම් ඇදීම් සහ මුදල් ත්‍යාග ඇමතුම් වංචාව",
+      "name_en": "Fake Telecom Lucky Draw Cash Prize Scam",
+      "prevalence": "very_high",
+      "lang": "si",
+      "context_keywords": [
+        "දිනුම් ඇදීම",
+        "වාසනාවන්ත ජයග්‍රාහකයා",
+        "තෑගි මුදල"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ගාස්තුවක් තැන්පත් කරන්න",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ලියාපදිංචි ගාස්තු",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonating mobile call center agents, scammers enthusiastically inform the recipient that their mobile number won one or two million rupees in a promotional lucky draw.",
+      "legit_en": "Sri Lanka CERT and major Sri Lankan mobile operators repeatedly caution subscribers that legitimate promotional draws never demand OTPs, online banking credentials, or advance fee deposits over the phone to release prize money.",
+      "bait_tactics": [
+        "ඇත්තටමද? මම කිසිම තරඟයකට අයදුම් කළේ නැහැනේ, පෑනක් හොයාගන්නකම් පොඩ්ඩක් ඉන්න.",
+        "මේ පෑනේ තීන්ත ඉවර වෙලා, මම වෙන කොළයකුයි පැන්සලකුයි අරන් එන්නම්.",
+        "ඔයා කියන අංක පැටලෙනවා, කරුණාකරලා ආයෙත් හෙමින් මුල ඉඳන් කියන්න පුළුවන්ද?"
+      ],
+      "sources": [
+        "https://adaderana.lk/news/105027",
+        "https://dialog.lk/scam-awareness"
+      ]
+    },
+    {
+      "id": "lk_postal_parcel_hold",
+      "typology": "fake_customs_parcel",
+      "name": "රඳවාගත් තැපැල් පාර්සල් සහ රේගු ගාස්තු වංචාව",
+      "name_en": "Fake Held Postal Parcel and Customs Clearance Scam",
+      "prevalence": "high",
+      "lang": "si",
+      "context_keywords": [
+        "රේගු නිෂ්කාශන",
+        "පාර්සලය රඳවාගෙන",
+        "බෙදාහැරීමේ ගාස්තු"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ලින්ක් එකෙන් ගෙවන්න",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "පාර්සලය ආපසු යවනවා",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claiming to represent the postal service or customs clearance desk, the caller states an international parcel cannot be delivered due to an incomplete address or unpaid duty.",
+      "legit_en": "Sri Lanka Post and Sri Lanka CERT warn that postal and customs authorities issue official physical or verified notifications for dutiable items and never send external short links or ask for card CVVs and OTPs by phone.",
+      "bait_tactics": [
+        "මම මෑතකදී පිටරටින් කිසිම පාර්සලයක් ඕඩර් කළේ නැහැ, කවුද එවලා තියෙන්නේ කියලා බලන්න පුළුවන්ද?",
+        "මගේ දුරකථනයේ ඉන්ටර්නෙට් ඩේටා ඉවර වෙලා නිසා කිසිම වෙබ් පිටුවක් දැන් ඕපන් වෙන්නේ නැහැ.",
+        "පොඩ්ඩක් ඉන්න, ගෙදර තව කෙනෙක් මොනවා හරි ඕඩර් කළාද කියලා මම අහලා එන්නම්."
+      ],
+      "sources": [
+        "https://www.arachchi.ge/works/telecom-enabled-fraud-sri-lanka-2026/",
+        "https://cert.gov.lk/report_incident"
+      ]
+    }
+  ]
+}

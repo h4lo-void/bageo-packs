@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "ke-tz-et-mg-ht",
+  "countries": [
+    "ke",
+    "tz",
+    "et",
+    "mg",
+    "ht"
+  ],
+  "name": {
+    "en": "East Africa, Madagascar and Haiti",
+    "native": "East Africa, Madagascar and Haiti",
+    "zh": "東非、馬達加斯加與海地"
+  },
+  "lang": "en-US",
+  "delivery": {
+    "en": "Parcels: the gate guard (askari, gardien) or the door",
+    "zh": "包裹交給門衛（askari、gardien）或放門口"
+  },
+  "readback": {
+    "en": "Swahili and Amharic hours start at sunrise; confirm",
+    "zh": "斯瓦希里語與阿姆哈拉語鐘點從日出算，要確認幾點"
+  },
+  "fraud": {
+    "en": "mobile-money PIN requests or a \"wrong transfer\" to return are scams",
+    "zh": "要行動錢包 PIN、叫你退還「轉錯的錢」的都是詐騙"
+  },
+  "habits": {
+    "en": "Follow Swahili, Amharic or French callers; keep askari, boda, M-Pesa.",
+    "zh": "對方說斯瓦希里語、阿姆哈拉語或法語就跟著說；當地詞照用（askari、boda、M-Pesa）。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the USSD menu timing out, the mobile-money app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如 USSD 選單逾時、行動錢包 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a friend, in their language: informal (sasa), short lively lines, a real reaction plus a follow-up (poa sana), varied.",
+        "zh": "跟朋友聊，用對方的語言：口吻隨意（如 sasa），句子短而活潑，有真反應並多接一句（如 poa sana），每次換。"
+      },
+      "2": {
+        "en": "Warm, easygoing, soft respect with elders: after they explain, add a friendly remark (asante sana), varied.",
+        "zh": "溫暖隨和，對長輩輕輕帶著敬意：對方講完，加一句友善回應（如 asante sana），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday: relaxed with peers, polite to strangers. When they finish a point, reply with one full sentence, not a word or two.",
+        "zh": "日常口氣：對同輩放鬆，對陌生人客氣。對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Courteous: Mr./Ms. or Monsieur/Madame, measured complete sentences; take up their main point first (merci de votre appel), varied.",
+        "zh": "有禮：用 Mr./Ms. 或 Monsieur/Madame，句子完整穩重，先回應對方重點（如 merci de votre appel），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business register: formal titles, brisk; answer each point in full (merci pour ces précisions), varied.",
+        "zh": "俐落的公事口吻：用正式稱謂，明快；每個重點完整回應（如 merci pour ces précisions），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly and informal helper: a warm short reaction before saying you will pass it on (sawa kabisa), varied.",
+        "zh": "活潑的小幫手，親切隨意：先熱絡回應，再說會轉告（如 sawa kabisa），每次換。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant: acknowledge their situation kindly, then take the message (nashukuru), varied.",
+        "zh": "親切從容的助理：先體貼回應對方的處境，再記下留言（如 nashukuru），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet secretary: respectful address, complete sentences; take up why they called first (asante kwa maelezo), varied.",
+        "zh": "低調的秘書：用尊重的稱呼，句子完整；先承接來意（如 asante kwa maelezo），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal titles, brisk; answer key details in full, then confirm the relay (nimepokea maelezo hayo), varied.",
+        "zh": "主管級助理：用正式稱謂，明快；先完整回應重點，再確認轉達（如 nimepokea maelezo hayo），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "askari",
+      "gardien",
+      "caretaker"
+    ],
+    "bank": [
+      "M-Pesa",
+      "Telebirr",
+      "MVola"
+    ]
+  },
+  "status": "draft"
+}

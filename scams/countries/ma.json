@@ -1,0 +1,177 @@
+{
+  "name": "Morocco",
+  "name_local": "المغرب",
+  "iso": "ma",
+  "calling_code": "+212",
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "prevalence_note": "Morocco 2025-2026 warnings: bank and Mutual Insurance Advisor OTP Scam; postal Financial App and Smart Card Takeover Scam; fake Unpaid Traffic Fine and Foreign Notification Scam; fake Tournament Ticket and Brand Prize Lottery Scam.",
+  "cross_border_note": "Calls in Arabic or French, often from foreign numbers.",
+  "scams": [
+    {
+      "id": "ma_bank_otp_impersonation",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال صفة مستشار البنك أو التعاضدية لطلب الرمز السري",
+      "name_en": "Bank and Mutual Insurance Advisor OTP Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تحديث الحساب البنكي",
+        "تأكيد معاملة مالية"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التأكيد السري",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "الرقم السري للبطاقة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أعطني الكود المرسل",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as a bank advisor, central bank security agent, or mutual health insurance representative claiming an urgent account update, refund, or suspicious card charge.",
+      "legit_en": "Central banks, commercial banks, and mutual insurance funds across Morocco, Algeria, and Tunisia explicitly state that legitimate staff never ask clients by phone or SMS for secret confirmation codes, online banking passwords, or payment card security numbers.",
+      "bait_tactics": [
+        "لحظة من فضلكم، لم أتوصل بأي رسالة نصية على الهاتف حتى الآن بسبب ضعف التغطية داخل المنزل.",
+        "البطاقة البنكية تركتها في سترتي بالطابق العلوي، انتظروا قليلاً ريثما أصعد لإحضارها.",
+        "تطبيق البنك على هاتفي يطلب تحديثاً جديداً ويدور ببطء شديد بسبب ضعف شبكة الواي فاي."
+      ],
+      "sources": [
+        "https://medias24.com/2025/11/03/bank-al-maghrib-met-en-garde-contre-une-recrudescence-arnaques-telephoniques/",
+        "https://www.alarabiya.net/aswaq/economy/2025/11/02/%D8%A8%D9%86%D9%83-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%8A%D8%AD%D8%B0%D8%B1-%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D8%B1%D8%A8%D8%A9-%D9%85%D9%86-%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA-%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D9%85%D8%A7%D9%84%D9%8A"
+      ]
+    },
+    {
+      "id": "ma_postal_mobile_wallet_takeover",
+      "typology": "otp_theft",
+      "name": "الاحتيال باسم تطبيقات الدفع البريدي والبطاقة البريدية",
+      "name_en": "Postal Financial App and Smart Card Takeover Scam",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تطبيق الدفع البريدي",
+        "تنشيط المحفظة"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التفعيل على الهاتف",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "إدخال بيانات البطاقة البريدية",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "سحب بدون بطاقة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller impersonates national postal service staff or marketplace buyers using postal mobile payment apps in Algeria, Tunisia, or Morocco.",
+      "legit_en": "National postal institutions in North Africa never telephone account holders to request SMS verification codes, card expiration dates, or app login credentials. Incoming transfers require only a public postal account identifier, never a one-time security code.",
+      "bait_tactics": [
+        "التطبيق البريدي متوقف على شاشة التحميل الآن ولا يعرض أي إشعارات، أمهلوني دقيقة.",
+        "الشريحة التي تستقبل رسائل البريد موجودة في هاتفي القديم وهو فارغ الشحن حالياً.",
+        "لا أرى الأرقام الصغيرة على الشاشة بدون نظارة القراءة، سأبحث عنها في غرفة الجلوس."
+      ],
+      "sources": [
+        "https://algeriemaintenant.dz/2026/09/%D8%A7%D9%84%D8%AF%D8%B1%D9%83-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%8A%D9%88%D9%82%D9%81-%D9%85%D8%B4%D8%AA%D8%A8%D9%87/",
+        "https://www.elbilad.net/national/%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D8%B9%D9%86-%D8%A7%D9%84%D8%A5%D8%AC%D8%B1%D8%A7%D8%A1%D8%A7%D8%AA-%D8%A7%D9%84%D9%81%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D9%8A-%D9%8A%D8%AC%D8%A8-%D8%A7%D8%AA%D8%A8%D8%A7%D8%B9%D9%87%D8%A7-%D8%B9%D9%86%D8%AF-%D8%A7%D9%84%D8%AA%D8%B9%D8%B1%D8%B6-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-145592",
+        "https://radioexpressfm.com/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D8%B3%D8%AA%D8%B9%D9%85%D9%84%D9%8A-%D8%AA%D8%B7%D8%A8%D9%8A%D9%82%D8%A9-d17/"
+      ]
+    },
+    {
+      "id": "ma_fake_traffic_fine_parcel_fee",
+      "typology": "fake_official",
+      "name": "احتيال المخالفات المرورية والطرود البريدية المعلقة",
+      "name_en": "Fake Unpaid Traffic Fine and Foreign Notification Scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "مخالفة مرورية غير مسددة",
+        "طرد بريدي معلق",
+        "غرامة تأخير"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "تسديد المخالفة عبر الرابط",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "إدخال المعطيات البنكية",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers contact citizens from foreign or spoofed numbers claiming an unpaid traffic violation or a blocked postal delivery requiring immediate fee settlement.",
+      "legit_en": "Official traffic fine and public administration services in Maghreb states operate exclusively on verified national government domains or physical treasury offices, never sending payment links from foreign mobile numbers or requesting card PINs over the phone.",
+      "bait_tactics": [
+        "انتظروا لحظة ريثما أبحث عن وثائق السيارة في الدرج لأتحقق من رقم التسجيل وتاريخ المخالفة.",
+        "رصيد الإنترنت على هاتفي انتهى هذا الصباح ولا تفتح معي أي صفحة دفع إلكتروني.",
+        "هل يمكنكم قراءة رقم المحضر ببطء شديد؟ القلم الذي بيدي بالكاد يكتب."
+      ],
+      "sources": [
+        "https://www.assabahnews.tn/ar/%D8%A7%D9%84%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%88%D8%B7%D9%86%D9%8A%D8%A9/151319-%D8%A7%D9%84%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D9%86%D9%8A%D8%A9-%D8%AA%D8%AD-2/",
+        "https://www.hespress.com/%D9%88%D8%B1%D8%B4%D8%A9-%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D8%AA%D8%A8%D8%B1%D8%B2-%D8%AC%D9%87%D9%88%D8%AF-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D9%85-1778613.html"
+      ]
+    },
+    {
+      "id": "ma_fake_prize_event_promo",
+      "typology": "prize_lottery",
+      "name": "احتيال الفوز بجوائز مالية أو تذاكر مباريات كبرى",
+      "name_en": "Fake Tournament Ticket and Brand Prize Lottery Scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "ربح جائزة مالية",
+        "قرعة رسمية",
+        "تذاكر مباريات"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "دفع رسوم التسليم",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رسوم استلام الجائزة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تأكيد البطاقة البنكية للتحويل",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "فزت معنا في السحب",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller announces that the recipient won cash, electronics, or major football tournament tickets in a promotional draw.",
+      "legit_en": "Genuine commercial contests and official tournament ticket platforms in North Africa never notify random non-participants of surprise cash prizes by phone, nor do they charge advance processing fees or request card security codes to award prizes.",
+      "bait_tactics": [
+        "يا سلام، ولكن أي مسابقة تقصدون بالضبط؟ دعوني أسأل أفراد العائلة إن كان أحدهم سجل رقمي.",
+        "جرس الباب يرن الآن بسبب عامل التوصيل، انتظروا لحظة وأعيدوا لي تفاصيل الجائزة.",
+        "بطاقتي البنكية منتهية الصلاحية منذ الشهر الماضي ولم أستلم البطاقة الجديدة من الوكالة بعد."
+      ],
+      "sources": [
+        "https://ar.webmanagercenter.com/2025/08/09/405959/%D8%B9%D8%A7%D8%AC%D9%84-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D9%86%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86/",
+        "https://www.hespress.com/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D9%88-1763962.html"
+      ]
+    }
+  ]
+}

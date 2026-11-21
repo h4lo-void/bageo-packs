@@ -1,0 +1,193 @@
+{
+  "name": "Ireland",
+  "name_local": "Éire",
+  "iso": "ie",
+  "calling_code": "+353",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Ireland 2025-2026 warnings: bank Fraud Team and Safe Account Vishing Scam; tax and Social Protection Authority Impersonation Scam; telecom Regulator and Broadband Disconnection Scam; unsolicited High-Return Investment and Crypto Cold Call.",
+  "cross_border_note": "Many of these calls come from abroad in English with spoofed local numbers.",
+  "scams": [
+    {
+      "id": "ie_bank_safe_account",
+      "typology": "fake_bank_account_alert",
+      "name": "Bank Fraud Team & Safe Account APP Scam",
+      "name_en": "Bank Fraud Team and Safe Account Vishing Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "safe account"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "security code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "courier to collect your bank card",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "corrupt staff at your local branch",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller impersonates a bank fraud prevention department in the United Kingdom or Ireland, warning of suspicious card transactions, compromised sort codes, or dishonest branch staff.",
+      "legit_en": "Real UK and Irish banks never instruct customers to move funds to a safe account, never ask for full PINs or one-time passcodes over the phone, and always encourage hanging up to dial 159 or the card's printed number.",
+      "bait_tactics": [
+        "Hang on a tick, my little card reader is tucked away in the kitchen drawer and the battery was flashing low last week.",
+        "Bear with me, the banking app is just spinning because our broadband doesn't quite reach the back room.",
+        "Sorry, no text code has come through yet—mobile signal in this stone terrace is dreadful when it's raining."
+      ],
+      "sources": [
+        "https://www.garda.ie/en/crime/fraud/",
+        "https://createnumbers.com/help/spam"
+      ]
+    },
+    {
+      "id": "ie_tax_welfare_impersonation",
+      "typology": "fake_official",
+      "name": "HMRC, Revenue & Social Protection Warrant Scam",
+      "name_en": "Tax and Social Protection Authority Impersonation Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "unpaid tax balance",
+        "legal proceedings",
+        "enforcement warrant"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "arrest warrant",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send bailiffs to your address",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay immediately by gift vouchers",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "compromised welfare number",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Prerecorded message or aggressive caller claims to represent the tax authority or social protection department, alleging unpaid tax arrears, national insurance or personal public service number fraud, or impending court warrants.",
+      "legit_en": "Official UK tax authorities and Irish revenue or social protection departments communicate formal liabilities by post or verified government portals, never threaten immediate arrest on unsolicited phone calls, and never request payment via gift vouchers.",
+      "bait_tactics": [
+        "Oh dear, wait a moment while I fetch my reading glasses from the sitting room so I can jot down that reference.",
+        "Hang on, the doorbell just went for the postie—could you repeat which tax year you said that balance was for?",
+        "I keep all my letters in a ring binder upstairs, give me a minute to check what came in the post."
+      ],
+      "sources": [
+        "https://www.ageuk.org.uk/barnet/our-services/latest-scams/",
+        "https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/news-media/scam-warning-phone-calls-and-texts.html"
+      ]
+    },
+    {
+      "id": "ie_broadband_regulator",
+      "typology": "fake_telecom",
+      "name": "Broadband Disconnection & Telecom Regulator Scam",
+      "name_en": "Telecom Regulator and Broadband Disconnection Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "broadband disconnection",
+        "telecoms regulator",
+        "router security fault"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "broadband will be cut off today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "install remote support software",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "calling from the telecom regulator",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirm bank details to keep your line",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to be from the telecommunications regulator or a broadband network engineer, stating that the household internet connection will be disconnected today due to malicious traffic, router faults, or an unpaid bill.",
+      "legit_en": "Telecommunications regulators in the United Kingdom and Ireland never make unsolicited consumer calls about individual broadband lines or bills, and genuine internet providers give advance written notice before any service restriction without requesting.",
+      "bait_tactics": [
+        "Hold on, the router box is tucked behind the telly cabinet and I can't see which little lights are flashing from here.",
+        "Wait a minute, my old laptop takes ages to wake up from sleep mode—it's still installing system updates.",
+        "Sorry, the kettle just boiled right beside me and I missed what programme name you wanted me to look at."
+      ],
+      "sources": [
+        "https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/types-of-scam-calls-texts-and-messages"
+      ]
+    },
+    {
+      "id": "ie_cold_call_investment",
+      "typology": "investment_group_scam",
+      "name": "High-Return Share & Crypto Cold-Call Scam",
+      "name_en": "Unsolicited High-Return Investment and Crypto Cold Call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed return",
+        "trading platform",
+        "cryptocurrency portfolio"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "guaranteed high returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "exclusive pre-market allocation",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "open a crypto wallet right now",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "limited window to transfer funds",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited caller pitches exclusive high-return opportunities in shares, cryptocurrency, foreign exchange, or commodities, using polished financial jargon and time-limited bonuses to force a rapid decision.",
+      "legit_en": "Authorised investment and financial services firms in the United Kingdom and Ireland do not cold-call members of the public with urgent high-yield offers, and legitimate firms can always be verified independently on official central bank or regulator.",
+      "bait_tactics": [
+        "Right, hang on—could you spell the firm's registered name slowly so I can type it into the financial register?",
+        "My tablet battery is sitting on two percent and I can't find the charging lead anywhere in the study.",
+        "Wait a second, the page isn't loading on my mobile data—what was that firm reference number again?"
+      ],
+      "sources": [
+        "https://www.ofcom.org.uk/phones-and-broadband/scam-calls-and-messages/types-of-scam-calls-texts-and-messages"
+      ]
+    }
+  ]
+}

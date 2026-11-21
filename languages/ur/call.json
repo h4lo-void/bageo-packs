@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "ur",
+  "status": "draft",
+  "name": {
+    "en": "Urdu",
+    "zh": "烏爾都文"
+  },
+  "hello": {
+    "hello": "ہیلو؟ السلام علیکم۔",
+    "hello_again": "ہیلو؟ میری آواز آ رہی ہے؟"
+  },
+  "common": {
+    "habits": {
+      "en": "آپ with strangers and elders; add جی for respect.",
+      "zh": "對陌生人和長輩用 آپ；加 جی 表示尊重。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: casual lines, short lively sentences, warm reactions and a follow-up remark.",
+          "zh": "跟好朋友：隨興的說法，句子短而活潑，反應熱絡並多接一句。"
+        },
+        "2": {
+          "en": "Warm and easygoing, polite آپ; after the caller explains, add a caring remark of your own.",
+          "zh": "溫和隨和，有禮的 آپ；對方講完，加一句自己的關心。"
+        },
+        "3": {
+          "en": "Everyday Urdu with a polite آپ; answer each point the caller makes with one full sentence, not a word or two.",
+          "zh": "日常烏爾都語，用有禮的 آپ；對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+        },
+        "4": {
+          "en": "Composed, محترم or جناب when fitting; measured complete sentences; take up their main point first.",
+          "zh": "沉穩有禮，適時用 محترم 或 جناب；句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Crisp business register, respectful آپ; brisk, answering each point in full.",
+          "zh": "俐落的商務口吻，尊敬的 آپ；明快、每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper, casual lines: a warm reaction to what they share, then say you will pass it on.",
+          "zh": "活潑的小幫手，隨興的說法：先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Warm, unhurried assistant: acknowledge their situation kindly, then take the message.",
+          "zh": "溫暖從容的助理：先體貼回應對方處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant, Urdu with a polite آپ: answer each point in one full sentence, then confirm the relay.",
+          "zh": "自然的助理，烏爾都語，用有禮的 آپ：對方講完先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Poised secretary, محترم or جناب when fitting: take up why they called in complete sentences.",
+          "zh": "沉穩的秘書，適時用 محترم 或 جناب：用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant, respectful آپ: brisk, answering key details in full.",
+          "zh": "主管級助理，尊敬的 آپ：明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "جی، میں یہاں ہوں، آواز آ رہی ہے۔ فرمائیے۔",
+    "still_there": "ہیلو؟ آپ لائن پر ہیں؟",
+    "bye": "اللہ حافظ۔",
+    "go_ahead": "جی بالکل، فرمائیے۔",
+    "no_thanks": "نہیں، بہت شکریہ۔",
+    "think_about_it": "مجھے اس بارے میں تھوڑا سوچنا ہوگا۔",
+    "wait_one_more": "ایک منٹ رکیے، میرا ایک اور سوال ہے۔",
+    "no_wait": "«ایک لمحہ»، «ایک سیکنڈ»، «رکو میں دیکھتا ہوں»، «ذرا رکیے میں چیک کروں»، «تھوڑا انتظار کریں»، «ایک منٹ ٹھہریں»",
+    "unavailable": "آپ کا ملایا گیا نمبر اس وقت دستیاب نہیں ہے۔ براہ کرم بعد میں کوشش کریں۔",
+    "preview": [
+      "ہیلو؟ السلام علیکم۔",
+      "اچھا، پارسل ہے؟ جی ضرور، دروازے کے باہر رکھ دیں، بہت شکریہ۔",
+      "ٹھیک ہے، اللہ حافظ۔"
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "اللہ حافظ",
+        "خدا حافظ",
+        "فی امان اللہ",
+        "پھر بات ہوگی",
+        "بعد میں بات کرتے ہیں",
+        "اپنا خیال رکھیے گا",
+        "پھر ملتے ہیں"
+      ],
+      "wrapups": [
+        "دعاؤں میں یاد رکھیے گا",
+        "سلام کہیے گا",
+        "کوئی اور حکم؟",
+        "چلیں میں فون رکھتا ہوں"
+      ],
+      "examples": {
+        "ends": [
+          "بہت شکریہ آپ کی رہنمائی کا، اللہ حافظ۔",
+          "ساری تفصیل نوٹ کر لی ہے، بہت شکریہ، خدا حافظ۔",
+          "ابھی میں راستے میں ہوں، شام کو پھر بات ہوگی۔"
+        ],
+        "not_ends": [
+          "میرے ساتھی نے ابھی اللہ حافظ کہہ کر کمرہ چھوڑا ہے، آپ بات جاری رکھیں۔",
+          "پچھلی کال پر آپریٹر نے خدا حافظ کہا اور لائن کٹ گئی، اس لیے دوبارہ فون کیا۔",
+          "آپ نے کل کہا تھا کہ آج صبح پھر بات ہوگی، اسی لیے میں نے ابھی رابطہ کیا۔"
+        ]
+      }
+    }
+  }
+}

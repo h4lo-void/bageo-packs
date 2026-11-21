@@ -1,0 +1,176 @@
+{
+  "name": "New Zealand",
+  "name_local": "Aotearoa New Zealand",
+  "iso": "nz",
+  "calling_code": "+64",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "New Zealand 2025-2026 warnings: bank Fraud and Security Team Impersonation Scam; remote Access IT and Telecommunications Support Scam; government Tax and Official Agency Impersonation Scam; impersonated Family Emergency Money Scam.",
+  "cross_border_note": "Many of these calls come from overseas call centres in English.",
+  "scams": [
+    {
+      "id": "nz_bank_fraud_alert",
+      "typology": "fake_bank_account_alert",
+      "name": "Bank Fraud Team Impersonation Scam",
+      "name_en": "Bank Fraud and Security Team Impersonation Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "account compromised"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "verification code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "security code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers spoof official bank numbers and claim to be from the bank's fraud or security team investigating an unauthorized overseas payment.",
+      "legit_en": "Real banks in Australia and New Zealand never ask customers to share passwords, PINs, or one-time verification codes over the phone, and never tell customers to move money into a separate safe account.",
+      "bait_tactics": [
+        "Oh gosh, that sounds worrying—my banking app is spinning on a loading screen right now, could you tell me which account type that payment came from?",
+        "Sorry, the mobile reception in the back room here is patchy—could you slowly repeat your reference number while I grab a notepad?",
+        "I never read codes out over the phone, so how about you pop a secure message inside my banking app inbox and I'll check it properly?"
+      ],
+      "sources": [
+        "https://resource.netsafe.org.nz/Netsafe-scams-update-August-2026.pdf",
+        "https://netsafe.org.nz/scams/impersonation-scams"
+      ]
+    },
+    {
+      "id": "nz_remote_access_tech",
+      "typology": "tech_support_remote",
+      "name": "Remote Access Tech and Broadband Scam",
+      "name_en": "Remote Access IT and Telecommunications Support Scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "broadband connection",
+        "virus alert",
+        "compromised router"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "screen sharing software",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "remote access",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "log into your online banking to check",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers claim to represent a telecommunications provider, internet service team, or computer security department, warning that the recipient's broadband line or computer has been hacked.",
+      "legit_en": "Legitimate telecommunications carriers and software providers in Australia and New Zealand never make unsolicited phone calls asking users to install remote-access tools, and never ask customers to open online banking during troubleshooting.",
+      "bait_tactics": [
+        "Hang on, my laptop takes ages to boot up after an update—which error message did you say my modem was sending through?",
+        "I'm only on a mobile handset right now and don't have a computer in front of me, can you post out a letter explaining the line fault?",
+        "The wireless network in this part of the house keeps dropping out, could you walk me through what the issue is without installing anything?"
+      ],
+      "sources": [
+        "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-hang-up-on-remote-access-scammers",
+        "https://netsafe.org.nz/scams/understanding-scams"
+      ]
+    },
+    {
+      "id": "nz_gov_tax_impersonation",
+      "typology": "fake_official",
+      "name": "Government Tax and Anti-Scam Agency Impersonation",
+      "name_en": "Government Tax and Official Agency Impersonation Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "taxation office",
+        "unpaid tax",
+        "identity investigation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "warrant for your arrest",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "gift card",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirm your portal sign-in details",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers pretend to be tax officers, police, or national anti-scam investigators, claiming an overdue tax debt or alleging the victim's mobile number was linked to overseas fraud.",
+      "legit_en": "Government revenue offices and anti-scam agencies in Australia and New Zealand never threaten immediate arrest by phone, never ask for portal passwords, and never demand payment via gift cards or cryptocurrency.",
+      "bait_tactics": [
+        "Right, our tax paperwork is filed away in the study—could you give me the correspondence reference so we can check our official online inbox?",
+        "That sounds like a mix-up, could you repeat your department name slowly while I jot it down to verify through the main switchboard?",
+        "I can't open any links or portals while I'm on a voice call, so is an official notice already on its way in the post?"
+      ],
+      "sources": [
+        "https://www.scamwatch.gov.au/about-us/news-and-alerts/australian-taxation-office-ato-and-mygov-impersonation-scams",
+        "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-nasc-impersonation-scammers"
+      ]
+    },
+    {
+      "id": "nz_family_voice_emergency",
+      "typology": "fake_relative_money",
+      "name": "Urgent Family or Friend New-Number Scam",
+      "name_en": "Impersonated Family Emergency Money Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "new mobile number",
+        "dropped my phone",
+        "urgent transfer",
+        "stuck paying a bill"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transfer money urgently to this account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay this invoice for me right now",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "please don't tell anyone else",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers pose as a close family member or friend calling from an unfamiliar number, claiming their phone was broken or lost and they are in an urgent bind or accident.",
+      "legit_en": "Real relatives with a broken phone can still confirm shared family details or wait while you ring their original number or check with another family member on a separate channel.",
+      "bait_tactics": [
+        "Oh goodness, the line sounds really muffled—which cousin is this again, and what happened to your usual number?",
+        "I don't have banking set up on this handset, let me quickly ring your old phone or check with the rest of the family first.",
+        "Slow down a bit so I can catch what happened—whereabouts are you right now, and why is it a different bank account?"
+      ],
+      "sources": [
+        "https://netsafe.org.nz/scams/impersonation-scams",
+        "https://www.scamwatch.gov.au/"
+      ]
+    }
+  ]
+}

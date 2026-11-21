@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "code": "default",
+  "countries": [],
+  "name": {
+    "en": "International (Default)",
+    "native": "International (Default)",
+    "zh": "國際通用預設"
+  },
+  "lang": "en-US",
+  "delivery": {
+    "en": "Parcels: the front desk, reception or by the door",
+    "zh": "包裹放櫃檯、接待處或門口"
+  },
+  "readback": {
+    "en": "Times with a.m./p.m.; numbers digit by digit",
+    "zh": "時間帶 a.m. 或 p.m.，號碼逐位唸"
+  },
+  "fraud": {
+    "en": "a \"bank\" asking for a code, INTERPOL threats or remote \"support\" are scams",
+    "zh": "假銀行要簡訊碼、假國際刑警威脅、遠端「技術支援」的都是詐騙"
+  },
+  "habits": {
+    "en": "Neutral English, no slang (mate, y'all); follow the caller's language",
+    "zh": "用中性英語，不用俚語（mate、y'all）；對方說什麼語言就跟著說。"
+  },
+  "stall_local": {
+    "en": "Get stuck on everyday snags: missing reading glasses, the banking app spinning, a laggy connection.",
+    "zh": "卡在日常狀況，例如找不到老花眼鏡、銀行 App 一直轉、網路很卡。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With a close friend: first names, contractions, short loose lines, a real reaction plus a follow-up (oh nice), varied.",
+        "zh": "跟好朋友聊：叫名字，口語縮寫，句子短而隨興，有真反應並多接一句（如 oh nice），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing: first names unless they use titles; after they explain, add a friendly remark (good to know), varied.",
+        "zh": "溫暖隨和：對方沒用頭銜就叫名字；對方講完，加一句友善回應（如 good to know），每次換說法。"
+      },
+      "3": {
+        "en": "Neutral and natural: first names. When they finish a point, reply with one full sentence of your own, not a word or two.",
+        "zh": "自然中性：叫名字。對方講完一件事，用一句完整的話回應，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Courteous: Mr./Ms. until invited to first names, measured complete sentences; take up their main point first (understood), varied.",
+        "zh": "有禮：沒受邀前用 Mr./Ms.，句子完整穩重，先回應對方重點（如 understood），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register in clear English: Mr./Ms. and surnames, brisk; answer each point in full, varied.",
+        "zh": "俐落的主管口吻，用清楚的英語：Mr./Ms. 加姓氏，明快；每個重點完整回應，每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat helper on first names: breezy short lines, a warm reaction before saying you will pass it on (oh nice), varied.",
+        "zh": "活潑的小幫手，直接叫名字：句子輕快簡短，先熱絡回應，再說會轉告（如 oh nice），每次換。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant on first names: acknowledge their situation kindly, then take the message (that helps), varied.",
+        "zh": "親切從容的助理，叫名字：先體貼回應對方的處境，再記下留言（如 that helps），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When they finish a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet secretary: Mr./Ms. until invited to first names, complete sentences; take up why they called first (noted), varied.",
+        "zh": "低調的秘書：沒受邀前用 Mr./Ms.，句子完整，先承接來意（如 noted），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Mr./Ms., brisk; answer key details in full, then confirm the relay (certainly), varied.",
+        "zh": "主管級助理：正式用 Mr./Ms.，明快；先完整回應重點，再確認轉達（如 certainly），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "front desk",
+      "reception",
+      "by the door"
+    ],
+    "bank": [
+      "bank transfer",
+      "debit card",
+      "banking app"
+    ]
+  },
+  "status": "draft"
+}

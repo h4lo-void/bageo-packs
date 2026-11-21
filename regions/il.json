@@ -1,0 +1,96 @@
+{
+  "schema": 1,
+  "code": "il",
+  "countries": [
+    "il"
+  ],
+  "name": {
+    "en": "Israel",
+    "native": "ישראל",
+    "zh": "以色列"
+  },
+  "lang": "he",
+  "hello": {
+    "hello": "הלו?",
+    "hello_again": "הלו, שומעים אותי?"
+  },
+  "delivery": {
+    "en": "Parcels: door, lobby guard or utility cabinet",
+    "zh": "包裹放門口、交給大廳警衛或電箱櫃"
+  },
+  "readback": {
+    "en": "05X mobiles go 3-3-4, 0 as אפס; times like שלוש וחצי",
+    "zh": "05X 手機 3-3-4 唸，0 唸 אפס，時間說 שלוש וחצי"
+  },
+  "fraud": {
+    "en": "\"Bank\" break-in alerts, card couriers, \"police\" cases, toll debt are scams",
+    "zh": "銀行安全部門稱帳戶被入侵、派快遞收卡、自稱警察辦案、6 號公路欠費的都是詐騙"
+  },
+  "habits": {
+    "en": "Use plain everyday Hebrew, not literary forms.",
+    "zh": "用平實的日常希伯來語，不用書面用語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like no signal in the safe room, a bank app stuck on face recognition, glasses in the car.",
+    "zh": "卡在日常狀況，例如防空室沒訊號、銀行 App 卡在臉部辨識、老花眼鏡放在車上。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: easy, first names, short lines, a lively reaction plus a follow-up (אה וואלה, סבבה), varied.",
+        "zh": "像跟好朋友：隨興流暢，直接叫名字，句子短而活潑，真反應並多接一句（אה וואלה、סבבה），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, relaxed, first names; after they explain, add a short human remark (הבנתי אותך, תודה רבה), varied.",
+        "zh": "溫暖隨和，直接叫名字；對方講完，加一句自己的體貼回應（הבנתי אותך、תודה רבה），每次換說法。"
+      },
+      "3": {
+        "en": "Down to earth, first names. When they finish a point, reply in one full sentence, not a word or two (אה אוקיי הבנתי).",
+        "zh": "踏實自然，直接叫名字。對方講完一件事，用一句完整的話回應，不只回一兩個字（אה אוקיי הבנתי）。"
+      },
+      "4": {
+        "en": "Polite, measured: first names or מר/גברת, complete sentences; take up their main point first (ברור לחלוטין), varied.",
+        "zh": "沉穩有禮，名字或 מר／גברת，句子完整；先回應對方重點（ברור לחלוטין），每次換說法。"
+      },
+      "5": {
+        "en": "Sharp business register: titles when fitting, brisk clear full sentences; answer each point (הנושא ברור לגמרי), varied.",
+        "zh": "俐落的商務口吻，適時用稱謂，明快但有溫度；每個重點完整回應（הנושא ברור לגמרי），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Light, friendly helper on first-name terms: a warm reaction first, then pass it on (אה הבנתי, אין בעיה), varied.",
+        "zh": "活潑親切的助理，直接叫名字：先熱絡回應對方，再說會轉告（אה הבנתי、אין בעיה），每次換說法。"
+      },
+      "2": {
+        "en": "Pleasant, calm assistant: a kind nod to their context, then note the message (אה אוקיי, תודה שעדכנת), varied.",
+        "zh": "溫和從容的助理，愉快沉穩：先體貼回應對方處境，再記下留言（אה אוקיי、תודה שעדכנת），每次換說法。"
+      },
+      "3": {
+        "en": "Natural, efficient assistant: answer their point in one full sentence, never a bare אוקיי, then confirm the relay (הבנתי את הפרטים).",
+        "zh": "自然幹練的助理，自然高效：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（הבנתי את הפרטים）。"
+      },
+      "4": {
+        "en": "Careful, courteous secretary: take up why they called in full sentences, then relay it (תודה רבה על הפנייה), varied.",
+        "zh": "周到的秘書，細心有禮：先用完整句子承接來意，再說會轉告（תודה רבה על הפנייה），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant in precise business Hebrew: address the matter in full, then confirm the relay (הפרטים ברורים), varied.",
+        "zh": "主管級助理，精準的商務希伯來語，條理俐落：先完整回應公事重點，再確認轉達（הפרטים ברורים），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "ליד הדלת",
+      "שומר בלובי",
+      "ארון חשמל"
+    ],
+    "bank": [
+      "Bit",
+      "PayBox",
+      "קוד SMS"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,191 @@
+{
+  "name": "France",
+  "name_local": "France",
+  "iso": "fr",
+  "calling_code": "+33",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Cybermalveillance.gouv.fr, DGCCRF & Hiya: Fake bank advisor + Secur'Pass/card-courier fraud (faux conseiller bancaire), Enedis/Linky electricity scams, and CPF / MaPrimeRénov' subsidy scams dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "fr_faux_conseiller_bancaire",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux conseiller bancaire（Secur'Pass・compte sécurisé・coursier）",
+      "name_en": "Fake French bank fraud advisor asking Secur'Pass validation, safe transfer or card courier",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "service fraude",
+        "opposition carte",
+        "secur'pass",
+        "clé digitale",
+        "authentification forte"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "coursier récupérer votre carte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "virement vers un compte sécurisé",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "valider la notification pour annuler",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonates bank anti-fraud unit claiming suspicious foreign payments; asks owner to validate a Secur'Pass/Clé Digitale prompt, wire funds to a safe account, or hand card to a courier.",
+      "legit_en": "Real bank advisor blocking a card and mailing a new one without ever asking to validate mobile prompts, wire funds, or hand over cards.",
+      "bait_tactics": [
+        "Faire semblant que l'application bancaire tourne dans le vide faute de réseau et demander lentement les détails de l'opération",
+        "Demander comment fonctionne le plafond de virement en cherchant ses lunettes dans le salon",
+        "Dire que aucune notification ne s'affiche sur le téléphone et demander d'attendre pendant qu'on redémarre le Wi-Fi"
+      ],
+      "sources": [
+        "Cybermalveillance.gouv.fr",
+        "Banque de France",
+        "Cybermalveillance.gouv.fr 2025-2026"
+      ]
+    },
+    {
+      "id": "fr_enedis_cpf_renov",
+      "typology": "fake_utility",
+      "name": "Usurpation Enedis / compteur Linky & aides MaPrimeRénov' / CPF",
+      "name_en": "Fake Enedis/Linky meter cut-off or MaPrimeRénov'/CPF subsidy call asking for RIB",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "enedis",
+        "compteur linky",
+        "maprimerénov",
+        "compte formation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "risque de coupure immédiate",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "débloquer vos droits cpf",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Claims mandatory Linky update / imminent power cut-off or expiring CPF / energy-renovation state grant to obtain RIB/IBAN, FranceConnect login, or SMS signature.",
+      "legit_en": "Scheduled Enedis technician visit or energy provider reminding of a normal bill in the customer space without asking for RIB or FranceConnect codes.",
+      "bait_tactics": [
+        "Se montrer intéressé mais confus, chercher une vieille facture EDF pour retrouver le numéro de point de livraison",
+        "Poser plein de questions lentes sur les conditions techniques et les délais"
+      ],
+      "sources": [
+        "Enedis",
+        "DGCCRF",
+        "Cybermalveillance.gouv.fr"
+      ]
+    },
+    {
+      "id": "fr_cpf_droits_formation",
+      "typology": "training_fund_scam",
+      "name": "Faux conseiller CPF : débloquer vos droits",
+      "name_en": "Fake training account adviser",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "compte formation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "débloquer vos droits",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vos droits cpf",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says the owner's training account rights expire and asks for the social security number or FranceConnect login to unlock them.",
+      "legit_en": "The training account service never calls to unlock rights and never asks for FranceConnect logins.",
+      "bait_tactics": [
+        "Dire qu'on cherche ses lunettes et demander combien il reste sur le compte",
+        "Demander quelle formation ils proposent"
+      ],
+      "sources": [
+        "Cybermalveillance.gouv.fr"
+      ]
+    },
+    {
+      "id": "fr_ameli_carte_vitale",
+      "typology": "fake_health_insurance",
+      "name": "Fausse Assurance maladie : renouveler la carte Vitale",
+      "name_en": "Fake health insurance card renewal",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "assurance maladie"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "renouveler votre carte vitale",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "identifiants ameli",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text from the health insurance says the Vitale card must be renewed or a refund is waiting and asks for ameli logins or card details for a small fee.",
+      "legit_en": "The health insurance never asks for ameli logins or card details by phone and the Vitale card is free.",
+      "bait_tactics": [
+        "Dire que la carte est dans le portefeuille dans l'autre pièce et demander pourquoi il faut la renouveler",
+        "Demander combien coûtent les frais"
+      ],
+      "sources": [
+        "Assurance Maladie",
+        "Cybermalveillance.gouv.fr"
+      ]
+    },
+    {
+      "id": "fr_faux_support_technique",
+      "typology": "tech_support_remote",
+      "name": "Faux support technique : contrôle à distance",
+      "name_en": "Fake tech support with remote control",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "ordinateur infecté"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "prendre le contrôle à distance",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "dépannage payant",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a software company says the computer is infected and asks to install AnyDesk or TeamViewer, then charges for a fake repair.",
+      "legit_en": "Software companies never call about viruses and never ask to control a computer.",
+      "bait_tactics": [
+        "Dire que l'ordinateur démarre très lentement et demander ce qu'il faut voir à l'écran",
+        "Demander quel message d'erreur ils ont reçu"
+      ],
+      "sources": [
+        "Cybermalveillance.gouv.fr"
+      ]
+    }
+  ]
+}

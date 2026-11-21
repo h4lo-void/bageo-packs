@@ -1,0 +1,111 @@
+{
+  "name": "Saudi Arabia",
+  "name_local": "السعودية",
+  "iso": "sa",
+  "calling_code": "+966",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "SAMA and Absher warnings 2025-2026: fake Absher staff asking the owner to pick the number shown in Nafath, and fake central bank staff moving money to a temporary protection account dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "sa_nafath_absher_code",
+      "typology": "otp_theft",
+      "name": "انتحال أبشر وطلب الرقم الظاهر في نفاذ",
+      "name_en": "Fake Absher staff asking for the Nafath number or code",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "اختر الرقم الظاهر في نفاذ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز التحقق من أبشر",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as Absher or a government platform says the account will be suspended and asks the owner to accept the number shown in Nafath or read out the code.",
+      "legit_en": "Government platforms never call to ask for Nafath numbers or verification codes.",
+      "bait_tactics": [
+        "يقول إن التطبيق يحمّل ببطء ويطلب منه الانتظار",
+        "يسأل بهدوء عن أي خدمة يتكلم ومتى ستتوقف"
+      ],
+      "sources": [
+        "البنك المركزي السعودي"
+      ]
+    },
+    {
+      "id": "sa_central_bank_protection_account",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال البنك المركزي وتحويل الرصيد لحساب حماية",
+      "name_en": "Fake central bank moving money to a temporary protection account",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "البنك المركزي"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "حساب حماية مؤقت",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the central bank or the owner's bank says the account is frozen and the balance must be moved to a temporary protection account.",
+      "legit_en": "Banks and SAMA never ask customers to move their money to another account on the phone.",
+      "bait_tactics": [
+        "يقول إن البطاقة في السيارة ويروح يجيبها",
+        "يسأل عن اسم الفرع ورقم البلاغ بهدوء"
+      ],
+      "sources": [
+        "البنك المركزي السعودي"
+      ]
+    },
+    {
+      "id": "sa_fake_police_authority",
+      "typology": "fake_official",
+      "name": "انتحال صفة الشرطة أو الجهات الأمنية والمالية",
+      "name_en": "Police and Financial Authority Impersonation Scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "التحريات والمباحث",
+        "بلاغ مالي",
+        "شبهة تحويل"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "حساب آمن",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "مذكرة توقيف فورية",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز الرسالة النصية",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to be from criminal investigations or financial crime police, alleging suspicious transfers on the resident's bank account.",
+      "legit_en": "Police departments across Gulf states repeatedly confirm that officers never call individuals to ask for bank card details, verification codes, or money transfers; official inquiries take place through formal police channels.",
+      "bait_tactics": [
+        "الصوت غير واضح بسبب التكييف عندي، هل يمكنك إعادة اسم الإدارة ورقم البلاغ ببطء حتى أكتبه؟",
+        "أبحث الآن عن ورقة وقلم لتدوين المعلومات، لكن الهاتف الآخر يرن في نفس الوقت، ثانية واحدة معك.",
+        "لم تصلني أي إشعارات رسمية على هاتفي، هل يمكنك توضيح تاريخ المعاملة التي تتحدث عنها بالضبط؟"
+      ],
+      "sources": [
+        "https://www.alkhaleej.ae/2025-03-26/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%AC%D9%87%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-5841121/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
+        "https://www.cst.gov.sa/services/Spam-Reports"
+      ]
+    }
+  ]
+}

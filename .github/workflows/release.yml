@@ -1,0 +1,81 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get this repository
+        uses: actions/checkout@v4
+        with:
+          path: data
+
+      - name: Read the checker version
+        id: ref
+        run: echo "commit=$(tr -d '[:space:]' < data/tools/bageo-call.ref)" >> "$GITHUB_OUTPUT"
+
+      - name: Get the checker (bageo-call)
+        uses: actions/checkout@v4
+        with:
+          repository: h4lo-void/bageo-call
+          ref: ${{ steps.ref.outputs.commit }}
+          path: bageo-call
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - name: Version from the tag
+        id: ver
+        env:
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          case "$TAG_NAME" in
+            v[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]) ;;
+            *) echo "The tag must look like v2026112101 (date plus two digits)." >&2; exit 1 ;;
+          esac
+          echo "version=${TAG_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Check regions, languages and translations
+        working-directory: bageo-call
+        run: cargo run -p bageo-packs --release -- check "$GITHUB_WORKSPACE/data"
+
+      - name: Build region pack, call-only locales and extras pack
+        working-directory: bageo-call
+        env:
+          PACK_VERSION: ${{ steps.ver.outputs.version }}
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/out"
+          cargo run -p bageo-packs --release -- build "$GITHUB_WORKSPACE/data" \
+            --version "$PACK_VERSION" \
+            --commit "$GITHUB_SHA" \
+            --out "$GITHUB_WORKSPACE/out/bageo-pack.json" \
+            --index "$GITHUB_WORKSPACE/out/bageo-pack-index.json"
+          cargo run -p bageo-packs --release -- build-locales "$GITHUB_WORKSPACE/data" \
+            --version "$PACK_VERSION" \
+            --commit "$GITHUB_SHA" \
+            --call-only \
+            --out "$GITHUB_WORKSPACE/out/bageo-locales.json.gz" \
+            --index "$GITHUB_WORKSPACE/out/bageo-pack-index.json"
+          cargo run -p bageo-packs --release -- build-extras "$GITHUB_WORKSPACE/data" \
+            --version "$PACK_VERSION" \
+            --commit "$GITHUB_SHA" \
+            --out "$GITHUB_WORKSPACE/out"
+          cp "$GITHUB_WORKSPACE/data/scams/country_scams.json" "$GITHUB_WORKSPACE/out/bageo-scams.json"
+          cp "$GITHUB_WORKSPACE/data/voices/bageo-voices-index.json" "$GITHUB_WORKSPACE/out/bageo-voices-index.json"
+
+      - name: Attach release files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG_NAME: ${{ github.ref_name }}
+        run: |
+          gh release create "$TAG_NAME" \
+            "$GITHUB_WORKSPACE/out"/* \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "$TAG_NAME" \
+            --notes "Data packs for Bageo: regional call data (bageo-pack.json), call-only language index (bageo-locales.json.gz), on-demand language/art extras (bageo-extras-index.json, lang-*.json.gz, art-*.json), regional scam pack (bageo-scams.json) and voice pack index (bageo-voices-index.json). All content is draft until marked local_reviewed."

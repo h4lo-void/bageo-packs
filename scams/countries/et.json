@@ -1,0 +1,100 @@
+{
+  "name": "Ethiopia",
+  "name_local": "ኢትዮጵያ",
+  "iso": "et",
+  "calling_code": "+251",
+  "languages": [
+    "am",
+    "en"
+  ],
+  "prevalence_note": "Ethiopia 2025-2026 warnings: ethiopia Mobile Wallet & Bank OTP Vishing Scam; false Medical Emergency & Acquaintance Impersonation Scam.",
+  "cross_border_note": "Calls in Swahili, Amharic, French or English, often from local mobile numbers.",
+  "scams": [
+    {
+      "id": "et_ethiopia_wallet_otp_vishing",
+      "typology": "otp_theft",
+      "name": "የሞባይል ቦርሳ እና የባንክ ማረጋገጫ ኮድ (OTP) ማጭበርበር",
+      "name_en": "Ethiopia Mobile Wallet & Bank OTP Vishing Scam",
+      "prevalence": "very_high",
+      "lang": "am",
+      "context_keywords": [
+        "የሞባይል ቦርሳ",
+        "ሲም ካርድ እገዳ"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "የደረሰዎትን ኮድ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ሚስጥር ቁጥር",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "አካውንትዎ እንዳይዘጋ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ይህን መተግበሪያ ይጫኑ",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters call posing as telecom staff or bank officers in Ethiopia, claiming a mobile wallet or bank account needs urgent upgrading or faces suspension.",
+      "legit_en": "According to the National Bank of Ethiopia and telecom security advisories, legitimate financial institutions and mobile operators never ask customers to reveal PINs, passwords, or one-time verification codes over unsolicited calls, nor send external app.",
+      "bait_tactics": [
+        "አንድ ጊዜ ይጠብቁኝ፣ ኔትወርኩ እዚህ ቤት ውስጥ በጣም ደካማ ስለሆነ ምንም አጭር መልዕክት ገና አልገባልኝም።",
+        "መነጽሬን ሳሎን ውስጥ ጥዬው መጣሁ፣ ትንንሽ ቁጥሮቹን ማንበብ ስለማልችል ሄጄ ላምጣው።",
+        "የስልኬ ባትሪ አንድ ፐርሰንት ላይ ደርሶ ሊዘጋ ነው፣ ቻርጀር እስክፈልግ ትንሽ ይታገሱኝ።"
+      ],
+      "sources": [
+        "https://ministryofcyberaffairs.com/news/how-to-report-cybercrime-and-online-fraud-in-ethiopia-2026-b0115afa-4db3-4742-9600-c2ed60a80dd0",
+        "https://www.wegagen.com/FAQ"
+      ]
+    },
+    {
+      "id": "et_false_emergency_impersonation",
+      "typology": "fake_relative_money",
+      "name": "False Medical Emergency & Stranded Relative Mobile Money Scam",
+      "name_en": "False Medical Emergency & Acquaintance Impersonation Scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "police custody",
+        "send mobile money urgently",
+        "stranded"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money to this temporary number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "do not call anyone else right now",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urgent medical deposit",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scammers call from an unfamiliar number or use a hijacked account to pose as a relative, colleague, or hospital staff member claiming a loved one had a sudden road accident or arrest.",
+      "legit_en": "Genuine hospitals and public authorities follow standard admission and family notification procedures without demanding instant mobile money transfers to private numbers.",
+      "bait_tactics": [
+        "Hold on, the line has terrible static—which clinic reception desk did you say you're calling from?",
+        "Wait a minute, my mobile wallet balance is nearly zero right now and the nearest agent shop is closed.",
+        "Let me find a pen to write down the doctor's name first because my screen keeps freezing."
+      ],
+      "sources": [
+        "https://www.safaricom.co.ke/fraud-awareness/scams-extortion",
+        "https://ministryofcyberaffairs.com/news/how-to-report-cybercrime-and-online-fraud-in-ethiopia-2026-b0115afa-4db3-4742-9600-c2ed60a80dd0"
+      ]
+    }
+  ]
+}

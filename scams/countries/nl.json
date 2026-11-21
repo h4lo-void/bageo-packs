@@ -1,0 +1,102 @@
+{
+  "name": "Netherlands",
+  "name_local": "Nederland",
+  "iso": "nl",
+  "calling_code": "+31",
+  "languages": [
+    "nl"
+  ],
+  "prevalence_note": "Fraudehelpdesk and police warnings 2025-2026: fake bank helpdesk staff moving money to a vault account, and fake police collecting valuables and PIN codes at the door dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "nl_bankhelpdesk_kluisrekening",
+      "typology": "fake_bank_account_alert",
+      "name": "Bankhelpdeskfraude: geld naar een kluisrekening",
+      "name_en": "Fake bank helpdesk moving money to a vault account",
+      "prevalence": "very_high",
+      "lang": "nl",
+      "context_keywords": [
+        "afdeling fraude"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kluisrekening",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the bank's fraud department reports a suspicious login and asks the owner to move the money to a vault or safe account.",
+      "legit_en": "Banks never ask customers to move money to another account to keep it safe.",
+      "bait_tactics": [
+        "Zeggen dat de bankapp nog aan het laden is en rustig laten uitleggen wat er precies is gebeurd",
+        "Vragen welke transactie het was en op welke dag"
+      ],
+      "sources": [
+        "Fraudehelpdesk"
+      ]
+    },
+    {
+      "id": "nl_nepagenten_pincode",
+      "typology": "fake_official",
+      "name": "Nepagenten halen waardevolle spullen op",
+      "name_en": "Fake police collecting valuables and PIN codes",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [],
+      "red_flag_keywords": [
+        {
+          "text": "waardevolle spullen veiligstellen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pincode doorgeven",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fake police say burglars have the owner's address and a colleague will come to secure valuables and bank cards, and ask for the PIN code.",
+      "legit_en": "Dutch police never collect valuables or bank cards at the door and never ask for PIN codes.",
+      "bait_tactics": [
+        "Zeggen dat de sleutel van de kast bij de buurvrouw ligt",
+        "Rustig vragen hoe de collega eruitziet en hoe laat hij komt"
+      ],
+      "sources": [
+        "Politie"
+      ]
+    },
+    {
+      "id": "nl_helpdeskfraude_meekijken",
+      "typology": "tech_support_remote",
+      "name": "Helpdeskfraude: meekijken op uw computer",
+      "name_en": "Fake helpdesk watching the computer",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "helpdesk van microsoft"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "meekijken op uw computer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "anydesk of teamviewer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from a helpdesk says the computer has a virus and asks to install AnyDesk or TeamViewer so they can watch while the owner logs in to online banking.",
+      "legit_en": "Software companies and banks never ask to watch while a customer logs in to online banking.",
+      "bait_tactics": [
+        "Zeggen dat de computer heel traag opstart en vragen wat er op het scherm moet staan",
+        "Vragen welke foutmelding ze hebben gekregen"
+      ],
+      "sources": [
+        "Fraudehelpdesk"
+      ]
+    }
+  ]
+}

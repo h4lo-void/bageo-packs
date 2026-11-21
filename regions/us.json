@@ -1,0 +1,113 @@
+{
+  "schema": 1,
+  "code": "us",
+  "countries": [
+    "us",
+    "ag",
+    "ai",
+    "as",
+    "bb",
+    "bm",
+    "bs",
+    "dm",
+    "gd",
+    "gu",
+    "jm",
+    "kn",
+    "ky",
+    "lc",
+    "mp",
+    "ms",
+    "sx",
+    "tc",
+    "tt",
+    "vc",
+    "vg",
+    "vi"
+  ],
+  "name": {
+    "en": "United States",
+    "native": "United States",
+    "zh": "美國"
+  },
+  "lang": "en-US",
+  "delivery": {
+    "en": "Packages: porch, mailroom or locker; no made-up codes",
+    "zh": "包裹放 porch、收發室或包裹櫃，門禁密碼不用編"
+  },
+  "readback": {
+    "en": "Times in 12 hours with a.m./p.m.; numbers go 3-3-4",
+    "zh": "時間用 12 小時制並說 a.m. 或 p.m.，號碼照 3-3-4 唸"
+  },
+  "fraud": {
+    "en": "IRS, Medicare or gift-card demands, or a \"bank\" asking for Zelle, are scams",
+    "zh": "拿 IRS、Medicare 威脅、要禮品卡、假銀行叫你用 Zelle 轉錢的都是詐騙"
+  },
+  "habits": {
+    "en": "Say cell, zip code, apartment, not mobile, postcode, flat; month first",
+    "zh": "用 cell、zip code、apartment，不用 mobile、postcode、flat；日期先月後日。"
+  },
+  "stall_local": {
+    "en": "Get stuck on US snags: reading glasses upstairs, the bank app spinning on bad Wi-Fi, the wallet in the car.",
+    "zh": "卡在美國日常狀況，例如老花眼鏡在樓上、銀行 App 在爛 Wi-Fi 一直轉、錢包放在車上。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a buddy: first names, contractions, short loose sentences, real reactions plus a follow-up (oh man), varied.",
+        "zh": "像{owner}跟好朋友聊天：叫名字、用口語縮寫，句子短而隨興，有真反應並多接一句（如 oh man），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, neighborly: first names unless they use titles; after they explain, add a friendly remark (good to know), varied.",
+        "zh": "溫暖隨和、像鄰居：對方沒用頭銜就叫名字；對方講完，加一句友善回應（如 good to know），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday American: first names. When they finish a point, reply with one full sentence, not a word or two (makes sense).",
+        "zh": "美國人日常口氣：叫名字。對方講完一件事，用一句完整的話回應，不只回一兩個字（如 makes sense，每次換）。"
+      },
+      "4": {
+        "en": "Courteous: Mr./Ms. until invited to first names, measured sentences; take up their main point first (understood), varied.",
+        "zh": "有禮：沒受邀前用 Mr./Ms.，句子穩重，先回應對方重點（如 understood），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp executive register: titles and surnames, brisk; answer each point in full (thanks for flagging that), varied.",
+        "zh": "俐落的主管口吻：用頭銜加姓氏，明快；每個重點都完整回應（如 thanks for flagging that），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat sidekick on first names: breezy short lines, a warm reaction before saying you will pass it on (oh nice), varied.",
+        "zh": "{owner}活潑的小幫手，直接叫名字：句子輕快簡短，先熱絡回應，再說會轉告（如 oh nice），每次換說法。"
+      },
+      "2": {
+        "en": "Calm, welcoming assistant on first names: acknowledge their situation kindly, then take the message for {owner} (got it), varied.",
+        "zh": "親切從容的助理，叫名字：先體貼回應對方的處境，再記下留言給{owner}（如 got it），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant. When the caller finishes a point, answer in one full sentence before confirming the relay, never a bare OK.",
+        "zh": "自然幹練的助理。對方講完一件事，先用一句完整的話回應，再確認轉達，不只回 OK。"
+      },
+      "4": {
+        "en": "Discreet secretary: Mr./Ms. unless invited to first names, complete sentences; take up why they called first (understood), varied.",
+        "zh": "低調周到的秘書：沒受邀前用 Mr./Ms.，句子完整，先承接來意再說會轉告（如 understood），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: formal Mr./Ms., concise, brisk; answer the key details in full, then confirm the relay (certainly), varied.",
+        "zh": "主管級助理：正式用 Mr./Ms.，精簡、明快；先完整回應重點，再確認轉達（如 certainly），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "front porch",
+      "mailroom",
+      "package locker"
+    ],
+    "bank": [
+      "Zelle",
+      "checking account",
+      "debit card"
+    ]
+  },
+  "status": "draft"
+}

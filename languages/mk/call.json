@@ -1,0 +1,111 @@
+{
+  "schema": 2,
+  "layer": "mk",
+  "status": "draft",
+  "name": {
+    "en": "Macedonian",
+    "zh": "馬其頓文"
+  },
+  "hello": {
+    "hello": "Ало?",
+    "hello_again": "Ало, ме слушате?"
+  },
+  "common": {
+    "habits": {
+      "en": "Ти with friends, Вие otherwise.",
+      "zh": "朋友用 ти，其餘用 Вие。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "With a friend: ти, casual spoken phrasing, short lively sentences, a follow-up remark.",
+          "zh": "跟好朋友：用 ти，口語隨性，句子短而活潑，多接一句。"
+        },
+        "2": {
+          "en": "Easygoing and warm: ти, or a soft Вие; after the caller explains, add a friendly remark.",
+          "zh": "隨和溫暖：用 ти，或輕鬆的 Вие；對方講完加一句友善回應。"
+        },
+        "3": {
+          "en": "Everyday: ти with friends, Вие with strangers; answer each point in one full sentence, not a bare yes.",
+          "zh": "日常：朋友 ти、陌生人 Вие；對方講完一件事，用一句完整的話回應，不只回一個字。"
+        },
+        "4": {
+          "en": "Courteous: polished Вие, complete sentences; take up their main point first.",
+          "zh": "有禮：得體的 Вие，句子完整，先回應對方重點。"
+        },
+        "5": {
+          "en": "Business: formal Вие, brisk and precise, answering each point in full.",
+          "zh": "公事：正式的 Вие，簡潔精確，每個重點完整回應。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "Upbeat helper: ти, casual spoken phrasing; react warmly, then say you will pass it on.",
+          "zh": "活潑的小幫手：用 ти，口語隨性；先熱絡回應，再說會轉告。"
+        },
+        "2": {
+          "en": "Calm assistant: ти, or a soft Вие; acknowledge their situation kindly, then take the message.",
+          "zh": "從容的助理：用 ти，或輕鬆的 Вие；先體貼回應處境，再記下留言。"
+        },
+        "3": {
+          "en": "Natural assistant: ти with friends, Вие with strangers; answer each point in a full sentence, then pass it on.",
+          "zh": "自然的助理：朋友 ти、陌生人 Вие；先用一句完整的話回應，再確認轉達。"
+        },
+        "4": {
+          "en": "Discreet secretary: polished Вие; take up why they called in complete sentences.",
+          "zh": "低調的秘書：得體的 Вие；用完整句子承接來意。"
+        },
+        "5": {
+          "en": "Executive assistant: formal Вие; brisk, answering key details in full.",
+          "zh": "主管級助理：正式的 Вие；明快、完整回應重點。"
+        }
+      }
+    }
+  },
+  "speech": {
+    "im_here": "Да, тука сум, ве слушам. Повелете, кажете.",
+    "still_there": "Ало, уште сте на линија?",
+    "bye": "Пријатно.",
+    "go_ahead": "Секако, слободно кажете.",
+    "no_thanks": "А, не, фала.",
+    "think_about_it": "Треба малку да размислам за тоа.",
+    "wait_one_more": "Чекајте малку, имам уште едно прашање.",
+    "no_wait": "«само момент», «секунда», «чекај да проверам», «почекајте да проверам», «почекај малку», «почекајте момент»",
+    "unavailable": "Бројот што го баравте моментално не е достапен. Ве молиме обидете се подоцна.",
+    "preview": [
+      "Ало?",
+      "А, за пратка ли е? Може, оставете ја пред врата, ви благодарам многу.",
+      "Во ред, пријатно."
+    ],
+    "closing": {
+      "verified": false,
+      "farewells": [
+        "пријатно",
+        "ајде пријатно",
+        "се слушаме",
+        "ајде се слушаме",
+        "до гледање",
+        "ќе се чуеме",
+        "ајде со здравје"
+      ],
+      "wrapups": [
+        "толку од мене засега",
+        "морам да одам сега",
+        "да не ве задржувам",
+        "фала што се јави"
+      ],
+      "examples": {
+        "ends": [
+          "Ви благодарам за информацијата, пријатно.",
+          "Тоа е сѐ за денес, ајде пријатно.",
+          "Ќе ти се јавам штом стигнам дома, се слушаме."
+        ],
+        "not_ends": [
+          "Денес времето надвор е многу пријатно, туку кажи ми дали стаса пратката?",
+          "Ми рече само ајде пријатно и излезе, па сакав да те прашам што се случи.",
+          "Добро ли се слушаме сега кога излегов во ходникот?"
+        ]
+      }
+    }
+  }
+}

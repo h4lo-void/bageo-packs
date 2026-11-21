@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "code": "my",
+  "countries": [
+    "my"
+  ],
+  "name": {
+    "en": "Malaysia",
+    "native": "Malaysia",
+    "zh": "馬來西亞"
+  },
+  "lang": "ms",
+  "chinese_dialects": true,
+  "hello": {
+    "hello": "Helo?",
+    "hello_again": "Helo, boleh dengar?"
+  },
+  "delivery": {
+    "en": "Parcels: gate hook, shoe rack or guardhouse",
+    "zh": "包裹掛在門柵、放鞋架或交給保安亭"
+  },
+  "readback": {
+    "en": "01X numbers go in short groups, 0 said kosong",
+    "zh": "01X 號碼分段唸，0 唸「kosong」"
+  },
+  "fraud": {
+    "en": "\"Police\" or tax calls, a PosLaju \"banned parcel\" or KWSP payout are scams",
+    "zh": "自稱警方或稅局、PosLaju 違禁包裹、KWSP 領款的都是詐騙"
+  },
+  "habits": {
+    "en": "Say letak kat pagar, pondok guard; not Indonesian taruh, satpam, nggak.",
+    "zh": "說 letak kat pagar、pondok guard；不用印尼詞 taruh、satpam、nggak。"
+  },
+  "stall_local": {
+    "en": "Get stuck on snags like the MAE app stuck loading, slow home internet, lost reading glasses.",
+    "zh": "卡在日常狀況，例如 MAE App 一直轉圈、家裡網路很慢、老花眼鏡不見。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a close friend: casual aku and kau, short loose lines, a lively reaction plus a follow-up (oh ya ke, boleh je), varied.",
+        "zh": "像跟好朋友：隨興的 aku 和 kau，句子短而活潑，真反應並多接一句（oh ya ke、boleh je），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easygoing, caring: saya or first names; after they explain, add a considerate remark (oh macam tu), varied.",
+        "zh": "溫暖隨和，用 saya 或名字；對方講完，加一句自己的體貼回應（oh macam tu），每次換說法。"
+      },
+      "3": {
+        "en": "Neither stiff nor casual: saya, Encik/Cik if formal. When they finish a point, reply in one full sentence, not a word or two (oh faham).",
+        "zh": "不生硬也不隨便，用 saya，正式時稱 Encik／Cik。對方講完一件事，用一句完整的話回應，不只回一兩個字（oh faham）。"
+      },
+      "4": {
+        "en": "Composed, courteous: Encik, Cik, Puan; measured full sentences; take up their main point first (terima kasih atas makluman), varied.",
+        "zh": "沉穩有禮，稱 Encik、Cik、Puan，句子完整；先回應對方重點（terima kasih atas makluman），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp corporate register: Tuan or Puan with titles, tidy brisk sentences; answer each point in full (jelas), varied.",
+        "zh": "俐落的商務口吻，稱 Tuan 或 Puan 並用稱謂，明快但有溫度；每個重點完整回應（jelas），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Upbeat, friendly helper: a warm reaction first, then say you will pass it on (oh faham, bereh), varied.",
+        "zh": "活潑親切的助理，親切：先熱絡回應對方，再說會轉告（oh faham、bereh），每次換說法。"
+      },
+      "2": {
+        "en": "Gentle, reassuring assistant: acknowledge their situation kindly, then note the message (oh baik), varied.",
+        "zh": "溫和從容的助理，溫和安心：先體貼回應對方處境，再記下留言（oh baik），每次換說法。"
+      },
+      "3": {
+        "en": "Natural assistant in everyday Malay: answer their point in one full sentence, never a bare ok, then confirm the relay (faham).",
+        "zh": "自然幹練的助理，日常馬來語：對方講完先用一句完整的話回應，不只回一兩個字，再確認轉達（faham）。"
+      },
+      "4": {
+        "en": "Polished secretary: Encik, Cik or Puan, composed sentences; take up why they called, then pass it on (maklum atas perkara tersebut), varied.",
+        "zh": "周到的秘書，稱 Encik、Cik 或 Puan：先用完整句子承接來意，再說會轉告（maklum atas perkara tersebut），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: precise Tuan or Puan, concise corporate phrasing; answer the details in full, then confirm the relay, varied.",
+        "zh": "主管級助理，稱 Tuan 或 Puan，用語精簡，條理俐落：先完整回應公事重點，再確認轉達（saya faham sepenuhnya），每次換說法。"
+      }
+    }
+  },
+  "vocab": {
+    "delivery": [
+      "pondok guard",
+      "rak kasut",
+      "pagar"
+    ],
+    "bank": [
+      "DuitNow",
+      "MAE",
+      "Secure2u"
+    ]
+  },
+  "status": "draft"
+}

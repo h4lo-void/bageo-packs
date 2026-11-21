@@ -1,0 +1,77 @@
+{
+  "name": "Russia",
+  "name_local": "Россия",
+  "iso": "ru",
+  "calling_code": "+7",
+  "languages": [
+    "ru"
+  ],
+  "prevalence_note": "Bank of Russia and police warnings 2025-2026: fake Central Bank, FSB or bank security staff moving savings to a safe account, and fake operator staff asking for SMS codes to extend a SIM contract dominate.",
+  "cross_border_note": "",
+  "scams": [
+    {
+      "id": "ru_safe_account",
+      "typology": "fake_official",
+      "name": "Лжесотрудники ЦБ или ФСБ и «безопасный счёт»",
+      "name_en": "Fake Central Bank or FSB officer moving savings to a safe account",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "сотрудник фсб"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "безопасный счёт",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "безопасный счет",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "встречный кредит",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller from the FSB, the Central Bank or a bank's security service says someone is taking a loan in the owner's name and the savings must go to a safe account or a counter loan must be taken.",
+      "legit_en": "The Central Bank has no private clients, and no bank or police officer asks anyone to move money to another account on the phone.",
+      "bait_tactics": [
+        "Встревоженно переспрашивать, какой именно кредит оформляют и в каком отделении",
+        "Говорить, что очки остались в прихожей, и просить продиктовать всё помедленнее"
+      ],
+      "sources": [
+        "Банк России"
+      ]
+    },
+    {
+      "id": "ru_sim_contract_code",
+      "typology": "otp_theft",
+      "name": "Продление договора связи по коду из СМС",
+      "name_en": "Fake mobile operator extending a SIM contract for an SMS code",
+      "prevalence": "high",
+      "lang": "ru",
+      "context_keywords": [
+        "срок действия сим"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "код для продления договора",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller posing as the mobile operator or Gosuslugi says the SIM contract or account is about to expire and asks for the code that just arrived by SMS.",
+      "legit_en": "Operators extend contracts without calls, and real staff never ask for a code from an SMS.",
+      "bait_tactics": [
+        "Говорить, что СМС приходят на старый кнопочный телефон в другой комнате, и долго его искать",
+        "Переспрашивать, какой у договора номер и с какого года он заключён"
+      ],
+      "sources": [
+        "Банк России"
+      ]
+    }
+  ]
+}
