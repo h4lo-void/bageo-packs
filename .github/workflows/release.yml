@@ -68,6 +68,7 @@ jobs:
             --out "$GITHUB_WORKSPACE/out"
           cp "$GITHUB_WORKSPACE/data/scams/country_scams.json" "$GITHUB_WORKSPACE/out/bageo-scams.json"
           cp "$GITHUB_WORKSPACE/data/voices/bageo-voices-index.json" "$GITHUB_WORKSPACE/out/bageo-voices-index.json"
+          cp "$GITHUB_WORKSPACE/data/voices"/voices-*.zip "$GITHUB_WORKSPACE/out/"
 
       - name: Attach release files
         env:
