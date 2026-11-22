@@ -8,7 +8,7 @@
     "sv"
   ],
   "prevalence_note": "Poliisi and Traficom warnings 2025-2026: fake bank security asking for bank credentials and moving money to a 'safe account', fake police or tax staff asking for online bank codes, and fake technical support.",
-  "cross_border_note": "",
+  "cross_border_note": "Traficom's mandatory CLI-filtering regulation blocks unverified international inbound calls spoofing Finnish (+358) fixed and mobile numbers at international gateways; cross-border valepoliisi, bank safety-account, and tech-support scammers shift to foreign (+44/+46) prefixes, SMS callback lures, or SIM-box relays in Finnish and Swedish.",
   "scams": [
     {
       "id": "fi_valepankki_turvatili",
@@ -44,8 +44,8 @@
         "Kysyä, minä päivänä siirto tehtiin ja kuinka suuri summa"
       ],
       "sources": [
-        "Poliisi",
-        "Finanssiala"
+        "https://poliisi.fi/petosrikokset",
+        "https://www.finanssiala.fi/aiheet/petokset/"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "Kysyä, milloin varkauden piti tapahtua"
       ],
       "sources": [
-        "Poliisi"
+        "https://poliisi.fi/petosrikokset"
       ]
     },
     {
@@ -109,8 +109,57 @@
         "Kysyä, minkä virheilmoituksen he saivat"
       ],
       "sources": [
-        "Traficom",
-        "Poliisi"
+        "https://www.traficom.fi/fi/huijauspuhelut-tunnista-huijaus-ja-toimi-oikein",
+        "https://poliisi.fi/petosrikokset"
+      ]
+    },
+    {
+      "id": "fi_falsk_bank_sakerhetskonto_sv",
+      "typology": "fake_bank_account_alert",
+      "name": "Falsk banktjänsteman, Skatteförvaltningen eller polis (säkerhetskonto & bankkoder)",
+      "name_en": "Fake Finnish bank officer, Vero tax official, or police in Swedish demanding safe-account transfer or banking codes",
+      "prevalence": "high",
+      "lang": "sv",
+      "context_keywords": [
+        "säkerhetsavdelningen",
+        "skatteförvaltningen",
+        "nätbank",
+        "bankkoder",
+        "misstänkt betalning"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "flytta till säkerhetskonto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "lämna ut bankkoder",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bekräfta i mobilbanken",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "polisen hämtar bankkortet",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller speaks Swedish to Swedish-speaking Finns, posing as a Finnish bank security unit, Skatteförvaltningen (Vero), or police, alleging unauthorized loans or transfers and pressuring the victim to share nätbank codes or move savings to a supposed...",
+      "legit_en": "Finnish banks, Skatteförvaltningen (Vero), and Poliisi/Polisen never ask for banking codes by phone and never instruct citizens to transfer funds to a 'säkerhetskonto'.",
+      "bait_tactics": [
+        "Säg lugnt att nyckelkodlistan eller telefonen med mobilbanken ligger på stugan eller i ett låst skåp och be dem vänta medan du letar",
+        "Be uppringaren upprepa avdelningsnamnet långsamt på svenska och fråga vilket kontor i Helsingfors eller Vasa samtalet kopplats från",
+        "Påstå att nätbankens inloggningssida bara visar ett felmeddelande om underhåll och be dem förklara varje knapptryckning på nytt"
+      ],
+      "sources": [
+        "https://poliisi.fi/sv/bedrageribrott",
+        "https://www.traficom.fi/fi/huijauspuhelut-tunnista-huijaus-ja-toimi-oikein",
+        "https://www.finanssiala.fi/aiheet/petokset/"
       ]
     }
   ]

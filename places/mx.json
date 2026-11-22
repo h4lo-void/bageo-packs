@@ -1,0 +1,739 @@
+{
+  "region": "mx",
+  "countries": [
+    "mx"
+  ],
+  "region_name_zh": "墨西哥",
+  "region_name": "Mexico",
+  "languages": [
+    {
+      "code": "es",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak warm, courteous Mexican Spanish (es); switch to English only at resorts (Cancún/Los Cabos) or upscale CDMX Polanco/Roma hotels.",
+  "english_ok": "sometimes — Spoken in tourist resorts, international hotels, and border/expat zones, rarely at local shops or workshops.",
+  "politeness": "Very polite and warm; open with Buenos días/Buenas tardes, señorita/joven, use formal usted, say por favor often, close with muchas gracias, buen día.",
+  "name_tip": "Given name plus paternal surname (e.g. Juan Hernández) for restaurants/salons; full name with two apellidos for clinics, hotels, and official matters.",
+  "phone_tip": "10-digit national numbers (CDMX 55 1234 5678, GDL 33, MTY 81) read 2-4-4 or in pairs; WhatsApp is the universal confirmation channel.",
+  "time_tip": "12-hour spoken with de la mañana/tarde/noche (comida 14:00–16:30, cena 20:00–22:30); if staff says 'ahorita', ask exact clock minutes!",
+  "number_tip": "Clarify sesenta (60) vs setenta (70) and dos (2) vs doce (12); read 10-digit phone numbers in two-digit pairs slowly.",
+  "avoid_calling": "Avoid main lunch rush (hora de la comida 14:00–16:00) for offices/clinics and busy restaurants, and calls after 21:00.",
+  "closed_days": "Many workshops close Sundays and Saturday afternoons; museums close Mondays; major slowdowns during Semana Santa, Día de Muertos, and Guadalupe–Reyes (Dec 12–Jan 6).",
+  "booking_channels": "WhatsApp dominates almost every business category; OpenTable in major cities for dining; Doctoralia for private doctors; Uber Eats/Rappi/DiDi Food for delivery.",
+  "voice_menu": "IMSS/ISSSTE public clinics, hospital chains, banks, Telcel/Telmex, CFE, Aeroméxico, and couriers use heavy keypad IVR.",
+  "callback_habits": "Almost all businesses send a WhatsApp message asking the client to reply 'Confirmado'; many restaurants cancel unconfirmed tables 2h prior.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "墨西哥正餐（Comida）高峰在下午 2～4 點、晚餐在 8 點後；許多餐廳訂位後會發 WhatsApp 要求回覆確認否則取消。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and time (comida afternoon vs cena evening)",
+        "Number of people (personas) and highchair (periquera)",
+        "Smoking terrace (terraza) vs indoor non-smoking area",
+        "Name and 10-digit WhatsApp phone number",
+        "Birthday/anniversary celebration or valet parking note"
+      ],
+      "may_come_up": [
+        {
+          "what": "Table held only 15 minutes (15 minutos de tolerancia)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Smoking allowed only on designated isolated terrace",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends OpenTable/WhatsApp link requiring card guarantee on weekends",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate SPEI bank transfer deposit (anticipo)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "公立 IMSS/ISSSTE 須本人證號預約；私立診所與牙醫（Consultorio）非常習慣電話與 WhatsApp 約診。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "First-time patient (primera vez) or follow-up (subsecuente)",
+        "Specialty, symptoms, or dental procedure",
+        "Patient full name",
+        "Preferred date, time, and doctor",
+        "10-digit WhatsApp number for location/confirmation"
+      ],
+      "may_come_up": [
+        {
+          "what": "Consultation fee payable in cash only or charges extra for CFDI invoice/card",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks if using major medical insurance (seguro de gastos médicos mayores)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CURP, birth date, or insurance policy number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands SPEI transfer deposit to confirm first consultation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "美甲、美睫與造型工作室常要求先用 SPEI 轉帳訂金（anticipo）才鎖定時段。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "spec"
+      ],
+      "usually_asked": [
+        "Service needed (corte, tinte/efectos, uñas acrílicas/gelish, masaje)",
+        "Removal of previous nails/lashes needed (retiro)",
+        "Preferred date, time, and stylist",
+        "Client name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Asks owner to send reference photo via WhatsApp",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate SPEI transfer deposit (50% o $200 MXN) to hold slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "原廠車廠（Agencia）有總機分機且需預約；街邊修車廠（Taller）與手機維修可直接打，注意問檢測費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle make, model, year (or phone/appliance brand)",
+        "Service mileage (servicio de 10,000 km) or fault symptom",
+        "Drop-off date and morning hour",
+        "Name and 10-digit WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "CDMX/Edomex Hoy No Circula plate restriction may affect drop-off day",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Diagnostic review cost (costo de revisión) credited if repaired",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone unlock PIN/pattern over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands SPEI advance for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "社區塔可店、披薩、中餐與家常菜（Fonda）常接電話點自取（para llevar）或鄰近外送收現金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup at restaurant (paso a recoger) vs neighborhood delivery",
+        "Exact dishes, salsa/tortilla preferences, and drink sizes",
+        "Ready time or street/colonia + cross streets (entre qué calles)",
+        "Name and 10-digit phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Own delivery rider takes cash or terminal (ask for wireless card terminal!)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Directs delivery outside zone to Rappi/Uber Eats/DiDi Food",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate SPEI transfer before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型百貨（Liverpool/Palacio）走客服總機，五金材料行（tlapalería/refaccionaria）、花店與烘焙坊可電話查貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Item, size, brand, or auto-part model",
+        "Quantity and branch stock check",
+        "Same-day pickup hour",
+        "Customer name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holds item at counter (apartado) only for a few hours unpaid",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Florist/bakery requires SPEI transfer to confirm order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "已付訂金（Anticipo）的預約若臨時改期，常規定僅能免費改一次或沒收訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name and 10-digit phone number",
+        "Original date and hour",
+        "New requested date/time or cancellation",
+        "Updated headcount if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Forfeits anticipo or charges late-change fee inside 24h",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CLABE bank account details or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (hours, valet parking cost, pet-friendly terrace, CFDI factura, queue)",
+        "Planned visit day and time",
+        "Party size",
+        "Whether caller wants to leave a reservation"
+      ],
+      "may_come_up": [
+        {
+          "what": "Valet parking mandatory at venue with fixed cash fee",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖商旅總機多有分機選單且需刷卡擔保；精品旅館（Hotel Boutique）常引導用 WhatsApp 報價匯款。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults and children (ages)",
+        "Room type (king o dos matrimoniales)",
+        "Guest full name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes rate before 16% IVA + local lodging tax (ISH 3–5%)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Offers sending payment link by email/WhatsApp",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate SPEI deposit transfer now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "板網球（Pádel）、保齡球、密室與派對場地可電話詢問，週末包場常要求預付訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity, court, or lane type",
+        "Date, start hour, and duration",
+        "Number of guests",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pádel courts booked via Playtomic app only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires SPEI deposit to hold court or private room",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供街道、門牌、社區名（Colonia）與郵遞區號；封閉式社區（Privada/Fraccionamiento）技師進門需警衛放行。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service needed (plomero, electricista, clima/minisplit, fumigación, cerrajero)",
+        "Street, number, interior/apt, colonia, entre calles, and CP",
+        "Gated community security rules (acceso en caseta con INE/QR)",
+        "Preferred day and time window",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes visita/diagnóstico fee waived if work approved",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks owner to share live WhatsApp location pin (ubicación)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks gate QR/access PIN over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands SPEI transfer before arriving",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、寵物洗澡美容（estética canina）與寄宿（pensión）皆可電話預約，寄宿必問疫苗卡。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "address"
+      ],
+      "usually_asked": [
+        "Consult, bath/cut (baño y corte), or boarding (pensión)",
+        "Breed, size/weight, age, and temperament",
+        "Vaccination card up to date (rabia, múltiple, bordetella)",
+        "Drop-off time or pet pickup shuttle (servicio a domicilio)",
+        "Owner name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers home pickup/drop-off van for grooming at extra fee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Boarding requires 50% SPEI deposit upfront",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "DHL、Estafeta、FedEx、Mercado Libre 客服多為按鍵選單或App追蹤，獨立修車廠與洗衣店才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking guide (número de guía) or service note (nota/folio)",
+        "Customer name and phone",
+        "Item or repair description",
+        "Status or pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "National parcel carrier uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Mercado Libre/Amazon delivery keyword (palabra clave/PIN)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、Telcel/Telmex、CFE電力與航空公司皆有多層按鍵語音並嚴格要求本人核驗個資，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR keypad routing",
+        "Confirmation caller is account holder (titular)",
+        "Birth date, RFC/CURP, or account/service number",
+        "Security verification questions"
+      ],
+      "may_come_up": [
+        {
+          "what": "Refuses third-party caller for account actions",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks RFC/CURP, birth date, card digits, NIP, or SMS OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "一般叫車多用 Uber / DiDi；社區安全計程車站（Sitio de Taxis）、機場預付車與租車行可電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact street, number, colonia, and pickup time",
+        "Destination or airport terminal (T1/T2/AIFA)",
+        "Passengers and luggage",
+        "Passenger name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sitio taxi quotes zone rate and gives unit/eco number",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Car rental explains hefty credit-card security hold at counter",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card or driver license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "墨西哥租屋仲介約看房時，幾乎都會先問是否有擔保人（Aval con bien raíz）或願意購買租賃法律保單（Póliza jurídica）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Colonia/street or Inmuebles24 listing",
+        "Preferred viewing day and time",
+        "Occupants, pets, and target move-in date",
+        "Whether tenant has local property guarantor (aval/fiador) or accepts póliza jurídica",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Landlord strictly requires CDMX real-estate aval or paid póliza jurídica",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests apartar/deposit transfer before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政府機關（SAT、SRE護照、市政）多需線上預約且總機有按鍵選單；私立學校與幼兒園（Kínder/Guardería）約參觀很歡迎來電。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General requirement question or school admissions tour (informes/admisiones)",
+        "Child age and grade (maternal, kínder 1–3, primaria)",
+        "School cycle (ciclo escolar) desired",
+        "Parent name and WhatsApp/email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Government agency requires online cita and CURP",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Private school schedules admissions tour and sends fees via WhatsApp",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CURP or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "es": {
+      "party": [
+        "mesa para 4",
+        "2 adultos y 1 niño",
+        "somos 3",
+        "para dos personas",
+        "4 personas + 1 periquera",
+        "grupo de 6",
+        "1 persona",
+        "5 adultos"
+      ],
+      "time": [
+        "a las 2pm",
+        "8:30 de la noche",
+        "20:30",
+        "a la 1 y media",
+        "cuarto para las 7",
+        "mañana a las 10am",
+        "como a las 3 de la tarde",
+        "19:00 hrs"
+      ],
+      "date": [
+        "mañana",
+        "pasado mañana",
+        "este viernes",
+        "el próximo martes",
+        "25 de noviembre",
+        "el sábado en la noche"
+      ],
+      "name": [
+        "Juan Hernández",
+        "a nombre de Sofía Ramírez",
+        "Carlos López",
+        "Mariana Torres",
+        "familia García"
+      ],
+      "phone": [
+        "55 1234 5678",
+        "5512345678",
+        "mi cel 33 1234 5678",
+        "WhatsApp 81 9876 5432"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "hacer reservación",
+        "apartar lugar",
+        "reservar cuarto",
+        "rentar cancha"
+      ],
+      "appointment_words": [
+        "agendar cita",
+        "sacar cita con el dentista",
+        "cita para corte",
+        "servicio del coche",
+        "revisión"
+      ],
+      "order_words": [
+        "pedir para llevar",
+        "paso a recoger",
+        "apartar producto",
+        "encargar pastel",
+        "pedido a domicilio"
+      ],
+      "change_words": [
+        "cambiar mi cita",
+        "recorrer media hora",
+        "cancelar reservación",
+        "mover para el jueves",
+        "posponer"
+      ],
+      "inquiry_words": [
+        "preguntar hasta qué hora abren",
+        "ver si tienen valet parking",
+        "checar si hay en existencia",
+        "es pet friendly?",
+        "pedir informes"
+      ],
+      "false_friends": [
+        "depto 402",
+        "paquete para 2",
+        "masaje de 60 min",
+        "sucursal Insurgentes 300",
+        "piso 3",
+        "combo 4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Antigua and Barbuda",
+  "name_local": "Antigua and Barbuda",
+  "iso": "ag",
+  "calling_code": "+1-268",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Government of Antigua and Barbuda, Royal Police Force (RPFAB) & ECCB 2025-2026: social-engineering bank phishing/OTP calls, WhatsApp relative and customs parcel impersonation, and ECCU lottery/crypto pyramid scams dominate.",
+  "cross_border_note": "Uses +1-268 within NANP and the ECCU; overseas scammers spoof +1 numbers and hijack local WhatsApp profiles to target residents.",
+  "scams": [
+    {
+      "id": "ag_bank_social_engineering",
+      "typology": "otp_theft",
+      "name": "Bank Account Social-Engineering Vishing & Phishing Link Scam",
+      "name_en": "Fake bank representative creating artificial urgency to capture logins, card details, or OTPs",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "account security breach",
+        "urgent card verification",
+        "online banking login",
+        "fraud prevention officer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read verification code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click urgent link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm account password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "act immediately today",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Social engineer impersonates an Antigua bank warning of dire account consequences unless the victim immediately clicks a link or shares login/OTP details.",
+      "legit_en": "Antigua government cybersecurity guidance and ECCB stress always verifying urgent requests by calling a known bank number independently.",
+      "bait_tactics": [
+        "Tell them you will pause a moment and call the St. John's branch helpline printed on the back of your card.",
+        "Pretend your internet is down and ask them to spell out their department name slowly.",
+        "Ask which branch you visited last month without giving them any personal details."
+      ],
+      "sources": [
+        "https://ab.gov.ag/digitaltransformation/pdf/presentations/2_adam_dennis-cybersecurity_awareness_training.pdf",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    },
+    {
+      "id": "ag_whatsapp_customs_impersonation",
+      "typology": "fake_relative_money",
+      "name": "RPFAB-Warned WhatsApp Impersonation & Customs Parcel Fee Scam",
+      "name_en": "Cloned WhatsApp friend/relative asking for urgent wire or customs barrel clearance money",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "whatsapp message request",
+        "stranded at airport",
+        "customs barrel clearance",
+        "new phone number"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay clearance fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share whatsapp code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transfer to agent",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Message or call from a hijacked WhatsApp account or new number claiming to be a relative needing urgent travel cash or a customs clearance fee wired to a third party.",
+      "legit_en": "RPFAB urges residents to verify any WhatsApp money or customs request via a direct voice call to the contact's known number.",
+      "bait_tactics": [
+        "Ask a personal family question about Antigua that an impersonator would never know.",
+        "Say you will go to Deep Water Harbour or V.C. Bird Airport customs counter yourself.",
+        "Refuse to send any verification code and ring the person's old saved line."
+      ],
+      "sources": [
+        "https://antiguantrumpet.com/2025/11/residents-urged-to-stay-vigilant-as-cybercrime-reports-increase/",
+        "https://ab.gov.ag/digitaltransformation/pdf/presentations/2_adam_dennis-cybersecurity_awareness_training.pdf"
+      ]
+    },
+    {
+      "id": "ag_lottery_crypto_eccb",
+      "typology": "prize_lottery",
+      "name": "ECCB-Warned Lottery Advance-Fee & Unlicensed Crypto Scam",
+      "name_en": "Fake lottery prize demanding upfront payment or unlicensed zero-risk crypto investment club",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "sweepstakes cash winner",
+        "prize release tax",
+        "zero risk crypto",
+        "investment recruitment group"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay upfront fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "guaranteed high returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "convert to crypto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wire processing fee",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the victim won an overseas lottery requiring a tax/fee wire, or pitches an unlicensed high-return crypto recruitment programme.",
+      "legit_en": "ECCB advises checking ECSRC licensing before any investment and never paying upfront fees to claim prizes.",
+      "bait_tactics": [
+        "Ask for their ECSRC licence status and official St. John's registered office.",
+        "Suggest they deduct the processing charge straight from the prize money.",
+        "Pretend you need time to find a calculator and ask them to explain the fee breakdown again."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    }
+  ]
+}

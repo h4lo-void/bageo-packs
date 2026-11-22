@@ -167,6 +167,54 @@
         "https://gosstandart.gov.by/mvd-belarusi-%E2%80%93-ob-aktualnykh-sposobakh-soversheniya-kiberprestupleniy",
         "https://neg.by/novosti/otkrytj/ot-zvonkov-iz-banka-do-nfc-moshennichestva-kakie-skhemy-ispolzuyut-aferisty-v-belarusi-v-2026-godu/"
       ]
+    },
+    {
+      "id": "by_be_ilzhyvy_bank_sledchy",
+      "typology": "fake_official",
+      "name": "Ілжывы супрацоўнік банка ці Следчага камітэта («бяспечны рахунак»)",
+      "name_en": "Fake bank security or Investigative Committee officer demanding transfer to a safe account",
+      "prevalence": "very_high",
+      "lang": "be",
+      "context_keywords": [
+        "служба бяспекі банка",
+        "Следчы камітэт",
+        "Нацыянальны банк",
+        "падазроная заяўка",
+        "афармленне крэдыту"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "бяспечны банкаўскі рахунак",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "назавіце код з СМС",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "дэклараванне наяўных грошай",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "нікому не расказвайце",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in Belarusian or mixed speech poses as bank security, the National Bank, or the Investigative Committee via Viber, WhatsApp, or spoofed phone call, claiming criminals applied for a loan in the victim's name and urging an immediate counter-loan...",
+      "legit_en": "Belarusian banks, the National Bank, and law-enforcement officers never call via messengers, ask for SMS codes or card details, or instruct citizens to take counter-loans or move funds to safe accounts.",
+      "bait_tactics": [
+        "Скажыце ўсхвалявана, што акуляры засталіся ў іншым пакоі, і папрасіце павольна паўтарыць назву аддзела і парадак праверкі рахунку",
+        "Прыкіньцеся, што інтэрнэт на тэлефоне ледзь працуе, а праграма банка доўга загружаецца, распытваючы пра ўмовы бяспечнага рахунку",
+        "Спытайце, ці можна падысці асабіста ў найбліжэйшае аддзяленне банка з пашпартам пасля абеду, каб аформіць усё на паперы"
+      ],
+      "sources": [
+        "https://mvd.gov.by/",
+        "https://rcfnew.nbrb.by/NBRBApplications"
+      ]
     }
   ]
 }

@@ -170,6 +170,55 @@
         "https://tele2.ee/uudised/petukoned-labi-uute-lahenduste",
         "https://www.ria.ee/pettustelaviini-kahju-29-miljonit"
       ]
+    },
+    {
+      "id": "ee_ru_lzhepolitsiya_smart_id",
+      "typology": "fake_official",
+      "name": "Лжеполиция и служба безопасности банка (подтверждение Smart-ID и курьер)",
+      "name_en": "Russian-language fake Estonian police and bank security demanding Smart-ID PINs or cash handover",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "Департамент полиции",
+        "служба безопасности банка",
+        "подозрительный перевод",
+        "проверка счета",
+        "Smart-ID"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "подтвердите через Smart-ID",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "переведите на безопасный счет",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "передайте наличные курьеру",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "секретная операция полиции",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Russian-speaking caller impersonates the Estonian Police and Border Guard Board (PPA), Omniva, or a local bank, claiming fraudulent activity on the victim's account and demanding Smart-ID PIN1/PIN2 entry, cash deposit via parcel locker or courier...",
+      "legit_en": "Estonian police, banks, and state agencies never conduct phone operations demanding immediate Smart-ID PIN1/PIN2 confirmation, secrecy from relatives, or cash handovers to couriers.",
+      "bait_tactics": [
+        "Скажите, что телефон разряжается и вы ищете зарядное устройство в коридоре, прося подробно объяснить процедуру отмены заявки",
+        "Пожалуйтесь, что окно подтверждения на экране не появляется, и попросите собеседника подождать пару минут, пока вы перезагружаете телефон",
+        "Предложите перейти на эстонский язык или встретиться лично в ближайшем бюро обслуживания полиции, расспрашивая адрес отделения"
+      ],
+      "sources": [
+        "https://www.politsei.ee/ru/instruktsii/zashchitite-sebya-ot-moshennikov",
+        "https://www.itvaatlik.ee/levinud-pettused/",
+        "https://www.ria.ee/blogi/eestis-levivad-politsei-nimel-saadetud-petukirjad"
+      ]
     }
   ]
 }

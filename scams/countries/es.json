@@ -7,7 +7,7 @@
     "es"
   ],
   "prevalence_note": "INCIBE, OCU & Hiya: Double-call electricity/gas supplier switching & fake cut-off threats (Endesa/Iberdrola/CUPS), fake bank 'cuenta segura' & reverse-Bizum fraud, and InfoJobs/WhatsApp task job scams lead reports.",
-  "cross_border_note": "",
+  "cross_border_note": "Under Ministerio para la Transformación Digital anti-spoofing orders (Orden TDF/149/2025 and Orden TDF/558/2026), carriers block commercial calls from unallocated numbers, international inbound calls spoofing Spanish (+34) fixed/mobile CLI (except verified roaming), and unregistered SMS aliases; offshore vishing centers pivot to foreign prefixes and WhatsApp.",
   "scams": [
     {
       "id": "es_electricidad_cups",
@@ -42,10 +42,10 @@
         "Equivocarse leyendo números del recibo y pedir que expliquen despacio cómo funciona el tramo horario"
       ],
       "sources": [
-        "INCIBE",
-        "OCU",
-        "CNMC",
-        "Hiya"
+        "https://www.incibe.es/ciudadania/tematicas/ingenieria-social-fraudes-online/vishing",
+        "https://www.ocu.org/vivienda-y-energia/gas-luz/noticias/denuncia-llamadas-consultoria-energetica",
+        "https://blog.cnmc.es/2017/03/15/te-han-cambiado-de-compania-de-energia-electrica-o-gas-sin-tu-permiso-vias-para-reclamar/",
+        "https://digital.gob.es/telecomunicaciones-infraestructuras-digitales/servicios/numeracion/Medidas-suplatantacion-identidad-tlf-sms"
       ]
     },
     {
@@ -80,8 +80,8 @@
         "Preguntar despacio qué diferencia hay entre enviar y recibir en Bizum porque no encuentra las gafas"
       ],
       "sources": [
-        "INCIBE",
-        "Banco de España"
+        "https://www.incibe.es/ciudadania/tematicas/ingenieria-social-fraudes-online/vishing",
+        "https://clientebancario.bde.es/pcb/es/menu-horizontal/actualidadeducac/educacion-financiera/protegete-contra-el-fraude/"
       ]
     },
     {
@@ -91,7 +91,12 @@
       "name_en": "Fake tech support with remote control",
       "prevalence": "medium",
       "lang": "es",
-      "context_keywords": [],
+      "context_keywords": [
+        "soporte microsoft",
+        "ordenador infectado",
+        "licencia windows",
+        "alerta de virus"
+      ],
       "red_flag_keywords": [
         {
           "text": "programa de control remoto",
@@ -111,7 +116,7 @@
         "Preguntar qué mensaje de error han recibido"
       ],
       "sources": [
-        "INCIBE"
+        "https://www.incibe.es/ciudadania/tematicas/ingenieria-social-fraudes-online/vishing"
       ]
     }
   ]

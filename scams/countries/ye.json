@@ -1,0 +1,158 @@
+{
+  "name": "Yemen",
+  "name_local": "اليمن",
+  "iso": "ye",
+  "calling_code": "+967",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "Central Bank of Yemen (CBY) & Yemeni banking/e-wallet sector (Kuraimi Jawal, Jawali, Floosak) 2025-2026: fake exchange-house or mobile-wallet staff stealing activation OTPs, fake humanitarian cash-aid release fees, and bogus telecom/merchant prize calls dominate.",
+  "cross_border_note": "Fraudsters use both local +967 SIMs and foreign WhatsApp numbers spoofing Yemeni remittance networks, UN humanitarian agencies, and Gulf-based relatives.",
+  "scams": [
+    {
+      "id": "ye_wallet_kuraimi_otp",
+      "typology": "otp_theft",
+      "name": "انتحال موظفي بنك الكريمي أو المحافظ الإلكترونية (جوالي / فلوسك) لسرقة رمز التفعيل",
+      "name_en": "Fake Kuraimi Jawal, Jawali or Floosak wallet support stealing verification codes",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "كريمي جوال",
+        "محفظة جوالي",
+        "محفظة فلوسك",
+        "شركة صرافة",
+        "تحديث بيانات المحفظة"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "كود تفعيل المحفظة",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "سيتم إيقاف حسابك",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرسل الرقم السري",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller claims to represent Al-Kuraimi Bank (Kuraimi Jawal) or a mobile wallet (Jawali, Floosak, M-Floos) warning the wallet will be suspended unless the customer reads out the SMS verification/activation code.",
+      "legit_en": "Licensed Yemeni banks, exchange firms, and e-wallet operators never ask customers by phone or WhatsApp for activation codes or PINs.",
+      "bait_tactics": [
+        "أخبره بأن تغطية الشبكة ضعيفة في منطقتك وأن رسالة التفعيل لم تصل بعد.",
+        "اسأله عن موقع الفرع الرئيسي في محافظتك وقل إنك ستزور نقطة الخدمة شخصياً لتحديث البيانات.",
+        "تظاهر بأن الهاتف قديم ولا يفتح الرسائل النصية أثناء المكالمة الصوتية."
+      ],
+      "sources": [
+        "https://cby-ye.com/files/65fe1e8d2ec08.pdf",
+        "https://kuraimibank.com/ar/faqs",
+        "https://www.yk-bank.com/ar/information-security-policy"
+      ]
+    },
+    {
+      "id": "ye_humanitarian_remittance_fee",
+      "typology": "fake_official",
+      "name": "احتيال المساعدات الإنسانية الوهمية ورسوم صرف الحوالات المالية",
+      "name_en": "Fake humanitarian cash-aid registration or remittance release-fee scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "مساعدة نقدية طارئة",
+        "منظمة إنسانية",
+        "حوالة مالية معلقة",
+        "صرف سلة غذائية"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "دفع رسوم الصرف",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "تحويل عمولة التفعيل",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "أرسل كود الحوالة",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "رابط تسجيل المساعدات",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the recipient was selected for an urgent humanitarian cash grant or has an incoming foreign remittance on hold, demanding an upfront fee via e-wallet or an SMS verification code to release the funds.",
+      "legit_en": "Real humanitarian distributions and CBY-regulated remittance payouts never charge advance wallet fees by phone to release aid.",
+      "bait_tactics": [
+        "اطلب منه اسم المنظمة الكامل وموقع المكتب الميداني في المديرية لمراجعتهم حضورياً.",
+        "تظاهر بأنك تبحث عن البطاقة الشخصية في الدرج واطلب منه إعادة شرح شروط الصرف ببطء.",
+        "اسأله لماذا لا تُخصم الرسوم تلقائياً من مبلغ الحوالة بدلاً من إرسال مبلغ مسبق."
+      ],
+      "sources": [
+        "https://cby-ye.com/files/65fe1e8d2ec08.pdf",
+        "https://www.ypagency.net/863123",
+        "https://cby-ye.com/news/938"
+      ]
+    },
+    {
+      "id": "ye_fake_prize_investment",
+      "typology": "prize_lottery",
+      "name": "احتيال الجوائز الوهمية وشركات الاستثمار والتسويق الشبكي غير المرخصة",
+      "name_en": "Fake telecom/merchant cash prize or unlicensed pyramid investment solicitation",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "ربحت جائزة مالية",
+        "مسابقة شهر رمضان",
+        "استثمار بأرباح مضمونة",
+        "شركة تداول"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رسوم استلام الجائزة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرباح كبيرة مضمونة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تحويل مبلغ الاشتراك",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرسل رمز التأكيد",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller congratulates the user on winning a telecom/bank cash prize requiring an upfront fee or OTP, or pitches high-return unlicensed network/investment entities flagged by the Central Bank of Yemen.",
+      "legit_en": "CBY explicitly warns citizens and e-wallets against unlicensed investment schemes, and legitimate contests never demand advance transfer fees or wallet codes.",
+      "bait_tactics": [
+        "تظاهر بالفرح الشديد واسأله بالتفصيل متى وأين اشتركت في هذه المسابقة أصلاً.",
+        "اطلب تفاصيل الترخيص الصادر من البنك المركزي اليمني للتحقق منه عبر القنوات الرسمية.",
+        "قل إن رصيد محفظتك صفر حالياً واسأله إن كان بإمكانه إرسال الجائزة أولاً."
+      ],
+      "sources": [
+        "https://www.ypagency.net/863123",
+        "https://www.cby-ye.com/news/169",
+        "https://cby-ye.com/files/65fe1e8d2ec08.pdf"
+      ]
+    }
+  ]
+}

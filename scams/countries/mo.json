@@ -180,6 +180,56 @@
         "https://www.gov.mo/zh-hant/news/1220078/",
         "https://www.adcc.gov.hk/zh-hk/home.html"
       ]
+    },
+    {
+      "id": "mo_en_pj_immigration_scam",
+      "typology": "fake_official",
+      "name": "Fake Macao Judiciary Police / Immigration / CTT English Scam",
+      "name_en": "English-language fake Macao Judiciary Police, Immigration or CTT telecom-suspension scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "judiciary police",
+        "macao immigration",
+        "public security police",
+        "macao post",
+        "sim card misuse"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "online video interrogation",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "fund audit transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bail deposit transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "screen sharing verification",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Targets English-speaking residents, hospitality workers, and students in Macao using spoofed local numbers; impersonates the Judiciary Police (PJ), Public Security Police Immigration Department...",
+      "legit_en": "Macao Judiciary Police, Public Security Police, and local government bureaus never conduct 'online or video case handling', never route calls to outside police agencies, and never request bank transfers, bail deposits, or screen sharing.",
+      "bait_tactics": [
+        "Sorry, the signal inside this hotel corridor is very weak—could you repeat your bureau name and office street slowly?",
+        "Hold on, I don't have my Macao ID or bank card on me right now; let me walk over to the Judiciary Police office in person after my shift.",
+        "Before I check anything, let me pause a moment and verify first through the official Judiciary Police Anti-Fraud Enquiry Hotline."
+      ],
+      "sources": [
+        "https://www.pj.gov.mo/Web/Policia/crime05.html",
+        "https://www.gov.mo/zh-hant/news/1147203/",
+        "https://www.gov.mo/en/news/391923/",
+        "https://www.gov.mo/en/news/407256/"
+      ]
     }
   ]
 }

@@ -9,17 +9,24 @@
     "ms",
     "ta"
   ],
-  "prevalence_note": "Singapore 2025-2026 warnings: government Officials Impersonation Scam; fake Friend Lost Phone Urgent Transfer Scam; tech Support Compromised Device Remote Access Scam; investment Learning Community and Stock Mentor Scam.",
-  "cross_border_note": "Many calls come from abroad in English or Mandarin with spoofed local numbers.",
+  "prevalence_note": "ScamShield, SPF & MAS 2025-2026: SPF/MAS/ICA/MinLaw government official impersonation (English & Mandarin), fake WeChat/Alipay/UnionPay '百万保障' subscription screen-sharing scams, 'fake friend' PayNow calls, Singpass/WhatsApp remote-access tech support, and stock mentor chat groups dominate.",
+  "cross_border_note": "Overseas scam syndicates call in English, Mandarin, Malay, and Tamil using foreign prefixes, SIM-box local numbers, or WhatsApp video calls; under IMDA anti-scam directives, Singapore telcos block or prepend '+65' to unauthenticated international calls spoofing local Singapore numbers.",
   "scams": [
     {
       "id": "sg_govt_official_impersonation",
       "typology": "fake_official",
-      "name": "Government Officials Impersonation Scam",
-      "name_en": "Government Officials Impersonation Scam",
+      "name": "Government Officials Impersonation Scam (SPF / MAS / ICA / MinLaw)",
+      "name_en": "Fake SPF, MAS, ICA, or MinLaw official accusing recipient of money laundering",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
+        "spf",
+        "mas",
+        "minlaw",
+        "ica",
+        "singpass",
+        "paynow",
+        "imda",
         "monetary authority",
         "money laundering",
         "criminal investigation",
@@ -37,38 +44,138 @@
           "hard": false
         },
         {
-          "text": "hand over cash or gold",
+          "text": "hand over cash",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "show bank card on video",
+          "text": "show card on video",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "The caller claims to be from a local bank, police force, or financial regulator, accusing the recipient of involvement in money laundering or identity misuse.",
-      "legit_en": "Singapore government officials never ask members of the public to transfer money over a phone call, disclose banking or national digital identity credentials, install unofficial apps, or transfer calls directly to police.",
+      "signals_en": "Caller claims to represent a Singapore bank, SPF, MAS, MinLaw, ICA, or IMDA, accusing the recipient of money laundering or Singpass/SIM misuse and demanding transfers via PayNow or cash/gold handover for investigation.",
+      "legit_en": "Singapore government officials (SPF, MAS, MinLaw, ICA) never ask the public to transfer money over a phone call, disclose Singpass or banking credentials, install unofficial apps, or transfer bank calls directly to police.",
       "bait_tactics": [
-        "Sorry ah, I'm on the underground train right now and the line keeps cutting off—can you repeat your department name slowly?",
-        "Hold on, my bank account has the money lock feature turned on so I cannot transfer anything by phone anyway; let me check at the branch later.",
-        "I don't have my identity card with me right now, maybe I call back through the official government hotline when I reach home?"
+        "Sorry ah, I'm on the MRT underground right now and the line keeps cutting off—can you repeat your division name slowly?",
+        "Hold on, my bank account has the Money Lock feature turned on so I cannot transfer anything by phone anyway; let me check at the branch later.",
+        "I don't have my IC with me right now, maybe I call back through the official ScamShield helpline when I reach home?"
       ],
       "sources": [
         "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/",
-        "https://www.police.gov.sg/-/media/SPF/Advisories/Scams/Annual-Scam-and-Cybercrime-Brief-2025.pdf"
+        "https://www.police.gov.sg/media-hub/news/2025/04/20250404_joint_advisory_on_impersonation_scams_involving_chinese_messaging_and_payment_platforms"
+      ]
+    },
+    {
+      "id": "sg_zh_fake_official_police",
+      "typology": "fake_official",
+      "name": "假冒新加坡警察部队（SPF）／金管局（MAS）／移民局华语诈骗",
+      "name_en": "Mandarin-language fake SPF, MAS, MinLaw, or ICA official demanding safe-account audit",
+      "prevalence": "very_high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "新加坡警察部队",
+        "金融管理局",
+        "移民与关卡局",
+        "律政部",
+        "涉嫌洗黑钱",
+        "名下电话卡异常"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "转入安全账户",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "视频做笔录",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "签署保密令",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "交出银行现金",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Mandarin-speaking caller poses as SPF, MAS, MinLaw, ICA, or Mainland police claiming a bank card or mobile line under the victim's name is tied to cross-border money laundering, demanding video interrogation, secrecy, or transfers to a 'safety account'.",
+      "legit_en": "Singapore government officers never conduct Mandarin WhatsApp video interrogations, show warrant badges over chat apps, or demand fund transfers for asset clearance.",
+      "bait_tactics": [
+        "不好意思啊，我现在在地铁隧道里面信号断断续续听不清楚，你可以慢慢重念一次部门名称吗？",
+        "等一下，我的储蓄户口已经开了银行锁钱功能，手机上根本转不出钱，不如我下班亲自去邻里警局问清楚。",
+        "我现在人在巴刹买菜没带老花眼镜，看不清手机画面，你先等我慢慢走回家再说。"
+      ],
+      "sources": [
+        "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/",
+        "https://www.police.gov.sg/media-hub/news/2025/04/20250404_joint_advisory_on_impersonation_scams_involving_chinese_messaging_and_payment_platforms"
+      ]
+    },
+    {
+      "id": "sg_zh_wechat_million_insurance",
+      "typology": "fake_shop_order_error",
+      "name": "假冒微信／支付宝／银联客服取消「百万保障」屏幕共享诈骗",
+      "name_en": "Mandarin fake WeChat, Alipay, or UnionPay 'Million-Dollar Guarantee' cancellation & screen-sharing scam",
+      "prevalence": "very_high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "微信客服",
+        "支付宝客服",
+        "百万保障",
+        "银联保险",
+        "每月自动扣费",
+        "免费保障到期"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "开启屏幕共享",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "转账取消保障",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "登录手机银行",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "转接金管局官员",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in Mandarin poses as WeChat, Alipay, or UnionPay support claiming a '百万保障' (Million-Dollar Guarantee) policy is expiring and will deduct monthly fees unless canceled via WhatsApp screen sharing, online banking login, or fake MAS video verification.",
+      "legit_en": "WeChat, Alipay, and UnionPay never phone Singapore residents to cancel '百万保障', ask for WhatsApp screen sharing, or transfer calls to MAS officials.",
+      "bait_tactics": [
+        "奇怪咧，我的微信根本没有绑定任何新加坡银行卡，它要从哪里扣钱？你帮我查清楚是哪家银行先。",
+        "我的手机银行刚才密码按错几次锁住了，屏幕一直在转圈圈，要不我自己去分行柜台问一下？",
+        "我不会弄那个屏幕共享按钮，等我孙子晚上放学回来帮我看一下手机好吗？"
+      ],
+      "sources": [
+        "https://www.police.gov.sg/media-hub/news/2025/04/20250404_joint_advisory_on_impersonation_scams_involving_chinese_messaging_and_payment_platforms",
+        "https://www.police.gov.sg/media-hub/news/2025/10/20251022_joint_advisory_on_scams_involving_the_impersonation_of_representatives_from_alipay",
+        "https://www.police.gov.sg/media-hub/news/2025/06/20250626_police_advisory_on_impersonation_scams_involving_the_whatsapp_screen"
       ]
     },
     {
       "id": "sg_fake_friend_call",
       "typology": "guess_who",
-      "name": "Fake Friend Call Scam",
-      "name_en": "Fake Friend Lost Phone Urgent Transfer Scam",
+      "name": "Fake Friend Call & Urgent PayNow Scam",
+      "name_en": "Fake friend with lost phone asking recipient to guess their voice and PayNow money urgently",
       "prevalence": "high",
       "lang": "en",
       "context_keywords": [
         "guess who",
         "changed my number",
+        "paynow",
         "renovation deposit",
         "pay supplier",
         "urgent favour"
@@ -80,33 +187,40 @@
           "hard": false
         },
         {
-          "text": "transfer to this third-party account",
+          "text": "transfer to third-party account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urgent paynow transfer",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "An unknown caller warmly asks if the recipient recognizes their voice, claiming they lost their mobile phone and switched numbers.",
-      "legit_en": "Real friends, relatives, and business contacts should always be verified by calling their previously saved phone number directly or meeting in person, and they will not demand urgent transfers to unfamiliar third-party bank accounts.",
+      "signals_en": "An unknown caller warmly asks if the recipient recognizes their voice, claiming they lost their mobile phone and switched numbers before asking for an urgent PayNow transfer to a third-party account.",
+      "legit_en": "Real friends, relatives, and business contacts should always be verified by calling their previously saved phone number directly, and they will not demand urgent PayNow transfers to unfamiliar third-party accounts.",
       "bait_tactics": [
-        "Wait ah, your voice sounds quite different today—which primary school or office did we know each other from?",
-        "My daily transfer limit is set super low and my token is at home, so I really cannot send anything right now."
+        "Wait ah, your voice sounds quite different today—which primary school or reservist unit did we know each other from?",
+        "My daily PayNow limit is set super low and my hardware token is at home, so I really cannot send anything right now."
       ],
       "sources": [
         "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/fake-friend-call-scams/",
-        "https://www.police.gov.sg/media-hub/news/2026/04/20260424_police_advisory_resurgence_of_fake_friend_call_scams"
+        "https://www.police.gov.sg/media-hub/news/2026/10/20261021_police_advisory_on_social_media_impersonation_scams"
       ]
     },
     {
       "id": "sg_tech_support_remote",
       "typology": "tech_support_remote",
-      "name": "Tech Support Remote Access Scam",
-      "name_en": "Tech Support Compromised Device Remote Access Scam",
+      "name": "Tech Support & WhatsApp Screen-Sharing Remote Access Scam",
+      "name_en": "Tech support or platform security caller requesting remote access, Singpass, or digital token approval",
       "prevalence": "high",
       "lang": "en",
       "context_keywords": [
         "security alert",
         "device compromised",
         "virus infection",
+        "singpass",
+        "whatsapp screen share",
         "install firewall"
       ],
       "red_flag_keywords": [
@@ -126,23 +240,23 @@
           "hard": false
         }
       ],
-      "signals_en": "Posing as software or security helpdesk staff, the caller claims the recipient's computer or phone has been hacked or infected with malware.",
-      "legit_en": "Reputable technology companies and banks never make unsolicited calls offering virus removal, never ask users to install remote-control software, and never ask customers to approve banking token prompts during support calls.",
+      "signals_en": "Posing as software, bank, or Singpass helpdesk staff, the caller claims the recipient's computer or phone is compromised and asks for remote access, WhatsApp screen sharing, or digital token approval.",
+      "legit_en": "Reputable technology companies, Singpass, and Singapore banks never make unsolicited virus-removal calls, ask for screen sharing, or instruct customers to approve digital banking tokens.",
       "bait_tactics": [
         "Oh, this laptop belongs to my company IT department and blocks all downloads without an administrator password.",
-        "My home broadband just dropped connection so the browser won't load anything—let me bring the device to the service centre tomorrow.",
-        "Why would fixing a computer virus need me to open my bank app? Wait ah, let me ask my nephew who works in IT first."
+        "My home fibre broadband just dropped connection so the browser won't load anything—let me bring the device to the service centre tomorrow.",
+        "Why would fixing a computer alert need me to open my bank app? Wait ah, let me ask my nephew who works in IT first."
       ],
       "sources": [
         "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/tech-support-scams/",
-        "https://www.police.gov.sg/media-hub/news/2026/06/20260609_joint_advisory_on_technical_support_scams_involving_the_impersonation_of_microsoft"
+        "https://www.police.gov.sg/media-hub/news/2025/06/20250626_police_advisory_on_impersonation_scams_involving_the_whatsapp_screen"
       ]
     },
     {
       "id": "sg_investment_mentor_group",
       "typology": "investment_group_scam",
       "name": "Investment Chat Group Mentor Scam",
-      "name_en": "Investment Learning Community and Stock Mentor Scam",
+      "name_en": "Investment learning community and stock mentor chat group scam",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
@@ -173,15 +287,108 @@
           "hard": false
         }
       ],
-      "signals_en": "Following up on online ads or unsolicited outreach, the caller claims to represent a renowned university seminar or brokerage mentor group offering free stock tips.",
-      "legit_en": "Licensed financial institutions in Singapore are regulated on official directories, never guarantee risk-free investment returns over unsolicited calls or chat groups, and never ask clients to wire funds to personal accounts.",
+      "signals_en": "Following up on online ads or unsolicited outreach, the caller claims to represent a brokerage mentor group offering guaranteed stock allocations via an exclusive app and PayNow deposits.",
+      "legit_en": "MAS-licensed financial institutions in Singapore are verifiable on the MAS Financial Institutions Directory, never guarantee risk-free returns, and never ask clients to wire investment funds to personal accounts.",
       "bait_tactics": [
-        "Sounds interesting, can you give me your representative licence number first so I can look it up on the official regulator register?",
-        "I'm outside having lunch now and don't click links from unknown numbers—just mail your prospectus to my office.",
-        "All my savings are tied up in fixed deposits right now, so I have zero spare cash to open any new trading account."
+        "Sounds interesting, can you spell out your MAS representative licence details slowly so I can check the MAS Financial Institutions Directory first?",
+        "All my savings are tied up in CPF and fixed deposits right now, so I have zero spare cash to open any new trading account."
       ],
       "sources": [
-        "https://www.police.gov.sg/docs/spf/SPF/Media-Room/Statistics/Mid-Year-Scam-and-Cybercrime-Brief-2026/Mid-Year-Scam-and-Cybercrime-Brief-2026.pdf",
+        "https://www.scamshield.gov.sg/",
+        "https://www.police.gov.sg/media-hub/news/2026/10/20261021_police_advisory_on_social_media_impersonation_scams"
+      ]
+    },
+    {
+      "id": "sg_ms_pegawai_kerajaan_paynow",
+      "typology": "fake_official",
+      "name": "Penipuan Menyamar Pegawai SPF / MAS / Singpass & PayNow",
+      "name_en": "Malay-language fake SPF, MAS, or Singpass official demanding safe-account PayNow transfer",
+      "prevalence": "high",
+      "lang": "ms",
+      "context_keywords": [
+        "pasukan polis singapura",
+        "penguasa kewangan",
+        "akaun singpass",
+        "pengubahan wang haram",
+        "akaun bank dibekukan"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pindah ke akaun selamat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "kongsi skrin whatsapp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "luluskan token digital",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bayar melalui paynow",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Malay-speaking caller poses as SPF, MAS, or bank security claiming the resident's Singpass or bank account was misused, pressuring them to share their screen or transfer savings via PayNow to a 'safe account'.",
+      "legit_en": "SPF, MAS, and Singapore banks never instruct Malay-speaking residents to transfer money to a safe account, share Singpass OTPs, or turn on WhatsApp screen sharing.",
+      "bait_tactics": [
+        "Maaf encik, isyarat telefon dalam lif blok HDB saya ni putus-putus, boleh ulang nama jabatan perlahan-lahan?",
+        "Akaun simpanan saya sudah dikunci dengan ciri Money Lock, jadi saya akan semak sendiri di cawangan bank esok pagi."
+      ],
+      "sources": [
+        "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/",
+        "https://www.scamshield.gov.sg/"
+      ]
+    },
+    {
+      "id": "sg_ta_spf_mas_singpass",
+      "typology": "fake_official",
+      "name": "சிங்கப்பூர் காவல்துறை / MAS / Singpass அதிகாரி போல் நடிக்கும் மோசடி",
+      "name_en": "Tamil-language fake SPF, MAS, or Singpass official demanding safe-account transfer",
+      "prevalence": "high",
+      "lang": "ta",
+      "context_keywords": [
+        "சிங்கப்பூர் காவல்துறை",
+        "நாணய ஆணையம்",
+        "சிங்பாஸ் கணக்கு",
+        "பணமோசடி விசாரணை",
+        "வங்கி கணக்கு முடக்கம்"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "பாதுகாப்பான கணக்கிற்கு மாற்றவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "வாட்ஸ்அப் திரை பகிர்வு",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "டிஜிட்டல் டோக்கன் ஒப்புதல்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ஒருமுறை கடவுச்சொல் சொல்லவும்",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Tamil-speaking caller impersonates SPF, MAS, or a local Singapore bank alleging identity misuse or money laundering and demanding digital-token approval, WhatsApp screen sharing, or transfer to a safe account.",
+      "legit_en": "Singapore police, MAS, and local banks never ask residents over the phone for Singpass OTPs, banking token approvals, or transfers to external safe accounts.",
+      "bait_tactics": [
+        "மன்னிக்கவும், இப்போது ரயிலில் செல்வதால் இணைப்பு சரியாகக் கேட்கவில்லை, உங்கள் துறை பெயரை மெதுவாகச் சொல்ல முடியுமா?",
+        "என் வங்கி கணக்கில் பணப் பாதுகாப்பு பூட்டு உள்ளது, நான் நேரில் வங்கி கிளைக்குச் சென்று சரிபார்த்துக் கொள்கிறேன்."
+      ],
+      "sources": [
+        "https://www.scamshield.gov.sg/i-want-protection-from-scams/learn-to-recognise-scams/government-officials-impersonation-scams/",
         "https://www.scamshield.gov.sg/"
       ]
     }

@@ -6,110 +6,167 @@
   "languages": [
     "en"
   ],
-  "prevalence_note": "Scamwatch and ATO 2025-2026: fake ATO / myGov arrest threats, fake bank fraud teams asking for NetCodes and moves to a 'safe account', and fake toll or parcel fee calls dominate.",
-  "cross_border_note": "",
+  "prevalence_note": "NASC Scamwatch, ATO & ACMA 2025-2026: fake ATO / myGov arrest-warrant & TFN compromise calls, Big Four bank (CommBank, NAB, ANZ, Westpac) NetCode / PayID 'safe account' impersonation, Linkt toll notices, NBN/Telstra remote-access scams, and urgent family new-number scams dominate.",
+  "cross_border_note": "Offshore scam syndicates routinely spoof +61 Australian mobile and local landline CLI numbers via international VoIP gateways to impersonate banks, the ATO, Telstra, or NBN; under the ACMA Reducing Scam Calls and Scam SMs Industry Code (C661:2022), Australian telcos actively trace and block billions of spoofed international calls and SMS messages.",
   "scams": [
     {
       "id": "au_ato_mygov",
       "typology": "fake_official",
-      "name": "Fake ATO / myGov (arrest warrant, holding account)",
-      "name_en": "Fake Australian Taxation Office or myGov caller threatening arrest over a tax debt",
+      "name": "Fake ATO / myGov Arrest Warrant & Holding Account Scam",
+      "name_en": "Fake Australian Taxation Office or myGov caller threatening arrest over a tax debt or compromised TFN",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
         "australian taxation office",
-        "mygov"
+        "mygov",
+        "tax file number",
+        "myid",
+        "notice of assessment"
       ],
       "red_flag_keywords": [
         {
           "text": "federal holding account",
           "weight": 2,
           "hard": true
+        },
+        {
+          "text": "ato arrest warrant",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "compromised tax file number",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay tax in crypto",
+          "weight": 2,
+          "hard": true
         }
       ],
-      "signals_en": "Poses as the ATO or myGov saying the owner owes tax or their tax file number is compromised, threatening arrest unless money moves to a 'federal holding account' or is paid by gift cards or crypto.",
-      "legit_en": "The real ATO never threatens arrest on the phone or asks for gift cards, crypto or transfers to a holding account; it sends letters and myGov messages.",
+      "signals_en": "Poses as the ATO or myGov claiming an unpaid tax debt, crypto audit penalty, or compromised Tax File Number (TFN), threatening immediate arrest unless funds are moved to a 'federal holding account' or paid via gift cards or cryptocurrency.",
+      "legit_en": "The real ATO and myGov never threaten arrest on the phone, never send unsolicited login links, and never ask for gift cards, cryptocurrency, or transfers to a personal or 'holding' account.",
       "bait_tactics": [
-        "Sound worried and ask which tax return it is about while you look for your old paperwork",
-        "Ask them to spell the officer's name and the reference number slowly so you can write it down"
+        "Sound worried and ask which financial year's tax return is affected while pretending to look through a filing cabinet for old notices",
+        "Ask the caller to spell their section name slowly and say your myGov passkey is on another device at home"
       ],
       "sources": [
-        "Scamwatch",
-        "Australian Taxation Office"
+        "https://www.ato.gov.au/online-services/scams-cyber-safety-and-identity-protection/scam-alerts",
+        "https://www.scamwatch.gov.au/types-of-scams",
+        "https://www.scamwatch.gov.au/report-a-scam"
       ]
     },
     {
       "id": "au_bank_netcode_safe_account",
       "typology": "fake_bank_account_alert",
-      "name": "Fake bank fraud team (NetCode, safe account)",
-      "name_en": "Fake bank fraud team asking for a NetCode and a move to a safe account",
+      "name": "Fake Australian Bank Fraud Team (NetCode, PayID & Safe Account)",
+      "name_en": "Fake CommBank, NAB, ANZ, or Westpac fraud team asking for NetCodes, PayID setup, or safe-account transfers",
       "prevalence": "high",
       "lang": "en",
       "context_keywords": [
-        "commbank"
+        "commbank",
+        "nab",
+        "anz",
+        "westpac",
+        "payid",
+        "netcode"
       ],
       "red_flag_keywords": [
         {
-          "text": "netcode",
+          "text": "read out netcode",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "move to safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "register new payid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share security code",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Poses as a bank's fraud team about suspicious charges, asks the owner to read out the NetCode or one-time code just sent, set up a new PayID or move savings to a 'safe account'.",
-      "legit_en": "Real Australian banks may call about a card but never ask for NetCodes or one-time codes, new PayIDs or moving money to another account.",
+      "signals_en": "Caller spoofing CommBank, NAB, ANZ, or Westpac fraud departments warns of suspicious transactions and pressures the owner to read out an SMS NetCode or one-time security code, link a new PayID, or transfer savings to a 'safe account'.",
+      "legit_en": "Genuine Australian banks verify callers via in-app notifications (such as CommBank CallerCheck) and never ask customers to share NetCodes or one-time codes, register an external PayID, or move money to a 'safe account'.",
       "bait_tactics": [
-        "Say the phone is slow to show messages and ask them to explain again what the code is for",
-        "Ask slowly which charges they mean and when they happened while you find your statement"
+        "Say mobile reception in your back room is poor so no SMS code has arrived yet, and ask them to send an in-app verification prompt instead",
+        "Slowly ask which merchant and suburb the suspicious card charge came from while pretending to hunt for your reading glasses"
       ],
       "sources": [
-        "Scamwatch",
-        "CommBank"
+        "https://www.commbank.com.au/support/security.html",
+        "https://www.scamwatch.gov.au/types-of-scams",
+        "https://www.acma.gov.au/phone-and-sms-scams"
       ]
     },
     {
       "id": "au_linkt_toll",
       "typology": "fake_utility",
-      "name": "Fake Linkt overdue toll",
-      "name_en": "Fake Linkt toll call about an overdue toll notice",
+      "name": "Fake Linkt Overdue Motorway Toll Scam",
+      "name_en": "Fake Linkt toll call or follow-up demanding immediate card payment for an overdue toll notice",
       "prevalence": "medium",
       "lang": "en",
       "context_keywords": [
-        "linkt"
+        "linkt",
+        "toll notice",
+        "motorway toll",
+        "tag account"
       ],
       "red_flag_keywords": [
         {
           "text": "overdue toll notice",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "pay toll by card",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urgent toll penalty link",
+          "weight": 2,
+          "hard": false
         }
       ],
-      "signals_en": "Says the owner has an overdue toll and faces a fine unless they pay now through a link or by card over the phone.",
-      "legit_en": "Real toll operators send notices by mail or through the owner's account and do not demand card details on an unexpected call.",
+      "signals_en": "Claims the owner has an overdue Linkt motorway toll balance and faces enforcement fines or account suspension unless paid immediately through an SMS link or by reading card details over the phone.",
+      "legit_en": "Genuine Australian toll operators issue statements via the official Linkt app or post and never demand urgent credit card details or link clicks over an unexpected call.",
       "bait_tactics": [
-        "Ask which road and date the toll was for while you look for the car papers",
-        "Say you have two cars and ask them to describe the plate slowly"
+        "Ask which motorway gantry and date the toll occurred on while pretending to look for your vehicle registration papers",
+        "Say your household has two cars and ask them to describe the vehicle make and state plate slowly"
       ],
       "sources": [
-        "Scamwatch"
+        "https://www.scamwatch.gov.au/types-of-scams",
+        "https://www.acma.gov.au/phone-and-sms-scams"
       ]
     },
     {
       "id": "au_remote_access_tech",
       "typology": "tech_support_remote",
-      "name": "Remote Access Tech and Broadband Scam",
-      "name_en": "Remote Access IT and Telecommunications Support Scam",
+      "name": "NBN / Telstra Remote Access Tech & Broadband Scam",
+      "name_en": "Fake NBN, Telstra, or IT security caller requesting remote access and online banking login",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
+        "nbn",
+        "telstra",
         "broadband connection",
-        "virus alert",
-        "compromised router"
+        "compromised router",
+        "anydesk",
+        "teamviewer"
       ],
       "red_flag_keywords": [
         {
           "text": "screen sharing software",
           "weight": 2,
-          "hard": false
+          "hard": true
         },
         {
           "text": "remote access",
@@ -117,63 +174,67 @@
           "hard": false
         },
         {
-          "text": "log into your online banking to check",
+          "text": "open online banking",
           "weight": 2,
-          "hard": false
+          "hard": true
+        },
+        {
+          "text": "download anydesk app",
+          "weight": 2,
+          "hard": true
         }
       ],
-      "signals_en": "Callers claim to represent a telecommunications provider, internet service team, or computer security department, warning that the recipient's broadband line or computer has been hacked.",
-      "legit_en": "Legitimate telecommunications carriers and software providers in Australia and New Zealand never make unsolicited phone calls asking users to install remote-access tools, and never ask customers to open online banking during troubleshooting.",
+      "signals_en": "Callers pose as NBN Co, Telstra technical support, or cyber-security staff warning that the owner's broadband line or modem has been hacked, instructing them to install screen-sharing tools (AnyDesk, TeamViewer, Zoho) and open online banking.",
+      "legit_en": "NBN Co never makes unsolicited calls to consumers (as it is a wholesale network provider), and legitimate Australian telcos like Telstra never ask customers to install remote-access software or open online banking during fault checks.",
       "bait_tactics": [
-        "Hang on, my laptop takes ages to boot up after an update—which error message did you say my modem was sending through?",
-        "I'm only on a mobile handset right now and don't have a computer in front of me, can you post out a letter explaining the line fault?",
-        "The wireless network in this part of the house keeps dropping out, could you walk me through what the issue is without installing anything?"
+        "Say your laptop takes ages to boot after an update and ask which exact light on the NBN connection box is meant to be flashing",
+        "Tell them you only have an old flip phone in your hand right now and ask whether they can post a written fault report"
       ],
       "sources": [
         "https://www.scamwatch.gov.au/about-us/news-and-alerts/scam-alert-hang-up-on-remote-access-scammers",
-        "https://netsafe.org.nz/scams/understanding-scams"
+        "https://www.acma.gov.au/phone-and-sms-scams",
+        "https://www.acma.gov.au/caller-id-scams"
       ]
     },
     {
       "id": "au_family_voice_emergency",
       "typology": "fake_relative_money",
-      "name": "Urgent Family or Friend New-Number Scam",
-      "name_en": "Impersonated Family Emergency Money Scam",
+      "name": "Urgent Family or 'Hi Mum' New-Number Emergency Scam",
+      "name_en": "Impersonated family member calling from a new number with an urgent payment request",
       "prevalence": "high",
       "lang": "en",
       "context_keywords": [
         "new mobile number",
         "dropped my phone",
         "urgent transfer",
-        "stuck paying a bill"
+        "damaged phone"
       ],
       "red_flag_keywords": [
         {
-          "text": "transfer money urgently to this account",
+          "text": "urgent money transfer",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "pay this invoice for me right now",
+          "text": "pay urgent invoice",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "please don't tell anyone else",
+          "text": "keep this secret",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Callers pose as a close family member or friend calling from an unfamiliar number, claiming their phone was broken or lost and they are in an urgent bind or accident.",
-      "legit_en": "Real relatives with a broken phone can still confirm shared family details or wait while you ring their original number or check with another family member on a separate channel.",
+      "signals_en": "Callers or follow-up voice clone / WhatsApp fraudsters pose as a child or close relative using a 'new number' because their phone was dropped or damaged, pressuring an urgent transfer to a third-party account to cover an invoice or crisis.",
+      "legit_en": "Real relatives with a damaged phone can confirm private family details and wait while you ring their saved original number directly to double-check.",
       "bait_tactics": [
-        "Oh goodness, the line sounds really muffled—which cousin is this again, and what happened to your usual number?",
-        "I don't have banking set up on this handset, let me quickly ring your old phone or check with the rest of the family first.",
-        "Slow down a bit so I can catch what happened—whereabouts are you right now, and why is it a different bank account?"
+        "Say the phone line sounds muffled, ask which relative is calling without guessing a name, and ask what happened to their usual handset",
+        "Say banking is not set up on this phone so you will ring their old number and check with the rest of the family first"
       ],
       "sources": [
-        "https://netsafe.org.nz/scams/impersonation-scams",
-        "https://www.scamwatch.gov.au/"
+        "https://www.acma.gov.au/phone-and-sms-scams",
+        "https://www.scamwatch.gov.au/types-of-scams"
       ]
     }
   ]

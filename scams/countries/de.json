@@ -7,7 +7,7 @@
     "de"
   ],
   "prevalence_note": "Bundesnetzagentur, Polizei-Beratung & Hiya: Sweepstakes notary-fee scams (Gewinnspiel-Betrug), shock calls / Enkeltrick bail demands (Schockanruf), fake police safekeeping valuables, and Europol robocalls dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Under § 120 TKG enforced by Bundesnetzagentur, international inbound calls spoofing German landline numbers have their CLI anonymized and spoofed 110/112/0900 calls are blocked; cross-border Schockanruf, Enkeltrick, and fake-police call centers (frequently operating from Turkey or Eastern Europe) use mobile (+49 1xx) or neighbouring European prefixes.",
   "scams": [
     {
       "id": "de_gewinnspiel_notar",
@@ -46,9 +46,9 @@
         "Vorgeben, die Lesebrille und die Bankkarte im anderen Zimmer zu suchen, während man nach Steuerdetails fragt"
       ],
       "sources": [
-        "Bundesnetzagentur",
-        "Polizei-Beratung",
-        "Verbraucherzentrale"
+        "https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Manipulation/start.html",
+        "https://www.polizei-beratung.de/themen-und-tipps/betrug/schockanrufe/",
+        "https://www.verbraucherzentrale.de/wissen/digitale-welt/phishingradar/warnung-vor-falschen-amazon-und-paypalanrufen-86727"
       ]
     },
     {
@@ -96,10 +96,9 @@
         "Langsam fragen, wie die Quittung bei der Übergabe aussieht, während man angeblich den Schlüssel sucht"
       ],
       "sources": [
-        "Polizei-Beratung",
-        "Bundeskriminalamt",
-        "BKA",
-        "Bundesnetzagentur 2025-2026"
+        "https://www.polizei-beratung.de/themen-und-tipps/betrug/schockanrufe/",
+        "https://www.bka.de/DE/AktuelleInformationen/AktuelleMeldungen/Warnhinweise/warnhinweise_node.html",
+        "https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Manipulation/start.html"
       ]
     },
     {
@@ -136,7 +135,7 @@
         "Ruhig fragen, wie der Kollege aussieht"
       ],
       "sources": [
-        "Polizeiliche Kriminalprävention"
+        "https://www.polizei-beratung.de/themen-und-tipps/betrug/betrug-durch-falsche-polizisten/"
       ]
     }
   ]

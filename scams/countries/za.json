@@ -178,6 +178,55 @@
       "sources": [
         "https://www.sars.gov.za/latest-news/alert-scamsters-are-pretending-to-be-customs-inspectors-from-sars-customs/"
       ]
+    },
+    {
+      "id": "za_af_bank_otp_sars",
+      "typology": "otp_theft",
+      "name": "Bank-OTP-stemuitvissing en Vals SARS-terugbetaling",
+      "name_en": "Afrikaans bank fraud-desk OTP vishing and fake SARS eFiling scam",
+      "prevalence": "very_high",
+      "lang": "af",
+      "context_keywords": [
+        "bedrogafdeling",
+        "eenmalige kode",
+        "belastingopgawe",
+        "bankrekening gevries",
+        "efiling profiel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "lees eenmalige pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "veilige rekening oorplasing",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "deel efiling wagwoord",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "keur transaksie goed",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Afrikaans-speaking caller poses as a South African bank fraud officer (FNB, Absa, Standard Bank, Nedbank, Capitec) or SARS agent warning of unauthorized debit orders, SIM-swop alerts, or a locked tax refund...",
+      "legit_en": "South African commercial banks, SARB, and SARS never ask customers over the phone to read out OTPs or RVNs, share banking PINs or eFiling passwords, or transfer savings into another account.",
+      "bait_tactics": [
+        "Sê die selfoonsein op die stoep is baie swak sodat geen boodskap nog deurgekom het nie, en vra van watter takkantoor hulle skakel",
+        "Gee voor jou leesbril lê iewers in die studeerkamer en vra hulle om stadig te verduidelik hoe die belastingjaar of debietorder bereken is"
+      ],
+      "sources": [
+        "https://www.sabric.co.za/how-to-stay-safe/",
+        "https://www.sars.gov.za/targeting-tax-crime/scams-and-phishing/",
+        "https://www.resbank.co.za/en/home/contact-us/fraud-and-scams",
+        "https://www.saps.gov.za/alert/safety_awareness_fraud_scams.php"
+      ]
     }
   ]
 }

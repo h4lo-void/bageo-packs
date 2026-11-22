@@ -1,0 +1,803 @@
+{
+  "region": "ca",
+  "countries": [
+    "ca"
+  ],
+  "region_name_zh": "加拿大",
+  "region_name": "Canada",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Use English (en) across English-speaking provinces; use French (fr) first in Quebec (Montreal often greets 'Bonjour-Hi' and switches smoothly).",
+  "english_ok": "often — Nationwide outside non-metropolitan Quebec, where French is required or strongly expected.",
+  "politeness": "Polite, friendly, apologetic-warm ('Hi there, calling on behalf of...', 'please', 'thanks so much'); in French always use 'Bonjour' and 'vous'.",
+  "name_tip": "First and last name (e.g. Alex Taylor, Jean Tremblay); spell surnames clearly; restaurants hold under first + last name.",
+  "phone_tip": "10-digit NANPA format 416-555-0123 or 514-555-0199 read 3-3-4 (area code always required); confirmations via SMS or email.",
+  "time_tip": "12-hour AM/PM in English ('7:30 PM'), 24-hour common in Quebec French ('19 h 30'); confirm time zone only for national lines.",
+  "number_tip": "In English '0' is 'oh' or 'zero'; in Quebec French 70/80/90 are standard soixante-dix, quatre-vingts, quatre-vingt-dix; watch 15 vs 50.",
+  "avoid_calling": "Avoid restaurant rush 12:00–13:30 and 18:00–20:00, clinic lunch 12:00–13:00, and calls after 20:30.",
+  "closed_days": "Many salons and independent bistros close Mondays (and Sundays/Mondays in Quebec); statutory holidays vary by province.",
+  "booking_channels": "OpenTable, Resy, and Tock for dining; Jane App widely used by physio/RMT/chiro/clinics; Bonjour-santé/RVSQ in Quebec and Medimap for walk-in clinics.",
+  "voice_menu": "Medical clinics, dental groups, pharmacies, banks, telcos (Rogers/Bell/Telus), CRA/Service Canada, and dealerships use heavy keypad IVR.",
+  "callback_habits": "OpenTable/Resy and Jane App send automated SMS/email confirmations and 24h reminders; trades and garages call back from voicemails.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "都會區熱門餐廳多用 OpenTable 或 Resy 留卡擔保，一般餐廳與酒吧普遍接受電話訂位。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and preferred reservation time",
+        "Party size including kids or highchair/stroller",
+        "Main dining room vs patio (seasonal) or bar/lounge",
+        "Full name and 10-digit phone number",
+        "Allergies or special occasion note"
+      ],
+      "may_come_up": [
+        {
+          "what": "Patio seating is walk-in only and weather-dependent",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large party (6–8+) requires set menu or auto-gratuity (18–20%)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends Resy/OpenTable SMS link to add card hold",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone for group hold",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "家庭醫師診所多有按鍵分機且僅收名冊病患，必問各省健保卡號與生日；牙醫、物理治療與按摩（RMT）較好電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Existing rostered patient vs new/walk-in patient",
+        "Appointment type (family doctor, dental cleaning, RMT, physio)",
+        "Patient full legal name",
+        "Preferred date, time, and practitioner",
+        "10-digit phone number and email (often for Jane App intake)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Clinic phone starts with keypad IVR ('press 1 for reception')",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quebec clinics direct to RVSQ or Bonjour-santé portal",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks whether direct-billing extended health insurance",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks provincial health card number (OHIP/RAMQ/MSP) or date of birth",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Asks private insurance policy/certificate number or credit card on file",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "部分美甲美睫或高階髮廊會要求留信用卡在系統作 24 小時取消擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service details (cut, balayage, gel manicure, non-RMT spa massage)",
+        "Hair length/thickness or gel removal need",
+        "Preferred date, time, and stylist/technician",
+        "New or returning client",
+        "Name and 10-digit phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Clarifies whether client needs RMT receipt for insurance claim",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "24-hour cancellation fee policy applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card over phone to hold long colour appointment",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate Interac e-Transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "原廠車廠（Dealership）多有按鍵分機，10～11月與3～4月換雪胎旺季常需提前數週預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle year, make, model (or device model)",
+        "Service needed (oil change, winter tire swap on/off rims, brake check)",
+        "Drop-off vs waiting in lounge ('waiter appointment')",
+        "Preferred date and morning/afternoon slot",
+        "Name and 10-digit number"
+      ],
+      "may_come_up": [
+        {
+          "what": "For tire swap, asks whether winter tires are already on rims",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Quotes diagnostic fee plus tax before repair",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests phone unlock passcode",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands card deposit over phone for special part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獨立披薩店、中餐、壽司與印度菜普遍接受電話點自取（Pickup）到店付款。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup vs in-house delivery and branch location check",
+        "Items, sizes, combos, and allergy notes",
+        "Ready time (usually 15–30 minutes)",
+        "Name and 10-digit phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Prices quoted exclude provincial/federal tax (GST/HST/QST)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Delivery handled only via Uber Eats / DoorDash / SkipTheDishes",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card over phone to prepay large order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型量販店（Canadian Tire、Home Depot等）必經按鍵選部門，獨立專賣店可直接問庫存並留貨到打烊。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact product name, brand, size, or SKU",
+        "Quantity and visual shelf check ('physical stock check')",
+        "Same-day pickup window at customer service desk",
+        "Customer name and 10-digit number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Big-box store uses keypad IVR to reach specific department",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Holds unpaid item at front desk until closing time only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card or Interac e-Transfer to reserve item",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "牙醫、物理治療與餐廳常有 24 小時內改退收取爽約費用的規定。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Full name and 10-digit phone number",
+        "Original appointment/reservation date and time",
+        "Reschedule request or cancellation",
+        "New preferred date and time"
+      ],
+      "may_come_up": [
+        {
+          "what": "Late cancellation fee ($50+ at dental/RMT clinics) within 24–48h",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks date of birth to verify patient chart",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific question (holiday hours, walk-in wait, patio open, parking, dog policy)",
+        "Intended arrival time and group size",
+        "Whether caller wants to join waitlist or book",
+        "Callback number if staff needs to check manager"
+      ],
+      "may_come_up": [
+        {
+          "what": "Statutory holiday hours differ from Google Maps listing",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Corkage ('BYOW / Apportez votre vin' in QC) rules explained",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "飯店與度假木屋電話訂房幾乎必問信用卡號擔保，且大型飯店總機常有按鍵選單。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children, and pets",
+        "Room type (king vs two queens)",
+        "Guest full name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Parking fee, resort fee, plus provincial/municipal room taxes extra",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Offers sending online booking link so owner enters card directly",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number and expiry to guarantee reservation",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "高爾夫、保齡球、密室與冰壺/球場散客多走網站預付，團體或社區場館可電話問空檔。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity, lane, simulator bay, or court type",
+        "Date, start time, and duration",
+        "Group headcount",
+        "Name, 10-digit phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs standard bookings to website checkout",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Shoe/equipment rental extra per person",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card over phone to hold bay/lane",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址（含公寓房號與郵遞區號），大樓公寓維修常需預約貨梯或管理處放行。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Issue details (furnace/HVAC, plumbing, duct cleaning, snow/lawn, locksmith)",
+        "Full street address, unit/buzzer info, and postal code",
+        "House vs condo (condo water shut-off or elevator rules)",
+        "Preferred service window",
+        "Homeowner/tenant name and 10-digit phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes dispatch/diagnostic call-out fee plus tax",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Tenant must obtain landlord approval before billable work",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks keypad lock PIN, garage code, or alarm code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Interac e-Transfer deposit upfront",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、美容與寄宿皆需預約，寄宿與日托必查狂犬病與 Bordetella（犬舍咳）疫苗紀錄。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "New vs existing client and service needed (vet exam, groom, boarding)",
+        "Species, breed, weight, age, and spay/neuter status",
+        "Rabies, DHPP, and Bordetella vaccine status",
+        "Preferred date and time",
+        "Owner full name and 10-digit phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Daycare/boarding requires paid half-day temperament evaluation first",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Vet clinic currently not accepting new patients",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card deposit over phone for new grooming client",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Canada Post、Purolator、FedEx 全國專線皆為語音機器人或按鍵選單，地方獨立商店與車廠才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking, work-order, or invoice number",
+        "Customer name and 10-digit phone",
+        "Delivery postal code or item description",
+        "Pickup readiness or status check"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier hotline requires keypad/automated bot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks account PIN or payment card digits",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、電信、水電、CRA 稅務局與加拿大航空皆有多層按鍵 IVR 並強制核對本人個資，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR language and department keypad selection",
+        "Verification that caller is primary account holder",
+        "Date of birth, postal code, and account PIN/security question",
+        "Account or booking reference"
+      ],
+      "may_come_up": [
+        {
+          "what": "Blocked at keypad IVR or PIPEDA privacy check",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks SIN, date of birth, phone banking PIN, card number, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "地方計程車行（如 Beck Taxi、Bonjour Taxi）、機場禮賓車與租車門市皆可電話叫車或預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact pickup address (with unit/door info) and pickup time",
+        "Destination or airport terminal",
+        "Passenger count, luggage, or wheelchair/van request",
+        "Passenger name and 10-digit phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Airport flat-rate zone tariff vs meter explained",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Car rental requires credit card in driver's own name at counter",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card or driver's license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "大樓物業（Purpose-built rental）與房仲電話約看房時，常先確認起租日（多為每月1號）、預算與養寵需求。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Building address, bedroom size, or MLS/listing reference",
+        "Target move-in date (typically 1st of month; July 1 peak in Quebec)",
+        "Number of occupants, pets, and parking stall need",
+        "Preferred viewing date and time",
+        "Prospective tenant name and 10-digit phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "24-hour statutory notice to current tenant required before showing",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Agent asks employment status and rough credit-score readiness",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Social Insurance Number (SIN) over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests rent deposit before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "聯邦/省府與市府（311）多有語音選單，個人案件不對外透露；私立托兒所（Daycare）可電話問名額與約參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Program, municipal service, or daycare age group inquired",
+        "Child age in months (infant/toddler/preschool) for daycare waitlist",
+        "Municipality or school board catchment",
+        "Caller name and 10-digit callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Subsidized daycare requires centralized municipal/provincial waitlist (e.g. La Place 0-5 in QC)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Switchboard requires keypad extension",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks SIN, health card, or child date of birth",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "party": [
+        "table for 4",
+        "2 adults 2 kids",
+        "party of 3",
+        "just 2 of us",
+        "5 ppl",
+        "4 adults + highchair",
+        "solo",
+        "group of 6"
+      ],
+      "time": [
+        "7pm",
+        "7:30 PM",
+        "19:00",
+        "noon",
+        "quarter after 6",
+        "around 5:30pm",
+        "10:15am",
+        "lunch at 12:30"
+      ],
+      "date": [
+        "tomorrow",
+        "this Fri",
+        "next Tuesday",
+        "Nov 25",
+        "11/25",
+        "Victoria Day Monday",
+        "Sat evening"
+      ],
+      "name": [
+        "Alex Taylor",
+        "under Jordan Lee",
+        "Sam Patel",
+        "Megan Roy",
+        "Chris Martin"
+      ],
+      "phone": [
+        "416-555-0123",
+        "(604) 555-0188",
+        "514 555 0142",
+        "text/call 4035550199"
+      ],
+      "booking_words": [
+        "book a table",
+        "reso for 4",
+        "reserve",
+        "book a room",
+        "tee time",
+        "book a lane"
+      ],
+      "appointment_words": [
+        "book an appointment",
+        "RMT massage",
+        "dental cleaning",
+        "winter tire swap",
+        "oil change"
+      ],
+      "order_words": [
+        "order for pickup",
+        "take-out order",
+        "put on hold",
+        "check stock and hold",
+        "pre-order"
+      ],
+      "change_words": [
+        "push back 30 mins",
+        "reschedule",
+        "cancel reso",
+        "move to Friday",
+        "change time"
+      ],
+      "inquiry_words": [
+        "check holiday hours",
+        "ask if patio is open",
+        "see if in stock",
+        "check wait time",
+        "dog friendly patio?"
+      ],
+      "false_friends": [
+        "Unit 402",
+        "60 min RMT",
+        "Combo #3",
+        "Highway 7 location",
+        "2-for-1",
+        "9 holes"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4",
+        "2 adultes 1 enfant",
+        "nous sommes 3",
+        "pour 2 personnes",
+        "5 pers.",
+        "6 adultes + chaise haute"
+      ],
+      "time": [
+        "19h30",
+        "19 h",
+        "midi et demi",
+        "7h30 ce soir",
+        "14h15",
+        "vers 18h"
+      ],
+      "false_friends": [
+        "appartement 4",
+        "massage 60 min",
+        "combo n° 2",
+        "succursale sur la 132"
+      ]
+    }
+  }
+}

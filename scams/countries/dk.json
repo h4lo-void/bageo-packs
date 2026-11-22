@@ -7,7 +7,7 @@
     "da"
   ],
   "prevalence_note": "Politiet and bank warnings 2025-2026: fake bank security asking for MitID approvals or a move to a security account, fake police or tax staff asking for card details, and fake technical support.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border vishing rings spoof Danish (+45) bank, police, and agency numbers; under Digitaliseringsstyrelsen's September 2026 anti-fraud telecom executive order, Danish operators are required to block unverified foreign inbound calls spoofing Danish numbers, pushing scammers toward SMS callback lures and mule couriers.",
   "scams": [
     {
       "id": "dk_falsk_bank_mitid",
@@ -43,8 +43,8 @@
         "Spørge hvilken dag overførslen var og hvor stort beløbet var"
       ],
       "sources": [
-        "Politiet",
-        "Finans Danmark"
+        "https://politi.dk/anmeld-kriminalitet/digital-kriminalitet/anmeld-oekonomisk-svindel-paa-nettet-og-digital-kriminalitet",
+        "https://finansdanmark.dk/sikker-bank/"
       ]
     },
     {
@@ -76,7 +76,7 @@
         "Spørge hvornår misbruget skulle være sket"
       ],
       "sources": [
-        "Politiet"
+        "https://politi.dk/anmeld-kriminalitet/digital-kriminalitet/anmeld-oekonomisk-svindel-paa-nettet-og-digital-kriminalitet"
       ]
     },
     {
@@ -108,7 +108,7 @@
         "Spørge hvilken fejlbesked de har fået"
       ],
       "sources": [
-        "Politiet"
+        "https://politi.dk/anmeld-kriminalitet/digital-kriminalitet/anmeld-oekonomisk-svindel-paa-nettet-og-digital-kriminalitet"
       ]
     }
   ]

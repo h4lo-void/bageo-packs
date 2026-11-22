@@ -7,7 +7,7 @@
     "ru"
   ],
   "prevalence_note": "Bank of Russia and police warnings 2025-2026: fake Central Bank, FSB or bank security staff moving savings to a safe account, and fake operator staff asking for SMS codes to extend a SIM contract dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border call centers spoof +7 bank and government numbers via VoIP and SIM-boxes and frequently call via WhatsApp and Telegram using foreign or virtual numbers disguised with Central Bank, Gosuslugi, or police logos.",
   "scams": [
     {
       "id": "ru_safe_account",
@@ -43,7 +43,7 @@
         "Говорить, что очки остались в прихожей, и просить продиктовать всё помедленнее"
       ],
       "sources": [
-        "Банк России"
+        "https://www.cbr.ru/information_security/pmp/"
       ]
     },
     {
@@ -61,6 +61,21 @@
           "text": "код для продления договора",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "продлить договор связи",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "код из Госуслуг",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "назовите код подтверждения",
+          "weight": 2,
+          "hard": true
         }
       ],
       "signals_en": "A caller posing as the mobile operator or Gosuslugi says the SIM contract or account is about to expire and asks for the code that just arrived by SMS.",
@@ -70,7 +85,7 @@
         "Переспрашивать, какой у договора номер и с какого года он заключён"
       ],
       "sources": [
-        "Банк России"
+        "https://www.cbr.ru/information_security/pmp/"
       ]
     }
   ]

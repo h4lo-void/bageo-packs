@@ -1,0 +1,877 @@
+{
+  "region": "sg",
+  "countries": [
+    "sg"
+  ],
+  "region_name_zh": "新加坡",
+  "region_name": "Singapore",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "cmn",
+      "use": "common"
+    },
+    {
+      "code": "ms",
+      "use": "some"
+    },
+    {
+      "code": "ta",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "Default to clear Singapore-friendly English (en); switch to Mandarin (cmn) at Chinese restaurants, TCM, or workshops if preferred; Malay/Tamil at community shops.",
+  "english_ok": "often — English is the working language across businesses, clinics, and public agencies.",
+  "politeness": "Polite, brisk, and practical; open with 'Hi/Hello' and purpose directly; Singlish terms like 'pax' or 'dabao' may be heard; end with 'Thank you, bye'.",
+  "name_tip": "Surname with Mr/Ms (Mr Tan, Ms Lim) or first name works for dining; clinics and hotels ask full official name and spelling.",
+  "phone_tip": "8-digit numbers (mobile 8123 4567 or 9123 4567, landline 6123 4567) read 4-4; 0 as 'zero' or 'oh'; confirmations via WhatsApp or SMS.",
+  "time_tip": "12-hour AM/PM in speech ('7 PM', '7:30 PM'), 24-hour in clinic/gov SMS; avoid UK 'half seven', always state exact 'seven thirty PM'.",
+  "number_tip": "Fast Singlish cadence clips final consonants ('fif-teen' vs 'fif-ty'); repeated digits spoken as 'double eight' or 'triple two'.",
+  "avoid_calling": "Avoid F&B peak 12:00–13:30 and 18:30–20:00; clinic lunch closures 12:30/13:00–14:00; Muslim-owned shops during Friday prayers (12:30–14:00) and Ramadan iftar.",
+  "closed_days": "Many neighborhood clinics close Sunday and weekday afternoons; hawkers rest Mondays or Tuesdays; Chinese New Year sees multi-day closures at Chinese businesses.",
+  "booking_channels": "Chope, SevenRooms, Oddle, and inline/Google Reserve dominate dining; HealthHub for public polyclinics; WhatsApp Business widely used by salons and trades.",
+  "voice_menu": "Public hospitals, polyclinics, banks, telcos (Singtel/StarHub), Town Councils, and airlines use keypad IVR and Singpass verification.",
+  "callback_habits": "Automated SMS or WhatsApp confirmation links are standard; upscale restaurants send Chope/SevenRooms reconfirmation or deposit links.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商場熱門餐廳多走 Chope 或 SevenRooms 線上留卡號保證，部分平價小店與熟食中心不接受訂位。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and dining time ('what time, which day')",
+        "Number of pax including adults, kids, and baby chair ('how many pax')",
+        "Indoor air-con vs outdoor/alfresco seating",
+        "Surname or name and 8-digit mobile number",
+        "Dining time limit acknowledgment (usually 90 mins peak)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Chope or online link for instant booking",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends SMS link requiring credit card hold or deposit for 5+ pax",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Offers first or second dinner seating window (e.g. 6:00 or 8:15 PM)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card details over phone for no-show hold",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate PayNow transfer during call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政府綜合診療所（Polyclinic）須透過 HealthHub 預約；私人家庭診所（GP）與牙醫可電話約但常問身分證號。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "New or existing patient at this clinic branch",
+        "Reason for visit (GP consult, dental scaling, vaccination, MC)",
+        "Patient full name as on ID",
+        "Preferred date, session (morning/afternoon/night), and doctor",
+        "Contact mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "GP clinic says walk-in queue only, no fixed time slots",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks whether using corporate panel insurance (MHC/Fullerton/CHAS)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for NRIC/FIN number (full or last 4 chars) or date of birth",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Asks for insurance membership card number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "多數美甲、美睫與SPA對新客可能要求 PayNow 訂金保留時段。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "party"
+      ],
+      "usually_asked": [
+        "Service type (cut/color, gelish removal + manicure, massage)",
+        "Preferred date and time",
+        "First-time trial customer or existing package holder",
+        "Preferred stylist or therapist",
+        "Name and mobile number for WhatsApp reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "Festive surcharge applies during pre-Chinese New Year period",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Salon offers to send WhatsApp message for design photos",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests immediate PayNow deposit ($20–$50) to confirm slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "授權維修中心（如Apple、原廠車廠）多需線上預約或有語音選單；工業區車行（Ubi/Sin Ming）與手機店可直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model and registration plate, or device model",
+        "Exact fault, warning light, or servicing package needed",
+        "Preferred drop-off date and time",
+        "Estimated turnaround or parts availability check",
+        "Customer name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Workshop asks car plate number (e.g. SBA1234X) to check parts",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes diagnostic fee waived only if proceeding with repair",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests device passcode over the phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands PayNow deposit to order special-order part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖品牌多用 GrabFood、Oddle 或官網預付；煮炒（Zi Char）與傳統餐館常接受電話訂餐自取（dabao）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Takeaway self-collection ('dabao') and branch confirmation",
+        "Dish names, sizes (small/medium/large), and less-spicy notes",
+        "Pickup time (usually 15–30 mins)",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Charges $0.30–$0.50 per takeaway container",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Item out of stock and offers alternative dish",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate PayNow payment before preparing large order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型連鎖零售常轉總機客服，獨立花店、烘焙坊與專賣店可電話查現貨並短暫留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact item, model, flavor, or size",
+        "Quantity and outlet location",
+        "Same-day collection time",
+        "Name and contact number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holds unpaid item only until end of business day",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Out of stock at outlet; offers transfer from another branch",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires PayNow payment to confirm custom cake or pre-order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "若原本在 Chope 或付了訂金的平台上預訂，逾時取消可能會扣訂金或需在原連結操作。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name and 8-digit mobile number under original booking",
+        "Original date and time",
+        "Reschedule target slot or cancellation request",
+        "Updated pax count if applicable"
+      ],
+      "may_come_up": [
+        {
+          "what": "Within 24-hour cancellation window with penalty policy",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Instructs owner to modify directly via SMS/Chope link",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for OTP or card digits to process refund",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific question (walk-in wait time, halal status, corkage, pet-friendly)",
+        "Intended arrival time and group size",
+        "Outdoor area availability if bringing dog",
+        "Whether caller wants to leave name on waitlist or reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Corkage fee or cake-cutting fee applies",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Offers to book table right away",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "多數星級飯店總機有按鍵分機且轉訂房組，通常官網或訂房網價格較優並需信用卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of adults and children",
+        "Room category and bed configuration",
+        "Primary guest full name, email, and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "IVR menu requires pressing digit for Reservations",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Offers sending email payment/guarantee link instead of phone card",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number and expiry to guarantee room",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Asks passport or NRIC number during reservation",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公立運動場（ActiveSG）與多數體驗課皆須線上預付，KTV（Teo Heng等）、高爾夫練習場與包場可電話約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Outlet branch and room/court/activity type",
+        "Date, start time, and number of hours",
+        "Number of pax",
+        "Contact name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public sports halls (ActiveSG) only book via MyActiveSG app",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Peak weekend package or minimum hours required",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate PayNow deposit to lock room/lane",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址與郵遞區號（6位數），公寓（Condo）常需提前向保安登記車牌。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service type (aircon servicing/chemical wash, plumbing, locksmith) and unit count",
+        "6-digit Singapore postal code, block/condo name, and unit number",
+        "HDB flat, condo, or landed property type",
+        "Preferred date and morning/afternoon window",
+        "Contact name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Standard normal wash vs chemical overhaul pricing difference",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Technician requests photos of fault/aircon label via WhatsApp",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks digital door lock PIN or condo access code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands deposit via PayNow before scheduling visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、寵物美容與寄宿皆需預約，寄宿必查疫苗紀錄。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Service (vet consult, basic/full grooming, daycare/boarding)",
+        "Dog/cat breed, weight, age, and sterilization status",
+        "Up-to-date vaccination and tick/flea prevention status",
+        "Preferred date and slot",
+        "Owner name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Requires pre-boarding temperament assessment trial day",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "De-matting surcharge may apply upon inspection",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests PayNow deposit for grooming/boarding slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "SingPost、Ninja Van、Shopee 等大型物流熱線多為按鍵語音或線上機器人，獨立商家或車行進度才好打。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking number, invoice number, or job sheet number",
+        "Recipient/customer name and contact number",
+        "6-digit delivery postal code for verification",
+        "Issue details (missed delivery, repair readiness)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Automated IVR requires keypad input or redirects to WhatsApp bot",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks permission to leave parcel at riser or doorstep",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests delivery OTP PIN over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信、銀行、SP水電與航空公司客服皆需按鍵選單並核對 NRIC、生日或 Singpass，AI 無法代辦帳戶業務。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR menu keypad selection",
+        "Confirmation that caller is account holder in person",
+        "NRIC/FIN and date of birth for PDPA verification",
+        "Account or reference number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Strict PDPA policy blocks third-party assistant without written mandate",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Cannot navigate keypad-only IVR tree",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NRIC/FIN, date of birth, card digits, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "一般叫車多用 Grab、Gojek 或 CDG Zig App；電話主要用於機場大車接送（MaxiCab）或租車公司。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Pickup date, time, and 6-digit postal code or terminal",
+        "Drop-off destination",
+        "Number of passengers and large luggage count",
+        "Vehicle type (6/7-seater MaxiCab, 13-seater minibus, rental model)",
+        "Passenger name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Midnight surcharge or ERP/airport waiting policy explained",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks flight number for Changi Airport arrival pickup",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate PayNow deposit to confirm MaxiCab",
+          "handle": "decline"
+        },
+        {
+          "what": "Car rental requests NRIC or driving license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "新加坡租屋仲介幾乎都會詢問租客國籍/准證類型、入住人數與起租日以符合 HDB/URA 規定。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Property project name or PropertyGuru listing reference",
+        "Preferred viewing date and time",
+        "Number of tenants, relationship/family profile, and occupation",
+        "Target move-in date and lease duration (1 or 2 years)",
+        "Pets or cooking habits"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agent asks tenant residency/pass type for HDB quota check",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Agent prefers continuing on WhatsApp to send floorplan/video",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NRIC/FIN number or work pass serial number before viewing",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests booking deposit before physical viewing (scam risk)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政府機關熱線多有語音按鍵且個資須本人 Singpass 驗證；私立幼兒園（Preschool）預約參觀則很歡迎電話。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Nature of inquiry or preschool center tour request",
+        "Child age/level (Infant Care, Playgroup, N1–K2) if preschool",
+        "Preferred center branch and tour date/time",
+        "Parent/caller name and contact number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Government hotline requires keypad IVR or Singpass login online",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Preschool waitlists full until next term; offers waitlist entry",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks child birth certificate/NRIC number or parent NRIC/DOB",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "party": [
+        "4 pax",
+        "2 adults 1 kid",
+        "table for 3",
+        "2A1C",
+        "just 2 of us",
+        "6 pax + 1 baby chair",
+        "solo",
+        "party of 5"
+      ],
+      "time": [
+        "7pm",
+        "19:30",
+        "tmr 12:30pm",
+        "6.30pm",
+        "around 8pm tonight",
+        "sat 11am",
+        "2:15 pm",
+        "lunch 1pm"
+      ],
+      "date": [
+        "tmr",
+        "this Fri",
+        "next Tue",
+        "25 Nov",
+        "25/11",
+        "this weekend Sat",
+        "tonight"
+      ],
+      "name": [
+        "Mr Tan",
+        "under Lim Wei Ming",
+        "booking name Rachel Koh",
+        "Ahmad",
+        "Ms Wong"
+      ],
+      "phone": [
+        "9123 4567",
+        "81234567",
+        "call back 9876-5432",
+        "use my number 8000 1234"
+      ],
+      "booking_words": [
+        "chope table",
+        "book a table",
+        "reserve",
+        "room booking",
+        "book court",
+        "hold a table"
+      ],
+      "appointment_words": [
+        "book appt",
+        "dental scaling appt",
+        "see GP",
+        "book haircut",
+        "aircon servicing"
+      ],
+      "order_words": [
+        "dabao",
+        "takeaway",
+        "self collect",
+        "pre-order",
+        "reserve stock",
+        "hold 1 piece"
+      ],
+      "change_words": [
+        "push back 30 mins",
+        "reschedule",
+        "cancel booking",
+        "change to 8pm",
+        "postpone"
+      ],
+      "inquiry_words": [
+        "check got table anot",
+        "ask opening hours",
+        "check stock",
+        "got parking?",
+        "pet friendly or not",
+        "ask price"
+      ],
+      "false_friends": [
+        "Blk 412",
+        "#02-15",
+        "Set B for 2",
+        "60 min foot reflexology",
+        "Terminal 3",
+        "4 fingers crispy chicken"
+      ]
+    },
+    "cmn": {
+      "party": [
+        "4位",
+        "2大1小",
+        "三个人",
+        "4 pax",
+        "两位大人加一张BB椅",
+        "五个人"
+      ],
+      "time": [
+        "晚上7点",
+        "明天中午12点半",
+        "19:30",
+        "下午三点",
+        "傍晚6点半",
+        "礼拜六早上10点"
+      ],
+      "false_friends": [
+        "大牌302",
+        "二楼",
+        "90分钟按摩",
+        "4号门"
+      ]
+    },
+    "ms": {
+      "party": [
+        "4 orang",
+        "2 dewasa 1 kanak-kanak",
+        "meja untuk 5",
+        "3 pax",
+        "seorang",
+        "6 dewasa"
+      ],
+      "time": [
+        "pukul 8 malam",
+        "7:30 malam",
+        "tengah hari pukul 12:30",
+        "3 petang",
+        "10 pagi esok",
+        "jam 19:00"
+      ],
+      "false_friends": [
+        "Blok 205",
+        "tingkat 3",
+        "pakej 2 jam",
+        "Set 4"
+      ]
+    },
+    "ta": {
+      "party": [
+        "4 பேர்",
+        "2 பெரியவர்கள் 1 குழந்தை",
+        "மூன்று பேர்",
+        "5 pax",
+        "இருவர்",
+        "6 பேர்"
+      ],
+      "time": [
+        "இரவு 7 மணி",
+        "மதியம் 12:30",
+        "மாலை 6:30 மணி",
+        "காலை 10 மணி",
+        "19:30",
+        "பிற்பகல் 3 மணி"
+      ],
+      "false_friends": [
+        "பிளாக் 120",
+        "2வது மாடி",
+        "60 நிமிடம்",
+        "செட் 3"
+      ]
+    }
+  }
+}

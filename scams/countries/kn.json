@@ -1,0 +1,154 @@
+{
+  "name": "Saint Kitts and Nevis",
+  "name_local": "Saint Kitts and Nevis",
+  "iso": "kn",
+  "calling_code": "+1-869",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "RSCNPF White Collar Crime Unit, FSRC St. Kitts & ECCB (headquartered in Basseterre) 2025-2026: cloned WhatsApp 'stranded in the US' money-transfer & access-code scams, phony online escrow + remote-desktop scams, and ECCU bank/lottery frauds dominate.",
+  "cross_border_note": "Uses +1-869 within NANP and hosts ECCB headquarters; overseas scammers clone local WhatsApp accounts and spoof +1 numbers.",
+  "scams": [
+    {
+      "id": "kn_whatsapp_cloned_stranded",
+      "typology": "fake_relative_money",
+      "name": "RSCNPF-Warned Cloned WhatsApp 'Stranded Overseas' & Code Scam",
+      "name_en": "Cloned WhatsApp contact claiming to be stranded in the US and requesting money transfer or access codes",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "stranded in states",
+        "cloned whatsapp account",
+        "access verification code",
+        "urgent financial assistance"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "approve verification code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send money transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cannot talk voice",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wire to third-party",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Overseas scammer hijacks or clones a local contact's WhatsApp account, claims to be stranded in the United States needing an urgent money transfer, or tricks contacts into approving unrequested access verification codes.",
+      "legit_en": "RSCNPF White Collar Crime Unit advises always calling the contact on a reliable voice line first and never approving unrequested verification codes.",
+      "bait_tactics": [
+        "Insist on speaking by regular voice call or asking a personal Basseterre/Charlestown family question first.",
+        "Say the remittance counter is closed and ask which US airport terminal they are at.",
+        "Refuse to touch any verification code prompt on your screen."
+      ],
+      "sources": [
+        "https://www.police.kn/press-releases/detail/367",
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+      ]
+    },
+    {
+      "id": "kn_fsrc_escrow_remote_desktop",
+      "typology": "marketplace_escrow_scam",
+      "name": "FSRC-Warned Phony Internet Escrow & Remote Desktop Scam",
+      "name_en": "Fake online escrow agent instructing buyer/seller to wire funds or install remote desktop software",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "online escrow service",
+        "vehicle purchase escrow",
+        "wire transfer verification",
+        "remote desktop support"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "install remote desktop",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "phony escrow website",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "wire escrow deposit",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "share screen access",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Fraudster directs a high-value online buyer or seller to a fake escrow website or instructs them to install remote-desktop software to 'verify' the transaction while draining bank funds.",
+      "legit_en": "FSRC St. Kitts warns that legitimate escrow services never ask users to install remote-desktop tools or wire money to unverified accounts.",
+      "bait_tactics": [
+        "Say your work laptop blocks all third-party downloads and ask for their FSRC licence details.",
+        "Tell them you will have your local solicitor in Basseterre verify the escrow company independently.",
+        "Pretend the escrow webpage fails to load and ask them to spell out the company registry name."
+      ],
+      "sources": [
+        "https://www.fsrc.kn/newsletters/1436-september-2025-newsletter-internet-escrow-scams-sept-2025",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    },
+    {
+      "id": "kn_eccb_bank_lottery_scam",
+      "typology": "prize_lottery",
+      "name": "ECCB-Warned Fake Lottery Prize & Bank Phishing Scam",
+      "name_en": "Fake sweepstakes advance-fee call or bank impersonator seeking card/OTP credentials",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "lottery prize claim",
+        "unlicensed investment club",
+        "bank card security",
+        "account verification alert"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay claim fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share one-time code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "zero risk returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "convert to cryptocurrency",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the resident won a lottery requiring an upfront fee, pitches a zero-risk crypto pyramid, or poses as an ECCU bank requesting OTPs.",
+      "legit_en": "ECCB advises never paying advance fees for prizes, never sharing OTPs, and checking ECSRC licensing before investing.",
+      "bait_tactics": [
+        "Ask why a genuine lottery cannot deduct its own fee before issuing the cheque.",
+        "Tell a supposed bank caller you will walk into the Basseterre branch directly.",
+        "Ask for the caller's ECSRC licence status and watch them stall."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    }
+  ]
+}

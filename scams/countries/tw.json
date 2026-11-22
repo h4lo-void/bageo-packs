@@ -7,8 +7,8 @@
     "zh-TW",
     "en"
   ],
-  "prevalence_note": "165 anti-fraud & Whoscall 2025-2026: fake police/prosecutor (安全帳戶・視訊筆錄), 7-11 賣貨便/好賣+ escrow verification + screen sharing, fast-approval loan fee/account-beautification scams, investment LINE groups, and fake utility/ETC/parcel fee links dominate.",
-  "cross_border_note": "",
+  "prevalence_note": "165 anti-fraud & CIB 2025-2026: fake police/prosecutor (安全帳戶・視訊筆錄), ATM/online-banking installment cancellation (解除分期付款・重複扣款), 7-11 賣貨便/好賣+ escrow verification + screen sharing, 'guess who' relative impersonation, fast-approval loan account-beautification scams, investment LINE groups, fake utility/ETC/parcel fee calls, and English NIA/ARC/Customs scams targeting foreign residents dominate.",
+  "cross_border_note": "Overseas scam call centers frequently spoof Taiwan's +886 country code (such as +886 9 mobile numbers or +886 0 to +886 8 domestic area codes) or use hidden caller IDs. Under NCC directives, Chunghwa Telecom and major Taiwan carriers block spoofed +886 0–8 international landline calls and play a mandatory 7-second Mandarin and Taiwanese Hokkien anti-scam voice warning before connecting incoming +886 9 international calls, international calls to landlines, and hidden-number mobile calls.",
   "scams": [
     {
       "id": "tw_fake_police_prosecutor",
@@ -59,9 +59,9 @@
         "說老花眼鏡找不到、手機字太小看不清楚，請他口頭一步一步慢慢教怎麼操作"
       ],
       "sources": [
-        "165全民防騙網",
-        "刑事警察局打詐儀錶板",
-        "Whoscall 2025-2026"
+        "https://165.npa.gov.tw/",
+        "https://165dashboard.tw/fraud-method",
+        "https://www.cib.npa.gov.tw/ch/app/data/view?module=wg116&id=1909&serno=b7cf505d-f709-4885-b06b-d29b092ce04f"
       ]
     },
     {
@@ -77,7 +77,11 @@
         "賣場訂單",
         "無法下單",
         "台灣pay",
-        "行動支付綁定"
+        "行動支付綁定",
+        "賣貨便",
+        "好賣+",
+        "交貨便",
+        "分享螢幕畫面"
       ],
       "red_flag_keywords": [
         {
@@ -120,9 +124,115 @@
         "假裝沒用過台灣Pay找不到綁定畫面，請他從下載哪一個圖示開始慢慢教"
       ],
       "sources": [
-        "165全民防騙網",
-        "刑事警察局",
-        "165打詐儀錶板 165dashboard.tw"
+        "https://165.npa.gov.tw/",
+        "https://165dashboard.tw/fraud-method",
+        "https://www.cib.npa.gov.tw/ch/app/news/view?module=news&id=1887&serno=fd96b6ac-8f03-4e06-903d-4f8e26d2a5ef"
+      ]
+    },
+    {
+      "id": "tw_atm_installment_cancel",
+      "typology": "fake_shop_order_error",
+      "name": "假冒電商與銀行客服（解除分期付款・誤設重複扣款）",
+      "name_en": "Fake e-commerce and bank support ATM or online-banking installment cancellation scam",
+      "prevalence": "very_high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "誤設分期",
+        "重複扣款",
+        "高級會員",
+        "批發商設定錯誤",
+        "訂單設定錯誤",
+        "操作atm",
+        "客服轉接銀行"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "解除分期付款",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "操作atm解除",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "網銀轉帳代碼驗證",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "取消高級會員扣款",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "購買遊戲點數沖正",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonates e-commerce, ticketing, or charity staff claiming an internal clerical error set the buyer's past order to recurring installments, duplicate charges, VIP membership, or wholesale billing...",
+      "legit_en": "ATMs and online-banking transfer screens in Taiwan only send money out and can never cancel installment settings, reverse duplicate charges, or verify identity via transfer codes.",
+      "bait_tactics": [
+        "假裝完全想不起來買過哪一樣商品，請他把訂單品項、顏色跟出貨日期一項一項慢慢唸出來核對",
+        "說家裡附近巷口的提款機剛好貼維修公告，走路去下一間超商要十幾分鐘，請他在線上等一下順便解釋為什麼銀行不能自己取消",
+        "假裝進到網路銀行畫面但一直找不到什麼沖正代碼欄位，故意問是不是寫著轉出帳號那一格"
+      ],
+      "sources": [
+        "https://www.cib.npa.gov.tw/ch/app/data/view?module=wg116&id=1909&serno=a61af506-a4ac-49eb-9c79-ef75ddc6f237",
+        "https://www.cib.npa.gov.tw/ch/app/news/view?module=news&id=1887&serno=fd96b6ac-8f03-4e06-903d-4f8e26d2a5ef",
+        "https://165dashboard.tw/fraud-method"
+      ]
+    },
+    {
+      "id": "tw_guess_who_relative",
+      "typology": "guess_who",
+      "name": "猜猜我是誰／假冒親友換新號碼急墊貨款",
+      "name_en": "'Guess who' relative claiming broken phone or new number and asking urgent loan or supplier payment",
+      "prevalence": "high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "猜猜我是誰",
+        "換新號碼",
+        "手機壞掉",
+        "重新加line",
+        "感冒聲音沙啞",
+        "手頭有點緊"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "先幫我墊貨款",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "先幫我墊",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "轉到朋友帳戶",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "把舊號碼刪掉",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Cold-calls pretending to be a child, nephew/niece, or old friend who dropped or broke their phone and changed numbers, asks the victim to add a new LINE account, and soon pleads for an urgent supplier payment or bridge transfer into a third-party 'friend's...",
+      "legit_en": "Genuine relatives borrowing money can be reached via their original phone number or verified through other family members and do not insist on wiring funds to unrelated third-party accounts.",
+      "bait_tactics": [
+        "順著話氣裝熟，故意問上次家族聚餐帶回家的那盒伴手禮吃完了沒，看他怎麼圓謊",
+        "說存摺放在另一半那邊保管，堅持要先暫停打原本舊號碼或問家裡其他人確認一下",
+        "慢慢問這筆貨款到底是進什麼貨、為什麼廠商帳戶的名字聽起來完全不認識"
+      ],
+      "sources": [
+        "https://www.cib.npa.gov.tw/ch/app/data/view?module=wg116&id=1909&serno=4f04dab6-3ca5-4139-a94e-66be03b62ba3",
+        "https://165dashboard.tw/fraud-method",
+        "https://165.npa.gov.tw/"
       ]
     },
     {
@@ -169,9 +279,9 @@
         "假裝手邊沒有紙筆，請他等我翻抽屜找原子筆把方案一個字一個字抄下來"
       ],
       "sources": [
-        "Whoscall 2025-2026",
-        "金管會",
-        "165全民防騙網"
+        "https://www.banking.gov.tw/ch/home.jsp?id=540&parentpath=0&mcustomize=news_view.jsp&dataserno=202601060001&dtable=News",
+        "https://165dashboard.tw/fraud-method",
+        "https://165.npa.gov.tw/"
       ]
     },
     {
@@ -223,9 +333,9 @@
         "假裝記不清楚哪一天上國道，請他幫忙查車牌跟經過哪個收費站"
       ],
       "sources": [
-        "165全民防騙網",
-        "台電防詐專區",
-        "165打詐儀錶板 165dashboard.tw"
+        "https://www.taipower.com.tw/2289/2323/2333/62096/normalPost",
+        "https://165dashboard.tw/fraud-method",
+        "https://165.npa.gov.tw/"
       ]
     },
     {
@@ -265,8 +375,59 @@
         "一直問萬一跌了怎麼辦、獲利分成怎麼算、能不能先小額試個三千塊看看流程"
       ],
       "sources": [
-        "金管會",
-        "165全民防騙網"
+        "https://www.sfb.gov.tw/ch/home.jsp?id=775&parentpath=0,5",
+        "https://165dashboard.tw/fraud-method",
+        "https://165.npa.gov.tw/"
+      ]
+    },
+    {
+      "id": "tw_en_arc_customs_police",
+      "typology": "fake_official",
+      "name": "Fake NIA / Taiwan Customs / Bank English Scam Targeting Foreign Residents",
+      "name_en": "English-language fake National Immigration Agency, Customs parcel or ARC misuse scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "national immigration agency",
+        "alien resident certificate",
+        "taiwan customs",
+        "arc number",
+        "seized parcel",
+        "identity misuse"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transfer to safe account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "arc cancellation notice",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "customs clearance fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "video police statement",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Targets foreign residents and students in Taiwan in English, posing as the National Immigration Agency (NIA), Customs Administration, or a local bank; alleges the recipient's ARC number was used to mail contraband or open a mule account...",
+      "legit_en": "Taiwan's National Immigration Agency, Customs Administration (EZ WAY), and police never threaten immediate ARC cancellation by phone, transfer calls to overseas police, or ask foreign residents to transfer funds for investigation.",
+      "bait_tactics": [
+        "Sorry, the signal in my apartment stairwell is really choppy right now—could you spell out your service center address slowly?",
+        "Hold on, my ARC card is locked in my desk at the office; let me walk to the local immigration service station in person tomorrow morning to check.",
+        "I use the official EZ WAY app for parcels and nothing shows up there, so can you repeat the airway bill letters one by one?"
+      ],
+      "sources": [
+        "https://news.immigration.gov.tw/EasyPack/Detail/dda469f4-e2d0-4a98-847c-21432dcc040e?lang=EN",
+        "https://web.customs.gov.tw/singlehtml/2222?cntId=e507d33802614cc18a49c9a6d73b10b2",
+        "https://165.npa.gov.tw/"
       ]
     }
   ]

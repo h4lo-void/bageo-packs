@@ -1,0 +1,790 @@
+{
+  "region": "gb-ie",
+  "countries": [
+    "gb",
+    "ie",
+    "im",
+    "je",
+    "gg"
+  ],
+  "region_name_zh": "英國、愛爾蘭",
+  "region_name": "the United Kingdom and Ireland",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak natural, polite British/Irish-friendly English (en); public bodies in Wales or Irish Gaeltacht may greet bilingually before continuing in English.",
+  "english_ok": "often — Native English throughout the UK, Ireland, Isle of Man, Jersey, and Guernsey.",
+  "politeness": "Warm, courteous, slightly understated ('Hello, calling on behalf of...', 'please', 'lovely, thank you, bye'); avoid abrupt commands.",
+  "name_tip": "First and surname (e.g. John Smith, Aoife Murphy); spell tricky surnames clearly ('M for Mike' or everyday words); surname held on bookings.",
+  "phone_tip": "UK mobile 07700 900123 (5-6), London 020 7946 0123; IE mobile 087 123 4567, Dublin 01 234 5678; '0' spoken 'oh'; SMS/email confirmations.",
+  "time_tip": "'Half seven' ALWAYS means 7:30 (half past seven), never 6:30! 'Quarter to eight' = 7:45; always read back explicit '7:30 PM'.",
+  "number_tip": "0 spoken as 'oh'; repeated digits as 'double seven' or 'treble three'; clarify 'fifteen' vs 'fifty' and regional vowel shifts.",
+  "avoid_calling": "Avoid pub/restaurant service 12:30–14:00 and 18:30–20:30, NHS GP 08:00 urgent rush for routine queries, and evening calls after 20:30.",
+  "closed_days": "Smaller salons/gastropubs often close Mondays; Sunday trading hours 10:00/11:00–16:00/17:00 in England/Wales; Bank Holidays vary between England, Scotland, NI, and Ireland.",
+  "booking_channels": "OpenTable, SevenRooms, ResDiary for dining; Treatwell and Fresha for beauty; NHS App/eConsult (UK) for GPs; tradespeople prefer phone or WhatsApp.",
+  "voice_menu": "NHS GP surgeries, dental groups, councils, HMRC/Revenue, banks, utilities, couriers, and hotel chains use extensive keypad IVR.",
+  "callback_habits": "Restaurants send ResDiary/SevenRooms SMS links; salons send Fresha/Treatwell reminders 24–48h ahead; tradespeople text or WhatsApp back.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "英國與愛爾蘭許多餐廳（特別是週末或4人以上）會傳簡訊連結要求綁信用卡作爽約擔保。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and preferred sitting time",
+        "Number of covers including children, highchair, or buggy space",
+        "Dining area vs bar/dog-friendly pub area (especially gastropubs)",
+        "Allergies or dietary requirements",
+        "Full name and mobile number (sometimes email for confirmation)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sends SMS/email link (SevenRooms/ResDiary) for card capture within hours",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Table return time (e.g. table needed back in 2 hours) or Sunday roast availability",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Dogs allowed in bar area only, not main dining room",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks credit/debit card details over phone for booking guarantee",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate phone payment for set-menu deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "英國 NHS GP 有冗長按鍵選單、僅收已註冊病患且必核對生日與地址；私人診所、愛爾蘭 GP 與牙醫較易預約但仍常問生日。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "address"
+      ],
+      "usually_asked": [
+        "Registered patient vs new private/NHS/PRSI patient",
+        "Brief symptom triage or dental treatment type",
+        "Patient full name",
+        "Preferred date, time, or clinician",
+        "Contact mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "NHS GP surgery IVR keypad menu and 8am same-day triage policy",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Dental practice only has private slots available, NHS list full",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks patient date of birth (mandatory at almost all UK/IE surgeries) or NHS/PPS number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires immediate card deposit over phone for new private dental exam",
+          "handle": "decline"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "染髮、燙睫毛與飄眉在英愛普遍強制要求提前 24～48 小時到店做皮膚過敏測試（Patch test）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Exact treatment (cut & blow-dry, colour, BIAB/gel nails, massage)",
+        "New client status and whether patch test completed within 6 months",
+        "Preferred date, time, and stylist/therapist",
+        "Client full name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Requires in-person patch test at least 48 hours before colour/lash tint",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends Fresha/Treatwell link to confirm card no-show protection",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks card details over phone for booking deposit",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate bank transfer or card payment now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與驗車（英國 MOT／愛爾蘭 NCT，NCT為中央系統）必問車牌號碼以調閱車型。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle registration plate ('reg') or device make/model",
+        "Work needed (MOT, full/interim service, fault symptoms, screen repair)",
+        "Drop-off morning time (garages usually want cars by 08:30–09:00)",
+        "Customer name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Garage asks vehicle registration number to look up exact engine/parts",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Ireland NCT tests must be booked centrally with NCTS, not local garages",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Diagnostic plug-in fee quoted before repair approval",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone passcode for handset diagnostics",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands card prepayment for special-order part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "街坊中餐、印度咖哩、炸魚薯條常接電話自取（Collection）到店付；外送多走 Deliveroo、Just Eat 或 Uber Eats。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Collection vs local delivery (with UK postcode / IE Eircode check)",
+        "Items, spice levels, sides, and allergy notes",
+        "Estimated collection time (typically 20–30 mins)",
+        "Name and contact number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Small takeaway is cash-only on collection",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Delivery orders accepted only via Just Eat / Deliveroo",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card payment over phone for delivery order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型連鎖百貨與超市常走自動語音客服，獨立書店、肉鋪、花店與五金行可電話留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, size, ISBN, or SKU",
+        "Quantity and stock check on shop floor",
+        "Collection day/time (usually held until closing)",
+        "Customer name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Unpaid reserve held only until end of same/next day",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Special order requires non-refundable deposit in store",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card payment over phone to place order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "綁定信用卡擔保的餐廳或美容預約，若在 24～48 小時內改退可能會收違約費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and phone number on original booking",
+        "Original date and time",
+        "Whether moving slot or cancelling",
+        "New preferred date/time or updated party size"
+      ],
+      "may_come_up": [
+        {
+          "what": "Late cancellation fee applies under 24/48h policy",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Online OTA/Treatwell booking must be amended online",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth (at clinic) to access appointment record",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Exact question (kitchen closing time, Sunday hours, dog policy, parking, stock)",
+        "Day and time of intended visit (especially Bank Holidays)",
+        "Group size or dog size if relevant",
+        "Whether caller wishes to book a table/slot now"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pub open late for drinks, but kitchen closes early (e.g. 20:00 or 16:00 Sun)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Offers to book a table while on the line",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖飯店多有語音選單且電話訂房幾乎都需要信用卡號擔保；鄉村 B&B 或小旅店偶爾可寄付款連結。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Arrival and departure dates (number of nights)",
+        "Adults, children, and room configuration (double/twin/family)",
+        "Breakfast inclusion and parking/dog requirements",
+        "Guest full name, email, and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers sending secure payment/guarantee link by email instead of phone card",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Minimum 2-night stay on weekends",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit/debit card number to secure room",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "高爾夫開球時間、保齡球、密室與體驗課多鼓勵官網預付，私人包場、鄉村球場與團體活動可電話洽詢。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity, court, or package type",
+        "Preferred date and time slot",
+        "Group size and ages (under-18 rules at licensed venues)",
+        "Organizer name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs small groups to book and prepay online",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Holds provisional group slot pending online deposit link",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card payment over phone to confirm booking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址與英國 Postcode 或愛爾蘭 Eircode；水電工與鎖匠常在施工中漏接但會回電或傳訊息。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Job description (boiler service — Gas Safe/RGII, leak, guttering, locksmith)",
+        "Full address with UK Postcode or Irish Eircode",
+        "Parking availability/permits outside property",
+        "Preferred visit day/window and urgency",
+        "Contact name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes first-hour minimum or call-out charge plus VAT",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Tradesperson asks owner to WhatsApp photos of boiler/fault",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks key-safe PIN or building entry code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands bank transfer before attending",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、寵物美容與寄宿（Kennels/Cattery）皆採預約制，寄宿必查疫苗證明（含 Kennel cough）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "address"
+      ],
+      "usually_asked": [
+        "Registered client vs new registration (vets check postcode catchment)",
+        "Service (vet consult, full groom, kennels/cattery boarding)",
+        "Species, breed, age, weight, and neutering status",
+        "Booster and kennel-cough vaccination status for boarding",
+        "Owner surname, address if registering, and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Vet practice closed to new registrations outside postcode",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Kennel requires kennel cough vaccine given at least 14 days prior",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests phone card deposit for grooming or boarding",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Royal Mail、DPD、An Post 等全國物流專線皆有重度語音選單；僅地方車廠、獨立商家或貨運站直撥有效。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking, order, or job reference number",
+        "Customer full name and delivery postcode/Eircode",
+        "Item or repair description",
+        "Requested update or collection readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier IVR requires keypad or automated tracking bot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests delivery PIN or account security answer",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、電信、能源公司、HMRC 與航空客服皆有按鍵 IVR，且受 GDPR 嚴格限制非本人不得查詢帳戶。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR keypad routing selection",
+        "Confirmation that account holder is on the line to give verbal permission",
+        "Date of birth, postcode, and security password characters",
+        "Account or policy reference number"
+      ],
+      "may_come_up": [
+        {
+          "what": "GDPR data-protection check refuses assistant without account holder present",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Blocked by keypad-only IVR menu",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth, memorable word/password characters, card digits, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "地方叫車行（Minicab / Private Hire / Hackneys）與機場接送非常習慣電話預訂並到車上付現或刷卡。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact pickup address/postcode or Eircode and pickup time",
+        "Drop-off destination or airport terminal",
+        "Number of passengers and suitcases (saloon vs estate/MPV)",
+        "Payment method preference on the day (cash or card in car)",
+        "Passenger name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Airport pickup asks flight number and adds airport drop-off/pickup barrier fee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Quotes fixed fare vs metered fare",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car hire asks driving licence number or DVLA check code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires phone card prepayment for long-distance minicab",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "英愛租屋市場競爭激烈，房仲（Estate/Letting Agents）電話約看房時必先做租客條件初篩。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Property street address or Rightmove/Zoopla/Daft.ie listing",
+        "Move-in date and desired tenancy length",
+        "Number of sharers/family members, employment status, and pets",
+        "Preferred viewing slot",
+        "Full name, mobile number, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Letting agent asks combined annual household income for affordability check",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Viewings already full ('fully booked on block viewing')",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests holding deposit before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政廳（Council）、稅務與公立學校總機常有按鍵分機且個資不對外透露；私立托兒所（Nursery/Creche）可電話約參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Department or general inquiry topic",
+        "Child age/month and days per week needed (for nursery/creche tour)",
+        "Postcode/catchment area if relevant",
+        "Caller name and contact number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Council switchboard requires pressing keypad options",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Nursery has 6–12 month waitlist and offers show-around tour",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks child date of birth, National Insurance, or PPS number",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "party": [
+        "table for 4",
+        "2 adults 1 child",
+        "just the 2 of us",
+        "party of 6",
+        "3 adults + 1 highchair",
+        "5 people",
+        "solo",
+        "4 covers"
+      ],
+      "time": [
+        "half seven",
+        "7:30pm",
+        "quarter past 6",
+        "quarter to 8",
+        "19:00",
+        "1pm lunch",
+        "around 5ish",
+        "10.30am"
+      ],
+      "date": [
+        "tomorrow",
+        "this Friday",
+        "next Weds",
+        "25th Nov",
+        "25/11",
+        "Bank Holiday Monday",
+        "Sat night"
+      ],
+      "name": [
+        "John Smith",
+        "under Murphy",
+        "Aoife Kelly",
+        "book under David Jones",
+        "Sarah Taylor"
+      ],
+      "phone": [
+        "07700 900123",
+        "087 123 4567",
+        "ring me on 07700900456",
+        "020 7946 0199"
+      ],
+      "booking_words": [
+        "book a table",
+        "reserve",
+        "table booking",
+        "book a lane",
+        "hire a pitch",
+        "book a room"
+      ],
+      "appointment_words": [
+        "book an appointment",
+        "MOT & service",
+        "cut and blow-dry",
+        "check-up and scale",
+        "boiler service"
+      ],
+      "order_words": [
+        "order for collection",
+        "takeaway pickup",
+        "put one aside",
+        "reserve in store",
+        "pre-order"
+      ],
+      "change_words": [
+        "move it back half an hour",
+        "reschedule",
+        "cancel my booking",
+        "push to 8pm",
+        "rearrange"
+      ],
+      "inquiry_words": [
+        "ask what time kitchen closes",
+        "check if dog friendly",
+        "see if in stock",
+        "ask about parking",
+        "check Sunday hours"
+      ],
+      "false_friends": [
+        "Flat 4",
+        "2 hour slot",
+        "Meal deal for 2",
+        "Seven Dials branch",
+        "Zone 2",
+        "Table 5"
+      ]
+    }
+  }
+}

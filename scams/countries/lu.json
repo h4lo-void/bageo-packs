@@ -8,7 +8,7 @@
     "de"
   ],
   "prevalence_note": "Police grand-ducale warnings 2025-2026: fake bank security staff using LuxTrust approvals, messages and calls from a relative with a new number, and fake technical support.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border vishing rings target Luxembourg residents in French, German, and English via VoIP calls spoofing +352 bank, LuxTrust, or Police grand-ducale numbers, alongside neighbouring +33/+32/+49 prefixes and WhatsApp 'new number' family-impersonation lures.",
   "scams": [
     {
       "id": "lu_luxtrust_securite",
@@ -39,8 +39,8 @@
         "Demander de quelle transaction il s'agit et à quelle date"
       ],
       "sources": [
-        "Police grand-ducale",
-        "LuxTrust"
+        "https://police.public.lu/fr/prevention/arnaques/arnaque-faux-employes-banque.html",
+        "https://www.luxtrust.com/fr/news/luxtrust-mobile-renforce-sa-protection-face-aux-arnaques-telephoniques"
       ]
     },
     {
@@ -50,7 +50,12 @@
       "name_en": "Fake relative with a new number asking for an urgent transfer",
       "prevalence": "high",
       "lang": "fr",
-      "context_keywords": [],
+      "context_keywords": [
+        "téléphone cassé",
+        "nouveau numéro",
+        "facture urgente",
+        "virement instantané"
+      ],
       "red_flag_keywords": [
         {
           "text": "n'en parle à personne",
@@ -70,7 +75,7 @@
         "Demander tranquillement de quelle facture il s'agit"
       ],
       "sources": [
-        "Police grand-ducale"
+        "https://police.public.lu/fr/prevention/arnaques/arnaque-faux-employes-banque.html"
       ]
     },
     {
@@ -102,7 +107,56 @@
         "Demander quel message d'erreur ils ont reçu"
       ],
       "sources": [
-        "Police grand-ducale"
+        "https://police.public.lu/fr/prevention/arnaques/arnaque-faux-employes-banque.html"
+      ]
+    },
+    {
+      "id": "lu_falsche_bank_luxtrust_polizei_de",
+      "typology": "otp_theft",
+      "name": "Falscher Bankmitarbeiter, LuxTrust-Support oder Polizist am Telefon",
+      "name_en": "Fake Luxembourg bank employee, LuxTrust support, or police officer demanding LuxTrust validation or card handover",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "luxtrust mobile",
+        "sicherheitsdienst",
+        "verdächtige transaktion",
+        "großherzogliche polizei",
+        "bankkarte"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "in luxtrust bestätigen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "luxtrust code vorlesen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bote holt bankkarte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "fernzugriff auf computer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller speaks German posing as a Luxembourg bank fraud officer, LuxTrust support, or Police grand-ducale, claiming suspicious foreign transfers were detected and pressuring the victim to approve LuxTrust Mobile prompts, read OTP codes...",
+      "legit_en": "LuxTrust, Luxembourg banks, and Police grand-ducale never call to request LuxTrust codes/approvals, remote computer access, or courier pickup of bank cards and PINs.",
+      "bait_tactics": [
+        "Erklären Sie ruhig, dass die LuxTrust-App auf Ihrem Smartphone gerade die Funktion Call-Safety anzeigt und fragen Sie umständlich nach, was dieser Warnhinweis bedeutet",
+        "Sagen Sie, Ihr alter LuxTrust-Token liege im Obergeschoss in einer Schublade und lassen Sie den Anrufer warten, während Sie angeblich danach suchen",
+        "Bitten Sie darum, den Namen der Bankabteilung in Luxemburg-Stadt langsam zu buchstabieren, weil die Telefonverbindung stark rausche"
+      ],
+      "sources": [
+        "https://police.public.lu/de/prevention/arnaques.html",
+        "https://www.luxtrust.com/fr/news/luxtrust-mobile-renforce-sa-protection-face-aux-arnaques-telephoniques",
+        "https://www.bee-secure.lu/fr/news/le-phishing-reste-dactualite-sites-web-sms-et-appels-frauduleux-en-circulation/"
       ]
     }
   ]

@@ -7,7 +7,7 @@
     "ar"
   ],
   "prevalence_note": "Central Bank of Egypt warnings 2025-2026: fake bank or InstaPay staff asking for the card's back digits and a test transfer, and fake Vodafone Cash prizes with an activation fee dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Domestic and regional Arabic-speaking rings use unregistered SIMs and spoofed bank hotlines to target InstaPay users, Meeza/bank cardholders, and Vodafone Cash wallets, alongside Gulf-targeted WhatsApp impersonation.",
   "scams": [
     {
       "id": "eg_instapay_card_digits",
@@ -16,10 +16,30 @@
       "name_en": "Fake bank or InstaPay staff asking for the card's back digits",
       "prevalence": "very_high",
       "lang": "ar",
-      "context_keywords": [],
+      "context_keywords": [
+        "إنستا باي",
+        "تحديث البيانات",
+        "البنك المركزي",
+        "تفعيل الحساب"
+      ],
       "red_flag_keywords": [
         {
           "text": "الأرقام اللي على ضهر الكارت",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "الرقم السري المتغير",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تاريخ انتهاء البطاقة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "كود تفعيل إنستا باي",
           "weight": 2,
           "hard": false
         }
@@ -31,7 +51,7 @@
         "يسأل بهدوء أنهي حساب وإمتى هيتقفل"
       ],
       "sources": [
-        "البنك المركزي المصري"
+        "https://www.cbe.org.eg/en/cybersecurity/cybersecurity-issues-training-and-awareness"
       ]
     },
     {
@@ -49,6 +69,21 @@
           "text": "رسوم تشغيل الجايزة",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "الرقم السري للمحفظة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رسوم استلام الجائزة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "كود تأكيد السحب",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "A caller congratulates the owner on a Vodafone Cash prize and asks for a fee or the wallet code to release it.",
@@ -58,7 +93,7 @@
         "يقول إن الموبايل التاني اللي عليه المحفظة مش معاه"
       ],
       "sources": [
-        "البنك المركزي المصري"
+        "https://www.cbe.org.eg/en/cybersecurity/cybersecurity-issues-training-and-awareness"
       ]
     }
   ]

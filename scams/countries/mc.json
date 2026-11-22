@@ -1,0 +1,153 @@
+{
+  "name": "Monaco",
+  "name_local": "Monaco",
+  "iso": "mc",
+  "calling_code": "+377",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Gouvernement Princier, Direction de la Sûreté Publique & AMSF 2025-2026: spoofed Monaco Police phone calls claiming ongoing bank fraud investigations, WhatsApp & AI voice-cloning impersonation of Palais Princier officials / executives ('fraude au président'), and 'faux conseiller bancaire' vishing dominate.",
+  "cross_border_note": "Enclaved by France (+33); scammers spoof official +377 Monaco Police and Palais Princier numbers as well as +33 French mobile numbers.",
+  "scams": [
+    {
+      "id": "mc_spoofing_surete_publique",
+      "typology": "fake_official",
+      "name": "Usurpation du numéro de la Sûreté Publique (Spoofing Police & remise de valeurs)",
+      "name_en": "Spoofed Monaco Police call claiming an ongoing bank fraud inquiry to obtain codes, cash, or jewelry",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "sûreté publique monaco",
+        "enquête en cours",
+        "fraude bancaire détectée",
+        "agent de police"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquer codes confidentiels",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "remettre argent liquide",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "remettre vos bijoux",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "agir dans l'urgence",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller spoofs the official Monaco Police switchboard number, claims an ongoing inquiry or bank fraud on the victim's account, and pressures them to disclose banking codes or hand cash/jewelry to a supposed officer.",
+      "legit_en": "Direction de la Sûreté Publique confirms police never ask for bank credentials over the phone or send agents to collect cash or jewelry; dial 17 independently.",
+      "bait_tactics": [
+        "Indiquez calmement que vous raccrochez pour rappeler vous-même la Direction de la Sûreté Publique en composant le dix-sept.",
+        "Demandez le service exact à Monaco tout en refusant de donner la moindre coordonnée bancaire.",
+        "Prétextez qu'un proche arrive chez vous dans deux minutes pour vérifier ensemble."
+      ],
+      "sources": [
+        "https://monservicepublic.gouv.mc/actualites/attention-des-appels-frauduleux-usurpent-le-numero-de-la-police"
+      ]
+    },
+    {
+      "id": "mc_palais_princier_president",
+      "typology": "fake_official",
+      "name": "Usurpation d'officiels du Palais Princier ou dirigeants (WhatsApp, IA vocale & Fraude au Président)",
+      "name_en": "Gouvernement Princier 2026-warned Palais Princier / executive impersonation via WhatsApp and voice AI",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "palais princier monaco",
+        "collaborateur officiel",
+        "don caritatif urgent",
+        "virement confidentiel direction"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "virement international urgent",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "solliciter un don",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "opération strictement confidentielle",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "nouveau compte bénéficiaire",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Fraudster uses fake WhatsApp profiles, spoofed institutional numbers, and AI voice/video cloning to pose as Palais Princier officials or company executives soliciting urgent donations, investments, or confidential corporate wires.",
+      "legit_en": "The Prince's Government warns Palais Princier representatives never solicit donations or investments via WhatsApp; always verify via official coordinates.",
+      "bait_tactics": [
+        "Dites que toute sortie de fonds à Monaco exige une double signature écrite vérifiée par téléphone sur le standard habituel.",
+        "Demandez l'objet du courrier officiel afin de contacter directement le secrétariat concerné.",
+        "Ne cliquez sur aucun document joint et signalez que la ligne coupe."
+      ],
+      "sources": [
+        "https://monservicepublic.gouv.mc/actualites/attention-aux-tentatives-de-fraude-sur-whatsapp",
+        "https://monservicepublic.gouv.mc/actualites/alerte-!-emails-frauduleux-a-l-entete-de-la-direction-des-services-judiciaires"
+      ]
+    },
+    {
+      "id": "mc_faux_conseiller_bancaire",
+      "typology": "fake_bank_account_alert",
+      "name": "Arnaque au faux conseiller bancaire (Service anti-fraude & validation mobile)",
+      "name_en": "Fake private/retail bank security advisor asking to validate mobile prompts or wire to a safe account",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "service opposition carte",
+        "conseiller banque privée",
+        "paiement frauduleux étranger",
+        "annuler opération suspecte"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "valider notification mobile",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "donner code sécurité",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transférer compte sécurisé",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "augmenter plafond carte",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as the anti-fraud department of a Monegasque or French bank claiming a suspicious foreign card payment or wire is underway, asking the client to approve a mobile banking prompt or move funds to a safe account.",
+      "legit_en": "Banks in Monaco block suspicious transactions directly without asking clients to share codes, raise card limits, or wire funds to external accounts.",
+      "bait_tactics": [
+        "Répondez que vous appelez immédiatement votre chargé de clientèle habituel à Monte-Carlo sur sa ligne directe.",
+        "Faites semblant que l'application bancaire refuse de s'ouvrir sur votre téléphone.",
+        "Demandez dans quelle agence de la Principauté votre compte est domicilié."
+      ],
+      "sources": [
+        "https://monservicepublic.gouv.mc/actualites/attention-des-appels-frauduleux-usurpent-le-numero-de-la-police",
+        "https://amsf.mc/content/download/c99b88264f54e26f831d44a8410b92b8/file/AMSF_Guide%20pratique%20%C3%A9valuation%20globale%20des%20risques%20VFR.pdf?inLanguage=fre-FR&version=5"
+      ]
+    }
+  ]
+}

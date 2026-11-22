@@ -1,0 +1,729 @@
+{
+  "region": "de",
+  "countries": [
+    "de"
+  ],
+  "region_name_zh": "德國",
+  "region_name": "Germany",
+  "languages": [
+    {
+      "code": "de",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite Standard German (de); dialects (Bavarian/Swabian/Kölsch) understand Hochdeutsch; switch to English only in central Berlin/Munich/Frankfurt if staff offers.",
+  "english_ok": "sometimes — Common in central Berlin, Munich, Frankfurt, and international hotels, but scarce at doctor offices, trades, and authorities.",
+  "politeness": "Direct, structured, formal 'Sie'; open with 'Guten Tag' + caller/assistant role ('im Auftrag von Herrn/Frau...'); close with 'Vielen Dank, auf Wiederhören'.",
+  "name_tip": "Title + surname ('auf den Namen Mustermann') is primary; spell difficult surnames clearly or using German spelling names ('M wie Martha').",
+  "phone_tip": "Mobile 0151 12345678 or 017x (11–12 digits), landline 030 12345678 (variable length!); say 'zwo' for 2; SMS/email confirmations.",
+  "time_tip": "CRITICAL: 'halb acht' = 7:30! East/South DE also uses 'viertel acht' = 7:15 and 'dreiviertel acht' = 7:45! Always read back 24-hour ('19 Uhr 30').",
+  "number_tip": "Say 'zwo' for 2 on phone so 'zwei' isn't heard as 'drei'; note German inverted tens ('vierundzwanzig' = 24).",
+  "avoid_calling": "Avoid Mittagsruhe 12:30–14:00 at doctors/small offices, restaurant peak 18:30–20:15, calls after 20:00, and Sunday calls for non-hospitality.",
+  "closed_days": "Strict Sunday retail closure (Sonntagsruhe); many restaurants close Monday or Tuesday (Ruhetag); doctor offices close Wednesday and Friday afternoons; state holidays vary.",
+  "booking_channels": "Doctolib and Jameda for doctors; OpenTable, TheFork, and Dish/Quandoo for dining; Treatwell for salons; phone still dominant for craftsmen and garages.",
+  "voice_menu": "Doctor practices increasingly use AI voice assistants (Aaron.ai/Doctolib) or keypad IVR; banks, Telekom, DHL, DB, and Bürgerämter use heavy IVR.",
+  "callback_habits": "Doctolib and OpenTable send SMS/email reminders; craftsmen and medical AI receptionists (Telefonassistent) take details and call/SMS back.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "德國晚餐普遍在 18:00～20:00 開席，許多傳統餐廳有週一或週二公休日（Ruhetag）且只收現金或德國 Girocard。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and arrival time in 24h (Uhrzeit, e.g. 19:00 Uhr)",
+        "Number of persons plus child highchair (Kinderstuhl) or dog (Hund)",
+        "Indoor (drinnen) vs beer garden/terrace (draußen/Biergarten)",
+        "Surname (auf welchen Namen) and mobile number",
+        "Time slot limit if busy weekend"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash only (nur Barzahlung) or EC-Karte only, no credit cards",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Outdoor Biergarten tables are walk-in only (keine Reservierung draußen)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends OpenTable/online link for large-group card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "德國診所（Arztpraxis）電話開放時段極窄（常僅早上接聽，週三週五下午休診），且必問「公保或私保（gesetzlich oder privat）」。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Public statutory vs private health insurance (gesetzlich oder privat versichert / Selbstzahler)",
+        "Existing patient vs new patient (Bestandspatient oder Neupatient — many have Aufnahmestopp!)",
+        "Symptoms, check-up, or referral status (Überweisung vorhanden?)",
+        "Patient surname and first name",
+        "Callback mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "AI phone bot (Telefonassistent) records request for SMS callback",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "No public-insurance slots for months; offers self-pay (Selbstzahler) or Doctolib",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth (Geburtsdatum — almost always asked!) or Versichertennummer",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "傳統髮廊（Friseur）非常習慣電話預約，都會區美甲與美容亦常用 Treatwell。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Exact service (Waschen/Schneiden/Föhnen, Ansatzfarbe/Strähnen, Maniküre, Massage)",
+        "Hair length or gel removal",
+        "Preferred day, hour, and stylist",
+        "Surname and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash-only salon policy mentioned",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "24-hour Ausfallhonorar (no-show fee) policy",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands PayPal/bank transfer deposit upfront",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Kfz-Werkstatt）在 10 月（O bis O）與復活節換胎季極滿；驗車（TÜV/HU）與保養皆可電話預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model and license plate (Kennzeichen), or appliance/phone model",
+        "Work needed (Inspektion, HU/AU TÜV, Reifenwechsel, Fehlersuche)",
+        "Whether tires are stored at shop (eingelagert)",
+        "Morning drop-off time and replacement car (Werkstattersatzwagen)",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Paid Kostenvoranschlag (estimate fee) if repair declined",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks HSN/TSN vehicle type code from Fahrzeugschein if special part needed",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone PIN code over call",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands prepayment to order part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "披薩、希臘菜、亞餐與義大利餐廳普遍接受電話訂自取（zum Mitnehmen / Selbstabholung）到店付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Abholung (pickup) vs Lieferung",
+        "Menu item numbers (Nummer auf der Karte) and sizes",
+        "Pickup time (15–30 mins)",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash only on pickup",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Delivery handled via Lieferando / Wolt only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests PayPal/card payment before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "德國獨立書店（隔夜調書極快！）、肉鋪（Metzgerei）、麵包店與藥局（Apotheke 調藥）非常歡迎電話預訂留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, ISBN/PZN code, size, or weight",
+        "Quantity and stock/wholesaler check",
+        "Pickup day/hour (mind Saturday early closing in small towns)",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pharmacy/bookshop orders item for afternoon or next-morning pickup unpaid",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests upfront bank transfer for custom order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所、牙醫與物理治療嚴格執行提前 24 小時取消規定（否則收 Ausfallhonorar 空診費）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and phone number",
+        "Original date and 24h time",
+        "New preferred Termin or Absage (cancellation)",
+        "Party count if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Ausfallhonorar fee charged inside 24h cancellation window",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Arztpraxis asks Geburtsdatum (birth date) to verify identity",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (warme Küche hours, Kartenzahlung, Hund erlaubt, Ruhetag, stock)",
+        "Intended visit day/time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Restaurant open until 23:00, but warme Küche (hot kitchen) closes at 21:00",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "鄉鎮 Gasthof / Pension 很習慣電話與 Email 訂房；城市連鎖飯店多有語音選單並要求信用卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Anreise and Abreise dates",
+        "Adults, children, and Doppelzimmer vs Einzelzimmer",
+        "Frühstück (breakfast) and Parkplatz",
+        "Full name, address/email for written Buchungsbestätigung, and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Kurtaxe (spa/visitor tax) extra; reception closes at 20:00 (Schlüsselsafe for late arrival)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends confirmation email requesting card guarantee after 18:00 arrival",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "保齡球道（Kegelbahn/Bowling）、網球場與團體導覽可電話訂，密室與連鎖場館多走網站預付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Lane, court, or room type",
+        "Date, 24h start time, and hours",
+        "Headcount",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs standard tickets to online shop",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires Vorkasse (advance transfer) to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須給完整地址與門鈴姓氏（Klingelschild，德國公寓無房號全靠門鈴名牌！）；工匠（Handwerker）常滿檔數週。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Trade needed (Sanitär/Heizung, Elektriker, Schlüsseldienst, Reinigung, Kammerjäger)",
+        "Street, house number, Hinterhof/Vorderhaus, floor, postal code, and name on Klingelschild",
+        "Tenant vs homeowner (tenants often need Hausverwaltung approval!)",
+        "Preferred window",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes Anfahrtspauschale (travel flat fee) + hourly rate; emergency Schlüsseldienst night/weekend surcharge",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Craftsman asks tenant whether landlord/Hausverwaltung commissioned the repair",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands advance payment before dispatching",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Tierarzt）、美容（Hundefriseur）與寄宿（Tierpension）皆採預約制，獸醫按 GOT 法定倍數收費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Tierarzt Termin, Hundefriseur, or Tierpension",
+        "Species, breed, weight, age, and intact/neutered",
+        "EU-Heimtierausweis vaccinations",
+        "Preferred date and hour",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Emergency/weekend vet charges mandatory GOT emergency fee + higher multiplier",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Tierpension requires advance transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "DHL、Hermes、DPD、UPS 全國專線皆為語音機器人或按鍵選單，僅獨立車廠、乾洗與地方貨運可直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Sendungsnummer or Auftragsnummer / Abholschein",
+        "Surname and PLZ (5-digit postal code)",
+        "Item description",
+        "Pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "DHL/Hermes hotline handled by automated voice bot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Packstation Abholcode",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信、銀行、保險、電力與德國鐵路/漢莎客服皆有語音選單並受 DSGVO（GDPR）嚴格限制須本人核身。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Voice/keypad IVR routing",
+        "Contract holder verification (Vertragsinhaber)",
+        "Geburtsdatum, Kundennummer, and Kundenkennwort / Telefon-PIN",
+        "IBAN last digits check"
+      ],
+      "may_come_up": [
+        {
+          "what": "DSGVO strictly blocks third party without written Vollmacht on file",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Geburtsdatum, Kundenkennwort, Telefon-PIN, IBAN, or TAN",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "德國各地 Taxi-Zentrale、機場接送（Flughafentransfer）與地方租車門市非常習慣電話預訂。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Street, house number, Klingelschild name, and pickup time",
+        "Destination or airport/Hauptbahnhof",
+        "Passengers, suitcases, Großraumtaxi (van), or Kindersitz (child seat class!)",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Taxi-Zentrale uses automated computer voice for repeat callers or queues briefly",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Großraumtaxi (5+ pax) surcharge applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks Führerschein or credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "often",
+      "before_dialing_zh": "ImmoScout24 熱門城市租房多強制站內投遞申請（含 SCHUFA 與薪資單），中小型城市房仲與商用物件仍接電話。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Object address or ImmoScout24/Immowelt Objektnummer",
+        "Household size, occupation, net income, and pets",
+        "Move-in date (Einzugstermin)",
+        "Viewing appointment (Besichtigungstermin)",
+        "Full name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Makler accepts inquiries only via ImmoScout24 contact form due to high volume",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests Kaution/fee before viewing (scam)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政局（Bürgeramt / 115）辦戶籍（Anmeldung）皆須上網搶號且個資受保護；托兒所（Kita）問開放日參觀可打電話。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General requirement question (115 Behördennummer) or Kita info-afternoon",
+        "Child age (Krippe <3 vs Elementar 3–6) and Kita-Gutschein status",
+        "District/Stadtteil",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Anmeldung/passport appointments booked online only; Kita places via central Kita-Navigator",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Steuer-ID, Ausweisnummer, or child birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "de": {
+      "party": [
+        "Tisch für 4",
+        "2 Erwachsene und 1 Kind",
+        "wir sind zu dritt",
+        "für 2 Personen",
+        "4 Pers.",
+        "5 Personen + Kinderstuhl",
+        "alleine",
+        "Gruppe mit 8 Leuten"
+      ],
+      "time": [
+        "um halb acht abends",
+        "19:30 Uhr",
+        "viertel nach sechs",
+        "viertel vor acht",
+        "mittags 12:30",
+        "dreiviertel acht",
+        "morgen früh um 9",
+        "gegen 20 Uhr"
+      ],
+      "date": [
+        "morgen",
+        "übermorgen",
+        "diesen Freitag",
+        "nächsten Dienstag",
+        "am 25.11.",
+        "25. November",
+        "Samstagabend"
+      ],
+      "name": [
+        "auf den Namen Mustermann",
+        "Max Müller",
+        "Erika Schmidt",
+        "Familie Weber",
+        "Herr Schneider"
+      ],
+      "phone": [
+        "0151 12345678",
+        "017612345678",
+        "Rückruf unter 0160 9876543",
+        "030 12345678"
+      ],
+      "booking_words": [
+        "Tisch reservieren",
+        "Reservierung",
+        "Platz freihalten",
+        "Zimmer buchen",
+        "Bahn reservieren"
+      ],
+      "appointment_words": [
+        "Termin vereinbaren",
+        "Arzttermin machen",
+        "Friseurtermin",
+        "TÜV und Inspektion",
+        "Zahnreinigung"
+      ],
+      "order_words": [
+        "zum Mitnehmen bestellen",
+        "zur Abholung",
+        "zurücklegen lassen",
+        "vorbestellen",
+        "in der Apotheke bestellen"
+      ],
+      "change_words": [
+        "Termin verschieben",
+        "eine halbe Stunde später",
+        "Reservierung stornieren",
+        "Termin absagen",
+        "auf Freitag verlegen"
+      ],
+      "inquiry_words": [
+        "fragen wie lange warme Küche ist",
+        "Kartenzahlung möglich?",
+        "sind Hunde erlaubt?",
+        "Vorrätigkeit prüfen",
+        "Öffnungszeiten fragen"
+      ],
+      "false_friends": [
+        "3. OG",
+        "Hinterhof Aufgang 2",
+        "Menü Nr. 4",
+        "60 Min Massage",
+        "2er Pack",
+        "Linie 8"
+      ]
+    }
+  }
+}

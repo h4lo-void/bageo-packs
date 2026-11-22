@@ -1,0 +1,775 @@
+{
+  "region": "lu",
+  "countries": [
+    "lu"
+  ],
+  "region_name_zh": "盧森堡",
+  "region_name": "Luxembourg",
+  "languages": [
+    {
+      "code": "lb",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    },
+    {
+      "code": "de",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Match how staff answers: 'Moien' invites lb/de/fr, 'Bonjour' invites French (fr — dominant in restaurants/shops/salons!); English (en) works widely in Luxembourg City.",
+  "english_ok": "often — Widely understood in Luxembourg City clinics, restaurants, hotels, and offices; French dominates cross-border service staff.",
+  "politeness": "Open with 'Moien' (lb) or 'Bonjour Madame/Monsieur' (fr), use formal 'Dir' (lb) / 'vous' (fr) / 'Sie' (de); close with 'Merci, äddi' or 'Bonne journée, au revoir'.",
+  "name_tip": "Surname and first name (e.g. Marc Schmit, Anne Weber); spell clearly since staff and callers span French, German, Portuguese, and English backgrounds.",
+  "phone_tip": "Mobile 9 digits (621 123 456, 661..., 691...) read 3-3-3 or 3-2-2-2; landlines 8 digits (27 12 34 56) or shorter legacy numbers; SMS confirmation standard.",
+  "time_tip": "24-hour standard ('19h30' / '19:30 Auer'); watch Luxembourgish/German 'halwer aacht' = 7:30 vs French 'sept heures et demie' = 7:30! Always confirm 24h.",
+  "number_tip": "In French, both standard soixante-dix/quatre-vingt-dix and Belgian septante/nonante are heard from cross-border staff—confirm digits cleanly.",
+  "avoid_calling": "Avoid lunch rush 12:00–14:00, clinic lunch break 12:00–14:00, dinner rush 19:00–20:45, and calls after 20:00.",
+  "closed_days": "Retail closes Sundays (except select Knauf/border malls); many restaurants close Sunday night and Monday; August collective construction leave (congé collectif).",
+  "booking_channels": "Doctena (doctena.lu) dominates medical/dental; Salonkee (salonkee.lu) dominates hair/beauty; Zenchef/Resengo/TheFork for dining.",
+  "voice_menu": "Hospitals (CHL/Hôpitaux Robert Schuman), CNS/CCSS, banks, POST/Tango, Luxair, and communes use multilingual keypad IVR.",
+  "callback_habits": "Doctena, Salonkee, and Zenchef send automated SMS reminders 24h prior.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "盧森堡餐廳服務生多為法比跨境通勤者，法文（或英文）在餐飲業其實比盧森堡文更普遍；熱門餐廳常用 Zenchef 綁卡。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and lunch (midi) vs dinner (soir 19:00–21:00)",
+        "Number of guests and highchair/stroller",
+        "Indoor vs terrace seating",
+        "Surname and 6x1 mobile number",
+        "Dietary/allergy requirements"
+      ],
+      "may_come_up": [
+        {
+          "what": "Staff answers in French only ('Bonjour') and doesn't speak Luxembourgish",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends Zenchef SMS link for card pre-authorization",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "盧森堡醫師與牙醫高度普及 Doctena，電話掛號時秘書幾乎必問 13 碼社會保險號（Matricule CNS，內含生日）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "New or existing patient at the cabinet",
+        "Reason for consultation or dental issue",
+        "Patient surname and first name",
+        "Preferred slot and language spoken by doctor",
+        "Mobile number for Doctena SMS"
+      ],
+      "may_come_up": [
+        {
+          "what": "Missed-appointment fee (indemnité pour rendez-vous non excusé) warning",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Directs routine bookings to Doctena.lu",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks 13-digit Matricule national / CNS number or date of birth",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "盧森堡多數沙龍使用 Salonkee（卢森堡本土平台），電話與線上預約並行。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service (coupe, balayage, manucure, massage)",
+        "Hair length or nail removal",
+        "Preferred date, hour, and stylist",
+        "Surname and 6x1 mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Salonkee.lu if card deposit required",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate Payconiq payment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Garage）10～11月強制換冬季胎旺季極滿；汽車年檢（SNCT Sandweiler/Esch）須上官方網站預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle registration plate and make/model, or device model",
+        "Seasonal tire swap (pneus hiver), révision, or fault",
+        "Tire hotel storage status (gardiennage de pneus)",
+        "Drop-off morning slot",
+        "Surname and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "SNCT technical inspection must be booked on snct.lu",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Courtesy car fee quoted per day",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks handset PIN code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance transfer for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "披薩、葡式烤雞（Churrasqueira）、壽司與中餐常接電話訂自取（à emporter），外送多走 Wolt 或 Wedely。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "À emporter vs local delivery",
+        "Exact dishes and quantities",
+        "Pickup time",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Delivery handled via Wolt or Wedely only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card or Payconiq payment before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立麵包甜點店（Fischer/Oberweis 分店或社區店）、書店與肉鋪可電話留貨；大商場走總機。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, size, or reference",
+        "Quantity and branch check",
+        "Same-day pickup hour",
+        "Surname and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holds unpaid item until closing (~18:00–19:00)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Holiday cake/catering order requires deposit in store",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所與美容院嚴格執行 24 小時前改退規定，逾時缺席醫師可開立未報銷罰單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and mobile number",
+        "Original date and hour",
+        "New preferred slot or cancellation",
+        "Updated guest count if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Unexcused <24h medical/salon cancellation fee applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks Matricule CNS to locate appointment",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (hours, parking, dog policy, stock, language spoken)",
+        "Planned visit day/time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Closed during August congé collectif",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "鄉鎮旅館（Moselle/Müllerthal/Ardennes）電話友善，市區商務飯店多有按鍵分機且需信用卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Guests and room type",
+        "Breakfast and parking",
+        "Full name, mobile, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers sending secure email link to enter credit card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "保齡球、室內網球/Padel與團體休閒可電話問，市政泳池或課程多走網站。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court, lane, or activity",
+        "Date, hour, and duration",
+        "Participants",
+        "Surname and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs court booking to club online app/portal",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires online prepayment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須給完整地址與 L-xxxx 4碼郵遞區號；注意每年 8 月營建工班有集體長假（Congé collectif），非急修難約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (chauffagiste, plombier, électricien, serrurier, nettoyage)",
+        "Street, number, residence name, floor, and 4-digit postal code",
+        "Preferred slot",
+        "Surname and 6x1 mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes steep Luxembourg call-out fee (déplacement) + hourly rate",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Trades closed during August congé collectif except emergency",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks residence digicode over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands bank transfer upfront",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、美容（Toilettage）與寄宿皆需預約，跨境寄宿（法德比邊境）亦常查歐盟寵物護照與狂犬病疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult, toilettage, or pension",
+        "Species, breed, weight, age",
+        "Rabies, kennel cough, and EU pet passport + microchip",
+        "Preferred date and hour",
+        "Surname and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Waitlist for grooming 2–4 weeks ahead",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Boarding requires advance bank transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "POST Luxembourg、DHL、DPD 專線皆有語音選單；獨立門市、車行與乾洗店才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking or repair order number",
+        "Surname and postal code",
+        "Item description",
+        "PackUp locker vs counter readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "POST hotline uses multilingual keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks PackUp pickup PIN code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、電信（POST/Tango/Orange）、Enovos 電力與 Luxair 皆有多語按鍵 IVR 並要求 LuxTrust 或 GDPR 本人核驗。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Multilingual keypad prompt (LB/FR/DE/EN)",
+        "Titular verification",
+        "Matricule, birth date, or client number",
+        "LuxTrust or OTP check"
+      ],
+      "may_come_up": [
+        {
+          "what": "Keypad language menu + GDPR blocks assistant",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Matricule, birth date, IBAN/card, or LuxTrust OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "盧森堡大眾運輸免費，計程車（Webtaxi / Colux）費率高但機場（Findel）接送與租車行電話預約很穩定。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact pickup address and time",
+        "Destination or Findel Airport",
+        "Passengers, suitcases, and child seat",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes fixed Webtaxi eco/standard tariff vs meter",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card or license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "atHome.lu 房仲電話約看房時，幾乎必先問工作合約（CDI 試用期過沒）與稅後月薪（須達房租 3 倍）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Listing on atHome.lu / Immoweb and commune",
+        "CDI status (hors période d'essai) and household net income",
+        "Occupants, pets, and move-in date",
+        "Viewing slot",
+        "Full name, mobile, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agency requires emailing dossier before scheduling visit",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks 13-digit CNS matricule over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests deposit payment before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公社（Gemeng/Commune）與機關常有按鍵分機且個資限本人；私立托兒所（Crèche）可電話問名額。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Administrative procedure (Bierger-Center) or crèche tour",
+        "Child age and chèque-service accueil eligibility question",
+        "Commune of residence",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Commune switchboard uses keypad routing or MyGuichet.lu appointment",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks 13-digit Matricule national",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "lb": {
+      "party": [
+        "Dësch fir 4",
+        "2 Erwuessener an 1 Kand",
+        "mir sinn zu drëtt",
+        "fir 2 Leit",
+        "4 Persounen",
+        "5 Leit + Kannerstull",
+        "eleng",
+        "Grupp vun 8"
+      ],
+      "time": [
+        "ëm halwer aacht owes",
+        "19:30 Auer",
+        "mëttes ëm 12:30",
+        "véierel op siwen",
+        "véierel vir aacht",
+        "muer um 10 Auer",
+        "géint 20 Auer",
+        "18:00"
+      ],
+      "date": [
+        "muer",
+        "iwermuer",
+        "dëse Freideg",
+        "nächsten Dënschdeg",
+        "de 25. November",
+        "e Samschdeg den Owend"
+      ],
+      "name": [
+        "op den Numm Marc Schmit",
+        "Anne Weber",
+        "Luc Muller",
+        "Sarah Hoffmann",
+        "Famill Kieffer"
+      ],
+      "phone": [
+        "621 123 456",
+        "691123456",
+        "meng Nummer 661 987 654",
+        "27 12 34 56"
+      ],
+      "booking_words": [
+        "en Dësch reservéieren",
+        "Reservatioun maachen",
+        "Zëmmer buchen",
+        "Terrain reservéieren",
+        "Plaz halen"
+      ],
+      "appointment_words": [
+        "Rendez-vous huelen",
+        "Zänndokter RDV",
+        "Coiffeur buchen",
+        "Auto Revisioun",
+        "Termin maachen"
+      ],
+      "order_words": [
+        "fir matzehuelen bestellen",
+        "op d'Säit leeën",
+        "virbestellen",
+        "reservéieren am Buttek",
+        "ofhuelen"
+      ],
+      "change_words": [
+        "Rendez-vous verréckelen",
+        "eng hallef Stonn méi spéit",
+        "Reservatioun annuléieren",
+        "Zäit änneren",
+        "ofsoen"
+      ],
+      "inquiry_words": [
+        "nofroen ob se op hunn",
+        "froen ob Hënn erlaabt sinn",
+        "Stock nofroen",
+        "wéi laang ass d'Kichen op",
+        "Präis froen"
+      ],
+      "false_friends": [
+        "2. Stack",
+        "Menü fir 2",
+        "60 Minutte Massage",
+        "Linn 4",
+        "Hausnummer 3",
+        "Pak vu 6"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4",
+        "2 adultes et 1 enfant",
+        "nous sommes 3",
+        "4 couverts",
+        "pour 2 personnes",
+        "6 personnes"
+      ],
+      "time": [
+        "19h30",
+        "midi et demi",
+        "20h00",
+        "sept heures et demie",
+        "14h15",
+        "demain à 10h"
+      ],
+      "false_friends": [
+        "2e étage",
+        "menu pour 2",
+        "soin 60 min",
+        "porte 4"
+      ]
+    },
+    "de": {
+      "party": [
+        "Tisch für 4",
+        "2 Erwachsene und 1 Kind",
+        "zu dritt",
+        "für 2 Personen",
+        "5 Personen",
+        "Gruppe von 6"
+      ],
+      "time": [
+        "halb acht abends",
+        "19:30 Uhr",
+        "12:30 Uhr",
+        "viertel nach sechs",
+        "20 Uhr",
+        "morgen um 10"
+      ],
+      "false_friends": [
+        "2. Etage",
+        "Menü für 2",
+        "60 Min Massage",
+        "Linie 4"
+      ]
+    }
+  }
+}

@@ -1,0 +1,755 @@
+{
+  "region": "latam",
+  "countries": [
+    "co",
+    "pe",
+    "cl",
+    "ec",
+    "ve",
+    "bo",
+    "py",
+    "gt",
+    "hn",
+    "sv",
+    "ni",
+    "cr",
+    "pa",
+    "cu",
+    "do",
+    "pr"
+  ],
+  "region_name_zh": "中美洲、加勒比海西語區與南美西語國家",
+  "region_name": "Latin America",
+  "languages": [
+    {
+      "code": "es",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use neutral, polite Latin American Spanish (es) with formal 'usted'; in Puerto Rico (pr) or Panama/Costa Rica tourism, switch to English smoothly if staff leads.",
+  "english_ok": "sometimes — Widely spoken in Puerto Rico, Panama City, and Costa Rica tourist hubs; limited elsewhere outside upscale hotels.",
+  "politeness": "Courteous 'Buenos días/Buenas tardes', 'por favor', and 'usted' (essential in Colombia, Costa Rica, and Andes; universally polite in Caribbean/Chile).",
+  "name_tip": "Given name and first surname (e.g. Andrés Gómez, Camila Rojas); hotels and clinics ask two surnames; avoid national ID requests.",
+  "phone_tip": "Formats vary (CO 300 123 4567, CL 9 1234 5678, PE 912 345 678, CR 8123-4567, PR 787-555-0123); read in pairs/triplets; WhatsApp rules everywhere.",
+  "time_tip": "12-hour AM/PM spoken everywhere (7 de la noche, 12:30 del mediodía); 'faltan quince para las ocho' = 7:45; confirm AM/PM explicitly.",
+  "number_tip": "Caribbean/Chilean Spanish drops syllable-final 's' ('do' for dos, 'tre' for tres); confirm party count and digits carefully.",
+  "avoid_calling": "Avoid lunch peak 12:30–14:30 (small-town clinics/shops may close 12:30–14:00) and calls after 20:30–21:00.",
+  "closed_days": "Many clinics/workshops close Sundays and Saturday afternoons; Holy Week (Semana Santa), Christmas–New Year, and Carnaval cause multi-day closures.",
+  "booking_channels": "WhatsApp Business is the primary channel across all 16 countries; Mesa 24/7 (PE/CL) and OpenTable for upscale dining; Doctoralia in CO/CL/PE.",
+  "voice_menu": "EPS/Isapre health networks, banks, Claro/Movistar/Tigo, airlines (Avianca/LATAM/Copa), and utilities use heavy keypad IVR.",
+  "callback_habits": "WhatsApp confirmation message or location pin request is standard; clinics and salons message 24h ahead to reconfirm.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "秘魯與智利高檔餐廳多用 Mesa 24/7 綁卡，一般餐廳接電話與 WhatsApp；多數國家會問國家證件號但訂位其實非必須。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and lunch vs dinner hour (almuerzo ~13:00 vs cena ~20:00)",
+        "Number of guests and children/highchair (silla de bebé)",
+        "Terrace vs indoor salon preference",
+        "Name and mobile WhatsApp number",
+        "Parking/valet or celebration note"
+      ],
+      "may_come_up": [
+        {
+          "what": "Upscale Lima/Santiago/Bogotá restaurant sends Mesa 24/7 or CoverManager card-hold link",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "15-minute grace period (tolerancia) on table",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Cédula/DNI/RUT for reservation record",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate Yape/Plin/Nequi/SINPE Móvil/ATH Móvil transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公保醫療網（如哥國 EPS、智利醫療中心）總機常需按鍵輸入證件號；私人牙醫與診所較適合電話約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Private self-pay (particular) vs insurer (EPS/Prepagada in CO, Isapre/Fonasa in CL, Seguro/Plan médico in PR)",
+        "Specialty or dental service and first-visit status",
+        "Patient full name",
+        "Preferred date, time, and doctor",
+        "Mobile WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Large clinic IVR demands keying in RUT/Cédula/DNI digits",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes private consultation fee vs insurance copay (bono/copago)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks RUT (CL), Cédula (CO/CR/EC/VE/DO), DNI (PE), or health insurance card number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獨立美甲、美睫與沙龍常要求透過當地手機錢包（Yape、Nequi、SINPE、ATH Móvil）預付訂金。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "spec"
+      ],
+      "usually_asked": [
+        "Service (corte, cepillado/blower, uñas, masaje)",
+        "Preferred date and hour",
+        "Stylist preference",
+        "Client name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Salon asks owner to confirm via WhatsApp message",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands mobile-wallet deposit (abono via Nequi/Yape/SINPE/ATH Móvil) now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獨立修車廠（Taller）與家電手機行電話直接；哥倫比亞波哥大與秘魯利馬等大城送修汽車需注意車牌限行（Pico y placa）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model/year/plate or device model",
+        "Maintenance or fault symptoms",
+        "Drop-off date and hour",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pico y placa / restricción vehicular affects which day car can drive in",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Diagnostic fee (revisión técnica) quoted upfront",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone unlock PIN or national ID",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands transfer upfront to order spare part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "烤雞店（Pollería，如秘魯 Pollo a la brasa）、披薩與中餐（Chifa）極常接電話訂自取或現金外送。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup (para recoger/llevar) vs delivery (delivery/domicilio)",
+        "Order items, combos, sauces, and drinks",
+        "Pickup time or exact address/landmark",
+        "Name and phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Asks whether customer needs tax receipt (boleta vs factura) or cash change",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Directs card/online payment orders to PedidosYa or Rappi",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires Yape/Plin/Nequi/SINPE transfer before dispatching rider",
+          "handle": "decline"
+        },
+        {
+          "what": "Asks RUC/RUT/Cédula for invoice",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立五金行（ferretería）、藥局、花店與書店可電話查現貨（stock）並短暫留貨；大賣場走客服語音。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, brand, model, or size",
+        "Quantity and branch stock check",
+        "Same-day pickup hour",
+        "Customer name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cuba/Venezuela shops may quote currency/payment method acceptance rules",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Holds item at counter for a few hours only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires instant mobile payment deposit to reserve item",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "電話改期或取消很常見，醫療診所偶爾會要求核對證件號以定位病歷。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Full name and phone number",
+        "Original date and hour",
+        "New slot or cancellation",
+        "Service or party count"
+      ],
+      "may_come_up": [
+        {
+          "what": "Late change forfeits prior abono/deposit",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks Cédula/DNI/RUT to pull up appointment",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (hours, secure parking/parqueadero, pet policy, stock, power/water status)",
+        "Planned visit time",
+        "Group size",
+        "Whether caller wishes to book"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers sending catalog/menu PDF via WhatsApp",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "中小型旅館與生態旅宿常接電話並引導加 WhatsApp 發付款連結；大型飯店有語音總機且需刷卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults and children",
+        "Room type and breakfast/AC inclusion",
+        "Guest full name, phone, and nationality (foreign tourists exempt from VAT in PE/CL/CO with passport at check-in)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Foreign non-resident tax exemption rule explained (bring passport at check-in)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends payment link by email/WhatsApp to confirm",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests passport/ID number or credit card digits over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate bank/wallet transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "五人制足球場（Cancha sintética）、板網球、保齡球與體驗課常接電話問場次，鎖場多需預付訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court, lane, or tour/class type",
+        "Date, hour, and duration",
+        "Participant count",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holds court provisionally for 30–60 mins pending owner's deposit",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires 50% transfer (Yape/Nequi/SINPE/Zelle) to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "地址格式各國差異極大（如哥倫比亞 Carrera/Calle 座標、哥斯大黎加地標方位），強烈建議主人寫明地標並準備傳 WhatsApp 定位。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service type (plomería/gasfitería, aire acondicionado, electricidad, cerrajería)",
+        "Full local address with neighborhood/barrio/urbanización and reference landmark",
+        "Building security registration requirements (portería/garita)",
+        "Preferred visit day and window",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Technician asks owner to send Waze/Google Maps pin via WhatsApp (essential in CR/NI/PA)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Quotes inspection visit fee (visita técnica)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building access code or national ID",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands upfront mobile transfer before arriving",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、寵物洗澡美容（peluquería/baño）與寄宿（guardería/hotel canino）電話預約普遍。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "address"
+      ],
+      "usually_asked": [
+        "Vet consult, grooming bath/cut, or boarding",
+        "Breed, weight, age, and behavior",
+        "Vaccination and flea/tick status",
+        "Preferred slot or pet shuttle pickup (ruta/transporte)",
+        "Owner name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers paid door-to-door pet transport (ruta canina)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Boarding requires advance transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "全國物流（Servientrega、Chilexpress、Olva、Correos）客服多有語音按鍵，地方營業所或獨立維修店才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Waybill/tracking number (número de guía / orden de transporte)",
+        "Recipient name and destination city/district",
+        "Item or repair ticket description",
+        "Branch pickup vs delivery status"
+      ],
+      "may_come_up": [
+        {
+          "what": "Main courier hotline uses keypad IVR requiring ID entry",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Cédula/DNI/RUT or delivery secret code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信（Claro/Movistar/Tigo）、銀行、水電與航空公司皆有按鍵選單並強制核對本人證件號（Cédula/DNI/RUT），AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Keypad IVR menu and ID number entry on keypad",
+        "Titular verification",
+        "Cédula/DNI/RUT, birth date, and security questions",
+        "Contract or claim number"
+      ],
+      "may_come_up": [
+        {
+          "what": "IVR blocks before human agent without keypad ID input",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Cédula/DNI/RUT, birth date, card number, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "安全無線計程車隊（Taxi Seguro / Radio Taxi）、機場接送與租車行常接電話派車，並回報車牌確保安全。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact pickup address, building/conjunto name, and time",
+        "Destination or airport",
+        "Passenger and luggage count",
+        "Passenger name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Dispatcher gives driver plate number and security code (clave) for safe boarding",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Fixed airport rate quoted in local currency or USD (EC/PA/SV/CR/VE)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests passport/ID or card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "房仲（Corredora/Inmobiliaria）電話約看房時，常先問保證人（Fiador/Codeudor）或收入證明條件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Neighborhood/building or portal listing code",
+        "Preferred viewing date and hour",
+        "Occupants, pets, and move-in timeline",
+        "Employment/solvency profile (aval/codeudor in CO/CL, depósito in PA/CR/PE)",
+        "Visitor name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Building guardhouse requires visitor full name in advance; ID shown physically on arrival",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Cédula/RUT/DNI number over phone or deposit before viewing",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政府機關多需線上預約且總機有按鍵選單；私立學校、雙語學校與幼兒園（Nido/Jardín/Preescolar）歡迎來電約參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Procedure requirements or school admissions tour",
+        "Child age and grade level",
+        "Academic calendar (Calendario A vs B in CO; March start in CL/PE)",
+        "Parent name and WhatsApp/email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public agency requires in-person or portal appointment with national ID",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks citizen ID (Cédula/DNI/RUT) or student birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "es": {
+      "party": [
+        "mesa para 4",
+        "2 adultos y 1 niño",
+        "somos 3",
+        "para dos",
+        "4 personas + silla de bebé",
+        "grupo de 6",
+        "1 persona",
+        "5 adultos"
+      ],
+      "time": [
+        "a las 7pm",
+        "12:30 del mediodía",
+        "8 de la noche",
+        "20:00",
+        "faltan 15 para las 7",
+        "mañana a las 10am",
+        "tipo 2 de la tarde",
+        "6:30 pm"
+      ],
+      "date": [
+        "mañana",
+        "pasado mañana",
+        "este viernes",
+        "el otro martes",
+        "25 de noviembre",
+        "el sábado en la noche"
+      ],
+      "name": [
+        "Andrés Gómez",
+        "a nombre de Camila Rojas",
+        "Luis Pérez",
+        "Valeria Castro",
+        "familia Morales"
+      ],
+      "phone": [
+        "300 123 4567",
+        "912 345 678",
+        "9 1234 5678",
+        "787-555-0123",
+        "8123-4567"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "separar mesa",
+        "apartar cupo",
+        "reservar cancha",
+        "reservar habitación"
+      ],
+      "appointment_words": [
+        "sacar cita",
+        "pedir hora médica",
+        "agendar cita",
+        "cita odontología",
+        "cupo peluquería"
+      ],
+      "order_words": [
+        "pedir para recoger",
+        "para llevar",
+        "separar producto",
+        "delivery",
+        "pedido a domicilio"
+      ],
+      "change_words": [
+        "reprogramar cita",
+        "correr media hora",
+        "cancelar reserva",
+        "cambiar de hora",
+        "anular hora"
+      ],
+      "inquiry_words": [
+        "averiguar horario",
+        "preguntar si tienen parqueadero",
+        "consultar stock",
+        "aceptan mascotas?",
+        "preguntar cuánto cuesta"
+      ],
+      "false_friends": [
+        "apto 302",
+        "Carrera 15 #85-20",
+        "combo para 2",
+        "masaje 60 min",
+        "piso 4",
+        "200 metros norte"
+      ]
+    }
+  }
+}

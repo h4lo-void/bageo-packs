@@ -1,0 +1,157 @@
+{
+  "name": "Libya",
+  "name_local": "ليبيا",
+  "iso": "ly",
+  "calling_code": "+218",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "Central Bank of Libya (CBL) & National Commercial Bank (NCB) 2025-2026: fake CBL foreign-exchange ($4,000 personal-purpose USD card) reservation calls/links, commercial bank & mobile-payment (Sadad, MobiCash) OTP vishing, and fake Libyana/Almadar prize or balance scams dominate.",
+  "cross_border_note": "Scammers frequently spoof Libyan bank pages and call from +218 prepaid SIMs or foreign WhatsApp numbers targeting CBL foreign-currency cardholders.",
+  "scams": [
+    {
+      "id": "ly_cbl_fx_quota_card",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال منظومة الأغراض الشخصية ومصرف ليبيا المركزي لحجز الدولار وسرقة البطاقة",
+      "name_en": "Fake CBL personal-purpose USD foreign-exchange quota card & OTP phishing call",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "مصرف ليبيا المركزي",
+        "منظومة الأغراض الشخصية",
+        "حجز مخصصات الدولار",
+        "بطاقة الأغراض الشخصية",
+        "الرقم الوطني"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "أعطني رمز التأكيد",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "شحن البطاقة فورا",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "بيانات البطاقة كاملة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رابط تفعيل المنظومة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as a CBL or commercial-bank employee offering instant activation or fast-track booking of the personal USD foreign-currency quota, asking for full card details, National ID, and the SMS OTP.",
+      "legit_en": "CBL foreign-currency reservations operate exclusively through the official CBL portal and the customer's own bank app without phone calls asking for OTPs.",
+      "bait_tactics": [
+        "تظاهر بأنك لا تتذكر بيانات جواز السفر واطلب منه الانتظار ريثما تبحث عن الملف.",
+        "اسأله عن اسم الفرع المصرفي المربوط بالمنظومة وقل إنك ستراجع شباك المصرف صباح الغد.",
+        "أخبره بأن الرسالة النصية تأخرت بسبب ضعف التغطية واطلب منه إعادة شرح خطوات الحجز."
+      ],
+      "sources": [
+        "https://cbl.gov.ly/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D9%85%D8%B5%D8%B1%D9%81-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D8%AC%D8%AA%D9%85-9/",
+        "https://www.ncb.ly/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AD%D9%85%D9%84%D8%A9-%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%A6%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A"
+      ]
+    },
+    {
+      "id": "ly_bank_epayment_otp",
+      "typology": "otp_theft",
+      "name": "انتحال المصارف الليبية وخدمات الدفع الإلكتروني (موبي كاش / سداد) لطلب رموز التحقق",
+      "name_en": "Fake Libyan commercial bank or mobile wallet (MobiCash / Sadad) OTP theft call",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "المصرف التجاري الوطني",
+        "مصرف الوحدة",
+        "خدمة موبي كاش",
+        "تطبيق سداد",
+        "تحديث الحساب المصرفي"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق السري",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "تحديث البطاقة بالرابط",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "تجميد الحساب المصرفي",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرسل الكود الآن",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller claims to be customer support from NCB, Wahda Bank, Jumhouria Bank, or an e-payment wallet warning that the account or local payment card will be suspended unless the customer shares the verification OTP.",
+      "legit_en": "Libyan banks explicitly warn they never request confidential banking data or OTP codes via phone calls, SMS, or social media.",
+      "bait_tactics": [
+        "قل إنك ستتصل بنفسك بمركز خدمة الزبائن الرسمي للمصرف للتأكد من حالة البطاقة.",
+        "ادّعِ أن الهاتف لا يعرض الرسائل أثناء المكالمة واطلب منه اسم القسم.",
+        "تظاهر بأن تطبيق المصرف يطلب تحديثاً بطيئاً واستفسر منه عن تفاصيل الفرع."
+      ],
+      "sources": [
+        "https://www.ncb.ly/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AD%D9%85%D9%84%D8%A9-%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%A6%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A",
+        "https://cbl.gov.ly/micifaf/2024/01/%D8%A7%D9%84%D9%82%D9%88%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D8%AA%D9%86%D8%B8%D9%8A%D9%85%D9%8A%D8%A9-%D9%84%D8%B4%D8%A8%D9%83%D8%A9-%D8%A7%D9%84%D8%AF%D9%81%D8%B9-%D8%A7%D9%84%D9%85%D8%AD%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%84%D9%8A%D8%A8%D9%8A%D8%A9.pdf",
+        "https://www.wahdabank.com.ly/page/privacy-policy"
+      ]
+    },
+    {
+      "id": "ly_telecom_prize_balance",
+      "typology": "prize_lottery",
+      "name": "احتيال جوائز الاتصالات وكروت الشحن وتحويل الرصيد (ليبيانا / المدار)",
+      "name_en": "Fake Libyana or Almadar prize draw demanding prepaid top-up cards or wallet codes",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "شركة ليبيانا",
+        "المدار الجديد",
+        "سحب جوائز نقدية",
+        "كروت شحن رصيد"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "إرسال أرقام الكروت",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تحويل رصيد للتفعيل",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رسوم تسليم الجائزة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "كود تفعيل الشريحة",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the subscriber's +218 number won a cash or car prize from a Libyan mobile operator or bank promotion, asking for prepaid top-up voucher numbers, balance transfers, or a SIM/wallet code.",
+      "legit_en": "Official Libyan telecom and bank promotions never ask winners to send prepaid scratch-card codes or balance transfers to claim prizes.",
+      "bait_tactics": [
+        "تظاهر بالسعادة واسأله عن عنوان مقر الشركة الرئيسي في طرابلس أو بنغازي لاستلام الجائزة باليد.",
+        "قل إن المتجر القريب مغلق حالياً ولا توجد لديك كروت شحن، واسأله إن كان يمكن خصم الرسوم من الجائزة.",
+        "اطلب منه تكرار شروط المسابقة ببطء بحجة أن الصوت يتقطع."
+      ],
+      "sources": [
+        "https://www.ncb.ly/ar/%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2-%D8%A7%D9%84%D8%A5%D8%B9%D9%84%D8%A7%D9%85%D9%8A/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%81-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AD%D9%85%D9%84%D8%A9-%D8%AA%D9%88%D8%B9%D9%88%D9%8A%D8%A9-%D9%84%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%A3%D9%85%D8%A7%D9%86-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D9%88%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D8%A7%D9%84%D8%B2%D8%A8%D8%A7%D8%A6%D9%86-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A",
+        "https://cbl.gov.ly/%D9%85%D8%AD%D8%A7%D9%81%D8%B8-%D9%85%D8%B5%D8%B1%D9%81-%D9%84%D9%8A%D8%A8%D9%8A%D8%A7-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D8%AC%D8%AA%D9%85-9/"
+      ]
+    }
+  ]
+}

@@ -174,6 +174,100 @@
         "https://www.arachchi.ge/works/telecom-enabled-fraud-sri-lanka-2026/",
         "https://cert.gov.lk/report_incident"
       ]
+    },
+    {
+      "id": "lk_ta_cbsl_bank_otp_customs",
+      "typology": "otp_theft",
+      "name": "இலங்கை மத்திய வங்கி / வங்கி OTP மற்றும் சுங்கப் பொதி மோசடி",
+      "name_en": "Tamil-language Sri Lankan bank OTP vishing and fake customs parcel clearance scam",
+      "prevalence": "high",
+      "lang": "ta",
+      "context_keywords": [
+        "இலங்கை மத்திய வங்கி",
+        "வங்கி கணக்கு முடக்கம்",
+        "சுங்கத் திணைக்களம்",
+        "பரிசுப் பொதி",
+        "இணைய வங்கி"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ஒருமுறை கடவுச்சொல் சொல்லவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "சுங்கக் கட்டணம் செலுத்தவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "அட்டை எண் கூறவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "இணைப்பை அழுத்தி உறுதிப்படுத்தவும்",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Tamil-speaking caller poses as a Sri Lankan commercial bank officer, Central Bank (CBSL), or Sri Lanka Customs claiming an account freeze or held foreign parcel, demanding SMS OTPs, card CVVs, or advance fee transfers.",
+      "legit_en": "Central Bank of Sri Lanka ('Be Scam Proof') and licensed banks never call citizens in Sinhala, Tamil, or English to ask for OTPs, passwords, or private fee transfers.",
+      "bait_tactics": [
+        "மன்னிக்கவும், தொலைபேசி இணைப்பு சரியாகக் கேட்கவில்லை, நான் அருகிலுள்ள வங்கி கிளைக்கு நேரில் சென்று விசாரிக்கிறேன்.",
+        "என் கண் கண்ணாடி பக்கத்து அறையில் உள்ளது, உங்கள் அலுவலக முகவரியை மெதுவாக மீண்டும் சொல்லுங்கள்."
+      ],
+      "sources": [
+        "https://www.cbsl.gov.lk/en/be-scam-proof-new",
+        "https://www.cbsl.gov.lk/en/digital-scams"
+      ]
+    },
+    {
+      "id": "lk_en_cbsl_police_bank_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "Fake Sri Lankan Bank / CBSL / Customs OTP & Task Scam",
+      "name_en": "English-language Sri Lankan bank OTP vishing, customs parcel fee, and Telegram task scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "central bank",
+        "sri lanka customs",
+        "suspicious card transaction",
+        "telegram part-time task",
+        "online banking"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share one-time password",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay customs clearance fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "top-up task wallet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read card cvv",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in English poses as a Sri Lankan bank fraud desk, Sri Lanka Customs, or online task recruiter demanding SMS OTPs, advance parcel duties, or task top-up transfers.",
+      "legit_en": "CBSL and Sri Lankan banks never request OTPs or CVV codes over the phone and warn against advance-deposit online job tasks.",
+      "bait_tactics": [
+        "Hold on please, the mobile signal here in traffic is dropping out—let me call the bank hotline on the back of my card directly.",
+        "I never ordered any overseas package, so let me verify at the Colombo customs counter in person."
+      ],
+      "sources": [
+        "https://www.cbsl.gov.lk/en/be-scam-proof-new",
+        "https://www.cbsl.gov.lk/en/digital-scams"
+      ]
     }
   ]
 }

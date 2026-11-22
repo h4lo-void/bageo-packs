@@ -7,7 +7,7 @@
     "uk"
   ],
   "prevalence_note": "Cyberpolice and National Bank warnings 2025-2026: fake bank security asking for card codes or a reserve account, relatives in a car accident with cash handed to a driver, and fake aid payouts.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border and SIM-box call centers spoof +380 bank hotlines (044/0800) and National Police numbers via VoIP and heavily use Viber, Telegram, and WhatsApp from virtual or foreign (+48, +44) numbers.",
   "scams": [
     {
       "id": "ua_bank_security_card",
@@ -16,7 +16,11 @@
       "name_en": "Fake bank security asking for card details or a move to a reserve account",
       "prevalence": "very_high",
       "lang": "uk",
-      "context_keywords": [],
+      "context_keywords": [
+        "підозріла транзакція",
+        "блокування картки",
+        "підтвердження операції"
+      ],
       "red_flag_keywords": [
         {
           "text": "назвіть три цифри на звороті",
@@ -41,8 +45,8 @@
         "Спокійно перепитай, про який саме платіж і на яку суму йдеться"
       ],
       "sources": [
-        "Kiberpolitsiia",
-        "National Bank of Ukraine"
+        "https://cyberpolice.gov.ua/",
+        "https://promo.bank.gov.ua/stopfraud/"
       ]
     },
     {
@@ -90,7 +94,7 @@
         "Скажи, що шукаєш окуляри, щоб записати адресу"
       ],
       "sources": [
-        "Kiberpolitsiia"
+        "https://cyberpolice.gov.ua/"
       ]
     },
     {
@@ -128,7 +132,7 @@
         "Скажи, що картка лежить в іншій кімнаті, і попроси почекати"
       ],
       "sources": [
-        "Kiberpolitsiia"
+        "https://cyberpolice.gov.ua/"
       ]
     },
     {
@@ -138,7 +142,12 @@
       "name_en": "Fake operator switching to a new eSIM",
       "prevalence": "high",
       "lang": "uk",
-      "context_keywords": [],
+      "context_keywords": [
+        "мобільний оператор",
+        "заміна сім-картки",
+        "перехід на eSIM",
+        "покращення зв'язку"
+      ],
       "red_flag_keywords": [
         {
           "text": "код від оператора",
@@ -158,7 +167,7 @@
         "Запитати, до якого числа треба замінити"
       ],
       "sources": [
-        "Кіберполіція"
+        "https://cyberpolice.gov.ua/"
       ]
     },
     {
@@ -168,7 +177,11 @@
       "name_en": "Fake police asking to install a checking program",
       "prevalence": "high",
       "lang": "uk",
-      "context_keywords": [],
+      "context_keywords": [
+        "кіберполіція України",
+        "перевірка пристрою",
+        "кримінальне провадження"
+      ],
       "red_flag_keywords": [
         {
           "text": "програму для перевірки",
@@ -188,7 +201,7 @@
         "Запитати, з якого відділку дзвонять"
       ],
       "sources": [
-        "Національна поліція"
+        "https://npu.gov.ua/news/kiberpolitsiia-zasterihaie-vid-telefonnykh-shakhraiv-iaki-vydaiut-sebe-za-spivrobitnykiv-banku"
       ]
     }
   ]

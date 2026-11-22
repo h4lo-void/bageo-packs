@@ -8,7 +8,7 @@
     "ru"
   ],
   "prevalence_note": "Moldovan police warnings 2025-2026: the relative-in-an-accident scheme with cash collected in person, and fake bank staff calling about loans.",
-  "cross_border_note": "",
+  "cross_border_note": "Call-center rings operate across Moldova, Ukraine, and Romania in Romanian and Russian, spoofing +373 bank or police numbers or calling via WhatsApp, Viber, and Telegram from +40, +380, and virtual EU prefixes.",
   "scams": [
     {
       "id": "md_ruda_accident",
@@ -51,7 +51,7 @@
         "Spune că trebuie să găsești ochelarii ca să notezi adresa"
       ],
       "sources": [
-        "IGP Moldova"
+        "https://igp.gov.md/"
       ]
     },
     {
@@ -88,7 +88,7 @@
         "Întreabă liniștit de ce zi este cererea de credit și pentru ce sumă"
       ],
       "sources": [
-        "IGP Moldova"
+        "https://igp.gov.md/"
       ]
     },
     {
@@ -120,7 +120,7 @@
         "Întreabă de ce zi este creditul"
       ],
       "sources": [
-        "Poliția Republicii Moldova"
+        "https://igp.gov.md/"
       ]
     },
     {
@@ -152,7 +152,55 @@
         "Întreabă cât durează o retragere"
       ],
       "sources": [
-        "CNPF"
+        "Comisia Națională a Pieței Financiare (CNPF — 待補：政府網站封鎖境外連線無法驗證)"
+      ]
+    },
+    {
+      "id": "md_ru_rodstvennik_dtp",
+      "typology": "fake_relative_money",
+      "name": "Родственник попал в ДТП (деньги через курьера за непривлечение)",
+      "name_en": "Russian-language fake relative traffic accident scam demanding cash via courier",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "следователь полиции",
+        "попал в аварию",
+        "тяжелая травма",
+        "уголовное дело",
+        "срочная операция"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "деньги чтобы закрыть дело",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "отправим курьера за деньгами",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "передайте пакет водителю",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "никому не звоните сейчас",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in Russian poses as a weeping relative, doctor, or police investigator claiming a family member caused a serious traffic accident and urgently needs cash handed to a courier or driver to pay surgery costs and avoid arrest.",
+      "legit_en": "Moldovan police and hospitals never demand cash handovers to couriers or drivers to drop criminal charges or pay emergency medical fees; hang up and call your relative directly.",
+      "bait_tactics": [
+        "Взволнованно переспрашивайте, в какую именно больницу привезли родственника и какого цвета была машина, затягивая время на сборы",
+        "Скажите, что наличные лежат в разных конвертах в шкафу и вам нужно время пересчитать купюры, удерживая звонящего на линии",
+        "Попросите передать трубку самому родственнику хотя бы на пару секунд и подробно расспрашивайте приметы курьера у подъезда"
+      ],
+      "sources": [
+        "https://igp.gov.md/",
+        "https://bnm.md/ro/content/cum-te-protejezi-de-fraude-si-tentativele-de-inselaciune"
       ]
     }
   ]

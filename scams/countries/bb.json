@@ -1,0 +1,155 @@
+{
+  "name": "Barbados",
+  "name_local": "Barbados",
+  "iso": "bb",
+  "calling_code": "+1-246",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Central Bank of Barbados (BiMPay 2026), FSC Barbados & Barbados Revenue Authority (BRA): bank/BiMPay OTP impersonation, investment 'release fee / tax' & upfront-fee job scams, BRA traffic/tax smishing alerts, and Marketplace vehicle deposit scams dominate.",
+  "cross_border_note": "Uses +1-246 within NANP; fraudsters spoof local bank and government agency messages from foreign +1 and VoIP numbers.",
+  "scams": [
+    {
+      "id": "bb_bimpay_bank_otp",
+      "typology": "otp_theft",
+      "name": "Bank / BiMPay Instant-Payment Impersonation & One-Time Code Scam",
+      "name_en": "Fake Barbadian bank or BiMPay support asking for one-time codes or login details",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "bimpay instant payment",
+        "suspicious account login",
+        "verify banking profile",
+        "fraud prevention desk"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share one-time code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm online password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click security link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "reverse unauthorized transfer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to represent a Barbadian bank or credit union investigating a suspicious BiMPay or card transfer and asks for one-time codes, passwords, or clicking an SMS link.",
+      "legit_en": "Central Bank of Barbados states financial institutions never ask for passwords, one-time codes, or sensitive banking details via unsolicited messages or calls.",
+      "bait_tactics": [
+        "Say you will pause a moment and double-check via the Bridgetown bank switchboard printed on your debit card.",
+        "Pretend your mobile screen is frozen and ask them to wait while you restart your old tablet.",
+        "Ask them which parish branch holds your account without giving them your name first."
+      ],
+      "sources": [
+        "https://www.centralbank.org.bb/news/bimpay-blog/five-common-online-scams",
+        "https://www.centralbank.org.bb/news/general-press-release/public-warning-fraudulent-website-alert"
+      ]
+    },
+    {
+      "id": "bb_investment_release_fee",
+      "typology": "investment_group_scam",
+      "name": "Illegal Investment 'Release Fee' & Upfront Employment Fee Scam",
+      "name_en": "CBB & FSC-warned high-return trading platform demanding withdrawal release fees or crypto/gift cards",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed trading profit",
+        "foreign exchange platform",
+        "high-paying remote job",
+        "crypto investment group"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay release fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "upfront withdrawal tax",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay with cryptocurrency",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send gift cards",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Promoter shows fake profits claimed by other Barbadians, then demands a 'release fee' or 'tax' via wire, crypto, or gift cards to withdraw funds—or charges an upfront processing fee for an easy job.",
+      "legit_en": "FSC Barbados and Central Bank of Barbados confirm licensed investment firms never demand upfront withdrawal taxes, gift cards, or pressure wires to foreign accounts.",
+      "bait_tactics": [
+        "Ask for their Financial Services Commission registration details so you can check the FSC Entities Search first.",
+        "Insist they deduct the supposed release tax directly from the profit balance shown on the screen.",
+        "Say you need to discuss any foreign wire transfer with your credit union manager next week."
+      ],
+      "sources": [
+        "https://www.centralbank.org.bb/news/bimpay-blog/five-common-online-scams",
+        "https://www.fsc.gov.bb/blog/fraud-protection-signs-of-illegal-investment-opportunities"
+      ]
+    },
+    {
+      "id": "bb_bra_traffic_marketplace",
+      "typology": "fake_official",
+      "name": "BRA Traffic / Tax Smishing & Repossessed-Car Deposit Scam",
+      "name_en": "Fake Barbados Revenue Authority traffic/tax notice or Marketplace vehicle deposit demand",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "barbados revenue authority",
+        "unpaid traffic violation",
+        "tax refund claim",
+        "repossessed car sale"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay fine link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send vehicle deposit",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "verify tax credentials",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "license suspension today",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Text or follow-up call claiming an unpaid traffic violation or tax refund from BRA with a payment link, or a social-media seller rushing a deposit on a cheap 'repossessed' car.",
+      "legit_en": "Barbados Revenue Authority confirms it never asks for sensitive personal or payment data via text messages, links, or unsolicited voice calls.",
+      "bait_tactics": [
+        "For a traffic fine claim, say you don't even own a car and ask what vehicle make is on the ticket.",
+        "For a Marketplace car, insist on viewing the vehicle and registration papers in person before paying a cent.",
+        "Tell them you will check your official TAMIS portal directly rather than opening any text link."
+      ],
+      "sources": [
+        "https://bra.gov.bb/News/Announcements/Scam-Alert-Traffic-Violation-Text",
+        "https://www.bra.gov.bb/News/Press-Releases/Phishing-Email-Alert",
+        "https://www.centralbank.org.bb/news/bimpay-blog/five-common-online-scams"
+      ]
+    }
+  ]
+}

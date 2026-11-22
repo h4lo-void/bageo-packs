@@ -7,7 +7,7 @@
     "nb"
   ],
   "prevalence_note": "Politiet and Økokrim warnings 2025-2026: fake bank or police staff asking for BankID passwords and one-time codes (the 'Olga' method), fake Microsoft support, fake Skatteetaten refunds and investment scams.",
-  "cross_border_note": "",
+  "cross_border_note": "Under Nkom and Norwegian carriers' 'digitalt skjold' CLI-filtering measures, unverified international inbound calls spoofing Norwegian (+47) numbers are blocked at scale; cross-border BankID, fake-police/Økokrim, and crypto-investment call centers shift to foreign prefixes, compromised local SIMs, or SMS callback lures.",
   "scams": [
     {
       "id": "no_bankid_svindel",
@@ -43,8 +43,8 @@
         "Spørre hvilken dag lånet skal være tatt opp og hvor mye"
       ],
       "sources": [
-        "Politiet",
-        "Finans Norge"
+        "https://www.politiet.no/rad/beskytt-deg-mot-svindel-og-id-tyveri",
+        "https://www.svindel.no/selvforsvar/svindelmetoder/svindel-over-telefon/"
       ]
     },
     {
@@ -76,8 +76,8 @@
         "Spørre hvilken feilmelding de har fått"
       ],
       "sources": [
-        "Politiet",
-        "NorSIS"
+        "https://www.politiet.no/rad/beskytt-deg-mot-svindel-og-id-tyveri",
+        "https://nettvett.no/microsoft-svindel/"
       ]
     },
     {
@@ -109,7 +109,7 @@
         "Spørre hvilket år oppgjøret gjelder"
       ],
       "sources": [
-        "Skatteetaten"
+        "https://www.skatteetaten.no/om-skatteetaten/sikkerhet/svindel/"
       ]
     },
     {
@@ -141,8 +141,8 @@
         "Spørre hvor lang tid en utbetaling tar"
       ],
       "sources": [
-        "Finanstilsynet",
-        "Økokrim"
+        "https://www.finanstilsynet.no/forbrukerinformasjon/svindel-med-kryptovaluta/",
+        "https://www.okokrim.no/bedrageri.549300.no.html"
       ]
     }
   ]

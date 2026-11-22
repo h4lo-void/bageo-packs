@@ -1,0 +1,810 @@
+{
+  "region": "ch",
+  "countries": [
+    "ch",
+    "li"
+  ],
+  "region_name_zh": "瑞士（含列支敦斯登）",
+  "region_name": "Switzerland",
+  "languages": [
+    {
+      "code": "de",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    },
+    {
+      "code": "it",
+      "use": "some"
+    },
+    {
+      "code": "gsw-written",
+      "use": "read_only"
+    }
+  ],
+  "ai_language_tip": "Match canton/principality: speak polite Swiss High German (de) in German CH & Liechtenstein (even when staff replies in Swiss German Mundart!), French (fr) in Romandy, Italian (it) in Ticino.",
+  "english_ok": "often — Widely spoken in Zurich, Geneva, Basel, Zug, Vaduz, and Alpine resorts, though local craftsmen and communes prefer local language.",
+  "politeness": "Courteous, calm, understated; open with 'Grüezi' (de), 'Bonjour' (fr), or 'Buongiorno' (it), use formal Sie/vous/Lei; close with 'Besten Dank, uf Wiederluege / auf Wiederhören'.",
+  "name_tip": "Surname and first name (e.g. Thomas Meier, Céline Rochat); spell carefully; Swiss orthography writes 'ss' instead of 'ß'.",
+  "phone_tip": "CH 10 digits (mobile 079 123 45 67, landline 044 123 45 67) read 3-3-2-2; Liechtenstein 7 digits (+423 791 23 45); SMS/email confirms.",
+  "time_tip": "24-hour standard; in Swiss German 'viertel ab sibe' = 7:15, 'halbi achti' = 7:30! Swiss French says septante (70), huitante (80 in VD/VS/FR), nonante (90)!",
+  "number_tip": "Romandy French uses 'huitante' or 'octante' for 80 alongside 'quatre-vingts' in Geneva; read CH numbers strictly in 3-3-2-2 rhythm.",
+  "avoid_calling": "Respect strict Swiss lunch quiet hours (Mittagsruhe 12:00–13:30) for offices/doctors/neighbors, dinner service 18:30–20:00, and never call after 20:00.",
+  "closed_days": "Strict Sunday closure; shops close early Saturdays (16:00–17:00); cantonal public holidays vary completely canton by canton!",
+  "booking_channels": "Foratable, Aleno, TheFork, and OpenTable for dining; OneDoc for medical/dental; Salonkee and Treatwell for salons; local businesses answer phones reliably.",
+  "voice_menu": "Hospital networks, health insurers (CSS/Helsana/Swica), SBB, Swisscom, Post, banks, and cantonal offices use multilingual keypad IVR.",
+  "callback_habits": "Punctual SMS/email confirmations via OneDoc, Aleno, Foratable, and Salonkee; strict 24-hour cancellation enforcement everywhere.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "瑞士晚餐時間較早（18:30～20:00），中高級餐廳常透過 Aleno 或 Foratable 寄連結要求留卡擔保。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and arrival hour (18:30–20:00 peak)",
+        "Number of guests plus child chair or dog",
+        "Stube/dining room vs Gartenterrasse",
+        "Surname and 07x mobile number",
+        "Allergies or fondue/raclette room preference"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sends Aleno/Foratable link for credit card no-show guarantee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Staff speaks Swiss German dialect while AI replies in clean Swiss Standard German",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands instant TWINT deposit transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "瑞士基礎醫保常綁定家庭醫師或遠距先診模式（Hausarzt/HMO/Telmed），直約專科前務必確認主人保單規定；缺席未滿24小時必收罰金。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Existing vs new patient",
+        "Illness (Krankheit — KVG) vs accident (Unfall — UVG employer insurance!)",
+        "Reason for visit or dental hygiene (Dentalhygiene)",
+        "Patient surname, first name, and residential town",
+        "Mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Asks whether visit is Krankheit (health insurance) or Unfall (accident insurance)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Dental clinic notes self-pay at chairside after treatment (dentistry not in basic KVG)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Strict 24h cancellation fee (CHF 80–150+) warning",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Geburtsdatum, AHV-Nummer, or Krankenkassenkarten-Nummer (VEKA)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "沙龍（Coiffeur — 瑞士德語也稱 Coiffeur！）與美容院嚴格執行 24 小時前改退政策。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service (Coiffeur Haarschnitt, Mèches/Balayage, Gellack, Massage)",
+        "Medical massage (EMR/ASCA supplemental insurance recognized) vs wellness",
+        "Preferred date, hour, and stylist",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Asks if therapist needs EMR/ASCA recognition for Zusatzversicherung claim",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate TWINT transfer to book",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Garage — 瑞士德語亦稱 Garage）換冬季胎與準備州驗車（MFK）常接電話預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model and cantonal plate (Kontrollschild, e.g. ZH 123456), or device model",
+        "Service, MFK-Bereitstellung, or Pneuwechsel (tire swap)",
+        "Whether Pneus (tires) are stored in Reifenhotel",
+        "Morning drop-off time and Ersatzwagen fee",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Official cantonal MFK test date assigned by Strassenverkehrsamt",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks Typenscheinnummer from Fahrzeugausweis for parts",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone unlock PIN",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands TWINT/prepayment for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "披薩、泰餐、壽司與 Kebab 店常接電話訂自取（Take-away / über d'Gass）到店刷卡或 TWINT 付款。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Abholung / Take-away vs Kurier",
+        "Dishes and spice/portion options",
+        "Exact pickup minute (Swiss kitchens are very punctual!)",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Delivery handled via Just Eat.ch / Uber Eats / Smood",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests TWINT payment before preparing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "書店（Orell Füssli 與獨立店）、肉鋪（Metzgerei）、烘焙坊（Bäckerei）與藥局可電話查貨留貨；Migros/Coop 大店有總機。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, article number, size, or weight",
+        "Quantity and branch stock check",
+        "Pickup day/hour (Saturday closes ~16:00–17:00!)",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Meat/fondue cheese mix pre-ordered for weekend pickup",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests TWINT prepayment for custom cake",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "瑞士各行業對 24 小時內改退（特別是牙醫、診所、美髮與餐廳）收取空診/爽約費非常嚴格。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and 07x mobile",
+        "Original date and 24h time",
+        "New preferred Termin or Abmeldung (cancellation)",
+        "Updated guest count if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Versäumnisgebühr (CHF 80–200) billed if canceled under 24 business hours",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks Geburtsdatum to locate chart",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (cantonal holiday opening, warme Küche, Hund erlaubt, parking, stock)",
+        "Visit day/time",
+        "Group size",
+        "Whether to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Open in neighboring canton despite local cantonal holiday",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "山區飯店與獨立旅宿電話非常專業（多通英德法語），通常會寄確認信請主人補信用卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children (ages), and dog",
+        "Room category and Halbpension/Frühstück",
+        "Full name, postal town, email, and 07x phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Kurtaxe/guest-card included or extra; sends email link for card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "網球/壁球場、山區雪橇/滑雪私教、起司工坊導覽與保齡球可電話約，連鎖密室走線上。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court, instructor, or tour type",
+        "Date, 24h time, and duration",
+        "Group size",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Tennis/badminton center uses GotCourts / Eversports online booking",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires TWINT or card payment upfront",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "瑞士租屋若有固定設備損壞（暖氣、洗碗機、漏水），通常必須先通報物業管理公司（Verwaltung / Régie）派特約廠商，私自叫修可能得自付！",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (Sanitär, Elektriker, Reinigung mit Abnahmegarantie, Schlüsselservice)",
+        "Street, number, floor, 4-digit PLZ + town, and doorbell surname",
+        "Whether owner-occupied or authorized by Immobilienverwaltung/Régie",
+        "Preferred window (avoid 12:00–13:00 noise!)",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Craftsman warns tenant to report defect to Verwaltung/Régie first for landlord billing",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "End-of-tenancy cleaning quotes handover guarantee (Abnahmegarantie)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building badge/keybox code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance payment before arrival",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、美容（Hundecoiffeur）與寄宿（Tierheim/Tierpension）皆需預約，狗隻在瑞士皆有 AMICUS 晶片登記。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult, Hundecoiffeur, or Tierpension",
+        "Species, breed, weight, age, neutering",
+        "Vaccination including kennel cough (Zwingerhusten) for pension",
+        "Preferred date and hour",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pension requires trial day (Probetag) before first stay",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests upfront transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Die Post、DHL、Planzer 專線皆有語音選單，獨立門市、修錶行、單車行與車廠才適合直撥查單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Sendungsnummer or Reparaturschein number",
+        "Surname and 4-digit PLZ",
+        "Item description",
+        "Pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "Swiss Post hotline uses multilingual keypad/voice IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks My Post 24 locker QR/code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、Swisscom/Sunrise、醫保公司（Krankenkasse）與瑞航客服皆有多語按鍵選單並嚴格執行個資法核驗本人。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Language keypad selection (DE/FR/IT/EN)",
+        "Account holder identity check",
+        "Geburtsdatum, Versicherten-/Kundennummer, and security check",
+        "Policy or invoice number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Multilingual DTMF gate + Swiss DSG privacy blocks assistant",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Geburtsdatum, AHV-Nummer, policy/card number, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "各地計程車中心（Taxi）、山區無車小鎮接駁（如 Zermatt 電瓶計程車）與租車門市很習慣電話預訂。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact address, PLZ, and pickup time",
+        "Destination, station, or Zurich/Geneva/Basel airport",
+        "Passengers, suitcases, ski bags, or child seat",
+        "Surname and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "High Swiss meter tariff vs pre-agreed airport flat fare",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks Führerausweis or credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "often",
+      "before_dialing_zh": "Homegate 熱門房源多為公開看房或站內報名，電話主要向物業（Verwaltung）或現任房客約看房。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Listing on Homegate / Flatfox / ImmoScout24.ch",
+        "Viewing slot with current tenant or Verwaltung/Régie",
+        "Move-in date, household size, and pets",
+        "Readiness of Betreibungsauszug (debt-free extract) for application",
+        "Full name and 07x mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Verwaltung directs caller to online viewing signup or current tenant's phone",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks AHV social security number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests deposit fee before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "瑞士公社（Gemeinde）與列支敦斯登機關效率高，一般辦事規定與托嬰（Kita）參觀皆可電話詢問。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General Einwohnerkontrolle / Kreisel / permit document checklist or Kita tour",
+        "Child age and exact days/percentage (e.g. 60% = 3 days) needed at Kita",
+        "Gemeinde / commune of residence",
+        "Surname and 07x phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "City Kreisbüro uses keypad menu; smaller Gemeinde answers directly",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks AHV-Nummer, Ausländerausweis number, or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "de": {
+      "party": [
+        "Tisch für 4",
+        "2 Erwachsene und 1 Kind",
+        "zu dritt",
+        "für 2 Personen",
+        "4 Pers.",
+        "5 Personen + Kinderstuhl",
+        "alleine",
+        "Gruppe von 8"
+      ],
+      "time": [
+        "um halb acht abends",
+        "19:30 Uhr",
+        "viertel ab sieben",
+        "viertel vor acht",
+        "mittags 12:15",
+        "morgen um 9 Uhr",
+        "gegen 19 Uhr",
+        "18:30"
+      ],
+      "date": [
+        "morgen",
+        "übermorgen",
+        "diesen Freitag",
+        "nächsten Dienstag",
+        "am 25.11.",
+        "25. November",
+        "Samstagabend"
+      ],
+      "name": [
+        "auf den Namen Meier",
+        "Thomas Keller",
+        "Sandra Schmid",
+        "Familie Zürcher",
+        "Reto Brunner"
+      ],
+      "phone": [
+        "079 123 45 67",
+        "0781234567",
+        "Natel 076 987 65 43",
+        "044 123 45 67"
+      ],
+      "booking_words": [
+        "Tisch reservieren",
+        "Reservation",
+        "Zimmer buchen",
+        "Platz reservieren",
+        "Court buchen"
+      ],
+      "appointment_words": [
+        "Termin vereinbaren",
+        "Dentalhygiene Termin",
+        "Coiffeur Termin",
+        "Pneuwechsel",
+        "Arzttermin"
+      ],
+      "order_words": [
+        "Take-away bestellen",
+        "zum Abholen",
+        "auf die Seite legen",
+        "vorbestellen",
+        "Fondue-Mischung bestellen"
+      ],
+      "change_words": [
+        "Termin verschieben",
+        "eine halbe Stunde später",
+        "Reservation annullieren",
+        "Termin abmelden",
+        "auf Freitag verschieben"
+      ],
+      "inquiry_words": [
+        "fragen ob offen ist",
+        "warme Küche bis wann?",
+        "Hunde erlaubt?",
+        "an Lager?",
+        "Öffnungszeiten am Feiertag"
+      ],
+      "false_friends": [
+        "3. Stock",
+        "Menü für 2",
+        "60 Min Massage",
+        "Kreis 4",
+        "60% Pensum",
+        "Linie 7"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4",
+        "2 adultes et 1 enfant",
+        "nous sommes 3",
+        "pour 2 personnes",
+        "5 pers. + chaise haute",
+        "groupe de 6"
+      ],
+      "time": [
+        "19h30",
+        "midi et demi",
+        "sept heures et demie",
+        "20h",
+        "14h15",
+        "demain à 10h"
+      ],
+      "false_friends": [
+        "3e étage",
+        "menu pour 2",
+        "massage 60 min",
+        "ligne 8"
+      ]
+    },
+    "it": {
+      "party": [
+        "tavolo per 4",
+        "2 adulti e 1 bambino",
+        "siamo in 3",
+        "per 2 persone",
+        "5 persone + seggiolone",
+        "gruppo di 6"
+      ],
+      "time": [
+        "alle 19:30",
+        "alle sette e mezza di sera",
+        "a mezzogiorno e mezza",
+        "alle 20:00",
+        "domani alle 10",
+        "verso le 19"
+      ],
+      "false_friends": [
+        "3° piano",
+        "menu per 2",
+        "massaggio 60 min",
+        "linea 4"
+      ]
+    },
+    "gsw-written": {
+      "party": [
+        "Tisch für 4 Lüüt",
+        "2 Erwachseni und 1 Chind",
+        "mir sind zu dritt",
+        "für zwei",
+        "5 Lüüt + Chinderstuehl",
+        "6 Persone"
+      ],
+      "time": [
+        "am halbi achti am Abig",
+        "viertel ab sibe",
+        "am Zmittag 12i",
+        "morn am 9i",
+        "Nami um 3",
+        "19:30"
+      ],
+      "false_friends": [
+        "3. Stock",
+        "Chreis 4",
+        "60 Min Massage",
+        "Zischti für 2 Stund"
+      ]
+    }
+  }
+}

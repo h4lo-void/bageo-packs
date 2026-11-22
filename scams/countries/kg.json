@@ -1,0 +1,205 @@
+{
+  "name": "Kyrgyzstan",
+  "name_local": "Кыргызстан",
+  "iso": "kg",
+  "calling_code": "+996",
+  "languages": [
+    "ky",
+    "ru"
+  ],
+  "prevalence_note": "NBKR, MVD KR & MBANK 2025-2026: fake National Bank (NBKR) or GKNB/MVD officials sending forged IDs on WhatsApp/Telegram to demand 'safe account' transfers, MBANK/Tunduk OTP and malicious APK links, and 'relative in a car crash' (ДТП) courier cash scams dominate.",
+  "cross_border_note": "Spoofed +996 Kyrgyz numbers and foreign WhatsApp/Telegram video calls impersonating NBKR executives and GKNB officers are heavily reported across Bishkek and regional oblasts.",
+  "scams": [
+    {
+      "id": "kg_nbkr_gknb_safe_account_ru",
+      "typology": "fake_official",
+      "name": "Звонок от лжесотрудников НБКР / ГКНБ / МВД («безопасный счет» и фальшивые документы)",
+      "name_en": "Fake NBKR, GKNB or MVD official sending forged IDs and demanding safe-account transfer (Russian)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "национальный банк кыргызстана",
+        "сотрудник гкнб",
+        "утечка персональных данных",
+        "оформлен онлайн кредит",
+        "возбуждение уголовного дела"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "безопасный счет",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "служебное удостоверение мессенджером",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "демонстрация экрана",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "перевести все сбережения",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller on WhatsApp/Telegram or spoofed phone claims to be NBKR, GKNB, or MVD staff, sends a forged official letter or badge, warns of data leaks or criminal charges, and demands screen sharing or transfer to a 'safe account'.",
+      "legit_en": "The National Bank of the Kyrgyz Republic does not serve individuals, open citizen accounts, call about loans, or send official documents via messengers.",
+      "bait_tactics": [
+        "Скажите, что картинка документа в мессенджере не открывается из-за медленного интернета, и попросите зачитать весь текст вслух.",
+        "Попросите назвать адрес приемной в Бишкеке, чтобы лично подойти с паспортом после обеда.",
+        "Сделайте вид, что ищете блокнот для записи фамилии следователя и отдела."
+      ],
+      "sources": [
+        "https://www.nbkr.kg/printver.jsp?item=31&lang=RUS&material=129338",
+        "https://www.nbkr.kg/newsout.jsp?item=31&lang=RUS&material=125188",
+        "https://www.nbkr.kg/newsout.jsp?item=31&lang=RUS&material=120261"
+      ]
+    },
+    {
+      "id": "kg_nbkr_gknb_safe_account_ky",
+      "typology": "fake_official",
+      "name": "Улуттук банк же УКМК / ИИМ кызматкеримин деген «коопсуз эсеп» алдамчылыгы",
+      "name_en": "Fake National Bank or GKNB/MVD official demanding safe-account transfer (Kyrgyz)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "улуттук банк",
+        "улуттук коопсуздук комитети",
+        "жеке маалыматтар тарады",
+        "мыйзамсыз насыя",
+        "кылмыш иши"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "коопсуз эсепке которуу",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "кызматтык күбөлүк жөнөттүм",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "экранды көрсөтүңүз",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "акчаны тез которуңуз",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Kyrgyz-speaking caller impersonates National Bank (Улуттук банк) or security officers claiming an unauthorized online loan or criminal investigation, urging immediate transfer to a safe account or dropper card.",
+      "legit_en": "NBKR and Kyrgyz law enforcement never instruct citizens by phone or WhatsApp to take loans or transfer money to third-party cards.",
+      "bait_tactics": [
+        "Байланыш үзүлүп жатканын айтып, мекеменин аталышын жана бөлүмүн жайыраак кайталап берүүнү сураныңыз.",
+        "Улуттук банктын коомдук кабылдамасына өзүңүз чалып тактай турганыңызды айтып убакыт созуңуз.",
+        "Көз айнегиңиз жок болуп телефондогу жазуулар окулбай жатканын айтыңыз."
+      ],
+      "sources": [
+        "https://www.nbkr.kg/newsout.jsp?&item=31&lang=KGZ&material=134745",
+        "https://www.nbkr.kg/newsout.jsp?item=31&lang=RUS&material=125188"
+      ]
+    },
+    {
+      "id": "kg_mbank_tunduk_otp_ky",
+      "typology": "otp_theft",
+      "name": "MBANK жана «Түндүк» тиркемесинин SMS-кодун же жасалма APK таратуу алдамчылыгы",
+      "name_en": "Fake MBANK or Tunduk support requesting SMS OTP or malicious APK update (Kyrgyz & Russian)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "түндүк тиркемеси",
+        "mbank жаңыртуу",
+        "мамлекеттик жөлөкпул",
+        "банктын коопсуздук кызматы"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "смс кодду айтыңыз",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "файлды жүктөп орнотуңуз",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "шилтеме аркылуу жаңыртуу",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "пин кодду тастыктоо",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller poses as Tunduk digital portal or MBANK security offering a state payout or urgent security update, asking the user to read out an SMS code or install an external Android APK file.",
+      "legit_en": "MBANK and Tunduk only update via official app stores and never request SMS codes, passwords, or third-party APK installations.",
+      "bait_tactics": [
+        "Телефонуңуздун эс тутуму толуп калып эч кандай шилтеме ачылбай жатканын айтыңыз.",
+        "Кайсы программа экенин тактап сурап, расмий дүкөндөн өзүңүз карап көрө турганыңызды айтыңыз.",
+        "СМС билдирүү кечигип жатканын айтып, шарттарын кайра башынан түшүндүрүүнү өтүнүңүз."
+      ],
+      "sources": [
+        "https://mbank.kg/news/opasnost-v-odnom-klike-kak-moshenniki-kradut-dengi",
+        "https://www.nbkr.kg/newsout.jsp?&item=31&lang=KGZ&material=134745"
+      ]
+    },
+    {
+      "id": "kg_relative_dtp_bail_ru",
+      "typology": "fake_relative_money",
+      "name": "«Ваш родственник попал в ДТП» — требование денег курьеру за непривлечение",
+      "name_en": "Relative in a traffic accident (DTP) urgent settlement cash courier scam (Russian)",
+      "prevalence": "high",
+      "lang": "ru",
+      "context_keywords": [
+        "попал в аварию",
+        "тяжелое дтп",
+        "следователи милиции",
+        "срочная операция"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "передать деньги курьеру",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "замять уголовное дело",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "не звоните родственнику",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "деньги нужны немедленно",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Distressed voice or fake investigator claims a child or relative caused a serious road accident (DTP) and demands immediate cash handed to a courier or transferred to settle the case quietly.",
+      "legit_en": "Kyrgyz police investigators never phone relatives to demand cash settlements or send couriers to homes.",
+      "bait_tactics": [
+        "Взволнованно переспросите марку машины родственника и название городской больницы.",
+        "Скажите, что наличных дома нет и нужно дождаться соседа, чтобы сначала дозвониться самому родственнику.",
+        "Попросите продиктовать адрес районного управления внутренних дел."
+      ],
+      "sources": [
+        "https://ru.kabar.kg/news/telefonnoe-moshennichestvo-v-kyrgyzstane-shemy-sluchai-i-sovety-mvd/",
+        "https://www.nbkr.kg/newsout.jsp?item=31&lang=RUS&material=125188"
+      ]
+    }
+  ]
+}

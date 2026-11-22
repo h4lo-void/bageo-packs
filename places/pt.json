@@ -1,0 +1,727 @@
+{
+  "region": "pt",
+  "countries": [
+    "pt"
+  ],
+  "region_name_zh": "葡萄牙",
+  "region_name": "Portugal",
+  "languages": [
+    {
+      "code": "pt",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite European Portuguese (pt-PT) vocabulary ('telemóvel', 'marcação', 'pequeno-almoço'); avoid blunt 'você'—use 'o senhor / a senhora'; English widely understood in Lisbon/Porto/Algarve.",
+  "english_ok": "often — High English proficiency across Lisbon, Porto, Cascais, Madeira, and the Algarve; less common in rural interior towns.",
+  "politeness": "Polite, respectful European Portuguese; open with 'Bom dia / Boa tarde' and 3rd-person indirect ('queria fazer uma marcação para o Sr./a Sra....'); close with 'muito obrigado(a), resto de bom dia'.",
+  "name_tip": "First and last name (e.g. Tiago Ferreira, Inês Rodrigues); clinics and public services use full multi-part Portuguese name.",
+  "phone_tip": "9-digit numbers with NO area prefix: mobile 912 345 678 (91/92/93/96), Lisbon landline 21 123 4567; read 3-3-3; SMS/WhatsApp confirms.",
+  "time_tip": "24-hour common ('20h30'), spoken 'oito e meia da noite', 'um quarto para as oito' = 19:45; dinner typically 20:00–22:00.",
+  "number_tip": "In Portugal digit 6 is ALWAYS 'seis' (NEVER 'meia' like Brazil!); 16/17/19 use European pronunciation ('dezasseis', 'dezassete', 'dezanove').",
+  "avoid_calling": "Avoid restaurant rush 12:30–14:30 and 20:00–21:30, small-office lunch break 13:00–14:30, and calls after 21:00.",
+  "closed_days": "Traditional restaurants close Sunday night or Monday; municipal holidays (Santos Populares: June 13 Lisbon / June 24 Porto) and August vacations.",
+  "booking_channels": "TheFork and UMAI/Zenchef for restaurants; My CUF / MY LUZ / Lusíadas apps and Doctoralia for private health; Booksy and Treatwell for salons.",
+  "voice_menu": "Private hospital groups (CUF, Luz Saúde, Lusíadas), SNS 24, banks, MEO/NOS/Vodafone, EDP, CTT, and TAP use keypad IVR.",
+  "callback_habits": "SMS confirmations are standard across restaurants, private clinics, and salons; tradespeople often follow up by phone or WhatsApp.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "葡萄牙餐廳習慣電話訂位（晚餐多在 20:00 後），里斯本與波多熱門店常用 TheFork 或 UMAI 綁卡。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and meal hour (almoço ~13:00 vs jantar ~20:30)",
+        "Number of people and cadeira de bebé",
+        "Indoor sala vs esplanada (terrace)",
+        "Name and 9-digit telemóvel",
+        "Special pre-order dish if traditional (e.g. leitão, arroz de marisco, cabrito)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Traditional tasca accepts Multibanco (Portuguese debit network) or cash only, no foreign Visa/Mastercard!",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends UMAI/TheFork SMS link for card guarantee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Couvert (bread/olives starters brought to table) is optional and charged if eaten",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate MB WAY push payment to reserve table",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型私立醫院（CUF、Luz、Lusíadas）總機有按鍵選單；獨立牙醫與私人診所可直接電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Private self-pay vs insurance/subsystem (Médis, Multicare, AdvanceCare, ADSE)",
+        "Specialty or medicina dentária and first-visit status",
+        "Patient full name",
+        "Preferred doctor and slot",
+        "9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Hospital group IVR requires pressing keypad options or using My CUF / MY LUZ app",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NIF (contribuinte), Número de Utente SNS, birth date, or insurance card number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "理髮廳（Cabeleireiro / Barbearia）與美甲美容電話預約極普遍，年輕店家亦常用 Booksy 或 Treatwell。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service (corte, brushing, madeixas/coloração, verniz gel, massagem)",
+        "Preferred day, hour, and stylist",
+        "Hair length or verniz gel removal",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Booksy app for barber slot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate MB WAY deposit (sinal por MB WAY)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Oficina）與家電維修電話直接；汽車定期驗車（IPO — Inspeção Automóvel）可電話或上網預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle matrícula (plate, e.g. AA-00-AA) and make/model, or device model",
+        "Revisão, pré-inspeção IPO, or fault",
+        "Morning drop-off date and hour",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes diagnostic/orçamento fee if not repaired",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone PIN code or NIF",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands MB WAY advance for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "葡式烤雞店（Churrasqueira）、傳統餐廳與披薩店很習慣電話訂外帶自取（Take-away）到店付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Take-away / levantar na loja vs entrega",
+        "Dishes (meia dose vs dose inteira!), piri-piri sauce, and sides",
+        "Pickup hour",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Portuguese 'uma dose' often feeds 2 people ('meia dose' = 1 generous portion!); packaging fee extra",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Delivery handled via Uber Eats / Glovo / Bolt Food",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests MB WAY payment before cooking",
+          "handle": "decline"
+        },
+        {
+          "what": "Asks NIF for fatura over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立書店、糕點店（Pastelaria）、肉鋪與海鮮店歡迎電話留貨；大賣場走客服語音選單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, weight, size, or reference",
+        "Quantity and shop stock check",
+        "Same-day pickup hour",
+        "Name and telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holds unpaid item until end of day",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires MB WAY sinal for custom cake/seafood order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期當地稱「adiar / alterar a marcação」，綁卡餐廳或私人診所 24 小時內取消可能收費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name and 9-digit telemóvel",
+        "Original date and hour",
+        "New preferred hour or cancelar/desmarcar",
+        "Updated guest count if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "No-show fee on UMAI/TheFork guaranteed table inside 24h",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks NIF or Número de Utente to open file",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (hours, Multibanco vs foreign Visa acceptance, esplanada dog rule, stock, parking)",
+        "Planned visit day/time",
+        "Group size",
+        "Whether caller wishes to book"
+      ],
+      "may_come_up": [
+        {
+          "what": "Accepts Multibanco/cash only (no foreign cards)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "鄉村莊園（Turismo Rural / Quinta）與精品旅宿電話友善；連鎖飯店有按鍵總機且需信用卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children, and cama de casal vs twin",
+        "Pequeno-almoço (breakfast) and parking",
+        "Full name, telemóvel, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Taxa municipal turística (city tax) extra; sends email link for card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits or passport/CC number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate MB WAY payment now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "板網球（Padel 在葡萄牙極盛行，常用 Tie Player / Playtomic）、衝浪課（Aula de surf）、酒莊品酒與高爾夫可電話洽詢。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court, surf lesson, wine tasting, or boat tour",
+        "Date, tide/start hour, and duration",
+        "Participant count and skill level",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Surf lesson start time shifts with ocean tide; instructor confirms day before",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Padel club books courts via Tie Player or Playtomic app",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate MB WAY payment to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須給完整地址與 7 碼郵遞區號（xxxx-xxx，含樓層左/右如 3.º Esq./Dto.）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (canalizador, eletricista, esquentador/ar condicionado, abertura de portas, limpezas)",
+        "Street, number, floor + side (Esq./Dto./Frente), and 7-digit código postal",
+        "Preferred day and window",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes taxa de deslocação (call-out fee) + 23% IVA",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building código da porta or NIF over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands MB WAY transfer before arriving",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Veterinário）、美容（Tosquia e banho）與寵物旅館（Hotel canino/felino）皆需預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Consulta veterinária, banho e tosa/tosquia, or hotel canino",
+        "Species, breed, weight, age",
+        "Rabies and kennel-cough (tosse do canil) vaccines + microchip",
+        "Preferred date and hour",
+        "Owner name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Holiday boarding requires advance booking weeks ahead",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires MB WAY/transfer sinal for boarding",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "CTT Expresso、DPD、GLS 全國專線多有按鍵語音選單；獨立門市、修車廠與洗衣店（Lavandaria）才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking object number or repair talão/folha de obra",
+        "Name and 7-digit postal code",
+        "Item description",
+        "Pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "CTT hotline uses automated voice/keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CTT Cacifo locker PIN or delivery PIN",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信（MEO/NOS/Vodafone）、EDP電力、銀行與葡航（TAP）皆有按鍵選單並嚴格要求本人核驗 NIF 與生日，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR keypad routing",
+        "Titular verification under RGPD",
+        "NIF, Cartão de Cidadão / birth date, and client number",
+        "Security code"
+      ],
+      "may_come_up": [
+        {
+          "what": "RGPD blocks assistant from account details",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NIF, Cartão de Cidadão, birth date, card digits, or MB WAY/SMS code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "除了 Uber 與 Bolt 外，無線計程車合作社（Rádio Táxis / Cooptáxis）、接機專車與地方租車行皆可電話叫車。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact street, door number, postal code, and pickup time",
+        "Destination or Lisbon/Porto/Faro airport",
+        "Passengers, suitcases (bagagem supplement on meter), or 7-seat táxi",
+        "Name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Call-dispatch fee (chamada telefónica 0.80€) and luggage supplement apply on taxi meter",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks carta de condução or card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Idealista 房仲接電話積極，里斯本與波多租房常問有無葡萄牙保人（Fiador）與報稅單（IRS）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Idealista/Imovirtual ID or parish (freguesia) and typology (T1/T2/T3)",
+        "Preferred visita slot",
+        "Occupants, pets, employment/IRS income proof, and fiador availability",
+        "Upfront rent/caução expectations",
+        "Full name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Landlord requires Portuguese fiador or extra months of caução if foreign income",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NIF or passport number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests reservation fee before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市民服務中心（Loja de Cidadão）、AIMA 與稅務局多需線上取號且有語音選單；私立托嬰幼兒園（Creche / Colégio）可電話約參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General procedure question or creche/colégio visit",
+        "Child birth month and Creche Feliz free-program availability",
+        "Freguesia / concelho",
+        "Parent name and 9-digit telemóvel"
+      ],
+      "may_come_up": [
+        {
+          "what": "Creche Feliz subsidized spots have long waitlists; private fee spots may differ",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Public line uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks NIF, Número de Segurança Social (NISS), or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "pt": {
+      "party": [
+        "mesa para 4",
+        "2 adultos e 1 criança",
+        "somos 3",
+        "para duas pessoas",
+        "4 pessoas",
+        "5 adultos + cadeira de bebé",
+        "1 pessoa",
+        "grupo de 8"
+      ],
+      "time": [
+        "às 20h30",
+        "oito e meia da noite",
+        "ao almoço às 13h",
+        "um quarto para as oito",
+        "19:30",
+        "amanhã às 10h",
+        "por volta das 21h",
+        "12h30"
+      ],
+      "date": [
+        "amanhã",
+        "depois de amanhã",
+        "esta sexta-feira",
+        "na próxima terça",
+        "25 de novembro",
+        "25/11",
+        "sábado à noite"
+      ],
+      "name": [
+        "em nome de Tiago Ferreira",
+        "Inês Rodrigues",
+        "João Martins",
+        "Sofia Sousa",
+        "família Pereira"
+      ],
+      "phone": [
+        "912 345 678",
+        "912345678",
+        "o meu telemóvel 961 234 567",
+        "21 123 4567"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "fazer uma reserva",
+        "marcar mesa na esplanada",
+        "reservar quarto",
+        "marcar campo de padel"
+      ],
+      "appointment_words": [
+        "fazer uma marcação",
+        "marcar consulta",
+        "marcar cabeleireiro",
+        "inspeção do carro",
+        "revisão na oficina"
+      ],
+      "order_words": [
+        "encomendar para take-away",
+        "para levar / para fora",
+        "reservar em loja",
+        "meia dose para levantar",
+        "guardar um"
+      ],
+      "change_words": [
+        "adiar a marcação",
+        "passar para meia hora mais tarde",
+        "cancelar a reserva",
+        "desmarcar consulta",
+        "alterar a hora"
+      ],
+      "inquiry_words": [
+        "perguntar se aceitam cartão estrangeiro",
+        "estão abertos no feriado?",
+        "aceitam cães na esplanada?",
+        "confirmar stock",
+        "saber o preço"
+      ],
+      "false_friends": [
+        "3.º Esq.",
+        "apartamento T2",
+        "meia dose",
+        "massagem 60 min",
+        "pack de 4",
+        "linha 2"
+      ]
+    }
+  }
+}

@@ -7,7 +7,7 @@
     "fr"
   ],
   "prevalence_note": "Cybermalveillance.gouv.fr, DGCCRF & Hiya: Fake bank advisor + Secur'Pass/card-courier fraud (faux conseiller bancaire), Enedis/Linky electricity scams, and CPF / MaPrimeRénov' subsidy scams dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Under ARCEP's MAN (STIR/SHAKEN) authentication rules, unauthenticated fixed CLI calls are cut, commercial call centers are barred from 06/07 mobile numbers, and since Jan 1, 2026 unauthenticated foreign-origin calls spoofing French (+33 6/7) mobile numbers are masked as anonymous; offshore call centers pivot to SMS callback lures and polyvalent prefixes.",
   "scams": [
     {
       "id": "fr_faux_conseiller_bancaire",
@@ -48,9 +48,9 @@
         "Dire que aucune notification ne s'affiche sur le téléphone et demander d'attendre pendant qu'on redémarre le Wi-Fi"
       ],
       "sources": [
-        "Cybermalveillance.gouv.fr",
-        "Banque de France",
-        "Cybermalveillance.gouv.fr 2025-2026"
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire",
+        "https://www.banque-france.fr/fr/actualites/fraude-par-sms-et-appels-restez-vigilants",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/arnaques-au-faux-support-technique"
       ]
     },
     {
@@ -85,9 +85,9 @@
         "Poser plein de questions lentes sur les conditions techniques et les délais"
       ],
       "sources": [
-        "Enedis",
-        "DGCCRF",
-        "Cybermalveillance.gouv.fr"
+        "https://www.enedis.fr/prevention-fraudes-electriques",
+        "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/renforcement-des-mesures-pour-lutter-contre-le-demarchage-abusif",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire"
       ]
     },
     {
@@ -119,7 +119,7 @@
         "Demander quelle formation ils proposent"
       ],
       "sources": [
-        "Cybermalveillance.gouv.fr"
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire"
       ]
     },
     {
@@ -151,8 +151,8 @@
         "Demander combien coûtent les frais"
       ],
       "sources": [
-        "Assurance Maladie",
-        "Cybermalveillance.gouv.fr"
+        "https://www.ameli.fr/assure/droits-demarches/principes/attention-courrier-appels-courriels-sms-frauduleux.html",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire"
       ]
     },
     {
@@ -184,7 +184,7 @@
         "Demander quel message d'erreur ils ont reçu"
       ],
       "sources": [
-        "Cybermalveillance.gouv.fr"
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/fiches-reflexes/fraude-faux-conseiller-bancaire"
       ]
     }
   ]

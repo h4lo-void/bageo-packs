@@ -7,7 +7,7 @@
     "sr"
   ],
   "prevalence_note": "Police warnings 2025-2026 follow the Serbian pattern: fake parcel fees, fake bank card blocks asking for codes, crypto advisers, and relatives with a new number.",
-  "cross_border_note": "",
+  "cross_border_note": "Scammers spoof +382 bank and police numbers over VoIP or message via WhatsApp and Viber from regional and diaspora prefixes (+381, +387, +49, +43, +41) posing as relatives in distress or crypto advisors.",
   "scams": [
     {
       "id": "me_posta_paket",
@@ -38,7 +38,7 @@
         "Pitati koliko tačno košta dostava"
       ],
       "sources": [
-        "MUP"
+        "https://www.gov.me/cyr/dokumenta/c10aed8c-0bc8-46fd-ad3e-020e4198a319"
       ]
     },
     {
@@ -75,8 +75,8 @@
         "Pitati o kojoj transakciji je reč"
       ],
       "sources": [
-        "NBS",
-        "MUP"
+        "Centralna banka Crne Gore (CBCG — 修正原檔誤植 NBS；待補：政府網站封鎖境外連線無法驗證)",
+        "https://www.gov.me/cyr/dokumenta/c10aed8c-0bc8-46fd-ad3e-020e4198a319"
       ]
     },
     {
@@ -108,7 +108,7 @@
         "Pitati koliko traje isplata"
       ],
       "sources": [
-        "MUP"
+        "https://www.gov.me/cyr/dokumenta/c10aed8c-0bc8-46fd-ad3e-020e4198a319"
       ]
     },
     {
@@ -118,7 +118,12 @@
       "name_en": "Relative with a new number asking for an urgent payment",
       "prevalence": "medium",
       "lang": "sr",
-      "context_keywords": [],
+      "context_keywords": [
+        "novi broj na WhatsAppu",
+        "rođak iz dijaspore",
+        "pokvario mi se telefon",
+        "hitno treba novac"
+      ],
       "red_flag_keywords": [
         {
           "text": "hitno prebaci novac",
@@ -138,7 +143,7 @@
         "Pitati koliko tačno treba"
       ],
       "sources": [
-        "MUP"
+        "https://www.gov.me/cyr/dokumenta/c10aed8c-0bc8-46fd-ad3e-020e4198a319"
       ]
     }
   ]

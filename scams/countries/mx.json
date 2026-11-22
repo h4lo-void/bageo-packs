@@ -7,7 +7,7 @@
     "es"
   ],
   "prevalence_note": "CONDUSEF and local police 2025-2026: fake bank security asking to move money to a 'bóveda segura', virtual kidnapping and crossed-call extortion, and fake customs parcel fines dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Call centers operating from prisons and cross-border Spanish-speaking hubs spoof Mexican bank numbers, SAT, customs, and US/Mexican prefixes (+52/+1) for virtual kidnapping, bank vault vishing, and parcel fee extortion.",
   "scams": [
     {
       "id": "mx_falso_banco_boveda",
@@ -38,7 +38,7 @@
         "Decir que la tarjeta está en otra bolsa y preguntar con calma cómo funciona la bóveda segura"
       ],
       "sources": [
-        "CONDUSEF"
+        "https://www.condusef.gob.mx/?p=contenido&idc=2828&idcat=1"
       ]
     },
     {
@@ -70,8 +70,8 @@
         "Decir que no sabe hacer depósitos y preguntar paso por paso cómo se hace"
       ],
       "sources": [
-        "SSPC",
-        "CONDUSEF"
+        "https://www.gob.mx/sspc/prensa/sspc-emite-recomendaciones-para-prevenir-fraudes-por-falsas-ofertas-de-recuperacion-de-dinero-y-supuestas-fiscalias-digitales?idiom=es",
+        "https://www.condusef.gob.mx/?p=contenido&idc=2828&idcat=1"
       ]
     },
     {
@@ -103,8 +103,8 @@
         "Decir que no sabe dónde se compran esas tarjetas y pedir que se lo expliquen paso por paso"
       ],
       "sources": [
-        "SAT",
-        "CONDUSEF"
+        "https://www.sat.gob.mx/minisitio/BuscadorCorreosFalsos/buscador.html",
+        "https://www.condusef.gob.mx/?p=contenido&idc=2828&idcat=1"
       ]
     },
     {
@@ -123,6 +123,21 @@
           "text": "multa aduanal",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "pagar impuesto aduanal hoy",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "depositar en tienda oxxo",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "multa por paquete retenido",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "Poses as customs or a courier saying a parcel is held and a customs fine or tax must be deposited today through a payment link.",
@@ -132,7 +147,7 @@
         "Decir que tiene que buscar el número de guía y pedir que expliquen otra vez cómo se calcula la multa"
       ],
       "sources": [
-        "CONDUSEF"
+        "https://www.condusef.gob.mx/?p=contenido&idc=2828&idcat=1"
       ]
     }
   ]

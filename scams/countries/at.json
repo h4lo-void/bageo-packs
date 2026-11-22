@@ -7,7 +7,7 @@
     "de"
   ],
   "prevalence_note": "Watchlist Internet and police 2025-2026: fake bank calls about expiring ID Austria certificates asking for the Verfügernummer and app approval, fake police collecting gold and cash, and fake post or customs fees dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "RTR anti-spoofing rules block unverified international inbound calls spoofing Austrian geographic and mobile (+43) numbers; cross-border German-speaking vishing and fake-police call centers (frequently operating from Turkey or Southeastern Europe) shift to +49/+44 prefixes or VoIP callback lures.",
   "scams": [
     {
       "id": "at_id_austria_bankanruf",
@@ -39,7 +39,7 @@
         "Sagen, dass das Handy gerade lädt, und nachfragen, was genau mit dem Zertifikat passiert"
       ],
       "sources": [
-        "Watchlist Internet"
+        "https://www.watchlist-internet.at/news/kriminelle-imitieren-banknummern-spoofing/"
       ]
     },
     {
@@ -71,8 +71,8 @@
         "Sagen, dass der Schlüssel zum Kasten gerade nicht auffindbar ist, und fragen, wie die Übergabe genau ablaufen soll"
       ],
       "sources": [
-        "Bundeskriminalamt",
-        "Watchlist Internet"
+        "https://www.onlinesicherheit.gv.at/Services/News/Fake-Anrufe-Polizei.html",
+        "https://www.watchlist-internet.at/news/kriminelle-imitieren-banknummern-spoofing/"
       ]
     },
     {
@@ -109,7 +109,7 @@
         "Fragen, wann der Kollege vorbeikommen will"
       ],
       "sources": [
-        "Bundeskriminalamt"
+        "https://www.onlinesicherheit.gv.at/Services/News/Fake-Anrufe-Polizei.html"
       ]
     },
     {
@@ -141,7 +141,7 @@
         "Fragen, wie hoch die Gutschrift sein soll"
       ],
       "sources": [
-        "BMF"
+        "https://www.bmf.gv.at/public/informationen/aktuelle-warnungen-betrug.html"
       ]
     },
     {
@@ -151,7 +151,12 @@
       "name_en": "Fake bank asking to read out a TAN or confirm an approval",
       "prevalence": "high",
       "lang": "de",
-      "context_keywords": [],
+      "context_keywords": [
+        "sicherheitsabteilung",
+        "pushtan",
+        "verdächtige abbuchung",
+        "online-banking"
+      ],
       "red_flag_keywords": [
         {
           "text": "tan-code vorlesen",
@@ -171,7 +176,7 @@
         "Fragen, welche Zahlung es war und an welchem Tag"
       ],
       "sources": [
-        "Bundeskriminalamt"
+        "https://www.onlinesicherheit.gv.at/Services/News/Fake-Anrufe-Polizei.html"
       ]
     }
   ]

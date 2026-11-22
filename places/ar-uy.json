@@ -1,0 +1,719 @@
+{
+  "region": "ar-uy",
+  "countries": [
+    "ar",
+    "uy"
+  ],
+  "region_name_zh": "阿根廷、烏拉圭",
+  "region_name": "Argentina and Uruguay",
+  "languages": [
+    {
+      "code": "es",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak natural Rioplatense-aware or neutral polite Spanish (es); understand voseo ('tenés/querés') and local terms ('turno', 'seña', 'remís'); English in BA Palermo/Punta del Este hotels.",
+  "english_ok": "sometimes — Understood at upscale Buenos Aires, Mendoza winery, and Montevideo/Punta del Este venues, rarely at neighborhood shops.",
+  "politeness": "Warm, conversational 'Hola, buen día / buenas tardes'; respectful usted or polite Rioplatense tone; close with 'muchas gracias, hasta luego'.",
+  "name_tip": "First name and surname (e.g. Martín González); spell Italian/Basque/Eastern-European surnames clearly using city/common words.",
+  "phone_tip": "AR 10-digit mobile 11 1234-5678 (locals sometimes still mention legacy '15'), UY mobile 099 123 456; read in pairs/blocks; WhatsApp dominates.",
+  "time_tip": "24-hour and 12-hour mixed ('21 hs' or 'nueve de la noche'); dinner is very late (21:00–23:30 — 20:00 is early!); 'menos cuarto' = :45.",
+  "number_tip": "Aspirated 's' in Rioplatense makes dos/tres/seis softer; read phone blocks clearly (once, doce treinta y cuatro...).",
+  "avoid_calling": "Avoid provincial siesta closure (~13:00–16:30 outside CABA/Montevideo center), late dinner rush 21:00–22:45, and calls before 09:00.",
+  "closed_days": "Many restaurants/parrillas close Mondays (or Sunday nights); summer holiday migration in January slows Buenos Aires and peaks Punta del Este/Mar del Plata.",
+  "booking_channels": "WhatsApp is king; Meitre, Woki, and TheFork for upscale dining; Docturno/DrApp and clinic WhatsApp bots for medical 'turnos'; PedidosYa for delivery.",
+  "voice_menu": "Prepagas/Obras Sociales (OSDE, Swiss Medical, Mutualistas in UY), banks, ANSES/AFIP, telecoms, and couriers use heavy keypad IVR.",
+  "callback_habits": "WhatsApp reconfirmation message day before or afternoon of booking is standard across restaurants, clinics, and salons.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "阿烏晚餐習慣極晚（21:00～23:00才是正餐高峰），熱門牛排館（Parrilla）常透過 Meitre 或 Woki 要求留卡擔保。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and dining turn (primer turno 20:00/20:30 vs segundo turno 22:15+)",
+        "Number of diners (cubiertos/personas) and kids",
+        "Indoor salon vs vereda/patio/terraza",
+        "Name and WhatsApp phone",
+        "Celiac/sin TACC gluten-free need"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers early 20:00 or late 22:30 seating turn",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cash/transfer discount (descuento en efectivo) vs card price",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends Meitre/Woki link for card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate Mercado Pago transfer deposit (seña por alias)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "預約看診當地一律稱「sacar turno」；大型診所與烏拉圭 Mutualista 常有按鍵選單且必問 DNI/Cédula 與醫保卡。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Health coverage (obra social/prepaga like OSDE/Swiss Medical, mutualista in UY, or particular)",
+        "Specialty or dental study and first-visit status",
+        "Patient full name",
+        "Preferred doctor and turno slot",
+        "Mobile WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Doctor charges extra differential fee (copago/plus médico) on top of insurance",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Centralized call center requires keying DNI/Cédula on phone pad",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI (AR), Cédula (UY), or prepaga/obra social member number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "美甲、美睫與美容工作室普遍要求先轉帳訂金（seña por Mercado Pago / Brou）才保留時段。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "spec"
+      ],
+      "usually_asked": [
+        "Service (corte, color/mechas, semipermanente/kapping, masaje)",
+        "Removal of prior gel/kapping needed (retirado)",
+        "Preferred day, hour, and stylist",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Different price for cash/transfer vs credit card",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate Mercado Pago / bank alias transfer for seña",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Taller mecánico）與手機家電維修（Service）電話直接；驗車（VTV/ITV）須上政府網站預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model/year or appliance/phone model",
+        "Fault or routine service",
+        "Morning drop-off date and hour",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Argentina imported spare-part availability/price fluctuates daily",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "VTV/RTO vehicle inspection requires official web portal booking",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone unlock PIN/clave",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands transfer upfront to lock part price",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "社區義式熟食店（Rotisería）、披薩、Empanadas 與冰淇淋店（Heladería）非常習慣電話點外帶或自有外送收現。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Takeaway (retiro por el local) vs store delivery (envío a domicilio)",
+        "Flavors/docena de empanadas, pizza size, or helado kilos/sabores",
+        "Pickup time or street, number, floor/dept, and cross streets",
+        "Name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash discount (10–20% descuento en efectivo) on takeaway",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands Mercado Pago alias transfer before sending moto rider",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立五金行（ferretería）、書店、肉鋪與烘焙坊可電話問現貨並當日留貨；阿根廷價格常僅保留當天。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Item, size, brand, or model",
+        "Quantity and branch stock check",
+        "Same-day pickup hour (mind provincial afternoon closure)",
+        "Name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Price valid same day only unless paid",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires seña via Mercado Pago/transfer to reserve",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期當地稱「reprogramar/cambiar el turno」，若有付訂金（seña）通常需提前 24 小時通知才可保留。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name and phone on reservation/turno",
+        "Original date and hour",
+        "New slot or cancellation",
+        "Party count if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Seña forfeited if canceled within 24 hours",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks DNI/Cédula to locate turno",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (feriado hours, cash discount, cochera/parking agreement, pet policy, stock)",
+        "Planned visit time",
+        "Group size",
+        "Whether caller wants to book now"
+      ],
+      "may_come_up": [
+        {
+          "what": "Venue has discounted parking agreement with nearby garage (cochera convenida)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "小旅館與度假木屋（Cabañas）常接電話並改用 WhatsApp 報價收訂金；外國旅客刷外國卡在阿烏享有免 IVA 退稅規定。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults and children",
+        "Room/cabaña type and cochera (parking) need",
+        "Guest full name, phone, and residency (for 21%/10% IVA rules)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes USD vs ARS/UYU rate and explains foreign-card IVA exemption",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Offers sending payment link by email/WhatsApp",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests DNI/passport or credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate bank transfer seña now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "五人制足球（Fútbol 5）與板網球（Pádel）球場極盛行，電話與 WhatsApp 約場次常要求轉帳訂金（seña）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court/room type (cancha de 5/7 techada, pádel, escape room, parrilla)",
+        "Date, hour, and duration",
+        "Group size",
+        "Organizer name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "AlquilaTuCancha / Playtomic app used by urban clubs",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires Mercado Pago transfer seña within 30 mins to lock court",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址（含樓層、門牌字母如 4° B 與按鈴門牌 timbre）；瓦斯與水電師傅需確認是否為認證技師（matriculado）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Job needed (plomero, gasista matriculado, electricista, aire split, cerrajero)",
+        "Street, height/number (altura), floor/dept, timbre/portero, and neighborhood",
+        "Preferred day and morning/afternoon window",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes visita/presupuesto fee deductible from final job",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands transfer upfront before visiting",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Veterinaria）、洗澡美容（baño y corte）與寄宿（guardería/pensionado）電話預約順暢。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "address"
+      ],
+      "usually_asked": [
+        "Vet consult, grooming, or boarding",
+        "Breed, weight, age, and coat knots",
+        "Séxtuple, antirrábica, and tos de las perreras vaccines",
+        "Preferred turno or pickup shuttle (traslado)",
+        "Owner name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Knotted coat or large-dog surcharge applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Holiday boarding requires advance transfer seña",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Correo Argentino、Andreani、OCA 與 Mercado Libre 全國客服皆為按鍵或機器人；獨立維修店與地方營業所才適合打。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking number or repair receipt (número de orden/remito)",
+        "Customer name and phone",
+        "Item description",
+        "Pickup readiness or branch status"
+      ],
+      "may_come_up": [
+        {
+          "what": "Courier hotline blocks behind keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/Cédula or Mercado Libre delivery keyword (palabra clave)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、電信（Personal/Movistar/Antel）、水電瓦斯與醫保客服皆有按鍵選單並強制輸入 DNI/Cédula，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR keypad routing and DNI/Cédula keypad entry",
+        "Titular identity verification",
+        "Birth date and security questions",
+        "Account/client number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Blocked at initial keypad DNI/Cédula prompt",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/CUIL, Cédula, birth date, card digits, or token/OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "除了 Uber / Cabify 外，阿根廷「Remisería（社區包車行）」與烏拉圭 Radio Taxi 極常接電話叫車與預約機場接送。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Street and altura, cross streets, timbre, and pickup time",
+        "Destination or airport (Ezeiza/Aeroparque/Carrasco)",
+        "Passengers and valijas (suitcases — GNC tank in trunk reduces space!)",
+        "Passenger name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Car trunk has GNC gas cylinder so large suitcases require larger vehicle/rural",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Quotes fixed remís fare plus highway tolls (peajes)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks DNI/passport or license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "房仲電話約看房必問租屋擔保（阿國 Garantía propietaria 或擔保險，烏國 Anda/Porto）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Street/altura or Zonaprop/Argenprop/InfoCasas listing",
+        "Preferred viewing day and hour",
+        "Occupants, pets, and currency/adjustment terms",
+        "Guarantee type (garantía propietaria CABA / Finaer / Anda / Contaduría in UY)",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Landlord accepts only specific guarantee type (e.g. CABA property or Anda/Porto)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests reserva/seña before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政（147）與公家機關辦事需線上取號且有語音選單；私立幼兒園（Jardín maternal）與雙語學校可電話約面談參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General requirement inquiry or school admissions interview (entrevista de admisión)",
+        "Child age/sala (sala de 2, 3, 4) and shift (turno mañana/tarde/doble escolaridad)",
+        "School year (ciclo lectivo starts March)",
+        "Parent name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public office requires web turno via Mi Argentina / gub.uy",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks parent/child DNI or Cédula",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "es": {
+      "party": [
+        "mesa para 4",
+        "2 adultos y 1 chico",
+        "somos 3",
+        "para dos",
+        "4 personas + sillita",
+        "grupo de 6",
+        "1 persona",
+        "5 cubiertos"
+      ],
+      "time": [
+        "a las 21:30",
+        "21 hs",
+        "nueve y media de la noche",
+        "al mediodía 13 hs",
+        "ocho menos cuarto",
+        "mañana a las 10",
+        "tipo 22 hs",
+        "17:30"
+      ],
+      "date": [
+        "mañana",
+        "pasado mañana",
+        "este viernes",
+        "el martes que viene",
+        "25 de noviembre",
+        "el sábado a la noche"
+      ],
+      "name": [
+        "Martín González",
+        "a nombre de Lucía Rodríguez",
+        "Facundo Pérez",
+        "Valentina Silva",
+        "familia Fernández"
+      ],
+      "phone": [
+        "11 1234-5678",
+        "15-1234-5678",
+        "099 123 456",
+        "mi celu 11 9876 5432"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "hacer una reserva",
+        "reservar cancha de 5",
+        "guardar lugar",
+        "reservar cabaña"
+      ],
+      "appointment_words": [
+        "sacar turno",
+        "pedir turno médico",
+        "turno odontólogo",
+        "turno peluquería",
+        "service del auto"
+      ],
+      "order_words": [
+        "pedir para retirar",
+        "retiro por el local",
+        "delivery",
+        "encargar una docena",
+        "separar stock"
+      ],
+      "change_words": [
+        "reprogramar el turno",
+        "pasar media hora más tarde",
+        "cancelar la reserva",
+        "cambiar el turno",
+        "dar de baja el turno"
+      ],
+      "inquiry_words": [
+        "preguntar si abren el feriado",
+        "tienen descuento en efectivo?",
+        "hay cochera?",
+        "son pet friendly?",
+        "consultar stock"
+      ],
+      "false_friends": [
+        "piso 4 B",
+        "al 3200",
+        "cancha de 5",
+        "promo para 2",
+        "masaje 60 min",
+        "1 kilo de helado"
+      ]
+    }
+  }
+}

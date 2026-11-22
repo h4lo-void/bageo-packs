@@ -6,17 +6,23 @@
   "languages": [
     "th"
   ],
-  "prevalence_note": "Royal Thai Police and PEA/MEA warnings 2025-2026: call-center gangs posing as police asking for a LINE video statement and a transfer to check the money, and fake electricity staff installing an app to refund the meter deposit dominate.",
-  "cross_border_note": "",
+  "prevalence_note": "Royal Thai Police (thaipoliceonline.go.th / 1441), NBTC (กสทช.) & PEA 2025-2026: call-center gangs posing as police or DSI officers demanding LINE video statements and fund-audit transfers, fake กสทช. (NBTC) two-hour SIM suspension robocalls, and fake PEA/MEA meter-deposit refund APK face-scan scams dominate.",
+  "cross_border_note": "Cross-border call-center syndicates operating from neighboring border towns route calls via illegal SIM boxes and international VoIP; under NBTC (กสทช.) anti-spoofing directives, Thai telecom carriers prepend +697 or +698 to incoming international VoIP/roaming calls so recipients can spot overseas scammers.",
   "scams": [
     {
       "id": "th_police_line_transfer",
       "typology": "fake_official",
-      "name": "แก๊งคอลเซ็นเตอร์อ้างเป็นตำรวจ ให้โอนเงินมาตรวจสอบ",
-      "name_en": "Fake police taking a LINE statement and a transfer to check the money",
+      "name": "แก๊งคอลเซ็นเตอร์อ้างเป็นตำรวจ / DSI ให้แอดไลน์และโอนเงินมาตรวจสอบ",
+      "name_en": "Fake Thai police or DSI officer demanding LINE video statement and fund-verification transfer",
       "prevalence": "very_high",
       "lang": "th",
-      "context_keywords": [],
+      "context_keywords": [
+        "สถานีตำรวจภูธร",
+        "กรมสอบสวนคดีพิเศษ",
+        "dsi",
+        "บัญชีม้าฟอกเงิน",
+        "หมายจับศาล"
+      ],
       "red_flag_keywords": [
         {
           "text": "โอนเงินมาตรวจสอบ",
@@ -26,28 +32,90 @@
         {
           "text": "แอดไลน์สอบปากคำ",
           "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "วิดีโอคอลสอบสวน",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "ห้ามบอกคนอื่น",
+          "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Fake police or DSI officers say the owner's account is tied to money laundering, take a statement over a LINE video call and ask for a transfer to prove the money is clean.",
-      "legit_en": "Thai police never take statements on LINE or ask for transfers to check money.",
+      "signals_en": "Fake Royal Thai Police or Department of Special Investigation (DSI) officers claim the owner's bank account is tied to money laundering or contraband, instruct them to add LINE for a video interrogation, and order savings transferred for 'inspection'.",
+      "legit_en": "Royal Thai Police and DSI never take official statements over LINE video calls or order citizens to transfer money into external accounts for inspection.",
       "bait_tactics": [
-        "ทำเป็นกังวล ถามช้าๆ ว่าเป็นคดีอะไร ที่สถานีไหน",
-        "บอกว่าหาแว่นสายตาไม่เจอ ขอให้พูดซ้ำทีละคำ"
+        "ทำเป็นกังวลมาก ถามช้าๆ ว่าเป็นคดีอะไรและสถานีตำรวจตั้งอยู่ถนนเส้นไหน จะให้ลูกพาไปพบที่โรงพักโดยตรง",
+        "บอกว่าหาแว่นสายตาไม่เจอ มองหน้าจอมือถือไม่เห็น ขอให้สะกดชื่อหน่วยงานซ้ำทีละตัวอักษร"
       ],
       "sources": [
-        "สำนักงานตำรวจแห่งชาติ"
+        "https://www.thaipoliceonline.go.th/",
+        "https://tcp.nbtc.go.th/th/CriminalsSCAMAlert/Channelforreportingclues.aspx"
+      ]
+    },
+    {
+      "id": "th_nbtc_dsi_sim_suspend",
+      "typology": "fake_telecom",
+      "name": "อ้างสำนักงาน กสทช. (NBTC) / DSI แจ้งระงับเบอร์มือถือภายใน 2 ชั่วโมง",
+      "name_en": "Fake NBTC (กสทช.) telecom regulator threatening two-hour SIM suspension and routing to DSI/police",
+      "prevalence": "very_high",
+      "lang": "th",
+      "context_keywords": [
+        "กสทช.",
+        "สำนักงาน กสทช.",
+        "กรมสอบสวนคดีพิเศษ",
+        "dsi",
+        "ซิมลงทะเบียนผิดกฎหมาย",
+        "ส่งข้อความพนัน"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "ระงับเบอร์ในสองชั่วโมง",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "โอนสายไปหาตำรวจ",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "กดหนึ่งติดต่อเจ้าหน้าที่",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ตรวจสอบเส้นทางการเงิน",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Automated or live caller posing as Thailand's telecom regulator กสทช. (NBTC) claims a mobile SIM registered under the victim's Thai ID sent illegal gambling/scam SMS, threatens to shut off all phone numbers within two hours...",
+      "legit_en": "สำนักงาน กสทช. (NBTC) never phones citizens with automated cut-off countdowns or transfers calls directly to police or DSI investigators.",
+      "bait_tactics": [
+        "แกล้งถามว่าเบอร์ที่อ้างนั้นใช้เครือข่ายค่ายไหนและเปิดใช้งานที่จังหวัดอะไร เพราะไม่เคยไปจังหวัดนั้นเลย",
+        "บอกว่าสัญญาณโทรศัพท์ขาดๆ หายๆ ขอวางสายแล้วโทรเช็คที่สายด่วน กสทช. ด้วยตัวเองก่อน"
+      ],
+      "sources": [
+        "https://tcp.nbtc.go.th/th/CriminalsSCAMAlert/Channelforreportingclues.aspx",
+        "https://www.thaipoliceonline.go.th/"
       ]
     },
     {
       "id": "th_pea_meter_refund_app",
       "typology": "fake_utility",
-      "name": "อ้างการไฟฟ้าคืนเงินประกันมิเตอร์ ให้โหลดแอป",
-      "name_en": "Fake electricity staff refunding the meter deposit through an app",
+      "name": "อ้างการไฟฟ้า (PEA / MEA) คืนเงินประกันมิเตอร์ ให้กดลิงก์โหลดแอปสแกนหน้า",
+      "name_en": "Fake PEA or MEA electricity staff offering meter-deposit refund via malicious APK link and face scan",
       "prevalence": "high",
       "lang": "th",
       "context_keywords": [
-        "คืนเงินประกันมิเตอร์"
+        "คืนเงินประกันมิเตอร์",
+        "การไฟฟ้าส่วนภูมิภาค",
+        "การไฟฟ้านครหลวง",
+        "สิทธิ์ลดค่าไฟฟ้า"
       ],
       "red_flag_keywords": [
         {
@@ -56,24 +124,30 @@
           "hard": false
         },
         {
-          "text": "โหลดแอปการไฟฟ้าจากลิงก์",
+          "text": "ติดตั้งไฟล์ apk",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "ติดตั้งไฟล์ apk",
+          "text": "สแกนใบหน้ายืนยันสิทธิ์",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "โหลดแอปการไฟฟ้าจากลิงก์",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Fake PEA or MEA staff offer to refund the meter deposit and ask the owner to install an app from a link, set a code and scan their face.",
-      "legit_en": "The electricity authorities refund deposits through their official channels and never send app links by LINE.",
+      "signals_en": "Fake PEA or MEA staff call on phone/LINE offering to refund an electricity meter deposit or grant power-bill relief, guiding the victim to install a `.apk` app from a link, grant permissions, and scan their face to bypass banking biometrics.",
+      "legit_en": "PEA and MEA process meter deposits only through verified official offices/portals and never send LINE links to install `.apk` files or request banking face scans.",
       "bait_tactics": [
-        "บอกว่าเน็ตมือถือหมุนติ้วๆ โหลดไม่ขึ้น",
-        "ถามว่ามิเตอร์ไหนและจะได้คืนเท่าไหร่"
+        "บอกว่าอินเทอร์เน็ตมือถือช้ามาก หน้าจอหมุนติ้วๆ โหลดอะไรไม่ขึ้นเลย ขอเดินไปถามที่สำนักงานการไฟฟ้าใกล้บ้านแทน",
+        "แกล้งถามช้าๆ ว่าบิลค่าไฟบ้านนี้เป็นชื่อของคุณปู่หรือคุณย่ากันแน่ ขอเวลาไปค้นบิลกระดาษในลิ้นชักก่อน"
       ],
       "sources": [
-        "การไฟฟ้าส่วนภูมิภาค"
+        "https://www.pea.co.th/news/corporate-news/2382",
+        "https://www.thaipoliceonline.go.th/"
       ]
     }
   ]

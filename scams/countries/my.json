@@ -9,21 +9,23 @@
     "zh-CN",
     "ta"
   ],
-  "prevalence_note": "Malaysia 2025-2026 warnings: police, Tax Agency, and Court Warrant Impersonation Scam; communications Regulator Phone Line Suspension Scam; fake Bank Fraud Alert and Authorization Code Theft; courier Parcel Contraband and Identity Misuse Scam.",
-  "cross_border_note": "Calls in Malay, English or Mandarin, often from spoofed local numbers or from abroad.",
+  "prevalence_note": "PDRM CCID (SemakMule), NSRC 997, BNM & LHDN 2025-2026: Macau Scams impersonating PDRM, LHDN tax arrears, Mahkamah warrants, MCMC/SKMM line blocks, and Pos Laju contraband parcels across Malay, Mandarin, English, and Tamil, alongside bank TAC/APK theft dominate.",
+  "cross_border_note": "Cross-border scam call centers place calls in Malay, Mandarin, English, and Tamil using VoIP-spoofed +60 landline/mobile numbers and foreign prefixes; victims can check mule accounts on PDRM SemakMule and call NSRC 997.",
   "scams": [
     {
       "id": "my_enforcement_mahkamah",
       "typology": "fake_official",
-      "name": "Penipuan Menyamar Pegawai Polis, Cukai dan Mahkamah",
-      "name_en": "Police, Tax Agency, and Court Warrant Impersonation Scam",
+      "name": "Penipuan Menyamar Pegawai PDRM, LHDN dan Mahkamah (Macau Scam)",
+      "name_en": "Fake PDRM, LHDN tax agency, and court warrant Macau Scam in Malay",
       "prevalence": "very_high",
       "lang": "ms",
       "context_keywords": [
+        "pdrm",
+        "lhdn",
+        "kwsp",
         "tunggakan cukai",
         "mahkamah persekutuan",
         "pengubahan wang haram",
-        "siasatan jenayah",
         "beku akaun"
       ],
       "red_flag_keywords": [
@@ -53,8 +55,8 @@
           "hard": false
         }
       ],
-      "signals_en": "Known locally as a Macau Scam, the caller poses as a court, tax board, or police officer alleging unpaid tax arrears, illegal company registration, or money laundering tied to the victim's identity card.",
-      "legit_en": "Malaysian courts, tax authorities, and Royal Malaysia Police never transfer phone calls between enforcement agencies, issue arrest warrants via messaging apps, or instruct citizens to transfer money or share banking credentials.",
+      "signals_en": "Known locally as a Macau Scam, the caller poses as LHDN, court, or PDRM police alleging unpaid tax arrears, illegal company registration, or money laundering tied to the victim's MyKad.",
+      "legit_en": "Malaysian courts, LHDN, and Royal Malaysia Police (PDRM) never transfer phone calls between enforcement agencies, issue arrest warrants via WhatsApp, or instruct citizens to move money to 'safe accounts'.",
       "bait_tactics": [
         "Maaf tuan, garis telefon dekat kawasan perumahan saya ni tengah hujan lebat jadi putus-putus, boleh ulang nama jabatan perlahan sikit?",
         "Saya memang bayar cukai potong gaji setiap bulan, kejap saya cari fail penyata dekat bilik belakang tapi kunci laci pula tak jumpa.",
@@ -62,17 +64,20 @@
       ],
       "sources": [
         "https://www.kehakiman.gov.my/ms/scam-alert",
-        "https://www.malaysia.gov.my/categories/keselamatan--komuniti/keselamatan-siber/hotline-nsrc-997"
+        "https://bantuantunai.hasil.gov.my/Info/NotisAmaranSistem",
+        "https://semakmule.rmp.gov.my/"
       ]
     },
     {
       "id": "my_telecom_line_block",
       "typology": "fake_telecom",
-      "name": "Penipuan Sekatan Talian Telefon Menyamar Pengawal Selia",
-      "name_en": "Communications Regulator Phone Line Suspension Scam",
+      "name": "Penipuan Sekatan Talian Telefon Menyamar MCMC / SKMM",
+      "name_en": "Fake MCMC / SKMM communications regulator phone line suspension scam",
       "prevalence": "very_high",
       "lang": "ms",
       "context_keywords": [
+        "mcmc",
+        "skmm",
         "suruhanjaya komunikasi",
         "bil tertunggak",
         "aduan penyalahgunaan",
@@ -95,44 +100,47 @@
           "hard": false
         }
       ],
-      "signals_en": "The caller claims to represent the national communications regulator or ministry, warning that all mobile numbers registered under the recipient's identity card will be terminated within hours due to spam complaints or unpaid bills.",
-      "legit_en": "Malaysia's communications ministry and telecommunications regulator never call individual subscribers to shut down phone lines, collect overdue bills, or transfer calls to police, as billing and account matters are handled solely by telecom operators.",
+      "signals_en": "The caller claims to represent MCMC/SKMM, warning that all mobile numbers under the recipient's MyKad will be blocked within hours due to scam complaints and offering to transfer the call to fake police.",
+      "legit_en": "MCMC never calls individual subscribers to shut down phone lines, collect overdue bills, or transfer calls to police stations.",
       "bait_tactics": [
         "Pelik juga sebab bil telefon saya memang potong automatik setiap bulan, nanti saya semak sendiri dalam aplikasi mudah alih saya.",
-        "Sekarang saya tengah memandu di lebuh raya, memang tak boleh salin apa-apa nombor rujukan, hantar surat rasmi ke alamat bil sajalah.",
+        "Sekarang saya tengah memandu di lebuh raya, memang tak boleh salin apa-apa rujukan, hantar surat rasmi ke alamat bil sajalah.",
         "Talian ni elok saja saya tengah guna bercakap sekarang, petang nanti saya singgah pusat khidmat pelanggan tanya sendiri."
       ],
       "sources": [
-        "https://theedgemalaysia.com/node/825818",
-        "https://malaysia.news.yahoo.com/fahmi-wants-stronger-whatsapp-verification-064155883.html"
+        "https://semakmule.rmp.gov.my/",
+        "https://www.mkn.gov.my/web/ms/2026/06/22/semak-mule-ccid/",
+        "https://www.malaysia.gov.my/categories/keselamatan--komuniti/keselamatan-siber/hotline-nsrc-997"
       ]
     },
     {
       "id": "my_bank_tac_alert",
       "typology": "fake_bank_account_alert",
-      "name": "Penipuan Amaran Transaksi Kad Bank dan Kod Pengesahan",
-      "name_en": "Fake Bank Fraud Alert and Authorization Code Theft",
+      "name": "Penipuan Amaran Transaksi Kad Bank dan Kod TAC",
+      "name_en": "Fake Malaysian bank or BNM fraud alert stealing TAC codes or pushing APK installs",
       "prevalence": "high",
       "lang": "ms",
       "context_keywords": [
+        "tac",
+        "bnm",
+        "duitnow",
         "bahagian keselamatan bank",
         "transaksi mencurigakan",
-        "batalkan transaksi",
         "akaun dibekukan"
       ],
       "red_flag_keywords": [
         {
-          "text": "kod pengesahan",
+          "text": "kod pengesahan tac",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "nombor pin",
+          "text": "nombor pin kad",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "kata laluan",
+          "text": "kongsi kata laluan",
           "weight": 2,
           "hard": false
         },
@@ -142,14 +150,15 @@
           "hard": false
         }
       ],
-      "signals_en": "Impersonating a bank security unit or central bank officer, the caller alerts the recipient to a large overseas card charge or unauthorized transfer.",
-      "legit_en": "Malaysian commercial banks and the central bank only follow up on customer-initiated fraud reports and never make unsolicited calls asking customers to read out banking usernames, passwords, card PINs, or transaction authorization codes.",
+      "signals_en": "Impersonating a commercial bank security unit or Bank Negara Malaysia (BNM), the caller alerts the recipient to an unauthorized card charge and demands TAC/OTP codes, Secure2u/MAE approval, or WhatsApp APK installation.",
+      "legit_en": "Bank Negara Malaysia and commercial banks never make unsolicited calls asking customers to disclose usernames, passwords, card PINs, or TAC authorization codes.",
       "bait_tactics": [
         "Kad bank tu ada dalam dompet saya sekarang dan saya langsung tak pernah aktifkan transaksi luar negara pun.",
-        "Kejap ya, saya letak telefon dulu dan terus hubungi sendiri nombor rasmi di belakang kad bank saya untuk sahkan.",
+        "Kejap ya, saya letak telefon dulu dan terus hubungi sendiri talian rasmi di belakang kad bank saya untuk sahkan.",
         "Telefon saya ni tak keluar apa-apa mesej pengesahan pun sebab liputan dalam bangunan pejabat ni sangat lemah."
       ],
       "sources": [
+        "https://www.bnm.gov.my/-/scam-notice-2011-1",
         "https://nfcc.jpm.gov.my/index.php/en/about-nsrc",
         "https://www.mycert.org.my/portal/advisory?id=SR-028.122024"
       ]
@@ -157,11 +166,13 @@
     {
       "id": "my_parcel_contraband",
       "typology": "fake_customs_parcel",
-      "name": "Penipuan Bungkusan Kurier Mengandungi Barang Terlarang",
-      "name_en": "Courier Parcel Contraband and Identity Misuse Scam",
+      "name": "Penipuan Bungkusan Pos Laju / Kurier Mengandungi Barang Terlarang",
+      "name_en": "Fake Pos Laju or courier parcel contraband & police-transfer scam",
       "prevalence": "high",
       "lang": "ms",
       "context_keywords": [
+        "pos laju",
+        "pdrm",
         "bungkusan tidak dituntut",
         "kastam tahan",
         "barang terlarang",
@@ -174,7 +185,7 @@
           "hard": false
         },
         {
-          "text": "sambungkan talian ke balai polis",
+          "text": "sambung ke balai polis",
           "weight": 2,
           "hard": false
         },
@@ -184,16 +195,164 @@
           "hard": false
         }
       ],
-      "signals_en": "The caller poses as a courier representative claiming a parcel sent under the recipient's name and identity number was intercepted containing illicit bank cards, passports, or contraband.",
-      "legit_en": "Legitimate courier and postal operators in Malaysia issue standard tracking numbers for lookup on official websites, never investigate criminal contraband over unsolicited calls, never request personal banking details, and never route customer calls.",
+      "signals_en": "Caller poses as Pos Laju or a courier company claiming a parcel under the victim's name and MyKad was intercepted containing illicit bank cards or passports, then routes the call to a fake PDRM officer.",
+      "legit_en": "Pos Laju and licensed couriers never investigate criminal contraband by phone or connect customer calls directly to police headquarters.",
       "bait_tactics": [
-        "Saya memang tak pernah kirim bungkusan ke negeri itu, bagi nombor jejak bungkusan biar saya semak sendiri dekat laman rasmi.",
-        "Sekarang saya tengah sibuk di tempat kerja, kalau bungkusan tu bukan nama alamat rumah saya, pulangkan saja kepada pengirim asal.",
-        "Tak perlu sambungkan talian ke mana-mana, saya boleh jalan kaki buat semakan sendiri dekat kaunter cawangan lepas waktu pejabat."
+        "Saya memang tak pernah kirim bungkusan ke negeri itu, nanti saya jalan kaki semak sendiri dekat pejabat Pos Laju.",
+        "Sekarang saya tengah sibuk di tempat kerja, kalau bungkusan tu bukan alamat rumah saya, pulangkan saja kepada pengirim asal."
       ],
       "sources": [
-        "https://www.mycert.org.my/portal/advisory?id=SR-028.122024",
-        "https://help.celcomdigi.com/ms/solutions-latest-notices/penipuan-macau"
+        "https://semakmule.rmp.gov.my/",
+        "https://www.mycert.org.my/portal/advisory?id=SR-028.122024"
+      ]
+    },
+    {
+      "id": "my_en_pdrm_lhdn_poslaju_tac",
+      "typology": "fake_official",
+      "name": "Fake PDRM / LHDN / MCMC / Pos Laju Macau Scam & Bank TAC Vishing",
+      "name_en": "English-language Malaysian Macau Scam posing as LHDN, MCMC, Pos Laju, PDRM, or bank TAC desk",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "pdrm",
+        "lhdn",
+        "mcmc",
+        "pos laju",
+        "tac",
+        "bank negara",
+        "unpaid tax arrears"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transfer to safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read bank tac code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "connect to bukit aman",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "arrest warrant issued",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller poses as LHDN tax officers, MCMC, Pos Laju, or a bank fraud desk before transferring the line to a bogus PDRM Bukit Aman investigator demanding bank TAC codes or transfers to a Bank Negara 'safe account'.",
+      "legit_en": "PDRM, LHDN, MCMC, Pos Laju, and Bank Negara Malaysia never transfer calls to police stations, ask for TAC/Secure2u approvals, or hold citizen funds in 'safe accounts'.",
+      "bait_tactics": [
+        "Hold on, the signal in this basement carpark is breaking up—let me check my tax filing on the official MyTax portal myself tonight.",
+        "Why would Pos Laju connect me directly to a police station? Let me pause a moment and walk to the nearest district police headquarters first."
+      ],
+      "sources": [
+        "https://www.bnm.gov.my/-/scam-notice-2011-1",
+        "https://bantuantunai.hasil.gov.my/Info/NotisAmaranSistem",
+        "https://nfcc.jpm.gov.my/index.php/en/about-nsrc",
+        "https://semakmule.rmp.gov.my/"
+      ]
+    },
+    {
+      "id": "my_zh_macau_scam_lhdn_pdrm",
+      "typology": "fake_official",
+      "name": "假冒大马警方（PDRM）／内陆税收局（LHDN）／MCMC／Pos Laju 华语澳门骗局",
+      "name_en": "Mandarin-language Malaysian Macau Scam posing as PDRM, LHDN, MCMC, or Pos Laju",
+      "prevalence": "very_high",
+      "lang": "zh-CN",
+      "context_keywords": [
+        "内陆税收局",
+        "大马皇家警察",
+        "武吉阿曼",
+        "通讯及多媒体委员会",
+        "邮政局违禁包裹",
+        "拖欠公司税"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "转入国家银行安全户口",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "提供银行tac验证码",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "转接警官调查",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "签署保密协议",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Mandarin-speaking caller targets Malaysian Chinese residents posing as LHDN, MCMC, Pos Laju, or court staff alleging tax arrears, spam SIM registration, or contraband parcels, then transfers the call to fake PDRM officers demanding 'safe account' transfers...",
+      "legit_en": "Malaysian government departments (PDRM, LHDN, MCMC) never conduct phone interrogations, transfer calls to police officers, or request bank TAC codes or 'safe account' transfers.",
+      "bait_tactics": [
+        "不好意思啊，我现在在巴生塞车信号很差听不清楚，你把公文寄来我家地址，我明天自己去税收局柜台问。",
+        "奇怪咧，我打工每个月都有扣税，你等我先暂停打去国家诈骗应对中心确认一下。"
+      ],
+      "sources": [
+        "https://semakmule.rmp.gov.my/",
+        "https://bantuantunai.hasil.gov.my/Info/NotisAmaranSistem",
+        "https://www.bnm.gov.my/-/scam-notice-2011-1",
+        "https://nfcc.jpm.gov.my/index.php/en/about-nsrc"
+      ]
+    },
+    {
+      "id": "my_ta_pdrm_lhdn_tac_scam",
+      "typology": "fake_official",
+      "name": "PDRM / LHDN / Pos Laju மற்றும் வங்கி TAC தமிழ் தொலைபேசி மோசடி",
+      "name_en": "Tamil-language fake PDRM, LHDN, or Malaysian bank TAC phone scam",
+      "prevalence": "high",
+      "lang": "ta",
+      "context_keywords": [
+        "மலேசிய காவல்துறை",
+        "உள்நாட்டு வருமான வாரியம்",
+        "தடைசெய்யப்பட்ட பார்சல்",
+        "வரி பாக்கி",
+        "வங்கி பாதுகாப்பு பிரிவு"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "பாதுகாப்பான கணக்கிற்கு மாற்றவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "வங்கி குறியீடு சொல்லவும்",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "காவல் நிலையத்திற்கு இணைப்பு",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "கைது வாரண்ட் பிறப்பிப்பு",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Tamil-speaking caller impersonates LHDN, Pos Laju, MCMC, or Malaysian bank security and threatens arrest or account freezing unless the victim shares TAC codes or transfers savings to a safe account.",
+      "legit_en": "PDRM, LHDN, and Bank Negara Malaysia confirm officials never connect phone calls to police investigators or request TAC codes or safe-account transfers.",
+      "bait_tactics": [
+        "மன்னிக்கவும், இங்கே மழை பெய்வதால் இணைப்பு விட்டு விட்டுக் கேட்கிறது, நான் அருகிலுள்ள காவல் நிலையத்திற்கு நேரில் சென்று விசாரிக்கிறேன்.",
+        "என் வங்கி அட்டை வீட்டில் உள்ளது, நான் வங்கி கிளைக்கு நேரில் சென்று சரிபார்த்துக் கொள்கிறேன்."
+      ],
+      "sources": [
+        "https://semakmule.rmp.gov.my/",
+        "https://www.bnm.gov.my/-/scam-notice-2011-1",
+        "https://nfcc.jpm.gov.my/index.php/en/about-nsrc"
       ]
     }
   ]

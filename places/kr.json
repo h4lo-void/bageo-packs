@@ -1,0 +1,787 @@
+{
+  "region": "kr",
+  "countries": [
+    "kr"
+  ],
+  "region_name_zh": "韓國",
+  "region_name": "South Korea",
+  "languages": [
+    {
+      "code": "ko",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite standard Korean (ko); regional dialects (Busan/Jeju) understand standard Korean; use English only at major Seoul hotels or foreign clinics.",
+  "english_ok": "rarely — Outside international hotels and Itaewon/Gangnam tourist clinics, local shops rarely handle English phone calls.",
+  "politeness": "Use polite formal -요/-습니다 speech; open with greeting (안녕하세요) and state calling on behalf of owner (OO님 대신 연락드렸습니다); close with 수고하세요/감사합니다.",
+  "name_tip": "Full 3-syllable Korean name (e.g. 김철수) is standard everywhere rather than surname alone; spell rare characters by syllable example if misheard.",
+  "phone_tip": "Mobile 010-1234-5678, Seoul landline 02-1234-5678; read Sino-Korean in 3-4-4 blocks pausing at hyphen (에); confirmations via KakaoTalk (알림톡) or SMS (문자).",
+  "time_tip": "12-hour spoken with 오전/오후/저녁 plus Native Korean hours and Sino-Korean minutes (저녁 일곱 시 반); watch 한 시 (1) vs 열한 시 (11).",
+  "number_tip": "Party size uses Native Korean (한 명, 두 명, 세 명, 네 명); in phone digits, 일 (1) and 이 (2) confuse easily—enunciate clearly.",
+  "avoid_calling": "Avoid lunch peak 11:45–13:00, clinic lunch break (점심시간 13:00–14:00), restaurant break time (브레이크타임 15:00–17:00), and calls after 21:00.",
+  "closed_days": "Many independent restaurants/salons close Mondays or Tuesdays (정기휴무); clinics close Sundays, public holidays, and Saturday afternoons; major closures on Seollal/Chuseok.",
+  "booking_channels": "Naver Booking (네이버 예약) and CatchTable (캐치테이블) dominate dining/salons/clinics; Kakao Hairshop for hair; Baemin/Coupang Eats for delivery.",
+  "voice_menu": "Hospitals, franchises, couriers, banks, telecoms (SKT/KT/LGU+), and government offices (120/110) use ARS keypad menus heavily.",
+  "callback_habits": "Automated KakaoTalk AlimTalk (알림톡) or SMS confirmations are extremely common; clinics and salons send day-before reminder texts.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "熱門餐廳多改用 CatchTable 現場候位或 Naver 預約訂金制；一般烤肉店、聚餐餐廳與日料仍可電話訂位。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "spec"
+      ],
+      "usually_asked": [
+        "Date and arrival time (몇 월 며칠 몇 시)",
+        "Total party size and children/baby chair (성인/아이 몇 분, 아기의자)",
+        "Hall table vs private room (홀/룸 여부)",
+        "Pre-order menu required for slow dishes like samgyetang/galbi-jjim (메뉴 선주문)",
+        "Full name and 010 mobile number (성함과 연락처)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Restaurant accepts CatchTable remote waiting or Naver Booking only",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Requires pre-ordering main dishes when booking group table",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "No-kids zone (노키즈존) restriction applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests bank transfer reservation deposit (예약금 계좌이체) via SMS",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "基層診所（의원）很多採現場掛號免預約，牙科、皮膚科與韓醫院則普遍需預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "First visit or returning patient (초진/재진 여부)",
+        "Symptoms or procedure requested (어떤 증상/스케일링 등)",
+        "Patient full name (환자분 성함)",
+        "Preferred date, time, and director doctor (원장님 지정)",
+        "Mobile number for KakaoTalk reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "Neighborhood clinic takes walk-ins in arrival order only (당일 접수만 가능)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "University hospital requires referral slip (진료의뢰서) and ARS/app booking",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Resident Registration Number (주민등록번호) or full birth date (생년월일)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands beauty/dermatology deposit transfer right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "韓國個人美甲、美睫工作室常採用100%預約金轉帳制（예약금），電話可能被要求改傳 KakaoTalk 匯款。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "spec"
+      ],
+      "usually_asked": [
+        "Exact service (커트/펌/염색, 젤네일 제거 유무)",
+        "Desired date and time",
+        "Requested designer or director (디자이너/원장님 지정)",
+        "First visit or returning client",
+        "Full name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Gel nail shop asks whether existing gel removal (타샵 제거) is needed",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Salon directs to Naver Booking or Kakao Hairshop for discount",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Nail/lash studio requires bank transfer deposit within 1 hour to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "三星/LG/現代起亞官方服務中心為全國 ARS 按鍵專線；社區修車廠（카센터）與私修店可直接打。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle model/plate or appliance/phone model",
+        "Symptom or maintenance item (엔진오일, 액정 수리 등)",
+        "Preferred visit date and time",
+        "Parts stock check needed before visit",
+        "Customer name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Official brand service center uses ARS keypad routing",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Imported car part needs ordering and separate quote",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone screen lock PIN/pattern over call",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance bank transfer for parts order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "外送多走 배달의민족 / 쿠팡이츠，但電話訂「到店自取（포장 주문）」在炸雞、中華料理與小店仍很普遍。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Takeout pickup vs neighborhood delivery (포장인지 배달인지)",
+        "Menu items, spice level, and portion count",
+        "Estimated pickup readiness time (보통 15~30분 후 픽업)",
+        "Caller phone last 4 digits or full 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers takeout discount (포장 할인 1,000–2,000 KRW) on pickup",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Delivery refused by phone; directs to Baemin/Coupang Eats",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate bank transfer before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型百貨與連鎖藥妝（Olive Young等）分店電話常忙線或轉ARS，獨立花店、蛋糕店與書店可電話查貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact product name, option, or barcode/model",
+        "Quantity and branch stock check",
+        "Same-day pickup time",
+        "Customer name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Same-day hold allowed only for a few hours without payment",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Custom lettering cake only accepts KakaoTalk channel + prepayment",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires bank transfer (계좌이체) to confirm reservation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Naver 預約或 CatchTable 綁定訂金的訂單，通常需由主人在原 App 內自行變更或取消以免扣違約金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name and phone last 4 digits (전화번호 뒷자리 네 자리)",
+        "Original reservation date and time",
+        "New preferred slot or cancellation",
+        "Whether booked by phone or Naver/CatchTable"
+      ],
+      "may_come_up": [
+        {
+          "what": "App booking with deposit must be canceled in-app by owner",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Same-day change forfeits deposit per shop policy",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks bank account number for deposit refund or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific question (영업시간, 브레이크타임, 웨이팅, 주차 가능 여부, 애견 동반)",
+        "Arrival time and party size if asking waitlist",
+        "Car size (SUV/sedan) for mechanical parking tower (기계식 주차)",
+        "Pet weight and carrier/stroller availability if bringing dog"
+      ],
+      "may_come_up": [
+        {
+          "what": "Building has mechanical parking lift (기계식 주차) unsuitable for SUVs",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Last order (라스트오더) is 30–60 mins before closing",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型飯店訂房專線多有 ARS 選單且需刷卡擔保；度假民宿（펜션）常走官網或 Naver 匯款訂房。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Standard vs extra guest count (기준 인원 / 최대 인원)",
+        "Room type and bed setup (더블/트윈/온돌)",
+        "Guest full name and 010 mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Extra person fee (인원 추가비) or BBQ grill fee at pension",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Hotel requires credit card guarantee link or OTA booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Pension requires bank transfer within hours to hold room",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "密室逃脫、無人練習室與熱門球場多採線上預付；KTV（노래방）、螢幕高爾夫（스크린골프）常接電話訂房。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Room or bay type (스크린골프 방, 단체룸 등)",
+        "Date, start time, and number of games/hours (몇 게임/몇 시간)",
+        "Number of players",
+        "Name and phone number (or last 4 digits)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Screen golf asks 9-hole vs 18-hole and left-handed bay need",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Escape room only books via website with deposit",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests immediate bank transfer deposit for group room",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "到府服務須提供完整道路名地址與棟/號（동·호수）；大樓常有共同玄關密碼但 AI 絕不可代給。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service needed and appliance/ac type (벽걸이/시스템 에어컨, 누수, 개문)",
+        "Full address with apartment complex, dong, and unit number (동·호수)",
+        "Preferred visit date and time window",
+        "Parking registration need at apartment guardhouse (방문차량 등록)",
+        "Contact name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Call-out inspection fee (출장비) charged if repair declined",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Technician calls 30 mins prior so owner can open lobby gate",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks apartment lobby password (공동현관 비밀번호) or unit door PIN",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance transfer before visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "寵物美容與寄宿對犬種體重、打結狀況與疫苗非常仔細，部分美容店要求預約金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet care, bath/grooming cut style (목욕/전체미용/위생미용), or hoteling",
+        "Breed, weight (kg), age, and neutering status (중성화 여부)",
+        "Vaccination status and biting/separation anxiety notes (입질 여부)",
+        "Preferred date and time",
+        "Guardian name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Tangled fur surcharge (엉킴 추가금) or weight limit over 10kg",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Grooming shop demands no-show deposit transfer (노쇼 방지 예약금)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "CJ大韓通運、로젠等全國客服皆為按鍵 ARS；直撥配送司機（택배기사）010手機或維修店門市才有效。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Waybill number (운송장 번호) or repair receipt number",
+        "Recipient name and address (동·호수) for parcel lookup",
+        "Item description if waybill missing",
+        "Current status or delivery location (문 앞 / 경비실)"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier call center requires keypad ARS input",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Courier asks where to leave package (guard office vs door)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks apartment lobby entry password (공동현관 비밀번호)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Asks customs clearance ID (개인통관고유부호)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信、信用卡、網購與水電瓦斯客服全有 ARS 按鍵選單且強制本人手機認證或生日身分證核驗，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "ARS keypad menu selection and resident/birth date keypad entry",
+        "Confirmation that caller is account holder in person (본인 확인)",
+        "Mobile authentication (본인인증) or SMS OTP",
+        "Account or order number"
+      ],
+      "may_come_up": [
+        {
+          "what": "ARS demands keypad birth-date entry before connecting agent",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Agent refuses third-party inquiry under privacy law",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Resident Registration Number, birth date, card PIN, or SMS OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "日常叫車用 Kakao T；地方鄉鎮コール택시（Call Taxi）、機場大型車接送與租車行可電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Pickup location (exact building/landmark) and time",
+        "Destination or rental period",
+        "Passenger and suitcase count",
+        "Vehicle type (중형/대형 점보택시/카니발)",
+        "Passenger name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Call-taxi fee (콜비 1,000–2,000 KRW) or toll policy",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Car rental checks driver age (만 26세 이상) and license tenure",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests driver license number or birth date over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate deposit transfer for jumbo van",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "韓國不動產（공인중개사）看房前必問租賃方式：全租（전세）或月租（월세）及保證金（보증금）額度。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Deal type: jeonse, wolse, or purchase (전세/월세/매매) and deposit/rent budget",
+        "Listing platform/number (네이버 부동산 매물번호) or complex name",
+        "Preferred viewing date and time (tenant occupied requires coordination)",
+        "Expected move-in date (입주 가능일) and pets/parking need",
+        "Visitor name and 010 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Current tenant must approve viewing slot; agent calls back later",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks whether jeonse loan (전세대출) is needed",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests holding deposit (가계약금) before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "區廳、洞住民中心與公家機關多經總機或120轉接，個人證明與學籍限本人；幼兒園（어린이집/유치원）諮詢參觀可打。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Department or inquiry topic (민원 내용 / 입소 상담)",
+        "Child birth year/month class (만 몇 세 반) for daycare/kindergarten",
+        "Neighborhood dong jurisdiction",
+        "Caller name and callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Daycare enrollment requires registering via i-Sarang (아이사랑) portal",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Switchboard uses ARS keypad extension menu",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Resident Registration Number (주민등록번호) or child birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ko": {
+      "party": [
+        "4명",
+        "두 분",
+        "성인 2 아이 1",
+        "어른 셋 애기 하나",
+        "2인",
+        "혼자",
+        "네 명 + 아기의자 1개",
+        "단체 8명"
+      ],
+      "time": [
+        "저녁 7시",
+        "19:30",
+        "오후 2시 반",
+        "낮 12시",
+        "내일 아침 10시",
+        "7시 30분",
+        "오후 세 시",
+        "밤 9시쯤"
+      ],
+      "date": [
+        "내일",
+        "모레",
+        "이번 주 금요일",
+        "다음 주 수요일",
+        "11월 25일",
+        "토요일 저녁"
+      ],
+      "name": [
+        "김철수",
+        "예약자 이영희",
+        "박지훈 이름으로",
+        "홍길동",
+        "최민수요"
+      ],
+      "phone": [
+        "010-1234-5678",
+        "01012345678",
+        "연락처 010 9876 5432",
+        "내 번호 010-0000-1234로"
+      ],
+      "booking_words": [
+        "예약",
+        "자리 예약",
+        "테이블 잡아줘",
+        "룸 예약",
+        "숙소 예약",
+        "대관"
+      ],
+      "appointment_words": [
+        "진료 예약",
+        "스케일링 예약",
+        "미용실 예약",
+        "커트 예약",
+        "정비 예약"
+      ],
+      "order_words": [
+        "포장 주문",
+        "픽업 주문",
+        "미리 주문",
+        "재고 빼놔줘",
+        "케이크 예약"
+      ],
+      "change_words": [
+        "예약 변경",
+        "시간 미뤄줘",
+        "예약 취소",
+        "30분 늦춰줘",
+        "날짜 바꿔줘"
+      ],
+      "inquiry_words": [
+        "영업하는지 물어봐줘",
+        "웨이팅 있는지 확인",
+        "주차 되는지 물어봐",
+        "재고 문의",
+        "애견 동반 가능한지"
+      ],
+      "false_friends": [
+        "2호점",
+        "3층",
+        "2인 세트",
+        "60분 코스",
+        "4번 출구",
+        "일미식당"
+      ]
+    }
+  }
+}

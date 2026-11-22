@@ -168,6 +168,53 @@
         "https://prodbaf.blob.core.windows.net/data/FCP-Regulation-Translation-english.pdf",
         "https://didpress.com/153205/"
       ]
+    },
+    {
+      "id": "af_fa_hesab_jayze_otp",
+      "typology": "otp_theft",
+      "name": "فریب‌کاری تلفنی حساب بانکی، کیف پول موبایل و بورسیه یا ویزه جعلی",
+      "name_en": "Dari-language fake telecom prize, mobile-wallet OTP, and overseas visa/scholarship fee scam",
+      "prevalence": "high",
+      "lang": "fa",
+      "context_keywords": [
+        "حساب بانکی",
+        "کیف پول موبایل",
+        "جایزه شرکت مخابراتی",
+        "ویزه کاری خارجی",
+        "بورسیه تحصیلی"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "کود تایید را بگویید",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ارسال فیس ویزه",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تحویل پول پیشکی",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "کارت مصرفی بفرستید",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Dari-speaking caller poses as a telecom prize agent, mobile-money/bank clerk, or overseas visa/scholarship broker demanding SMS OTPs, scratch-card top-ups, or upfront processing transfers.",
+      "legit_en": "Afghanistan's MCIT and ATRA warn citizens against unsolicited prize calls, fake overseas visa/scholarship agents demanding advance fees, and sharing OTP codes.",
+      "bait_tactics": [
+        "لطفاً یک لحظه صبر کنید، آنتن موبایل در خانه بسیار ضعیف است و صدای شما قطع و وصل می‌شود.",
+        "بگویید آدرس دقیق دفتر رسمی شما در کابل کجاست تا فردا حضوری مراجعه کنم."
+      ],
+      "sources": [
+        "https://mcit.gov.af/dr/%D8%A2%DA%AF%D8%A7%D9%87%DB%8C%E2%80%8C%D8%AF%D9%87%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C-%D8%AF%D8%B1-%D9%85%D9%88%D8%B1%D8%AF-%D9%81%D8%B1%DB%8C%D8%A8%E2%80%8C%DA%A9%D8%A7%D8%B1%DB%8C-%D8%B3%D8%A7%DB%8C%D8%A8%D8%B1%DB%8C%D8%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%AA%D9%82%D9%84%D8%A8%DB%8C-%D9%88-%D9%88%DB%8C%D8%A8%E2%80%8C%D8%B3%D8%A7%DB%8C%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AC%D8%B9%D9%84%DB%8C-%D8%AF%D8%B1-%D8%B2%D9%85%DB%8C%D9%86%D9%87-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2",
+        "https://atra.gov.af/"
+      ]
     }
   ]
 }

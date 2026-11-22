@@ -1,0 +1,838 @@
+{
+  "region": "es",
+  "countries": [
+    "es",
+    "ad"
+  ],
+  "region_name_zh": "西班牙（含安道爾）",
+  "region_name": "Spain",
+  "languages": [
+    {
+      "code": "es",
+      "use": "main"
+    },
+    {
+      "code": "ca",
+      "use": "common"
+    },
+    {
+      "code": "gl",
+      "use": "some"
+    },
+    {
+      "code": "eu",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "Use Spanish (es) across Spain; use Catalan (ca) first in Andorra and match ca/gl/eu if staff greets in regional language; English only in tourist hubs.",
+  "english_ok": "sometimes — Common in Madrid/Barcelona, coastal resorts, and Andorra ski hotels, but scarce in neighborhood clinics and trades.",
+  "politeness": "Open with Buenos días/Buenas tardes; friendly-direct tone (tú in casual dining, usted for clinics/older callers); close with muchas gracias, hasta luego.",
+  "name_tip": "First name suffices for casual dining; clinics, hotels, and official bookings require given name plus two surnames (e.g. Juan García López).",
+  "phone_tip": "Spain 9 digits (mobile 612 34 56 78 or 7xx, landline 912 34 56 78) read in pairs (6-12-34-56-78); Andorra 6 digits (312 345); WhatsApp/SMS confirms.",
+  "time_tip": "24-hour written, 12-hour spoken (las nueve de la noche = 21:00, menos cuarto = :45); lunch is 13:30–16:00 and dinner 20:30–23:00!",
+  "number_tip": "Clarify seis (6) vs siete (7) and sesenta (60) vs setenta (70); reading 9 digits as 3-2-2-2 prevents dropped digits.",
+  "avoid_calling": "Avoid afternoon break/siesta (horario partido ~14:00–17:00) for small shops/workshops, restaurant rush 14:00–15:30 and 21:00–22:30, and calls after 21:30.",
+  "closed_days": "Retail closes Sundays (except tourist zones); many restaurants close Sunday night or Monday; widespread multi-week closures in August (vacaciones de agosto).",
+  "booking_channels": "TheFork (ElTenedor) and CoverManager for dining; Doctoralia for private doctors; Booksy and Treatwell for salons; WhatsApp Business very popular.",
+  "voice_menu": "Public health (Salud Responde/CatSalut), private hospital groups (Quirónsalud), banks, telcos, couriers, and ITV centers use keypad/bot IVR.",
+  "callback_habits": "CoverManager/TheFork sends SMS or WhatsApp reconfirmation links; neighborhood salons and dentists confirm via WhatsApp day before.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "西班牙用餐時間極晚（午餐13:30後、晚餐20:30後），太早訂位廚房通常還沒開；熱門餐廳常寄 CoverManager 連結留卡。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and meal shift: lunch (comida ~14:00) or dinner (cena ~21:00)",
+        "Number of diners (comensales) plus stroller/highchair (trona)",
+        "Indoor dining room (salón) vs terrace (terraza) — terrace often has supplement",
+        "Rice/paella pre-order if applicable (encargar arroz)",
+        "Name and 9-digit mobile for WhatsApp/SMS"
+      ],
+      "may_come_up": [
+        {
+          "what": "Kitchen closed before 20:30 (only tapas at bar available earlier)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends CoverManager SMS link for card no-show guarantee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Terrace table carries 10% supplement or minimum food order",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Bizum deposit transfer right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "公立醫療（Centro de Salud）掛號需健保卡號（SIP/CIP）或 App；私立診所與牙醫可電話約但常問保險公司與 DNI。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Private self-pay (particular) vs health insurer (seguro médico: Adeslas, Sanitas, Asisa)",
+        "Specialty or dental treatment and first visit status (primera visita/revisión)",
+        "Patient full name with two surnames",
+        "Preferred morning/afternoon slot and doctor",
+        "Mobile phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Hospital group call center uses automated IVR menu",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks exact medical insurance company (sociedad médica) to verify coverage",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/NIE/passport number, health card number, or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "部分獨立美甲與理髮店（特別是週末）會要求透過 Bizum 先轉小額訂金。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service requested (corte, mechas/tinte, manicura semipermanente, masaje)",
+        "Preferred day and morning vs afternoon slot",
+        "Stylist preference",
+        "Name and mobile number for WhatsApp"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Booksy or Treatwell app for live calendar",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests immediate Bizum transfer deposit to lock appointment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "下午 14:00～16:30 許多傳統修車廠（Taller）午休不接電話；定期驗車（ITV）多須上各自治區網站預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model and license plate (matrícula), or appliance/phone model",
+        "Fault description or periodic maintenance/pre-ITV check",
+        "Drop-off morning date/time",
+        "Insurance claim vs private repair (por seguro o particular)",
+        "Name and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Official ITV inspection requires online booking with plate number",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes written estimate fee (presupuesto) if repair declined",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks handset unlock code/PIN over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Bizum/transfer upfront for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "烤雞店（asadero）、披薩與家常菜常接電話預訂自取；外送多走 Glovo、Just Eat 或 Uber Eats。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup (para recoger) vs neighborhood delivery (a domicilio)",
+        "Exact dishes, rations (raciones/medias), or Sunday paella/roast chicken",
+        "Pickup time (Sunday roast/paella sells out early!)",
+        "Name and phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Container deposit or bag fee added",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Home delivery only via Glovo/Just Eat",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests Bizum or card payment over phone before preparing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型百貨（El Corte Inglés等）走總機轉接，社區肉鋪、魚鋪、書店與糕點店很歡迎電話留貨（encargo）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, weight/cut, size, or ISBN",
+        "Quantity and availability check",
+        "Morning vs evening pickup window (mind horario partido!)",
+        "Name and phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Shop closes 14:00–17:00; pickup must be outside break hours",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests Bizum deposit (señal) for custom cake/special order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "綁定 CoverManager 或 TheFork 信用卡擔保的餐廳，晚於時限取消會扣取爽約費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Name, surnames, and mobile number on reservation",
+        "Original date and time",
+        "New slot or cancellation",
+        "Updated diner count"
+      ],
+      "may_come_up": [
+        {
+          "what": "No-show/late cancellation penalty applies on card-guaranteed table",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks DNI number to look up and move appointment",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific question (kitchen hours, August holiday closure, terrace dog rule, stock)",
+        "Intended visit day and shift",
+        "Party size or dog size",
+        "Whether caller wants to reserve now"
+      ],
+      "may_come_up": [
+        {
+          "what": "Dogs allowed on outdoor terraza only, not indoor dining room",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Closed for local fiesta/puente or August holidays",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "鄉村旅宿（Casa rural）與小型旅館（Hostal）常接電話，但多要求信用卡擔保或匯款訂金；大型飯店走總機。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children, and room type (doble matrimonial vs dos camas)",
+        "Breakfast and parking (garaje) availability",
+        "Full name and mobile/email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers sending email link to complete card guarantee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Andorra/coastal tourist tax payable at check-in",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card number or DNI/passport number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Casa rural demands immediate Bizum/bank transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "板網球（Pádel）在西班牙極盛行但多用 Playtomic App 預訂；保齡球、密室與團體活動可電話洽詢。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court/activity type (pista de pádel, escape room, taller)",
+        "Date, start time, and duration (60 or 90 mins for pádel)",
+        "Number of participants",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pádel club books courts exclusively through Playtomic app",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires Bizum or online card deposit to confirm group activity",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址（含門牌、樓層幾樓幾室如 3º 2ª）；24小時急修鎖匠（cerrajero）電話報價務必先問清楚出勤費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Issue type (fontanero, electricista, aire acondicionado, cerrajero)",
+        "Street, number, portal/staircase, floor and door (piso/puerta), and postal code",
+        "Urgent vs standard appointment (urgencia carries steep surcharge)",
+        "Preferred morning/afternoon window",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes call-out fee (desplazamiento) plus 21% IVA (or 4.5% IGI in Andorra)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Home insurance (seguro de hogar) may cover repair free if called directly",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks portal entry code or DNI for invoice over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Bizum payment before technician departs",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、寵物美容（peluquería canina）與寄宿皆需預約，寄宿必查晶片與疫苗護照（cartilla/pasaporte）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult, grooming cut/stripping, or residencia canina/felina",
+        "Breed, weight, age, and sterilization",
+        "Rabies, polyvalent, and kennel-cough (tos de las perreras) vaccines",
+        "Preferred date and slot",
+        "Owner name and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Potentially dangerous breed list (PPP) requires license/muzzle rules",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands Bizum deposit transfer for boarding",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Correos、SEUR、MRW 全國專線多為自動語音機器人；打地方營業所（delegación）或獨立門市追單才有效。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking or repair slip number (número de seguimiento/resguardo)",
+        "Recipient full name and postal code",
+        "Delivery status or parcel-shop pickup point (punto pack)",
+        "Preferred redelivery window"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier line uses voice bot/keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Courier asks recipient DNI number or delivery PIN code (PIN de entrega)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信（Movistar/Vodafone）、電力（Iberdrola/Endesa）、銀行與航空客服皆有語音選單並核對本人 DNI，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Automated voice/keypad triage",
+        "Account holder identity check (titular del contrato)",
+        "DNI/NIE number and birth date/address",
+        "Contract or invoice number"
+      ],
+      "may_come_up": [
+        {
+          "what": "RGPD (GDPR) check refuses non-titular caller",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/NIE, IBAN/card digits, clave, or SMS code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "除了 Cabify、Uber、FreeNow 外，各地 Radio Taxi、安道爾接駁與地方租車行很習慣電話叫車。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact street, number, and municipality, plus pickup time",
+        "Destination or airport/AVE station",
+        "Passengers, suitcases, or 7-seater/Eurotaxi wheelchair need",
+        "Passenger name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Radio Taxi automated dispatch asks confirmation or puts caller in queue",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Airport/station supplement or fixed M-30 tariff (Madrid) applies",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks DNI/passport or driving license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Idealista / Fotocasa 熱門租盤房仲電話常爆滿，約看房時幾乎必問月收入證明、合約類型與入住人數。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Street/zone or Idealista reference code",
+        "Long-term (larga estancia) vs seasonal rental, occupants, and pets",
+        "Employment contract type (indefinido) and monthly net income for rent-default insurance (seguro de impago)",
+        "Available viewing slot",
+        "Full name and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agency requires passing rent-default insurance solvency filter before viewing",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Listing only accepts messages via Idealista chat",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/NIE number over phone before viewing",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests reservation fee before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政廳與機關辦事一律採線上預約（Cita previa），電話僅能問規定或約私立托兒所參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Procedure inquired (empadronamiento, trámites) or nursery tour",
+        "Child birth year (0–3 años aula) for guardería/escuela infantil",
+        "Municipality or district",
+        "Caller name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public office requires booking cita previa online with Cl@ve/DNI",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Switchboard uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks DNI/NIE/passaport or Andorra NIA number",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "es": {
+      "party": [
+        "mesa para 4",
+        "2 adultos y 1 niño",
+        "somos 3",
+        "para dos",
+        "4 personas",
+        "5 adultos + 1 trona",
+        "1 persona",
+        "grupo de 8"
+      ],
+      "time": [
+        "a las 21:30",
+        "9 y media de la noche",
+        "para comer a las 14:30",
+        "a las 8 menos cuarto",
+        "17:00",
+        "a mediodía (14h)",
+        "sobre las 22h",
+        "mañana a las 10"
+      ],
+      "date": [
+        "mañana",
+        "pasado mañana",
+        "este viernes",
+        "el martes que viene",
+        "25 de noviembre",
+        "25/11",
+        "el sábado por la noche"
+      ],
+      "name": [
+        "a nombre de Juan García",
+        "María López",
+        "Carlos Martínez",
+        "Laura Sánchez",
+        "familia Gómez"
+      ],
+      "phone": [
+        "612 34 56 78",
+        "612345678",
+        "mi móvil 699 12 34 56",
+        "312 345"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "hacer una reserva",
+        "guardar mesa",
+        "reservar habitación",
+        "pista de pádel"
+      ],
+      "appointment_words": [
+        "pedir cita",
+        "cita en el dentista",
+        "coger hora",
+        "revisión taller",
+        "cortar el pelo"
+      ],
+      "order_words": [
+        "encargar para recoger",
+        "comida para llevar",
+        "guardar uno",
+        "encargar paella",
+        "reservar producto"
+      ],
+      "change_words": [
+        "cambiar la hora",
+        "retrasar media hora",
+        "anular la reserva",
+        "cancelar cita",
+        "mover al viernes"
+      ],
+      "inquiry_words": [
+        "preguntar si abren en agosto",
+        "ver si admiten perros",
+        "consultar stock",
+        "a qué hora cierra cocina",
+        "preguntar precio"
+      ],
+      "false_friends": [
+        "piso 3º 2ª",
+        "menú para 2",
+        "masaje 60 min",
+        "calle Dos de Mayo",
+        "planta 4",
+        "pack de 6"
+      ]
+    },
+    "ca": {
+      "party": [
+        "taula per a 4",
+        "2 adults i 1 nen",
+        "som 3",
+        "per a dues persones",
+        "5 persones + trona",
+        "grup de 6"
+      ],
+      "time": [
+        "a les 21:30",
+        "dos quarts de nou del vespre",
+        "per dinar a les 14h",
+        "a les 19:00",
+        "un quart de vuit",
+        "demà a les 10"
+      ],
+      "false_friends": [
+        "3r 2a",
+        "menú per a 2",
+        "sessió de 60 min",
+        "planta 2"
+      ]
+    },
+    "gl": {
+      "party": [
+        "mesa para 4",
+        "2 adultos e 1 neno",
+        "somos 3",
+        "para dúas persoas",
+        "5 persoas",
+        "grupo de 6"
+      ],
+      "time": [
+        "ás 21:30",
+        "ás nove e media da noite",
+        "para xantar ás 14:30",
+        "ás 17:00",
+        "mañá ás 10",
+        "sobre as 22h"
+      ],
+      "false_friends": [
+        "3º andar",
+        "menú para 2",
+        "60 minutos",
+        "porta 4"
+      ]
+    },
+    "eu": {
+      "party": [
+        "4 lagunentzako mahaia",
+        "2 heldu eta haur 1",
+        "3 gara",
+        "bi pertsonentzat",
+        "5 lagun",
+        "6ko taldea"
+      ],
+      "time": [
+        "21:30ean",
+        "gaueko bederatziak eta erdietan",
+        "14:30ean bazkaltzeko",
+        "arratsaldeko 5etan",
+        "bihar 10:00etan",
+        "20:00ak aldera"
+      ],
+      "false_friends": [
+        "3. solairua",
+        "2rentzako menua",
+        "60 minutuko saioa",
+        "4. atea"
+      ]
+    }
+  }
+}

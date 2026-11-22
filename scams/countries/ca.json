@@ -8,7 +8,7 @@
     "fr"
   ],
   "prevalence_note": "Canadian Anti-Fraud Centre 2025-2026: fake CRA or Service Canada agents threatening arrest over a 'compromised SIN', fake CBSA parcel holds, and grandparent emergency scams with cash couriers dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border scam call centres spoof +1 Canadian area codes and official Government of Canada numbers (CRA/ARC, Service Canada, RCMP/GRC, and CBSA) via international VoIP trunks despite CRTC STIR/SHAKEN authentication, targeting English- and French-speaking households nationwide.",
   "scams": [
     {
       "id": "ca_cra_service_canada",
@@ -41,8 +41,8 @@
         "Say your SIN card is in a drawer somewhere and keep asking which office and agent number to write down"
       ],
       "sources": [
-        "Canadian Anti-Fraud Centre",
-        "Canada Revenue Agency"
+        "https://antifraudcentre-centreantifraude.ca/index-eng.htm",
+        "https://www.canada.ca/en/revenue-agency/corporate/scams-fraud/recognize-scam.html"
       ]
     },
     {
@@ -75,7 +75,7 @@
         "Ask slowly how the courier will find the house and what the receipt will look like"
       ],
       "sources": [
-        "Canadian Anti-Fraud Centre"
+        "https://antifraudcentre-centreantifraude.ca/index-eng.htm"
       ]
     },
     {
@@ -108,7 +108,102 @@
         "Say you have to find the shipping email first and ask what the parcel looked like"
       ],
       "sources": [
-        "Canadian Anti-Fraud Centre"
+        "https://antifraudcentre-centreantifraude.ca/index-eng.htm"
+      ]
+    },
+    {
+      "id": "ca_fr_arc_service_canada_nas",
+      "typology": "irs_ssa_impersonation",
+      "name": "Fausse Agence du revenu du Canada (ARC) / Service Canada — NAS compromis",
+      "name_en": "French-language fake Canada Revenue Agency (CRA) or Service Canada SIN arrest threat scam",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "agence du revenu",
+        "service canada",
+        "numéro d'assurance sociale",
+        "gendarmerie royale",
+        "impôts impayés"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "mandat d'arrestation",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "assurance sociale suspendue",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guichet bitcoin",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "payer par cartes cadeaux",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "French-language robocall or live caller impersonating l'Agence du revenu du Canada (ARC), Service Canada, or the RCMP (GRC) claims the victim's Social Insurance Number (numéro d'assurance sociale / NAS) is compromised or taxes are owed...",
+      "legit_en": "L'Agence du revenu du Canada and Service Canada never threaten arrest or prison over the phone, never suspend a Social Insurance Number by automated call, and never demand payment in cryptocurrency, gift cards, or urgent Interac transfers.",
+      "bait_tactics": [
+        "Dites poliment que vous cherchez vos lunettes de lecture à l'étage et demandez quelle année d'imposition figure sur l'avis de cotisation",
+        "Expliquez que la ligne grésille à cause de la météo et demandez à l'interlocuteur d'épeler lentement le nom officiel de sa direction"
+      ],
+      "sources": [
+        "https://www.canada.ca/fr/agence-revenu/organisation/arnaques-fraudes/reconnaitre-arnaque.html",
+        "https://www.canada.ca/fr/emploi-developpement-social/services/numero-assurance-sociale/fraude-fuite-donnees.html",
+        "https://antifraudcentre-centreantifraude.ca/index-eng.htm"
+      ]
+    },
+    {
+      "id": "ca_fr_grands_parents_urgence",
+      "typology": "fake_relative_money",
+      "name": "Arnaque des grands-parents / Besoin urgent d'argent (caution)",
+      "name_en": "French-language grandparent emergency bail and courier cash scam",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "accident de voiture",
+        "avocat commis",
+        "poste de police",
+        "petit-fils en détresse",
+        "libération sous caution"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "payer une caution",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ordonnance de bâillon",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "argent comptant au coursier",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "garder le secret",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller speaks French posing as a distressed grandchild after a car accident or arrest—followed by a fake police officer, bailiff, or lawyer—claiming a court 'gag order' (ordonnance de bâillon) and demanding urgent cash handed to a courier or cryptocurrency...",
+      "legit_en": "The Canadian criminal justice system never releases detainees in exchange for cash handed to a courier, gift cards, or cryptocurrency, and real family emergencies can always be verified by hanging up and calling the relative's known number.",
+      "bait_tactics": [
+        "Dites que la voix semble enrouée sur la ligne et demandez quel membre de la famille appelle sans jamais mentionner de prénom",
+        "Répondez que votre limite de retrait au guichet est très basse et que vous allez d'abord appeler les parents sur leur numéro habituel"
+      ],
+      "sources": [
+        "https://antifraudcentre-centreantifraude.ca/scams-fraudes/emergency-urgence-fra.htm",
+        "https://antifraudcentre-centreantifraude.ca/index-eng.htm"
       ]
     }
   ]

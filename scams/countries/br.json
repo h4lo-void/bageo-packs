@@ -7,7 +7,7 @@
     "pt"
   ],
   "prevalence_note": "Febraban, Anatel & Truecaller/Hiya: Fake bank central 0800 + PIX safe-account / remote-access ('mão fantasma'), wrong-PIX return scam (Golpe do PIX errado), and fake Receita Federal CPF fee scams dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Portuguese-speaking call centers in Brazil and neighboring border hubs use caller-ID spoofing (0800 and local DDD prefixes) to impersonate bank security desks, Receita Federal, and Pix dispute support.",
   "scams": [
     {
       "id": "br_falsa_central_pix",
@@ -41,9 +41,8 @@
         "Perguntar devagar em qual cidade foi a compra suspeita e como funciona o estorno passo a passo"
       ],
       "sources": [
-        "Febraban",
-        "Banco Central do Brasil",
-        "Hiya"
+        "https://portal.febraban.org.br/AntiFraude",
+        "https://www.bcb.gov.br/meubc/faqs/p/o-que-e-e-como-funciona-o-mecanismo-especial-de-devolucao-med"
       ]
     },
     {
@@ -77,8 +76,8 @@
         "Pedir para soletrar devagar o banco de origem e explicar como aparece no comprovante"
       ],
       "sources": [
-        "Febraban",
-        "Receita Federal"
+        "https://portal.febraban.org.br/AntiFraude",
+        "https://www.gov.br/receitafederal/pt-br/acesso-a-informacao/acoes-e-programas/e-golpe"
       ]
     }
   ]

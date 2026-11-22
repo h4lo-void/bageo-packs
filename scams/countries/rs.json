@@ -7,7 +7,7 @@
     "sr"
   ],
   "prevalence_note": "Serbian police and NBS warnings 2025-2026: fake post parcel fees, fake bank card blocks asking for codes, crypto advisers with remote access, and relatives with a new number.",
-  "cross_border_note": "",
+  "cross_border_note": "Scammers spoof +381 bank and MUP numbers via VoIP or contact targets on WhatsApp and Viber from diaspora prefixes (+49, +43, +41, +44) posing as relatives abroad with a new number or unlicensed crypto brokers.",
   "scams": [
     {
       "id": "rs_posta_paket",
@@ -38,7 +38,7 @@
         "Pitati koliko tačno košta dostava"
       ],
       "sources": [
-        "MUP"
+        "https://www.mup.gov.rs/"
       ]
     },
     {
@@ -75,8 +75,8 @@
         "Pitati o kojoj transakciji je reč"
       ],
       "sources": [
-        "NBS",
-        "MUP"
+        "Narodna banka Srbije (NBS — 待補：政府網站封鎖境外連線無法驗證)",
+        "https://www.mup.gov.rs/"
       ]
     },
     {
@@ -108,7 +108,7 @@
         "Pitati koliko traje isplata"
       ],
       "sources": [
-        "MUP"
+        "https://www.mup.gov.rs/"
       ]
     },
     {
@@ -118,7 +118,12 @@
       "name_en": "Relative with a new number asking for an urgent payment",
       "prevalence": "medium",
       "lang": "sr",
-      "context_keywords": [],
+      "context_keywords": [
+        "novi broj telefona",
+        "rođak iz Nemačke",
+        "ispao mi telefon",
+        "hitna uplata računa"
+      ],
       "red_flag_keywords": [
         {
           "text": "hitno prebaci novac",
@@ -138,7 +143,7 @@
         "Pitati koliko tačno treba"
       ],
       "sources": [
-        "MUP"
+        "https://www.mup.gov.rs/"
       ]
     }
   ]

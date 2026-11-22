@@ -1,0 +1,841 @@
+{
+  "region": "cn",
+  "countries": [
+    "cn"
+  ],
+  "region_name_zh": "中國大陸",
+  "region_name": "mainland China",
+  "languages": [
+    {
+      "code": "cmn",
+      "use": "main"
+    },
+    {
+      "code": "yue-written",
+      "use": "read_only"
+    }
+  ],
+  "ai_language_tip": "Speak Mandarin (cmn) by default; if staff speaks Cantonese or local dialect, politely ask for Putonghua; use English only at international hotel chains.",
+  "english_ok": "rarely — Only international hotels and upscale expat venues in Tier-1 cities handle English calls.",
+  "politeness": "Polite neutral greeting (您好) stating assistant role or owner surname; avoid overly stiff honorifics; close briefly with thanks (谢谢，再见).",
+  "name_tip": "Restaurants and salons take surname plus title (王先生/李女士); clinics and hotels need full name, clarifying characters via radicals (木子李、弓长张).",
+  "phone_tip": "11-digit mobile 138-0013-8000 read 3-4-4, landline 010-1234-5678; digit 1 spoken as yao (幺); confirmations via SMS or WeChat (加微信).",
+  "time_tip": "Written 24-hour, spoken 12-hour with period prefix (晚上七点、下午两点半); clarify quarter-hours (一刻/三刻) and read back full date plus period.",
+  "number_tip": "Digit 1 in phone or room numbers is yao (幺) to avoid qi (七); clarify si (四) vs shi (十) and liang位 (两位) vs er (二).",
+  "avoid_calling": "Avoid restaurant rush 11:30–13:15 and 18:00–19:30, clinic lunch break 12:00–13:30/14:00, and calls after 21:00 except nightlife venues.",
+  "closed_days": "Most shops and restaurants open daily; museums close Mondays; widespread closures or skeleton staffing during Lunar New Year (春节) and National Day.",
+  "booking_channels": "WeChat Mini Programs (微信小程序), Dianping (大众点评), and Meituan (美团) dominate; trendy queued restaurants and public hospitals rarely book by voice.",
+  "voice_menu": "Chain hotels, hospitals, couriers, telecoms, banks, and utilities use heavy keypad IVR; some small businesses use carrier AI call-screening.",
+  "callback_habits": "Restaurants send SMS seat confirmations or ask to add WeChat; private clinics and private rooms (包厢) often call same morning to reconfirm.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "熱門網紅排隊店常只接現場或小程序取號；包廂通常有低消或訂金要求。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Dining date and meal period (中午/晚上几点)",
+        "Total headcount and children count (几位大人小孩)",
+        "Main hall table or private room preference (大厅还是包间)",
+        "Surname and gender title for booking (贵姓，先生还是女士)",
+        "Contact mobile number for SMS confirmation (留哪个手机号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Popular mall chain says walk-in or WeChat queue only (现场/小程序排号)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Private room requires minimum spend (包间低消) or deposit",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Table held only 15 minutes past reserved time",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests WeChat Pay or Alipay deposit transfer right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公立三甲醫院幾乎全面改用微信公眾號或114實名掛號，電話僅私立牙科、中醫或體檢診所可約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Department or treatment needed (看哪一科/洗牙补牙)",
+        "Patient full name and whether first visit (患者全名、初诊还是复诊)",
+        "Preferred date, time slot, and doctor (预约时间与指定医生)",
+        "Basic symptoms or discomfort duration (主要症状)",
+        "Contact mobile number for appointment SMS (联系电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public hospital directs caller to WeChat Official Account or 114 app",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Asks whether using public medical insurance or self-pay (医保还是自费)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests resident ID card number (身份证号) or social security card number (医保卡号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests patient date of birth for chart creation",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate registration fee payment via WeChat",
+          "handle": "decline"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "若有美團或大眾點評團購券，店家可能會問券種（不用給核銷碼）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "party",
+        "duration"
+      ],
+      "usually_asked": [
+        "Specific service such as cut, perm, nails, or massage (做什么项目)",
+        "Preferred date and arrival time (今天还是明天几点)",
+        "Requested stylist or therapist tier/number (指定哪位老师或几号技师)",
+        "Number of guests coming together (几位过来)",
+        "Surname and phone number (怎么称呼、留个电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Asks whether using Meituan/Dianping voucher or member card (团购还是会员)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Senior director stylist charges higher tier price (总监价位不同)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for group-buy redemption code (团购券码/核销码) over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests advance deposit transfer to hold peak nail/hair slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "原廠售後或4S店多有按鍵語音總機，獨立車行與手機維修店可直接電話約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "address"
+      ],
+      "usually_asked": [
+        "Device brand/model or car make and mileage (什么车型或手机型号)",
+        "Fault symptoms or maintenance package needed (具体故障或小保养)",
+        "Warranty status or prior repair history (在不在保修期)",
+        "Preferred drop-off time or store visit slot (什么时候送过来)",
+        "Contact name and mobile number (贵姓和手机号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "4S dealership asks car license plate number to check history (车牌号)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes diagnostic or inspection fee if not repaired (检测费/拆机费)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for phone screen lock passcode or cloud password",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands prepayment before ordering spare part",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "多數餐飲外送與自取已改用美團、餓了麼或微信小程序點單付款，電話多不接未付費外送。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup in store or delivery within neighborhood (自提还是送餐)",
+        "Exact dishes, portions, and spice/temp notes (点什么菜、几份、忌口)",
+        "Requested pickup time or delivery address if local (几点来拿/送哪里)",
+        "Contact surname and mobile number (留个称呼和电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Staff refuses phone order and directs to Meituan or WeChat Mini Program",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Dish sold out and suggests replacement item",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires WeChat transfer payment before kitchen starts cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "限量商品或生鮮蛋糕多要求先付全款或訂金才能預留，電話常只能先問現貨或短暫留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact product name, size, color, or model (要哪一款、什么规格)",
+        "Quantity needed (要几件)",
+        "Expected same-day pickup time at counter (今天几点过来拿)",
+        "Customer surname and phone number for hold tag (贵姓和电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Store agrees to hold stock only for 1–2 hours without payment",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Suggests adding store WeChat to confirm photo or spec",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate WeChat/Alipay deposit to reserve item",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "若原預約是在美團、攜程或公眾號下單並付款，店家通常會要求回原平台改退。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Original booking date, time, and phone/surname (原定几点、留的哪个电话)",
+        "Whether rescheduling to new slot or canceling (改时间还是取消)",
+        "New preferred date, time, or headcount if changing (改到哪天几点)",
+        "Booking channel used originally (电话订的还是平台订的)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Prepaid platform order must be canceled inside app to refund",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Late change incurs fee or forfeits room/slot guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for SMS verification code or platform order PIN to cancel",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific topic asked such as hours, queue, parking, or pet policy (具体问哪方面)",
+        "Planned visit time or headcount if asking seat/queue status (几点过来、几位)",
+        "Vehicle type or pet size if asking parking/pet rules (多大体型/什么车)",
+        "Whether caller wants to reserve right away (需要顺便留位吗)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Staff offers to hold a table immediately while on the call",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Busy front desk gives brief answer and hangs up quickly",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks caller to add WeChat if sending menu/location",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖飯店總機常有按鍵語音；大陸住宿須確認是否接待外賓/港澳台證件，且多數線上訂房更便宜。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates (几号入住、住几晚)",
+        "Room type and bed preference (大床房还是双床房、几间)",
+        "Guest count and ID category for registration rules (几位入住、拿什么证件)",
+        "Guest full name and mobile phone (入住人姓名和电话)",
+        "Estimated arrival time for room hold without guarantee (大概几点到店)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Unsecured phone booking held only until 18:00 on arrival day",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Property accepts Mainland ID only (仅接待内宾)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests ID number (身份证/通行证/护照号) over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate WeChat prepayment or credit card guarantee",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "密室逃脫、劇本殺與熱門球場常要求微信付押金鎖場，純電話有時只能先問場次或暫留。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity or room/court type and theme (大包中包/哪块场地/哪个主题)",
+        "Date, start time, and session duration (几点开始、玩几个小时)",
+        "Total participants count (一共几个人)",
+        "Contact surname and mobile number (怎么称呼、手机号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Minimum spend or hourly package choice at KTV (计时还是买套餐)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Escape room/murder mystery needs minimum players or group merge (拼场/包场)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate WeChat deposit to lock court or KTV room",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "到府服務必須在文字中先寫清楚地址；開鎖服務到場後會嚴格查驗屋主身分證或租約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact issue or service type and appliance brand (修什么、洗几台空调)",
+        "Community name, street address, and elevator/floor info (哪个小区、几楼有没有电梯)",
+        "Preferred visit window (什么时候方便上门)",
+        "Contact name and phone number for technician callback (联系人和电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes call-out fee (上门费) separate from parts and labor",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Master technician will call owner directly before departing",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for smart-lock PIN or building gate code over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands upfront deposit before dispatching technician",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "寵物洗澡美容與寄宿通常會確認疫苗狀態及體重計價，節假日寄宿常需預付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Service needed: vet visit, grooming, or boarding (看病、洗澡造型还是寄养)",
+        "Species, breed, weight, age, and temperament (猫还是狗、品种体重、凶不凶)",
+        "Vaccination and deworming status (疫苗齐不齐)",
+        "Preferred appointment date and time (约哪天几点)",
+        "Owner surname and mobile number (主人称呼和电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Matted coat or aggressive pet incurs extra handling fee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cat grooming requires dedicated quiet slot",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Holiday boarding requires immediate deposit payment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "順豐、京東等官方客服熱線必有語音按鍵或驗證，直撥網點或快遞員手機才容易問到。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Waybill, order, or repair ticket number (快递单号/维修单号)",
+        "Recipient or sender surname and phone last 4 digits (收件人手机尾号)",
+        "Item description or delivery address if number unclear (寄往哪里的什么东西)",
+        "Preferred handling: locker, doorstep, or redelivery time (放驿站/丰巢还是重派)"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier hotline blocks behind IVR keypad or voice bot",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Courier asks permission to place parcel in Cainiao station or locker (放菜鸟驿站/快递柜)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for pickup verification code (取件码/签收验证码)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信、銀行、航司與水電客服幾乎都有多層按鍵語音且嚴格核對本人身分證與驗證碼，AI代打通常無法辦成。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Service category via automated IVR menu (按键选择业务)",
+        "Whether caller is the registered account holder in person (是否机主/持卡人本人)",
+        "Account number, phone number, or order/ticket number (业务号码或订单号)",
+        "Identity verification details before checking account (核实身份信息)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Blocks at DTMF keypad menu without voice-navigation fallback",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Refuses third-party assistant for account-specific inquiry",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests resident ID number (身份证号), service password, or SMS OTP",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests bank/credit card number or CVV",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "日常叫車幾乎全用滴滴或高德App；僅包車、機場接送車隊或租車門店適合電話詢問與預訂。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Pickup date, exact time, and pickup location (几点在哪里上车)",
+        "Destination or rental return date (去哪里/用几天车)",
+        "Passenger count and luggage size/pieces (几位乘客、几个行李箱)",
+        "Vehicle class needed such as 5-seat or 7-seat MPV (五座还是七座商务)",
+        "Passenger name and contact mobile (乘车人称呼和电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Airport transfer asks flight number to track arrival delays (航班号)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes highway toll and parking fee responsibility (高速费停车费实报实销)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks driver ID or license number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Private fleet demands immediate WeChat deposit to lock car",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "房仲接聽後常會積極要求加微信傳房源影片與定位，並留存電話後續回訪。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Specific compound, listing title, or layout desired (看哪个小区/几居室)",
+        "Preferred viewing date and time (什么时候方便看房)",
+        "Target move-in date, lease length, and occupant profile (几人住、什么时候入住)",
+        "Budget range and pet status (预算多少、养不养宠物)",
+        "Meeting point at compound gate or subway exit (在哪个门碰面)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Listed apartment already rented; agent pitches alternative units",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Agent asks to add owner's WeChat right now",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests intent deposit (意向金/定金) before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政務熱線（如12345）與大型機關多有按鍵分機；戶政、稅務與學籍個資限本人查詢，電話僅適合問辦事流程與材料。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "time",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Specific matter, certificate, or grade level inquired (咨询什么业务/大班小班)",
+        "District or subdistrict jurisdiction of household/residence (户口或居住在哪个街道)",
+        "Whether appointment was already booked on WeChat portal (是否已在网上预约)",
+        "Callback name and phone if transfer or follow-up needed (留个姓名电话)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Main switchboard requires pressing extension digits",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Kindergarten tour offers specific open-day slot",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks citizen ID number (身份证号) or household register info",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "cmn": {
+      "party": [
+        "4位",
+        "两个人",
+        "2大1小",
+        "三大两小",
+        "4人",
+        "一家三口",
+        "单人",
+        "6-8人",
+        "四个人"
+      ],
+      "time": [
+        "晚上7点",
+        "19:30",
+        "明天中午12点半",
+        "下午三点一刻",
+        "傍晚6点",
+        "明早9:00",
+        "夜里十点",
+        "下午2点左右"
+      ],
+      "date": [
+        "明天",
+        "后天",
+        "这周五",
+        "下礼拜三",
+        "11月25号",
+        "周六晚上",
+        "大后天"
+      ],
+      "name": [
+        "姓王，王先生",
+        "李娜",
+        "留张伟的名字",
+        "陈女士",
+        "王小明"
+      ],
+      "phone": [
+        "13800138000",
+        "电话留139-1234-5678",
+        "手机 138 1234 5678",
+        "就用打过去的这个号 13600001234"
+      ],
+      "booking_words": [
+        "订位",
+        "订座",
+        "留个位置",
+        "订包厢",
+        "订房",
+        "约个场",
+        "订桌"
+      ],
+      "appointment_words": [
+        "挂号",
+        "预约",
+        "约个洗牙",
+        "约剪头发",
+        "约技师",
+        "做保养"
+      ],
+      "order_words": [
+        "点餐",
+        "打包",
+        "自提",
+        "外带",
+        "订个蛋糕",
+        "留货",
+        "调货"
+      ],
+      "change_words": [
+        "改期",
+        "改时间",
+        "取消预约",
+        "退订",
+        "往后推半小时",
+        "不去了"
+      ],
+      "inquiry_words": [
+        "问一下",
+        "打听下",
+        "看看有没有位置",
+        "问问几点关门",
+        "确认下能不能带狗",
+        "查下还有没有货"
+      ],
+      "false_friends": [
+        "3号技师",
+        "4楼",
+        "两人餐",
+        "八佰伴店",
+        "90分钟项目",
+        "1号包厢",
+        "二环店"
+      ]
+    },
+    "yue-written": {
+      "party": [
+        "4位",
+        "兩個人",
+        "2大1細",
+        "四大一細",
+        "三位大人",
+        "一個人"
+      ],
+      "time": [
+        "聽晚7點",
+        "下晝兩點半",
+        "今晚八點三個字",
+        "朝早十點",
+        "19:30",
+        "六點九"
+      ],
+      "false_friends": [
+        "3樓",
+        "2號房",
+        "60分鐘按摩",
+        "九龍冰室",
+        "四人套餐"
+      ]
+    }
+  }
+}

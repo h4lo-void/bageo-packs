@@ -6,8 +6,8 @@
   "languages": [
     "ko"
   ],
-  "prevalence_note": "FSS (금융감독원) & KNPA: Prosecutor/FSS impersonation (서울중앙지검·대포통장·안전계좌·악성 원격앱), low-interest refinancing loan scams (대환대출), card-delivery impersonation (카드 배송원 사칭), and broken-phone family scams dominate.",
-  "cross_border_note": "070 internet numbers and overseas prefixes relayed into Korean 010 numbers are heavily used in voice phishing.",
+  "prevalence_note": "KNPA Integrated Counter-Scam Center (1394) & FSS 2025-2026: Prosecutor/FSS & fake card-courier impersonation (서울중앙지검·카드 배송원 사칭·안전계좌·원격제어 앱), low-interest refinancing loan fraud (대환대출), broken-screen family impersonation demanding transfers or gift-card PINs, and NTS/NHIS tax or health-insurance refund vishing dominate.",
+  "cross_border_note": "070 internet numbers and overseas call-center lines relayed into spoofed local 010 mobile numbers via illegal SIM-box gateways are heavily used in Korean voice phishing.",
   "scams": [
     {
       "id": "kr_prosecutor_card_delivery",
@@ -60,9 +60,10 @@
         "어떤 은행 카드인지 기억이 안 난다며 카드 색깔과 신청 날짜를 천천히 다시 확인해 달라고 하기"
       ],
       "sources": [
-        "금융감독원 보이스피싱 지킴이",
-        "경찰청 전기통신금융사기 통합신고대응센터",
-        "금융감독원 2025-2026"
+        "https://www.counterscam112.go.kr/",
+        "https://www.counterscam112.go.kr/board/CONTENT_000000000001.do",
+        "https://minwon24.police.go.kr/cvlcpt/cvlcptGdInfo.do?cvlcptId=MW-096",
+        "https://www.korea.kr/multi/visualNewsView.do?newsId=148856817"
       ]
     },
     {
@@ -75,30 +76,140 @@
       "context_keywords": [
         "대환대출",
         "정부지원 자금",
-        "서민금융",
+        "서민금융진흥원",
         "햇살론"
       ],
       "red_flag_keywords": [
         {
           "text": "기존 대출금을 먼저 상환",
           "weight": 2,
-          "hard": false
+          "hard": true
         },
         {
           "text": "중복대출 계약위반",
           "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "신용점수 상향 수수료",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "공탁금 선입금 요구",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Impersonates Korea Inclusive Finance Agency (서민금융진흥원) or a commercial bank offering government-backed low-interest refinancing, then claims an existing loan contract was breached and demands upfront payoff to a personal account, credit-score upgrade fees...",
+      "legit_en": "Korea Inclusive Finance Agency and legitimate Korean banks never advertise loans via unsolicited calls/SMS or demand upfront fees, deposits, or personal-account repayments.",
+      "bait_tactics": [
+        "금리가 낮아진다니 관심이 많은 척하며 월 상환액과 중도상환수수료를 하나하나 다시 계산해 달라고 하기",
+        "서류를 적어두겠다며 볼펜과 종이를 찾는 척 천천히 심사 조건을 되묻기"
+      ],
+      "sources": [
+        "https://www.kinfa.or.kr/cyber/customerServiceCenter/customerDeclareCenterPrecautions.do",
+        "https://www.counterscam112.go.kr/board/CONTENT_000000000001.do",
+        "https://www.korea.kr/multi/visualNewsView.do?newsId=148856817"
+      ]
+    },
+    {
+      "id": "kr_family_broken_screen_pin",
+      "typology": "fake_relative_money",
+      "name": "지인·자녀 사칭 액정 파손 급전 송금·상품권 핀번호 사기",
+      "name_en": "Fake child or relative claiming broken phone screen and demanding urgent transfer, gift-card PINs, or remote app",
+      "prevalence": "very_high",
+      "lang": "ko",
+      "context_keywords": [
+        "액정이 깨져서",
+        "임시번호",
+        "폰이 고장 나서",
+        "수리센터 맡겼어",
+        "통화가 안 돼"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "대신 송금",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "상품권 핀번호",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "원격제어 앱",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "신분증 사진 전송",
+          "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Offers low-interest government refinancing, then claims applying violated an existing loan contract and demands immediate cash repayment to a designated account or installing a KakaoTalk APK.",
-      "legit_en": "Owner's own bank calmly answering a loan inquiry the owner initiated without cash-repayment threats or APK files.",
+      "signals_en": "Contacts parents via a temporary number or messaging app claiming their phone screen cracked ('액정이 깨져서') and voice calls do not work, then urgently asks the parent to wire money to a third party ('대신 송금'), send convenience-store gift card PINs ('상품권 핀번호')...",
+      "legit_en": "Real children with a damaged phone can still be verified via their workplace, school, or original number and never ask parents to install remote-control apps or buy gift-card PINs in secret.",
       "bait_tactics": [
-        "금리가 낮아진다니 관심이 많은 척하며 월 상환액과 중도상환수수료를 하나하나 다시 계산해 달라고 하기",
-        "서류를 적어두겠다며 볼펜과 종이를 찾는 척 천천히 조건을 되묻기"
+        "너무 걱정되는 척하면서 어느 수리센터에 맡겼는지 위치와 수리 기사님 설명을 자세히 물어보기",
+        "모바일뱅킹 비밀번호가 기억나지 않는 척하며 집 근처 은행 창구에 직접 걸어가서 확인해 보겠다고 시간 끌기",
+        "편의점에 왔는데 상품권 종류가 너무 많아 헷갈린다며 봉투 모양을 계속 천천히 되묻기"
       ],
       "sources": [
-        "금융감독원",
-        "서민금융진흥원"
+        "https://www.counterscam112.go.kr/board/CONTENT_000000000001.do",
+        "https://www.counterscam112.go.kr/",
+        "https://www.korea.kr/multi/visualNewsView.do?newsId=148856817"
+      ]
+    },
+    {
+      "id": "kr_nts_nhis_refund",
+      "typology": "tax_refund_scam",
+      "name": "국세청·국민건강보험공단 사칭 미환급금·계좌 인증 보이스피싱",
+      "name_en": "Fake National Tax Service or National Health Insurance unpaid-refund & account-verification scam",
+      "prevalence": "high",
+      "lang": "ko",
+      "context_keywords": [
+        "국세청",
+        "국민건강보험공단",
+        "미환급금",
+        "건강보험료 환급",
+        "세금 환급금"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "환급 계좌 인증",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "신분증 신용카드 사진",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "주민등록번호 요구",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "수수료 먼저 입금",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Impersonates National Tax Service (국세청) tax officers or National Health Insurance Service (국민건강보험공단) staff claiming an unclaimed tax or health-insurance premium refund ('미환급금') is waiting, then demands resident registration numbers...",
+      "legit_en": "South Korea's National Tax Service (Hometax) and NHIS process refunds through official portals or formal notices without phoning citizens for full resident numbers, card photos, or transfer fees.",
+      "bait_tactics": [
+        "환급금이 있다니 반가운 척하면서 몇 년도 몇 월분 보험료인지 세부 내역을 천천히 읽어 달라고 하기",
+        "홈택스나 건강보험 앱에 직접 들어가서 조회해 보겠다며 로그인 화면이 안 열린다고 기다리게 하기",
+        "통장이 장롱 깊숙한 곳에 있어 찾는 데 시간이 걸린다며 관할 지사 위치를 자세히 물어보기"
+      ],
+      "sources": [
+        "https://www.nhis.or.kr/cms/popup/popup.do?popupKey=/nhis/_popup/popup_wVdaPjuDpZQHiAn",
+        "https://www.nts.go.kr/nts/na/ntt/selectNttInfo.do?nttSn=1335483&mi=2207",
+        "https://g.nts.go.kr/jeonju/na/ntt/selectNttInfo.do?nttSn=1332517&mi=4274",
+        "https://www.counterscam112.go.kr/"
       ]
     }
   ]

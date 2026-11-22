@@ -7,7 +7,7 @@
     "pl"
   ],
   "prevalence_note": "Police and CERT Polska warnings 2025-2026: fake bank security staff moving money to a technical account, and fake CBŚP officers collecting cash during a secret action dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Eastern European vishing call centers heavily spoof +48 bank hotlines, Policja, and ZUS numbers via VoIP (often speaking Polish with an Eastern Slavic accent) and follow up via WhatsApp from foreign prefixes.",
   "scams": [
     {
       "id": "pl_konto_techniczne",
@@ -48,7 +48,7 @@
         "Pytać spokojnie, o jaki wniosek chodzi i z którego dnia"
       ],
       "sources": [
-        "CERT Polska"
+        "https://cert.pl/baza-wiedzy/falszywi-konsultanci/"
       ]
     },
     {
@@ -80,7 +80,7 @@
         "Mówić, że okulary zostały w kuchni, i prosić o powtórzenie"
       ],
       "sources": [
-        "Policja"
+        "https://policja.pl/pol/aktualnosci/255489,Dostales-telefon-ze-Twoje-pieniadze-moga-byc-zagrozone-uwazaj-to-moze-byc-oszust.html"
       ]
     },
     {
@@ -112,8 +112,8 @@
         "Zapytać, ile ma wynosić ten dodatek"
       ],
       "sources": [
-        "ZUS",
-        "CERT Polska"
+        "https://www.zus.pl/-/pr%C3%B3ba-oszustwa-na-zus-kolejna-",
+        "https://cert.pl/baza-wiedzy/falszywi-konsultanci/"
       ]
     }
   ]

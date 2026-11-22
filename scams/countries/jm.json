@@ -1,0 +1,155 @@
+{
+  "name": "Jamaica",
+  "name_local": "Jamaica",
+  "iso": "jm",
+  "calling_code": "+1-876",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Jamaica Constabulary Force (JCF ALSU / Fraud Squad) & Bank of Jamaica (BOJ) 2025-2026: advance-fee lottery/prize clearance calls, commercial-bank social-engineering OTP/smishing vishing, WhatsApp official/relative impersonation, and motor-vehicle deposit fraud dominate.",
+  "cross_border_note": "Jamaica (+1-876 and +1-658 overlay) is part of the North American Numbering Plan; lottery scam rings target both US/Canadian seniors and domestic residents while spoofing +1 area codes.",
+  "scams": [
+    {
+      "id": "jm_lottery_advance_fee",
+      "typology": "prize_lottery",
+      "name": "Jamaica Lottery / Sweepstakes Advance-Fee Tax & Customs Scam",
+      "name_en": "Lottery or mobile prize winner scam demanding upfront tax, customs or processing fees",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "sweepstakes winner",
+        "mega millions prize",
+        "customs clearance",
+        "bank of jamaica cheque"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay processing fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "upfront customs tax",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send wire transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "keep prize confidential",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the recipient won a major sweepstakes, motor vehicle, or BOJ-endorsed mobile prize, demanding upfront processing, tax, or customs fees via wire, remittance, or gift cards before delivery.",
+      "legit_en": "Legitimate lotteries never require upfront tax or release payments, and Bank of Jamaica confirms it never awards prize cheques for phone competitions.",
+      "bait_tactics": [
+        "Sound thrilled and ask whether they can simply deduct the processing tax straight out of the prize cheque.",
+        "Pretend you cannot find a working pen and ask them to spell out the prize department's Kingston street address slowly.",
+        "Ask what ticket won because you never recall entering any sweepstakes this year."
+      ],
+      "sources": [
+        "https://jcf.gov.jm/jcfs-scam-dun-justice-a-run-initiative-yields-significant-results-against-lottery-scamming/",
+        "https://jcf.gov.jm/anti-lottery-scam-unit-alsu-highlights-scam-dun-justice-a-run-operation/",
+        "https://boj.org.jm/statement-on-fake-news-articles-suspicious-financial-schemes/"
+      ]
+    },
+    {
+      "id": "jm_bank_otp_smishing",
+      "typology": "otp_theft",
+      "name": "Jamaican Bank Social-Engineering Vishing & OTP / Token Theft",
+      "name_en": "Fake local bank security call or smishing follow-up requesting OTP or online banking token",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "locked bank account",
+        "unusual card activity",
+        "online banking token",
+        "security verification desk"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read one-time code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "share security token",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click sms link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm your password",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller poses as a Jamaican commercial bank fraud unit following an SMS alert about a locked account or unauthorized transfer, pressuring the customer to read out an OTP/token or log in via a phishing link.",
+      "legit_en": "Bank of Jamaica advises that licensed deposit-taking institutions never call or text to ask for passwords, PINs, or one-time security tokens.",
+      "bait_tactics": [
+        "Say your phone screen went dark on speakerphone and ask which parish branch holds your account.",
+        "Tell them you are walking past a branch right now and will step inside to verify with a teller.",
+        "Pretend the token code has not arrived yet and ask them to explain every step from the beginning."
+      ],
+      "sources": [
+        "https://boj.org.jm/statement-on-social-engineering-attacks/",
+        "https://boj.org.jm/statement-on-fake-news-articles-suspicious-financial-schemes/"
+      ]
+    },
+    {
+      "id": "jm_whatsapp_impersonation_deposit",
+      "typology": "fake_relative_money",
+      "name": "WhatsApp Official / Relative Impersonation & Vehicle Deposit Scam",
+      "name_en": "WhatsApp impersonation of police officials or relatives and social-media vehicle deposit fraud",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "whatsapp message",
+        "stranded overseas",
+        "barrel clearance fee",
+        "motor vehicle deposit"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "lodge cash deposit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urgent money transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "third-party bank account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "whatsapp verification code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudster impersonates a senior JCF official, stranded relative on WhatsApp, or cut-price vehicle seller demanding an urgent bank lodge to a mule account or a WhatsApp verification code.",
+      "legit_en": "JCF officials never solicit funds on WhatsApp, and real vehicle sales or family requests can be verified in person or on saved phone numbers.",
+      "bait_tactics": [
+        "Ask a specific family or neighbourhood question that only your real relative would know.",
+        "For a vehicle listing, insist on inspecting the car and fitness papers at a police station lot before paying anything.",
+        "Say banking hours just closed for you and ask why the account name does not match the caller's name."
+      ],
+      "sources": [
+        "https://jcf.gov.jm/beware-of-whatsapp-scam-impersonating-commissioner-of-police/",
+        "https://jcf.gov.jm/wanted-woman-charged-in-motor-vehicle-fraud-scam/"
+      ]
+    }
+  ]
+}

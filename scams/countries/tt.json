@@ -1,0 +1,155 @@
+{
+  "name": "Trinidad and Tobago",
+  "name_local": "Trinidad and Tobago",
+  "iso": "tt",
+  "calling_code": "+1-868",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Central Bank of Trinidad and Tobago (CBTT Cyber Safe) & TTPS Fraud Squad 2025-2026: fake bank WhatsApp/SMS breach calls stealing OTPs, cloned-WhatsApp stranded relative/customs courier scams, and social-media vehicle/e-commerce advance-deposit fraud lead reports.",
+  "cross_border_note": "Uses +1-868 within NANP; scammers mix spoofed +1-868 numbers with overseas +1 WhatsApp business accounts posing as local banks and customs agents.",
+  "scams": [
+    {
+      "id": "tt_bank_whatsapp_otp",
+      "typology": "otp_theft",
+      "name": "Fake Trinidad Bank Breach Alert & WhatsApp / SMS Phishing Call",
+      "name_en": "Impersonated local bank calling or messaging via WhatsApp/SMS to capture OTPs and logins",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "account breach alert",
+        "payment failure notice",
+        "online banking verification",
+        "fraud investigation unit"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "click verification link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "read verification code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm banking password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "account suspended today",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller or WhatsApp sender poses as a Trinidad commercial bank claiming an urgent account breach or failed transfer, instructing the victim to click a link or read out an MFA/OTP code.",
+      "legit_en": "CBTT emphasizes legitimate financial institutions never ask for personal credentials or OTPs via unsolicited text, WhatsApp, or phone calls.",
+      "bait_tactics": [
+        "Say your home Wi-Fi just went offline and ask for their department so you can call the helpline on your card.",
+        "Pretend the link shows a blank page and ask them to read out the full web address letter by letter.",
+        "Ask which branch in Port of Spain or San Fernando opened your account."
+      ],
+      "sources": [
+        "https://www.central-bank.org.tt/public-education/cyber-safe-series/",
+        "https://www.central-bank.org.tt/wp-content/uploads/2026/11/financial-stability-report-2025-november-2026.pdf",
+        "https://www.ttps.gov.tt/report/"
+      ]
+    },
+    {
+      "id": "tt_customs_parcel_whatsapp",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Customs Courier Parcel / Relative Emergency Transfer Scam",
+      "name_en": "Fake courier or overseas relative claiming a high-value parcel is stuck at Customs needing fees",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "piarco customs hold",
+        "diplomatic courier package",
+        "clearance duty fee",
+        "whatsapp family message"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay customs fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "deposit to personal account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "package contains cash",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "urgent wire transfer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A supposed overseas relative or courier calls/messages on WhatsApp saying a barrel or parcel containing gifts/cash is detained at customs and needs an urgent duty transfer to a local personal bank account.",
+      "legit_en": "Real Trinidad customs duties are paid officially upon clearance with proper airway bills, never wired to private individuals.",
+      "bait_tactics": [
+        "Say your cousin who works near Piarco will check the customs counter in person.",
+        "Call the relative's old saved number first or ask a family-specific question they cannot guess.",
+        "Pretend you need an official stamped invoice before walking into the bank."
+      ],
+      "sources": [
+        "https://www.central-bank.org.tt/public-education/cyber-safe-series/",
+        "https://www.ttps.gov.tt/branches/"
+      ]
+    },
+    {
+      "id": "tt_ecommerce_advance_deposit",
+      "typology": "marketplace_escrow_scam",
+      "name": "Social Media E-Commerce & Bargain Vehicle Advance-Deposit Scam",
+      "name_en": "Unverified social-media seller demanding urgent down-payment transfer before viewing",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "facebook marketplace",
+        "repossessed vehicle sale",
+        "hold the item",
+        "online store delivery"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send deposit first",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "no viewing before payment",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay reservation fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "other buyers waiting",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Seller advertising electronics, appliances, or a bargain vehicle insists multiple buyers are waiting and pressures an immediate bank transfer deposit before meeting in person.",
+      "legit_en": "CBTT Cyber Safe advises never sending money to unverified online merchants you have not met or verified.",
+      "bait_tactics": [
+        "Insist on paying only after inspecting the item and certified registration papers outside a TTPS station.",
+        "Ask for the registered business street address to look up first.",
+        "Say your daily online transfer limit is set to zero and cannot be changed over the phone."
+      ],
+      "sources": [
+        "https://www.central-bank.org.tt/public-education/cyber-safe-series/",
+        "https://www.ttps.gov.tt/report/"
+      ]
+    }
+  ]
+}

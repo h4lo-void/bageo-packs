@@ -8,20 +8,21 @@
     "zh-TW",
     "en"
   ],
-  "prevalence_note": "ADCC and OFCA 2025-2026: fake mainland police or Immigration officers demanding secrecy and asset checks, fake courier or Customs parcel holds with clearance fees, and 'guess who' relatives needing bail cash dominate.",
-  "cross_border_note": "",
+  "prevalence_note": "ADCC and OFCA 2025-2026: fake WeChat/Alipay '百萬保障' & Taobao customer service FPS transfer-verification scams, cross-border fake Mainland police or HK Immigration officers, OFCA/telecom prepaid-SIM suspension calls, fake Customs/courier parcel holds, 'guess who' bail scams, and English official/bank impersonation dominate.",
+  "cross_border_note": "Under OFCA directives, Hong Kong mobile operators prepend '+' to all calls originating outside Hong Kong, play or display a mandatory '+852' overseas spoofed-call alert ('Call is from outside Hong Kong. Beware of deception.'), and play a bilingual Cantonese/Putonghua voice alert ('Call is made from a new prepaid SIM card') for newly activated local prepaid SIM cards under real-name registration rules; syndicates also route overseas calls through local '2', '3', or '58' prefixes registered via shell companies.",
   "scams": [
     {
       "id": "hk_fake_official_police",
       "typology": "fake_official",
-      "name": "假冒內地公安／入境處職員（保密令・資產清查）",
-      "name_en": "Fake mainland police or Immigration staff demanding secrecy and an asset check",
+      "name": "假冒內地公安／入境處職員（跨境普通話・保密令・資產清查）",
+      "name_en": "Cross-border Putonghua/Chinese fake Mainland Public Security or HK Immigration asset-check scam",
       "prevalence": "very_high",
       "lang": "zh-TW",
       "context_keywords": [
         "內地公安",
         "入境事務處",
-        "跨境洗黑錢"
+        "跨境洗黑錢",
+        "回鄉證被盜用"
       ],
       "red_flag_keywords": [
         {
@@ -33,101 +34,60 @@
           "text": "資產清查",
           "weight": 2,
           "hard": true
-        }
-      ],
-      "signals_en": "Poses as mainland public security or HK Immigration staff saying the owner's phone card or ID is tied to cross-border money laundering; demands secrecy, a video statement, an asset check or a transfer to a 'safe account'.",
-      "legit_en": "Real HK police or Immigration staff ask the owner to come to a station or office in person and never demand secrecy orders, asset checks or transfers by phone.",
-      "bait_tactics": [
-        "扮好緊張咁配合，話身份證同銀行簿擺咗喺抽屜底要慢慢搵，請佢先講清楚保密令點運作",
-        "扮聽唔清楚案件編號同部門名，請佢一個字一個字再講，順便問資產清查要幾耐"
-      ],
-      "sources": [
-        "ADCC",
-        "OFCA"
-      ]
-    },
-    {
-      "id": "hk_parcel_customs_hold",
-      "typology": "fake_customs_parcel",
-      "name": "假冒速遞公司／海關扣件（補繳清關手續費）",
-      "name_en": "Fake courier or Customs parcel hold demanding a clearance fee",
-      "prevalence": "high",
-      "lang": "zh-TW",
-      "context_keywords": [
-        "海關扣查",
-        "違禁品"
-      ],
-      "red_flag_keywords": [
-        {
-          "text": "清關手續費",
-          "weight": 2,
-          "hard": false
-        }
-      ],
-      "signals_en": "Poses as a courier or Customs saying a parcel in the owner's name holds contraband or is held, then demands a clearance fee by link or card, or passes the call to 'law enforcement'.",
-      "legit_en": "Real couriers call about delivery times or addresses for parcels the owner expects; duties are paid through the courier's own app or on delivery, without threats.",
-      "bait_tactics": [
-        "扮好擔心，話唔記得最近有冇網購，請佢逐件講包裹入面有咩",
-        "話信用卡唔喺身邊要去另一間房搵，請佢先慢慢解釋清關手續費點計"
-      ],
-      "sources": [
-        "ADCC",
-        "Hong Kong Customs"
-      ]
-    },
-    {
-      "id": "hk_guess_who_bail",
-      "typology": "fake_relative_money",
-      "name": "猜猜我是誰／假冒親友急需保釋金",
-      "name_en": "'Guess who' relative with a new number urgently needing bail cash",
-      "prevalence": "high",
-      "lang": "zh-TW",
-      "context_keywords": [
-        "聽唔出我係邊個",
-        "換咗新號碼"
-      ],
-      "red_flag_keywords": [
-        {
-          "text": "保釋金",
-          "weight": 2,
-          "hard": false
         },
         {
-          "text": "仲記唔記得我",
+          "text": "安全帳戶",
           "weight": 2,
-          "hard": false
+          "hard": true
         },
         {
-          "text": "上門收現金",
+          "text": "視頻筆錄",
           "weight": 2,
-          "hard": false
+          "hard": true
         }
       ],
-      "signals_en": "Plays a relative with a new number or a sore throat, then claims to be held after a crash and urgently needs bail or a settlement, sending a 'friend' to collect cash or asking for a transfer.",
-      "legit_en": "A real relative who changed numbers chats normally and can answer family questions; they do not ask for urgent bail cash or a courier at the door.",
+      "signals_en": "Often speaks Putonghua or accented Cantonese posing as HK Immigration, Security Bureau, or Mainland Public Security claiming the victim's HKID or Mainland SIM card is tied to cross-border money laundering...",
+      "legit_en": "Mainland law enforcement never conducts cross-border phone enforcement in Hong Kong, and real HK officials never issue phone secrecy orders, show warrant cards on messaging apps, or request transfers to prove innocence.",
       "bait_tactics": [
-        "扮好關心，問佢最近食咗咩、屋企啲親戚近況，慢慢傾",
-        "話要去銀行先有現金但唔記得提款卡放喺邊，請佢慢慢講保釋金點交收"
+        "裝作很緊張配合，說身份證和銀行存摺鎖在書房抽屜底要慢慢找鑰匙，請他先解釋清楚保證金審核流程",
+        "故意聽不清楚案件編號和部門名稱，請他逐個字重唸一遍，順便追問資產清查大概需要幾個工作天",
+        "說家裡網絡訊號很差開不到視像通話，問能不能自己親身去灣仔入境事務大樓櫃檯核實"
       ],
       "sources": [
-        "ADCC"
+        "https://www.police.gov.hk/offbeat120/scam/04_hk-fake-mainland-official-guide.html",
+        "https://www.police.gov.hk/offbeat120/scam/03_hk-fake-official-scam-guide.html",
+        "https://www.adcc.gov.hk/zh-hk/alerts.html"
       ]
     },
     {
       "id": "hk_fake_vip_deduction",
       "typology": "fake_shop_order_error",
-      "name": "假冒平台客服取消自動扣費騙案",
-      "name_en": "Fake Platform Customer Service Auto-Deduction Cancellation Scam",
+      "name": "假冒微信／淘寶／支付平台客服取消「百萬保障」扣費騙案",
+      "name_en": "Fake WeChat, Alipay 'Million-Dollar Guarantee' or Taobao support FPS verification & screen-sharing scam",
       "prevalence": "very_high",
       "lang": "zh-TW",
       "context_keywords": [
+        "百萬保障",
+        "微信客服",
+        "淘寶客服",
+        "轉數快",
         "會員到期",
-        "自動續費",
+        "自動扣費",
         "取消訂閱"
       ],
       "red_flag_keywords": [
         {
-          "text": "共享屏幕",
+          "text": "分享畫面",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "轉數快過數驗證",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "過數驗證",
           "weight": 2,
           "hard": false
         },
@@ -147,29 +107,31 @@
           "hard": false
         }
       ],
-      "signals_en": "The caller speaks Putonghua or accented Cantonese claiming to represent a shopping, short-video, or payment platform, stating the user enabled a paid membership or insurance plan that will deduct hefty monthly fees tonight.",
-      "legit_en": "Legitimate e-commerce, payment, and media platforms allow users to manage subscriptions directly inside their official apps and never telephone customers to request bank transfers, one-time passwords, or live screen sharing to cancel fees.",
+      "signals_en": "Poses as WeChat, Alipay, Taobao, or Pinduoduo customer service claiming the victim activated a 'Million-Dollar Guarantee' insurance plan or paid VIP subscription that will auto-deduct monthly fees tonight...",
+      "legit_en": "Genuine WeChat, AlipayHK, and Taobao support never cold-call users to cancel '百萬保障' or ask for live screen sharing, FPS test transfers ('過數驗證'), or one-time passwords.",
       "bait_tactics": [
-        "奇怪，我平時很少用那個平台，你等我找一下舊手機看看當初是用哪個電郵登記的。",
-        "我現在打開網上銀行一直轉圈載入不出來，公司網路好像擋住了，還是我自己進官方應用程式按取消？",
-        "你說今晚會扣款是嗎？但我這張卡裡面本來就只剩幾十塊錢，應該扣不到吧？"
+        "好奇怪喎，我平時好少用呢個功能，你等我搵返部舊手提電話睇下當初係用邊個電郵登記先",
+        "我而家開極個網上理財都轉緊圈載入唔到，地鐵入面收得好差，不如我自己入返官方程式度撳取消啦",
+        "你話今晚會自動扣錢係咪呀？但係我呢個轉數快戶口入面得返幾十蚊散紙，應該扣唔到㗎喎"
       ],
       "sources": [
         "https://www.adcc.gov.hk/zh-hk/alerts.html",
-        "https://www.pj.gov.mo/Web/Policia/notice/"
+        "https://www.ofca.gov.hk/phonescams/"
       ]
     },
     {
-      "id": "hk_guess_who",
+      "id": "hk_guess_who_bail",
       "typology": "guess_who",
-      "name": "猜猜我是誰假冒親友急需保釋金騙案",
-      "name_en": "Guess Who I Am Relative Emergency Bail Scam",
+      "name": "「猜猜我是誰」假冒親友換號碼急需保釋金騙案",
+      "name_en": "'Guess who' relative with new number urgently demanding bail or emergency cash",
       "prevalence": "very_high",
       "lang": "zh-TW",
       "context_keywords": [
-        "猜猜我是誰",
-        "換了新號碼",
-        "千萬別告訴家裡"
+        "聽唔出我係邊個",
+        "換咗新號碼",
+        "唔好同屋企人講",
+        "聲線沙啞",
+        "警署扣留"
       ],
       "red_flag_keywords": [
         {
@@ -178,67 +140,183 @@
           "hard": false
         },
         {
-          "text": "交給朋友代收",
+          "text": "仲記唔記得我",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "去銀行提現金",
+          "text": "上門收現金",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "交畀朋友代收",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "去銀行撳現金",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "The caller opens vaguely by asking the recipient to guess who is speaking and claims they lost their phone or changed numbers.",
-      "legit_en": "Real police stations, courts, and hospitals in Hong Kong and Macau never phone family members to demand instant transfers to personal accounts or send couriers to collect cash bail on the street.",
+      "signals_en": "Calls elderly or local residents in Cantonese asking 'Don't you recognize my voice?', claims to have changed phone numbers or caught a cold, and pleads for urgent police bail or accident settlement money via unfamiliar FPS/bank accounts or cash handed to a...",
+      "legit_en": "Hong Kong police and courts never phone relatives to demand instant transfers to personal accounts or send strangers to housing estates to collect cash bail.",
       "bait_tactics": [
-        "你聲音聽起來感冒很重，我實在聽不出來是哪位親戚，你先講你叫什麼名字？",
-        "這麼大件事我一個人做不了主，我現在先打去你原本那個舊電話號碼確認一下。",
-        "我今天沒帶提款卡出門，銀行櫃檯這個鐘點也排滿人，你要不要先找家裡其他人幫忙？"
+        "你把聲聽落重感冒好沙啞喎，我一時真係聽唔出係邊個親戚，不如你講返上次飲茶我哋坐邊張枱先",
+        "咁大件事我一個人做唔到主㗎，你等陣先，我而家即刻打返去你原本嗰個舊電話號碼問清楚",
+        "我今日冇帶提款卡出街，銀行櫃檯呢個鐘數又排晒長龍，不如我叫屋企後生仔直接去警署搵你啦"
       ],
       "sources": [
-        "https://www.police.gov.hk/offbeat120/scam4/12-guess-who-i-am-telephone-scam.html",
-        "https://www.adcc.gov.hk/zh-hk/statistic.html"
+        "https://www.adcc.gov.hk/zh-hk/alerts-detail/alerts-2076535555384504322.html",
+        "https://www.adcc.gov.hk/zh-hk/alerts.html",
+        "https://www.ofca.gov.hk/phonescams/"
       ]
     },
     {
       "id": "hk_fake_telecom",
       "typology": "fake_telecom",
-      "name": "假冒電訊及郵電部門停機騙案",
-      "name_en": "Telecom Authority Urgent Service Termination Scam",
+      "name": "假冒通訊辦及電訊商停用電話號碼／儲值卡騙案",
+      "name_en": "Fake OFCA or telecom operator urgent number or prepaid SIM suspension scam",
       "prevalence": "high",
       "lang": "zh-TW",
       "context_keywords": [
+        "通訊辦",
         "兩小時後停機",
         "發送大量垃圾短訊",
+        "電話儲值卡",
         "實名登記異常"
       ],
       "red_flag_keywords": [
         {
-          "text": "報身分證號碼核實",
+          "text": "停用電話號碼",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "轉接執法部門報案",
+          "text": "停用儲值卡",
           "weight": 2,
           "hard": false
         },
         {
-          "text": "凍結名下門號",
+          "text": "報身份證號碼",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "轉駁執法部門",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "The call claims to come from the local communications or postal-telecom authority, warning that the recipient's mobile service will be suspended within two hours because a SIM card registered under their name sent fraudulent messages elsewhere.",
-      "legit_en": "Telecommunications regulators in Hong Kong and Macau do not call individual subscribers about billing or line suspension, never ask for identity numbers over unsolicited calls, and never route calls to police investigators.",
+      "signals_en": "Impersonates the Office of the Communications Authority (通訊辦 / OFCA) or a mobile carrier claiming a prepaid SIM card registered under the victim's HKID sent mass scam messages, threatening to suspend all phone numbers within two hours and routing the call...",
+      "legit_en": "OFCA never calls members of the public regarding phone billing or SIM suspension, never asks for HKID or bank details over unsolicited calls, and never forwards calls to Mainland or local police.",
       "bait_tactics": [
-        "這個門號是我用了好幾年的月費卡，怎麼會突然停機？你把通知書寄到我帳單地址吧。",
-        "我現在手頭正在開會沒辦法抄寫，我自己下班後走去門市櫃檯查清楚好了。",
-        "你說我在外地開了電話卡，那你先告訴我開卡日期是幾月幾號，我完全沒印象。"
+        "呢個電話號碼我上台用咗好多年月費㗎喇，點會無端端停機呀？你寄封正式通知信去我帳單地址先講啦",
+        "我而家喺公司開緊會唔方便抄嘢，放工之後我自己落去電訊商門市櫃檯查返清楚咪得囉",
+        "你話有人用我名義開咗張儲值卡，咁你講返清楚係邊間電訊商同埋幾月幾號登記先，我完全冇印象喎"
       ],
       "sources": [
-        "https://www.gov.mo/zh-hant/news/1220078/",
-        "https://www.adcc.gov.hk/zh-hk/home.html"
+        "https://www.ofca.gov.hk/phonescams/",
+        "https://www.adcc.gov.hk/en-hk/alerts-detail/alerts-1933439595465740289.html",
+        "https://www.adcc.gov.hk/zh-hk/alerts.html"
+      ]
+    },
+    {
+      "id": "hk_parcel_customs_hold",
+      "typology": "fake_customs_parcel",
+      "name": "假冒香港海關／速遞公司扣件（違禁品・補繳清關手續費）",
+      "name_en": "Fake Hong Kong Customs or courier parcel contraband & clearance-fee scam",
+      "prevalence": "high",
+      "lang": "zh-TW",
+      "context_keywords": [
+        "香港海關",
+        "順豐速遞",
+        "海關扣查",
+        "包裹藏有違禁品",
+        "快件異常"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "清關手續費",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "轉駁執法部門",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "撳連結交罰款",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "下載清關程式",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Spoofs Hong Kong Customs enquiry numbers or poses as courier staff claiming an inbound parcel contains contraband and is detained, demanding an immediate clearance penalty, app download, or transfer to 'Mainland border officers'.",
+      "legit_en": "Hong Kong Customs never demands fine transfers by phone or asks citizens to install unofficial mobile apps; genuine courier pickup notices are verified inside the official courier app.",
+      "bait_tactics": [
+        "扮好擔心咁話最近冇印象買過外國嘢，請佢逐件講清楚個包裹入面裝住咩同埋寄件人寫邊個",
+        "話張信用卡擺咗喺屋企另一個手袋度要慢慢搵，請佢先詳細解釋清關手續費係按重量定按件數計",
+        "話自己唔識撳手機連結，問可唔可以抄低個檔案編號自己親身去北角海關總部大樓問清楚"
+      ],
+      "sources": [
+        "https://www.customs.gov.hk/tc/customs-announcement/press-release/index_id_4555.html",
+        "https://www.adcc.gov.hk/zh-hk/alerts.html"
+      ]
+    },
+    {
+      "id": "hk_en_immigration_police_bank",
+      "typology": "fake_official",
+      "name": "Fake Immigration Department / HKPF / Bank Safe-Account English Scam",
+      "name_en": "English-language fake HK Immigration, Police Force or bank safe-account scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "immigration department",
+        "hong kong police",
+        "communications authority",
+        "money laundering investigation",
+        "prepaid sim misuse"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "designated safe account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "asset verification transfer",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "online banking password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "arrest warrant issued",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Targets English speakers and expatriates in Hong Kong via pre-recorded or live calls spoofing +852 official numbers; impersonates the Immigration Department, HKPF, Communications Authority...",
+      "legit_en": "The Hong Kong Police Force, Immigration Department, and licensed banks never make pre-recorded threat calls, forward calls to outside police forces, or ask for online banking passwords or asset-verification transfers.",
+      "bait_tactics": [
+        "Sorry, I am riding the MTR right now and the connection keeps dropping—could you repeat your division name slowly?",
+        "Hold on, I don't keep my HKID or bank token with me at work; let me verify this through the official police anti-scam helpline first.",
+        "My online banking daily transfer limit is locked at zero anyway, so can you mail the written notice to my registered residential address?"
+      ],
+      "sources": [
+        "https://www.adcc.gov.hk/en-hk/alerts-detail/alerts-1933439595465740289.html",
+        "https://www.adcc.gov.hk/en-hk/alerts.html",
+        "https://www.ofca.gov.hk/phonescams/"
       ]
     }
   ]
