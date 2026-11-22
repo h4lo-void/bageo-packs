@@ -1,0 +1,157 @@
+{
+  "name": "Vatican City",
+  "name_local": "Città del Vaticano / Status Civitatis Vaticanae",
+  "iso": "va",
+  "calling_code": "+379",
+  "languages": [
+    "it",
+    "la"
+  ],
+  "prevalence_note": "ASIF (Autorità di Informazione Finanziaria), IOR & Polizia Postale (Rome/Vatican area) 2025-2026: fraudulent solicitation misusing Papal charities / Elemosineria Apostolica or fake paid Apostolic Blessings, fake IOR ('Vatican Bank') bequest/wire verification calls, and Italian +39 spoofing 'conto sicuro' vishing dominate.",
+  "cross_border_note": "While ITU assigns +379 to Vatican City, active Vatican landlines operate under the Italian +39 06 698x range; callers spoofing +39 06 numbers target clergy, religious institutes, and donors in Italian (Latin is ceremonial/written).",
+  "scams": [
+    {
+      "id": "va_falsa_beneficenza_elemosineria",
+      "typology": "fake_official",
+      "name": "Falsa raccolta fondi pontificia o intermediari abusivi di Benedizioni Apostoliche",
+      "name_en": "Impersonation of Vatican charities or Elemosineria Apostolica soliciting wire donations or paid blessings",
+      "prevalence": "high",
+      "lang": "it",
+      "context_keywords": [
+        "elemosineria apostolica",
+        "carità del papa",
+        "pergamena benedizione apostolica",
+        "donazione urgente missione",
+        "santa sede"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bonifico su iban",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pagamento immediato pergamena",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "intermediario autorizzato vaticano",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "comunicare dati carta",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller or message poses as a Vatican charity office, cardinal's secretariat, or unauthorized intermediary demanding urgent wire transfers or inflated card fees for Papal charity drives or Apostolic Blessing parchments.",
+      "legit_en": "Apostolic Blessing parchments are issued exclusively through the official Elemosineria Apostolica channels without commercial phone solicitation or private IBAN wires.",
+      "bait_tactics": [
+        "Chieda il nome esatto del Dicastero e dica che verificherà direttamente tramite il centralino ufficiale vaticano.",
+        "Domandi perché il conto indicato per il bonifico risulta intestato a un privato o a una società esterna.",
+        "Dica di voler effettuare eventuali offerte solo tramite i canali istituzionali ufficiali della Santa Sede."
+      ],
+      "sources": [
+        "https://www.avvenire.it/chiesa/chiesa-italiana/benedizioni-apostoliche-come-ottenerle_21998",
+        "https://www.asif.va/documenti/it/Regolamenti/IT-Istruzione_n.2.pdf"
+      ]
+    },
+    {
+      "id": "va_falso_ior_verifica_bonifico",
+      "typology": "fake_bank_account_alert",
+      "name": "Falso funzionario IOR / ASIF per sblocco lascito o verifica antiriciclaggio",
+      "name_en": "Impersonation of IOR (Institute for the Works of Religion) or ASIF requesting fees or banking codes",
+      "prevalence": "high",
+      "lang": "it",
+      "context_keywords": [
+        "istituto opere religione",
+        "banca vaticana ior",
+        "lascito testamentario bloccato",
+        "controllo antiriciclaggio asif"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "versare tassa sblocco",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "codice verifica bancaria",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "aprire conto ior",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bonifico spese pratica",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to represent the IOR or Vatican financial supervisor ASIF offering to release a religious bequest/donation or open a high-yield Vatican account in exchange for upfront compliance fees or banking OTPs.",
+      "legit_en": "IOR is strictly restricted to the Catholic Church and eligible ecclesiastical entities—it never cold-calls the general public, opens external retail accounts, or charges advance release fees.",
+      "bait_tactics": [
+        "Ricordi con calma che lo IOR opera solo per enti ecclesiastici e chieda quale ufficio stia chiamando.",
+        "Dica che invierà una verifica scritta tramite i canali ufficiali di conformità dello IOR.",
+        "Finga di non avere sottomano alcun dato bancario e chieda di ricevere comunicazione formale per posta raccomandata."
+      ],
+      "sources": [
+        "https://www.ior.va/en/compliance/",
+        "https://www.ior.va/en/whistleblowing-en/",
+        "https://www.asif.va/documenti/it/Regolamenti/IT-Istruzione_n.2.pdf"
+      ]
+    },
+    {
+      "id": "va_spoofing_polizia_postale_roma",
+      "typology": "otp_theft",
+      "name": "Spoofing telefonico bancario o falsa Polizia Postale («conto sicuro» e OTP)",
+      "name_en": "Polizia Postale-warned spoofed Rome/Vatican area bank or police call demanding OTP or safe-account wire",
+      "prevalence": "very_high",
+      "lang": "it",
+      "context_keywords": [
+        "polizia postale roma",
+        "reparto sicurezza banca",
+        "bonifico fraudolento corso",
+        "clonazione conto corrente"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "trasferire conto sicuro",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "leggere codice otp",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bonifico istantaneo urgente",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "fornire password accesso",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Spoofed +39 06 landline call posing as bank security or Polizia Postale alerting an ecclesiastical office or resident of an unauthorized wire and urging an instant transfer to a 'safe account' or OTP disclosure.",
+      "legit_en": "Polizia Postale and ASIF-supervised payment rules confirm neither banks nor police ever ask users to communicate OTPs, passwords, or execute transfers to external accounts.",
+      "bait_tactics": [
+        "Dica che riaggancia subito per richiamare il centralino ufficiale dell'istituto bancario o il portale della Polizia Postale.",
+        "Chieda il nome dell'ufficio e rifiuti qualsiasi operazione tramite link o cellulari dettati a voce.",
+        "Finga che il dispositivo per i bonifici sia custodito dall'economo assente fino a domani."
+      ],
+      "sources": [
+        "https://www.commissariatodips.it/notizie/articolo/sventato-dalla-polizia-di-stato-uno-spoofing-da-oltre-160000-euro-sequestrato-il-denaro-sottratt/index.html",
+        "https://www.asif.va/documenti/it/Regolamenti/IT-Istruzione_n.2.pdf"
+      ]
+    }
+  ]
+}

@@ -51,6 +51,54 @@
         "https://www.orange.mg/fr/conseils-aux-clients.html",
         "https://moncashdfs.com/fr/TCs"
       ]
+    },
+    {
+      "id": "ht_moncash_natcash_pin_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "Koken sou telefòn MonCash ak Natcash (Kòd Sekrè / OTP)",
+      "name_en": "Haitian Creole MonCash and Natcash mobile wallet PIN or OTP scam",
+      "prevalence": "very_high",
+      "lang": "ht",
+      "context_keywords": [
+        "kont moncash",
+        "sèvis natcash",
+        "transfè lajan",
+        "prim promosyon",
+        "ajan otorize"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bay kòd sekrè ou",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "li kòd nan mesaj",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "peye frè pou debloke",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "voye lajan kounye a",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in Haitian Creole poses as MonCash or Natcash customer support, a prize promoter, or someone claiming an accidental transfer, pressuring the victim to share their wallet PIN, SMS OTP, or unlock fee.",
+      "legit_en": "Authorized Haitian mobile money operators and banks regulated by BRH never call users to request secret PINs, SMS verification codes, or upfront prize fees.",
+      "bait_tactics": [
+        "Tanpri tann yon ti moman, rezo telefòn mwen an ap koupe anpil la a epi mwen pa tande byen sa ou sot di a.",
+        "Kite m chèche linèt mwen nan lòt chanm nan paske ekran telefòn nan twò piti pou m li mesaj yo kounye a.",
+        "Telefòn mwen prèske dechaje nèt, èske ou ka esplike m tou dousman nan ki biwo ofisyèl mwen ka pase verifye sa?"
+      ],
+      "sources": [
+        "https://frd.brh.ht/activites.php",
+        "https://mef.gouv.ht/"
+      ]
     }
   ]
 }

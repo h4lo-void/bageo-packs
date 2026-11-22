@@ -1,0 +1,206 @@
+{
+  "name": "Andorra",
+  "name_local": "Andorra",
+  "iso": "ad",
+  "calling_code": "+376",
+  "languages": [
+    "ca",
+    "es",
+    "fr"
+  ],
+  "prevalence_note": "Policia d'Andorra, AFA & Govern d'Andorra / Andorra Telecom 2025-2026: Catalan/Spanish/French bank and pending-parcel smishing/vishing, CEO urgent-transfer calls using AI voice cloning, fake crypto/investment brokers, and fake Microsoft remote-access calls dominate.",
+  "cross_border_note": "Sandwiched between Spain (+34) and France (+33), Andorra (+376) residents frequently receive cross-border spoofed calls in Catalan, Spanish, and French from +34, +33, +44, and +376 numbers.",
+  "scams": [
+    {
+      "id": "ad_banc_paquet_smishing_ca",
+      "typology": "otp_theft",
+      "name": "Suplantació d'entitat bancària, Andorra Telecom o paquet pendent (Smishing i Vishing)",
+      "name_en": "Fake Andorran bank, telecom or pending-parcel SMS/call stealing banking access codes (Catalan)",
+      "prevalence": "very_high",
+      "lang": "ca",
+      "context_keywords": [
+        "paquet pendent duana",
+        "compte bancari bloquejat",
+        "andorra telecom",
+        "departament de seguretat",
+        "banca en línia"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "codi de verificació",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "clicar aquest enllaç",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "facilitar dades bancàries",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pagar taxa duanera",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "SMS or call in Catalan posing as an Andorran bank, courier/customs with a pending parcel, or Andorra Telecom, urging the victim to click a link or read out online-banking access codes.",
+      "legit_en": "Policia d'Andorra and Andorra Telecom (115) confirm legitimate entities never ask for banking credentials or access codes via SMS links or unsolicited calls.",
+      "bait_tactics": [
+        "Digueu que sou al carrer sense ulleres i que ara mateix passeu per l'oficina bancària d'Andorra la Vella.",
+        "Pregunteu des de quina empresa s'ha enviat el suposat paquet perquè no heu fet cap comanda.",
+        "Feu veure que l'enllaç no s'obre al mòbil i demaneu que us repeteixin les dades a poc a poc."
+      ],
+      "sources": [
+        "https://www.policia.ad/ca/noticies/noticies/2024/01/11/7337/la-policia-alerta-d-estafes-que-s-han-incrementat-els-darrers-dies-el-frau-del-ceo-i-els-falsos-paquets-pendents/",
+        "https://www.govern.ad/ca/w/andorra-telecom-detecta-i-bloqueja-un-atac-de-frau-de-phishing-contra-el-correu-andorra-ad-1",
+        "https://www.policia.ad/ca/noticies/noticies/2024/10/03/7620/les-estafes-amb-falses-inversions-un-frau-a-l-alca/"
+      ]
+    },
+    {
+      "id": "ad_frau_del_ceo_ia_ca",
+      "typology": "fake_official",
+      "name": "Frau del CEO i suplantació de directius amb veu generada per IA",
+      "name_en": "Policia d'Andorra 2026-warned CEO/manager voice-cloned urgent transfer scam (Catalan)",
+      "prevalence": "very_high",
+      "lang": "ca",
+      "context_keywords": [
+        "encàrrec confidencial direcció",
+        "pagament urgent proveïdor",
+        "auditoria fiscal urgent",
+        "responsable del negoci"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transferència bancària urgent",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "operació estrictament confidencial",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "compte bancari desconegut",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "no truquis ningú",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller uses social engineering or AI voice cloning to impersonate a company owner/director in Andorra, pressing an employee or shop clerk to wire an urgent, confidential payment to an external account.",
+      "legit_en": "Policia d'Andorra advises always verifying executive payment requests through internal channels and calling the manager back on their known number.",
+      "bait_tactics": [
+        "Digueu que el dispositiu d'autorització de l'empresa el té el comptable i que trigueu una estona a localitzar-lo.",
+        "Demaneu el concepte de factura intern per comprovar-lo primer al programa de gestió.",
+        "Talleu educadament dient que ara mateix truqueu al mòbil habitual del responsable per confirmar-ho."
+      ],
+      "sources": [
+        "https://www.policia.ad/ca/noticies/noticies/2026/02/04/8140/la-policia-alerta-d-un-nou-degoteig-d-estafes-a-empreses-mitjancant-el-frau-del-ceo/",
+        "https://www.policia.ad/ca/noticies/noticies/2024/01/11/7337/la-policia-alerta-d-estafes-que-s-han-incrementat-els-darrers-dies-el-frau-del-ceo-i-els-falsos-paquets-pendents/"
+      ]
+    },
+    {
+      "id": "ad_microsoft_inversions_es",
+      "typology": "tech_support_remote",
+      "name": "Falso soporte técnico de Microsoft y chiringuitos de inversión (Español)",
+      "name_en": "Fake Microsoft remote-support or unlicensed crypto investment advisor calling in Spanish",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "soporte técnico microsoft",
+        "ordenador infectado virus",
+        "plataforma criptomonedas",
+        "alta rentabilidad rápida"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "instalar control remoto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "dar acceso remoto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enviar foto documento",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "transferir capital inicial",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Spanish-speaking caller claims to be Microsoft support fixing a virus or an investment broker promising fast crypto returns, asking to install remote-control software or send ID photos and bank codes.",
+      "legit_en": "Policia d'Andorra and AFA warn that Microsoft never cold-calls users for remote access and all financial intermediaries in Andorra must be AFA-authorized.",
+      "bait_tactics": [
+        "Diga que usa un ordenador antiguo sin conexión a internet en este momento y pida que repitan el aviso despacio.",
+        "Pregunte cuál es su registro oficial ante la Autoritat Financera Andorrana (AFA).",
+        "Finja que el ordenador tarda diez minutos en encenderse mientras hace preguntas básicas."
+      ],
+      "sources": [
+        "https://www.policia.ad/ca/noticies/noticies/2014/07/28/2273/frau-suplantant-la-identitat-de-tecnics-de-microsoft/",
+        "https://www.policia.ad/ca/noticies/noticies/2024/10/03/7620/les-estafes-amb-falses-inversions-un-frau-a-l-alca/",
+        "https://www.afa.ad/ca/entitats-supervisades/actius-digitals/veedors/normativa/comunicats-tecnics"
+      ]
+    },
+    {
+      "id": "ad_faux_conseiller_fr",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux conseiller bancaire ou faux colis douanier (Français)",
+      "name_en": "French-language fake bank advisor or customs parcel call targeting Andorra residents",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "service sécurité bancaire",
+        "opération carte suspecte",
+        "colis bloqué douane",
+        "validation mobile urgente"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquer code sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "valider sur application",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "virement compte sécurisé",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "payer frais douane",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "French-speaking caller poses as bank fraud prevention (often targeting Pas de la Casa or French-speaking residents) or customs courier, asking to validate an app prompt or read out an SMS code.",
+      "legit_en": "Andorran banks and police never ask clients over the phone to share SMS codes or transfer money to safe accounts.",
+      "bait_tactics": [
+        "Dites que vous passez directement à votre agence bancaire en Principauté cet après-midi.",
+        "Prétextez que le réseau mobile coupe au Pas de la Casa et demandez de répéter lentement.",
+        "Demandez le nom du service afin d'appeler vous-même le standard officiel."
+      ],
+      "sources": [
+        "https://www.policia.ad/ca/noticies/noticies/2024/01/11/7337/la-policia-alerta-d-estafes-que-s-han-incrementat-els-darrers-dies-el-frau-del-ceo-i-els-falsos-paquets-pendents/",
+        "https://www.afa.ad/ca/entitats-supervisades/actius-digitals/veedors/normativa/comunicats-tecnics"
+      ]
+    }
+  ]
+}

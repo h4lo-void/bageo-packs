@@ -7,7 +7,7 @@
     "ar"
   ],
   "prevalence_note": "SAMA and Absher warnings 2025-2026: fake Absher staff asking the owner to pick the number shown in Nafath, and fake central bank staff moving money to a temporary protection account dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border Arabic- and English-speaking syndicates use VoIP spoofing and rogue SMS links to impersonate SAMA, Absher/Nafath, Saudi banks, and postal couriers, routing stolen funds through mule accounts and crypto.",
   "scams": [
     {
       "id": "sa_nafath_absher_code",
@@ -16,7 +16,12 @@
       "name_en": "Fake Absher staff asking for the Nafath number or code",
       "prevalence": "very_high",
       "lang": "ar",
-      "context_keywords": [],
+      "context_keywords": [
+        "تطبيق نفاذ",
+        "منصة أبشر",
+        "توثيق الهوية",
+        "تحديث البيانات"
+      ],
       "red_flag_keywords": [
         {
           "text": "اختر الرقم الظاهر في نفاذ",
@@ -36,7 +41,7 @@
         "يسأل بهدوء عن أي خدمة يتكلم ومتى ستتوقف"
       ],
       "sources": [
-        "البنك المركزي السعودي"
+        "https://my.gov.sa/en/services/538742"
       ]
     },
     {
@@ -54,6 +59,21 @@
           "text": "حساب حماية مؤقت",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "تحويل لحساب آمن",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "رمز التحقق المؤقت",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "إيقاف الحساب البنكي فورا",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "A caller from the central bank or the owner's bank says the account is frozen and the balance must be moved to a temporary protection account.",
@@ -63,7 +83,7 @@
         "يسأل عن اسم الفرع ورقم البلاغ بهدوء"
       ],
       "sources": [
-        "البنك المركزي السعودي"
+        "https://my.gov.sa/en/services/538742"
       ]
     },
     {

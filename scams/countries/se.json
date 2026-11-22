@@ -7,7 +7,7 @@
     "sv"
   ],
   "prevalence_note": "Polisen and PTS warnings 2025-2026: fake bank security asking for Mobilt BankID or bankdosa codes, fake police collecting cards and jewellery, telecom contract tricks signed with BankID, and investment scams.",
-  "cross_border_note": "",
+  "cross_border_note": "Under PTS regulation PTSFS 2024:2 (enforced 2024–2026 alongside expanded Aug 2026 telecom anti-fraud obligations), Swedish operators block unverified international inbound calls spoofing Swedish (+46) fixed and mobile numbers; cross-border BankID and fake-police rings rely heavily on SMS callback lures and domestic SIM boxes.",
   "scams": [
     {
       "id": "se_bankid_sakerhetsavdelning",
@@ -43,8 +43,8 @@
         "Fråga vilken dag lånet ska ha tagits och på hur mycket"
       ],
       "sources": [
-        "Polisen",
-        "PTS"
+        "https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/",
+        "https://pts.se/internet-och-telefoni/sakerhet-och-skydd-av-uppgifter/telefonbedragerier/"
       ]
     },
     {
@@ -81,7 +81,7 @@
         "Fråga lugnt hur personen som kommer ser ut"
       ],
       "sources": [
-        "Polisen"
+        "https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/"
       ]
     },
     {
@@ -113,8 +113,8 @@
         "Fråga vad det kostar efter första året"
       ],
       "sources": [
-        "PTS",
-        "Konsumentverket"
+        "https://pts.se/internet-och-telefoni/sakerhet-och-skydd-av-uppgifter/telefonbedragerier/",
+        "https://www.hallakonsument.se/konsumentratt/bank-och-kortbedragerier/"
       ]
     },
     {
@@ -146,8 +146,8 @@
         "Fråga hur lång tid en utbetalning tar"
       ],
       "sources": [
-        "Finansinspektionen",
-        "Polisen"
+        "https://www.fi.se/sv/for-konsumenter/bedragerier/",
+        "https://polisen.se/utsatt-for-brott/polisanmalan/bedragerier/bedragerier/"
       ]
     }
   ]

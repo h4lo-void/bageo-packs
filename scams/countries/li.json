@@ -1,0 +1,155 @@
+{
+  "name": "Liechtenstein",
+  "name_local": "Liechtenstein",
+  "iso": "li",
+  "calling_code": "+423",
+  "languages": [
+    "de"
+  ],
+  "prevalence_note": "Landespolizei Liechtenstein & FMA Liechtenstein 2025-2026: 'Schockanrufe' and spoofed +423 'falsche Polizisten' demanding bail cash or gold bars, e-Banking PushTAN / TWINT approval phishing, Liechtensteinische Post smishing, and FMA-flagged clone-firm (Klonfirma) investment scams dominate.",
+  "cross_border_note": "Closely integrated with Switzerland (+41, CHF currency area); fraudsters spoof official Vaduz Landespolizei numbers (+423 236 71 11 variants) and Swiss/German numbers speaking standard High German.",
+  "scams": [
+    {
+      "id": "li_schockanruf_falsche_polizisten",
+      "typology": "fake_official",
+      "name": "Schockanruf und «Falsche Polizisten» (Kaution, Bargeld oder Goldbarren)",
+      "name_en": "Landespolizei-warned shock call or spoofed fake police demanding bail cash or gold custody",
+      "prevalence": "very_high",
+      "lang": "de",
+      "context_keywords": [
+        "landespolizei vaduz",
+        "schwerer verkehrsunfall",
+        "einbrecherbande verhaftet",
+        "staatsanwaltschaft kaution",
+        "auto nicht versichert"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "kaution sofort bezahlen",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bargeld oder goldbarren",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "geld bote übergeben",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "niemandem davon erzählen",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "High-German caller spoofing a +423 police number poses as police or doctor claiming a child caused a severe crash needing immediate bail (with crying in background), or asks about cash/gold at home after a supposed burglary arrest.",
+      "legit_en": "Landespolizei Liechtenstein stresses police never ask over the phone about cash or gold bars and never demand bail handovers to couriers.",
+      "bait_tactics": [
+        "Fragen Sie ruhig nach dem Verhältnis des Angehörigen und sagen Sie, dass Sie ihn zuerst auf seiner eigenen Leitung anrufen.",
+        "Geben Sie niemals Auskunft über Wertsachen und erklären Sie, dass Sie selbst über die Zentrale in Vaduz zurückrufen.",
+        "Tun Sie so, als müssten Sie zuerst eine Vertrauensperson im Haus dazuholen."
+      ],
+      "sources": [
+        "https://www.landespolizei.li/detail/vp/1613/warnung-vor-schockanrufen-liechtenstein",
+        "https://www.landespolizei.li/detail/vp/412/betrugsversuche-durch-falsche-polizisten"
+      ]
+    },
+    {
+      "id": "li_ebanking_pushtan_twint",
+      "typology": "otp_theft",
+      "name": "E-Banking PushTAN-Freigabe, TWINT-Betrug und Fernzugriff",
+      "name_en": "Fake bank security or online buyer tricking victim into approving PushTAN, TWINT, or remote access",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "sicherheitsabteilung bank",
+        "verdächtige abbuchung",
+        "twint zahlung empfangen",
+        "ebanking login"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pushtan jetzt freigeben",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "twint code bestätigen",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "anydesk installieren",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sicherheitskonto überweisen",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Fake bank advisor or classifieds buyer urges the victim to approve an e-Banking PushTAN prompt, scan/confirm a TWINT code supposedly to 'receive' money, or install remote-access software.",
+      "legit_en": "Liechtenstein and Swiss banks never call clients to approve unrequested PushTAN prompts, share codes, or install remote tools.",
+      "bait_tactics": [
+        "Sagen Sie, dass Ihre Banking-App gerade ein Update lädt und Sie persönlich am Schalter in Vaduz oder Schaan vorbeigehen.",
+        "Fragen Sie bei Kleinanzeigen, warum die Zahlung nicht per regulärer Überweisung ohne Code-Freigabe erfolgt.",
+        "Behaupten Sie, Ihr Smartphone-Akku sei leer und Sie könnten gerade nichts bestätigen."
+      ],
+      "sources": [
+        "https://www.landespolizei.li/detail/vp/1668/warnung-vor-phishing-e-mails-im-namen-der-liechtensteinischen-post",
+        "https://www.fma-li.li/de/medien-oeffentlichkeit/kundenschutz/warnmeldungen-und-hinweise"
+      ]
+    },
+    {
+      "id": "li_post_phishing_klonfirma",
+      "typology": "investment_group_scam",
+      "name": "Liechtensteinische Post Paket-Phishing & FMA-Klonfirma Anlagebetrug",
+      "name_en": "Fake Liechtenstein Post delivery phishing or FMA-flagged clone investment/recovery firm call",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "liechtensteinische post",
+        "zustellung fehlgeschlagen",
+        "vermögensverwaltung vaduz",
+        "verlorenes geld zurückholen"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "zustellgebühr per link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "gebühr vorab überweisen",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "garantierte hohe rendite",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "kreditkartendaten eingeben",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Phishing SMS/email in the name of Liechtensteinische Post demanding card data for a parcel, or a caller from a clone firm (Klonfirma) / recovery scam ('Reclaim') misusing FMA-licensed names and demanding upfront fees.",
+      "legit_en": "Liechtensteinische Post (`post.li`) never requests confidential payment data via SMS links, and FMA Liechtenstein publishes warnings against clone firms and recovery scams.",
+      "bait_tactics": [
+        "Verlangen Sie den Eintrag im offiziellen FMA-Bewilligungsträgerregister und kündigen Sie eine Prüfung an.",
+        "Sagen Sie bei Paketmeldungen, dass Sie das Paket direkt auf der Poststelle im Dorf abholen werden.",
+        "Lassen Sie sich die genaue Firmenadresse in Vaduz buchstabieren."
+      ],
+      "sources": [
+        "https://www.landespolizei.li/detail/vp/1668/warnung-vor-phishing-e-mails-im-namen-der-liechtensteinischen-post",
+        "https://www.fma-li.li/de/medien-oeffentlichkeit/kundenschutz/warnmeldungen-und-hinweise"
+      ]
+    }
+  ]
+}

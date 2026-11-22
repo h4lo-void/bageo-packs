@@ -1,0 +1,155 @@
+{
+  "name": "San Marino",
+  "name_local": "San Marino",
+  "iso": "sm",
+  "calling_code": "+378",
+  "languages": [
+    "it"
+  ],
+  "prevalence_note": "Corpo della Gendarmeria, Guardia di Rocca & Banca Centrale (BCSM) 2025-2026: 'finto gendarme / carabiniere' video-call and jewelry/cash bail handovers, spoofed bank 'Nucleo Antifrode' OTP/safe-account calls, and fake online trading platforms dominate.",
+  "cross_border_note": "Surrounded by Italy (+39) and reachable via +378 and Italian +39-0549 routing; cross-border Italian scam rings target Sammarinese households spoofing bank and police numbers.",
+  "scams": [
+    {
+      "id": "sm_finto_gendarme_gioielli",
+      "typology": "fake_official",
+      "name": "Truffa del finto Gendarme o Polizia (Incidente stradale, furto e consegna gioielli)",
+      "name_en": "Gendarmeria-reported fake gendarme/police phone and video-call scam demanding cash or jewelry handover",
+      "prevalence": "very_high",
+      "lang": "it",
+      "context_keywords": [
+        "corpo della gendarmeria",
+        "incidente stradale grave",
+        "verifica gioielli rubati",
+        "centrale operativa",
+        "fermo in caserma"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "consegnare gioielli casa",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pagare cauzione subito",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "restare in videochiamata",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "non chiamare nessuno",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as San Marino Gendarmeria or Italian police claiming a parent/child is detained after a crash or burglary check, keeps the victim busy on a mobile video call so they cannot call family, and sends an accomplice in a car to collect cash or jewelry.",
+      "legit_en": "San Marino's Gendarmeria, Polizia Civile, and Guardia di Rocca never ask citizens to hand over jewelry or cash in parking lots or stay on video calls.",
+      "bait_tactics": [
+        "Dica che sta chiamando subito la Centrale Operativa Interforze o la Brigata di Serravalle con l'altro telefono di casa.",
+        "Chieda il modello esatto del veicolo coinvolto nell'incidente.",
+        "Finga che il portone condominiale sia bloccato e che stia arrivando un vicino di casa."
+      ],
+      "sources": [
+        "https://www.sanmarinortv.sm/news/cronaca-c3/truffa-del-finto-gendarme-a-san-marino-minorenne-ingannata-e-derubata-dei-gioielli-di-casa-a298241",
+        "https://www.sanmarinortv.sm/news/cronaca-c3/gendarmeria-attenzione-alla-truffe-telefoniche-a216458"
+      ]
+    },
+    {
+      "id": "sm_spoofing_nucleo_antifrode",
+      "typology": "fake_bank_account_alert",
+      "name": "Spoofing bancario e falso «Nucleo Antifrode» (SMS trappola, OTP e conto sicuro)",
+      "name_en": "Fake Sammarinese bank anti-fraud unit call following a trap SMS to steal OTPs or safe-account wires",
+      "prevalence": "very_high",
+      "lang": "it",
+      "context_keywords": [
+        "nucleo antifrode bancario",
+        "accesso anomalo conto",
+        "pagamento sospetto carta",
+        "banca san marino"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bonifico conto sicuro",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "comunicare codice otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cliccare link sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "stornare operazione urgente",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Starts with a 'trap SMS' about an anomalous login or card charge, followed by a spoofed call from a supposed 'Nucleo Antifrode' operator asking for OTP codes or an instant wire transfer to a 'safe account'.",
+      "legit_en": "Sammarinese banks and BCSM never ask account holders by phone or SMS link to reveal OTP codes or move deposits to external safe accounts.",
+      "bait_tactics": [
+        "Risponda che abita vicino alla filiale del Castello e sta scendendo di persona allo sportello.",
+        "Dica che l'SMS non si legge sullo schermo e chieda la sede dell'ufficio antifrode.",
+        "Finga che l'home banking sia bloccato per password errata e non permetta bonifici."
+      ],
+      "sources": [
+        "https://www.sanmarinortv.sm/news/cronaca-c3/san-marino-segnalati-in-questi-giorni-vari-tentativi-di-truffa-l-obiettivo-e-carpire-dati-personali-a212873",
+        "https://www.bcsm.sm/hubfs/pdf_docs/63481DD_17dicembre201.pdf?hsLang=it"
+      ]
+    },
+    {
+      "id": "sm_falso_trading_finanziario",
+      "typology": "investment_group_scam",
+      "name": "Falso trading online e richiesta di tasse di sblocco (Guardia di Rocca / BCSM)",
+      "name_en": "Unlicensed online financial trading advisor demanding upfront unlock taxes or remote access",
+      "prevalence": "high",
+      "lang": "it",
+      "context_keywords": [
+        "consulente trading online",
+        "investimento alto rendimento",
+        "sblocco profitti maturati",
+        "piattaforma criptovalute"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pagare tassa sblocco",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "installare accesso remoto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guadagno mensile garantito",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bonifico estero urgente",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Phone promoter lures Sammarinese savers into unlicensed online trading platforms, displays fabricated gains, and demands advance 'unlock taxes' or remote-desktop access to withdraw funds.",
+      "legit_en": "Only BCSM-authorized financial entities may offer investment services in San Marino, and legitimate brokers never require upfront fees to withdraw client funds.",
+      "bait_tactics": [
+        "Chieda l'iscrizione ufficiale presso la Banca Centrale della Repubblica di San Marino (BCSM).",
+        "Proponga di trattenere l'eventuale imposta direttamente dalla somma già maturata sul conto trading.",
+        "Dica che deve prima mostrare il contratto scritto al proprio commercialista."
+      ],
+      "sources": [
+        "https://www.sanmarinortv.sm/news/cronaca-c3/due-sammarinesi-vittime-di-truffe-finanziarie-gdr-ricostruisce-il-raggiro-a263402",
+        "https://www.bcsm.sm/hubfs/pdf_docs/63481DD_17dicembre201.pdf?hsLang=it"
+      ]
+    }
+  ]
+}

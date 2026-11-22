@@ -1,0 +1,154 @@
+{
+  "name": "Bahamas",
+  "name_local": "The Bahamas",
+  "iso": "bs",
+  "calling_code": "+1-242",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Central Bank of The Bahamas (CBOB) & Royal Bahamas Police Force (RBPF) 2025-2026: bank-detail update phishing/vishing, AI deepfake celebrity/official investment calls, upfront-fee consumer loan & fake job advertisements, and cash-prize advance-fee scams dominate.",
+  "cross_border_note": "Uses +1-242 within NANP; scammers spoof US (+1) and +1-242 numbers on voice calls and WhatsApp while misusing Bahamian public figures in deepfake promos.",
+  "scams": [
+    {
+      "id": "bs_rbpf_bank_phishing",
+      "typology": "fake_bank_account_alert",
+      "name": "RBPF-Warned Bank Account Update Phishing & OTP Vishing Call",
+      "name_en": "Fake Bahamian bank notification or call prompting urgent account detail update and OTP disclosure",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "update banking details",
+        "compromised bank account",
+        "point of sale alert",
+        "customer service desk"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "click link immediately",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share security code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "verify card pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "account access suspended",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited SMS, WhatsApp, or phone call claiming a Bahamian bank account or POS card needs urgent verification via a link or reading out confidential login/OTP codes.",
+      "legit_en": "RBPF advises citizens never to click unknown banking links and to verify any account update request directly at a local branch or official bank number.",
+      "bait_tactics": [
+        "Tell the caller you live five minutes from the Nassau branch and will walk in with your ID instead.",
+        "Pretend the link will not load on your phone browser and ask them to explain why the domain looks unusual.",
+        "Ask them to state the exact date your account was opened before discussing anything further."
+      ],
+      "sources": [
+        "https://www.royalbahamaspolice.org/crimeinformation/crimereports/crimereportsdisplay2024.php?cr_id=467",
+        "https://www.royalbahamaspolice.org/crimeinformation/crimereports/crimereportsdisplay2024.php?cr_id=682",
+        "https://www.centralbankbahamas.com/news/scams-and-frauds"
+      ]
+    },
+    {
+      "id": "bs_deepfake_investment_loan",
+      "typology": "investment_group_scam",
+      "name": "CBOB Deepfake Investment & Upfront-Fee Consumer Loan Scam",
+      "name_en": "Deepfake-endorsed investment platform or unlicensed fast consumer loan demanding upfront fees",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed daily profit",
+        "government endorsed platform",
+        "instant consumer loan",
+        "crypto trading advisor"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay loan insurance",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guaranteed high returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "upfront processing fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "install remote desktop",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Follow-up call from a deepfake investment ad misusing Bahamian leaders or a fast-loan offer demanding upfront insurance/processing fees or crypto deposits.",
+      "legit_en": "Central Bank of The Bahamas warns against deepfake investment ads and unlicensed consumer lenders charging advance fees.",
+      "bait_tactics": [
+        "Ask for their Central Bank of The Bahamas supervised-entity details so you can look them up on the CBOB register.",
+        "Say you want the upfront loan fee deducted from the disbursed principal rather than sent separately.",
+        "Pretend you are writing down the payout schedule by hand and ask them to recalculate the monthly figures."
+      ],
+      "sources": [
+        "https://www.centralbankbahamas.com/news/scams-and-frauds"
+      ]
+    },
+    {
+      "id": "bs_fake_job_cash_prize",
+      "typology": "job_account_mule",
+      "name": "Fake Job Onboarding Fee & Large Cash Prize Scam",
+      "name_en": "Fraudulent job advertisement or cash-prize notification requesting advance payment or bank details",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "remote job offer",
+        "work permit processing",
+        "cash prize winner",
+        "onboarding equipment fee"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay registration fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "receive client transfers",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "claim prize fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send gift card",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Recruiter or prize agent calls/messages offering an easy high-paying job or large cash prize, asking for an upfront registration/badge fee or using the victim's personal bank account to relay funds.",
+      "legit_en": "Genuine Bahamian employers and regulated promotions never charge upfront hiring fees or route third-party funds through personal accounts.",
+      "bait_tactics": [
+        "Ask where their physical Nassau or Freeport office is located so you can drop off paper copies in person.",
+        "Question why a legitimate company cannot pay its own administrative fee directly.",
+        "Pretend your connection is breaking up whenever payment instructions are mentioned."
+      ],
+      "sources": [
+        "https://www.centralbankbahamas.com/news/scams-and-frauds",
+        "https://www.royalbahamaspolice.org/crimeinformation/crimereports/crimereportsdisplay2024.php?cr_id=682"
+      ]
+    }
+  ]
+}

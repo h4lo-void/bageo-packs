@@ -7,7 +7,7 @@
     "pt"
   ],
   "prevalence_note": "Polícia Judiciária & Banco de Portugal: MB WAY marketplace/code scams, fake bank/Polícia Judiciária safe-account calls, and fake CTT/EDP urgent payment calls lead phone fraud.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border and domestic vishing rings spoof Portuguese (+351) bank support helplines via VoIP (warned by ANACOM, Banco de Portugal, and SIBS) and run fake MB WAY buyer calls or 'Olá pai/Olá mãe' WhatsApp lures from disposable SIMs and foreign prefixes.",
   "scams": [
     {
       "id": "pt_burla_mbway",
@@ -41,9 +41,9 @@
         "Dizer que a aplicação deu erro de ligação e perguntar detalhes sobre quem vem buscar a encomenda"
       ],
       "sources": [
-        "Polícia Judiciária",
-        "Banco de Portugal",
-        "SIBS"
+        "https://www.policiajudiciaria.pt/alertas-2/",
+        "https://clientebancario.bportugal.pt/pt-pt/riscos-associados-aos-canais-digitais",
+        "https://www.mbway.pt/burlas-sabe-como-identificar-e-evitar-tentativas-de-fraude/"
       ]
     },
     {
@@ -53,7 +53,12 @@
       "name_en": "Fake bank asking for the SMS code",
       "prevalence": "very_high",
       "lang": "pt",
-      "context_keywords": [],
+      "context_keywords": [
+        "linha de apoio",
+        "movimento suspeito",
+        "homebanking",
+        "departamento de fraude"
+      ],
       "red_flag_keywords": [
         {
           "text": "código que recebeu por sms",
@@ -73,7 +78,7 @@
         "Perguntar de que pagamento se trata"
       ],
       "sources": [
-        "Banco de Portugal"
+        "https://clientebancario.bportugal.pt/pt-pt/riscos-associados-aos-canais-digitais"
       ]
     },
     {
@@ -105,8 +110,8 @@
         "Perguntar a que horas foi"
       ],
       "sources": [
-        "SIBS",
-        "PSP"
+        "https://www.mbway.pt/burlas-sabe-como-identificar-e-evitar-tentativas-de-fraude/",
+        "https://queixaselectronicas.mai.gov.pt/Contactos"
       ]
     },
     {
@@ -116,7 +121,12 @@
       "name_en": "Child with a new number asking for an urgent payment",
       "prevalence": "high",
       "lang": "pt",
-      "context_keywords": [],
+      "context_keywords": [
+        "olá pai",
+        "olá mãe",
+        "telemóvel partido",
+        "pagamento urgente"
+      ],
       "red_flag_keywords": [
         {
           "text": "este é o meu número novo",
@@ -136,7 +146,7 @@
         "Perguntar quanto é exatamente"
       ],
       "sources": [
-        "PSP"
+        "https://queixaselectronicas.mai.gov.pt/Contactos"
       ]
     }
   ]

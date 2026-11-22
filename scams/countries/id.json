@@ -6,8 +6,8 @@
   "languages": [
     "id"
   ],
-  "prevalence_note": "OJK, Komdigi & Truecaller/Hiya: Highest spam/scam call rate globally (~79-89%). Bank/OJK/DJP Pajak (Coretax) impersonation demanding OTP, APK install or 'rekening aman', and prize 'biaya admin' scams dominate.",
-  "cross_border_note": "Cross-border alert: +62 numbers calling foreign SIMs (especially TW, JP, KR, HK) are frequently spoofed VoIP routes used by cross-border fraud rings.",
+  "prevalence_note": "OJK (Indonesia Anti-Scam Centre / Satgas PASTI), DJP Pajak & Komdigi 2025-2026: courier package (`cek resi apk`) and digital wedding invite (`undangan apk`) malware, fake bank Rp150.000 monthly transaction-fee hike notices, OJK/Coretax tax impersonation demanding OTP or 'rekening aman', and giveaway 'biaya admin' scams dominate.",
+  "cross_border_note": "Cross-border alert: +62 numbers calling foreign SIMs (especially TW, JP, KR, HK) are frequently spoofed VoIP routes used by cross-border fraud rings, while domestic Indonesian victims receive WhatsApp calls/files from disposable +62 and foreign virtual numbers.",
   "scams": [
     {
       "id": "id_bank_ojk_coretax",
@@ -19,14 +19,14 @@
       "context_keywords": [
         "otoritas jasa keuangan",
         "coretax",
-        "perubahan tarif transaksi",
         "pembaruan data pajak",
         "sinkronisasi nik",
-        "bea meterai"
+        "bea meterai",
+        "direktorat jenderal pajak"
       ],
       "red_flag_keywords": [
         {
-          "text": "pindahkan dana ke rekening aman",
+          "text": "dana ke rekening aman",
           "weight": 2,
           "hard": false
         },
@@ -46,19 +46,114 @@
           "hard": false
         }
       ],
-      "signals_en": "Impersonates bank (BRI/BCA/Mandiri), OJK, or DJP Coretax claiming fee hike (`perubahan tarif Rp150.000`) or tax update; asks for OTP, WhatsApp `.apk` install, or transfer to `rekening aman`.",
-      "legit_en": "Official bank or tax notice directing users only to in-branch service or official domain without OTP, APK, or personal transfers.",
+      "signals_en": "Impersonates bank security, OJK, or DJP Coretax claiming mandatory NIK-NPWP tax synchronization or suspicious activity; asks for OTP, WhatsApp `.apk` tax-app install, screen sharing, or transfer to `rekening aman`.",
+      "legit_en": "DJP Pajak, OJK, and Indonesian banks direct users strictly to official `.go.id` portals or branch counters and never send `.apk` files on WhatsApp or request OTPs.",
       "bait_tactics": [
-        "Berpura-pura sinyal HP lemah dan aplikasi mobile banking sedang loading lama, minta dijelaskan pelan-pelan dari awal",
-        "Pura-pura mencari kacamata baca sambil bertanya detail perhitungan biaya tersebut",
-        "Berpura-pura lupa nomor NPWP dan sedang membongkar map dokumen lama di lemari"
+        "Berpura-pura sinyal HP lemah dan aplikasi sedang loading lama, minta dijelaskan pelan-pelan dari awal",
+        "Pura-pura mencari kacamata baca sambil bertanya detail kantor pelayanan pajak mana yang menangani",
+        "Berpura-pura lupa berkas NPWP dan sedang membongkar map dokumen lama di lemari"
       ],
       "sources": [
-        "OJK Satgas PASTI",
-        "Direktorat Jenderal Pajak",
-        "Truecaller 2025",
-        "DJP Pajak",
-        "OJK 2025-2026"
+        "https://ojk.go.id/id/berita-dan-kegiatan/info-terkini/Pages/Booklet-Waspada-Penipuan-Scam-OJK.aspx",
+        "https://pajak.go.id/id/pengumuman/waspada-penipuan-mengatasnamakan-direktorat-jenderal-pajak",
+        "https://www.komdigi.go.id/berita/klarifikasi-hoaks"
+      ]
+    },
+    {
+      "id": "id_kurir_resi_undangan_apk",
+      "typology": "fake_customs_parcel",
+      "name": "Penipuan Kurir Paket (Cek Resi APK) & Undangan Digital APK",
+      "name_en": "Fake parcel courier 'cek resi.apk' or digital wedding invitation 'undangan.apk' SMS-stealing scam",
+      "prevalence": "very_high",
+      "lang": "id",
+      "context_keywords": [
+        "cek resi apk",
+        "undangan apk",
+        "kurir paket",
+        "foto paket",
+        "undangan pernikahan digital",
+        "surat tilang apk"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "buka file cek resi",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "instal aplikasi undangan",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "unduh file apk",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "izinkan akses sms",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller or WhatsApp sender poses as an express courier or acquaintance sending a disguised `.apk` file (`Lihat Foto Paket / Cek Resi.apk` or `Surat Undangan Pernikahan.apk`) and calls to urge opening it so malware can intercept mobile-banking SMS OTPs.",
+      "legit_en": "Real Indonesian couriers send plain JPEG photos or official tracking numbers verifiable on courier apps and never ask recipients to install `.apk` files.",
+      "bait_tactics": [
+        "Katakan HP yang dipakai sekarang adalah ponsel jadul tanpa WhatsApp dan minta paketnya ditaruh di pos satpam saja",
+        "Tanyakan dari toko mana paket dikirim karena bulan ini sama sekali tidak belanja online"
+      ],
+      "sources": [
+        "https://disdukcapil.banyuwangikab.go.id/artikel/hati-hati-penipuan-transaksi-keuangan-atas-nama-dukcapil",
+        "https://ojk.go.id/id/berita-dan-kegiatan/info-terkini/Pages/Booklet-Waspada-Penipuan-Scam-OJK.aspx",
+        "https://www.komdigi.go.id/berita/klarifikasi-hoaks"
+      ]
+    },
+    {
+      "id": "id_tarif_bank_rp150ribu",
+      "typology": "fake_bank_account_alert",
+      "name": "Penipuan Perubahan Tarif Transaksi Bank Rp150.000 per Bulan",
+      "name_en": "Fake bank notice claiming transfer fees are changing to Rp150.000/month to steal OTPs and PINs",
+      "prevalence": "very_high",
+      "lang": "id",
+      "context_keywords": [
+        "rp150.000",
+        "tarif transaksi rp150.000",
+        "biaya bulanan rp150.000",
+        "perubahan tarif transaksi",
+        "biaya admin bulanan",
+        "formulir pembatalan tarif"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "formulir pembatalan tarif",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sebutkan kode otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "masukkan pin mobile banking",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "klik tautan konfirmasi",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Impersonates BRI, BCA, Mandiri, or BNI customer care announcing that interbank transfer fees are switching from per-transaction to a flat Rp150.000 monthly debit unless the customer fills a cancellation link or reads out their OTP and PIN.",
+      "legit_en": "Indonesian banks publish fee schedules only on official websites/apps and never charge automatic Rp150.000 monthly upgrades or ask for PINs/OTPs to 'cancel' a tariff.",
+      "bait_tactics": [
+        "Katakan saldo tabungan di rekening itu memang kosong jadi tidak masalah kalau mau dipotong biaya bulanan",
+        "Bilang akan mampir langsung ke kantor cabang bank dekat pasar besok pagi untuk menanyakan surat tersebut"
+      ],
+      "sources": [
+        "https://ojk.go.id/id/berita-dan-kegiatan/info-terkini/Pages/Booklet-Waspada-Penipuan-Scam-OJK.aspx",
+        "https://www.komdigi.go.id/berita/klarifikasi-hoaks"
       ]
     },
     {
@@ -71,7 +166,8 @@
       "context_keywords": [
         "undian berhadiah",
         "pemenang resmi",
-        "poin undian"
+        "poin undian",
+        "program rejeki bank"
       ],
       "red_flag_keywords": [
         {
@@ -83,16 +179,22 @@
           "text": "tebus pajak pemenang",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "kirim kode otp hadiah",
+          "weight": 2,
+          "hard": false
         }
       ],
-      "signals_en": "Congratulates victim on winning a bank/telecom/e-commerce giveaway and demands upfront transfer of `biaya admin` or winner tax before releasing the prize.",
-      "legit_en": "Ordinary courier delivering an actual package without demanding prize admin fees.",
+      "signals_en": "Congratulates victim on winning a bank, telecom, or e-commerce giveaway and demands upfront transfer of `biaya admin`, winner tax, or OTP before releasing the prize.",
+      "legit_en": "Official Indonesian bank and brand prize draws never demand upfront transfers to personal accounts or OTP codes to claim winnings.",
       "bait_tactics": [
-        "Berpura-pura senang menang hadiah, tanya warna hadiahnya dan apakah biaya admin bisa dipotong langsung dari hadiahnya"
+        "Berpura-pura senang menang hadiah, tanya warna hadiahnya dan minta biaya admin dipotong langsung dari uang hadiahnya saja",
+        "Minta alamat kantor pusat penyelenggara undian agar bisa datang mengambil hadiah secara langsung"
       ],
       "sources": [
-        "Komdigi",
-        "OJK"
+        "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-tautan-pendaftaran-program-undian-rejeki-wondr-bank-bni",
+        "https://ojk.go.id/id/berita-dan-kegiatan/info-terkini/Pages/Booklet-Waspada-Penipuan-Scam-OJK.aspx"
       ]
     }
   ]

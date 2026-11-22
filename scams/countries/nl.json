@@ -7,7 +7,7 @@
     "nl"
   ],
   "prevalence_note": "Fraudehelpdesk and police warnings 2025-2026: fake bank helpdesk staff moving money to a vault account, and fake police collecting valuables and PIN codes at the door dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "ACM anti-spoofing rules require Dutch telecom operators to block or strip caller ID on unverified international inbound calls spoofing Dutch (+31) numbers; bankhelpdesk and nepagent fraud rings increasingly combine phishing/SMS callback lures with domestic SIM boxes or foreign prefixes.",
   "scams": [
     {
       "id": "nl_bankhelpdesk_kluisrekening",
@@ -24,6 +24,21 @@
           "text": "kluisrekening",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "overmaken naar kluisrekening",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "geld veilig stellen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "betaallimiet direct verhogen",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "A caller from the bank's fraud department reports a suspicious login and asks the owner to move the money to a vault or safe account.",
@@ -33,7 +48,7 @@
         "Vragen welke transactie het was en op welke dag"
       ],
       "sources": [
-        "Fraudehelpdesk"
+        "https://www.fraudehelpdesk.nl/fraude/ik-ben-gebeld-door-mijn-bank/"
       ]
     },
     {
@@ -43,7 +58,12 @@
       "name_en": "Fake police collecting valuables and PIN codes",
       "prevalence": "high",
       "lang": "nl",
-      "context_keywords": [],
+      "context_keywords": [
+        "wijkagent",
+        "inbraakgolf",
+        "waardevolle spullen",
+        "bankpas ophalen"
+      ],
       "red_flag_keywords": [
         {
           "text": "waardevolle spullen veiligstellen",
@@ -63,7 +83,7 @@
         "Rustig vragen hoe de collega eruitziet en hoe laat hij komt"
       ],
       "sources": [
-        "Politie"
+        "https://www.politie.nl/informatie/werkwijze-nepagenten.html"
       ]
     },
     {
@@ -95,7 +115,7 @@
         "Vragen welke foutmelding ze hebben gekregen"
       ],
       "sources": [
-        "Fraudehelpdesk"
+        "https://www.fraudehelpdesk.nl/fraude/ik-ben-gebeld-door-mijn-bank/"
       ]
     }
   ]

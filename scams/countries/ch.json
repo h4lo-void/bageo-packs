@@ -9,7 +9,7 @@
     "it"
   ],
   "prevalence_note": "Swiss Crime Prevention and cantonal police 2025-2026: fake police shock calls collecting valuables, TWINT or e-banking approval scams, and spoofed fedpol robocalls dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Under BAKOM Art. 26a Abs. 6 FDV (effective Jan 1, 2026 for Swiss fixed numbers and Jul 1, 2026 for Swiss mobile numbers), Swiss telecom operators must filter or strip caller ID on unverified international inbound calls spoofing +41 numbers; cross-border rings target German-, French-, and Italian-speaking cantons via foreign prefixes, SIM-box relays, and press-1 robocalls.",
   "scams": [
     {
       "id": "ch_falsche_polizisten_schockanruf",
@@ -46,7 +46,7 @@
         "Sagen, dass der Tresorschlüssel bei der Nachbarin ist, und fragen, wie der Kurier genau vorgeht"
       ],
       "sources": [
-        "Schweizerische Kriminalprävention"
+        "https://www.skppsc.ch/de/themen/betrug/legen-sie-einfach-auf/"
       ]
     },
     {
@@ -83,7 +83,7 @@
         "Nachfragen, welche Abbuchung genau gemeint ist und von welchem Tag"
       ],
       "sources": [
-        "Schweizerische Kriminalprävention"
+        "https://www.skppsc.ch/de/themen/betrug/legen-sie-einfach-auf/"
       ]
     },
     {
@@ -102,6 +102,21 @@
           "text": "strafanzeige vermeiden",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "drücken sie die eins",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "haftbefehl gegen sie",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "sicheres konto überweisen",
+          "weight": 2,
+          "hard": true
         }
       ],
       "signals_en": "A recorded voice or fake officer from fedpol says the owner's identity was misused and they must pay or transfer money to avoid a criminal complaint.",
@@ -111,7 +126,7 @@
         "Sagen, dass man erst die Brille holen muss, und um die Aktennummer bitten"
       ],
       "sources": [
-        "fedpol"
+        "https://www.fedpol.admin.ch/de/achtung-betrugsmails-und-anrufe-im-namen-von-angeblichen-behoerden-polizei-zoll"
       ]
     },
     {
@@ -143,7 +158,199 @@
         "Fragen, welche Fehlermeldung sie bekommen haben"
       ],
       "sources": [
-        "NCSC"
+        "https://www.bacs.admin.ch/de/fake-anrufe-behoerden"
+      ]
+    },
+    {
+      "id": "ch_faux_policiers_appel_choc_fr",
+      "typology": "fake_official",
+      "name": "Faux policiers et appel choc en Suisse romande (caution ou mise en sécurité)",
+      "name_en": "Fake Swiss cantonal police or shock call demanding bail cash or handover of valuables",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "police cantonale",
+        "accident grave",
+        "cambrioleurs arrêtés",
+        "procureur",
+        "coffre bancaire"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "payer une caution urgente",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "remettre vos bijoux",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "coursier de la police",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "garder le secret absolu",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller impersonates French-speaking Swiss cantonal police, fedpol, or a prosecutor claiming a relative caused a severe traffic accident requiring urgent cash bail or burglars targeted the victim's home...",
+      "legit_en": "Swiss cantonal police, fedpol, and courts never demand cash bail over the phone and never send couriers to collect cash, bank cards, PINs, or jewelry.",
+      "bait_tactics": [
+        "Dites d'une voix tremblante que le guichet de votre agence locale exige un préavis pour les gros retraits et demandez comment procéder",
+        "Faites répéter lentement le nom du poste de police cantonal en feignant de chercher un stylo qui fonctionne",
+        "Expliquez que votre coffre domestique est bloqué depuis des mois et demandez s'il faut attendre le retour d'un voisin pour l'ouvrir"
+      ],
+      "sources": [
+        "https://www.skppsc.ch/fr/multiplication-des-escroqueries-allo-attention-aux-numeros-pretendument-fiables/",
+        "https://www.bacs.admin.ch/fr/fake-support-fr"
+      ]
+    },
+    {
+      "id": "ch_faux_support_twint_banque_fr",
+      "typology": "otp_theft",
+      "name": "Faux service sécurité bancaire ou TWINT (validation d'app et prise de contrôle)",
+      "name_en": "Fake Swiss bank or TWINT security support demanding app validation code or remote access",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "service sécurité",
+        "application twint",
+        "e-banking",
+        "paiement suspect",
+        "fedpol"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "valider dans twint",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "code reçu par sms",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "installer anydesk maintenant",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "compte de sécurité",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller spoofs a Swiss bank hotline, TWINT support, or federal authority in French, warning of unauthorized TWINT or e-banking debits and pressuring the victim to read out SMS/e-banking codes, approve a TWINT push prompt, or install remote-access software.",
+      "legit_en": "Swiss banks and TWINT never ask customers by phone to share SMS/App login codes, approve push requests to cancel payments, or install remote-control tools.",
+      "bait_tactics": [
+        "Indiquez que l'application TWINT demande une mise à jour système très lente sur votre téléphone et décrivez une barre de chargement bloquée",
+        "Prétendez ne pas retrouver vos lunettes de lecture pour lire l'écran d'authentification et demandez d'attendre pendant que vous cherchez dans le salon",
+        "Demandez dans quel canton se situe le centre de sécurité bancaire et feignez une mauvaise réception téléphonique"
+      ],
+      "sources": [
+        "https://www.skppsc.ch/fr/multiplication-des-escroqueries-allo-attention-aux-numeros-pretendument-fiables/",
+        "https://www.bacs.admin.ch/fr/fake-support-fr"
+      ]
+    },
+    {
+      "id": "ch_falsi_poliziotti_chiamata_shock_it",
+      "typology": "fake_official",
+      "name": "Falsi poliziotti e chiamate shock in Ticino (cauzione o consegna valori)",
+      "name_en": "Fake Ticino police or shock call demanding urgent bail cash or handover of valuables to a courier",
+      "prevalence": "very_high",
+      "lang": "it",
+      "context_keywords": [
+        "polizia cantonale",
+        "incidente stradale",
+        "ladri arrestati",
+        "ministero pubblico",
+        "cassaforte"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pagare subito una cauzione",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "consegnare contanti e gioielli",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "agente in borghese",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "non parlarne con nessuno",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller poses in Italian as Polizia cantonale Ticino, prosecutor, or hospital staff claiming a relative caused a severe accident requiring immediate cash/gold bail, or claiming burglars targeted the home so a plainclothes courier must collect cash, cards...",
+      "legit_en": "Polizia cantonale Ticino and Swiss judicial authorities never request bail money by phone and never send plainclothes officers or couriers to collect cash, cards, or jewelry.",
+      "bait_tactics": [
+        "Rispondete con tono agitato che lo sportello bancario del paese chiude a mezzogiorno e chiedete se bisogna prenotare il prelievo in franchi",
+        "Chiedete di sillabare lentamente il nome della sede del posto di polizia mentre fingete di cercare carta e penna",
+        "Dite che la chiave della cassetta in cantina è rimasta in un'altra giacca e tenete l'interlocutore in attesa"
+      ],
+      "sources": [
+        "https://www4.ti.ch/di/pol-new/prevenzione/truffe/truffe-telefoniche",
+        "https://www.skppsc.ch/it/temi/truffa/riappendete-subito/"
+      ]
+    },
+    {
+      "id": "ch_false_autorita_twint_banca_it",
+      "typology": "otp_theft",
+      "name": "False autorità federali o sicurezza TWINT / e-banking (codici e accesso remoto)",
+      "name_en": "Fake Swiss federal authority, bank, or TWINT security call demanding app codes or remote access",
+      "prevalence": "high",
+      "lang": "it",
+      "context_keywords": [
+        "polizia federale",
+        "conto bloccato",
+        "applicazione twint",
+        "e-banking",
+        "addebito sospetto"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "premere il tasto uno",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confermare su twint",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "installare programma remoto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "trasferire su conto sicuro",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Automated or live call in Italian spoofing Swiss federal authorities (fedpol/customs), a Ticino bank, or TWINT support, alleging identity misuse or suspicious transfers and urging the victim to press 1, install remote-access software...",
+      "legit_en": "Swiss federal offices (fedpol, UFCS/BACS), banks, and TWINT never use robocalls demanding press-1 actions, remote-access tools, or safe-account transfers.",
+      "bait_tactics": [
+        "Spiegate che il telefono aziendale blocca il download di nuove applicazioni e chiedete passo dopo passo quale impostazione aprire",
+        "Fingete che la notifica sull'app bancaria sia scomparsa dallo schermo proprio adesso e chiedete di spiegare nuovamente la procedura",
+        "Domandate la sede dell'ufficio federale a Berna e fate ripetere ogni lettera con l'alfabeto telefonico"
+      ],
+      "sources": [
+        "https://www.bacs.admin.ch/it/chiamate-false-autorita",
+        "https://www4.ti.ch/di/pol-new/prevenzione/truffe/truffe-telefoniche"
       ]
     }
   ]

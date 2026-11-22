@@ -7,7 +7,7 @@
     "sl"
   ],
   "prevalence_note": "Slovenian police and SI-CERT warnings 2025-2026: fake crypto exchanges with 'forgotten bitcoins', fake Microsoft support, fake Pošta Slovenije parcel fees and fake bank security asking for passwords.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border vishing and tech-support callers spoof +386 mobile and bank numbers over VoIP or call from +44, +43, +49, and +385 prefixes via WhatsApp and Viber.",
   "scams": [
     {
       "id": "si_kripto_pozabljeni_bitcoini",
@@ -38,8 +38,8 @@
         "Vprašati, kdaj naj bi bil račun odprt"
       ],
       "sources": [
-        "Policija",
-        "SI-CERT"
+        "https://www.gov.si/drzavni-organi/organi-v-sestavi/policija/",
+        "https://www.varninainternetu.si/prevare/"
       ]
     },
     {
@@ -71,7 +71,7 @@
         "Vprašati, katero sporočilo so prejeli"
       ],
       "sources": [
-        "SI-CERT"
+        "https://www.varninainternetu.si/prevare/"
       ]
     },
     {
@@ -103,8 +103,8 @@
         "Vprašati, koliko točno stane"
       ],
       "sources": [
-        "Pošta Slovenije",
-        "SI-CERT"
+        "https://www.posta.si/spletne-prevare",
+        "https://www.varninainternetu.si/prevare/"
       ]
     },
     {
@@ -136,8 +136,8 @@
         "Vprašati, za kateri znesek gre"
       ],
       "sources": [
-        "Banka Slovenije",
-        "SI-CERT"
+        "Banka Slovenije (待補：政府網站封鎖境外連線無法驗證)",
+        "https://www.varninainternetu.si/prevare/"
       ]
     }
   ]

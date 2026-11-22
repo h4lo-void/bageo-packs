@@ -172,6 +172,54 @@
         "https://ar.webmanagercenter.com/2025/08/09/405959/%D8%B9%D8%A7%D8%AC%D9%84-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D9%86%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86/",
         "https://www.hespress.com/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D9%88-1763962.html"
       ]
+    },
+    {
+      "id": "ma_banque_barid_cnss_otp_fr",
+      "typology": "fake_bank_account_alert",
+      "name": "Arnaque téléphonique fausse banque, Barid Cash ou indemnité CNSS",
+      "name_en": "Fake Moroccan bank, Barid Cash or CNSS French phone OTP scam",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "service monétique",
+        "barid cash",
+        "indemnité cnss",
+        "virement bloqué",
+        "carte bancaire"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "donner le code sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "trois chiffres au dos",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "valider la dotation commerce",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "communiquer code secret bancaire",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "French-speaking caller impersonates a Moroccan bank card security desk (CIH, Attijariwafa, Barid Cash) or CNSS benefits office, claiming an e-commerce allowance issue or pending payout and requesting the SMS 3D-Secure OTP or CVV.",
+      "legit_en": "Moroccan banks, Barid Cash, and CNSS never request SMS verification codes, banking passwords, or card CVV numbers over the phone.",
+      "bait_tactics": [
+        "Ne quittez pas s'il vous plaît, mon téléphone portable affiche une batterie très faible et je cherche mon chargeur dans le salon.",
+        "La ligne grésille énormément aujourd'hui, pourriez-vous m'expliquer doucement quelle agence gère ce dossier exactement ?",
+        "Mon portefeuille est resté dans ma veste à l'étage, patientez un instant pendant que je monte vérifier."
+      ],
+      "sources": [
+        "https://www.bkam.ma/Phishing/Messages-frauduleux-usurpant-l-identite-de-monsieur-le-wali",
+        "https://www.cndp.ma/securite-du-si/"
+      ]
     }
   ]
 }

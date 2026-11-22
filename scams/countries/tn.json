@@ -172,6 +172,54 @@
         "https://ar.webmanagercenter.com/2025/08/09/405959/%D8%B9%D8%A7%D8%AC%D9%84-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D9%86%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86/",
         "https://www.hespress.com/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D9%88-1763962.html"
       ]
+    },
+    {
+      "id": "tn_poste_d17_carte_otp_fr",
+      "typology": "fake_bank_account_alert",
+      "name": "Arnaque téléphonique La Poste Tunisienne D17 et carte bancaire OTP",
+      "name_en": "Fake La Poste Tunisienne D17 or Tunisian bank card French OTP scam",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "poste tunisienne",
+        "application d17",
+        "carte e-dinar",
+        "mandat minute",
+        "service monétique"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquer code secret d17",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "envoyer le code sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "débloquer votre carte postale",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirmer code quatre chiffres",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller in French poses as La Poste Tunisienne, D17 wallet support, or a bank card center claiming an e-Dinar/D17 account is suspended or a postal money order requires validation, asking for the SMS OTP or confidential PIN.",
+      "legit_en": "La Poste Tunisienne and Tunisian banks never call users to request D17 PINs, e-Dinar secret codes, or SMS OTP tokens.",
+      "bait_tactics": [
+        "Un petit instant s'il vous plaît, l'application mobile tourne dans le vide à cause de la connexion internet lente.",
+        "Excusez-moi, j'entends très mal avec le bruit dehors, pouvez-vous répéter calmement la procédure depuis le début ?",
+        "Je n'ai pas ma carte postale sous les yeux, laissez-moi chercher mon sac dans l'autre chambre."
+      ],
+      "sources": [
+        "https://www.ancs.tn/fr/le-phishing-comment-sen-proteger",
+        "https://www.ancs.tn/fr/procedure-de-declarations-des-incidents-cybernetiques"
+      ]
     }
   ]
 }

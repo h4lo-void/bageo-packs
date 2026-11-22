@@ -132,6 +132,55 @@
         "https://www.alkhaleej.ae/2025-03-26/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%AC%D9%87%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-5841121/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
         "https://www.cst.gov.sa/services/Spam-Reports"
       ]
+    },
+    {
+      "id": "bh_benefitpay_ekey_cbb_otp",
+      "typology": "fake_bank_account_alert",
+      "name": "Fake BenefitPay / eKey / Central Bank of Bahrain OTP Scam",
+      "name_en": "Fake BenefitPay, eKey or Central Bank of Bahrain English OTP scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "benefitpay",
+        "central bank of bahrain",
+        "ekey account",
+        "cpr card",
+        "fawri transfer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share benefitpay verification code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read your ekey otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "cpr record blocked today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "approve fawri refund request",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller impersonates BenefitPay support, the Central Bank of Bahrain, or eKey helpdesk claiming the resident's CPR or wallet is suspended or due a refund, demanding an SMS OTP, eKey password, or Fawri+ approval.",
+      "legit_en": "CBB, BENEFIT, and Bahraini eGovernment staff never ask residents to disclose BenefitPay OTPs, eKey credentials, or card PINs over phone or WhatsApp calls.",
+      "bait_tactics": [
+        "Wait a moment please, my BenefitPay app logged me out automatically and I cannot remember which folder my notes are in.",
+        "The line is quite noisy right now while I am in traffic—can you spell out the division name again very slowly?",
+        "My CPR card is locked inside my desk drawer at home, so let me verify this directly at the branch counter later."
+      ],
+      "sources": [
+        "https://www.cbb.gov.bh/media-center/cbb-warns-consumers-when-dealing-with-personal-and-banking-information/",
+        "https://services.bahrain.bh/wps/portal/en/BSP/GSX-UI-EServiceDetails?esID=942",
+        "https://benefit.bh/media-centre/news-and-press-releases/BENEFIT-Partners-with-Keeta"
+      ]
     }
   ]
 }

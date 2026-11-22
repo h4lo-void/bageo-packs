@@ -132,6 +132,54 @@
         "https://www.alkhaleej.ae/2025-03-26/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%AC%D9%87%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-5841121/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
         "https://www.cst.gov.sa/services/Spam-Reports"
       ]
+    },
+    {
+      "id": "qa_metrash_qcb_qpost_otp",
+      "typology": "fake_official",
+      "name": "Fake Metrash / Qatar Central Bank / QPost OTP Scam",
+      "name_en": "Fake Metrash, Qatar Central Bank or QPost English OTP scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "metrash app",
+        "qatar central bank",
+        "qatar id",
+        "qpost parcel",
+        "ministry of interior"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share metrash verification code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read one time password",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "qid suspended within hours",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay qpost customs link",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller impersonates Qatar MOI Metrash support, Qatar Central Bank, or QPost claiming the resident's QID or bank card is suspended or a parcel requires customs clearance, demanding an SMS OTP or payment via an unofficial link.",
+      "legit_en": "Qatar MOI, QCB, and QPost never ask residents over the phone for Metrash OTPs, bank card CVVs, or payments outside official portals.",
+      "bait_tactics": [
+        "Please bear with me a moment, my Metrash app is asking me to switch from Wi-Fi to mobile data and loading very slowly.",
+        "I am in a loud hallway and missed the first part—can you slowly explain why a parcel fee would affect my QID?",
+        "My QID and bank card are in my briefcase in the other room, let me put the phone down for a minute to find them."
+      ],
+      "sources": [
+        "https://www.qcb.gov.qa/en/pages/the-national-awareness-campaign-for-information-security.aspx",
+        "https://portal.moi.gov.qa/wps/portal/MOIInternet/services/inquiries/metrash/individualmetrash"
+      ]
     }
   ]
 }

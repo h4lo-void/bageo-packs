@@ -7,7 +7,7 @@
     "it"
   ],
   "prevalence_note": "Polizia Postale & CERTFin 2025-2026: fake PostePay/bank anti-fraud alerts (spoofed SMS codes, bonifico istantaneo) and finto maresciallo / Carabinieri relative-accident bail or safe-account scams dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Under AGCOM Delibera 106/25/CONS (enforced 2025–2026), Italian carriers block international inbound calls spoofing Italian (+39) fixed and mobile CLI unless verified as legitimate roaming; offshore teleselling and fake-bank/Carabinieri vishing centers shift to foreign prefixes, disposable domestic SIMs, and SMS callback lures.",
   "scams": [
     {
       "id": "it_finto_maresciallo_postepay",
@@ -40,8 +40,8 @@
         "Dire che l'app della banca non si apre per mancanza di campo e chiedere di spiegare tutto con calma"
       ],
       "sources": [
-        "Polizia Postale",
-        "CERTFin Italia"
+        "https://www.commissariatodips.it/",
+        "https://inavigati.certfin.it/"
       ]
     },
     {
@@ -73,8 +73,8 @@
         "Chiedere di leggere cifra per cifra la data e l'importo dell'operazione sospetta mentre si cerca la carta nel cassetto"
       ],
       "sources": [
-        "CERTFin Italia",
-        "Banca d'Italia"
+        "https://inavigati.certfin.it/",
+        "https://economiapertutti.bancaditalia.it/notizie-e-rubriche/notizie/come-possono-rubarci-password-e-pin/"
       ]
     },
     {
@@ -84,7 +84,12 @@
       "name_en": "Energy teleselling asking for the POD code and voice consent",
       "prevalence": "medium",
       "lang": "it",
-      "context_keywords": [],
+      "context_keywords": [
+        "mercato libero",
+        "codice pod",
+        "bolletta luce",
+        "cambio fornitore"
+      ],
       "red_flag_keywords": [
         {
           "text": "codice pod",
@@ -104,7 +109,7 @@
         "Chiedere quanto dura l'offerta"
       ],
       "sources": [
-        "ARERA"
+        "https://www.arera.it/comunicati-stampa/dettaglio/riparte-la-campagna-di-comunicazione-agcm-e-arera-difenditicosi-dai-call-center-aggressivi-anche-in-vista-della-fine-tutela-per-lelettricita"
       ]
     }
   ]

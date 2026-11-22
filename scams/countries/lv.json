@@ -178,6 +178,54 @@
       "sources": [
         "https://www.lsm.lv/raksts/zinas/latvija/21.07.2026-si-gada-pirmajos-sesos-menesos-latvijas-iedzivotajiem-izkrapti-teju-8-miljoni-eiro.a655765/"
       ]
+    },
+    {
+      "id": "lv_ru_smart_id_operator_bank",
+      "typology": "otp_theft",
+      "name": "Лжеоператор связи, банк и полиция (выманивание кодов Smart-ID)",
+      "name_en": "Russian-language fake mobile operator, bank, and police stealing Smart-ID PIN codes",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "Государственная полиция",
+        "мобильный оператор",
+        "продление договора",
+        "безопасность банка",
+        "Smart-ID"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "введите код Smart-ID",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "переведите на резервный счет",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "программа удаленного доступа",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "задекларируйте наличные курьеру",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Russian-speaking caller poses as a Latvian telecom operator, commercial bank, or Valsts policija, claiming a SIM contract expiry or unauthorized transfer and pressuring the victim to approve Smart-ID prompts, install remote-access software...",
+      "legit_en": "Latvian telecom operators, banks, and Valsts policija never ask customers by phone to enter Smart-ID PIN1/PIN2 for blocking transactions, install remote-control tools, or hand over cash for declaration.",
+      "bait_tactics": [
+        "Ответьте, что забыли очки на кухне и не видите проверочные цифры на экране, прося подождать и повторить причину звонка",
+        "Скажите, что приложение зависло после обновления, и неспешно расспрашивайте, в каком филиале в Риге можно подписать договор на бумаге",
+        "Притворитесь, что связь прерывается, и попросите медленно продиктовать название отдела и порядок перерасчета тарифа"
+      ],
+      "sources": [
+        "https://cert.lv/",
+        "https://www.vp.gov.lv/lv"
+      ]
     }
   ]
 }

@@ -141,6 +141,103 @@
         "https://www.gov.il/he/pages/phishing190226",
         "https://www.gov.il/he/pages/us080726"
       ]
+    },
+    {
+      "id": "il_post_bank_security_ar",
+      "typology": "fake_bank_account_alert",
+      "name": "انتحال بريد إسرائيل أو قسم أمن البنك بالعربية",
+      "name_en": "Fake Israel Post or Israeli bank security Arabic phone scam",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "بريد إسرائيل",
+        "قسم الأمان بالبنك",
+        "طرد بريدي معلق",
+        "رسوم الجمارك",
+        "حركة مشبوهة بالحساب"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "إعطاء الرمز السري برسالة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "تحويل الأموال لحساب آمن",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "ثلاثة أرقام خلف البطاقة",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "دفع رسوم عبر الرابط",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Arabic-speaking caller impersonates Israel Post customs clearance or an Israeli bank's security unit, claiming a parcel is held or unauthorized charges hit the account and demanding the SMS OTP, credit card CVV, or transfer to a safe account.",
+      "legit_en": "Israel Post and Israeli banks never call in Arabic or Hebrew to request SMS verification codes, card CVVs, or safe-account transfers.",
+      "bait_tactics": [
+        "لحظة من فضلك، الشبكة ضعيفة جدا عندي هنا والصوت يتقطع، هل يمكنك إعادة اسم القسم ببطء؟",
+        "تطبيق البنك على هاتفي يطلب تحديثا ولا يفتح حاليا، انتظر معي قليلا ريثما أبحث عن نظارتي للقراءة.",
+        "بطاقتي البنكية ليست معي في هذه الغرفة، اشرح لي بالتفصيل ما هي الخطوات الرسمية في الفرع ريثما أجدها."
+      ],
+      "sources": [
+        "https://www.gov.il/ar/service/cyber-event-report",
+        "https://doar.israelpost.co.il/content/fishing"
+      ]
+    },
+    {
+      "id": "il_bank_police_impersonation_en",
+      "typology": "fake_official",
+      "name": "Fake Israeli Bank Security / Police English Impersonation Scam",
+      "name_en": "Fake Israeli bank security or police English impersonation scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "israel police",
+        "bank fraud department",
+        "unauthorized card charge",
+        "teudat zehut",
+        "national cyber directorate"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transfer to safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "install remote support app",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read sms verification code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "keep this investigation secret",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller targets English speakers in Israel posing as Israel Police or a bank fraud unit, alleging Teudat Zehut or account compromise and demanding SMS OTPs, remote-access software installation, or safe-account transfers.",
+      "legit_en": "Israel Police, INCD (119), and Israeli banks never instruct residents over the phone to install remote tools, share OTPs, or move funds to safe accounts.",
+      "bait_tactics": [
+        "Hold on a second, my phone reception inside this stone building is terrible—can you repeat which branch or station you are calling from?",
+        "My computer takes ages to boot up and I forgot where I put my reading glasses, please explain the procedure again slowly.",
+        "My card is locked away right now, let me write down the department name so I can verify at the branch counter."
+      ],
+      "sources": [
+        "https://www.gov.il/en/departments/israel_national_cyber_directorate",
+        "https://www.gov.il/en/pages/phishing190226",
+        "https://doar.israelpost.co.il/content/fishing"
+      ]
     }
   ]
 }

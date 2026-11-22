@@ -9,7 +9,7 @@
     "de"
   ],
   "prevalence_note": "Safeonweb and Febelfin warnings 2025-2026: fake bank or Card Stop staff asking for card reader codes or collecting cards, itsme approval tricks, and fake tax office threats.",
-  "cross_border_note": "",
+  "cross_border_note": "Under the Belgian Royal Decree enforced by BIPT (2024–2026), carriers block unverified international inbound calls spoofing Belgian geographic and mobile (+32 4xx) numbers; cross-border fraud rings target Dutch-, French-, and German-speaking residents via foreign prefixes, domestic SIM boxes, or SMS/WhatsApp callback lures.",
   "scams": [
     {
       "id": "be_cardstop_kaartlezer",
@@ -45,8 +45,8 @@
         "Vragen op welke dag en voor welk bedrag de betaling was"
       ],
       "sources": [
-        "Febelfin",
-        "Safeonweb"
+        "https://febelfin.be/nl/themas/digitaal-betalen-en-bankieren/online-betalen-bankieren-als-consument/is-digitaal-bankieren-wel-veilig",
+        "https://safeonweb.be/de/nachrichten/ein-anruf-von-card-stop-vorsicht-betrug"
       ]
     },
     {
@@ -78,8 +78,8 @@
         "Rustig vragen voor welke dienst de aanvraag is"
       ],
       "sources": [
-        "Safeonweb",
-        "Febelfin"
+        "https://safeonweb.be/de/nachrichten/ein-anruf-von-card-stop-vorsicht-betrug",
+        "https://febelfin.be/nl/themas/digitaal-betalen-en-bankieren/online-betalen-bankieren-als-consument/is-digitaal-bankieren-wel-veilig"
       ]
     },
     {
@@ -111,7 +111,7 @@
         "Vragen hoe het bedrag precies berekend is"
       ],
       "sources": [
-        "FOD Financiën"
+        "https://financien.belgium.be/nl/phishing"
       ]
     },
     {
@@ -143,7 +143,55 @@
         "Demander à quelle date et pour quel montant"
       ],
       "sources": [
-        "Febelfin"
+        "https://febelfin.be/nl/themas/digitaal-betalen-en-bankieren/online-betalen-bankieren-als-consument/is-digitaal-bankieren-wel-veilig"
+      ]
+    },
+    {
+      "id": "be_cardstop_kartenleser_de",
+      "typology": "otp_theft",
+      "name": "Falscher Card-Stop- oder Bankanruf (Kartenlesegerät & itsme)",
+      "name_en": "Fake Card Stop or bank security call demanding card reader response code or itsme approval",
+      "prevalence": "high",
+      "lang": "de",
+      "context_keywords": [
+        "card stop",
+        "kartenlesegerät",
+        "itsme app",
+        "verdächtige zahlung",
+        "karte sperren"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "code vom kartenlesegerät",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "in itsme bestätigen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "antwortcode vorlesen bitte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "auf sicheres konto",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses in German as Card Stop or a Belgian bank fraud officer targeting East Belgium residents, claiming suspicious card debits were detected and asking the victim to insert their card into the card reader (Digipass/Kartenlesegerät) and read back the...",
+      "legit_en": "Real Card Stop and Belgian banks block cards directly without calling proactively to request card-reader response codes, PINs, or itsme approvals.",
+      "bait_tactics": [
+        "Sagen Sie ruhig, dass die Batterie vom Kartenlesegerät gerade leer blinkt und Sie im Keller nach neuen Knopfbatterien suchen müssen",
+        "Lesen Sie absichtlich eine zu kurze Ziffernfolge vor und behaupten Sie, das Display vom Lesegerät flackere stark",
+        "Fragen Sie höflich nach der genauen Abteilung in Eupen oder Sankt Vith und bitten Sie um langsames Buchstabieren"
+      ],
+      "sources": [
+        "https://safeonweb.be/de/nachrichten/ein-anruf-von-card-stop-vorsicht-betrug",
+        "https://febelfin.be/nl/themas/digitaal-betalen-en-bankieren/online-betalen-bankieren-als-consument/is-digitaal-bankieren-wel-veilig"
       ]
     }
   ]

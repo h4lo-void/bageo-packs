@@ -7,7 +7,7 @@
     "hu"
   ],
   "prevalence_note": "Police and MNB (KiberPajzs) warnings 2025-2026: fake bank security staff moving money to a 'security account' with remote access apps, fake police secret investigations, and the grandchild method.",
-  "cross_border_note": "",
+  "cross_border_note": "Vishing gangs spoof +36 domestic bank and Rendőrség numbers via cross-border VoIP gateways and use foreign prefixes (+44, +40, +380) on WhatsApp and Viber for fake safe-account and grandchild scams.",
   "scams": [
     {
       "id": "hu_hamis_bankbiztonsag",
@@ -43,8 +43,8 @@
         "Megkérdezni, melyik napon és mekkora összegről van szó"
       ],
       "sources": [
-        "MNB KiberPajzs",
-        "Rendőrség"
+        "https://kiberpajzs.hu/csalastipusok/",
+        "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/finomhangolt-csalas-a-rendorseg-neveben"
       ]
     },
     {
@@ -81,7 +81,7 @@
         "Megkérdezni, mióta tart ez az egész"
       ],
       "sources": [
-        "Rendőrség"
+        "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/finomhangolt-csalas-a-rendorseg-neveben"
       ]
     },
     {
@@ -118,7 +118,7 @@
         "Megkérdezni, melyik kórházban van"
       ],
       "sources": [
-        "Rendőrség"
+        "https://www.police.hu/hu/hirek-es-informaciok/legfrissebb-hireink/matrix-projekt/finomhangolt-csalas-a-rendorseg-neveben"
       ]
     }
   ]

@@ -5932,6 +5932,182 @@
       "status": "ai_checked",
       "back": "Help fix it",
       "note": "added"
+    },
+    "notify.ap_weekdays": {
+      "status": "ai_checked",
+      "back": "Mon, Tue, Wed, Thu, Fri, Sat, Sun"
+    },
+    "notify.quote": {
+      "status": "ai_checked",
+      "back": "\" and \" (double quotation marks)"
+    },
+    "notify.ap_dt_fmt": {
+      "status": "ai_checked",
+      "back": "{}, d/m HH:MM (24-hour)"
+    },
+    "notify.ap_end_fmt": {
+      "status": "ai_checked",
+      "back": "HH:MM (24-hour)"
+    },
+    "notify.date_fmt": {
+      "status": "ai_checked",
+      "back": "d/m"
+    },
+    "notify.dt_fmt": {
+      "status": "ai_checked",
+      "back": "d/m HH:MM"
+    },
+    "console.ex_deleting": {
+      "status": "ai_checked",
+      "back": "Deleting…"
+    },
+    "console.ex_desc": {
+      "status": "ai_checked",
+      "back": "All 70 languages work right away for calls. Download a language pack straight from GitHub to also display menus or notifications in that language."
+    },
+    "console.ex_download": {
+      "status": "ai_checked",
+      "back": "Download"
+    },
+    "console.ex_downloading": {
+      "status": "ai_checked",
+      "back": "Downloading…"
+    },
+    "console.ex_empty": {
+      "status": "ai_checked",
+      "back": "No matching languages"
+    },
+    "console.ex_in_use": {
+      "status": "ai_checked",
+      "back": "Currently used in settings"
+    },
+    "console.ex_lvl_basic": {
+      "status": "ai_checked",
+      "back": "Calls only"
+    },
+    "console.ex_lvl_console": {
+      "status": "ai_checked",
+      "back": "Console & notifications"
+    },
+    "console.ex_lvl_notify": {
+      "status": "ai_checked",
+      "back": "Notifications & summaries"
+    },
+    "console.ex_more": {
+      "status": "ai_checked",
+      "back": "More languages…"
+    },
+    "console.ex_r_in_use": {
+      "status": "ai_checked",
+      "back": "Cannot be deleted while selected in settings."
+    },
+    "console.ex_search_ph": {
+      "status": "ai_checked",
+      "back": "Search language"
+    },
+    "console.ex_switched": {
+      "status": "ai_checked",
+      "back": "Console switched to {lang}."
+    },
+    "console.ex_title": {
+      "status": "ai_checked",
+      "back": "Other languages"
+    },
+    "console.ex_use": {
+      "status": "ai_checked",
+      "back": "Use"
+    },
+    "console.f_extras_auto": {
+      "status": "ai_checked",
+      "back": "Automatically download matching languages"
+    },
+    "console.f_extras_auto_h": {
+      "status": "ai_checked",
+      "back": "When signed in, downloads your browser or SIM card languages and local illustrations straight from GitHub."
+    },
+    "console.vp_ask": {
+      "status": "ai_checked",
+      "back": "Download {name} voices? ({size})"
+    },
+    "console.vp_ask_h": {
+      "status": "ai_checked",
+      "back": "Downloaded straight from GitHub to this computer, never at all through us."
+    },
+    "console.vp_delete": {
+      "status": "ai_checked",
+      "back": "Delete"
+    },
+    "console.vp_get": {
+      "status": "ai_checked",
+      "back": "Download"
+    },
+    "console.vp_get_voice": {
+      "status": "ai_checked",
+      "back": "Download {name} voices ({size})"
+    },
+    "console.vp_h": {
+      "status": "ai_checked",
+      "back": "No internet? Import a voice file that you have downloaded from GitHub."
+    },
+    "console.vp_import": {
+      "status": "ai_checked",
+      "back": "Import file"
+    },
+    "console.vp_importing": {
+      "status": "ai_checked",
+      "back": "Importing…"
+    },
+    "console.vp_name": {
+      "status": "ai_checked",
+      "back": "{lang} ({region})"
+    },
+    "console.vp_none": {
+      "status": "ai_checked",
+      "back": "No voices downloaded yet"
+    },
+    "console.vp_not_now": {
+      "status": "ai_checked",
+      "back": "Not now"
+    },
+    "console.vp_r_bad_pack": {
+      "status": "ai_checked",
+      "back": "There is a problem with this file, so it was not used."
+    },
+    "console.vp_r_busy": {
+      "status": "ai_checked",
+      "back": "Still processing. Try again in a moment."
+    },
+    "console.vp_r_installed": {
+      "status": "ai_checked",
+      "back": "Downloaded. Previews now use it."
+    },
+    "console.vp_r_io": {
+      "status": "ai_checked",
+      "back": "Unable to save. Make sure there is enough disk space."
+    },
+    "console.vp_r_not_listed": {
+      "status": "ai_checked",
+      "back": "This is not a voice file recognized by Bageo."
+    },
+    "console.vp_r_offline": {
+      "status": "ai_checked",
+      "back": "Unable to connect. Try again later."
+    },
+    "console.vp_r_removed": {
+      "status": "ai_checked",
+      "back": "Deleted."
+    },
+    "console.vp_r_update_bageo": {
+      "status": "ai_checked",
+      "back": "Update Bageo first."
+    },
+    "console.vp_title": {
+      "status": "ai_checked",
+      "back": "Voice downloads"
+    },
+    "console.vp_working": {
+      "status": "ai_checked",
+      "back": "Downloading…"
     }
   }
 }

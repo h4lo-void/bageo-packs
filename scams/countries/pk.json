@@ -170,6 +170,53 @@
         "https://www.express.pk/story/2808842/hidden-mobile-settings-just-one-code-and-your-bank-account-is-empty-2808842",
         "https://www.inquilab.com/news/articles/is-your-call-being-forwarded-to-another-number-how-to-find-out-81547"
       ]
+    },
+    {
+      "id": "pk_en_sbp_pta_wallet_otp",
+      "typology": "otp_theft",
+      "name": "Fake SBP / PTA SIM Block & Bank / Mobile Wallet OTP Vishing",
+      "name_en": "English-language fake State Bank of Pakistan, PTA SIM block, or Easypaisa/JazzCash OTP scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "state bank of pakistan",
+        "pta sim block",
+        "biometric verification",
+        "easypaisa jazzcash",
+        "spoofed bank helpline"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share one-time pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sim blocked today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read card cvv",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "dial ussd forwarding code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller spoofing a Pakistani bank UAN helpline, State Bank (SBP), or PTA claims the victim's CNIC/SIM or bank account will be blocked unless they read out an SMS OTP, card CVV, or dial a USSD call-forwarding string.",
+      "legit_en": "State Bank of Pakistan, PTA, and licensed banks/wallets never call citizens to demand OTPs, PINs, biometric/CVV details, or USSD forwarding codes.",
+      "bait_tactics": [
+        "Wait a moment please, the phone line is echoing badly—let me walk into my local branch with my CNIC tomorrow morning instead.",
+        "My SMS inbox is not opening during a voice call, so let me pause a moment and dial the official helpline printed on my debit card."
+      ],
+      "sources": [
+        "https://www.sbp.org.pk/assets/documents/circulars/PSPOD-2025-C4-Annex.pdf",
+        "https://ntcert.pta.gov.pk/2025/Advisories/advisories.html"
+      ]
     }
   ]
 }

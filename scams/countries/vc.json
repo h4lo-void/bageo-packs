@@ -1,0 +1,154 @@
+{
+  "name": "Saint Vincent and the Grenadines",
+  "name_local": "Saint Vincent and the Grenadines",
+  "iso": "vc",
+  "calling_code": "+1-784",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "RSVGPF (Royal St. Vincent and the Grenadines Police Force) & ECCB 2025-2026: WhatsApp phishing and hijacked-contact money requests, impersonation of reputable vehicle dealers for import deposits, and ECCU bank/lottery scams dominate.",
+  "cross_border_note": "Uses +1-784 within NANP and the ECCU; WhatsApp phishing links and spoofed +1 numbers frequently target Vincentians and diaspora contacts.",
+  "scams": [
+    {
+      "id": "vc_whatsapp_phishing_scam",
+      "typology": "otp_theft",
+      "name": "RSVGPF-Warned WhatsApp Phishing & Account Hijack Scam",
+      "name_en": "Social-media/WhatsApp phishing link stealing 6-digit codes and soliciting emergency transfers",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "whatsapp verification code",
+        "social media contest",
+        "stranded overseas friend",
+        "account security link"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send six-digit code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click whatsapp link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "urgent money transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "approve login code",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Scammer sends a phishing link or poses as a friend on WhatsApp asking for a 6-digit registration code, then hijacks the account to message contacts for urgent money transfers.",
+      "legit_en": "RSVGPF warns the public never to click suspicious social-media links or share verification codes.",
+      "bait_tactics": [
+        "Say you never received any code and call the friend's regular voice line to verify who is texting.",
+        "Ask a local Kingstown or family question that an overseas hijacker could not answer.",
+        "Pretend the link fails to open on your old handset."
+      ],
+      "sources": [
+        "https://security.gov.vc/security/index.php?option=com_content&view=article&id=1315:whatsapp-phishing-scam-alert&catid=19&Itemid=144",
+        "https://www.gov.vc/index.php/media-center?start=750"
+      ]
+    },
+    {
+      "id": "vc_vehicle_dealer_impersonation",
+      "typology": "marketplace_escrow_scam",
+      "name": "RSVGPF-Warned Impersonation of Reputable Vehicle Dealers",
+      "name_en": "Fraudsters posing as established auto dealers on WhatsApp/phone to collect bogus vehicle deposits",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "imported japanese vehicle",
+        "auto dealer promotion",
+        "port clearance deposit",
+        "reserve vehicle today"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "wire vehicle deposit",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay third-party account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "shipping fee upfront",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "no showroom inspection",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller or social-media page impersonates a well-known SVG vehicle dealership offering discounted imports and pressing buyers to wire an upfront deposit to an unverified account.",
+      "legit_en": "Real Vincentian auto dealerships accept payments at their verified business premises under their registered corporate account.",
+      "bait_tactics": [
+        "Tell them you are driving to the dealership's Kingstown lot right now to inspect the stock and pay at the cashier.",
+        "Ask why the beneficiary bank account name does not match the registered dealership name.",
+        "Request to inspect the customs paperwork at the showroom first."
+      ],
+      "sources": [
+        "https://www.gov.vc/index.php/media-center?start=750",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    },
+    {
+      "id": "vc_bank_lottery_eccb",
+      "typology": "prize_lottery",
+      "name": "ECCB-Warned Fake Lottery Fee & Bank Card Phishing Call",
+      "name_en": "Unsolicited prize-claim fee demand or fake bank fraud call seeking card/OTP credentials",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "lottery cash winner",
+        "prize processing charge",
+        "bank card verification",
+        "unlicensed crypto club"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay claim fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share banking otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send western union",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "guaranteed high return",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims the recipient won an overseas lottery requiring a release payment, or poses as an ECCU bank asking for card/OTP details to stop a bogus transaction.",
+      "legit_en": "ECCB advises never paying upfront fees for prizes and verifying suspicious bank calls directly with your local branch.",
+      "bait_tactics": [
+        "Ask them to subtract the fee from the prize cheque before mailing it.",
+        "Say you will visit your bank branch in person rather than reading card details on the phone.",
+        "Pretend the phone line is crackling and ask them to repeat the company details slowly."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    }
+  ]
+}

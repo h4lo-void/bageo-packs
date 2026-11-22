@@ -8,7 +8,7 @@
     "en"
   ],
   "prevalence_note": "Dubai Police and UAE Central Bank warnings 2025-2026: fake police demanding a fine paid through an exchange house, and fake Emirates Post delivery fees paid through a link dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Overseas and regional call centers spoof UAE numbers (+971) or use WhatsApp VoIP in English and Arabic to impersonate Dubai Police, CBUAE, UAE Pass, and Emirates Post targeting both residents and expats.",
   "scams": [
     {
       "id": "ae_fake_police_exchange_fine",
@@ -50,7 +50,7 @@
         "يقول إن الصرافة القريبة مقفلة ويسأل عن غيرها"
       ],
       "sources": [
-        "شرطة دبي"
+        "https://www.dubaipolice.gov.ae/app/services/ecrime"
       ]
     },
     {
@@ -60,7 +60,12 @@
       "name_en": "Fake delivery or customs fee paid through a link",
       "prevalence": "high",
       "lang": "ar",
-      "context_keywords": [],
+      "context_keywords": [
+        "بريد الإمارات",
+        "شحنة معلقة",
+        "رسوم التوصيل",
+        "تحديث العنوان"
+      ],
       "red_flag_keywords": [
         {
           "text": "رسوم التوصيل عبر الرابط",
@@ -80,7 +85,7 @@
         "يسأل عن رقم الشحنة ومن أين أُرسلت"
       ],
       "sources": [
-        "مصرف الإمارات العربية المتحدة المركزي"
+        "https://centralbank.ae/en/consumer/"
       ]
     },
     {
@@ -163,6 +168,55 @@
         "https://www.sama.gov.sa/",
         "https://centralbank.ae/ar/our-operations/risk-management/cyber-security-centre-of-excellence-1/fraudulent-reporting/",
         "https://www.emaratalyoum.com/local-section/other/2025-05-09-1.1943051"
+      ]
+    },
+    {
+      "id": "ae_uae_pass_police_bank_otp",
+      "typology": "fake_official",
+      "name": "Fake Dubai Police / Central Bank / UAE Pass & Emirates Post OTP Scam",
+      "name_en": "Fake Dubai Police, Central Bank, UAE Pass or Emirates Post English OTP scam",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "uae pass",
+        "dubai police",
+        "central bank",
+        "emirates id",
+        "emirates post"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "approve uae pass request",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "share one time password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "emirates id suspended today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay delivery fee link",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller poses as Dubai Police, Central Bank of the UAE, UAE Pass support, or Emirates Post claiming the resident's Emirates ID or bank account is frozen or a parcel is held, pressing them to approve a UAE Pass login prompt...",
+      "legit_en": "UAE police, CBUAE, UAE Pass, and Emirates Post never call to ask for SMS OTPs, UAE Pass approval numbers, or card CVV codes over the phone.",
+      "bait_tactics": [
+        "Sorry, the mobile signal in this elevator lobby is breaking up badly—could you slowly repeat which department desk you are calling from?",
+        "Hold on, my UAE Pass app is asking for a software update and spinning on the loading screen, let me check why my Wi-Fi is so slow.",
+        "I left my wallet and Emirates ID card in my other bag upstairs, please stay on the line while I go look for my reading glasses."
+      ],
+      "sources": [
+        "https://www.dubaipolice.gov.ae/app/services/ecrime",
+        "https://centralbank.ae/en/consumer/",
+        "https://rulebook.centralbank.ae/en/rulebook/article-149-fraud-prevention"
       ]
     }
   ]

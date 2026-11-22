@@ -7,7 +7,7 @@
     "es"
   ],
   "prevalence_note": "Argentine prosecutors' cybercrime unit 2024-2026: fake Mercado Pago or bank security asking to pass the CBU or change the alias, 'cuento del tío' relatives and old-dollar exchanges, and fake ANSES benefits dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Prison-based and cross-border Spanish-speaking rings use spoofed local numbers and WhatsApp (+54 and foreign prefixes) to run ANSES benefit, Mercado Pago CBU/alias, and WhatsApp OTP takeover scams across Argentina and Uruguay.",
   "scams": [
     {
       "id": "ar_mercadopago_cbu",
@@ -38,7 +38,7 @@
         "Preguntar con calma qué compra es y de qué día mientras busca el resumen"
       ],
       "sources": [
-        "Ministerio Público Fiscal"
+        "https://www.mpf.gob.ar/ufeci/"
       ]
     },
     {
@@ -70,7 +70,7 @@
         "Decir que la plata está guardada en otro lado y preguntar cómo es el trámite paso por paso"
       ],
       "sources": [
-        "Ministerio Público Fiscal"
+        "https://www.mpf.gob.ar/ufeci/"
       ]
     },
     {
@@ -88,6 +88,21 @@
           "text": "clave de homebanking",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "clave de seguridad social",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "generar token en cajero",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pasar código por whatsapp",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "Poses as ANSES about an extra bonus or refund for retirees and asks for the home-banking password, a token or a trip to the ATM to 'activate' it.",
@@ -97,7 +112,7 @@
         "Decir que la clave la tiene anotada en un cuaderno que no encuentra y pedir que expliquen otra vez el trámite"
       ],
       "sources": [
-        "ANSES"
+        "https://www.anses.gob.ar/noticias/anses-recuerda-que-jamas-solicita-datos-personales-o-bancarios"
       ]
     },
     {

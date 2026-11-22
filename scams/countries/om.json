@@ -132,6 +132,54 @@
         "https://www.alkhaleej.ae/2025-03-26/%D8%B4%D8%B1%D8%B7%D8%A9-%D8%AF%D8%A8%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AC%D8%A7%D8%A8%D8%A9-%D9%84%D9%85%D9%83%D8%A7%D9%84%D9%85%D8%A7%D8%AA-%D8%AA%D8%AF%D8%B9%D9%8A-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%AC%D9%87%D8%A7%D8%AA-%D8%B1%D8%B3%D9%85%D9%8A%D8%A9-5841121/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA",
         "https://www.cst.gov.sa/services/Spam-Reports"
       ]
+    },
+    {
+      "id": "om_rop_cbo_bank_otp",
+      "typology": "fake_official",
+      "name": "Fake Royal Oman Police / Central Bank of Oman Bank OTP Scam",
+      "name_en": "Fake Royal Oman Police or Central Bank of Oman English bank OTP scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "royal oman police",
+        "central bank of oman",
+        "resident card",
+        "bank account update",
+        "oman post"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read bank otp code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "share debit card pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "resident card blocked today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transfer to safe account",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller claims to represent Royal Oman Police, the Central Bank of Oman, or a local Omani bank, warning that the resident card or debit card will be frozen unless the victim reads out an SMS OTP or card PIN.",
+      "legit_en": "Royal Oman Police and Omani banks require in-branch or official app verification and never request SMS OTPs, card CVVs, or PINs by phone.",
+      "bait_tactics": [
+        "Just a second please, my phone screen went dim and the banking app is asking me to restart the device first.",
+        "The connection is echoing quite a bit—could you repeat the department name and explain what form I would need at the branch?",
+        "I do not keep my debit card near my work desk, please wait a moment while I check if my wallet is in the car."
+      ],
+      "sources": [
+        "https://www.rop.gov.om/english/contactus.aspx",
+        "https://prod.mtcit.gov.om/ITAPortal/Pages/Page.aspx?NID=1777&PID=5705&LID=292"
+      ]
     }
   ]
 }

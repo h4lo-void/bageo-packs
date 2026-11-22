@@ -6,17 +6,23 @@
   "languages": [
     "vi"
   ],
-  "prevalence_note": "Ministry of Public Security warnings 2025-2026: fake police moving money to a holding account during a secret investigation, and fake EVN staff installing an app and reading a Smart OTP dominate.",
-  "cross_border_note": "",
+  "prevalence_note": "Ministry of Public Security (Bộ Công an) & EVN 2025-2026: fake ward/provincial police guiding malicious VNeID level-2 (`định danh mức 2`) APK updates or holding-account transfers, fake EVN power-cut app scams, and fake shipper online-order & membership-fee scams dominate.",
+  "cross_border_note": "Cross-border scam compounds in neighboring Cambodia and the Golden Triangle heavily spoof +84 Vietnamese landline/mobile prefixes and brandname SMS via illegal SIM-box gateways and VoIP trunks to impersonate Công an, VNeID, and EVN.",
   "scams": [
     {
       "id": "vn_cong_an_tai_khoan_tam_giu",
       "typology": "fake_official",
-      "name": "Giả công an: chuyển tiền vào tài khoản tạm giữ",
-      "name_en": "Fake police moving money to a holding account",
+      "name": "Giả công an / viện kiểm sát: chuyển tiền vào tài khoản tạm giữ",
+      "name_en": "Fake Vietnamese police or prosecutor ordering transfer to a temporary holding account",
       "prevalence": "very_high",
       "lang": "vi",
-      "context_keywords": [],
+      "context_keywords": [
+        "công an phường",
+        "viện kiểm sát",
+        "đường dây rửa tiền",
+        "lệnh bắt tạm giam",
+        "căn cước công dân"
+      ],
       "red_flag_keywords": [
         {
           "text": "tài khoản tạm giữ",
@@ -24,32 +30,143 @@
           "hard": true
         },
         {
-          "text": "giữ bí mật điều tra",
+          "text": "bí mật điều tra",
           "weight": 2,
-          "hard": false
+          "hard": true
+        },
+        {
+          "text": "chuyển tiền xác minh",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "làm việc qua video",
+          "weight": 2,
+          "hard": true
         }
       ],
-      "signals_en": "Fake ward police or prosecutors say the owner is linked to money laundering, demand secrecy and order the money moved to a holding account for checking.",
-      "legit_en": "Vietnamese police never handle cases by phone or ask for transfers to any account.",
+      "signals_en": "Fake ward/city police or prosecutors say the owner's citizen ID is linked to money laundering, demand strict secrecy, stage a video interrogation, and order money moved to a temporary holding account.",
+      "legit_en": "Vietnamese police always send written invitations to work in person at local headquarters and never handle cases by phone/Zalo video or ask for transfers to holding accounts.",
       "bait_tactics": [
-        "Tỏ ra lo lắng, hỏi chậm rãi đó là vụ việc nào và ở phường nào",
-        "Nói kính lão để trên lầu, nhờ đọc lại từng chữ"
+        "Tỏ ra lo lắng, hỏi chậm rãi đó là vụ việc nào và trụ sở công an phường nằm ở đường nào để ra trình diện trực tiếp",
+        "Nói kính lão để trên lầu chưa tìm thấy, nhờ đọc lại từng chữ chức vụ và đơn vị công tác"
       ],
       "sources": [
-        "Bộ Công an"
+        "https://www.bocongan.gov.vn/bai-viet/ha-noi-cong-an-xa-hong-van-va-xa-xuan-mai-kip-thoi-ngan-chan-thu-doan-lua-dao-gia-danh-cong-an-1794971620",
+        "https://bocongan.gov.vn/"
+      ]
+    },
+    {
+      "id": "vn_cong_an_vneid_muc_2",
+      "typology": "fake_official",
+      "name": "Giả công an hướng dẫn cập nhật VNeID định danh mức 2 cài mã độc",
+      "name_en": "Fake ward police instructing victim to install a malicious VNeID level-2 update APK",
+      "prevalence": "very_high",
+      "lang": "vi",
+      "context_keywords": [
+        "định danh mức 2",
+        "ứng dụng vneid",
+        "cập nhật căn cước",
+        "tích hợp giấy tờ",
+        "công an khu vực"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "cài vneid qua link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "tải file apk",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "quét khuôn mặt",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "cấp quyền trợ năng",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller poses as local ward police claiming an error in the citizen's VNeID level-2 electronic identity (`định danh mức 2`) or household data, guiding them via Zalo/link to install a fake `.apk` app with Accessibility permissions and face scan to drain bank...",
+      "legit_en": "Level-2 VNeID registration in Vietnam is performed strictly in person at official police stations with fingerprint/photo capture—never via phone links or `.apk` downloads.",
+      "bait_tactics": [
+        "Nói mình đang dùng điện thoại bàn phím đời cũ không cài được ứng dụng, chiều nay sẽ đi bộ ra thẳng công an phường hỏi",
+        "Giả vờ mạng Wi-Fi ở nhà đang mất kết nối nên trang web trắng tinh không hiện gì cả"
+      ],
+      "sources": [
+        "https://bocongan.gov.vn/bai-viet/canh-bao-thu-doan-lua-dao-cai-ung-dung-vneid-gia-mao-d22-t45880",
+        "https://www.bocongan.gov.vn/bai-viet/hai-phong-phong-an-ninh-mang-catp-hai-phong-canh-bao-gia-mao-he-thong-dinh-danh-dien-tu-bo-cong-an-de-lua-dao-nhan-dan-can-dac-biet-canh-giac-1793094207"
+      ]
+    },
+    {
+      "id": "vn_gia_shipper_chuyen_khoan",
+      "typology": "fake_customs_parcel",
+      "name": "Giả danh shipper giao hàng yêu cầu chuyển khoản và hủy thẻ hội viên",
+      "name_en": "Fake delivery shipper requesting upfront transfer and sending link to cancel bogus courier membership",
+      "prevalence": "very_high",
+      "lang": "vi",
+      "context_keywords": [
+        "nhân viên giao hàng",
+        "đơn hàng online",
+        "để hàng trước cửa",
+        "thẻ hội viên shipper",
+        "ship cod"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "chuyển khoản đơn hàng",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "nhấn link hủy thẻ",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "trừ phí hàng tháng",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "hoàn tiền chuyển nhầm",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller poses as a parcel courier claiming they left an order at the gate/reception and asks for an instant bank transfer; immediately afterward, claims the transfer accidentally registered a costly monthly courier membership and sends a phishing link to...",
+      "legit_en": "Genuine Vietnamese shippers allow recipients to inspect parcels in person before paying COD and never enroll customers in monthly memberships via bank transfers or links.",
+      "bait_tactics": [
+        "Nói mình đang đứng ngay ngoài cổng nhà mà chẳng thấy bưu품 hay người giao hàng nào cả, bảo đọc rõ tên shop gửi",
+        "Bảo chỉ trả tiền mặt tận tay khi cầm gói hàng kiểm tra chứ không bao giờ chuyển khoản trước"
+      ],
+      "sources": [
+        "https://bocongan.gov.vn/bai-viet/cong-an-tinh-lang-son-khoi-to-7-doi-tuong-trong-duong-day-gia-danh-shipper-lua-dao-qua-don-hang-truc-tuyen-1788867848",
+        "https://www.bocongan.gov.vn/bai-viet/cong-an-tinh-phu-tho-bat-giu-02-doi-tuong-lua-dao-chiem-doat-tai-san-quy-mo-lon-qua-hinh-thuc-ship-cod-tai-phu-tho-1779166874"
       ]
     },
     {
       "id": "vn_gia_dien_luc_cai_app",
       "typology": "fake_utility",
-      "name": "Giả điện lực: cài ứng dụng và đọc Smart OTP",
-      "name_en": "Fake EVN staff installing an app and reading a Smart OTP",
+      "name": "Giả nhân viên điện lực EVN: dọa cắt điện, cài app và đọc Smart OTP",
+      "name_en": "Fake EVN electricity staff threatening power cut, pushing fake app, and asking for Smart OTP",
       "prevalence": "high",
       "lang": "vi",
-      "context_keywords": [],
+      "context_keywords": [
+        "điện lực việt nam",
+        "nợ tiền điện",
+        "cắt điện khẩn cấp",
+        "nhân viên điện lực",
+        "hóa đơn tiền điện"
+      ],
       "red_flag_keywords": [
         {
-          "text": "cài ứng dụng điện lực",
+          "text": "ứng dụng điện lực",
           "weight": 2,
           "hard": false
         },
@@ -64,14 +181,15 @@
           "hard": false
         }
       ],
-      "signals_en": "Fake EVN staff threaten to cut the power within hours and ask the owner to install an app from a link and read out a Smart OTP.",
-      "legit_en": "EVN sends notices on paper or in its official app and never asks for OTP codes on the phone.",
+      "signals_en": "Fake EVN staff threaten to cut household electricity within hours over alleged unpaid bills and ask the owner to install an app from a strange link or read out a bank Smart OTP.",
+      "legit_en": "EVN sends official billing notices through verified customer channels and never asks customers for bank OTP codes or strange app downloads by phone.",
       "bait_tactics": [
-        "Nói điện thoại cũ đầy bộ nhớ, tải mãi không xong",
-        "Hỏi tháng nào chưa đóng tiền và số tiền bao nhiêu"
+        "Nói điện thoại cũ đầy bộ nhớ tải mãi không xong, để tìm lại biên lai tiền điện tháng trước trong ngăn kéo đối chiếu mã khách hàng",
+        "Hỏi chậm rãi xem đồng hồ điện đứng tên ai trong nhà vì tiền điện vẫn trừ tự động hàng tháng"
       ],
       "sources": [
-        "Tập đoàn Điện lực Việt Nam"
+        "https://www.evn.com.vn/d/vi-VN/news/EVN-canh-bao-thu-doan-lua-dao-moi-bang-tin-nhan-OTP-gia-mao-60-134-508618",
+        "https://www.evn.com.vn/d/vi-VN/news/EVNSPC-canh-bao-thu-doan-gia-danh-nhan-vien-dien-luc-lua-nguoi-dan-cai-ung-dung-de-chiem-doat-tien-ti-60-134-504904"
       ]
     }
   ]

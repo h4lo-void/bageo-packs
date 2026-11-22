@@ -1,0 +1,154 @@
+{
+  "name": "Grenada",
+  "name_local": "Grenada",
+  "iso": "gd",
+  "calling_code": "+1-473",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "ECCB, CSIRT Grenada & Royal Grenada Police Force (RGPF) 2025-2026: bank/social-media phishing and OTP capture, fake lottery prize advance-fee calls, customs/parcel fee impersonation, and unlicensed crypto pyramid & AI voice-cloning scams dominate.",
+  "cross_border_note": "Uses +1-473 within NANP and the Eastern Caribbean Currency Union (XCD); regional +1 spoofing and WhatsApp account takeovers are widespread.",
+  "scams": [
+    {
+      "id": "gd_bank_phishing_otp",
+      "typology": "otp_theft",
+      "name": "Bank Card / OTP Vishing & Social-Media Account Phishing",
+      "name_en": "ECCB & CSIRT Grenada-warned phishing call or message stealing banking OTPs and credentials",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "suspicious card charge",
+        "online banking alert",
+        "verify account access",
+        "profile verification link"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read verification code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter card details",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click security link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "install remote software",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller or message poses as an ECCU commercial bank or platform support warning of suspicious activity and asking for one-time codes, full card details, or clicking a verification link.",
+      "legit_en": "ECCB and Grenada CSIRT warn citizens never to disclose banking passwords, card details, or one-time codes to unsolicited callers or links.",
+      "bait_tactics": [
+        "Say you are heading into St. George's town shortly and will check directly at the bank counter.",
+        "Pretend the verification SMS has not come through due to weak signal in your parish.",
+        "Ask the caller to verify which Eastern Caribbean bank branch issued your card."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu",
+        "https://www.gov.gd/index.php/component/edocman/csirt-gnd-alert-increased-phishing-attacks-on-social-media-profiles-and-pages/viewdocument/750"
+      ]
+    },
+    {
+      "id": "gd_lottery_customs_fee",
+      "typology": "prize_lottery",
+      "name": "Fake Lottery Prize & Customs Parcel Clearance Fee Scam",
+      "name_en": "Caller claiming a lottery win or detained overseas barrel/parcel requiring an upfront fee",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "lottery prize winner",
+        "customs clearance fee",
+        "overseas gift barrel",
+        "delivery release charge"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay claim fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "wire clearance money",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "upfront delivery tax",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "send money transfer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited call or WhatsApp message stating the victim won a cash sweepstakes or has a gift parcel held at customs, demanding an advance payment before release.",
+      "legit_en": "ECCB highlights fake prize scams requiring upfront payment as a classic fraud indicator, and real Grenada customs duties are paid at official ports.",
+      "bait_tactics": [
+        "Ask why the clearance fee cannot be deducted from the cash winnings before delivery.",
+        "Say you will check at the St. George's port customs office yourself.",
+        "Pretend you need time to find your reading glasses to copy down the shipping company details."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://nowgrenada.com/2025/12/rgpf-establishes-units-to-fight-digital-crimes/"
+      ]
+    },
+    {
+      "id": "gd_pyramid_ai_voice",
+      "typology": "investment_group_scam",
+      "name": "Unlicensed Crypto Pyramid & AI Voice-Cloned Relative Scam",
+      "name_en": "ECCB-warned zero-risk crypto recruitment scheme or AI-cloned family emergency request",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed crypto return",
+        "recruit new members",
+        "urgent family emergency",
+        "zero risk investment"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "convert to cryptocurrency",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guaranteed fast returns",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "urgent wire request",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "recruit three friends",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Promotes high-yield, zero-risk investment/recruitment clubs converting EC dollars into crypto, or uses AI-replicated voice/WhatsApp messages of a relative asking for emergency money.",
+      "legit_en": "ECCB and ECSRC require securities/investment operators to hold valid licences, and family requests should be verified on a known phone line.",
+      "bait_tactics": [
+        "Ask for the company's Eastern Caribbean Securities Regulatory Commission (ECSRC) licence status.",
+        "If the caller sounds like a relative in distress, ask a private family question or call their usual line directly.",
+        "Say your funds are tied up in a fixed deposit that cannot be withdrawn this month."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    }
+  ]
+}

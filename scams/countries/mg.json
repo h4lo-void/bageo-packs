@@ -51,6 +51,54 @@
         "https://www.orange.mg/fr/conseils-aux-clients.html",
         "https://moncashdfs.com/fr/TCs"
       ]
+    },
+    {
+      "id": "mg_mvola_orange_airtel_pin",
+      "typology": "fake_bank_account_alert",
+      "name": "Fisolokiana amin'ny finday MVola / Orange Money / Airtel Money",
+      "name_en": "Malagasy MVola, Orange Money or Airtel Money mobile wallet PIN scam",
+      "prevalence": "very_high",
+      "lang": "mg",
+      "context_keywords": [
+        "kaonty mvola",
+        "orange money",
+        "airtel money",
+        "fandefasana vola",
+        "loka fifaninanana"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "lazao ny kaody miafina",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vakio ny kaody hafatra",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "mandoa sarany fanokafana kaonty",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "avereno haingana ilay vola",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Malagasy-speaking caller impersonates MVola (Yas), Orange Money, or Airtel Money staff claiming a prize win, wrong-number transfer, or imminent wallet suspension, urging the user to dictate their secret PIN, USSD confirmation, or SMS OTP.",
+      "legit_en": "Licensed telecom and mobile money providers regulated by ARTEC and BFM never ask customers for their secret PIN or SMS codes over a phone call.",
+      "bait_tactics": [
+        "Andraso kely azafady fa ratsy be ny tambajotra ato an-trano ka tapaka matetika ny feonao, avereno moramora hoe?",
+        "Mbola mitady ny solomasoko aho fa tsy hitako izay nametrahako azy, hazavao tsikelikely aloha ny momba ilay sampana misy anao.",
+        "Efa ho faty ny vatoaratra amin'ny findaiko izao ka lazao moramora ny dingana rehetra mandra-pitadiko ny famahanana azy."
+      ],
+      "sources": [
+        "https://www.artec.mg/espace-consommateur/",
+        "https://www.banky-foibe.mg/faq"
+      ]
     }
   ]
 }

@@ -7,7 +7,7 @@
     "cs"
   ],
   "prevalence_note": "Police ČR and ČNB warnings 2025-2026: fake bankers and police moving savings to a 'safe account' or a courier, crypto investment calls with remote access, and fake Citizen Portal fines.",
-  "cross_border_note": "",
+  "cross_border_note": "Vishing rings routinely spoof +420 bank helpdesks, ČNB, and Policie ČR numbers via VoIP (often routed from abroad) or contact victims on WhatsApp from foreign EU prefixes.",
   "scams": [
     {
       "id": "cz_falesny_banker_bezpecny_ucet",
@@ -43,8 +43,8 @@
         "Zeptat se, která platba to byla a kterého dne"
       ],
       "sources": [
-        "Policie ČR",
-        "ČNB"
+        "https://policie.gov.cz/kyberkriminalita/podvodne-telefonaty",
+        "https://www.cnb.cz/cs/dohled-financni-trh/ochrana-spotrebitele/online-podvody-chrante-sve-penize/"
       ]
     },
     {
@@ -76,8 +76,8 @@
         "Zeptat se, jak dlouho trvá výplata"
       ],
       "sources": [
-        "ČNB",
-        "Policie ČR"
+        "https://www.cnb.cz/cs/dohled-financni-trh/ochrana-spotrebitele/online-podvody-chrante-sve-penize/",
+        "https://policie.gov.cz/kyberkriminalita/podvodne-telefonaty"
       ]
     },
     {
@@ -109,7 +109,7 @@
         "Zeptat se, kterého dne se to stalo"
       ],
       "sources": [
-        "Policie ČR"
+        "https://policie.gov.cz/kyberkriminalita/podvodne-telefonaty"
       ]
     }
   ]

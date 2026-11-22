@@ -181,6 +181,56 @@
         "https://g5noticias.cl/2026/11/14/con-mas-de-un-millon-de-personas-desempleadas-alertan-por-estafas-telefonicas-con-falsas-ofertas-laborales/",
         "https://caivirtual.policia.gov.co/"
       ]
+    },
+    {
+      "id": "pr_luma_autoexpreso_bank_en",
+      "typology": "fake_utility",
+      "name": "Fake LUMA Energy / AutoExpreso / IRS / Banco Popular English Scam",
+      "name_en": "Fake LUMA Energy, AutoExpreso, IRS or Banco Popular English phone scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "luma energy",
+        "autoexpreso toll",
+        "banco popular",
+        "power disconnection",
+        "ath movil"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "shut off power today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay via ath movil",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "unpaid toll payment link",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read bank security code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "English-speaking caller targets residents or mainland transplants in Puerto Rico posing as LUMA Energy, AutoExpreso, IRS, or Banco Popular fraud prevention, threatening same-day power shutoff, toll fines, or account lock unless paid via ATH Móvil...",
+      "legit_en": "LUMA Energy, AutoExpreso, IRS, and Puerto Rico banks never demand immediate payment via personal ATH Móvil numbers, gift cards, or phone OTPs to prevent shutoff or fines.",
+      "bait_tactics": [
+        "Hold on a moment please, I am looking through my kitchen drawer for last month's paper utility statement to compare the meter details.",
+        "The cell signal is dropping out because of the rain—could you slowly repeat which customer service center you are calling from?",
+        "My online account app is asking me to reset my password on my desktop computer, please wait while I turn it on."
+      ],
+      "sources": [
+        "https://www.justicia.pr.gov/reporte-un-crimen/",
+        "https://www.daco.pr.gov/",
+        "https://consumer.ftc.gov/articles/scammers-pretend-be-your-utility-company",
+        "https://www.autoexpreso.com/article?v=0.0.0"
+      ]
     }
   ]
 }

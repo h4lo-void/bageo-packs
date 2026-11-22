@@ -172,6 +172,54 @@
         "https://ar.webmanagercenter.com/2025/08/09/405959/%D8%B9%D8%A7%D8%AC%D9%84-%D9%88%D9%83%D8%A7%D9%84%D8%A9-%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A8%D8%B1%D9%86%D9%8A%D8%A9-%D8%AA%D8%AD%D8%B0%D9%91%D8%B1-%D9%85%D9%86/",
         "https://www.hespress.com/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D9%84%D9%85%D9%88%D9%86%D8%AF%D9%8A%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%86%D9%81%D8%B1-%D8%A7%D9%84%D8%A8%D9%86%D9%88-1763962.html"
       ]
+    },
+    {
+      "id": "dz_baridimob_edahabia_cib_fr",
+      "typology": "fake_bank_account_alert",
+      "name": "Arnaque téléphonique Algérie Poste BaridiMob / Carte Edahabia et CIB",
+      "name_en": "Fake Algérie Poste BaridiMob, Edahabia or CIB card French OTP scam",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "algérie poste",
+        "application baridimob",
+        "carte edahabia",
+        "carte cib",
+        "compte ccp"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquer le code sms",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "code de confirmation baridimob",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "numéro au verso edahabia",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "installer mise à jour",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "French-speaking caller poses as Algérie Poste, BaridiMob technical support, or a marketplace buyer claiming a CCP/Edahabia or CIB card needs reactivation or transfer verification, asking for the SMS OTP code or back-of-card CVV.",
+      "legit_en": "Algérie Poste and interbank CIB support never call customers to ask for BaridiMob SMS confirmation codes, passwords, or Edahabia CVV digits.",
+      "bait_tactics": [
+        "Attendez une petite minute s'il vous plaît, le réseau mobile coupe beaucoup ici et mon application met du temps à s'ouvrir.",
+        "Je ne trouve plus mes lunettes pour lire le petit texte sur l'écran, pouvez-vous répéter lentement le nom de votre service ?",
+        "Ma carte est rangée dans une autre pièce fermée à clé, restez en ligne pendant que je cherche le trousseau."
+      ],
+      "sources": [
+        "https://baridinet.poste.dz/",
+        "https://fs.mpt.gov.dz/fr/cybercriminalite-2/"
+      ]
     }
   ]
 }

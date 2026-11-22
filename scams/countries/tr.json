@@ -7,7 +7,7 @@
     "tr"
   ],
   "prevalence_note": "Police and bank warnings 2025-2026: fake police or prosecutors linking the owner to terrorism and moving money to a state account, and fake bank staff refunding card fees for an SMS code dominate.",
-  "cross_border_note": "",
+  "cross_border_note": "Fraud rings spoof +90 bank customer-service numbers (including 0850 and 444 lookalikes) and police lines via VoIP, or contact victims on WhatsApp from foreign prefixes (+44, +31, +212, +62) for fake prosecutor, job, and card-fee refund scams.",
   "scams": [
     {
       "id": "tr_sahte_polis_guvence_hesabi",
@@ -38,7 +38,7 @@
         "Yakın gözlüğünü bulamadığını söyleyip her şeyi tekrar ettirmek"
       ],
       "sources": [
-        "Emniyet Genel Müdürlüğü"
+        "https://www.egm.gov.tr/dolandiricilik"
       ]
     },
     {
@@ -48,7 +48,12 @@
       "name_en": "Fake bank refunding card fees for an SMS code",
       "prevalence": "high",
       "lang": "tr",
-      "context_keywords": [],
+      "context_keywords": [
+        "kredi kartı aidatı",
+        "yıllık kart ücreti",
+        "aidat iadesi",
+        "müşteri hizmetleri"
+      ],
       "red_flag_keywords": [
         {
           "text": "kart aidatı iade",
@@ -68,7 +73,7 @@
         "Hangi kartın aidatından bahsettiklerini ve tutarı yavaşça sormak"
       ],
       "sources": [
-        "Türkiye Bankalar Birliği"
+        "https://www.tbb.org.tr/"
       ]
     }
   ]

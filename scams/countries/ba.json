@@ -7,7 +7,7 @@
     "sr"
   ],
   "prevalence_note": "Police warnings 2025-2026 follow the Serbian pattern: fake parcel fees, fake bank card blocks asking for codes, crypto advisers, and relatives with a new number.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border fraud calls frequently spoof +387 bank or police numbers over VoIP or contact targets via WhatsApp and Viber from diaspora prefixes (+49, +43, +41, +381, +385) posing as stranded relatives or investment brokers.",
   "scams": [
     {
       "id": "ba_posta_paket",
@@ -38,7 +38,7 @@
         "Pitati koliko tačno košta dostava"
       ],
       "sources": [
-        "MUP"
+        "https://www.fmup.gov.ba/"
       ]
     },
     {
@@ -75,8 +75,8 @@
         "Pitati o kojoj transakciji je reč"
       ],
       "sources": [
-        "NBS",
-        "MUP"
+        "https://www.cbbh.ba/",
+        "https://www.fmup.gov.ba/"
       ]
     },
     {
@@ -108,7 +108,7 @@
         "Pitati koliko traje isplata"
       ],
       "sources": [
-        "MUP"
+        "https://www.fmup.gov.ba/"
       ]
     },
     {
@@ -118,7 +118,12 @@
       "name_en": "Relative with a new number asking for an urgent payment",
       "prevalence": "medium",
       "lang": "sr",
-      "context_keywords": [],
+      "context_keywords": [
+        "novi broj telefona",
+        "rođak iz inostranstva",
+        "razbio mi se telefon",
+        "hitna pozajmica"
+      ],
       "red_flag_keywords": [
         {
           "text": "hitno prebaci novac",
@@ -138,7 +143,7 @@
         "Pitati koliko tačno treba"
       ],
       "sources": [
-        "MUP"
+        "https://www.fmup.gov.ba/"
       ]
     }
   ]

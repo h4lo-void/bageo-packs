@@ -6,8 +6,8 @@
   "languages": [
     "ja"
   ],
-  "prevalence_note": "NPA (警察庁) 2025-2026 special fraud (特殊詐欺): SNS/LINE fake police arrest warrants (ニセ警察), Ore-ore family settlement money, municipal medical/tax ATM refund scams (還付金詐欺), and cash-card pickup fraud lead damages.",
-  "cross_border_note": "Calls from +1 / +44 / +800 international prefixes to Japanese numbers are heavily used by ニセ警察 (fake police) rings spoofing Prefectural Police.",
+  "prevalence_note": "NPA (警察庁) & NCAC (国民生活センター) 2025-2026: SNS/LINE fake police arrest warrants (ニセ警察詐欺), automated-voice telecom suspension calls posing as 総務省 or NTTファイナンス, tech-support electronic gift-card scams (サポート詐欺), Ore-ore family settlement cash, and municipal ATM refund scams (還付金詐欺) lead damages.",
+  "cross_border_note": "Approximately three-quarters of special-fraud calls in Japan originate from international numbers (+1, +44, +800 prefixes) spoofing Ministries, NTT Finance, or Prefectural Police; NPA promotes international incoming call blocking (#みんとめ).",
   "scams": [
     {
       "id": "jp_nise_police_card",
@@ -67,9 +67,109 @@
         "金地金はどこで買うのか全く分からないふりをして、重さや手数料の計算をゆっくり聞く"
       ],
       "sources": [
-        "警察庁・SOS47特殊詐欺対策ページ",
-        "警視庁",
-        "警察庁 2025-2026"
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+        "https://www.keishicho.metro.tokyo.lg.jp/kurashi/tokushu/furikome/furikome.html",
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/international-phone/"
+      ]
+    },
+    {
+      "id": "jp_soumusho_ntt_autovoice",
+      "typology": "fake_telecom",
+      "name": "総務省・NTTファイナンスをかたる自動音声・回線停止・未納料金詐欺",
+      "name_en": "Automated-voice fake Ministry of Internal Affairs or NTT Finance line-suspension & unpaid-fee scam",
+      "prevalence": "very_high",
+      "lang": "ja",
+      "context_keywords": [
+        "総務省",
+        "nttファイナンス",
+        "総合通信局",
+        "自動音声ガイダンス",
+        "未納料金",
+        "法的措置"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "2時間後に電話が使えなくなる",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "1番を押して",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "すべての通信を停止",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "未納料金を電子マネーで",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Uses automated voice prompts (often from +1/+44 international numbers) impersonating the Ministry of Internal Affairs and Communications (総務省) or NTT Finance, warning that all phone lines will be suspended in two hours due to unpaid fees or spam activity...",
+      "legit_en": "Neither the Ministry of Internal Affairs and Communications nor NTT Finance ever uses automated voice guidance to threaten sudden two-hour line suspension, ask for button-press transfers to police, or collect unpaid fees via gift cards.",
+      "bait_tactics": [
+        "固定電話の契約名義が家族の誰になっているか分からないふりをして、紙の請求書を探してくると言って待たせる",
+        "二時間後に止まると困ると慌てるふりをしつつ、どの電話回線の未納なのか契約種別を一つずつゆっくり聞き返す",
+        "耳が遠くて自動音声の案内がよく聞き取れなかったと言い、担当部署の正式名称を何度も復唱させる"
+      ],
+      "sources": [
+        "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000532.html",
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/fictitious-billing/",
+        "https://www.ntt-finance.co.jp/lp/scam/"
+      ]
+    },
+    {
+      "id": "jp_support_giftcard",
+      "typology": "tech_support_remote",
+      "name": "サポート詐欺（ウイルス感染警告・遠隔操作・電子マネー購入要求）",
+      "name_en": "Fake PC virus warning tech-support scam demanding Apple Gift Cards or remote-banking transfers",
+      "prevalence": "high",
+      "lang": "ja",
+      "context_keywords": [
+        "サポート詐欺",
+        "ウイルス感染",
+        "セキュリティ警告",
+        "マイクロソフト",
+        "電子マネー",
+        "遠隔操作ソフト"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "アップルギフトカード",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "電子マネーを購入",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "カード番号を教えて",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "遠隔操作で送金",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Triggered by a fake browser virus alarm displaying a support phone number; the fake Microsoft/security agent instructs the caller to install remote-control software, log into online banking...",
+      "legit_en": "Legitimate OS and security vendors never display loud pop-up phone numbers demanding urgent calls, never collect repair fees via convenience-store gift cards, and never manipulate online banking via remote access.",
+      "bait_tactics": [
+        "パソコンの画面が固まってマウスが動かないふりをして、どのキーを押せばいいのか最初からゆっくり説明させる",
+        "近所のコンビニまで歩いていく支度をするふりをして、電子マネーの売り場がどこか細かく質問して時間を稼ぐ",
+        "プリペイドカードの種類が多くて見分けがつかないと言い、パッケージの色や形を何度も詳しく聞き返す"
+      ],
+      "sources": [
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/support/",
+        "https://www.kokusen.go.jp/news/data/n-20240327_1.html",
+        "https://www.keishicho.metro.tokyo.lg.jp/kurashi/tokushu/furikome/furikome.html"
       ]
     },
     {
@@ -105,12 +205,12 @@
       "signals_en": "Pretends to be son/grandson saying their voice changed from a cold or phone changed, lost a work bag/cheque or needs urgent settlement cash picked up by a 'colleague'.",
       "legit_en": "Saved family contact chatting normally without secret cash couriers or urgent third-party transfers.",
       "bait_tactics": [
-        "心配しているふりをして、いつどこで失くしたのか・上司の名前は誰なのかゆっくり詳しく聞く",
+        "心配しているふりをして、いつどこで失くしたのか・上司の役職は何なのかゆっくり詳しく聞く",
         "銀行に行く支度をしているふりをして、金額の内訳やどうやって返す予定か長々と質問する"
       ],
       "sources": [
-        "警察庁",
-        "国民生活センター"
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+        "https://www.keishicho.metro.tokyo.lg.jp/kurashi/tokushu/furikome/furikome.html"
       ]
     },
     {
@@ -136,6 +236,16 @@
           "text": "本日が還付期限",
           "weight": 2,
           "hard": true
+        },
+        {
+          "text": "カードを持ってatmへ",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "atmに着いたら電話",
+          "weight": 2,
+          "hard": true
         }
       ],
       "signals_en": "Claims to be city hall health/insurance desk saying a medical or insurance refund expires today and tells the owner to bring their cash card to an ATM and call back while pressing buttons.",
@@ -145,8 +255,8 @@
         "足が悪くてすぐATMに行けないと言い、計算方法や別の受け取り方をゆっくり説明させる"
       ],
       "sources": [
-        "警察庁",
-        "国民生活センター"
+        "https://www.npa.go.jp/bureau/safetylife/sos47/case/",
+        "https://www.keishicho.metro.tokyo.lg.jp/kurashi/tokushu/furikome/furikome.html"
       ]
     }
   ]

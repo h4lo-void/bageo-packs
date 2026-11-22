@@ -723,6 +723,164 @@
           "na-lock ang account",
           2,
           "fake_bank_account_alert"
+        ],
+        [
+          "seguro sa buhay",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "insurance policy",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "mababang interes",
+          2,
+          "loan_sales"
+        ],
+        [
+          "mabilis na loan",
+          2,
+          "loan_sales"
+        ],
+        [
+          "credit card",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "paniningil ng utang",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "lampas sa takdang petsa",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "kikita ka ng malaki",
+          2,
+          "investment_sales"
+        ],
+        [
+          "cryptocurrency",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "garantisadong kita",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "kunin ang premyo",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ipadala ang otp",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ibigay ang mpin",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "warrant ng pag-aresto",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ligtas na account",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "nbi clearance",
+          1,
+          "fake_official"
+        ],
+        [
+          "espesyal na promo",
+          2,
+          "general_promotion"
+        ],
+        [
+          "malaking discount",
+          1,
+          "general_promotion"
+        ],
+        [
+          "libreng regalo",
+          1,
+          "general_promotion"
+        ],
+        [
+          "maikling survey",
+          1,
+          "survey_lead"
+        ],
+        [
+          "singil sa kuryente",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "solar panel",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "naka-block ang account",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "gcash account mo",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "problema sa order",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "naka-hold na parcel",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "bayad sa customs",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "remote access",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "i-share ang screen",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "gift card",
+          2,
+          "gift_card_payment",
+          "hard"
         ]
       ]
     },
@@ -1080,7 +1238,22 @@
           "loan_sales"
         ],
         [
-          "ऋण",
+          "पर्सनल लोन",
+          2,
+          "loan_sales"
+        ],
+        [
+          "कम ब्याज ऋण",
+          2,
+          "loan_sales"
+        ],
+        [
+          "तत्काल ऋण",
+          2,
+          "loan_sales"
+        ],
+        [
+          "मुद्रा लोन",
           2,
           "loan_sales"
         ],
@@ -5332,6 +5505,3524 @@
           "fake_bank_account_alert"
         ]
       ]
+    },
+    {
+      "lang": "ca",
+      "match": "word",
+      "words": [
+        [
+          "assegurança",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "pòlissa",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "préstec personal",
+          2,
+          "loan_sales"
+        ],
+        [
+          "finançament",
+          2,
+          "loan_sales"
+        ],
+        [
+          "hipoteca",
+          2,
+          "loan_sales"
+        ],
+        [
+          "targeta de crèdit",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "cobrament de deutes",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "deute pendent",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "oportunitat d'inversió",
+          2,
+          "investment_sales"
+        ],
+        [
+          "criptomonedes",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "rendibilitat garantida",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "has guanyat un premi",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "sorteig",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "transferència urgent",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "bizum invers",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "codi de verificació",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "codi de transacció",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "compte segur",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "mossos d'esquadra",
+          1,
+          "fake_official"
+        ],
+        [
+          "blanqueig de capitals",
+          2,
+          "fake_official"
+        ],
+        [
+          "oferta especial",
+          2,
+          "general_promotion"
+        ],
+        [
+          "descompte",
+          1,
+          "general_promotion"
+        ],
+        [
+          "gratuït",
+          1,
+          "general_promotion"
+        ],
+        [
+          "enquesta",
+          1,
+          "survey_lead"
+        ],
+        [
+          "factura de la llum",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "plaques solars",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "compte bloquejat",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "banca online",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "atenció al client",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "paquet retingut",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "duana",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "control remot",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "targeta regal",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "ceb",
+      "match": "word",
+      "words": [
+        [
+          "insyurans",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "seguro sa kinabuhi",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "pautang",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ubos nga interes",
+          2,
+          "loan_sales"
+        ],
+        [
+          "dali nga loan",
+          2,
+          "loan_sales"
+        ],
+        [
+          "credit card",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "paningil sa utang",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "wala mabayri nga utang",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "negosyo ug puhunan",
+          2,
+          "investment_sales"
+        ],
+        [
+          "cryptocurrency",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "garantisadong ginansya",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "nakadaog ka",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "raffle promo",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "padad-i ko og kwarta",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ipadala ang otp",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ihatag ang mpin",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "warrant sa pagdakop",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "luwas nga account",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "money laundering",
+          2,
+          "fake_official"
+        ],
+        [
+          "espesyal nga promo",
+          2,
+          "general_promotion"
+        ],
+        [
+          "diskwento",
+          1,
+          "general_promotion"
+        ],
+        [
+          "libre nga regalo",
+          1,
+          "general_promotion"
+        ],
+        [
+          "mubo nga survey",
+          1,
+          "survey_lead"
+        ],
+        [
+          "bayranan sa kuryente",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "solar panel",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "gi-block ang account",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "imong gcash account",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "sayop sa order",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "gipugngan nga parcel",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "bayad sa customs",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "remote access",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "i-share ang screen",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "gift card",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "eu",
+      "match": "word",
+      "words": [
+        [
+          "asegurua",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "aseguru poliza",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "mailegua",
+          2,
+          "loan_sales"
+        ],
+        [
+          "finantzaketa",
+          2,
+          "loan_sales"
+        ],
+        [
+          "hipoteka",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kreditu txartela",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "zorren bilketa",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "ordaindu gabeko zorra",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "inbertsio aukera",
+          2,
+          "investment_sales"
+        ],
+        [
+          "kriptomoneta",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "errentagarritasun bermatua",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "sari bat irabazi duzu",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "zozketa",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "premiazko transferentzia",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "egiaztapen kodea",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "segurtasun kodea",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "kontu segurua",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ertzaintza",
+          1,
+          "fake_official"
+        ],
+        [
+          "zerga agentzia",
+          2,
+          "fake_official"
+        ],
+        [
+          "eskaintza berezia",
+          2,
+          "general_promotion"
+        ],
+        [
+          "deskontua",
+          1,
+          "general_promotion"
+        ],
+        [
+          "doakoa",
+          1,
+          "general_promotion"
+        ],
+        [
+          "inkesta",
+          1,
+          "survey_lead"
+        ],
+        [
+          "argindarraren faktura",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "eguzki plakak",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "zure kontua itxiko da",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "banku kontua",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "bezeroarentzako arreta",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "zure paketea",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "aduana",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "urruneko sarbidea",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "opari txartela",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "fil",
+      "match": "word",
+      "words": [
+        [
+          "pautang",
+          2,
+          "loan_sales"
+        ],
+        [
+          "utang",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "puhunan",
+          1,
+          "investment_sales"
+        ],
+        [
+          "nanalo ka",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "premyo",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "magpadala ng pera",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "padalhan",
+          1,
+          "fake_relative_money"
+        ],
+        [
+          "gcash",
+          1,
+          "fake_relative_money"
+        ],
+        [
+          "na-hold ang padala",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "libre",
+          1,
+          "general_promotion"
+        ],
+        [
+          "account mo",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "pulis",
+          1,
+          "fake_official"
+        ],
+        [
+          "kaso",
+          1,
+          "fake_official"
+        ],
+        [
+          "kumita agad",
+          2,
+          "investment_group_scam"
+        ],
+        [
+          "siguradong kita",
+          2,
+          "investment_group_scam"
+        ],
+        [
+          "huwag sabihin kahit kanino",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "na-lock ang account",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "seguro sa buhay",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "insurance policy",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "mababang interes",
+          2,
+          "loan_sales"
+        ],
+        [
+          "mabilis na loan",
+          2,
+          "loan_sales"
+        ],
+        [
+          "credit card",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "paniningil ng utang",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "lampas sa takdang petsa",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "kikita ka ng malaki",
+          2,
+          "investment_sales"
+        ],
+        [
+          "cryptocurrency",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "garantisadong kita",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "kunin ang premyo",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ipadala ang otp",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ibigay ang mpin",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "warrant ng pag-aresto",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ligtas na account",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "nbi clearance",
+          1,
+          "fake_official"
+        ],
+        [
+          "espesyal na promo",
+          2,
+          "general_promotion"
+        ],
+        [
+          "malaking discount",
+          1,
+          "general_promotion"
+        ],
+        [
+          "libreng regalo",
+          1,
+          "general_promotion"
+        ],
+        [
+          "maikling survey",
+          1,
+          "survey_lead"
+        ],
+        [
+          "singil sa kuryente",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "solar panel",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "naka-block ang account",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "gcash account mo",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "problema sa order",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "naka-hold na parcel",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "bayad sa customs",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "remote access",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "i-share ang screen",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "gift card",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "gl",
+      "match": "word",
+      "words": [
+        [
+          "seguro de vida",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "póliza de seguro",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "préstamo persoal",
+          2,
+          "loan_sales"
+        ],
+        [
+          "financiamento",
+          2,
+          "loan_sales"
+        ],
+        [
+          "hipoteca",
+          2,
+          "loan_sales"
+        ],
+        [
+          "tarxeta de crédito",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "cobro de débedas",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "débeda pendente",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "oportunidade de investimento",
+          2,
+          "investment_sales"
+        ],
+        [
+          "criptomoedas",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "rendibilidade garantida",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "gañaches un premio",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "sorteo promocional",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "transferencia urxente",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "código de verificación",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "chave de seguridade",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "conta segura",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "axencia tributaria",
+          2,
+          "fake_official"
+        ],
+        [
+          "branqueo de capitais",
+          2,
+          "fake_official"
+        ],
+        [
+          "oferta especial",
+          2,
+          "general_promotion"
+        ],
+        [
+          "desconto",
+          1,
+          "general_promotion"
+        ],
+        [
+          "gratuíto",
+          1,
+          "general_promotion"
+        ],
+        [
+          "enquisa",
+          1,
+          "survey_lead"
+        ],
+        [
+          "factura da luz",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "paneis solares",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "conta bloqueada",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "conta bancaria",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "atención ao cliente",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "paquete retido",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "alfándega",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "acceso remoto",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "tarxeta agasallo",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "gu",
+      "match": "run",
+      "words": [
+        [
+          "જીવન વીમો",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "વીમા પોલિસી",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "પર્સનલ લોન",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ઓછા વ્યાજે લોન",
+          2,
+          "loan_sales"
+        ],
+        [
+          "તાત્કાલિક લોન",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ક્રેડિટ કાર્ડ",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "લોન વસૂલાત",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "બાકી હપ્તો",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "રોકાણ યોજના",
+          2,
+          "investment_sales"
+        ],
+        [
+          "ક્રિપ્ટોકરન્સી",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ખાતરીપૂર્વક વળતર",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "લોટરી લાગી",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "બમ્પર ઇનામ",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "તાત્કાલિક પૈસા મોકલો",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ઓટીપી આપો",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "યુપીઆઈ પિન",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "પાસવર્ડ",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ડિજિટલ અરેસ્ટ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ડિજિટલ ધરપકડ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "મની લોન્ડરિંગ",
+          2,
+          "fake_official"
+        ],
+        [
+          "સીબીઆઈ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ખાસ ઓફર",
+          2,
+          "general_promotion"
+        ],
+        [
+          "મફત ભેટ",
+          1,
+          "general_promotion"
+        ],
+        [
+          "સર્વેક્ષણ",
+          1,
+          "survey_lead"
+        ],
+        [
+          "વીજળી બિલ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "સોલાર પેનલ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "કેવાયસી અપડેટ",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ખાતું બ્લોક",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "બેંક ખાતું",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ઓર્ડર રદ",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "કસ્ટમ્સ પાર્સલ",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "એનીડેસ્ક",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "સ્ક્રીન શેરિંગ",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ગિફ્ટ કાર્ડ",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "ht",
+      "match": "word",
+      "words": [
+        [
+          "asirans lavi",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "kontra asirans",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "prè lajan",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kredi rapid",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ti enterè",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kat kredi",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "rekouvman dèt",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "dèt anreta",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "envesti lajan",
+          2,
+          "investment_sales"
+        ],
+        [
+          "kriptomonnen",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "pwofi garanti",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "ou genyen yon pri",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "tiraj moncash",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "voye lajan prese",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "kòd verifikasyon",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "pataje pin ou",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "kòd sekrè",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "kont sekirize",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "lapolis nasyonal",
+          1,
+          "fake_official"
+        ],
+        [
+          "blanchiman lajan",
+          2,
+          "fake_official"
+        ],
+        [
+          "pwomosyon espesyal",
+          2,
+          "general_promotion"
+        ],
+        [
+          "rabè espesyal",
+          1,
+          "general_promotion"
+        ],
+        [
+          "kado gratis",
+          1,
+          "general_promotion"
+        ],
+        [
+          "sondaj",
+          1,
+          "survey_lead"
+        ],
+        [
+          "fakti kouran",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "pano solè",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "kont moncash bloke",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "kont labank",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "sèvis kliyan",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "pakè bloke",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "frè ladwann",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "aksè adistans",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "anydesk",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "kat kado",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "jv",
+      "match": "word",
+      "words": [
+        [
+          "asuransi jiwa",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "polis asuransi",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "utangan online",
+          2,
+          "loan_sales"
+        ],
+        [
+          "silihan dhuwit",
+          2,
+          "loan_sales"
+        ],
+        [
+          "anakan cilik",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kertu kredit",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "tagihan utang",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "cicilan nunggak",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "investasi bathi gedhe",
+          2,
+          "investment_sales"
+        ],
+        [
+          "aset kripto",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "bathi mesthi",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "menang undian",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "klaim bebungah",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "transfer dhuwit saiki",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "kirim arta",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "wenehna kode otp",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "sebutna pin",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "rekening aman",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "petugas pajak",
+          1,
+          "fake_official"
+        ],
+        [
+          "pencucian dhuwit",
+          2,
+          "fake_official"
+        ],
+        [
+          "promo mirunggan",
+          2,
+          "general_promotion"
+        ],
+        [
+          "diskon gedhe",
+          1,
+          "general_promotion"
+        ],
+        [
+          "bebungah gratis",
+          1,
+          "general_promotion"
+        ],
+        [
+          "survei singkat",
+          1,
+          "survey_lead"
+        ],
+        [
+          "tagihan listrik",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "panel surya",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "rekening diblokir",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "rekening bank",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "pesenan kliru",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "paket ketahan",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "bea cukai",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "akses jarak adoh",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "anydesk",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "voucher hadiah",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "kn",
+      "match": "run",
+      "words": [
+        [
+          "ಜೀವ ವಿಮೆ",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ವಿಮಾ ಪಾಲಿಸಿ",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ವೈಯಕ್ತಿಕ ಸಾಲ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ಕಡಿಮೆ ಬಡ್ಡಿ ಸಾಲ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ತಕ್ಷಣದ ಸಾಲ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "ಸಾಲ ವಸೂಲಾತಿ",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "ಬಾಕಿ ಕಂತು",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "ಹೂಡಿಕೆ ಯೋಜನೆ",
+          2,
+          "investment_sales"
+        ],
+        [
+          "ಕ್ರಿಪ್ಟೋಕರೆನ್ಸಿ",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ಖಚಿತ ಲಾಭ",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "ಲಾಟರಿ ಬಹುಮಾನ",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ಬಹುಮಾನ ಗೆದ್ದಿದ್ದೀರಿ",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ತಕ್ಷಣ ಹಣ ಕಳುಹಿಸಿ",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ಒಟಿಪಿ ಹೇಳಿ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ಯುಪಿಐ ಪಿನ್",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ಪಾಸ್‌ವರ್ಡ್",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ಡಿಜಿಟಲ್ ಅರೆಸ್ಟ್",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ಭದ್ರತಾ ಠೇವಣಿ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ಅಕ್ರಮ ಹಣ ವರ್ಗಾವಣೆ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ಸಿಬಿಐ ಅಧಿಕಾರಿ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ವಿಶೇಷ ಆಫರ್",
+          2,
+          "general_promotion"
+        ],
+        [
+          "ಉಚಿತ ಉಡುಗೊರೆ",
+          1,
+          "general_promotion"
+        ],
+        [
+          "ಸಮೀಕ್ಷೆ",
+          1,
+          "survey_lead"
+        ],
+        [
+          "ವಿದ್ಯುತ್ ಬಿಲ್",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ಸೋಲಾರ್ ಪ್ಯಾನೆಲ್",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ಕೆವೈಸಿ ಅಪ್ಡೇಟ್",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ಖಾತೆ ಬ್ಲಾಕ್",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ಬ್ಯಾಂಕ್ ಖಾತೆ",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ಗ್ರಾಹಕ ಸೇವೆ",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "ಕಸ್ಟಮ್ಸ್ ಪಾರ್ಸೆಲ್",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "ಎನಿಡೆಸ್ಕ್",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ಸ್ಕ್ರೀನ್ ಶೇರಿಂಗ್",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ಗಿಫ್ಟ್ ಕಾರ್ಡ್",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "kok",
+      "match": "run",
+      "words": [
+        [
+          "जीव विमो",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "आरोग्य विमा",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "व्यक्तिगत कर्ज",
+          2,
+          "loan_sales"
+        ],
+        [
+          "कमी कळंतर रीण",
+          2,
+          "loan_sales"
+        ],
+        [
+          "बेकायदेशीर कर्ज",
+          2,
+          "loan_sales"
+        ],
+        [
+          "क्रेडिट कार्ड",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "कर्ज वसुली",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "थकबाकी हप्तो",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "गुंतवणूक येवजण",
+          2,
+          "investment_sales"
+        ],
+        [
+          "क्रिप्टोकरन्सी",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "खात्रीशीर फायदो",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "लॉटरी इनाम",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "बक्षीस जिखलां",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ताबडतोब पयशे धाडात",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ट्रान्झॅक्शन ओटीपी",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "यूपीआय पिन",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "पासवर्ड",
+          2,
+          "otp_theft"
+        ],
+        [
+          "डिजिटल हाऊस अरेस्ट",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "डिजिटल अटक",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "मनी म्युल",
+          2,
+          "fake_official"
+        ],
+        [
+          "सायबर पुलीस",
+          1,
+          "fake_official"
+        ],
+        [
+          "खाशेली ऑफर",
+          2,
+          "general_promotion"
+        ],
+        [
+          "फुकट इनाम",
+          1,
+          "general_promotion"
+        ],
+        [
+          "सर्वेक्षण",
+          1,
+          "survey_lead"
+        ],
+        [
+          "वीज बिल",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "सोलर पॅनेल",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "केवायसी अद्ययावत",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "खातें बंद",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "बँक खातें",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ग्राहक सेवा",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "कस्टम पार्सल",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "एनीडेस्क",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "स्क्रीन शेअरिंग",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "गिफ्ट कार्ड",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "la",
+      "match": "word",
+      "words": [
+        [
+          "assicuratio",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "cautio assecurationis",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "mutuum pecuniarium",
+          2,
+          "loan_sales"
+        ],
+        [
+          "pecunia mutua",
+          2,
+          "loan_sales"
+        ],
+        [
+          "hypotheca",
+          2,
+          "loan_sales"
+        ],
+        [
+          "charta argentaria",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "charta crediti",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "exactio aeris alieni",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "aes alienum",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "collocatio pecuniae",
+          2,
+          "investment_sales"
+        ],
+        [
+          "cryptomoneta",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "lucrum certum",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "praemium vicisti",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "sortitio",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "mitte pecuniam statim",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "tessera secreta",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "signum verificationis",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ratio tuta",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "magistratus publicus",
+          2,
+          "fake_official"
+        ],
+        [
+          "purgatio pecuniae",
+          2,
+          "fake_official"
+        ],
+        [
+          "oblatio specialis",
+          2,
+          "general_promotion"
+        ],
+        [
+          "remissio pretii",
+          1,
+          "general_promotion"
+        ],
+        [
+          "gratuito",
+          1,
+          "general_promotion"
+        ],
+        [
+          "inquisitio opinionum",
+          1,
+          "survey_lead"
+        ],
+        [
+          "ratio electricitatis",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "tabulae solares",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ratio argentaria clausa",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "argentaria",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "cura emptorum",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "sarcina retenta",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "portorium",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "accessus remotus",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "tessera doni",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "lb",
+      "match": "word",
+      "words": [
+        [
+          "liewensassurance",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "assurancevertrag",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "kredit",
+          2,
+          "loan_sales"
+        ],
+        [
+          "prêt personnel",
+          2,
+          "loan_sales"
+        ],
+        [
+          "hypothéik",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kreditkaart",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "bankkaart",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "inkasso",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "offen schold",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "investitioun",
+          2,
+          "investment_sales"
+        ],
+        [
+          "kryptowärung",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "garantéierte rendite",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "dir hutt gewonnen",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "gewënnspill",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "suen iwwerweisen",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "nei handynummer",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "luxtrust code",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "sécherheetscode",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "passwuert",
+          2,
+          "otp_theft"
+        ],
+        [
+          "sécheren konto",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "geldstrof bezuelen",
+          2,
+          "fake_official"
+        ],
+        [
+          "falsche polizist",
+          2,
+          "fake_official"
+        ],
+        [
+          "spezialoffer",
+          2,
+          "general_promotion"
+        ],
+        [
+          "remise",
+          1,
+          "general_promotion"
+        ],
+        [
+          "gratis",
+          1,
+          "general_promotion"
+        ],
+        [
+          "ëmfro",
+          1,
+          "survey_lead"
+        ],
+        [
+          "stroumrechnung",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "solaranlag",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "bankkonto gespaart",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "spuerkeess",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "clientsservice",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "paket hänkt fest",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "douane",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "fernzugrëff",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "anydesk",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "geschenkkaart",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "mai",
+      "match": "run",
+      "words": [
+        [
+          "जीवन बीमा",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "बीमा पॉलिसी",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "व्यक्तिगत ऋण",
+          2,
+          "loan_sales"
+        ],
+        [
+          "कम ब्याज ऋण",
+          2,
+          "loan_sales"
+        ],
+        [
+          "तुरन्त लोन",
+          2,
+          "loan_sales"
+        ],
+        [
+          "क्रेडिट कार्ड",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "कर्ज वसूली",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "बकाया किस्त",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "निवेश योजना",
+          2,
+          "investment_sales"
+        ],
+        [
+          "क्रिप्टोकरेंसी",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "पक्का मुनाफा",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "लॉटरी इनाम",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "अहाँ जीतलौं",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "तुरन्त रुपैया पठाउ",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ओटीपी बताउ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "एटीएम पिन",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "पासवर्ड",
+          2,
+          "otp_theft"
+        ],
+        [
+          "डिजिटल अरेस्ट",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "मनी लॉन्ड्रिंग",
+          2,
+          "fake_official"
+        ],
+        [
+          "सीबीआई अधिकारी",
+          2,
+          "fake_official"
+        ],
+        [
+          "साइबर थाना",
+          1,
+          "fake_official"
+        ],
+        [
+          "विशेष ऑफर",
+          2,
+          "general_promotion"
+        ],
+        [
+          "सेंतमे उपहार",
+          1,
+          "general_promotion"
+        ],
+        [
+          "सर्वेक्षण",
+          1,
+          "survey_lead"
+        ],
+        [
+          "बिजली बिल",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "सोलर पैनल",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "केवाईसी अपडेट",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "अहाँक खाता बंद",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "बैंक खाता",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ग्राहक सेवा",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "कस्टम पार्सल",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "एनीडेस्क",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "स्क्रीन शेयरिंग",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "गिफ्ट कार्ड",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "mg",
+      "match": "word",
+      "words": [
+        [
+          "fiantohana aina",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "fifanekena fiantohana",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "findramam-bola",
+          2,
+          "loan_sales"
+        ],
+        [
+          "zanabola kely",
+          2,
+          "loan_sales"
+        ],
+        [
+          "fampindramam-bola",
+          2,
+          "loan_sales"
+        ],
+        [
+          "karatra banky",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "fitakiana trosa",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "trosa tsy voaloa",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "fampiasam-bola",
+          2,
+          "investment_sales"
+        ],
+        [
+          "vola nomerika",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "tombony azo antoka",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "nahazo loka ianao",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "fisarihana loka",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "alefaso maika ny vola",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "kaody miafina",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "kaody fanamarinana",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "kaonty azo antoka",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "zandarimaria",
+          1,
+          "fake_official"
+        ],
+        [
+          "famotsiam-bola",
+          2,
+          "fake_official"
+        ],
+        [
+          "tolotra manokana",
+          2,
+          "general_promotion"
+        ],
+        [
+          "fihenam-bidy",
+          1,
+          "general_promotion"
+        ],
+        [
+          "maimaim-poana",
+          1,
+          "general_promotion"
+        ],
+        [
+          "fanadihadiana hevitra",
+          1,
+          "survey_lead"
+        ],
+        [
+          "faktioran-jiro",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "takelaka masoandro",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "kaonty mvola voabahana",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "kaontinao",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "sampana mpanjifa",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "entana voatazona",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "fadintseranana",
+          1,
+          "fake_customs_parcel"
+        ],
+        [
+          "fifehezana lavitra",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "anydesk",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "karatra fanomezana",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "ml",
+      "match": "run",
+      "words": [
+        [
+          "ഇൻഷുറൻസ് പോളിസി",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ലൈഫ് ഇൻഷുറൻസ്",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "വ്യക്തിഗത വായ്പ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "കുറഞ്ഞ പലിശ വായ്പ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "വ്യാജ ലോൺ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ക്രെഡിറ്റ് കാർഡ്",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "വായ്പ തിരിച്ചടവ്",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "കുടിശ്ശിക",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "നിക്ഷേപ പദ്ധതി",
+          2,
+          "investment_sales"
+        ],
+        [
+          "ക്രിപ്‌റ്റോകറൻസി",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ക്രിപ്റ്റോ തട്ടിപ്പ്",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ഉറപ്പായ ലാഭം",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "ലോട്ടറി അടിച്ചു",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "സമ്മാനം ലഭിച്ചു",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ഉടൻ പണം അയക്കുക",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ഒടിപി പറയുക",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "പിൻ നമ്പർ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "പാസ്‌വേഡ്",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ഡിജിറ്റൽ അറസ്റ്റ്",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ഡിജിറ്റൽ കസ്റ്റഡി",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "കള്ളപ്പണം വെളുപ്പിക്കൽ",
+          2,
+          "fake_official"
+        ],
+        [
+          "സിബിഐ ഉദ്യോഗസ്ഥൻ",
+          2,
+          "fake_official"
+        ],
+        [
+          "പ്രത്യേക ഓഫർ",
+          2,
+          "general_promotion"
+        ],
+        [
+          "സൗജന്യ സമ്മാനം",
+          1,
+          "general_promotion"
+        ],
+        [
+          "സർവേ",
+          1,
+          "survey_lead"
+        ],
+        [
+          "വൈദ്യുതി ബിൽ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "സോളാർ പാനൽ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "കെവൈസി അപ്‌ഡേറ്റ്",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "അക്കൗണ്ട് ബ്ലോക്ക്",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ബാങ്ക് അക്കൗണ്ട്",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "കസ്റ്റമർ കെയർ",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "കസ്റ്റംസ് പാർസൽ",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "എനിഡെസ്ക്",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "സ്ക്രീൻ ഷെയറിങ്",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "പ്രീപെയ്ഡ് ഗിഫ്റ്റ് കാർഡ്",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "nn",
+      "match": "word",
+      "words": [
+        [
+          "forsikring",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "forsikringsavtale",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "forbrukslån",
+          2,
+          "loan_sales"
+        ],
+        [
+          "refinansiering",
+          2,
+          "loan_sales"
+        ],
+        [
+          "bustadlån",
+          2,
+          "loan_sales"
+        ],
+        [
+          "kredittkort",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "inkassokrav",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "ubetalt krav",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "investeringsmoglegheit",
+          2,
+          "investment_sales"
+        ],
+        [
+          "kryptovaluta",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "garantert avkastning",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "du har vunne",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "premietrekking",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "overføre pengar raskt",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "eingongskode",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "bankid kode",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "tryggingskode",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "trygg konto",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "skatteetaten",
+          1,
+          "fake_official"
+        ],
+        [
+          "kvitvasking",
+          2,
+          "fake_official"
+        ],
+        [
+          "spesialtilbod",
+          2,
+          "general_promotion"
+        ],
+        [
+          "rabatt",
+          1,
+          "general_promotion"
+        ],
+        [
+          "gratis",
+          1,
+          "general_promotion"
+        ],
+        [
+          "spørjeundersøking",
+          1,
+          "survey_lead"
+        ],
+        [
+          "straumavtale",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "solcellepanel",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "sperre kortet ditt",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "kontonummer",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "kundeservice",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "pakke på vent",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "tollgebyr",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "fjerntilgang",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "skjermdeling",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "gåvekort",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "or",
+      "match": "run",
+      "words": [
+        [
+          "ଜୀବନ ବୀମା",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ବୀମା ପଲିସି",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ବ୍ୟକ୍ତିଗତ ଋଣ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "କମ୍ ସୁଧ ଋଣ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ତୁରନ୍ତ ଲୋନ୍",
+          2,
+          "loan_sales"
+        ],
+        [
+          "କ୍ରେଡିଟ୍ କାର୍ଡ",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "ଋଣ ଆଦାୟ",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "ବକେୟା କିସ୍ତି",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "ନିବେଶ ଯୋଜନା",
+          2,
+          "investment_sales"
+        ],
+        [
+          "କ୍ରିପ୍ଟୋକରେନ୍ସି",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ନିଶ୍ଚିତ ଲାଭ",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "ଲଟେରୀ ପୁରସ୍କାର",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ପୁରସ୍କାର ଜିତିଛନ୍ତି",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ତୁରନ୍ତ ଟଙ୍କା ପଠାନ୍ତୁ",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ଓଟିପି କୁହନ୍ତୁ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ୟୁପିଆଇ ପିନ୍",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ପାସୱାର୍ଡ",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ଡିଜିଟାଲ ଆରେଷ୍ଟ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ମନି ଲଣ୍ଡରିଂ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ସିବିଆଇ ଅଧିକାରୀ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ସାଇବର ପୋଲିସ",
+          1,
+          "fake_official"
+        ],
+        [
+          "ଲୋଭନୀୟ ଅଫର୍",
+          2,
+          "general_promotion"
+        ],
+        [
+          "ମାଗଣା ଉପହାର",
+          1,
+          "general_promotion"
+        ],
+        [
+          "ସର୍ଭେ",
+          1,
+          "survey_lead"
+        ],
+        [
+          "ବିଦ୍ୟୁତ୍ ବିଲ୍",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ସୋଲାର ପ୍ୟାନେଲ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "କେୱାଇସି ଅପଡେଟ୍",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ଆକାଉଣ୍ଟ ବ୍ଲକ୍",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ବ୍ୟାଙ୍କ୍ ଆକାଉଣ୍ଟ",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "କଷ୍ଟମର କେୟାର୍",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "କଷ୍ଟମ୍ସ ପାର୍ସଲ",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "ରିମୋଟ୍ ଆକ୍ସେସ୍ ଆପ୍",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ଏନିଡେସ୍କ",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ଗିଫ୍ଟ କାର୍ଡ",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "pa",
+      "match": "run",
+      "words": [
+        [
+          "ਜੀਵਨ ਬੀਮਾ",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ਬੀਮਾ ਪਾਲਿਸੀ",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "ਪਰਸਨਲ ਲੋਨ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ਘੱਟ ਵਿਆਜ ਕਰਜ਼ਾ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ਤੁਰੰਤ ਕਰਜ਼ਾ",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ਕ੍ਰੈਡਿਟ ਕਾਰਡ",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "ਕਰਜ਼ਾ ਵਸੂਲੀ",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "ਬਕਾਇਆ ਕਿਸ਼ਤ",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "ਨਿਵੇਸ਼ ਯੋਜਨਾ",
+          2,
+          "investment_sales"
+        ],
+        [
+          "ਕ੍ਰਿਪਟੋਕਰੰਸੀ",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "ਪੱਕਾ ਮੁਨਾਫ਼ਾ",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "ਲਾਟਰੀ ਇਨਾਮ",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ਇਨਾਮ ਜਿੱਤਿਆ",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "ਤੁਰੰਤ ਪੈਸੇ ਭੇਜੋ",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "ਓਟੀਪੀ ਦੱਸੋ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ਏਟੀਐਮ ਪਿੰਨ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "ਪਾਸਵਰਡ",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ਡਿਜੀਟਲ ਅਰੈਸਟ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ਡਿਜੀਟਲ ਗ੍ਰਿਫਤਾਰੀ",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "ਮਨੀ ਲਾਂਡਰਿੰਗ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ਸੀਬੀਆਈ ਅਫਸਰ",
+          2,
+          "fake_official"
+        ],
+        [
+          "ਖ਼ਾਸ ਆਫ਼ਰ",
+          2,
+          "general_promotion"
+        ],
+        [
+          "ਮੁਫ਼ਤ ਤੋਹਫ਼ਾ",
+          1,
+          "general_promotion"
+        ],
+        [
+          "ਸਰਵੇਖਣ",
+          1,
+          "survey_lead"
+        ],
+        [
+          "ਬਿਜਲੀ ਬਿੱਲ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ਸੋਲਰ ਪੈਨਲ",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ਕੇਵਾਈਸੀ ਅੱਪਡੇਟ",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ਖਾਤਾ ਬਲੌਕ",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ਬੈਂਕ ਖਾਤਾ",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ਗ੍ਰਾਹਕ ਸੇਵਾ",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "ਕਸਟਮ ਪਾਰਸਲ",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "ਐਨੀਡੈਸਕ",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ਰਿਮੋਟ ਸ਼ੇਅਰਿੰਗ",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ਗਿਫਟ ਕਾਰਡ",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
+    },
+    {
+      "lang": "sd",
+      "match": "word",
+      "words": [
+        [
+          "زندگي انشورنس",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "انشورنس پاليسي",
+          2,
+          "insurance_sales"
+        ],
+        [
+          "شخصي قرض",
+          2,
+          "loan_sales"
+        ],
+        [
+          "گهٽ وياج قرض",
+          2,
+          "loan_sales"
+        ],
+        [
+          "فوري قرض",
+          2,
+          "loan_sales"
+        ],
+        [
+          "ڪريڊٽ ڪارڊ",
+          2,
+          "bank_card_sales"
+        ],
+        [
+          "قرض جي وصولي",
+          2,
+          "fake_debt_collection"
+        ],
+        [
+          "واجب الادا قسط",
+          1,
+          "fake_debt_collection"
+        ],
+        [
+          "سيڙپڪاري اسڪيم",
+          2,
+          "investment_sales"
+        ],
+        [
+          "ڪرپٽو ڪرنسي",
+          2,
+          "crypto_scam"
+        ],
+        [
+          "يقيني منافعو",
+          2,
+          "investment_group_scam",
+          "hard"
+        ],
+        [
+          "لاٽري انعام",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "انعام کٽيو آهي",
+          2,
+          "prize_lottery"
+        ],
+        [
+          "فوري پئسا موڪليو",
+          2,
+          "fake_relative_money"
+        ],
+        [
+          "او ٽي پي ڪوڊ",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "اي ٽي ايم پن",
+          2,
+          "otp_theft",
+          "hard"
+        ],
+        [
+          "پاسورڊ",
+          2,
+          "otp_theft"
+        ],
+        [
+          "ڊجيٽل گرفتاري",
+          2,
+          "fake_official",
+          "hard"
+        ],
+        [
+          "مني لانڊرنگ",
+          2,
+          "fake_official"
+        ],
+        [
+          "سائبر پوليس",
+          1,
+          "fake_official"
+        ],
+        [
+          "خاص آفر",
+          2,
+          "general_promotion"
+        ],
+        [
+          "مفت تحفو",
+          1,
+          "general_promotion"
+        ],
+        [
+          "سروي",
+          1,
+          "survey_lead"
+        ],
+        [
+          "بجلي جو بل",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "سولر پينل",
+          2,
+          "telecom_energy_sales"
+        ],
+        [
+          "ڪي وائي سي اپڊيٽ",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "اڪائونٽ بلاڪ",
+          2,
+          "fake_bank_account_alert"
+        ],
+        [
+          "بينڪ اڪائونٽ",
+          1,
+          "fake_bank_account_alert"
+        ],
+        [
+          "ڪسٽمر سروس",
+          1,
+          "fake_shop_order_error"
+        ],
+        [
+          "ڪسٽم پارسل",
+          2,
+          "fake_customs_parcel"
+        ],
+        [
+          "ايني ڊيسڪ",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "ريموٽ ايڪسيس",
+          2,
+          "tech_support_remote",
+          "hard"
+        ],
+        [
+          "گفٽ ڪارڊ",
+          2,
+          "gift_card_payment",
+          "hard"
+        ]
+      ]
     }
   ],
   "own_matter": [
@@ -5377,7 +9068,13 @@
       "phrases": [
         "reklamo mo",
         "inireklamo mo",
-        "tungkol sa request mo"
+        "tungkol sa request mo",
+        "iyong reklamo",
+        "iyong aplikasyon",
+        "ayon sa iyong kahilingan",
+        "tungkol sa iyong ticket",
+        "iyong katanungan",
+        "iyong ini-report"
       ]
     },
     {
@@ -5774,6 +9471,218 @@
         "ваша скарга",
         "па вашай скарзе",
         "наконт рамонту"
+      ]
+    },
+    {
+      "lang": "ca",
+      "phrases": [
+        "la seva reclamació",
+        "la teva reclamació",
+        "la seva sol·licitud",
+        "com ens va demanar",
+        "el seu expedient",
+        "la vostra incidència"
+      ]
+    },
+    {
+      "lang": "ceb",
+      "phrases": [
+        "imong reklamo",
+        "imong aplikasyon",
+        "sumala sa imong hangyo",
+        "imong pangutana",
+        "kabahin sa imong ticket",
+        "imong gi-report"
+      ]
+    },
+    {
+      "lang": "eu",
+      "phrases": [
+        "zure erreklamazioa",
+        "zure eskaera",
+        "eskatu duzun bezala",
+        "zure espedientea",
+        "ireki duzun intzidentzia",
+        "zure kontsultari buruz"
+      ]
+    },
+    {
+      "lang": "fil",
+      "phrases": [
+        "reklamo mo",
+        "inireklamo mo",
+        "tungkol sa request mo",
+        "iyong reklamo",
+        "iyong aplikasyon",
+        "ayon sa iyong kahilingan",
+        "tungkol sa iyong ticket",
+        "iyong katanungan",
+        "iyong ini-report"
+      ]
+    },
+    {
+      "lang": "gl",
+      "phrases": [
+        "a súa reclamación",
+        "a súa solicitude",
+        "segundo nos solicitou",
+        "o seu expediente",
+        "a súa incidencia",
+        "a súa consulta"
+      ]
+    },
+    {
+      "lang": "gu",
+      "phrases": [
+        "તમારી ફરિયાદ",
+        "તમારી અરજી",
+        "તમારી વિનંતી મુજબ",
+        "તમારી પૂછપરછ",
+        "તમારા કેસ અંગે",
+        "તમારી સેવા વિનંતી"
+      ]
+    },
+    {
+      "lang": "ht",
+      "phrases": [
+        "reklamasyon ou an",
+        "demann ou an",
+        "dosye ou a",
+        "jan ou te mande a",
+        "aplikasyon ou an",
+        "kesyon ou te poze a"
+      ]
+    },
+    {
+      "lang": "jv",
+      "phrases": [
+        "keluhan panjenengan",
+        "panyuwunan panjenengan",
+        "lamaran panjenengan",
+        "miturut panyuwun panjenengan",
+        "laporan panjenengan",
+        "pitakonan panjenengan"
+      ]
+    },
+    {
+      "lang": "kn",
+      "phrases": [
+        "ನಿಮ್ಮ ದೂರಿನ ಬಗ್ಗೆ",
+        "ನಿಮ್ಮ ಅರ್ಜಿಯ ಕುರಿತು",
+        "ನಿಮ್ಮ ವಿನಂತಿಯಂತೆ",
+        "ನಿಮ್ಮ ವಿಚಾರಣೆಗೆ ಸಂಬಂಧಿಸಿದಂತೆ",
+        "ನಿಮ್ಮ ಸೇವಾ ವಿನಂತಿ",
+        "ನೀವು ಸಲ್ಲಿಸಿದ ಅರ್ಜಿ"
+      ]
+    },
+    {
+      "lang": "kok",
+      "phrases": [
+        "तुमची कागाळ",
+        "तुमची तक्रार",
+        "तुमचो अर्ज",
+        "तुमच्या मागणे प्रमाण",
+        "तुमच्या चवकशे विशीं",
+        "तुमच्या प्रकरणा संबंदीत"
+      ]
+    },
+    {
+      "lang": "la",
+      "phrases": [
+        "querela tua",
+        "petitio tua",
+        "rogatio tua",
+        "sicut petivisti",
+        "causa tua",
+        "inquisitio tua"
+      ]
+    },
+    {
+      "lang": "lb",
+      "phrases": [
+        "är reklamatioun",
+        "är ufro",
+        "wéi dir gefrot hutt",
+        "ären dossier",
+        "är bestellung",
+        "är mellung"
+      ]
+    },
+    {
+      "lang": "mai",
+      "phrases": [
+        "अहाँक शिकायत",
+        "अहाँक आवेदन",
+        "अहाँक अनुरोधक अनुसार",
+        "अहाँक दरखास्त",
+        "अहाँक जिज्ञासाक सम्बन्धमे",
+        "अहाँक मामलाक सन्दर्भमे"
+      ]
+    },
+    {
+      "lang": "mg",
+      "phrases": [
+        "ny fitarainanao",
+        "ny fangatahanao",
+        "araka ny nangatahinao",
+        "ny antontan-taratasinao",
+        "momba ny fanontanianao",
+        "ny raharahanao"
+      ]
+    },
+    {
+      "lang": "ml",
+      "phrases": [
+        "നിങ്ങളുടെ പരാതി",
+        "നിങ്ങളുടെ അപേക്ഷ",
+        "നിങ്ങളുടെ അഭ്യർത്ഥന പ്രകാരം",
+        "താങ്കളുടെ അന്വേഷണവുമായി ബന്ധപ്പെട്ട്",
+        "താങ്കൾ നൽകിയ പരാതി",
+        "നിങ്ങളുടെ സർവീസ് റിക്വസ്റ്റ്"
+      ]
+    },
+    {
+      "lang": "nn",
+      "phrases": [
+        "klaga di",
+        "søknaden din",
+        "førespurnaden din",
+        "saka di hos oss",
+        "som du bad om",
+        "meldinga du sende inn"
+      ]
+    },
+    {
+      "lang": "or",
+      "phrases": [
+        "ଆପଣଙ୍କ ଅଭିଯୋଗ",
+        "ଆପଣଙ୍କ ଆବେଦନ",
+        "ଆପଣଙ୍କ ଅନୁରୋଧ ଅନୁଯାୟୀ",
+        "ଆପଣଙ୍କ ପ୍ରଶ୍ନ ସମ୍ବନ୍ଧରେ",
+        "ଆପଣ ଦେଇଥିବା ଦରଖାସ୍ତ",
+        "ଆପଣଙ୍କ ସେବା ଅନୁରୋଧ"
+      ]
+    },
+    {
+      "lang": "pa",
+      "phrases": [
+        "ਤੁਹਾਡੀ ਸ਼ਿਕਾਇਤ",
+        "ਤੁਹਾਡੀ ਅਰਜ਼ੀ",
+        "ਤੁਹਾਡੀ ਬੇਨਤੀ ਅਨੁਸਾਰ",
+        "ਤੁਹਾਡੀ ਪੁੱਛਗਿੱਛ ਬਾਰੇ",
+        "ਤੁਹਾਡੇ ਕੇਸ ਸਬੰਧੀ",
+        "ਤੁਹਾਡੀ ਸੇਵਾ ਬੇਨਤੀ"
+      ]
+    },
+    {
+      "lang": "sd",
+      "phrases": [
+        "توهان جي شڪايت",
+        "توهان جي درخواست",
+        "توهان جي گذارش موجب",
+        "توهان جي پڇا ڳاڇا بابت",
+        "اوهان جي ڪيس بابت",
+        "توهان جو سروس ٽڪيٽ"
       ]
     }
   ]

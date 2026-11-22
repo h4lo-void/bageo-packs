@@ -1,0 +1,154 @@
+{
+  "name": "Saint Lucia",
+  "name_local": "Saint Lucia",
+  "iso": "lc",
+  "calling_code": "+1-758",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Government of Saint Lucia, RSLPF & ECCB 2025-2026: fake Saint Lucia Postal Service parcel/customs smishing links, bank debit-card/OTP vishing and soft-spoken 'guess who' relative calls, and unlicensed crypto pyramid schemes (e.g. Creators Alliance) dominate.",
+  "cross_border_note": "Uses +1-758 within NANP and the ECCU; scammers send smishing links from `.top` domains and spoof local +1-758 / overseas +1 numbers.",
+  "scams": [
+    {
+      "id": "lc_postal_parcel_smishing",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Saint Lucia Postal Service / Customs Parcel Hold Scam",
+      "name_en": "Fraudulent Saint Lucia Postal Service message or call claiming an undeliverable parcel needs fee/data",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "saint lucia postal",
+        "undelivered package notice",
+        "incomplete delivery address",
+        "customs redelivery fee"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "click tracking link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay redelivery fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter card number",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm personal details",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "SMS, email, or call claiming a parcel at the Saint Lucia Postal Service or customs cannot be delivered without clicking a lookalike link (such as `.top` domains) and entering card details.",
+      "legit_en": "The Government of Saint Lucia confirms the Postal Service never texts third-party links demanding personal or card data to release mail.",
+      "bait_tactics": [
+        "Say you work right near the Castries General Post Office and will walk over with your ID slip at lunch.",
+        "Ask what country the parcel was mailed from before touching any link.",
+        "Pretend your phone has no data plan to open web links."
+      ],
+      "sources": [
+        "https://externalaffairs.govt.lc/news/important-notice-scam-alert",
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu"
+      ]
+    },
+    {
+      "id": "lc_bank_otp_guess_who",
+      "typology": "otp_theft",
+      "name": "Bank Debit-Card OTP Vishing & Low-Voice Impersonation Call",
+      "name_en": "RSLPF & ECCB-warned bank OTP vishing or soft-spoken caller tricking victim into naming a contact",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "debit card alert",
+        "unknown caller urgent",
+        "phone credit request",
+        "suspicious bank charge"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share verification code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send phone credit",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "urgent cash transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirm card pin",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller either poses as bank security asking for debit-card/OTP codes, or speaks softly waiting for the victim to guess a friend/business owner's name and then asks for urgent cash or phone credit.",
+      "legit_en": "RSLPF warns never to volunteer names to vague callers or send cash/codes without calling the person's known official number.",
+      "bait_tactics": [
+        "Refuse to guess a name—ask the caller to state their full company role clearly first.",
+        "Tell a supposed bank caller you will verify at your Castries or Vieux Fort branch in person.",
+        "Say you have zero credit or cash on hand and need to ring them back on their office landline."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu",
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+      ]
+    },
+    {
+      "id": "lc_pyramid_lottery_scam",
+      "typology": "investment_group_scam",
+      "name": "Unlicensed Crypto Pyramid & Fake Lottery Fee Scam",
+      "name_en": "ECCB-warned unlicensed virtual-asset recruitment scheme or advance-fee prize call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "virtual asset platform",
+        "quick guaranteed returns",
+        "recruit new investors",
+        "lottery prize claim"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "deposit for returns",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "recruit other members",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay prize fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "unlicensed crypto scheme",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Solicits deposits into unlicensed crypto/pyramid schemes promising rapid returns for recruiting friends, or demands upfront fees to release lottery winnings.",
+      "legit_en": "Participating in pyramid selling is an offence in Saint Lucia, and legitimate investments must be licensed by the ECSRC/FSRA.",
+      "bait_tactics": [
+        "Ask for their ECSRC or Saint Lucia FSRA virtual-asset licence status before discussing any deposit.",
+        "For a prize call, ask why fees cannot be subtracted directly from the winnings.",
+        "Say you need your accountant to review the written prospectus first."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://externalaffairs.govt.lc/news/important-notice-scam-alert"
+      ]
+    }
+  ]
+}

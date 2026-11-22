@@ -7,14 +7,14 @@
     "en",
     "es"
   ],
-  "prevalence_note": "FTC & Hiya 2025-2026: Medicare card/brace impersonation, IRS/SSA arrest-warrant & gift-card/crypto ATM scams, Amazon/Geek Squad refund + remote-access scams, and spoofed bank Zelle 'pay yourself' fraud lead losses.",
-  "cross_border_note": "",
+  "prevalence_note": "FTC, FBI IC3 & SSA OIG 2025-2026: Medicare card/equipment scams, IRS/SSA arrest-warrant calls, gold-bar & cash courier government imposter fraud, fake missed-jury-duty warrants, Amazon/Geek Squad AnyDesk/TeamViewer + Zelle scams, Spanish IRS/Seguro Social extortion, and unpaid toll texts/calls lead losses.",
+  "cross_border_note": "Offshore scam call centers routinely spoof +1 local US area codes ('neighbor spoofing') as well as official IRS, SSA, Medicare, federal court, sheriff, and major bank caller IDs through international VoIP gateways despite FCC STIR/SHAKEN caller ID authentication rules.",
   "scams": [
     {
       "id": "us_medicare_benefits",
       "typology": "medicare_benefits",
       "name": "Medicare Card / Free Brace / Genetic Kit Scam",
-      "name_en": "Medicare card update, back brace or genetic testing kit scam",
+      "name_en": "Medicare card update, back brace, or genetic testing kit scam",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
@@ -26,7 +26,7 @@
       ],
       "red_flag_keywords": [
         {
-          "text": "verify your medicare number",
+          "text": "verify medicare number",
           "weight": 2,
           "hard": false
         },
@@ -34,18 +34,23 @@
           "text": "new chip medicare card",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "free genetic swab kit",
+          "weight": 2,
+          "hard": false
         }
       ],
-      "signals_en": "Unsolicited caller offering a new plastic/chip Medicare card, free back/knee brace, or DNA swab kit while asking for the owner's Medicare number, SSN or doctor details.",
-      "legit_en": "The owner's own clinic or pharmacy confirming an existing prescription or appointment without cold-calling for Medicare numbers.",
+      "signals_en": "Unsolicited caller offers a new plastic or chip Medicare card, free back or knee brace, or DNA genetic swab kit while asking for the owner's Medicare number, Social Security number, or physician details.",
+      "legit_en": "CMS Medicare mails replacement cards automatically for free and never cold-calls beneficiaries to sell products or request Medicare numbers unless the beneficiary called Medicare first.",
       "bait_tactics": [
-        "Act interested in the brace or new card, pretend your wallet is upstairs and slowly ask what colors or sizes the brace comes in",
-        "Mishear letters on the card and ask them to explain step by step how the chip card is different from the paper one"
+        "Act interested in the brace or new card, pretend your wallet is upstairs, and slowly ask what colors or sizes the brace comes in",
+        "Pretend to mishear the card format and ask them to explain step by step how a chip card differs from the paper card"
       ],
       "sources": [
-        "FTC",
-        "CMS Medicare",
-        "Hiya Global Call Threat Report"
+        "https://www.medicare.gov/basics/reporting-medicare-fraud-and-abuse",
+        "https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam",
+        "https://reportfraud.ftc.gov/"
       ]
     },
     {
@@ -63,7 +68,7 @@
       ],
       "red_flag_keywords": [
         {
-          "text": "social security number has been suspended",
+          "text": "suspended social security number",
           "weight": 2,
           "hard": true
         },
@@ -76,36 +81,140 @@
           "text": "prepaid debit voucher",
           "weight": 2,
           "hard": true
+        },
+        {
+          "text": "pay with gift cards",
+          "weight": 2,
+          "hard": true
         }
       ],
-      "signals_en": "Threatens arrest warrant or SSN suspension over unpaid taxes or a crime in Texas/border, demanding immediate payment via gift cards, wire, or crypto ATM.",
-      "legit_en": "Accountant or state office returning the owner's own tax inquiry without threats, gift cards, or arrest claims.",
+      "signals_en": "Caller threatens an arrest warrant, deportation, or Social Security number suspension over unpaid taxes or alleged border crimes, demanding immediate payment via gift cards, wire transfer, prepaid debit vouchers, or a Bitcoin ATM.",
+      "legit_en": "The IRS and Social Security Administration initiate official tax or benefit notices by US mail, never suspend Social Security numbers, never threaten arrest by phone, and never demand gift cards, wire transfers, or crypto.",
       "bait_tactics": [
-        "Sound flustered and cooperative, ask them to slowly spell out which tax year had the math error while looking for reading glasses",
-        "Ask convoluted questions about deductions and payment forms while pretending your car keys are missing"
+        "Sound flustered and cooperative, and ask them to slowly spell out which tax year had the filing error while looking for reading glasses",
+        "Ask detailed questions about standard deductions and official notice letters while pretending your car keys are missing"
       ],
       "sources": [
-        "IRS",
-        "SSA OIG",
-        "FTC"
+        "https://www.irs.gov/help/how-to-know-its-the-irs",
+        "https://oig.ssa.gov/scam-awareness/report-the-scam/",
+        "https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam"
+      ]
+    },
+    {
+      "id": "us_gold_bar_government_courier",
+      "typology": "fake_official",
+      "name": "FTC / Federal Reserve Gold-Bar & Cash Courier Scam",
+      "name_en": "Government imposter instructing victim to buy gold bars or hand cash to a courier for safekeeping",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "federal trade commission",
+        "inspector general",
+        "federal reserve",
+        "gold bars",
+        "compromised bank account",
+        "precious metals dealer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "buy gold bars",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "federal reserve safe",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "courier handover",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "withdraw cash for safekeeping",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Multi-stage imposter posing as bank security, FTC, FBI, or SSA OIG claims the victim's bank and retirement accounts are linked to identity theft, instructing them under strict secrecy to liquidate savings into cash or gold bars for in-person courier...",
+      "legit_en": "No US federal agency, inspector general, or bank ever tells citizens to withdraw cash, purchase gold bars, keep an investigation secret from family, or hand assets to a courier to 'protect' their money.",
+      "bait_tactics": [
+        "Sound anxious to cooperate, say your local bank branch requires advance notice for large withdrawals, and ask how gold bar serial numbers get logged",
+        "Pretend you cannot hear clearly and ask them to repeat the Treasury locker procedure from the beginning while looking for a notepad"
+      ],
+      "sources": [
+        "https://consumer.ftc.gov/features/how-avoid-imposter-scams",
+        "https://oig.ssa.gov/scam-awareness/report-the-scam/",
+        "https://www.ic3.gov/"
+      ]
+    },
+    {
+      "id": "us_missed_jury_duty_warrant",
+      "typology": "fake_official",
+      "name": "Fake Missed Jury Duty Bench Warrant & Fine Scam",
+      "name_en": "Fake sheriff or US Marshals call threatening arrest for missed jury duty unless paid immediately",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "missed jury duty",
+        "county sheriff",
+        "federal marshals",
+        "court summons",
+        "failure to appear"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bench warrant",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "contempt of court",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "prepaid voucher",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bitcoin kiosk",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller spoofing a county sheriff's office or US Marshals claims the recipient missed a federal or county jury duty summons and faces immediate arrest on a bench warrant or contempt of court citation unless a bond fine is paid via prepaid voucher...",
+      "legit_en": "US federal and county courts handle jury summonses strictly through official mail and never phone citizens to threaten arrest or demand fines via payment apps, prepaid vouchers, gift cards, or cryptocurrency kiosks.",
+      "bait_tactics": [
+        "Act surprised because you check your mailbox every afternoon, and ask which courthouse room and judge issued the summons",
+        "Say your printer is jammed and ask them to explain slowly how jury selection exemptions work in your county"
+      ],
+      "sources": [
+        "https://consumer.ftc.gov/consumer-alerts/2026/06/ignore-calls-texts-and-emails-threatening-arrest-you-missing-jury-duty",
+        "https://consumer.ftc.gov/articles/how-avoid-government-impersonation-scam",
+        "https://reportfraud.ftc.gov/"
       ]
     },
     {
       "id": "us_amazon_geek_zelle",
       "typology": "fake_bank_account_alert",
-      "name": "Amazon / Geek Squad Refund & Bank Zelle Safe-Account Scam",
-      "name_en": "Fake Amazon/Geek Squad unauthorized order or bank Zelle fraud-desk scam",
+      "name": "Amazon / Geek Squad Remote Support & Bank Zelle Refund Scam",
+      "name_en": "Fake Amazon or Geek Squad refund remote-access (AnyDesk/TeamViewer) and bank Zelle safe-account scam",
       "prevalence": "very_high",
       "lang": "en",
       "context_keywords": [
         "geek squad",
         "unauthorized order",
         "zelle",
-        "fraud department"
+        "fraud department",
+        "anydesk",
+        "teamviewer"
       ],
       "red_flag_keywords": [
         {
-          "text": "zelle the money to yourself",
+          "text": "zelle money to yourself",
           "weight": 2,
           "hard": false
         },
@@ -113,31 +222,42 @@
           "text": "accidental overpayment refund",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "install anydesk or teamviewer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "reverse unauthorized zelle",
+          "weight": 2,
+          "hard": false
         }
       ],
-      "signals_en": "Claims an unauthorized $999 iPhone/Geek Squad renewal hit the account, or spoofed bank fraud desk instructs victim to Zelle money 'to yourself' / safe locker or install AnyDesk.",
-      "legit_en": "Real card fraud desk asking yes/no whether a specific purchase was yours and offering to mail a replacement card, with no Zelle, code, or remote app.",
+      "signals_en": "Claims an unauthorized smartphone purchase or Geek Squad auto-renewal hit the account, asking the victim to install AnyDesk or TeamViewer for a 'refund' and faking an overpayment, or poses as a bank fraud desk telling the victim to Zelle money 'to...",
+      "legit_en": "Real retailers and bank fraud desks cancel unauthorized charges directly on their backend without remote-access tools like AnyDesk or TeamViewer and never instruct customers to send Zelle transfers to reverse a transaction.",
       "bait_tactics": [
-        "Act worried about the charge, pretend the banking or Amazon app is stuck loading on slow Wi-Fi, and ask every detail about the item model and shipping city",
-        "Pretend to misread screen buttons and ask them to walk through how Zelle reversal works from the beginning"
+        "Act worried about the renewal charge, pretend your computer or banking app is stuck loading on slow Wi-Fi, and ask every detail about the item model and shipping city",
+        "Pretend you cannot find the download button and ask them to walk through how Zelle reversal works from the very beginning"
       ],
       "sources": [
-        "FTC",
-        "FBI IC3",
-        "Hiya"
+        "https://consumer.ftc.gov/features/how-avoid-imposter-scams",
+        "https://reportfraud.ftc.gov/",
+        "https://www.ic3.gov/"
       ]
     },
     {
       "id": "us_ezpass_toll_scam",
       "typology": "fake_utility",
       "name": "Unpaid Toll Road / E-ZPass Suspension Scam",
-      "name_en": "Fake E-ZPass or state toll agency threatening late penalty or license suspension",
+      "name_en": "Fake E-ZPass or state toll agency threatening late penalty or registration suspension",
       "prevalence": "high",
       "lang": "en",
       "context_keywords": [
         "ezpass",
         "toll balance",
-        "turnpike"
+        "turnpike",
+        "sunpass"
       ],
       "red_flag_keywords": [
         {
@@ -146,20 +266,74 @@
           "hard": false
         },
         {
-          "text": "suspend your vehicle registration",
+          "text": "suspend vehicle registration",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay toll by phone",
           "weight": 2,
           "hard": false
         }
       ],
-      "signals_en": "Claims an unpaid road toll will trigger immediate late fees or DMV registration suspension unless paid right now via link or card over the phone.",
-      "legit_en": "State toll agencies mail paper invoices and never demand instant phone/link card entry under registration threats.",
+      "signals_en": "Claims an overdue road toll balance will trigger immediate late penalties or DMV vehicle registration suspension unless paid right now via an SMS link or card over the phone.",
+      "legit_en": "State toll agencies mail official paper invoices and let drivers check balances by logging into their verified state toll account rather than demanding urgent phone or text-link card payments.",
       "bait_tactics": [
-        "Act puzzled because you haven't driven on the highway in months and slowly describe two old cars in your garage to check which plate it was"
+        "Act puzzled because you have not driven on the turnpike in months and slowly describe two older cars in your garage to check which plate was billed",
+        "Ask which highway exit plaza recorded the toll while pretending to look for your glovebox registration slip"
       ],
       "sources": [
-        "FTC",
-        "FCC",
-        "FBI IC3 2025-2026"
+        "https://www.ic3.gov/",
+        "https://www.fcc.gov/consumers/guides/spoofing",
+        "https://reportfraud.ftc.gov/"
+      ]
+    },
+    {
+      "id": "us_es_irs_seguro_social",
+      "typology": "irs_ssa_impersonation",
+      "name": "Estafa de Impostores del IRS, Seguro Social y Banco (Zelle / Tarjetas de Regalo)",
+      "name_en": "Spanish-language IRS, Social Security, or bank arrest and account-freeze scam",
+      "prevalence": "high",
+      "lang": "es",
+      "context_keywords": [
+        "seguro social",
+        "impuestos atrasados",
+        "cuenta congelada",
+        "departamento de fraude",
+        "servicio de impuestos"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "orden de arresto",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tarjetas de regalo",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "seguro social suspendido",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "transferencia por zelle",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Spanish-speaking caller impersonates the IRS, Social Security Administration (Seguro Social), immigration officers, or a bank fraud desk, threatening immediate arrest or account freezing unless the victim pays via gift cards, Zelle, or wire transfer.",
+      "legit_en": "US government agencies (IRS, SSA) and legitimate banks never threaten arrest or deportation by phone and never ask Spanish-speaking residents to pay taxes or protect accounts using gift cards, Zelle, or wire transfers.",
+      "bait_tactics": [
+        "Diga con calma que la señal del teléfono se escucha entrecortada y pídale que repita despacio de qué oficina llama mientras busca sus espejuelos",
+        "Finja que la aplicación del banco está bloqueada cargando en pantalla y pregunte cómo se envía la carta oficial por correo postal"
+      ],
+      "sources": [
+        "https://consumidor.ftc.gov/estafadores-que-se-hacen-pasar-por-el-irs",
+        "https://www.irs.gov/help/how-to-know-its-the-irs",
+        "https://reportfraud.ftc.gov/"
       ]
     }
   ]

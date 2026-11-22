@@ -1,0 +1,207 @@
+{
+  "name": "Kazakhstan",
+  "name_local": "Қазақстан",
+  "iso": "kz",
+  "calling_code": "+7",
+  "languages": [
+    "kk",
+    "ru"
+  ],
+  "prevalence_note": "MVD RK (Polisia.kz), ARRFR (FinGramota.kz) & NBK 2025-2026: fake National Bank Antifraud Center or police 'safe account' and 'mirror loan' calls, plus eGov / TsON digital-signature (EDS) expiry and Kaspi SMS code / AnyDesk remote-access scams dominate.",
+  "cross_border_note": "Shares the +7 country code with Russia (Kazakh mobile ranges +7-70x / +7-747 / +7-77x); cross-border VoIP and WhatsApp video calls frequently spoof Kazakh bank and state agency numbers.",
+  "scams": [
+    {
+      "id": "kz_nbk_mvd_safe_account_ru",
+      "typology": "fake_official",
+      "name": "Звонок от «Нацбанка» или МВД РК («безопасный счет» и «зеркальный кредит»)",
+      "name_en": "Fake National Bank Antifraud or MVD police safe-account and mirror-loan call (Russian)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "национальный банк",
+        "антифрод центр",
+        "служба безопасности банка",
+        "подозрительная заявка",
+        "спецоперация полиции"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "безопасный счет",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "зеркальный кредит",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "страховая ячейка",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "никому не говорите",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller poses as National Bank of Kazakhstan Antifraud staff, MVD investigator, or bank security claiming a fraudulent loan was filed in the owner's name, demanding secrecy, a 'mirror loan', or cash transfer to a 'safe account'.",
+      "legit_en": "NBK Antifraud Center and Kazakh police never call individuals to take loans, transfer funds to safe accounts, or conduct secret phone operations.",
+      "bait_tactics": [
+        "Сделайте вид, что очень встревожены, но плохо слышите название департамента, и попросите медленно продиктовать должность по буквам.",
+        "Скажите, что очки остались в другой комнате, поэтому не можете прочитать уведомления на экране телефона.",
+        "Спросите, можно ли активировать запрет на кредиты самостоятельно через портал электронного правительства."
+      ],
+      "sources": [
+        "https://fingramota.kz/ru/post/zvonok-ot-imeni-egov-kak-moshenniki-ispolzuyut-gosudarstvennye-servisy-v-svoih-shemah",
+        "https://polisia.kz/ru/politsejskie-predotvratili-popytku-internet-moshennichestva-v-zko/",
+        "https://fingramota.kz/ru/post/moshenniki-vse-chashche-ispolzuyut-ii-kak-ne-stat-zhertvoj-obmana"
+      ]
+    },
+    {
+      "id": "kz_nbk_mvd_safe_account_kk",
+      "typology": "fake_official",
+      "name": "Ұлттық Банк немесе ІІМ атынан «қауіпсіз шот» және «айна несие» алаяқтығы",
+      "name_en": "Fake National Bank Antifraud or Police safe-account and mirror-loan call (Kazakh)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "ұлттық банк",
+        "антифрод орталығы",
+        "ішкі істер министрлігі",
+        "заңсыз несие",
+        "тергеу бөлімі"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "қауіпсіз шот",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "айна несие",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "қорғалған шотқа аудару",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "ешкімге айтпаңыз",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Kazakh-speaking caller claims to be from the National Bank Antifraud Center or police investigating an unauthorized loan, pressuring the victim to take a counter-loan or move funds to a 'safe account'.",
+      "legit_en": "The National Bank of Kazakhstan officially confirms its Antifraud Center never telephones private citizens or requests fund transfers.",
+      "bait_tactics": [
+        "Қатты алаңдағандай сыңай танытып, бөлімшенің атауын және лауазымын асықпай қайталап айтуын сұраңыз.",
+        "Мобильді қосымша ашылмай тұрғанын айтып, жақын жердегі банк бөлімшесіне өзіңіз баратыныңызды жеткізіңіз.",
+        "Көзілдірігіңізді таба алмай жатқаныңызды айтып, несие шартының тәртібін басынан түсіндіруді өтініңіз."
+      ],
+      "sources": [
+        "https://nationalbank.kz/kz/news/informacionnye-soobshcheniya/16901",
+        "https://polisia.kz/ru/politsejskie-predotvratili-popytku-internet-moshennichestva-v-zko/"
+      ]
+    },
+    {
+      "id": "kz_egov_kaspi_otp_ru",
+      "typology": "otp_theft",
+      "name": "Звонок от имени eGov / ЦОН или Kaspi с выманиванием SMS-кода и AnyDesk",
+      "name_en": "Fake eGov / TsON digital signature or Kaspi call demanding SMS code or remote app (Russian)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "портал egov",
+        "срок действия эцп",
+        "сотрудник цон",
+        "доставка заказного письма",
+        "приложение kaspi"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "продиктуйте код смс",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "установить приложение anydesk",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "перевыпуск эцп",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "код подтверждения",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Starts with a routine pretext from eGov, TsON, or Kazpost about an expiring digital signature (EDS) or letter delivery, asks for a 4/6-digit SMS code, then escalates to fake financial regulators demanding AnyDesk/TeamViewer.",
+      "legit_en": "Real TsON, eGov, and Kaspi.kz staff never call to request SMS confirmation codes, card CVVs, or remote-access apps.",
+      "bait_tactics": [
+        "Скажите, что на старом кнопочном телефоне экран треснул и цифры в сообщении совсем не видно.",
+        "Спросите, в каком именно отделении ЦОН вы подавали последнюю заявку, и попросите подождать, пока проверите квитанцию.",
+        "Сделайте вид, что интернет завис и страница обновления никак не загружается."
+      ],
+      "sources": [
+        "https://fingramota.kz/ru/post/zvonok-ot-imeni-egov-kak-moshenniki-ispolzuyut-gosudarstvennye-servisy-v-svoih-shemah",
+        "https://guide.kaspi.kz/client/ru/red/security/q15382"
+      ]
+    },
+    {
+      "id": "kz_kaspi_egov_otp_kk",
+      "typology": "otp_theft",
+      "name": "Kaspi немесе eGov / ХҚКО атынан SMS-код пен ЭЦҚ сұрау алаяқтығы",
+      "name_en": "Fake Kaspi or eGov / TsON call requesting SMS verification code or EDS renewal (Kazakh)",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "kaspi қызметкері",
+        "халыққа қызмет көрсету",
+        "эцқ кілті",
+        "жеке кабинет",
+        "төлемді растау"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "смс кодты айтыңыз",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "растау кодын жіберіңіз",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "эцқ мерзімі аяқталды",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "қосымшаны жүктеп алыңыз",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller in Kazakh poses as Kaspi.kz support or TsON/eGov specialist claiming the user's EDS key expired or an unauthorized Kaspi Gold transfer occurred, asking for the SMS confirmation code or CVV.",
+      "legit_en": "Official Kaspi.kz calls appear inside the Kaspi app notifications, and staff never ask for SMS codes, PINs, or CVV numbers.",
+      "bait_tactics": [
+        "Хабарлама келмегенін айтып, байланыс нашар болғандықтан сұрақты қайталап түсіндіруін өтініңіз.",
+        "Қазір Kaspi қосымшасындағы «Хабарламалар» бөлімін өзіңіз ашып тексеретініңізді айтып уақыт созыңыз.",
+        "Телефонның қуаты бітуге жақын екенін айтып, қуаттағышты іздегендей болыңыз."
+      ],
+      "sources": [
+        "https://guide.kaspi.kz/client/kz/app/security/q16394",
+        "https://nationalbank.kz/kz/news/informacionnye-soobshcheniya/16901"
+      ]
+    }
+  ]
+}

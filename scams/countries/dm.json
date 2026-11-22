@@ -1,0 +1,154 @@
+{
+  "name": "Dominica",
+  "name_local": "Dominica",
+  "iso": "dm",
+  "calling_code": "+1-767",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "ECCB, Commonwealth of Dominica Police Force (CDPF) & Ministry of National Security 2025-2026: ECCU bank/OTP phishing, advance-fee lottery and inheritance scams, fake fee-charging immigration/customs portals, and WhatsApp relative impersonation dominate.",
+  "cross_border_note": "Uses +1-767 within NANP and the ECCU; scammers frequently call from overseas +1 or WhatsApp numbers posing as banks, lottery officials, or travel/customs agents.",
+  "scams": [
+    {
+      "id": "dm_bank_otp_phishing",
+      "typology": "otp_theft",
+      "name": "ECCU Bank Security Alert & One-Time Password Vishing",
+      "name_en": "Fake bank fraud officer requesting OTP codes, card numbers, or login verification",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "unauthorized card transaction",
+        "online banking lock",
+        "verify account holder",
+        "security department call"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read one-time code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm card cvv",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click verification link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "account frozen today",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims to be from a commercial bank in Dominica alerting of suspicious account activity and requesting an SMS code, card CVV, or login through an emailed/texted link.",
+      "legit_en": "ECCB-supervised banks in Dominica never phone or text customers to ask for passwords, PINs, or one-time verification codes.",
+      "bait_tactics": [
+        "Tell them you will walk down to the Roseau branch in person to verify your account status.",
+        "Say your phone battery is almost flat and ask for their department so you can call the main bank switchboard back.",
+        "Pretend the SMS code is unreadable on your cracked screen."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu",
+        "https://cdpf.gov.dm/resources/crime-prevention-and-safety/crime-prevention-tips-for-businesses"
+      ]
+    },
+    {
+      "id": "dm_lottery_pyramid_scam",
+      "typology": "prize_lottery",
+      "name": "Advance-Fee Lottery Prize & Unlicensed Crypto Pyramid Scam",
+      "name_en": "ECCB-warned fake lottery win or zero-risk crypto recruitment scheme demanding upfront payment",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "sweepstakes cash prize",
+        "unclaimed lottery payout",
+        "high return investment",
+        "crypto trading club"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay release fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "upfront clearance charge",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "zero risk profit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "convert funds crypto",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller announces a surprise sweepstakes prize requiring upfront clearance fees, or pitches an unlicensed investment/pyramid club converting funds to cryptocurrency.",
+      "legit_en": "ECCB warns citizens never to pay fees to claim prizes and to verify investment licences with the ECSRC before sending funds.",
+      "bait_tactics": [
+        "Ask them to deduct the clearance charge from the prize payout and mail a certified bank draft.",
+        "Request their ECSRC regulatory licence status so you can check the official register.",
+        "Pretend you are searching for a pen and ask them to repeat the company registration details slowly."
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://cdpf.gov.dm/resources/crime-prevention-and-safety/crime-prevention-tips-for-businesses"
+      ]
+    },
+    {
+      "id": "dm_customs_immigration_whatsapp",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Immigration / Customs Fee & WhatsApp Relative Scam",
+      "name_en": "Unauthorized immigration/ED-form or customs parcel fee demand and WhatsApp impersonation",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "customs declaration form",
+        "immigration processing fee",
+        "detained gift parcel",
+        "stranded relative whatsapp"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay ed-form fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "wire customs duty",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "urgent money transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "click payment link",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller or message directs travelers/residents to pay fees for Dominica's free online ED immigration/customs card, pay private accounts for held parcels, or wire urgent funds to a cloned WhatsApp contact.",
+      "legit_en": "The Government of Dominica levies zero fees for online ED Immigration/Customs forms, and real family emergencies should be verified on known phone numbers.",
+      "bait_tactics": [
+        "Point out that Dominica's official ED form is free and ask which government ministry they claim to represent.",
+        "For a family emergency message, call the relative's saved mobile line directly before acting.",
+        "Say you will check at the Roseau customs port office in person."
+      ],
+      "sources": [
+        "https://nationalsecurity.gov.dm/component/content/article/online-immigration-and-customs-declaration-card-website-notice?catid=15&Itemid=119",
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+      ]
+    }
+  ]
+}

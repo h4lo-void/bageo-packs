@@ -7,7 +7,7 @@
     "ro"
   ],
   "prevalence_note": "Romanian Police and DNSC warnings 2025-2026: spoofed bank or police calls pushing a cancellation loan or a new account, the accident method with a courier collecting cash, and fake tax inspectors.",
-  "cross_border_note": "",
+  "cross_border_note": "Cross-border rings (including call centers in Moldova and Ukraine) heavily spoof +40 bank, Poliția Română, BNR, and ANAF numbers via VoIP and contact victims on WhatsApp from +373, +44, and other foreign prefixes.",
   "scams": [
     {
       "id": "ro_credit_de_anulare",
@@ -48,8 +48,8 @@
         "Întreabă liniștit de ce zi este cererea de credit și pentru ce sumă"
       ],
       "sources": [
-        "Poliția Română",
-        "DNSC"
+        "https://www.mai.gov.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-de-tip-spoofing/",
+        "https://sigurantaonline.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-prin-apeluri-telefonice-false-spoofed/"
       ]
     },
     {
@@ -88,8 +88,8 @@
         "Spune că trebuie să găsești ochelarii ca să notezi adresa"
       ],
       "sources": [
-        "Poliția Română",
-        "IGP Moldova"
+        "https://www.mai.gov.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-de-tip-spoofing/",
+        "https://igp.gov.md/"
       ]
     },
     {
@@ -108,6 +108,21 @@
           "text": "deblocăm contul după plată",
           "weight": 2,
           "hard": false
+        },
+        {
+          "text": "poprire pe conturi",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "plătiți datoria acum",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "evitați executarea silită",
+          "weight": 2,
+          "hard": false
         }
       ],
       "signals_en": "A fake tax inspector says the account is frozen for tax debts and will be unblocked once a payment is made through a link.",
@@ -117,8 +132,8 @@
         "Spune că nu găsești plicul de la ANAF și roagă-l să aștepte"
       ],
       "sources": [
-        "Poliția Română",
-        "DNSC"
+        "https://www.mai.gov.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-de-tip-spoofing/",
+        "https://sigurantaonline.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-prin-apeluri-telefonice-false-spoofed/"
       ]
     },
     {
@@ -150,8 +165,8 @@
         "Întreabă cât durează o retragere"
       ],
       "sources": [
-        "ASF",
-        "DNSC"
+        "Autoritatea de Supraveghere Financiară (ASF — 待補：政府網站封鎖境外連線無法驗證)",
+        "https://sigurantaonline.ro/politia-romana-directoratul-national-de-securitate-cibernetica-si-asociatia-romana-a-bancilor-avertizeaza-asupra-riscului-de-frauda-prin-apeluri-telefonice-false-spoofed/"
       ]
     }
   ]

@@ -1,0 +1,158 @@
+{
+  "name": "Sudan",
+  "name_local": "السودان",
+  "iso": "sd",
+  "calling_code": "+249",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "prevalence_note": "CBOS & Bank of Khartoum (Bankak / iBOK) 2025-2026: fake Bankak customer-service calls requesting OTPs or Transaction PIN (TPIN) resets, forged Bankak transfer receipts claiming mistaken transfers, and WhatsApp/USSD account-activation phishing dominate.",
+  "cross_border_note": "Due to mass displacement and diaspora remittances, Bankak impersonation calls frequently originate from foreign WhatsApp numbers alongside local +249 mobile lines.",
+  "scams": [
+    {
+      "id": "sd_bankak_otp_tpin_ar",
+      "typology": "otp_theft",
+      "name": "انتحال خدمة عملاء «بنكك» (Bankak) لطلب رمز OTP أو الرقم السري للمعاملات TPIN",
+      "name_en": "Fake Bank of Khartoum Bankak support call requesting OTP or TPIN reset (Arabic)",
+      "prevalence": "very_high",
+      "lang": "ar",
+      "context_keywords": [
+        "تطبيق بنكك",
+        "بنك الخرطوم",
+        "حسابك محظور",
+        "تحديث تطبيق بنكك",
+        "مركز اتصال مباشر"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رمز التحقق",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "الرقم السري للمعاملات",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "تفعيل جهاز جديد",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "أرسل الكود فورا",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Caller or WhatsApp agent impersonates Bank of Khartoum Mubasher support claiming the user's Bankak account is frozen or needs device activation, asking for the OTP, security answers, or Transaction PIN (TPIN).",
+      "legit_en": "Bank of Khartoum and CBOS-regulated providers never call or message via WhatsApp to request OTPs, passwords, or TPINs.",
+      "bait_tactics": [
+        "تظاهر بأن شبكة الإنترنت ضعيفة جداً وتطبيق بنكك لا يفتح حالياً، واطلب منه شرح المشكلة ببطء.",
+        "اسأله عن الفرع الذي فُتح فيه الحساب وتاريخ آخر معاملة للتأكد من هويته.",
+        "أخبره بأن الرسالة النصية لم تصل إلى الهاتف وأنك ستتصل برقم مباشر الرسمي للتحقق."
+      ],
+      "sources": [
+        "https://bankofkhartoum.com/sudan/ar/security-tips",
+        "https://bankofkhartoum.com/sudan/ar/news-detail/enable-security-questions-and-email-to-easily-recover-your-bankak-app",
+        "https://cbos.gov.sd/ar/content/%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D8%B1%D9%85%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D9%85%D9%88%D9%84-ussd"
+      ]
+    },
+    {
+      "id": "sd_mistaken_transfer_refund_ar",
+      "typology": "fake_shop_order_error",
+      "name": "احتيال الإشعار المزيف والتحويل بالخطأ عبر تطبيق «بنكك»",
+      "name_en": "Forged Bankak receipt and mistaken-transfer urgent refund scam (Arabic)",
+      "prevalence": "high",
+      "lang": "ar",
+      "context_keywords": [
+        "إشعار تحويل بنكك",
+        "حولت ليك بالغلط",
+        "مبلغ للعلاج",
+        "راجع حسابك البنكي"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "رجع المبلغ فورا",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "حول لحساب آخر",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "افتح رابط الإشعار",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "أرسل رمز الاسترجاع",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller claims they accidentally transferred urgent medical or family money to the user's Bankak account, sends a doctored screenshot or SMS, and pressures an immediate return transfer or reversal code before checking actual account balance.",
+      "legit_en": "Erroneous banking or USSD transfers in Sudan are resolved formally through the bank's official dispute procedure after verifying real ledger balances.",
+      "bait_tactics": [
+        "قل له بهدوء إنك ستتحقق أولاً من كشف الحساب الفعلي داخل تطبيق بنكك الرسمي قبل أي إجراء.",
+        "اسأله عن توقيت العملية واسم المدينة المحوَّل منها.",
+        "أخبره بأنك ستتواصل مع خدمة عملاء البنك لإجراء التسوية الرسمية بدلاً من التحويل اليدوي."
+      ],
+      "sources": [
+        "https://bankofkhartoum.com/sudan/ar/security-tips",
+        "https://cbos.gov.sd/ar/content/%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D8%AE%D8%AF%D9%85%D8%A9-%D8%A7%D9%84%D8%B1%D9%85%D9%88%D8%B2-%D8%A7%D9%84%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D8%B1%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D9%84%D9%87%D8%A7%D8%AA%D9%81-%D8%A7%D9%84%D9%85%D8%AD%D9%85%D9%88%D9%84-ussd"
+      ]
+    },
+    {
+      "id": "sd_bankak_impersonation_en",
+      "typology": "fake_bank_account_alert",
+      "name": "Bank of Khartoum Bankak Account Freeze & OTP Vishing Scam",
+      "name_en": "English-language Bank of Khartoum Bankak / iBOK account alert and OTP vishing scam",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "bank of khartoum",
+        "bankak app",
+        "ibok login",
+        "unauthorised transfer",
+        "mubasher support"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "share your otp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "reset transaction pin",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "click verification link",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "account temporarily blocked",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller speaking English poses as Bank of Khartoum digital security warning of suspicious Bankak or iBOK logins and asks for the one-time password, TPIN reset, or clicking an SMS/WhatsApp link.",
+      "legit_en": "Bank of Khartoum states it never requests passwords, card numbers, or OTPs via unsolicited calls, SMS, or untrusted platforms.",
+      "bait_tactics": [
+        "Say your mobile data connection keeps dropping and ask them to repeat their department name slowly.",
+        "Mention that you cannot read the SMS while on a voice call and will ring Mubasher support back directly.",
+        "Ask which branch originally issued your account so you can check your paper records first."
+      ],
+      "sources": [
+        "https://bankofkhartoum.com/sudan/news-detail/stay-protected-from-banking-fraud",
+        "https://bankofkhartoum.com/sudan/ar/security-tips"
+      ]
+    }
+  ]
+}
