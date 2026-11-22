@@ -1,0 +1,90 @@
+{
+  "region": "vn",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Clear, brief English; confirm key points; say Grab, Zalo, dong, district; follow up in writing; avoid rushed jargon.",
+    "zh": "英語清楚簡短，重點再確認；說 Grab、Zalo、盾、郡；常再用文字補一句，少用急促術語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Vietnam, keep light English; reply brightly, then add sure or okay, and switch how you say it.",
+        "zh": "跟在越南的熟友用輕鬆英語，先開朗接話再補 sure 或 okay，說法要換。"
+      },
+      "2": {
+        "en": "Stay friendly and unhurried; after they explain, add a mild got it, and leave room in case English is their second language too.",
+        "zh": "親切、不催；聽完補一句 got it，並留一點餘裕，因對方英語也可能是第二語言。"
+      },
+      "3": {
+        "en": "Daily business English in Vietnam should be a full clear sentence; use Grab, Zalo or dong, not Uber or Venmo as local defaults.",
+        "zh": "在越南的日常商務英語要講完整、清楚，用 Grab、Zalo、盾，不要把 Uber 當本地預設。"
+      },
+      "4": {
+        "en": "With offices or partners, keep Mr/Ms or a title and measured lines; show you understood first, e.g. I understand, a bit slower.",
+        "zh": "對機關或夥伴用 Mr／Ms 或職稱，句子穩、稍慢，先說 I understand 再談正事。"
+      },
+      "5": {
+        "en": "On contracts, banking or official matters, stay precise and brief; close each item with that's noted, and offer a written recap.",
+        "zh": "談合約、銀行或公務要準而短，各點用 that's noted 收束，並可用文字再確認，少用俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A bright stand-in for {owner} in Vietnam: short easy English, then say you'll pass the note along, phrasing changed each time.",
+        "zh": "代{owner}在越南接聽：用輕快英語短句，再說會把話帶過去，用詞常換。"
+      },
+      "2": {
+        "en": "Keep a warm, unhurried tone; thank them, write the note for {owner}, and close with I'll jot that down for them.",
+        "zh": "口氣暖、不催，先致謝再記下要給{owner}的話，用 I'll jot that down 收尾。"
+      },
+      "3": {
+        "en": "Like a careful office aide in Vietnam: answer the point in one full sentence, then confirm you will tell {owner}; skip bare OK.",
+        "zh": "像河內或西貢謹慎的辦公室助理：先完整回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A composed voice for {owner}: Mr/Ms and complete lines; restate why they called, then say you will forward the message.",
+        "zh": "代{owner}對越南公務或夥伴：用 Mr／Ms 與完整句子先覆述來意，再說會轉達。"
+      },
+      "5": {
+        "en": "For bank or official calls, keep titles and exact local terms (dong, Zalo, Grab); confirm the relay to {owner} is noted in full.",
+        "zh": "對銀行或公務來電保留稱謂，盾、Zalo、Grab 等詞要準，確認已完整轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hi, good to hear from you. What's happening?",
+      "Hello! I'm listening, that's okay.",
+      "Hello, good afternoon. Is this about the Grab? I've noted it.",
+      "Good afternoon. I understand, I'll look after this. Thank you.",
+      "Good afternoon. That's noted. I'll also recap it in writing."
+    ],
+    "a": [
+      "Hello! They're in a meeting; tell me and I'll pass it along!",
+      "Hello! I can take a message, please go ahead.",
+      "Hello, good afternoon. I'll jot this down and pass it on.",
+      "Good afternoon, thanks for calling. I'll forward your message.",
+      "Thank you for calling. I'll record everything and inform {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "叫車與外送常說 Grab，通訊與追蹤進度常靠 Zalo，比只靠電子郵件更常見。",
+    "貨幣用盾（dong／VND）；城市地址常提到郡、坊，不要硬套歐美的區名習慣。",
+    "商務英語宜慢、清楚、簡短，重要細節最好再用文字確認，避免一次丟很多術語。",
+    "電話裡可能夾 anh／chị 等稱呼，回覆保持客氣即可，不必改成完全西式直呼名字。"
+  ],
+  "sources": [
+    "https://www.trade.gov/country-commercial-guides/vietnam-business-travel",
+    "https://globalnegotiator.com/files/Vietnam-Doing-Business-Guide-UKTI.pdf",
+    "https://www.schweiz-vietnam.eda.admin.ch/dam/fr/eda-cms/Pqe4ZmQ9vZh5/Viet_Bus_Guide_2025_EN.pdf",
+    "https://vietnamkb.com/language"
+  ],
+  "uncertain": [
+    "河內與胡志明市商務英語流利程度與夾用越南語稱呼的比例，來源沒有統一數據。",
+    "電話中用 dong 還是 VND 的習慣，因行業與對方母語而異。"
+  ]
+}

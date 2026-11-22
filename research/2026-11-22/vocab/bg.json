@@ -1,0 +1,440 @@
+{
+  "region": "bg",
+  "vocab": {
+    "bg": {
+      "bank": [
+        {
+          "term": "превод",
+          "en": "a bank transfer (превод)"
+        },
+        {
+          "term": "карта",
+          "en": "a payment card (карта)"
+        },
+        {
+          "term": "токен",
+          "en": "a bank token or confirmation code in the app"
+        },
+        {
+          "term": "интернет банкиране",
+          "en": "online or app banking (интернет банкиране)"
+        },
+        {
+          "term": "сметка",
+          "en": "a bank account (сметка)"
+        },
+        {
+          "term": "салдо",
+          "en": "the balance (салдо)"
+        },
+        {
+          "term": "instant превод",
+          "en": "an instant transfer, now common between Bulgarian banks"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "офис на Еконт",
+          "en": "an Econt office, a default pickup place"
+        },
+        {
+          "term": "автомат",
+          "en": "a parcel locker, also Еконт автомат or Спиди автомат"
+        },
+        {
+          "term": "при съседа",
+          "en": "leave it with the neighbour (при съседа)"
+        },
+        {
+          "term": "Спиди",
+          "en": "Speedy, another carrier people name as often as Econt"
+        },
+        {
+          "term": "Български пощи",
+          "en": "the national post (Български пощи)"
+        },
+        {
+          "term": "куриер",
+          "en": "the courier (куриер)"
+        },
+        {
+          "term": "до входа",
+          "en": "at the building entrance"
+        }
+      ],
+      "government": [
+        {
+          "term": "НАП",
+          "en": "the tax authority, also a ПИК code for its portal"
+        },
+        {
+          "term": "ЕГН",
+          "en": "the personal number; do not recite it unless {owner} wants it checked"
+        },
+        {
+          "term": "лична карта",
+          "en": "the ID card (лична карта)"
+        },
+        {
+          "term": "Evrotrust",
+          "en": "a qualified e-signature app many Bulgarian banks and agencies accept"
+        },
+        {
+          "term": "паспорт",
+          "en": "a passport (паспорт)"
+        },
+        {
+          "term": "шофьорска книжка",
+          "en": "a driving licence (шофьорска книжка)"
+        },
+        {
+          "term": "НЗОК",
+          "en": "the health-insurance fund, often named in official talk"
+        }
+      ],
+      "health": [
+        {
+          "term": "личен лекар",
+          "en": "the GP (личен лекар)"
+        },
+        {
+          "term": "аптека",
+          "en": "a pharmacy (аптека) — on a Bulgarian call"
+        },
+        {
+          "term": "рецепта",
+          "en": "a prescription, also електронна рецепта"
+        },
+        {
+          "term": "номер на НЗОК",
+          "en": "health-insurance cover, also здравна книжка in older speech"
+        },
+        {
+          "term": "спешно",
+          "en": "emergency care, also Пирогов in Sofia as a shorthand some people use"
+        },
+        {
+          "term": "поликлиника",
+          "en": "an outpatient clinic"
+        },
+        {
+          "term": "болничен",
+          "en": "a sick note, also болничен лист"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "план",
+          "en": "a mobile plan, also абонамент"
+        },
+        {
+          "term": "ваучер",
+          "en": "prepaid credit (ваучер)"
+        },
+        {
+          "term": "преносимост",
+          "en": "keeping the number (преносимост)"
+        },
+        {
+          "term": "SIM карта",
+          "en": "a SIM (SIM карта)"
+        },
+        {
+          "term": "оператор",
+          "en": "the operator, often A1, Yettel or Vivacom"
+        },
+        {
+          "term": "мобилни данни",
+          "en": "mobile data (мобилни данни)"
+        },
+        {
+          "term": "домашен интернет",
+          "en": "home broadband (домашен интернет)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "карта",
+          "en": "card at the terminal (карта)"
+        },
+        {
+          "term": "в брой",
+          "en": "cash (в брой)"
+        },
+        {
+          "term": "превод",
+          "en": "a transfer (превод)"
+        },
+        {
+          "term": "наложен платеж",
+          "en": "cash on delivery, still common with Econt"
+        },
+        {
+          "term": "контактless",
+          "en": "contactless, also доближи картата"
+        },
+        {
+          "term": "сметка",
+          "en": "a bill"
+        },
+        {
+          "term": "Revolut",
+          "en": "named by some younger callers, not a default for everyone"
+        }
+      ],
+      "transport": [
+        {
+          "term": "метро",
+          "en": "the Sofia metro; do not assume it in other cities"
+        },
+        {
+          "term": "автобус",
+          "en": "a bus (автобус) — on a Bulgarian call"
+        },
+        {
+          "term": "трамвай",
+          "en": "a tram, in Sofia and a few other cities"
+        },
+        {
+          "term": "тролей",
+          "en": "a trolleybus (тролей)"
+        },
+        {
+          "term": "влак",
+          "en": "a train, also БДЖ"
+        },
+        {
+          "term": "такси",
+          "en": "a taxi (такси) — on a Bulgarian call"
+        },
+        {
+          "term": "карта за транспорт",
+          "en": "a city travel card, Sofia has its own electronic card"
+        }
+      ],
+      "housing": [
+        {
+          "term": "апартамент",
+          "en": "a flat (апартамент)"
+        },
+        {
+          "term": "вход",
+          "en": "the entrance or stairwell of a block"
+        },
+        {
+          "term": "звънец",
+          "en": "the doorbell (звънец)"
+        },
+        {
+          "term": "пощенска кутия",
+          "en": "the letterbox (пощенска кутия)"
+        },
+        {
+          "term": "наем",
+          "en": "the rent (наем)"
+        },
+        {
+          "term": "домоуправител",
+          "en": "the building manager (домоуправител)"
+        },
+        {
+          "term": "етаж",
+          "en": "the floor (етаж)"
+        },
+        {
+          "term": "гарсониера",
+          "en": "a studio flat, a very common Bulgarian word"
+        }
+      ],
+      "school": [
+        {
+          "term": "детска градина",
+          "en": "kindergarten (детска градина)"
+        },
+        {
+          "term": "основно училище",
+          "en": "primary school (основно училище)"
+        },
+        {
+          "term": "занималня",
+          "en": "after-school care (занималня)"
+        },
+        {
+          "term": "гимназия",
+          "en": "secondary school (гимназия)"
+        },
+        {
+          "term": "домашна работа",
+          "en": "homework (домашна работа)"
+        },
+        {
+          "term": "класен ръководител",
+          "en": "the class teacher (класен ръководител)"
+        },
+        {
+          "term": "университет",
+          "en": "university, also универ"
+        }
+      ],
+      "money": [
+        {
+          "term": "евро",
+          "en": "euro, legal tender since 1 January 2026"
+        },
+        {
+          "term": "стотинки",
+          "en": "cents, some people still say стотинки from the lev years"
+        },
+        {
+          "term": "в брой",
+          "en": "cash (в брой)"
+        },
+        {
+          "term": "ресто",
+          "en": "the change (ресто)"
+        },
+        {
+          "term": "сума",
+          "en": "the amount (сума) — on a Bulgarian call"
+        },
+        {
+          "term": "лев",
+          "en": "the old currency; some older callers still convert in leva"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "сутринта",
+          "en": "in the morning (сутринта)"
+        },
+        {
+          "term": "следобед",
+          "en": "in the afternoon (следобед)"
+        },
+        {
+          "term": "вечерта",
+          "en": "in the evening (вечерта)"
+        },
+        {
+          "term": "делник",
+          "en": "a weekday (делник)"
+        },
+        {
+          "term": "уйкенд",
+          "en": "the weekend, also почивните дни"
+        },
+        {
+          "term": "след работа",
+          "en": "after work (след работа)"
+        },
+        {
+          "term": "тази седмица",
+          "en": "this week (тази седмица)"
+        },
+        {
+          "term": "утре сутрин",
+          "en": "tomorrow morning (утре сутрин)"
+        }
+      ],
+      "work": [
+        {
+          "term": "работа",
+          "en": "work (работа) — on a Bulgarian call"
+        },
+        {
+          "term": "извънреден",
+          "en": "overtime, also извънреден труд"
+        },
+        {
+          "term": "отпуск",
+          "en": "annual leave, also годишен отпуск"
+        },
+        {
+          "term": "болничен",
+          "en": "sick leave (болничен)"
+        },
+        {
+          "term": "шеф",
+          "en": "the boss, also ръководител"
+        },
+        {
+          "term": "работа от вкъщи",
+          "en": "working from home (работа от вкъщи)"
+        },
+        {
+          "term": "командировка",
+          "en": "a business trip (командировка) — on a Bulgarian call"
+        },
+        {
+          "term": "заплата",
+          "en": "the salary (заплата)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "лев 當現行唯一法定貨幣",
+      "use_instead": "евро（2026 年 1 月起；2 月 1 日起列弗不再是法定貨幣）",
+      "where_it_is_from": "BG"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "превод, карта",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "автомат, офис на Еконт",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "токен, ПИК на НАП, лична карта",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "лей 羅馬尼亞貨幣名",
+      "use_instead": "евро，或舊名 лев",
+      "where_it_is_from": "RO"
+    },
+    {
+      "word": "метро 套用到所有城市",
+      "use_instead": "只有索非亞有 метро",
+      "where_it_is_from": "BG"
+    },
+    {
+      "word": "dinari",
+      "use_instead": "евро",
+      "where_it_is_from": "RS"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "превод",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "InPost",
+      "use_instead": "Еконт, Спиди, автомат",
+      "where_it_is_from": "PL"
+    },
+    {
+      "word": "ЕГН 主動朗讀",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "BG"
+    }
+  ],
+  "sources": [
+    "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260101~c830245e42.en.html",
+    "https://www.ecb.europa.eu/euro/changeover/bulgaria/html/index.en.html",
+    "https://www.bta.bg/en/news/economy/1054821-january-31-marks-end-of-lev-as-legal-tender",
+    "https://www.econt.com/",
+    "https://www.nra.bg/",
+    "https://www.nhif.bg/"
+  ],
+  "uncertain": [
+    "保加利亞已於 2026 年 1 月 1 日採用歐元，2 月 1 日起列弗不再是法定貨幣，但年長來電者仍可能用列弗報價。",
+    "Пирогов 只是索非亞急診的口頭簡稱，不是全國通用醫院名。",
+    "е-政府入口名稱因機構而異，電話裡更常直接說 НАП 或具體部門。"
+  ]
+}

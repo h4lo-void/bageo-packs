@@ -1,0 +1,87 @@
+{
+  "country": "pe",
+  "parent": "latam",
+  "name": {
+    "en": "Peru",
+    "native": "Perú",
+    "zh": "祕魯"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portería, a bodega, a neighbour, or a courier agency",
+    "zh": "包裹交給 portería、雜貨店、鄰居，或到快遞點領"
+  },
+  "readback": {
+    "en": "Mobiles often start with 9, in short groups; 0 as cero; day-month dates; soles",
+    "zh": "手機常以 9 開頭再分短組唸，0 唸 cero；日期先日後月；用索爾"
+  },
+  "fraud": {
+    "en": "A fake BCP, Yape or Plin call asking for codes, or a prize story, is a scam",
+    "zh": "假冒 BCP、Yape 或 Plin 要驗證碼，或說中獎，都是詐騙"
+  },
+  "habits": {
+    "en": "Tú with peers, usted with elders or offices. Vos is rare. Transfers often use Yape or Plin. Amounts in soles, not pesos.",
+    "zh": "同輩 tú，長輩或機關 usted。vos 很少見。轉帳常用 Yape 或 Plin。金額用索爾，不說比索。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Yape spinning, weak hillside signal, or misplaced glasses.",
+    "zh": "卡在 Yape 一直轉、山坡收訊差，或眼鏡放錯地方。"
+  },
+  "vocab": {
+    "bank": [
+      "Yape",
+      "Plin",
+      "BCP",
+      "clave",
+      "transferencia"
+    ],
+    "delivery": [
+      "portería",
+      "bodega",
+      "agencia",
+      "vecino",
+      "Olva"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "peso 當貨幣",
+      "reason": {
+        "zh": "祕魯貨幣是索爾（sol），不能說成比索。"
+      }
+    },
+    {
+      "word": "vos 當預設",
+      "reason": {
+        "zh": "祕魯多數用 tú／usted，vos 不是全國預設。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "The tú/usted scale is close to the parent. Change app and money talk: Yape and Plin, soles, not Nequi or pesos. Keep levels 4–5 as formal usted.",
+    "zh": "tú／usted 分檔接近所屬地區。要改的是錢包與貨幣：說 Yape、Plin 和索爾，不要說 Nequi 或比索。4～5 格維持正式 usted。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://andina.pe/agencia/noticia-estafadores-usan-llamadas-otros-paises-para-enganar-y-acceder-a-tus-cuentas-bancarias-1078495.aspx"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "此次未打開 Yape／BCP 官方防詐專頁，詐騙與錢包名稱依新聞與常見用法。",
+    "手機以 9 開頭再分組的唸法未找到電信官方規範。",
+    "部分安地斯地區是否仍有 vos，未再查最新方言調查。"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lang": "id",
+  "backchannels": {
+    "direction": "Iya and he'eh show listening; oh gitu acknowledges news; iya iya iya said fast can sound impatient.",
+    "examples": [
+      {
+        "text": "Iya, Pak.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "He'eh.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Oh, gitu.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Betul sekali, Bu.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Iya iya iya.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Masa? or Oh ya? for surprise; turut prihatin / turut berduka for sympathy; selamat ya for good news.",
+    "examples": [
+      {
+        "text": "Masa sih?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Oh ya? Serius?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Saya turut prihatin.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Wah, selamat ya!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Agak repot juga itu.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the signal is bad (sinyalnya jelek) or the voice breaks (putus-putus), then request lebih keras.",
+    "examples": [
+      {
+        "text": "Maaf, suaranya kurang jelas.",
+        "style": "polite"
+      },
+      {
+        "text": "Sinyalnya jelek di sini.",
+        "style": "casual"
+      },
+      {
+        "text": "Suara Bapak putus-putus.",
+        "style": "polite"
+      },
+      {
+        "text": "Bisa lebih keras sedikit, Bu?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Gimana? or Maaf, bagaimana? asks for a replay; ask names to be dieja; echo the nomor.",
+    "examples": [
+      {
+        "text": "Maaf, bagaimana tadi?",
+        "style": "polite"
+      },
+      {
+        "text": "Gimana?",
+        "style": "casual"
+      },
+      {
+        "text": "Namanya dieja bagaimana, Pak?",
+        "style": "polite"
+      },
+      {
+        "text": "Nomornya 12345678, betul?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Dengan siapa saya bicara? or Ini dari mana ya? is polite; Siapa nih? is casual.",
+    "examples": [
+      {
+        "text": "Maaf, dengan siapa saya bicara?",
+        "style": "polite"
+      },
+      {
+        "text": "Ini dari mana ya, Pak?",
+        "style": "polite"
+      },
+      {
+        "text": "Ini nomor {owner}, boleh tahu siapa?",
+        "style": "polite"
+      },
+      {
+        "text": "Siapa nih?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say salah sambung and nobody of that name lives here; short.",
+    "examples": [
+      {
+        "text": "Maaf, sepertinya salah sambung.",
+        "style": "polite"
+      },
+      {
+        "text": "Di sini tidak ada yang namanya itu.",
+        "style": "polite"
+      },
+      {
+        "text": "Salah sambung, Mas.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Saya sampaikan tells them {owner} hears of it; give no hour for a reply.",
+    "examples": [
+      {
+        "text": "Pesannya nanti saya sampaikan ke {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Oke, nanti saya kabari.",
+        "style": "casual"
+      },
+      {
+        "text": "Akan saya teruskan, Bu.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Thank them (makasih) then tidak tertarik; Indonesians prefer a soft maaf before a no.",
+    "examples": [
+      {
+        "text": "Maaf, Pak, saya tidak tertarik.",
+        "style": "polite"
+      },
+      {
+        "text": "Terima kasih, kami belum perlu.",
+        "style": "polite"
+      },
+      {
+        "text": "Nggak dulu deh, makasih.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they keep pushing, cite the earlier refusal and ask them to hapus nomor ini from their data.",
+    "examples": [
+      {
+        "text": "Tadi sudah saya bilang, tidak tertarik.",
+        "style": "polite"
+      },
+      {
+        "text": "Tolong jangan telepon nomor ini lagi.",
+        "style": "polite"
+      },
+      {
+        "text": "Mohon hapus nomor ini dari data Anda.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Bapak/Pak and Ibu/Bu for strangers; Mas/Mbak for younger adults (Java); avoid kamu with elders.",
+    "examples": [
+      {
+        "text": "Pak",
+        "style": "polite"
+      },
+      {
+        "text": "Bu",
+        "style": "polite"
+      },
+      {
+        "text": "Mas",
+        "style": "casual"
+      },
+      {
+        "text": "Mbak",
+        "style": "casual"
+      },
+      {
+        "text": "Kakak",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Terima kasih telah menghubungi layanan pelanggan sound like a call centre.",
+    "examples": [
+      {
+        "text": "Terima kasih telah menghubungi layanan pelanggan kami.",
+        "style": "polite"
+      },
+      {
+        "text": "Ada yang bisa saya bantu?",
+        "style": "polite"
+      },
+      {
+        "text": "Panggilan Anda sangat berarti bagi kami.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using lo/gue or kamu with elders, or asking religion, salary or marital status early is rude.",
+    "examples": [
+      {
+        "text": "Lo siapa sih?",
+        "style": "casual"
+      },
+      {
+        "text": "Agamanya apa?",
+        "style": "casual"
+      },
+      {
+        "text": "Gajinya berapa?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/halo",
+    "https://en.wikipedia.org/wiki/Indonesian_language",
+    "https://en.wiktionary.org/wiki/bapak"
+  ],
+  "uncertain": [
+    "Formal Indonesian vs Jakarta colloquial (gue/lo) differ sharply; examples mix standard and light colloquial",
+    "Backchannels (iya, oh gitu, he'eh, betul) from usage, no call corpus",
+    "Pak/Bu as default address is safe but age guess may be off"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "region": "cd-cg-cm-ga-cf-td-bi",
+  "lang": "ar",
+  "why_added": "查德以阿拉伯語與法語同為官方語言；本區其他國家阿拉伯語使用較少。區包預設為法語。",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "نعم، تفضل."
+  },
+  "habits": {
+    "en": "Formal address with strangers; keep blessings brief. Strongest in Chad. Money is CFA. French office names may stay.",
+    "zh": "對生人用較正式稱呼，祝福語要短。主要在查德。當地貨幣是 CFA。法語機關名可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "N’Djamena friend: looser Arabic, short lines. Leave French street names; cash is CFA, not Gulf dirhams.",
+        "zh": "恩賈梅納熟友可用較輕鬆的阿拉伯語，句子短。法語街名照留；錢是 CFA，不是海灣迪拉姆。"
+      },
+      "2": {
+        "en": "Warm Chadian tone. A French title they used stays; do not force Gulf dialect greetings.",
+        "zh": "查德較熟的口氣。對方的法語職銜照留；不要改成海灣方言招呼。"
+      },
+      "3": {
+        "en": "Everyday Arabic in Chad (often Chadian Arabic). Finish each point; the franc is CFA, and French nouns are common.",
+        "zh": "查德日常阿拉伯語（常為查德方言）。把話說完；法郎是 CFA，常夾法語名詞。"
+      },
+      "4": {
+        "en": "Polite formal Arabic for offices. Confirm CFA amounts; keep French document titles if that is how they appeared.",
+        "zh": "對機關用較正式的阿拉伯語。金額用 CFA；文件若是法語標題就照用。"
+      },
+      "5": {
+        "en": "Formal register for government desks. This is not Modern Standard only, but avoid Gulf bureaucratic slogans.",
+        "zh": "面對公家用較莊重的語體。不必只說現代標準阿拉伯語，但不要套用海灣公文口號。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup if they were informal, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方口氣輕鬆才跟著輕鬆，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave CFA or a French office name as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。CFA 或法語機關名照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the CFA point in one full Arabic sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句阿拉伯語重述 CFA 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary in formal Arabic: note why they called, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用較正式的阿拉伯語：記下來電原因，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on CFA and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：CFA 與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ألو، ما زلت في نجامينا؟",
+      "نعم، أسمعك، تفضل.",
+      "ألو، السلام عليكم. هل الموضوع عن الفرنك؟",
+      "السلام عليكم، شكراً لاتصالك. المبلغ بالـ CFA واضح.",
+      "السلام عليكم، شكراً. سجلت موضوع المكتب."
+    ],
+    "a": [
+      "ألو، {owner} ليس موجوداً، قل لي وسأبلغه.",
+      "ألو، مرحبا. أنا على الهاتف، ما الرسالة؟",
+      "ألو، السلام عليكم. سأنقل كلامك إلى {owner}.",
+      "السلام عليكم، شكراً لاتصالك. سأبلغ {owner} بأمر الـ CFA.",
+      "السلام عليكم، شكراً. سأكتب التفاصيل وأبلغه."
+    ]
+  },
+  "diff_from_home": [
+    "此組合主要對應查德：阿拉伯語與法語同為官方語言，貨幣是 CFA，不是里亞爾或埃鎊。",
+    "查德阿拉伯語常夾法語機關與街名，不必改成中東慣用譯名。",
+    "不要預設海灣或埃及口語為當地習慣；祝福語保持簡短。",
+    "本區其餘六國並不以阿拉伯語為官方語言，不能把查德習慣套到全區。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/chad/",
+    "https://www.cia.gov/the-world-factbook/countries/cameroon/"
+  ],
+  "uncertain": [
+    "查德阿拉伯語（Chadian Arabic）與現代標準阿拉伯語、埃及方言的差異很大，公開電話語料很少，不能規定固定開場白。",
+    "喀麥隆極北部與中非部分地區也有阿拉伯語使用，但比重與場合缺少新的分國統計。",
+    "AI 輸出的是支援清單中的阿拉伯語，無法保證呈現查德方言語音。"
+  ]
+}

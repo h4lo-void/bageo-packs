@@ -1,0 +1,57 @@
+{
+  "country": "ss",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "South Sudan",
+    "native": "South Sudan",
+    "zh": "南蘇丹"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+211",
+    "currency": "南蘇丹鎊 SSP；大額交易常見美元",
+    "time_zone": "UTC+2，自 2021 年 2 月 1 日起改用中部非洲時間，比父區東非時間慢 1 小時",
+    "language": "官方語為英語；朱巴阿拉伯語是城市間通用語，電話常在兩者間切換"
+  },
+  "habits": {
+    "en": "Open in English; follow Juba Arabic callers. Cash and US dollars are common; times are UTC+2, an hour behind Kenya.",
+    "zh": "先用英語；對方說朱巴阿拉伯語就跟著說。現金與美元很常見；時間是 UTC+2，比肯亞慢一小時。"
+  },
+  "vocab": {
+    "bank": [
+      "cash",
+      "US dollars",
+      "mobile money"
+    ],
+    "delivery": [
+      "boda boda",
+      "pick-up point"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "zh": "肯亞的行動錢包，不是南蘇丹的預設工具"
+      }
+    },
+    {
+      "word": "Swahili 寒暄",
+      "reason": {
+        "zh": "南蘇丹通用的是英語與朱巴阿拉伯語，斯瓦希里語不普遍"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Time_in_South_Sudan",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_South_Sudan",
+    "https://en.wikipedia.org/wiki/South_Sudanese_pound",
+    "https://en.wikipedia.org/wiki/Juba_Arabic"
+  ],
+  "uncertain": [
+    "當地行動錢包品牌與普及度沒有開到官方頁面，所以 vocab 只寫通稱 mobile money。",
+    "南蘇丹通訊主管機關網站未能開啟，號碼格式只依維基百科。",
+    "門牌與收件習慣缺少可靠資料。"
+  ]
+}

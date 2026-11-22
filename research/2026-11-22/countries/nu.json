@@ -1,0 +1,45 @@
+{
+  "country": "nu",
+  "parent": "au-nz",
+  "name": {
+    "en": "Niue",
+    "native": "Niue",
+    "zh": "紐埃"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+683",
+    "currency": "紐西蘭元（紐埃元與紐元 1:1，少流通）",
+    "time_zone": "UTC-11，與紐西蘭日期不同",
+    "language": "官方語為紐埃語與英語",
+    "population": "2022 年普查約 1,681 人"
+  },
+  "habits": {
+    "en": "Niuean or English; follow the caller. Date is a day behind New Zealand; confirm day and time.",
+    "zh": "說紐埃語或英語，跟著對方。日期比紐西蘭晚一天，要確認日期與時間。"
+  },
+  "vocab": {
+    "bank": [
+      "NZ$"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "NZ 時間",
+      "reason": {
+        "zh": "紐埃在換日線另一側"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gov.nu/",
+    "https://en.wikipedia.org/wiki/Niue"
+  ],
+  "uncertain": [
+    "收件與付款習慣未查。"
+  ]
+}

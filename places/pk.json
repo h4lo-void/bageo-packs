@@ -1,0 +1,807 @@
+{
+  "region": "pk",
+  "countries": [
+    "pk"
+  ],
+  "region_name_zh": "巴基斯坦",
+  "region_name": "Pakistan",
+  "languages": [
+    {
+      "code": "ur",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "secondary"
+    }
+  ],
+  "ai_language_tip": "Speak polite Urdu (ur) with 'aap'; mixing in English words (booking, appointment, order) is normal; switch to English at hotels, hospitals and corporate lines if staff prefers; owners often text in Roman Urdu on WhatsApp; Punjabi, Sindhi and Pashto speakers usually also understand Urdu.",
+  "english_ok": "sometimes — Widely used by hotels, private hospitals, banks and offices in Karachi, Lahore and Islamabad; limited at small shops, mechanics and in smaller towns.",
+  "politeness": "Open with 'Assalam-o-alaikum', use 'aap' and 'ji' ('haan ji'); 'sahab'/'bhai' for men and 'baji'/'madam' for women; mention you are calling on behalf of someone; close with 'shukriya, Allah Hafiz'.",
+  "name_tip": "Give the full name as written on the booking; patients are often booked by name and age; women's bookings at parlours and clinics are commonly under the woman's own name, not a male relative's; spell English letters for chain/hotel bookings.",
+  "phone_tip": "Mobile 03XX 123 4567 style (11 digits starting 03; +92 drops the 0); landline 042 1234 5678 (city code); businesses usually run on WhatsApp on the same mobile; SMS for confirmations.",
+  "time_tip": "CRITICAL: 'ساڑھے سات' = 7:30, 'سوا سات' = 7:15, 'پونے آٹھ' = 7:45, 'ڈیڑھ' = 1:30, 'ڈھائی' = 2:30; no AM/PM, so day-part words (صبح/دوپہر/شام/رات) decide it; dinner at 21:00–22:00 is normal; read back with the day part.",
+  "number_tip": "Urdu numbers 1–100 are irregular words; 'ڈیڑھ' = 1.5 and 'ڈھائی' = 2.5 (time and money); prices often in 'hazaar' (thousand) and 'lakh' (100,000); read phone numbers in groups (03XX 123 4567).",
+  "avoid_calling": "Avoid Friday Jumma prayer break (about 13:00–14:30), Ramadan iftar time and the hour after, restaurant peaks 13:30–15:00 and 21:00–23:00 (dinner runs late), and calls before 10:00 to shops, which open late.",
+  "closed_days": "Federal government offices close Sat–Sun; provinces and private firms vary; markets in big cities each have a weekly closed day (varies by city and market); Eid-ul-Fitr and Eid-ul-Adha bring several closed days; Muharram 9–10 (Ashura) closures.",
+  "booking_channels": "Doctors via oladoc and Marham (both also book by helpline) or the clinic receptionist; food via foodpanda; rides via Careem, inDrive, Bykea and Yango; shopping on Daraz and Instagram/Facebook pages with cash on delivery; payments by JazzCash, Easypaisa or bank transfer.",
+  "voice_menu": "Telecoms (Jazz, Zong, Telenor/Ufone), banks, JazzCash/Easypaisa, NADRA and airlines use Urdu/English IVR; clinics, shops and restaurants are usually answered by a person.",
+  "callback_habits": "Shops and service providers commonly reply or confirm by WhatsApp voice note or message from a mobile; oladoc/Marham confirm by SMS; couriers (TCS, Leopards) phone before delivery.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "室內運動場（futsal、板球網場）、遊樂設施與農場度假屋（farmhouse）常可電話或 WhatsApp 預訂時段，週末與假日需提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Futsal or farmhouse slot needs advance to secure it"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Amusement park tickets sold only at the gate"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full advance to a personal wallet before confirming"
+        }
+      ],
+      "usually_asked": [
+        "Activity, court or farmhouse",
+        "Date and time slot (often night slots)",
+        "Number of players or guests",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "女性美容院（parlour）與男士理髮店多可電話或 WhatsApp 約，新娘妝與 Eid 前檔期緊張且常收訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bridal or mehndi-night makeup needs an advance and date lock"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Gents' barbers take walk-ins without booking"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests advance to an unverified personal wallet number"
+        }
+      ],
+      "usually_asked": [
+        "Service (haircut, facial, threading, waxing, bridal, mehndi)",
+        "Ladies' parlour or gents' salon",
+        "Preferred day and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消直接打給店家或診所櫃台；oladoc 預約可在 App 內於 24 小時前改期；訂金通常不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance for an event is non-refundable"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "oladoc allows rescheduling up to 24 hours before"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks transaction ID of the JazzCash/Easypaisa advance"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile on the booking",
+        "Original date and time",
+        "New preferred time",
+        "Booking ID if via oladoc or Marham"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "醫師多在私人診所傍晚至夜間看診，櫃台以電話登記時段或號碼；也可透過 oladoc、Marham 網站或熱線代約，oladoc 預約可在 24 小時前改期或取消。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Receptionist gives a token number for the evening clinic"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor not sitting that day; receptionist offers another evening"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNIC number or previous reports in detail"
+        }
+      ],
+      "usually_asked": [
+        "Patient name and age",
+        "New or follow-up visit (fee differs)",
+        "Which doctor and which clinic or hospital",
+        "Evening slot preferred",
+        "Mobile number for SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、電力（DISCO）與錢包客服有 IVR 且須本人核身，代理人多只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank or telco serves only the account holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNIC number, PIN, OTP or account number"
+        }
+      ],
+      "usually_asked": [
+        "IVR language choice (Urdu or English)",
+        "Account, consumer or reference number",
+        "Account holder verification",
+        "Complaint details"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "身分證（CNIC）換發、修改與補發可用 NADRA 的 Pak ID App 線上辦，新辦須到場；聯邦機關週一至週四有午間禮拜休息，週五午休較長。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "CNIC renewal can be done in the Pak ID app; new cards need a NADRA visit"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNIC or B-Form number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or class",
+        "Applicant name and age",
+        "Documents required",
+        "Office timings and Friday break"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、太陽能與搬家師傅多靠電話或 WhatsApp，地址需含街道／區塊（block/sector/phase）與地標；常先到場估價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Technician charges a visit fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Solar or UPS work quoted only after inspection"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full advance to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Problem (AC, plumbing, electrical, UPS/solar)",
+        "Full address with block/sector/phase and landmark",
+        "Floor and lift",
+        "Preferred time",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與北部山區賓館（guest house）電話與 WhatsApp 訂房普遍，旺季（夏季北部、假日）要求訂金；入住須出示 CNIC 或護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Guest house in the northern areas needs an advance in summer"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "CNIC or passport required at check-in"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details or CNIC copy by phone"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Guests, family or not, and room type",
+        "Guest name as on CNIC",
+        "Mobile number"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問營業時間、價格、庫存，電話與 WhatsApp 都很常見；市場有每週公休日，各市各市場不同。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Shop gives price or timings directly by phone"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Says which weekday the market is closed"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What is asked",
+        "Which branch or market",
+        "Weekly off day",
+        "Delivery or pickup"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所多在大城市，可電話預約；常問貓、狗或鳥類與疫苗紀錄。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vet clinic asks for the vaccination card"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks payment for a home visit in advance"
+        }
+      ],
+      "usually_asked": [
+        "Animal kind (cat, dog, bird), breed and age",
+        "Problem or service",
+        "First or follow-up visit",
+        "Preferred time",
+        "Name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租售屋多透過 Zameen.com 等平台或房仲（property dealer）電話聯繫，看房常需當天約時間。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dealer commission and months of advance rent"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNIC copy or job details for police verification"
+        }
+      ],
+      "usually_asked": [
+        "Which property, sector or phase",
+        "Family or bachelor tenants",
+        "Rent, advance and commission",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽機車修理廠與手機電器維修多為直接到店，電話用來問價與零件；授權車廠可電話約保養。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Mechanic gives the price only after inspection"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Authorised dealer books periodic service by phone"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks to pay for parts in advance to a personal number"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle or device make and model",
+        "Registration number for cars and bikes",
+        "Problem description",
+        "When to bring it",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "中高價與 BBQ 餐廳常可電話訂位，家庭區（family hall）與一般區分開；齋戒月開齋（iftar）自助餐與週末晚間要提早訂，常要先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dhaba-style places say walk-in only, no reservations"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Iftar buffet seats need advance payment per head"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Large family gathering asked to choose a set menu (per-head deal)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks JazzCash/Easypaisa prepayment to a personal number for a small table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time, dinner usually after 20:00",
+        "Number of people (afraad)",
+        "Family hall or general seating",
+        "Booking name and 03XX mobile",
+        "Iftar buffet or à la carte"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "糕餅、甜點（mithai）與小店接受電話或 WhatsApp 訂貨，常用貨到付款；客製蛋糕需提前並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Custom cake or mithai box order needs advance"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full prepayment to an unknown wallet number"
+        }
+      ],
+      "usually_asked": [
+        "Item and quantity (kg of mithai, cake pounds)",
+        "Pickup or home delivery, cash on delivery",
+        "Date and time",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶外送多用 foodpanda，許多餐廳也直接電話接單外送或自取；尖峰時段電話常忙線。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant asks to order on foodpanda instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Own delivery has a minimum order and delivery charge"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to share an app OTP"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantity (full or half)",
+        "Spice level",
+        "Pickup time or delivery address",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "TCS、Leopards、M&P 與 Pakistan Post 查件以追蹤碼在官網或 App 處理，電話客服常塞線；建議改用官網追蹤或 WhatsApp 客服。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier site gives status from the tracking number"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the delivery OTP or CNIC"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or CN number",
+        "Sender or receiver name",
+        "City",
+        "Mobile number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車多用 Careem、inDrive、Yango 與機車載客 Bykea；城際巴士與包車可電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests booking through Careem or inDrive"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Intercity coach seat needs CNIC at booking"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNIC number for the passenger list"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and landmark",
+        "Destination or city",
+        "Passengers, family or not",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "checkup timing",
+        "consultation slot",
+        "salon booking",
+        "car service"
+      ],
+      "booking_words": [
+        "table reservation",
+        "room booking",
+        "advance booking",
+        "reserve a seat",
+        "booking confirm"
+      ],
+      "change_words": [
+        "change the timing",
+        "cancel the booking",
+        "shift to tomorrow",
+        "half an hour later",
+        "prepone the appointment"
+      ],
+      "date": [
+        "today",
+        "tomorrow",
+        "day after tomorrow",
+        "this Friday",
+        "25 Nov",
+        "25/11"
+      ],
+      "false_friends": [
+        "3rd floor",
+        "Street 5",
+        "Block C",
+        "Deal 3",
+        "Sector F-7",
+        "Phase 6"
+      ],
+      "inquiry_words": [
+        "what are the timings",
+        "what is the fee",
+        "is JazzCash ok?",
+        "do you deliver?",
+        "is the doctor sitting today"
+      ],
+      "name": [
+        "in my name",
+        "patient name and age",
+        "under the company name",
+        "name for the booking"
+      ],
+      "order_words": [
+        "place an order",
+        "takeaway",
+        "home delivery",
+        "cash on delivery",
+        "pre-order"
+      ],
+      "party": [
+        "4 persons",
+        "we are 5",
+        "2 adults 1 child",
+        "family of 10",
+        "just one"
+      ],
+      "phone": [
+        "03XX 123 4567",
+        "+92 3XX 123 4567",
+        "call back on 03XX 1234 567"
+      ],
+      "time": [
+        "7 pm",
+        "7:30 in the evening",
+        "quarter past 8",
+        "around 9 at night",
+        "1:30 afternoon"
+      ]
+    },
+    "ur": {
+      "appointment_words": [
+        "اپائنٹمنٹ لینا",
+        "ڈاکٹر کا ٹائم لینا",
+        "چیک اپ کروانا",
+        "پارلر کی بکنگ",
+        "گاڑی کی سروس"
+      ],
+      "booking_words": [
+        "ٹیبل بک کروانا",
+        "کمرہ بک کرنا",
+        "ایڈوانس بکنگ",
+        "سیٹ ریزرو کرنا",
+        "بکنگ کنفرم"
+      ],
+      "change_words": [
+        "ٹائم تبدیل کرنا",
+        "بکنگ کینسل کرنا",
+        "کل کے بجائے پرسوں",
+        "آدھا گھنٹہ بعد",
+        "اپائنٹمنٹ آگے کرنا"
+      ],
+      "date": [
+        "آج",
+        "کل",
+        "پرسوں",
+        "اس جمعہ کو",
+        "25 نومبر",
+        "اگلے اتوار"
+      ],
+      "false_friends": [
+        "تیسری منزل",
+        "گلی نمبر 5",
+        "بلاک سی",
+        "ڈیل نمبر 3",
+        "سیکٹر ایف 7",
+        "2 کلو"
+      ],
+      "inquiry_words": [
+        "دکان کب کھلتی ہے",
+        "فیس کتنی ہے",
+        "جیز کیش چلے گا؟",
+        "ہوم ڈلیوری ہے؟",
+        "ڈاکٹر صاحب کب بیٹھتے ہیں"
+      ],
+      "name": [
+        "میرے نام پر",
+        "مریض کا نام اور عمر",
+        "والد صاحب کے نام سے",
+        "کمپنی کے نام پر",
+        "نام کیا لکھوں"
+      ],
+      "order_words": [
+        "آرڈر دینا",
+        "ٹیک اوے",
+        "ہوم ڈلیوری",
+        "کیش آن ڈلیوری",
+        "پہلے سے آرڈر رکھوانا"
+      ],
+      "party": [
+        "4 لوگ",
+        "ہم 5 افراد ہیں",
+        "2 بڑے 1 بچہ",
+        "فیملی کے 10 لوگ",
+        "اکیلا"
+      ],
+      "phone": [
+        "03XX 123 4567",
+        "03XX 1234 567",
+        "+92 3XX 123 4567",
+        "اس نمبر پر واپس کال کریں 03XX 123 4567"
+      ],
+      "time": [
+        "شام سات بجے",
+        "ساڑھے سات بجے",
+        "سوا آٹھ",
+        "پونے نو",
+        "دوپہر ڈیڑھ بجے",
+        "رات آٹھ بجے کے قریب"
+      ]
+    }
+  }
+}

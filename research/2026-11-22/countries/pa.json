@@ -1,0 +1,86 @@
+{
+  "country": "pa",
+  "parent": "latam",
+  "name": {
+    "en": "Panama",
+    "native": "Panamá",
+    "zh": "巴拿馬"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: portería, conserjería, a reception desk, or a courier office",
+    "zh": "包裹交給 portería、conserjería、接待處，或到快遞點領"
+  },
+  "readback": {
+    "en": "8-digit numbers often go 4-4; 0 as cero; day-month dates; US dollars (balboas)",
+    "zh": "八位號碼常照 4-4 唸，0 唸 cero；日期先日後月；用美元（也可聽到 balboa）"
+  },
+  "fraud": {
+    "en": "A fake Banco General or Yappy call asking for keys or codes is a scam",
+    "zh": "假冒 Banco General 或 Yappy 要密碼或驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Tú with peers, usted with elders or offices. Vos is uncommon except near Costa Rica. Transfers often use Yappy.",
+    "zh": "同輩 tú，長輩或機關 usted。vos 不普遍，多見於鄰近哥斯大黎加。轉帳常用 Yappy。金額用美元。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Yappy spinning, a closed portón, or weak indoor signal.",
+    "zh": "卡在 Yappy 一直轉、大門沒開，或室內收訊差。"
+  },
+  "vocab": {
+    "bank": [
+      "Yappy",
+      "Banco General",
+      "transferencia",
+      "clave",
+      "tarjeta"
+    ],
+    "delivery": [
+      "portería",
+      "conserjería",
+      "recepción",
+      "vecino",
+      "casillero"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "把 vos 當全國預設",
+      "reason": {
+        "zh": "巴拿馬多數用 tú，vos 不是全國常用形式。"
+      }
+    },
+    {
+      "word": "peso 當貨幣",
+      "reason": {
+        "zh": "日常使用美元（並有巴波亞），不能照其他國家說成比索。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "The tú/usted scale is close to the parent, unlike most of Central America. The main changes are Yappy instead of Nequi, and dollars rather than pesos.",
+    "zh": "tú／usted 分檔接近所屬地區，這點和其他中美洲國家不同。主要改口說 Yappy 而非 Nequi，金額說美元而非比索。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "此次未打開 Banco General 或 Yappy 官方防詐專頁，錢包名稱依當地常見用法，把握中等。",
+    "接電話是否普遍說 aló，RAE 未單列巴拿馬，hello 依地區習慣，把握中等。",
+    "美元與巴波亞在口頭報價上的分工未細查。"
+  ]
+}

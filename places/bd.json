@@ -1,0 +1,721 @@
+{
+  "region": "bd",
+  "countries": [
+    "bd"
+  ],
+  "region_name_zh": "孟加拉",
+  "region_name": "Bangladesh",
+  "languages": [
+    {
+      "code": "bn",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite Standard Bengali (Cholito/Promito, bn) with 'apni'; Dhaka/Chattogram/Sylheti dialect speakers all understand standard Bengali; switch to English only at upmarket hotels, hospitals and chain restaurants in Dhaka (Gulshan/Banani) if staff offers.",
+  "english_ok": "sometimes — Fine at international hotels, large private hospitals and corporate offices in Dhaka; rare at local shops, chambers, couriers and outside big cities.",
+  "politeness": "Use 'apni' and a respectful greeting ('Assalamu alaikum', or 'Nomoshkar' with Hindu owners); address men as 'bhai' and women as 'apa' informally; state you are calling on behalf of someone; end with 'dhonnobad'.",
+  "name_tip": "Bengali names vary a lot and many people use a nickname (daak naam); give the full name as it should appear on the booking and the patient's age for doctor serials; spell English letters if the shop writes it in English.",
+  "phone_tip": "Mobile 017 1234 5678 style (11 digits starting 01, +880 drops the 0); landlines are rarely used by small businesses; WhatsApp/IMO on the same mobile is common; SMS confirmations for serials and couriers.",
+  "time_tip": "CRITICAL: 'সাড়ে সাতটা' = 7:30, 'সোয়া সাতটা' = 7:15, 'পৌনে আটটা' = 7:45, 'দেড়টা' = 1:30, 'আড়াইটা' = 2:30; no AM/PM, so day-part words (সকাল/দুপুর/বিকাল/সন্ধ্যা/রাত) decide it; always read back with the day part.",
+  "number_tip": "Bengali digits (০–৯) appear in writing; 'দেড়' = 1.5 and 'আড়াই' = 2.5 (also for money and hours); read phone numbers in short groups (017-1234-5678 style).",
+  "avoid_calling": "Avoid Friday Jumma prayer time (about 12:30–14:30), Ramadan iftar time (sunset) and the hour after, restaurant peaks 13:30–15:00 and 20:30–22:30, and calls after 22:00; doctor chambers are reachable mostly in the afternoon/evening before chamber hours.",
+  "closed_days": "Government offices and banks close Friday and Saturday (Sunday–Thursday working week); most private shops and restaurants open on Saturday; Dhaka markets each close one fixed day a week by zone (e.g. some areas Tuesday, others Sunday or Thursday) with a half day before or after; Eid-ul-Fitr and Eid-ul-Adha bring multi-day closures; Pohela Boishakh (14 April) and other national days are holidays.",
+  "booking_channels": "Doctor serials by phone to the chamber assistant or via Doctor Talika (the platform phones the chamber and confirms the serial), Sasthya Seba and DocTime (telemedicine); food via foodpanda and Pathao Food; rides via Pathao, Uber and inDrive; shopping on Daraz and Facebook pages with cash on delivery; payment by bKash/Nagad.",
+  "voice_menu": "Telecoms (Grameenphone, Robi, Banglalink), banks, bKash and airlines use IVR in Bengali/English; doctor chambers, shops and restaurants are answered by a person (often an assistant).",
+  "callback_habits": "Small shops and Facebook-page businesses often call back from a personal mobile or reply on WhatsApp/IMO/Messenger; doctor serial lines confirm a serial number by phone or SMS; couriers phone shortly before delivery.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "遊樂園、室內遊戲場與觀光船多為現場買票，團體場地（如社區中心、度假村）較常電話訂；週五與節日人潮最多。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Says tickets are sold only at the gate"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Asks for a bKash advance to reserve a group slot"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks to send full payment to a personal bKash number before any confirmation"
+        }
+      ],
+      "usually_asked": [
+        "Which activity or package",
+        "Date and time slot",
+        "Headcount and children",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美容院（parlour）與理髮店常可電話或 Facebook 粉專訊息預約；新娘妝與節慶前（Eid、婚禮季）需提早並可能收訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bridal or Eid packages need an advance payment"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in only for simple haircuts"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests advance via a personal mobile wallet to an unverified number"
+        }
+      ],
+      "usually_asked": [
+        "Service (haircut, facial, threading, bridal makeup, mehndi)",
+        "Ladies' parlour or gents' salon",
+        "Preferred day and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多半直接打給原店家或醫師助理；醫師序號（serial）通常無法轉讓，改日要重新排號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "New serial only for a later day"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment not refundable"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the transaction ID of the original bKash payment"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone used for the booking",
+        "Original date, time or serial number",
+        "New preferred day",
+        "Whether advance was paid"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "醫師多在私人診間（chamber）晚間看診，須先打給助理拿序號（serial）；熱門專科可能要提早幾天，也可用 Doctor Talika 等平台代約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Assistant gives a serial number and approximate time"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor is fully booked; offers another chamber or day"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks details of symptoms or previous reports in depth"
+        }
+      ],
+      "usually_asked": [
+        "Patient name and age",
+        "New or old patient (notun/puran rogi)",
+        "Which doctor and which chamber",
+        "Preferred day",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、bKash/Nagad 與電力公司客服有語音選單並須本人核身，代理人通常只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Only the account holder can be served"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NID number, PIN, OTP or account number"
+        }
+      ],
+      "usually_asked": [
+        "Language choice and IVR menu",
+        "Account or mobile number",
+        "Account holder verification",
+        "Nature of the complaint"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "國民身分證（NID）、護照與許多公共服務改走線上申請與現場辦理；學校招生多看公告，電話主要問時間與文件；辦證建議改走線上入口或親臨辦事處。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online portal or office visit"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NID or birth registration number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or class",
+        "Applicant name",
+        "Required documents",
+        "Office hours and location"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣維修與搬家多靠電話或 Facebook 找師傅，地址須含門牌、路號、區名與地標；樓層與有無電梯會影響報價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Quotes only after visiting"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Visiting charge applies even without repair"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment in advance to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Problem (AC, plumbing, electrical, shifting)",
+        "Address with house/road/area and landmark",
+        "Floor and lift",
+        "Preferred time",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "達卡與 Cox's Bazar 等觀光地飯店電話訂房普遍，旺季（冬季、節日）常要求預付訂金；國際連鎖飯店多走官網。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment required to confirm"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks NID or passport at check-in"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details or a copy of NID/passport over the phone"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room type (AC/non-AC, double/twin)",
+        "Guest name",
+        "Mobile number"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、價格或有無貨，電話與 Facebook 訊息皆常見，店家多直接口頭回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives price or hours directly"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What is being asked",
+        "Branch or area",
+        "Day in question",
+        "Whether home delivery is wanted"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所與美容主要在達卡，多可電話預約；預約時會問動物種類與年齡。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record needed"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks payment details for home visit"
+        }
+      ],
+      "usually_asked": [
+        "Kind of animal and age",
+        "Problem or service (vaccine, grooming)",
+        "First or return visit",
+        "Preferred time",
+        "Name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋常見牆上「To-let」告示直接打電話，或用 Bproperty 等平台；房東常問家庭人數與職業。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Owner asks family size and occupation"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NID copy or workplace details"
+        }
+      ],
+      "usually_asked": [
+        "Which flat or area",
+        "Family or bachelor",
+        "Rent and advance months",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "手機、電器與汽車維修多為走入店面，電話常用來問價格與零件；摩托車與汽車修理廠可電話約時間。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price only after inspection"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Parts must be ordered"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks to pay for parts in advance to a personal number"
+        }
+      ],
+      "usually_asked": [
+        "Device or vehicle model",
+        "Problem",
+        "When to bring it",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "一般餐廳多為現場候位，高級或連鎖餐廳可電話訂位；齋戒月（Ramadan）開齋時段（iftar）非常熱門須提早訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No reservations, walk-in only"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Iftar buffet needs advance payment"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Minimum order for large groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full prepayment to a personal mobile wallet for a small table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Family section or general",
+        "Name",
+        "Mobile number"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "許多小店與 Facebook 商家接受電話或訊息訂貨，常用貨到付款（cash on delivery）；蛋糕與甜點店需提前預訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment needed for custom cake"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment to an unknown number before delivery"
+        }
+      ],
+      "usually_asked": [
+        "Item and quantity",
+        "Pickup or delivery",
+        "Date and time",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶與外送多用 foodpanda / Pathao Food，小餐館也接受電話訂餐自取（parcel）；尖峰時段電話常忙線。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks to order via foodpanda instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery charge outside area"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to share an app account OTP"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantity",
+        "Spice level",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "快遞（Pathao Courier、Steadfast、Sundarban 等）與 Daraz 查件多以追蹤碼在網站或熱線處理，電話客服常塞線；建議改用官網追蹤或 App 內訊息。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives status from the tracking ID"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the delivery OTP"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or consignment ID",
+        "Receiver name and mobile",
+        "Delivery area",
+        "Status or delay"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "市內叫車多用 Pathao、Uber 或 inDrive App；包車、機場接送與長途巴士（以及跨城租車含司機）可電話預訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Rental car price includes or excludes fuel and tolls"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Bus seats sold by counter or online"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NID for a car rental"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address with landmark",
+        "Destination",
+        "Date and time",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "bn": {
+      "appointment_words": [
+        "ডাক্তারের সিরিয়াল",
+        "চেম্বারে সিরিয়াল দেওয়া",
+        "অ্যাপয়েন্টমেন্ট নেওয়া",
+        "পার্লারে বুকিং",
+        "গাড়ি সার্ভিসিং"
+      ],
+      "booking_words": [
+        "টেবিল বুক করা",
+        "রুম বুকিং",
+        "সিট বুকিং",
+        "অগ্রিম বুকিং",
+        "রিজার্ভ করে রাখা"
+      ],
+      "change_words": [
+        "সময় পরিবর্তন",
+        "সিরিয়াল বাতিল",
+        "অন্য দিনে নেওয়া",
+        "আধা ঘণ্টা পরে",
+        "বুকিং ক্যানসেল"
+      ],
+      "date": [
+        "আজকে",
+        "আগামীকাল",
+        "পরশু",
+        "এই শুক্রবার",
+        "২৫ নভেম্বর",
+        "২৫/১১"
+      ],
+      "false_friends": [
+        "৩ তলা",
+        "রোড ১২",
+        "বাসা ৭/এ",
+        "সিরিয়াল নং ১৫",
+        "কম্বো ২",
+        "১ কেজি"
+      ],
+      "inquiry_words": [
+        "খোলা আছে কিনা",
+        "ভিজিট ফি কত",
+        "বিকাশে দেওয়া যাবে?",
+        "হোম ডেলিভারি হয়?",
+        "ডাক্তার কবে বসেন"
+      ],
+      "name": [
+        "আমার নামে",
+        "রোগীর নাম ও বয়স",
+        "বাবার নামে",
+        "অফিসের নামে",
+        "নাম কী লিখব"
+      ],
+      "order_words": [
+        "পার্সেল অর্ডার",
+        "হোম ডেলিভারি",
+        "নিয়ে যাব",
+        "ক্যাশ অন ডেলিভারি",
+        "আগে অর্ডার দিয়ে রাখা"
+      ],
+      "party": [
+        "৪ জন",
+        "আমরা ৫ জন",
+        "২ জন বড় ১ জন বাচ্চা",
+        "১০ জনের টেবিল",
+        "একা"
+      ],
+      "phone": [
+        "017 1234 5678",
+        "01812 34 5678",
+        "+880 17 1234 5678",
+        "এই নম্বরে কল দিন 019 1234 5678"
+      ],
+      "time": [
+        "সন্ধ্যা ৭টা",
+        "সাড়ে সাতটা",
+        "সোয়া আটটা",
+        "পৌনে নয়টা",
+        "দুপুর দেড়টা",
+        "রাত ৮টার দিকে"
+      ]
+    }
+  }
+}

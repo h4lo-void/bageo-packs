@@ -1,0 +1,810 @@
+{
+  "region": "pk",
+  "vocab": {
+    "en": {
+      "bank": [
+        {
+          "term": "IBAN",
+          "en": "Pakistani IBAN, asked for on every transfer"
+        },
+        {
+          "term": "Raast ID",
+          "en": "phone number registered as a Raast alias in Pakistan"
+        },
+        {
+          "term": "IBFT",
+          "en": "Pakistani interbank fund transfer"
+        },
+        {
+          "term": "online transfer",
+          "en": "Pakistani English for any app transfer"
+        },
+        {
+          "term": "ATM card",
+          "en": "Pakistani English for debit card"
+        },
+        {
+          "term": "branch code",
+          "en": "Pakistani bank branch code"
+        },
+        {
+          "term": "mobile account",
+          "en": "Pakistani branchless wallet account"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "COD",
+          "en": "cash on delivery, default for Pakistani e-commerce"
+        },
+        {
+          "term": "rider",
+          "en": "Pakistani English for delivery person"
+        },
+        {
+          "term": "TCS",
+          "en": "courier brand in Pakistan"
+        },
+        {
+          "term": "Leopards",
+          "en": "Pakistani courier brand"
+        },
+        {
+          "term": "tracking ID",
+          "en": "Pakistani English for tracking number"
+        },
+        {
+          "term": "guard",
+          "en": "Pakistani English for gate guard"
+        },
+        {
+          "term": "nearest landmark",
+          "en": "Pakistani deliveries rely on landmarks in addresses"
+        }
+      ],
+      "government": [
+        {
+          "term": "CNIC",
+          "en": "Pakistani national ID card; never read the number aloud unasked"
+        },
+        {
+          "term": "NADRA",
+          "en": "Pakistan's registration authority"
+        },
+        {
+          "term": "B-Form",
+          "en": "Pakistani child registration form"
+        },
+        {
+          "term": "domicile",
+          "en": "Pakistani domicile certificate"
+        },
+        {
+          "term": "FBR",
+          "en": "Pakistan's tax authority"
+        },
+        {
+          "term": "NTN",
+          "en": "Pakistani national tax number"
+        },
+        {
+          "term": "challan",
+          "en": "Pakistani government fee slip or traffic fine"
+        }
+      ],
+      "health": [
+        {
+          "term": "medical store",
+          "en": "Pakistani English for pharmacy"
+        },
+        {
+          "term": "Sehat Card",
+          "en": "Pakistani public health card"
+        },
+        {
+          "term": "OPD",
+          "en": "outpatient department in Pakistani hospitals"
+        },
+        {
+          "term": "lab",
+          "en": "Pakistani English for diagnostic lab"
+        },
+        {
+          "term": "emergency",
+          "en": "Pakistani English for A&E"
+        },
+        {
+          "term": "prescription slip",
+          "en": "handwritten prescription in Pakistan"
+        },
+        {
+          "term": "clinic",
+          "en": "private doctor's clinic, Pakistan"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "load",
+          "en": "Pakistani English for prepaid top-up"
+        },
+        {
+          "term": "package",
+          "en": "Pakistani English for a bundle"
+        },
+        {
+          "term": "Jazz",
+          "en": "operator in Pakistan"
+        },
+        {
+          "term": "Zong",
+          "en": "operator in Pakistan"
+        },
+        {
+          "term": "Ufone",
+          "en": "operator in Pakistan after the Telenor merger"
+        },
+        {
+          "term": "biometric verification",
+          "en": "Pakistani SIM verification at a franchise"
+        },
+        {
+          "term": "PTA",
+          "en": "Pakistan Telecommunication Authority, also for phone registration"
+        }
+      ],
+      "payment": [
+        {
+          "term": "cash",
+          "en": "Pakistani English, still dominant for small payments"
+        },
+        {
+          "term": "JazzCash",
+          "en": "wallet named in Pakistani English speech"
+        },
+        {
+          "term": "Easypaisa",
+          "en": "wallet named in Pakistani English speech"
+        },
+        {
+          "term": "Raast QR",
+          "en": "Pakistani instant-payment QR"
+        },
+        {
+          "term": "installments",
+          "en": "Pakistani English for instalments"
+        },
+        {
+          "term": "utility bill",
+          "en": "Pakistani electricity/gas bill"
+        }
+      ],
+      "transport": [
+        {
+          "term": "rickshaw",
+          "en": "Pakistani English for auto-rickshaw"
+        },
+        {
+          "term": "Careem",
+          "en": "ride-hailing named in Pakistani English"
+        },
+        {
+          "term": "inDrive",
+          "en": "bid-your-fare ride app in Pakistan"
+        },
+        {
+          "term": "Bykea",
+          "en": "Pakistani bike-taxi and courier"
+        },
+        {
+          "term": "Metro Bus",
+          "en": "Pakistani BRT"
+        },
+        {
+          "term": "Orange Line",
+          "en": "Lahore metro train"
+        },
+        {
+          "term": "motorway",
+          "en": "Pakistani motorway (M-numbered)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "society",
+          "en": "Pakistani gated housing society"
+        },
+        {
+          "term": "DHA",
+          "en": "Pakistani Defence Housing Authority area"
+        },
+        {
+          "term": "phase",
+          "en": "Pakistani society phase number"
+        },
+        {
+          "term": "portion",
+          "en": "Pakistani rented floor of a house"
+        },
+        {
+          "term": "rent",
+          "en": "Pakistani English for rent"
+        },
+        {
+          "term": "load shedding",
+          "en": "Pakistani power cuts"
+        },
+        {
+          "term": "UPS",
+          "en": "Pakistani backup power unit for load shedding"
+        }
+      ],
+      "school": [
+        {
+          "term": "Matric",
+          "en": "Pakistani grade-ten certificate"
+        },
+        {
+          "term": "FSc",
+          "en": "Pakistani pre-university science"
+        },
+        {
+          "term": "O Levels",
+          "en": "Cambridge track common in Pakistani private schools"
+        },
+        {
+          "term": "tuition centre",
+          "en": "Pakistani coaching centre"
+        },
+        {
+          "term": "academy",
+          "en": "Pakistani English for coaching academy"
+        },
+        {
+          "term": "board exams",
+          "en": "Pakistani board examinations"
+        },
+        {
+          "term": "van",
+          "en": "Pakistani school van service"
+        }
+      ],
+      "money": [
+        {
+          "term": "rupees",
+          "en": "Pakistani rupees (Rs)"
+        },
+        {
+          "term": "lakh",
+          "en": "Pakistani English for one hundred thousand"
+        },
+        {
+          "term": "crore",
+          "en": "Pakistani English for ten million"
+        },
+        {
+          "term": "arab",
+          "en": "Pakistani English for a billion"
+        },
+        {
+          "term": "thousand",
+          "en": "Pakistani English, said with rupees"
+        },
+        {
+          "term": "change",
+          "en": "Pakistani English for small notes"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "after Jumma",
+          "en": "after Friday prayers, Pakistani English"
+        },
+        {
+          "term": "PKT",
+          "en": "Pakistan Standard Time label"
+        },
+        {
+          "term": "half past two",
+          "en": "said with Urdu 'saarhe do' in Pakistan"
+        },
+        {
+          "term": "tomorrow",
+          "en": "Pakistani English, avoids the ambiguous Urdu 'kal'"
+        },
+        {
+          "term": "Eid holidays",
+          "en": "Pakistani public holidays around Eid"
+        },
+        {
+          "term": "next week",
+          "en": "Pakistani English, often mixed with Urdu"
+        }
+      ],
+      "work": [
+        {
+          "term": "job",
+          "en": "Pakistani English for employment"
+        },
+        {
+          "term": "salary",
+          "en": "Pakistani English for pay"
+        },
+        {
+          "term": "leave",
+          "en": "Pakistani English for time off"
+        },
+        {
+          "term": "overtime",
+          "en": "Pakistani English for extra hours"
+        },
+        {
+          "term": "Eid bonus",
+          "en": "Pakistani festival bonus"
+        },
+        {
+          "term": "duty",
+          "en": "Pakistani English for shift"
+        }
+      ]
+    },
+    "ur": {
+      "bank": [
+        {
+          "term": "اکاؤنٹ",
+          "en": "bank account, English loan in Pakistani Urdu"
+        },
+        {
+          "term": "Raast",
+          "en": "State Bank of Pakistan instant payment"
+        },
+        {
+          "term": "JazzCash",
+          "en": "Pakistani mobile wallet"
+        },
+        {
+          "term": "Easypaisa",
+          "en": "Pakistani mobile wallet"
+        },
+        {
+          "term": "آئی بین",
+          "en": "IBAN, PK-prefixed, said 'IBAN'"
+        },
+        {
+          "term": "ٹرانسفر",
+          "en": "transfer, Pakistani Urdu loanword"
+        },
+        {
+          "term": "اے ٹی ایم کارڈ",
+          "en": "ATM/debit card, Pakistani usage"
+        },
+        {
+          "term": "او ٹی پی",
+          "en": "OTP; never read the code to a caller"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "پارسل",
+          "en": "parcel, Pakistani Urdu"
+        },
+        {
+          "term": "کورئیر",
+          "en": "courier service in Pakistan"
+        },
+        {
+          "term": "TCS",
+          "en": "Pakistani courier brand"
+        },
+        {
+          "term": "کیش آن ڈیلیوری",
+          "en": "COD, the norm for Pakistani online orders"
+        },
+        {
+          "term": "Daraz",
+          "en": "Pakistani online marketplace"
+        },
+        {
+          "term": "رائیڈر",
+          "en": "delivery rider, Pakistan"
+        },
+        {
+          "term": "چوکیدار",
+          "en": "watchman at a Pakistani house or society gate"
+        },
+        {
+          "term": "ٹریکنگ نمبر",
+          "en": "tracking number, Pakistan"
+        }
+      ],
+      "government": [
+        {
+          "term": "شناختی کارڈ",
+          "en": "Pakistani CNIC; never read the number aloud unasked"
+        },
+        {
+          "term": "نادرا",
+          "en": "NADRA, Pakistan's ID authority"
+        },
+        {
+          "term": "ب فارم",
+          "en": "Pakistani child registration certificate (B-Form)"
+        },
+        {
+          "term": "پاسپورٹ آفس",
+          "en": "Pakistani passport office"
+        },
+        {
+          "term": "ایف بی آر",
+          "en": "FBR, Pakistani tax authority"
+        },
+        {
+          "term": "ڈومیسائل",
+          "en": "Pakistani domicile certificate"
+        },
+        {
+          "term": "ڈرائیونگ لائسنس",
+          "en": "Pakistani driving licence"
+        },
+        {
+          "term": "ٹوکن",
+          "en": "queue token at Pakistani offices"
+        }
+      ],
+      "health": [
+        {
+          "term": "صحت کارڈ",
+          "en": "Sehat Card, Pakistani state health cover"
+        },
+        {
+          "term": "کلینک",
+          "en": "private clinic, Pakistan"
+        },
+        {
+          "term": "میڈیکل اسٹور",
+          "en": "Pakistani everyday word for pharmacy"
+        },
+        {
+          "term": "ایمرجنسی",
+          "en": "hospital emergency, Pakistan"
+        },
+        {
+          "term": "نسخہ",
+          "en": "prescription, Urdu"
+        },
+        {
+          "term": "لیب ٹیسٹ",
+          "en": "lab test, Pakistani usage"
+        },
+        {
+          "term": "ڈاکٹر صاحب",
+          "en": "respectful way to address a doctor in Pakistan"
+        },
+        {
+          "term": "چیک اپ",
+          "en": "check-up, Pakistani loanword"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "لوڈ",
+          "en": "Pakistani word for prepaid top-up ('load karwana')"
+        },
+        {
+          "term": "Jazz",
+          "en": "Pakistani operator"
+        },
+        {
+          "term": "Zong",
+          "en": "Pakistani operator"
+        },
+        {
+          "term": "Ufone",
+          "en": "Pakistani operator, merged with Telenor Pakistan in 2026"
+        },
+        {
+          "term": "پیکج",
+          "en": "Pakistani bundle/package"
+        },
+        {
+          "term": "بیلنس",
+          "en": "remaining credit, Pakistan"
+        },
+        {
+          "term": "سم",
+          "en": "SIM, Pakistan"
+        },
+        {
+          "term": "بائیو میٹرک تصدیق",
+          "en": "biometric SIM verification in Pakistan"
+        }
+      ],
+      "payment": [
+        {
+          "term": "کیش",
+          "en": "cash, Pakistan"
+        },
+        {
+          "term": "کارڈ سے ادائیگی",
+          "en": "card payment, Urdu"
+        },
+        {
+          "term": "کیو آر کوڈ",
+          "en": "QR payment at Pakistani shops"
+        },
+        {
+          "term": "قسطیں",
+          "en": "instalments, Urdu"
+        },
+        {
+          "term": "بل",
+          "en": "bill, e.g. electricity bill in Pakistan"
+        },
+        {
+          "term": "موبائل والٹ",
+          "en": "Pakistani mobile wallet, general term"
+        },
+        {
+          "term": "رسید",
+          "en": "receipt, Urdu"
+        }
+      ],
+      "transport": [
+        {
+          "term": "رکشہ",
+          "en": "auto-rickshaw, Pakistan"
+        },
+        {
+          "term": "چنگچی",
+          "en": "Pakistani motorcycle rickshaw"
+        },
+        {
+          "term": "Careem",
+          "en": "ride-hailing in Pakistan"
+        },
+        {
+          "term": "inDrive",
+          "en": "ride-hailing app popular in Pakistan"
+        },
+        {
+          "term": "Bykea",
+          "en": "Pakistani bike-taxi app"
+        },
+        {
+          "term": "میٹرو بس",
+          "en": "Pakistani metro bus (Lahore, Islamabad)"
+        },
+        {
+          "term": "ویگن",
+          "en": "Pakistani passenger van"
+        },
+        {
+          "term": "اسٹاپ",
+          "en": "stop, Pakistani Urdu"
+        }
+      ],
+      "housing": [
+        {
+          "term": "سوسائٹی",
+          "en": "Pakistani housing society"
+        },
+        {
+          "term": "فیز",
+          "en": "phase of a Pakistani housing society"
+        },
+        {
+          "term": "بلاک",
+          "en": "block in a Pakistani address"
+        },
+        {
+          "term": "گلی",
+          "en": "lane/street, Urdu"
+        },
+        {
+          "term": "فلیٹ",
+          "en": "flat, Pakistan"
+        },
+        {
+          "term": "کرایہ",
+          "en": "rent, Urdu"
+        },
+        {
+          "term": "بجلی کا بل",
+          "en": "electricity bill, Pakistan"
+        },
+        {
+          "term": "گیٹ",
+          "en": "gate of a Pakistani house"
+        }
+      ],
+      "school": [
+        {
+          "term": "اسکول",
+          "en": "school, Pakistan"
+        },
+        {
+          "term": "ٹیوشن",
+          "en": "Pakistani private tuition"
+        },
+        {
+          "term": "اکیڈمی",
+          "en": "Pakistani coaching academy"
+        },
+        {
+          "term": "میٹرک",
+          "en": "Pakistani grade-ten exam"
+        },
+        {
+          "term": "ایف ایس سی",
+          "en": "Pakistani intermediate science (FSc)"
+        },
+        {
+          "term": "بورڈ کا امتحان",
+          "en": "Pakistani board exam"
+        },
+        {
+          "term": "اسکول وین",
+          "en": "Pakistani school van"
+        },
+        {
+          "term": "فیس",
+          "en": "fees, Pakistan"
+        }
+      ],
+      "money": [
+        {
+          "term": "روپے",
+          "en": "Pakistani rupees"
+        },
+        {
+          "term": "ہزار",
+          "en": "thousand, Urdu"
+        },
+        {
+          "term": "لاکھ",
+          "en": "lakh, one hundred thousand"
+        },
+        {
+          "term": "کروڑ",
+          "en": "crore, ten million"
+        },
+        {
+          "term": "ارب",
+          "en": "arab, one billion"
+        },
+        {
+          "term": "کھلے پیسے",
+          "en": "small change, Urdu"
+        },
+        {
+          "term": "ایڈوانس",
+          "en": "advance payment, Pakistan"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "کل",
+          "en": "yesterday or tomorrow in Urdu, tense decides"
+        },
+        {
+          "term": "پرسوں",
+          "en": "day before yesterday or after tomorrow, Urdu"
+        },
+        {
+          "term": "ساڑھے دو",
+          "en": "2:30, Urdu"
+        },
+        {
+          "term": "پونے تین",
+          "en": "2:45, Urdu"
+        },
+        {
+          "term": "سوا دو",
+          "en": "2:15, Urdu"
+        },
+        {
+          "term": "جمعے کی نماز کے بعد",
+          "en": "after Friday prayers, Pakistan"
+        },
+        {
+          "term": "اگلے ہفتے",
+          "en": "next week, Urdu"
+        }
+      ],
+      "work": [
+        {
+          "term": "نوکری",
+          "en": "job, Urdu"
+        },
+        {
+          "term": "دفتر",
+          "en": "office, Urdu"
+        },
+        {
+          "term": "تنخواہ",
+          "en": "salary, Urdu"
+        },
+        {
+          "term": "چھٹی",
+          "en": "leave or day off, Urdu"
+        },
+        {
+          "term": "اوور ٹائم",
+          "en": "overtime, Pakistani loanword"
+        },
+        {
+          "term": "ڈیوٹی",
+          "en": "shift/duty, Pakistan"
+        },
+        {
+          "term": "بونس",
+          "en": "bonus, e.g. Eid bonus in Pakistan"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "دھنیواد",
+      "use_instead": "شکریہ",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "نمستے",
+      "use_instead": "السلام علیکم",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Aadhaar",
+      "use_instead": "شناختی کارڈ",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "Raast, JazzCash, Easypaisa",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Paytm",
+      "use_instead": "JazzCash, Easypaisa",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "آٹو",
+      "use_instead": "رکشہ",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "پن کوڈ",
+      "use_instead": "پوسٹل کوڈ",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Ola",
+      "use_instead": "Careem, inDrive",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Flipkart",
+      "use_instead": "Daraz",
+      "where_it_is_from": "IN"
+    }
+  ],
+  "sources": [
+    "https://www.nadra.gov.pk/",
+    "https://www.sbp.org.pk/dfs/Raast.html",
+    "https://www.fbr.gov.pk/",
+    "https://www.pta.gov.pk/",
+    "https://www.pakpost.gov.pk/",
+    "https://www.tcsexpress.com/",
+    "https://www.daraz.pk/",
+    "https://www.jazzcash.com.pk/",
+    "https://www.easypaisa.com.pk/",
+    "https://www.dawn.com/news/2012241",
+    "https://www.ufone.com/ptcl-spreads-its-wings-a-new-chapter-for-pakistans-digital-future/"
+  ],
+  "uncertain": [
+    "巴基斯坦英語組大量夾烏爾都語詞，實際電話多是兩種混用，AI 應跟著對方的語言走。",
+    "Telenor Pakistan 已併入 Ufone（PTML），報導稱將改用 e& 品牌，用戶口中仍說 Telenor 或 Ufone，品牌名短期內可能再變。",
+    "/workspace/bageo/freq/ur.txt 內容是 404 錯誤頁，無法用詞頻表驗證，用詞靠官網、平台與新聞。"
+  ]
+}

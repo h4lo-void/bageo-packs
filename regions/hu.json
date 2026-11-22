@@ -81,15 +81,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "Foxpost",
-      "csomagautomata",
-      "portás"
-    ],
     "bank": [
       "átutalás",
       "bankkártya",
-      "qvik"
+      "qvik",
+      "netbank",
+      "egyenleg",
+      "folyószámla"
+    ],
+    "delivery": [
+      "Foxpost",
+      "csomagautomata",
+      "portás",
+      "Packeta",
+      "utánvét",
+      "átvételi kód"
+    ],
+    "government": [
+      "Ügyfélkapu",
+      "DÁP",
+      "személyi",
+      "TAJ szám",
+      "NAV",
+      "lakcímkártya"
+    ],
+    "health": [
+      "háziorvos",
+      "patika",
+      "recept",
+      "TAJ kártya",
+      "sürgősségi",
+      "szakrendelő"
+    ],
+    "telecom": [
+      "előfizetés",
+      "feltöltőkártya",
+      "számhordozás",
+      "SIM kártya",
+      "szolgáltató",
+      "mobilnet"
+    ],
+    "payment": [
+      "qvik",
+      "bankkártya",
+      "készpénz",
+      "átutalás",
+      "SimplePay",
+      "Apple Pay"
+    ],
+    "transport": [
+      "BKK",
+      "vonat",
+      "busz",
+      "villamos",
+      "metro",
+      "taxi"
+    ],
+    "housing": [
+      "lakás",
+      "lépcsőház",
+      "kaputelefon",
+      "postaláda",
+      "albérlet",
+      "közös képviselő"
     ]
   },
   "status": "draft"

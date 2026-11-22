@@ -1,0 +1,107 @@
+{
+  "name": "Kiribati",
+  "name_local": "Kiribati",
+  "iso": "ki",
+  "calling_code": "+686",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "ANZ in Kiribati publishes a local Scams and Fraud Guide and a Pacific Banking Safely Guide for its customers, covering unexpected calls that impersonate a real organisation, phishing by email or text, and requests for remote access to a phone or computer. Those bank pages do not give a national case count. The Kiribati Police Service website was showing an under-construction notice when checked, and no separate government typologies bulletin could be independently verified for this file.",
+  "cross_border_note": "The ANZ Kiribati guide lists texts sent from overseas numbers as one phishing sign, and tells customers to type the bank's published Kiribati address themselves rather than follow a link. A +686 number, or a message that uses ANZ branding, is not by itself proof that the bank is on the line.",
+  "scams": [
+    {
+      "id": "ki_anz_phishing_bank_impersonation",
+      "typology": "fake_bank_account_alert",
+      "name": "Unexpected call, email or text impersonating ANZ or another organisation",
+      "name_en": "ANZ Kiribati official guides: phishing and impersonation that press the customer to follow a link, confirm passwords, card data or a one-time code, or move money to keep the account safe",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "unexpected ANZ Kiribati email or text",
+        "link that is not typed in the browser",
+        "account locked, confirm your details",
+        "transfer funds to a safe account"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confirm your password or PIN on this call",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "read the online purchase or security code aloud",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "open this link to reopen your locked account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "move the money to another account to keep it safe",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "ANZ's Kiribati fraud guide tells customers to be wary of unexpected phone calls that pretend to come from a legitimate organisation, and never to follow links or download attachments in unexpected emails, texts or social-media messages. It says not to reach internet banking by following a link, and to type the published Kiribati address in the browser instead. It also warns against sharing or confirming passwords, card details, internet-banking or app login data after an unexpected call or in a link, and describes phishing signs such as a push to pay a bill or verify details, a claim that the account is locked, texts from overseas numbers, and requests to confirm information that is said to have been stolen or to need updating. A companion Pacific guide for Kiribati says ANZ will not ask for a password, PIN or security code over the phone, will not request remote access, and will not leave a pre-recorded message with instructions, and that those secrets should not be given to anyone, including someone who claims to be bank staff or the Police.",
+      "legit_en": "A genuine ANZ query in Kiribati is not started by asking the customer to follow an unexpected link or to read out a password, PIN or one-time code. The bank's own guides say to hang up and call back on the number published by the organisation, and to report the approach to the bank and, where relevant, to the Police.",
+      "bait_tactics": [
+        "Refuse to confirm a password, PIN, card number or one-time code, and say any real bank query can be raised only after hanging up and using the published ANZ Kiribati channel.",
+        "Decline to follow a link in an unexpected text or email, and type the official Kiribati banking address only if the customer chooses to check the account.",
+        "Refuse a request to move money into a so-called safe account, and say the messages can be shown to the bank and to the Police."
+      ],
+      "sources": [
+        "https://www.anz.com/content/dam/kiribati/pdf/anz-kiribati-scams-fraud-guide.pdf",
+        "https://www.anz.com/content/dam/kiribati/pdf/pacific-banking-safely-guide-kiribati.pdf"
+      ]
+    },
+    {
+      "id": "ki_anz_remote_access_impersonation",
+      "typology": "tech_support_remote",
+      "name": "Remote-access request claiming to be police, the phone company or the bank",
+      "name_en": "ANZ Kiribati official guides: unsolicited callers ask for remote access to a device, sometimes claiming a connection fault, a hack, or unauthorised transactions, and may say they are from the Police, a phone company or the bank",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "install software so they can see the phone",
+        "caller claims a hack or a line fault in Kiribati",
+        "walk-through of ANZ internet banking or the Pacific app",
+        "said to be from the Police or the phone company"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "give remote access so we can fix your connection",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "install this tool to stop a hack on your account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "log into the ANZ app while we watch the screen",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "this is the Police, let us onto the device",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "The ANZ Kiribati fraud guide describes remote-access fraud in which someone phones, texts or emails to claim there is a problem with the internet connection, that the device needs maintenance, that the person is being hacked, or that unauthorised transactions have been seen and can be stopped. It says the caller may even offer a step-by-step walk-through, including logging into ANZ Internet Banking or the ANZ Pacific App, and tells customers never to give a stranger access to their devices. The Pacific Banking Safely Guide for Kiribati adds: do not let an unexpected caller talk you into installing software for remote access, even if they say they are from the Police, your phone company or the bank; hang up and call the organisation back on its listed number.",
+      "legit_en": "ANZ says it will not request remote access to a computer or phone. The Police or a phone company in Kiribati do not need a customer to install a remote-control tool after an unexpected call in order to protect a bank account. A real fault or fraud query is checked on the organisation's published number, not by handing over the screen.",
+      "bait_tactics": [
+        "Refuse to install remote-access software or to share the screen, even if the caller names the Police, a phone company or ANZ.",
+        "End the call and, if the customer still wants to check, use only a number published by that organisation.",
+        "Say the attempt can be reported to ANZ and to the Kiribati Police Service, and do not continue the walk-through."
+      ],
+      "sources": [
+        "https://www.anz.com/content/dam/kiribati/pdf/anz-kiribati-scams-fraud-guide.pdf",
+        "https://www.anz.com/content/dam/kiribati/pdf/pacific-banking-safely-guide-kiribati.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "lang": "fi",
+  "backchannels": {
+    "direction": "VISK treats joo as the high-frequency particle; niin can agree or continue, and mm is a quieter, sparser sound.",
+    "examples": [
+      {
+        "text": "Joo.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Niin.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "mm",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Aivan.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Just.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Selvä.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Joo joo.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Ihanko totta? and Oikeasti? take surprise; Ikävä kuulla is everyday sympathy, short and fairly plain.",
+    "examples": [
+      {
+        "text": "Ihanko totta?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Oikeasti?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ikävä kuulla.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Voi ei.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Ihanaa!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Onneksi olkoon.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Se on vähän vaikeaa.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "En kuule hyvin and Yhteys on huono are ordinary mobile complaints; Puhe katkeilee names a voice that keeps breaking.",
+    "examples": [
+      {
+        "text": "En kuule hyvin.",
+        "style": "casual"
+      },
+      {
+        "text": "Yhteys on huono.",
+        "style": "casual"
+      },
+      {
+        "text": "Puhe katkeilee.",
+        "style": "casual"
+      },
+      {
+        "text": "Voitko puhua vähän kovempaa?",
+        "style": "casual"
+      },
+      {
+        "text": "En saanut loppua selvää.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Voitko toistaa is the everyday replay; tavata covers a name, and a number is asked uudestaan, usually with sinä.",
+    "examples": [
+      {
+        "text": "Voitko toistaa?",
+        "style": "casual"
+      },
+      {
+        "text": "Anteeksi, en ymmärtänyt.",
+        "style": "polite"
+      },
+      {
+        "text": "Voitko tavata nimen?",
+        "style": "casual"
+      },
+      {
+        "text": "Voitko sanoa numeron uudestaan? Onko se 12345678?",
+        "style": "casual"
+      },
+      {
+        "text": "Mitä sanoit?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kuka soittaa and Kenen kanssa puhun are everyday probes; sinä is normal. Name the handset if it is {owner}'s.",
+    "examples": [
+      {
+        "text": "Kuka soittaa?",
+        "style": "casual"
+      },
+      {
+        "text": "Kenen kanssa puhun?",
+        "style": "casual"
+      },
+      {
+        "text": "Tämä on {owner}n puhelin. Kuka soittaa?",
+        "style": "polite"
+      },
+      {
+        "text": "Kuka siellä?",
+        "style": "casual"
+      },
+      {
+        "text": "Saisinko kysyä nimeäsi?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Anteeksi, väärä numero or Soitit varmaan väärään numeroon closes it; Täällä ei asu ketään sen nimistä covers a mismatch.",
+    "examples": [
+      {
+        "text": "Anteeksi, väärä numero.",
+        "style": "polite"
+      },
+      {
+        "text": "Väärä numero.",
+        "style": "casual"
+      },
+      {
+        "text": "Täällä ei asu ketään sen nimistä.",
+        "style": "polite"
+      },
+      {
+        "text": "Soitit varmaan väärään numeroon.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Kerron hänelle and Välitän viestin {owner}lle pass the news along; they do not, alone, set an hour to ring back.",
+    "examples": [
+      {
+        "text": "Kerron hänelle.",
+        "style": "casual"
+      },
+      {
+        "text": "Välitän viestin {owner}lle.",
+        "style": "polite"
+      },
+      {
+        "text": "Sanón sille.",
+        "style": "casual"
+      },
+      {
+        "text": "Välitän viestin.",
+        "style": "polite"
+      },
+      {
+        "text": "Kerron hänelle asiasta.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ei kiitos, en ole kiinnostunut is the stock close; Emme tarvitse sitä is a household variant, still brief.",
+    "examples": [
+      {
+        "text": "Ei kiitos, en ole kiinnostunut.",
+        "style": "polite"
+      },
+      {
+        "text": "Emme tarvitse sitä, kiitos.",
+        "style": "polite"
+      },
+      {
+        "text": "Ei kiinnosta, kiitos.",
+        "style": "casual"
+      },
+      {
+        "text": "Ei, tämä ei ole meille.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Finnish often follows a first ei with Älkää soittako tähän numeroon enää, or asks that the listalta drop the number.",
+    "examples": [
+      {
+        "text": "Sanoin jo ei. Älkää soittako tähän numeroon enää.",
+        "style": "polite"
+      },
+      {
+        "text": "Poistakaa tämä numero listaltanne, kiitos.",
+        "style": "polite"
+      },
+      {
+        "text": "Älkää soittako enää.",
+        "style": "casual"
+      },
+      {
+        "text": "Tämä on lopullinen ei. Älkää ottako enää yhteyttä.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "sinä plus a first name is the modern default; te is uncommon. herra and rouva appear mainly in official calls.",
+    "examples": [
+      {
+        "text": "Hei, Anna.",
+        "style": "casual"
+      },
+      {
+        "text": "Herra Virtanen.",
+        "style": "polite"
+      },
+      {
+        "text": "Rouva Korhonen.",
+        "style": "polite"
+      },
+      {
+        "text": "Tohtori Laine.",
+        "style": "polite"
+      },
+      {
+        "text": "Hei, tässä on {owner}n puhelin.",
+        "style": "polite"
+      },
+      {
+        "text": "Sinuahan…",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Puhelusi on meille tärkeä and Kuinka voin auttaa tänään belong in a call-centre script, not on a private puhelin.",
+    "examples": [
+      {
+        "text": "Puhelusi on meille tärkeä.",
+        "style": "polite"
+      },
+      {
+        "text": "Kuinka voin auttaa tänään?",
+        "style": "polite"
+      },
+      {
+        "text": "Kiitos soitosta, olemme täällä sinua varten.",
+        "style": "polite"
+      },
+      {
+        "text": "Tyytyväisyytesi on etusijalla.",
+        "style": "polite"
+      },
+      {
+        "text": "Voinko auttaa vielä jossain?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Stiff te with an ordinary caller, a late ring, or asking for a henkilötunnus at the start all feel out of place.",
+    "examples": [
+      {
+        "text": "Oletko naimisissa? Paljonko tienaat?",
+        "style": "casual"
+      },
+      {
+        "text": "Kuka sinä olet? Sano heti.",
+        "style": "casual"
+      },
+      {
+        "text": "Anna ensin osoitteesi ja henkilötunnuksesi.",
+        "style": "polite"
+      },
+      {
+        "text": "Nauhoitan tätä puhelua jo.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://scripta.kotus.fi/visk/sisallys.php?p=1027",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh"
+  ],
+  "uncertain": [
+    "te 作尊稱在當代芬蘭語已不常見；日常對陌生人也多用 sinä。極正式場合仍可能出現 te。",
+    "文獻指出芬蘭語附和頻率低於日語、英語；joo／niin／mm 的功能細分依語境，本檔只寫大方向。",
+    "私人電話語料仍少於面對面研究，電話上是否同樣省著附和，未另作新統計。"
+  ]
+}

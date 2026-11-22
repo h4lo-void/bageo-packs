@@ -1,0 +1,284 @@
+{
+  "lang": "mg",
+  "backchannels": {
+    "direction": "Eny is the textbook yes but ie or a short eny is more common in speech; adding tompoko makes it polite.",
+    "examples": [
+      {
+        "text": "Eny.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Eny tompoko.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Marina izany.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Azoko.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Mazava.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Eny eny.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Indrisy expresses regret, Tena? surprise, and Arahabaina congratulates; keep them gentle and brief.",
+    "examples": [
+      {
+        "text": "Tena?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Tena marina ve?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Indrisy!",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Mampalahelo izany.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Tsara be!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Arahabaina!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Sarotra izany.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice is not heard well (tsy re tsara); soften the request with mba and azafady.",
+    "examples": [
+      {
+        "text": "Tsy re tsara ny feonao.",
+        "style": "polite"
+      },
+      {
+        "text": "Ratsy ny tambajotra.",
+        "style": "casual"
+      },
+      {
+        "text": "Tapaka foana.",
+        "style": "casual"
+      },
+      {
+        "text": "Mba ampitomboy kely ny feonao, azafady.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Avereno with azafady asks for a repeat; Tsy azoko (I didn't get it) is a natural lead-in.",
+    "examples": [
+      {
+        "text": "Tsy azoko, avereno azafady.",
+        "style": "polite"
+      },
+      {
+        "text": "Inona hoy ianao?",
+        "style": "casual"
+      },
+      {
+        "text": "Lazao tsirairay ny litera amin'ny anarana, azafady.",
+        "style": "polite"
+      },
+      {
+        "text": "Avereno indray ny laharana: 12345678 ve?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Iza io? is plain; add azafady or tompoko and ask where they call from for a courteous version.",
+    "examples": [
+      {
+        "text": "Iza io?",
+        "style": "casual"
+      },
+      {
+        "text": "Iza no miresaka, azafady?",
+        "style": "polite"
+      },
+      {
+        "text": "Avy aiza ianao no miantso?",
+        "style": "polite"
+      },
+      {
+        "text": "Finday an'i {owner} ity. Iza ianao, tompoko?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Diso laharana means wrong number; say it kindly with tompoko and nothing more.",
+    "examples": [
+      {
+        "text": "Diso laharana ianao, tompoko.",
+        "style": "polite"
+      },
+      {
+        "text": "Tsy misy olona manana an'io anarana io eto.",
+        "style": "polite"
+      },
+      {
+        "text": "Diso nomerao.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Holazaiko aminy (I will tell them) is the natural offer; ampitaina means to pass on.",
+    "examples": [
+      {
+        "text": "Holazaiko aminy.",
+        "style": "polite"
+      },
+      {
+        "text": "Hampitaiko amin'i {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Lazaiko azy.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Tsia, misaotra or Tsy mila aho (I don't need it) is a complete, polite refusal.",
+    "examples": [
+      {
+        "text": "Tsia, misaotra.",
+        "style": "polite"
+      },
+      {
+        "text": "Tsy mila aho.",
+        "style": "casual"
+      },
+      {
+        "text": "Tsy ilainay izany, misaotra tompoko.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Malagasy prefers indirect refusal, so a second no should stay calm, with aza (don't) plus azafady.",
+    "examples": [
+      {
+        "text": "Efa nolazaiko fa tsia. Aza miantso intsony azafady.",
+        "style": "polite"
+      },
+      {
+        "text": "Esory amin'ny lisitrao ity laharana ity.",
+        "style": "polite"
+      },
+      {
+        "text": "Tsia hoy aho.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Tompoko ends polite sentences to anyone; Ingahy/Ramatoa formally; zoky or dadabe/bebe for elders by age.",
+    "examples": [
+      {
+        "text": "Tompoko,",
+        "style": "polite"
+      },
+      {
+        "text": "Ingahy,",
+        "style": "polite"
+      },
+      {
+        "text": "Ramatoa,",
+        "style": "polite"
+      },
+      {
+        "text": "Dadabe,",
+        "style": "casual"
+      },
+      {
+        "text": "Zoky,",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Translated corporate formulas like these sound like a mobile operator voice, not a person.",
+    "examples": [
+      {
+        "text": "Zava-dehibe aminay ny antsonao.",
+        "style": "polite"
+      },
+      {
+        "text": "Inona no azoko anampiana anao?",
+        "style": "polite"
+      },
+      {
+        "text": "Misaotra anao nisafidy anay.",
+        "style": "polite"
+      },
+      {
+        "text": "Mirary andro mahafinaritra ho anao izahay.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Fady differ by region; avoid prying about family or money early, and don't drop tompoko with elders.",
+    "examples": [
+      {
+        "text": "Ohatrinona ny karamanao?",
+        "style": "casual"
+      },
+      {
+        "text": "Fa nahoana ianao no tsy manambady?",
+        "style": "casual"
+      },
+      {
+        "text": "Lazao aloha ny laharan'ny karapanondronao.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikivoyage.org/wiki/Malagasy_phrasebook",
+    "https://en.wikipedia.org/wiki/Malagasy_language",
+    "https://en.wiktionary.org/wiki/eny",
+    "https://en.wikipedia.org/wiki/Fady",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "馬達加斯加語電話用語幾乎查不到語料；本檔以 Wikivoyage 片語集與語言概述為主，口語「ie／yoh」等實際拼寫未確認。",
+    "Fady（禁忌）因地區與家族不同，電話上具體禁說的詞沒有可靠清單，只寫方向。",
+    "拼名字、訊號不好等例句是依標準馬達加斯加語語法組成，未找到電信業者或語料庫實例。"
+  ]
+}

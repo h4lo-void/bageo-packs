@@ -1,0 +1,92 @@
+{
+  "country": "tn",
+  "parent": "maghreb",
+  "name": {
+    "en": "Tunisia",
+    "native": "تونس",
+    "zh": "突尼西亞"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, a neighbour, or a La Poste office",
+    "zh": "包裹交給 gardien、鄰居，或到突尼西亞郵局領取"
+  },
+  "readback": {
+    "en": "8-digit numbers go in pairs; 0 as zéro or صفر; amounts in dinars",
+    "zh": "電話八位常兩位一組唸，0 可唸 zéro 或 صفر；金額用第納爾"
+  },
+  "fraud": {
+    "en": "A fake La Poste site or gift link asking for a card, a password or a secret code is a scam",
+    "zh": "假冒突尼西亞郵局的網站或中獎連結要卡號或密碼的，都是詐騙"
+  },
+  "habits": {
+    "en": "Tunisian Arabic mixes with French; follow the caller. Do not use Moroccan Amana, D17 or CIH.",
+    "zh": "突尼西亞方言常夾法語，跟對方語言回。不要套用摩洛哥的 Amana、D17、CIH。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the bank app on weak signal, no SMS code, or missing glasses.",
+    "zh": "卡在銀行 App 訊號弱一直轉、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "e-DINAR",
+      "OTP",
+      "carte"
+    ],
+    "delivery": [
+      "gardien",
+      "La Poste",
+      "voisin"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Amana",
+      "reason": {
+        "en": "Moroccan postal brand",
+        "zh": "摩洛哥郵政品牌"
+      }
+    },
+    {
+      "word": "D17",
+      "reason": {
+        "en": "Moroccan payment service",
+        "zh": "摩洛哥支付服務"
+      }
+    },
+    {
+      "word": "CIH",
+      "reason": {
+        "en": "Moroccan bank",
+        "zh": "摩洛哥銀行"
+      }
+    },
+    {
+      "word": "Attijariwafa",
+      "reason": {
+        "en": "Moroccan bank group",
+        "zh": "摩洛哥銀行集團"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Use Tunisian Arabic and French, not Moroccan wording. Courtesy stays brief; match the caller's formality.",
+    "zh": "用突尼西亞方言和法語，不用摩洛哥用詞。客套要短，正式程度跟著對方。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.poste.tn",
+    "https://www.lapresse.tn/2026/06/09/tunisie-attention-aux-faux-sites-se-faisant-passer-pour-la-poste/",
+    "https://play.google.com/store/apps/details?id=tn.mobipost&hl=fr",
+    "https://www.bct.gov.tn/"
+  ],
+  "uncertain": [
+    "www.poste.tn 此次以 curl／WebFetch 無法穩定打開（TLS 失敗或逾時）；fraud 改依 La Presse 轉述的郵局公報：假網站或中獎連結要卡號、密碼，不是包裹補費。",
+    "e-DINAR 是郵政相關支付卡的常見名稱；Flouci 等錢包是否同樣普及，未再交叉驗證，故未列入主詞彙。",
+    "電話八位兩位一組、以及交給 gardien 或鄰居的上門習慣，已打開的來源沒有寫到。"
+  ]
+}

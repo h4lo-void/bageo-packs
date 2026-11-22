@@ -1,0 +1,48 @@
+{
+  "name": "Guadeloupe",
+  "name_local": "Guadeloupe",
+  "iso": "gp",
+  "calling_code": "+590",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "French national cyber-assistance guidance and Mondial Relay's own phishing alerts describe fake point-relais and courier SMS campaigns, which apply to Guadeloupe's relay-point network.",
+  "cross_border_note": "Guadeloupe shares +590 with Saint-Martin and Saint-Barthélemy and receives many mainland French (+33) calls; nearby Dominica (+1-767) and other NANP islands are also common origins.",
+  "scams": [
+    {
+      "id": "gp_point_relais_sms",
+      "typology": "fake_customs_parcel",
+      "name": "Faux SMS point relais",
+      "name_en": "Fake courier or point-relais SMS in Guadeloupe asking for a fee or code",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "point relais",
+        "choisir un créneau",
+        "colis non livré"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "choisir un point relais via ce lien",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "régler une petite somme en ligne",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An SMS says a parcel has arrived and asks the owner to pick a relay point or pay a tiny fee through a link that harvests card data.",
+      "legit_en": "Mondial Relay lists current phishing campaigns, and French cyber-assistance advises checking deliveries only on the carrier's site.",
+      "bait_tactics": [
+        "Demander le nom exact du point relais à Pointe-à-Pitre ou aux Abymes",
+        "Dire qu'on passera au relais avec la pièce d'identité plutôt que de payer en ligne"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+        "https://www.mondialrelay.fr/phishing-mondial-relay/arnaques-en-cours/"
+      ]
+    }
+  ]
+}

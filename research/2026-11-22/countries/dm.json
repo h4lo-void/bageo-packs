@@ -1,0 +1,87 @@
+{
+  "country": "dm",
+  "parent": "us",
+  "name": {
+    "en": "Dominica",
+    "native": "Dominica",
+    "zh": "多米尼克"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good morning",
+    "hello_again": "Good morning again"
+  },
+  "delivery": {
+    "en": "Collect at the GPO with a government ID, the notification slip, and a printed customs invoice",
+    "zh": "到總郵局領，要帶政府證件、領件通知單，以及給海關看的列印發票"
+  },
+  "readback": {
+    "en": "A 767 number is read 3-3-4; 0 as zero; East Caribbean dollars; 12-hour time; day first",
+    "zh": "767 號碼照 3-3-4 唸，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "An unsolicited 'you have won' text, or a high-return investment pitch, is a scam",
+    "zh": "沒來由的「你中獎了」簡訊，或保證高報酬的投資遊說，都應當成詐騙"
+  },
+  "habits": {
+    "en": "Say mobile, not cell, and East Caribbean dollars. Good morning or Good afternoon with strangers. Day before month.",
+    "zh": "說 mobile 不說 cell。用東加勒比元。對生人偏正式，日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The GPO is already closed for the afternoon, and I still need a printed invoice to collect.",
+    "zh": "總郵局下午已經關門，而且領件還缺一張給海關看的列印發票。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "online banking"
+    ],
+    "delivery": [
+      "General Post Office",
+      "notification slip",
+      "printed invoice",
+      "customs"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是多米尼克日常付款名稱"
+      }
+    },
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件；這裡入境包裹是到總郵局憑通知單與發票領"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局，不是本地機關"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號，不宜直接套用"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More formal than US buddy-talk. Use East Caribbean dollars and GPO collection wording, not porch lockers, IRS or Zelle.",
+    "zh": "比美國稱兄道弟正式。金額用東加勒比元，包裹用語是總郵局領件，不要說門廊櫃、IRS 或 Zelle。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://gpo.ictu.gov.dm/",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+  ],
+  "uncertain": [
+    "此次沒找到多米尼克警方近日針對電話詐騙的專文，fraud 是依東加勒比央行對 ECCU（含多米尼克）的中獎與投資詐騙警示來寫。",
+    "2013 年有 Digicel 中獎簡訊警示，年代較舊，故未當主依據。"
+  ]
+}

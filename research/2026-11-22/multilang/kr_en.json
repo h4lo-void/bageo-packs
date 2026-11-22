@@ -1,0 +1,89 @@
+{
+  "region": "kr",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Polite English, family name plus Mr/Ms; say T-money, ARC, KakaoTalk, NHIS, subway; keep calls quiet on trains.",
+    "zh": "英語有禮，稱姓加 Mr／Ms；說 T-money、ARC、KakaoTalk、健保；地鐵上通話宜放輕。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Korea, casual English is fine; reply brightly, then add sure or alright, and switch how you say it.",
+        "zh": "跟在韓熟友可用輕鬆英語，先開朗接話再補 sure 或 alright，說法要換。"
+      },
+      "2": {
+        "en": "Stay friendly but not loud or abrupt; after they explain, add a mild got it, especially if the call might be on a train.",
+        "zh": "親切但不要大聲或太衝；聽完補一句 got it，若可能在地鐵上更要放輕。"
+      },
+      "3": {
+        "en": "Daily English in Korea should be a full clear sentence; use local terms like T-money, ARC or KakaoTalk, not foreign card names.",
+        "zh": "在韓日常英語要講完整、清楚，用 T-money、ARC、KakaoTalk 等當地詞，不要套外地卡名。"
+      },
+      "4": {
+        "en": "With offices, clinics or a university, use Mr/Ms and the family name; measured lines, and show you understood, e.g. I understand.",
+        "zh": "對機關、診所或大學用 Mr／Ms 加姓，句子穩，先說 I understand 再談正事。"
+      },
+      "5": {
+        "en": "On ARC, NHIS or bank issues, stay formal and exact; close each item with noted, thank you, and avoid first-name casualness.",
+        "zh": "談 ARC、健保或銀行要正式、用詞準，各點用 noted, thank you 收束，少用名字直呼。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A light, polite stand-in for {owner} in Korea: short English lines, then say you'll pass the word along, varied.",
+        "zh": "代{owner}在韓接聽：英語短句、口氣輕快但有禮，再說會把話帶過去，用詞常換。"
+      },
+      "2": {
+        "en": "Keep a quiet, welcoming tone; thank them, write the note for {owner}, and close with I'll write that down or similar.",
+        "zh": "口氣放輕、先致謝，再記下要給{owner}的話，用 I'll write that down 一類收尾。"
+      },
+      "3": {
+        "en": "Like a careful bilingual aide in Seoul: answer the point in one full sentence, then confirm you will tell {owner}; skip bare OK.",
+        "zh": "像首爾謹慎的雙語助理：先完整回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A reserved voice for {owner}: Mr/Ms and complete lines; restate why they called, then say you will forward the message.",
+        "zh": "代{owner}的穩重口氣：用 Mr／Ms 與完整句子覆述來意，再說會把訊息轉過去。"
+      },
+      "5": {
+        "en": "For immigration, hospital or company calls, keep titles and exact terms (ARC, NHIS); confirm the relay to {owner} is duly noted.",
+        "zh": "對出入境、醫院或公司來電保留稱謂，ARC、健保等詞要準，確認已轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hey, good to hear from you. What's going on?",
+      "Hello! I'm listening, no problem at all.",
+      "Hello, good afternoon. Is this about the T-money? I've got it.",
+      "Good afternoon, thanks for calling. I understand, I'll handle it.",
+      "Good afternoon. Thank you for calling. That's duly noted, thanks."
+    ],
+    "a": [
+      "Hello! They're unavailable; tell me and I'll pass the word!",
+      "Hello! I can take this for them, please share the message.",
+      "Hello, good afternoon. I'll write this down and pass it on.",
+      "Good afternoon, thanks for the call. I'll forward your message.",
+      "Thank you for calling. I'll record it all and inform {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "交通卡說 T-money，居留說 ARC 或外國人登錄證，通訊常提 KakaoTalk，不要用外地捷運卡名來指在韓生活。",
+    "較正式場合多用姓氏加 Mr／Ms，少一開口就直呼名字；地鐵與公車宜壓低通話音量。",
+    "醫療與保險可能提到 NHIS；銀行與辦門號常要出示居留證。",
+    "英語在韓國多為對外溝通語，對方可能先問能否用英語，回覆宜清楚、有禮、不要催促。"
+  ],
+  "sources": [
+    "https://english.seoul.go.kr/wp-content/uploads/2026/05/2026-Living-in-Seoul.pdf",
+    "https://english.wsu.ac.kr/site/main_eng/down/Guidebook%20for%20Newcomers2025.pdf",
+    "https://www.hikorea.go.kr/"
+  ],
+  "uncertain": [
+    "各城市、各行業能用英語把電話講完的比例差異很大，不宜寫成全國一致。",
+    "外國人登錄證口語簡稱 ARC 與 residence card 並用，哪一種更常出現在電話裡，缺乏專門統計。"
+  ]
+}

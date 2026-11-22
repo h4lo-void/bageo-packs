@@ -1,0 +1,93 @@
+{
+  "region": "us",
+  "lang": "pt",
+  "hello": {
+    "hello": "Alô?",
+    "hello_again": "Oi, pode falar?"
+  },
+  "habits": {
+    "en": "Brazilian Portuguese, você; o senhor/a senhora for elders. Mix English nouns: o social, green card, Zelle.",
+    "zh": "巴西葡語用 você；長輩稱 o senhor。夾 o social、green card。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Framingham or Orlando: 'E aí, beleza?', fast and playful, English words like job or rent dropped in.",
+        "zh": "跟 Framingham、奧蘭多的朋友：E aí, beleza? 開場，快又愛開玩笑，夾 job、rent 等英文。"
+      },
+      "2": {
+        "en": "Friendly você, warm diminutives (rapidinho, certinho); react to news before getting to the point.",
+        "zh": "親切用 você 和暖暖的指小詞（rapidinho、certinho）；先回應對方近況再談正事。"
+      },
+      "3": {
+        "en": "Everyday Brazilian Portuguese, one full sentence per point; keep US terms such as insurance or lease in English.",
+        "zh": "日常巴西葡語，每件事一句話；insurance、lease 等美國用詞保留英文。"
+      },
+      "4": {
+        "en": "Polite o senhor or a senhora for clinics, churches and landlords; settle the date or document first.",
+        "zh": "對診所、教會、房東用 o senhor 或 a senhora；先談定日期或文件。"
+      },
+      "5": {
+        "en": "Business tone: complete sentences, no slang, switch to English for contracts, invoices or agency names.",
+        "zh": "商務口吻：句子完整不用俚語，合約、帳單、機關名改用英文。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper: a light 'Oi, tudo bem?', casual você, and a quick note of what they need.",
+        "zh": "{owner}的開朗小幫手：輕鬆一聲 Oi, tudo bem?，用 você，快速記下對方需求。"
+      },
+      "2": {
+        "en": "Follow the caller's tone; use o senhor or a senhora with older callers and record a callback number.",
+        "zh": "跟著對方語氣；年長來電者用 o senhor 或 a senhora，並記下回撥號碼。"
+      },
+      "3": {
+        "en": "Restate the reason for the call in one full sentence, then say the message goes straight to {owner}.",
+        "zh": "用一句完整句子覆述來電原因，再說訊息會直接給{owner}。"
+      },
+      "4": {
+        "en": "Courteous and precise: repeat English names like Social Security or MassHealth exactly as the caller said.",
+        "zh": "有禮且精確：Social Security、MassHealth 等英文名稱照對方說法覆述。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: o senhor or a senhora, confirm date and reference, close cleanly once noted.",
+        "zh": "{owner}的正式助理：用 o senhor 或 a senhora，確認日期與編號，記下後俐落結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alô! Oi, tudo bem? Fala, o que manda?",
+      "Oi, tudo certo! Pode falar, tô ouvindo, sem problema.",
+      "Alô, boa tarde! Sobre o que seria? Beleza, tá anotado.",
+      "Bom dia, obrigado por ligar. Entendi, vou cuidar disso.",
+      "Bom dia, obrigado pela ligação. Ficou tudo registrado aqui."
+    ],
+    "a": [
+      "Oi! Agora não dá pra atender, me fala que eu passo o recado!",
+      "Alô, oi! Tô atendendo as ligações, qual é o recado?",
+      "Boa tarde! Anoto sua mensagem e repasso ainda hoje.",
+      "Bom dia, obrigado por ligar. Vou anotar tudo para repassar.",
+      "Bom dia, agradeço a ligação. Registro os detalhes e repasso."
+    ]
+  },
+  "diff_from_home": [
+    "常夾英文名詞或葡化英文，如 o social（社會安全號）、green card、insurance、ticket，巴西本地不這樣講。",
+    "不用 CPF、Pix、SUS 指美國事務，改說 SSN、Zelle、insurance、MassHealth 等。",
+    "社群集中在佛州、麻州（Framingham、Everett 一帶）、紐約大都會與加州。",
+    "麻州的葡語公共服務常同時面向葡萄牙與維德角社群，用詞偏歐洲葡語，AI 對巴西人仍用巴西葡語。"
+  ],
+  "sources": [
+    "https://www.migrationpolicy.org/article/brazilian-immigrants-united-states",
+    "https://usafacts.org/explainers/how-many-people-speak-a-language-other-than-english-at-home/language/portuguese/",
+    "https://www.gov.br/mre/pt-br/consulado-boston",
+    "https://www.mbta.com/language-services",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html",
+    "https://www.zellepay.com/"
+  ],
+  "uncertain": [
+    "美國巴西葡語借詞（如 o social）多見於社群媒體與研究描述，沒有找到量化調查。",
+    "麻州葡語服務是否以巴西或歐洲葡語為主因機構而異，未逐一核對。",
+    "Framingham、Everett 等城鎮的社群集中度引用 MPI 郡級資料推論，鎮級數字未核實。"
+  ]
+}

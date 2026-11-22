@@ -1,0 +1,48 @@
+{
+  "name": "Isle of Man",
+  "name_local": "Isle of Man",
+  "iso": "im",
+  "calling_code": "+44",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Isle of Man Bank publishes delivery-scam warnings, and the Isle of Man Government's Cyber Security Centre runs seasonal online-safety advice on shopping and parcel tricks.",
+  "cross_border_note": "The Isle of Man uses UK numbering (+44, area code 01624), so UK-based scam campaigns reach Manx phones the same way as mainland ones.",
+  "scams": [
+    {
+      "id": "im_delivery_text_iom",
+      "typology": "fake_customs_parcel",
+      "name": "Fake delivery text on the Isle of Man",
+      "name_en": "Parcel text with a payment link, as warned by Isle of Man Bank and the Cyber Security Centre",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Isle of Man Post",
+        "parcel fee",
+        "rearrange delivery"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay to rearrange delivery",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter card details",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A text says a parcel bound for the island needs a fee or new delivery slot and links to a page collecting card data.",
+      "legit_en": "Isle of Man Bank warns about delivery-scam texts; check with the carrier through its own website.",
+      "bait_tactics": [
+        "Ask which Isle of Man Post Office branch holds it, then ask for the item reference twice",
+        "Say the porch is the usual drop spot and no fee was ever needed before"
+      ],
+      "sources": [
+        "https://www.iombank.com/global/fraud-and-security/spotting-scams/delivery-scams.html",
+        "https://csc.gov.im/news-advisories/the-24-days-of-cyber-safety-shop-smart-this-holiday-season/"
+      ]
+    }
+  ]
+}

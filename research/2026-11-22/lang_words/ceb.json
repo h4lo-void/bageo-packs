@@ -1,0 +1,143 @@
+{
+  "lang": "ceb",
+  "script": "latin",
+  "common_words": [
+    "ako",
+    "ikaw",
+    "kamo",
+    "kami",
+    "kita",
+    "sila",
+    "dili",
+    "oo",
+    "ug",
+    "og",
+    "unsa",
+    "kinsa",
+    "asa",
+    "kanus-a",
+    "giunsa",
+    "ngano",
+    "kini",
+    "kana",
+    "palihog",
+    "salamat",
+    "maayong buntag",
+    "maayong hapon",
+    "wala",
+    "naa",
+    "ganahan",
+    "kinahanglan",
+    "karon",
+    "ugma",
+    "gahapon",
+    "buntag",
+    "gabii",
+    "kanunay",
+    "numero",
+    "adres",
+    "doktor",
+    "order",
+    "pwede",
+    "lang",
+    "ra",
+    "kay",
+    "ba",
+    "niya",
+    "nimo",
+    "nako",
+    "unya",
+    "gyud",
+    "jud",
+    "aron",
+    "didto",
+    "diri"
+  ],
+  "frequency_source": "Leipzig Cebuano Wikipedia 2021 100K was inspected but is dominated by auto-generated geography boilerplate, so spoken-like ranks were taken from OPUS Tatoeba https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/ceb.freq.gz and checked against OPUS TED2020 https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/ceb.freq.gz",
+  "shared_words": [
+    {
+      "word": "ang",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "sa",
+      "also_in": [
+        "fil",
+        "ms"
+      ]
+    },
+    {
+      "word": "na",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "ko",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "ka",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "mga",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "wala",
+      "also_in": [
+        "fil"
+      ]
+    },
+    {
+      "word": "salamat",
+      "also_in": [
+        "fil"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "fil",
+    "id",
+    "ms",
+    "jv"
+  ],
+  "how_to_tell_apart": "Cebuano and Filipino share many grammatical particles, so the useful contrasts are dili rather than hindi, ug or og rather than at, unsa rather than ano, kamo rather than kayo, palihog rather than please/paki, and greetings such as maayong buntag rather than magandang umaga. Particles po and ho, typical of Filipino politeness, are not Cebuano cues. ang, sa, na, ko, mga, wala and salamat occur in both and should be ignored. Leipzig Wikipedia frequency was not used as the main list because its top ranks are map-article words like palibot and kabungtoran, not telephone speech.",
+  "test_said": [
+    "Sa lungsod magkuha ko ug cedula nga gikinahanglan sa bag-ong papeles.",
+    "Ang bayranan sa tubig sa distrito wala pa masulod karong bulana ug mo-clarify ko.",
+    "Ang pakete gibilin sa barangay hall ug mo-saka ko karong hapon aron kuhaon.",
+    "Ang rice cooker nga miabot naay liki sa taklob ug pulihan nako kini.",
+    "Sa health center pangutan-on nako kung naa pay schedule sa bakuna sa bata ugma.",
+    "Sa rural health unit gusto nako pa-sukod sa akong blood pressure karong buntag.",
+    "Dili ko mo-kuha ug utang pinaagi niining tawaga ug dili ko mo-hatag ug personal nga datos.",
+    "Ang cable nga inyo gina-offer wala nako kinahanglan kay naa na mi lain nga koneksyon."
+  ],
+  "test_not_enough": [
+    "Jun",
+    "ok",
+    "duha",
+    "gift"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/ceb.freq.gz",
+    "https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/ceb.freq.gz",
+    "https://downloads.wortschatz-leipzig.de/corpora/ceb_wikipedia_2021_100K.tar.gz",
+    "https://en.wikipedia.org/wiki/Cebuano_language"
+  ],
+  "uncertain": [
+    "Tatoeba and TED2020 Cebuano lists are small compared with OpenSubtitles for other languages, so mid-frequency items are less stable.",
+    "gyud and jud are the same spoken particle with two spellings; both were kept because both appear in the corpora.",
+    "Some test words such as blood pressure and cable are English loans common in Cebuano calls and are not diagnostic by themselves."
+  ]
+}

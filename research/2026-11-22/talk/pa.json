@@ -1,0 +1,264 @@
+{
+  "lang": "pa",
+  "backchannels": {
+    "direction": "ਹਾਂ ਜੀ and ਜੀ show respectful listening; ਅੱਛਾ acknowledges; ਹਾਂ ਹਾਂ said fast sounds hurried.",
+    "examples": [
+      {
+        "text": "ਹਾਂ ਜੀ।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ਜੀ।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ਠੀਕ ਆ।",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ਬਿਲਕੁਲ ਜੀ।",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ਹਾਂ ਹਾਂ।",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "ਅੱਛਾ? or ਸੱਚੀਂ? for surprise; ਬਹੁਤ ਦੁੱਖ ਹੋਇਆ for sympathy; ਵਧਾਈਆਂ for good news.",
+    "examples": [
+      {
+        "text": "ਸੱਚੀਂ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ਹੈਂ, ਅੱਛਾ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ਸੁਣ ਕੇ ਬਹੁਤ ਦੁੱਖ ਹੋਇਆ ਜੀ।",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ਬਹੁਤ ਬਹੁਤ ਵਧਾਈਆਂ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ਇਹ ਥੋੜ੍ਹਾ ਔਖਾ ਆ।",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (ਆਵਾਜ਼ ਨਹੀਂ ਆ ਰਹੀ) or the signal is weak, then ask for ਉੱਚਾ speech.",
+    "examples": [
+      {
+        "text": "ਆਵਾਜ਼ ਸਾਫ਼ ਨਹੀਂ ਆ ਰਹੀ ਜੀ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਸਿਗਨਲ ਕਮਜ਼ੋਰ ਆ।",
+        "style": "casual"
+      },
+      {
+        "text": "ਆਵਾਜ਼ ਕੱਟ ਰਹੀ ਆ।",
+        "style": "casual"
+      },
+      {
+        "text": "ਥੋੜ੍ਹਾ ਉੱਚਾ ਬੋਲੋਗੇ ਜੀ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "ਜੀ? asks for a replay; ask names to be spelled and digits read back.",
+    "examples": [
+      {
+        "text": "ਜੀ, ਕੀ ਕਿਹਾ?",
+        "style": "polite"
+      },
+      {
+        "text": "ਦੁਬਾਰਾ ਦੱਸੋਗੇ?",
+        "style": "polite"
+      },
+      {
+        "text": "ਨਾਂ ਦੇ ਅੱਖਰ ਦੱਸ ਦਿਓ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਨੰਬਰ 12345678 ਹੈ ਨਾ?",
+        "style": "polite"
+      },
+      {
+        "text": "ਕੀ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ਤੁਸੀਂ ਕੌਣ ਬੋਲ ਰਹੇ ਹੋ ਜੀ? with ਤੁਸੀਂ; bare ਕੌਣ? is curt.",
+    "examples": [
+      {
+        "text": "ਜੀ, ਤੁਸੀਂ ਕੌਣ ਬੋਲ ਰਹੇ ਹੋ?",
+        "style": "polite"
+      },
+      {
+        "text": "ਕਿੱਥੋਂ ਫ਼ੋਨ ਕਰ ਰਹੇ ਹੋ?",
+        "style": "polite"
+      },
+      {
+        "text": "ਇਹ {owner} ਦਾ ਨੰਬਰ ਹੈ, ਤੁਸੀਂ ਕੌਣ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say ਗ਼ਲਤ ਨੰਬਰ and nobody of that name is here; brief.",
+    "examples": [
+      {
+        "text": "ਮਾਫ਼ ਕਰਨਾ, ਨੰਬਰ ਗ਼ਲਤ ਹੈ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਇੱਥੇ ਇਸ ਨਾਂ ਦਾ ਕੋਈ ਨਹੀਂ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਰੌਂਗ ਨੰਬਰ ਆ।",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "ਦੱਸ ਦਿਆਂਗਾ/ਗੀ says {owner} will get the message; no call-back time.",
+    "examples": [
+      {
+        "text": "{owner} ਨੂੰ ਤੁਹਾਡਾ ਸੁਨੇਹਾ ਦੇ ਦਿਆਂਗੀ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਦੱਸ ਦਿਆਂਗਾ।",
+        "style": "casual"
+      },
+      {
+        "text": "ਸੁਨੇਹਾ ਪਹੁੰਚ ਜਾਊਗਾ।",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ਧੰਨਵਾਦ then ਲੋੜ ਨਹੀਂ; firm but warm.",
+    "examples": [
+      {
+        "text": "ਧੰਨਵਾਦ ਜੀ, ਸਾਨੂੰ ਲੋੜ ਨਹੀਂ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਦਿਲਚਸਪੀ ਨਹੀਂ ਜੀ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਨਹੀਂ ਵੀਰ, ਸ਼ੁਕਰੀਆ।",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they insist, cite your earlier ਮਨ੍ਹਾ and ask them to stop dialling.",
+    "examples": [
+      {
+        "text": "ਮੈਂ ਪਹਿਲਾਂ ਹੀ ਮਨ੍ਹਾ ਕਰ ਦਿੱਤਾ ਸੀ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਨੰਬਰ ਤੇ ਮੁੜ ਫ਼ੋਨ ਨਾ ਕਰੋ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਇਹ ਨੰਬਰ ਆਪਣੀ ਲਿਸਟ ਤੋਂ ਹਟਾ ਦਿਓ।",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ਤੁਸੀਂ and ਜੀ for strangers; ਵੀਰ ਜੀ, ਭੈਣ ਜੀ, ਅੰਕਲ ਜੀ, ਆਂਟੀ ਜੀ for warmth; ਸਰਦਾਰ ਜੀ for Sikh men.",
+    "examples": [
+      {
+        "text": "ਵੀਰ ਜੀ",
+        "style": "polite"
+      },
+      {
+        "text": "ਭੈਣ ਜੀ",
+        "style": "polite"
+      },
+      {
+        "text": "ਸਰਦਾਰ ਜੀ",
+        "style": "polite"
+      },
+      {
+        "text": "ਅੰਕਲ ਜੀ",
+        "style": "polite"
+      },
+      {
+        "text": "ਬਾਈ",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like ਤੁਹਾਡੀ ਕਾਲ ਸਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹੈ sound like a recorded helpline.",
+    "examples": [
+      {
+        "text": "ਤੁਹਾਡੀ ਕਾਲ ਸਾਡੇ ਲਈ ਮਹੱਤਵਪੂਰਨ ਹੈ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਗਾਹਕ ਸੇਵਾ ਨੂੰ ਫ਼ੋਨ ਕਰਨ ਲਈ ਧੰਨਵਾਦ।",
+        "style": "polite"
+      },
+      {
+        "text": "ਮੈਂ ਤੁਹਾਡੀ ਕੀ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ਤੂੰ with elders, swearing, or asking caste and income early gives offence.",
+    "examples": [
+      {
+        "text": "ਤੂੰ ਕੌਣ ਏਂ?",
+        "style": "casual"
+      },
+      {
+        "text": "ਕਿਹੜੀ ਜਾਤ ਦੇ ਹੋ?",
+        "style": "casual"
+      },
+      {
+        "text": "ਤਨਖ਼ਾਹ ਕਿੰਨੀ ਆ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%A8%9C%E0%A9%80",
+    "https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://en.wikipedia.org/wiki/Gurmukhi"
+  ],
+  "uncertain": [
+    "Examples in Gurmukhi (India); Pakistani Punjabi uses Shahmukhi and different loans",
+    "Backchannels (ਹਾਂ ਜੀ, ਅੱਛਾ, ਠੀਕ ਆ) from general usage, no call corpus",
+    "Code-mixing with Hindi/English on calls is common; degree uncertain"
+  ]
+}

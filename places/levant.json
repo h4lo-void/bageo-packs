@@ -1,0 +1,772 @@
+{
+  "region": "levant",
+  "countries": [
+    "lb",
+    "jo",
+    "sy",
+    "ps",
+    "iq"
+  ],
+  "region_name_zh": "黎巴嫩、約旦、敘利亞、巴勒斯坦、伊拉克",
+  "region_name": "Levant and Iraq (Lebanon, Jordan, Syria, Palestine, Iraq)",
+  "languages": [
+    {
+      "code": "ar",
+      "use": "main (Levantine and Iraqi spoken Arabic)"
+    },
+    {
+      "code": "en",
+      "use": "common in business (jo, lb)"
+    },
+    {
+      "code": "fr",
+      "use": "common (lb)"
+    }
+  ],
+  "ai_language_tip": "Speak polite Arabic close to Modern Standard but with common spoken words; Levantine dialect is understood across lb/jo/sy/ps, Iraqi dialect differs (iq). English is common in Amman and Beirut businesses; French is common in Lebanon; Kurdish is used in the Kurdistan Region of Iraq.",
+  "english_ok": "sometimes — Common in hotels, clinics and restaurants in Amman and Beirut, and with younger staff; limited in Syria, much of Iraq and smaller towns.",
+  "politeness": "Greetings matter: open with 'Marhaba' / 'As-salamu alaykum' and a short 'how are you'; use 'ustaz' / 'madame' or 'hajj' / 'hajjeh' for older people; requests are soft and friendly; close with thanks and a blessing.",
+  "name_tip": "Bookings under first name or family name (often with 'Abu/Umm + child's name' informally); Latin spellings of Arabic names vary (Mohammad/Muhammad), so spell slowly or send by WhatsApp.",
+  "phone_tip": "lb 0X XXX XXX or 7X XXX XXX (+961, e.g. 03 12345678); jo 07 9XXX XXXX (+962); sy 09XX XXX XXX (+963); ps 059/056 XXX XXXX (+970); iq 07XX XXX XXXX (+964); WhatsApp is the default for confirmations everywhere.",
+  "time_tip": "Spoken 12h with part of day ('7 بالليل', 'الصبح'); 'سبعة ونص' = 7:30, 'تمانية إلا ربع' = 7:45 (no trap); confirm am/pm; Ramadan shifts restaurant hours to after sunset (iftar).",
+  "number_tip": "Western digits and Arabic-Indic digits (٠ ١ ٢ ٣) both appear; numbers usually read in pairs; in chat, Arabizi uses digits for letters (3 = ع, 7 = ح, 2 = ء), so a '3' or '7' inside a word is not a number.",
+  "avoid_calling": "Avoid Friday midday prayer, late afternoon nap time at small businesses, and calls after 22:00; during Ramadan avoid the hour before iftar; Eid holidays close most businesses for several days.",
+  "closed_days": "Weekend is Friday–Saturday in jo, sy, ps and iq; Saturday–Sunday in lb (with short Friday in the public sector); Christian-owned shops may close Sunday and Muslim-owned shops Friday; Eid al-Fitr and Eid al-Adha close most businesses; many extra religious holidays in lb.",
+  "booking_channels": "Phone and WhatsApp dominate for restaurants, clinics, salons and trades; some Amman/Beirut venues use web reservation widgets; Talabat, Careem and local apps for delivery; Careem, Uber or local apps for rides in jo/lb/iq; clinic booking apps exist but phone calls to the clinic secretary are the norm.",
+  "voice_menu": "Telecoms (Zain, Orange, Alfa, touch, Jawwal, Asiacell), banks and utilities use IVR; restaurants, clinics and shops usually answer directly, often on a mobile.",
+  "callback_habits": "Businesses confirm or remind via WhatsApp message or a call on the day; clinic secretaries call back to fix a slot.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "安曼、貝魯特餐廳多以電話或 WhatsApp 訂位，部分用網路訂位工具；晚餐常 20:00 後才滿，齋月以開齋（iftar）與宵夜（suhoor）時段為主；黎巴嫩常以美元計價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Minimum charge per person on weekend nights"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Iftar set menu and timing during Ramadan"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Payment in USD cash or card in Lebanon"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details"
+        }
+      ],
+      "usually_asked": [
+        "Day and time, confirming evening (bil-leil) vs afternoon",
+        "Number of people and if it is a family table",
+        "Indoor, terrace, or the argileh (shisha) section",
+        "Name and mobile with WhatsApp"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所由秘書（سكرتيرة）電話排號，常是「某時段到場依序看」；醫院有預約專線；保險公司卡或自費需先講，伊拉克與敘利亞多為現場排隊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "A female doctor is requested for the patient"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Visit is first-come within the evening clinic hours"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID number"
+        }
+      ],
+      "usually_asked": [
+        "Doctor's name or specialty",
+        "Patient name and age",
+        "Insurance company card or cash (كشفية fee)",
+        "First visit or follow-up (مراجعة)",
+        "Mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "女性美容院（صالون نسائي）與男士理髮店分開，多經電話、WhatsApp 或 Instagram 預約；婚季與開齋節前特別滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit to secure a bridal or Eid-eve slot"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service: hair, blow-dry, nails, threading or bridal",
+        "Day and time",
+        "Preferred stylist",
+        "Name and WhatsApp number"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車在工業區（المنطقة الصناعية）小車廠，多先打電話再開過去；家電與冷氣維修會要求先 WhatsApp 傳照片。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Original vs commercial (تجاري) spare parts price"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model and year, or appliance brand",
+        "What is wrong, ideally with a photo on WhatsApp",
+        "When to come",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "打電話叫外送（توصيل）或外帶（سفري）極普遍，店家會要地標或 WhatsApp 定位；Talabat、Careem 在約旦、伊拉克等地常用。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery fee and estimated time by district"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and number of portions",
+        "Delivery or pickup time",
+        "Location by landmark or WhatsApp pin",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "甜點店（如 knafeh、maamoul）在節日前要預訂並常以公斤計；肉鋪、蛋糕可 WhatsApp 下單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for large Eid orders"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and weight in kilos or number of trays",
+        "Pickup day, especially before Eid",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多直接打電話或 WhatsApp，診所改期需重新排號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Clinic can only move the visit to another evening session"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name on the booking",
+        "New time wanted",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問價格、營業時間常被回覆語音訊息或 WhatsApp 照片。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Prices sent as photos on WhatsApp"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question",
+        "Which day, noting Friday or Sunday closures by country",
+        "Quantity"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店電話、Email 或 WhatsApp 訂房；外國旅客需護照，黎巴嫩飯店多以美元計價，伊拉克庫德區與南部規定不同。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price quoted in USD (Lebanon)"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of guests and if a family",
+        "Room type",
+        "Guest names as in passports and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "佩特拉、瓦迪倫沙漠營地、死海度假村與黎巴嫩導覽多電話或 WhatsApp 訂，旅行業者常包接送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Entry tickets (e.g. Jordan Pass) included or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date",
+        "Number of people",
+        "Tour, desert camp or day trip",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、太陽能熱水器維修多電話叫；地址系統不完整，要給社區、街名、建築物名與地標。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee (كشفية) before the repair price"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Area, street and building name with a landmark",
+        "Floor and whether there is a lift or generator power",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "安曼、貝魯特有寵物醫院與美容，多電話預約；其他地區以牲畜獸醫為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home visit by vet"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal and breed",
+        "Vaccination, grooming or illness",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Aramex 等快遞用簡訊與 WhatsApp 通知並確認地址，查件以官網或 WhatsApp 機器人為主，郵政追蹤有限。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier confirms address by WhatsApp"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID for collection at the branch"
+        }
+      ],
+      "usually_asked": [
+        "Shipment (waybill) number",
+        "Recipient name",
+        "City and area",
+        "Phone that got the SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Zain、Orange、Alfa、touch、Jawwal、Asiacell）與銀行客服有語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Line or account holder",
+        "Problem",
+        "Line or account number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "約旦、伊拉克叫車可用 Careem、Uber 等 App；各地也有電話車行（مكتب تكسي），機場與城際接送多電話預約固定價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price agreed before the trip"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過仲介（مكتب عقاري）或網站與社群刊登，電話約看；租約常要預付數月租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Several months of rent paid in advance"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Agent commission"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID or residency papers"
+        }
+      ],
+      "usually_asked": [
+        "Which listing and area",
+        "Viewing time",
+        "Family size",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府機關多需親臨，電話只能問一般資訊；約旦部分服務可經 Sanad 等電子政府入口辦理。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Some services online in Jordan"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID number"
+        }
+      ],
+      "usually_asked": [
+        "Office",
+        "Question",
+        "Who it is for"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ar": {
+      "appointment_words": [
+        "موعد عند الدكتور",
+        "بدي موعد",
+        "حجز موعد",
+        "موعد بالصالون",
+        "كشفية"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "بدي احجز",
+        "حجز غرفة",
+        "طاولة لأربعة"
+      ],
+      "change_words": [
+        "تغيير الموعد",
+        "إلغاء الحجز",
+        "بعد نص ساعة",
+        "نقله ليوم الجمعة"
+      ],
+      "date": [
+        "بكرا",
+        "بعد بكرا",
+        "يوم الجمعة",
+        "الثلاثاء الجاي",
+        "25/11"
+      ],
+      "false_friends": [
+        "الطابق 3",
+        "عمارة 12",
+        "وجبة رقم 4",
+        "مساج 60 دقيقة",
+        "3ala (عَ in Arabizi)",
+        "7abibi (ح in Arabizi)"
+      ],
+      "inquiry_words": [
+        "قديش السعر",
+        "في عندكم",
+        "لأي ساعة فاتحين",
+        "في توصيل",
+        "بتقبلوا فيزا"
+      ],
+      "name": [
+        "باسم أحمد",
+        "على اسم أم خالد",
+        "عائلة الخطيب",
+        "أستاذ سامي"
+      ],
+      "order_words": [
+        "طلب سفري",
+        "توصيل",
+        "استلام من المحل",
+        "طلب مسبق"
+      ],
+      "party": [
+        "طاولة لأربعة",
+        "نحنا تلاتة",
+        "شخصين",
+        "2 كبار وولد",
+        "5 أشخاص"
+      ],
+      "phone": [
+        "079 12345678",
+        "+961 3 12345678",
+        "0770 12345678",
+        "12345678"
+      ],
+      "time": [
+        "الساعة 7:30",
+        "سبعة ونص بالليل",
+        "تمانية إلا ربع",
+        "الضهر",
+        "بعد العصر"
+      ]
+    },
+    "en": {
+      "appointment_words": [
+        "appointment with the doctor",
+        "book a session",
+        "salon appointment"
+      ],
+      "booking_words": [
+        "book a table",
+        "reservation",
+        "book a room"
+      ],
+      "change_words": [
+        "reschedule",
+        "cancel the booking",
+        "half an hour later"
+      ],
+      "date": [
+        "tomorrow",
+        "this Friday",
+        "next Tuesday",
+        "25/11"
+      ],
+      "false_friends": [
+        "3rd floor",
+        "building 12",
+        "meal no. 4",
+        "60 min massage"
+      ],
+      "inquiry_words": [
+        "how much is",
+        "do you have",
+        "until what time are you open",
+        "do you deliver"
+      ],
+      "name": [
+        "under Ahmad",
+        "booking for Rania",
+        "the Haddad family"
+      ],
+      "order_words": [
+        "takeaway",
+        "delivery",
+        "pickup"
+      ],
+      "party": [
+        "table for 4",
+        "we are 3",
+        "2 adults and 1 kid"
+      ],
+      "phone": [
+        "079 12345678",
+        "+961 3 12345678",
+        "12345678"
+      ],
+      "time": [
+        "7:30 pm",
+        "half past seven",
+        "around 8 at night"
+      ]
+    },
+    "fr": {
+      "appointment_words": [
+        "prendre rendez-vous",
+        "rendez-vous chez le médecin",
+        "rdv coiffeur"
+      ],
+      "booking_words": [
+        "réserver une table",
+        "réservation",
+        "réserver une chambre"
+      ],
+      "change_words": [
+        "décaler le rendez-vous",
+        "annuler la réservation",
+        "une demi-heure plus tard"
+      ],
+      "date": [
+        "demain",
+        "ce vendredi",
+        "mardi prochain",
+        "25/11"
+      ],
+      "false_friends": [
+        "3e étage",
+        "immeuble 12",
+        "menu n° 4",
+        "massage 60 min"
+      ],
+      "inquiry_words": [
+        "c'est combien",
+        "vous avez",
+        "vous fermez à quelle heure",
+        "vous livrez"
+      ],
+      "name": [
+        "au nom de Haddad",
+        "pour Rania",
+        "famille Khoury"
+      ],
+      "order_words": [
+        "à emporter",
+        "livraison",
+        "passer prendre"
+      ],
+      "party": [
+        "table pour 4",
+        "nous sommes trois",
+        "2 adultes et 1 enfant"
+      ],
+      "phone": [
+        "03 12345678",
+        "+961 3 12345678",
+        "12345678"
+      ],
+      "time": [
+        "à 19h30",
+        "sept heures et demie",
+        "vers 20h"
+      ]
+    }
+  }
+}

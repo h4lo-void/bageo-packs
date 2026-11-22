@@ -1,0 +1,472 @@
+{
+  "region": "cn",
+  "vocab": {
+    "cmn": {
+      "bank": [
+        {
+          "term": "網銀",
+          "en": "online banking (網銀), Mainland China wording"
+        },
+        {
+          "term": "銀行卡",
+          "en": "bank card (銀行卡)"
+        },
+        {
+          "term": "儲蓄卡",
+          "en": "debit / savings card (儲蓄卡)"
+        },
+        {
+          "term": "轉帳",
+          "en": "bank transfer (轉帳), Mainland China wording"
+        },
+        {
+          "term": "開戶",
+          "en": "open an account (開戶)"
+        },
+        {
+          "term": "短信驗證碼",
+          "en": "SMS verification code (短信驗證碼)"
+        },
+        {
+          "term": "餘額",
+          "en": "account balance (餘額)"
+        },
+        {
+          "term": "對公帳戶",
+          "en": "corporate bank account (對公帳戶)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "快遞櫃",
+          "en": "parcel locker (快遞櫃)"
+        },
+        {
+          "term": "驛站",
+          "en": "neighbourhood pickup station (e.g. Cainiao) (驛站)"
+        },
+        {
+          "term": "門崗",
+          "en": "gate / guard post (門崗)"
+        },
+        {
+          "term": "取件碼",
+          "en": "pickup code (取件碼)"
+        },
+        {
+          "term": "代收點",
+          "en": "collection point (代收點)"
+        },
+        {
+          "term": "豐巢",
+          "en": "Hive Box parcel lockers (豐巢)"
+        },
+        {
+          "term": "放門口",
+          "en": "leave at the door (放門口)"
+        },
+        {
+          "term": "送貨上門",
+          "en": "deliver to the door (送貨上門)"
+        }
+      ],
+      "government": [
+        {
+          "term": "身份證",
+          "en": "resident identity card (身份證)"
+        },
+        {
+          "term": "戶口本",
+          "en": "household register booklet (戶口本)"
+        },
+        {
+          "term": "居住證",
+          "en": "residence permit (居住證)"
+        },
+        {
+          "term": "派出所",
+          "en": "local police station (派出所)"
+        },
+        {
+          "term": "居委會",
+          "en": "neighbourhood committee (居委會)"
+        },
+        {
+          "term": "社保卡",
+          "en": "social security card (社保卡)"
+        },
+        {
+          "term": "營業執照",
+          "en": "business licence (營業執照)"
+        },
+        {
+          "term": "證件",
+          "en": "ID documents in general (證件)"
+        }
+      ],
+      "health": [
+        {
+          "term": "醫保",
+          "en": "medical insurance (醫保)"
+        },
+        {
+          "term": "掛號",
+          "en": "register for a hospital visit (掛號)"
+        },
+        {
+          "term": "門診",
+          "en": "outpatient clinic (門診)"
+        },
+        {
+          "term": "社區醫院",
+          "en": "community hospital (社區醫院)"
+        },
+        {
+          "term": "藥店",
+          "en": "pharmacy (藥店)"
+        },
+        {
+          "term": "急診",
+          "en": "emergency department (急診)"
+        },
+        {
+          "term": "電子醫保憑證",
+          "en": "electronic medical insurance code (電子醫保憑證)"
+        },
+        {
+          "term": "醫保卡",
+          "en": "medical insurance card (醫保卡)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "手機號",
+          "en": "mobile number (手機號)"
+        },
+        {
+          "term": "話費",
+          "en": "mobile credit / call charges (話費)"
+        },
+        {
+          "term": "流量",
+          "en": "mobile data (流量)"
+        },
+        {
+          "term": "套餐",
+          "en": "mobile plan (套餐)"
+        },
+        {
+          "term": "攜號轉網",
+          "en": "number portability (攜號轉網)"
+        },
+        {
+          "term": "營運商",
+          "en": "mobile carrier (營運商)"
+        },
+        {
+          "term": "充值",
+          "en": "top up credit or data (充值)"
+        },
+        {
+          "term": "寬帶",
+          "en": "home broadband (寬帶)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "微信支付",
+          "en": "WeChat Pay (微信支付)"
+        },
+        {
+          "term": "支付寶",
+          "en": "Alipay (支付寶)"
+        },
+        {
+          "term": "雲閃付",
+          "en": "UnionPay Quick Pass / Cloud QuickPass (雲閃付)"
+        },
+        {
+          "term": "掃碼付款",
+          "en": "pay by scanning a QR code (掃碼付款)"
+        },
+        {
+          "term": "花唄",
+          "en": "Ant credit instalment wallet (花唄)"
+        },
+        {
+          "term": "數字人民幣",
+          "en": "digital yuan (e-CNY) (數字人民幣)"
+        },
+        {
+          "term": "零錢",
+          "en": "small change or WeChat/Alipay balance (零錢)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "地鐵",
+          "en": "metro (地鐵)"
+        },
+        {
+          "term": "公交",
+          "en": "city bus (公交)"
+        },
+        {
+          "term": "高鐵",
+          "en": "high-speed rail (高鐵)"
+        },
+        {
+          "term": "網約車",
+          "en": "app-hailed private car (網約車)"
+        },
+        {
+          "term": "滴滴",
+          "en": "DiDi ride-hailing (滴滴)"
+        },
+        {
+          "term": "共享單車",
+          "en": "dockless bike share (共享單車)"
+        },
+        {
+          "term": "火車站",
+          "en": "railway station (火車站)"
+        },
+        {
+          "term": "站台",
+          "en": "platform (站台)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "小區",
+          "en": "residential compound (小區)"
+        },
+        {
+          "term": "物業",
+          "en": "property management (物業)"
+        },
+        {
+          "term": "門禁",
+          "en": "access control (門禁), Mainland China wording"
+        },
+        {
+          "term": "門崗",
+          "en": "gate post / guards (門崗)"
+        },
+        {
+          "term": "單元樓",
+          "en": "apartment block / unit entrance (單元樓)"
+        },
+        {
+          "term": "快遞櫃",
+          "en": "parcel locker in the compound (快遞櫃)"
+        },
+        {
+          "term": "居委會",
+          "en": "neighbourhood committee (居委會)"
+        },
+        {
+          "term": "樓下",
+          "en": "downstairs / building entrance (樓下)"
+        }
+      ],
+      "school": [
+        {
+          "term": "幼兒園",
+          "en": "kindergarten (幼兒園)"
+        },
+        {
+          "term": "小學",
+          "en": "primary school (小學), Mainland China wording"
+        },
+        {
+          "term": "初中",
+          "en": "junior secondary school (初中)"
+        },
+        {
+          "term": "班主任",
+          "en": "homeroom teacher (班主任)"
+        },
+        {
+          "term": "補習班",
+          "en": "after-school tutoring class (補習班)"
+        },
+        {
+          "term": "放學",
+          "en": "school dismissal (放學), Mainland China wording"
+        },
+        {
+          "term": "家長會",
+          "en": "parent-teacher meeting (家長會)"
+        },
+        {
+          "term": "高考",
+          "en": "national university entrance exam (高考)"
+        }
+      ],
+      "money": [
+        {
+          "term": "塊",
+          "en": "colloquial yuan, e.g. 五十塊"
+        },
+        {
+          "term": "元",
+          "en": "yuan (元)"
+        },
+        {
+          "term": "萬",
+          "en": "ten thousand, usual large-amount unit (萬)"
+        },
+        {
+          "term": "人民幣",
+          "en": "renminbi (人民幣)"
+        },
+        {
+          "term": "紅包",
+          "en": "red envelope / cash gift, also in-app transfer (紅包)"
+        },
+        {
+          "term": "轉帳",
+          "en": "transfer money (轉帳)"
+        },
+        {
+          "term": "零錢",
+          "en": "small change (零錢)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "上午",
+          "en": "morning (上午)"
+        },
+        {
+          "term": "下午",
+          "en": "afternoon (下午)"
+        },
+        {
+          "term": "晚上",
+          "en": "evening (晚上)"
+        },
+        {
+          "term": "工作日",
+          "en": "weekday (工作日)"
+        },
+        {
+          "term": "週末",
+          "en": "weekend (週末), Mainland China wording"
+        },
+        {
+          "term": "春節",
+          "en": "Spring Festival / Lunar New Year period (春節)"
+        },
+        {
+          "term": "這週",
+          "en": "this week (這週), Mainland China wording"
+        },
+        {
+          "term": "下班以後",
+          "en": "after work (下班以後)"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "go to work / be on shift (上班), Mainland China wording"
+        },
+        {
+          "term": "下班",
+          "en": "get off work (下班), Mainland China wording"
+        },
+        {
+          "term": "打卡",
+          "en": "clock in / out (打卡), Mainland China wording"
+        },
+        {
+          "term": "加班",
+          "en": "overtime (加班), Mainland China wording"
+        },
+        {
+          "term": "請假",
+          "en": "request leave (請假), Mainland China wording"
+        },
+        {
+          "term": "單位",
+          "en": "workplace / work unit (單位)"
+        },
+        {
+          "term": "領導",
+          "en": "supervisor / boss (領導)"
+        },
+        {
+          "term": "出差",
+          "en": "business trip (出差), Mainland China wording"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "捷運",
+      "use_instead": "地鐵",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "健保",
+      "use_instead": "醫保",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "超商取貨",
+      "use_instead": "驛站、快遞櫃取件",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "悠遊卡",
+      "use_instead": "交通卡、公交卡",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "LINE Pay",
+      "use_instead": "微信支付、支付寶",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "身分證",
+      "use_instead": "身份證",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "計程車",
+      "use_instead": "出租車、計程車較少用，口語常說打車、網約車",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "公車",
+      "use_instead": "公交、公交車",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "管理室",
+      "use_instead": "物業、門崗",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "的士",
+      "use_instead": "出租車、網約車",
+      "where_it_is_from": "HK"
+    }
+  ],
+  "sources": [
+    "https://www.gov.cn/",
+    "https://www.spb.gov.cn/",
+    "https://www.nhsa.gov.cn/",
+    "https://pay.weixin.qq.com/",
+    "https://www.12306.cn/index/",
+    "http://www.atm.org.tw/Uploads/201408/53e1a2c00d65b.pdf",
+    "https://yunshanfu.unionpay.com/"
+  ],
+  "uncertain": [
+    "「花唄」是否仍適合在對陌生來電中主動提到，各平台規則與各地接受度會變。",
+    "交通卡的叫法各地不同（公交卡、地鐵卡、一卡通），沒有全國統一口語。"
+  ]
+}

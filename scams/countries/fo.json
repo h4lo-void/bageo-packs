@@ -1,0 +1,61 @@
+{
+  "name": "Faroe Islands",
+  "name_local": "Føroyar",
+  "iso": "fo",
+  "calling_code": "+298",
+  "languages": [
+    "da"
+  ],
+  "prevalence_note": "On 2026-08-06 Føroya Politi, Talgildu Føroyar and the Faroese banks issued a joint warning: since February that year, more islanders have been receiving bogus text messages with a link that asks them to hand over personal details, often as if the sender were a bank, Posta, Nets, Samleikin or another official body. The notice says some people have already given information and that a few cases have led to money loss, but it also says there is still no full count of cases or losses.",
+  "cross_border_note": "The Faroe Islands have their own police district and the public calling code +298. The joint notice stresses that a familiar name or a familiar-looking telephone number in the message can still be forged, so a display that resembles a bank or a Danish service mark is not proof that the sender is in Tórshavn.",
+  "scams": [
+    {
+      "id": "fo_sms_leinki_myndugleiki",
+      "typology": "otp_theft",
+      "name": "Falske sms-beskeder med link, der udgiver sig for at være pengeinstitut, Posta, Nets eller Samleikin",
+      "name_en": "Føroya Politi joint warning: fake text messages with a link, spoofing a bank, Posta, Nets, Samleikin or another authority, seeking personal details",
+      "prevalence": "very_high",
+      "lang": "da",
+      "context_keywords": [
+        "uventet sms med et link",
+        "Samleikin",
+        "Posta",
+        "Nets",
+        "falsk afsendernummer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "klik på linket i sms'en",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "opdater dine oplysninger nu",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "udlever kortoplysninger i beskeden",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "betal via dette sms-link",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An unexpected text, sometimes with a well-known name or a number that looks local, urges the recipient to open a link quickly, update details or pay a fee. The official warning says many people have already given up personal numbers, card data, e-mail addresses or mailbox passwords, and that this is organised crime designed to create haste.",
+      "legit_en": "The joint notice states that banks, insurers, Posta, Samleikin and other authorities never ask customers to hand over secret or personal information in a text message. A genuine check is started by the person contacting the institution themselves, not by following the link in the message. A card can be blocked in netbank if the bank counter is closed.",
+      "bait_tactics": [
+        "Læg røret på og ring selv til pengeinstituttet eller den myndighed, der siges at være afsender, via en kontaktvej du allerede kender, ikke via linket i sms'en.",
+        "Sig at hemmelige oplysninger eller kort data aldrig afgives i en uventet sms, uanset hvilket navn der står som afsender.",
+        "Spørg hvilken konkret tjeneste eller hvilken afdeling beskeden skulle komme fra, og tilbyd at tage sagen gennem netbanken eller den officielle indgang i stedet."
+      ],
+      "sources": [
+        "https://politi.fo/politistoedir/tidindilisti/avaring-um-vidfevnd-smssvikalop/2026/08/06",
+        "https://www.bankin.fo/tidindi/2026/august/politi-og-bankar-avara-um-svik"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "region": "lv",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Да, алло."
+  },
+  "habits": {
+    "en": "Riga–Daugavpils Russian keeps Latvian words: e-talons, VID, CSDD, LMT. Official work is Latvian; вы for strangers.",
+    "zh": "里加、陶格夫皮爾斯俄語常夾 e-talons、VID、CSDD、LMT。公務用拉脫維亞語；對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Riga friend: ты, brisk and familiar; e-talons or street names can stay in Latvian mid-sentence.",
+        "zh": "里加熟友用 ты，節奏快、口氣熟；e-talons 或街名可直接用拉脫維亞語夾在句中。"
+      },
+      "2": {
+        "en": "Easygoing: follow their ты; after they explain, a short 'ясно' and maybe a local place left untranslated.",
+        "zh": "隨和：跟著對方的 ты；聽完短短接一句，地名可不翻譯。"
+      },
+      "3": {
+        "en": "Everyday Latvian Russian. Finish the point in a real sentence; tickets and tax stay e-talons or VID.",
+        "zh": "拉脫維亞日常俄語。用完整句子把重點說完；車票與稅務維持 e-talons、VID 原名。"
+      },
+      "4": {
+        "en": "Polite вы for CSDD or VID matters. Keep those acronyms, speak a little slower, and close the item clearly.",
+        "zh": "辦 CSDD、VID 的事用禮貌 вы。縮寫照留，說慢一點，把該項清楚收住。"
+      },
+      "5": {
+        "en": "Formal вы, ordered and brief. Name LMT, Tet or eParaksts as locals do and answer each detail fully.",
+        "zh": "正式 вы，有條理且簡短。電信與電子簽名用 LMT、Tet、eParaksts 當地叫法，細節要答全。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual pickup on ты: catch the news, then promise to pass it, like a neighbour in Riga.",
+        "zh": "{owner}隨口代接，用 ты：先接住對方要說的事，再答應轉達，像里加鄰居那樣。"
+      },
+      "2": {
+        "en": "Warm stand-in: match ты or вы, leave e-talons or LMT as said, and tell them {owner} will hear it.",
+        "zh": "溫和代接：跟著 ты 或 вы，e-talons、LMT 照對方的叫法，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Clear assistant. Restate the VID or CSDD request in one full sentence, then confirm you will tell {owner}.",
+        "zh": "口齒清楚的代接。先用整句複述 VID 或 CSDD 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Quiet secretary on вы: note why they called, keep Latvian official short names, confirm the handover.",
+        "zh": "低調秘書用 вы：記下為何來電，拉脫維亞官方簡稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: crisp wording, exact names like eParaksts, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，用詞俐落；eParaksts 等名稱要精確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Ну привет, как у вас в Риге?",
+      "Алло, да. Я на проводе, рассказывай.",
+      "Алло, добрый день. Это по e-talons? Хорошо.",
+      "Добрый день, спасибо за звонок. По VID всё понял.",
+      "Добрый день, благодарю за звонок. Вопрос по CSDD принял."
+    ],
+    "a": [
+      "Алло! Его нет дома, скажи мне — я перескажу.",
+      "Алло, привет. Я беру трубку за него, диктуй.",
+      "Алло, добрый день. Запишу и отнесу {owner}.",
+      "Добрый день, спасибо за звонок. Приму по LMT и передам.",
+      "Добрый день, благодарю за звонок. Всё зафиксирую и сообщу."
+    ]
+  },
+  "diff_from_home": [
+    "稅務、交通與電子簽名用拉脫維亞語原名（VID、CSDD、eParaksts），不要套用俄羅斯機構名。",
+    "里加公共交通卡常稱 e-talons，直接夾進俄語。",
+    "電信與銀行多用 LMT、Tet、Swedbank、SEB、Luminor 等當地名稱。",
+    "官方行政以拉脫維亞語為準；俄語在家庭與部分城市生活中仍常見。"
+  ],
+  "sources": [
+    "https://www.izm.gov.lv/en/state-language",
+    "https://www.vid.gov.lv/",
+    "https://www.csdd.lv/",
+    "https://lepo.it.da.ut.ee/~ehalam/pdf/RussLangIdent.pdf"
+  ],
+  "uncertain": [
+    "年輕一代在公務場合改用拉脫維亞語的程度因城市（里加、陶格夫皮爾斯、拉特加爾）而異，缺乏統一新數據。"
+  ]
+}

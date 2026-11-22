@@ -1,0 +1,119 @@
+{
+  "lang": "is",
+  "script": "latin",
+  "common_words": [
+    "ég",
+    "þú",
+    "hann",
+    "hún",
+    "við",
+    "þið",
+    "þeir",
+    "ekki",
+    "það",
+    "þetta",
+    "hvað",
+    "hvernig",
+    "af hverju",
+    "mér",
+    "þér",
+    "mig",
+    "þig",
+    "já",
+    "nei",
+    "takk",
+    "halló",
+    "bless",
+    "afsakið",
+    "hér",
+    "þar",
+    "nú",
+    "þegar",
+    "eftir",
+    "frá",
+    "til",
+    "með",
+    "eða",
+    "en",
+    "ef",
+    "því",
+    "allt",
+    "bara",
+    "eru",
+    "ert",
+    "okkur",
+    "gæti",
+    "þarf",
+    "vil",
+    "læknir",
+    "sending",
+    "pöntun",
+    "í dag",
+    "á morgun",
+    "í gær",
+    "símanúmer"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/is/is_50k.txt. Some high-rank tokens in that file encode þ as ū and ð as đ; those were read as þ/ð when selecting words.",
+  "shared_words": [
+    {
+      "word": "er",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "og",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "já",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ð",
+    "þ"
+  ],
+  "confusable_with": [
+    "da",
+    "nb",
+    "sv"
+  ],
+  "how_to_tell_apart": "Icelandic is North Germanic like Danish, Norwegian and Swedish, but ð and þ (and the pronouns ég, þú, það, þetta, við) make it unmistakable in writing. Thank-you and greeting forms takk, halló and bless overlap only partly with Norwegian takk/hei; Danish and Swedish use tak/tack and hej. Shared er, og and já should be ignored. Unlike the continental languages, Icelandic does not use ä or even å in native words, and æ/ö have a different distribution.",
+  "test_said": [
+    "Heitt vatn í húsinu hefur verið slökkt síðan í morgun og ég vil tilkynna það.",
+    "Apótekið er lokað en ég spyr hvort lyfseðillinn verði tilbúinn fyrst á morgun.",
+    "Fiskurinn sem átti að koma fyrir veisluna er enn ekki kominn á dótið.",
+    "Nýja sófaborðið er skemmt á horninu og ég vil fá annað sent heim.",
+    "Á heilsugæslunni þarf ég tíma vegna hálsbólgu sem hefur staðið í fjóra daga.",
+    "Tannlæknirinn bað mig um að heyra í ykkur ef verkurinn kæmi aftur að nóttu.",
+    "Ég ætla ekki að skipta um tryggingar og vil ekki fá fleiri sölusímtal.",
+    "Farsímasamningnum var breytt í síðasta mánuði svo nýtt tilboð kemur ekki til greina."
+  ],
+  "test_not_enough": [
+    "Guðrún",
+    "ok",
+    "níu",
+    "party"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/is/is_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Icelandic_orthography",
+    "https://en.wikipedia.org/wiki/Icelandic_language"
+  ],
+  "uncertain": [
+    "The FrequencyWords Icelandic file systematically misspells many þ/ð tokens as ū/đ; ranks were used after that substitution, so a raw string match on the file will not always show ég/það as written here.",
+    "á as a preposition is Icelandic-specific in meaning but the letter also exists in other languages, so it is not treated as a unique letter."
+  ]
+}

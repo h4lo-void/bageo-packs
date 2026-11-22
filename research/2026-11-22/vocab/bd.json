@@ -1,0 +1,436 @@
+{
+  "region": "bd",
+  "vocab": {
+    "bn-BD": {
+      "bank": [
+        {
+          "term": "bKash",
+          "en": "the mobile-money service most callers name first, tied to a phone number"
+        },
+        {
+          "term": "Nagad",
+          "en": "Bangladesh Post Office's mobile-money service, named about as often as bKash"
+        },
+        {
+          "term": "OTP",
+          "en": "the one-time code for bKash, Nagad or a bank app"
+        },
+        {
+          "term": "Rocket",
+          "en": "Dutch-Bangla Bank's mobile money, still used though less than bKash or Nagad"
+        },
+        {
+          "term": "ব্যাংক অ্যাকাউন্ট",
+          "en": "a bank account (ব্যাংক অ্যাকাউন্ট)"
+        },
+        {
+          "term": "ব্যালেন্স",
+          "en": "the balance (ব্যালেন্স)"
+        },
+        {
+          "term": "অনলাইন ব্যাংকিং",
+          "en": "online or app banking (অনলাইন ব্যাংকিং)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "দারোয়ান",
+          "en": "the gatekeeper or building guard, the person a courier usually calls"
+        },
+        {
+          "term": "গার্ড রুম",
+          "en": "the guard room"
+        },
+        {
+          "term": "গেটের ভেতর",
+          "en": "inside the gate, a typical instruction in apartment compounds"
+        },
+        {
+          "term": "কুরিয়ার",
+          "en": "the courier, also Pathao, RedX, Steadfast or Sundarban depending on the shop"
+        },
+        {
+          "term": "পোস্ট অফিস",
+          "en": "a post office, also the Bangladesh Post / Nagad connection"
+        },
+        {
+          "term": "প্রতিবেশী",
+          "en": "the neighbour (প্রতিবেশী)"
+        },
+        {
+          "term": "দরজার সামনে",
+          "en": "in front of the door (দরজার সামনে)"
+        }
+      ],
+      "government": [
+        {
+          "term": "NID",
+          "en": "the national ID, also জাতীয় পরিচয়পত্র; do not read the number unless {owner} asks"
+        },
+        {
+          "term": "জন্ম নিবন্ধন",
+          "en": "birth registration, often needed for children"
+        },
+        {
+          "term": "পাসপোর্ট",
+          "en": "a passport (পাসপোর্ট)"
+        },
+        {
+          "term": "টিন",
+          "en": "the taxpayer number, TIN"
+        },
+        {
+          "term": "ইউনিয়ন পরিষদ",
+          "en": "the union council office, still a common place for local papers"
+        },
+        {
+          "term": "উপজেলা",
+          "en": "the upazila office"
+        },
+        {
+          "term": "ড্রাইভিং লাইসেন্স",
+          "en": "a driving licence (ড্রাইভিং লাইসেন্স)"
+        }
+      ],
+      "health": [
+        {
+          "term": "ডাক্তার",
+          "en": "a doctor, also চিকিৎসক"
+        },
+        {
+          "term": "ফার্মেসি",
+          "en": "a pharmacy, also ওষুধের দোকান"
+        },
+        {
+          "term": "প্রেসক্রিপশন",
+          "en": "a prescription (প্রেসক্রিপশন)"
+        },
+        {
+          "term": "সরকারি হাসপাতাল",
+          "en": "a government hospital"
+        },
+        {
+          "term": "ক্লিনিক",
+          "en": "a private clinic"
+        },
+        {
+          "term": "উপজেলা স্বাস্থ্য কমপ্লেক্স",
+          "en": "the upazila health complex, outside the big cities"
+        },
+        {
+          "term": "অ্যাম্বুলেন্স",
+          "en": "an ambulance"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "সিম",
+          "en": "a SIM (সিম)"
+        },
+        {
+          "term": "প্যাকেজ",
+          "en": "a mobile plan or data pack"
+        },
+        {
+          "term": "ব্যালেন্স",
+          "en": "prepaid credit (ব্যালেন্স)"
+        },
+        {
+          "term": "নম্বর পোর্ট",
+          "en": "keeping the number, also MNP"
+        },
+        {
+          "term": "অপারেটর",
+          "en": "the operator, often Grameenphone, Robi, Banglalink or Teletalk"
+        },
+        {
+          "term": "মোবাইল ডেটা",
+          "en": "mobile data (মোবাইল ডেটা)"
+        },
+        {
+          "term": "হোম ইন্টারনেট",
+          "en": "home broadband, also Wi-Fi"
+        }
+      ],
+      "payment": [
+        {
+          "term": "bKash",
+          "en": "the default way to send money or pay a merchant"
+        },
+        {
+          "term": "Nagad",
+          "en": "the other default wallet, run with Bangladesh Post"
+        },
+        {
+          "term": "ক্যাশ",
+          "en": "cash (ক্যাশ)"
+        },
+        {
+          "term": "ক্যাশ অন ডেলিভারি",
+          "en": "cash on delivery, still very common"
+        },
+        {
+          "term": "কার্ড",
+          "en": "a debit or credit card, less common than the wallets for everyday sums"
+        },
+        {
+          "term": "সেন্ড মানি",
+          "en": "sending money to a personal bKash or Nagad number"
+        },
+        {
+          "term": "পেমেন্ট",
+          "en": "paying a merchant number or a QR"
+        }
+      ],
+      "transport": [
+        {
+          "term": "রিকশা",
+          "en": "a rickshaw, still everyday in most cities"
+        },
+        {
+          "term": "সিএনজি",
+          "en": "a CNG auto-rickshaw"
+        },
+        {
+          "term": "পাঠাও",
+          "en": "Pathao rides and deliveries, also Uber in Dhaka"
+        },
+        {
+          "term": "বাস",
+          "en": "a bus (বাস)"
+        },
+        {
+          "term": "মেট্রোরেল",
+          "en": "Dhaka's metro, only relevant inside the capital"
+        },
+        {
+          "term": "ট্রেন",
+          "en": "a train, also Bangladesh Railway"
+        },
+        {
+          "term": "লঞ্চ",
+          "en": "a launch, the river boat used on many longer routes"
+        }
+      ],
+      "housing": [
+        {
+          "term": "ফ্ল্যাট",
+          "en": "a flat (ফ্ল্যাট)"
+        },
+        {
+          "term": "গেট",
+          "en": "the compound gate"
+        },
+        {
+          "term": "দারোয়ান",
+          "en": "the gatekeeper"
+        },
+        {
+          "term": "লিফট",
+          "en": "the lift"
+        },
+        {
+          "term": "ভাড়া",
+          "en": "the rent (ভাড়া)"
+        },
+        {
+          "term": "বাড়িওয়ালা",
+          "en": "the landlord"
+        },
+        {
+          "term": "মহল্লা",
+          "en": "the neighbourhood or block"
+        }
+      ],
+      "school": [
+        {
+          "term": "স্কুল",
+          "en": "school, often the English word even in Bangla speech"
+        },
+        {
+          "term": "কিন্ডারগার্টেন",
+          "en": "kindergarten, also কিন্ডার"
+        },
+        {
+          "term": "কলেজ",
+          "en": "college, used for higher secondary as well as degree colleges"
+        },
+        {
+          "term": "মাদ্রাসা",
+          "en": "a madrasa, named when that is the child's school"
+        },
+        {
+          "term": "হোমওয়ার্ক",
+          "en": "homework, also বাড়ির কাজ"
+        },
+        {
+          "term": "স্যার or ম্যাডাম",
+          "en": "the usual way to refer to a teacher"
+        },
+        {
+          "term": "বিশ্ববিদ্যালয়",
+          "en": "university, also ভার্সিটি"
+        }
+      ],
+      "money": [
+        {
+          "term": "টাকা",
+          "en": "Bangladeshi taka, also Tk"
+        },
+        {
+          "term": "হাজার",
+          "en": "a thousand taka, the usual spoken unit"
+        },
+        {
+          "term": "পয়সা",
+          "en": "poisha, rarely handled except as a word for small change"
+        },
+        {
+          "term": "ক্যাশ",
+          "en": "cash (ক্যাশ)"
+        },
+        {
+          "term": "ফাই",
+          "en": "the change, also খুচরা"
+        },
+        {
+          "term": "পরিমাণ",
+          "en": "the amount, also অ্যামাউন্ট"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "সকালে",
+          "en": "in the morning (সকালে)"
+        },
+        {
+          "term": "দুপুরে",
+          "en": "around midday"
+        },
+        {
+          "term": "বিকেলে",
+          "en": "in the afternoon (বিকেলে)"
+        },
+        {
+          "term": "সন্ধ্যায়",
+          "en": "in the evening (সন্ধ্যায়)"
+        },
+        {
+          "term": "সপ্তাহের দিন",
+          "en": "a weekday (সপ্তাহের দিন)"
+        },
+        {
+          "term": "সাপ্তাহিক ছুটি",
+          "en": "the weekend (সাপ্তাহিক ছুটি)"
+        },
+        {
+          "term": "অফিসের পর",
+          "en": "after work (অফিসের পর)"
+        },
+        {
+          "term": "আগামীকাল সকালে",
+          "en": "tomorrow morning (আগামীকাল সকালে)"
+        }
+      ],
+      "work": [
+        {
+          "term": "অফিস",
+          "en": "the office or work"
+        },
+        {
+          "term": "ওভারটাইম",
+          "en": "overtime (ওভারটাইম)"
+        },
+        {
+          "term": "ছুটি",
+          "en": "leave"
+        },
+        {
+          "term": "অসুস্থতার ছুটি",
+          "en": "sick leave (অসুস্থতার ছুটি)"
+        },
+        {
+          "term": "বস",
+          "en": "the boss, also স্যার in some workplaces"
+        },
+        {
+          "term": "বাড়ি থেকে কাজ",
+          "en": "working from home (বাড়ি থেকে কাজ)"
+        },
+        {
+          "term": "অফিসিয়াল ট্যুর",
+          "en": "a work trip"
+        },
+        {
+          "term": "বেতন",
+          "en": "the salary (বেতন)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "UPI",
+      "use_instead": "bKash, Nagad, Rocket",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Paytm",
+      "use_instead": "bKash, Nagad",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Aadhaar",
+      "use_instead": "NID, জাতীয় পরিচয়পত্র",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "rupee 當孟加拉貨幣",
+      "use_instead": "টাকা",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "bKash, Nagad, সেন্ড মানি",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Grab",
+      "use_instead": "Pathao, সিএনজি, রিকশা",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "মেট্রোরেল 套用到達卡以外",
+      "use_instead": "মেট্রোরেল目前主要是達卡",
+      "where_it_is_from": "BD"
+    },
+    {
+      "word": "不要朗讀 NID 全號",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "BD"
+    },
+    {
+      "word": "GCash",
+      "use_instead": "bKash, Nagad",
+      "where_it_is_from": "PH"
+    },
+    {
+      "word": "M-Pesa",
+      "use_instead": "bKash, Nagad",
+      "where_it_is_from": "KE"
+    }
+  ],
+  "sources": [
+    "https://www.bkash.com/en/page/open-new-account",
+    "https://www.bkash.com/en/customer-service/faq",
+    "https://www.bkash.com/",
+    "https://nagad.com.bd/",
+    "https://www.bangladesh.gov.bd/",
+    "https://www.bangladeshpost.gov.bd/"
+  ],
+  "uncertain": [
+    "Nagad 是 Bangladesh Post Office 的電子錢包，與 bKash 並列常用，不要預設只有一種。",
+    "Rocket（Dutch-Bangla Bank）仍有人用，但沒有前兩者普遍。",
+    "মেট্রোরেল 只與達卡有關；外縣市交通更常是 বাস、রিকশা、সিএনজি 或 লঞ্চ。"
+  ]
+}

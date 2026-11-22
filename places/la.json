@@ -1,0 +1,750 @@
+{
+  "region": "la",
+  "countries": [
+    "la"
+  ],
+  "region_name_zh": "寮國",
+  "region_name": "Laos",
+  "languages": [
+    {
+      "code": "lo",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite Lao (lo) with 'jao' and 'doi'; Thai is widely understood because of Thai TV, but answer in Lao; English works at hotels, tour operators and some Vientiane/Luang Prabang restaurants.",
+  "english_ok": "sometimes — Fine in tourism businesses in Vientiane, Luang Prabang and Vang Vieng; rare at local shops, clinics and government offices.",
+  "politeness": "Soft and unhurried: 'Sabaidee', add the polite 'jao' (and 'doi' for yes), address men as 'Than'/'Ai' and women as 'Nang'/'Euay' by age, say you call on behalf of someone; end with 'khop jai'.",
+  "name_tip": "Lao people are usually addressed by given name (often a nickname); bookings go under the given name — spell it, as romanisation varies.",
+  "phone_tip": "Mobile 020 plus 8 digits (020 1234 5678; +856 20 1234 5678), some 030 numbers; WhatsApp on the same number is the main follow-up channel; landlines 021 for Vientiane.",
+  "time_tip": "Traditional clock: 'thum' for evening hours (1 thum = 19:00, 2 thum = 20:00), 'mong sao/baai/laeng' for day hours, 'kheung' = :30; 24-hour also used in writing — always convert and read back.",
+  "number_tip": "Lao digits (໐–໙) exist but Western digits are common in writing; prices in kip are large, so thousands ('phan') and ten-thousands ('meun') matter — confirm.",
+  "avoid_calling": "Avoid the long lunch break (about 12:00–13:00, government offices longer), calls before 8:00 or after 20:00, Pi Mai (Lao New Year, mid-April) and major Boun festivals when many businesses close.",
+  "closed_days": "Saturday–Sunday for government and banks; shops and restaurants mostly open daily; Pi Mai (14–16 April) and national holidays close offices; festivals like Boun That Luang may close local businesses.",
+  "booking_channels": "Food via foodpanda and LOCA; rides via LOCA; small businesses via WhatsApp, Facebook pages and Messenger; hotels via booking platforms; payments by cash and LaoQR through BCEL One and other bank apps.",
+  "voice_menu": "Telecoms and banks use Lao IVR; hospitals, restaurants and small businesses answer in person.",
+  "callback_habits": "Businesses confirm by WhatsApp or phone; delivery riders call for directions because addresses rely on landmarks.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "旅遊活動（遊船、健行、洞穴、Kuang Si 一日遊）多經旅行社或 WhatsApp，常前一天訂即可。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Tuk-tuk or minivan collection from the guesthouse included or charged"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Trip runs only with a minimum headcount; otherwise shared with other travellers"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "River trips cancelled in high water during the rainy season"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "pickup_place",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Trip (Mekong boat, kayaking, Kuang Si, caves) and date",
+        "Number of travellers",
+        "Guesthouse or meeting point",
+        "Name and WhatsApp"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲與按摩多現場或 WhatsApp、Facebook 預約；觀光區 spa 可電話訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for wedding (kin dong) makeup and hair, often booked weeks ahead in the wedding season"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Simple haircuts and foot massage are walk-in at neighbourhood shops"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Spa in Luang Prabang or Vientiane asks for hotel name for a pickup"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks to send customer face photos to a personal Facebook account"
+        }
+      ],
+      "usually_asked": [
+        "Treatment (hair, nails, Lao massage, herbal sauna, bridal makeup)",
+        "Preferred therapist or stylist",
+        "Day and time",
+        "Customer name plus the WhatsApp number for the reminder"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消直接打回或回原訊息即可；龍坡邦、萬榮的行程與住宿改期多走 WhatsApp。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Kip deposit kept if cancelled on the day"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Owner replies to the original WhatsApp chat with a new slot"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Festival dates (Pi Mai, Boun That Luang) cannot be moved"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the BCEL One transfer slip of the original deposit"
+        }
+      ],
+      "usually_asked": [
+        "Booked date and hour that need moving",
+        "Name used",
+        "New time wanted",
+        "Phone number",
+        "Whether a deposit was paid"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫院多是現場掛號排隊，私立醫院與診所可電話或 WhatsApp 預約；許多人重病會跨境到泰國就醫。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public hospitals register patients at the counter on arrival; no phone queue"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Consultation fee in kip, cash or LaoQR, and whether a Lao interpreter is needed for Thai-run clinics"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor suggests referral across the bridge to a hospital in Nong Khai or Udon Thani"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID card or family book (Samanokhua) details"
+        }
+      ],
+      "usually_asked": [
+        "Which doctor, department or international clinic",
+        "First visit or returning with a hospital card",
+        "Patient's full name, age and sex",
+        "Preferred morning or afternoon slot",
+        "Phone number on WhatsApp for the confirmation"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Unitel、Lao Telecom、ETL 等）與銀行客服有寮語語音選單，需身分驗證。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "IVR in Lao, press for operator"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "SIM number or bank account in question",
+        "Identity check",
+        "Problem description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多需本人到場，電話詢問有限，改走親自到村／縣辦公室或看官方 Facebook 公告；涉及證件與戶籍（family book）的事由本人處理。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Requires visiting the office in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID card or family book number"
+        }
+      ],
+      "usually_asked": [
+        "Office or school and the specific question",
+        "Applicant's or pupil's name and grade",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、清潔多靠熟人介紹或 Facebook；地址以村（ບ້ານ）、縣（ເມືອງ）與地標描述，門牌不普遍。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Technician buys pipes or aircon gas at the market and adds the cost"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment in full before visiting"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "Village (ban), district (muang) and a nearby temple or shop as landmark",
+        "Day and time",
+        "Name and phone",
+        "Photo or video of the problem on WhatsApp"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與賓館英語可通，平台訂房普遍；入住要護照或身分證，外國人入住須登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Payment in kip, baht or US dollars"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Free transfer from Wattay airport or the Laos–China Railway station"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Late arrival after the guesthouse gate closes"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or card number"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Number of guests",
+        "Room type (fan or air-con, river view)",
+        "Guest name",
+        "Phone or email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "很多店家資訊放在 Facebook 粉專；節日（Pi Mai、That Luang 節）營業時間會變。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed during Lao New Year"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Many small shops close for a long lunch"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question (hours, price in kip, LaoQR accepted)",
+        "Which branch or village",
+        "Day of the planned visit"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所主要在萬象，電話或 Facebook 聯絡。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rabies vaccine stock limited; vet asks to come on a set day"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dog or cat, breed, size and age",
+        "Service needed",
+        "Day and time",
+        "Owner's name and WhatsApp number"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 Facebook 群組與仲介，看房要約，常要預付數月租金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Six months to a year of rent paid upfront, often in cash, sometimes for a discount"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rent quoted in US dollars or kip; utilities billed separately"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or ID copy"
+        },
+        {
+          "handle": "decline",
+          "what": "Asks a non-refundable fee before showing the house"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "Village, size, budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車與汽車修理多直接騎去或開去店裡，手機、家電也以到店為主，改用 Facebook Messenger 或 WhatsApp 傳照片問價最常見；授權車廠（Toyota 等）才接電話預約保養。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Mechanic quotes in kip only after seeing the bike or car at the shop"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts ordered from Thailand, takes days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Motorbike tyre and oil change done on the spot without booking"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "budget"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave the phone unlock code with the shop"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle or device model",
+        "Problem description or photos",
+        "When to bring it",
+        "Name and phone",
+        "Whether a Thai-import part is acceptable"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "寮國多數餐館現場入座，萬象、龍坡邦的高級或觀光餐廳才接電話或 WhatsApp 訂位；寮國新年（Pi Mai，4 月中）許多店休息。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Most local eateries and riverside beer gardens seat walk-ins and do not keep a booking list"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Lao-style group dinners (sindad grill, set khao niao meals) ordered ahead with a kip deposit"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Restaurant confirms only by a WhatsApp text, not by phone"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks prepayment via BCEL One/LaoQR to secure a large table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (dinner often 18:00–20:00, kitchens close early outside Vientiane)",
+        "Headcount for the table, including small children",
+        "Air-con room, garden or Mekong riverside seating",
+        "Name in Lao or English letters plus a WhatsApp number"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店與網路店家多以 Facebook、WhatsApp 接單，以 BCEL One 等 LaoQR 轉帳或貨到付款。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment by LaoQR transfer"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Out of stock, alternative"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Goods shipped by a courier branch (Anousith, HAL, Mixay) and paid on collection"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks the full price into a personal account before any order details are confirmed"
+        }
+      ],
+      "usually_asked": [
+        "Item, size and number of pieces",
+        "Collect at the shop, rider delivery or courier branch",
+        "Name and phone",
+        "Payment method"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "萬象外送以 foodpanda 與 LOCA 等 App 為主；在地小店多接電話、WhatsApp 或 Facebook 訂餐。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Customer can order through foodpanda or LOCA in Vientiane instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery only within the same district (muang) or for a kip surcharge"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Sticky rice and papaya salad sold out by evening"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "customization"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to share a bank-app OTP to finish payment"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and portions (sticky rice baskets, larb, tam mak hoong)",
+        "Pickup time or address (village, street, landmark)",
+        "Spice level",
+        "Name and phone",
+        "Cash or LaoQR"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "寮國郵政與在地快遞（Anousith、HAL、Mixay 等）多用 App 或網站查件，許多包裹寄到分店自取並在取件時付運費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Track on the courier website or app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parcel held at the branch; collect and pay COD there"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the receiver's ID card at collection"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Receiver's name and mobile registered on the parcel",
+        "Pickup branch or address"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "萬象叫車多用 LOCA 等 App；嘟嘟車要先談價，包車與長途可電話或 WhatsApp 訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agree price in advance"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Van to the Laos–China Railway station or Thai border bridge priced per trip"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup point (hotel, village, landmark) and hour",
+        "Destination",
+        "Headcount and bags or motorbikes",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "lo": {
+      "appointment_words": [
+        "ນັດໝໍ",
+        "ນັດກວດພະຍາດ",
+        "ຈອງຮ້ານຕັດຜົມ",
+        "ນັດສ້ອມລົດ",
+        "ນັດປຶກສາ"
+      ],
+      "booking_words": [
+        "ຈອງໂຕະ",
+        "ຈອງຫ້ອງ",
+        "ຈອງລ່ວງໜ້າ",
+        "ຢືນຢັນການຈອງ",
+        "ຈອງທົວ"
+      ],
+      "change_words": [
+        "ເລື່ອນນັດ",
+        "ຍົກເລີກການຈອງ",
+        "ປ່ຽນເວລາ",
+        "ປ່ຽນເປັນມື້ອື່ນ",
+        "ຊ້າໄປເຄິ່ງຊົ່ວໂມງ"
+      ],
+      "date": [
+        "ມື້ນີ້",
+        "ມື້ອື່ນ",
+        "ມື້ຮື",
+        "ວັນສຸກນີ້",
+        "25/11",
+        "25 ພະຈິກ"
+      ],
+      "false_friends": [
+        "ຊັ້ນ 3",
+        "ບ້ານເລກທີ 12",
+        "ໜ່ວຍ 5",
+        "ຮ່ອມ 7",
+        "ຊຸດ 2",
+        "ນວດ 1 ຊົ່ວໂມງ"
+      ],
+      "inquiry_words": [
+        "ເປີດຈັກໂມງ",
+        "ລາຄາເທົ່າໃດ",
+        "ມີສົ່ງບໍ່",
+        "ຈ່າຍ QR ໄດ້ບໍ່",
+        "ວັນອາທິດເປີດບໍ່"
+      ],
+      "name": [
+        "ຊື່ທ້າວສົມ",
+        "ຊື່ນາງແກ້ວ",
+        "ຊື່ຄົນເຈັບ",
+        "ຊື່ບໍລິສັດ",
+        "ຊື່ ແລະ ນາມສະກຸນ"
+      ],
+      "order_words": [
+        "ສັ່ງອາຫານ",
+        "ສົ່ງເຖິງບ້ານ",
+        "ມາຮັບເອງ",
+        "ສັ່ງລ່ວງໜ້າ",
+        "ສັ່ງເຄັກ"
+      ],
+      "party": [
+        "4 ຄົນ",
+        "ພວກເຮົາ 5 ຄົນ",
+        "ຜູ້ໃຫຍ່ 2 ເດັກ 1",
+        "2 ຄົນ",
+        "10 ຄົນ"
+      ],
+      "phone": [
+        "020 1234 5678",
+        "+856 20 1234 5678",
+        "030 123 4567",
+        "ໂທ 12345678"
+      ],
+      "time": [
+        "1 ທຸ່ມເຄິ່ງ",
+        "19:30",
+        "6 ໂມງແລງ",
+        "ທ່ຽງ",
+        "10 ໂມງເຊົ້າ",
+        "ບ່າຍ 2 ໂມງ"
+      ]
+    }
+  }
+}

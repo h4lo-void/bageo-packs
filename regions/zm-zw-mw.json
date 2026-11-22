@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "code": "zm-zw-mw",
+  "countries": [
+    "zm",
+    "zw",
+    "mw"
+  ],
+  "name": {
+    "en": "Southern Africa (English)",
+    "native": "Southern Africa (English)",
+    "zh": "南部非洲（英語）"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, are you there?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, security guard, plot or compound",
+    "zh": "包裹交給門閘、保全，或放在 plot／compound"
+  },
+  "readback": {
+    "en": "Spell names as-in; group mobiles; dates day-month.",
+    "zh": "名字用 as-in 拼；手機號分小段唸；日期先日後月；城市名要確認。"
+  },
+  "fraud": {
+    "en": "an EcoCash or Mpamba PIN request or 'wrong transfer' is a scam",
+    "zh": "要 EcoCash 或 Mpamba 的 PIN，或叫你退錯帳，都是詐騙"
+  },
+  "habits": {
+    "en": "Sir/Madam with strangers. Follow English. Keep gate, plot, compound, EcoCash.",
+    "zh": "對陌生人用 Sir/Madam。用英語。照用 gate、plot、EcoCash、Mpamba。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the EcoCash app spinning, a power cut, the USSD menu timing out.",
+    "zh": "卡在當地狀況，例如 EcoCash 一直轉、停電、USSD 選單逾時。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Harare or Lusaka pal: first names, easy English, a 'shamwari' or 'bwana' only if they use it, then one more beat, varied.",
+        "zh": "像哈拉雷或路沙卡的熟朋友：直呼名字，輕鬆英語，對方先用才回 shamwari 或 bwana，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Southern African English at the plot: first names only after they drop Sir; a short 'alright' or 'I hear you' after they finish.",
+        "zh": "在 plot 用南部非洲英語：對方還用 Sir 就不要直呼名字；聽完接 alright 或 I hear you 即可。"
+      },
+      "3": {
+        "en": "Everyday English of this belt. Full sentence after each point, not a bare yes. Keep EcoCash or plot if they name them.",
+        "zh": "這一帶的日常英語。每點用完整句回，不要只回 yes。對方說 EcoCash、plot 就照用。"
+      },
+      "4": {
+        "en": "With a gate, bank or ministry, stay on Sir or Madam and recap the errand first ('I follow you'). Keep EcoCash only if named.",
+        "zh": "對門閘、銀行或部會，維持 Sir 或 Madam，先覆述來意（I follow you）。說 EcoCash 才照用。"
+      },
+      "5": {
+        "en": "Office English for a bank or EcoCash/Mpamba agent: titles, compact; close each item as 'properly noted'. Do not mix wallet brands.",
+        "zh": "對銀行或 EcoCash／Mpamba 代理：用職稱，簡潔；每件用 properly noted 收束，勿混用品牌。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper at the compound. Stay on Sir until they use a name; react, then say you will jot the message.",
+        "zh": "在 compound 替{owner}代接，口氣活潑。對方改口前維持 Sir；先應一句，再說會把話記下。"
+      },
+      "2": {
+        "en": "Stand in as a gate clerk would: keep Sir or Madam, note the plot or compound, then jot it for {owner}.",
+        "zh": "像門閘職員代接：維持 Sir 或 Madam，先記下 plot 或 compound，再為{owner}記下。"
+      },
+      "3": {
+        "en": "Give a complete English answer, then say {owner} will hear it. Keep EcoCash or Mpamba only if they used that name. Not a lone ok.",
+        "zh": "用完整英語回答，再說{owner}會聽到。對方說了 EcoCash 或 Mpamba 才照用。不要只回 ok。"
+      },
+      "4": {
+        "en": "For a bank or mobile-money agent, keep Sir/Madam, name the purpose in a full line, and confirm the note stays at the gate.",
+        "zh": "接銀行或行動錢包代理電話，沿用 Sir／Madam，完整說來意，並確認字條會留在門閘。"
+      },
+      "5": {
+        "en": "Formal stand-in in Harare, Lusaka or Lilongwe: titles, brisk; lock the facts, then confirm delivery. Do not mix wallet brands.",
+        "zh": "在哈拉雷、路沙卡或利隆圭的正式代接：用職稱，明快；先鎖定事實，再確認訊息會交到。錢包品牌不要混用。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "EcoCash",
+      "Airtel Money",
+      "Mpamba",
+      "agent",
+      "transfer"
+    ],
+    "delivery": [
+      "gate",
+      "plot",
+      "compound",
+      "post office"
+    ],
+    "government": [
+      "NRC",
+      "national ID",
+      "passport"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "NHIMA"
+    ],
+    "telecom": [
+      "Airtel",
+      "TNM",
+      "Econet",
+      "prepaid SIM"
+    ],
+    "payment": [
+      "EcoCash",
+      "Airtel Money",
+      "Mpamba",
+      "mobile money"
+    ],
+    "transport": [
+      "kombi",
+      "minibus",
+      "taxi",
+      "rank"
+    ],
+    "housing": [
+      "plot",
+      "compound",
+      "rent",
+      "landlord",
+      "ZESA"
+    ]
+  },
+  "status": "draft"
+}

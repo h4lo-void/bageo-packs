@@ -1,0 +1,81 @@
+{
+  "name": "Guam",
+  "name_local": "Guåhan",
+  "iso": "gu",
+  "calling_code": "+1-671",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Guam Homeland Security and the Mariana Regional Fusion Center report scam calls from local, domestic and international numbers, including fake prize wins paid in gift cards; US postal inspectors also warn about fake USPS tracking texts.",
+  "cross_border_note": "Guam (+1-671) is in the NANP, so spoofed +1 numbers look domestic, while its location in the western Pacific also exposes residents to calls from Asian country codes.",
+  "scams": [
+    {
+      "id": "gu_prize_giftcard_call",
+      "typology": "prize_lottery",
+      "name": "Fake prize call asking for gift cards",
+      "name_en": "Call claiming a big prize win and asking for gift-card codes, flagged by Guam Homeland Security",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "prize winnings",
+        "sign documents",
+        "Office of the Governor"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "buy gift cards and send the code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "meet to sign documents for your winnings",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A caller says the owner won a large sum, drops the names of the Governor's office or Guam Homeland Security, and asks for gift-card codes or a meeting to sign papers.",
+      "legit_en": "GHS/OCD and the Mariana Regional Fusion Center say not to give personal or financial data to unexpected callers, and that local numbers can be spoofed.",
+      "bait_tactics": [
+        "Ask which contest was entered and when, then ask for the company's mailing address",
+        "Say every prize letter is handed to a family member in Tamuning to look over"
+      ],
+      "sources": [
+        "https://ghs.guam.gov/community-reminded-refrain-interacting-scam-calls-and-messages-1"
+      ]
+    },
+    {
+      "id": "gu_usps_smishing",
+      "typology": "fake_customs_parcel",
+      "name": "Fake USPS delivery text",
+      "name_en": "Fake USPS tracking text reaching Guam residents",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "USPS",
+        "package on hold",
+        "delivery address incomplete"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "incomplete address click here",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "small redelivery charge",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A text says a USPS package to Guam is held for an incomplete address and links to a page asking for card data.",
+      "legit_en": "USPIS notes USPS sends tracking texts only when a customer requested them with a tracking number.",
+      "bait_tactics": [
+        "Ask for the tracking number and compare it digit by digit with a printed receipt",
+        "Say mainland parcels are always collected at the Guam main facility counter"
+      ],
+      "sources": [
+        "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams"
+      ]
+    }
+  ]
+}

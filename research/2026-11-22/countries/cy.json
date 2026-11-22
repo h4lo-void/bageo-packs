@@ -1,0 +1,77 @@
+{
+  "country": "cy",
+  "parent": "gr-cy",
+  "name": {
+    "en": "Cyprus",
+    "native": "Κύπρος",
+    "zh": "賽普勒斯"
+  },
+  "lang": "el",
+  "hello": {
+    "hello": "Εμπρός;",
+    "hello_again": "Εμπρός, με ακούτε;"
+  },
+  "delivery": {
+    "en": "Parcels: a Box Now or ACS locker, an ACS shop, Cyprus Post, or a neighbour",
+    "zh": "包裹放 Box Now 或 ACS 櫃、到 ACS 或郵局門市，或交給鄰居"
+  },
+  "readback": {
+    "en": "Mobile numbers go in groups of two or three; 0 as μηδέν; amounts in euro",
+    "zh": "手機兩位或三位一組唸，0 唸 μηδέν；金額用歐元"
+  },
+  "fraud": {
+    "en": "A 1bank or OTP ask, remote access, or a Cyprus Post or courier fee link, are scams",
+    "zh": "要 1bank 或 OTP、要遠端操作，或假郵局、快遞補運費的都是詐騙"
+  },
+  "habits": {
+    "en": "Εσύ with friends, εσείς otherwise. Use Cypriot Greek habits; do not use Greece-only IRIS or Gov.gr.",
+    "zh": "朋友用 εσύ，其餘用 εσείς。用賽普勒斯希臘語習慣；不要套用希臘的 IRIS 或 Gov.gr。"
+  },
+  "stall_local": {
+    "en": "Get stuck on 1bank or e-banking spinning, missing glasses, or weak indoor signal.",
+    "zh": "卡在 1bank 或網銀一直轉、找不到眼鏡、室內訊號弱。"
+  },
+  "vocab": {
+    "bank": [
+      "1bank",
+      "κάρτα",
+      "μεταφορά"
+    ],
+    "delivery": [
+      "Box Now",
+      "ACS",
+      "γείτονας"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "IRIS",
+      "reason": {
+        "en": "Greek instant-payment scheme, not the Cyprus everyday term",
+        "zh": "希臘即時付款機制，不是賽普勒斯日常用語"
+      }
+    },
+    {
+      "word": "Gov.gr",
+      "reason": {
+        "en": "Greek government login; not used in Cyprus",
+        "zh": "希臘政府登入系統，賽普勒斯不用"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Pickup is more often Εμπρός than the mainland Ναι or Παρακαλώ. Keep εσείς with strangers. Avoid Greece-only admin and payment terms; otherwise the formal-to-casual range is close.",
+    "zh": "接聽更常說 Εμπρός，少用希臘本土的 Ναι 或 Παρακαλώ。對陌生人仍用 εσείς。避開希臘專用行政與支付詞，親疏層級相近。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.bankofcyprus.com/en-gb/Personal/fraudandsecurityhub/latest-fraud-scams/",
+    "https://cyp.acscourier.net/en/services/domestic-courier-services/pickup-from-acs-locker-via-message-link-or-acs-mobile-app/",
+    "https://www.cypruspost.post/en/contact",
+    "https://track.boxnow.cy/en/get-in-touch"
+  ],
+  "uncertain": [
+    "接聽用 Εμπρός 是常見的賽普勒斯／希臘電話說法，但當地官方並未說明它與 Παρακαλώ、Ναι 的使用比例。",
+    "北部也使用土耳其語（支援清單有 tr）；本檔按所屬地區以希臘語為主，未另寫土語通話稿。"
+  ]
+}

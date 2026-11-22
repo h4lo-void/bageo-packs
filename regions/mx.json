@@ -77,15 +77,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "caseta",
-      "recepción",
-      "portería"
-    ],
     "bank": [
       "SPEI",
       "NIP",
-      "tarjeta de débito"
+      "tarjeta de débito",
+      "CLABE",
+      "transferencia",
+      "cuenta"
+    ],
+    "delivery": [
+      "caseta",
+      "recepción",
+      "portería",
+      "OXXO",
+      "paquetería",
+      "guía"
+    ],
+    "government": [
+      "INE",
+      "RFC",
+      "CURP",
+      "SAT",
+      "trámite",
+      "pasaporte"
+    ],
+    "health": [
+      "IMSS",
+      "ISSSTE",
+      "consultorio",
+      "farmacia",
+      "urgencias",
+      "receta"
+    ],
+    "telecom": [
+      "celular",
+      "recarga",
+      "plan",
+      "chip",
+      "portabilidad",
+      "datos"
+    ],
+    "payment": [
+      "SPEI",
+      "CoDi",
+      "OXXO",
+      "Mercado Pago",
+      "efectivo",
+      "tarjeta"
+    ],
+    "transport": [
+      "metro",
+      "camión",
+      "Metrobús",
+      "Uber",
+      "taxi",
+      "caseta"
+    ],
+    "housing": [
+      "departamento",
+      "fraccionamiento",
+      "caseta",
+      "interfón",
+      "buzón",
+      "renta"
     ]
   },
   "status": "draft"

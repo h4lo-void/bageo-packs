@@ -1,0 +1,1186 @@
+{
+  "region": "ph",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "InstaPay",
+          "en": "instant interbank transfer (InstaPay)"
+        },
+        {
+          "term": "PESONet",
+          "en": "batch bank transfer, used for larger or non-instant payments (PESONet)"
+        },
+        {
+          "term": "savings account",
+          "en": "savings account, the Philippines usage"
+        },
+        {
+          "term": "bank transfer",
+          "en": "transfer (bank transfer), the Philippines usage"
+        },
+        {
+          "term": "ATM card",
+          "en": "ATM or debit card (ATM card)"
+        },
+        {
+          "term": "online banking",
+          "en": "bank app (online banking)"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        },
+        {
+          "term": "account number",
+          "en": "account number"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "lobby",
+          "en": "condo or office lobby"
+        },
+        {
+          "term": "security guard",
+          "en": "guard who may receive a parcel (security guard)"
+        },
+        {
+          "term": "barangay hall",
+          "en": "village hall, sometimes used as a landmark or drop-off cue (barangay hall)"
+        },
+        {
+          "term": "LBC",
+          "en": "widely used courier (LBC)"
+        },
+        {
+          "term": "J&T",
+          "en": "widely used courier (J&T)"
+        },
+        {
+          "term": "at the gate",
+          "en": "leave at the subdivision or building gate (at the gate)"
+        },
+        {
+          "term": "tracking number",
+          "en": "waybill / tracking number"
+        },
+        {
+          "term": "Padala",
+          "en": "remittance or parcel send-out, also a product name at some couriers (Padala)"
+        }
+      ],
+      "government": [
+        {
+          "term": "national ID",
+          "en": "PhilSys national ID"
+        },
+        {
+          "term": "SSS",
+          "en": "Social Security System (SSS)"
+        },
+        {
+          "term": "PhilHealth",
+          "en": "public health insurance (PhilHealth)"
+        },
+        {
+          "term": "Pag-IBIG",
+          "en": "housing-fund agency, often said pag-ibig (Pag-IBIG)"
+        },
+        {
+          "term": "barangay",
+          "en": "smallest local government unit, used in addresses and clearances (barangay)"
+        },
+        {
+          "term": "DFA",
+          "en": "passport office (DFA)"
+        },
+        {
+          "term": "BIR",
+          "en": "tax bureau (BIR)"
+        }
+      ],
+      "health": [
+        {
+          "term": "PhilHealth",
+          "en": "public health insurance (PhilHealth)"
+        },
+        {
+          "term": "hospital",
+          "en": "hospital, the Philippines usage"
+        },
+        {
+          "term": "clinic",
+          "en": "clinic, the Philippines usage"
+        },
+        {
+          "term": "botica",
+          "en": "pharmacy, also drugstore (botica)"
+        },
+        {
+          "term": "emergency room",
+          "en": "ER (emergency room)"
+        },
+        {
+          "term": "HMO",
+          "en": "private health plan (HMO)"
+        },
+        {
+          "term": "checkup",
+          "en": "medical checkup"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "load",
+          "en": "prepaid airtime or data (load)"
+        },
+        {
+          "term": "promo",
+          "en": "mobile data or call promo"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid line, the Philippines usage"
+        },
+        {
+          "term": "postpaid",
+          "en": "postpaid plan, the Philippines usage"
+        },
+        {
+          "term": "SIM registration",
+          "en": "mandatory SIM registration, often mentioned on calls"
+        },
+        {
+          "term": "Globe",
+          "en": "major operator (Globe)"
+        },
+        {
+          "term": "Smart",
+          "en": "major operator (Smart)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "GCash",
+          "en": "leading e-wallet (GCash)"
+        },
+        {
+          "term": "Maya",
+          "en": "Maya wallet and bank"
+        },
+        {
+          "term": "InstaPay",
+          "en": "instant transfer, often from a wallet or bank (InstaPay)"
+        },
+        {
+          "term": "QR Ph",
+          "en": "QR payment standard (QR Ph)"
+        },
+        {
+          "term": "cash",
+          "en": "cash, the Philippines usage"
+        },
+        {
+          "term": "bank transfer",
+          "en": "transfer (bank transfer), the Philippines usage"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card, the Philippines usage"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab), the Philippines usage"
+        },
+        {
+          "term": "jeepney",
+          "en": "jeepney"
+        },
+        {
+          "term": "UV Express",
+          "en": "shared van (UV Express)"
+        },
+        {
+          "term": "MRT",
+          "en": "Metro Manila MRT"
+        },
+        {
+          "term": "LRT",
+          "en": "Metro Manila LRT"
+        },
+        {
+          "term": "tricycle",
+          "en": "local tricycle taxi"
+        },
+        {
+          "term": "bus",
+          "en": "bus, including provincial bus"
+        },
+        {
+          "term": "Beep",
+          "en": "stored-value transit card in Metro Manila (Beep)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "condo",
+          "en": "condominium, the Philippines usage"
+        },
+        {
+          "term": "subdivision",
+          "en": "gated housing subdivision"
+        },
+        {
+          "term": "barangay",
+          "en": "used in the address (barangay)"
+        },
+        {
+          "term": "lobby",
+          "en": "lobby, the Philippines usage"
+        },
+        {
+          "term": "guard",
+          "en": "security guard"
+        },
+        {
+          "term": "mailbox",
+          "en": "mailbox, the Philippines usage"
+        },
+        {
+          "term": "unit",
+          "en": "unit number"
+        },
+        {
+          "term": "village",
+          "en": "residential village / subdivision"
+        }
+      ],
+      "school": [
+        {
+          "term": "tutorial",
+          "en": "tutoring, also review center (tutorial)"
+        },
+        {
+          "term": "elementary",
+          "en": "elementary school, the Philippines usage"
+        },
+        {
+          "term": "high school",
+          "en": "high school, the Philippines usage"
+        },
+        {
+          "term": "Kinder",
+          "en": "kindergarten (Kinder)"
+        },
+        {
+          "term": "DepEd",
+          "en": "Department of Education (DepEd)"
+        },
+        {
+          "term": "homework",
+          "en": "homework, also assignment"
+        },
+        {
+          "term": "dismissal",
+          "en": "school dismissal"
+        }
+      ],
+      "money": [
+        {
+          "term": "peso",
+          "en": "peso"
+        },
+        {
+          "term": "thousand",
+          "en": "thousand, also libo in Filipino speech"
+        },
+        {
+          "term": "GCash",
+          "en": "send money via GCash"
+        },
+        {
+          "term": "Padala",
+          "en": "remittance (Padala)"
+        },
+        {
+          "term": "cash",
+          "en": "cash, the Philippines usage"
+        },
+        {
+          "term": "change",
+          "en": "change, the Philippines usage"
+        },
+        {
+          "term": "remittance",
+          "en": "money sent from abroad or another city (remittance)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, also earlier today"
+        },
+        {
+          "term": "this afternoon",
+          "en": "this afternoon, also later today"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, the Philippines usage"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, the Philippines usage"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, the Philippines usage"
+        },
+        {
+          "term": "after work",
+          "en": "after work, also after the shift"
+        },
+        {
+          "term": "this week",
+          "en": "this week, also this coming week"
+        },
+        {
+          "term": "later",
+          "en": "later today, very common in PH English"
+        }
+      ],
+      "work": [
+        {
+          "term": "go to work",
+          "en": "go to work, also pasok"
+        },
+        {
+          "term": "off work",
+          "en": "end of work, also after shift (off work)"
+        },
+        {
+          "term": "OT",
+          "en": "OT, the usual short form in the Philippines"
+        },
+        {
+          "term": "leave",
+          "en": "leave, also VL / SL"
+        },
+        {
+          "term": "boss",
+          "en": "boss, the Philippines usage"
+        },
+        {
+          "term": "company",
+          "en": "company, also office"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home (WFH), the Philippines usage"
+        },
+        {
+          "term": "BPO",
+          "en": "business-process outsourcing workplace, often named as the work context (BPO)"
+        }
+      ]
+    },
+    "fil": {
+      "bank": [
+        {
+          "term": "InstaPay",
+          "en": "agarang transfer sa banko (InstaPay)"
+        },
+        {
+          "term": "PESONet",
+          "en": "bank transfer na hindi instant (PESONet)"
+        },
+        {
+          "term": "savings",
+          "en": "savings account [the Philippines]"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer sa banko"
+        },
+        {
+          "term": "ATM",
+          "en": "ATM o debit card"
+        },
+        {
+          "term": "online banking",
+          "en": "app ng banko (online banking)"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "lobby",
+          "en": "lobby ng condo o building"
+        },
+        {
+          "term": "guard",
+          "en": "security guard"
+        },
+        {
+          "term": "barangay",
+          "en": "gamit sa address (barangay)"
+        },
+        {
+          "term": "LBC",
+          "en": "courier (LBC)"
+        },
+        {
+          "term": "sa gate",
+          "en": "iwan sa gate"
+        },
+        {
+          "term": "tracking number",
+          "en": "tracking number [the Philippines]"
+        },
+        {
+          "term": "padala",
+          "en": "padala o parcel"
+        }
+      ],
+      "government": [
+        {
+          "term": "national ID",
+          "en": "PhilSys ID (national ID)"
+        },
+        {
+          "term": "SSS",
+          "en": "SSS"
+        },
+        {
+          "term": "PhilHealth",
+          "en": "PhilHealth"
+        },
+        {
+          "term": "Pag-IBIG",
+          "en": "Pag-IBIG"
+        },
+        {
+          "term": "barangay",
+          "en": "barangay hall o clearance"
+        },
+        {
+          "term": "DFA",
+          "en": "pasaporte (DFA)"
+        },
+        {
+          "term": "BIR",
+          "en": "buwis (BIR)"
+        }
+      ],
+      "health": [
+        {
+          "term": "PhilHealth",
+          "en": "PhilHealth"
+        },
+        {
+          "term": "ospital",
+          "en": "hospital [the Philippines]"
+        },
+        {
+          "term": "klinika",
+          "en": "clinic (klinika)"
+        },
+        {
+          "term": "botika",
+          "en": "pharmacy (botika)"
+        },
+        {
+          "term": "emergency",
+          "en": "ER (emergency)"
+        },
+        {
+          "term": "HMO",
+          "en": "HMO"
+        },
+        {
+          "term": "checkup",
+          "en": "checkup"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "load",
+          "en": "load o prepaid"
+        },
+        {
+          "term": "promo",
+          "en": "promo sa data o tawag"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid [the Philippines]"
+        },
+        {
+          "term": "postpaid",
+          "en": "postpaid"
+        },
+        {
+          "term": "SIM registration",
+          "en": "rehistrasyon ng SIM (SIM registration)"
+        },
+        {
+          "term": "Globe",
+          "en": "Globe"
+        },
+        {
+          "term": "Smart",
+          "en": "Smart"
+        }
+      ],
+      "payment": [
+        {
+          "term": "GCash",
+          "en": "GCash"
+        },
+        {
+          "term": "Maya",
+          "en": "Maya"
+        },
+        {
+          "term": "InstaPay",
+          "en": "InstaPay"
+        },
+        {
+          "term": "QR Ph",
+          "en": "QR payment (QR Ph)"
+        },
+        {
+          "term": "cash",
+          "en": "cash / pera"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer [the Philippines]"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card [the Philippines]"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Grab",
+          "en": "Grab [the Philippines]"
+        },
+        {
+          "term": "dyip",
+          "en": "jeepney (dyip)"
+        },
+        {
+          "term": "UV Express",
+          "en": "UV Express"
+        },
+        {
+          "term": "MRT",
+          "en": "MRT"
+        },
+        {
+          "term": "LRT",
+          "en": "LRT"
+        },
+        {
+          "term": "traysikel",
+          "en": "tricycle (traysikel)"
+        },
+        {
+          "term": "bus",
+          "en": "bus [the Philippines]"
+        },
+        {
+          "term": "Beep",
+          "en": "Beep card"
+        }
+      ],
+      "housing": [
+        {
+          "term": "condo",
+          "en": "condo [the Philippines]"
+        },
+        {
+          "term": "subdivision",
+          "en": "subdivision"
+        },
+        {
+          "term": "barangay",
+          "en": "barangay"
+        },
+        {
+          "term": "lobby",
+          "en": "lobby [the Philippines]"
+        },
+        {
+          "term": "guard",
+          "en": "guard"
+        },
+        {
+          "term": "unit",
+          "en": "unit [the Philippines]"
+        },
+        {
+          "term": "bahay",
+          "en": "bahay"
+        }
+      ],
+      "school": [
+        {
+          "term": "tutorial",
+          "en": "tutorial / review"
+        },
+        {
+          "term": "elementary",
+          "en": "elementary"
+        },
+        {
+          "term": "high school",
+          "en": "high school [the Philippines]"
+        },
+        {
+          "term": "Kinder",
+          "en": "kinder"
+        },
+        {
+          "term": "aralin",
+          "en": "homework / lesson (aralin)"
+        },
+        {
+          "term": "uwian",
+          "en": "dismissal (uwian)"
+        },
+        {
+          "term": "DepEd",
+          "en": "DepEd"
+        }
+      ],
+      "money": [
+        {
+          "term": "piso",
+          "en": "peso (piso)"
+        },
+        {
+          "term": "libo",
+          "en": "thousand (libo)"
+        },
+        {
+          "term": "GCash",
+          "en": "GCash"
+        },
+        {
+          "term": "padala",
+          "en": "remittance (padala)"
+        },
+        {
+          "term": "pera",
+          "en": "money / cash (pera)"
+        },
+        {
+          "term": "sukli",
+          "en": "change (sukli)"
+        },
+        {
+          "term": "remittance",
+          "en": "remittance"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "ngayong umaga",
+          "en": "this morning, also earlier today"
+        },
+        {
+          "term": "ngayong hapon",
+          "en": "this afternoon, also later today"
+        },
+        {
+          "term": "ngayong gabi",
+          "en": "tonight (ngayong gabi, the Philippines)"
+        },
+        {
+          "term": "weekday",
+          "en": "weekday, also araw ng pasok"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend [the Philippines]"
+        },
+        {
+          "term": "after work",
+          "en": "after work / pagkatapos ng work"
+        },
+        {
+          "term": "ngayong linggo",
+          "en": "this week, also this coming week"
+        }
+      ],
+      "work": [
+        {
+          "term": "pasok",
+          "en": "go to work or school (pasok)"
+        },
+        {
+          "term": "uwian",
+          "en": "end of the day, also used for work (uwian)"
+        },
+        {
+          "term": "OT",
+          "en": "OT, the usual short form in the Philippines"
+        },
+        {
+          "term": "leave",
+          "en": "leave [the Philippines]"
+        },
+        {
+          "term": "boss",
+          "en": "boss [the Philippines]"
+        },
+        {
+          "term": "kumpanya",
+          "en": "company, also office (kumpanya)"
+        },
+        {
+          "term": "WFH",
+          "en": "WFH [the Philippines]"
+        },
+        {
+          "term": "BPO",
+          "en": "BPO"
+        }
+      ]
+    },
+    "ceb": {
+      "bank": [
+        {
+          "term": "InstaPay",
+          "en": "InstaPay"
+        },
+        {
+          "term": "PESONet",
+          "en": "PESONet"
+        },
+        {
+          "term": "savings",
+          "en": "savings"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer sa banko"
+        },
+        {
+          "term": "ATM",
+          "en": "ATM [the Philippines]"
+        },
+        {
+          "term": "online banking",
+          "en": "online banking"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "lobby",
+          "en": "lobby [the Philippines]"
+        },
+        {
+          "term": "guard",
+          "en": "guard"
+        },
+        {
+          "term": "barangay",
+          "en": "barangay"
+        },
+        {
+          "term": "LBC",
+          "en": "LBC"
+        },
+        {
+          "term": "sa gate",
+          "en": "sa gate"
+        },
+        {
+          "term": "tracking number",
+          "en": "tracking number [the Philippines]"
+        },
+        {
+          "term": "padala",
+          "en": "padala"
+        }
+      ],
+      "government": [
+        {
+          "term": "national ID",
+          "en": "national ID"
+        },
+        {
+          "term": "SSS",
+          "en": "SSS"
+        },
+        {
+          "term": "PhilHealth",
+          "en": "PhilHealth"
+        },
+        {
+          "term": "Pag-IBIG",
+          "en": "Pag-IBIG"
+        },
+        {
+          "term": "barangay",
+          "en": "barangay"
+        },
+        {
+          "term": "DFA",
+          "en": "DFA / pasaporte"
+        },
+        {
+          "term": "BIR",
+          "en": "BIR"
+        }
+      ],
+      "health": [
+        {
+          "term": "PhilHealth",
+          "en": "PhilHealth"
+        },
+        {
+          "term": "hospital",
+          "en": "hospital [the Philippines]"
+        },
+        {
+          "term": "clinic",
+          "en": "clinic [the Philippines]"
+        },
+        {
+          "term": "botica",
+          "en": "botica / pharmacy"
+        },
+        {
+          "term": "emergency",
+          "en": "emergency"
+        },
+        {
+          "term": "HMO",
+          "en": "HMO"
+        },
+        {
+          "term": "checkup",
+          "en": "checkup"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "load",
+          "en": "load"
+        },
+        {
+          "term": "promo",
+          "en": "promo"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid [the Philippines]"
+        },
+        {
+          "term": "postpaid",
+          "en": "postpaid"
+        },
+        {
+          "term": "SIM registration",
+          "en": "SIM registration"
+        },
+        {
+          "term": "Globe",
+          "en": "Globe"
+        },
+        {
+          "term": "Smart",
+          "en": "Smart"
+        }
+      ],
+      "payment": [
+        {
+          "term": "GCash",
+          "en": "GCash"
+        },
+        {
+          "term": "Maya",
+          "en": "Maya"
+        },
+        {
+          "term": "InstaPay",
+          "en": "InstaPay"
+        },
+        {
+          "term": "QR Ph",
+          "en": "QR Ph"
+        },
+        {
+          "term": "cash",
+          "en": "cash / kuwarta"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer [the Philippines]"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card [the Philippines]"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Grab",
+          "en": "Grab [the Philippines]"
+        },
+        {
+          "term": "dyip",
+          "en": "jeepney (dyip)"
+        },
+        {
+          "term": "bus",
+          "en": "bus [the Philippines]"
+        },
+        {
+          "term": "tricycle",
+          "en": "tricycle"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi [the Philippines]"
+        },
+        {
+          "term": "habal-habal",
+          "en": "motorcycle taxi, common outside rail cities (habal-habal)"
+        },
+        {
+          "term": "ferry",
+          "en": "ferry, common in the Visayas"
+        }
+      ],
+      "housing": [
+        {
+          "term": "condo",
+          "en": "condo [the Philippines]"
+        },
+        {
+          "term": "subdivision",
+          "en": "subdivision"
+        },
+        {
+          "term": "barangay",
+          "en": "barangay"
+        },
+        {
+          "term": "guard",
+          "en": "guard"
+        },
+        {
+          "term": "balay",
+          "en": "house (balay)"
+        },
+        {
+          "term": "unit",
+          "en": "unit [the Philippines]"
+        },
+        {
+          "term": "lobby",
+          "en": "lobby [the Philippines]"
+        }
+      ],
+      "school": [
+        {
+          "term": "tutorial",
+          "en": "tutorial"
+        },
+        {
+          "term": "elementary",
+          "en": "elementary"
+        },
+        {
+          "term": "high school",
+          "en": "high school [the Philippines]"
+        },
+        {
+          "term": "Kinder",
+          "en": "Kinder"
+        },
+        {
+          "term": "assignment",
+          "en": "assignment / homework"
+        },
+        {
+          "term": "uwii",
+          "en": "dismissal / going home (uwii)"
+        },
+        {
+          "term": "eskwelahan",
+          "en": "school (eskwelahan)"
+        }
+      ],
+      "money": [
+        {
+          "term": "peso",
+          "en": "peso"
+        },
+        {
+          "term": "libo",
+          "en": "thousand (libo)"
+        },
+        {
+          "term": "GCash",
+          "en": "GCash"
+        },
+        {
+          "term": "padala",
+          "en": "padala"
+        },
+        {
+          "term": "kuwarta",
+          "en": "money (kuwarta)"
+        },
+        {
+          "term": "sukli",
+          "en": "change (sukli)"
+        },
+        {
+          "term": "remittance",
+          "en": "remittance"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "karong buntag",
+          "en": "this morning, also earlier today"
+        },
+        {
+          "term": "karong hapon",
+          "en": "this afternoon, also later today"
+        },
+        {
+          "term": "karong gabii",
+          "en": "tonight (karong gabii, the Philippines)"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday [the Philippines]"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend [the Philippines]"
+        },
+        {
+          "term": "human sa trabaho",
+          "en": "after work, also after the shift"
+        },
+        {
+          "term": "karong semana",
+          "en": "this week, also this coming week"
+        }
+      ],
+      "work": [
+        {
+          "term": "motrabaho",
+          "en": "go to work (motrabaho)"
+        },
+        {
+          "term": "human sa trabaho",
+          "en": "after work, also after the shift"
+        },
+        {
+          "term": "OT",
+          "en": "OT"
+        },
+        {
+          "term": "leave",
+          "en": "leave [the Philippines]"
+        },
+        {
+          "term": "boss",
+          "en": "boss [the Philippines]"
+        },
+        {
+          "term": "kompanya",
+          "en": "company (kompanya)"
+        },
+        {
+          "term": "WFH",
+          "en": "WFH [the Philippines]"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "GCash, Maya, InstaPay",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "GCash, InstaPay",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "GCash, InstaPay",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "condo, subdivision, barangay address",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "PromptPay",
+      "use_instead": "GCash, QR Ph",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "MyKad",
+      "use_instead": "national ID, PhilSys, SSS ID",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "jeep 講成 taxi 就能代替 jeepney",
+      "use_instead": "jeepney、UV Express、Grab 視路線",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "subway",
+      "use_instead": "MRT, LRT；外省常沒有軌道",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "美元當預設貨幣",
+      "use_instead": "peso",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "KTP",
+      "use_instead": "national ID, PhilSys",
+      "where_it_is_from": "ID"
+    }
+  ],
+  "sources": [
+    "https://www.bsp.gov.ph/",
+    "https://www.gcash.com/",
+    "https://www.philsys.gov.ph/",
+    "https://www.sss.gov.ph/",
+    "https://www.philhealth.gov.ph/"
+  ],
+  "uncertain": [
+    "宿霧語電話大量夾英語與菲律賓語專有名詞，純宿霧口語差異的出典有限。",
+    "Beep、MRT、LRT 主要在馬尼拉都會區；維薩亞斯與棉蘭老更常說 jeepney、bus、ferry、habal-habal。"
+  ]
+}

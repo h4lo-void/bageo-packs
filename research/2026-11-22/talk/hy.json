@@ -1,0 +1,260 @@
+{
+  "lang": "hy",
+  "backchannels": {
+    "direction": "Այո is polite, հա casual; պարզ է shows you follow; repeated հա, հա, հա can sound impatient.",
+    "examples": [
+      {
+        "text": "Այո։",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Հա։",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Պարզ է։",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Իհարկե։",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Հա, հա, հա։",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Իսկապե՞ս or Վա՜յ for surprise; ցավում եմ for sympathy; շնորհավորում եմ for good news.",
+    "examples": [
+      {
+        "text": "Իսկապե՞ս։",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Վա՜յ։",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Շատ ցավում եմ։",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Շնորհավորում եմ։",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Դա մի քիչ դժվար է։",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you hear badly (վատ եմ լսում) or the line is weak, then ask for a louder voice with դուք.",
+    "examples": [
+      {
+        "text": "Ներեցեք, վատ եմ լսում։",
+        "style": "polite"
+      },
+      {
+        "text": "Կապը վատ է։",
+        "style": "casual"
+      },
+      {
+        "text": "Ձայնը կտրվում է։",
+        "style": "casual"
+      },
+      {
+        "text": "Կարո՞ղ եք ավելի բարձր խոսել։",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Ի՞նչ ասացիք asks for a replay; ask names letter by letter and echo digits.",
+    "examples": [
+      {
+        "text": "Ի՞նչ ասացիք։",
+        "style": "polite"
+      },
+      {
+        "text": "Կրկնե՞ք, խնդրում եմ։",
+        "style": "polite"
+      },
+      {
+        "text": "Անունը տառ առ տառ կասե՞ք։",
+        "style": "polite"
+      },
+      {
+        "text": "Համարը 12345678 է, ճի՞շտ է։",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ո՞վ է խոսում or Ո՞ւմ հետ եմ խոսում with դուք; bare Ո՞վ ես is blunt.",
+    "examples": [
+      {
+        "text": "Ո՞ւմ հետ եմ խոսում, խնդրեմ։",
+        "style": "polite"
+      },
+      {
+        "text": "Որտեղի՞ց եք զանգում։",
+        "style": "polite"
+      },
+      {
+        "text": "Սա {owner}-ի համարն է, ո՞վ է զանգում։",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say սխալ համար and nobody of that name is here.",
+    "examples": [
+      {
+        "text": "Ներեցեք, սխալ համար է։",
+        "style": "polite"
+      },
+      {
+        "text": "Այստեղ այդ անունով մարդ չկա։",
+        "style": "polite"
+      },
+      {
+        "text": "Սխալ եք զանգել։",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Կփոխանցեմ says {owner} will get the message; no ring-back time.",
+    "examples": [
+      {
+        "text": "Կփոխանցեմ {owner}-ին։",
+        "style": "polite"
+      },
+      {
+        "text": "Կասեմ իրեն։",
+        "style": "casual"
+      },
+      {
+        "text": "Ձեր խոսքը կհասնի։",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Շնորհակալություն, չեմ հետաքրքրվում is clear; no long reasons.",
+    "examples": [
+      {
+        "text": "Շնորհակալություն, մեզ պետք չէ։",
+        "style": "polite"
+      },
+      {
+        "text": "Չեմ հետաքրքրվում, մերսի։",
+        "style": "casual"
+      },
+      {
+        "text": "Ոչ, շնորհակալ եմ։",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Second push: refer back to the first ոչ and request deletion of the number.",
+    "examples": [
+      {
+        "text": "Ես արդեն ասացի, որ պետք չէ։",
+        "style": "polite"
+      },
+      {
+        "text": "Խնդրում եմ այլևս չզանգել այս համարին։",
+        "style": "polite"
+      },
+      {
+        "text": "Ջնջեք այս համարը ձեր ցուցակից։",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Դուք for strangers; պարոն/տիկին + name; ախպեր, քույրիկ, ջան after names for warmth.",
+    "examples": [
+      {
+        "text": "Պարոն Պետրոսյան",
+        "style": "polite"
+      },
+      {
+        "text": "Տիկին",
+        "style": "polite"
+      },
+      {
+        "text": "Ախպեր ջան",
+        "style": "casual"
+      },
+      {
+        "text": "Քույրիկ",
+        "style": "casual"
+      },
+      {
+        "text": "Հարգելիս",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Ձեր զանգը կարևոր է մեզ համար sound like a telecom operator recording.",
+    "examples": [
+      {
+        "text": "Ձեր զանգը կարևոր է մեզ համար։",
+        "style": "polite"
+      },
+      {
+        "text": "Շնորհակալություն հաճախորդների սպասարկման կենտրոն զանգելու համար։",
+        "style": "polite"
+      },
+      {
+        "text": "Ինչո՞վ կարող եմ օգնել։",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using դու with elders, or raising salary, politics or family status early, is rude.",
+    "examples": [
+      {
+        "text": "Դու ո՞վ ես։",
+        "style": "casual"
+      },
+      {
+        "text": "Քանի՞ եք ստանում։",
+        "style": "casual"
+      },
+      {
+        "text": "Ո՞ր կուսակցությանն եք։",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%D5%A1%D5%AC%D5%B8",
+    "https://en.wikipedia.org/wiki/Armenian_language",
+    "https://en.wikipedia.org/wiki/Eastern_Armenian"
+  ],
+  "uncertain": [
+    "Eastern (Armenia) vs Western (diaspora) Armenian differ; examples use Eastern",
+    "Backchannels (հա, այո, լավ, պարզ է) from dictionaries and usage, no call corpus",
+    "Russian loans (ладно, давай) common in Yerevan calls; not included"
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "lang": "hr",
+  "backchannels": {
+    "direction": "Unknown numbers are answered with Halo?; friends who know the caller may just say Bok. da and mhm keep the talk going.",
+    "examples": [
+      {
+        "text": "Da.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, da.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Aha, tako.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Točno.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Dobro.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Da, da.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "With familiars, Stvarno? flags surprise and Šteta sympathy; Super greets good news, Žao mi je or Čestitam formally.",
+    "examples": [
+      {
+        "text": "Stvarno?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Zaista?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Šteta.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Žao mi je.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Odlično!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Čestitam.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "To će biti teško.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "On a weak line, Ne čujem vas dobro or veza je loša is typical (vas is formal); then ask them to speak glasnije.",
+    "examples": [
+      {
+        "text": "Loše vas čujem.",
+        "style": "polite"
+      },
+      {
+        "text": "Loša je veza.",
+        "style": "casual"
+      },
+      {
+        "text": "Stalno prekida.",
+        "style": "casual"
+      },
+      {
+        "text": "Možete li govoriti malo glasnije?",
+        "style": "polite"
+      },
+      {
+        "text": "Nisam čuo kraj.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Možete li ponoviti, molim is the vi repair. For surnames, speakers often ask slovo po slovo, and a number again.",
+    "examples": [
+      {
+        "text": "Možete li ponoviti, molim?",
+        "style": "polite"
+      },
+      {
+        "text": "Što? Nisam razumio.",
+        "style": "casual"
+      },
+      {
+        "text": "Možete li prezime izgovoriti slovo po slovo?",
+        "style": "polite"
+      },
+      {
+        "text": "Možete li još jednom reći broj? Je li 12345678?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "After Halo?, Tko zove or S kime govorim asks who is on the line; say if this is {owner}'s telefon.",
+    "examples": [
+      {
+        "text": "Tko zove, molim?",
+        "style": "polite"
+      },
+      {
+        "text": "S kime govorim?",
+        "style": "polite"
+      },
+      {
+        "text": "Ovo je telefon od {owner}. Tko zove?",
+        "style": "polite"
+      },
+      {
+        "text": "Tko je to?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Pogrešan broj or Krivo ste se javili ends a misdial in a short close, without listing who lives in the house.",
+    "examples": [
+      {
+        "text": "Oprostite, pogrešan broj.",
+        "style": "polite"
+      },
+      {
+        "text": "Pogrešan broj.",
+        "style": "casual"
+      },
+      {
+        "text": "Ovdje nema nikoga s tim imenom.",
+        "style": "polite"
+      },
+      {
+        "text": "Krivo ste se javili.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Prenijet ću or Predat ću poruku offers to pass word to {owner}, without naming an hour for any return call.",
+    "examples": [
+      {
+        "text": "Prenijet ću.",
+        "style": "polite"
+      },
+      {
+        "text": "Prenijet ću {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Reći ću mu.",
+        "style": "casual"
+      },
+      {
+        "text": "Predat ću poruku.",
+        "style": "polite"
+      },
+      {
+        "text": "Reći ću joj.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "A first refusal is often Ne, hvala, nisam zainteresiran or zainteresirana, chosen to match the speaker's gender.",
+    "examples": [
+      {
+        "text": "Ne, hvala, nisam zainteresiran.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne, hvala, nisam zainteresirana.",
+        "style": "polite"
+      },
+      {
+        "text": "To nam ne treba, hvala.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne, to nije za nas.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If the pitch continues, Croatian adds ne nazivajte više ovaj broj, still with vi, or asks to leave the popis.",
+    "examples": [
+      {
+        "text": "Već sam rekao ne. Molim vas, ne nazivajte više ovaj broj.",
+        "style": "polite"
+      },
+      {
+        "text": "Maknite ovaj broj s vašeg popisa, molim.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne zovite više.",
+        "style": "casual"
+      },
+      {
+        "text": "To je konačno ne. Više nas ne kontaktirajte.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Strangers get vi plus gospodin or gospođa and a surname; familiars stay on ti and given names, as in Bok, Ana.",
+    "examples": [
+      {
+        "text": "Gospodine Horvat.",
+        "style": "polite"
+      },
+      {
+        "text": "Gospođo Kovač.",
+        "style": "polite"
+      },
+      {
+        "text": "Gospodine doktore.",
+        "style": "polite"
+      },
+      {
+        "text": "Dobar dan, gospođo.",
+        "style": "polite"
+      },
+      {
+        "text": "Bok, Ana.",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Phrases such as Vaš je poziv nama važan belong on a switchboard, not when a private Croatian number is answered at home.",
+    "examples": [
+      {
+        "text": "Vaš je poziv nama važan.",
+        "style": "polite"
+      },
+      {
+        "text": "Kako vam mogu pomoći?",
+        "style": "polite"
+      },
+      {
+        "text": "Hvala na pozivu, tu smo zbog vas.",
+        "style": "polite"
+      },
+      {
+        "text": "Vaše je zadovoljstvo naš prioritet.",
+        "style": "polite"
+      },
+      {
+        "text": "Mogu li još u čemu pomoći?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Jumping to ti with a stranger, ringing late, or opening the call by demanding an OIB all land badly.",
+    "examples": [
+      {
+        "text": "Jesi li oženjen? Koliko zarađuješ?",
+        "style": "casual"
+      },
+      {
+        "text": "Tko si ti? Reci odmah.",
+        "style": "casual"
+      },
+      {
+        "text": "Prvo mi recite adresu i OIB.",
+        "style": "polite"
+      },
+      {
+        "text": "Ovaj razgovor već snimam.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://elon.io/grammar/croatian/texts/dialogues/phone-call",
+    "https://elon.io/learn-croatian/lexicon/1095130/halo-ne-%C4%8Dujem-vas-dobro-veza-je-lo%C5%A1a",
+    "https://www.grammatiken.de/kroatisch-grammatik-online-lernen/konversationswissen-telefonieren-auf-kroatisch-nuetzliche-wendungen.php",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "未找到克羅地亞語私人電話相槌頻率表；da／mhm 依會話語感，不是語料庫排序。",
+    "Halo? 作接聽、ovdje 加名字作自報、čujemo se 作收線，取自教學對話，不是電信官方稿。",
+    "對陌生人常用 vi；本檔用克羅地亞拉丁字母與標準說法。與塞爾維亞語用詞接近，但未另建檔。"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "region": "tw",
+  "lang": "id",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, ya?"
+  },
+  "habits": {
+    "en": "Bahasa among workers; mix 阿嬤/阿公, 健保卡, 仲介, 居留證; polite with elders; some also use basic Mandarin.",
+    "zh": "同鄉講印尼語，常夾阿嬤、阿公、健保卡、仲介、居留證；對長輩客氣。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With coworkers in Taiwan, keep easy Bahasa and kinship nicknames; react warmly, then add baiklah, changing the wording each time.",
+        "zh": "跟在台工友用輕鬆印尼語，可帶阿嬤等稱呼；先熱絡接話再補 baiklah，用詞常換。"
+      },
+      "2": {
+        "en": "Stay gentle with Ibu/Bapak; after they describe the 阿公 or 阿嬤's day, add a kind baik, and do not rush the pace.",
+        "zh": "對 Ibu／Bapak 放慢語氣；對方說完阿公或阿嬤的情況後，補一句 baik，不要催。"
+      },
+      "3": {
+        "en": "In caregiver talk, answer each care point in a full line such as saya mengerti about the 健保卡, never a bare ya.",
+        "zh": "看護日常要把每件事講完整，例如已聽懂健保卡的事，不要只回 ya。"
+      },
+      "4": {
+        "en": "With 仲介, hospitals or the family employer, use Ibu/Bapak and careful full sentences; show you understood, e.g. saya paham.",
+        "zh": "對仲介、醫院或雇主家庭用 Ibu／Bapak，句子完整，先說 saya paham 再談安排。"
+      },
+      "5": {
+        "en": "On 居留證, 健保 or 1955 matters, stay precise and formal; close each item with sudah tercatat, slightly rephrased each time.",
+        "zh": "談居留證、健保或1955時要正式、用詞準，各點用 sudah tercatat 一類收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A warm pickup for {owner} in caregiver Bahasa: short kind lines, then saya sampaikan, without repeating the same phrase.",
+        "zh": "代{owner}接的溫和看護口氣：先短句回應，再說會 saya sampaikan，不要重複同一套。"
+      },
+      "2": {
+        "en": "Match Ibu/Bapak; listen through the family update, note it for {owner}, and confirm with baik, saya catat or another gentle close.",
+        "zh": "跟著用 Ibu／Bapak，聽完家裡的交代後記下給{owner}，用 baik, saya catat 一類確認。"
+      },
+      "3": {
+        "en": "Like a careful caregiver: reply in a full sentence about the elder or paperwork, then confirm you will tell {owner}; no bare OK.",
+        "zh": "像細心的看護：先完整回應長輩或手續的事，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A steady voice for {owner} with agencies or clinics: polite Ibu and complete lines; restate the request, then akan saya sampaikan.",
+        "zh": "代{owner}對仲介或診所：用禮貌 Ibu 與完整句子覆述來意，再說 akan saya sampaikan。"
+      },
+      "5": {
+        "en": "For formal labour or hospital calls, keep titles and local terms (居留證, 健保卡) exact; confirm the relay to {owner} is sudah tercatat.",
+        "zh": "對勞動或醫院正式來電，居留證、健保卡等詞要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo! Apa kabar? Bagaimana 阿嬤 hari ini, bilang saja.",
+      "Halo, ya. Saya dengar, baik, silakan lanjut.",
+      "Halo, selamat siang. Tentang 健保卡? Sudah saya catat.",
+      "Selamat pagi. Terima kasih menelepon, saya paham urusan 仲介 ini.",
+      "Selamat pagi. Urusan 居留證 sudah tercatat, terima kasih."
+    ],
+    "a": [
+      "Halo! Dia sedang merawat 阿公; sampaikan, saya beritahu!",
+      "Halo! Saya terima teleponnya, titip pesan saja.",
+      "Halo, selamat siang. Saya catat soal 仲介 dan sampaikan.",
+      "Selamat pagi, terima kasih. Pesan keluarga akan saya sampaikan.",
+      "Selamat pagi. Semua tercatat, saya sampaikan kepada {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "常把台灣親屬稱謂與制度詞直接嵌入印尼語，如阿嬤、阿公、健保卡、仲介、居留證。",
+    "看護場景要配合華語或台語家庭，電話裡也會夾照顧與回診用語，與印尼本國家居對話不同。",
+    "官方溝通走勞動部、1955 專線與仲介；契約與薪資單依法應有印尼文譯本。",
+    "印尼籍是社福移工最大來源，不少人有伊斯蘭飲食與作息，電話中可能提到禱告或齋戒，但不預設全體如此。"
+  ],
+  "sources": [
+    "https://fw.wda.gov.tw/",
+    "https://archive.news.rti.org.tw/news/view/id/2195103",
+    "https://www.hualiancare.com.tw/guide/caregiver-communication-translation/",
+    "https://www.mol.gov.tw/"
+  ],
+  "uncertain": [
+    "印尼看護夾用台語詞的比例因家庭而異，除「阿嬤／阿公」等常見稱謂外，其他台語詞清單缺乏大規模調查。",
+    "工廠移工與家庭看護的用詞是否完全相同，公開對照資料有限。"
+  ]
+}

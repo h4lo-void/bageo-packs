@@ -1,0 +1,108 @@
+{
+  "name": "Papua New Guinea",
+  "name_local": "Papua Niugini / Papua New Guinea",
+  "iso": "pg",
+  "calling_code": "+675",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "On 6 July 2025 the Bank of Papua New Guinea issued an urgent public advisory on unlicensed 'investment' offers circulating on WhatsApp, Facebook and Telegram, including promises of extreme short-term profits, and stated that it had not licensed any virtual-asset or cryptocurrency investment platform. The Securities Commission has since repeated that investment-scam reports remain a live concern, and the National Cyber Security Centre tells people how to report suspicious calls, mail or messages to the Centre, the Police Cybercrime Unit, or their bank.",
+  "cross_border_note": "Papua New Guinea uses +675. Promoters on WhatsApp or Telegram may sit outside the country; a kina-denominated promise or a local-looking transfer instruction does not mean the scheme is supervised by the Bank of PNG.",
+  "scams": [
+    {
+      "id": "pg_bpng_unlicensed_social_investment",
+      "typology": "investment_group_scam",
+      "name": "Unlicensed social-media investment or crypto scheme promising extreme short-term profits",
+      "name_en": "Bank of Papua New Guinea 6 July 2025 advisory: unregulated WhatsApp, Facebook and Telegram offers promise outsized returns in hours and often operate as Ponzi or pyramid schemes; no VASP has been licensed",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "Bank of Papua New Guinea licence check",
+        "WhatsApp investment group",
+        "virtual asset service provider",
+        "direct bank transfer for guaranteed profit"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "guaranteed profit within 28 hours",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "transfer kina to this unofficial account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "unlicensed cryptocurrency platform",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "invest more now to keep the returns coming",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The central bank described offers, spread on WhatsApp, Facebook and Telegram, that promise extremely high returns in a very short time, such as turning a five-figure kina sum into a far larger payout within 28 hours, or returns on the order of several hundred percent. The promoters are not registered financial-service providers, give little explanation of how the money is used, press for early or larger payments, and ask for direct bank transfers. The Bank said these arrangements often work as Ponzi or pyramid schemes, and that it had not licensed any virtual-asset service provider or cryptocurrency investment platform.",
+      "legit_en": "A person who wants to place money with a financial-service provider in Papua New Guinea can check the provider's licence or registration with the Bank of PNG. A supervised firm does not promise overnight multi-fold profits, and a loss on an unlicensed scheme may leave the investor with no formal recourse.",
+      "bait_tactics": [
+        "Say the offer will be compared with the Bank of Papua New Guinea's licensed-institution lists before any kina is sent.",
+        "Ask why a supervised investment would need a direct credit into an account named only in a WhatsApp group.",
+        "Refuse to increase the stake in order to 'keep' a return that has not been paid out through a supervised firm."
+      ],
+      "sources": [
+        "https://www.publicnow.com/view/C22B0850F02DC7E380937AB0EE0432854AAE2206?1751852811=",
+        "https://www.scpng.gov.pg/investment-scam/",
+        "https://www.bankpng.gov.pg/financial-stability/list-licensed-institutions"
+      ]
+    },
+    {
+      "id": "pg_scpng_fake_trading_app_and_phishing",
+      "typology": "investment_group_scam",
+      "name": "Fake trading app or phishing link dressed as an investment opportunity",
+      "name_en": "Securities Commission of PNG awareness: fake websites, search-result phishing links that request personal data, and unregulated trading apps used to lure downloads and investments",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Securities Commission of Papua New Guinea",
+        "unregulated trading application",
+        "phishing link in search results",
+        "suspicious investment website"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "download this unofficial trading app",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter your details on this investment page",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "the trading app is not supervised in PNG",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "search result for a licensed broker look-alike",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "At a NICTA and DICT cyber-awareness event in October 2025, the Securities Commission set out tactics it sees in investment-scam complaints: websites with suspicious addresses, phishing links that appear in search results and ask for personal information, and unregulated trading applications that the person is urged to download and fund. The Commission said people still fall for these methods even after warnings from SCPNG and the Bank of PNG, and it urged people to confirm any promoter with both agencies first.",
+      "legit_en": "A genuine securities offer in Papua New Guinea can be checked with the Securities Commission and the Bank of PNG before any application is downloaded or any personal data is typed into a search-result page. Official agencies do not recruit investors through an unregulated app sent in a chat.",
+      "bait_tactics": [
+        "Say the entity will be verified with the Securities Commission and the Bank of PNG before an app is installed.",
+        "Refuse to type passwords or identity documents into a page that appeared as a search result or arrived in a message.",
+        "Propose going further only once the promoter has been found on an official licence or registration list."
+      ],
+      "sources": [
+        "https://www.scpng.gov.pg/investment-scam/",
+        "https://www.ncsc.gov.pg/responding-to-scams/"
+      ]
+    }
+  ]
+}

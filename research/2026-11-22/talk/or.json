@@ -1,0 +1,260 @@
+{
+  "lang": "or",
+  "backchannels": {
+    "direction": "ଆଜ୍ଞା and ହଁ ଆଜ୍ଞା show respectful listening; ହଁ is casual; ହଁ ହଁ said fast can sound brushing off.",
+    "examples": [
+      {
+        "text": "ଆଜ୍ଞା।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ହଁ ଆଜ୍ଞା।",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ହଁ।",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ଠିକ୍ ଅଛି।",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ହଁ ହଁ।",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "ସତରେ? for surprise; ଆହା or ଶୁଣି ଦୁଃଖ ଲାଗିଲା for sympathy; ବହୁତ ଖୁସି for good news.",
+    "examples": [
+      {
+        "text": "ସତରେ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ଏମିତି କି?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ଶୁଣି ବହୁତ ଦୁଃଖ ଲାଗିଲା।",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ବହୁତ ଖୁସି ଲାଗିଲା!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ଏଇଟା ଟିକିଏ କଷ୍ଟକର।",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (ଶୁଭୁନି) or the signal is weak, then request ଜୋରରେ speech.",
+    "examples": [
+      {
+        "text": "ଆଜ୍ଞା, ଠିକ୍ ଶୁଭୁନି।",
+        "style": "polite"
+      },
+      {
+        "text": "ସିଗନାଲ୍ ଦୁର୍ବଳ ଅଛି।",
+        "style": "casual"
+      },
+      {
+        "text": "ଆପଣଙ୍କ ସ୍ୱର କଟି ଯାଉଛି।",
+        "style": "polite"
+      },
+      {
+        "text": "ଟିକିଏ ଜୋରରେ କହିବେ କି?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "କ'ଣ କହିଲେ? invites a repeat; get names letter by letter, confirm digits aloud.",
+    "examples": [
+      {
+        "text": "ଆଜ୍ଞା, କ'ଣ କହିଲେ?",
+        "style": "polite"
+      },
+      {
+        "text": "ପୁଣି ଥରେ କହିବେ କି?",
+        "style": "polite"
+      },
+      {
+        "text": "ନାଁର ଅକ୍ଷର କହନ୍ତୁ।",
+        "style": "polite"
+      },
+      {
+        "text": "ନମ୍ବର 12345678 ତ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ଆପଣ କିଏ କହୁଛନ୍ତି? with ଆପଣ; bare କିଏ? is curt.",
+    "examples": [
+      {
+        "text": "ଆଜ୍ଞା, ଆପଣ କିଏ କହୁଛନ୍ତି?",
+        "style": "polite"
+      },
+      {
+        "text": "କେଉଁଠୁ ଫୋନ୍ କରୁଛନ୍ତି?",
+        "style": "polite"
+      },
+      {
+        "text": "ଏହା {owner}ଙ୍କ ନମ୍ବର, ଆପଣ କିଏ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Tell them ନମ୍ବର ଭୁଲ୍ and that nobody so named lives here.",
+    "examples": [
+      {
+        "text": "କ୍ଷମା କରିବେ, ନମ୍ବର ଭୁଲ୍।",
+        "style": "polite"
+      },
+      {
+        "text": "ଏଠି ସେ ନାଁରେ କେହି ନାହାନ୍ତି।",
+        "style": "polite"
+      },
+      {
+        "text": "ରଙ୍ଗ୍ ନମ୍ବର।",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "କହିଦେବି says {owner} will get the message; no call-back time.",
+    "examples": [
+      {
+        "text": "{owner}ଙ୍କୁ ଆପଣଙ୍କ କଥା କହିଦେବି।",
+        "style": "polite"
+      },
+      {
+        "text": "କହିଦେବି।",
+        "style": "casual"
+      },
+      {
+        "text": "ଖବର ପହଞ୍ଚିଯିବ।",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ଧନ୍ୟବାଦ then ଦରକାର ନାହିଁ; polite and brief.",
+    "examples": [
+      {
+        "text": "ଧନ୍ୟବାଦ, ଆମର ଦରକାର ନାହିଁ।",
+        "style": "polite"
+      },
+      {
+        "text": "ଆଗ୍ରହ ନାହିଁ ଆଜ୍ଞା।",
+        "style": "polite"
+      },
+      {
+        "text": "ନା, ଥାଉ।",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "When pushed again, recall the earlier ମନା and ask them to stop dialling.",
+    "examples": [
+      {
+        "text": "ମୁଁ ଆଗରୁ ମନା କରିସାରିଛି।",
+        "style": "polite"
+      },
+      {
+        "text": "ଦୟାକରି ଏହି ନମ୍ବରକୁ ଆଉ ଫୋନ୍ କରନ୍ତୁ ନାହିଁ।",
+        "style": "polite"
+      },
+      {
+        "text": "ଏହି ନମ୍ବର ଆପଣଙ୍କ ତାଲିକାରୁ କାଢ଼ି ଦିଅନ୍ତୁ।",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ଆପଣ for strangers; ଆଜ୍ଞା as respectful address; ଭାଇ, ଅପା, ମଉସା, ମାଉସୀ for warmth.",
+    "examples": [
+      {
+        "text": "ଆଜ୍ଞା",
+        "style": "polite"
+      },
+      {
+        "text": "ଭାଇ",
+        "style": "casual"
+      },
+      {
+        "text": "ଅପା",
+        "style": "casual"
+      },
+      {
+        "text": "ମଉସା",
+        "style": "polite"
+      },
+      {
+        "text": "ମାଉସୀ",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like ଆପଣଙ୍କ କଲ୍ ଆମ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ sound like a recorded helpline.",
+    "examples": [
+      {
+        "text": "ଆପଣଙ୍କ କଲ୍ ଆମ ପାଇଁ ଗୁରୁତ୍ୱପୂର୍ଣ୍ଣ।",
+        "style": "polite"
+      },
+      {
+        "text": "ଗ୍ରାହକ ସେବାକୁ ଫୋନ୍ କରିଥିବାରୁ ଧନ୍ୟବାଦ।",
+        "style": "polite"
+      },
+      {
+        "text": "ମୁଁ ଆପଣଙ୍କୁ କିପରି ସାହାଯ୍ୟ କରିପାରିବି?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ତୁ with elders, or asking caste, dowry or salary early, gives offence.",
+    "examples": [
+      {
+        "text": "ତୁ କିଏ?",
+        "style": "casual"
+      },
+      {
+        "text": "କେଉଁ ଜାତି?",
+        "style": "casual"
+      },
+      {
+        "text": "ଦରମା କେତେ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%AC%86%E0%AC%9C%E0%AD%8D%E0%AC%9E%E0%AC%BE",
+    "https://en.wikipedia.org/wiki/Odia_language",
+    "https://en.wikipedia.org/wiki/Odia_script"
+  ],
+  "uncertain": [
+    "Backchannels (ହଁ, ଆଜ୍ଞା, ଠିକ୍ ଅଛି) from dictionaries and general usage, no Odia call corpus",
+    "Odia speakers often switch to Hindi/English on calls; how much is natural is a guess",
+    "Regional variation (Sambalpuri, southern Odia) not covered"
+  ]
+}

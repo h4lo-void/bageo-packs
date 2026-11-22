@@ -1,0 +1,47 @@
+{
+  "country": "eh",
+  "parent": "maghreb",
+  "name": {
+    "en": "Western Sahara",
+    "native": "Western Sahara",
+    "zh": "西撒哈拉"
+  },
+  "lang": "ar",
+  "differs_from_parent": {
+    "status_note": "主權有爭議，本檔只寫生活與通話習慣，不作政治判斷",
+    "language": "口語以哈薩尼亞阿拉伯語為主；部分居民懂西班牙語（前西班牙殖民時期留下），法語不如父區普遍",
+    "calling_code": "多數居民所在地區實際使用 +212 號碼",
+    "currency": "同一區域內實際通行摩洛哥迪拉姆"
+  },
+  "habits": {
+    "en": "Callers mostly speak Hassaniya Arabic; some know Spanish, French is less common than elsewhere in the region. Follow the caller.",
+    "zh": "來電多說哈薩尼亞阿拉伯語，部分人懂西班牙語，法語不如父區常見；跟著對方說。"
+  },
+  "vocab": {
+    "bank": [
+      "dirham"
+    ],
+    "delivery": [
+      "boutique"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "政治稱呼",
+      "reason": {
+        "zh": "不要在對話中替地區定位或評論主權，只用中性地名"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Western_Sahara",
+    "https://en.wikipedia.org/wiki/Hassaniya_Arabic",
+    "https://minurso.unmissions.org/"
+  ],
+  "uncertain": [
+    "+212 號碼與迪拉姆的使用依一般資料，未在官方電信頁核對；其他地區（含難民營所在地）的情況不在本檔。",
+    "維基百科資訊框寫 UTC+0，實際生活是否跟隨父區時制（UTC+1）未能確認。",
+    "西班牙語通話使用比例無統計。"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "lang": "fa",
+  "script": "arabic",
+  "common_words": [
+    "من",
+    "تو",
+    "شما",
+    "او",
+    "ما",
+    "آنها",
+    "نه",
+    "بله",
+    "مرسی",
+    "لطفا",
+    "سلام",
+    "خداحافظ",
+    "امروز",
+    "فردا",
+    "دیروز",
+    "صبح",
+    "عصر",
+    "چرا",
+    "چطور",
+    "کجا",
+    "چه",
+    "این",
+    "آن",
+    "هست",
+    "نیست",
+    "را",
+    "که",
+    "با",
+    "برای",
+    "خیلی",
+    "اگر",
+    "باید",
+    "خوب",
+    "الان",
+    "شماره",
+    "آدرس",
+    "پزشک",
+    "سفارش",
+    "می‌خواهم",
+    "می‌توانم",
+    "دیگر",
+    "هنوز",
+    "همیشه",
+    "هیچ",
+    "اینجا",
+    "آنجا",
+    "ببخشید",
+    "خواهش می‌کنم",
+    "ممنون",
+    "چیست"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fa/fa_50k.txt",
+  "shared_words": [
+    {
+      "word": "من",
+      "also_in": [
+        "ar",
+        "ur"
+      ]
+    },
+    {
+      "word": "تو",
+      "also_in": [
+        "ur"
+      ]
+    },
+    {
+      "word": "و",
+      "also_in": [
+        "ar",
+        "ur"
+      ]
+    },
+    {
+      "word": "در",
+      "also_in": [
+        "ur"
+      ]
+    },
+    {
+      "word": "که",
+      "also_in": [
+        "ur"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "پ",
+    "چ",
+    "ژ",
+    "گ"
+  ],
+  "confusable_with": [
+    "ar",
+    "ur",
+    "ps"
+  ],
+  "how_to_tell_apart": "Persian adds پ, چ, ژ and گ to the Arabic script and normally writes ی and ک rather than ي and ك. Everyday cues include من, تو, شما, نیست, لطفا, مرسی or ممنون, چرا, کجا, می‌خواهم, امروز and فردا. Arabic would have أنا, هل, ماذا, شكرا and ة; Urdu would have ہوں, آپ, شکریہ and the letters ٹ ڈ ڑ ں ے. The prepositions من, در and که also appear in Urdu and are poor separators. Informal subtitle spellings such as اين or مي without a hamza or a yeh are common in the frequency list and should be treated as the same words as این and می‌.",
+  "test_said": [
+    "از شهرداری گواهی سکونت می‌خواهم تا به مدرسه فرزندم بدهم.",
+    "از داروخانه می‌پرسم شربت سرفه که گرفته بودم امروز آماده است یا نه.",
+    "بسته پستی در سامانه ثبت شده اما در باجه هنوز به نام من نیست.",
+    "فرش تازه رسیده یک گوشه‌اش جمع شده و می‌خواهم عوضش کنند.",
+    "در درمانگاه برای سردردهای مکرر یک نوبت در همین هفته می‌خواهم.",
+    "جواب آزمایش قند قرار بود چهارشنبه حاضر شود و هنوز به دستم نرسیده.",
+    "بیمه عمر جدید را تلفنی نمی‌خواهم و اطلاعات شخصی هم نمی‌دهم.",
+    "طرح اینترنت را همین ماه عوض کرده‌ام پس پیشنهاد اپراتور تازه لازم نیست."
+  ],
+  "test_not_enough": [
+    "سارا",
+    "ok",
+    "هفت",
+    "message"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fa/fa_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Persian_alphabet",
+    "https://en.wikipedia.org/wiki/Persian_language"
+  ],
+  "uncertain": [
+    "The OpenSubtitles Persian list is heavily colloquial (رو, دیگه, می‌ without a space). Formal phone calls, especially clinics and offices, may use می‌خواهم and شما more than تو and می‌خوام.",
+    "مرسی is a frequent loan in the subtitle list; ممنون and متشکرم are also current, and any one of them is more diagnostic when paired with نیست or لطفا.",
+    "پ چ ژ گ also occur in Kurdish and Urdu loan typography, so the letters should be combined with the pronouns above."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Gibraltar",
+  "name_local": "Gibraltar",
+  "iso": "gi",
+  "calling_code": "+350",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Royal Gibraltar Police Economic Crime Unit has repeatedly published telephone-scam warnings after reports of callers pretending to be from a bank, including a later notice about people claiming to work for National Westminster Bank and asking for an online-banking one-time password. The Gibraltar Financial Services Commission has separately told the public that attempted frauds against people and firms in Gibraltar have increased, including callers who pose as a local bank or as the RGP.",
+  "cross_border_note": "Gibraltar's public calling code is +350. Both the RGP and the GFSC warn that a number on the display can be spoofed so that it resembles a bank or a withheld line; the RGP has also described the practice as caller ID spoofing in the NatWest-related reports. A genuine follow-up should use a number already printed on a statement or a bank card, or the regulated-entities list on the GFSC site, not the inbound display.",
+  "scams": [
+    {
+      "id": "gi_rgp_bank_otp_spoof",
+      "typology": "otp_theft",
+      "name": "Spoofed bank call asking for an online-banking one-time password",
+      "name_en": "RGP Economic Crime Unit: telephone callers, including some claiming to be from NatWest, ask the person to log into online banking and read out the one-time password; the display may be spoofed",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "NatWest employee",
+        "caller ID spoofing",
+        "one-time password on a bank login",
+        "RGP Economic Crime Unit"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read out the one-time password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm the OTP from your login",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "give me your banking password",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "fraud on your account, log in now",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller says fraudulent activity has been seen on an account and tells the person to open online banking and confirm a one-time password to the caller. The RGP says no financial losses had been reported in that particular batch of calls, and that the display can be made to look as if it comes from a trusted firm.",
+      "legit_en": "The RGP states that banks already hold a customer's PIN, username, password and one-time password material, and will not telephone an existing customer to ask for those details. A genuine check is done by hanging up and contacting the bank in person or with details already on a card or official letter.",
+      "bait_tactics": [
+        "End the call and ring the bank only on a number already printed on a card or a statement, not on the number that just appeared on the screen.",
+        "Say that a one-time password, PIN or login secret is never spoken to an unsolicited caller, even if the display looks like a bank.",
+        "Ask which branch or unit the person claims to represent, and offer to continue the matter only through the bank's own published channel."
+      ],
+      "sources": [
+        "https://www.police.gi/news/scam-warning-1384",
+        "https://www.police.gi/news/rgp-warning-following-increase-in-scams-1342"
+      ]
+    },
+    {
+      "id": "gi_gfsc_bank_or_rgp_remote",
+      "typology": "tech_support_remote",
+      "name": "Caller posing as a local bank or the RGP who wants desktop control or a payment site",
+      "name_en": "GFSC consumer alert: fraudsters pose as local banks or the Royal Gibraltar Police, use the bank's number or a withheld line, and ask for personal details so they can control a desktop and start payments through a fake site",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Gibraltar Financial Services Commission",
+        "pose as the Royal Gibraltar Police",
+        "desktop control",
+        "Team Viewer remote tool"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "install remote access on your computer",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "download Team Viewer so I can help",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "open this site to move the money",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "I am calling from the RGP about fraud",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The GFSC describes recent local cases in which the caller claims the person is already a victim of fraud and then asks for details that would let the caller take over the desktop and open a false website to start payments. A separate RGP notice has also warned about requests to install a remote-access tool such as Team Viewer.",
+      "legit_en": "Neither a Gibraltar bank nor the police will ask for login secrets or for remote control of a computer during an unexpected call, and they will not tell someone to send money to another account. The GFSC advice is to hang up and call back only with contact details from a statement or from the regulated-entities register on the Commission's own site.",
+      "bait_tactics": [
+        "Refuse any request to install a remote-access program or to open a site the caller dictates, and close the session if one has already been started.",
+        "Say that the Royal Gibraltar Police and the banks do not take desktop control in an inbound fraud call, and that the matter can be reported through the police's own published route.",
+        "Offer to walk into a branch or to use only the GFSC register or a printed bank number, after the present call has been ended."
+      ],
+      "sources": [
+        "https://fsc.gi/news/consumer-alert-on-recent-increase-in-fraud-516",
+        "https://www.police.gi/news/scam-warning-1344",
+        "https://www.police.gi/information/cyber-safety/cyber-crime"
+      ]
+    }
+  ]
+}

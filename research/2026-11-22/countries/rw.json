@@ -1,0 +1,64 @@
+{
+  "country": "rw",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Rwanda",
+    "native": "Rwanda",
+    "zh": "盧安達"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+250",
+    "currency": "盧安達法郎 RWF",
+    "time_zone": "UTC+2 中部非洲時間，比父區東非時間慢 1 小時",
+    "language": "官方語為盧安達語、英語、法語、斯瓦希里語；電話對陌生人常用盧安達語或英語",
+    "business_hours": "每月最後一個星期六上午為 Umuganda 社區勞動，約 08:00 到 11:00 交通與多數營業暫停",
+    "gov_services": "政府線上服務集中在 Irembo 平台"
+  },
+  "readback": {
+    "en": "Times are UTC+2, an hour behind Kenya; francs have no decimals",
+    "zh": "時間是 UTC+2，比肯亞慢一小時；法郎不用小數"
+  },
+  "habits": {
+    "en": "Follow Kinyarwanda, English or French callers. Say moto for motorbike taxis. Last Saturday mornings are Umuganda; shops shut.",
+    "zh": "對方說盧安達語、英語或法語就跟著說；機車計程車叫 moto。每月最後週六上午是 Umuganda，店家多半不營業。"
+  },
+  "vocab": {
+    "bank": [
+      "MTN MoMo",
+      "Airtel Money",
+      "MoMo agent"
+    ],
+    "delivery": [
+      "moto",
+      "Irembo",
+      "umudugudu"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "zh": "肯亞的行動錢包，盧安達通行的是 MTN MoMo 與 Airtel Money"
+      }
+    },
+    {
+      "word": "EAT／UTC+3",
+      "reason": {
+        "zh": "盧安達是 UTC+2，約時間不能照肯亞換算"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rura.rw/",
+    "https://www.bnr.rw/",
+    "https://irembo.gov.rw/",
+    "https://en.wikipedia.org/wiki/Umuganda",
+    "https://en.wikipedia.org/wiki/Time_in_Rwanda"
+  ],
+  "uncertain": [
+    "umudugudu（村、社區單位）是否常用在收件地址描述，未見官方說明。",
+    "Airtel Money 在盧安達的實際使用比例沒有查到統計。"
+  ]
+}

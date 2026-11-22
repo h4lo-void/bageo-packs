@@ -2,7 +2,9 @@
   "schema": 1,
   "code": "no",
   "countries": [
-    "no"
+    "no",
+    "bv",
+    "sj"
   ],
   "name": {
     "en": "Norway",
@@ -81,15 +83,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "hentested",
-      "Pakkeboks",
-      "dørmatta"
-    ],
     "bank": [
       "BankID",
       "Vipps",
-      "kodebrikke"
+      "kodebrikke",
+      "nettbank",
+      "kontonummer",
+      "bankkort"
+    ],
+    "delivery": [
+      "hentested",
+      "Pakkeboks",
+      "dørmatta",
+      "Posten",
+      "Bring",
+      "Post i Butikk"
+    ],
+    "government": [
+      "NAV",
+      "Skatteetaten",
+      "skattemelding",
+      "fødselsnummer",
+      "D-nummer",
+      "Folkeregisteret"
+    ],
+    "health": [
+      "fastlege",
+      "legevakt",
+      "Helsenorge",
+      "apotek",
+      "e-resept",
+      "legetime"
+    ],
+    "telecom": [
+      "Telenor",
+      "Telia",
+      "Ice",
+      "abonnement",
+      "kontantkort",
+      "SIM-kort"
+    ],
+    "payment": [
+      "Vipps",
+      "vippse",
+      "betale med kort",
+      "faktura",
+      "forfallsdato",
+      "kontanter"
+    ],
+    "transport": [
+      "Ruter",
+      "Entur",
+      "Vy",
+      "trikken",
+      "T-banen",
+      "ferja"
+    ],
+    "housing": [
+      "borettslag",
+      "sameie",
+      "styret",
+      "vaktmester",
+      "postkasse",
+      "ringeklokke"
     ]
   },
   "status": "draft"

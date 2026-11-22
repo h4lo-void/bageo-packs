@@ -1,0 +1,708 @@
+{
+  "region": "sk",
+  "countries": [
+    "sk"
+  ],
+  "region_name_zh": "斯洛伐克",
+  "region_name": "Slovakia",
+  "languages": [
+    {
+      "code": "sk",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Slovak (sk); Czech is widely understood; Hungarian is used in parts of the south; English works in Bratislava, Tatras resorts and hotels, less at clinics and offices.",
+  "english_ok": "sometimes — Fair in Bratislava, mountain resorts and hotels and with younger staff; scarce at state clinics, municipal offices and villages.",
+  "politeness": "Formal 'vykanie' (vy), 'pán/pani' + surname; open with 'Dobrý deň' and state on whose behalf; close with 'Ďakujem, dovidenia'.",
+  "name_tip": "Surname first; female surnames take -ová (Kováč / Kováčová); give the exact form and spell foreign names letter by letter.",
+  "phone_tip": "Mobile 09xx xxx xxx (10 digits with 0), Bratislava landline 02 + 8 digits, +421 country code; SMS confirmations common.",
+  "time_tip": "TRAP: 'pol ôsmej' = 7:30, 'štvrť na osem' = 7:15, 'trištvrte na osem' = 7:45; always read back in 24h.",
+  "number_tip": "People are counted with special forms ('dvaja', 'traja', 'štyria' for men/mixed groups); 3-izbový = 3-room flat, not party size; read phones in groups.",
+  "avoid_calling": "Avoid lunch rush 11:30–13:30 (obedové menu), dinner peak 18:30–20:30, calls after 20:00 and weekends for offices; GP surgeries answer mostly in the morning.",
+  "closed_days": "Shops open Sundays; since 1 November 2025 retail must close only on 1 January, Good Friday, Easter Sunday, 24 December after 12:00 and 25–26 December; days of rest include 6 January, Easter Monday, 1 May, 5 July, 29 August, 1 November, 24–26 December, while 1 September, 28 October and 17 November are no longer days off (8 May and 15 September also suspended in 2026).",
+  "booking_channels": "Bookio (Slovak) and Reservio for salons, sport and restaurants; online portals (objednatvysetrenie.sk, NávštevaLekára.sk, TopDoktor) and clinic chains for doctors; phone and Facebook for restaurants; Wolt, Bolt Food and Foodora for delivery.",
+  "voice_menu": "Operators (Orange, Telekom, O2, 4ka), banks, Slovenská pošta, Packeta and health insurers (VšZP, Dôvera, Union) use keypad IVR.",
+  "callback_habits": "Bookio/Reservio send SMS or email reminders; small businesses confirm by SMS or WhatsApp/Viber call-back.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "滑雪學校、溫泉（kúpele、aquapark）與運動場可電話預約；纜車票線上較便宜。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Ski pass cheaper when bought online in advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks prepayment for a private ski lesson to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "斯洛伐克髮廊、美甲多用 Bookio 預約，也接電話。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bookio deposit or late-cancel policy"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks záloha transfer before a long colour"
+        }
+      ],
+      "usually_asked": [
+        "Service (strih, farbenie, gélové nechty)",
+        "Hair length",
+        "Day, hour and kaderníčka",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；Bookio 預約可從簡訊連結改期，私人牙醫可能收取消費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Storno fee for missed private dental visit"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks rodné číslo to find the termín"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original termín",
+        "New time or zrušenie",
+        "Party size if restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "全科醫師（všeobecný lekár）多早上接電話，專科需 výmenný lístok；必問健保公司（VšZP、Dôvera、Union），部分診所可經 objednatvysetrenie.sk 等入口網線上預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic points to its online objednávkový systém"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor has no capacity for new patients (nová dohoda)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks rodné číslo used as the insurance ID"
+        }
+      ],
+      "usually_asked": [
+        "Poisťovňa: VšZP, Dôvera or Union",
+        "Patient with signed dohoda or new",
+        "Reason and výmenný lístok",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、健保公司客服有語音選單並須本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telekom or bank line refuses caller without splnomocnenie"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks rodné číslo or SMS authorisation codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Zákaznícke číslo",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多走 Slovensko.sk 線上或預約臨櫃（klientske centrum）；小學報名（zápis）在春季。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Klientske centrum slots booked online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's rodné číslo"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and spádová škola",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需給街道、門牌、樓層、門鈴名；舊式板樓（panelák）常有電梯限制。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Výjazd fee plus hourly rate"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Panelák lift too small for appliances"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before arrival"
+        }
+      ],
+      "usually_asked": [
+        "Trade (inštalatér, elektrikár, zámočník)",
+        "Address, floor and zvonček name",
+        "Time window",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "塔特拉山區民宿（penzión、chata）常電話訂房並收 záloha；地方收住宿稅（daň za ubytovanie）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Daň za ubytovanie charged per night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rekreačný poukaz (holiday voucher) accepted"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or OP number for registration"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room or chata type",
+        "Breakfast and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、庫存、可否帶狗等通常直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kuchyňa closes earlier than the bar"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (otváracie hodiny, karta, pes)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容可電話預約；出境需歐盟寵物護照。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pohotovosť surcharge at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel transfer deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Očkovanie and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋經 Nehnutelnosti.sk、Bazoš 與房仲（RK），電話約看房。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks the Nehnutelnosti.sk listing ID"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks deposit before the obhliadka"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Number of rooms (2-izbový) and move-in",
+        "Budget",
+        "Obhliadka time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車服務、換胎（prezutie）與車檢 STK、排放檢查 EK 多電話或線上預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Diagnostika charged separately"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "EK emission check must precede STK"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN from the osvedčenie o evidencii"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and ŠPZ (plate)",
+        "Servis, prezutie, STK or EK",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "斯洛伐克餐廳多接電話或 Facebook 訂位，部分用 Bookio；平日中午有 obedové menu 不必訂，週末與塔特拉山區旺季要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Obedové menu served only on weekdays at lunch"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Záloha for svadba or stužková (school ball) groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to hold a Bratislava old-town table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Počet osôb (party size)",
+        "Surname for the booking (na meno)",
+        "Inside or terasa"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（lekáreň）、麵包店與甜點店（cukráreň）可電話預訂；耶誕前甜點要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Lekáreň reserves an item for next-day pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepayment for a cukráreň torta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Torta size or weight",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與快餐店接電話外帶（so sebou）；外送多走 Wolt、Bolt Food、Foodora。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through Wolt in that town"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Packaging fee (obal) added"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details before preparing"
+        }
+      ],
+      "usually_asked": [
+        "So sebou or rozvoz",
+        "Items and pizza size",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Packeta、SPS、DPD、Slovenská pošta 追蹤以網站 App 為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Packeta hotline sends caller to the tracking page"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the Packeta SMS pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Číslo zásielky",
+        "Recipient name and phone",
+        "Výdajné miesto or address",
+        "Dobierka amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "Bolt、Uber 與地方計程車行並存，小城市多電話叫車；維也納機場接送常需預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher confirms ŠPZ and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Vienna airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or vodičský preukaz"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "sk": {
+      "appointment_words": [
+        "objednať sa k lekárovi",
+        "termín u kaderníka",
+        "STK a EK",
+        "preventívna prehliadka",
+        "termín v servise"
+      ],
+      "booking_words": [
+        "rezervácia stola",
+        "zarezervovať stôl",
+        "rezervácia izby",
+        "ubytovanie s raňajkami",
+        "rezervovať miesto"
+      ],
+      "change_words": [
+        "preobjednať sa",
+        "zrušiť rezerváciu",
+        "o pol hodiny neskôr",
+        "posunúť na piatok",
+        "zmena termínu"
+      ],
+      "date": [
+        "zajtra",
+        "pozajtra",
+        "tento piatok",
+        "budúci utorok",
+        "25. 11.",
+        "v sobotu večer"
+      ],
+      "false_friends": [
+        "3. poschodie",
+        "byt č. 12",
+        "menu č. 4",
+        "masáž 60 min",
+        "električka 4",
+        "3-izbový byt"
+      ],
+      "inquiry_words": [
+        "do koľkej varí kuchyňa",
+        "dá sa platiť kartou",
+        "môžeme so psom",
+        "máte na sklade",
+        "otváracie hodiny"
+      ],
+      "name": [
+        "na meno Kováč",
+        "Ján Novák",
+        "Mária Kováčová",
+        "rodina Horvátová",
+        "pán Varga"
+      ],
+      "order_words": [
+        "so sebou",
+        "objednávka na vyzdvihnutie",
+        "rozvoz",
+        "odložiť pre mňa",
+        "objednať vopred"
+      ],
+      "party": [
+        "stôl pre 4",
+        "2 dospelí a 1 dieťa",
+        "budeme traja",
+        "pre 2 osoby",
+        "4 os.",
+        "6 ľudí + detská stolička"
+      ],
+      "phone": [
+        "0912 345 678",
+        "+421 912 345 678",
+        "zavolajte na 0912 345 678",
+        "02/1234 5678"
+      ],
+      "time": [
+        "o pol ôsmej večer",
+        "19:30",
+        "o štvrť na sedem",
+        "o trištvrte na osem",
+        "na obed",
+        "okolo 20. hodiny"
+      ]
+    }
+  }
+}

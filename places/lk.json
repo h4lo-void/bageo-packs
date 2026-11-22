@@ -1,0 +1,793 @@
+{
+  "region": "lk",
+  "countries": [
+    "lk"
+  ],
+  "region_name_zh": "斯里蘭卡",
+  "region_name": "Sri Lanka",
+  "languages": [
+    {
+      "code": "si",
+      "use": "main"
+    },
+    {
+      "code": "ta",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Speak Sinhala (si) in most of the country and Tamil (ta) in the North, East and Tamil-run businesses; English is widely understood in Colombo businesses, hotels and private hospitals.",
+  "english_ok": "yes — Common in Colombo businesses, hotels, private hospitals and offices; limited at small village shops and in some regions.",
+  "politeness": "Polite and gentle: greet with ayubowan (Sinhala) or vanakkam (Tamil); use sir/madam or mahattaya/nona; thank with stuti (Sinhala) or nandri (Tamil).",
+  "name_tip": "Sinhala names often have long ancestral/family names; people are addressed as Mr/Mrs + surname or by given name; Tamil names often use the father's initial; book under the name given + mobile.",
+  "phone_tip": "Mobile 10 digits starting 07 (07X 123 4567); Colombo landline 011 123 4567; read back in 3-3-4 groups; WhatsApp is usually the same mobile.",
+  "time_tip": "12-hour with AM/PM or morning/evening words; CRITICAL: Sinhala 'hatha hamarayi' (හත හමාරයි) = 7:30, but a '-ta' (to) ending means quarter to: 'atata kaalayi' (අටට කාලයි) = 7:45, not 8:15; confirm morning or evening.",
+  "number_tip": "Read phone digits singly in English or Sinhala; prices in rupees (Rs); dates day/month.",
+  "avoid_calling": "Avoid lunch 12:30–13:30, calls after 20:00, Poya (full-moon) days when many businesses close or slow down, and Sinhala and Tamil New Year (mid-April).",
+  "closed_days": "Office weekend is Sat–Sun; every Poya day is a public holiday with liquor shops and bars closed; Sinhala and Tamil New Year closes many businesses for days.",
+  "booking_channels": "WhatsApp is the main chat channel, Viber second; eChannelling, doc.lk and hospital apps for doctors; Uber Eats and PickMe Food for delivery; PickMe and Uber for rides; phone calls still common.",
+  "voice_menu": "Telcos (Dialog, SLT-Mobitel, Airtel/Hutch), banks and eChannelling use Sinhala/Tamil/English IVR; small businesses answer directly.",
+  "callback_habits": "Businesses confirm on WhatsApp or by call-back; eChannelling sends SMS with an appointment number; couriers call on delivery.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "野生動物 safari（吉普車）、觀鯨與導覽多經業者 WhatsApp 預約並付訂金；國家公園門票另付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Park entrance fee is separate from the jeep price"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Whale watching depends on sea conditions"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport numbers for park tickets"
+        }
+      ],
+      "usually_asked": [
+        "Safari park or tour and date",
+        "Hotel pickup time",
+        "Number of people",
+        "Lead name and WhatsApp"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美容院多電話或 WhatsApp 預約，婚禮季（尤其新年後與 8 月前後）新娘妝要很早訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bridal dressing package needs an advance"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Barber shops take walk-ins"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks bank transfer before giving a slot"
+        }
+      ],
+      "usually_asked": [
+        "Service: haircut, facial, bridal dressing, threading",
+        "Preferred stylist",
+        "Date and time",
+        "Name and WhatsApp"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多電話或 WhatsApp；channelling 預約在原平台或醫院更改，費用規則依平台。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Channelling booking changed through the same platform"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Advance kept for late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks reference number and NIC"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile on the booking",
+        "Original date and session",
+        "New date or cancel",
+        "Reference number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立醫院門診習慣「channelling」：經 eChannelling、doc.lk、醫院 App 或電話預約醫師某一時段並取得號碼，依號看診；公立醫院多現場掛號。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Channelling gives an appointment number for the doctor's session"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor's session time may change; hospital sends SMS"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NIC number or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Which consultant and hospital",
+        "Session date and time",
+        "Patient name and age",
+        "Appointment (channel) number",
+        "Mobile for SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Dialog、SLT-Mobitel）、銀行與電力局客服有僧伽羅語／泰米爾語／英語語音選單，帳戶事項須本人以 NIC 驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telco needs the connection owner for changes"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NIC number or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR language Sinhala, Tamil or English",
+        "Account holder",
+        "Account or connection number",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "身分證一日件須本人在上午到人事登記局總部辦理，未見線上預約；其他手續多需到場；學校可電話詢問，週末不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "One-day NIC service is in person at the head office in the morning"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks birth certificate number"
+        }
+      ],
+      "usually_asked": [
+        "Which office or document",
+        "Applicant or child's age and grade",
+        "Divisional Secretariat area",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣與清潔多電話叫；地址要說巷名（lane）、門牌與附近地標。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit charge before the job"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks a landmark such as a temple or junction"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks transfer before visiting"
+        }
+      ],
+      "usually_asked": [
+        "Job type",
+        "House number, lane, town and landmark",
+        "Day and time",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 Booking.com、Agoda 或 WhatsApp；入住須出示護照或身分證登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport or NIC recorded at check-in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Peak-season (Dec–Mar south coast) prepayment"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number by WhatsApp"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out",
+        "Guests and room type",
+        "Half board or bed and breakfast",
+        "Guest name and mobile"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、月圓節與新年是否營業、可否刷卡、有無停車位；月圓節酒類停售。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Explains Poya day hours and no alcohol"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Confirms card or cash"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and Avurudu closure",
+        "Poya day opening",
+        "Card or cash",
+        "Parking"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容多可電話或 WhatsApp 預約，選擇集中在可倫坡一帶。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming price by size"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet asks for the vaccination book"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding wants full payment to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Vet, vaccine, grooming",
+        "Dog or cat, breed, age",
+        "Vaccination book",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 ikman.lk 等分類網站，房東與仲介習慣電話或 WhatsApp 約看房；常要預付數月租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Owner arranges viewing by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Several months' rent paid in advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks advance before the viewing"
+        }
+      ],
+      "usually_asked": [
+        "Area and ikman listing",
+        "Furnished or not, move-in date",
+        "Number of occupants",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽機車修理多直接到場或電話；嘟嘟車（three-wheeler）與機車修理店遍布，原廠保養可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent service station books by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Garage quotes after inspection"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks vehicle revenue licence or registration details"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle type and number plate",
+        "Mileage for service",
+        "Problem",
+        "Drop-off day"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "斯里蘭卡餐廳多電話或 WhatsApp 訂位，一般小店多現場用餐；每逢月圓節（Poya）全國酒類停售，飯店與酒吧也不例外。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No alcohol served on Poya days, including hotel bars"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Large rice-and-curry buffet for groups needs advance notice"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Casual eateries say walk-in only"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee a hotel restaurant table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time with AM/PM",
+        "Number of people",
+        "Spice level and vegetarian needs",
+        "Whether the date is a Poya day",
+        "Name and 07X mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與新年甜點（kavum、kokis）常電話或 WhatsApp 預訂，新年前要提早並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Avurudu sweets ordered by the piece or box"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment to a personal account for a cake"
+        }
+      ],
+      "usually_asked": [
+        "Cake size in kg and message",
+        "Sweets type and quantity",
+        "Pickup or delivery date",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐廳可電話點餐打包（parcel），外送以 Uber Eats、PickMe Food 為主；午餐盒飯（rice and curry parcel）很常見。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery through PickMe Food or Uber Eats"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Lunch packets sold out by early afternoon"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks transfer before cooking a small parcel"
+        }
+      ],
+      "usually_asked": [
+        "Items and number of parcels",
+        "Chicken, fish, egg or veg",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Sri Lanka Post 與本地快遞多電話詢問；國際包裹建議用追蹤號查。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier phones before delivery"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NIC of the receiver to release the parcel"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Receiver name and mobile",
+        "Town and address",
+        "Item"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 PickMe、Uber 為主（Uber 主要在可倫坡一帶），嘟嘟車也可用 App 叫；機場接送與包車司機多電話或 WhatsApp 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests PickMe for tuk-tuk or car"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Car with driver priced per day or per km"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport copy for a multi-day driver hire"
+        }
+      ],
+      "usually_asked": [
+        "Pickup point and time",
+        "Destination or airport (BIA)",
+        "Passengers and bags",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "si": {
+      "appointment_words": [
+        "දොස්තර චැනල් කරන්න",
+        "වෛද්‍ය වේලාවක්",
+        "කොණ්ඩේ කපන්න වෙලාවක්",
+        "වාහනය සර්විස්"
+      ],
+      "booking_words": [
+        "මේසයක් බුක් කරන්න",
+        "කාමරයක් බුක්",
+        "කලින් බුක් කරන්න",
+        "ශාලාව බුක්"
+      ],
+      "change_words": [
+        "වෙලාව වෙනස් කරන්න",
+        "සිකුරාදාට දාන්න",
+        "බුකින් එක කැන්සල්",
+        "පැය බාගයක් පස්සේ"
+      ],
+      "date": [
+        "හෙට",
+        "අනිද්දා",
+        "මේ සෙනසුරාදා",
+        "ලබන සඳුදා",
+        "නොවැම්බර් 25"
+      ],
+      "false_friends": [
+        "3 වෙනි තට්ටුව",
+        "කාමර අංක 12",
+        "සෙට් 2",
+        "පැයක මසාජ්",
+        "අටට කාලයි (7:45, අට නොවේ)"
+      ],
+      "inquiry_words": [
+        "කීයටද අරින්නේ",
+        "පාකින් තියෙනවද",
+        "කාඩ් ගන්නවද",
+        "බඩු තියෙනවද"
+      ],
+      "name": [
+        "සුනිල් මහත්තයාගේ නමට",
+        "නිමාලි නෝනා",
+        "සමාගමේ නමට"
+      ],
+      "order_words": [
+        "පාර්සල්",
+        "ගෙදරට ඩිලිවරි",
+        "කලින් ඕඩර්",
+        "ඇවිත් ගන්නම්"
+      ],
+      "party": [
+        "4 දෙනයි",
+        "ලොකු 2 පොඩි 1",
+        "10 දෙනයි",
+        "2 දෙනයි"
+      ],
+      "phone": [
+        "07X 123 4567",
+        "WhatsApp එකම නම්බර්",
+        "011 123 4567"
+      ],
+      "time": [
+        "හවස 7ට",
+        "හත හමාරයි",
+        "උදේ 10ට",
+        "දවල් 12ට"
+      ]
+    },
+    "ta": {
+      "appointment_words": [
+        "டாக்டர் அப்பாயிண்ட்மென்ட்",
+        "மருத்துவ நேரம்",
+        "முடி வெட்ட நேரம்",
+        "வாகன சர்வீஸ்"
+      ],
+      "booking_words": [
+        "மேசை முன்பதிவு",
+        "அறை புக்கிங்",
+        "முன்கூட்டியே புக்",
+        "மண்டபம் புக்"
+      ],
+      "change_words": [
+        "நேரம் மாற்ற",
+        "வெள்ளிக்கு மாற்ற",
+        "புக்கிங் ரத்து",
+        "அரை மணி நேரம் பிறகு"
+      ],
+      "date": [
+        "நாளை",
+        "நாளை மறுநாள்",
+        "இந்த சனிக்கிழமை",
+        "அடுத்த திங்கள்",
+        "நவம்பர் 25"
+      ],
+      "false_friends": [
+        "3வது மாடி",
+        "அறை எண் 12",
+        "செட் 2",
+        "ஒரு மணி நேர மசாஜ்"
+      ],
+      "inquiry_words": [
+        "எத்தனை மணிக்கு திறப்பீர்கள்",
+        "பார்க்கிங் இருக்கா",
+        "கார்டு எடுப்பீர்களா",
+        "பொருள் இருக்கா"
+      ],
+      "name": [
+        "குமார் பெயரில்",
+        "திருமதி லதா",
+        "நிறுவனத்தின் பெயரில்"
+      ],
+      "order_words": [
+        "பார்சல்",
+        "வீட்டுக்கு டெலிவரி",
+        "முன்கூட்டியே ஆர்டர்",
+        "வந்து எடுப்பேன்"
+      ],
+      "party": [
+        "4 பேர்",
+        "பெரியவர் 2 குழந்தை 1",
+        "10 பேர்",
+        "2 பேர்"
+      ],
+      "phone": [
+        "07X 123 4567",
+        "அதே நம்பர் WhatsApp",
+        "021 123 4567"
+      ],
+      "time": [
+        "மாலை 7 மணி",
+        "ஏழரை மணி",
+        "காலை 10 மணி",
+        "மதியம் 12 மணி"
+      ]
+    }
+  }
+}

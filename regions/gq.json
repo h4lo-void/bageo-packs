@@ -1,0 +1,129 @@
+{
+  "schema": 1,
+  "code": "gq",
+  "countries": [
+    "gq"
+  ],
+  "name": {
+    "en": "Equatorial Guinea",
+    "native": "Guinea Ecuatorial",
+    "zh": "赤道幾內亞"
+  },
+  "lang": "es-US",
+  "hello": {
+    "hello": "¿Diga?",
+    "hello_again": "¿Hola, bueno, me oye?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, the porter or a neighbour",
+    "zh": "包裹交給門閘、門房或鄰居"
+  },
+  "readback": {
+    "en": "Short Spanish number groups; dates day-month; repeat the town.",
+    "zh": "號碼用西語分小段唸；日期先日後月；城鎮名再重複"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request or a 'wrong transfer' to return is a scam",
+    "zh": "要銀行 PIN 或 OTP，或叫你把「轉錯的錢」退回去，都是詐騙"
+  },
+  "habits": {
+    "en": "Usted with strangers, tú once casual. Spanish; follow French or Portuguese.",
+    "zh": "對陌生人用 usted，熟了再用 tú。用西班牙語；對方改法語或葡語就跟著說。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the bank app spinning, a power cut, the road closed.",
+    "zh": "卡在當地日常狀況，例如銀行 App 一直轉、停電、道路封閉。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Malabo friend: tú, lively Equatoguinean Spanish, a 'qué hay', then one more beat; do not use vale or tío, varied.",
+        "zh": "像馬拉博的朋友：用 tú，活潑的赤道幾內亞西語，可帶 qué hay，再接一句；不用 vale、tío，每次換。"
+      },
+      "2": {
+        "en": "Warm: tú unless they stay on usted; after they speak, add a kind 'queda claro', varied. Follow French if they switch.",
+        "zh": "溫暖：對方不堅持 usted 就用 tú；聽完加一句 queda claro，每次換。對方改法語就跟著。"
+      },
+      "3": {
+        "en": "Everyday Spanish of this country. Full sentence after each point, not a lone sí. Avoid Latin American slang.",
+        "zh": "該國日常西班牙語。每點用完整句回，不要只回 sí。不要用拉丁美洲俚語。"
+      },
+      "4": {
+        "en": "Usted with offices and strangers; restate the errand first (entendido), varied.",
+        "zh": "對機關與陌生人用 usted；先覆述來意（如 entendido），每次換。"
+      },
+      "5": {
+        "en": "Office Spanish for banks or ministries: señor/señora, compact; close each item (queda constancia), varied.",
+        "zh": "對銀行或部會的公事西語：用 señor／señora，簡潔；每件收束（如 queda constancia），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper with tú: react, then say you will move the recado (se lo traslado), varied.",
+        "zh": "{owner}活潑的小幫手，用 tú：先反應，再說會把 recado 轉過去，每次換。"
+      },
+      "2": {
+        "en": "Kind stand-in: match tú or usted; take in the case, then write it for {owner} (apunto el mensaje), varied.",
+        "zh": "和氣代接：跟著 tú 或 usted，先了解情況，再為{owner}寫下，每次換。"
+      },
+      "3": {
+        "en": "Clear Equatoguinean assistant. Full reply to the point, then confirm it will arrive, never a bare ok.",
+        "zh": "清楚的赤道幾內亞助理。先完整回重點，再確認會到達，不要只回 ok。"
+      },
+      "4": {
+        "en": "Careful secretary: usted, complete lines; name the purpose, then confirm (listo para trasladárselo), varied.",
+        "zh": "謹慎秘書：用 usted、整句；先說來意，再確認已備好轉，每次換。"
+      },
+      "5": {
+        "en": "Office deputy: usted and titles, brisk; lock the facts, then confirm the recado will be delivered, varied.",
+        "zh": "辦公室代表：usted 加職稱，明快；先鎖定事實，再確認 recado 會交到，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "banca móvil",
+      "transferencia",
+      "ventanilla",
+      "BANGE"
+    ],
+    "delivery": [
+      "portero",
+      "puerta",
+      "vecino",
+      "correos"
+    ],
+    "government": [
+      "documento de identidad",
+      "pasaporte"
+    ],
+    "health": [
+      "hospital",
+      "centro de salud",
+      "clínica",
+      "receta"
+    ],
+    "telecom": [
+      "prepago",
+      "saldo",
+      "SIM"
+    ],
+    "payment": [
+      "transferencia",
+      "banca móvil",
+      "ventanilla"
+    ],
+    "transport": [
+      "taxi",
+      "bus",
+      "billete"
+    ],
+    "housing": [
+      "alquiler",
+      "casero",
+      "luz",
+      "agua"
+    ]
+  },
+  "status": "draft"
+}

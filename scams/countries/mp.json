@@ -1,0 +1,48 @@
+{
+  "name": "Northern Mariana Islands",
+  "name_local": "Northern Mariana Islands",
+  "iso": "mp",
+  "calling_code": "+1-670",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "No Commonwealth-level scam bulletin was found; US postal inspectors' warnings on fake tracking texts and impersonation calls apply to mail routed to Saipan, Tinian and Rota.",
+  "cross_border_note": "The Northern Marianas (+1-670) use NANP numbering, and long mainland transit gives delivery-confirmation calls a plausible cover.",
+  "scams": [
+    {
+      "id": "mp_usps_confirm_call",
+      "typology": "fake_customs_parcel",
+      "name": "Fake USPS delivery-confirmation call",
+      "name_en": "Call or text asking a Northern Marianas resident to confirm a USPS delivery",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "confirm delivery",
+        "USPS notice",
+        "tracking update"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "press one to confirm delivery",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm your full address and card",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "An automated call or text says a USPS delivery to Saipan needs confirmation and asks for address and payment data.",
+      "legit_en": "USPIS states USPS does not call or text asking for personal data unless the customer requested tracking updates.",
+      "bait_tactics": [
+        "Ask which Saipan post office will hand it over",
+        "Say Ground parcels from the mainland always arrive late and no one calls about them"
+      ],
+      "sources": [
+        "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls",
+        "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams"
+      ]
+    }
+  ]
+}

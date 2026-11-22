@@ -1,0 +1,87 @@
+{
+  "country": "ms",
+  "parent": "us",
+  "name": {
+    "en": "Montserrat",
+    "native": "Montserrat",
+    "zh": "蒙哲臘"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Afternoon?",
+    "hello_again": "Hello, afternoon?"
+  },
+  "delivery": {
+    "en": "Montserrat Postal Service handles parcels and has put community letter boxes around Brades",
+    "zh": "蒙哲臘郵政負責收寄包裹，並在社區（含布萊茲一帶）設了郵筒"
+  },
+  "readback": {
+    "en": "A 664 number is grouped 3-3-4; 0 as zero; East Caribbean dollars; postcodes used; day first",
+    "zh": "664 號碼分成 3-3-4 唸，0 唸 zero；東加勒比元；有郵遞區號；先日後月"
+  },
+  "fraud": {
+    "en": "A prize or investment pitch flagged by the ECCB for the ECCU, including Montserrat, is a scam",
+    "zh": "東加勒比央行已對貨幣聯盟（含蒙哲臘）示警的中獎或投資局，都是詐騙"
+  },
+  "habits": {
+    "en": "Small-island formal English. Say mobile, not cell, and a postcode rather than a US zip code. Use EC dollars.",
+    "zh": "小島、較正式的英語。說 mobile 不說 cell，用郵遞區號，不是 zip code。用東加勒比元。"
+  },
+  "stall_local": {
+    "en": "I still have to get to the General Post Office in Brades, and the bank app is stuck on sign-in.",
+    "zh": "還得去布萊茲的總郵局一趟，而且銀行 App 停在登入畫面。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "account"
+    ],
+    "delivery": [
+      "Montserrat Postal Service",
+      "letter box",
+      "Brades",
+      "General Post Office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式名稱；蒙哲臘政府地址使用郵遞區號"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是本地郵政或銀行的慣用詞"
+      }
+    },
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件；這裡官方強調的是郵筒與總郵局"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局，不是蒙哲臘機關"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Unhurried and formal. Use Montserrat Postal Service, letter boxes and East Caribbean dollars, not US zip codes, porch lockers or IRS scripts.",
+    "zh": "不趕、較正式。用蒙哲臘郵政、郵筒和東加勒比元，不要說美國 zip code、門廊櫃或 IRS。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gov.ms/government/ministries/ministry-of-finance-economic-management/montserrat-postal-service/",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+  ],
+  "uncertain": [
+    "沒找到蒙哲臘警方自己發布的近期電話詐騙專文，fraud 依央行對 ECCU 的區域警示。",
+    "社區郵筒與到布萊茲總郵局領件哪個較常用，沒有統計。"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Guyana",
+  "name_local": "Guyana",
+  "iso": "gy",
+  "calling_code": "+592",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Financial Intelligence Unit of Guyana's September 2025 typology report, based on 2024 suspicious-transaction filings, describes social-engineering takeovers of mobile-payment accounts: callers or WhatsApp contacts pose as payment-service staff, invent a locked or dormant wallet, and harvest access codes and one-time passwords. The national CIRT, citing the Guyana Post Office Corporation, has also warned that text messages about a parcel fee lead to a look-alike site that asks for card details.",
+  "cross_border_note": "Guyana's calling code is +592. The Post Office alert, republished by CIRT.gy, says the fraudulent parcel site mimics guypost.gy; a sender who looks local, or a familiar postal brand, still does not show that the Corporation sent the message.",
+  "scams": [
+    {
+      "id": "gy_fiu_mobile_wallet_takeover",
+      "typology": "otp_theft",
+      "name": "Mobile-payment account takeover after a fake locked-wallet call",
+      "name_en": "FIU Guyana 2025 typology: scammers posing as payment-service staff use pretexting on a call or WhatsApp to obtain credentials and OTPs, then take over the wallet",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "payment service provider agent",
+        "locked or dormant mobile wallet",
+        "account upgrade incentive",
+        "one-time password for the wallet"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "read the wallet OTP to restore the account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "install this unofficial payments app",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "switch off the phone and ignore the SMS",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "your mobile wallet will be deleted for dormancy",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The FIU report says the first stage is a call or WhatsApp message from someone claiming to work for a known payment-service provider. The pretext is a locked, hacked or dormant wallet, a required upgrade, or a new account with added benefits. The caller may use a fake app link, a spoofed mail address, or bits of real personal information, and then asks for credentials and OTPs. The second stage is unauthorised control of the wallet and the funds in it. Red flags include being told to credit the wallet urgently, to ignore SMS notices, or to change personal account data on the spot.",
+      "legit_en": "A genuine payment-service provider in Guyana does not ask a customer, on an unexpected call or WhatsApp chat, to read out an OTP, install an unofficial app, or switch off the handset so that messages cannot be seen. A real account problem is handled inside the provider's official application or office, using details the customer already has.",
+      "bait_tactics": [
+        "Refuse to read out an OTP or access code on a WhatsApp call that the provider did not arrange.",
+        "Say the wallet will be looked at only inside the official app or at a branch the customer already uses, not through a fresh download sent in the chat.",
+        "If the caller tells the person to ignore incoming SMS or to power off the phone, treat that instruction itself as a reason to hang up and contact the provider independently."
+      ],
+      "sources": [
+        "https://fiu.gov.gy/wp-content/uploads/2025/10/Typology-Report-Account-Takeovers-Mobile-Payment-Services.pdf"
+      ]
+    },
+    {
+      "id": "gy_gpoc_parcel_phishing",
+      "typology": "fake_customs_parcel",
+      "name": "Text or email pretending the Post Office needs a card payment to release a parcel",
+      "name_en": "CIRT.gy and Guyana Post Office Corporation alert: a phishing text about a package for pickup leads to a look-alike site that harvests card details; GPOC does not send such payment texts",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Guyana Post Office Corporation",
+        "package waiting for pickup",
+        "look-alike postal website",
+        "small card payment to release the parcel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay a fee to collect the GPOC parcel",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter your card on this delivery page",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "text from the Post Office with a payment link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "your package cannot be released",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "CIRT.gy's 2024 alert, pointing to the Post Office's own scam notice, describes a text about a package waiting for pickup and a link to a site that resembles the official postal page but is not guypost.gy. The page asks for credit-card details to make a small payment. The Corporation has said those texts and mails are not its messages, and that its systems were not compromised.",
+      "legit_en": "The Guyana Post Office Corporation does not send texts that demand a card payment through a link in order to release a parcel. A genuine question about a package is made on guypost.gy or through the Corporation's listed contact path, not on a look-alike address supplied in a message.",
+      "bait_tactics": [
+        "Leave the link unopened and say any parcel question will be asked on the official Post Office site, typed in by hand.",
+        "Ask which official tracking number the sender claims to hold, without entering a card number on a page that arrived by text.",
+        "If a small 'release fee' is demanded, say postage matters are settled only through the Corporation's published channels."
+      ],
+      "sources": [
+        "https://cirt.gy/static/542ddfea89101baab2632523f5df34ed/AL2024_06-Guyana-Post-Office-Corporation-Scam-Report.pdf",
+        "https://guypost.gy/scam-alert/"
+      ]
+    }
+  ]
+}

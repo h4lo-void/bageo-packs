@@ -1,0 +1,713 @@
+{
+  "region": "eg",
+  "countries": [
+    "eg",
+    "sd"
+  ],
+  "region_name_zh": "埃及",
+  "region_name": "Egypt",
+  "languages": [
+    {
+      "code": "ar",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite Egyptian Arabic (Masri); Modern Standard sounds stiff but is understood; English works at hotels, tourist businesses and upscale Cairo/Alexandria places only.",
+  "english_ok": "sometimes — Fine at hotels, tour operators and upscale restaurants and clinics in Cairo, Giza, Alexandria and Red Sea resorts; rare at local shops, workshops and government lines.",
+  "politeness": "Warm and chatty: 'Salamu alaykum' or 'Masa' el-kheir', address men as 'ya fandem'/'Ustaz' and women as 'Madam'/'Ustaza', doctors as 'Doktor'; say you call on behalf of someone; close with 'shukran'.",
+  "name_tip": "Bookings use first name, sometimes with father's name; clinics ask the patient's full name and age; spell for English systems.",
+  "phone_tip": "Mobile 11 digits starting 010, 011, 012 or 015 (e.g. 010 1234 5678; +20 drops the 0); landline Cairo 02 plus 8 digits; WhatsApp on the same mobile is the norm.",
+  "time_tip": "12-hour clock with 'el-sobh/el-dohr/el-'asr/bel-leil'; 'w nus' = :30, 'w rob'' = :15, 'ella rob'' = :45, 'w telt' = :20; evening life starts late, so '10' usually means 22:00 — always read back with day part.",
+  "number_tip": "Arabic-Indic digits (٠–٩) and Western digits both appear; prices in pounds ('geneih'); Egyptians read phone numbers in small groups — confirm digit by digit.",
+  "avoid_calling": "Avoid Friday noon prayer (about 11:30–13:30), early mornings before 10:00 (most shops open late), the iftar hour in Ramadan, and very late night calls even though shops stay open late.",
+  "closed_days": "Government and many offices close Friday and Saturday; shops mostly open daily with longer hours on Thursday, Friday and holidays under the official summer/winter shop-hours decree; Eid holidays and national days close offices.",
+  "booking_channels": "Doctors via Vezeeta or the clinic assistant; food via Talabat, elmenus, Breadfast and restaurant hotlines; rides via Uber, Careem, inDrive; shops and salons via Facebook pages, Instagram and WhatsApp; payments by cash, InstaPay and mobile wallets.",
+  "voice_menu": "Telecoms, banks, chain restaurant hotlines (short codes) and government lines use Arabic IVR; small clinics, shops and workshops answer in person.",
+  "callback_habits": "Clinics confirm queue by phone or WhatsApp; delivery drivers call for directions; small businesses reply on WhatsApp or call back from a personal mobile.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "尼羅河遊船、沙漠與潛水行程多經旅行社、平台或 WhatsApp，常要訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hotel pickup included or not"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Entrance tickets included or extra"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "kids_detail",
+        "pickup_place",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport details for permits"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "Number of people and ages",
+        "Hotel or pickup point",
+        "Name and WhatsApp"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美容院（coiffeur）與理髮店多走 WhatsApp、Instagram 或電話；新娘妝與節日前要提早訂，女性沙龍常只服務女性。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for bridal makeup"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Home service available or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks for client photos"
+        }
+      ],
+      "usually_asked": [
+        "Service (hair, makeup, nails, waxing)",
+        "Preferred staff",
+        "Day and time",
+        "Name and WhatsApp number"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消最好回原管道（WhatsApp 或平台），診所改期就是改排號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refundable"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "New queue number given"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name used for the booking",
+        "New day/time wanted",
+        "Mobile number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所（ʿiyāda）常由助理接電話排號，按到場順序看診；Vezeeta 等平台也很普遍，醫師晚上看診居多。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic works by arrival order; booking gives a queue number"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Consultation fee (kashf) and re-visit (estishara) fee differ"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID number or insurance card"
+        }
+      ],
+      "usually_asked": [
+        "First visit (kashf) or follow-up (estishara)",
+        "Which doctor or specialty",
+        "Patient name and age",
+        "Day (clinic days are fixed)",
+        "Mobile number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行與官方熱線（多為短碼）先進阿拉伯語語音選單，常要身分驗證。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Choose language and service from IVR"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID, OTP or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Account or line number",
+        "Identity check",
+        "Problem description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務逐步轉到 Digital Egypt 平台，多數仍需本人到場；學校詢問可打電話，但官方回覆有限。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service requires personal attendance or the Digital Egypt portal"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or school question",
+        "Applicant or student details",
+        "Reference number",
+        "Name and mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、清潔多靠熟識師傅或平台；地址要講區、街名、門牌、樓層、公寓號與地標，很多大樓沒有電梯。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee before the job"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Materials bought separately"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands money before coming"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "Area, street, building number, floor and flat, landmark",
+        "Day and time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店英語普遍；本地人與外國人房價可能不同，入住需護照或身分證，埃及籍未婚伴侶同住可能被拒。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Different rates for Egyptians and foreigners"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Payment in foreign currency or local pounds"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or national ID number, or card number"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of guests and nationality",
+        "Room type, view (sea/Nile)",
+        "Guest name",
+        "Phone or email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間受政府店家營業時間規定（夏令／冬令不同）與齋戒月影響；很多店叫你看 Facebook 粉專。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Opening hours differ in summer and winter schedules"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Details on the Facebook page"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What you want to know",
+        "Which branch or area",
+        "When you plan to come"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所與美容主要在開羅、亞歷山卓的新區，電話或 WhatsApp 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination card needed"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal type, breed and age",
+        "Service needed",
+        "Day and time",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋買房多透過仲介（simsar）與平台，看房要約；押金與預付月數各地不同。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Broker commission"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Furnished or not, deposit months"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID copy"
+        },
+        {
+          "handle": "decline",
+          "what": "Asks deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which listing or area",
+        "Size, floor, budget",
+        "Furnished or unfurnished",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車、手機與家電維修多是直接到店或叫師傅（usta）上門，電話問價常要先看實物。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price only after inspection"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts must be bought, original or copy"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "vehicle_plate",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave phone unlock code"
+        }
+      ],
+      "usually_asked": [
+        "Car or device model",
+        "Problem description",
+        "When to bring it",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "埃及晚餐很晚（21:00 以後才熱鬧），一般餐館多是現場入座，高級餐廳、尼羅河遊船晚餐與飯店餐廳才會電話或 App 訂位；齋戒月開齋（iftar）要提早訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in only, no reservations"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Minimum charge per person on weekend nights or iftar"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Booking only via elmenus or Instagram/WhatsApp"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number or transfer via InstaPay to secure a table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (dinner often 21:00 or later)",
+        "Number of people",
+        "Indoor, outdoor or Nile view",
+        "Name and mobile (WhatsApp)",
+        "Minimum charge accepted"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、甜點店、藥局與超市常接電話或 WhatsApp 訂貨並外送；藥局送藥到府很普遍。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment via InstaPay or wallet for custom orders"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Item out of stock, offer alternative"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests transfer to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Pickup or delivery time",
+        "Address for delivery",
+        "Name and mobile",
+        "Payment method"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送（delivery）幾乎 24 小時，法規也允許外帶外送全天營業；Talabat、elmenus、Breadfast 等平台普及，打電話給店家熱線叫外送也很常見，多數貨到付現。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Order via Talabat or the restaurant hotline"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery fee and minimum order for the area"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "address",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "pickup",
+        "allergy"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantities",
+        "Delivery address: area, street, building, floor, flat",
+        "Landmark nearby",
+        "Name and mobile",
+        "Cash on delivery or card"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Bosta、Aramex、Egypt Post 等多用網站或 App 查件；電商快遞司機會先打電話確認地址。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Track on the courier website or app"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks OTP to confirm delivery"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or order number",
+        "Recipient name and mobile",
+        "Address and landmark",
+        "Preferred delivery time"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "Uber、Careem、inDrive 普遍；機場接送與包車可電話或 WhatsApp 訂，價格常先談好。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agree fixed price in advance"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination or flight",
+        "Passengers and bags",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ar": {
+      "appointment_words": [
+        "حجز كشف",
+        "ميعاد عند الدكتور",
+        "استشارة",
+        "ميعاد كوافير",
+        "ميعاد صيانة"
+      ],
+      "booking_words": [
+        "حجز ترابيزة",
+        "عايز أحجز",
+        "حجز أوضة",
+        "تأكيد الحجز",
+        "حجز رحلة"
+      ],
+      "change_words": [
+        "تأجيل الميعاد",
+        "إلغاء الحجز",
+        "تغيير المعاد",
+        "نخليها بكرة",
+        "بعد نص ساعة"
+      ],
+      "date": [
+        "النهارده",
+        "بكرة",
+        "بعد بكرة",
+        "الخميس الجاي",
+        "٢٥ نوفمبر",
+        "25/11"
+      ],
+      "false_friends": [
+        "الدور التالت",
+        "عمارة ١٥",
+        "شقة ٧",
+        "وجبة رقم ٣",
+        "كشف ٣٠٠ جنيه",
+        "ساعتين"
+      ],
+      "inquiry_words": [
+        "بتفتحوا إمتى؟",
+        "الكشف بكام؟",
+        "فيه دليفري؟",
+        "ينفع فيزا؟",
+        "فيه مكان بره؟"
+      ],
+      "name": [
+        "باسم محمد",
+        "باسم مدام سارة",
+        "الاسم بالكامل",
+        "باسم الشركة",
+        "اسم المريض"
+      ],
+      "order_words": [
+        "دليفري",
+        "تيك أواي",
+        "أوردر",
+        "هعدي آخده",
+        "طلب تورتة"
+      ],
+      "party": [
+        "ترابيزة لـ ٤",
+        "إحنا ٥",
+        "٢ كبار وطفل",
+        "فردين",
+        "عيلة ٦ أفراد"
+      ],
+      "phone": [
+        "010 1234 5678",
+        "0122 123 4567",
+        "+20 10 1234 5678",
+        "واتساب 12345678"
+      ],
+      "time": [
+        "الساعة ٩ ونص بالليل",
+        "٨ وربع",
+        "١٠ إلا ربع",
+        "بعد العشا",
+        "الضهر",
+        "9:30 م"
+      ]
+    }
+  }
+}

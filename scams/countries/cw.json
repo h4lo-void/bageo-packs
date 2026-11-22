@@ -1,0 +1,107 @@
+{
+  "name": "Curaçao",
+  "name_local": "Kòrsou / Curaçao",
+  "iso": "cw",
+  "calling_code": "+599",
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "prevalence_note": "The Centrale Bank van Curaçao en Sint Maarten (CBCS) said on 16 October 2025 that it had seen a rise in investment fraud on Facebook and WhatsApp, in which people pose as experienced advisers and push exclusive tips. On 17 September 2026 it issued a further public warning about investment programmes promoted on social media that showed pyramid-like features, including pay-for-recruitment, token or crypto incentives and several compensation levels. On 9 November 2026 it separately warned consumers about a named programme that was telling participants to make an extra deposit within 72 hours to verify an account, or else lose the account and possibly the money already paid in.",
+  "cross_border_note": "CBCS is the supervisor for both Curaçao and Sint Maarten, and the notices are written for both jurisdictions. The +599 code is also shared with neighbouring Dutch Caribbean territories, so a number in that range is not by itself proof of a licensed Willemstad institution. The Bank tells the public to check its register of supervised institutions and to report suspected fraud to CBCS and to the Korps Politie Curaçao.",
+  "scams": [
+    {
+      "id": "cw_cbcs_social_investment_groups",
+      "typology": "investment_group_scam",
+      "name": "Unauthorised investment tips in Facebook or WhatsApp groups",
+      "name_en": "CBCS October 2025 warning: investment fraud on Facebook and WhatsApp in which self-described experts add people to trading chat groups and promise short-term high returns or financial freedom",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "WhatsApp trading group in Curaçao",
+        "Facebook exclusive investment advice",
+        "financial freedom in a short time",
+        "free tip that later asks for money"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "join this trading chat for exclusive advice",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guaranteed high return in a short period",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "financial freedom if you start today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "the first product is free, payment comes later",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "CBCS says fraudsters pose as experienced investment experts, actively recruit new participants on social media, add them to chat groups for so-called trading, and promote offers that sound too good to be true, including vaguely described products presented as free but meant to take money through a fraudulent scheme. It advises the public not to respond to investment opportunities from anyone who is not authorised by CBCS as an investment institution or securities broker, and to check the Bank's public register of supervised institutions.",
+      "legit_en": "A firm that may lawfully offer investments or securities brokerage in Curaçao appears on the CBCS register. A licensed institution does not need to recruit clients through an informal Facebook or WhatsApp trading group, and does not guarantee a high return in a short time.",
+      "bait_tactics": [
+        "Say any investment offer will be checked against the CBCS register of supervised institutions before money is sent.",
+        "Refuse to join a trading chat or to pay for a supposedly free product, and ask for a licence number that can be verified on the Bank's site.",
+        "Tell the sender the approach can be reported to CBCS and to the Korps Politie Curaçao."
+      ],
+      "sources": [
+        "https://centralbank.cw/storage/app/media/Warning%20Notices/2025%20Warning%20Notice%20on%20Investment%20Fraud%20Through%20Social%20Media%20Platforms%20EN-PA-NL.pdf"
+      ]
+    },
+    {
+      "id": "cw_cbcs_pyramid_crypto_extra_deposit",
+      "typology": "crypto_scam",
+      "name": "Pyramid-like crypto or token scheme with an extra verification payment",
+      "name_en": "CBCS 2026 warnings: social-media investment programmes with recruitment rewards, crypto or token incentives and unclear income sources, including pressure to pay a further deposit within 72 hours to keep or unlock an account",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "reward for recruiting new investors",
+        "token or e-wallet without clear status",
+        "subscription to an unofficial programme",
+        "pay again within 72 hours to verify the account"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "your payout depends on recruiting others",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "returns with no clear source of income",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay an extra deposit in 72 hours or lose the account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "crypto or e-wallet with no transparent valuation",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "In its 17 September 2026 notice CBCS pointed to programmes promoted on social media that used subscription-style participation, rewards for recruiting new participants, token-related incentives and several compensation levels, features it describes as common in pyramid schemes. It also flagged virtual or crypto assets and e-wallets offered without a clear regulatory status or valuation. In a 9 November 2026 consumer notice it said a named programme was requiring a further payment within 72 hours to verify an account, with a threat that the account and earlier funds could otherwise be lost; the Bank treated this as a serious warning sign that a pyramid-like structure may be under strain, and said an extra deposit does not guarantee that earlier money can be recovered. It advised people not to give in to short deadlines or threats, and to keep records of the messages and payments.",
+      "legit_en": "Raising funds from the public for collective investment, or offering certain virtual-asset services, requires authorisation from CBCS where the rules apply. A supervised institution does not make a client's existing balance depend on recruiting new participants, or on a rushed extra verification payment after the first deposit.",
+      "bait_tactics": [
+        "Refuse a rushed extra payment that is said to be the only way to keep or unlock funds already sent.",
+        "Ask whether the programme is on the CBCS register, and why income would depend on bringing in new participants or on an informal token wallet.",
+        "Keep the messages and transfer records, and say the matter can be reported through the Bank's signal form and to the police in Willemstad."
+      ],
+      "sources": [
+        "https://www.centralbank.cw/storage/app/media/20260917_warning_notice_2026_investment_schemes.pdf",
+        "https://centralbank.cw/storage/app/media/press_releases_2026/20261110_pb2026-034_cbcs_warns_consumers_regarding_developments_at_quick_promo_ne.pdf"
+      ]
+    }
+  ]
+}

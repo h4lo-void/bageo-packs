@@ -1,0 +1,90 @@
+{
+  "country": "sx",
+  "parent": "us",
+  "name": {
+    "en": "Sint Maarten",
+    "native": "Sint Maarten",
+    "zh": "荷屬聖馬丁"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, are you there?"
+  },
+  "delivery": {
+    "en": "Parcels go through PSSNV or a courier; confirm only on official PSSNV or carrier channels",
+    "zh": "包裹走荷屬聖馬丁郵政 PSSNV 或快遞，只在官方或承運商正式管道確認"
+  },
+  "readback": {
+    "en": "After 721, numbers go 3-3-4; 0 as zero; Caribbean guilders; 12-hour time; day first",
+    "zh": "721 區碼後照 3-3-4 唸，0 唸 zero；金額用加勒比盾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "An unexpected courier text demanding a delivery fee or card details is a scam",
+    "zh": "沒預期的快遞簡訊要運費或卡資料，FedEx 聖馬丁也警示這是詐騙"
+  },
+  "habits": {
+    "en": "English is the everyday phone language, though Dutch is official. Say Caribbean guilders, not US tax terms.",
+    "zh": "官方有荷蘭語，但日常電話多用英語。金額說加勒比盾，不要用美國稅務詞。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The bank app is still switching labels to Caribbean guilders, and PSSNV tracking will not open.",
+    "zh": "卡在銀行 App 還在把金額改成加勒比盾，而且 PSSNV 查件頁打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "Caribbean guilder",
+      "Cg",
+      "debit card",
+      "transfer"
+    ],
+    "delivery": [
+      "PSSNV",
+      "Postal Service Sint Maarten",
+      "courier",
+      "collection"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Netherlands Antillean guilder",
+      "reason": {
+        "zh": "已由加勒比盾取代為法定貨幣，不宜再當現行口頭金額的預設名稱"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅務機關，不是荷屬聖馬丁的本地機關"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是本地預設付款說法"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號，不宜直接套用"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Do not sound like a mainland US household. English is fine; Dutch may appear from the caller, but reply in English. Use Caribbean guilders and PSSNV, not IRS, Medicare or porch-locker talk.",
+    "zh": "不要聽起來像美國本土家庭。用英語即可；對方或夾荷蘭語，仍用英語回。金額與郵務用加勒比盾和 PSSNV，不要講 IRS、Medicare 或門廊櫃。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.centralbank.cw/functions/banknotes-coins/caribbean-guilder",
+    "https://pssnv.sx/",
+    "https://www.fedex.com/en-sx/trust-center/report-fraud.html",
+    "https://en.wikipedia.org/wiki/Sint_Maarten"
+  ],
+  "uncertain": [
+    "美元在島上收款有多普遍，央行頁強調法定貨幣是加勒比盾，日常口頭混用程度未查到調查。",
+    "PSSNV 官網此次未找到細寫的上門投遞規則。",
+    "NAf 退出流通後，是否還有人隨口說舊名，沒有口語調查。"
+  ]
+}

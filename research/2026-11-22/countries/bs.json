@@ -1,0 +1,87 @@
+{
+  "country": "bs",
+  "parent": "us",
+  "name": {
+    "en": "The Bahamas",
+    "native": "The Bahamas",
+    "zh": "巴哈馬"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, good day",
+    "hello_again": "Hello, good day again"
+  },
+  "delivery": {
+    "en": "A notice card goes in the P.O. box, or they call; collect at the post office with official ID",
+    "zh": "巴哈馬郵政會在郵政信箱放通知卡或打電話，要帶正式證件到郵局領"
+  },
+  "readback": {
+    "en": "After 242, numbers go 3-3-4; 0 as zero; Bahamian dollars; 12-hour time; day first",
+    "zh": "242 區碼後照 3-3-4 唸，0 唸 zero；巴哈馬元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "An SMS about a Bahamas Postal Services delivery that sends you to a payment page is a scam",
+    "zh": "簡訊稱巴哈馬郵政包裹被扣、要你進頁面付款，都是詐騙"
+  },
+  "habits": {
+    "en": "Good day is a natural greeting. Say mobile, not cell. Money is usually in Bahamian dollars. Day before month.",
+    "zh": "問候說 Good day 很自然。說 mobile 不說 cell。金額多用巴哈馬元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The notice card is in the P.O. box; I still need ID at the post office, and the bank app crawls.",
+    "zh": "通知卡已在郵政信箱，但我還得帶證件去郵局，而且銀行 App 慢得像在爬。"
+  },
+  "vocab": {
+    "bank": [
+      "Bahamian dollars",
+      "debit card",
+      "online banking",
+      "transfer"
+    ],
+    "delivery": [
+      "Bahamas Postal Services",
+      "P.O. box",
+      "notice card",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件；巴哈馬郵政總長說明是信箱通知卡或電話，再到郵局憑證件領"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是巴哈馬郵政或本地銀行的慣用詞"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國聯邦健保，不宜當作本地預設詐騙腳本"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號；這裡是郵政信箱與郵局領件"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "A little more formal than US neighbour-chat, with Good day to strangers. Use Bahamian-dollar and post-office wording; BPS does not use SMS as its normal parcel notice.",
+    "zh": "比美國鄰居聊天正式一點，對生人用 Good day。用巴哈馬元和郵局用語；巴哈馬郵政並不以簡訊作為常規領件通知。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://mygateway.gov.bs/cirt-bs-observes-uptick-in-parcel-delivery-smishing-scams-impacting-members-of-the-general-public/",
+    "https://www.centralbankbahamas.com/news/press-releases/scam-alert-bahamians-cautioned-against-being-scammed-out-of-moneys-in-promise-for-large-cash-prizes"
+  ],
+  "uncertain": [
+    "央行另有中獎詐騙警示；本次 fraud 主寫郵政偽網站，因 CIRT-BS 與郵政總長說明更具體。",
+    "美元在口頭金額裡有多常用，沒有調查。"
+  ]
+}

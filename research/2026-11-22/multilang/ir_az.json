@@ -1,0 +1,89 @@
+{
+  "region": "ir",
+  "lang": "az",
+  "hello": {
+    "hello": "Salam?",
+    "hello_again": "Bəli, buyurun."
+  },
+  "habits": {
+    "en": "Iran Azerbaijani has many Persian loans: toman, shenasnameh, kart-e melli. Formal siz. Often written Perso-Arabic.",
+    "zh": "伊朗西北亞塞拜然語多夾 toman、shenasnameh。對生人用 siz。當地書寫常是波斯—阿拉伯字母。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Tabriz friend: sən, unhurried; toman or a Persian household word can sit inside the Azerbaijani line, no fuss.",
+        "zh": "大不里士熟友用 sən，不趕；toman 或波斯生活詞可留在亞塞拜然語句裡，不必改寫。"
+      },
+      "2": {
+        "en": "Easygoing: sən unless they stay on siz; after they speak, a short baş üstə, Persian admin terms left as-is.",
+        "zh": "隨和：除非對方用 siz，否則用 sən；聽完短短接 baş üstə，波斯行政詞照留。"
+      },
+      "3": {
+        "en": "Everyday Iranian Azerbaijani. Finish the point fully; ID is often shenasnameh or kart-e melli, money may be toman.",
+        "zh": "伊朗日常亞塞拜然語。把重點說完整；證件常說 shenasnameh、kart-e melli，金額或說 toman。"
+      },
+      "4": {
+        "en": "Polite siz at a bank or office. Keep Persian official names, sentences fuller, less dialect teasing.",
+        "zh": "在銀行或機關用禮貌 siz。波斯官方名稱照留，句子較完整，少用很土的玩笑。"
+      },
+      "5": {
+        "en": "Formal siz, careful. Quote toman or rial exactly, close each item, no slang from across the border as a default.",
+        "zh": "正式 siz，謹慎。toman 或 rial 要說準，各項收住，不要預設用共和國那邊的新詞。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on sən: warm and unhurried, then you'll pass the message, Persian terms left as said.",
+        "zh": "{owner}隨興代接，用 sən：溫暖不趕，再把話帶去，波斯詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match sən or siz, leave shenasnameh as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 sən 或 siz，shenasnameh 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the kart-e melli point in one full Azerbaijani sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句亞塞拜然語重述證件的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on siz: note the purpose, keep Persian official names, confirm the handover.",
+        "zh": "沉穩秘書用 siz：記下目的，波斯官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on siz: exact about toman and documents, then confirm the note for {owner}.",
+        "zh": "正式代表用 siz，把 toman 與證件說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Salam! Necəsən, Təbrizdə nə var?",
+      "Bəli, buyurun, dinləyirəm.",
+      "Salam, xeyir. Şənasnamə işidi? Anladım.",
+      "Xeyirli olsun, zəngə görə sağ olun. Tuman məsələsi aydındır.",
+      "Xeyirli olsun, təşəkkür edirəm. Kart-e melli işini qeyd etdim."
+    ],
+    "a": [
+      "Salam! Yoxdu, mənə de, mən çatdıraram.",
+      "Bəli, buyurun. Mən onun zəngini alıram, mesajı deyin.",
+      "Salam, xeyir. {owner}a deyərəm.",
+      "Xeyirli olsun, zəngə görə sağ olun. Mesajı çatdıraram.",
+      "Xeyirli olsun, təşəkkür. Hamısını yazıb ona deyərəm."
+    ]
+  },
+  "diff_from_home": [
+    "伊朗境內亞塞拜然語受波斯語影響更深，證件與金額常直接說 shenasnameh、kart-e melli、toman，與共和國用語不同。",
+    "當地書寫多為波斯—阿拉伯字母，共和國則用拉丁字母；口說內容仍是亞塞拜然語。",
+    "對生人用 siz，熟友才用 sən；公務場合波斯語切換很常見，對方改波斯語就跟著。",
+    "只寫語言與生活習慣，不下政治評語。"
+  ],
+  "sources": [
+    "https://www.iranicaonline.org/articles/azerbaijan-ix/",
+    "https://www.aa.com.tr/en/middle-east/how-persian-influence-on-azeri-in-iran-led-to-its-erosion/2320952",
+    "https://www.cambridge.org/core/journals/journal-of-the-international-phonetic-association/article/azerbaijani/EC9EF0910D4B8B6C24937E5C49F59A82"
+  ],
+  "uncertain": [
+    "口語要寫 toman 還是 rial，因面額改革與習慣並存而來源不完全一致。",
+    "AI 輸出若用拉丁字母，與伊朗當地常見的波斯—阿拉伯文書寫習慣不同，這點請使用時留意。"
+  ]
+}

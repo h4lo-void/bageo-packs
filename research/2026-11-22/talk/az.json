@@ -1,0 +1,294 @@
+{
+  "lang": "az",
+  "backchannels": {
+    "direction": "No ranked Azerbaijani call corpus was found; bəli and hə keep a chat moving. A clipped bəli, bəli can sound impatient.",
+    "examples": [
+      {
+        "text": "Bəli.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Hə.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Eşidirəm.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Başa düşdüm.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Bəli, bəli.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Həqiqətən? marks surprise; təəssüf is careful sympathy, and təbriklər fits good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "Həqiqətən?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Doğrudan?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Təəssüf.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Təəssüf ki, belə oldu.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Təbriklər!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Sizi təbrik edirəm.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Bu, çətin olacaq.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Course lists give səsiniz gəlmir when the xətt fades; ask them to speak a little louder, without stalling the call.",
+    "examples": [
+      {
+        "text": "Səsiniz gəlmir.",
+        "style": "casual"
+      },
+      {
+        "text": "Sizi yaxşı eşitmirəm.",
+        "style": "polite"
+      },
+      {
+        "text": "Xətt zəifdir.",
+        "style": "casual"
+      },
+      {
+        "text": "Zəhmət olmasa, bir az ucadan danışın.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives mən başa düşmürəm; bir də deyə bilərsinizmi asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "Mən başa düşmürəm.",
+        "style": "casual"
+      },
+      {
+        "text": "Bağışlayın, başa düşmədim.",
+        "style": "polite"
+      },
+      {
+        "text": "Bir də deyə bilərsinizmi?",
+        "style": "polite"
+      },
+      {
+        "text": "Nömrəni bir daha: 12345678-dir?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Teaching dialogues use kim danışır?; on a shared handset, first say this is {owner}nin telefonu.",
+    "examples": [
+      {
+        "text": "Kim danışır?",
+        "style": "casual"
+      },
+      {
+        "text": "Zəhmət olmasa, kim danışır?",
+        "style": "polite"
+      },
+      {
+        "text": "Bu, {owner}nin telefonudur. Kim danışır?",
+        "style": "polite"
+      },
+      {
+        "text": "Kimlə danışıram?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The same lists model səhv nömrə yığmısınız, then a short close, without asking how the number was found.",
+    "examples": [
+      {
+        "text": "Səhv nömrə yığmısınız.",
+        "style": "polite"
+      },
+      {
+        "text": "Səhv nömrədir.",
+        "style": "casual"
+      },
+      {
+        "text": "Burada bu adda kimsə yoxdur.",
+        "style": "polite"
+      },
+      {
+        "text": "Bağışlayın, nömrə səhvdir.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ona mesaj çatdıra bilərəm or {owner}nə deyərəm passes the news; that alone sets no hour for a return call.",
+    "examples": [
+      {
+        "text": "{owner}nə deyərəm.",
+        "style": "polite"
+      },
+      {
+        "text": "Ona mesaj çatdıra bilərəm.",
+        "style": "polite"
+      },
+      {
+        "text": "Deyərəm ki, zəng etmisiniz.",
+        "style": "polite"
+      },
+      {
+        "text": "Ona deyərəm.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Xeyr, təşəkkür, maraq göstərmirəm closes a pitch; extra reasons can sound as if the offer is still open.",
+    "examples": [
+      {
+        "text": "Xeyr, təşəkkür, maraq göstərmirəm.",
+        "style": "polite"
+      },
+      {
+        "text": "Təşəkkür, buna ehtiyacımız yoxdur.",
+        "style": "polite"
+      },
+      {
+        "text": "Maraq göstərmirəm, sağ olun.",
+        "style": "casual"
+      },
+      {
+        "text": "Zəhmət olmasa, bizi siyahıdan çıxarın.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second xeyr often adds zəhmət olmasa bu nömrəyə daha zəng etməyin, still with siz.",
+    "examples": [
+      {
+        "text": "Artıq xeyr demişəm. Zəhmət olmasa bu nömrəyə daha zəng etməyin.",
+        "style": "polite"
+      },
+      {
+        "text": "Maraq göstərmirəm və zəngləri dayandırmağınızı xahiş edirəm.",
+        "style": "polite"
+      },
+      {
+        "text": "Bir daha zəng etməyin, zəhmət olmasa.",
+        "style": "casual"
+      },
+      {
+        "text": "Bu, son cavabdır; daha əlaqə saxlamayın.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Garibova and Blair treat siz as the polite default; sən is for familiars. Cənab or xanım stays careful.",
+    "examples": [
+      {
+        "text": "Cənab.",
+        "style": "polite"
+      },
+      {
+        "text": "Xanım.",
+        "style": "polite"
+      },
+      {
+        "text": "Həkim.",
+        "style": "polite"
+      },
+      {
+        "text": "Siz.",
+        "style": "polite"
+      },
+      {
+        "text": "Sən necəsən?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A script like zənginiz bizim üçün vacibdir sounds like a call centre on a private mobil.",
+    "examples": [
+      {
+        "text": "Zənginiz bizim üçün vacibdir.",
+        "style": "polite"
+      },
+      {
+        "text": "Bu gün sizə necə kömək edə bilərəm?",
+        "style": "polite"
+      },
+      {
+        "text": "Sizə xidmət etməkdən məmnunuq.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}nin ofisinə zəng etdiyiniz üçün təşəkkür edirik.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to sən too soon, or asking for a fin or salary at the start, feels like overstepping.",
+    "examples": [
+      {
+        "text": "Evlisən? Maaşın nə qədərdir?",
+        "style": "casual"
+      },
+      {
+        "text": "{owner} niyə zəng etmədi? İndi haradadır?",
+        "style": "casual"
+      },
+      {
+        "text": "Əvvəl şəxsiyyət vəsiqəsinin nömrəsini və ünvanı verin.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://azerbaijani.edu.az/pages/greeting",
+    "https://www.azer.com/aiweb/categories/magazine/64_folder/64_articles/64_sociolinguistics.html",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://pepelen.com/lessons/c5730ae5-8fd2-4382-be95-609c932cac9e"
+  ],
+  "uncertain": [
+    "相槌沒有找到阿塞拜疆語通話語料頻率表；bəli／hə 依會話習慣。",
+    "電話套語部分引自教學課（Pepelen），不是官方電信稿；課文裡請人在線上短暫停留的句子本檔不用。",
+    "拒推銷用語沒有找到阿塞拜疆語監管機構腳本，例句依普通禮貌拒絕。"
+  ]
+}

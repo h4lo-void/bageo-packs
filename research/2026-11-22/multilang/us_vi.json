@@ -1,0 +1,95 @@
+{
+  "region": "us",
+  "lang": "vi",
+  "hello": {
+    "hello": "A lô?",
+    "hello_again": "Dạ, a lô?"
+  },
+  "habits": {
+    "en": "Kin pronouns as at home; mix Medi-Cal, Medicare, số Social, insurance, Zelle; elders keep pre-1975 Saigon words.",
+    "zh": "沿用親屬稱謂；夾 Medi-Cal、số Social、Zelle；長輩保留 1975 前用詞。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family in Westminster or San Jose: mày/tao only among peers, quick ừ, okay, and mixes like đi shopping.",
+        "zh": "在西敏市或聖荷西跟家人：平輩才用mày/tao，快回ừ、okay，夾đi shopping 之類混語。"
+      },
+      "2": {
+        "en": "Warm anh/chị/em talk with Little Saigon friends; chat about phở or nail-salon shifts, keep dạ for older callers.",
+        "zh": "跟小西貢朋友用anh/chị/em，聊河粉或美甲店班表，對年長者保留dạ。"
+      },
+      "3": {
+        "en": "Everyday Vietnamese: a full sentence per matter, keep US names (Medi-Cal, DMV, IRS) in English, add dạ for elders.",
+        "zh": "日常越語：每件事一句完整話，Medi-Cal、DMV、IRS 用英文原名，對長輩加dạ。"
+      },
+      "4": {
+        "en": "Polite register with community clinics or tax preparers: thưa anh/chị, measured pace, settle the date or form first.",
+        "zh": "對社區診所或報稅行用thưa anh/chị，語速穩，先談定日期或表格。"
+      },
+      "5": {
+        "en": "Formal business Vietnamese: titles like ông/bà for clients, clear recap of the order or Zelle payment, brief close.",
+        "zh": "正式商務越語：對客戶用ông/bà，清楚覆述訂單或 Zelle 款項後簡短收尾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual helper with close relatives: ừ, em/anh as fits, say {owner} is busy, jot the message in mixed speech.",
+        "zh": "替{owner}接親戚電話：視輩分用em/anh，說他在忙，用夾雜口語記留言。"
+      },
+      "2": {
+        "en": "Friendly dạ-led helper: ask who is calling with anh/chị, note the salon or family errand, say {owner} will be told.",
+        "zh": "以dạ開頭的親切助理：用anh/chị問來者，記下美甲店或家務事，說會轉告{owner}。"
+      },
+      "3": {
+        "en": "Even-toned assistant: restate the one key point (appointment, rent, Medi-Cal letter) in a sentence, confirm handoff.",
+        "zh": "語氣平穩的助理：用一句覆述重點（預約、房租、Medi-Cal 信件），再確認會轉交。"
+      },
+      "4": {
+        "en": "Courteous assistant for offices: say you answer on behalf of {owner}, take a name and a way to call back.",
+        "zh": "對機構有禮：先說明自己替{owner}接聽，再記下對方姓名和回電方式。"
+      },
+      "5": {
+        "en": "Executive manner: thưa ông/bà, itemise the contract or invoice, read the business name back, end promptly.",
+        "zh": "高階商務：用thưa ông/bà，逐項確認合約或發票、回念商號名稱，及時結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Ừ, gì đó mày? Tao đang ở chợ nè.",
+      "Dạ a lô, chị Hai hả? Dạo này khỏe không chị?",
+      "Dạ, vụ tiền nhà hả anh? Okay, em biết rồi.",
+      "Dạ, em nghe đây. Hẹn bác sĩ là thứ Ba phải không ạ?",
+      "Dạ chào anh, tiền Zelle bên em nhận được rồi ạ."
+    ],
+    "a": [
+      "Ừ, {owner} đang bận, có gì nhắn lại nha.",
+      "Dạ chào cô, em nghe máy giùm {owner}, cô là ai ạ?",
+      "Dạ, chuyện thư Medi-Cal em sẽ báo lại cho {owner}.",
+      "Dạ, em trả lời thay {owner}. Anh cho em xin tên và số gọi lại ạ.",
+      "Dạ, hợp đồng anh nói em sẽ chuyển đầy đủ cho {owner} ạ."
+    ]
+  },
+  "diff_from_home": [
+    "常夾美國制度詞：Medi-Cal、Medicare、số Social、IRS、DMV，越南國內不這樣說。",
+    "1975 年後移民的長輩保留舊南越用語與拼寫習慣，跟現今越南用語有出入。",
+    "美甲、河粉店等社群行業用語常夾英文（full set、pedi、tip）。",
+    "Pew 指 56% 英語流利，低於亞裔平均，長輩電話多只講越語，年輕一代常轉英語。",
+    "聚集區為加州橙縣小西貢、聖荷西與休士頓，商家以河粉店、美甲店、越南超市為主。"
+  ],
+  "sources": [
+    "https://www.pewresearch.org/social-trends/fact-sheet/asian-americans-vietnamese-in-the-u-s/",
+    "https://en.wikipedia.org/wiki/Vietnamese_Americans",
+    "https://en.wikipedia.org/wiki/Little_Saigon,_Orange_County",
+    "https://en.wikipedia.org/wiki/Nail_salon",
+    "https://www.medicare.gov/",
+    "https://www.zellepay.com/",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html"
+  ],
+  "uncertain": [
+    "1975 前用語保留程度依家庭而異，沒有系統調查。",
+    "美甲業英越混用詞彙來自業界與社群描述，缺口語語料。",
+    "Medi-Cal 只適用加州，其他州名稱不同（如德州 Medicaid）。"
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "lang": "hi",
+  "backchannels": {
+    "direction": "जी and हाँ जी signal respectful listening; अच्छा acknowledges; हाँ हाँ हाँ said fast sounds impatient.",
+    "examples": [
+      {
+        "text": "हाँ जी।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "जी, बिल्कुल।",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "अच्छा अच्छा।",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "सही बात है।",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "हाँ हाँ हाँ।",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "अच्छा? or सच में? for surprise; अरे, बहुत दुख हुआ for sympathy; बधाई हो for good news.",
+    "examples": [
+      {
+        "text": "अरे, सच में?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "अच्छा? ऐसा क्या?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "यह सुनकर बहुत दुख हुआ जी।",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "बहुत-बहुत बधाई हो!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "यह थोड़ा मुश्किल है।",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Blame the line: आवाज़ नहीं आ रही, नेटवर्क कमज़ोर है; then ask for a louder voice with आप.",
+    "examples": [
+      {
+        "text": "माफ़ कीजिए, आवाज़ साफ़ नहीं आ रही।",
+        "style": "polite"
+      },
+      {
+        "text": "नेटवर्क कमज़ोर है।",
+        "style": "casual"
+      },
+      {
+        "text": "आपकी आवाज़ टूट रही है।",
+        "style": "polite"
+      },
+      {
+        "text": "थोड़ा ज़ोर से बोलेंगे?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "जी? asks for a replay; ask the spelling of names; echo the number in groups.",
+    "examples": [
+      {
+        "text": "जी? क्या कहा आपने?",
+        "style": "polite"
+      },
+      {
+        "text": "एक बार फिर बताइए।",
+        "style": "polite"
+      },
+      {
+        "text": "नाम की स्पेलिंग बताएँगे?",
+        "style": "polite"
+      },
+      {
+        "text": "नंबर 12345678 है न?",
+        "style": "polite"
+      },
+      {
+        "text": "क्या?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "आप कौन बोल रहे हैं? with आप; कौन? alone is curt.",
+    "examples": [
+      {
+        "text": "जी, आप कौन बोल रहे हैं?",
+        "style": "polite"
+      },
+      {
+        "text": "कहाँ से बात कर रहे हैं?",
+        "style": "polite"
+      },
+      {
+        "text": "यह {owner} का नंबर है, आपका परिचय?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say गलत नंबर and nobody by that name is here.",
+    "examples": [
+      {
+        "text": "माफ़ कीजिए, नंबर गलत लगा है।",
+        "style": "polite"
+      },
+      {
+        "text": "यहाँ इस नाम का कोई नहीं रहता।",
+        "style": "polite"
+      },
+      {
+        "text": "रॉन्ग नंबर है भाई।",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "बता दूँगा/दूँगी says {owner} will hear about it; no time promised.",
+    "examples": [
+      {
+        "text": "{owner} को आपका संदेश दे दूँगी।",
+        "style": "polite"
+      },
+      {
+        "text": "मैं बता दूँगा।",
+        "style": "casual"
+      },
+      {
+        "text": "आपकी बात पहुँचा दी जाएगी।",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "धन्यवाद, ज़रूरत नहीं है is the usual polite no; no excuse needed.",
+    "examples": [
+      {
+        "text": "धन्यवाद, हमें ज़रूरत नहीं है।",
+        "style": "polite"
+      },
+      {
+        "text": "इसमें रुचि नहीं है जी।",
+        "style": "polite"
+      },
+      {
+        "text": "नहीं भैया, रहने दो।",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Second push: remind of the earlier मना and ask them to remove the number (DND applies in India).",
+    "examples": [
+      {
+        "text": "मैं पहले ही मना कर चुका हूँ।",
+        "style": "polite"
+      },
+      {
+        "text": "कृपया इस नंबर पर दोबारा कॉल न करें।",
+        "style": "polite"
+      },
+      {
+        "text": "यह नंबर अपनी सूची से हटा दीजिए।",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "आप + जी for strangers; भैया, दीदी, अंकल जी, आंटी जी for warmth; सर/मैडम on formal calls.",
+    "examples": [
+      {
+        "text": "भैया",
+        "style": "casual"
+      },
+      {
+        "text": "दीदी",
+        "style": "casual"
+      },
+      {
+        "text": "शर्मा जी",
+        "style": "polite"
+      },
+      {
+        "text": "मैडम",
+        "style": "polite"
+      },
+      {
+        "text": "अंकल जी",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like आपकी कॉल हमारे लिए महत्वपूर्ण है sound like a customer-care IVR.",
+    "examples": [
+      {
+        "text": "आपकी कॉल हमारे लिए महत्वपूर्ण है।",
+        "style": "polite"
+      },
+      {
+        "text": "ग्राहक सेवा केंद्र में कॉल करने के लिए धन्यवाद।",
+        "style": "polite"
+      },
+      {
+        "text": "मैं आपकी क्या सहायता कर सकती हूँ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using तू with strangers, or asking caste, salary or marriage plans early, gives offence.",
+    "examples": [
+      {
+        "text": "तू कौन है बे?",
+        "style": "casual"
+      },
+      {
+        "text": "कौन सी जाति के हो?",
+        "style": "casual"
+      },
+      {
+        "text": "कितना कमाते हो?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%80",
+    "https://en.wikipedia.org/wiki/Hindi",
+    "https://en.wikipedia.org/wiki/Hindustani_grammar"
+  ],
+  "uncertain": [
+    "Hinglish (English mixing) is very common in Indian calls; examples keep it light",
+    "Backchannels (जी, हाँ जी, अच्छा, ठीक है) from usage, no call corpus",
+    "Regional Hindi (Bihari, Haryanvi) varies; standard Delhi register assumed"
+  ]
+}

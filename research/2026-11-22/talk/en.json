@@ -1,0 +1,336 @@
+{
+  "lang": "en",
+  "backchannels": {
+    "direction": "Ward's counts put yeah, uh-huh and okay at the top; a flat mm or clipped sure can brush the other person off.",
+    "examples": [
+      {
+        "text": "Mm-hmm.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Uh-huh.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Yeah.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Right.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Okay.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mm.",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "I see.",
+        "style": "polite",
+        "function": "listening"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Friends may say you're kidding; with strangers a softer oh really is safer. Then give the floor back.",
+    "examples": [
+      {
+        "text": "Oh, really?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "You're kidding.",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Oh no, I'm sorry to hear that.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "That's a shame.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "That's great!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Congratulations.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "That's going to be difficult.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Callers usually name the problem — you're breaking up, the line is bad — rather than stalling the talk to move rooms.",
+    "examples": [
+      {
+        "text": "Sorry, I can't hear you very well.",
+        "style": "polite"
+      },
+      {
+        "text": "You're breaking up a bit.",
+        "style": "casual"
+      },
+      {
+        "text": "The line is bad on my side.",
+        "style": "casual"
+      },
+      {
+        "text": "Could you speak a little louder?",
+        "style": "polite"
+      },
+      {
+        "text": "I didn't catch that last part.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Sorry, could you say that again is the unmarked polite form; come again belongs with people you already know.",
+    "examples": [
+      {
+        "text": "Sorry, could you say that again?",
+        "style": "polite"
+      },
+      {
+        "text": "Could you repeat that?",
+        "style": "polite"
+      },
+      {
+        "text": "How do you spell that?",
+        "style": "polite"
+      },
+      {
+        "text": "Could you say the number again? It's 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Come again?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Cambridge places who's calling after a request for someone; on a shared handset, say it is {owner}'s phone first.",
+    "examples": [
+      {
+        "text": "Sorry, who's calling?",
+        "style": "polite"
+      },
+      {
+        "text": "May I ask who's speaking?",
+        "style": "polite"
+      },
+      {
+        "text": "Who am I speaking with?",
+        "style": "polite"
+      },
+      {
+        "text": "Hi, this is {owner}'s phone — who's calling?",
+        "style": "polite"
+      },
+      {
+        "text": "Who's this?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "BBC models a brief sorry, you've got the wrong number and a goodbye, without asking how the number was found.",
+    "examples": [
+      {
+        "text": "Sorry, you've got the wrong number.",
+        "style": "polite"
+      },
+      {
+        "text": "I think you must have the wrong number.",
+        "style": "polite"
+      },
+      {
+        "text": "There's no one of that name here.",
+        "style": "polite"
+      },
+      {
+        "text": "Wrong number, sorry.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "I'll pass that on or I'll let {owner} know finishes the job; give a callback time only if you can set it up.",
+    "examples": [
+      {
+        "text": "I'll let {owner} know.",
+        "style": "casual"
+      },
+      {
+        "text": "I'll pass that on to them.",
+        "style": "polite"
+      },
+      {
+        "text": "I'll make sure they get the message.",
+        "style": "polite"
+      },
+      {
+        "text": "I can tell her you called.",
+        "style": "casual"
+      },
+      {
+        "text": "I'll pass your message on to him.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "No thanks, I'm not interested is the stock UK and US refusal; adding a reason can sound like negotiation.",
+    "examples": [
+      {
+        "text": "No thank you, I'm not interested.",
+        "style": "polite"
+      },
+      {
+        "text": "Thanks, but we don't need that.",
+        "style": "polite"
+      },
+      {
+        "text": "I'm not interested, thanks.",
+        "style": "casual"
+      },
+      {
+        "text": "No thanks, please take us off your list.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "The second English no is usually the same sentence, slowed down, plus please don't call again, still without abuse.",
+    "examples": [
+      {
+        "text": "I've already said no, please don't call again.",
+        "style": "polite"
+      },
+      {
+        "text": "I'm not interested, and I need you to stop calling this number.",
+        "style": "polite"
+      },
+      {
+        "text": "Please don't call back.",
+        "style": "casual"
+      },
+      {
+        "text": "This is a final no — do not contact us again.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "English has no T–V pronoun. First names with familiars; Mr, Ms or Dr plus surname; sir or madam with strangers.",
+    "examples": [
+      {
+        "text": "Hi Sarah.",
+        "style": "casual"
+      },
+      {
+        "text": "Mr Patel.",
+        "style": "polite"
+      },
+      {
+        "text": "Ms Chen.",
+        "style": "polite"
+      },
+      {
+        "text": "Dr Khan.",
+        "style": "polite"
+      },
+      {
+        "text": "Sir.",
+        "style": "polite"
+      },
+      {
+        "text": "Madam.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Helpline stock such as your call is important to us or how may I assist you today sounds corporate on a home line.",
+    "examples": [
+      {
+        "text": "Your call is important to us.",
+        "style": "polite"
+      },
+      {
+        "text": "How may I assist you today?",
+        "style": "polite"
+      },
+      {
+        "text": "It's my pleasure to be of service.",
+        "style": "polite"
+      },
+      {
+        "text": "Thank you for calling {owner}'s office, your satisfaction is our priority.",
+        "style": "polite"
+      },
+      {
+        "text": "Is there anything else I can help you with today?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about marriage or pay in the first minutes, secret recording, or demanding ID all read as intrusive.",
+    "examples": [
+      {
+        "text": "Are you married? What's your salary?",
+        "style": "casual"
+      },
+      {
+        "text": "Why hasn't {owner} called me back? Tell me where they are right now.",
+        "style": "casual"
+      },
+      {
+        "text": "I'm recording this, just so you know — actually I already started.",
+        "style": "casual"
+      },
+      {
+        "text": "Give me your address and ID number first.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://doi.org/10.1016/0378-2166(95)00036-4",
+    "https://dictionary.cambridge.org/grammar/british-grammar/telephoning",
+    "https://dictionary.cambridge.org/grammar/british-grammar/names-and-titles-addressing",
+    "https://www.bbc.co.uk/worldservice/learningenglish/business/talkingbusiness/unit1telephone/3wrongnumber.shtml",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "美式與英式、澳紐用法在附和詞（right/okay/cheers）與稱呼（sir 較英式）上有差異，這裡以通用英語為主，不指定單一國家。",
+    "私人電話裡『How can I help you?』在熟人通話中會顯得像客服，但在代接、工作電話中仍常見；界線依場合而定。",
+    "『I’ll let them know』是否用於不認識的第三者，各地習慣不一，未找到單一語料頻率。"
+  ]
+}

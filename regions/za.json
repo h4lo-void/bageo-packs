@@ -2,7 +2,11 @@
   "schema": 1,
   "code": "za",
   "countries": [
-    "za"
+    "za",
+    "bw",
+    "ls",
+    "na",
+    "sz"
   ],
   "name": {
     "en": "South Africa",
@@ -77,15 +81,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "security gate",
-      "guardhouse",
-      "complex reception"
-    ],
     "bank": [
       "EFT",
       "cheque account",
-      "banking app"
+      "banking app",
+      "savings account",
+      "proof of payment",
+      "immediate payment"
+    ],
+    "delivery": [
+      "security gate",
+      "guardhouse",
+      "complex reception",
+      "complex",
+      "unit number",
+      "Pargo point"
+    ],
+    "government": [
+      "Home Affairs",
+      "smart ID card",
+      "green ID book",
+      "ID number",
+      "SARS eFiling",
+      "SASSA grant"
+    ],
+    "health": [
+      "medical aid",
+      "medical aid number",
+      "GP",
+      "chemist",
+      "Clicks",
+      "Dis-Chem"
+    ],
+    "telecom": [
+      "cellphone",
+      "airtime",
+      "data bundle",
+      "contract",
+      "RICA",
+      "Vodacom"
+    ],
+    "payment": [
+      "tap",
+      "SnapScan",
+      "Zapper",
+      "PayShap",
+      "cash send",
+      "card machine"
+    ],
+    "transport": [
+      "robot",
+      "taxi",
+      "taxi rank",
+      "Uber",
+      "Bolt",
+      "Gautrain"
+    ],
+    "housing": [
+      "estate",
+      "body corporate",
+      "caretaker",
+      "access tag",
+      "load shedding",
+      "prepaid electricity"
     ]
   },
   "status": "draft"

@@ -1,0 +1,82 @@
+{
+  "name": "American Samoa",
+  "name_local": "Amerika Sāmoa",
+  "iso": "as",
+  "calling_code": "+1-684",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "No territorial scam bulletin was found; USPS serves American Samoa, and the US Postal Inspection Service warns about fake tracking texts and fake USPS calls that apply here too.",
+  "cross_border_note": "American Samoa (+1-684) sits in the NANP, so +1 spoofed numbers from the mainland look domestic; long mainland parcel transit times make delivery-problem texts more believable.",
+  "scams": [
+    {
+      "id": "as_usps_tracking_text",
+      "typology": "fake_customs_parcel",
+      "name": "Fake USPS tracking text",
+      "name_en": "Fake USPS delivery-problem text with a link, applied to American Samoa",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "USPS tracking",
+        "delivery attempt",
+        "address update"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "update your address via link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "redelivery fee",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A text claims a USPS parcel cannot be delivered and sends the owner to a link to update an address or pay a small fee.",
+      "legit_en": "USPIS says USPS does not text tracking links unless the customer signed up with a tracking number.",
+      "bait_tactics": [
+        "Ask which mainland sender shipped it and the tracking number, then compare it slowly",
+        "Say the parcel will be asked about at the Pago Pago post office counter"
+      ],
+      "sources": [
+        "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
+        "https://faq.usps.com/articles/FAQ/Delayed-Mail-and-Packages"
+      ]
+    },
+    {
+      "id": "as_usps_phone_call",
+      "typology": "fake_official",
+      "name": "Fake USPS phone call",
+      "name_en": "Caller posing as USPS asking for personal data, applied to American Samoa",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "postal inspector",
+        "package hold",
+        "verify identity"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confirm your social security number",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "card number to release package",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Someone claiming to be USPS phones about a held package and asks for identity or card details to release it.",
+      "legit_en": "USPIS warns USPS does not phone customers asking for personal information or payment.",
+      "bait_tactics": [
+        "Ask for the caller's post office branch and supervisor's name",
+        "Say mail questions only go to the local post office in person"
+      ],
+      "sources": [
+        "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "lang": "ru",
+  "backchannels": {
+    "direction": "Russian lines often open with Алло or Слушаю. угу and ага listen casually; да agrees, though да-да can sound bored.",
+    "examples": [
+      {
+        "text": "Угу.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ага.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Да.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Понятно.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Хорошо.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Да-да.",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "Согласен.",
+        "style": "polite",
+        "function": "agreement"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "A short Правда? marks surprise, Как жаль sympathy, and Отлично good news, after which the talk can continue.",
+    "examples": [
+      {
+        "text": "Правда?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Неужели?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Как жаль.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Очень сожалею.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Отлично!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Поздравляю.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Это будет сложно.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "A weak line is flagged with Вас плохо слышно or Связь плохая; the other person may then be asked to speak a bit louder.",
+    "examples": [
+      {
+        "text": "Я вас плохо слышу.",
+        "style": "polite"
+      },
+      {
+        "text": "Связь плохая.",
+        "style": "casual"
+      },
+      {
+        "text": "Вас прерывает.",
+        "style": "casual"
+      },
+      {
+        "text": "Можете говорить чуть громче?",
+        "style": "polite"
+      },
+      {
+        "text": "Последнюю фразу я не расслышал.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Повторите, пожалуйста is the ordinary вы repair; a family name may be dictated letter by letter, and a number restated.",
+    "examples": [
+      {
+        "text": "Повторите, пожалуйста.",
+        "style": "polite"
+      },
+      {
+        "text": "Что? Я не понял.",
+        "style": "casual"
+      },
+      {
+        "text": "Не могли бы вы назвать имя по буквам?",
+        "style": "polite"
+      },
+      {
+        "text": "Назовите номер ещё раз. Это 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Как вы сказали?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ask кто говорит or, more formally, с кем я говорю. If you answered {owner}'s phone, say that first.",
+    "examples": [
+      {
+        "text": "Кто говорит?",
+        "style": "polite"
+      },
+      {
+        "text": "С кем я говорю?",
+        "style": "polite"
+      },
+      {
+        "text": "Это телефон {owner}. Кто звонит?",
+        "style": "polite"
+      },
+      {
+        "text": "Кто это?",
+        "style": "casual"
+      },
+      {
+        "text": "Представьтесь, пожалуйста.",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The usual misdial close is 'you have the wrong number' (вы ошиблись номером), without naming the household.",
+    "examples": [
+      {
+        "text": "Извините, вы ошиблись номером.",
+        "style": "polite"
+      },
+      {
+        "text": "Неправильный номер.",
+        "style": "casual"
+      },
+      {
+        "text": "Здесь нет никого с таким именем.",
+        "style": "polite"
+      },
+      {
+        "text": "Вы не туда попали.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Я передам offers to pass a message for {owner}, with no time named for a return call.",
+    "examples": [
+      {
+        "text": "Я передам.",
+        "style": "polite"
+      },
+      {
+        "text": "Я передам {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Я скажу ему.",
+        "style": "casual"
+      },
+      {
+        "text": "Передам сообщение.",
+        "style": "polite"
+      },
+      {
+        "text": "Я ей передам.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Нет, спасибо, мне не интересно turns the pitch down; a private line is not expected to invent a reason.",
+    "examples": [
+      {
+        "text": "Нет, спасибо, мне не интересно.",
+        "style": "polite"
+      },
+      {
+        "text": "Мы не заинтересованы, спасибо.",
+        "style": "polite"
+      },
+      {
+        "text": "Нам это не нужно, спасибо.",
+        "style": "polite"
+      },
+      {
+        "text": "Нет, это не для нас.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After the first no, add больше не звоните, still with вы, or ask that the number be taken off the list.",
+    "examples": [
+      {
+        "text": "Я уже отказался. Пожалуйста, больше не звоните на этот номер.",
+        "style": "polite"
+      },
+      {
+        "text": "Уберите этот номер из вашего списка, пожалуйста.",
+        "style": "polite"
+      },
+      {
+        "text": "Больше не звоните.",
+        "style": "casual"
+      },
+      {
+        "text": "Это окончательный отказ. Не беспокойте нас снова.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Formal calls use вы plus given name and patronymic; господин or госпожа appear officially, ты only with familiars.",
+    "examples": [
+      {
+        "text": "Анна Ивановна.",
+        "style": "polite"
+      },
+      {
+        "text": "Господин Петров.",
+        "style": "polite"
+      },
+      {
+        "text": "Госпожа Соколова.",
+        "style": "polite"
+      },
+      {
+        "text": "Доктор Кузнецов.",
+        "style": "polite"
+      },
+      {
+        "text": "Привет, Саша.",
+        "style": "casual"
+      },
+      {
+        "text": "Вы не могли бы…",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Ваш звонок очень важен для нас belongs on a hotline, not when a private Russian number is answered at home.",
+    "examples": [
+      {
+        "text": "Ваш звонок очень важен для нас.",
+        "style": "polite"
+      },
+      {
+        "text": "Чем могу быть полезен?",
+        "style": "polite"
+      },
+      {
+        "text": "Благодарим за звонок, мы всегда рады помочь.",
+        "style": "polite"
+      },
+      {
+        "text": "Ваше удовлетворение — наш приоритет.",
+        "style": "polite"
+      },
+      {
+        "text": "Могу ли я ещё чем-то помочь?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to ты too soon, calling late without cause, or demanding passport details at the outset all offend.",
+    "examples": [
+      {
+        "text": "Ты женат? Сколько зарабатываешь?",
+        "style": "casual"
+      },
+      {
+        "text": "Ты кто такой? Давай быстрее.",
+        "style": "casual"
+      },
+      {
+        "text": "Сначала назовите адрес и номер паспорта.",
+        "style": "polite"
+      },
+      {
+        "text": "Этот разговор я уже записываю.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.study.ru/phrasebook/sredstva-svyazi/telefon",
+    "https://en.wikipedia.org/wiki/Eastern_Slavic_naming_customs",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "вы 是對陌生人的無標記選擇；ты 只用於很熟的人或有意不敬。代接時若不知關係，應用 вы。",
+    "會話詞 ага／угу 很常見，但對長輩或公務可能偏隨便，實際界線依語氣。",
+    "Алло、Слушаю、вы ошиблись номером 等取自教材詞表，不是私人通話語料；教材裡請對方不要掛斷的套語本檔完全不用。"
+  ]
+}

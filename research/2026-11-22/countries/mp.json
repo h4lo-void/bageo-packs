@@ -1,0 +1,82 @@
+{
+  "country": "mp",
+  "parent": "us",
+  "name": {
+    "en": "Northern Mariana Islands",
+    "native": "Northern Mariana Islands",
+    "zh": "北馬里亞納群島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, are you still on?"
+  },
+  "delivery": {
+    "en": "Mail to the Northern Marianas can take several days by Priority, and longer by Ground",
+    "zh": "寄到北馬里亞納，Priority 也可能要好幾天，本土 Ground 往往更久"
+  },
+  "readback": {
+    "en": "After 670, numbers go 3-3-4; 0 as zero or oh; US dollars; month first; 12-hour a.m./p.m.",
+    "zh": "670 區碼後照 3-3-4 唸，0 可唸 zero 或 oh；美元；先月後日；12 時制"
+  },
+  "fraud": {
+    "en": "An unexpected USPS tracking text with a link, or a call asking to confirm delivery, is a scam",
+    "zh": "沒申請過卻寄來帶連結的 USPS 查件簡訊，或來電要你確認投遞資料，都是詐騙"
+  },
+  "habits": {
+    "en": "English on the phone. Chamorro or Carolinian may be heard, but neither is supported. Month first, zip codes, US dollars.",
+    "zh": "電話用英語。或聽到查莫羅語、卡羅利納語，但都不在支援清單。日期先月後日，有 zip code，用美元。"
+  },
+  "stall_local": {
+    "en": "Ground Advantage from the mainland can take well over a week, and the office Wi-Fi just stalled.",
+    "zh": "從本土走 Ground Advantage 可能超過一週，而且辦公室 Wi-Fi 剛卡住。"
+  },
+  "vocab": {
+    "bank": [
+      "checking account",
+      "debit card",
+      "direct deposit",
+      "routing number"
+    ],
+    "delivery": [
+      "USPS",
+      "Ground Advantage",
+      "Saipan",
+      "tracking"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "postcode",
+      "reason": {
+        "zh": "英式說法；北馬里亞納用 zip code"
+      }
+    },
+    {
+      "word": "East Caribbean dollars",
+      "reason": {
+        "zh": "不是本地貨幣，這裡用美元"
+      }
+    },
+    {
+      "word": "Hafa adai",
+      "reason": {
+        "zh": "較常聯想到關島的問候，不宜預設北馬里亞納接電話都這樣說"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "US English, closer to other Pacific territories than to the Caribbean. Do not switch into Chamorro or Carolinian. Expect slower USPS times; refuse fake tracking links.",
+    "zh": "美式英語，比較像其他太平洋屬地，不像加勒比。不要改口講查莫羅語或卡羅利納語。郵務較慢可以接受，但拒絕假查件連結。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://faq.usps.com/articles/FAQ/Delayed-Mail-and-Packages",
+    "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
+    "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls"
+  ],
+  "uncertain": [
+    "沒找到北馬里亞納本地政府的電話詐騙專文，fraud 依 USPS 防詐通則。",
+    "查莫羅語或卡羅利納語在電話上的實際使用程度，沒有調查。"
+  ]
+}

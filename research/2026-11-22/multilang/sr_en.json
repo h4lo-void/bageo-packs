@@ -1,0 +1,90 @@
+{
+  "region": "sr",
+  "lang": "en",
+  "why_added": "蘇利南統計局年鑑列英語為官方荷語之外的常用語言之一；對外商務與部分教育場合使用。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, speaking."
+  },
+  "habits": {
+    "en": "Sir or Madam with strangers, first names once casual. Formal calls often use Dutch. Keep erf, hek and SRD.",
+    "zh": "對生人用 Sir、Madam，熟了叫名字。正式電話常轉荷語。保留 erf、hek，錢是蘇利南元。湯加詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Paramaribo friend: first names, short lines. Leave Sranan or Dutch words they used; cash is Surinamese dollars, not euros.",
+        "zh": "巴拉馬利波熟友可叫名字，句子短。對方用的湯加語或荷語詞照留；錢是蘇利南元，不是歐元。"
+      },
+      "2": {
+        "en": "Easy Surinamese English. A Dutch street or form name does not need translating.",
+        "zh": "輕鬆的蘇利南英語。荷語街名或表格名不必翻譯。"
+      },
+      "3": {
+        "en": "Everyday English here is often a second or third language after Dutch and Sranan. Finish each point; say Surinamese dollars.",
+        "zh": "這裡的英語常是荷語、湯加語之後的第二或第三語言。把話說完；要說蘇利南元。"
+      },
+      "4": {
+        "en": "Polite Sir or Madam for offices. If they switch to Dutch, follow; otherwise confirm SRD amounts in English.",
+        "zh": "對機關用 Sir、Madam。對方改荷語就跟著說；否則用英語確認蘇利南元金額。"
+      },
+      "5": {
+        "en": "Formal office English. Telesur may appear as the incumbent telco; do not import Dutch-metropolitan slang.",
+        "zh": "正式公務英語。電信可見 Telesur；不要套用荷蘭本土木語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup, first names if they started that way, then you will take the message over.",
+        "zh": "{owner}較熟的代接：對方先直呼名字才跟著叫，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Calm stand-in. Leave erf, hek or SRD as said, and let them know {owner} will hear it.",
+        "zh": "平穩代接。erf、hek 或蘇利南元照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Restate the Surinamese-dollar item in one complete sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用完整句子重述蘇利南元的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary: Sir or Madam, write down the reason for the call, then confirm it will reach {owner}.",
+        "zh": "謹慎秘書用 Sir 或 Madam：寫下來電原因，再確認會送到{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: precise on SRD and office names, then confirm the note for {owner}.",
+        "zh": "正式代表：蘇利南元與機關名要精確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, still over by the erf?",
+      "Hello, speaking — I can hear you fine.",
+      "Good afternoon. Is this about the hek repair?",
+      "Good afternoon, thanks. The SRD figure is understood.",
+      "Good afternoon, thank you. The Telesur matter is noted."
+    ],
+    "a": [
+      "Hello, {owner} is out; give me the message and I will pass it on.",
+      "Hello there. I have the line — what should be relayed?",
+      "Good afternoon. I will repeat this to {owner} as you said it.",
+      "Thanks for the call. I will raise the SRD point with {owner}.",
+      "Thank you. I will write the Telesur details down for {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是蘇利南元，不是歐元或美元。",
+    "英語多用於對外商務，不是家庭第一語言；正式場合仍常轉荷語。",
+    "可保留 erf、hek 等當地荷語詞，以及蘇里南湯加語詞。",
+    "電信可見 Telesur，不要套用荷蘭本國電信品牌。"
+  ],
+  "sources": [
+    "https://statistics-suriname.org/wp-content/uploads/2025/01/Statistisch-Jaarboek-Statistical-Yearbook-2020-2021-2022-dec-2023-corr-jan-2025.pdf",
+    "https://www.cia.gov/the-world-factbook/countries/suriname/",
+    "https://unstats.un.org/unsd/demographic-social/census/documents/Suriname/SUR-Census2012-vol3.pdf"
+  ],
+  "uncertain": [
+    "統計年鑑列出英語為其他使用語言，但未給出與荷語、湯加語相當的家庭比重，不能寫成全民第二語言。",
+    "2012 普查「其他語言」未單獨拆出英語，英語電話的實際頻率缺少直接數字。"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "region": "de",
+  "lang": "pl",
+  "hello": {
+    "hello": "Dzień dobry?",
+    "hello_again": "Tak, proszę?"
+  },
+  "habits": {
+    "en": "Ty with friends, Pan/Pani at offices. Mix Anmeldung, Jobcenter, Packstation; not NFZ or PESEL locally.",
+    "zh": "熟友用 ty，機關用 Pan/Pani。夾 Anmeldung、Jobcenter，不用 NFZ。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Mates along the border or in Berlin use ty, drop German nouns, and answer spoko without a stiff greeting.",
+        "zh": "在邊境城市或柏林跟熟友用 ty，德語名詞直接夾進來，不必生硬問候，回 spoko。"
+      },
+      "2": {
+        "en": "Friendly Polish in Germany: stay with ty until they use Pan; after a Packstation point, a light dobrze suffices.",
+        "zh": "德國波蘭語先用 ty，對方改用 Pan 再跟上；聽完 Packstation 的事，輕聲回 dobrze。"
+      },
+      "3": {
+        "en": "Everyday Polish in Germany: one full sentence per matter, leaving Anmeldung or Jobcenter in German as spoken.",
+        "zh": "德國日常波蘭語：每件事回完整一句，Anmeldung 或 Jobcenter 照口頭直接講德語。"
+      },
+      "4": {
+        "en": "Pan/Pani at the Bürgeramt; keep German official names, not NFZ, and answer the request first.",
+        "zh": "在 Bürgeramt 用 Pan/Pani，機關名保持德語、不用 NFZ，先回應來意。"
+      },
+      "5": {
+        "en": "Business Polish: Pan/Pani throughout, recap the Überweisung or lease point, then close cleanly.",
+        "zh": "商務波蘭語全程用 Pan/Pani，覆述 Überweisung 或租約要點後，乾脆收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Polish helper in Germany answers spoko, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆德國波蘭語先回 spoko，用夾德語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match ty or Pan; jot the Packstation or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 ty 或 Pan；記下 Packstation 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A steady Polish assistant in Germany answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "穩當的德國波蘭語助理先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Office tone with Pan/Pani: restate the Anmeldung or Jobcenter point, then confirm it goes to {owner}.",
+        "zh": "機關口氣用 Pan/Pani：覆述 Anmeldung 或 Jobcenter 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal desk for {owner}: titles, itemise the Krankenkasse or file they named, and close after the handoff.",
+        "zh": "為{owner}坐鎮的正式口氣加上稱謂，對齊 Krankenkasse 或檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Cześć, co tam? Mów śmiało, spoko jest.",
+      "Halo, tak, jestem. Mów spokojnie.",
+      "Dzień dobry. Sprawa z Anmeldung? Dobrze, mam to.",
+      "Dzień dobry, dziękuję za telefon. Rozumiem, zajmę się sprawą.",
+      "Dzień dobry, dziękuję za połączenie. Wszystko już spisałem."
+    ],
+    "a": [
+      "Cześć! Nie ma go, powiedz mi, przekażę wiadomość.",
+      "Halo, odbieram za niego, zostaw proszę wiadomość.",
+      "Dzień dobry. Zapiszę i przekażę mu.",
+      "Dzień dobry, dziękuję za telefon. Oddam sprawę do {owner}.",
+      "Dzień dobry, dziękuję za połączenie. Spiszę punkty i oddam."
+    ]
+  },
+  "diff_from_home": [
+    "在德國不說 NFZ、PESEL 來指本地醫療或身分制度，而改說 Krankenkasse、Anmeldung、Jobcenter、Bürgeramt。",
+    "包裹常提 Packstation，與英國波蘭語裡的皇家郵政或 parcel shop 說法不同，也與在波蘭國內不同。",
+    "邊境通勤與長期居德社群並存，電話裡德語借詞很常見，但熟友仍多用 ty。",
+    "對機關維持 Pan/Pani，這一點與在波蘭相似，但專名已換成德國用法。"
+  ],
+  "sources": [
+    "https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/04/PD22_162_125.html",
+    "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Migration-Integration/Tabellen/migrationshintergrund-staatsangehoerigkeit-staaten.html",
+    "https://www.arbeitsagentur.de/",
+    "https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation.html",
+    "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung.html"
+  ],
+  "uncertain": [
+    "邊境通勤者與在德長期居住者的夾語程度可能不同，缺少分群口語調查。",
+    "個別城市（如柏林與邊境小鎮）的德語借詞清單並未見可對照的電話語料。"
+  ]
+}

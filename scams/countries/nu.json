@@ -1,0 +1,59 @@
+{
+  "name": "Niue",
+  "name_local": "Niuē",
+  "iso": "nu",
+  "calling_code": "+683",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Office of the Secretary to Government has warned that phishing emails are circulating in Niue, that some users have already been affected, and that Niue Telecom is watching the activity. The notice is about deceptive mail that asks people to open links or attachments, hand over passwords or private details, or make a payment; it does not name a single impersonated agency.",
+  "cross_border_note": "Because of the same incident the government temporarily limited email access to Niue and New Zealand, which shows how tightly the island's mail path is tied to New Zealand, while the public calling code remains +683.",
+  "scams": [
+    {
+      "id": "nu_gov_phishing_email",
+      "typology": "otp_theft",
+      "name": "Government-warned phishing mail seeking credentials, personal information or a payment",
+      "name_en": "Niue Government notice: circulating phishing emails asking for credentials, personal information or payment",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Niue Telecom helpdesk",
+        "Office of the Secretary to Government",
+        "unexpected login confirmation",
+        "attachment in a government-looking message"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confirm your password now",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "click this link to restore email",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send a payment to keep the account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "open the unexpected attachment",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited mail, sometimes made to look as if it came from a known person or organisation, presses the recipient to follow an unfamiliar link, open an attachment, re-enter a password, or pay a fee. The official notice says several users have already been caught by this wave.",
+      "legit_en": "Niue's government tells people not to follow the link or reply. A genuine check goes through Telecom Niue's ICT team or helpdesk using contact details the government has already published, not any address inside the suspicious message.",
+      "bait_tactics": [
+        "Leave the message unopened and ask Telecom Niue's ICT team, through the helpdesk route printed on the government notice, whether the sender is genuine.",
+        "If the mail demands a password or a payment, say the account will only be reviewed from a machine already inside Niue's official mail path.",
+        "Offer to walk the question to the Office of the Secretary to Government in Alofi rather than typing anything into a link."
+      ],
+      "sources": [
+        "https://gov.nu/media-releases/security-notice-phishing-emails"
+      ]
+    }
+  ]
+}

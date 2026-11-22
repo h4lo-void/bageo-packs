@@ -1,0 +1,337 @@
+{
+  "lang": "ja",
+  "backchannels": {
+    "direction": "Miyazaki found うん dominant on the phone, with ええ and はい rising in careful calls; a lone flat うん can feel thin.",
+    "examples": [
+      {
+        "text": "うん。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ええ。",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "はい。",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ああ。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "そうですね。",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "なるほど。",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ふん。",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "へえ flags new information mid-story; 大変ですね shows concern without taking the floor; よかったです marks relief.",
+    "examples": [
+      {
+        "text": "へえ？",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "本当ですか？",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "それは大変ですね。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "お気の毒に。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "よかったですね。",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "おめでとうございます。",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "それはちょっと難しいです。",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "お電話が遠い and 聞こえにくい describe a weak voice; 電波が悪い is a mobile drop, not the same as hard of hearing.",
+    "examples": [
+      {
+        "text": "お電話が遠くて、よく聞こえません。",
+        "style": "polite"
+      },
+      {
+        "text": "声が聞こえにくいです。",
+        "style": "polite"
+      },
+      {
+        "text": "電波が悪いみたいです。",
+        "style": "casual"
+      },
+      {
+        "text": "もう少し大きく話してもらえますか。",
+        "style": "polite"
+      },
+      {
+        "text": "今のところ、聞き取れませんでした。",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "もう一度お願いします is the safe replay; names are asked by 文字, numbers by もう一度, not with a blunt 何.",
+    "examples": [
+      {
+        "text": "すみません、もう一度お願いします。",
+        "style": "polite"
+      },
+      {
+        "text": "もう一度言ってもらえますか。",
+        "style": "casual"
+      },
+      {
+        "text": "お名前の文字を教えていただけますか。",
+        "style": "polite"
+      },
+      {
+        "text": "番号をもう一度お願いします。12345678 でしょうか。",
+        "style": "polite"
+      },
+      {
+        "text": "今、何ておっしゃいましたか。",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "どちら様でしょうか outranks どなたですか in careful speech; avoid あなた. Say first if the phone is {owner}'s.",
+    "examples": [
+      {
+        "text": "どちら様でしょうか。",
+        "style": "polite"
+      },
+      {
+        "text": "どなたですか。",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} の電話ですが、どちら様ですか。",
+        "style": "polite"
+      },
+      {
+        "text": "お名前を伺ってもよろしいですか。",
+        "style": "polite"
+      },
+      {
+        "text": "誰？",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Phrasebooks give 間違い電話です or 番号が違うようです; who lives in the house is not usually discussed.",
+    "examples": [
+      {
+        "text": "すみません、間違い電話です。",
+        "style": "polite"
+      },
+      {
+        "text": "番号が違うようです。",
+        "style": "polite"
+      },
+      {
+        "text": "そちら様のお名前の方はいらっしゃいません。",
+        "style": "polite"
+      },
+      {
+        "text": "間違えました、違う番号です。",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "伝えておきます and お伝えします undertake to tell {owner}; 申し伝えます is more formal. Do not book a return-call time.",
+    "examples": [
+      {
+        "text": "伝えておきます。",
+        "style": "polite"
+      },
+      {
+        "text": "お伝えします。",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} に伝えておきます。",
+        "style": "polite"
+      },
+      {
+        "text": "後で言っておきます。",
+        "style": "casual"
+      },
+      {
+        "text": "申し伝えておきます。",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "結構です and 必要ありません close a solicitation; 興味ないです is informal. A long excuse tends to extend the call.",
+    "examples": [
+      {
+        "text": "結構です、ありがとうございます。",
+        "style": "polite"
+      },
+      {
+        "text": "必要ありません。",
+        "style": "polite"
+      },
+      {
+        "text": "興味ないです。",
+        "style": "casual"
+      },
+      {
+        "text": "今回はお見送りします。",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After one 結構です, お電話はご遠慮ください or この番号へのご連絡はお控えください closes the matter in keigo.",
+    "examples": [
+      {
+        "text": "何度もお伝えしていますが、結構です。お電話はご遠慮ください。",
+        "style": "polite"
+      },
+      {
+        "text": "ご遠慮ください。こちらからはお願いしません。",
+        "style": "polite"
+      },
+      {
+        "text": "もう電話しないでください。",
+        "style": "casual"
+      },
+      {
+        "text": "今後、この番号へのご連絡はお控えください。",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Family name plus さん is the default; 様 and 先生 rise with rank. Avoid あなた and given names with strangers.",
+    "examples": [
+      {
+        "text": "山田さん。",
+        "style": "polite"
+      },
+      {
+        "text": "佐藤様。",
+        "style": "polite"
+      },
+      {
+        "text": "先生。",
+        "style": "polite"
+      },
+      {
+        "text": "店長さん。",
+        "style": "polite"
+      },
+      {
+        "text": "お客様。",
+        "style": "polite"
+      },
+      {
+        "text": "田中くん。",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "かしこまりました and いつもお世話になっております are shop or office formulas; they sound scripted on a private 携帯.",
+    "examples": [
+      {
+        "text": "お電話ありがとうございます。",
+        "style": "polite"
+      },
+      {
+        "text": "かしこまりました。",
+        "style": "polite"
+      },
+      {
+        "text": "いつもお世話になっております。",
+        "style": "polite"
+      },
+      {
+        "text": "ご満足いただけるよう対応させていただきます。",
+        "style": "polite"
+      },
+      {
+        "text": "その他、ご不明な点はございませんか。",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "もしもし belongs at home, not a workplace desk. お前, a bare given name, or a late call without reason all cause offence.",
+    "examples": [
+      {
+        "text": "もしもし、何の用？",
+        "style": "casual"
+      },
+      {
+        "text": "お前、誰だよ。",
+        "style": "casual"
+      },
+      {
+        "text": "年収は？結婚してる？",
+        "style": "casual"
+      },
+      {
+        "text": "この通話、もう録音してるから。",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://koidekinen.org/wp/wp-content/uploads/2024/03/2002_miyazaki.pdf",
+    "https://doi.org/10.1016/0378-2166(95)00036-4",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://en.wikivoyage.org/wiki/Japanese_phrasebook",
+    "https://en.wiktionary.org/wiki/%E3%81%86%E3%82%93",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "電話比面對面更常出現「ええ／はい」等較正式相槌，但研究樣本偏熟人女性對話，能否推到商務電話仍不確定。",
+    "「耳がよく聞こえません」在旅行手冊中作聽不清，也可能被理解成聽力不佳；本檔改用「電話が遠い／聞こえにくい／電波が悪い」。",
+    "私宅用「もしもし」、工作場合常改「はい、○○です」；代接時如何切換，來源說法一致，但實際職場差異未量化。"
+  ]
+}

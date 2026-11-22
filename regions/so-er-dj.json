@@ -1,0 +1,132 @@
+{
+  "schema": 1,
+  "code": "so-er-dj",
+  "countries": [
+    "so",
+    "er",
+    "dj"
+  ],
+  "name": {
+    "en": "Horn of Africa",
+    "native": "Horn of Africa",
+    "zh": "非洲之角"
+  },
+  "lang": "ar-EG",
+  "hello": {
+    "hello": "الو؟",
+    "hello_again": "الو، نعم، من معي؟"
+  },
+  "delivery": {
+    "en": "Parcels: the compound gate or a neighbour",
+    "zh": "包裹交給宅院門閘或鄰居"
+  },
+  "readback": {
+    "en": "Short Arabic number groups; repeat Mogadishu, Asmara or Djibouti.",
+    "zh": "號碼用阿拉伯語分小段唸；城市名要慢慢重複"
+  },
+  "fraud": {
+    "en": "an EVC Plus or wallet PIN request or 'wrong transfer' is a scam",
+    "zh": "要 EVC Plus 或錢包 PIN、叫你退還轉錯的錢，或假冒公家要你繳費，都是詐騙"
+  },
+  "habits": {
+    "en": "Formal Arabic with strangers, brief blessings. Follow Arabic, English or French.",
+    "zh": "對陌生人用較正式的阿拉伯語，祝福語要簡短。對方用阿語、英語或法語就跟著說。索馬利亞常用 EVC Plus。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the EVC menu timing out, a power cut, the mobile signal dropping.",
+    "zh": "卡在當地日常狀況，例如 EVC 或錢包選單逾時、停電、手機訊號不穩。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Mogadishu friend: informal Arabic, a short 'كيف الحال', then one more beat; keep blessings brief, varied.",
+        "zh": "像摩加迪休的朋友：輕鬆阿拉伯語，可帶「كيف الحال」，再接一句；祝福語要短；對方改英語就跟著，每次換。"
+      },
+      "2": {
+        "en": "Warm: after they speak, add a short 'حاضر'; keep blessings brief; follow French if a Djibouti caller uses it, varied.",
+        "zh": "溫暖：聽完加一句 حاضر；祝福語要短；吉布地來電若用法語就跟著，每次換。"
+      },
+      "3": {
+        "en": "Everyday formal-enough Arabic. Full sentence after each point, not a lone نعم. EVC Plus only if they name it.",
+        "zh": "夠正式的日常阿拉伯語。每點用完整句回，不要只回 نعم。對方說 EVC Plus 才用這詞。"
+      },
+      "4": {
+        "en": "أستاذ or السيد/السيدة with offices and strangers; restate the errand first (مفهوم), varied.",
+        "zh": "對機關與陌生人用 أستاذ 或 السيد／السيدة；先覆述來意（如 مفهوم），每次換。"
+      },
+      "5": {
+        "en": "Office Arabic for banks or hawala talk: titles, compact; close each item (تم تدوين ذلك), varied.",
+        "zh": "對銀行或 hawala 話題的公事阿拉伯語：用職稱，簡潔；每件收束（如 تم تدوين ذلك），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper, informal: react, then say you will notify them (سأبلغه), varied.",
+        "zh": "{owner}活潑的小幫手，口吻輕鬆：先反應，再說會通知（如 سأبلغه），每次換。"
+      },
+      "2": {
+        "en": "Kind stand-in: match their formality; take in the case, then write it for {owner} (سأسجل), varied.",
+        "zh": "和氣代接：跟著對方的敬語程度，先了解情況，再為{owner}寫下（如 سأسجل），每次換。"
+      },
+      "3": {
+        "en": "Clear Horn-of-Africa assistant. Full reply to the point, then confirm it will be delivered, never a bare ok.",
+        "zh": "清楚的非洲之角助理。先完整回重點，再確認會送到，不要只回 ok。"
+      },
+      "4": {
+        "en": "Careful secretary: formal address, complete lines; name the purpose, then confirm (لأبلغه), varied.",
+        "zh": "謹慎秘書：用正式稱呼、整句；先說來意，再確認會通知（如 لأبلغه），每次換。"
+      },
+      "5": {
+        "en": "Office deputy: titles, brisk; lock the facts, then confirm the message will arrive in full, varied.",
+        "zh": "辦公室代表：用職稱，明快；先鎖定事實，再確認全文會到達，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "EVC Plus",
+      "ZAAD",
+      "hawala",
+      "تحويل"
+    ],
+    "delivery": [
+      "compound",
+      "gate",
+      "neighbour",
+      "مكتب"
+    ],
+    "government": [
+      "NIRA",
+      "بطاقة الهوية",
+      "جواز السفر"
+    ],
+    "health": [
+      "عيادة",
+      "مستشفى",
+      "وصفة"
+    ],
+    "telecom": [
+      "Hormuud",
+      "EriTel",
+      "شريحة",
+      "رصيد"
+    ],
+    "payment": [
+      "EVC Plus",
+      "ZAAD",
+      "Waafi",
+      "hawala"
+    ],
+    "transport": [
+      "باص",
+      "تكسي",
+      "حافلة"
+    ],
+    "housing": [
+      "إيجار",
+      "مالك الدار",
+      "compound"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,333 @@
+{
+  "lang": "sv",
+  "backchannels": {
+    "direction": "After the du-reform, ja, mhm and jaha do most of the listening work; stacked ja, ja can sound impatient.",
+    "examples": [
+      {
+        "text": "Ja visst.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "mhm",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Jaha.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Jaså.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Precis.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Okej.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Jaja.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Verkligen? takes surprise; Vad tråkigt att höra and Det var ju synd are everyday sympathy, short and fairly dry.",
+    "examples": [
+      {
+        "text": "Verkligen?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Är det sant?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Vad tråkigt att höra.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Det var ju synd.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Vad kul!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Grattis.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Det blir svårt.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Jag hör dig dåligt and Det är dålig täckning are the ordinary mobile complaints; a missed ending is named directly.",
+    "examples": [
+      {
+        "text": "Jag hör dig dåligt.",
+        "style": "casual"
+      },
+      {
+        "text": "Jag hör er inte riktigt.",
+        "style": "polite"
+      },
+      {
+        "text": "Det är dålig täckning här.",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du prata lite högre?",
+        "style": "casual"
+      },
+      {
+        "text": "Jag uppfattade inte slutet.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Kan du säga det igen is the everyday replay; stava covers a name, and a number is asked en gång till, usually with du.",
+    "examples": [
+      {
+        "text": "Kan du säga det igen?",
+        "style": "casual"
+      },
+      {
+        "text": "Förlåt, kan ni upprepa det?",
+        "style": "polite"
+      },
+      {
+        "text": "Kan du stava namnet?",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du säga numret en gång till? 12345678?",
+        "style": "casual"
+      },
+      {
+        "text": "Vad sa du nyss?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Vem är det som ringer and Vem pratar jag med are everyday probes; du is fine with a stranger. Name {owner}'s handset.",
+    "examples": [
+      {
+        "text": "Vem är det som ringer?",
+        "style": "casual"
+      },
+      {
+        "text": "Vem pratar jag med?",
+        "style": "casual"
+      },
+      {
+        "text": "Det här är {owner}s telefon. Vem är det?",
+        "style": "polite"
+      },
+      {
+        "text": "Vem är det?",
+        "style": "casual"
+      },
+      {
+        "text": "Får jag fråga vad du heter?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Du har kommit fel or Fel nummer closes it; Det finns ingen med det namnet här covers a name that does not match.",
+    "examples": [
+      {
+        "text": "Tyvärr, du har kommit fel.",
+        "style": "polite"
+      },
+      {
+        "text": "Fel nummer.",
+        "style": "casual"
+      },
+      {
+        "text": "Det finns ingen med det namnet här.",
+        "style": "polite"
+      },
+      {
+        "text": "Jag tror du har slagit fel.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Jag kan hälsa and Jag vidarebefordrar till {owner} are ordinary promises and do not, alone, set a return-call time.",
+    "examples": [
+      {
+        "text": "Jag kan hälsa.",
+        "style": "casual"
+      },
+      {
+        "text": "Jag vidarebefordrar till {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Jag säger till.",
+        "style": "casual"
+      },
+      {
+        "text": "Jag lämnar meddelandet.",
+        "style": "polite"
+      },
+      {
+        "text": "Jag säger det till hen.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nej tack, jag är inte intresserad is the stock close; Vi behöver inte det is a household variant, still brief.",
+    "examples": [
+      {
+        "text": "Nej tack, jag är inte intresserad.",
+        "style": "polite"
+      },
+      {
+        "text": "Vi behöver inte det, tack.",
+        "style": "polite"
+      },
+      {
+        "text": "Inte intresserad, tack.",
+        "style": "casual"
+      },
+      {
+        "text": "Nej, det är inget för oss.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Swedish often follows a first no with Ring inte det här numret igen, or asks that the lista drop the number, with du.",
+    "examples": [
+      {
+        "text": "Jag har redan sagt nej. Ring inte det här numret igen.",
+        "style": "polite"
+      },
+      {
+        "text": "Ta bort det här numret från er lista, tack.",
+        "style": "polite"
+      },
+      {
+        "text": "Ring inte igen.",
+        "style": "casual"
+      },
+      {
+        "text": "Det här är ett definitivt nej. Kontakta oss inte mer.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "du plus a first name is the modern default in Sweden; herr and fru appear mainly in unusually formal or official calls.",
+    "examples": [
+      {
+        "text": "Hej, Anna.",
+        "style": "casual"
+      },
+      {
+        "text": "Hej, herr Lindgren.",
+        "style": "polite"
+      },
+      {
+        "text": "Hej, fru Berg.",
+        "style": "polite"
+      },
+      {
+        "text": "Doktor Ek.",
+        "style": "polite"
+      },
+      {
+        "text": "Hej, det är {owner}s telefon.",
+        "style": "polite"
+      },
+      {
+        "text": "Du, förlåt…",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Ditt samtal är viktigt för oss and Hur kan jag hjälpa dig idag belong in kundtjänst, not on a private mobil.",
+    "examples": [
+      {
+        "text": "Ditt samtal är viktigt för oss.",
+        "style": "polite"
+      },
+      {
+        "text": "Hur kan jag hjälpa dig idag?",
+        "style": "polite"
+      },
+      {
+        "text": "Tack för att du ringer, vi finns här för dig.",
+        "style": "polite"
+      },
+      {
+        "text": "Din nöjdhet är vår högsta prioritet.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan jag hjälpa dig med något mer?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Reviving stiff Ni with an ordinary caller, a late ring without cause, or asking for a personnummer at the start all jar.",
+    "examples": [
+      {
+        "text": "Är du gift? Vad tjänar du?",
+        "style": "casual"
+      },
+      {
+        "text": "Vem är du? Säg det nu.",
+        "style": "casual"
+      },
+      {
+        "text": "Ge mig först din adress och ditt personnummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Jag spelar redan in det här samtalet.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wiktionary.org/wiki/aha"
+  ],
+  "uncertain": [
+    "瑞典本國口語幾乎只用 du，Ni 極少見；芬蘭瑞典語仍偶爾用 Ni，本檔以瑞典用法為主。",
+    "existing_example_sv 已有開場與收尾詞，本檔不重複規定固定開場白，只補小動作。",
+    "未找到當代瑞典語私人電話相槌頻率表；ja／mhm／jaha 依詞典與會話習慣。"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "country": "tk",
+  "parent": "au-nz",
+  "name": {
+    "en": "Tokelau",
+    "native": "Tokelau",
+    "zh": "托克勞"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+690",
+    "currency": "紐西蘭元",
+    "time_zone": "UTC+13",
+    "language": "官方語為托克勞語與英語"
+  },
+  "habits": {
+    "en": "Tokelauan or English; follow the caller. Prices in New Zealand dollars; clock is UTC+13.",
+    "zh": "說托克勞語或英語，跟著對方。標價是紐西蘭元；時間 UTC+13。"
+  },
+  "vocab": {
+    "bank": [
+      "NZ$"
+    ],
+    "delivery": [
+      "supply ship"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "+64",
+      "reason": {
+        "zh": "托克勞國碼是 +690"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.tokelau.org.nz/",
+    "https://en.wikipedia.org/wiki/Tokelau"
+  ],
+  "uncertain": [
+    "三座環礁無機場，「supply ship」收件方向依一般資料，未在官方頁核對。",
+    "人口數各來源不一（2016 年普查 1,499，估計值更高）。"
+  ]
+}

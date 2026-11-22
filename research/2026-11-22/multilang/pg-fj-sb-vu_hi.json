@@ -1,0 +1,89 @@
+{
+  "region": "pg-fj-sb-vu",
+  "lang": "hi",
+  "why_added": "斐濟憲法以英語、iTaukei（斐濟語）與斐濟印地語為官方語言；此組合以斐濟為主。",
+  "hello": {
+    "hello": "हैलो?",
+    "hello_again": "हां, बोलिए।"
+  },
+  "habits": {
+    "en": "Āp with strangers, tum once close. This is Fiji Hindi, not mainland standard. Money is the Fiji dollar.",
+    "zh": "對生人用 आप，熟了用 तुम。這是斐濟印地語，不是印度大陸標準語。貨幣是斐濟元。斐濟語詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Indo-Fijian friend: tum, short warm lines. Leave Fiji place names; cash is Fiji dollars, not rupees.",
+        "zh": "印度裔斐濟熟友用 तुम，短而熱絡。斐濟地名照留；錢是斐濟元，不是盧比。"
+      },
+      "2": {
+        "en": "Easy familiar Fiji Hindi. An iTaukei or English noun they used stays; do not recast it into Indian usage.",
+        "zh": "輕鬆的斐濟印地語。對方用的斐濟語或英語名詞照留，不要改成印度用法。"
+      },
+      "3": {
+        "en": "Everyday Fiji Hindi. Finish each point; say Fiji dollars, and keep local English shop or office names.",
+        "zh": "日常斐濟印地語。把話說完；要說斐濟元，本地英語店名或機關名照留。"
+      },
+      "4": {
+        "en": "Polite āp for offices. Confirm Fiji-dollar amounts; official papers may be in English.",
+        "zh": "對機關用 आप。金額確認是斐濟元；正式文件可能是英語。"
+      },
+      "5": {
+        "en": "Formal āp for banks or government. This is not Hindi as spoken in India; avoid mainland bureaucratic stock phrases.",
+        "zh": "銀行或公家用正式 आप。這不是印度本國印地語，不套用印度公文套句。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on tum if they used it, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方用 तुम 才用 तुम，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tum or āp, leave the Fiji dollar as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 तुम 或 आप，斐濟元照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Fiji-dollar point in one full Hindi sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句印地語重述斐濟元的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on āp: note why they called, keep local names, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 आप：記下來電原因，當地名稱照留，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy on āp: exact on Fiji dollars and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 आप：斐濟元與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हैलो! तुम अभी भी सुवा में हो?",
+      "हां, मैं सुन रहा हूं, बोलिए।",
+      "हैलो, नमस्ते। क्या यह Fiji dollar की बात है?",
+      "नमस्ते, कॉल करने के लिए धन्यवाद। रकम साफ है।",
+      "नमस्ते, धन्यवाद। दफ्तर वाली बात मैंने नोट कर ली।"
+    ],
+    "a": [
+      "हैलो! {owner} नहीं हैं, मुझे बताइए, मैं कह दूंगा।",
+      "हैलो, नमस्ते। मैं फोन पर हूं, संदेश क्या है?",
+      "हैलो, नमस्ते। आपकी बात {owner} को कह दूंगा।",
+      "नमस्ते, धन्यवाद। Fiji dollar की बात {owner} को बताऊंगा।",
+      "नमस्ते, धन्यवाद। विवरण लिखकर पहुंचा दूंगा।"
+    ]
+  },
+  "diff_from_home": [
+    "此組合以斐濟為主：斐濟印地語是官方語言之一，貨幣是斐濟元，不是印度盧比。",
+    "斐濟印地語與印度標準印地語在詞彙與腔調上有差異，地名與機關名多留斐濟或英語形式。",
+    "對方可能夾 iTaukei（斐濟語）詞，該語言不在支援清單，照留並用印地語回應。",
+    "不要把此習慣套到巴布亞紐幾內亞、索羅門或萬那杜。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/fiji/",
+    "https://www.constituteproject.org/constitution/Fiji_2013"
+  ],
+  "uncertain": [
+    "斐濟印地語與標準印地語的具體差異，缺少可逐句對照的新電話語料；AI 輸出的是支援清單中的印地語，無法保證呈現斐濟變體。",
+    "公開資料很少給出「電話上選用印地語」的比例，只能確定它是官方語言且社群常用。"
+  ]
+}

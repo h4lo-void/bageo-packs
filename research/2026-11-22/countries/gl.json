@@ -1,0 +1,52 @@
+{
+  "country": "gl",
+  "parent": "dk",
+  "name": {
+    "en": "Greenland",
+    "native": "Greenland",
+    "zh": "格陵蘭"
+  },
+  "lang": "da",
+  "differs_from_parent": {
+    "calling_code": "+299",
+    "currency": "丹麥克朗 DKK（與父區相同）",
+    "time_zone": "西岸含努克為西格陵蘭時間 UTC-2（夏令 UTC-1，2023 年 10 月起東岸部分地區也改用）；東北岸 UTC+0；Pituffik 基地用大西洋時間",
+    "language": "格陵蘭語（Kalaallisut）為唯一官方語言，丹麥語在城市與公務仍常見",
+    "telecom": "通訊與郵政由 Tusass 經營"
+  },
+  "habits": {
+    "en": "Follow Greenlandic callers; Danish is common in towns. Nuuk time is several hours behind Copenhagen; confirm the zone.",
+    "zh": "對方說格陵蘭語就跟著說；城鎮常說丹麥語。努克與哥本哈根差好幾小時，約時間要確認時區。"
+  },
+  "vocab": {
+    "bank": [
+      "kroner",
+      "MobilePay"
+    ],
+    "delivery": [
+      "Tusass",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CET 換算",
+      "reason": {
+        "zh": "格陵蘭與丹麥時差數小時"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.tusass.gl/",
+    "https://en.wikipedia.org/wiki/Time_in_Greenland",
+    "https://en.wikipedia.org/wiki/Greenlandic_language",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Greenland",
+    "https://en.wikipedia.org/wiki/Time_in_the_Danish_Realm"
+  ],
+  "uncertain": [
+    "MobilePay 在格陵蘭的普及度未查證。",
+    "格陵蘭語不在支援清單時用 da 作 lang 是暫定。",
+    "時區已依維基百科「Time in the Danish Realm」核對，未找到格陵蘭政府的官方時區頁。"
+  ]
+}

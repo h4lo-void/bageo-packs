@@ -1,0 +1,88 @@
+{
+  "region": "lt",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Да, я слушаю."
+  },
+  "habits": {
+    "en": "Older speakers in Vilnius or Visaginas use Russian more. Keep Sodra, VMI; official work is Lithuanian; вы for strangers.",
+    "zh": "維爾紐斯、克萊佩達、維薩吉納斯年長世代較常說俄語。Sodra、VMI 照原名；公務用立陶宛語；對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Family friend of the older generation: ты, unhurried, with a Maxima or courtyard detail left in local form.",
+        "zh": "年長一輩的熟人用 ты，不趕時間；Maxima 或院子地名可留當地說法。"
+      },
+      "2": {
+        "en": "Neighbourly and plain: ты if they use it; after they finish, a short kind reply, no showy slang.",
+        "zh": "鄰居般樸實：對方用 ты 就用 ты；聽完短短回一句，不耍時髦口語。"
+      },
+      "3": {
+        "en": "Everyday Lithuanian Russian. Close each point with a full sentence; pensions and tax stay Sodra or VMI.",
+        "zh": "立陶宛日常俄語。每點用完整句子收住；退休金與稅務維持 Sodra、VMI 原名。"
+      },
+      "4": {
+        "en": "Careful вы at VMI or Sodra windows. Keep those names, speak clearly, and do not rush the caller.",
+        "zh": "在 VMI、Sodra 窗口用謹慎的 вы。名稱照留，口齒清楚，不催對方。"
+      },
+      "5": {
+        "en": "Formal вы, measured. Use Registrų centras or bank names as written in Lithuania, and answer item by item.",
+        "zh": "正式 вы，節奏穩。登記中心與銀行用立陶宛書寫名稱，一項一項答。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on ты: a little slower, then you'll take the message across.",
+        "zh": "{owner}熟人般的代接，用 ты：節奏稍慢，再說會把話帶過去。"
+      },
+      "2": {
+        "en": "Gentle stand-in: follow ты or вы, leave Maxima or Sodra as said, and let them know {owner} will be told.",
+        "zh": "溫柔代接：跟著 ты 或 вы，Maxima、Sodra 照叫，並讓對方知道會轉告{owner}。"
+      },
+      "3": {
+        "en": "Plain assistant. Recap the Sodra or VMI matter in one complete sentence, then confirm you will tell {owner}.",
+        "zh": "直白的代接。先用整句重述 Sodra 或 VMI 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Quiet secretary on вы: record the purpose, keep Lithuanian official names, confirm the handover.",
+        "zh": "安靜秘書用 вы：記下目的，立陶宛官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: precise and unhurried, get VMI details right, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，精確不趕；VMI 細節要對，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Здравствуй, как здоровье?",
+      "Алло, да, я слушаю. Говори, не спеша.",
+      "Алло, добрый день. Это по Sodra? Хорошо, понял.",
+      "Добрый день, спасибо за звонок. По VMI всё ясно.",
+      "Добрый день, благодарю за звонок. Вопрос по Maxima принял."
+    ],
+    "a": [
+      "Алло! Его нет, скажи мне — я перескажу ему.",
+      "Алло, здравствуйте. Я за него у телефона, диктуйте.",
+      "Алло, добрый день. Запишу для {owner} слово в слово.",
+      "Добрый день, спасибо за звонок. Приму по Sodra и передам.",
+      "Добрый день, благодарю за звонок. Всё запишу и сообщу ему."
+    ]
+  },
+  "diff_from_home": [
+    "社保與稅務用立陶宛語原名（Sodra、VMI、Registrų centras），不要套用俄羅斯機構名。",
+    "日常購物與電信常夾 Maxima、Rimi、Telia、Swedbank 等當地品牌。",
+    "俄語使用以年長世代較多，年輕一代在公共場合更常改用立陶宛語。",
+    "維爾紐斯、克萊佩達、維薩吉納斯等地使用密度不同，地名多保留當地形式。"
+  ],
+  "sources": [
+    "https://www.sodra.lt/",
+    "https://www.vmi.lt/",
+    "https://lepo.it.da.ut.ee/~ehalam/pdf/RussLangIdent.pdf"
+  ],
+  "uncertain": [
+    "立陶宛俄語人口較愛沙尼亞、拉脫維亞少，年輕世代日常還夾多少俄語詞，缺少新的大規模調查。"
+  ]
+}

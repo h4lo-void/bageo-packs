@@ -1,0 +1,49 @@
+{
+  "name": "Saint Martin",
+  "name_local": "Saint-Martin",
+  "iso": "mf",
+  "calling_code": "+590",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "prevalence_note": "The prefecture for Saint-Barthélemy and Saint-Martin has published a digital-fraud warning, and national French guidance documents fake parcel and bank SMS asking for card data and codes.",
+  "cross_border_note": "French Saint-Martin (+590) shares the island with Sint Maarten (+1-721), so residents get calls from both sides plus mainland France (+33).",
+  "scams": [
+    {
+      "id": "mf_sms_banque_code",
+      "typology": "otp_theft",
+      "name": "Faux SMS bancaire ou colis demandant un code",
+      "name_en": "Fake bank or parcel SMS in Saint-Martin asking for a card or one-time code",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "opération suspecte",
+        "validation par code",
+        "colis en attente"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "communiquer le code de validation",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "numéro de carte",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A text posing as a bank or courier claims a blocked payment or parcel and pushes the owner to give card numbers or a one-time code.",
+      "legit_en": "The prefecture and French cyber-assistance advise never sharing a bank code; banks do not request it by SMS or phone.",
+      "bait_tactics": [
+        "Demander quelle agence de Marigot gère le compte",
+        "Dire que le téléphone avec l'application bancaire est resté au bureau"
+      ],
+      "sources": [
+        "https://www.saint-barth-saint-martin.gouv.fr/Actualites/Escroquerie-numerique-Soyez-vigilants",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+      ]
+    }
+  ]
+}

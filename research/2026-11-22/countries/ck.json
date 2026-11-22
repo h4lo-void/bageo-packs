@@ -1,0 +1,46 @@
+{
+  "country": "ck",
+  "parent": "au-nz",
+  "name": {
+    "en": "Cook Islands",
+    "native": "Cook Islands",
+    "zh": "庫克群島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+682",
+    "currency": "紐西蘭元，另有庫克群島元",
+    "time_zone": "UTC-10，與紐西蘭相差約 22 至 23 小時（日期不同）",
+    "language": "官方語為英語、庫克群島毛利語、普卡普卡語"
+  },
+  "habits": {
+    "en": "English or Cook Islands Māori; follow the caller. The date is a day behind New Zealand; confirm day and time.",
+    "zh": "說英語或庫克群島毛利語，跟著對方。日期比紐西蘭晚一天，約時間要確認日期。"
+  },
+  "vocab": {
+    "bank": [
+      "NZ$",
+      "Cook Islands dollar"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "NZ 時間",
+      "reason": {
+        "zh": "庫克群島在國際換日線另一側，日期不同"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://stats.gov.ck/",
+    "https://en.wikipedia.org/wiki/Cook_Islands"
+  ],
+  "uncertain": [
+    "人口數：grok13 檔寫 25,000，2021 年普查約 15,040，兩者不一致需協調者確認。",
+    "常用付款與收件習慣未查。"
+  ]
+}

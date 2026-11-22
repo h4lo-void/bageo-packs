@@ -1,0 +1,269 @@
+{
+  "lang": "ta",
+  "backchannels": {
+    "direction": "The -ங்க ending adds respect: ஆமாங்க, சரிங்க; bare ம்ம் is casual; repeated சரி சரி may sound dismissive.",
+    "examples": [
+      {
+        "text": "ஆமாங்க.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "சரிங்க.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ம்ம்.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "அப்படியா.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "சரி சரி.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "அப்படியா? for surprise; ஐயோ for dismay; ரொம்ப சந்தோஷம் for good news.",
+    "examples": [
+      {
+        "text": "அப்படியாங்க?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "நிஜமாவா?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ஐயோ, பாவம்.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "கேட்கவே வருத்தமா இருக்குங்க.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ரொம்ப சந்தோஷம்!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "கொஞ்சம் கஷ்டம்தாங்க.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't coming through (கேக்கலை) or the signal is poor, then request சத்தமா speech.",
+    "examples": [
+      {
+        "text": "சரியா கேக்கலைங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "சிக்னல் சரியில்லை.",
+        "style": "casual"
+      },
+      {
+        "text": "குரல் கட் ஆகுதுங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "கொஞ்சம் சத்தமா பேசுறீங்களா?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "என்னங்க? asks for a replay; get name letters one by one; read back a number to confirm.",
+    "examples": [
+      {
+        "text": "என்னங்க?",
+        "style": "polite"
+      },
+      {
+        "text": "இன்னொரு தடவை சொல்றீங்களா?",
+        "style": "polite"
+      },
+      {
+        "text": "பேர் ஸ்பெல்லிங் சொல்லுங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "நம்பர் 12345678 தானே?",
+        "style": "polite"
+      },
+      {
+        "text": "என்ன?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "யார் பேசறீங்க with -ங்க is polite; யாரு நீ is rude; you can ask where they're calling from.",
+    "examples": [
+      {
+        "text": "யார் பேசறீங்க?",
+        "style": "polite"
+      },
+      {
+        "text": "எங்கிருந்து கூப்பிடறீங்க?",
+        "style": "polite"
+      },
+      {
+        "text": "இது {owner} நம்பர், நீங்க யாருங்க?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "தப்பான நம்பர் / ராங் நம்பர், and that nobody by that name is here, said briefly.",
+    "examples": [
+      {
+        "text": "ராங் நம்பருங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "இங்க அந்த பேர்ல யாரும் இல்லைங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "தப்பான நம்பர்.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "சொல்லிடறேன் promises to tell {owner}; avoid committing to a call-back time.",
+    "examples": [
+      {
+        "text": "{owner}கிட்ட சொல்லிடறேங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "உங்க மெசேஜ் கொடுத்துடறேன்.",
+        "style": "polite"
+      },
+      {
+        "text": "சொல்லிடறேன்.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "நன்றி then வேண்டாம் / தேவையில்லை; soft tone, no long reasons.",
+    "examples": [
+      {
+        "text": "நன்றிங்க, எங்களுக்கு தேவையில்லை.",
+        "style": "polite"
+      },
+      {
+        "text": "விருப்பம் இல்லைங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "வேண்டாம்ப்பா.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If pressed, say you already refused and ask them not to call this number again.",
+    "examples": [
+      {
+        "text": "ஏற்கனவே வேண்டாம்னு சொன்னேங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "தயவுசெய்து இந்த நம்பருக்கு திரும்ப கால் பண்ணாதீங்க.",
+        "style": "polite"
+      },
+      {
+        "text": "லிஸ்ட்ல இருந்து எங்க நம்பரை நீக்கிடுங்க.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "நீங்க for strangers; சார்/மேடம் on formal calls; அண்ணா, அக்கா, அம்மா for warmth.",
+    "examples": [
+      {
+        "text": "சார்",
+        "style": "polite"
+      },
+      {
+        "text": "மேடம்",
+        "style": "polite"
+      },
+      {
+        "text": "அண்ணா",
+        "style": "casual"
+      },
+      {
+        "text": "அக்கா",
+        "style": "casual"
+      },
+      {
+        "text": "ஐயா",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Phrases like உங்கள் அழைப்பு எங்களுக்கு முக்கியம் sound like a recorded customer-care line.",
+    "examples": [
+      {
+        "text": "உங்கள் அழைப்பு எங்களுக்கு முக்கியமானது.",
+        "style": "polite"
+      },
+      {
+        "text": "எங்கள் சேவையை தேர்ந்தெடுத்ததற்கு நன்றி.",
+        "style": "polite"
+      },
+      {
+        "text": "நான் உங்களுக்கு எப்படி உதவ முடியும்?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using நீ/டா/டி with strangers, or asking caste, salary or wedding plans early, gives offence.",
+    "examples": [
+      {
+        "text": "யாருடா நீ?",
+        "style": "casual"
+      },
+      {
+        "text": "என்ன ஜாதி?",
+        "style": "casual"
+      },
+      {
+        "text": "சம்பளம் எவ்வளவு?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%AE%B5%E0%AE%A3%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%AE%E0%AF%8D",
+    "https://en.wikipedia.org/wiki/Tamil_honorifics",
+    "https://en.wikipedia.org/wiki/Tamil_dialects"
+  ],
+  "uncertain": [
+    "Spoken vs literary Tamil (diglossia): examples use spoken forms which vary between Chennai, Kongu and Sri Lankan Tamil",
+    "Backchannels (ஆமாங்க, சரிங்க, ம்ம்) from usage descriptions, no call corpus",
+    "Sri Lankan Tamil callers may use different kin terms; not separated"
+  ]
+}

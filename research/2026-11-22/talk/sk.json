@@ -1,0 +1,314 @@
+{
+  "lang": "sk",
+  "backchannels": {
+    "direction": "áno and jo keep a Slovak line open; aha marks noticing. A flat no, no can sound as if the story is being hurried.",
+    "examples": [
+      {
+        "text": "Áno.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, áno.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Aha, jasné.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "No áno.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Presne.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Dobre, dobre.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Naozaj? and Skutočne? take surprise; To je škoda is everyday sympathy, while Je mi to ľúto is the fuller form.",
+    "examples": [
+      {
+        "text": "Naozaj?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Skutočne?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "To je naozaj škoda.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Je mi to ľúto.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Paráda!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratulujem.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "To bude ťažké.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Zle vás počujem and Zlé spojenie name the line; Stále to vypadáva describes a call that keeps dropping.",
+    "examples": [
+      {
+        "text": "Zle vás počujem.",
+        "style": "polite"
+      },
+      {
+        "text": "Zlé spojenie.",
+        "style": "casual"
+      },
+      {
+        "text": "Stále to vypadáva.",
+        "style": "casual"
+      },
+      {
+        "text": "Môžete hovoriť trochu hlasnejšie?",
+        "style": "polite"
+      },
+      {
+        "text": "Koniec som nepočul.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Môžete to zopakovať, prosím is the careful replay; vyhláskovať covers a name, and a number is said ešte raz.",
+    "examples": [
+      {
+        "text": "Môžete to zopakovať, prosím?",
+        "style": "polite"
+      },
+      {
+        "text": "Čože? Nerozumiem.",
+        "style": "casual"
+      },
+      {
+        "text": "Môžete to meno vyhláskovať?",
+        "style": "polite"
+      },
+      {
+        "text": "Povedzte číslo ešte raz. Je to 12345678?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kto volá, prosím and S kým hovorím are the usual probes; name the handset if it belongs to {owner}.",
+    "examples": [
+      {
+        "text": "Kto volá, prosím?",
+        "style": "polite"
+      },
+      {
+        "text": "S kým hovorím?",
+        "style": "polite"
+      },
+      {
+        "text": "Tu je telefón {owner}. Kto volá?",
+        "style": "polite"
+      },
+      {
+        "text": "Kto je to?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Zlé číslo and Pomýlili ste sa číslom close the matter; Tu nikto taký nebýva covers a mismatched name.",
+    "examples": [
+      {
+        "text": "Prepáčte, zlé číslo.",
+        "style": "polite"
+      },
+      {
+        "text": "Pomýlili ste sa číslom.",
+        "style": "polite"
+      },
+      {
+        "text": "Tu nikto taký nebýva.",
+        "style": "polite"
+      },
+      {
+        "text": "Zle ste sa dovolali.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Vyriadim and Odovzdám odkaz {owner} pass the news along in Slovak; they do not, alone, set an hour to ring back.",
+    "examples": [
+      {
+        "text": "Vyriadim.",
+        "style": "polite"
+      },
+      {
+        "text": "Vyriadim to {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Poviem mu to.",
+        "style": "casual"
+      },
+      {
+        "text": "Odovzdám odkaz.",
+        "style": "polite"
+      },
+      {
+        "text": "Poviem jej to.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nie, ďakujem, nemám záujem is the everyday close; Nemáme záujem is the household variant, still brief.",
+    "examples": [
+      {
+        "text": "Nie, ďakujem, nemám záujem.",
+        "style": "polite"
+      },
+      {
+        "text": "Nemáme záujem, ďakujem.",
+        "style": "polite"
+      },
+      {
+        "text": "Toto nepotrebujeme, ďakujem.",
+        "style": "polite"
+      },
+      {
+        "text": "Nie, to nie je pre nás.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After a first nie, Slovak often adds na toto číslo už nevolajte, still with vy, or asks that the zoznam be cleaned.",
+    "examples": [
+      {
+        "text": "Už som povedal nie. Prosím, na toto číslo už nevolajte.",
+        "style": "polite"
+      },
+      {
+        "text": "Vyčiarknite toto číslo zo zoznamu, prosím.",
+        "style": "polite"
+      },
+      {
+        "text": "Už nevolajte.",
+        "style": "casual"
+      },
+      {
+        "text": "Toto je konečné nie. Už nás nekontaktujte.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "vy plus pán or pani and the surname with strangers; ty and a first name belong with familiars or after an offer.",
+    "examples": [
+      {
+        "text": "Pán Novák.",
+        "style": "polite"
+      },
+      {
+        "text": "Pani Horváthová.",
+        "style": "polite"
+      },
+      {
+        "text": "Pán doktor.",
+        "style": "polite"
+      },
+      {
+        "text": "Dobrý deň, pani.",
+        "style": "polite"
+      },
+      {
+        "text": "Ahoj, Jano.",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Váš hovor je pre nás dôležitý and Ako vám môžem pomôcť are centre scripts, odd on a private mobil.",
+    "examples": [
+      {
+        "text": "Váš hovor je pre nás dôležitý.",
+        "style": "polite"
+      },
+      {
+        "text": "Ako vám môžem pomôcť?",
+        "style": "polite"
+      },
+      {
+        "text": "Ďakujeme za hovor, sme tu pre vás.",
+        "style": "polite"
+      },
+      {
+        "text": "Vaša spokojnosť je našou prioritou.",
+        "style": "polite"
+      },
+      {
+        "text": "Môžem ešte s niečím pomôcť?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "A too-early ty, a late call, or asking for a rodné číslo at the start all feel like overstepping in Slovak as well.",
+    "examples": [
+      {
+        "text": "Si ženatý? Koľko zarábaš?",
+        "style": "casual"
+      },
+      {
+        "text": "Kto si? Povedz to hneď.",
+        "style": "casual"
+      },
+      {
+        "text": "Najprv mi povedzte adresu a rodné číslo.",
+        "style": "polite"
+      },
+      {
+        "text": "Tento hovor už nahrávam.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/aha",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "vy／Vy 對陌生人仍常用，年輕人對同齡有時用 ty。未找到斯洛伐克語私人電話相槌頻率表。",
+    "wrong number 的自然說法可能是 zlé číslo 或 pomýlili ste sa，缺語料頻率。"
+  ]
+}

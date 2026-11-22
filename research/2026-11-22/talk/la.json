@@ -1,0 +1,294 @@
+{
+  "lang": "la",
+  "backchannels": {
+    "direction": "In living-Latin classes, ita and certe agree; Wiktionary lists aha. A flat ita, ita can sound hurried on a lesson call.",
+    "examples": [
+      {
+        "text": "Ita.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Certe.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Aha, intellego.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Etiam.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Ita, ita.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Itane? marks surprise; doleo or me paenitet covers sympathy, and gratulor good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "Itane?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Verone?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Doleo hoc audire.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Me paenitet.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Optime!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratulor tibi.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Hoc difficile erit.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Vox non clara est or linea infirma names a weak telephonum; ask them to speak up, rather than pausing the call.",
+    "examples": [
+      {
+        "text": "Vox non clara est.",
+        "style": "polite"
+      },
+      {
+        "text": "Te non bene audio.",
+        "style": "polite"
+      },
+      {
+        "text": "Linea infirma est.",
+        "style": "casual"
+      },
+      {
+        "text": "Quaeso paulo clarius loquere.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives non intellego; quaeso repete asks a replay, and 12345678 may be read back once.",
+    "examples": [
+      {
+        "text": "Non intellego.",
+        "style": "casual"
+      },
+      {
+        "text": "Nescio quid dicas.",
+        "style": "polite"
+      },
+      {
+        "text": "Quaeso repete.",
+        "style": "polite"
+      },
+      {
+        "text": "Numerum iterum, estne 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "In a class or curial call, quis loquitur? asks who is on the line; on a shared set, name {owner} first.",
+    "examples": [
+      {
+        "text": "Quis loquitur?",
+        "style": "polite"
+      },
+      {
+        "text": "Cum quo loquor?",
+        "style": "polite"
+      },
+      {
+        "text": "Hoc est telephonum {owner}. Quis loquitur?",
+        "style": "polite"
+      },
+      {
+        "text": "Quis es?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Numerus falsus est or errasti numero closes the matter; there is no everyday civic formula to copy.",
+    "examples": [
+      {
+        "text": "Numerus falsus est.",
+        "style": "polite"
+      },
+      {
+        "text": "Errasti numero.",
+        "style": "polite"
+      },
+      {
+        "text": "Nemo huius nominis hic est.",
+        "style": "polite"
+      },
+      {
+        "text": "Veniam, numerus non rectus est.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Nuntium ad {owner} perferam passes the news; that wording alone does not fix an hour for a return call.",
+    "examples": [
+      {
+        "text": "Nuntium ad {owner} perferam.",
+        "style": "polite"
+      },
+      {
+        "text": "Dicam te vocavisse.",
+        "style": "polite"
+      },
+      {
+        "text": "Mandata tua transmittam.",
+        "style": "polite"
+      },
+      {
+        "text": "Ei nuntiabo.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Minime, gratias; non curo closes an unwelcome offer in teaching practice, not a high-street sales script.",
+    "examples": [
+      {
+        "text": "Minime, gratias; non curo.",
+        "style": "polite"
+      },
+      {
+        "text": "Gratias, hoc non indigemus.",
+        "style": "polite"
+      },
+      {
+        "text": "Non curo, gratias.",
+        "style": "casual"
+      },
+      {
+        "text": "Quaeso nomen de tabula dele.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second minime may add noli hoc numero iterum uti, still in a polite register.",
+    "examples": [
+      {
+        "text": "Iam minime dixi. Noli hoc numero iterum uti.",
+        "style": "polite"
+      },
+      {
+        "text": "Non curo, et rogo ut vocationes desinas.",
+        "style": "polite"
+      },
+      {
+        "text": "Noli iterum vocare, quaeso.",
+        "style": "casual"
+      },
+      {
+        "text": "Haec est recusatio ultima; noli iam nos convenire.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Church practice uses Reverende Pater or Domine; tu is intimate, vos more formal, including in lessons.",
+    "examples": [
+      {
+        "text": "Reverende Pater.",
+        "style": "polite"
+      },
+      {
+        "text": "Reverende Domine.",
+        "style": "polite"
+      },
+      {
+        "text": "Domine.",
+        "style": "polite"
+      },
+      {
+        "text": "Vos.",
+        "style": "polite"
+      },
+      {
+        "text": "Tu, quid agis?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Centre calques such as vocatio tua nobis magni momenti est sound odd even in a living-Latin exercise.",
+    "examples": [
+      {
+        "text": "Vocatio tua nobis magni momenti est.",
+        "style": "polite"
+      },
+      {
+        "text": "Quomodo te hodie adiuvare possum?",
+        "style": "polite"
+      },
+      {
+        "text": "Gaudemus tibi servire.",
+        "style": "polite"
+      },
+      {
+        "text": "Gratias quod officium {owner} vocavisti.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about stipendium or personal status at once, or pressing for {owner}'s exact whereabouts, feels intrusive.",
+    "examples": [
+      {
+        "text": "Esne coniunx? Quod est stipendium tuum?",
+        "style": "casual"
+      },
+      {
+        "text": "Cur {owner} non respondit? Dic ubi nunc sit.",
+        "style": "casual"
+      },
+      {
+        "text": "Prius numerum tesserae et domicilium da.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.bbc.com/news/magazine-21412604",
+    "https://www.vatican.va/roman_curia/institutions_connected/latinitas/documents/rc_latinitas_20040601_lexicon_it.html",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/aha"
+  ],
+  "uncertain": [
+    "拉丁語沒有日常電話社群。本檔依教會、教學與「活拉丁」場合來寫：BBC 載退修的教廷拉丁專家 Foster 仍用拉丁語與梵蒂岡友人通電話，但能流利說的人極少；不是現代市民通話習慣。",
+    "梵蒂岡 Lexicon Recentis Latinitatis 有 telefonata＝telephónicum collóquium 等現代詞，但沒有完整的電話應對腳本；quis loquitur、numerus falsus 等是依古典／教會拉丁語法組成，不是語料庫統計。",
+    "拒推銷、客服套語沒有歷史電話腳本，本檔只在教學練習意義下給普通禮貌拒絕。"
+  ]
+}

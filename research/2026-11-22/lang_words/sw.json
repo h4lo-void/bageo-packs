@@ -1,0 +1,95 @@
+{
+  "lang": "sw",
+  "script": "latin",
+  "common_words": [
+    "mimi",
+    "wewe",
+    "yeye",
+    "sisi",
+    "ninyi",
+    "wao",
+    "hapana",
+    "ndiyo",
+    "asante",
+    "tafadhali",
+    "habari",
+    "kwaheri",
+    "leo",
+    "kesho",
+    "jana",
+    "asubuhi",
+    "jioni",
+    "kwa nini",
+    "vipi",
+    "wapi",
+    "lini",
+    "nini",
+    "yangu",
+    "yako",
+    "yetu",
+    "sasa",
+    "kitu",
+    "hapa",
+    "kwamba",
+    "hivyo",
+    "lakini",
+    "kama",
+    "tu",
+    "sana",
+    "kila",
+    "kutoka",
+    "pia",
+    "au",
+    "ndani",
+    "namba",
+    "anwani",
+    "daktari",
+    "oda",
+    "nataka",
+    "naweza",
+    "sijui",
+    "bado",
+    "tayari",
+    "karibu",
+    "samahani"
+  ],
+  "frequency_source": "OPUS OpenSubtitles v2024 Swahili frequencies https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/sw.freq.gz , with news-genre support from OPUS GlobalVoices v2018q4 https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/freq/sw.freq.gz (FrequencyWords 2018 has no sw file).",
+  "shared_words": [
+    {
+      "word": "na",
+      "also_in": [
+        "fil"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [],
+  "how_to_tell_apart": "Swahili does not overlap in everyday pronouns and politeness with the other Latin-script languages in this task: mimi, wewe, hapana, ndiyo, asante, tafadhali, habari, kwaheri, kesho, wapi, nini and daktari are sufficient. Bantu noun-class prefixes (m-, wa-, ki-, vi-, u-) are an extra structural cue. The OpenSubtitles list contains many proper names from a dubbed series (for example court-title names); those were discarded when choosing common_words. Short syllables such as na, ya and ni also occur in other languages with other meanings and should not be used alone.",
+  "test_said": [
+    "Ofisini pa kata ninaomba cheti cha makazi ili nikiwasilishe kazini.",
+    "Dawa nilizoachiwa baada ya kliniki zimeisha na ninauliza kama ninaweza kupata dawa tena.",
+    "Mzigo niliotuma kwa basi ulipaswa kufika jana na bado sijapata taarifa.",
+    "Kitanda kilicholetwa kina mguu uliopasuka na nataka kibadilishwe.",
+    "Zahanati ya mtaa ninataka kupima kikohozi kilichokaa wiki mbili.",
+    "Chanjo ya surua kwa mtoto inapatikana lini wiki hii katika kituo chenu?",
+    "Sihitaji bima mpya kutokana na simu hii wala sitatoa taarifa binafsi.",
+    "Ofa ya kifurushi cha simu hainivutii kwa sababu nimebadilisha mpango mwezi uliopita."
+  ],
+  "test_not_enough": [
+    "Amina",
+    "ok",
+    "tano",
+    "fine"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/sw.freq.gz",
+    "https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/freq/sw.freq.gz",
+    "https://opus.nlpl.eu/",
+    "https://en.wikipedia.org/wiki/Swahili_language",
+    "https://en.wikipedia.org/wiki/Swahili_grammar"
+  ],
+  "uncertain": [
+    "Regional vocabulary differs between Kenya and Tanzania (pesa/hela, some greetings); the list follows forms that rank in both OpenSubtitles and GlobalVoices.",
+    "karibu is a greeting or invitation in Swahili and also an ordinary word in some other languages, so it is only useful with other Swahili function words."
+  ]
+}

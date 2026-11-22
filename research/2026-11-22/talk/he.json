@@ -1,0 +1,260 @@
+{
+  "lang": "he",
+  "backchannels": {
+    "direction": "כן and אהה show listening; נכון agrees; כן כן כן said fast sounds impatient.",
+    "examples": [
+      {
+        "text": "אהה.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "כן, אני מקשיב.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "נכון.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "בהחלט.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "כן כן כן.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "באמת? or מה אתה אומר! for surprise; צר לי לשמוע for sympathy; מזל טוב for good news.",
+    "examples": [
+      {
+        "text": "באמת?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "מה אתה אומר!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "צר לי מאוד לשמוע.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "מזל טוב!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "זה קצת מסובך.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (לא שומעים טוב) or the line breaks (זה נקטע), then ask for קצת יותר חזק.",
+    "examples": [
+      {
+        "text": "סליחה, לא שומעים טוב.",
+        "style": "polite"
+      },
+      {
+        "text": "הקו נקטע.",
+        "style": "casual"
+      },
+      {
+        "text": "אין קליטה טובה.",
+        "style": "casual"
+      },
+      {
+        "text": "אפשר לדבר קצת יותר חזק?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "מה? is casual, סליחה, לא הבנתי politer; ask to spell names; echo the number.",
+    "examples": [
+      {
+        "text": "סליחה, לא הבנתי.",
+        "style": "polite"
+      },
+      {
+        "text": "מה אמרת?",
+        "style": "casual"
+      },
+      {
+        "text": "אפשר לאיית את השם?",
+        "style": "polite"
+      },
+      {
+        "text": "המספר הוא 12345678, נכון?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "מי מדבר? is normal; עם מי אני מדבר? is a little politer.",
+    "examples": [
+      {
+        "text": "עם מי אני מדבר, בבקשה?",
+        "style": "polite"
+      },
+      {
+        "text": "מי מדבר?",
+        "style": "casual"
+      },
+      {
+        "text": "זה הטלפון של {owner}, מי זה?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say טעות במספר and nobody by that name is here; Israelis keep it very short.",
+    "examples": [
+      {
+        "text": "טעית במספר.",
+        "style": "polite"
+      },
+      {
+        "text": "אין פה מישהו בשם הזה.",
+        "style": "polite"
+      },
+      {
+        "text": "טעות.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "אני אמסור says {owner} will get it; skip any hour for a reply.",
+    "examples": [
+      {
+        "text": "אמסור ל{owner} את ההודעה.",
+        "style": "polite"
+      },
+      {
+        "text": "אגיד לו.",
+        "style": "casual"
+      },
+      {
+        "text": "ההודעה תועבר.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "תודה, לא מעוניין/מעוניינת is the standard no; Israelis rarely add reasons.",
+    "examples": [
+      {
+        "text": "תודה, לא מעוניינת.",
+        "style": "polite"
+      },
+      {
+        "text": "לא צריכים, תודה.",
+        "style": "polite"
+      },
+      {
+        "text": "לא, תודה, ביי.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they push, note the earlier לא and ask them to remove the number (Israeli law lets you demand it).",
+    "examples": [
+      {
+        "text": "כבר אמרתי שלא.",
+        "style": "polite"
+      },
+      {
+        "text": "בבקשה אל תתקשרו יותר למספר הזה.",
+        "style": "polite"
+      },
+      {
+        "text": "תורידו את המספר מהרשימה שלכם.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Hebrew has no formal you; first names are normal; אדוני/גבירתי only on formal calls.",
+    "examples": [
+      {
+        "text": "אדוני",
+        "style": "polite"
+      },
+      {
+        "text": "גבירתי",
+        "style": "polite"
+      },
+      {
+        "text": "אחי",
+        "style": "casual"
+      },
+      {
+        "text": "מותק",
+        "style": "casual"
+      },
+      {
+        "text": "יוסי",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like שיחתך חשובה לנו and איך אוכל לעזור sound like a מוקד recording.",
+    "examples": [
+      {
+        "text": "שיחתך חשובה לנו.",
+        "style": "polite"
+      },
+      {
+        "text": "תודה שפנית למוקד שירות הלקוחות.",
+        "style": "polite"
+      },
+      {
+        "text": "איך אוכל לעזור לך היום?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Calling on Shabbat to observant homes, or asking salary or politics early, is out of line.",
+    "examples": [
+      {
+        "text": "כמה אתה מרוויח?",
+        "style": "casual"
+      },
+      {
+        "text": "למי הצבעת?",
+        "style": "casual"
+      },
+      {
+        "text": "מי אתה בכלל?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%D7%94%D7%9C%D7%95",
+    "https://en.wikipedia.org/wiki/Modern_Hebrew",
+    "https://en.wiktionary.org/wiki/%D7%91%D7%A1%D7%93%D7%A8"
+  ],
+  "uncertain": [
+    "Hebrew verbs mark gender; examples must match the AI voice gender and the caller's, which are not known",
+    "Backchannels (כן, אהה, בסדר, נכון) from usage, no call corpus",
+    "Israeli directness: a blunt no is normal, but how blunt is acceptable for an AI is a judgement"
+  ]
+}

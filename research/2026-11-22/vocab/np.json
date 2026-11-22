@@ -1,0 +1,472 @@
+{
+  "region": "np",
+  "vocab": {
+    "ne": {
+      "bank": [
+        {
+          "term": "खाता",
+          "en": "bank account, Nepali"
+        },
+        {
+          "term": "eSewa",
+          "en": "Nepali digital wallet"
+        },
+        {
+          "term": "Khalti",
+          "en": "Nepali digital wallet"
+        },
+        {
+          "term": "ConnectIPS",
+          "en": "Nepali bank-to-bank online payment"
+        },
+        {
+          "term": "मोबाइल बैंकिङ",
+          "en": "mobile banking, Nepali spelling"
+        },
+        {
+          "term": "एटीएम कार्ड",
+          "en": "ATM/debit card, Nepal"
+        },
+        {
+          "term": "चेक",
+          "en": "cheque, Nepal"
+        },
+        {
+          "term": "ओटीपी",
+          "en": "OTP in Nepal; never read the code to a caller"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "पार्सल",
+          "en": "parcel, Nepali"
+        },
+        {
+          "term": "कुरियर",
+          "en": "courier, Nepali"
+        },
+        {
+          "term": "Daraz",
+          "en": "online marketplace in Nepal"
+        },
+        {
+          "term": "क्यास अन डेलिभरी",
+          "en": "cash on delivery, common in Nepal"
+        },
+        {
+          "term": "Pathao Parcel",
+          "en": "Pathao's parcel service in Nepal"
+        },
+        {
+          "term": "नेपाल हुलाक",
+          "en": "Nepal Post"
+        },
+        {
+          "term": "टोल",
+          "en": "neighbourhood name used in Nepali addresses"
+        },
+        {
+          "term": "गार्ड दाइ",
+          "en": "gate guard, addressed as elder brother in Nepali"
+        }
+      ],
+      "government": [
+        {
+          "term": "नागरिकता",
+          "en": "Nepali citizenship certificate, the main ID"
+        },
+        {
+          "term": "राष्ट्रिय परिचयपत्र",
+          "en": "Nepali national ID card"
+        },
+        {
+          "term": "राहदानी",
+          "en": "Nepali passport, formal word"
+        },
+        {
+          "term": "वडा कार्यालय",
+          "en": "Nepali ward office for recommendations"
+        },
+        {
+          "term": "प्यान नम्बर",
+          "en": "Nepali PAN tax number; never read aloud unasked"
+        },
+        {
+          "term": "यातायात कार्यालय",
+          "en": "Nepali transport office for licences"
+        },
+        {
+          "term": "सिफारिस",
+          "en": "recommendation letter from a Nepali ward office"
+        },
+        {
+          "term": "मालपोत",
+          "en": "Nepali land revenue office"
+        }
+      ],
+      "health": [
+        {
+          "term": "अस्पताल",
+          "en": "hospital, Nepali"
+        },
+        {
+          "term": "स्वास्थ्य बीमा",
+          "en": "Nepali national health insurance"
+        },
+        {
+          "term": "औषधि पसल",
+          "en": "Nepali pharmacy, also 'फार्मेसी'"
+        },
+        {
+          "term": "ओपिडी टिकट",
+          "en": "Nepali outpatient registration ticket"
+        },
+        {
+          "term": "इमर्जेन्सी",
+          "en": "emergency department, Nepal"
+        },
+        {
+          "term": "डाक्टर साब",
+          "en": "polite Nepali way to address a doctor"
+        },
+        {
+          "term": "रिपोर्ट",
+          "en": "test report, Nepal"
+        },
+        {
+          "term": "क्लिनिक",
+          "en": "clinic, Nepal"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "नेपाल टेलिकम",
+          "en": "state operator, NTC"
+        },
+        {
+          "term": "Ncell",
+          "en": "Nepali private operator"
+        },
+        {
+          "term": "रिचार्ज",
+          "en": "Nepali prepaid top-up"
+        },
+        {
+          "term": "डाटा प्याक",
+          "en": "Nepali data pack"
+        },
+        {
+          "term": "ब्यालेन्स",
+          "en": "phone credit, Nepal"
+        },
+        {
+          "term": "सिम",
+          "en": "SIM, Nepali"
+        },
+        {
+          "term": "प्रिपेड",
+          "en": "prepaid, Nepali"
+        },
+        {
+          "term": "पोस्टपेड",
+          "en": "postpaid, Nepali"
+        }
+      ],
+      "payment": [
+        {
+          "term": "नगद",
+          "en": "cash, Nepali"
+        },
+        {
+          "term": "fonepay QR",
+          "en": "Nepali interoperable QR payment"
+        },
+        {
+          "term": "स्क्यान गरेर तिर्ने",
+          "en": "pay by scanning a QR, Nepal"
+        },
+        {
+          "term": "भुक्तानी",
+          "en": "payment, Nepali"
+        },
+        {
+          "term": "किस्ता",
+          "en": "instalment, Nepali"
+        },
+        {
+          "term": "बिल",
+          "en": "bill, Nepal"
+        },
+        {
+          "term": "भ्याट बिल",
+          "en": "Nepali VAT receipt"
+        }
+      ],
+      "transport": [
+        {
+          "term": "माइक्रो",
+          "en": "Nepali microbus"
+        },
+        {
+          "term": "टेम्पो",
+          "en": "Nepali three-wheeler (safa tempo)"
+        },
+        {
+          "term": "बस",
+          "en": "bus, Nepal"
+        },
+        {
+          "term": "Pathao",
+          "en": "ride-hailing and bike taxi in Nepal"
+        },
+        {
+          "term": "inDrive",
+          "en": "ride-hailing used in Kathmandu"
+        },
+        {
+          "term": "ट्याक्सी",
+          "en": "taxi, Nepal"
+        },
+        {
+          "term": "बसपार्क",
+          "en": "Nepali bus terminal"
+        },
+        {
+          "term": "जाम",
+          "en": "Nepali word for traffic jam"
+        }
+      ],
+      "housing": [
+        {
+          "term": "कोठा",
+          "en": "rented room, typical Nepali rental unit"
+        },
+        {
+          "term": "फ्ल्याट",
+          "en": "flat, Nepal"
+        },
+        {
+          "term": "घरबेटी",
+          "en": "Nepali landlord"
+        },
+        {
+          "term": "भाडा",
+          "en": "rent, Nepali"
+        },
+        {
+          "term": "वडा नम्बर",
+          "en": "ward number in a Nepali address"
+        },
+        {
+          "term": "तल्ला",
+          "en": "floor, Nepali"
+        },
+        {
+          "term": "गेट",
+          "en": "gate of a Nepali house"
+        },
+        {
+          "term": "पानीको ट्याङ्की",
+          "en": "water tank, central to Nepali housing"
+        }
+      ],
+      "school": [
+        {
+          "term": "स्कुल",
+          "en": "school, Nepal"
+        },
+        {
+          "term": "SEE",
+          "en": "Nepali grade-ten national exam"
+        },
+        {
+          "term": "प्लस टु",
+          "en": "Nepali grades eleven-twelve"
+        },
+        {
+          "term": "ट्युसन",
+          "en": "tuition, Nepal"
+        },
+        {
+          "term": "ब्रिज कोर्स",
+          "en": "Nepali preparatory course after SEE"
+        },
+        {
+          "term": "क्याम्पस",
+          "en": "college/university campus, Nepal"
+        },
+        {
+          "term": "अभिभावक भेला",
+          "en": "Nepali parents' meeting"
+        },
+        {
+          "term": "फि",
+          "en": "fees, Nepal"
+        }
+      ],
+      "money": [
+        {
+          "term": "रुपैयाँ",
+          "en": "Nepali rupee"
+        },
+        {
+          "term": "पैसा",
+          "en": "money, also the subunit, Nepali"
+        },
+        {
+          "term": "हजार",
+          "en": "thousand, Nepali"
+        },
+        {
+          "term": "लाख",
+          "en": "lakh, one hundred thousand in Nepal"
+        },
+        {
+          "term": "करोड",
+          "en": "crore, ten million in Nepal"
+        },
+        {
+          "term": "अर्ब",
+          "en": "arba, one billion in Nepal"
+        },
+        {
+          "term": "खुद्रा",
+          "en": "small change, Nepali"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "भोलि",
+          "en": "tomorrow, Nepali"
+        },
+        {
+          "term": "पर्सि",
+          "en": "day after tomorrow, Nepali"
+        },
+        {
+          "term": "साढे दुई",
+          "en": "2:30, Nepali"
+        },
+        {
+          "term": "पौने तीन",
+          "en": "2:45, Nepali"
+        },
+        {
+          "term": "वि.सं.",
+          "en": "Bikram Sambat calendar used for Nepali dates"
+        },
+        {
+          "term": "शनिबार",
+          "en": "Saturday, Nepal's weekly day off"
+        },
+        {
+          "term": "दशैं-तिहार",
+          "en": "Nepali festival season when offices close"
+        }
+      ],
+      "work": [
+        {
+          "term": "जागिर",
+          "en": "job, Nepali"
+        },
+        {
+          "term": "अफिस",
+          "en": "office, Nepal"
+        },
+        {
+          "term": "तलब",
+          "en": "salary, Nepali"
+        },
+        {
+          "term": "बिदा",
+          "en": "leave or holiday, Nepali"
+        },
+        {
+          "term": "ओभरटाइम",
+          "en": "overtime, Nepal"
+        },
+        {
+          "term": "दशैं खर्च",
+          "en": "Nepali festival allowance from employers"
+        },
+        {
+          "term": "सिफ्ट",
+          "en": "shift, Nepal"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "लेकिन",
+      "use_instead": "तर",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "क्योंकि",
+      "use_instead": "किनभने",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "भैया",
+      "use_instead": "दाइ",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "छुट्टी",
+      "use_instead": "बिदा",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Aadhaar",
+      "use_instead": "नागरिकता, राष्ट्रिय परिचयपत्र",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "fonepay, eSewa, Khalti",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Paytm",
+      "use_instead": "eSewa, Khalti",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "ऑटो",
+      "use_instead": "टेम्पो",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Flipkart",
+      "use_instead": "Daraz",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "हाँ",
+      "use_instead": "हजुर, हो",
+      "where_it_is_from": "IN"
+    }
+  ],
+  "sources": [
+    "https://www.nrb.org.np/",
+    "https://esewa.com.np/",
+    "https://khalti.com/",
+    "https://www.fonepay.com/",
+    "https://www.ntc.net.np/",
+    "https://donidcr.gov.np/",
+    "https://ird.gov.np/",
+    "https://www.nepalpost.gov.np/",
+    "https://pathao.com/np/",
+    "https://www.daraz.com.np/",
+    "https://hib.gov.np/",
+    "https://moest.gov.np/",
+    "https://nepalnews.com/2026/06/15/confusion-over-bringing-ncell-ownership-to-government/",
+    "https://www.easynepalityping.com/phrases/useful-nepali-phrases"
+  ],
+  "uncertain": [
+    "Ncell 執照將到期、可能轉為政府所有，品牌名未來可能改變。",
+    "「दशैं खर्च」作為僱主發的節慶津貼是常見說法，但正式名稱與發放習慣因公司而異，未找到官方出處。",
+    "沒有尼泊爾語詞頻表（freq/ 無 ne），用詞靠官網、平台與新聞確認。"
+  ]
+}

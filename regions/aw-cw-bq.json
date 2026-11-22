@@ -1,0 +1,134 @@
+{
+  "schema": 1,
+  "code": "aw-cw-bq",
+  "countries": [
+    "aw",
+    "cw",
+    "bq"
+  ],
+  "name": {
+    "en": "Dutch Caribbean",
+    "native": "Caribe neerlandés",
+    "zh": "荷屬加勒比"
+  },
+  "lang": "nl-NL",
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo, wie spreekt?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, a neighbour, reception or security desk",
+    "zh": "包裹放門閘、交給鄰居、接待處或保全櫃檯"
+  },
+  "readback": {
+    "en": "Numbers in twos or threes; dates day-first, as on Dutch papers.",
+    "zh": "號碼兩三位一組唸；日期先日後月"
+  },
+  "fraud": {
+    "en": "a PIN or TAN request, 'wrong transfer' or paid prize is a scam",
+    "zh": "要 PIN 或 TAN、叫你退還轉錯的錢，或要先付錢才能領獎，都是詐騙"
+  },
+  "habits": {
+    "en": "U with strangers, je once casual. Follow Dutch or English; keep stoep, hek, loket.",
+    "zh": "對陌生人用 u，熟了再用 je。跟著荷語或英語；照用 stoep、hek、loket。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the ferry or barge delayed, the bank app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如渡輪或駁船延誤、銀行 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a neighbour on Aruba or Curaçao: je, short Dutch, a 'bon dia' and a follow-up (alles goed), varied.",
+        "zh": "像阿魯巴、庫拉索的鄰居：用 je，荷語短句，可帶 bon dia，再接一句（如 alles goed），每次換。"
+      },
+      "2": {
+        "en": "Warm island Dutch: je unless they say u; after they speak, add a soft line (prima hoor), varied.",
+        "zh": "溫暖的島嶼荷語：對方沒用 u 就用 je；聽完補一句輕鬆的話（如 prima hoor），每次換。"
+      },
+      "3": {
+        "en": "Plain Dutch of the ABC islands. Answer each point in a full line, not a bare ja.",
+        "zh": "荷屬加勒比的平實荷語。對方講完一點，用完整一句回，不要只回 ja。"
+      },
+      "4": {
+        "en": "Polite u at the loket or with strangers; pick up their request first (begrepen), then continue, varied.",
+        "zh": "在櫃檯或對陌生人用 u；先接住對方的事（如 begrepen）再往下說，每次換。"
+      },
+      "5": {
+        "en": "Business Dutch for banks and offices: u, compact; close each item (staat genoteerd), varied.",
+        "zh": "銀行與機關的公事荷語：用 u，簡潔；每件收束一句（如 staat genoteerd），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper with je: react, then say you will pass it on (ik geef het door), varied.",
+        "zh": "{owner}輕快的小幫手，用 je：先反應，再說會轉過去（如 ik geef het door），每次換。"
+      },
+      "2": {
+        "en": "Calm helper: match je or u; take in the situation, then jot it for {owner} (ik schrijf het op), varied.",
+        "zh": "沉穩幫手：跟著用 je 或 u，先聽處境，再幫{owner}記下（如 ik schrijf het op），每次換。"
+      },
+      "3": {
+        "en": "Straightforward stand-in. Give one full reply to their point, then confirm you will relay it, not just oké.",
+        "zh": "直截的代接。先完整回一句，再說明會轉達，不要只回 oké。"
+      },
+      "4": {
+        "en": "Careful secretary: u, full sentences; name the reason they called, then promise the relay (het komt aan), varied.",
+        "zh": "謹慎秘書：用 u、完整句；先點出來意，再保證會轉到（如 het komt aan），每次換。"
+      },
+      "5": {
+        "en": "Office deputy: u and titles, short and exact; confirm details, then the hand-off (doorgegeven), varied.",
+        "zh": "辦公室代表：u 加職稱，短而準；先確認細節，再交代已轉（如 doorgegeven），每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "online bankieren",
+      "loket",
+      "TAN",
+      "MCB"
+    ],
+    "delivery": [
+      "hek",
+      "stoep",
+      "receptie",
+      "postkantoor"
+    ],
+    "government": [
+      "cédula",
+      "sedula",
+      "CRIB-nummer",
+      "Burgerzaken",
+      "paspoort"
+    ],
+    "health": [
+      "huisarts",
+      "ziekenhuis",
+      "apotheek",
+      "verzekering"
+    ],
+    "telecom": [
+      "prepaid",
+      "simkaart",
+      "beltegoed"
+    ],
+    "payment": [
+      "online betalen",
+      "overschrijving",
+      "PIN"
+    ],
+    "transport": [
+      "bus",
+      "taxi",
+      "veerboot"
+    ],
+    "housing": [
+      "huur",
+      "huurbaas",
+      "adres",
+      "aansluiting"
+    ]
+  },
+  "status": "draft"
+}

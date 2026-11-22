@@ -1,0 +1,264 @@
+{
+  "lang": "ms",
+  "backchannels": {
+    "direction": "Ya and ha'ah show listening; betul agrees; okey okey said quickly can sound dismissive.",
+    "examples": [
+      {
+        "text": "Ha'ah.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ya, ya, saya dengar.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Betul tu.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Faham.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Okey okey.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Ya ke? or Biar betul! for surprise; kesian or takziah for sympathy; tahniah for good news.",
+    "examples": [
+      {
+        "text": "Ya ke?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Biar betul!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Kesian, saya bersimpati.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Tahniah!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Susah sikit tu.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the line is weak (line tak elok) or you can't hear, then request kuat sikit.",
+    "examples": [
+      {
+        "text": "Maaf, saya kurang dengar.",
+        "style": "polite"
+      },
+      {
+        "text": "Line tak berapa elok.",
+        "style": "casual"
+      },
+      {
+        "text": "Suara terputus-putus.",
+        "style": "polite"
+      },
+      {
+        "text": "Boleh cakap kuat sikit?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Apa dia? or Maaf? asks for a replay; ask names spelled and read the number back.",
+    "examples": [
+      {
+        "text": "Maaf, boleh ulang?",
+        "style": "polite"
+      },
+      {
+        "text": "Apa dia?",
+        "style": "casual"
+      },
+      {
+        "text": "Nama dieja macam mana?",
+        "style": "polite"
+      },
+      {
+        "text": "Nombornya 12345678, kan?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Boleh saya tahu siapa di talian? is polite; siapa ni? is casual.",
+    "examples": [
+      {
+        "text": "Boleh saya tahu siapa di talian?",
+        "style": "polite"
+      },
+      {
+        "text": "Encik telefon dari mana?",
+        "style": "polite"
+      },
+      {
+        "text": "Ini telefon {owner}, siapa yang bercakap?",
+        "style": "polite"
+      },
+      {
+        "text": "Siapa ni?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say salah nombor and nobody by that name is here; brief.",
+    "examples": [
+      {
+        "text": "Maaf, salah nombor.",
+        "style": "polite"
+      },
+      {
+        "text": "Tiada sesiapa nama itu di sini.",
+        "style": "polite"
+      },
+      {
+        "text": "Salah nombor ni.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Nanti saya sampaikan says {owner} will get the message; no call-back time.",
+    "examples": [
+      {
+        "text": "Saya akan sampaikan pesanan kepada {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Nanti saya bagitahu.",
+        "style": "casual"
+      },
+      {
+        "text": "Pesanan akan disampaikan.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Terima kasih, tak berminat closes most sales calls; no long excuse needed.",
+    "examples": [
+      {
+        "text": "Terima kasih, saya tak berminat.",
+        "style": "polite"
+      },
+      {
+        "text": "Kami tak perlukan, terima kasih.",
+        "style": "polite"
+      },
+      {
+        "text": "Tak apa lah.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, say you already refused and ask them to remove the number.",
+    "examples": [
+      {
+        "text": "Saya dah cakap tadi, tak berminat.",
+        "style": "polite"
+      },
+      {
+        "text": "Tolong jangan hubungi nombor ini lagi.",
+        "style": "polite"
+      },
+      {
+        "text": "Sila buang nombor ini daripada senarai.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Encik/Puan/Cik for strangers; abang, kakak, pakcik, makcik for warmth; Datuk if titled.",
+    "examples": [
+      {
+        "text": "Encik",
+        "style": "polite"
+      },
+      {
+        "text": "Puan",
+        "style": "polite"
+      },
+      {
+        "text": "Cik",
+        "style": "polite"
+      },
+      {
+        "text": "Pakcik",
+        "style": "casual"
+      },
+      {
+        "text": "Kak",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Panggilan anda amat penting bagi kami sound like a khidmat pelanggan hotline.",
+    "examples": [
+      {
+        "text": "Panggilan anda amat penting bagi kami.",
+        "style": "polite"
+      },
+      {
+        "text": "Terima kasih kerana menghubungi khidmat pelanggan.",
+        "style": "polite"
+      },
+      {
+        "text": "Apa yang boleh saya bantu hari ini?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using kau/engkau with elders, or asking race, religion or salary early, is rude.",
+    "examples": [
+      {
+        "text": "Kau siapa?",
+        "style": "casual"
+      },
+      {
+        "text": "Gaji berapa?",
+        "style": "casual"
+      },
+      {
+        "text": "Bangsa apa?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/encik",
+    "https://en.wikipedia.org/wiki/Malay_styles_and_titles",
+    "https://en.wikipedia.org/wiki/Malaysian_Malay"
+  ],
+  "uncertain": [
+    "Malaysian vs Indonesian vs Brunei usage differ; examples target Malaysian Malay",
+    "Backchannels (ya, ha, okey, betul) from general usage, no call corpus",
+    "Use of 'awak' vs 'anda' vs name/title is context-dependent; 'encik/puan' chosen as default"
+  ]
+}

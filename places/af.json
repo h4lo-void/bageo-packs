@@ -1,0 +1,683 @@
+{
+  "region": "af",
+  "countries": [
+    "af"
+  ],
+  "region_name_zh": "阿富汗",
+  "region_name": "Afghanistan",
+  "languages": [
+    {
+      "code": "ps",
+      "use": "main"
+    },
+    {
+      "code": "fa",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Pashto (ps) is the default in the south and east and widely used officially; Dari (fa) is the common business language in Kabul, Herat, Mazar-i-Sharif. Start politely and follow the language the other side answers in; English only at a few international hotels and NGOs-facing businesses.",
+  "english_ok": "rarely — Limited to some hotels, larger hospitals and firms used to foreign clients in Kabul; most shops, clinics and drivers speak only Dari or Pashto.",
+  "politeness": "Open with 'Salaam alaikum' and a short courtesy before business; respectful titles ('ښاغلی' / 'آقا', 'محترم'); calls between unrelated men and women are kept short and formal; close with thanks and a blessing.",
+  "name_tip": "Many people use a given name plus a family/tribal name, and some use one name only; give the name as the booking holder wants it written and spell it slowly; Latin spellings of the same name vary.",
+  "phone_tip": "Mobile 07X XXX XXXX (10 digits with 0, e.g. 079 12345678), international +93 7X; WhatsApp is the usual channel for photos, locations and confirmations.",
+  "time_tip": "Spoken time is 12-hour with part of day (صبح morning, چاشت midday, عصر afternoon, شام evening); confirm morning/evening explicitly. Dates usually follow the solar Hijri calendar (months حمل…حوت); the lunar Hijri calendar is used for religious days.",
+  "number_tip": "Phone numbers read digit by digit or in small groups; both Eastern Arabic-Persian digits (۰۱۲۳) and Western digits appear in writing.",
+  "avoid_calling": "Avoid Friday (weekly rest, Friday prayer), prayer times around midday and sunset, and late evening; during Ramadan daytime hours shorten and evenings are busy.",
+  "closed_days": "Friday is the weekly day off; government offices work Saturday–Wednesday about 8:30–15:30 and a short Thursday until 13:30; Eid al-Fitr and Eid al-Adha close most businesses for several days.",
+  "booking_channels": "Mostly direct phone calls, WhatsApp and walk-in; online booking platforms are rare; hospitals and private clinics take phone or walk-in queue tokens.",
+  "voice_menu": "Mobile operators (AWCC, Roshan, Etisalat/MTN successors, Salaam) use IVR; nearly all shops, clinics and small hotels answer directly, often on a personal mobile.",
+  "callback_habits": "Businesses usually call or WhatsApp back the same day; reminders and SMS confirmations are uncommon outside larger hospitals and hotels.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "大型餐廳與宴會廳可電話或 WhatsApp 訂位，常分家庭區（family section）與一般區；小館多直接上門。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Family section only for groups with women"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Set menu for large groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time (morning/evening)",
+        "Number of people",
+        "Family section or private room",
+        "Name and mobile"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所與醫院多以電話或現場排號（نوبت）為主，女性病患常需女醫師並要求有親屬陪同。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Female doctor requested"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in queue rather than fixed time"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Tazkira (ID) number"
+        }
+      ],
+      "usually_asked": [
+        "Doctor or department",
+        "Patient name, age, gender",
+        "First or repeat visit",
+        "Day (morning or afternoon)",
+        "Phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "男士理髮店多直接上門；女性美容院自 2023 年起被當局下令關閉，相關服務難以電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Women's salon services not openly available"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Day and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車、手機與家電維修多電話先問再上門。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price for parts"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Vehicle or device model",
+        "Problem",
+        "When to bring it",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐館接電話訂外帶或外送很常見，常要求 WhatsApp 傳位置。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Location sent by WhatsApp"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and quantity",
+        "Pickup or delivery time",
+        "Address or location pin",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "商店可電話預留或訂貨，常以 WhatsApp 傳照片確認。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and quantity",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多直接電話說明，診所以排號為主可能改到隔天。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name",
+        "New day",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "價格、營業時間、是否有貨直接電話問。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Question",
+        "Day",
+        "Quantity"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與旅館電話或 WhatsApp 訂房，入住需身分證件。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cash payment only"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or Tazkira details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Guest name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "團體出遊或場地多靠熟人與電話安排，可預約的休閒活動有限。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Separate arrangements for women and families"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、修理師傅多電話叫並要詳細地標，因地址系統不完整。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directions by landmark or WhatsApp pin"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Area and nearby landmark",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物醫療與美容服務很少，多為牲畜獸醫。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal kind",
+        "Problem",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政與快遞（如 DHL 合作商）查件多需親至或電話問分店，線上追蹤有限。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pick up in person at branch"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or receipt number",
+        "Recipient name",
+        "City",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服有語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Tazkira or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Account or SIM number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多電話或在路邊攔，城際車與包車電話預約，常需地標。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Mahram (male relative) needed for women on long trips"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup landmark and time",
+        "Destination",
+        "Passengers",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經中介（رهنما／کمیشن‌کار）或熟人，電話約看屋。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Commission and advance rent"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID and guarantor"
+        }
+      ],
+      "usually_asked": [
+        "Which property and area",
+        "Viewing time",
+        "Family size",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府機關與學校多需親自前往，電話只能問一般資訊；女性教育受限，入學資格需另行確認。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Eligibility rules for the person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Tazkira number"
+        }
+      ],
+      "usually_asked": [
+        "Office or school",
+        "Question",
+        "Who it is for"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ps": {
+      "appointment_words": [
+        "د ډاکټر نوبت",
+        "وخت اخیستل",
+        "ملاقات",
+        "د معاینې وخت"
+      ],
+      "booking_words": [
+        "میز ریزرف کول",
+        "کوټه ریزرف",
+        "بُک کول",
+        "ځای نیول"
+      ],
+      "change_words": [
+        "وخت بدلول",
+        "ریزرف لغوه کول",
+        "نیم ساعت وروسته",
+        "بلې ورځې ته"
+      ],
+      "date": [
+        "سبا",
+        "بل سبا",
+        "دا جمعه",
+        "راتلونکې سه شنبه",
+        "۲۵ عقرب"
+      ],
+      "false_friends": [
+        "دریم پوړ",
+        "کوټه نمبر ۴",
+        "۶۰ دقیقې",
+        "لاین ۸",
+        "دوکان ۱۲"
+      ],
+      "inquiry_words": [
+        "بیه څومره ده؟",
+        "څه وخت خلاص یاست؟",
+        "موجود دی؟",
+        "کور ته راوړئ؟"
+      ],
+      "name": [
+        "د احمد په نوم",
+        "د کریمي په نوم",
+        "ښاغلی رحیمي",
+        "د خان کورنۍ"
+      ],
+      "order_words": [
+        "فرمایش",
+        "له ځان سره وړل",
+        "کور ته رسول",
+        "مخکې فرمایش"
+      ],
+      "party": [
+        "څلور کسان",
+        "موږ درې یو",
+        "دوه لویان او یو ماشوم",
+        "۵ نفر",
+        "یوازې زه"
+      ],
+      "phone": [
+        "079 12345678",
+        "+93 79 12345678",
+        "۰۷۹ ۱۲۳۴۵۶۷۸",
+        "12345678"
+      ],
+      "time": [
+        "د ماښام اوه بجې",
+        "۷:۳۰",
+        "د سهار نهه بجې",
+        "د غرمې دولس بجې",
+        "له مازدیګر وروسته"
+      ]
+    },
+    "fa": {
+      "appointment_words": [
+        "نوبت داکتر",
+        "وقت گرفتن",
+        "ملاقات",
+        "نوبت معاینه"
+      ],
+      "booking_words": [
+        "ریزرف میز",
+        "بُک کردن اتاق",
+        "ریزرف",
+        "جای گرفتن"
+      ],
+      "change_words": [
+        "تغییر وقت",
+        "لغو ریزرف",
+        "نیم ساعت بعد",
+        "به روز دیگر"
+      ],
+      "date": [
+        "فردا",
+        "پس‌فردا",
+        "این جمعه",
+        "سه‌شنبه آینده",
+        "۲۵ عقرب"
+      ],
+      "false_friends": [
+        "منزل سوم",
+        "اتاق نمبر ۴",
+        "۶۰ دقیقه",
+        "لین ۸",
+        "دکان ۱۲"
+      ],
+      "inquiry_words": [
+        "قیمتش چند است؟",
+        "چه وقت باز هستید؟",
+        "موجود است؟",
+        "به خانه می‌آورید؟"
+      ],
+      "name": [
+        "به نام احمد",
+        "به نام کریمی",
+        "آقای رحیمی",
+        "خانواده نوری"
+      ],
+      "order_words": [
+        "فرمایش",
+        "با خود بردن",
+        "تحویل به خانه",
+        "پیش‌فرمایش"
+      ],
+      "party": [
+        "چهار نفر",
+        "ما سه نفر هستیم",
+        "دو بزرگسال و یک طفل",
+        "۵ نفر",
+        "تنها خودم"
+      ],
+      "phone": [
+        "079 12345678",
+        "+93 70 12345678",
+        "۰۷۰ ۱۲۳۴۵۶۷۸",
+        "12345678"
+      ],
+      "time": [
+        "ساعت هفت شام",
+        "۷:۳۰",
+        "ساعت نه صبح",
+        "ساعت دوازده چاشت",
+        "بعد از عصر"
+      ]
+    }
+  }
+}

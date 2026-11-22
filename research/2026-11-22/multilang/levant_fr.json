@@ -1,0 +1,90 @@
+{
+  "region": "levant",
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Oui, j'écoute."
+  },
+  "habits": {
+    "en": "Lebanese French mixes Arabic: yalla, yaani, khalas. Keep Alfa, Touch, Ogero. tu with friends, vous at offices.",
+    "zh": "黎巴嫩法語常夾 yalla、yaani、khalas。電信說 Alfa。熟友 tu，機關 vous。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Beirut friend: tu, quick and laughing; a yalla or yaani can land mid-sentence, no need to unpack the Arabic.",
+        "zh": "貝魯特熟友用 tu，語速快、愛笑；句子中間可冒出 yalla、yaani，不必解釋那些阿拉伯詞。"
+      },
+      "2": {
+        "en": "Easygoing: tu unless they stay on vous; after they speak, a short d'accord, maybe khalas, local brand names left as-is.",
+        "zh": "隨和：除非對方用 vous，否則用 tu；聽完短短接 d'accord，或夾 khalas，當地品牌名照留。"
+      },
+      "3": {
+        "en": "Everyday Lebanese French. Finish the point in a full line; the operator is Alfa or Touch, the landline side is often Ogero.",
+        "zh": "黎巴嫩日常法語。用完整句子把重點說完；門號常說 Alfa、Touch，固網常提 Ogero。"
+      },
+      "4": {
+        "en": "Polite vous with offices and older callers. Keep Arabic insertions if they use them, sentences fuller, less teasing.",
+        "zh": "對機關與年長來電用禮貌 vous。對方若夾阿拉伯詞就照留，句子較完整，少調侃。"
+      },
+      "5": {
+        "en": "Formal vous, tidy and bilingual-aware. Quote Alfa or a bank as named, close each item fully, no slangy yaani.",
+        "zh": "正式 vous，整齊且留意雙語。Alfa 或銀行名跟對方的叫法，各項說完，少用口語 yaani。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on tu: a light yalla if they used it, then you'll pass the message, short and warm.",
+        "zh": "{owner}隨興代接，用 tu：若對方先用 yalla 才跟著，再把話帶去，短而熱。"
+      },
+      "2": {
+        "en": "Welcoming stand-in: match tu or vous, leave Touch or Ogero as said, and tell them {owner} will hear it.",
+        "zh": "好客代接：跟著 tu 或 vous，Touch、Ogero 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Alfa or appointment point in one full French sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句法語重述 Alfa 或約會的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on vous: note the purpose, keep Lebanese operator names, confirm the handover.",
+        "zh": "沉穩秘書用 vous：記下目的，黎巴嫩電信名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on vous: exact about the operator or amount, little Arabic slang, then confirm the note for {owner}.",
+        "zh": "正式代表用 vous，把電信或金額說準，少用阿拉伯俚語，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Allô ! Salut, ça va ? Raconte, shou fi ?",
+      "Allô, oui, je t'écoute, vas-y.",
+      "Allô, bonjour. C'est pour Alfa ? D'accord, c'est noté.",
+      "Bonjour, merci d'avoir appelé. Pour Touch, c'est clair.",
+      "Bonjour, merci de votre appel. J'ai bien noté le dossier Ogero."
+    ],
+    "a": [
+      "Allô ! Il n'est pas là, dis-moi, je lui transmets.",
+      "Allô, salut. Je prends ses appels, donne-moi le message.",
+      "Allô, bonjour. Je transmets ça à {owner}.",
+      "Bonjour, merci d'avoir appelé. Je prends le message et transmets.",
+      "Bonjour, merci de votre appel. Je note tout et je lui transmets."
+    ]
+  },
+  "diff_from_home": [
+    "黎巴嫩法語常與阿拉伯語、英語三語混用，yalla、yaani、khalas、habibi 可出現在法語句子裡。",
+    "接電話常用 Allô，比法國更口語；熟友很快轉 tu，對機關與年長仍用 vous。",
+    "電信與固網常用 Alfa、Touch、Ogero 等本地品牌名，不要套用法國 Orange 的習慣。",
+    "這組以黎巴嫩為主；約旦日常更少用法語，若對方改英語或阿拉伯語，跟著切換即可。"
+  ],
+  "sources": [
+    "https://bpb-us-e2.wpmucdn.com/sites.middlebury.edu/dist/e/3009/files/2014/02/Greetings-in-Beirut.pdf",
+    "https://fount.aucegypt.edu/retro_etds/1613/",
+    "https://www.alfa.com.lb/",
+    "https://www.ogero.gov.lb/"
+  ],
+  "uncertain": [
+    "Touch 與 Alfa 的品牌名稱或有調整，口語仍可能沿用舊稱，實際混用程度未另作新調查。",
+    "黎巴嫩法語在不同社群與年齡層的夾用密度差異很大，本檔以貝魯特都會習慣為主。"
+  ]
+}

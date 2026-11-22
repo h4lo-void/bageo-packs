@@ -1,0 +1,92 @@
+{
+  "region": "gb-ie",
+  "lang": "hi",
+  "hello": {
+    "hello": "हेलो, जी?",
+    "hello_again": "हाँ, बोलिए?"
+  },
+  "habits": {
+    "en": "Aap and ji with elders. Mix NHS, GP, NI in the UK; HSE and PPS in Ireland. Not Aadhaar or UPI for local systems.",
+    "zh": "對長輩用 aap、ji。英國夾 NHS、GP、NI；愛爾蘭改說 HSE、PPS，不用 Aadhaar、UPI。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friends in Leicester or London use informal tu, mix English, and answer theek hai without a long namaste.",
+        "zh": "在萊斯特或倫敦跟熟友用非正式 tu，英印夾雜，不必長聲 namaste，回 theek hai 即可。"
+      },
+      "2": {
+        "en": "Warm British Hindi: add ji if they do; after a school or GP point, a light accha keeps the tone easy.",
+        "zh": "親切的英式印地語：對方用 ji 就加上；聽完學校或 GP 的事，輕聲回 accha，語氣放鬆。"
+      },
+      "3": {
+        "en": "Everyday Hindi in Britain or Ireland: one full sentence per point, leaving NHS, NI or PPS in English as spoken.",
+        "zh": "英愛日常印地語：每一點回完整一句，NHS、NI 或 PPS 照口頭直接講英語。"
+      },
+      "4": {
+        "en": "Respectful aap and ji at a surgery or council; say NHS or HSE as the country requires, and handle the request first.",
+        "zh": "在診所或市政機關用 aap、ji；按所在地說 NHS 或 HSE，先處理來意。"
+      },
+      "5": {
+        "en": "Workplace Hindi: aap throughout, recap the sort code or tenancy point, then close neatly.",
+        "zh": "職場印地語全程用 aap，覆述 sort code 或租約要點後，整齊結束。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal British Hindi helper answers theek hai, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆英式印地語先回 theek hai，用夾英語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Echo ji when the caller uses it; jot the GP or callback detail, and say {owner} will be told.",
+        "zh": "對方用 ji 就跟著用；記下 GP 或回撥細節，並說明會告訴{owner}。"
+      },
+      "3": {
+        "en": "A tidy Hindi assistant in the UK or Ireland answers the purpose of the call in one full sentence, then briefs {owner}.",
+        "zh": "條理清楚的英愛印地語助理先用完整一句回應來電目的，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Careful aap and ji: restate the NHS or HSE point accurately, then confirm it goes to {owner}.",
+        "zh": "謹慎使用 aap、ji：準確覆述 NHS 或 HSE 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: aap plus a title, itemise the NI or PPS item, and close after the handoff.",
+        "zh": "為{owner}任正式助理：aap 加稱謂，對齊對方提的 NI 或 PPS，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हेलो जी! हाँ बोलो, सब ठीक है यार।",
+      "नमस्ते जी, मैं सुन रहा हूँ, आप कहिए।",
+      "नमस्ते। NHS की बात है क्या? ठीक है, लिख लिया।",
+      "नमस्कार, फोन के लिए धन्यवाद। समझ गया, मैं व्यवस्था करूँगा।",
+      "नमस्कार, आपकी कॉल के लिए धन्यवाद। सब लिख लिया है।"
+    ],
+    "a": [
+      "हेलो जी! वे उपलब्ध नहीं, बात बताइए, मैं संदेश दे दूँगा।",
+      "नमस्ते जी, मैं उनकी कॉल ले रहा हूँ, संदेश कह दीजिए।",
+      "नमस्ते, मैं लिखकर उन्हें पहुँचा दूँगा।",
+      "नमस्कार, धन्यवाद। लिखकर {owner} तक पहुँचाऊँगा।",
+      "नमस्कार, आपकी कॉल के लिए धन्यवाद। सब लिखकर दे दूँगा।"
+    ]
+  },
+  "diff_from_home": [
+    "本地不說 Aadhaar、UPI、PAN，而說 NHS 或 HSE、National Insurance 或 PPS、sort code，與印度行政詞不同，也與澳紐的 Medicare、TFN 不同。",
+    "英國印度社群許多家庭日常其實講古吉拉特語或旁遮普語，印地語常當對外溝通語。",
+    "對長輩仍用 aap、ji，但英國出生世代電話裡英語比重往往很高。",
+    "愛爾蘭的印地語使用人口較英國小，用語仍應依對方所在地切換 HSE／PPS。"
+  ],
+  "sources": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpsr/censusofpopulation2022-summaryresults/migrationanddiversity/",
+    "https://www.nhs.uk/",
+    "https://www.gov.uk/national-insurance",
+    "https://www.hse.ie/",
+    "https://www.nhs.uk/nhs-services/gps/"
+  ],
+  "uncertain": [
+    "候選說明把 Hindi／Gujarati 放在一起，但本檔只以印地語回覆；古吉拉特語電話比重官方主語言統計無法單獨對應。",
+    "愛爾蘭相關語料比英國少，兩地口語差異只能依機關名稱來區分。"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "country": "pn",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Pitcairn Islands",
+    "native": "Pitcairn Islands",
+    "zh": "皮特肯群島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "沒有自己的國碼，使用紐西蘭 +64 的號碼",
+    "currency": "紐西蘭元 NZD（另有皮特肯元但少流通），不是英鎊",
+    "time_zone": "UTC-8",
+    "language": "官方語為皮特肯語與英語",
+    "population": "約 35 人"
+  },
+  "habits": {
+    "en": "English or Pitkern; prices in New Zealand dollars, not pounds. Clock is UTC-8. A tiny community: generic UK habits rarely fit.",
+    "zh": "說英語或皮特肯語；標價是紐西蘭元，不是英鎊。時間 UTC-8。居民極少，英國本土習慣多半不適用。"
+  },
+  "vocab": {
+    "bank": [
+      "NZ$"
+    ],
+    "delivery": [
+      "supply ship"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "pound",
+      "reason": {
+        "zh": "皮特肯通行紐西蘭元"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Pitcairn_Islands"
+  ],
+  "uncertain": [
+    "官方 immigration.pn 從 box 連不上，只剩維基百科，需補官方來源。",
+    "「supply ship」收件方向依一般資料，未在官方頁核對，可刪。",
+    "人口只有數十人，是否值得建國層檔由協調者決定。"
+  ]
+}

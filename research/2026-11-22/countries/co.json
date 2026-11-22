@@ -1,0 +1,84 @@
+{
+  "country": "co",
+  "parent": "latam",
+  "name": {
+    "en": "Colombia",
+    "native": "Colombia",
+    "zh": "哥倫比亞"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portería, a reception desk, a neighbour, or a courier office",
+    "zh": "包裹交給 portería、接待處、鄰居，或到快遞點領"
+  },
+  "readback": {
+    "en": "Mobiles often in 3-3-4 style after 3; 0 as cero; day-month dates; pesos colombianos",
+    "zh": "手機常以 3 開頭再分短組唸，0 唸 cero；日期先日後月；用哥倫比亞比索"
+  },
+  "fraud": {
+    "en": "A fake Bancolombia, Nequi or Daviplata call asking for a clave dinámica or code is a scam",
+    "zh": "假冒 Bancolombia 或 Nequi 要動態密碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Usted is often unmarked, even with acquaintances in Bogotá. Tú is not the default. Vos is common in Paisa areas.",
+    "zh": "許多場合（尤其波哥大）連熟人也常用 usted，不要預設 tú。派薩地區常用 vos。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Nequi or the bank app spinning, weak indoor signal, or misplaced glasses.",
+    "zh": "卡在 Nequi 或銀行 App 一直轉、室內收訊差，或眼鏡放錯地方。"
+  },
+  "vocab": {
+    "bank": [
+      "Nequi",
+      "Daviplata",
+      "clave dinámica",
+      "Bancolombia",
+      "tarjeta"
+    ],
+    "delivery": [
+      "portería",
+      "recepción",
+      "vecino",
+      "Servientrega",
+      "punto de entrega"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "vosotros / vale / ordenador",
+      "reason": {
+        "zh": "這是西班牙說法，本國與所屬地區一樣不用。"
+      }
+    },
+    {
+      "word": "全國預設 tú",
+      "reason": {
+        "zh": "所屬地區偏 tú，但哥倫比亞許多日常場合（尤其波哥大）usted 才是無標記用法。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift levels 1–3 off the parent's tú default: usted is often fine with acquaintances, unless the caller uses tú or Paisa vos. Levels 4–5 stay formal usted. Nequi is fine here.",
+    "zh": "1～3 格不要照所屬地區預設 tú：即使熟人，usted 也常合適，除非對方已用 tú 或派薩地區的 vos。4～5 格維持正式 usted。這裡可以用 Nequi。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador",
+    "https://blog.bancolombia.com/educacion-financiera/casos-reales-seguridad-llaves-bancolombia/",
+    "https://www.noticiascaracol.com/economia/no-caiga-consejos-clave-para-evitar-ser-victima-de-las-estafas-mas-comunes-en-billeteras-digitales-so35",
+    "https://www.eltiempo.com/bogota/billeteras-digitales-asi-son-las-estafas-en-nequi-daviplata-dale-y-otras-plataformas-776648",
+    "https://www.semana.com/nacion/bogota/articulo/esta-es-la-nueva-estafa-de-la-clave-dinamica-que-vacia-cuentas-en-bogota/202532/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "RAE 語法記錄哥倫比亞接電話也用「a ver」，與常見的「aló」並存，缺少新的使用比例。",
+    "手機分組唸法未找到電信官方規範。"
+  ]
+}

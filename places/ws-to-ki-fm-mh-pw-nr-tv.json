@@ -1,0 +1,659 @@
+{
+  "region": "ws-to-ki-fm-mh-pw-nr-tv",
+  "countries": [
+    "ws",
+    "to",
+    "ki",
+    "fm",
+    "mh",
+    "pw",
+    "nr",
+    "tv"
+  ],
+  "region_name_zh": "波利尼西亞與密克羅尼西亞（薩摩亞、東加、吉里巴斯、密克羅尼西亞、馬紹爾群島、帛琉、諾魯、吐瓦魯）",
+  "region_name": "Polynesia and Micronesia (Samoa, Tonga, Kiribati, Micronesia, Marshall Islands, Palau, Nauru, Tuvalu)",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "English is official or widely used in all eight and is how offices, hotels and shops will answer a call; Samoan, Tongan, Gilbertese, Marshallese and Palauan are not on Bageo's list.",
+  "english_ok": "mostly — Fine in Apia, Nuku'alofa, Koror, Majuro and Pohnpei businesses; outer-island stores and older shopkeepers may prefer the local language.",
+  "politeness": "Soft-spoken and respectful; greet properly (talofa in Samoa, malo e lelei in Tonga) and do not hurry; family and church come first.",
+  "name_tip": "Many people go by one given name; Samoan chiefly titles may precede a name; spell each name out letter by letter.",
+  "phone_tip": "Numbers are short: Samoa mobiles are 7 digits starting 7, Tongan numbers 5–7 digits, most other islands 7 digits; there is no trunk zero; read as 3+4.",
+  "time_tip": "12-hour speech with am/pm; Samoa and Tonga sit at UTC+13, Kiribati's Line Islands at UTC+14, Palau at UTC+9, so confirm which island's clock.",
+  "number_tip": "Currencies differ: tala (Samoa), pa'anga (Tonga), Australian dollar (Kiribati, Nauru, Tuvalu), US dollar (Micronesia, Marshall Islands, Palau); name it with each sum.",
+  "avoid_calling": "Do not call on Sunday, which Tonga's law keeps as a day of rest and Samoa treats as church and family time; avoid evening prayer hours in Samoan villages.",
+  "closed_days": "Offices close Saturday and Sunday; in Tonga almost all business stops on Sunday; independence and church holidays close government counters.",
+  "booking_channels": "Facebook pages and Messenger carry most bookings, with phone calls for small stores; flights and inter-island boats are booked at their offices or websites; payment is mostly cash or EFTPOS.",
+  "voice_menu": "Telcos (Digicel, Vodafone, local state carriers) have brief English IVR; most businesses answer directly.",
+  "callback_habits": "Shops reply on Messenger when they can; inter-island operators announce schedule changes on Facebook rather than calling back.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "潛水、賞鯨與出海多經業者預約，季節與天氣決定能否成行。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Whale swim only in season"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Personal-account transfer to confirm"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "How many people",
+        "Swimmers or watchers",
+        "Lead contact"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊多電話或 Messenger 約，度假村水療由前台安排。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Spa slots only for resort guests"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Transfer to a personal account first"
+        }
+      ],
+      "usually_asked": [
+        "Treatment wanted",
+        "Who does it",
+        "Slot",
+        "Client mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多電話或 Messenger 即可；船班與航班改期依業者規定。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Boat ticket change fee"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport number to look up"
+        }
+      ],
+      "usually_asked": [
+        "Booked under which name",
+        "Old slot",
+        "New slot",
+        "Numbers changed"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "醫療以公立醫院為主、多現場看診；重症常轉往紐西蘭、斐濟或其他地區。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hospital is walk-in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private doctor fee in cash"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport or island ID number"
+        }
+      ],
+      "usually_asked": [
+        "Sick person's name",
+        "Symptoms",
+        "Hospital or private GP",
+        "Way to pay"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服規模小，多數事項須本人到櫃台。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Holder must come to the counter"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "PIN or ID"
+        }
+      ],
+      "usually_asked": [
+        "Menu number",
+        "Name on account",
+        "Phone on the account",
+        "Issue to fix"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府手續多須本人到場；學校可電話詢問，週末不辦公。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Needs the person in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Child's birth certificate number"
+        }
+      ],
+      "usually_asked": [
+        "Ministry or school name",
+        "Child's year",
+        "Island or district",
+        "Parent phone number"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與冷氣多靠推薦打電話；地址以村名與教堂等地標描述。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Charge to travel to the village"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Job needed",
+        "Village and nearest church",
+        "Time to come",
+        "Phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與傳統 fale 民宿可經平台、電話或 Messenger；入住出示護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Meals included in fale stays"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Airport pickup charge"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card digits by Messenger"
+        }
+      ],
+      "usually_asked": [
+        "Arrival flight and day out",
+        "Guests",
+        "Fale or room",
+        "Lead guest passport name"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問週六營業時間、是否收 EFTPOS、哪種貨幣，店家多直接答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Takes Australian dollars only"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Half-day Saturday"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Saturday and holiday hours",
+        "Cash, card or which currency",
+        "Where to park",
+        "Goods in stock"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫極少，部分島上僅偶有巡迴獸醫，可電話詢問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Visiting vet only some months"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full prepay for care"
+        }
+      ],
+      "usually_asked": [
+        "Purpose",
+        "Animal",
+        "Date",
+        "Owner"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多靠 Facebook 與熟人介紹，土地多屬家族，房東直接約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Rent paid months ahead"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Money before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which house or village",
+        "Start date",
+        "How many living there",
+        "Time to look"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車多直接到場；零件靠海運，常等數週。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Part coming by ship"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Garage wants plate number"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Cash before looking at it"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle make and plate number",
+        "Fault",
+        "When to bring",
+        "Who to call back"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "阿皮亞與努庫阿洛法餐廳多電話或 Messenger 訂位，小島多現場入座；東加週日幾乎全部停業。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed Sunday by law in Tonga"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Church group lunch needs prepayment"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card number asked over chat"
+        }
+      ],
+      "usually_asked": [
+        "Lunch or dinner and hour",
+        "Head count incl. kids",
+        "Seafront or indoor table",
+        "Booker and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與宴會食物多 Messenger 預訂並先付訂金，教會與家族活動常大量訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Large family-event order needs a deposit"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Whole sum up front to an unknown seller"
+        }
+      ],
+      "usually_asked": [
+        "Cake look and tiers",
+        "Words on it",
+        "Day needed",
+        "Orderer"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶多打電話點後自取，外送很少，部分店家自送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No delivery service"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash only at pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay a stranger"
+        }
+      ],
+      "usually_asked": [
+        "Food and number of packs",
+        "Pickup hour",
+        "Village for drop-off",
+        "Phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政包裹多到郵局領；外島靠船，時程以業者公告為準。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Collect at the post office"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Collection code"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Parcel addressee",
+        "Island",
+        "What's inside"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多打電話叫或路邊攔，島際交通靠船班與小飛機，常因天候延誤。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Inter-island boat schedule on Facebook"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Taxi fare to the airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Licence for car hire"
+        }
+      ],
+      "usually_asked": [
+        "Pickup location and hour",
+        "Destination",
+        "Riders and bags",
+        "Traveller name"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "doctor booking",
+        "dental booking",
+        "haircut",
+        "car check"
+      ],
+      "booking_words": [
+        "table booked",
+        "room reserved",
+        "fale booking"
+      ],
+      "change_words": [
+        "shift to Tuesday",
+        "cancel booking pls",
+        "later time"
+      ],
+      "date": [
+        "tmrw",
+        "Tue",
+        "25/11"
+      ],
+      "false_friends": [
+        "fale 3",
+        "unit 12",
+        "by the church"
+      ],
+      "inquiry_words": [
+        "open Saturday?",
+        "eftpos ok?",
+        "parking?"
+      ],
+      "name": [
+        "Sione",
+        "Losa",
+        "church group booking"
+      ],
+      "order_words": [
+        "takeaway pack",
+        "drop to house",
+        "I pick up"
+      ],
+      "party": [
+        "6 of us",
+        "3 adults 2 kids"
+      ],
+      "phone": [
+        "712 3456",
+        "Messenger"
+      ],
+      "time": [
+        "6pm",
+        "9am",
+        "noon"
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Zimbabwe",
+  "name_local": "Zimbabwe",
+  "iso": "zw",
+  "calling_code": "+263",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Zimbabwe police alerts in 2026 centre on mobile-money wallet takeovers, where a cheap data bundle or easy loan advert leads the victim to give up a wallet PIN or OTP; the RBZ Financial Intelligence Unit separately flags Ponzi and pyramid schemes run mostly through WhatsApp groups.",
+  "cross_border_note": "Lures usually travel through Facebook, WhatsApp, X and SMS links carrying copied EcoCash or OneMoney logos; calls are commonly in English, Shona or Ndebele from ordinary local mobile numbers.",
+  "scams": [
+    {
+      "id": "zw_wallet_pin_otp_takeover",
+      "typology": "otp_theft",
+      "name": "Mobile-money wallet PIN and OTP takeover",
+      "name_en": "Mobile-money wallet PIN and OTP takeover",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "EcoCash",
+        "OneMoney",
+        "wallet PIN",
+        "one time password",
+        "promotion winner"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "tell me the PIN for your EcoCash wallet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "read me the OTP that just came in",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "move your balance to this wallet for safekeeping",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone posing as mobile-money staff, or the seller behind a promotion, coaxes the subscriber into revealing the wallet PIN and a fresh OTP, then drains the wallet or asks for the balance to be parked in another wallet.",
+      "legit_en": "ZRP and the operators state that EcoCash or OneMoney never request a customer's PIN or OTP and never ask for money to be moved to another person's wallet or bank account for safekeeping.",
+      "bait_tactics": [
+        "This Econet line has a cracked screen and the incoming SMS banner is unreadable, so there is no code for me to pass on.",
+        "My wallet is linked to my brother's handset in Bulawayo, not this phone, and he is out at the farm today.",
+        "The USSD menu keeps timing out on this rural tower before it reaches the balance screen."
+      ],
+      "sources": [
+        "https://www.heraldonline.co.zw/zimbabwe-republic-police-warns-public-to-be-on-alert-for-mobile-money-fraud/",
+        "https://www.newzimbabwe.com/police-warn-against-rising-mobile-money-scams/"
+      ]
+    },
+    {
+      "id": "zw_cheap_data_quick_loan_lure",
+      "typology": "loan_advance_fee",
+      "name": "Cheap data bundle or quick-loan advert paid by mobile money",
+      "name_en": "Cheap data bundle or quick-loan advert paid by mobile money",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "cheap data bundle",
+        "quick loan",
+        "easy repayment",
+        "pay via EcoCash"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay a small processing fee by EcoCash to release the loan",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "this data offer ends tonight, click the link",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "our page is powered by EcoCash",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "Social-media or SMS adverts promise bargain data packages or quick loans on easy terms, require a mobile-money payment up front, and often route the buyer to a look-alike site that captures wallet credentials.",
+      "legit_en": "Police guidance asks people to use promotions only on verified operator channels and to distrust links or pages that borrow mobile-money logos or claim to be powered by a wallet brand.",
+      "bait_tactics": [
+        "The link you sent opens a blank grey page on this old Android, so I never saw the bundle price.",
+        "My salary only lands at month end and the wallet is close to empty, so a fee is impossible this week.",
+        "I already use a work data line paid by my employer, so I have no reason to buy another bundle."
+      ],
+      "sources": [
+        "https://www.heraldonline.co.zw/zimbabwe-republic-police-warns-public-to-be-on-alert-for-mobile-money-fraud/",
+        "https://www.newzimbabwe.com/police-warn-against-rising-mobile-money-scams/"
+      ]
+    },
+    {
+      "id": "zw_whatsapp_ponzi_pyramid",
+      "typology": "investment_group_scam",
+      "name": "WhatsApp-based Ponzi or pyramid investment pitch",
+      "name_en": "WhatsApp-based Ponzi or pyramid investment pitch",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "investment club",
+        "double your money",
+        "recruit new members",
+        "WhatsApp group"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "returns of forty percent every month",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "bring two friends to unlock your payout",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "we have no office, everything runs in the group",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "Promoters invite people into WhatsApp or similar groups, promise profits no ordinary business could earn, and pay early members from new deposits or require them to recruit others before any payout.",
+      "legit_en": "The FIU warns that unregistered entities taking deposits, super-profit promises and schemes with no physical office are red flags, and SECZim says investors should ask for its licence before transacting.",
+      "bait_tactics": [
+        "Everything I save goes into the burial society this year, so there is nothing left to put into a group.",
+        "My WhatsApp storage is full and new group invites fail to open on this phone.",
+        "I only invest through the pension at work, and that office handles the forms for me."
+      ],
+      "sources": [
+        "https://www.fiu.co.zw/index.php/fiu-press-statement-on-ponzi-and-pyramid-schemes/",
+        "https://seczim.co.zw/wp-content/uploads/2025/07/Notice-to-Investors-Unlicensed-players-for-website-accepted-changes.pdf"
+      ]
+    }
+  ]
+}

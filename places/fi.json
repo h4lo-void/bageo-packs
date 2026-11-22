@@ -1,0 +1,792 @@
+{
+  "region": "fi",
+  "countries": [
+    "fi"
+  ],
+  "region_name_zh": "芬蘭",
+  "region_name": "Finland",
+  "languages": [
+    {
+      "code": "fi",
+      "use": "main"
+    },
+    {
+      "code": "sv",
+      "use": "secondary (coast, Åland)"
+    }
+  ],
+  "ai_language_tip": "Speak clear standard Finnish (fi); Swedish (sv) is the second national language and the majority language in Ostrobothnian coast towns and Åland, so switch if the owner answers in Swedish; English is very widely spoken, especially under 50.",
+  "english_ok": "yes — Very high English proficiency; elderly rural staff and some public services prefer Finnish or Swedish.",
+  "politeness": "Brief and neutral; 'te' (formal you) is rarely needed, polite neutral forms suffice; open with 'Hyvää päivää' or 'Moi' and say whom you call for; close with 'Kiitos, hei hei'. Silence on the line is normal, not rudeness.",
+  "name_tip": "First name + surname; surname alone is fine for a booking ('nimellä Virtanen'); Finnish adds case endings to names in speech (Virtaselle), so spell the base form letter by letter.",
+  "phone_tip": "Mobile 04x / 050 + 6–8 digits (e.g. 040 123 4567), Helsinki landline 09, +358; SMS confirmations normal.",
+  "time_tip": "TRAP: 'puoli kahdeksan' = 7:30 (half to eight); 'varttia vaille kahdeksan' = 7:45; times written with a dot ('klo 19.30'); read back in 24h.",
+  "number_tip": "Numbers take case endings in speech ('neljälle' = for four, 'kahdeksalta' = at eight); 'as. 12' is a flat number; read phone numbers in groups.",
+  "avoid_calling": "Avoid lunch 11:00–12:30 (Finns lunch early), dinner peak 17:30–19:30, calls after 19:00, weekends for offices, and July holiday season plus Juhannus (Midsummer) week when many firms close.",
+  "closed_days": "Shops may open on Sundays; public holidays close most businesses (e.g. Loppiainen 6 January, Good Friday, Easter Monday, Vappu 1 May, Ascension, Juhannus eve and day, 6 December, 24–26 December); July is the main holiday month.",
+  "booking_channels": "Terveystalo, Mehiläinen and Pihlajalinna apps/web for private health; terveysasema via phone callback or Omaolo; Timma-style booking pages for salons; restaurant web booking and phone; Wolt and Foodora for delivery; strong bank-ID (pankkitunnukset) for e-services.",
+  "voice_menu": "Health centres, Kela, Vero, banks, Posti and operators (Elisa, DNA, Telia) use IVR with callback options.",
+  "callback_habits": "Public health centres use callback (takaisinsoitto) instead of queues; booking systems send SMS reminders; small firms reply by SMS.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "馴鹿、哈士奇、極光與雪上摩托車行程可電話或線上預約；拉普蘭冬季行程需提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Lapland snowmobile safari needs a driving licence"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks prepayment to a private account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "芬蘭髮廊多用線上預約頁也接電話；晚取消可能收費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late-cancel fee inside 24 hours at the kampaamo"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks prepayment by transfer to a private account before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (hiustenleikkuu, värjäys, kynnet)",
+        "Hair length",
+        "Day, time and kampaaja",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；公立醫療未到或晚取消會收費（käyttämättä jätetty aika）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fee for an unused and uncancelled appointment"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks henkilötunnus to find the aika"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original aika",
+        "New time or peruutus",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立 terveysasema 多採電話回撥（takaisinsoitto）或 Omaolo 線上評估；私立 Terveystalo、Mehiläinen、Pihlajalinna 用 App 或電話預約；常問 Kela 卡與身分號碼（henkilötunnus）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Terveysasema leaves a callback time within the day"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private visit price with Kela reimbursement"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks henkilötunnus of the patient"
+        }
+      ],
+      "usually_asked": [
+        "Public terveysasema or private clinic",
+        "Symptoms and urgency",
+        "Patient henkilötunnus",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、Kela 客服有語音選單並以網銀身分驗證，第三人代打通常無法處理帳戶。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Elisa or bank line requires the holder's strong ID"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks henkilötunnus or bank-ID login"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Asiakasnumero",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務（Kela、Vero、DVV）多線上並以網銀身分登入；幼兒園（päiväkoti）申請至少四個月前經市政府網站。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "City e-service handles the päiväkoti application"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's henkilötunnus"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and municipality",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓地址含樓梯（rappu）、公寓號（as.）與門口密碼；工資可申請家務抵稅（kotitalousvähennys）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Kotitalousvähennys applied to labour costs"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Huoltoyhtiö key needed for the building"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands prepayment before the job"
+        }
+      ],
+      "usually_asked": [
+        "Trade (putkimies, sähkömies, lukkoseppä, siivous)",
+        "Address with rappu and as. number",
+        "Time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "度假小屋（mökki）、拉普蘭木屋與小旅館常電話或 Email 訂房；小屋常另收床單與清潔費（loppusiivous），桑拿是標配。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Mökki rental excludes linen and loppusiivous"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Key handover for late arrival"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee the stay"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and mökki or room",
+        "Linen, cleaning and sauna",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、庫存、可否帶狗等問題通常直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Card and contactless preferred, cash rare"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (aukiolo, kortti, koira)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（eläinlääkäri）與寵物美容可電話或線上預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Päivystys (emergency) fee at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Koirahoitola asks a deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Vaccination and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經 Oikotie、Vuokraovi 與市營租屋；押金（vakuus）通常一至三個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Landlord asks for an Oikotie application"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Vakuus paid before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（autokorjaamo）、冬胎更換（renkaanvaihto，冬季法定）與車檢（katsastus）多線上或電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vianetsintä (diagnostics) billed per hour"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Rengashotelli customers get an SMS slot"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks rekisterinumero and owner details"
+        }
+      ],
+      "usually_asked": [
+        "Rekisterinumero (plate)",
+        "Huolto, renkaanvaihto or katsastus",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "芬蘭餐廳多官網線上訂位也接電話；聖誕派對季（pikkujoulut）11–12 月很滿，午餐自助（lounas）不必訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Lounas buffet served without booking 10:30–14:00"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pikkujoulu group menu needs advance booking"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number for a no-show fee"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (klo 18.00)",
+        "Henkilömäärä (party size)",
+        "Name and mobile",
+        "Erikoisruokavaliot (diets) noted"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（apteekki）、麵包店與蛋糕店可電話預訂；較烈的酒只在 Alko 賣，可線上預訂到店取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Alko orders a bottle to a chosen store"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Bakery asks prepayment for a kakku"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Kakku size (hengelle)",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與烤肉（kebab）店接電話外帶（nouto）；外送多走 Wolt、Foodora。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kotiinkuljetus only via Wolt or Foodora"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Lunch price valid only on weekdays"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Nouto or kuljetus",
+        "Items and sizes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Posti、Matkahuolto、DB Schenker、Budbee 追蹤以 App 為主；包裹多送到包裹櫃（pakettiautomaatti）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Posti line points to the app and parcel locker"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the locker code from SMS"
+        }
+      ],
+      "usually_asked": [
+        "Lähetystunnus",
+        "Recipient name and phone",
+        "Pakettiautomaatti or home",
+        "Pickup deadline"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 App（Taksi Helsinki、Uber、Bolt 等）也可電話訂；鄉間需提前預約，機場接送可預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives car number and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Helsinki-Vantaa airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or ajokortti"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fi": {
+      "appointment_words": [
+        "varata aika",
+        "lääkäriaika",
+        "kampaamoaika",
+        "katsastus",
+        "kontrollikäynti"
+      ],
+      "booking_words": [
+        "pöytävaraus",
+        "varata pöytä",
+        "huonevaraus",
+        "majoitus aamiaisella",
+        "paikan varaus"
+      ],
+      "change_words": [
+        "siirtää aikaa",
+        "perua varaus",
+        "puoli tuntia myöhemmin",
+        "siirtää perjantaille",
+        "muuttaa varausta"
+      ],
+      "date": [
+        "huomenna",
+        "ylihuomenna",
+        "tänä perjantaina",
+        "ensi tiistaina",
+        "25.11.",
+        "lauantai-iltana"
+      ],
+      "false_friends": [
+        "3. krs",
+        "as. 12",
+        "B-rappu",
+        "annos nro 4",
+        "hieronta 60 min",
+        "ratikka 9"
+      ],
+      "inquiry_words": [
+        "kauanko keittiö on auki",
+        "käykö kortti",
+        "saako koiran tuoda",
+        "onko varastossa",
+        "aukioloajat"
+      ],
+      "name": [
+        "nimellä Virtanen",
+        "Matti Virtanen",
+        "Anna Korhonen",
+        "perhe Mäkinen",
+        "Nieminen"
+      ],
+      "order_words": [
+        "mukaan",
+        "nouto",
+        "kotiinkuljetus",
+        "laittaa sivuun",
+        "ennakkotilaus"
+      ],
+      "party": [
+        "pöytä neljälle",
+        "2 aikuista ja 1 lapsi",
+        "meitä on kolme",
+        "kahdelle hengelle",
+        "6 henkeä + syöttötuoli"
+      ],
+      "phone": [
+        "040 123 4567",
+        "+358 40 123 4567",
+        "soittakaa numeroon 050 123 4567",
+        "09 123 4567"
+      ],
+      "time": [
+        "puoli kahdeksalta illalla",
+        "klo 19.30",
+        "varttia yli kuusi",
+        "varttia vaille kahdeksan",
+        "lounasaikaan",
+        "noin kahdeksalta"
+      ]
+    },
+    "sv": {
+      "appointment_words": [
+        "boka tid",
+        "läkartid",
+        "frisörtid",
+        "besiktning",
+        "återbesök"
+      ],
+      "booking_words": [
+        "boka bord",
+        "bordsbokning",
+        "boka rum",
+        "logi med frukost",
+        "reservera plats"
+      ],
+      "change_words": [
+        "flytta tiden",
+        "avboka",
+        "en halvtimme senare",
+        "flytta till fredag",
+        "ändra bokningen"
+      ],
+      "date": [
+        "i morgon",
+        "i övermorgon",
+        "på fredag",
+        "nästa tisdag",
+        "25.11.",
+        "lördag kväll"
+      ],
+      "false_friends": [
+        "3 vån.",
+        "bost. 12",
+        "trappa B",
+        "rätt nr 4",
+        "massage 60 min",
+        "spårvagn 9"
+      ],
+      "inquiry_words": [
+        "hur länge är köket öppet",
+        "går det med kort",
+        "får man ha hund med",
+        "finns i lager",
+        "öppettider"
+      ],
+      "name": [
+        "i namnet Lindholm",
+        "Johan Lindqvist",
+        "Anna Holmström",
+        "familjen Nyman",
+        "Sjöberg"
+      ],
+      "order_words": [
+        "avhämtning",
+        "ta med",
+        "hemleverans",
+        "lägga undan",
+        "förhandsbeställning"
+      ],
+      "party": [
+        "bord för fyra",
+        "2 vuxna och 1 barn",
+        "vi är tre",
+        "för 2 personer",
+        "6 personer + barnstol"
+      ],
+      "phone": [
+        "040 123 4567",
+        "+358 40 123 4567",
+        "ring på 050 123 4567",
+        "018 12 345 (Åland)"
+      ],
+      "time": [
+        "halv åtta på kvällen",
+        "kl. 19.30",
+        "kvart över sex",
+        "kvart i åtta",
+        "vid lunch",
+        "kring åtta"
+      ]
+    }
+  }
+}

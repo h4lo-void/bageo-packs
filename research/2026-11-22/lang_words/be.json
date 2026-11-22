@@ -1,0 +1,138 @@
+{
+  "lang": "be",
+  "script": "cyrillic",
+  "common_words": [
+    "я",
+    "не",
+    "што",
+    "гэта",
+    "гэты",
+    "як",
+    "дзякуй",
+    "калі ласка",
+    "сёння",
+    "заўтра",
+    "ўчора",
+    "раніцай",
+    "вечарам",
+    "чаму",
+    "тут",
+    "хоча",
+    "трэба",
+    "няма",
+    "добра",
+    "прабачце",
+    "добры дзень",
+    "да пабачэння",
+    "замова",
+    "лекар",
+    "пакет",
+    "вельмі",
+    "нешта",
+    "яшчэ",
+    "можа",
+    "мы",
+    "вы",
+    "наш",
+    "ваш",
+    "ці",
+    "калі",
+    "ўжо",
+    "заўсёды",
+    "ніколі",
+    "нумар",
+    "адрас",
+    "спадар",
+    "спадарыня",
+    "тыдзень",
+    "месяц",
+    "раніца",
+    "вечар",
+    "пакуль",
+    "дык",
+    "толькі",
+    "можна"
+  ],
+  "frequency_source": "OPUS OpenSubtitles v2024 Belarusian word frequencies https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/be.freq.gz (the hermitdave FrequencyWords 2018 dump has no be file).",
+  "shared_words": [
+    {
+      "word": "не",
+      "also_in": [
+        "bg",
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "і",
+      "also_in": [
+        "bg",
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "на",
+      "also_in": [
+        "bg",
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "што",
+      "also_in": [
+        "mk"
+      ]
+    },
+    {
+      "word": "як",
+      "also_in": [
+        "uk"
+      ]
+    },
+    {
+      "word": "добра",
+      "also_in": [
+        "bg",
+        "mk",
+        "sr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ў",
+    "і"
+  ],
+  "confusable_with": [
+    "bg",
+    "mk",
+    "sr"
+  ],
+  "how_to_tell_apart": "Belarusian Cyrillic is usually obvious from the letter ў and from і in place of и, together with words such as дзякуй, сёння, заўтра, калі ласка, гэта, чаму, трэба, няма and да пабачэння. It does not use Bulgarian ъ/щ, Macedonian ѓ/ќ/ѕ or Serbian ђ/ћ. Russian and Ukrainian are outside this task, but they are the real nearest neighbours: Ukrainian also has і, so ў and дзякуй/сёння are the safer cues if those languages might appear.",
+  "test_said": [
+    "У ЖКГ хочу паведаміць што ў пад'ездзе зноў не гарыць святло на пляцоўцы.",
+    "Паштомат каля крамы не прыняў код з смс і скрынка засталася закрытай.",
+    "Мэблю прывезлі без адной шуфляды і скрыня была падраная збоку.",
+    "У стаматолага прашу тэрміновы прыём бо адламаўся кавалак зуба.",
+    "Аналізы з паліклінікі мелі быць гатовыя яшчэ ў пятніцу і іх няма.",
+    "Крэдыт праз тэлефон мне не патрэбны і дамову я падпісваць не буду.",
+    "Хатні інтэрнэт мяняць не збіраюся і новы тарыф мне не цікавы.",
+    "Лічыльнік на ваду ўжо перададзены і паўторна званіць па гэтым не трэба."
+  ],
+  "test_not_enough": [
+    "Насця",
+    "ok",
+    "тры",
+    "вайфай"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/be.freq.gz",
+    "https://en.wikipedia.org/wiki/Belarusian_alphabet",
+    "https://en.wikipedia.org/wiki/Belarusian_orthography"
+  ],
+  "uncertain": [
+    "The official FrequencyWords 2018 collection has no Belarusian list; OpenSubtitles v2024 was used instead and may still contain occasional Russian lines, which were avoided when choosing distinctive words.",
+    "і also belongs to Ukrainian, which is not in this todo list, so ў is the more distinctive letter inside and beyond the current five-language set."
+  ]
+}

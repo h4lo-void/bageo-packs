@@ -1,0 +1,445 @@
+{
+  "region": "ee",
+  "vocab": {
+    "et": {
+      "bank": [
+        {
+          "term": "Smart-ID",
+          "en": "the most common app login for banks and, since early 2026, state services via Smart-ID+"
+        },
+        {
+          "term": "ID-kaart",
+          "en": "the chip ID also used as a bank and state login with a card reader"
+        },
+        {
+          "term": "Mobiil-ID",
+          "en": "SIM-based login, still used though less often than Smart-ID"
+        },
+        {
+          "term": "pangakaart",
+          "en": "a bank card"
+        },
+        {
+          "term": "ülekanne",
+          "en": "an ülekanne between Estonian bank accounts, usually authorised with Smart-ID"
+        },
+        {
+          "term": "internetipank",
+          "en": "the internetipank, typically opened with Smart-ID or an ID-kaart"
+        },
+        {
+          "term": "kontojääk",
+          "en": "the balance, also saldo"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "pakiautomaat",
+          "en": "a parcel locker"
+        },
+        {
+          "term": "Omniva",
+          "en": "the national post and a major locker network"
+        },
+        {
+          "term": "Smartposti",
+          "en": "Posti's locker brand, widely used in Estonia as well"
+        },
+        {
+          "term": "uksekood",
+          "en": "the locker code from SMS or the carrier app"
+        },
+        {
+          "term": "naaber",
+          "en": "the naaber, a common fallback if an Omniva or Smartposti locker is missed"
+        },
+        {
+          "term": "ukse taha",
+          "en": "left at the door"
+        },
+        {
+          "term": "kuller",
+          "en": "the courier"
+        }
+      ],
+      "government": [
+        {
+          "term": "eesti.ee",
+          "en": "the state portal"
+        },
+        {
+          "term": "isikukood",
+          "en": "the personal ID code; do not speak it aloud unless {owner} asks you to confirm it"
+        },
+        {
+          "term": "Maksu- ja Tolliamet",
+          "en": "the tax and customs board, also MTA"
+        },
+        {
+          "term": "ID-kaart",
+          "en": "the national ID"
+        },
+        {
+          "term": "pass",
+          "en": "an Estonian pass"
+        },
+        {
+          "term": "juhiluba",
+          "en": "an Estonian juhiluba"
+        },
+        {
+          "term": "e-resident",
+          "en": "relevant only if the caller is an e-resident, not a default for people living in Estonia"
+        }
+      ],
+      "health": [
+        {
+          "term": "perearst",
+          "en": "the family doctor"
+        },
+        {
+          "term": "apteek",
+          "en": "an apteek, where an e-retsept is filled"
+        },
+        {
+          "term": "retsept",
+          "en": "a prescription, also e-retsept"
+        },
+        {
+          "term": "Tervisekassa",
+          "en": "the health insurance fund, still called Haigekassa by some older callers"
+        },
+        {
+          "term": "Terviseportaal",
+          "en": "the national health portal, entered with Smart-ID or the ID-card"
+        },
+        {
+          "term": "erakorraline",
+          "en": "emergency care, also EMO"
+        },
+        {
+          "term": "haigekassa kaart",
+          "en": "the old name some people still use for insurance cover"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pakett",
+          "en": "a mobile pakett with Telia, Elisa or Tele2"
+        },
+        {
+          "term": "kõnekaart",
+          "en": "a kõnekaart, prepaid credit on an Estonian number"
+        },
+        {
+          "term": "numbri ülekandmine",
+          "en": "numbri ülekandmine, taking the number to another Estonian operaator"
+        },
+        {
+          "term": "SIM-kaart",
+          "en": "an Estonian SIM-kaart"
+        },
+        {
+          "term": "operaator",
+          "en": "the operator, often Telia, Elisa or Tele2"
+        },
+        {
+          "term": "andmeside",
+          "en": "andmeside, mobile data on an Estonian pakett"
+        },
+        {
+          "term": "internetiühendus",
+          "en": "internetiühendus, a home line often from Telia, Elisa or Tele2"
+        }
+      ],
+      "payment": [
+        {
+          "term": "pangakaart",
+          "en": "card payment"
+        },
+        {
+          "term": "sularaha",
+          "en": "sularaha in euro, used less than a pangakaart"
+        },
+        {
+          "term": "ülekanne",
+          "en": "an ülekanne to pay a bill in the internetipank"
+        },
+        {
+          "term": "järelmaks",
+          "en": "instalments, common in larger shops"
+        },
+        {
+          "term": "kontaktivaba",
+          "en": "contactless"
+        },
+        {
+          "term": "arve",
+          "en": "an invoice or the bill"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "phone-wallet payment"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Ühiskaart",
+          "en": "Tallinn's travel card; other counties have their own tickets"
+        },
+        {
+          "term": "rong",
+          "en": "a train, often Elron"
+        },
+        {
+          "term": "buss",
+          "en": "a buss, in Tallinn often tapped with an Ühiskaart"
+        },
+        {
+          "term": "tramm",
+          "en": "a tram in Tallinn"
+        },
+        {
+          "term": "troll",
+          "en": "a trolleybus in Tallinn"
+        },
+        {
+          "term": "takso",
+          "en": "a takso, in Tallinn also often a Bolt"
+        },
+        {
+          "term": "pilet",
+          "en": "a pilet for an Elron rong, a buss or city travel"
+        },
+        {
+          "term": "jaam",
+          "en": "a station, also bussijaam"
+        }
+      ],
+      "housing": [
+        {
+          "term": "korter",
+          "en": "a korter in a typical Estonian block, usually under a korteriühistu"
+        },
+        {
+          "term": "trepikoda",
+          "en": "the trepikoda of an Estonian korter building"
+        },
+        {
+          "term": "uksekell",
+          "en": "the uksekell at the trepikoda"
+        },
+        {
+          "term": "postkast",
+          "en": "the postkast in the trepikoda, not an Omniva locker"
+        },
+        {
+          "term": "üür",
+          "en": "the üür for a korter"
+        },
+        {
+          "term": "korteriühistu",
+          "en": "the apartment association"
+        },
+        {
+          "term": "majahoidja",
+          "en": "a caretaker, not present in every building"
+        },
+        {
+          "term": "võtmekapp",
+          "en": "a key box, sometimes used for deliveries or Airbnb-style access"
+        }
+      ],
+      "school": [
+        {
+          "term": "lasteaed",
+          "en": "lasteaed, before põhikool"
+        },
+        {
+          "term": "põhikool",
+          "en": "basic school"
+        },
+        {
+          "term": "gümnaasium",
+          "en": "gümnaasium, the Estonian upper-secondary school after põhikool"
+        },
+        {
+          "term": "kutsekool",
+          "en": "kutsekool, a vocational school after põhikool"
+        },
+        {
+          "term": "kodutöö",
+          "en": "kodutöö from a põhikool or gümnaasium"
+        },
+        {
+          "term": "klassijuhataja",
+          "en": "the klassijuhataja, the form teacher at a põhikool or gümnaasium"
+        },
+        {
+          "term": "huviring",
+          "en": "an after-school club or hobby group"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "euro, also eurot in spoken amounts"
+        },
+        {
+          "term": "sent",
+          "en": "a cent"
+        },
+        {
+          "term": "sularaha",
+          "en": "sularaha in euro, used less than a pangakaart"
+        },
+        {
+          "term": "tagasi",
+          "en": "the tagasi, the euro coins handed back"
+        },
+        {
+          "term": "summa",
+          "en": "the summa in euro on an Estonian bill or in the internetipank"
+        },
+        {
+          "term": "tuhat",
+          "en": "tuhat eurot, a thousand euros in Estonian speech"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "hommikul",
+          "en": "hommikul, the morning"
+        },
+        {
+          "term": "pärastlõunal",
+          "en": "pärastlõunal, after midday"
+        },
+        {
+          "term": "õhtul",
+          "en": "õhtul, in the evening"
+        },
+        {
+          "term": "tööpäev",
+          "en": "a tööpäev, an Estonian weekday"
+        },
+        {
+          "term": "nädalavahetus",
+          "en": "nädalavahetus, Saturday and Sunday"
+        },
+        {
+          "term": "pärast tööd",
+          "en": "pärast tööd, once the working day ends"
+        },
+        {
+          "term": "sel nädalal",
+          "en": "sel nädalal, the current week"
+        },
+        {
+          "term": "homme hommikul",
+          "en": "homme hommikul, the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "töö",
+          "en": "töö, the everyday Estonian word for a job"
+        },
+        {
+          "term": "ületunnid",
+          "en": "ületunnid, extra hours beyond the normal tööpäev"
+        },
+        {
+          "term": "puhkus",
+          "en": "puhkus, the yearly leave"
+        },
+        {
+          "term": "haigusleht",
+          "en": "a sick note or sick leave"
+        },
+        {
+          "term": "ülemus",
+          "en": "the manager, also juht"
+        },
+        {
+          "term": "kodukontor",
+          "en": "working from home, also kaugtöö"
+        },
+        {
+          "term": "lähetus",
+          "en": "a lähetus, a work trip"
+        },
+        {
+          "term": "palk",
+          "en": "the palk, usually paid to an Estonian bank account"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "BankID",
+      "use_instead": "Smart-ID, ID-kaart, Mobiil-ID",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "Smart-ID, ID-kaart",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Omniva 講成拉脫維亞專屬品牌而排除愛沙尼亞",
+      "use_instead": "Omniva 在愛沙尼亞也是國家郵政與櫃機品牌",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "ülekanne, pangakaart",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "ülekanne",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Haigekassa 當唯一現行官方名",
+      "use_instead": "Tervisekassa（不少人仍說 Haigekassa）",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "pakiautomaat, Omniva, Smartposti",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "personnummer",
+      "use_instead": "isikukood",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "emag 羅馬尼亞用法",
+      "use_instead": "Omniva, Smartposti",
+      "where_it_is_from": "RO"
+    },
+    {
+      "word": "不要為愛沙尼亞預設俄語對答",
+      "use_instead": "先用愛沙尼亞語，除非來電者改用其他語言",
+      "where_it_is_from": "EE"
+    }
+  ],
+  "sources": [
+    "https://ria.ee/smart-id-ga-sisenemine-riigi-e-teenustesse",
+    "https://ria.ee/uudised/tanasest-riigi-autentimisteenuses-kasutusel-smart-id",
+    "https://www.smart-id.com/et/e-teenused/",
+    "https://www.eesti.ee/",
+    "https://www.omniva.ee/",
+    "https://www.smartposti.ee/",
+    "https://www.tervisekassa.ee/"
+  ],
+  "uncertain": [
+    "2026 年 2 月起國家服務改用 Smart-ID+（手機開 App 或電腦掃動態 QR），年長來電者仍可能只說「用 Smart-ID 登入」。",
+    "健康保險基金正式名是 Tervisekassa，不少人仍稱 Haigekassa。",
+    "Ühiskaart 主要是塔林及其週邊，其他縣市票證不同。"
+  ]
+}

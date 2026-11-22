@@ -1,0 +1,83 @@
+{
+  "country": "mc",
+  "parent": "fr",
+  "name": {
+    "en": "Monaco",
+    "native": "Monaco",
+    "zh": "摩納哥"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Oui, allô ?"
+  },
+  "delivery": {
+    "en": "Parcels: the concierge or gardien, a reception desk, or the letterbox",
+    "zh": "包裹交給 concierge、管理員、接待處，或放進信箱"
+  },
+  "readback": {
+    "en": "8-digit +377 numbers go in pairs; 0 as zéro; day-month dates; euros",
+    "zh": "加 377 的八位號碼兩位一組唸，0 唸 zéro；日期先日後月；用歐元"
+  },
+  "fraud": {
+    "en": "A fake bank or courier asking for a card, a secret code or a parcel fee is a scam",
+    "zh": "假冒銀行或快遞要卡號、密碼或補包裹費的都是詐騙"
+  },
+  "habits": {
+    "en": "Vous by default with strangers; tu only once offered. Standard French. Do not treat Monaco as a French département.",
+    "zh": "對陌生人更穩地預設 vous，對方明確改 tu 再跟上。用法國本土標準法語。不要把摩納哥說成法國的省。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the concierge being busy, garage-access rules, or a banking app spinning.",
+    "zh": "卡在管理員正忙、車庫進出規定，或銀行 App 一直轉。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "virement",
+      "appli bancaire",
+      "code secret"
+    ],
+    "delivery": [
+      "concierge",
+      "gardien",
+      "accueil",
+      "boîte aux lettres"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "en France／把摩納哥當法國本土",
+      "reason": {
+        "zh": "摩納哥是獨立國家，電話國碼也不同，不能當成法國的省來說。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift one notch more formal than the parent: keep vous longer at levels 1–3, and only take tu once clearly offered. Levels 4–5 stay refined vous, concise and polished, with little small talk.",
+    "zh": "比所屬地區再正式一檔：1～3 格更久維持 vous，對方明確改 tu 再跟上。4～5 格用精煉 vous，少閒聊。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Monaco",
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "未找到只針對摩納哥的官方電話詐騙專頁，詐騙欄借用法國常見的銀行／包裹手法，可能不夠在地。",
+    "八位號碼兩位一組依常見書寫，未找到摩納哥電信官方唸法規範。",
+    "義語、蒙納哥語在電話裡的實際比例未核對；本檔仍以法語為 AI 用語。"
+  ]
+}

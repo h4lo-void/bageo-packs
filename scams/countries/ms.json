@@ -1,0 +1,47 @@
+{
+  "name": "Montserrat",
+  "name_local": "Montserrat",
+  "iso": "ms",
+  "calling_code": "+1-664",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "No Montserrat police scam bulletin was found; the ECCB's warning to ECCU residents, Montserrat included, about prize and investment frauds is the main official reference.",
+  "cross_border_note": "Montserrat (+1-664) shares the NANP, so calls from other Eastern Caribbean islands or North America can look local.",
+  "scams": [
+    {
+      "id": "ms_eccb_flagged_offer",
+      "typology": "investment_group_scam",
+      "name": "ECCB-flagged prize or investment offer",
+      "name_en": "Prize or investment pitch reaching Montserrat residents as flagged by the ECCB",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "investment opportunity",
+        "prize award",
+        "transfer fee"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money to unlock",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "limited-time offer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone pitches a prize or a fast-return investment to a Montserratian and asks for an upfront transfer.",
+      "legit_en": "The ECCB advises verifying any offer with licensed institutions and never paying fees in advance.",
+      "bait_tactics": [
+        "Ask which ECCU regulator licensed them and ask for it in writing",
+        "Say any money matter goes through the bank branch in Brades"
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+      ]
+    }
+  ]
+}

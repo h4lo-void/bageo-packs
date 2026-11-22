@@ -1,0 +1,85 @@
+{
+  "country": "sd",
+  "parent": "eg",
+  "name": {
+    "en": "Sudan",
+    "native": "السودان",
+    "zh": "蘇丹"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "آلو؟",
+    "hello_again": "آلو، بتسمعني؟"
+  },
+  "delivery": {
+    "en": "Leave it at the door or with a neighbour, or collect from a Sudanese post or courier office",
+    "zh": "放門口或交鄰居，或到蘇丹郵局、快遞點領取"
+  },
+  "readback": {
+    "en": "09 mobiles go in short groups; amounts in Sudanese pounds, not Cairo number patterns",
+    "zh": "手機常以 09 開頭、分短組唸；金額用蘇丹鎊，不要套用開羅唸法"
+  },
+  "fraud": {
+    "en": "A fake Bankak staff OTP or login request, or a parcel fee, is a scam",
+    "zh": "冒充 Bankak 職員要驗證碼或登入資料，或要補包裹費的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Sudanese Arabic and formal address with strangers. Do not use Egyptian InstaPay or Vodafone Cash.",
+    "zh": "用蘇丹阿拉伯語，對陌生人保持敬語。不用埃及的 InstaPay、Vodafone Cash。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Bankak hanging, no signal so the code never comes, missing glasses, or a power cut.",
+    "zh": "卡在 Bankak App 卡住、沒訊號簡訊碼沒到、找不到眼鏡或停電。"
+  },
+  "vocab": {
+    "bank": [
+      "Bankak",
+      "OTP",
+      "فوري"
+    ],
+    "delivery": [
+      "الباب",
+      "الجيران",
+      "مكتب البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "InstaPay",
+      "reason": {
+        "en": "Egyptian instant-payment service",
+        "zh": "埃及即時付款服務"
+      }
+    },
+    {
+      "word": "Vodafone Cash",
+      "reason": {
+        "en": "Egyptian mobile-money brand",
+        "zh": "埃及行動錢包品牌"
+      }
+    },
+    {
+      "word": "أمن الكمبوند",
+      "reason": {
+        "en": "Cairo compound-security wording; not the usual Sudan delivery setting",
+        "zh": "開羅社區保全說法，不是蘇丹常見投遞場景"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Stay in Sudanese Arabic, not Egyptian colloquial. Keep blessings brief and address strangers formally.",
+    "zh": "用蘇丹阿拉伯語，不用埃及口語。祝福要短，對陌生人保持正式。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://bankofkhartoum.com/sudan/news-detail/stay-protected-from-banking-fraud",
+    "https://bankofkhartoum.com/sudan/security-tips",
+    "https://www.sudanakhbar.com/1811888"
+  ],
+  "uncertain": [
+    "接聽用 آلو 是依蘇丹口語習慣；與 ألو 的使用比例未找到官方說明。",
+    "除喀土穆部分公寓外，門房／社區保全是否普遍無法確認。",
+    "فوري 曾與 Bankak 一同出現在防詐報導中，其日常叫法是否統一仍有不確定。",
+    "投遞欄改寫為點出蘇丹郵局／快遞點；門房是否普遍仍缺資料，見既有 uncertain。"
+  ]
+}

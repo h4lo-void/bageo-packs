@@ -1,0 +1,62 @@
+{
+  "name": "Christmas Island",
+  "name_local": "Christmas Island / Pulau Natal",
+  "iso": "cx",
+  "calling_code": "+61",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The same WA Consumer Protection arrangement that covers the Indian Ocean Territories explicitly invites people ringing from Christmas Island to say so, and points scam reports to WA ScamNet. Multilingual 'Look out for scams' posters in Chinese and Malay were issued for these Territories; that shows official education work, not a published island crime dashboard.",
+  "cross_border_note": "Christmas Island also sits on +61. Because Perth-based officers handle many consumer questions, a call that appears to come from Western Australia may still be a mainland scammer, and a local resident should still be told to use official gov.au addresses only.",
+  "scams": [
+    {
+      "id": "cx_nasc_investment_and_crypto_lure",
+      "typology": "investment_group_scam",
+      "name": "Scamwatch investment or crypto lure sold as a low-risk high return",
+      "name_en": "ACCC Scamwatch investment typologies that apply to Australian territories, including fake platforms, celebrity deepfakes and withdrawal-fee traps",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "National Anti-Scam Centre",
+        "Christmas Island consumer complaint",
+        "AFS licence check",
+        "Moneysmart investor alert list"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "guaranteed return with almost no risk",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay a withdrawal fee to release profits",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "the adviser needs no AFS licence",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "celebrity told you to buy this coin",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Scamwatch, which the National Anti-Scam Centre runs for Australia including the external territories, describes pitches that promise large, low-risk payouts, often through a fake trading site, a social-media 'romance baiting' chat moved onto a private app, an AI celebrity endorsement, or a later demand for a fee before funds can be withdrawn.",
+      "legit_en": "A lawful offer of financial advice in Australia, including Christmas Island, comes from a holder of an Australian financial services licence who can be looked up on ASIC registers. Real platforms do not invent a last-minute tax or release fee to unlock the client's own money.",
+      "bait_tactics": [
+        "Ask for the AFS licence number and say it will be verified on the ASIC registers, not on any site the caller sends.",
+        "Refuse to move the discussion from a government or bank app onto WhatsApp, LINE or a private 'trading room'.",
+        "If a withdrawal charge is demanded, say any genuine tax would be settled through an authorised Australian institution, not a privately held purse or a crypto ATM."
+      ],
+      "sources": [
+        "https://www.consumerprotection.wa.gov.au/indian-ocean-territories-christmas-and-cocos-keeling-islands",
+        "https://www.scamwatch.gov.au/types-of-scams/investment-scams",
+        "https://www.scamwatch.gov.au/about-us/about-scamwatch",
+        "https://www.accc.gov.au/consumers/stay-protected/scams"
+      ]
+    }
+  ]
+}

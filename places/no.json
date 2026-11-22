@@ -1,0 +1,709 @@
+{
+  "region": "no",
+  "countries": [
+    "no",
+    "bv",
+    "sj"
+  ],
+  "region_name_zh": "挪威",
+  "region_name": "Norway",
+  "languages": [
+    {
+      "code": "nb",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear Bokmål Norwegian (nb); listeners use many dialects and some write Nynorsk (nn, west coast) but understand Bokmål; English is excellent nationwide and accepted, though fastlege offices and NAV prefer Norwegian.",
+  "english_ok": "yes — Very high English nationwide; only some elderly or rural staff prefer Norwegian.",
+  "politeness": "Informal 'du' is standard; open with 'Hei' or 'God dag' and say whom you call for; close with 'Takk, ha det'. Direct and brief.",
+  "name_tip": "First name + surname, informal; surname alone works for a booking ('på navnet Hansen'); spell foreign names letter by letter.",
+  "phone_tip": "All numbers are 8 digits with no trunk 0 (mobiles start with 4 or 9), +47; read as 3-2-3 or in pairs; Vipps is tied to the mobile number.",
+  "time_tip": "TRAP: 'halv åtte' = 7:30; 'kvart på åtte' = 7:45; dinner is often at 17:00; times written 'kl. 19.30'; read back in 24h.",
+  "number_tip": "Older speakers may say numbers the old way ('fem og tjue' = 25) instead of 'tjuefem'; phone numbers are read in pairs; 'H0302' is a flat code (floor 3, flat 2), not a count.",
+  "avoid_calling": "Avoid lunch 11:00–12:30, dinner peak 17:00–19:30 (Norwegians eat early), calls after 19:00, and Sundays; fellesferie in July closes many small firms for weeks.",
+  "closed_days": "Most shops closed on Sundays and public holidays by law (small grocery shops and petrol stations excepted); Easter week (Maundy Thursday to Easter Monday), 1 and 17 May, Ascension, Whit Monday and Christmas close businesses; July fellesferie.",
+  "booking_channels": "Helsenorge.no for fastlege appointments and messages; Vipps for payments; restaurant web booking and phone; Timely-style booking pages for salons; Foodora and Wolt for delivery; Finn.no for property, jobs and second-hand.",
+  "voice_menu": "Helsenorge, NAV, Skatteetaten, banks and operators (Telenor, Telia) use IVR; banks verify with BankID.",
+  "callback_habits": "Fastlege offices use callback and Helsenorge messages; booking systems send SMS reminders; small businesses reply by SMS.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "峽灣遊船、極光、狗拉雪橇與冰川健行可電話或線上預約；夏季峽灣與冬季北部行程要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Glacier hikes need a guide and minimum age"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks Vipps prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Activity and fitness level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "挪威髮廊多用線上預約頁，也接電話；晚取消常收費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "No-show fee charged via Vipps or card"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks Vipps prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Service (klipp, farge, negler)",
+        "Hair length",
+        "Day, time and frisør",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；醫療預約 24 小時內未取消會收未到費（ikke-møtt-gebyr）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Ikke-møtt-gebyr for a missed fastlege time"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Legekontor asks fødselsnummer to find the time"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original time",
+        "New time or avbestilling",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "每人有固定家醫（fastlege），預約多經 Helsenorge 或電話，非緊急病症常排數天；夜間急症改找 legevakt（全國急診電話）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Fastlege offers a Helsenorge e-konsultasjon"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fastlege list full, patient must change GP via Helsenorge"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks fødselsnummer (11-digit ID)"
+        }
+      ],
+      "usually_asked": [
+        "Is the patient on this fastlege list",
+        "Reason and urgency",
+        "Patient fødselsnummer",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、NAV 客服有語音選單並以 BankID 核身，第三人代打通常無法處理帳戶。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telenor or bank line requires the holder's BankID"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks fødselsnummer or BankID login"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "BankID holder check",
+        "Kundenummer",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務（NAV、Skatteetaten、kommune）多線上並以 BankID 登入；幼兒園（barnehage）申請經市政府網站有固定期。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kommune website handles the barnehage application"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's fødselsnummer"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and kommune",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓地址含樓層、門號與門鈴名；師傅（håndverker）工時貴，常先問照片與報價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Oppmøtegebyr (callout) plus hourly rate"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parking for the van in the city centre"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands prepayment before the job"
+        }
+      ],
+      "usually_asked": [
+        "Trade (rørlegger, elektriker, låsesmed, vask)",
+        "Address, floor and leilighet code",
+        "Time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "山區小屋（hytte）、漁村小屋（rorbu）與小旅館常電話或 Email 訂房；小屋常需自備床單或付清潔費（vask）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hytte rental excludes linen and final vask"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Late check-in key box code"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee the stay"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and hytte or room",
+        "Linen, cleaning and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、Vipps、庫存、可否帶狗等問題通常直接回答；許多地方不收現金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Card and Vipps only, no cash"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (åpningstider, kort, Vipps, hund)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinær）與寵物美容可電話或線上預約；入境挪威寵物需晶片並符合除蟲規定。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dyrlegevakt (emergency) fee at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Hundepensjonat asks Vipps deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Vaccination and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋與買房多經 Finn.no，看房常是固定開放時段（visning）；押金（depositum）存入專戶，最多六個月租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Landlord lists a fixed visning time on Finn.no"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Depositum paid to a private account instead of a depositumskonto"
+        }
+      ],
+      "usually_asked": [
+        "Finn-kode or address",
+        "Household and move-in",
+        "Budget",
+        "Visning time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（bilverksted）、春秋換胎（dekkskift）與兩年一次車檢（EU-kontroll）多線上或電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Feilsøking (diagnostics) billed per hour"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Dekkhotell customers get an SMS slot offer"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks registreringsnummer and owner fødselsnummer"
+        }
+      ],
+      "usually_asked": [
+        "Registreringsnummer (plate)",
+        "Service, dekkskift or EU-kontroll",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "挪威餐廳多官網線上訂位也接電話；聖誕季公司聚餐（julebord）11–12 月很滿，需提早並預付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Julebord season fully booked in November and December"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table kept for two hours (bordtid)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number for a no-show fee guarantee"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (kl. 18.00)",
+        "Antall personer (party size)",
+        "Name and mobile",
+        "Allergier noted at booking"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（apotek）、麵包店與蛋糕店可電話預訂；酒精濃度較高的酒只在 Vinmonopolet 賣；週日多數商店不營業。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Vinmonopolet orders a bottle to a chosen store"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Bakery asks Vipps prepayment for a kake"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Kake size (stykker)",
+        "Pickup before Sunday closure",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與外帶店接電話自取（hente selv）；外送多走 Foodora、Wolt；付款常用 Vipps。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Vipps or card accepted on pickup"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Takeaway VAT lower than eat-in price"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Hente selv or levering",
+        "Items and sizes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Posten/Bring、PostNord、Helthjem 追蹤以 App 為主；包裹多送到代收點或包裹櫃（pakkeboks）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Posten line points to the app and pakkeboks"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the pickup code or BankID for ID check"
+        }
+      ],
+      "usually_asked": [
+        "Sporingsnummer",
+        "Recipient name and phone",
+        "Pakkeboks, utleveringssted or home",
+        "Pickup deadline"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車可電話或 App（Oslo Taxi、Norgestaxi、Uber、Bolt）預約；機場固定價要先問，鄉間常需提前預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher confirms fastpris to Gardermoen"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rural taxi must be pre-booked"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or førerkort"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "nb": {
+      "appointment_words": [
+        "bestille time",
+        "time hos fastlegen",
+        "frisørtime",
+        "EU-kontroll av bilen",
+        "kontrolltime"
+      ],
+      "booking_words": [
+        "bestille bord",
+        "bordbestilling",
+        "bestille rom",
+        "overnatting med frokost",
+        "reservere plass"
+      ],
+      "change_words": [
+        "flytte timen",
+        "avbestille bordet",
+        "en halvtime senere",
+        "flytte til fredag",
+        "endre bestillingen"
+      ],
+      "date": [
+        "i morgen",
+        "i overmorgen",
+        "på fredag",
+        "neste tirsdag",
+        "25.11.",
+        "lørdag kveld"
+      ],
+      "false_friends": [
+        "3. etasje",
+        "leil. H0302",
+        "oppgang B",
+        "rett nr. 4",
+        "massasje 60 min",
+        "trikk 17"
+      ],
+      "inquiry_words": [
+        "hvor lenge er kjøkkenet åpent",
+        "tar dere kort",
+        "er hund tillatt",
+        "har dere på lager",
+        "åpningstider"
+      ],
+      "name": [
+        "på navnet Hansen",
+        "Ola Nordmann",
+        "Kari Nordmann",
+        "familien Olsen",
+        "Berg"
+      ],
+      "order_words": [
+        "ta med",
+        "hente selv",
+        "levering hjem",
+        "legge av",
+        "forhåndsbestille"
+      ],
+      "party": [
+        "bord til 4",
+        "2 voksne og 1 barn",
+        "vi er tre",
+        "for 2 personer",
+        "6 personer + barnestol"
+      ],
+      "phone": [
+        "123 45 678",
+        "+47 123 45 678",
+        "ring tilbake på 123 45 678",
+        "Vipps til 123 45 678"
+      ],
+      "time": [
+        "halv åtte i kveld",
+        "kl. 19.30",
+        "kvart over seks",
+        "kvart på åtte",
+        "til lunsj",
+        "rundt 20"
+      ]
+    }
+  }
+}

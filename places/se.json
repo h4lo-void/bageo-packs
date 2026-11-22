@@ -1,0 +1,709 @@
+{
+  "region": "se",
+  "countries": [
+    "se",
+    "ax"
+  ],
+  "region_name_zh": "瑞典",
+  "region_name": "Sweden",
+  "languages": [
+    {
+      "code": "sv",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite Swedish (sv); almost everyone under 60 speaks good English and switching is accepted, but healthcare (1177/vårdcentral) and authorities prefer Swedish; Finnish is used in some northern areas.",
+  "english_ok": "yes — Very high proficiency nationwide; only older staff in rural areas or formal authority lines may prefer Swedish.",
+  "politeness": "Informal 'du' is standard even with strangers; open with 'Hej' and say whom you call for; close with 'Tack, hej då'. Polite but brief and to the point.",
+  "name_tip": "First name + surname; very informal culture, surname alone is enough for a booking ('i namnet Andersson'); spell foreign names letter by letter, using the Swedish spelling alphabet if needed.",
+  "phone_tip": "Mobile 07x-xxx xx xx (10 digits with 0), Stockholm landline 08-xxx xxx xx, +46; Swish payment uses the mobile number.",
+  "time_tip": "TRAP: 'halv åtta' = 7:30 (half to eight); 'kvart i åtta' = 7:45; times written with a dot ('kl. 19.30'); read back in 24h.",
+  "number_tip": "Read phone numbers in pairs or groups ('noll sju noll...'); 'lgh 1102' is a Swedish flat number (floor 11, flat 02), not a quantity; '3 tr' = third floor.",
+  "avoid_calling": "Avoid lunch 11:30–13:00, dinner peak 18:00–20:00, calls after 19:00 and weekends for offices; July is industrial holiday (semester) when many small businesses close or reduce hours.",
+  "closed_days": "Shops open on Sundays (shorter hours); midsommarafton, julafton and nyårsafton close most offices; public holidays (e.g. Ascension, 6 June, Midsommardagen, Alla helgons dag); many small businesses close for weeks in July.",
+  "booking_channels": "1177.se and regional apps for healthcare, plus Kry/Doktor24 digital care; Bokadirekt for salons and massage; restaurants via own web booking (often Waiteraid or similar) and phone; Foodora, Wolt and Uber Eats for delivery; BankID logs in to almost everything.",
+  "voice_menu": "1177, vårdcentraler, Försäkringskassan, Skatteverket, banks and operators (Telia, Tele2, Telenor) use IVR, often with callback offers instead of holding.",
+  "callback_habits": "Vårdcentraler use callback queues (återuppringning) instead of holding; booking systems send SMS/email reminders; small businesses reply by SMS.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "獨木舟、滑雪學校、極光與哈士奇行程可電話或線上預約；北部冬季行程需提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Husky tours in Lapland sold out weeks ahead in winter"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks Swish prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "瑞典髮廊、按摩多用 Bokadirekt 線上預約，也接電話；24 小時內取消常收費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bokadirekt late-cancellation fee inside 24 hours"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks Swish prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Service (klippning, färgning, naglar)",
+        "Hair length",
+        "Day, time and frisör",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；醫療預約未到或晚取消會收費（uteblivet besök）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fee for uteblivet besök (missed visit)"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Vårdcentral asks personnummer to find the tid"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original tid",
+        "New time or avbokning",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫療先打 1177 或所屬 vårdcentral，常是排隊回電（återuppringning）；也可用 1177 App 或 Kry 等數位門診；需個人號碼（personnummer）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Vårdcentral offers a callback time instead of a queue"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Digital visit via Kry suggested for minor issues"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personnummer of the patient"
+        }
+      ],
+      "usually_asked": [
+        "Symptoms and how long (besvär)",
+        "Listed at this vårdcentral or not",
+        "Patient personnummer",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、政府機關客服有語音選單並以 BankID 核身，第三人代打通常無法處理帳戶。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank or Telia line requires the holder's BankID"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personnummer or BankID login"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "BankID holder check",
+        "Kundnummer",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府機關（Skatteverket、Försäkringskassan）多走線上與 BankID；學校與幼兒園（förskola）排隊報名經市政府網站。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kommun e-service handles the förskola queue"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's personnummer"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and kommun",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓地址含門口密碼（portkod）、樓層（tr）與公寓號（lgh）；工資可申請 ROT/RUT 稅扣，師傅會問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "ROT or RUT tax deduction applied on the invoice"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Portkod and parking for the van"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands prepayment before the job"
+        }
+      ],
+      "usually_asked": [
+        "Trade (rörmokare, elektriker, låssmed, städning)",
+        "Address, portkod, tr and lgh number",
+        "Time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "小旅館、度假小屋（stuga）與 B&B 常電話或 Email 訂房；小屋常需自備床單或付清潔費（slutstädning）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Stuga rental excludes bed linen and slutstädning"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Late arrival key box (nyckelbox) arrangement"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee the room"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room or stuga",
+        "Linen, cleaning and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、Swish、庫存、可否帶狗等問題通常直接回答；許多店不收現金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Venue is cashless (kontantfritt)"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (öppettider, kort, Swish, hund)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinär）與寵物美容可電話或線上預約；狗須在 Jordbruksverket 登記。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Djursjukhus emergency fee at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Hundpensionat asks Swish deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Vaccination and ID-märkning",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經 Blocket、Qasa 與排隊制公寓（bostadskö），二房東（andrahand）出租很常見；看房多電話或訊息約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Landlord asks for bostadskö queue days"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Deposition paid before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget and andrahand terms",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（bilverkstad）、春秋換胎（däckbyte）與車檢（besiktning）多線上或電話預約；冬胎期有法規。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Felsökning (diagnostics) charged per hour"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Däckhotell (tyre storage) customers book online"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks registreringsnummer and owner personnummer"
+        }
+      ],
+      "usually_asked": [
+        "Registreringsnummer (plate)",
+        "Service, däckbyte or besiktning",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "瑞典餐廳多在官網線上訂位，也接電話；12 月聖誕自助餐（julbord）季常需提早數週並預付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Julbord seatings in December sold in fixed sittings"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table time limited to two hours (sittning)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number for a no-show guarantee by phone"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (kl. 19.00)",
+        "Antal personer (party size)",
+        "Name and mobile",
+        "Allergies (allergier) noted at booking"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（Apotek）、麵包店與蛋糕店（konditori）可電話預訂；酒類只在 Systembolaget 賣，可線上預訂到店取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Systembolaget orders a bottle to a chosen store"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Konditori asks Swish prepayment for a tårta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Tårta size (bitar)",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與泰式等外帶店接電話（avhämtning）；外送多走 Foodora、Wolt、Uber Eats；付款常用 Swish。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pizzeria takes Swish or card on pickup"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Lunch deal (dagens lunch) only until 14:00"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Avhämtning or leverans",
+        "Items and pizza choices",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "PostNord、DHL、Budbee、Instabox 追蹤以 App 為主，客服有語音選單；包裹常送到代收點（ombud）或包裹櫃。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "PostNord line points to the app and ombud pickup"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the pickup code or BankID verification"
+        }
+      ],
+      "usually_asked": [
+        "Kollinummer (tracking number)",
+        "Recipient name and phone",
+        "Ombud, box or home",
+        "Pickup deadline"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 App（Taxi Stockholm、Uber、Bolt）也可電話訂；機場固定價需事先說明。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher confirms fixed price (fastpris) to Arlanda"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Taxi price list must be shown in the car (jämförpris)"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or körkort"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "sv": {
+      "appointment_words": [
+        "boka tid",
+        "tid hos läkaren",
+        "frisörtid",
+        "besiktning av bilen",
+        "återbesök"
+      ],
+      "booking_words": [
+        "boka bord",
+        "bordsbokning",
+        "boka rum",
+        "övernattning med frukost",
+        "reservera plats"
+      ],
+      "change_words": [
+        "omboka tiden",
+        "avboka bordet",
+        "en halvtimme senare",
+        "flytta till fredag",
+        "ändra bokningen"
+      ],
+      "date": [
+        "imorgon",
+        "i övermorgon",
+        "på fredag",
+        "nästa tisdag",
+        "25/11",
+        "lördag kväll"
+      ],
+      "false_friends": [
+        "3 tr",
+        "lgh 1102",
+        "port 2",
+        "rätt nr 4",
+        "massage 60 min",
+        "buss 4"
+      ],
+      "inquiry_words": [
+        "hur länge är köket öppet",
+        "tar ni kort",
+        "får man ta med hund",
+        "finns i lager",
+        "öppettider"
+      ],
+      "name": [
+        "i namnet Andersson",
+        "Erik Johansson",
+        "Anna Karlsson",
+        "familjen Nilsson",
+        "Lindberg"
+      ],
+      "order_words": [
+        "ta med",
+        "beställa för avhämtning",
+        "hemleverans",
+        "lägga undan",
+        "förbeställa"
+      ],
+      "party": [
+        "bord för 4",
+        "2 vuxna och 1 barn",
+        "vi är tre",
+        "för 2 personer",
+        "4 pers",
+        "6 personer + barnstol"
+      ],
+      "phone": [
+        "070-123 45 67",
+        "+46 70 123 45 67",
+        "ring tillbaka på 073-123 45 67",
+        "08-123 456 78"
+      ],
+      "time": [
+        "halv åtta på kvällen",
+        "kl. 19.30",
+        "kvart över sex",
+        "kvart i åtta",
+        "vid lunch",
+        "runt 20"
+      ]
+    }
+  }
+}

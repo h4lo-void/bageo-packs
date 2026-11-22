@@ -1,0 +1,105 @@
+{
+  "country": "md",
+  "parent": "ro-md",
+  "name": {
+    "en": "Moldova",
+    "native": "Moldova",
+    "zh": "摩爾多瓦"
+  },
+  "lang": "ro",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, mă auziți?"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour, Poșta Moldovei, or a pickup point",
+    "zh": "包裹交給鄰居，或到摩爾多瓦郵局、取件點領取"
+  },
+  "readback": {
+    "en": "Numbers may go in groups of three; amounts in Moldovan lei, not Romanian lei",
+    "zh": "電話可三位一組唸；金額用摩爾多瓦列伊，不是羅馬尼亞列伊"
+  },
+  "fraud": {
+    "en": "A fake Poșta Moldovei parcel text, or a bank code or transfer request, is a scam",
+    "zh": "假摩爾多瓦郵局包裹簡訊，或銀行要驗證碼、要你轉帳的都是詐騙"
+  },
+  "habits": {
+    "en": "Romanian; follow if the caller switches to Russian. tu / dumneavoastră. Not Romanian bank-app names.",
+    "zh": "用羅馬尼亞語；對方改俄語就跟。朋友 tu，其餘 dumneavoastră。不用羅馬尼亞銀行 App 名。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the bank app spinning, missing glasses, or the ID card not to hand.",
+    "zh": "卡在銀行 App 一直轉、找不到眼鏡，或證件不在手上。"
+  },
+  "vocab": {
+    "bank": [
+      "MAIB",
+      "transfer",
+      "card"
+    ],
+    "delivery": [
+      "Poșta Moldovei",
+      "punct de ridicare",
+      "vecin"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "George",
+      "reason": {
+        "en": "Romanian bank app",
+        "zh": "羅馬尼亞銀行 App"
+      }
+    },
+    {
+      "word": "Home'Bank",
+      "reason": {
+        "en": "Romanian bank app",
+        "zh": "羅馬尼亞銀行 App"
+      }
+    },
+    {
+      "word": "BT Pay",
+      "reason": {
+        "en": "Romanian bank payment app",
+        "zh": "羅馬尼亞銀行支付 App"
+      }
+    },
+    {
+      "word": "easybox",
+      "reason": {
+        "en": "Romanian locker brand",
+        "zh": "羅馬尼亞包裹櫃品牌"
+      }
+    },
+    {
+      "word": "FANbox",
+      "reason": {
+        "en": "Romanian locker brand",
+        "zh": "羅馬尼亞包裹櫃品牌"
+      }
+    },
+    {
+      "word": "ANAF",
+      "reason": {
+        "en": "Romanian tax authority",
+        "zh": "羅馬尼亞稅務機關"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Same tu / dumneavoastră range, but follow Russian if the caller uses it. Drop Romanian locker brands, bank apps and ANAF.",
+    "zh": "tu／dumneavoastră 層級相同，但對方用俄語就跟。不用羅馬尼亞的櫃點、銀行 App 和 ANAF。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.maib.md/ro/noutati/atentie-la-smishing-scenariul-de-frauda-online-legat-de-livrarea-unor-colete-urmeaza-recomandarile-expertilor",
+    "https://www.posta.md/ro/news/atentie-escroci-hg4rzjvdfp",
+    "https://politia.md/ro/content/politia-avertizeaza-despre-cazurile-de-escrocherie-cu-presupusa-implicare-postei-moldovei",
+    "https://www.maib.md/ro/noutati/atentie-la-tentativele-de-frauda-telefonica-nu-oferi-date-personale-si-nu-efectua-transferuri-de-bani-la-solicitarea-unor-persoane-necunoscute"
+  ],
+  "uncertain": [
+    "Chișinău 等地也常用俄語；本檔 lang 仍依所屬地區用羅馬尼亞語，並在習慣中註明要跟著對方切換。",
+    "Nova Poshta 等民營取件點也常見，但主要官方來源是 Poșta Moldovei，故未把單一民營品牌寫成必用詞。"
+  ]
+}

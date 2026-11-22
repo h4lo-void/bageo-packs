@@ -1,0 +1,133 @@
+{
+  "schema": 1,
+  "code": "mu-sc-km",
+  "countries": [
+    "mu",
+    "sc",
+    "km"
+  ],
+  "name": {
+    "en": "Western Indian Ocean islands",
+    "native": "Îles de l'océan Indien occidental",
+    "zh": "西印度洋島國"
+  },
+  "lang": "fr-FR",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, ouais, allô ?"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, a neighbour or the entrance",
+    "zh": "包裹交給 gardien、鄰居或樓門口"
+  },
+  "readback": {
+    "en": "Short number groups; dates day-month; repeat the island or district.",
+    "zh": "號碼分小段唸；日期先日後月；重複島名或區名"
+  },
+  "fraud": {
+    "en": "a bank or Juice PIN request, or a fee to pay first, is a scam",
+    "zh": "要銀行或 Juice 的 PIN，或要先付錢，都是詐騙"
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Follow French, English or Arabic.",
+    "zh": "對陌生人用 vous，對方改 tu 再轉 tu。用法語、英語，或跟阿拉伯語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the bank app spinning, a downpour, the road flooded.",
+    "zh": "卡在當地日常狀況，例如銀行 App 一直轉、驟雨、道路積水。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Port Louis friend: tu, French with a light Kreol flash if they use it (alo, no problem), then one more beat, varied.",
+        "zh": "像路易港的朋友：用 tu，法語裡若對方帶克里奧爾語（alo、no problem）就接住，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Island French: vous with new callers, tu if they start that way; then a friendly j'ai bien saisi. Follow English if they switch.",
+        "zh": "島嶼法語：新來電用 vous，對方先用 tu 再轉；聽完可用 j'ai bien saisi。改英語就跟著說。"
+      },
+      "3": {
+        "en": "Everyday island French. Full sentence after each point, not a lone oui. Follow Arabic if a Comorian caller uses it.",
+        "zh": "島嶼日常法語。每點用完整句回，不要只回 oui。葛摩來電若用阿拉伯語就跟著。"
+      },
+      "4": {
+        "en": "On a Port-Louis, Victoria or Moroni office line, stay with Monsieur/Madame, recap the errand, and keep Juice if they name it.",
+        "zh": "路易港、維多利亞或莫羅尼機關電話，用 Monsieur／Madame，先覆述來意；對方說 Juice 就照用。"
+      },
+      "5": {
+        "en": "Office French for Juice or banks: Monsieur/Madame, compact; close each item (porté au registre), varied.",
+        "zh": "對 Juice 或銀行的公事法語：用 Monsieur／Madame，簡潔；每件收束，每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively island helper. Use tu if they do, react, then say you will pass it on (mo pou transmet or je transmets).",
+        "zh": "{owner}活潑的島上幫手。對方用 tu 就用 tu，先反應，再說會轉（如 mo pou transmet）。"
+      },
+      "2": {
+        "en": "Like a gardien at the entrée: match vous or tu, note the matter, then write it for {owner}. Follow English if they switch.",
+        "zh": "像門衛或櫃台代接：跟著 vous 或 tu，記下事由，再寫給{owner}。對方改英語就跟著說。"
+      },
+      "3": {
+        "en": "Answer the Indian Ocean errand in a full French line, then say it will be remitted. Not a bare ok.",
+        "zh": "用完整法語回答這印度洋來意，再說會交到。不要只回 ok。"
+      },
+      "4": {
+        "en": "For a Juice or government desk, keep Monsieur/Madame, state the purpose, and confirm the mot will be handed over.",
+        "zh": "接 Juice 或政府櫃台電話，維持 Monsieur／Madame，說來意，並確認 mot 會交到。"
+      },
+      "5": {
+        "en": "Island office deputy: vous and titles, unhurried; fix the facts, then confirm the note will be handed to {owner}.",
+        "zh": "島嶼機關代表：vous 加職稱，不急；先對齊事實，再確認字條會交到{owner}。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "Juice",
+      "internet banking",
+      "virement",
+      "MCB"
+    ],
+    "delivery": [
+      "gardien",
+      "voisin",
+      "entrée",
+      "poste"
+    ],
+    "government": [
+      "carte d'identité",
+      "NIC",
+      "MauPass",
+      "passeport"
+    ],
+    "health": [
+      "hôpital",
+      "dispensaire",
+      "clinique",
+      "ordonnance"
+    ],
+    "telecom": [
+      "Mauritius Telecom",
+      "prépayé",
+      "recharge"
+    ],
+    "payment": [
+      "Juice",
+      "virement",
+      "internet banking"
+    ],
+    "transport": [
+      "bus",
+      "taxi",
+      "métro léger"
+    ],
+    "housing": [
+      "loyer",
+      "facture CEB",
+      "facture CWA",
+      "adresse"
+    ]
+  },
+  "status": "draft"
+}

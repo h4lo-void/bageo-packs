@@ -1,0 +1,90 @@
+{
+  "name": "South Sudan",
+  "name_local": "South Sudan",
+  "iso": "ss",
+  "calling_code": "+211",
+  "languages": [
+    "en",
+    "ar"
+  ],
+  "prevalence_note": "South Sudan's telecom regulator NCA runs SS-CIRT as the national cyber-incident focal point and lists phishing among common threats; public warnings in 2026 centre on mobile-money account takeover and WhatsApp links that copy state bodies.",
+  "cross_border_note": "Contact is usually in English or Juba Arabic, by voice call, SMS or WhatsApp, and may borrow the look of MTN MoMo, a Zain service or a government body.",
+  "scams": [
+    {
+      "id": "ss_momo_pin_code_takeover",
+      "typology": "otp_theft",
+      "name": "Mobile-money PIN or verification-code takeover",
+      "name_en": "Mobile-money PIN or verification-code takeover",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "MoMo account",
+        "verification code",
+        "account blocked",
+        "SIM problem"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "give me the code that just came to your phone",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "your MoMo will be blocked today",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tell me your PIN to fix the account",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone presenting as wallet or network staff says the South Sudan mobile-money line has a fault and asks for the PIN or a code that just arrived, which lets them take over the wallet.",
+      "legit_en": "NCA guidance urges users to protect accounts and report suspicious contact; SS-CIRT advice says anyone who disclosed a PIN or code should contact the bank or wallet provider directly through its published care channel.",
+      "bait_tactics": [
+        "The Juba network is weak here and no code message has come in on this SIM.",
+        "This phone belongs to my cousin, and the MoMo line is registered under a different handset."
+      ],
+      "sources": [
+        "https://www.nca.gov.ss/cybersecurity",
+        "https://cirt.gov.ss/common-threats/"
+      ]
+    },
+    {
+      "id": "ss_fake_state_registration_link",
+      "typology": "fake_official",
+      "name": "Fake state registration link on WhatsApp",
+      "name_en": "Fake state registration link on WhatsApp",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "voter card",
+        "online registration",
+        "WhatsApp link",
+        "free delivery"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "register online and the card is delivered free",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "upload your ID through this link",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A forwarded WhatsApp note claims a national body is running online registration with free card delivery and pushes a short link that collects identity documents and personal details.",
+      "legit_en": "SS-CIRT and the elections commission point people to the official nec.gov.ss portal and physical registration points; suspicious links are reported to SS-CIRT without sending passwords or ID copies.",
+      "bait_tactics": [
+        "The link does not load on this old phone, and the data bundle ran out this morning."
+      ],
+      "sources": [
+        "https://cirt.gov.ss/alerts/",
+        "https://www.nca.gov.ss/cybersecurity"
+      ]
+    }
+  ]
+}

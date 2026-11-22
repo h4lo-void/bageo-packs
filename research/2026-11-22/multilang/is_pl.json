@@ -1,0 +1,91 @@
+{
+  "region": "is",
+  "lang": "pl",
+  "hello": {
+    "hello": "Słucham cię?",
+    "hello_again": "Tak, mów proszę?"
+  },
+  "habits": {
+    "en": "Ty with friends, Pan/Pani at counters. Mix kennitala, island.is, sjúkratrygging; not PESEL or NFZ.",
+    "zh": "熟友用 ty，櫃檯用 Pan/Pani。夾 kennitala、island.is，不用 PESEL。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Polish friends in Iceland stay on ty. A short jasne is enough, and Icelandic nouns can sit in the line.",
+        "zh": "在冰島跟波蘭熟友用 ty，短短一句 jasne 即可，冰島語名詞可直接嵌進句子。"
+      },
+      "2": {
+        "en": "Easy Polish on a Reykjavík line. When the kennitala comes up, acknowledge it and only tighten if they do.",
+        "zh": "雷克雅維克線上輕鬆的波蘭語。提到 kennitala 就先接住，對方變正式再收斂。"
+      },
+      "3": {
+        "en": "Weekday Polish in Iceland. Finish the thought and keep kennitala, heilsugæsla or island.is under local names.",
+        "zh": "冰島平日波蘭語把話說完，kennitala、診所 heilsugæsla、island.is 用當地名稱。"
+      },
+      "4": {
+        "en": "At Þjóðskrá or the health office use Pan or Pani, and recap the kennitala or insurance item before taking it on.",
+        "zh": "面對人口登記或健保櫃檯改稱 Pan／Pani，先把 kennitala 或保險事項覆述再接辦。"
+      },
+      "5": {
+        "en": "Business Polish with titles. Lay out the tax or residence point tied to Útlendingastofnun, then stop.",
+        "zh": "商務波蘭語加稱謂，把稅務或移民局 Útlendingastofnun 的要點攤開，說完即止。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual cover for {owner} in Iceland: answer jasne, keep their Icelandic mix, and say you will carry the wiadomość.",
+        "zh": "在冰島替{owner}隨口代接，先回 jasne，照夾冰島詞的說法記下，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Follow ty or Pan/Pani. Write down the kennitala or a callback number, and say the note goes to {owner}.",
+        "zh": "跟著用 ty 或 Pan／Pani。記下 kennitala 或回撥號碼，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Steady Polish helper in Iceland. Answer the purpose of their call completely, then say {owner} will get a rundown.",
+        "zh": "冰島波蘭語助理口氣穩當，先完整回應為何來電，再說會向{owner}交代。"
+      },
+      "4": {
+        "en": "A careful formal register: go back over the island.is or insurance matter, and make clear the slip is for {owner}.",
+        "zh": "較正式的語域：把 island.is 或保險事項再對一遍，並說清楚字條是給{owner}的。"
+      },
+      "5": {
+        "en": "Speaking formally for {owner}: add titles, arrange the kennitala documents, and stop after stating they have been forwarded.",
+        "zh": "替{owner}用正式口氣加稱謂，把 kennitala 文件排好，說明轉交後就停。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Słucham cię? Cześć, co słychać? Mów, jestem.",
+      "Tak, mów proszę, słucham spokojnie.",
+      "Dzień dobry. Chodzi o kennitala? Jasne, zapisałem.",
+      "Dzień dobry, dziękuję, że dzwonisz. Biorę temat z ubezpieczeniem.",
+      "Dzień dobry, dziękuję za kontakt. Spisałem dane z island.is."
+    ],
+    "a": [
+      "Halo! Nie może teraz rozmawiać; powiedz, ja mu przekażę.",
+      "Tak, odbieram w jego imieniu, zostaw treść.",
+      "Dzień dobry. Spisuję i doniosę mu.",
+      "Dzień dobry, dziękuję, że dzwonisz. Zostawiam to u {owner}.",
+      "Dzień dobry, dziękuję za kontakt. Przekazuję punkty {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "波蘭人是冰島最大的移民群體，身份口語幾乎離不開 kennitala（身份證字號），不要用波蘭的 PESEL 來指本地編號。",
+    "人口登記走 Þjóðskrá，移民事務是 Útlendingastofnun，醫療常見 Sjúkratryggingar 與社區診所 heilsugæsla，都與波蘭 NFZ 體系不同。",
+    "數位服務常提 island.is，貨幣是 króna；電話裡冰島語專名常直接嵌入波蘭語句。",
+    "不少場合會先改用英語溝通再切回波蘭語，對熟友仍用 ty，對櫃檯維持 Pan／Pani。"
+  ],
+  "sources": [
+    "https://www.statice.is/publications/news-archive/inhabitants/population-by-origin-1-january-2025/",
+    "https://island.is/en",
+    "https://island.is/en/o/directorate-of-immigration",
+    "https://www.sjukra.is/english",
+    "https://www.skra.is/english"
+  ],
+  "uncertain": [
+    "研究顯示不少波蘭移民在日常事務上更常先用英語、而非冰島語；電話裡實際切換比例缺少新的量化資料。",
+    "第二代在家講波蘭語還是冰島語的比例，因家庭而異，不宜寫成單一模式。"
+  ]
+}

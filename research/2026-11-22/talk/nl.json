@@ -1,0 +1,333 @@
+{
+  "lang": "nl",
+  "backchannels": {
+    "direction": "Liesenfeld's Dutch top tokens are ja, nee and mmm; oké and precies align. Stacked ja, ja can hurry the story along.",
+    "examples": [
+      {
+        "text": "Ja hoor.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mmm.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Oké.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Inderdaad.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Aha, oké.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Precies.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ja ja.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Echt? and Serieus? take surprise; Wat jammer and Wat vervelend voor je are everyday sympathy, not a formal apology.",
+    "examples": [
+      {
+        "text": "Echt waar?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Serieus?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Wat vervelend voor je.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Wat jammer.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Leuk!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gefeliciteerd.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Dat wordt lastig.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Ik versta u slecht and De verbinding is slecht name the line; Je valt steeds weg is the casual mobile version.",
+    "examples": [
+      {
+        "text": "Ik versta u slecht.",
+        "style": "polite"
+      },
+      {
+        "text": "De verbinding is slecht.",
+        "style": "polite"
+      },
+      {
+        "text": "Je valt steeds weg.",
+        "style": "casual"
+      },
+      {
+        "text": "Kunt u wat harder praten?",
+        "style": "polite"
+      },
+      {
+        "text": "Het laatste stuk hoorde ik niet.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Kunt u dat herhalen, alstublieft is the careful replay; names are spelled, numbers said nog eens.",
+    "examples": [
+      {
+        "text": "Kunt u dat herhalen, alstublieft?",
+        "style": "polite"
+      },
+      {
+        "text": "Wat zeg je? Ik snap het niet.",
+        "style": "casual"
+      },
+      {
+        "text": "Kunt u de naam spellen?",
+        "style": "polite"
+      },
+      {
+        "text": "Kunt u het nummer nog eens zeggen? 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Wat zei u?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Met wie spreek ik is the unmarked probe; Mag ik vragen wie ik aan de lijn heb is stiffer. Name {owner}'s phone.",
+    "examples": [
+      {
+        "text": "Met wie spreek ik?",
+        "style": "polite"
+      },
+      {
+        "text": "Wie is daar, alstublieft?",
+        "style": "polite"
+      },
+      {
+        "text": "U spreekt met de telefoon van {owner}. Wie belt er?",
+        "style": "polite"
+      },
+      {
+        "text": "Wie is dit?",
+        "style": "casual"
+      },
+      {
+        "text": "Mag ik vragen wie ik aan de lijn heb?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "U hebt het verkeerde nummer is the ordinary close; verkeerd verbonden is a slightly older phrasing for the same event.",
+    "examples": [
+      {
+        "text": "Sorry, u hebt het verkeerde nummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Verkeerd nummer.",
+        "style": "casual"
+      },
+      {
+        "text": "Er woont hier niemand met die naam.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik denk dat u verkeerd verbonden bent.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ik geef het door and Ik zeg het tegen {owner} pass the news along, without setting an hour for a return call.",
+    "examples": [
+      {
+        "text": "Ik geef het door.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik zeg het tegen {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik geef het bericht door.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik zeg het haar wel.",
+        "style": "casual"
+      },
+      {
+        "text": "Ik laat het hem weten.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nee hoor, geen interesse, dank u closes a pitch; Ik ben niet geïnteresseerd is fuller, still without a long story.",
+    "examples": [
+      {
+        "text": "Nee hoor, geen interesse, dank u.",
+        "style": "polite"
+      },
+      {
+        "text": "We hebben het niet nodig, dank u.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik ben niet geïnteresseerd.",
+        "style": "polite"
+      },
+      {
+        "text": "Nee, dat is niets voor ons.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Dutch often follows a first no with Bel dit nummer alstublieft niet meer, or a request to leave the lijst, still with u.",
+    "examples": [
+      {
+        "text": "Ik heb al nee gezegd. Bel dit nummer alstublieft niet meer.",
+        "style": "polite"
+      },
+      {
+        "text": "Haalt u dit nummer alstublieft van uw lijst.",
+        "style": "polite"
+      },
+      {
+        "text": "Niet meer bellen, alsjeblieft.",
+        "style": "casual"
+      },
+      {
+        "text": "Dit is een definitieve afwijzing; neem geen contact meer op.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "u plus meneer or mevrouw and the surname with strangers; jij and a first name with familiars, or after an offer.",
+    "examples": [
+      {
+        "text": "Meneer de Vries.",
+        "style": "polite"
+      },
+      {
+        "text": "Mevrouw Jansen.",
+        "style": "polite"
+      },
+      {
+        "text": "Doctor Bakker.",
+        "style": "polite"
+      },
+      {
+        "text": "Goedendag, mevrouw.",
+        "style": "polite"
+      },
+      {
+        "text": "Hoi, Sanne.",
+        "style": "casual"
+      },
+      {
+        "text": "U spreekt.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Uw gesprek is belangrijk voor ons and Hoe kan ik u van dienst zijn belong in klantenservice, not on a private mobiel.",
+    "examples": [
+      {
+        "text": "Uw gesprek is belangrijk voor ons.",
+        "style": "polite"
+      },
+      {
+        "text": "Hoe kan ik u van dienst zijn?",
+        "style": "polite"
+      },
+      {
+        "text": "Dank u wel voor het bellen, wij helpen u graag.",
+        "style": "polite"
+      },
+      {
+        "text": "Uw tevredenheid staat bij ons voorop.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan ik nog iets anders voor u doen?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "jij too soon with an older stranger, a late call, or asking for an identiteitsnummer at the start all overstep.",
+    "examples": [
+      {
+        "text": "Ben je getrouwd? Wat verdien je?",
+        "style": "casual"
+      },
+      {
+        "text": "Wie ben jij? Zeg het maar.",
+        "style": "casual"
+      },
+      {
+        "text": "Geef eerst uw adres en identiteitsnummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Ik neem dit gesprek al op.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh"
+  ],
+  "uncertain": [
+    "比利時荷蘭語（Flemish）在 u／je 與部分詞彙上與荷蘭不同，本檔以荷蘭用法為主。",
+    "語料裡 nee 也可作附和，功能依語調而定，不一定是否定。",
+    "「verkeerd verbonden」偏傳統用語，手機時代也常說 verkeerd nummer。"
+  ]
+}

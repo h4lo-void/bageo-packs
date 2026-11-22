@@ -1,0 +1,754 @@
+{
+  "region": "by",
+  "vocab": {
+    "ru-RU": {
+      "bank": [
+        {
+          "term": "ЕРИП",
+          "en": "the national payment system, also Расчёт, used for almost every bill"
+        },
+        {
+          "term": "Белкарт",
+          "en": "the national card scheme"
+        },
+        {
+          "term": "перевод",
+          "en": "a bank transfer (перевод)"
+        },
+        {
+          "term": "интернет-банкинг",
+          "en": "online or app banking (интернет-банкинг)"
+        },
+        {
+          "term": "счёт",
+          "en": "an account"
+        },
+        {
+          "term": "остаток",
+          "en": "the balance (остаток)"
+        },
+        {
+          "term": "карта",
+          "en": "a payment card, often a Белкарт or a co-badged card"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "консьерж",
+          "en": "the concierge, in buildings that have one"
+        },
+        {
+          "term": "Белпочта",
+          "en": "the national post (Белпочта)"
+        },
+        {
+          "term": "Европочта",
+          "en": "a major private parcel network"
+        },
+        {
+          "term": "соседу",
+          "en": "leave it with the neighbour (соседу)"
+        },
+        {
+          "term": "подъезд",
+          "en": "the entrance of a block, also a drop-off instruction"
+        },
+        {
+          "term": "курьер",
+          "en": "the courier (курьер)"
+        },
+        {
+          "term": "почтомат",
+          "en": "a parcel locker, where the network has one"
+        }
+      ],
+      "government": [
+        {
+          "term": "паспорт",
+          "en": "the passport, the usual ID"
+        },
+        {
+          "term": "идентификационный номер",
+          "en": "the identification number in the passport; confirm it only if {owner} asks"
+        },
+        {
+          "term": "МНС",
+          "en": "the tax ministry"
+        },
+        {
+          "term": "портал",
+          "en": "a government e-services portal, named as the caller names it"
+        },
+        {
+          "term": "водительское удостоверение",
+          "en": "a driving licence (водительское удостоверение)"
+        },
+        {
+          "term": "регистрация",
+          "en": "address registration, also прописка in everyday speech"
+        }
+      ],
+      "health": [
+        {
+          "term": "поликлиника",
+          "en": "the local clinic (поликлиника)"
+        },
+        {
+          "term": "аптека",
+          "en": "a pharmacy (аптека) — on a Belarusian call"
+        },
+        {
+          "term": "рецепт",
+          "en": "a prescription (рецепт)"
+        },
+        {
+          "term": "скорая",
+          "en": "emergency care (скорая)"
+        },
+        {
+          "term": "больничный",
+          "en": "a sick note (больничный)"
+        },
+        {
+          "term": "терапевт",
+          "en": "the GP (терапевт)"
+        },
+        {
+          "term": "больница",
+          "en": "a hospital (больница)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "тариф",
+          "en": "a mobile plan (тариф)"
+        },
+        {
+          "term": "express-оплата",
+          "en": "prepaid top-up, also просто пополнить счёт"
+        },
+        {
+          "term": "SIM-карта",
+          "en": "a SIM (SIM-карта)"
+        },
+        {
+          "term": "оператор",
+          "en": "the operator, often А1, MTS or life:)"
+        },
+        {
+          "term": "мобильный интернет",
+          "en": "mobile data (мобильный интернет)"
+        },
+        {
+          "term": "домашний интернет",
+          "en": "home broadband (домашний интернет)"
+        },
+        {
+          "term": "перенос номера",
+          "en": "keeping the number (перенос номера)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "ЕРИП",
+          "en": "paying a bill through the national system, in a bank app or at a kiosk"
+        },
+        {
+          "term": "Белкарт",
+          "en": "paying with the national card"
+        },
+        {
+          "term": "наличные",
+          "en": "cash (наличные)"
+        },
+        {
+          "term": "перевод",
+          "en": "a transfer (перевод)"
+        },
+        {
+          "term": "карта рассрочки",
+          "en": "an instalment card, a common checkout option"
+        },
+        {
+          "term": "QR-оплата",
+          "en": "paying by QR where the shop offers it"
+        }
+      ],
+      "transport": [
+        {
+          "term": "метро",
+          "en": "the Minsk metro; do not assume it in other cities"
+        },
+        {
+          "term": "автобус",
+          "en": "a bus (автобус) — on a Belarusian call"
+        },
+        {
+          "term": "троллейбус",
+          "en": "a trolleybus (троллейбус)"
+        },
+        {
+          "term": "трамвай",
+          "en": "a tram, in some cities"
+        },
+        {
+          "term": "маршрутка",
+          "en": "a minibus"
+        },
+        {
+          "term": "такси",
+          "en": "a taxi (такси) — on a Belarusian call"
+        },
+        {
+          "term": "е-пас",
+          "en": "a transport card or app some cities use, also a paper ticket"
+        }
+      ],
+      "housing": [
+        {
+          "term": "квартира",
+          "en": "a flat (квартира)"
+        },
+        {
+          "term": "подъезд",
+          "en": "the stairwell entrance"
+        },
+        {
+          "term": "домофон",
+          "en": "the door phone (домофон)"
+        },
+        {
+          "term": "почтовый ящик",
+          "en": "the letterbox (почтовый ящик)"
+        },
+        {
+          "term": "аренда",
+          "en": "the rent, also квартплата for building charges"
+        },
+        {
+          "term": "ЖЭС",
+          "en": "the local housing office, still a word people use"
+        },
+        {
+          "term": "этаж",
+          "en": "the floor (этаж)"
+        }
+      ],
+      "school": [
+        {
+          "term": "детский сад",
+          "en": "kindergarten (детский сад)"
+        },
+        {
+          "term": "школа",
+          "en": "school (школа)"
+        },
+        {
+          "term": "гимназия",
+          "en": "a gymnasium"
+        },
+        {
+          "term": "домашнее задание",
+          "en": "homework (домашнее задание)"
+        },
+        {
+          "term": "учитель",
+          "en": "a teacher, also классный руководитель"
+        },
+        {
+          "term": "университет",
+          "en": "university, also вуз"
+        }
+      ],
+      "money": [
+        {
+          "term": "рубли",
+          "en": "Belarusian rubles, BYN, not Russian rubles"
+        },
+        {
+          "term": "копейки",
+          "en": "kopecks"
+        },
+        {
+          "term": "наличные",
+          "en": "cash (наличные)"
+        },
+        {
+          "term": "сдача",
+          "en": "the change (сдача)"
+        },
+        {
+          "term": "сумма",
+          "en": "the amount (сумма)"
+        },
+        {
+          "term": "тысяча",
+          "en": "a thousand rubles"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "утром",
+          "en": "in the morning (утром)"
+        },
+        {
+          "term": "днём",
+          "en": "in the afternoon (днём)"
+        },
+        {
+          "term": "вечером",
+          "en": "in the evening (вечером)"
+        },
+        {
+          "term": "будний день",
+          "en": "a weekday (будний день)"
+        },
+        {
+          "term": "выходные",
+          "en": "the weekend (выходные)"
+        },
+        {
+          "term": "после работы",
+          "en": "after work (после работы)"
+        },
+        {
+          "term": "на этой неделе",
+          "en": "this week (на этой неделе)"
+        },
+        {
+          "term": "завтра утром",
+          "en": "tomorrow morning (завтра утром)"
+        }
+      ],
+      "work": [
+        {
+          "term": "работа",
+          "en": "work (работа) — on a Belarusian call"
+        },
+        {
+          "term": "сверхурочные",
+          "en": "overtime (сверхурочные)"
+        },
+        {
+          "term": "отпуск",
+          "en": "annual leave (отпуск)"
+        },
+        {
+          "term": "больничный",
+          "en": "sick leave (больничный)"
+        },
+        {
+          "term": "начальник",
+          "en": "the manager (начальник)"
+        },
+        {
+          "term": "удалёнка",
+          "en": "working from home (удалёнка)"
+        },
+        {
+          "term": "командировка",
+          "en": "a business trip (командировка) — on a Belarusian call"
+        },
+        {
+          "term": "зарплата",
+          "en": "the salary (зарплата)"
+        }
+      ]
+    },
+    "be": {
+      "bank": [
+        {
+          "term": "ЕРІП",
+          "en": "the same national bill-pay system, spoken with the Belarusian name"
+        },
+        {
+          "term": "Белкарт",
+          "en": "the national card scheme, in Belarusian speech"
+        },
+        {
+          "term": "перавод",
+          "en": "a transfer, Belarusian wording"
+        },
+        {
+          "term": "інтэрнэт-банкінг",
+          "en": "online banking in Belarusian"
+        },
+        {
+          "term": "рахунак",
+          "en": "an account"
+        },
+        {
+          "term": "рэшта на рахунку",
+          "en": "the balance, a Belarusian way to say it"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "кансьерж",
+          "en": "a concierge, when the building has one"
+        },
+        {
+          "term": "Белпошта",
+          "en": "the national post in its Belarusian name"
+        },
+        {
+          "term": "Еўрапошта",
+          "en": "the private parcel network in Belarusian spelling"
+        },
+        {
+          "term": "суседу",
+          "en": "leave it with the neighbour (суседу)"
+        },
+        {
+          "term": "пад'езд",
+          "en": "the block entrance"
+        },
+        {
+          "term": "кур'ер",
+          "en": "the courier (кур'ер)"
+        }
+      ],
+      "government": [
+        {
+          "term": "пашпарт",
+          "en": "a passport, the usual ID in Belarusian"
+        },
+        {
+          "term": "ідэнтыфікацыйны нумар",
+          "en": "the number in the passport; confirm it only if {owner} asks"
+        },
+        {
+          "term": "МНС",
+          "en": "the tax ministry, same initials in both languages"
+        },
+        {
+          "term": "партал",
+          "en": "a government portal, using the name the caller uses"
+        },
+        {
+          "term": "пасведчанне кіроўцы",
+          "en": "a driving licence in Belarusian"
+        },
+        {
+          "term": "рэгістрацыя",
+          "en": "address registration"
+        }
+      ],
+      "health": [
+        {
+          "term": "паліклініка",
+          "en": "the local clinic, Belarusian form"
+        },
+        {
+          "term": "аптэка",
+          "en": "a pharmacy (аптэка)"
+        },
+        {
+          "term": "рэцэпт",
+          "en": "a prescription (рэцэпт)"
+        },
+        {
+          "term": "хуткая",
+          "en": "emergency care, Belarusian short form"
+        },
+        {
+          "term": "бальнічны",
+          "en": "a sick note (бальнічны)"
+        },
+        {
+          "term": "тэрапеўт",
+          "en": "the GP (тэрапеўт)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "тарыф",
+          "en": "a mobile plan (тарыф)"
+        },
+        {
+          "term": "папоўніць рахунак",
+          "en": "a prepaid top-up (папоўніць рахунак)"
+        },
+        {
+          "term": "SIM-картка",
+          "en": "a SIM, Belarusian word for the card"
+        },
+        {
+          "term": "аператар",
+          "en": "the operator, often A1, MTS or life:)"
+        },
+        {
+          "term": "мабільны інтэрнэт",
+          "en": "mobile data (мабільны інтэрнэт)"
+        },
+        {
+          "term": "хатні інтэрнэт",
+          "en": "home broadband (хатні інтэрнэт)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "ЕРІП",
+          "en": "paying a bill through the national system, in Belarusian speech"
+        },
+        {
+          "term": "Белкарт",
+          "en": "paying with the national card"
+        },
+        {
+          "term": "наяўныя",
+          "en": "cash (наяўныя)"
+        },
+        {
+          "term": "перавод",
+          "en": "a transfer (перавод)"
+        },
+        {
+          "term": "картка растэрміноўкі",
+          "en": "an instalment card"
+        },
+        {
+          "term": "QR-аплата",
+          "en": "paying by QR when the shop offers it"
+        }
+      ],
+      "transport": [
+        {
+          "term": "метро",
+          "en": "the Minsk metro only"
+        },
+        {
+          "term": "аўтобус",
+          "en": "a bus (аўтобус)"
+        },
+        {
+          "term": "тралейбус",
+          "en": "a trolleybus (тралейбус)"
+        },
+        {
+          "term": "трамвай",
+          "en": "a tram (трамвай)"
+        },
+        {
+          "term": "маршруткі",
+          "en": "minibuses"
+        },
+        {
+          "term": "таксі",
+          "en": "a taxi (таксі)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "кватэра",
+          "en": "a flat, Belarusian form"
+        },
+        {
+          "term": "пад'езд",
+          "en": "the stairwell entrance"
+        },
+        {
+          "term": "дамафон",
+          "en": "the door phone (дамафон)"
+        },
+        {
+          "term": "паштовая скрынка",
+          "en": "the letterbox (паштовая скрынка)"
+        },
+        {
+          "term": "арэнда",
+          "en": "the rent, also квартплата for building charges"
+        },
+        {
+          "term": "ЖЭС",
+          "en": "the local housing office"
+        }
+      ],
+      "school": [
+        {
+          "term": "дзіцячы сад",
+          "en": "kindergarten (дзіцячы сад)"
+        },
+        {
+          "term": "школа",
+          "en": "school (школа)"
+        },
+        {
+          "term": "гімназія",
+          "en": "a gymnasium"
+        },
+        {
+          "term": "дамашняе заданне",
+          "en": "homework (дамашняе заданне)"
+        },
+        {
+          "term": "настаўнік",
+          "en": "a teacher, also класны кіраўнік"
+        },
+        {
+          "term": "універсітэт",
+          "en": "university (універсітэт)"
+        }
+      ],
+      "money": [
+        {
+          "term": "рублі",
+          "en": "Belarusian rubles in Belarusian speech, not Russian rubles"
+        },
+        {
+          "term": "капейкі",
+          "en": "kopecks"
+        },
+        {
+          "term": "наяўныя",
+          "en": "cash (наяўныя)"
+        },
+        {
+          "term": "рэшта",
+          "en": "the change, Belarusian word"
+        },
+        {
+          "term": "сума",
+          "en": "the amount (сума) — on a Belarusian call"
+        },
+        {
+          "term": "тысяча",
+          "en": "a thousand rubles"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "раніцай",
+          "en": "in the morning, Belarusian"
+        },
+        {
+          "term": "днём",
+          "en": "in the afternoon (днём)"
+        },
+        {
+          "term": "вечарам",
+          "en": "in the evening (вечарам)"
+        },
+        {
+          "term": "будны дзень",
+          "en": "a weekday (будны дзень)"
+        },
+        {
+          "term": "выхадныя",
+          "en": "the weekend (выхадныя)"
+        },
+        {
+          "term": "пасля працы",
+          "en": "after work (пасля працы)"
+        },
+        {
+          "term": "на гэтым тыдні",
+          "en": "this week (на гэтым тыдні)"
+        },
+        {
+          "term": "заўтра раніцай",
+          "en": "tomorrow morning (заўтра раніцай)"
+        }
+      ],
+      "work": [
+        {
+          "term": "праца",
+          "en": "work, Belarusian word"
+        },
+        {
+          "term": "звышурочныя",
+          "en": "overtime (звышурочныя)"
+        },
+        {
+          "term": "адпачынак",
+          "en": "annual leave (адпачынак)"
+        },
+        {
+          "term": "бальнічны",
+          "en": "sick leave (бальнічны)"
+        },
+        {
+          "term": "начальнік",
+          "en": "the manager (начальнік)"
+        },
+        {
+          "term": "аддаленая праца",
+          "en": "working from home, Belarusian wording"
+        },
+        {
+          "term": "камандзіроўка",
+          "en": "a business trip (камандзіроўка)"
+        },
+        {
+          "term": "зарплата",
+          "en": "the salary (зарплата)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Госуслуги 俄羅斯入口",
+      "use_instead": "用來電者說的白俄羅斯入口或機構名",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "Сбер",
+      "use_instead": "ЕРИП, Белкарт, 來電者自己的銀行",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "российский рубль 當白俄羅斯貨幣",
+      "use_instead": "белорусские рубли, BYN",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "Мир 當成預設卡組織",
+      "use_instead": "Белкарт",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "Почта России",
+      "use_instead": "Белпочта, Европочта",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "ЕРИП, перевод",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "метро 套用到明斯克以外",
+      "use_instead": "只有明斯克有 метро",
+      "where_it_is_from": "BY"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "ЕРИП, перевод",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "интернет-банкинг, ЕРИП",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "不要朗讀 идентификационный номер 全號",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "BY"
+    }
+  ],
+  "sources": [
+    "https://raschet.by/",
+    "https://www.belkart.by/",
+    "https://belpost.by/",
+    "https://evropochta.by/",
+    "https://mpt.gov.by/ru/respublikanskoe-unitarnoe-predpriyatie-pochtovoy-svyazi-belpochta",
+    "https://shop.belpost.by/buyers/payment/"
+  ],
+  "uncertain": [
+    "貨幣是白俄羅斯盧布（BYN），不可與俄羅斯盧布混用。",
+    "е-пас 等交通卡名稱因城市而異，地鐵只在明斯克。",
+    "be 組用白俄羅斯語名稱（Белпошта、пашпарт、паліклініка），不是把俄語組逐句翻譯。"
+  ]
+}

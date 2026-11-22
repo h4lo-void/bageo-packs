@@ -1,0 +1,106 @@
+{
+  "name": "Cambodia",
+  "name_local": "កម្ពុជា / Cambodia",
+  "iso": "kh",
+  "calling_code": "+855",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "A National Bank of Cambodia public notice dated 14 November 2025, as republished by Open Development Cambodia, warns that criminals use the Bank's name, logo and leadership images on social media, impersonate relatives or bank staff to request transfers, dangle fake prizes or jobs that require an advance payment, and try to buy people's bank accounts. CamCERT, the national computer-emergency team, also explains phishing that harvests passwords, card numbers or other personal data.",
+  "cross_border_note": "Cambodia uses +855. Mobile transfers often go through Bakong or other local wallets, so a riel or dollar request that looks like a domestic payment can still be the result of a hijacked Telegram, Facebook or TikTok account, which is the pattern the Bank has described.",
+  "scams": [
+    {
+      "id": "kh_nbc_family_or_bank_staff_transfer",
+      "typology": "fake_relative_money",
+      "name": "Hijacked or fake social account posing as a relative or bank officer to demand an urgent transfer",
+      "name_en": "NBC public notice, 14 November 2025: criminals use the Bank's identity and also impersonate relatives or bank staff to solicit transfers; related coverage says this happens on Telegram, Facebook, TikTok and by telephone",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "National Bank of Cambodia logo",
+        "Telegram account of a relative",
+        "urgent Bakong or wallet transfer",
+        "staff of a licensed bank asking for a remittance"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money now, I am in an emergency",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "transfer through Bakong for the Bank",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "this official NBC account needs a donation",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "do not tell the rest of the family",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The November 2025 NBC notice, as carried by Open Development Cambodia, says fraudsters are using the Bank's name, logo and pictures of its leadership to spread false information, and that common ruses include impersonating relatives or bank staff to request money transfers. Complementary press accounts of the Bank's warning add that cloned or stolen accounts on Telegram, Facebook and TikTok, as well as telephone calls, are used to claim an emergency and to push a transfer through a mobile-banking app, an e-wallet, or a banking agent.",
+      "legit_en": "The National Bank of Cambodia does not solicit donations, investments or emergency transfers through informal social-media accounts that display its logo or the faces of its officers. A genuine request from a relative should be confirmed on a known number or in person, not on a newly cloned Telegram or Facebook account.",
+      "bait_tactics": [
+        "Say the transfer will be made only after the supposed relative is reached on a number already stored by the household, not on the chat that made the request.",
+        "If the message shows an NBC logo or a senior official's photograph, say the Bank's own published channels will be used to see whether such an appeal exists.",
+        "Refuse to send a Bakong or wallet payment while the caller is still on the line asking for secrecy."
+      ],
+      "sources": [
+        "https://opendevelopmentcambodia.net/announcements/public-notice-nbc-warning-on-fraudulent-activities-and-scams-using-the-banks-name-and-image/"
+      ]
+    },
+    {
+      "id": "kh_nbc_advance_fee_and_account_sale",
+      "typology": "loan_advance_fee",
+      "name": "Fake prize or job requiring an advance fee, or an offer to buy a bank account",
+      "name_en": "NBC notice: fake prizes or jobs that require advance payments, and approaches that persuade people to sell their bank accounts for a high fee",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "prize from a Cambodian bank",
+        "job offer with an upfront fee",
+        "sell your bank account",
+        "NBC investment Telegram channel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay an advance to collect the prize",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "sell your bank account for a high fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "upfront payment to start the job",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "unofficial NBC Investment channel",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The same NBC public notice lists, among common scams, fake prizes or jobs that require advance payments, and attempts to persuade people to sell their bank accounts for a high fee. The Bank urged the public not to click unverified links or investment platforms, and not to transfer money, hand over personal details, or sell a bank account. Earlier Bank comments, as reported in 2024, had already flagged a Telegram account that falsely used an 'NBC Investment' label to promote unregulated trading in gold, currency and digital assets.",
+      "legit_en": "A licensed bank or the National Bank itself does not ask a member of the public to pay a fee to collect a prize or to start a job, and it does not buy private bank accounts. Selling or lending an account can draw the holder into illegal activity. Investment products should be checked through the Bank's official channels, not a Telegram handle that borrows its name.",
+      "bait_tactics": [
+        "Refuse to pay an advance fee for a prize or a job that was offered only on social media.",
+        "Say a bank account will not be sold, lent or handed to any buyer, whatever fee is promised.",
+        "Ask for a licence or an official Bank page, typed in separately, before any investment labelled as NBC is considered."
+      ],
+      "sources": [
+        "https://opendevelopmentcambodia.net/announcements/public-notice-nbc-warning-on-fraudulent-activities-and-scams-using-the-banks-name-and-image/",
+        "https://www.camcert.gov.kh/one-phish-two-phish-red-phish-blue-phish/"
+      ]
+    }
+  ]
+}

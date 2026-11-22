@@ -1,0 +1,48 @@
+{
+  "name": "New Caledonia",
+  "name_local": "Nouvelle-Calédonie",
+  "iso": "nc",
+  "calling_code": "+687",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "OPT-NC, the local post and telecom operator, has alerted the public to fraudulent parcel messages, reported by the public broadcaster's local service.",
+  "cross_border_note": "New Caledonia (+687) uses six-digit local numbers distinct from mainland France, so scam texts referencing métropole carriers are a hint of fraud.",
+  "scams": [
+    {
+      "id": "nc_opt_colis_frais",
+      "typology": "fake_customs_parcel",
+      "name": "Fausse alerte OPT sur un colis",
+      "name_en": "Fake OPT-NC parcel message asking for a fee or data",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "OPT",
+        "colis en instance",
+        "frais de dédouanement"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "payer les frais de dédouanement en ligne",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "saisir ses coordonnées bancaires",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message styled as OPT-NC says a parcel has landed and asks for a customs fee or personal data via a link.",
+      "legit_en": "OPT-NC's assistance pages are the official route for parcel questions; it has warned against these fraud attempts.",
+      "bait_tactics": [
+        "Demander à quelle agence OPT de Nouméa le colis est arrivé",
+        "Dire qu'on passera à l'agence avec l'avis de passage"
+      ],
+      "sources": [
+        "https://la1ere.franceinfo.fr/nouvellecaledonie/l-opt-alerte-sur-des-tentatives-de-fraudes-aux-colis-1587068.html",
+        "https://www.opt.nc/assistance/aide-reclamation-courrier-colis-philatelie"
+      ]
+    }
+  ]
+}

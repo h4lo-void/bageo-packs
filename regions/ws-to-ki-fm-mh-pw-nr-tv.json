@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "code": "ws-to-ki-fm-mh-pw-nr-tv",
+  "countries": [
+    "ws",
+    "to",
+    "ki",
+    "fm",
+    "mh",
+    "pw",
+    "nr",
+    "tv"
+  ],
+  "name": {
+    "en": "Polynesia and Micronesia",
+    "native": "Polynesia and Micronesia",
+    "zh": "波利尼西亞與密克羅尼西亞"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Malo, hello, you there?"
+  },
+  "delivery": {
+    "en": "Parcels: the family house, village store or office",
+    "zh": "包裹交給住家、村里小店或島上辦公室"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; say the island first.",
+    "zh": "名字用 as-in 拼；號碼分組唸；島名或村落先慢慢唸完，再唸其餘。"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request or an emergency transfer is a scam",
+    "zh": "要銀行 PIN 或 OTP、要先付錢才能領獎，或無法核實的「海外親戚急用」，都是詐騙"
+  },
+  "habits": {
+    "en": "Soft, respectful English; first names once casual. Confirm the island.",
+    "zh": "對陌生人用客氣溫和的英語，熟了再直呼名字。要確認島名或村落。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the boat delayed, the mobile signal dropping, the shop generator off.",
+    "zh": "卡在當地日常狀況，例如船班延誤、手機訊號不穩、店家發電機沒開。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a family friend in Apia or Nuku'alofa: first names, soft English, a 'malo' if they greet that way, varied.",
+        "zh": "像阿皮亞或努庫阿洛法的家族朋友：直呼名字，柔和英語，對方用 malo 打招呼就接住，再輕接一句，每次換。"
+      },
+      "2": {
+        "en": "Unhurried island English: stay formal until they offer a given name; pause, then acknowledge softly. Say the island first if told.",
+        "zh": "不急的島嶼英語：對方未改口前維持正式稱呼；聽完先停半拍，再輕聲應。若報了島名，先把島名說清楚。"
+      },
+      "3": {
+        "en": "Everyday island English. Full sentence after each point, not a bare yes. Confirm the village or island.",
+        "zh": "島嶼日常英語。每點用完整句回，不要只回 yes。村落或島名要確認。"
+      },
+      "4": {
+        "en": "Sir, Madam or a respectful title with offices and elders; restate the errand and the island first, varied.",
+        "zh": "對機關與長輩用 Sir、Madam 或尊敬稱謂；先覆述來意和島名，每次換。"
+      },
+      "5": {
+        "en": "Office English for government or a money-transfer desk: titles, compact; close each item (safely noted), varied.",
+        "zh": "對政府或匯款櫃檯的辦公室英語：用職稱，簡潔；每件收束（如 safely noted），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s gentle helper at the family house. Use a given name only if they do; react softly, then say you will take word home.",
+        "zh": "在家族住屋替{owner}代接，語氣溫和。對方用名字才用名字；先輕聲應，再說會把話帶到家裡。"
+      },
+      "2": {
+        "en": "Pacific courtesy: keep Sir or a local title if they use one, linger on the island or village, then write it for {owner}.",
+        "zh": "以太平洋式禮貌代接：對方用 Sir 或當地頭銜就沿用，島名或村落慢慢唸完，再寫給{owner}。"
+      },
+      "3": {
+        "en": "Answer in an unhurried English line, then say the family will hear it. Keep a Samoan or Tongan title if used. Not a lone ok.",
+        "zh": "用不急的完整英語回答，再說家裡會聽到。對方用了薩摩亞或東加頭銜就沿用。不要只回 ok。"
+      },
+      "4": {
+        "en": "On an island-office or Western Union call, keep Sir or Madam, name the island and purpose, and confirm the note stays with family.",
+        "zh": "接島辦公室或西聯電話，沿用 Sir 或 Madam，先報島名與來意，並確認字條會留給家人。"
+      },
+      "5": {
+        "en": "For a government or church-office call, keep titles, fix the island first, then confirm the message will reach the family house.",
+        "zh": "接政府或教會辦事處電話，保留職稱，先對齊島名，再確認訊息會送到家族住屋。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "internet banking",
+      "Western Union",
+      "branch",
+      "remittance"
+    ],
+    "delivery": [
+      "family house",
+      "store",
+      "island office",
+      "post office"
+    ],
+    "government": [
+      "passport",
+      "national ID",
+      "island council"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "dispensary"
+    ],
+    "telecom": [
+      "prepaid SIM",
+      "top up",
+      "mobile credit"
+    ],
+    "payment": [
+      "Western Union",
+      "bank transfer",
+      "cash"
+    ],
+    "transport": [
+      "ferry",
+      "boat",
+      "domestic flight",
+      "taxi"
+    ],
+    "housing": [
+      "family house",
+      "rent",
+      "electricity bill"
+    ]
+  },
+  "status": "draft"
+}

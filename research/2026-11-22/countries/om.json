@@ -1,0 +1,86 @@
+{
+  "country": "om",
+  "parent": "gulf",
+  "name": {
+    "en": "Oman",
+    "native": "عُمان",
+    "zh": "阿曼"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمع؟"
+  },
+  "delivery": {
+    "en": "Collect at Oman Post or Asyad Express, or have the courier leave it at the door",
+    "zh": "到 Oman Post 或 Asyad Express 領件，或請快遞放在門口"
+  },
+  "readback": {
+    "en": "Eight-digit mobiles, often starting 9, go 4-4; 0 as صفر; Omani rials; 12-hour time; day first",
+    "zh": "八位號碼常以 9 開頭、照 4-4 唸，0 唸 صفر；阿曼里亞爾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A WhatsApp or SMS fee from Oman Post or Asyad Express, or a Thawani Pay link, is a scam",
+    "zh": "冒充阿曼郵政、Asyad 要付費的簡訊，或 Thawani 連結，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم. Welcome with حياك. كيف حالك, or كيف حالش to a woman, beats شلونك. Use Omani rials.",
+    "zh": "先回 السلام عليكم，可說 حياك。多用 كيف حالك，女性 كيف حالش。用阿曼里亞爾。"
+  },
+  "stall_local": {
+    "en": "The Thawani confirmation SMS has not arrived, and the Oman Post counter is already closed.",
+    "zh": "卡在 Thawani 確認簡訊一直沒來，而且 Oman Post 櫃臺已經關門。"
+  },
+  "vocab": {
+    "bank": [
+      "Thawani",
+      "ريال عماني",
+      "تحويل",
+      "بطاقة",
+      "OTP"
+    ],
+    "delivery": [
+      "Oman Post",
+      "Asyad Express",
+      "الباب",
+      "مكتب البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "沙烏地政府平台，阿曼日常不會這樣叫自己的官方服務"
+      }
+    },
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋數位身分，不是阿曼用法"
+      }
+    },
+    {
+      "word": "شلونك",
+      "reason": {
+        "zh": "海灣中北部常見問候；阿曼更常說 كيف حالك／كيف حالش 或 حياك"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "A little more reserved than generic Gulf small talk. Prefer حياك and كيف حالك over شلونك or شحالك. Use Omani Post, Asyad and Thawani wording, not Absher or UAE Pass.",
+    "zh": "比泛海灣閒聊略收斂。優先用 حياك、كيف حالك，少用 شلونك 或 شحالك。郵務與付款用阿曼郵政、Asyad、Thawani，不用 أبشر 或 UAE Pass。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://thawani.om/security-center",
+    "https://www.thearabianstories.com/2023/10/08/ignore-any-suspicious-payment-requests-via-sms-whatsapp-oman-post/",
+    "https://www.omanpost.om/contact/contact_us",
+    "https://openarabic.org/gulf-arabic-resources/",
+    "https://www.itu.int/dms_pub/itu-t/oth/02/02/T020200009F0009PDFE.pdf"
+  ],
+  "uncertain": [
+    "手機以 9 開頭後口頭是否一律 4-4，未見電信官方口誦規範。",
+    "門口代收與郵局、Asyad 據點領件的比例，沒有公開統計。",
+    "部分阿曼人是否仍說 شلونك，缺少口語調查。"
+  ]
+}

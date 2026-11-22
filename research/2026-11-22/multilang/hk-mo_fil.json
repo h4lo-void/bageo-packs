@@ -1,0 +1,90 @@
+{
+  "region": "hk-mo",
+  "lang": "fil",
+  "hello": {
+    "hello": "Hello po?",
+    "hello_again": "Hello po, oo?"
+  },
+  "habits": {
+    "en": "Taglish plus po/opo among Filipinos; Ma'am/Sir to employers; say helper, contract, Octopus, MRT; English in most homes.",
+    "zh": "同鄉講 Taglish，用 po／opo；對僱主稱 Ma'am／Sir；常說 Octopus、MTR、合約。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With fellow Filipino workers, loose Taglish is fine and po may drop; answer brightly, then add sige or another casual tag, varied.",
+        "zh": "跟同鄉可用輕鬆 Taglish，po 能省就省；先開朗接話再補 sige 之類，別反覆同一句。"
+      },
+      "2": {
+        "en": "If the caller stays with po/opo, follow; keep an easy pace and, once they have explained, add okay po or a similar kind remark.",
+        "zh": "對方若一直用 po／opo 就跟著用，步調放鬆；聽完加 okay po 一類溫和回應，並換著說。"
+      },
+      "3": {
+        "en": "Everyday HK Filipino should not shrink to one word: meet each point with a full line such as naintindihan ko, never a bare sige.",
+        "zh": "香港日常菲律賓語不要縮成單字：每件事用 naintindihan ko 這類完整句子接住。"
+      },
+      "4": {
+        "en": "To employers, Labour or Immigration, keep po and Ma'am or Sir, unhurried and complete; acknowledge first, e.g. opo.",
+        "zh": "對僱主、勞工處或入境處保留 po、Ma'am 或 Sir，不急、講完整，先應一口 opo 再談事情。"
+      },
+      "5": {
+        "en": "On contracts or visas keep formal po and clear English (helper, contract); close each item with naitala ko po, rephrased.",
+        "zh": "談合約或簽證時維持正式 po，英語專名說清楚；各點用 naitala ko po 一類完整收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful pickup for {owner} in Taglish: short warm lines, then say you will ipapasa the message, wording changed each time.",
+        "zh": "代{owner}接聽的輕快口氣，用 Taglish 先熱絡回應，再說會把話 ipapasa 過去，用詞常換。"
+      },
+      "2": {
+        "en": "Mirror the caller's po; thank them kindly, write the note for {owner}, and close with sige, itatala ko or another gentle line.",
+        "zh": "跟著對方用 po，先客氣致謝，再把要給{owner}的話記下，用 sige, itatala ko 一類收尾。"
+      },
+      "3": {
+        "en": "Like a steady household helper: reply to the point in a full sentence, then confirm you will tell {owner}; no bare OK.",
+        "zh": "像家裡能辦事的人：先用完整句子回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A discreet voice for {owner}: Ma'am/Sir plus po, full composed lines; restate why they rang, then say you will ipapasa ko po.",
+        "zh": "代{owner}的謹慎口氣：Ma'am／Sir 加 po，先完整覆述來意，再說會 ipapasa ko po。"
+      },
+      "5": {
+        "en": "Official callers get po, titles and careful English (Labour, Immigration); cover each detail, then confirm you will tell {owner}.",
+        "zh": "對公務來電維持 po 與稱謂，勞工處等英語專名要準；逐點說清後確認會轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Kumusta ka diyan? Anong meron, kwento mo.",
+      "Hello po! Nandito ako, sige, tuloy mo lang.",
+      "Hello po. Ano po ang pakay? Naintindihan ko na.",
+      "Magandang araw po, salamat sa tawag. Aasikasuhin ko po.",
+      "Magandang araw po. Naitala ko na po ang lahat, salamat."
+    ],
+    "a": [
+      "Hello! Wala siya ngayon, sabihin mo, ipapasa ko!",
+      "Hello po! Ako ang sumasagot, iwan mo ang mensahe.",
+      "Hello po. Itatala ko po at ipapasa ko ang mensahe.",
+      "Magandang araw po, salamat sa tawag. Itatala ko pong ipapasa.",
+      "Magandang araw po. Lahat po ay naitala, ipapasa ko."
+    ]
+  },
+  "diff_from_home": [
+    "與僱主多用英語或 Taglish，較少能流利粵語；同鄉之間才以菲律賓語為主，並夾 Octopus、MTR、合約等當地詞。",
+    "對僱主與機構習慣稱 Ma'am、Sir，官方場合說 helper、契約、勞工處、入境處，避免輕慢稱呼。",
+    "香港外傭社群常見週日在中環一帶聚會，電話裡也會提到休息日、續約與仲介，與菲律賓本地家居對話不同。",
+    "澳門同樣有外籍家務工作者，用語接近香港，但機關名改為澳門勞工局等本地機構。"
+  ],
+  "sources": [
+    "https://www.fdh.labour.gov.hk/en/home.html",
+    "https://doi.org/10.17265/1539-8080/2014.11.001",
+    "https://ejournal.maal.org.my/asjal/article/view/6",
+    "https://research-repository.st-andrews.ac.uk/handle/10023/509"
+  ],
+  "uncertain": [
+    "澳門菲傭社群規模小於香港，日常聚會地點與香港中環是否完全對應，公開資料較少。",
+    "個別家庭用粵語溝通的比例，調查樣本不大，不宜推論全體。"
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "lang": "ht",
+  "backchannels": {
+    "direction": "Wi and enhen show listening; dakò agrees; wi wi wi, mwen konnen said fast sounds like cutting short.",
+    "examples": [
+      {
+        "text": "Enhen.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Mwen tande w.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Se vre.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Dakò.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Wi wi wi, mwen konnen.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Mezanmi! or Se pa vre! for surprise; mwen regrèt sa for sympathy; bon nouvèl for good news.",
+    "examples": [
+      {
+        "text": "Mezanmi!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Se pa vre!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Mwen regrèt sa anpil.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Bon nouvèl sa a!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Sa ap difisil.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (mwen pa tande w byen) or the signal is weak; ask them to pale pi fò.",
+    "examples": [
+      {
+        "text": "Eskize m, mwen pa tande w byen.",
+        "style": "polite"
+      },
+      {
+        "text": "Siyal la fèb.",
+        "style": "casual"
+      },
+      {
+        "text": "Vwa w ap koupe.",
+        "style": "casual"
+      },
+      {
+        "text": "Èske ou ka pale pi fò?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Kisa ou di? is casual, eskize m, repete politer; ask to eple names; echo the nimewo.",
+    "examples": [
+      {
+        "text": "Kisa ou di?",
+        "style": "casual"
+      },
+      {
+        "text": "Eskize m, repete sa souple.",
+        "style": "polite"
+      },
+      {
+        "text": "Ki jan ou eple non an?",
+        "style": "polite"
+      },
+      {
+        "text": "Nimewo a se 12345678, pa vre?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Greet first (bonjou/bonswa), then ask ak ki moun m ap pale; a bare kiyès? is curt.",
+    "examples": [
+      {
+        "text": "Bonswa, ak ki moun m ap pale, souple?",
+        "style": "polite"
+      },
+      {
+        "text": "Kiyès ki la?",
+        "style": "casual"
+      },
+      {
+        "text": "Se telefòn {owner}, kiyès k ap rele?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say move nimewo and that nobody by that name lives here.",
+    "examples": [
+      {
+        "text": "Ou rele move nimewo.",
+        "style": "polite"
+      },
+      {
+        "text": "Pa gen moun ki rele konsa isit la.",
+        "style": "polite"
+      },
+      {
+        "text": "Move nimewo.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "M ap pase mesaj la says {owner} will hear; no ring-back hour.",
+    "examples": [
+      {
+        "text": "M ap pase mesaj la bay {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "M ap di l sa.",
+        "style": "casual"
+      },
+      {
+        "text": "Mesaj la ap rive.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Mèsi, men mwen pa enterese is courteous and clear; souple softens it.",
+    "examples": [
+      {
+        "text": "Mèsi, men mwen pa enterese.",
+        "style": "polite"
+      },
+      {
+        "text": "Nou pa bezwen sa, mèsi.",
+        "style": "polite"
+      },
+      {
+        "text": "Non mèsi.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they keep going, cite the earlier non and ask, with tanpri, that the number be dropped.",
+    "examples": [
+      {
+        "text": "Mwen te deja di w non.",
+        "style": "polite"
+      },
+      {
+        "text": "Tanpri pa rele nimewo sa a ankò.",
+        "style": "polite"
+      },
+      {
+        "text": "Retire nimewo sa a nan lis ou.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Msye/Madanm for strangers; tonton/matant for elders warmly; frè m/sè m among peers.",
+    "examples": [
+      {
+        "text": "Msye",
+        "style": "polite"
+      },
+      {
+        "text": "Madanm",
+        "style": "polite"
+      },
+      {
+        "text": "Manmzèl",
+        "style": "polite"
+      },
+      {
+        "text": "Tonton",
+        "style": "casual"
+      },
+      {
+        "text": "Frè m",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Apèl ou enpòtan pou nou sound like a sèvis kliyan recording.",
+    "examples": [
+      {
+        "text": "Mèsi paske ou rele sèvis kliyan nou.",
+        "style": "polite"
+      },
+      {
+        "text": "Apèl ou enpòtan pou nou.",
+        "style": "polite"
+      },
+      {
+        "text": "Kijan mwen ka ede w jodi a?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Skipping bonjou/bonswa is rude; asking income or politics of a stranger early is out of line.",
+    "examples": [
+      {
+        "text": "Konbyen kòb ou fè?",
+        "style": "casual"
+      },
+      {
+        "text": "Pou ki pati ou vote?",
+        "style": "casual"
+      },
+      {
+        "text": "Kiyès ou ye menm?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Haitian_Creole",
+    "https://en.wiktionary.org/wiki/m%C3%A8si",
+    "https://en.wiktionary.org/wiki/mezanmi",
+    "https://en.wiktionary.org/wiki/tanpri",
+    "https://en.wiktionary.org/wiki/msye"
+  ],
+  "uncertain": [
+    "Support basis: Bageo lists ht in 附件_15_各語言講電話小動作.json (field languages) and 附件_14_地區第二語言補組合.json (field supported_languages); Gemini Live's official language table does not list Haitian Creole",
+    "Orthography follows the official 1979/1980 standard; speakers often write and say French-leaning forms",
+    "Backchannels (wi, enhen, dakò) from dictionaries and usage, no call corpus; French code-switching on formal calls not covered"
+  ]
+}

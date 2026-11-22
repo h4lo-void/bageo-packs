@@ -1,0 +1,652 @@
+{
+  "region": "bt",
+  "countries": [
+    "bt"
+  ],
+  "region_name_zh": "不丹",
+  "region_name": "Bhutan",
+  "languages": [
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Dzongkha (dz) is the national language but Bageo cannot speak it; English is the school language, so English works with almost every business in Thimphu and Paro.",
+  "english_ok": "yes — Schooling is in English; offices, hotels, clinics and tour operators all handle it; older villagers may rely on Dzongkha or Nepali.",
+  "politeness": "Respectful and gentle; add 'la' at the end of replies as Bhutanese do, address men as Dasho only if titled, otherwise Aum (Ms) or Ap (Mr).",
+  "name_tip": "Most Bhutanese have two given names and no family name, so book under both names exactly as said; many names are shared by men and women.",
+  "phone_tip": "Mobiles are 8 digits starting 17 or 16 (B-Mobile) or 77 (TashiCell); landlines are 7 digits with a regional 0 code; read in 2+3+3.",
+  "time_tip": "12-hour in speech, 24-hour on tickets; confirm morning or evening and remember Bhutan is UTC+6.",
+  "number_tip": "Prices are in ngultrum (Nu), pegged one-to-one with the Indian rupee; many shops also take rupees.",
+  "avoid_calling": "Avoid lunch 13:00–14:00 and calls after 19:00; Tsechu festival days and national holidays close many offices.",
+  "closed_days": "Government offices close Saturday and Sunday; shops open most days; Tuesday is a dry day when bars stop selling alcohol.",
+  "booking_channels": "WeChat and WhatsApp carry much business chat; foreign visitors' trips are arranged through licensed tour operators; payments via mobile banking apps such as mBoB.",
+  "voice_menu": "Bhutan Telecom and TashiCell have short IVR menus; small shops answer directly.",
+  "callback_habits": "Shops reply on WeChat or WhatsApp; tour operators confirm by email; clinics usually call back.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "健行、寺院參觀與節慶行程多經旅行社安排，部分路線需許可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Trek requires a permit arranged by the operator"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Unlicensed guide asks cash transfer"
+        }
+      ],
+      "usually_asked": [
+        "Trek or tour and date",
+        "Group count",
+        "Fitness level",
+        "Contact name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美容多打電話或 WeChat 約，熱石浴與 spa 多經飯店安排。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hot stone bath needs a day's notice"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full prepayment to an unknown account"
+        }
+      ],
+      "usually_asked": [
+        "Treatment type",
+        "Preferred therapist",
+        "Date and slot",
+        "Phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多電話或 WeChat 一句即可；旅行團改期須經旅行社。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Tour change goes through the operator"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "CID number"
+        }
+      ],
+      "usually_asked": [
+        "Booking name (both given names)",
+        "Old time",
+        "New time",
+        "Pax update"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "不丹公立醫療免費，多現場掛號；私人診所與牙醫可電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Government hospital is walk-in only"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Visitors may need to pay"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Citizenship ID or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Patient's two names",
+        "What the complaint is",
+        "Walk-in or appointment",
+        "Bhutanese or visitor"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服語音選單短，帳戶事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Only the SIM or account owner can verify"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "CID, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Menu choice",
+        "Holder",
+        "Linked mobile",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府手續多走線上入口或本人臨櫃，週末不辦公。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service available online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Child's CID number"
+        }
+      ],
+      "usually_asked": [
+        "Ministry counter or school name",
+        "Class of the child",
+        "Dzongkhag",
+        "Parent number"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與木工多靠推薦打電話；地址以地名與地標描述。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Charge for coming up the hill"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Payment before work starts"
+        }
+      ],
+      "usually_asked": [
+        "Electrical, plumbing or carpentry",
+        "Area and landmark",
+        "When",
+        "Phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "外國遊客住宿通常由持照旅行社一併安排；印度、孟加拉、馬爾地夫旅客可直接訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Foreign guests book through a licensed operator"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Sustainable Development Fee per night"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport and visa copy by chat"
+        }
+      ],
+      "usually_asked": [
+        "Nights in Thimphu or Paro",
+        "Guests",
+        "Heater in room",
+        "Lead guest's passport name"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問營業時間、節慶是否開門、可否用 mBoB 付款，店家多直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Takes mBoB and Indian rupees"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed on the Tsechu day"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Festival-day hours",
+        "mBoB, rupee or card",
+        "Parking near the shop",
+        "Stock check"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫院多為公營，可電話詢問；街犬多，寵物服務有限。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Government vet open office hours"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full prepayment for minding"
+        }
+      ],
+      "usually_asked": [
+        "Vaccine or treatment",
+        "Dog or cat and age",
+        "Day",
+        "Owner phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Facebook 與 WeChat 群組，房東直接約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance rent"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Fee before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Flat and area",
+        "Start date",
+        "Occupants",
+        "When to view"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車維修多到廠；零件多從印度進口，需等候。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Spare part ordered from India"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks the registration number"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before diagnosis"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle model and number",
+        "Problem",
+        "Drop-off time",
+        "Owner mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "廷布餐廳多電話或 WeChat 訂位，小店多現場入座；週二禁酒日酒吧不賣酒。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No alcohol served on Tuesday"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Big group wants a fixed set menu"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card digits asked to keep the booking"
+        }
+      ],
+      "usually_asked": [
+        "Dinner hour",
+        "How many guests",
+        "Window or private room",
+        "Name and mobile la"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與節慶物品多 WeChat 傳圖預訂並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance needed for custom cake"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Whole payment to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Cake look and weight",
+        "Message",
+        "Pickup day",
+        "Buyer"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶（parcel）可電話先點；外送多靠本地 App 或店家自送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only within Thimphu"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Extra for chilli level or cheese"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay a stranger's account"
+        }
+      ],
+      "usually_asked": [
+        "Dishes such as ema datshi",
+        "Collection time",
+        "Delivery spot",
+        "Contact"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Bhutan Post 與快遞可電話或以追蹤號查詢，偏遠地區時間較長。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parcel is kept at the post office"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Collection code"
+        }
+      ],
+      "usually_asked": [
+        "Post tracking code",
+        "Recipient",
+        "Dzongkhag",
+        "Contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "廷布計程車可路邊攔或打電話，跨城包車多經旅行社或司機手機。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Taxi called by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Paro airport fare"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Licence copy for a rental"
+        }
+      ],
+      "usually_asked": [
+        "Where to collect and when",
+        "Destination town",
+        "Seats needed",
+        "Traveller name"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "OPD appt",
+        "dental appt",
+        "haircut slot",
+        "vehicle servicing"
+      ],
+      "booking_words": [
+        "table booking",
+        "room booked",
+        "hot stone bath booking"
+      ],
+      "change_words": [
+        "postpone to Sat",
+        "booking cancelled",
+        "time changed"
+      ],
+      "date": [
+        "tmr",
+        "Sat",
+        "25/11"
+      ],
+      "false_friends": [
+        "2nd flr",
+        "room 12",
+        "near Clock Tower"
+      ],
+      "inquiry_words": [
+        "open what time la",
+        "mBoB ok?",
+        "parking available?"
+      ],
+      "name": [
+        "Karma Wangmo",
+        "Tshering Dorji",
+        "office booking"
+      ],
+      "order_words": [
+        "parcel",
+        "home delivery",
+        "self pickup"
+      ],
+      "party": [
+        "4 ppl",
+        "2 adults 1 child"
+      ],
+      "phone": [
+        "1712 3456",
+        "WeChat same no"
+      ],
+      "time": [
+        "7 pm",
+        "19:00",
+        "10 am"
+      ]
+    }
+  }
+}

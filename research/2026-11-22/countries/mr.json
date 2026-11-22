@@ -1,0 +1,62 @@
+{
+  "country": "mr",
+  "parent": "maghreb",
+  "name": {
+    "en": "Mauritania",
+    "native": "Mauritania",
+    "zh": "茅利塔尼亞"
+  },
+  "lang": "ar",
+  "differs_from_parent": {
+    "calling_code": "+222",
+    "currency": "烏吉亞 MRU（2018 年改制，1 新烏吉亞＝10 舊）",
+    "time_zone": "UTC+0，比摩洛哥、阿爾及利亞、突尼西亞慢 1 小時，比利比亞慢 2 小時",
+    "language": "阿拉伯語官方，口語是哈薩尼亞阿拉伯語；法語在行政與商業常用，另有普拉爾語、索寧克語、沃洛夫語",
+    "workweek": "2014 年起週末改為週六、週日（父區摩洛哥同，但與部分阿拉伯國家不同）"
+  },
+  "readback": {
+    "en": "Times are UTC+0; confirm ouguiya amounts in new units",
+    "zh": "時間是 UTC+0；烏吉亞金額要確認是新制"
+  },
+  "habits": {
+    "en": "Callers speak Hassaniya Arabic or French; follow them. Prices in ouguiya: check old or new units. Wallets: Bankily, Masrvi, Sedad.",
+    "zh": "來電多說哈薩尼亞阿拉伯語或法語，跟著對方。烏吉亞要確認是新制還是舊制金額。行動錢包常見 Bankily、Masrvi、Sedad。"
+  },
+  "vocab": {
+    "bank": [
+      "Bankily",
+      "Masrvi",
+      "Sedad",
+      "ouguiya"
+    ],
+    "delivery": [
+      "gardien",
+      "boutique"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "D17",
+      "reason": {
+        "zh": "突尼西亞郵政的支付 App，茅利塔尼亞不用"
+      }
+    },
+    {
+      "word": "dirham／dinar",
+      "reason": {
+        "zh": "父區各國的貨幣名，茅利塔尼亞用 ouguiya"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.are.mr/",
+    "https://en.wikipedia.org/wiki/Mauritanian_ouguiya",
+    "https://en.wikipedia.org/wiki/Hassaniya_Arabic",
+    "https://en.wikipedia.org/wiki/Workweek_and_weekend"
+  ],
+  "uncertain": [
+    "Bankily、Masrvi、Sedad 的名稱來自一般認知，央行網站 bcm.mr 從 box 開啟時回 403，未能在官方頁確認。",
+    "口頭報價是否常用舊制烏吉亞，缺少統計。"
+  ]
+}

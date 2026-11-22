@@ -1,0 +1,93 @@
+{
+  "region": "se",
+  "lang": "ar",
+  "hello": {
+    "hello": "مرحبا، الو؟",
+    "hello_again": "أهلا، تكرم"
+  },
+  "habits": {
+    "en": "Levantine or Iraqi Arabic; more formal with elders. Mix personnummer, BankID, Swish, Migrationsverket, 1177.",
+    "zh": "黎凡特或伊拉克阿語，對長輩較正式。夾 personnummer、BankID、Swish、1177。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Family in Sweden can stay informal: fold in Swedish nouns and answer tamam or tayyib after a short greeting.",
+        "zh": "在瑞典跟家人可以輕鬆，瑞典語名詞直接夾進來，簡短招呼後回 tamam 或 tayyib。"
+      },
+      "2": {
+        "en": "Friendly Levantine Arabic on a Swedish line. If they mention Swish or BankID, pick up those words and stay in their register.",
+        "zh": "瑞典線上親切的黎凡特阿語。若提到 Swish 或 BankID，就把這些詞接住，語域跟對方走。"
+      },
+      "3": {
+        "en": "Ordinary Arabic in Sweden. Answer the matter fully and keep personnummer, 1177 or vårdcentral in Swedish.",
+        "zh": "瑞典日常阿語要把事情說完整，personnummer、1177、vårdcentral 維持瑞典語名稱。"
+      },
+      "4": {
+        "en": "If they call about Migrationsverket or Skatteverket, use formal address, keep Swedish agency names, and handle their ask first.",
+        "zh": "若來電涉及移民局或稅務局，改用較正式稱呼，機關名維持瑞典語，先處理他們要辦的事。"
+      },
+      "5": {
+        "en": "Business Arabic with titles. Recap the folkbokföring or Försäkringskassan item, then stop without an extra formula.",
+        "zh": "商務阿語加稱謂，覆述戶籍登記或 Försäkringskassan 事項後就停，不再加套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Light Arabic cover for {owner} in Sweden: start with tamam, keep Swedish loanwords, and say the note will go to them.",
+        "zh": "在瑞典號碼上替{owner}輕鬆代接，先回 tamam，保留對方夾進的瑞典詞，並說字條會轉到他那裡。"
+      },
+      "2": {
+        "en": "Stay as formal as they are. Capture the Swish or personnummer detail, then tell them {owner} will learn of it.",
+        "zh": "對方有多正式就跟多正式。記下 Swish 或 personnummer 細節，並告訴他們{owner}會得知。"
+      },
+      "3": {
+        "en": "Calm Arabic helper on a Swedish line. Give one complete reply to why they called, then promise {owner} a short recap.",
+        "zh": "瑞典線上的阿語助理語氣平靜，先用完整一句說明來電目的，再答應會給{owner}一份短摘要。"
+      },
+      "4": {
+        "en": "Formal Arabic with care: restate the Migrationsverket or 1177 issue in their terms, and state that the slip belongs to {owner}.",
+        "zh": "謹慎的正式阿語：用對方的詞重述移民局或 1177 的事，並說明字條是{owner}的。"
+      },
+      "5": {
+        "en": "Acting for {owner} formally: use titles, sort BankID or tax papers, and finish after saying the file went out.",
+        "zh": "以高階語域代{owner}：使用稱謂，整理 BankID 或稅務文件，說完檔案已送出就結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "الو، مرحبا! كيفك؟ احك، أنا هون.",
+      "أهلا، تكرم، أنا سامعك.",
+      "أهلا. عن الـ personnummer؟ تمام، دوّنت.",
+      "يعطيكون العافية، شكراً للاتصال. فهمت طلب الـ Migrationsverket.",
+      "أهلاً وسهلا، شكراً على المكالمة. سجلت تفاصيل الـ BankID."
+    ],
+    "a": [
+      "الو! مش موجود، خبرني وأنا بوصل الكلام.",
+      "أهلا، أنا اللي عم برد، ترك الرسالة.",
+      "أهلا. بكتبها وبعرفو.",
+      "شكراً لاتصالك. بخلي الرسالة عند {owner}.",
+      "شكراً لاتصالكم. بنقل النقاط لـ {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "瑞典的阿拉伯語社群以敘利亞、伊拉克、黎巴嫩等黎凡特與美索不達米亞口音為主，不要預設用法國或西班牙常見的馬格里布達里賈（如 labas）。",
+    "身份與戶籍口語離不開 personnummer 與 folkbokföring，移民手續走 Migrationsverket，稅務是 Skatteverket，與原居地戶政名稱不同。",
+    "付款與登入幾乎都靠 BankID 與 Swish；醫療口語常提 1177 與 vårdcentral，福利則是 Försäkringskassan 或 Arbetsförmedlingen。",
+    "對長輩與公家較正式；開場不一定用宗教問候，電話裡也常見 مرحبا、أهلا。機關名通常直接講瑞典語。"
+  ],
+  "sources": [
+    "https://www.migrationsverket.se/",
+    "https://www.skatteverket.se/servicelankar/otherlanguages/arabiska.4.57cadbbd15a3688ff443cab.html",
+    "https://www.bankid.com/",
+    "https://www.swish.nu/",
+    "https://www.1177.se/",
+    "https://www.forsakringskassan.se/",
+    "https://www.informationsverige.se/"
+  ],
+  "uncertain": [
+    "敘利亞、伊拉克、索馬利亞等來源在各地比重不同，同一通電話的方言可能差很大，無法用單一變體涵蓋。",
+    "新抵者與已 folkbokförd 居民夾瑞典語的程度缺少可量化的電話語料。"
+  ]
+}

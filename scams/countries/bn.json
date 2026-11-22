@@ -1,0 +1,57 @@
+{
+  "name": "Brunei",
+  "name_local": "Brunei Darussalam",
+  "iso": "bn",
+  "calling_code": "+673",
+  "languages": [
+    "ms",
+    "en"
+  ],
+  "prevalence_note": "Brunei Darussalam Central Bank (BDCB) keeps an Alert List of entities that are suspicious or not licensed for regulated financial activity such as money lending, money changing, remittance and investments, and tells scam victims to report to the Royal Brunei Police Force.",
+  "cross_border_note": "Brunei numbers have seven digits after +673; offers pushed over messaging apps by foreign or unlicensed operators fall outside BDCB supervision, so a local-looking contact does not prove a licensed business.",
+  "scams": [
+    {
+      "id": "bn_unlicensed_investment",
+      "typology": "investment_group_scam",
+      "name": "Unlicensed investment or money scheme",
+      "name_en": "Investment, remittance or money-lending offer from an entity on BDCB's Alert List or without a licence",
+      "prevalence": "high",
+      "lang": "ms",
+      "context_keywords": [
+        "pelaburan",
+        "skim",
+        "keuntungan tinggi",
+        "pinjaman wang",
+        "pengurup wang",
+        "remittance",
+        "bdcb"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "keuntungan dijamin",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "tidak perlu lesen",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "deposit dulu",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "Caller or chat promotes investments, currency options, money lending or remittance from an entity not licensed by BDCB, often promising high returns.",
+      "legit_en": "BDCB says regulated financial activities must be licensed by it; the public can check its Alert List before dealing, and victims should report to the police.",
+      "bait_tactics": [
+        "Saya hanya berurusan dengan syarikat yang ada lesen BDCB.",
+        "Hantarkan nombor lesen syarikat, nanti saya rujuk BDCB."
+      ],
+      "sources": [
+        "https://www.bdcb.gov.bn/consumer/bdcb-alert-list"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,843 @@
+{
+  "region": "za",
+  "vocab": {
+    "en": {
+      "bank": [
+        {
+          "term": "EFT",
+          "en": "electronic funds transfer, the everyday SA word for a bank payment"
+        },
+        {
+          "term": "cheque account",
+          "en": "main transactional account, still called cheque account in SA"
+        },
+        {
+          "term": "savings account",
+          "en": "SA savings account, often next to a cheque account"
+        },
+        {
+          "term": "banking app",
+          "en": "SA bank app such as FNB, Capitec or Standard Bank apps"
+        },
+        {
+          "term": "proof of payment",
+          "en": "the PDF slip SA payees ask for after an EFT, often 'POP'"
+        },
+        {
+          "term": "immediate payment",
+          "en": "same-minute EFT that SA banks charge extra for"
+        },
+        {
+          "term": "branch code",
+          "en": "SA bank branch code, still asked for on EFT forms"
+        },
+        {
+          "term": "debit order",
+          "en": "monthly automatic SA debit, e.g. for insurance or gym"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "security gate",
+          "en": "estate or complex gate where SA couriers are stopped"
+        },
+        {
+          "term": "guardhouse",
+          "en": "gatehouse at a SA estate where parcels are left"
+        },
+        {
+          "term": "complex",
+          "en": "SA word for a townhouse or flat complex"
+        },
+        {
+          "term": "unit number",
+          "en": "flat/townhouse number inside a SA complex"
+        },
+        {
+          "term": "Pargo point",
+          "en": "Pargo pick-up point at a SA shop"
+        },
+        {
+          "term": "PostNet",
+          "en": "SA counter chain for courier and parcel drop-off"
+        },
+        {
+          "term": "waybill number",
+          "en": "SA courier tracking number"
+        },
+        {
+          "term": "Takealot",
+          "en": "SA's large online store, often named in delivery calls"
+        }
+      ],
+      "government": [
+        {
+          "term": "Home Affairs",
+          "en": "Department of Home Affairs, IDs and passports"
+        },
+        {
+          "term": "smart ID card",
+          "en": "SA green-book replacement ID card"
+        },
+        {
+          "term": "green ID book",
+          "en": "older SA identity book, still mentioned"
+        },
+        {
+          "term": "ID number",
+          "en": "SA 13-digit identity number; never read it out unasked"
+        },
+        {
+          "term": "SARS eFiling",
+          "en": "SA Revenue Service online tax filing"
+        },
+        {
+          "term": "SASSA grant",
+          "en": "social grant paid by the SA Social Security Agency"
+        },
+        {
+          "term": "licensing department",
+          "en": "SA traffic licensing office for licence discs and renewals"
+        },
+        {
+          "term": "municipality",
+          "en": "local council for rates, water and electricity bills"
+        }
+      ],
+      "health": [
+        {
+          "term": "medical aid",
+          "en": "SA private health cover (not 'insurance')"
+        },
+        {
+          "term": "medical aid number",
+          "en": "member number on an SA medical aid card"
+        },
+        {
+          "term": "GP",
+          "en": "SA family doctor"
+        },
+        {
+          "term": "chemist",
+          "en": "SA everyday word for pharmacy, also Clicks or Dis-Chem"
+        },
+        {
+          "term": "Clicks",
+          "en": "SA pharmacy and health retail chain"
+        },
+        {
+          "term": "Dis-Chem",
+          "en": "SA pharmacy chain"
+        },
+        {
+          "term": "clinic",
+          "en": "SA public primary-care clinic"
+        },
+        {
+          "term": "casualty",
+          "en": "SA everyday word for hospital emergency department"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "cellphone",
+          "en": "SA word for mobile phone, often just 'cell'"
+        },
+        {
+          "term": "airtime",
+          "en": "SA prepaid call credit"
+        },
+        {
+          "term": "data bundle",
+          "en": "SA prepaid data pack"
+        },
+        {
+          "term": "contract",
+          "en": "SA postpaid phone plan"
+        },
+        {
+          "term": "RICA",
+          "en": "SA SIM registration requirement"
+        },
+        {
+          "term": "Vodacom",
+          "en": "SA mobile network"
+        },
+        {
+          "term": "MTN",
+          "en": "SA mobile network"
+        },
+        {
+          "term": "please call me",
+          "en": "free SA 'call me back' SMS"
+        }
+      ],
+      "payment": [
+        {
+          "term": "tap",
+          "en": "SA contactless card payment, 'just tap'"
+        },
+        {
+          "term": "SnapScan",
+          "en": "SA QR payment app"
+        },
+        {
+          "term": "Zapper",
+          "en": "SA QR payment app"
+        },
+        {
+          "term": "PayShap",
+          "en": "SA instant bank-to-bank payment by ShapID"
+        },
+        {
+          "term": "cash send",
+          "en": "SA bank cash transfer collected at an ATM"
+        },
+        {
+          "term": "card machine",
+          "en": "SA speed point for card payment"
+        },
+        {
+          "term": "speed point",
+          "en": "SA word for a card terminal"
+        }
+      ],
+      "transport": [
+        {
+          "term": "robot",
+          "en": "SA word for traffic light"
+        },
+        {
+          "term": "taxi",
+          "en": "in SA usually a minibus taxi, not a metered cab"
+        },
+        {
+          "term": "taxi rank",
+          "en": "SA minibus taxi terminus"
+        },
+        {
+          "term": "Uber",
+          "en": "ride-hailing used in SA cities"
+        },
+        {
+          "term": "Bolt",
+          "en": "ride-hailing used in SA cities"
+        },
+        {
+          "term": "Gautrain",
+          "en": "Gauteng rapid rail"
+        },
+        {
+          "term": "MyCiTi",
+          "en": "Cape Town bus network"
+        },
+        {
+          "term": "bakkie",
+          "en": "SA word for pickup truck"
+        }
+      ],
+      "housing": [
+        {
+          "term": "estate",
+          "en": "SA gated residential estate"
+        },
+        {
+          "term": "body corporate",
+          "en": "SA sectional-title owners' body"
+        },
+        {
+          "term": "caretaker",
+          "en": "on-site SA complex caretaker"
+        },
+        {
+          "term": "access tag",
+          "en": "SA estate access disc or remote"
+        },
+        {
+          "term": "load shedding",
+          "en": "SA scheduled power cuts"
+        },
+        {
+          "term": "prepaid electricity",
+          "en": "SA prepaid meter units bought by token"
+        },
+        {
+          "term": "levies",
+          "en": "monthly SA body corporate fees"
+        },
+        {
+          "term": "garden flat",
+          "en": "SA separate small flat on a property, also 'granny flat'"
+        }
+      ],
+      "school": [
+        {
+          "term": "matric",
+          "en": "SA final school year and its exam"
+        },
+        {
+          "term": "Grade R",
+          "en": "SA reception year before Grade 1"
+        },
+        {
+          "term": "creche",
+          "en": "SA nursery/daycare"
+        },
+        {
+          "term": "aftercare",
+          "en": "SA after-school care"
+        },
+        {
+          "term": "school fees",
+          "en": "SA fees, set per school"
+        },
+        {
+          "term": "varsity",
+          "en": "SA everyday word for university"
+        },
+        {
+          "term": "lift club",
+          "en": "SA parents' car-pool to school"
+        }
+      ],
+      "money": [
+        {
+          "term": "rand",
+          "en": "SA currency, written R"
+        },
+        {
+          "term": "bucks",
+          "en": "SA slang for rand"
+        },
+        {
+          "term": "cents",
+          "en": "SA subunit"
+        },
+        {
+          "term": "R10 note",
+          "en": "read 'ten rand', not 'ten dollars'"
+        },
+        {
+          "term": "a grand",
+          "en": "SA slang for one thousand rand"
+        },
+        {
+          "term": "a mill",
+          "en": "SA colloquial for a million rand, e.g. house prices"
+        },
+        {
+          "term": "VAT inclusive",
+          "en": "SA prices quoted including 15% VAT"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "now now",
+          "en": "SA: soon, within minutes"
+        },
+        {
+          "term": "just now",
+          "en": "SA: later, at an unspecified time"
+        },
+        {
+          "term": "now",
+          "en": "SA: soon, not necessarily immediately"
+        },
+        {
+          "term": "month-end",
+          "en": "SA payday period around the 25th"
+        },
+        {
+          "term": "public holiday",
+          "en": "SA public holidays, e.g. Heritage Day"
+        },
+        {
+          "term": "the festive season",
+          "en": "SA December holidays"
+        },
+        {
+          "term": "braai day",
+          "en": "informal SA name for 24 September"
+        }
+      ],
+      "work": [
+        {
+          "term": "payslip",
+          "en": "SA monthly salary slip"
+        },
+        {
+          "term": "UIF",
+          "en": "SA Unemployment Insurance Fund contributions"
+        },
+        {
+          "term": "IRP5",
+          "en": "SA employee tax certificate"
+        },
+        {
+          "term": "13th cheque",
+          "en": "SA year-end bonus month"
+        },
+        {
+          "term": "leave",
+          "en": "SA word for time off, e.g. annual leave"
+        },
+        {
+          "term": "shift",
+          "en": "SA shift work, common in retail and mining"
+        },
+        {
+          "term": "CCMA",
+          "en": "SA labour dispute body"
+        }
+      ]
+    },
+    "af": {
+      "bank": [
+        {
+          "term": "rekening",
+          "en": "Afrikaans for bank account"
+        },
+        {
+          "term": "oorplasing",
+          "en": "Afrikaans for bank transfer/EFT"
+        },
+        {
+          "term": "tjekrekening",
+          "en": "Afrikaans for cheque account"
+        },
+        {
+          "term": "bankkaart",
+          "en": "Afrikaans for bank card"
+        },
+        {
+          "term": "bewys van betaling",
+          "en": "Afrikaans for proof of payment"
+        },
+        {
+          "term": "debietorder",
+          "en": "Afrikaans for debit order"
+        },
+        {
+          "term": "takkode",
+          "en": "Afrikaans for branch code"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "pakkie",
+          "en": "Afrikaans for parcel"
+        },
+        {
+          "term": "koerier",
+          "en": "Afrikaans for courier"
+        },
+        {
+          "term": "sekuriteitshek",
+          "en": "Afrikaans for security gate"
+        },
+        {
+          "term": "kompleks",
+          "en": "Afrikaans for housing complex"
+        },
+        {
+          "term": "eenheidnommer",
+          "en": "Afrikaans for unit number"
+        },
+        {
+          "term": "afleweringsadres",
+          "en": "Afrikaans for delivery address"
+        },
+        {
+          "term": "by die hek los",
+          "en": "leave it at the gate (Afrikaans)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Binnelandse Sake",
+          "en": "Afrikaans for Home Affairs"
+        },
+        {
+          "term": "ID-dokument",
+          "en": "Afrikaans for ID document"
+        },
+        {
+          "term": "slim-ID-kaart",
+          "en": "Afrikaans for smart ID card"
+        },
+        {
+          "term": "ID-nommer",
+          "en": "Afrikaans for ID number; never read aloud unasked"
+        },
+        {
+          "term": "munisipaliteit",
+          "en": "Afrikaans for municipality"
+        },
+        {
+          "term": "lisensiekantoor",
+          "en": "Afrikaans for licensing office"
+        },
+        {
+          "term": "toelae",
+          "en": "Afrikaans for grant/allowance, e.g. SASSA"
+        }
+      ],
+      "health": [
+        {
+          "term": "mediese fonds",
+          "en": "Afrikaans for medical aid"
+        },
+        {
+          "term": "huisdokter",
+          "en": "Afrikaans for family GP"
+        },
+        {
+          "term": "apteek",
+          "en": "Afrikaans for pharmacy"
+        },
+        {
+          "term": "kliniek",
+          "en": "Afrikaans for clinic"
+        },
+        {
+          "term": "ongevalle",
+          "en": "Afrikaans for casualty/emergency"
+        },
+        {
+          "term": "voorskrif",
+          "en": "Afrikaans for prescription"
+        },
+        {
+          "term": "hospitaal",
+          "en": "Afrikaans for hospital"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "selfoon",
+          "en": "Afrikaans for cellphone"
+        },
+        {
+          "term": "lugtyd",
+          "en": "Afrikaans for airtime"
+        },
+        {
+          "term": "data",
+          "en": "Afrikaans speakers just say data"
+        },
+        {
+          "term": "kontrak",
+          "en": "Afrikaans for contract plan"
+        },
+        {
+          "term": "RICA",
+          "en": "SIM registration, same acronym in Afrikaans"
+        },
+        {
+          "term": "oproep",
+          "en": "Afrikaans for phone call"
+        },
+        {
+          "term": "SMS'ie",
+          "en": "Afrikaans diminutive for an SMS"
+        }
+      ],
+      "payment": [
+        {
+          "term": "kontant",
+          "en": "Afrikaans for cash"
+        },
+        {
+          "term": "kaartbetaling",
+          "en": "Afrikaans for card payment"
+        },
+        {
+          "term": "kaartmasjien",
+          "en": "Afrikaans for card machine"
+        },
+        {
+          "term": "SnapScan",
+          "en": "QR app, same name in Afrikaans speech"
+        },
+        {
+          "term": "betaling",
+          "en": "Afrikaans for payment"
+        },
+        {
+          "term": "faktuur",
+          "en": "Afrikaans for invoice"
+        }
+      ],
+      "transport": [
+        {
+          "term": "robot",
+          "en": "traffic light in Afrikaans too"
+        },
+        {
+          "term": "taxi",
+          "en": "minibus taxi in Afrikaans speech"
+        },
+        {
+          "term": "bakkie",
+          "en": "pickup, originally Afrikaans"
+        },
+        {
+          "term": "trein",
+          "en": "Afrikaans for train"
+        },
+        {
+          "term": "verkeer",
+          "en": "Afrikaans for traffic"
+        },
+        {
+          "term": "taxi-staanplek",
+          "en": "Afrikaans for taxi rank"
+        }
+      ],
+      "housing": [
+        {
+          "term": "woonstel",
+          "en": "Afrikaans for flat"
+        },
+        {
+          "term": "meenthuis",
+          "en": "Afrikaans for townhouse"
+        },
+        {
+          "term": "beheerliggaam",
+          "en": "Afrikaans for body corporate"
+        },
+        {
+          "term": "opsigter",
+          "en": "Afrikaans for caretaker"
+        },
+        {
+          "term": "huurgeld",
+          "en": "Afrikaans for rent"
+        },
+        {
+          "term": "beurtkrag",
+          "en": "Afrikaans for load shedding"
+        },
+        {
+          "term": "voorafbetaalde krag",
+          "en": "Afrikaans for prepaid electricity"
+        }
+      ],
+      "school": [
+        {
+          "term": "kleuterskool",
+          "en": "Afrikaans for preschool"
+        },
+        {
+          "term": "graad R",
+          "en": "Afrikaans for Grade R"
+        },
+        {
+          "term": "matriek",
+          "en": "Afrikaans for matric"
+        },
+        {
+          "term": "naskool",
+          "en": "Afrikaans for aftercare"
+        },
+        {
+          "term": "skoolgeld",
+          "en": "Afrikaans for school fees"
+        },
+        {
+          "term": "onderwyser",
+          "en": "Afrikaans for teacher"
+        },
+        {
+          "term": "universiteit",
+          "en": "Afrikaans for university"
+        }
+      ],
+      "money": [
+        {
+          "term": "rand",
+          "en": "currency, same word in Afrikaans"
+        },
+        {
+          "term": "sent",
+          "en": "Afrikaans for cent"
+        },
+        {
+          "term": "duisend",
+          "en": "Afrikaans for thousand"
+        },
+        {
+          "term": "miljoen",
+          "en": "Afrikaans for million"
+        },
+        {
+          "term": "kleingeld",
+          "en": "Afrikaans for small change"
+        },
+        {
+          "term": "BTW",
+          "en": "Afrikaans for VAT"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "nou-nou",
+          "en": "Afrikaans: in a moment or a moment ago"
+        },
+        {
+          "term": "netnou",
+          "en": "Afrikaans: in a while, later"
+        },
+        {
+          "term": "môre",
+          "en": "Afrikaans for tomorrow (also morning)"
+        },
+        {
+          "term": "oormôre",
+          "en": "Afrikaans for day after tomorrow"
+        },
+        {
+          "term": "halfdrie",
+          "en": "Afrikaans for 2:30"
+        },
+        {
+          "term": "kwart oor twee",
+          "en": "Afrikaans for 2:15"
+        },
+        {
+          "term": "naweek",
+          "en": "Afrikaans for weekend"
+        }
+      ],
+      "work": [
+        {
+          "term": "salarisstrokie",
+          "en": "Afrikaans for payslip"
+        },
+        {
+          "term": "verlof",
+          "en": "Afrikaans for leave"
+        },
+        {
+          "term": "siekverlof",
+          "en": "Afrikaans for sick leave"
+        },
+        {
+          "term": "skof",
+          "en": "Afrikaans for shift"
+        },
+        {
+          "term": "oortyd",
+          "en": "Afrikaans for overtime"
+        },
+        {
+          "term": "werkgewer",
+          "en": "Afrikaans for employer"
+        },
+        {
+          "term": "dertiende tjek",
+          "en": "Afrikaans for 13th cheque bonus"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "traffic light (in casual speech)",
+      "use_instead": "robot is fine with locals",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "pickup truck",
+      "use_instead": "bakkie",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "cell phone plan",
+      "use_instead": "contract, or prepaid with airtime",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "checking account",
+      "use_instead": "cheque account",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "zip code",
+      "use_instead": "postal code (4 digits in SA)",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "ER",
+      "use_instead": "casualty, or emergency unit",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "drugstore",
+      "use_instead": "chemist, pharmacy",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "dollars",
+      "use_instead": "rand",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "mobile top-up",
+      "use_instead": "airtime",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "ute",
+      "use_instead": "bakkie",
+      "where_it_is_from": "AU"
+    },
+    {
+      "word": "matatu",
+      "use_instead": "minibus taxi",
+      "where_it_is_from": "KE"
+    },
+    {
+      "word": "mobieltje",
+      "use_instead": "selfoon",
+      "where_it_is_from": "NL"
+    },
+    {
+      "word": "pinnen",
+      "use_instead": "met kaart betaal",
+      "where_it_is_from": "NL"
+    },
+    {
+      "word": "huisarts",
+      "use_instead": "huisdokter",
+      "where_it_is_from": "NL"
+    },
+    {
+      "word": "zorgverzekering",
+      "use_instead": "mediese fonds",
+      "where_it_is_from": "NL"
+    }
+  ],
+  "sources": [
+    "https://www.dha.gov.za/",
+    "https://www.sars.gov.za/",
+    "https://www.gov.za/services",
+    "https://www.postoffice.co.za/",
+    "https://www.icasa.org.za/",
+    "https://www.medicalschemes.co.za/",
+    "https://www.education.gov.za/",
+    "https://www.gautrain.co.za/",
+    "https://www.capetown.gov.za/myciti",
+    "https://en.wiktionary.org/wiki/Appendix:Glossary_of_South_African_English_regionalisms",
+    "https://macmillandictionaries.com/MED-Magazine/June2010/58-Feature-South-African-English.htm",
+    "https://viva-afrikaans.org/",
+    "https://www.capetowndata.com/en/cape-town-explained/slang/"
+  ],
+  "uncertain": [
+    "南非有 12 種官方語言，但支援清單只有英語與南非荷蘭語（af），祖魯語、科薩語等未寫；af 組詞頻表樣本小，部分詞靠網頁查證。",
+    "「bucks」「a grand」屬口語，正式電話宜直接說 rand 金額。",
+    "PayShap 推出較晚，一般人在電話裡是否已普遍說 PayShap 或仍只說 EFT 不確定。",
+    "load shedding 近年頻率下降，仍常聽到但時效性需再查。"
+  ]
+}

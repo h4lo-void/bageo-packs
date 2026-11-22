@@ -1,0 +1,48 @@
+{
+  "name": "Saint Barthélemy",
+  "name_local": "Saint-Barthélemy",
+  "iso": "bl",
+  "calling_code": "+590",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "The prefecture for Saint-Barthélemy and Saint-Martin has issued a digital-fraud vigilance notice, and French national cyber-assistance guidance on fake parcel messages covers the island.",
+  "cross_border_note": "Saint-Barthélemy shares +590 with Guadeloupe and Saint-Martin, and many residents and seasonal staff also receive calls from mainland France (+33) and US numbers.",
+  "scams": [
+    {
+      "id": "bl_colis_frais_code",
+      "typology": "fake_customs_parcel",
+      "name": "Faux avis de colis avec frais ou code",
+      "name_en": "Fake parcel notice asking for a fee, card or code on Saint-Barthélemy",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "colis en attente",
+        "frais de livraison",
+        "lien de suivi"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "payer des frais de réexpédition",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "code reçu par SMS",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message styled as La Poste or a courier says a parcel is stuck and asks for small fees, card details or a code sent by text.",
+      "legit_en": "The prefecture urges residents to stay vigilant, and French cyber-assistance advises ignoring card or code requests in parcel messages.",
+      "bait_tactics": [
+        "Demander lentement le nom de l'expéditeur et le port d'arrivée du colis",
+        "Dire que le colis sera vérifié directement au bureau de Gustavia"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+        "https://www.saint-barth-saint-martin.gouv.fr/Actualites/Escroquerie-numerique-Soyez-vigilants"
+      ]
+    }
+  ]
+}

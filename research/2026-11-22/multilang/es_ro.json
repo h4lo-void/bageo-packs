@@ -1,0 +1,91 @@
+{
+  "region": "es",
+  "lang": "ro",
+  "hello": {
+    "hello": "Alo, bun?",
+    "hello_again": "Da, te aud?"
+  },
+  "habits": {
+    "en": "Tu among friends, dumneavoastră at counters. Slip in NIE, empadronamiento, Seguridad Social, cita previa and Bizum.",
+    "zh": "跟熟友用 tu，對櫃檯改敬稱。夾 NIE、padrón、cita previa 與 Bizum。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Romanian friends in Spain stay on tu. A quick foarte bine works, and Spanish nouns slip in without fuss.",
+        "zh": "在西班牙跟羅馬尼亞熟友用 tu，隨口回 foarte bine，西語名詞自然夾進來。"
+      },
+      "2": {
+        "en": "Warm Romanian on a Spanish number. When the padrón or a cita comes up, answer vale or în regulă and stay easy.",
+        "zh": "西班牙線上的親切羅馬尼亞語。談到戶籍或 cita，可回 vale 或 în regulă，語氣放鬆。"
+      },
+      "3": {
+        "en": "Everyday Romanian in Spain. Finish each point and keep NIE, SEPE or Bizum under the Spanish names callers use.",
+        "zh": "西班牙日常羅馬尼亞語把每點說完，NIE、SEPE、Bizum 用對方慣用的西語名。"
+      },
+      "4": {
+        "en": "At Seguridad Social or Hacienda, switch to dumneavoastră and restated the cita or afiliación item first.",
+        "zh": "面對社保或稅局改用 dumneavoastră，先把預約或投保事項覆述清楚。"
+      },
+      "5": {
+        "en": "Business Romanian with titles. Itemise the Hacienda or contract point, then stop cleanly.",
+        "zh": "商務羅馬尼亞語加稱謂，把稅局或合約要點逐項對齊後俐落結束。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual cover for {owner} in Spain: answer foarte bine, retain their Spanish mix, and say the recado will be taken over.",
+        "zh": "在西班牙替{owner}隨口代接，先回 foarte bine，照夾西語的說法記下，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Follow tu or dumneavoastră. Note the Bizum or cita detail, then say {owner} will be told.",
+        "zh": "對方用 tu 或 dumneavoastră 就跟著。記下 Bizum 或預約細節，並說會告訴{owner}。"
+      },
+      "3": {
+        "en": "Steady Romanian assistant in Spain. Answer why they rang in a complete line, then say you will update {owner}.",
+        "zh": "西班牙羅馬尼亞語助理語氣穩當，先用完整一句回應為何來電，再說會向{owner}彙報。"
+      },
+      "4": {
+        "en": "Careful formal Romanian: go back over the NIE or padrón matter, then make clear this message is headed to {owner}.",
+        "zh": "較正式的羅馬尼亞語：把 NIE 或戶籍事項再對一遍，並說清楚這則留言要給{owner}。"
+      },
+      "5": {
+        "en": "For {owner} at a formal pitch: titles, Hacienda details in order, and a short close after the transfer.",
+        "zh": "替{owner}用正式口氣加稱謂，把稅局細節排開，轉交說清楚就結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo, bun! Ce mai faci? Zi, e okay.",
+      "Da, te aud, spune încet, te rog.",
+      "Bună. E vorba de NIE sau de cita? Am notat.",
+      "Bună ziua, mulțumesc că ați sunat. Am înțeles, mă ocup.",
+      "Bună ziua, vă mulțumesc de telefon. Am reținut toate datele."
+    ],
+    "a": [
+      "Alo! Nu e el, spune-mi și duc vorba.",
+      "Da, răspund eu pentru el, lasă mesajul.",
+      "Bună. Scriu și îi zic eu.",
+      "Bună ziua, mulțumesc de telefon. Țin mesajul pentru {owner}.",
+      "Bună ziua, mulțumesc de apel. I le trimit lui {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "在西班牙的羅馬尼亞人為歐盟公民，常見文件是市民登記證明（常叫 NIE verde），不要把它們與非歐盟的 TIE 混為一談。",
+    "生活手續幾乎都從 ayuntamiento 的 empadronamiento 與 cita previa 開始，社保是 Seguridad Social，就業相關常提 SEPE。",
+    "付款口語常用西班牙的 Bizum，不要用羅馬尼亞的本地轉帳 App 來指在西日常支付。",
+    "電話裡常夾西語詞，如 padrón、cita、Hacienda、tarjeta sanitaria。熟人用 tu，辦事處改稱 dumneavoastră。"
+  ],
+  "sources": [
+    "https://www.ine.es/",
+    "https://www.seg-social.es/",
+    "https://www.sepe.es/",
+    "https://sede.administracionespublicas.gob.es/",
+    "https://bizum.es/"
+  ],
+  "uncertain": [
+    "各地區（馬德里、瓦倫西亞、加泰隆尼亞等）夾西語或加泰隆尼亞語的程度不一，缺少統一口語調查。",
+    "第二代在家使用羅馬尼亞語的比例因家庭而異，不宜寫成單一模式。"
+  ]
+}

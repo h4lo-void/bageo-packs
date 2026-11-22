@@ -1,0 +1,295 @@
+{
+  "lang": "bg",
+  "backchannels": {
+    "direction": "No ranked call corpus was found; да and добре keep a line open, and a clipped да, да can sound hurried.",
+    "examples": [
+      {
+        "text": "Да, слушам.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Добре, разбрах.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Аха.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Разбирам.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Да, да.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Наистина? marks surprise; съжалявам is careful sympathy, and честито fits good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "Наистина?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Сериозно ли?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Съжалявам да го чуя.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Жалко.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Честито!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Поздравления.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Това ще бъде трудно.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "On a weak връзка, Bulgarian often says не ви чувам добре and asks the other person to speak a little louder.",
+    "examples": [
+      {
+        "text": "Не ви чувам добре.",
+        "style": "polite"
+      },
+      {
+        "text": "Връзката е слаба.",
+        "style": "casual"
+      },
+      {
+        "text": "Може ли да говорите малко по-силно?",
+        "style": "polite"
+      },
+      {
+        "text": "Не се чува ясно.",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives не разбирам; може ли да повторите asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "Не разбирам.",
+        "style": "casual"
+      },
+      {
+        "text": "Не разбрах името ви.",
+        "style": "polite"
+      },
+      {
+        "text": "Може ли да повторите, моля?",
+        "style": "polite"
+      },
+      {
+        "text": "Номера още веднъж: 12345678 ли е?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "С кого разговарям? is the careful probe; кой се обажда, моля? is everyday. On a shared handset, name {owner} first.",
+    "examples": [
+      {
+        "text": "С кого разговарям?",
+        "style": "polite"
+      },
+      {
+        "text": "Кой се обажда, моля?",
+        "style": "polite"
+      },
+      {
+        "text": "Това е телефонът на {owner}. Кой се обажда?",
+        "style": "polite"
+      },
+      {
+        "text": "Ало, кой е?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Wiktionary has грешен номер; phrasebooks also use сгрешили сте номера, then a short close.",
+    "examples": [
+      {
+        "text": "Сгрешили сте номера.",
+        "style": "polite"
+      },
+      {
+        "text": "Грешен номер.",
+        "style": "casual"
+      },
+      {
+        "text": "Имате грешка, няма такъв.",
+        "style": "polite"
+      },
+      {
+        "text": "Тук няма човек с това име.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ще предам на {owner} or ще кажа, че сте се обадили passes the news; that alone sets no time to ring back.",
+    "examples": [
+      {
+        "text": "Ще предам на {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ще кажа, че сте се обадили.",
+        "style": "polite"
+      },
+      {
+        "text": "Ще предам съобщението.",
+        "style": "polite"
+      },
+      {
+        "text": "Ще му кажа.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Не, благодаря, не ме интересува closes a sales pitch; extra reasons can sound like bargaining.",
+    "examples": [
+      {
+        "text": "Не, благодаря, не ме интересува.",
+        "style": "polite"
+      },
+      {
+        "text": "Благодаря, нямаме нужда от това.",
+        "style": "polite"
+      },
+      {
+        "text": "Не ме интересува, благодаря.",
+        "style": "casual"
+      },
+      {
+        "text": "Моля, махнете ни от списъка.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second не often adds моля, не се обаждайте повече на този номер, still with Вие.",
+    "examples": [
+      {
+        "text": "Вече казах не. Моля, не се обаждайте повече на този номер.",
+        "style": "polite"
+      },
+      {
+        "text": "Не ме интересува и ви моля да спрете да звъните.",
+        "style": "polite"
+      },
+      {
+        "text": "Моля, не звънете пак.",
+        "style": "casual"
+      },
+      {
+        "text": "Това е окончателен отказ. Не се свързвайте повече.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Вие is the default with strangers; ти is for familiars. Господин or госпожо plus a surname stays careful.",
+    "examples": [
+      {
+        "text": "Господин.",
+        "style": "polite"
+      },
+      {
+        "text": "Госпожо.",
+        "style": "polite"
+      },
+      {
+        "text": "Докторе.",
+        "style": "polite"
+      },
+      {
+        "text": "Вие.",
+        "style": "polite"
+      },
+      {
+        "text": "Ти как си?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A centre line like вашето обаждане е важно за нас sounds odd on a private мобилен.",
+    "examples": [
+      {
+        "text": "Вашето обаждане е важно за нас.",
+        "style": "polite"
+      },
+      {
+        "text": "С какво мога да Ви бъда полезен днес?",
+        "style": "polite"
+      },
+      {
+        "text": "Удоволствие е да Ви служим.",
+        "style": "polite"
+      },
+      {
+        "text": "Благодарим, че се обадихте в офиса на {owner}.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to ти too soon, or asking for an ЕГН or salary at the start, feels like overstepping.",
+    "examples": [
+      {
+        "text": "Женен ли си? Каква ти е заплатата?",
+        "style": "casual"
+      },
+      {
+        "text": "Защо {owner} не се обади? Кажи ми къде е сега.",
+        "style": "casual"
+      },
+      {
+        "text": "Първо ми дайте ЕГН и адреса.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://www.fsi-language-courses.org/fsi-bulgarian-basic-course/21-on-the-phone/"
+  ],
+  "uncertain": [
+    "未找到保加利亞語私人電話相槌頻率表；да／добре／аха 依詞典與會話習慣，不是語料庫排序。",
+    "FSI 課文是較早期教材，當代表達可能更常說 сгрешили сте номера；本檔兩種都列。",
+    "拒推銷與客服套語沒有官方稿，例句依普通禮貌拒絕。"
+  ]
+}

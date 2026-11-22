@@ -1,0 +1,91 @@
+{
+  "region": "il",
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "نعم، ألو؟"
+  },
+  "habits": {
+    "en": "Levantine Arabic keeps Hebrew names: kupat holim (il-kūpa), bituakh, shekel, teudat zehut. Use حضرتك with strangers.",
+    "zh": "當地黎凡特阿拉伯語常夾希伯來公務詞（kupat holim、shekel）。對生人用 حضرتك。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friend: informal انت, short Levantine lines; Hebrew everyday words like beseder or kanyon can stay, no scolding for mixing.",
+        "zh": "熟友用 انت，短句黎凡特口語；beseder、kanyon 等希伯來日常詞可留，不必糾正夾用。"
+      },
+      "2": {
+        "en": "Easy neighbourly tone: stay informal unless they honour you; after they speak, a brief تمام, mixed clinic names are fine.",
+        "zh": "街坊口氣：除非對方很客氣，否則用非正式；聽完短短說 تمام，診所名稱夾用無妨。"
+      },
+      "3": {
+        "en": "Everyday Arabic of Arab citizens. Finish the point in a full line; the clinic is often il-kūpa, not only صندوق المرضى.",
+        "zh": "阿拉伯公民的日常阿拉伯語。用完整句子把重點說完；診所常說 il-kūpa，不必只說標準語譯名。"
+      },
+      "4": {
+        "en": "Polite حضرتك at a clinic or ministry. Keep teudat zehut and bituakh as commonly said, sentences fuller and calmer.",
+        "zh": "在診所或機關用禮貌 حضرتك。teudat zehut、bituakh 照口頭習慣，句子較完整、較平。"
+      },
+      "5": {
+        "en": "Formal حضرتك, measured. Amounts in shekel, offices by their Hebrew names if that is how the caller said them, each item complete.",
+        "zh": "正式 حضرتك，節奏穩。金額用 shekel，機關名跟對方的希伯來叫法，各項都要說完。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: warm Levantine, short, then you'll pass the word; no heavy Hebrew if they didn't use it.",
+        "zh": "{owner}隨興代接：用熱絡的黎凡特短句，再說會轉達；對方沒用希伯來詞就不要硬夾。"
+      },
+      "2": {
+        "en": "Kind stand-in: match formal or informal address, leave il-kūpa as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：稱呼跟對方的正式或隨便，il-kūpa 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Steady assistant. Recap the kupat holim or document point in one full Arabic line, then confirm you will tell {owner}.",
+        "zh": "穩妥代接。先用整句阿拉伯語重述診所或證件的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary on حضرتك: note the purpose, keep Hebrew official names, confirm the handover, stay neutral.",
+        "zh": "謹慎秘書用 حضرتك：記下目的，希伯來官方名稱照留，再確認轉交，口吻中性。"
+      },
+      "5": {
+        "en": "Formal deputy on حضرتك: exact about shekel and bituakh, no political asides, then confirm the note for {owner}.",
+        "zh": "正式代表用 حضرتك，把 shekel、bituakh 說準，不旁及政治，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ألو! أهلا، كيفك؟ شو في؟",
+      "ألو، نعم. أنا سامعك، تفضل احكي.",
+      "ألو، مرحبا. موضوع الكوبا؟ تمام، فهمت.",
+      "مرحبا، شكرا لاتصالك. موضوع التأمين واضح.",
+      "مرحبا، شكرا لاتصالكم. سجّلت التفاصيل، شكرا."
+    ],
+    "a": [
+      "ألو! مش موجود، قلي وأنا بنقلّو.",
+      "ألو، أهلا. أنا برد تلفونه، قلي الرسالة.",
+      "ألو، مرحبا. بكتب لبـ {owner} وببلغو.",
+      "مرحبا، شكرا لاتصالك. بستلم الرسالة وببلغو.",
+      "مرحبا، شكرا لاتصالكم. بسجّل كلشي وببلغه."
+    ]
+  },
+  "diff_from_home": [
+    "以色列阿拉伯公民口語屬黎凡特／巴勒斯坦方言，不是書面標準阿拉伯語為主。",
+    "醫療、保險、證件常直接用希伯來名稱（kupat holim／il-kūpa、bituakh leumi、teudat zehut）。",
+    "日常還可能夾 ramzor、beseder、kanyon、mazgan、shekel 等已進入口語的詞。",
+    "對生人與公務場合用 حضرتك 等敬稱；只談語言習慣，口吻保持中性。"
+  ],
+  "sources": [
+    "https://doi.org/10.5281/zenodo.3940258",
+    "https://doi.org/10.4236/jss.2023.119007",
+    "https://hebrabic.com/loanwords/hebrew-in-arabic/kupat-kholim",
+    "https://www.btl.gov.il/Arabic/Pages/default.aspx",
+    "https://www.clalit.co.il/he"
+  ],
+  "uncertain": [
+    "各地（加利利、三角地帶、內蓋夫、混合城市）夾用希伯來語的密度不同，不宜寫成全國同一口語。",
+    "hebrabic.com 為整理性網站，已另以學術論文與官方醫療、保險機構頁佐證。"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "region": "mt",
+  "lang": "it",
+  "why_added": "馬爾他國家統計局 2022 年技能調查：15 至 64 歲人口有 62% 能使用義大利語，僅次於英語與馬爾他語。",
+  "hello": {
+    "hello": "Pronto?",
+    "hello_again": "Pronto, sì?"
+  },
+  "habits": {
+    "en": "Lei with strangers, tu once they do. Say mobile and ID card, not cell. Banks may be BOV. Maltese words can stay.",
+    "zh": "對生人用 Lei，對方用 tu 再轉。說 mobile、ID card，不說 cell。銀行可見 BOV。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Maltese friend speaking Italian: tu, short and warm. Leave Valletta or Gozo as they are; say mobile, not cellulare only.",
+        "zh": "馬爾他熟友用 tu，短而熱絡。Valletta、Gozo 照說；可說 mobile，不必只說 cellulare。"
+      },
+      "2": {
+        "en": "Easy familiar Italian. A Maltese street or parish name does not need an Italian rewrite.",
+        "zh": "輕鬆熟悉的義大利語。馬爾他街名或堂區名不必改寫成義大利習慣。"
+      },
+      "3": {
+        "en": "Everyday Italian on the islands. Finish each point; money is the euro, and a bank may be called BOV.",
+        "zh": "島上日常義大利語。把話說完；貨幣是歐元，銀行可能簡稱 BOV。"
+      },
+      "4": {
+        "en": "Polite Lei for offices. Keep ID card and mobile as local English terms if that is how they said them.",
+        "zh": "對機關用 Lei。對方說了 ID card、mobile 就照留，不必強改義大利本國用詞。"
+      },
+      "5": {
+        "en": "Formal Lei and titles for banks or government. No mainland-Italy bureaucratic filler; place names stay Maltese.",
+        "zh": "銀行或公家用正式 Lei 加稱謂。不套用義大利本國公文腔，地名留馬爾他形式。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on tu if they used it; then you will pass the message along.",
+        "zh": "{owner}熟人代接：對方先用 tu 才用 tu，接著說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tu or Lei, leave BOV or mobile as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 tu 或 Lei，BOV、mobile 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the BOV or ID-card point in one full Italian sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句義大利語重述 BOV 或 ID card 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on Lei: note why they called, keep Maltese place names, then confirm the handover.",
+        "zh": "穩重秘書用 Lei：記下來電原因，馬爾他地名照留，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Lei: exact on euro amounts and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 Lei：歐元金額與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Pronto! Sei ancora a Valletta?",
+      "Pronto, sì, ti sento, dimmi.",
+      "Pronto, buonasera. È per il mobile?",
+      "Buonasera, grazie della chiamata. L'importo in euro è chiaro.",
+      "Buonasera, la ringrazio. Ho preso nota della questione BOV."
+    ],
+    "a": [
+      "Pronto! {owner} non c'è, dimmi e glielo riferisco.",
+      "Pronto, ciao. Sono al telefono, qual è il messaggio?",
+      "Pronto, buonasera. Lo riferisco a {owner} con le tue parole.",
+      "Buonasera, grazie della chiamata. Segno il punto BOV per {owner}.",
+      "Buonasera, grazie. Annoto i dettagli e li passo."
+    ]
+  },
+  "diff_from_home": [
+    "接電話常用 Pronto，與義大利本國相同，但地名多留 Valletta、Gozo 等馬爾他形式。",
+    "當地英語詞 mobile、ID card 常出現在義大利語對話裡，不必一律改成 cellulare 或 carta d’identità。",
+    "銀行可見 BOV 等本地簡稱；貨幣是歐元。",
+    "義大利語是廣泛掌握的外語，不是官方語言；官方與許多公務場合仍是馬爾他語或英語。"
+  ],
+  "sources": [
+    "https://nso.gov.mt/themes_publications/census-of-population-and-housing-2021-final-report-health-education-employment-and-other-characteristics/",
+    "https://www.cia.gov/the-world-factbook/countries/malta/",
+    "https://www.independent.com.mt/articles/2024-07-19/local-news/More-English-language-than-Maltese-language-speakers-identified-in-skills-survey-NSO-6736262822"
+  ],
+  "uncertain": [
+    "62% 能使用義大利語，是技能調查的「會說」比例，不是電話上實際選用義大利語的比例。",
+    "NSO 技能調查最終報告的官方登陸頁若改址，以上新聞稿僅作該數字的轉述，仍以 NSO 出版物為準。",
+    "年輕世代較常以英語為主要外語，義大利語比重是否下降，新一輪調查尚未對照完整。"
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "region": "af",
+  "vocab": {
+    "ps": {
+      "bank": [
+        {
+          "term": "M-Paisa",
+          "en": "Roshan's licensed mobile wallet, used to send money or pay a bill"
+        },
+        {
+          "term": "HesabPay",
+          "en": "another licensed digital wallet, also called Hesab"
+        },
+        {
+          "term": "OTP",
+          "en": "the one-time code for a wallet or bank app"
+        },
+        {
+          "term": "بانک",
+          "en": "a bank, also بانکي حساب"
+        },
+        {
+          "term": "بیلانس",
+          "en": "the balance (بیلانس)"
+        },
+        {
+          "term": "لیږد",
+          "en": "a transfer, also د پیسو استول"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "د دروازې مخې",
+          "en": "in front of the door (د دروازې مخې)"
+        },
+        {
+          "term": "چوکۍدار",
+          "en": "the watchman or gatekeeper, the person a courier usually asks for"
+        },
+        {
+          "term": "دوکاندار",
+          "en": "the shopkeeper, often used as a nearby drop-off"
+        },
+        {
+          "term": "افغان پوست",
+          "en": "Afghan Post, the national post"
+        },
+        {
+          "term": "کوریر",
+          "en": "the courier (کوریر)"
+        },
+        {
+          "term": "ګاونډی",
+          "en": "the neighbour (ګاونډی)"
+        }
+      ],
+      "government": [
+        {
+          "term": "تذکره",
+          "en": "the national ID, also e-tazkira; do not read the number unless {owner} asks"
+        },
+        {
+          "term": "پاسپورټ",
+          "en": "a passport (پاسپورټ)"
+        },
+        {
+          "term": "محصول",
+          "en": "customs or a government fee, depending on context"
+        },
+        {
+          "term": "جواز",
+          "en": "a licence or permit, including a driving licence when they say د موټر جواز"
+        },
+        {
+          "term": "اداره",
+          "en": "the office they need to deal with, named as they name it"
+        }
+      ],
+      "health": [
+        {
+          "term": "ډاکټر",
+          "en": "a doctor"
+        },
+        {
+          "term": "درملتون",
+          "en": "a pharmacy (درملتون)"
+        },
+        {
+          "term": "نسخه",
+          "en": "a prescription (نسخه)"
+        },
+        {
+          "term": "روغتون",
+          "en": "a hospital (روغتون)"
+        },
+        {
+          "term": "کلینیک",
+          "en": "a clinic"
+        },
+        {
+          "term": "بیړنۍ مرسته",
+          "en": "emergency care (بیړنۍ مرسته)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "سیم",
+          "en": "a SIM (سیم)"
+        },
+        {
+          "term": "کریډیټ",
+          "en": "prepaid credit, also د کرښې چارج"
+        },
+        {
+          "term": "روشن",
+          "en": "Roshan, the operator behind M-Paisa"
+        },
+        {
+          "term": "پکېج",
+          "en": "a data or call bundle"
+        },
+        {
+          "term": "انټرنېټ",
+          "en": "mobile or home internet (انټرنېټ)"
+        },
+        {
+          "term": "شمېره",
+          "en": "the phone number"
+        }
+      ],
+      "payment": [
+        {
+          "term": "M-Paisa",
+          "en": "everyday mobile-money payment"
+        },
+        {
+          "term": "HesabPay",
+          "en": "the other wallet people name"
+        },
+        {
+          "term": "نغدي",
+          "en": "cash, still the default in many shops"
+        },
+        {
+          "term": "hawala",
+          "en": "an informal transfer some families still use alongside the wallets"
+        },
+        {
+          "term": "کارت",
+          "en": "a payment card, less common than cash or a wallet"
+        },
+        {
+          "term": "لوېدیځه اتحادیه",
+          "en": "Western Union, still named for money from abroad"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ټکسي",
+          "en": "a taxi (ټکسي)"
+        },
+        {
+          "term": "بس",
+          "en": "a bus (بس)"
+        },
+        {
+          "term": "موټر",
+          "en": "a private car or a hired car"
+        },
+        {
+          "term": "رېکشا",
+          "en": "a rickshaw, in some cities"
+        },
+        {
+          "term": "الوتکه",
+          "en": "a flight, for longer trips"
+        },
+        {
+          "term": "سړک",
+          "en": "the road, also traffic talk"
+        }
+      ],
+      "housing": [
+        {
+          "term": "کور",
+          "en": "a house or home"
+        },
+        {
+          "term": "اپارتمان",
+          "en": "a flat, in the larger cities"
+        },
+        {
+          "term": "دروازه",
+          "en": "the gate or door"
+        },
+        {
+          "term": "کرایه",
+          "en": "the rent (کرایه)"
+        },
+        {
+          "term": "چوکۍدار",
+          "en": "the watchman of the compound"
+        },
+        {
+          "term": "کوڅه",
+          "en": "the street or lane"
+        }
+      ],
+      "school": [
+        {
+          "term": "ښوونځی",
+          "en": "school (ښوونځی)"
+        },
+        {
+          "term": "پوهنتون",
+          "en": "university (پوهنتون)"
+        },
+        {
+          "term": "ښوونکی",
+          "en": "a teacher, also ماسټر"
+        },
+        {
+          "term": "کورنۍ دنده",
+          "en": "homework (کورنۍ دنده)"
+        },
+        {
+          "term": "ټولګی",
+          "en": "a class"
+        },
+        {
+          "term": "پوهنځی",
+          "en": "a faculty, for university talk"
+        }
+      ],
+      "money": [
+        {
+          "term": "افغانۍ",
+          "en": "Afghan afghanis"
+        },
+        {
+          "term": "زر",
+          "en": "a thousand afghanis"
+        },
+        {
+          "term": "نغدي",
+          "en": "cash (نغدي)"
+        },
+        {
+          "term": "خرد",
+          "en": "small change"
+        },
+        {
+          "term": "مقدار",
+          "en": "the amount (مقدار)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "سهار",
+          "en": "in the morning (سهار)"
+        },
+        {
+          "term": "ماسپښین",
+          "en": "in the afternoon (ماسپښین)"
+        },
+        {
+          "term": "ماښام",
+          "en": "in the evening (ماښام)"
+        },
+        {
+          "term": "د کار وروسته",
+          "en": "after work (د کار وروسته)"
+        },
+        {
+          "term": "دغه اونۍ",
+          "en": "this week (دغه اونۍ)"
+        },
+        {
+          "term": "سبا سهار",
+          "en": "tomorrow morning (سبا سهار)"
+        },
+        {
+          "term": "جمعه",
+          "en": "Friday, often the main weekly off"
+        }
+      ],
+      "work": [
+        {
+          "term": "کار",
+          "en": "work (کار)"
+        },
+        {
+          "term": "اضافي کار",
+          "en": "overtime (اضافي کار)"
+        },
+        {
+          "term": "رخصتي",
+          "en": "leave"
+        },
+        {
+          "term": "معاش",
+          "en": "the salary (معاش)"
+        },
+        {
+          "term": "رئيس",
+          "en": "the boss (رئيس)"
+        },
+        {
+          "term": "له کوره کار",
+          "en": "working from home, mainly in office jobs"
+        }
+      ]
+    },
+    "fa": {
+      "bank": [
+        {
+          "term": "M-Paisa",
+          "en": "Roshan's wallet, used in Dari speech in Afghanistan to send money or pay a bill"
+        },
+        {
+          "term": "HesabPay",
+          "en": "the other licensed Afghan wallet, also called Hesab"
+        },
+        {
+          "term": "OTP",
+          "en": "the one-time code for a wallet or bank app"
+        },
+        {
+          "term": "بانک",
+          "en": "a bank, also حساب بانکی"
+        },
+        {
+          "term": "بیلانس",
+          "en": "the balance (بیلانس)"
+        },
+        {
+          "term": "حواله",
+          "en": "a transfer, in Afghan Dari speech"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "جلوی دروازه",
+          "en": "in front of the door, Afghan Dari wording"
+        },
+        {
+          "term": "چوکیدار",
+          "en": "the watchman of a compound, the person a courier usually asks for"
+        },
+        {
+          "term": "دوکاندار",
+          "en": "the shopkeeper, sometimes used as a nearby drop-off"
+        },
+        {
+          "term": "افغان پوست",
+          "en": "Afghan Post"
+        },
+        {
+          "term": "کورییر",
+          "en": "the courier (کورییر)"
+        },
+        {
+          "term": "همسایه",
+          "en": "the neighbour (همسایه)"
+        }
+      ],
+      "government": [
+        {
+          "term": "تذکره",
+          "en": "the Afghan national ID, also e-tazkira; do not read the number unless {owner} asks"
+        },
+        {
+          "term": "پاسپورت",
+          "en": "a passport (پاسپورت)"
+        },
+        {
+          "term": "محصول",
+          "en": "customs or a government fee, depending on the sentence"
+        },
+        {
+          "term": "جواز",
+          "en": "a licence or permit, including a driving licence"
+        },
+        {
+          "term": "اداره",
+          "en": "the office the caller actually names"
+        }
+      ],
+      "health": [
+        {
+          "term": "داکتر",
+          "en": "a doctor, the usual Afghan Dari word"
+        },
+        {
+          "term": "دواخانه",
+          "en": "a pharmacy, not the Iranian داروخانه as the first word"
+        },
+        {
+          "term": "نسخه",
+          "en": "a prescription (نسخه)"
+        },
+        {
+          "term": "شفاخانه",
+          "en": "a hospital, the usual Afghan Dari word"
+        },
+        {
+          "term": "کلینیک",
+          "en": "a clinic"
+        },
+        {
+          "term": "کمک عاجل",
+          "en": "emergency care (کمک عاجل)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "سیم",
+          "en": "a SIM (سیم)"
+        },
+        {
+          "term": "کریدیت",
+          "en": "prepaid credit (کریدیت)"
+        },
+        {
+          "term": "روشن",
+          "en": "Roshan, the operator behind M-Paisa"
+        },
+        {
+          "term": "پکیج",
+          "en": "a call or data bundle"
+        },
+        {
+          "term": "اینترنت",
+          "en": "mobile or home internet (اینترنت)"
+        },
+        {
+          "term": "شماره",
+          "en": "the phone number"
+        }
+      ],
+      "payment": [
+        {
+          "term": "M-Paisa",
+          "en": "everyday mobile-money payment in Dari speech too"
+        },
+        {
+          "term": "HesabPay",
+          "en": "the other wallet people name"
+        },
+        {
+          "term": "نقد",
+          "en": "cash, still the default in many shops"
+        },
+        {
+          "term": "حَواله",
+          "en": "an informal transfer some families still use alongside the wallets"
+        },
+        {
+          "term": "کارت",
+          "en": "a payment card, less common than cash or a wallet"
+        },
+        {
+          "term": "وسترن یونین",
+          "en": "Western Union, still named for money coming from abroad"
+        }
+      ],
+      "transport": [
+        {
+          "term": "تکسی",
+          "en": "a taxi (تکسی)"
+        },
+        {
+          "term": "بس",
+          "en": "a bus (بس)"
+        },
+        {
+          "term": "موتر",
+          "en": "a car, the usual Afghan Dari word rather than ماشین"
+        },
+        {
+          "term": "رکشه",
+          "en": "a rickshaw, in some cities"
+        },
+        {
+          "term": "طیاره",
+          "en": "a flight, for a longer trip"
+        },
+        {
+          "term": "سرک",
+          "en": "the road, and everyday traffic talk"
+        }
+      ],
+      "housing": [
+        {
+          "term": "خانه",
+          "en": "a house or home"
+        },
+        {
+          "term": "اپارتمان",
+          "en": "a flat, mainly in the larger cities"
+        },
+        {
+          "term": "دروازه",
+          "en": "the door or the compound gate"
+        },
+        {
+          "term": "کرایه",
+          "en": "the rent (کرایه)"
+        },
+        {
+          "term": "چوکیدار",
+          "en": "the watchman of the compound"
+        },
+        {
+          "term": "کوچه",
+          "en": "the lane or street"
+        }
+      ],
+      "school": [
+        {
+          "term": "مکتب",
+          "en": "school, the usual Afghan Dari word rather than مدرسه"
+        },
+        {
+          "term": "پوهنتون",
+          "en": "university, the usual word in Afghanistan"
+        },
+        {
+          "term": "استاد",
+          "en": "a teacher"
+        },
+        {
+          "term": "کار خانگی",
+          "en": "homework (کار خانگی)"
+        },
+        {
+          "term": "صنف",
+          "en": "a class"
+        }
+      ],
+      "money": [
+        {
+          "term": "افغانی",
+          "en": "Afghan afghanis, in Dari speech"
+        },
+        {
+          "term": "زار",
+          "en": "a thousand afghanis"
+        },
+        {
+          "term": "نقد",
+          "en": "cash (نقد)"
+        },
+        {
+          "term": "خرده",
+          "en": "small change"
+        },
+        {
+          "term": "مقدار",
+          "en": "the amount (مقدار)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "صبح",
+          "en": "in the morning (صبح)"
+        },
+        {
+          "term": "بعد از چاشت",
+          "en": "in the afternoon, Afghan Dari wording"
+        },
+        {
+          "term": "شام",
+          "en": "in the evening (شام)"
+        },
+        {
+          "term": "بعد از کار",
+          "en": "after work (بعد از کار)"
+        },
+        {
+          "term": "این هفته",
+          "en": "this week (این هفته)"
+        },
+        {
+          "term": "فردا صبح",
+          "en": "tomorrow morning (فردا صبح)"
+        },
+        {
+          "term": "جمعه",
+          "en": "Friday, often the main weekly off"
+        }
+      ],
+      "work": [
+        {
+          "term": "کار",
+          "en": "work (کار)"
+        },
+        {
+          "term": "اضافه کاری",
+          "en": "overtime (اضافه کاری)"
+        },
+        {
+          "term": "رخصتی",
+          "en": "leave"
+        },
+        {
+          "term": "معاش",
+          "en": "the salary (معاش)"
+        },
+        {
+          "term": "رئیس",
+          "en": "the boss (رئیس)"
+        },
+        {
+          "term": "کار از خانه",
+          "en": "working from home, mainly in office jobs"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "کارت به کارت 伊朗用法",
+      "use_instead": "M-Paisa, HesabPay, لیږد / حواله",
+      "where_it_is_from": "IR"
+    },
+    {
+      "word": "رمز پویا",
+      "use_instead": "OTP",
+      "where_it_is_from": "IR"
+    },
+    {
+      "word": "همراه بانک",
+      "use_instead": "M-Paisa, HesabPay, بانک",
+      "where_it_is_from": "IR"
+    },
+    {
+      "word": "تومان یا ریال",
+      "use_instead": "افغانۍ / افغانی",
+      "where_it_is_from": "IR"
+    },
+    {
+      "word": "Aadhaar",
+      "use_instead": "تذکره",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "bKash",
+      "use_instead": "M-Paisa, HesabPay",
+      "where_it_is_from": "BD"
+    },
+    {
+      "word": "M-Pesa 當成阿富汗品牌",
+      "use_instead": "M-Paisa（阿富汗 Roshan）、HesabPay",
+      "where_it_is_from": "KE"
+    },
+    {
+      "word": "Шина or Госуслуги",
+      "use_instead": "تذکره، پاسپورټ، اداره（用對方說的機構名）",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "不要朗讀 تذکره 全號",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "不要主動引入政治體制或政府頭銜爭論",
+      "use_instead": "只用來電者說的機構與文件名",
+      "where_it_is_from": "AF"
+    }
+  ],
+  "sources": [
+    "https://www.dab.gov.af/Licensed-Finacial-Institutions",
+    "https://hesab.com/",
+    "https://www.afghanpost.gov.af/en",
+    "https://mcit.gov.af/en/cooperation-between-afghan-post-m-paisa-roshan-company-0"
+  ],
+  "uncertain": [
+    "M-Paisa（Roshan）與 HesabPay 都是央行列出的電子貨幣機構，不要預設只有一種。",
+    "hawala／حواله 仍有人使用，但正式管道請以對方實際說的錢包或銀行為準。",
+    "電信業者名稱除 Roshan 外可能有變，請跟來電者自己的 سیم。",
+    "政府機構正式名稱近年有變動，只重複對方使用的文件與單位名，不主動補頭銜。",
+    "fa 組是阿富汗達里語用法（مکتب、پوهنتون、موتر、داکتر），不是伊朗的 همراه بانک／کارت به کارت。"
+  ]
+}

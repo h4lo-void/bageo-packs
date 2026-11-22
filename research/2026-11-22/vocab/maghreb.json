@@ -1,0 +1,858 @@
+{
+  "region": "maghreb",
+  "vocab": {
+    "ar": {
+      "bank": [
+        {
+          "term": "الكونط",
+          "en": "bank account, Darija from compte (الكونط)"
+        },
+        {
+          "term": "RIB",
+          "en": "bank details slip, asked for every transfer in MA/TN/DZ (RIB)"
+        },
+        {
+          "term": "CCP",
+          "en": "Algérie Poste account most Algerians have (CCP)"
+        },
+        {
+          "term": "الكارطة",
+          "en": "bank card, Darija (الكارطة)"
+        },
+        {
+          "term": "البنكة",
+          "en": "the bank, colloquial (البنكة)"
+        },
+        {
+          "term": "لافيرمو",
+          "en": "bank transfer, from virement (لافيرمو)"
+        },
+        {
+          "term": "الشيك",
+          "en": "cheque, still common for rent and business (الشيك)"
+        },
+        {
+          "term": "البريد",
+          "en": "the post office as a bank, MA/DZ/TN (البريد)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "الكولي",
+          "en": "parcel, from colis (الكولي)"
+        },
+        {
+          "term": "الليفرزون",
+          "en": "delivery, from livraison (الليفرزون)"
+        },
+        {
+          "term": "الدفع عند الاستلام",
+          "en": "cash on delivery, the default for online orders (الدفع عند الاستلام)"
+        },
+        {
+          "term": "Amana",
+          "en": "Moroccan post express parcels (Amana)"
+        },
+        {
+          "term": "Yalidine",
+          "en": "major Algerian courier (Yalidine)"
+        },
+        {
+          "term": "Glovo",
+          "en": "food and errands app in MA/TN (Glovo)"
+        },
+        {
+          "term": "Jumia",
+          "en": "online marketplace in MA/DZ/TN (Jumia)"
+        },
+        {
+          "term": "الليفرور",
+          "en": "delivery man, from livreur (الليفرور)"
+        }
+      ],
+      "government": [
+        {
+          "term": "البطاقة الوطنية",
+          "en": "national ID card (البطاقة الوطنية)"
+        },
+        {
+          "term": "الحالة المدنية",
+          "en": "civil registry office (الحالة المدنية)"
+        },
+        {
+          "term": "المقاطعة",
+          "en": "district admin office in Morocco (المقاطعة)"
+        },
+        {
+          "term": "البلدية",
+          "en": "municipality, DZ/TN/LY (البلدية)"
+        },
+        {
+          "term": "عقد الازدياد",
+          "en": "Moroccan birth certificate (عقد الازدياد)"
+        },
+        {
+          "term": "شهادة السكنى",
+          "en": "residence certificate (شهادة السكنى)"
+        },
+        {
+          "term": "تصحيح الإمضاء",
+          "en": "signature legalisation, routine paperwork (تصحيح الإمضاء)"
+        },
+        {
+          "term": "الباسبور",
+          "en": "passport, colloquial (الباسبور)"
+        }
+      ],
+      "health": [
+        {
+          "term": "السبيطار",
+          "en": "hospital, colloquial (السبيطار)"
+        },
+        {
+          "term": "الفرمسيان",
+          "en": "pharmacy / pharmacist, Darija (الفرمسيان)"
+        },
+        {
+          "term": "صيدلية الحراسة",
+          "en": "duty pharmacy at night, Moroccan term (صيدلية الحراسة)"
+        },
+        {
+          "term": "الطبيب",
+          "en": "doctor (الطبيب)"
+        },
+        {
+          "term": "الكلينيك",
+          "en": "private clinic (الكلينيك)"
+        },
+        {
+          "term": "لوردونونس",
+          "en": "prescription, from ordonnance (لوردونونس)"
+        },
+        {
+          "term": "CNSS",
+          "en": "social security fund in MA/TN (CNSS)"
+        },
+        {
+          "term": "بطاقة الشفاء",
+          "en": "Algerian health insurance card (بطاقة الشفاء)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "اتصالات المغرب",
+          "en": "Maroc Telecom (اتصالات المغرب)"
+        },
+        {
+          "term": "inwi",
+          "en": "Moroccan operator (inwi)"
+        },
+        {
+          "term": "Djezzy",
+          "en": "Algerian operator (Djezzy)"
+        },
+        {
+          "term": "Mobilis",
+          "en": "Algerian state operator (Mobilis)"
+        },
+        {
+          "term": "Ooredoo",
+          "en": "operator in DZ and TN (Ooredoo)"
+        },
+        {
+          "term": "الريشارج",
+          "en": "top-up, from recharge (الريشارج)"
+        },
+        {
+          "term": "الصولد",
+          "en": "remaining credit, from solde (الصولد)"
+        },
+        {
+          "term": "لابيس",
+          "en": "SIM card, from la puce (لابيس)"
+        },
+        {
+          "term": "الريزو",
+          "en": "network signal, from réseau (الريزو)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "كاش",
+          "en": "cash (كاش)"
+        },
+        {
+          "term": "D17",
+          "en": "Tunisian Post payment app (D17)"
+        },
+        {
+          "term": "BaridiMob",
+          "en": "Algérie Poste mobile banking (BaridiMob)"
+        },
+        {
+          "term": "الذهبية",
+          "en": "Edahabia, Algérie Poste card (الذهبية)"
+        },
+        {
+          "term": "وفاكاش",
+          "en": "Wafacash money transfer in Morocco (وفاكاش)"
+        },
+        {
+          "term": "بالتقسيط",
+          "en": "in instalments (بالتقسيط)"
+        },
+        {
+          "term": "الكريدي",
+          "en": "on credit / on the tab at a shop (الكريدي)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "الطوبيس",
+          "en": "city bus (الطوبيس)"
+        },
+        {
+          "term": "الطاكسي الصغير",
+          "en": "Moroccan petit taxi inside the city (الطاكسي الصغير)"
+        },
+        {
+          "term": "الطاكسي الكبير",
+          "en": "Moroccan shared grand taxi between towns (الطاكسي الكبير)"
+        },
+        {
+          "term": "اللواج",
+          "en": "Tunisian shared louage minibus (اللواج)"
+        },
+        {
+          "term": "الترامواي",
+          "en": "tramway (الترامواي)"
+        },
+        {
+          "term": "ONCF",
+          "en": "Moroccan rail operator (ONCF)"
+        },
+        {
+          "term": "البراق",
+          "en": "Moroccan high-speed train (البراق)"
+        },
+        {
+          "term": "Yassir",
+          "en": "Algerian ride-hailing app (Yassir)"
+        },
+        {
+          "term": "الكار",
+          "en": "intercity coach, from car (الكار)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "لابارتمو",
+          "en": "apartment, from appartement (لابارتمو)"
+        },
+        {
+          "term": "العمارة",
+          "en": "apartment building (العمارة)"
+        },
+        {
+          "term": "السانديك",
+          "en": "building management, from syndic (السانديك)"
+        },
+        {
+          "term": "الگارديان",
+          "en": "building guard, from gardien (الگارديان)"
+        },
+        {
+          "term": "الكرا",
+          "en": "rent, colloquial (الكرا)"
+        },
+        {
+          "term": "مول الدار",
+          "en": "landlord, Moroccan Darija (مول الدار)"
+        },
+        {
+          "term": "الطابق",
+          "en": "floor (الطابق)"
+        },
+        {
+          "term": "صندوق البريد",
+          "en": "mailbox, often unused in Maghreb buildings (صندوق البريد)"
+        }
+      ],
+      "school": [
+        {
+          "term": "المدرسة",
+          "en": "school (المدرسة)"
+        },
+        {
+          "term": "الروض",
+          "en": "preschool / kindergarten (الروض)"
+        },
+        {
+          "term": "الكوليج",
+          "en": "middle school, from collège (الكوليج)"
+        },
+        {
+          "term": "الليسي",
+          "en": "high school, from lycée (الليسي)"
+        },
+        {
+          "term": "الباك",
+          "en": "baccalaureate exam (الباك)"
+        },
+        {
+          "term": "الساعات الإضافية",
+          "en": "paid extra lessons (الساعات الإضافية)"
+        },
+        {
+          "term": "مسار",
+          "en": "Moroccan school grades platform (مسار)"
+        },
+        {
+          "term": "الدخول المدرسي",
+          "en": "start of school year (الدخول المدرسي)"
+        }
+      ],
+      "money": [
+        {
+          "term": "درهم",
+          "en": "Moroccan dirham (درهم)"
+        },
+        {
+          "term": "دينار",
+          "en": "Algerian, Tunisian and Libyan dinar (دينار)"
+        },
+        {
+          "term": "ريال",
+          "en": "old Moroccan counting unit, twenty to a dirham (ريال)"
+        },
+        {
+          "term": "سنتيم",
+          "en": "Algerian prices are often spoken in centimes (سنتيم)"
+        },
+        {
+          "term": "مليون",
+          "en": "in Algeria means ten thousand dinars in centimes; ask to confirm (مليون)"
+        },
+        {
+          "term": "مليم",
+          "en": "Tunisian millime, prices said in thousands of millimes (مليم)"
+        },
+        {
+          "term": "ألف",
+          "en": "thousand (ألف)"
+        },
+        {
+          "term": "الصرف",
+          "en": "small change, also currency exchange (الصرف)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "دابا",
+          "en": "now, Moroccan (دابا)"
+        },
+        {
+          "term": "توا",
+          "en": "now, Tunisian (توا)"
+        },
+        {
+          "term": "ضرك",
+          "en": "now, Algerian (ضرك)"
+        },
+        {
+          "term": "غدوة",
+          "en": "tomorrow, DZ/TN (غدوة)"
+        },
+        {
+          "term": "البارح",
+          "en": "yesterday (البارح)"
+        },
+        {
+          "term": "العشية",
+          "en": "afternoon (العشية)"
+        },
+        {
+          "term": "السيمانة",
+          "en": "the week, from semaine (السيمانة)"
+        },
+        {
+          "term": "فرمضان",
+          "en": "during Ramadan, shorter office hours (فرمضان)"
+        }
+      ],
+      "work": [
+        {
+          "term": "الخدمة",
+          "en": "work / job, Darija (الخدمة)"
+        },
+        {
+          "term": "الباطرون",
+          "en": "the boss, from patron (الباطرون)"
+        },
+        {
+          "term": "الشهرية",
+          "en": "monthly salary (الشهرية)"
+        },
+        {
+          "term": "الكونجي",
+          "en": "leave / holiday, from congé (الكونجي)"
+        },
+        {
+          "term": "البيرو",
+          "en": "the office, from bureau (البيرو)"
+        },
+        {
+          "term": "الشركة",
+          "en": "company (الشركة)"
+        },
+        {
+          "term": "الكونطرا",
+          "en": "work contract, from contrat (الكونطرا)"
+        }
+      ]
+    },
+    "fr": {
+      "bank": [
+        {
+          "term": "RIB",
+          "en": "relevé d'identité bancaire, requested for any transfer (RIB)"
+        },
+        {
+          "term": "virement",
+          "en": "bank transfer (virement)"
+        },
+        {
+          "term": "compte courant",
+          "en": "current account at a Maghreb bank (compte courant)"
+        },
+        {
+          "term": "CCP",
+          "en": "Algerian postal account (CCP)"
+        },
+        {
+          "term": "chéquier",
+          "en": "chequebook (chéquier)"
+        },
+        {
+          "term": "agence",
+          "en": "bank branch (agence)"
+        },
+        {
+          "term": "relevé",
+          "en": "bank statement (relevé)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "colis",
+          "en": "parcel (colis)"
+        },
+        {
+          "term": "livraison",
+          "en": "delivery (livraison)"
+        },
+        {
+          "term": "paiement à la livraison",
+          "en": "cash on delivery, Maghreb online norm (paiement à la livraison)"
+        },
+        {
+          "term": "livreur",
+          "en": "delivery rider (livreur)"
+        },
+        {
+          "term": "bureau de poste",
+          "en": "post office (bureau de poste)"
+        },
+        {
+          "term": "Yalidine",
+          "en": "Algerian courier name (Yalidine)"
+        },
+        {
+          "term": "Amana",
+          "en": "Barid Al-Maghrib express (Amana)"
+        }
+      ],
+      "government": [
+        {
+          "term": "CIN",
+          "en": "national ID card in MA/TN (CIN)"
+        },
+        {
+          "term": "CNIE",
+          "en": "Moroccan electronic ID card (CNIE)"
+        },
+        {
+          "term": "extrait de naissance",
+          "en": "birth certificate extract (extrait de naissance)"
+        },
+        {
+          "term": "certificat de résidence",
+          "en": "proof of residence (certificat de résidence)"
+        },
+        {
+          "term": "légalisation de signature",
+          "en": "certified signature at the commune (légalisation de signature)"
+        },
+        {
+          "term": "APC",
+          "en": "Algerian town hall (APC)"
+        },
+        {
+          "term": "état civil",
+          "en": "civil registry (état civil)"
+        }
+      ],
+      "health": [
+        {
+          "term": "pharmacie de garde",
+          "en": "on-duty pharmacy (pharmacie de garde)"
+        },
+        {
+          "term": "ordonnance",
+          "en": "prescription (ordonnance)"
+        },
+        {
+          "term": "clinique",
+          "en": "private hospital (clinique)"
+        },
+        {
+          "term": "médecin",
+          "en": "doctor (médecin)"
+        },
+        {
+          "term": "carte Chifa",
+          "en": "Algerian insurance card (carte Chifa)"
+        },
+        {
+          "term": "CNAM",
+          "en": "Tunisian health insurance fund (CNAM)"
+        },
+        {
+          "term": "AMO",
+          "en": "Moroccan mandatory health insurance (AMO)"
+        },
+        {
+          "term": "urgences",
+          "en": "emergency department (urgences)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "puce",
+          "en": "SIM card in Maghreb French (puce)"
+        },
+        {
+          "term": "recharge",
+          "en": "top-up (recharge)"
+        },
+        {
+          "term": "solde",
+          "en": "remaining credit (solde)"
+        },
+        {
+          "term": "forfait",
+          "en": "bundle / plan (forfait)"
+        },
+        {
+          "term": "réseau",
+          "en": "signal (réseau)"
+        },
+        {
+          "term": "Maroc Telecom",
+          "en": "Moroccan incumbent (Maroc Telecom)"
+        },
+        {
+          "term": "Tunisie Telecom",
+          "en": "Tunisian incumbent (Tunisie Telecom)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "espèces",
+          "en": "cash (espèces)"
+        },
+        {
+          "term": "carte Edahabia",
+          "en": "Algérie Poste debit card (carte Edahabia)"
+        },
+        {
+          "term": "D17",
+          "en": "Tunisian mobile payment by La Poste (D17)"
+        },
+        {
+          "term": "BaridiMob",
+          "en": "Algerian postal mobile app (BaridiMob)"
+        },
+        {
+          "term": "chèque",
+          "en": "cheque, still used for rent deposits in the Maghreb (chèque)"
+        },
+        {
+          "term": "par facilités",
+          "en": "paying in instalments (par facilités)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "petit taxi",
+          "en": "Moroccan city taxi (petit taxi)"
+        },
+        {
+          "term": "grand taxi",
+          "en": "Moroccan shared intercity taxi (grand taxi)"
+        },
+        {
+          "term": "louage",
+          "en": "Tunisian shared minibus (louage)"
+        },
+        {
+          "term": "tramway",
+          "en": "tram in Casablanca, Rabat, Algiers, Oran (tramway)"
+        },
+        {
+          "term": "ONCF",
+          "en": "Moroccan railways (ONCF)"
+        },
+        {
+          "term": "métro d'Alger",
+          "en": "Algiers metro (métro d'Alger)"
+        },
+        {
+          "term": "autoroute à péage",
+          "en": "toll motorway (autoroute à péage)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "syndic",
+          "en": "building management (syndic)"
+        },
+        {
+          "term": "gardien",
+          "en": "building guard (gardien)"
+        },
+        {
+          "term": "loyer",
+          "en": "rent (loyer)"
+        },
+        {
+          "term": "immeuble",
+          "en": "building (immeuble)"
+        },
+        {
+          "term": "étage",
+          "en": "floor (étage)"
+        },
+        {
+          "term": "propriétaire",
+          "en": "landlord (propriétaire)"
+        },
+        {
+          "term": "boîte aux lettres",
+          "en": "letterbox, often unused (boîte aux lettres)"
+        }
+      ],
+      "school": [
+        {
+          "term": "bac",
+          "en": "school-leaving exam (bac)"
+        },
+        {
+          "term": "cours de soutien",
+          "en": "paid extra lessons (cours de soutien)"
+        },
+        {
+          "term": "lycée",
+          "en": "high school (lycée)"
+        },
+        {
+          "term": "collège",
+          "en": "middle school (collège)"
+        },
+        {
+          "term": "école privée",
+          "en": "private school (école privée)"
+        },
+        {
+          "term": "rentrée scolaire",
+          "en": "start of the school year (rentrée scolaire)"
+        },
+        {
+          "term": "Massar",
+          "en": "Moroccan pupil records platform (Massar)"
+        }
+      ],
+      "money": [
+        {
+          "term": "dirham",
+          "en": "Moroccan dirham (dirham)"
+        },
+        {
+          "term": "dinar",
+          "en": "dinar in DZ/TN/LY (dinar)"
+        },
+        {
+          "term": "DH",
+          "en": "written dirham abbreviation (DH)"
+        },
+        {
+          "term": "DA",
+          "en": "written Algerian dinar (DA)"
+        },
+        {
+          "term": "DT",
+          "en": "written Tunisian dinar (DT)"
+        },
+        {
+          "term": "million de centimes",
+          "en": "Algerian spoken amount, ten thousand DA (million de centimes)"
+        },
+        {
+          "term": "billet",
+          "en": "banknote (billet)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "aujourd'hui",
+          "en": "today; Darija speakers may say lyoum instead (aujourd'hui)"
+        },
+        {
+          "term": "demain",
+          "en": "tomorrow (demain)"
+        },
+        {
+          "term": "après-demain",
+          "en": "day after tomorrow (après-demain)"
+        },
+        {
+          "term": "hier",
+          "en": "yesterday (hier)"
+        },
+        {
+          "term": "ce soir",
+          "en": "tonight (ce soir)"
+        },
+        {
+          "term": "l'après-midi",
+          "en": "in the afternoon (l'après-midi)"
+        },
+        {
+          "term": "après la prière du vendredi",
+          "en": "after Friday prayers, a common time marker (après la prière du vendredi)"
+        }
+      ],
+      "work": [
+        {
+          "term": "boulot",
+          "en": "job, colloquial (boulot)"
+        },
+        {
+          "term": "patron",
+          "en": "boss (patron)"
+        },
+        {
+          "term": "salaire",
+          "en": "salary (salaire)"
+        },
+        {
+          "term": "congé",
+          "en": "leave (congé)"
+        },
+        {
+          "term": "bureau",
+          "en": "office (bureau)"
+        },
+        {
+          "term": "heures sup",
+          "en": "overtime (heures sup)"
+        },
+        {
+          "term": "réunion",
+          "en": "meeting (réunion)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "جنيه",
+      "use_instead": "درهم / دينار",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "دلوقتي",
+      "use_instead": "دابا / توا / ضرك",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "فودافون كاش",
+      "use_instead": "D17 / BaridiMob",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "InstaPay",
+      "use_instead": "virement / CCP",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "ليرة",
+      "use_instead": "درهم / دينار",
+      "where_it_is_from": "LB"
+    },
+    {
+      "word": "STC",
+      "use_instead": "Maroc Telecom / Djezzy / Ooredoo",
+      "where_it_is_from": "SA"
+    },
+    {
+      "word": "carte Vitale",
+      "use_instead": "carte Chifa / CNSS / AMO",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "Lydia",
+      "use_instead": "D17 / BaridiMob",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "ameli",
+      "use_instead": "CNSS / CNAM",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "septante",
+      "use_instead": "soixante-dix",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "carte SIM",
+      "use_instead": "puce",
+      "where_it_is_from": "FR"
+    }
+  ],
+  "sources": [
+    "https://www.barid.ma/",
+    "https://www.poste.tn/",
+    "https://www.poste.dz/",
+    "https://www.oncf.ma/",
+    "https://www.cnss.ma/",
+    "https://www.cnam.nat.tn/",
+    "https://www.cnas.dz/",
+    "https://www.iam.ma/",
+    "https://www.inwi.ma/",
+    "https://www.djezzy.dz/",
+    "https://www.mobilis.dz/",
+    "https://www.tunisietelecom.tn/",
+    "https://yalidine.com/",
+    "https://massar.men.gov.ma/",
+    "https://www.yassir.com/"
+  ],
+  "uncertain": [
+    "阿拉伯語方言（Darija／突尼西亞語／阿爾及利亞語）沒有統一拼法，同一詞的阿拉伯字母寫法因人而異；AI 應依對方說法調整。",
+    "阿爾及利亞口語「مليون」常指一萬第納爾（以生丁計），突尼西亞則以 millime 計價，金額一定要用數字再確認。",
+    "利比亞用詞（銀行、交通、電信）本檔幾乎未涵蓋，查不到足夠官方或平台來源。",
+    "柏柏語（Tamazight）不在支援語言清單，只能以阿拉伯語或法語回應。",
+    "「لابيس」（SIM 卡）等法語借詞的阿拉伯字母寫法未經語料庫確認。"
+  ]
+}

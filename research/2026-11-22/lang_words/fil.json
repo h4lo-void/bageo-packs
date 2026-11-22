@@ -1,0 +1,144 @@
+{
+  "lang": "fil",
+  "script": "latin",
+  "common_words": [
+    "ako",
+    "ikaw",
+    "kayo",
+    "kami",
+    "tayo",
+    "sila",
+    "hindi",
+    "oo",
+    "po",
+    "ho",
+    "nga",
+    "ba",
+    "ito",
+    "iyan",
+    "ang",
+    "ng",
+    "sa",
+    "ko",
+    "mo",
+    "namin",
+    "ninyo",
+    "nila",
+    "wala",
+    "meron",
+    "gusto",
+    "kailangan",
+    "salamat",
+    "paalam",
+    "magandang umaga",
+    "bakit",
+    "saan",
+    "kailan",
+    "paano",
+    "ngayon",
+    "bukas",
+    "kahapon",
+    "umaga",
+    "gabi",
+    "palagi",
+    "hindi kailanman",
+    "numero",
+    "address",
+    "doktor",
+    "order",
+    "pwede",
+    "nalang",
+    "kasi",
+    "pero",
+    "muli",
+    "opo"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — there is no separate fil file; the Tagalog list was used: https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/tl/tl_full.txt",
+  "shared_words": [
+    {
+      "word": "ang",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "sa",
+      "also_in": [
+        "ceb",
+        "ms",
+        "id"
+      ]
+    },
+    {
+      "word": "na",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "ko",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "ka",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "mga",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "wala",
+      "also_in": [
+        "ceb"
+      ]
+    },
+    {
+      "word": "salamat",
+      "also_in": [
+        "ceb"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "ceb",
+    "id",
+    "ms",
+    "es"
+  ],
+  "how_to_tell_apart": "Filipino (based on Tagalog) is closest to Cebuano in this set. The politeness particles po and ho, the negation hindi, the linker ng, question ba, and words such as ito, kayo, kasi, opo, paalam and magandang umaga are Filipino/Tagalog cues. Cebuano would more often show dili, ug or og, unsa, kamo, palihog and maayong buntag. Shared ang, sa, na, ko, mga, wala and even salamat are not decisive. Indonesian and Malay look different once tidak/boleh or saya appear; Spanish loans exist but the function words above are not Spanish.",
+  "test_said": [
+    "Sa barangay po hihingi ako ng clearance na kailangan sa bagong trabaho.",
+    "Ang bayad sa tubig pala ay dapat ayos bago matapos ang linggong ito.",
+    "May padalang kahon mula sa ibang bansa at tinatanong ko kung nandiyan na sa tanggapan ninyo.",
+    "Ang electric fan na inihatid ay may basag na takip at gusto ko itong mapalitan.",
+    "Sa lying-in clinic magtatanong ako ng petsa para sa susunod na prenatal check.",
+    "Dalawang linggo na akong inuubo at hihingi ako ng konsultasyon ngayong hapon.",
+    "Ayokong kumuha ng bagong insurance sa tawag na ito at hindi ko ibibigay ang mga detalye.",
+    "May load at data pa ako kaya hindi ko kailangan ang promo na inaalok ninyo."
+  ],
+  "test_not_enough": [
+    "Liza",
+    "ok",
+    "isa",
+    "please"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/tl/tl_full.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Filipino_language",
+    "https://en.wikipedia.org/wiki/Tagalog_grammar"
+  ],
+  "uncertain": [
+    "The task code is fil, but FrequencyWords only publishes a Tagalog (tl) list; Filipino official vocabulary is Tagalog-based, yet some promised Filipino items from other Philippine languages will be missing.",
+    "po/ho are strong interpersonal cues in Filipino/Tagalog and are rare in Cebuano, but a very casual call may omit them.",
+    "address appears in the list as a common English loan and is not diagnostic."
+  ]
+}

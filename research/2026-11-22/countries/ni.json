@@ -1,0 +1,93 @@
+{
+  "country": "ni",
+  "parent": "latam",
+  "name": {
+    "en": "Nicaragua",
+    "native": "Nicaragua",
+    "zh": "尼加拉瓜"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Collect at a Correos de Nicaragua office, or leave it with a pulpería, the portero or a neighbour",
+    "zh": "包裹交給門房、雜貨店、鄰居，或到郵局領"
+  },
+  "readback": {
+    "en": "After 505, numbers are eight digits; fixed start with 2, mobiles often with 8. 0 as cero; córdobas.",
+    "zh": "505 之後八位；市話以 2、手機常以 8 開頭。0 唸 cero；金額用科多巴。"
+  },
+  "fraud": {
+    "en": "A fake bank call asking for passwords, codes or a transfer is a scam",
+    "zh": "假冒銀行要密碼、驗證碼或轉帳的都是詐騙"
+  },
+  "habits": {
+    "en": "Vos is the usual informal form; usted is formal. Tú can sound foreign. People may also answer with bueno. Use córdobas.",
+    "zh": "熟人預設 vos，正式用 usted。tú 可能聽來不像本地。接電話也可能說 bueno。金額用科多巴。"
+  },
+  "stall_local": {
+    "en": "A power cut just hit, and I cannot get the bank app to open on weak data.",
+    "zh": "剛碰上停電，而且收訊差，銀行 App 打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "transferencia",
+      "tarjeta",
+      "clave",
+      "cuenta",
+      "banco"
+    ],
+    "delivery": [
+      "portero",
+      "pulpería",
+      "correo",
+      "vecino",
+      "portería"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "預設 tú",
+      "reason": {
+        "zh": "本國熟人更常用 vos，tú 可能聽來不像當地人。"
+      }
+    },
+    {
+      "word": "vosotros / vale / ordenador",
+      "reason": {
+        "zh": "這是西班牙說法，本國與所屬地區一樣不用。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift levels 1–3 to vos, not the parent's tú default; usted for strangers at 4–5. Hello may also be bueno, as RAE records for Nicaragua.",
+    "zh": "1～3 格改用 vos，不要照所屬地區預設 tú；4～5 格對陌生人用 usted。接電話也可能說 bueno，這是 RAE 對尼加拉瓜的記錄。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.bcn.gob.ni/node/15067",
+    "https://www.banprogrupopromerica.com.ni/banpro-grupo-promerica/consejos-de-prevencion-de-fraudes/tabs/metodos-de-estafa/llamadas-telefonicas-o-vishing/",
+    "https://www.telcor.gob.ni/",
+    "https://www.telcor.gob.ni/correos-de-nicaragua-direccion/",
+    "https://www.itu.int/dms_pub/itu-t/opb/sp/T-SP-OB.929-2009-OAS-PDF-E.pdf"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "RAE 記尼加拉瓜接電話用 bueno，也記 aló；hello 用 aló，bueno 寫在習慣裡，實際比例不明。",
+    "只談語言與生活習慣，不加政治評語。",
+    "vos／usted 與瓜地馬拉、宏都拉斯同屬中美洲 voseo 制度，此檔習慣句未列入 WARN，故未改寫。",
+    "門房、雜貨店取件未在 TELCOR 頁核到，沿用既有寫法。",
+    "八位號碼與市話以 2、手機以 8 開頭依 2009 年 ITU／TELCOR 公告；之後是否另開 5、6、7 等行動字頭，此次未在 TELCOR 首頁核到更新表。"
+  ]
+}

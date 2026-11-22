@@ -1,0 +1,73 @@
+{
+  "country": "im",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Isle of Man",
+    "native": "Isle of Man",
+    "zh": "曼島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Collect at an Isle of Man Post Office branch, or leave it on the porch or with a neighbour.",
+    "zh": "包裹放門廊、交給鄰居，或到曼島郵局領取"
+  },
+  "readback": {
+    "en": "Island code 01624; postcodes start IM. Use oh and double; amounts in pounds; half two is 2:30.",
+    "zh": "區號 01624，郵區 IM。0 唸 oh、double；英鎊。half two＝2:30"
+  },
+  "fraud": {
+    "en": "A fake Isle of Man Post parcel text, or a Treasury or Income Tax data request, is a scam",
+    "zh": "假曼島郵局包裹簡訊，或冒充財政或稅務部門要資料的都是詐騙"
+  },
+  "habits": {
+    "en": "British English. Local Treasury or Income Tax, not HMRC. Say mobile and postcode; day first.",
+    "zh": "用英式英語。稅務屬本地部門，不是 HMRC。說 mobile、postcode。"
+  },
+  "stall_local": {
+    "en": "I cannot confirm a parcel from a message alone, as Isle of Man Bank warns; my glasses are missing.",
+    "zh": "不能單靠一則訊息就確認包裹，曼島銀行也這樣提醒，而且眼鏡在另一個房間。"
+  },
+  "vocab": {
+    "bank": [
+      "current account",
+      "sort code",
+      "card"
+    ],
+    "delivery": [
+      "safe place",
+      "neighbour",
+      "Isle of Man Post"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "HMRC",
+      "reason": {
+        "en": "UK tax authority, not the Isle of Man's",
+        "zh": "英國稅務機關，不是曼島的"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep British courtesy, but tax is the local Treasury or Income Tax, not HMRC; post is Isle of Man Post Office, postcodes IM.",
+    "zh": "英式禮貌層級相近，稅務說本地財政或 Income Tax，不要用 HMRC；郵局說曼島郵政，郵區是 IM。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.iombank.com/global/fraud-and-security/spotting-scams/delivery-scams.html",
+    "https://csc.gov.im/news-advisories/the-24-days-of-cyber-safety-shop-smart-this-holiday-season/",
+    "https://www.iompost.com/",
+    "https://www.iompost.com/help-support",
+    "https://www.iompost.com/tools-services/find-a-postcode"
+  ],
+  "uncertain": [
+    "曼島郵局官方防詐專頁此次未穩定打開，包裹詐騙主要依據 Isle of Man Bank 與政府資安提醒。",
+    "曼島語不在支援清單，不能當成 AI 要講的語言。",
+    "oh／double、英鎊與 half two 的讀法與英國及其他皇屬地是同一套習慣；此檔已改寫並寫出區號 01624 與郵區 IM。",
+    "門廊或鄰居代收未在曼島郵政頁核為一般投遞規定，沿用既有寫法。"
+  ]
+}

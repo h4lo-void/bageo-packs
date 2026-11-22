@@ -1,0 +1,88 @@
+{
+  "country": "jm",
+  "parent": "us",
+  "name": {
+    "en": "Jamaica",
+    "native": "Jamaica",
+    "zh": "牙買加"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, you there?"
+  },
+  "delivery": {
+    "en": "Door delivery or collect at Jamaica Post; a neighbour needs a stamped letter and both IDs",
+    "zh": "可送到門口或到 Jamaica Post 領；鄰居代領要蓋章授權與雙方證件"
+  },
+  "readback": {
+    "en": "After 876, numbers go 3-3-4; 0 as zero; Jamaican dollars; 12-hour time; day before month",
+    "zh": "876 區碼後照 3-3-4 唸，0 唸 zero；牙買加元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A bank or courier text asking for an OTP or a login, or a page spoofing a Jamaican bank, is a scam",
+    "zh": "冒充銀行或快遞要 OTP、登入，或做假的牙買加銀行頁面，都是詐騙"
+  },
+  "habits": {
+    "en": "Reply in English; friends may add Patois, which is unsupported. Say mobile and yard, not cell. Day first.",
+    "zh": "用英語回；熟人或夾 Patois，但不在支援清單。說 mobile、yard，不說 cell。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The Lynk payment will not go through, and the NCB app is asking for a new sign-in.",
+    "zh": "卡在 Lynk 轉帳送不出去，而且 NCB App 要重新登入。"
+  },
+  "vocab": {
+    "bank": [
+      "Lynk",
+      "NCB",
+      "debit card",
+      "ABM"
+    ],
+    "delivery": [
+      "Jamaica Post",
+      "yard",
+      "post office",
+      "collection"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，牙買加較常提到的是 Lynk 或本地銀行 App"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅務機關，不是牙買加居民電話裡的慣常詐騙話術"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美國郵遞區號說法；這裡較常說地址或郵政局"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式說法；牙買加英語較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Drop mainland US slang such as oh man. With strangers, Good afternoon is safer than a buddy tone. Stay in English even if the caller mixes Patois. Avoid IRS, Medicare or Zelle framing.",
+    "zh": "不要用美國那種 oh man 口氣。對生人用 Good afternoon 更妥當。對方夾 Patois 也用英語回。不要套 IRS、Zelle。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.cirt.gov.jm/article/phishing-scams-how-recognize-them",
+    "https://www.jnbank.com/smishing-scams-are-on-the-rise/",
+    "https://jamaicapost.gov.jm/sending-and-receiving-parcels/"
+  ],
+  "uncertain": [
+    "日期口頭是否一律先日後月，是依英式習慣推得，不是電信規範。",
+    "Patois 在電話上的實際比例，沒有語料調查。"
+  ]
+}

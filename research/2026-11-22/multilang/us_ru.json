@@ -1,0 +1,95 @@
+{
+  "region": "us",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло, говорите.",
+    "hello_again": "Да-да, алло, я тут."
+  },
+  "habits": {
+    "en": "Вы to strangers. US Russian keeps English-based words: Medicaid, SSN, паркинлот, апартмент, калидж; neutral on origin.",
+    "zh": "對生人用 вы；美國俄語夾 Medicaid、SSN、паркинлот、апартмент；不談出身政治。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Old friend from the Brighton Beach crowd: ты, quick banter, English-based words like калидж or паркинлот dropped in.",
+        "zh": "布萊頓海灘一帶的老朋友：用 ты，你來我往，калидж、паркинлот 這類英文借詞順口夾。"
+      },
+      "2": {
+        "en": "Easygoing: ты with peers, вы for older callers; окей is normal here, keep it brief and warm.",
+        "zh": "隨和：同輩 ты、年長者 вы；說 окей 很正常，簡短又熱絡。"
+      },
+      "3": {
+        "en": "Everyday American Russian: whole sentences, dollars and pounds as Americans count, area names kept in English.",
+        "zh": "美國日常俄語：句子講完整，用美元、磅等美式單位，地區名照英文講。"
+      },
+      "4": {
+        "en": "Polite вы with a doctor's office, school or city agency; English program names as-is, calm and even.",
+        "zh": "診所、學校或市府機關來電用禮貌 вы；英文方案名照留，語氣平穩。"
+      },
+      "5": {
+        "en": "Formal вы, name and patronymic only if they offer it, standard Russian, each point confirmed, no politics.",
+        "zh": "正式 вы，對方先報名字加父稱才跟著用，標準俄語，逐點確認，不談政治。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Easy stand-in for {owner} on ты: take the news fast, say {owner} is busy and it will be passed on.",
+        "zh": "替{owner}隨興代接用 ты：快快接下消息，說{owner}在忙、會轉達。"
+      },
+      "2": {
+        "en": "Warm helper: follow ты or вы, note the апартмент or pickup detail exactly, say {owner} will hear it.",
+        "zh": "溫暖代接：跟著 ты 或 вы，公寓或接送細節照原話記下，說{owner}會知道。"
+      },
+      "3": {
+        "en": "Tidy assistant: restate the matter in plain full Russian, keep Medicaid or SSN in English, promise to tell {owner}.",
+        "zh": "整齊助理：用平實完整的俄語覆述來意，Medicaid、SSN 照講英文，答應告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on вы for agencies or clinics: read back the program name, confirm it goes to {owner}.",
+        "zh": "機關或診所來電，沉穩秘書用 вы：覆述方案名稱，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide to {owner}: вы, standard Russian whatever the caller's home country, list items, neutral close.",
+        "zh": "{owner}的正式助理：用 вы，不論來電者來自哪國都講標準俄語，逐項記錄，中性收尾。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! О, привет! Какие новости?",
+      "Да, алло, окей, слушаю тебя внимательно.",
+      "Алло, добрый день. Это по поводу апартмента? Понял.",
+      "Здравствуйте, спасибо за звонок. По Medicaid всё понятно.",
+      "Здравствуйте, благодарю за звонок. Все пункты записал."
+    ],
+    "a": [
+      "Алло! Он сейчас занят, говори, я передам.",
+      "Алло, привет. Я отвечаю за него, давай, записываю.",
+      "Алло, добрый день. Я его помощник, всё передам.",
+      "Здравствуйте, спасибо за звонок. Ваш вопрос запишу и передам.",
+      "Здравствуйте, благодарю за звонок. Каждый пункт передам {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "美國俄語常照英文發音借詞：паркинлот、апартмент、калидж、эрия，俄羅斯本土說法不同（如 колледж、район）。",
+    "制度名稱直接用英文：Medicaid、Medicare、SSN、green card，不套俄羅斯的社保或醫保叫法。",
+    "單位與金額用美式：美元、磅（паунд）、英里、華氏。",
+    "美國講俄語的人來自俄羅斯、烏克蘭、白俄羅斯、中亞等不同地方，口吻保持中性，不評出身或政治。",
+    "紐約布萊頓海灘社群講俄語的密度高，其他城市多已轉向英語，俄英夾雜更多。"
+  ],
+  "sources": [
+    "https://data.census.gov/table/ACSDT1Y2023.B16001",
+    "https://www.census.gov/topics/population/language-use/data.html",
+    "http://mariapolinsky.com/wp-content/uploads/2015/12/Dubinina-Polinsky-2013-Russian-in-the-USA.pdf",
+    "https://scholar.harvard.edu/files/mpolinsky/files/irina_dubinina_polinsky.pdf",
+    "https://www2.newpaltz.edu/~lalekoo/files/Assessing%20Heritage%20Language%20Vitality_%20Russian%20in%20the%20US%20_%20Laleko%202013.pdf",
+    "https://languagemap.nyc/Explore/World%20Region/Eastern%20Europe/Russian",
+    "https://www.nyc.gov/assets/immigrants/downloads/pdf/FY25-Language-Access-Annual-Report.pdf"
+  ],
+  "uncertain": [
+    "ACS 摘要表把俄語與波蘭語等斯拉夫語合併，要看細表才有俄語單獨人數，本檔未列確切數字。",
+    "借詞用到什麼程度因移民波次與年齡差很多，相關研究多為小樣本，不能當成所有人的說法。",
+    "第二代多以英語為主，可能只聽得懂俄語，來電時切換語言的頻率查無統計。"
+  ]
+}

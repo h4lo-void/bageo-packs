@@ -1,0 +1,734 @@
+{
+  "region": "id",
+  "countries": [
+    "id"
+  ],
+  "region_name_zh": "印尼",
+  "region_name": "Indonesia",
+  "languages": [
+    {
+      "code": "id",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite standard Indonesian (id) with Bapak/Ibu; Jakarta staff mix in casual Betawi/English words; English works at international hotels, private hospitals and Bali tourist venues.",
+  "english_ok": "sometimes — Common at international hotels, private hospitals, Jakarta offices and Bali; limited at warung, bengkel, markets and government offices.",
+  "politeness": "Polite and indirect: greet with selamat pagi/siang/sore/malam, use Bapak/Ibu, soften requests with 'mohon' or 'boleh'; thank with terima kasih.",
+  "name_tip": "Many Indonesians have a single name or no family name; address by Bapak/Pak or Ibu/Bu + first name ('Pak Budi'); book under the name the person uses + WhatsApp number.",
+  "phone_tip": "Mobile starts 08 and has 10–13 digits (0812-1234-5678); Jakarta landline 021-1234-5678; the mobile is usually the WhatsApp number; read back in groups of 4.",
+  "time_tip": "CRITICAL: 'setengah delapan' = 7:30 (half before eight)! 'jam 7 kurang seperempat' = 6:45; written time uses a dot (19.30); add pagi/siang/sore/malam.",
+  "number_tip": "Read digits singly; prices in rupiah use dots as thousand separators and 'rb'/'ribu' or 'k' (50 rb = 50.000); 'jt' = juta (million).",
+  "avoid_calling": "Avoid Friday 11:30–13:30 (Jumat prayer), lunch rush 12:00–13:00, calls after 21:00, Ramadan buka puasa time (sunset), and the Lebaran/cuti bersama week when many small shops close.",
+  "closed_days": "Office weekend is Sat–Sun; most shops and malls open daily; Lebaran (Idul Fitri) plus cuti bersama closes small shops and warung for several days; Nyepi closes almost everything in Bali for a day.",
+  "booking_channels": "WhatsApp is the default for restaurants, salons, clinics and tradesmen; Halodoc and hospital apps/WhatsApp for doctors; GoFood/GrabFood/ShopeeFood for delivery; Gojek/Grab for rides; Tokopedia/Shopee for shopping.",
+  "voice_menu": "Telcos (Telkomsel, Indosat), banks, PLN electricity and BPJS use IVR menus; hospitals have call centres; small shops answer directly or via WhatsApp.",
+  "callback_habits": "Businesses usually reply and confirm on WhatsApp (often a WhatsApp Business auto-reply first); hospitals send WhatsApp reminders; couriers phone or WhatsApp on the day.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "峇里島與龍目島的潛水、浮潛、火山日出團多 WhatsApp 預約並含飯店接送；國家公園門票多線上購買。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Sunrise trek includes hotel pickup at a fixed early hour"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Group price requires a minimum number of pax"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport number for park tickets"
+        }
+      ],
+      "usually_asked": [
+        "Which trip or class",
+        "Date and hotel pickup point",
+        "Number of pax",
+        "Name and WhatsApp"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲、按摩多用 WhatsApp 預約，連鎖店有 App；部分女性顧客會要求女性美髮師或女性專用沙龍。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Muslimah salon accepts women only"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Hair colouring price depends on hair length"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks a selfie or ID photo for a salon booking"
+        }
+      ],
+      "usually_asked": [
+        "Treatment: creambath, potong, smoothing, nail art",
+        "Female stylist preferred or not",
+        "Date and jam",
+        "Name and WhatsApp"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多在 WhatsApp 對話處理；Mobile JKN 的取號可在 App 內取消後重取；訂金（DP）臨時取消通常不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Mobile JKN queue can be cancelled and retaken in the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "DP is forfeited for same-day cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks booking code (kode booking) and NIK"
+        }
+      ],
+      "usually_asked": [
+        "Name and WhatsApp used for booking",
+        "Original date and jam",
+        "Reschedule date or batal",
+        "Kode booking if from an app"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "BPJS 健保病人用 Mobile JKN App 取號，到醫院（FKRTL）前須有初級醫療（Faskes 1）轉診單；自費病人可用醫院 App、WhatsApp 或 Halodoc 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "BPJS patients must take a queue number in Mobile JKN with a referral"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private hospital doctor schedule changes; WhatsApp confirms the day before"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NIK, BPJS card number or medical record number"
+        }
+      ],
+      "usually_asked": [
+        "BPJS or umum (self-pay) or private insurance",
+        "Which poli (clinic) and doctor",
+        "Referral number for BPJS",
+        "Patient's name and date of birth",
+        "Check-in at the hospital about one hour early for BPJS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、電力（PLN）與 BPJS 客服有語音選單，帳戶事項須本人以 NIK 驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank says account matters need the account holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NIK, mother's maiden name or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR menu choice",
+        "Account holder name",
+        "Customer ID (e.g. PLN meter number)",
+        "Description of the problem"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多走線上入口或到場辦理（如 Dukcapil 戶政）；學校可電話或 WhatsApp 詢問，週末不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Population office handles KTP and KK in person or online by region"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the family card (KK) number"
+        }
+      ],
+      "usually_asked": [
+        "Which document or enrolment",
+        "Applicant or child's age",
+        "Kelurahan or kecamatan",
+        "Contact WhatsApp"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣清洗、水電與清潔多用 WhatsApp 或 App 叫；地址要含 RT/RW、村里（kelurahan）與社區名稱。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "AC service priced per unit and PK size"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Housing complex security asks the worker to leave ID at the gate"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks transfer before the technician comes"
+        }
+      ],
+      "usually_asked": [
+        "Job type and number of AC units (PK)",
+        "Address with perumahan, blok, RT/RW, kelurahan",
+        "Day and jam",
+        "Name and WhatsApp"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "連鎖飯店多經 Traveloka、tiket.com、Agoda，民宿與 guesthouse 常 WhatsApp；入住需 KTP 或護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Check-in requires KTP or passport"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Villa in Bali asks a deposit for damage"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks a photo of KTP or passport in advance"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children and extra bed",
+        "Breakfast included or not",
+        "Guest name and WhatsApp"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、開齋節與集體休假（cuti bersama）是否營業、是否清真、可否 QRIS 付款、有無停車位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Explains which days the shop closes over Lebaran"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Says whether QRIS and debit cards are accepted"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Jam buka and Lebaran closing",
+        "Halal status",
+        "QRIS, debit or cash",
+        "Parkir mobil or motor only"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫診所與寵物美容（grooming）多 WhatsApp 預約，貓的服務最多；寵物旅館要疫苗紀錄。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming price differs for long-hair cats"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Pet hotel requires vaccination record"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full prepayment to an individual account for boarding"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or pet hotel",
+        "Cat or dog, breed, weight",
+        "Vaccine status",
+        "Owner name and WhatsApp"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Rumah123、OLX、Mamikos（分租房 kos），房東與仲介習慣 WhatsApp 約看房；租約常一次付一年。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent continues on WhatsApp"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rent paid yearly up front for houses"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks a booking fee before any viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing, kos or house area",
+        "Monthly or yearly rent",
+        "Number of occupants, couple or single",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車與汽車修理行（bengkel）多直接到場或電話詢問；原廠保養可用品牌 App 或 WhatsApp 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dealer books servis berkala by kilometre through its app or WhatsApp"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Bengkel quotes only after inspection"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks STNK (vehicle registration) details"
+        }
+      ],
+      "usually_asked": [
+        "Motor or car model and plat nomor",
+        "Kilometre reading for servis berkala",
+        "Complaint (keluhan)",
+        "Day to bring it in"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "印尼餐廳多用 WhatsApp 或電話訂位，大桌、包廂與齋戒月開齋（buka puasa）時段要提早，常先付訂金（DP）；會問是否需要清真菜。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Buka puasa slots in Ramadan need a DP transfer to secure the table"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "WhatsApp Business auto-reply sends the menu and booking form first"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Answers whether the kitchen is halal-certified"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks a DP to the restaurant's bank account under the caller's name"
+        }
+      ],
+      "usually_asked": [
+        "Date and time written with a dot (19.30)",
+        "Jumlah orang, adults and children",
+        "Smoking or non-smoking area, indoor or outdoor",
+        "Name (atas nama) and WhatsApp number",
+        "Halal menu or minimum spend for a private room"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、便當盒（nasi kotak）、生日米塔（tumpeng）與開齋節禮盒（hampers）常 WhatsApp 下單並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Nasi kotak or tumpeng orders need a minimum quantity and DP"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment to a different name than the shop"
+        }
+      ],
+      "usually_asked": [
+        "How many boxes or hampers",
+        "Menu choice and budget per box",
+        "Delivery or pickup date",
+        "Name and WhatsApp"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃與餐廳可 WhatsApp 點餐自取（bungkus），外送以 GoFood、GrabFood、ShopeeFood 為主；常問辣度與要不要加飯。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Warung says delivery only via GoFood or GrabFood"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Payment by QRIS at pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks transfer to a personal account before cooking a small bungkus order"
+        }
+      ],
+      "usually_asked": [
+        "Menu and portions (porsi)",
+        "Pedas level or tanpa sambal",
+        "Pickup time",
+        "Name and WhatsApp"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "JNE、J&T、SiCepat、Pos Indonesia 多用官網、App 或 WhatsApp 官方帳號以運單號（resi）查件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier WhatsApp bot answers with the resi number"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the OTP to change the delivery address"
+        }
+      ],
+      "usually_asked": [
+        "Nomor resi",
+        "Receiver name and phone",
+        "Address with kecamatan and kode pos",
+        "Parcel contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Gojek、Grab 為主，機車計程（ojek）最常用；機場接送與包車（sewa mobil + sopir）可 WhatsApp 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests GoRide/GoCar or Grab for city trips"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Car with driver priced per 12 hours, fuel and tolls extra or not"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Self-drive rental asks KTP and SIM (driving licence)"
+        }
+      ],
+      "usually_asked": [
+        "Pickup point and jam",
+        "Destination or airport terminal",
+        "Pax and luggage, MPV or sedan",
+        "Name and WhatsApp"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "id": {
+      "appointment_words": [
+        "janji temu dokter",
+        "daftar periksa",
+        "booking potong rambut",
+        "servis motor",
+        "jadwal kontrol"
+      ],
+      "booking_words": [
+        "reservasi meja",
+        "booking tempat",
+        "pesan kamar",
+        "DP dulu",
+        "booking untuk acara"
+      ],
+      "change_words": [
+        "ganti jadwal",
+        "mundur ke hari Jumat",
+        "batal booking",
+        "reschedule",
+        "maju setengah jam"
+      ],
+      "date": [
+        "besok",
+        "lusa",
+        "Sabtu ini",
+        "Senin depan",
+        "25/11",
+        "malam Minggu"
+      ],
+      "false_friends": [
+        "lantai 3",
+        "Blok C No. 12",
+        "paket 2",
+        "pijat 90 menit",
+        "RT 05 RW 02",
+        "meja nomor 8"
+      ],
+      "inquiry_words": [
+        "buka jam berapa",
+        "ada parkir mobil?",
+        "bisa bayar QRIS?",
+        "masih ada stok?",
+        "halal tidak?"
+      ],
+      "name": [
+        "atas nama Budi",
+        "Pak Andi",
+        "Ibu Sari",
+        "atas nama kantor"
+      ],
+      "order_words": [
+        "pesan bungkus",
+        "ambil sendiri",
+        "pesan antar",
+        "pre-order",
+        "pesan nasi kotak"
+      ],
+      "party": [
+        "4 orang",
+        "2 dewasa 1 anak",
+        "rombongan 10 orang",
+        "berdua",
+        "sendiri"
+      ],
+      "phone": [
+        "0812-1234-5678",
+        "WA 0813-1234-5678",
+        "021-1234-5678",
+        "nomor WA sama"
+      ],
+      "time": [
+        "jam 7 malam",
+        "setengah delapan",
+        "19.30",
+        "jam 12 siang",
+        "sore jam 4",
+        "habis maghrib"
+      ]
+    }
+  }
+}

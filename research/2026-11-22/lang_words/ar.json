@@ -1,0 +1,134 @@
+{
+  "lang": "ar",
+  "script": "arabic",
+  "common_words": [
+    "أنا",
+    "أنت",
+    "أنتم",
+    "نحن",
+    "هو",
+    "هي",
+    "هم",
+    "لا",
+    "نعم",
+    "هذا",
+    "هذه",
+    "ما",
+    "ماذا",
+    "هل",
+    "لماذا",
+    "كيف",
+    "أين",
+    "متى",
+    "هنا",
+    "هناك",
+    "ليس",
+    "لم",
+    "لن",
+    "الآن",
+    "اليوم",
+    "غدا",
+    "أمس",
+    "صباح",
+    "مساء",
+    "شكرا",
+    "من فضلك",
+    "مرحبا",
+    "مع السلامة",
+    "أريد",
+    "يمكن",
+    "عندي",
+    "لكن",
+    "إذا",
+    "كل",
+    "فقط",
+    "بعد",
+    "قبل",
+    "رقم",
+    "عنوان",
+    "طبيب",
+    "طلب",
+    "جدا",
+    "أيضا",
+    "لقد",
+    "حسنا"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ar/ar_50k.txt",
+  "shared_words": [
+    {
+      "word": "من",
+      "also_in": [
+        "fa",
+        "ur"
+      ]
+    },
+    {
+      "word": "في",
+      "also_in": [
+        "fa",
+        "ur"
+      ]
+    },
+    {
+      "word": "و",
+      "also_in": [
+        "fa",
+        "ur"
+      ]
+    },
+    {
+      "word": "على",
+      "also_in": [
+        "fa",
+        "ur"
+      ]
+    },
+    {
+      "word": "يا",
+      "also_in": [
+        "fa",
+        "ur"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ة",
+    "ى",
+    "ك",
+    "ي"
+  ],
+  "confusable_with": [
+    "fa",
+    "ur",
+    "ps",
+    "sd"
+  ],
+  "how_to_tell_apart": "Within Arabic script, Arabic is the only one of this set that routinely uses ة and final ى, and that prefers ك and ي rather than the Persian/Urdu forms ک and ی. Diagnostic words include أنا, أنت, هل, ماذا, لماذا, ليس, شكرا, من فضلك, غدا and أريد. Persian would show پ/چ/ژ/گ plus من/تو/است/لطفا; Urdu would show ٹ/ڈ/ڑ/ں/ے plus ہوں/آپ/شکریہ. Shared prepositions such as من, في and على occur across the family and are not enough. Do not treat short interjections like حسنا or يا as decisive.",
+  "test_said": [
+    "في البلدية أريد شهادة سكن لأقدمها إلى مدرسة الأبناء.",
+    "في الصيدلية أسأل هل دواء الضغط الذي طلبته جاهز هذا المساء.",
+    "في البريد لدي طرد قيل إنه وصل لكنني لم أستلم أي إشعار.",
+    "خزانة المطبخ وصلت وفيها خدش واضح على الباب وأريد استبدالها.",
+    "في العيادة أحتاج موعدا لأن ألم الظهر مستمر منذ ثلاثة أيام.",
+    "المختبر قال إن نتائج التحليل ستكون جاهزة يوم الخميس صباحا.",
+    "لا أريد عقد تأمين جديد عبر هذا الاتصال ولن أعطي بيانات شخصية.",
+    "شريحة الهاتف بدّلتها الشهر الماضي لذلك لا أحتاج عرض مشغّل آخر."
+  ],
+  "test_not_enough": [
+    "سامي",
+    "ok",
+    "ثلاثة",
+    "menu"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ar/ar_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Arabic_alphabet",
+    "https://en.wikipedia.org/wiki/Arabic_language"
+  ],
+  "uncertain": [
+    "OpenSubtitles Arabic mixes modern standard forms with dialect (Egyptian, Levantine, Gulf). The common_words favour widely understood written forms such as أريد and غدا; a purely dialectal turn (عايز, بكرا) may still be Arabic but will not match every item.",
+    "ة and ى are the clearest unique-letter cues versus Persian and Urdu; ك versus ک is also helpful but some fonts render them similarly.",
+    "حسنا appears in the subtitle list and can be a mere filler, so it is a weak cue by itself."
+  ]
+}

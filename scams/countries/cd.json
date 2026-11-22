@@ -1,0 +1,137 @@
+{
+  "name": "Democratic Republic of the Congo",
+  "name_local": "République démocratique du Congo",
+  "iso": "cd",
+  "calling_code": "+243",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Licensed e-money issuers in the DRC, including Orange Money RDC, warn that prize announcements and caller-dictated codes are used to empty wallets, and that the secret Orange Money code must never be given even to someone claiming to work for the operator. The Banque Centrale du Congo lists authorised e-money houses and accepts fraud reports.",
+  "cross_border_note": "Calls are typically in French or Lingala and may spoof ordinary local mobiles rather than the operator's published short code.",
+  "scams": [
+    {
+      "id": "cd_orange_money_prize_code",
+      "typology": "prize_lottery",
+      "name": "Faux gain Orange Money et code dicté",
+      "name_en": "Fake Orange Money prize and dictated code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "vous avez gagné",
+        "code de retrait",
+        "lot Orange Money",
+        "cadeau"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "urges the user to enter a prize-withdrawal sequence given orally",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "announces an unsolicited Orange Money prize",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presents a validation step as the way to collect a gift",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or SMS announces a prize, gift or jackpot on an Orange Money wallet and then dictates a code, often presented as a withdrawal or validation step, which actually moves money out of the account.",
+      "legit_en": "Orange RDC tells customers never to type a code dictated by someone on the phone, by SMS or by email in the form of a prize announcement, and says only its published care line may call about a genuine reward.",
+      "bait_tactics": [
+        "Je n'ai inscrit ce numéro à aucun jeu Orange Money, donc je n'ai aucun lot à retirer et je ne vais pas taper un code dicté.",
+        "Le menu USSD de ce téléphone n'affiche aucun message de gain, et je refuse de composer une séquence que je n'ai pas demandée.",
+        "Le solde Orange Money de ce compte n'a pas bougé, donc cette histoire de cadeau ne correspond à rien que je vois à l'écran."
+      ],
+      "sources": [
+        "https://www.orange.cd/fr/assistance/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html"
+      ]
+    },
+    {
+      "id": "cd_fake_operator_secret_code",
+      "typology": "fake_telecom",
+      "name": "Faux conseiller demandant le code secret",
+      "name_en": "Fake operator agent asking for the secret code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "service client",
+        "code secret",
+        "demande de mise à jour du portefeuille",
+        "agent Orange"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "requests the wallet secret code while posing as operator staff",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "impersonates Orange customer care on an unsolicited call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims the wallet must be updated at once on the call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone pretends to be Orange, Vodacash, Airtel Money or another licensed issuer's help desk and asks the customer to say the wallet secret code or to confirm a 'security update' on the spot.",
+      "legit_en": "Orange RDC states that the secret Orange Money code must never be given to a third party, including someone claiming to work for Orange, because the company will not ask for that code. The central bank lists authorised e-money issuers.",
+      "bait_tactics": [
+        "Je ne communique pas le code secret de ce portefeuille, même à quelqu'un qui se dit du service client.",
+        "L'application Orange Money est bloquée sur l'écran d'accueil avec un réseau très faible, je ne peux rien valider pour le moment.",
+        "Je n'ai demandé aucune mise à jour de compte, et je ne poursuis pas cette conversation sur un numéro que je ne reconnais pas."
+      ],
+      "sources": [
+        "https://www.orange.cd/fr/assistance/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html",
+        "https://www.bcc.cd/intermediaires-financiers/etablissements-monnaie-electronique"
+      ]
+    },
+    {
+      "id": "cd_id_document_handover",
+      "typology": "otp_theft",
+      "name": "Remise de pièce d'identité ou code de retrait",
+      "name_en": "ID handover or spoken withdrawal code",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "pièce d'identité",
+        "numéro de retrait",
+        "boutique",
+        "vérification"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks to retain the customer's identity document",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the withdrawal number to be spoken aloud",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "demands an identity card as a condition for activating a wallet",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A person at a shop or on the phone asks to keep the customer's identity document, or to have a withdrawal number read out loud, in order to 'activate' or 'repair' a mobile-money account.",
+      "legit_en": "Orange RDC advises customers never to leave an identity document with a third party, to present it only when required in a shop, and never to say a withdrawal number out loud or leave it written where others can see it.",
+      "bait_tactics": [
+        "Ma pièce d'identité reste dans mon sac; je peux la présenter moi-même en boutique, je ne la laisse à personne.",
+        "Je ne vais pas dicter un numéro de retrait à voix haute dans cette pièce, trop de monde peut l'entendre.",
+        "Le ticket de retrait n'est pas encore affiché sur ce téléphone, donc il n'y a aucun numéro à communiquer."
+      ],
+      "sources": [
+        "https://www.orange.cd/fr/assistance/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "lang": "mk",
+  "backchannels": {
+    "direction": "Аха and мхм mark listening, точно така agrees; a fast да, да, да can sound like you've stopped listening.",
+    "examples": [
+      {
+        "text": "Да, така е.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Аха, разбирам.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Мхм, да.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Точно така.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Добро.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Да, да, да.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Macedonian uses Навистина? for surprise, Жал ми е or Штета for bad news, Браво for good news.",
+    "examples": [
+      {
+        "text": "Навистина?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Ау, не може!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Жал ми е.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Штета.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Браво!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Честитам!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Тоа е тешко.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Не ве слушам добро (Вие form) or лоша врска; ask them to speak louder with ве молам.",
+    "examples": [
+      {
+        "text": "Не ве слушам добро.",
+        "style": "polite"
+      },
+      {
+        "text": "Лоша врска.",
+        "style": "casual"
+      },
+      {
+        "text": "Ви се губи гласот.",
+        "style": "polite"
+      },
+      {
+        "text": "Зборувајте малку погласно, ве молам.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Молам? with rising tone is the short polite ask; spell surnames буква по буква.",
+    "examples": [
+      {
+        "text": "Може ли да повторите?",
+        "style": "polite"
+      },
+      {
+        "text": "Молам?",
+        "style": "polite"
+      },
+      {
+        "text": "Кажете го презимето буква по буква.",
+        "style": "polite"
+      },
+      {
+        "text": "Бројот уште еднаш, 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Кој е? is for people you know; with strangers ask Со кого зборувам? or where they call from.",
+    "examples": [
+      {
+        "text": "Кој е?",
+        "style": "casual"
+      },
+      {
+        "text": "Со кого зборувам?",
+        "style": "polite"
+      },
+      {
+        "text": "Од каде се јавувате?",
+        "style": "polite"
+      },
+      {
+        "text": "Ова е телефонот на {owner}. Кој се јавува?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Погрешен број covers it; an Извинете softens it and nothing about the household needs saying.",
+    "examples": [
+      {
+        "text": "Погрешен број.",
+        "style": "casual"
+      },
+      {
+        "text": "Извинете, имате погрешен број.",
+        "style": "polite"
+      },
+      {
+        "text": "Тука нема никој со тоа име.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ќе пренесам is the standard offer; the clitic shows gender (му for him, ѝ for her).",
+    "examples": [
+      {
+        "text": "Ќе му пренесам.",
+        "style": "polite"
+      },
+      {
+        "text": "Ќе ѝ кажам.",
+        "style": "casual"
+      },
+      {
+        "text": "Ќе му пренесам на {owner}.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Не, благодарам is neutral; фала is colloquial; не ме интересира states disinterest clearly.",
+    "examples": [
+      {
+        "text": "Не, благодарам.",
+        "style": "polite"
+      },
+      {
+        "text": "Мене не ме интересира.",
+        "style": "polite"
+      },
+      {
+        "text": "Не ни треба, фала.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Repeat that you said no and ask them not to call (не јавувајте се), keeping the Вие form.",
+    "examples": [
+      {
+        "text": "Веќе реков не. Ве молам, не јавувајте се повеќе.",
+        "style": "polite"
+      },
+      {
+        "text": "Избришете го овој број од вашата листа.",
+        "style": "polite"
+      },
+      {
+        "text": "Не и готово.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Вие plus господине/госпоѓо (vocative) for strangers; чичко/тетка for elders informally; ти with friends.",
+    "examples": [
+      {
+        "text": "Господине,",
+        "style": "polite"
+      },
+      {
+        "text": "Госпоѓо,",
+        "style": "polite"
+      },
+      {
+        "text": "Докторе,",
+        "style": "polite"
+      },
+      {
+        "text": "Чичко,",
+        "style": "casual"
+      },
+      {
+        "text": "Тетка,",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like these come from operator support desks; at a private Macedonian number they sound recorded.",
+    "examples": [
+      {
+        "text": "Вашиот повик ни е важен.",
+        "style": "polite"
+      },
+      {
+        "text": "Како можам да ви помогнам?",
+        "style": "polite"
+      },
+      {
+        "text": "Ви благодариме што се јавивте.",
+        "style": "polite"
+      },
+      {
+        "text": "Ви посакуваме пријатен ден.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid ти with older strangers, early pay or family questions, and demanding an ЕМБГ (personal ID number).",
+    "examples": [
+      {
+        "text": "Колку земаш плата?",
+        "style": "casual"
+      },
+      {
+        "text": "Ти, кој си ти?",
+        "style": "casual"
+      },
+      {
+        "text": "Кажи ми го ЕМБГ-то.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Macedonian_phrasebook",
+    "https://en.wiktionary.org/wiki/%D0%B3%D0%BE%D1%81%D0%BF%D0%BE%D0%B4%D0%B8%D0%BD",
+    "https://en.wiktionary.org/wiki/%D0%B4%D0%BE%D0%B1%D1%80%D0%BE",
+    "https://en.wikipedia.org/wiki/Macedonian_grammar",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "馬其頓語電話附和聲沒有找到語料；與塞爾維亞語、保加利亞語相近，但本檔只用馬其頓語拼寫，未逐詞核對地區差異。",
+    "「чичко／тетка」稱呼陌生長者的親切用法依稱謂習慣說明，是否在都市被視為過於親暱未確認。",
+    "ЕМБГ 為個人身分號碼，電話中被要求提供會令人不安；未找到官方對電話索取的明文規定。"
+  ]
+}

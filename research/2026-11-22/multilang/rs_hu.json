@@ -1,0 +1,87 @@
+{
+  "region": "rs",
+  "lang": "hu",
+  "hello": {
+    "hello": "Halló!",
+    "hello_again": "Igen, tessék?"
+  },
+  "habits": {
+    "en": "Vojvodina Hungarian keeps te with friends, Ön with strangers, and Serbian admin words: lična karta, PIB, opština, dinar.",
+    "zh": "伏伊伏丁那對熟友用 te、對生人用 Ön，常夾 lična karta、PIB、dinar。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Szabadka friend: te, neighbourly; a Serbian street or lična karta can sit inside the Hungarian sentence.",
+        "zh": "蘇博蒂察熟友用 te，像街坊；塞爾維亞街名或 lična karta 可直接出現在匈牙利語句中。"
+      },
+      "2": {
+        "en": "Easygoing: te unless they önöznek; after they speak, a short rendben, bilingual place names are fine.",
+        "zh": "隨和：除非對方用 Ön，否則用 te；聽完短短說 rendben，雙語地名無妨。"
+      },
+      "3": {
+        "en": "Everyday Vojvodina Hungarian. Finish the point fully; ID is lična karta, tax number often PIB, money is dinar.",
+        "zh": "伏伊伏丁那日常匈牙利語。把重點說完整；證件說 lična karta，稅號常是 PIB，貨幣是 dinar。"
+      },
+      "4": {
+        "en": "Polite Ön at the opština. Keep Serbian official names, sentences fuller, less slang from Hungary proper.",
+        "zh": "在市府（opština）用禮貌 Ön。塞爾維亞官方名稱照留，句子較完整，少用匈牙利本國俚語。"
+      },
+      "5": {
+        "en": "Formal Ön, structured. Quote dinar and PIB exactly, close each item, no forint assumptions.",
+        "zh": "正式 Ön，有條理。dinar 與 PIB 要說準，各項收住，不要按福林的習慣套。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on te: a quick szia, then you'll pass the message, like a cousin in Szabadka.",
+        "zh": "{owner}隨興代接，用 te：先短短 szia，再把話帶去，像蘇博蒂察表親。"
+      },
+      "2": {
+        "en": "Kind stand-in: match te or Ön, leave opština or dinar as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 te 或 Ön，opština、dinar 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the lična karta or PIB point in one full Hungarian sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句匈牙利語重述證件或稅號的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on Ön: note the purpose, keep Serbian official names, confirm the handover.",
+        "zh": "沉穩秘書用 Ön：記下目的，塞爾維亞官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Ön: exact about dinar and PIB, bilingual names as given, then confirm the note for {owner}.",
+        "zh": "正式代表用 Ön，把 dinar、PIB 說準，雙語名稱跟對方，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halló! Szia, mi újság Szabadkán?",
+      "Igen, tessék, hallgatlak.",
+      "Halló, jó napot! Lična karta ügy? Értem.",
+      "Jó napot, köszönöm a hívást. A dinár ügye világos.",
+      "Jó napot kívánok. A PIB tételt felírtam."
+    ],
+    "a": [
+      "Halló! Nincs itt, mondd nekem, átadom.",
+      "Igen, tessék. Én vagyok a vonalán, diktáld.",
+      "Halló, jó napot! {owner}nak átadom.",
+      "Jó napot, köszönöm a hívást. Az üzenetet továbbítom.",
+      "Jó napot kívánok. Mindent felírok és átadom."
+    ]
+  },
+  "diff_from_home": [
+    "證件、稅號與市府常直接用塞爾維亞語（lična karta、PIB、opština），不要套用匈牙利本國機構名。",
+    "貨幣是 dinar，不是福林，也不是歐元。",
+    "地名常匈、塞並用（Szabadka／Subotica），視場合選用。",
+    "匈牙利語在伏伊伏丁那部分市鎮有官方地位，電話中常雙語切換。"
+  ],
+  "sources": [
+    "https://puma.vojvodina.gov.rs/etext.php?ID_mat=207",
+    "https://folyoirat.ludovika.hu/index.php/actahumana/article/view/963"
+  ],
+  "uncertain": [
+    "各市鎮匈牙利語官方使用範圍不同，電話中夾塞爾維亞語的密度缺少新的定量調查。"
+  ]
+}

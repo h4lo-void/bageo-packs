@@ -1,0 +1,484 @@
+{
+  "region": "tw",
+  "vocab": {
+    "cmn": {
+      "bank": [
+        {
+          "term": "網銀",
+          "en": "online banking (網銀), Taiwan wording"
+        },
+        {
+          "term": "臨櫃",
+          "en": "over the counter at a branch (臨櫃)"
+        },
+        {
+          "term": "存摺",
+          "en": "passbook (存摺)"
+        },
+        {
+          "term": "轉帳",
+          "en": "bank transfer (轉帳), Taiwan wording"
+        },
+        {
+          "term": "金融卡",
+          "en": "ATM/debit card (金融卡)"
+        },
+        {
+          "term": "約定帳號",
+          "en": "pre-registered transfer account (約定帳號)"
+        },
+        {
+          "term": "晶片金融卡",
+          "en": "chip ATM card (晶片金融卡)"
+        },
+        {
+          "term": "帳戶餘額",
+          "en": "account balance (帳戶餘額)"
+        },
+        {
+          "term": "自動扣繳",
+          "en": "auto debit for bills (自動扣繳)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "管理室",
+          "en": "building management office, parcel drop-off (管理室)"
+        },
+        {
+          "term": "警衛室",
+          "en": "guard room (警衛室)"
+        },
+        {
+          "term": "超商取貨",
+          "en": "pickup at a convenience store (超商取貨)"
+        },
+        {
+          "term": "店到店",
+          "en": "convenience-store to convenience-store shipping (店到店)"
+        },
+        {
+          "term": "貨到付款",
+          "en": "cash on delivery (貨到付款)"
+        },
+        {
+          "term": "包裹",
+          "en": "parcel (包裹)"
+        },
+        {
+          "term": "宅配",
+          "en": "home delivery (宅配)"
+        },
+        {
+          "term": "取件門市",
+          "en": "designated convenience-store pickup branch (取件門市)"
+        }
+      ],
+      "government": [
+        {
+          "term": "身分證",
+          "en": "national ID card (身分證)"
+        },
+        {
+          "term": "健保卡",
+          "en": "National Health Insurance card (健保卡)"
+        },
+        {
+          "term": "戶政事務所",
+          "en": "household registration office (戶政事務所)"
+        },
+        {
+          "term": "區公所",
+          "en": "district office (區公所)"
+        },
+        {
+          "term": "居留證",
+          "en": "residence permit (ARC) (居留證)"
+        },
+        {
+          "term": "自然人憑證",
+          "en": "citizen digital certificate (自然人憑證)"
+        },
+        {
+          "term": "戶籍謄本",
+          "en": "household registration transcript (戶籍謄本)"
+        },
+        {
+          "term": "我的E政府",
+          "en": "My e-Government portal (我的E政府)"
+        }
+      ],
+      "health": [
+        {
+          "term": "健保",
+          "en": "National Health Insurance (健保)"
+        },
+        {
+          "term": "掛號",
+          "en": "register for a clinic/hospital visit (掛號)"
+        },
+        {
+          "term": "看診",
+          "en": "see the doctor (看診)"
+        },
+        {
+          "term": "健保藥局",
+          "en": "NHI-contracted pharmacy (健保藥局)"
+        },
+        {
+          "term": "領藥",
+          "en": "pick up prescribed medicine (領藥)"
+        },
+        {
+          "term": "診所",
+          "en": "clinic (診所), Taiwan wording"
+        },
+        {
+          "term": "急診",
+          "en": "emergency room (急診)"
+        },
+        {
+          "term": "健保費",
+          "en": "NHI premium (健保費)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "門號",
+          "en": "mobile number (門號)"
+        },
+        {
+          "term": "攜碼",
+          "en": "mobile number portability (攜碼)"
+        },
+        {
+          "term": "預付卡",
+          "en": "prepaid SIM (預付卡)"
+        },
+        {
+          "term": "吃到飽",
+          "en": "unlimited data plan (吃到飽)"
+        },
+        {
+          "term": "中華電信",
+          "en": "Chunghwa Telecom (中華電信)"
+        },
+        {
+          "term": "台灣大哥大",
+          "en": "Taiwan Mobile (台灣大哥大)"
+        },
+        {
+          "term": "遠傳",
+          "en": "Far EasTone (遠傳)"
+        },
+        {
+          "term": "網內互打",
+          "en": "on-net calls (網內互打)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "LINE Pay",
+          "en": "LINE Pay wallet, widely used in Taiwan"
+        },
+        {
+          "term": "街口支付",
+          "en": "JKO Pay (街口支付)"
+        },
+        {
+          "term": "台灣Pay",
+          "en": "Taiwan Pay, bank-backed QR payments (台灣Pay)"
+        },
+        {
+          "term": "悠遊付",
+          "en": "EasyCard mobile wallet (悠遊付)"
+        },
+        {
+          "term": "悠遊卡",
+          "en": "EasyCard stored-value card (悠遊卡)"
+        },
+        {
+          "term": "一卡通",
+          "en": "iPASS stored-value card (一卡通)"
+        },
+        {
+          "term": "電子發票載具",
+          "en": "e-invoice carrier / barcode (電子發票載具)"
+        },
+        {
+          "term": "貨到付款",
+          "en": "cash on delivery (貨到付款)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "捷運",
+          "en": "metro / MRT (捷運)"
+        },
+        {
+          "term": "公車",
+          "en": "city bus (公車)"
+        },
+        {
+          "term": "高鐵",
+          "en": "High Speed Rail (THSR) (高鐵)"
+        },
+        {
+          "term": "台鐵",
+          "en": "Taiwan Railway (台鐵)"
+        },
+        {
+          "term": "YouBike",
+          "en": "public bike share (YouBike)"
+        },
+        {
+          "term": "計程車",
+          "en": "taxi (計程車)"
+        },
+        {
+          "term": "TPASS",
+          "en": "national monthly transit pass (TPASS)"
+        },
+        {
+          "term": "加值",
+          "en": "top up a transit card (加值)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "管理室",
+          "en": "management office (管理室)"
+        },
+        {
+          "term": "管委會",
+          "en": "condominium management committee (管委會)"
+        },
+        {
+          "term": "門禁卡",
+          "en": "access card / fob (門禁卡)"
+        },
+        {
+          "term": "信箱",
+          "en": "mailbox (信箱), Taiwan wording"
+        },
+        {
+          "term": "社區",
+          "en": "residential community (not 小區) (社區)"
+        },
+        {
+          "term": "大樓",
+          "en": "apartment building (大樓)"
+        },
+        {
+          "term": "管理員",
+          "en": "building clerk / manager (管理員)"
+        },
+        {
+          "term": "對講機",
+          "en": "door intercom (對講機)"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習班",
+          "en": "cram school (補習班)"
+        },
+        {
+          "term": "安親班",
+          "en": "after-school care (安親班)"
+        },
+        {
+          "term": "國小",
+          "en": "elementary school (國小)"
+        },
+        {
+          "term": "國中",
+          "en": "junior high school (國中)"
+        },
+        {
+          "term": "導師",
+          "en": "homeroom teacher (導師)"
+        },
+        {
+          "term": "聯絡簿",
+          "en": "home-school communication booklet (聯絡簿)"
+        },
+        {
+          "term": "放學",
+          "en": "school lets out (放學)"
+        },
+        {
+          "term": "社團",
+          "en": "school club (社團)"
+        }
+      ],
+      "money": [
+        {
+          "term": "塊",
+          "en": "colloquial for TWD, e.g. 五百塊"
+        },
+        {
+          "term": "元",
+          "en": "yuan / dollar unit of TWD (元)"
+        },
+        {
+          "term": "萬",
+          "en": "ten thousand, common large-amount unit (萬)"
+        },
+        {
+          "term": "新台幣",
+          "en": "New Taiwan Dollar (新台幣)"
+        },
+        {
+          "term": "匯款",
+          "en": "remittance / transfer (匯款)"
+        },
+        {
+          "term": "紅包",
+          "en": "red envelope gift money (紅包)"
+        },
+        {
+          "term": "零用金",
+          "en": "pocket money / petty cash (零用金)"
+        },
+        {
+          "term": "找錢",
+          "en": "give change (找錢), Taiwan wording"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "禮拜一",
+          "en": "colloquial Monday (禮拜一); 星期一 is also used"
+        },
+        {
+          "term": "今天下午",
+          "en": "this afternoon (今天下午)"
+        },
+        {
+          "term": "早上",
+          "en": "morning (早上)"
+        },
+        {
+          "term": "晚上",
+          "en": "evening / night (晚上)"
+        },
+        {
+          "term": "連假",
+          "en": "long weekend / consecutive holidays (連假)"
+        },
+        {
+          "term": "過年",
+          "en": "Lunar New Year period (過年)"
+        },
+        {
+          "term": "這週",
+          "en": "this week (這週), Taiwan wording"
+        },
+        {
+          "term": "下班以後",
+          "en": "after getting off work (下班以後)"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "go to work / be on shift (上班), Taiwan wording"
+        },
+        {
+          "term": "下班",
+          "en": "get off work (下班), Taiwan wording"
+        },
+        {
+          "term": "打卡",
+          "en": "clock in / out (打卡), Taiwan wording"
+        },
+        {
+          "term": "加班",
+          "en": "overtime (加班), Taiwan wording"
+        },
+        {
+          "term": "請假",
+          "en": "request leave (請假), Taiwan wording"
+        },
+        {
+          "term": "出差",
+          "en": "business trip (出差), Taiwan wording"
+        },
+        {
+          "term": "主管",
+          "en": "supervisor / manager (主管)"
+        },
+        {
+          "term": "公司",
+          "en": "company (公司), Taiwan wording"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "小區",
+      "use_instead": "社區",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "快遞小哥",
+      "use_instead": "快遞員、外送員",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "支付寶",
+      "use_instead": "LINE Pay、街口支付、台灣Pay",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "微信",
+      "use_instead": "LINE",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "地鐵",
+      "use_instead": "捷運",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "公交",
+      "use_instead": "公車",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "身份證",
+      "use_instead": "身分證",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "物業",
+      "use_instead": "管理室、管委會",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "單位",
+      "use_instead": "公司、機構（口語較少用單位稱公司）",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "打的",
+      "use_instead": "搭計程車、叫車",
+      "where_it_is_from": "CN"
+    }
+  ],
+  "sources": [
+    "https://goldcard.nat.gov.tw/zh/guidemenu/guide-to-taiwan/",
+    "https://goldcard.nat.gov.tw/zh/guide-to-taiwan/health-care/",
+    "https://www.easycard.com.tw/easycards",
+    "https://cloudicweb.nhi.gov.tw/nhiapp/paybill/WebPayment.aspx",
+    "https://www.nhi.gov.tw/",
+    "https://www.post.gov.tw/",
+    "https://rules.momo.com.tw/standard/00012/"
+  ],
+  "uncertain": [
+    "「全支付」是否已和街口、台灣Pay一樣常在電話裡被提到，各地習慣可能不同。",
+    "TPASS 2.0 口語有人只說「月票」或「定期票」，各地交通局說法不完全一致。"
+  ]
+}

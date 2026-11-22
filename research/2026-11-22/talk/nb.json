@@ -1,0 +1,332 @@
+{
+  "lang": "nb",
+  "backchannels": {
+    "direction": "ja, ok and Akkurat keep a Bokmål line moving; Jeg skjønner marks following. Stacked ja, ja can sound impatient.",
+    "examples": [
+      {
+        "text": "Ja da.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, greit.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ok.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Akkurat.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Jeg skjønner.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ja ja, greit.",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "Selvfølgelig.",
+        "style": "polite",
+        "function": "agreement"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Er det sant? and Seriøst? take surprise; Så leit å høre and Det var synd are everyday sympathetic murmurs.",
+    "examples": [
+      {
+        "text": "Er det sant?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Seriøst?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Så leit å høre.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Det var synd å høre.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Så hyggelig!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratulerer.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Det blir vanskelig.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Jeg hører deg dårlig and Det er dårlig dekning are ordinary mobile complaints; the missed slutten is named directly.",
+    "examples": [
+      {
+        "text": "Jeg hører deg dårlig.",
+        "style": "casual"
+      },
+      {
+        "text": "Jeg hører deg ikke så godt.",
+        "style": "casual"
+      },
+      {
+        "text": "Det er dårlig dekning her.",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du snakke litt høyere?",
+        "style": "casual"
+      },
+      {
+        "text": "Jeg fikk ikke med meg slutten.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Kan du si det en gang til is the everyday replay; stave covers a name, and a number is asked once more, usually with du.",
+    "examples": [
+      {
+        "text": "Kan du si det en gang til?",
+        "style": "casual"
+      },
+      {
+        "text": "Unnskyld, kan du gjenta det?",
+        "style": "polite"
+      },
+      {
+        "text": "Kan du stave navnet?",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du si nummeret en gang til? 12345678?",
+        "style": "casual"
+      },
+      {
+        "text": "Hva sa du nå?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Hvem er det som ringer and Hvem snakker jeg med are everyday probes; du is normal. Name the handset if it is {owner}'s.",
+    "examples": [
+      {
+        "text": "Hvem er det som ringer?",
+        "style": "casual"
+      },
+      {
+        "text": "Hvem snakker jeg med?",
+        "style": "casual"
+      },
+      {
+        "text": "Dette er {owner}s telefon. Hvem er det?",
+        "style": "polite"
+      },
+      {
+        "text": "Hvem er det?",
+        "style": "casual"
+      },
+      {
+        "text": "Får jeg spørre hva du heter?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Du har fått feil nummer or Feil nummer closes it; Det bor ingen her med det navnet covers a name that does not match.",
+    "examples": [
+      {
+        "text": "Beklager, du har fått feil nummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Feil nummer.",
+        "style": "casual"
+      },
+      {
+        "text": "Det bor ingen her med det navnet.",
+        "style": "polite"
+      },
+      {
+        "text": "Jeg tror du har slått feil.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Jeg gir beskjed til {owner} and Jeg sier ifra are the ordinary Bokmål promises; they do not set a return-call hour.",
+    "examples": [
+      {
+        "text": "Jeg skal hilse.",
+        "style": "casual"
+      },
+      {
+        "text": "Jeg gir beskjed til {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Jeg sier ifra.",
+        "style": "casual"
+      },
+      {
+        "text": "Jeg gir beskjed.",
+        "style": "polite"
+      },
+      {
+        "text": "Jeg sier det til henne.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nei takk, jeg er ikke interessert is the stock close; Vi trenger det ikke is a household variant, still brief.",
+    "examples": [
+      {
+        "text": "Nei takk, jeg er ikke interessert.",
+        "style": "polite"
+      },
+      {
+        "text": "Vi trenger det ikke, takk.",
+        "style": "polite"
+      },
+      {
+        "text": "Ikke interessert, takk.",
+        "style": "casual"
+      },
+      {
+        "text": "Nei, det er ikke noe for oss.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "In Bokmål, a repeated no often comes with Ring ikke dette nummeret igjen, or a request to leave the liste, with du.",
+    "examples": [
+      {
+        "text": "Jeg har allerede sagt nei. Ring ikke dette nummeret igjen.",
+        "style": "polite"
+      },
+      {
+        "text": "Fjern dette nummeret fra listen deres, takk.",
+        "style": "polite"
+      },
+      {
+        "text": "Ikke ring igjen.",
+        "style": "casual"
+      },
+      {
+        "text": "Dette er et endelig nei. Ikke kontakt oss mer.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "du plus a first name is the modern default; De is archaic. herr and fru appear mainly in official calls.",
+    "examples": [
+      {
+        "text": "Hei, Kari.",
+        "style": "casual"
+      },
+      {
+        "text": "Herr Hansen.",
+        "style": "polite"
+      },
+      {
+        "text": "Fru Berge.",
+        "style": "polite"
+      },
+      {
+        "text": "Doktor Nilsen.",
+        "style": "polite"
+      },
+      {
+        "text": "Hei, dette er {owner}s telefon.",
+        "style": "polite"
+      },
+      {
+        "text": "Du, unnskyld…",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Samtalen din er viktig for oss and Hvordan kan jeg hjelpe deg i dag belong in a kundesenter, not a private mobil.",
+    "examples": [
+      {
+        "text": "Samtalen din er viktig for oss.",
+        "style": "polite"
+      },
+      {
+        "text": "Hvordan kan jeg hjelpe deg i dag?",
+        "style": "polite"
+      },
+      {
+        "text": "Takk for at du ringer, vi er her for å hjelpe.",
+        "style": "polite"
+      },
+      {
+        "text": "Din tilfredshet er vår høyeste prioritet.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan jeg hjelpe deg med noe mer?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using archaic De with an ordinary caller, a late ring, or asking for a fødselsnummer at the start all feel out of place.",
+    "examples": [
+      {
+        "text": "Er du gift? Hva tjener du?",
+        "style": "casual"
+      },
+      {
+        "text": "Hvem er du? Si det nå.",
+        "style": "casual"
+      },
+      {
+        "text": "Gi meg først adressen og fødselsnummeret ditt.",
+        "style": "polite"
+      },
+      {
+        "text": "Jeg tar allerede opp denne samtalen.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://ordbokene.no/",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "Bokmål 的 De／Dem 已屬古舊；口語幾乎只用 du。本檔以 Bokmål 為準，新挪威語見 nn。",
+    "未找到挪威語私人電話相槌頻率表；ja／ok／mhm 依會話習慣與詞典。",
+    "旅行手冊常把 Bokmål 與 Nynorsk 混在同一頁，本檔有意分開。"
+  ]
+}

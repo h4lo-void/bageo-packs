@@ -1,0 +1,659 @@
+{
+  "region": "pg-fj-sb-vu",
+  "countries": [
+    "pg",
+    "fj",
+    "sb",
+    "vu"
+  ],
+  "region_name_zh": "美拉尼西亞（巴布亞紐幾內亞、斐濟、索羅門群島、萬那杜）",
+  "region_name": "Melanesia (Papua New Guinea, Fiji, Solomon Islands, Vanuatu)",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "English is official in all four and is what offices, hotels and shops answer in; Tok Pisin, Fijian, Pijin and Bislama are not on Bageo's list; some Vanuatu businesses prefer French (fr).",
+  "english_ok": "mostly — Business English is normal in Port Moresby, Suva, Honiara and Port Vila; village stores and markets may answer in Tok Pisin, Pijin, Bislama or Fijian.",
+  "politeness": "Relaxed and friendly but respectful; greet first (bula in Fiji), ask after the person, then the request; never rush or sound bossy.",
+  "name_tip": "People commonly give a first name only; Fijian, Indo-Fijian and Melanesian names are unfamiliar to many systems, so spell each one as-in.",
+  "phone_tip": "PNG mobiles have 8 digits starting 7; Fiji numbers have 7 digits (mobiles often 7, 8 or 9 first); Solomon and Vanuatu mobiles have 7 digits; no trunk zero in any of them.",
+  "time_tip": "12-hour in speech with am/pm; 'Fiji time' and island time mean starts drift, so confirm the hour and whether it is firm.",
+  "number_tip": "Currencies differ: kina (PNG), Fiji dollar, Solomon dollar, vatu (Vanuatu); say the currency name with every price.",
+  "avoid_calling": "Avoid Sunday (church and family day; many shops shut), lunch hour and after 18:00; Christmas to New Year many small businesses close.",
+  "closed_days": "Offices close Saturday and Sunday; many shops close Sunday or open short hours; national days differ by country.",
+  "booking_channels": "Facebook pages and Messenger are the main booking line, with WhatsApp in Fiji and Viber in places; mobile money such as M-PAiSA (Fiji) and CellMoni (PNG) is common; taxis are booked by phone.",
+  "voice_menu": "Digicel, Vodafone Fiji and banks run English IVR; small businesses answer directly.",
+  "callback_habits": "Businesses reply on Messenger, sometimes the next day; guesthouses call back from a personal mobile; resorts confirm by email.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "潛水、出海與村落參訪多經業者或旅行社預約，受天氣影響。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Trip depends on weather and sea"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Transfer to a private account to confirm"
+        }
+      ],
+      "usually_asked": [
+        "Dive, island trip or village tour",
+        "Number going",
+        "Pickup point",
+        "Lead name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美容多電話或 Messenger 預約，度假村水療由前台安排。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Resort spa books only through reception"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks mobile-money transfer to a stranger"
+        }
+      ],
+      "usually_asked": [
+        "Treatment",
+        "Which stylist",
+        "Day and time",
+        "Phone or Messenger"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多電話或 Messenger 即可，度假村與船班依其條款。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transfer change follows resort rules"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport number to look it up"
+        }
+      ],
+      "usually_asked": [
+        "Name it was booked under",
+        "Old day and time",
+        "New day",
+        "Change in numbers"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫院多現場掛號、排隊久；私人診所可電話預約，重症常轉往澳洲或紐西蘭。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Private clinic charges a consultation fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist visiting only some weeks"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport or national ID number"
+        }
+      ],
+      "usually_asked": [
+        "Patient first and last name",
+        "Health problem",
+        "New or return patient",
+        "How they will pay"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服以英語語音選單為主，帳戶事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Account owner must call"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Mobile money PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Option number",
+        "Owner of the account",
+        "SIM linked",
+        "Problem details"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府手續多須本人到場；學校可電話洽詢，週末不辦公。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Must be done in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Birth certificate or ID number"
+        }
+      ],
+      "usually_asked": [
+        "Which department or school",
+        "Year level",
+        "Province or division",
+        "Parent mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與冷氣多靠推薦打電話；地址常以地段（lot）號與地標描述。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Travel charge to outer areas"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pay before the job starts"
+        }
+      ],
+      "usually_asked": [
+        "What needs fixing",
+        "Lot number, suburb and landmark",
+        "When",
+        "Contact"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "度假村多經官網或平台，城市飯店與民宿可電話或 Messenger；入住出示護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Airport transfer by boat or car extra"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Security guard at night"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card details by chat"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and leaving",
+        "People staying",
+        "Room or bure type",
+        "Passport name"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問週日是否營業、能否刷 EFTPOS 或用行動錢包，店家多直接答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "EFTPOS and cash both fine"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Sunday hours shortened"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Sunday opening",
+        "EFTPOS, mobile money or cash",
+        "Car park",
+        "Stock on hand"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫選擇很少，多在首都，可電話詢問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Only one vet in town"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay for minding in full"
+        }
+      ],
+      "usually_asked": [
+        "Reason",
+        "Animal and size",
+        "Day",
+        "Owner contact"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Facebook 與仲介，莫士比港多要求保全完善的住宅。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bond and rent in advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Fee before seeing the place"
+        }
+      ],
+      "usually_asked": [
+        "Listing or suburb",
+        "Move date",
+        "Occupants",
+        "Inspection time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車多直接到廠；零件多從澳洲或紐西蘭運來，等待時間長。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Part shipped from Australia"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Garage asks the rego number"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Wants full cash before checking"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle and rego",
+        "Trouble description",
+        "Drop-off day",
+        "Name plus Digicel or Vodafone number"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "蘇瓦、莫士比港與維拉港餐廳多電話或 Facebook Messenger 訂位；週日許多店不開。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed Sunday, open Monday lunch"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Group lovo or buffet needs advance payment"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card number asked over Messenger"
+        }
+      ],
+      "usually_asked": [
+        "Which night and hour",
+        "How many in the party",
+        "Inside or deck",
+        "Contact name and mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與宴會食物多以 Messenger 傳圖預訂並先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Half paid when ordering"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full amount to an unknown account"
+        }
+      ],
+      "usually_asked": [
+        "Cake style and size",
+        "Writing on top",
+        "Collection day",
+        "Orderer name"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶多打電話點後自取，蘇瓦與莫士比港有少數外送 App。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No delivery outside town"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Mobile money accepted at pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance transfer for a small order"
+        }
+      ],
+      "usually_asked": [
+        "Meals and number of packs",
+        "Pickup time",
+        "Suburb for delivery",
+        "Mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政與快遞可電話詢問；外島包裹靠船運，常需到郵局領。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parcel at the post office for collection"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Collection PIN"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number from sender",
+        "Addressee",
+        "Island or town",
+        "Parcel type"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多打電話叫車行，莫士比港出行多預約司機；外島靠船班與小飛機。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Call the taxi company, no ride app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Charter boat price"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Licence and passport for rental"
+        }
+      ],
+      "usually_asked": [
+        "Pickup and time",
+        "Where to",
+        "How many and bags",
+        "Passenger"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "doc appt",
+        "dentist booking",
+        "hair do",
+        "car service booked"
+      ],
+      "booking_words": [
+        "table for tonight",
+        "room booked",
+        "resort transfer booked"
+      ],
+      "change_words": [
+        "move to Monday",
+        "pls cancel",
+        "new time"
+      ],
+      "date": [
+        "tmw",
+        "Mon",
+        "25/11"
+      ],
+      "false_friends": [
+        "lot 12",
+        "flat 3",
+        "near the market"
+      ],
+      "inquiry_words": [
+        "open Sunday?",
+        "M-PAiSA ok?",
+        "eftpos?"
+      ],
+      "name": [
+        "Seru",
+        "Mere",
+        "for the company"
+      ],
+      "order_words": [
+        "takeaway",
+        "deliver to house",
+        "pick up myself"
+      ],
+      "party": [
+        "4 of us",
+        "2 adults + 1 kid"
+      ],
+      "phone": [
+        "7123 4567",
+        "Messenger same name"
+      ],
+      "time": [
+        "7pm",
+        "10am",
+        "after lunch"
+      ]
+    }
+  }
+}

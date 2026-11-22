@@ -1,0 +1,812 @@
+{
+  "region": "in",
+  "countries": [
+    "in"
+  ],
+  "region_name_zh": "印度",
+  "region_name": "India",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "hi",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Indian English works for most city businesses; switch to Hindi (hi) in the north and with small shops if staff prefer, or the state language (Tamil, Telugu, Kannada, Marathi, Bengali) in the south/east; Hinglish code-mixing is normal.",
+  "english_ok": "yes — Widely used at hotels, private hospitals, chains and offices in cities; limited at small shops, mechanics and in smaller towns where Hindi or the state language is preferred.",
+  "politeness": "Polite and friendly: greet with namaste or hello, use 'ji' and 'sir/madam'; requests are softened with 'please' and 'kindly'; thank with thank you or dhanyavaad.",
+  "name_tip": "Name order and surnames vary by region (some South Indians use an initial instead of a surname); use Mr/Ms or 'ji' after the name; book under the name the person gives + mobile.",
+  "phone_tip": "Mobile 10 digits starting 6–9 (98XXX 12345 style, read 5-5); landlines carry an STD code (Delhi 011-1234-5678); WhatsApp usually uses the same mobile.",
+  "time_tip": "12-hour with AM/PM dominates ('7:30 PM'); Hindi 'saadhe saat' = 7:30, 'paune aath' = 7:45, 'sawa saat' = 7:15; dates are day/month (25/11); 'IST' sometimes added.",
+  "number_tip": "Large amounts use lakh (1,00,000) and crore; digits are read singly or in pairs ('double 9'); prices in rupees (Rs/₹).",
+  "avoid_calling": "Avoid lunch 13:00–14:00, restaurant peaks 13:00–14:30 and 20:00–22:00 (dinner runs late), calls before 10:00 to shops, and major festival days (Diwali, Holi, Eid, Durga Puja, Pongal) that vary by state.",
+  "closed_days": "Offices close Sunday (many also Saturday); markets in big cities have a weekly closed day that differs by market; many doctors do not see patients Sunday; state and religious holidays vary widely.",
+  "booking_channels": "WhatsApp is the default for small businesses; District (Zomato) and Swiggy Dineout for tables; Practo and hospital apps for doctors; Swiggy/Zomato for delivery; Uber/Ola/Rapido for rides; Urban Company for home services.",
+  "voice_menu": "Telcos (Jio, Airtel, Vi), banks, electricity boards and hospital call centres use IVR with English/Hindi/state-language options; small shops answer directly.",
+  "callback_habits": "Businesses confirm by WhatsApp or SMS; platforms send SMS/app confirmations; clinics often call or WhatsApp the day before; delivery agents call on arrival.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "景點、遊樂園與活動多線上購票（District、BookMyShow）；小型導覽、健行與運動場可 WhatsApp 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tickets are sold on District or BookMyShow"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Trek price includes transport from the city or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID proof for permits or forest entry"
+        }
+      ],
+      "usually_asked": [
+        "Activity, show or turf slot",
+        "Date and time",
+        "Number of people",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美容院與 spa 多電話或 WhatsApp 預約，婚禮季新娘妝要很早訂；居家美容常走 Urban Company。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Home salon services are booked through Urban Company"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Bridal makeup needs an advance and a trial date"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment by UPI to a stylist's personal number"
+        }
+      ],
+      "usually_asked": [
+        "Service: haircut, facial, waxing, threading, bridal",
+        "Preferred beautician",
+        "Date and time",
+        "Name and WhatsApp"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消在原本的 WhatsApp 或電話處理；平台訂位與 Practo 預約可在 App 內改。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Practo appointment can be rescheduled in the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Advance for a banquet booking may be adjusted, not refunded"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks booking ID and OTP sent to the mobile"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile used",
+        "Original date and slot",
+        "Prepone, postpone or cancel",
+        "Booking ID from the app"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立醫院與診所多電話、Practo 或醫院 App 預約，醫師有固定門診時段並常發號碼（token）；先問掛號費，週日多休診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Practo shows the doctor's slots and consultation fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor gives tokens in order of arrival on the day"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Aadhaar or ABHA health ID number"
+        }
+      ],
+      "usually_asked": [
+        "Which doctor or department and OPD timing",
+        "New patient or follow-up",
+        "Patient name, age and gender",
+        "Consultation fee and cashless insurance (TPA)",
+        "Mobile for SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Jio、Airtel、Vi）、銀行與電力局客服有英語／印地語／邦語語音選單，帳戶事項須本人驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank says account details only to the account holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Aadhaar, PAN, account number or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR language choice",
+        "Registered mobile number",
+        "Account or consumer number",
+        "Complaint"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多走各邦或中央政府網站預約再到場（如護照 Passport Seva）；學校入學詢問多電話或到校，週日不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport appointments are booked online at Passport Seva"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Aadhaar or birth certificate number of the child"
+        }
+      ],
+      "usually_asked": [
+        "Which office or service",
+        "Applicant or child's age and class",
+        "City or district",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣與清潔多走 Urban Company 或電話叫；社區（society）門禁會要訪客或師傅登記，有的用 App 預先核准。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Urban Company shows a fixed price before booking"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Society gate requires visitor approval for the technician"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks UPI before the visit for a small repair"
+        }
+      ],
+      "usually_asked": [
+        "Service: AC service, RO water purifier, plumber, electrician",
+        "Flat number, tower, society name and landmark",
+        "Time slot",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 MakeMyTrip、Booking.com、Agoda，小旅館常電話或 WhatsApp；入住須出示有照片的身分證件，外國旅客的資料飯店須在 24 小時內以 Form C 申報。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Photo ID needed for every adult guest at check-in"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Foreign guests' passport and visa are recorded for Form C"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Aadhaar copy in advance on WhatsApp"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of adults and kids",
+        "Room type and breakfast",
+        "Photo ID type of each guest"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間（timings）、排燈節與邦假日是否營業、可否用 UPI、有無停車位、是否有純素菜單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives timings and festival closures"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Confirms UPI and cards are accepted"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Timings and weekly off day",
+        "Festival closing days",
+        "UPI, card or cash",
+        "Parking or valet"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容多電話或 WhatsApp 預約，大城市也有到府美容服務。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home grooming charges by breed size"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet asks to bring vaccination card"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet boarding asks full UPI advance to a personal ID"
+        }
+      ],
+      "usually_asked": [
+        "Vet visit, vaccination, grooming or boarding",
+        "Breed, age, weight",
+        "Vaccination card",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 MagicBricks、99acres、NoBroker，仲介與房東習慣 WhatsApp 約看房；押金月數因城市差很多（班加羅爾常較高）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent continues on WhatsApp"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Security deposit months and brokerage fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks token amount before a viewing"
+        }
+      ],
+      "usually_asked": [
+        "Locality and listing",
+        "Family or bachelors, veg or non-veg household",
+        "Move-in date",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽機車原廠保養可用品牌 App 或電話預約並可到府取車；小修理行多直接到場。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dealer offers pick-up and drop for servicing"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Local mechanic quotes after inspection"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks RC (registration certificate) or insurance policy number"
+        }
+      ],
+      "usually_asked": [
+        "Car or two-wheeler model and registration number",
+        "Kilometres for the free/paid service",
+        "Problem description",
+        "Pick-up from home or drop-off"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "印度城市餐廳可電話、WhatsApp 或 District、Swiggy Dineout 訂位；常問素食或非素食、是否需要耆那（Jain）餐，週末熱門時段平台折扣與訂位常不開放。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "District or Dineout booking offers a bill discount paid through the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Weekend slots not open for app booking; phone the restaurant"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cover charge for New Year's Eve or live-music nights"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks UPI advance from the caller's own UPI ID"
+        }
+      ],
+      "usually_asked": [
+        "Date and time with AM/PM",
+        "Number of guests including kids",
+        "Veg, non-veg or Jain food",
+        "Smoking or non-smoking, indoor or rooftop",
+        "Name and 10-digit mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、甜點（mithai）與排燈節禮盒常 WhatsApp 下單；蛋糕會問含蛋或無蛋（eggless），節日要提早並付 UPI 訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Eggless cake option and advance by UPI"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks advance to a UPI ID in another person's name"
+        }
+      ],
+      "usually_asked": [
+        "Weight in kg, flavour, eggless or with egg",
+        "Message on the cake",
+        "Delivery or pickup time",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃與餐廳可電話或 WhatsApp 點餐打包（parcel），外送以 Swiggy、Zomato 為主；常問素食、辣度與是否不放洋蔥大蒜。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through Swiggy or Zomato"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay by UPI QR at the counter"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks UPI to a personal number before preparing a small parcel"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantity (half or full plate)",
+        "Spice level, no onion-garlic",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "India Post、Delhivery、Blue Dart、DTDC 多為語音選單，建議用官網或 App 以追蹤號（AWB）查件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotline gives status from the AWB number"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the delivery OTP"
+        }
+      ],
+      "usually_asked": [
+        "AWB or consignment number",
+        "Receiver name and mobile",
+        "PIN code",
+        "Item and COD or prepaid"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Uber、Ola、Rapido 為主；機場接送與包車（outstation cab）可電話或 WhatsApp 預約，常按公里與天數計價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests Uber, Ola or Rapido for city trips"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Outstation cab charges per km plus driver allowance and tolls"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Self-drive rental asks driving licence and Aadhaar"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address with landmark",
+        "Destination, airport terminal or outstation city",
+        "Passengers and luggage, sedan or SUV",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "consultation with doctor",
+        "dental check-up",
+        "car servicing",
+        "salon appointment"
+      ],
+      "booking_words": [
+        "book a table",
+        "table reservation",
+        "room booking",
+        "advance booking",
+        "book the banquet"
+      ],
+      "change_words": [
+        "reschedule",
+        "postpone to Friday",
+        "cancel the booking",
+        "prepone by 30 mins",
+        "change the slot"
+      ],
+      "date": [
+        "tomorrow",
+        "day after tomorrow",
+        "this Saturday",
+        "next Monday",
+        "25/11",
+        "Sunday evening"
+      ],
+      "false_friends": [
+        "2nd floor",
+        "Flat 302",
+        "Sector 15",
+        "Gate No. 3",
+        "Combo 2",
+        "60 min massage"
+      ],
+      "inquiry_words": [
+        "what are your timings",
+        "is parking available",
+        "UPI accepted?",
+        "is it in stock",
+        "veg options?"
+      ],
+      "name": [
+        "in the name of Sharma",
+        "Mr. Kumar",
+        "Ms. Priya",
+        "for my father"
+      ],
+      "order_words": [
+        "parcel",
+        "takeaway",
+        "home delivery",
+        "pre-order",
+        "bulk order for office"
+      ],
+      "party": [
+        "table for 4",
+        "2 adults 1 child",
+        "10 pax",
+        "family of 5",
+        "just 2 of us"
+      ],
+      "phone": [
+        "98XXX 12345",
+        "+91 98XXX 12345",
+        "011-1234-5678",
+        "WhatsApp on same number"
+      ],
+      "time": [
+        "7:30 PM",
+        "8 pm sharp",
+        "around 1 pm",
+        "evening 6 o'clock",
+        "after 7"
+      ]
+    },
+    "hi": {
+      "appointment_words": [
+        "डॉक्टर से अपॉइंटमेंट",
+        "चेकअप करवाना",
+        "बाल कटवाने का टाइम",
+        "गाड़ी की सर्विस",
+        "दांत की जांच"
+      ],
+      "booking_words": [
+        "टेबल बुक करना",
+        "कमरा बुक करना",
+        "एडवांस बुकिंग",
+        "हॉल बुक करना",
+        "सीट रिज़र्व"
+      ],
+      "change_words": [
+        "टाइम बदलना",
+        "शुक्रवार कर दीजिए",
+        "बुकिंग कैंसिल",
+        "आधा घंटा बाद",
+        "कल की जगह परसों"
+      ],
+      "date": [
+        "आज",
+        "कल",
+        "परसों",
+        "इस शनिवार",
+        "25 नवंबर",
+        "अगले सोमवार"
+      ],
+      "false_friends": [
+        "दूसरी मंज़िल",
+        "फ्लैट 302",
+        "सेक्टर 15",
+        "गली नंबर 4",
+        "थाली नंबर 2"
+      ],
+      "inquiry_words": [
+        "दुकान कब खुलती है",
+        "पार्किंग है क्या",
+        "UPI चलेगा",
+        "माल है क्या",
+        "डॉक्टर कब बैठते हैं"
+      ],
+      "name": [
+        "शर्मा जी के नाम से",
+        "मरीज़ का नाम",
+        "मेरे पापा के लिए",
+        "कंपनी के नाम पर"
+      ],
+      "order_words": [
+        "पैक करवाना",
+        "होम डिलीवरी",
+        "ऑर्डर देना",
+        "पहले से ऑर्डर"
+      ],
+      "party": [
+        "4 लोग",
+        "2 बड़े 1 बच्चा",
+        "हम 5 हैं",
+        "10 लोगों की फैमिली"
+      ],
+      "phone": [
+        "98XXX 12345",
+        "इसी नंबर पर व्हाट्सऐप",
+        "लैंडलाइन 011-1234-5678"
+      ],
+      "time": [
+        "शाम 7 बजे",
+        "साढ़े सात",
+        "पौने आठ",
+        "सवा सात",
+        "दोपहर 1 बजे"
+      ]
+    }
+  }
+}

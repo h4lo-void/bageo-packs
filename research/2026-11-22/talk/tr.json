@@ -1,0 +1,274 @@
+{
+  "lang": "tr",
+  "backchannels": {
+    "direction": "Evet and hı hı show listening; tabii agrees warmly; tamam tamam said fast can sound like brushing off.",
+    "examples": [
+      {
+        "text": "Hı hı.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Evet, evet.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Tabii.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Anladım.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Tamam tamam.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Aa, öyle mi? for surprise; geçmiş olsun after illness or trouble; çok sevindim for good news.",
+    "examples": [
+      {
+        "text": "Aa, öyle mi?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Gerçekten mi?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Geçmiş olsun.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Çok üzüldüm.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Çok sevindim!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Biraz zor olacak.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the line is bad (çekmiyor, ses gelmiyor, kesiliyor) and ask for a louder voice with siz.",
+    "examples": [
+      {
+        "text": "Sesiniz gelmiyor.",
+        "style": "polite"
+      },
+      {
+        "text": "Telefon çekmiyor galiba.",
+        "style": "casual"
+      },
+      {
+        "text": "Ses kesik kesik geliyor.",
+        "style": "polite"
+      },
+      {
+        "text": "Biraz daha yüksek konuşabilir misiniz?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Efendim? or Pardon? asks for a replay; for names ask to spell (heceler misiniz); read digits back in pairs.",
+    "examples": [
+      {
+        "text": "Efendim?",
+        "style": "polite"
+      },
+      {
+        "text": "Tekrar eder misiniz?",
+        "style": "polite"
+      },
+      {
+        "text": "Soyadınızı heceler misiniz?",
+        "style": "polite"
+      },
+      {
+        "text": "Numara 12345678, doğru mu?",
+        "style": "polite"
+      },
+      {
+        "text": "Ne dedin?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kiminle görüşüyorum? sounds courteous; Kim arıyor? is plainer; Kimsiniz? alone can sound cold.",
+    "examples": [
+      {
+        "text": "Kiminle görüşüyorum?",
+        "style": "polite"
+      },
+      {
+        "text": "Nereden arıyorsunuz?",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} adına konuşuyorum, siz kimsiniz acaba?",
+        "style": "polite"
+      },
+      {
+        "text": "Kim arıyor?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Yanlış aradınız plus a short özür covers it; Turkish callers rarely add reasons here.",
+    "examples": [
+      {
+        "text": "Yanlış aradınız galiba.",
+        "style": "polite"
+      },
+      {
+        "text": "Burada o isimde biri yok.",
+        "style": "polite"
+      },
+      {
+        "text": "Yanlış numara.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "İletirim or haber veririm says {owner} will hear about it; leave out any time promise.",
+    "examples": [
+      {
+        "text": "Mesajınızı {owner}'a iletirim.",
+        "style": "polite"
+      },
+      {
+        "text": "Söylerim, merak etmeyin.",
+        "style": "polite"
+      },
+      {
+        "text": "Haber veririm.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Teşekkür ederim, ilgilenmiyorum closes most sales calls; ihtiyacımız yok also fits.",
+    "examples": [
+      {
+        "text": "Teşekkürler, ilgilenmiyorum.",
+        "style": "polite"
+      },
+      {
+        "text": "İhtiyacımız yok, sağ olun.",
+        "style": "polite"
+      },
+      {
+        "text": "Yok, almayalım.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they insist, say you've already refused and ask them to remove the number (numaramı silin).",
+    "examples": [
+      {
+        "text": "Daha önce de söyledim, istemiyorum.",
+        "style": "polite"
+      },
+      {
+        "text": "Lütfen bu numarayı bir daha aramayın.",
+        "style": "polite"
+      },
+      {
+        "text": "Numaramı listenizden silin lütfen.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Siz plus first name + Bey/Hanım for strangers; hocam, abi/abla, amca/teyze are warmer but informal.",
+    "examples": [
+      {
+        "text": "Ahmet Bey",
+        "style": "polite"
+      },
+      {
+        "text": "Ayşe Hanım",
+        "style": "polite"
+      },
+      {
+        "text": "Hocam",
+        "style": "casual"
+      },
+      {
+        "text": "Abla",
+        "style": "casual"
+      },
+      {
+        "text": "Efendim",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Değerli müşterimiz and Size nasıl yardımcı olabilirim sound like a çağrı merkezi on a private line.",
+    "examples": [
+      {
+        "text": "Değerli müşterimiz, aramanız bizim için önemlidir.",
+        "style": "polite"
+      },
+      {
+        "text": "Size nasıl yardımcı olabilirim?",
+        "style": "polite"
+      },
+      {
+        "text": "Çağrı merkezimizi aradığınız için teşekkür ederiz.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using sen with an older stranger, asking salary or marriage early, or ringing very late is out of line.",
+    "examples": [
+      {
+        "text": "Kaç para kazanıyorsun?",
+        "style": "casual"
+      },
+      {
+        "text": "Sen kimsin ya?",
+        "style": "casual"
+      },
+      {
+        "text": "Evli misin, neden?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/efendim",
+    "https://en.wiktionary.org/wiki/buyurun",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://www.turkishclass101.com/blog/2020/07/31/telling-time-in-turkish/"
+  ],
+  "uncertain": [
+    "Backchannel set (evet, hı hı, tabii, anladım) from dictionaries and general usage, no Turkish call corpus checked",
+    "Efendim as phone answer vs. as 'pardon?' depends on intonation; not measured",
+    "Whether 'Hayırdır?' sounds rude depends on tone and region"
+  ]
+}

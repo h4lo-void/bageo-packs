@@ -1,0 +1,90 @@
+{
+  "region": "bt",
+  "lang": "ne",
+  "why_added": "美國中央情報局《世界概況》列 Lhotshamkha（尼泊爾語）約佔 22%，為不丹重要語言；區包因宗喀語不在清單而預設英語。",
+  "hello": {
+    "hello": "हलो?",
+    "hello_again": "हजुर, बोल्नुस्।"
+  },
+  "habits": {
+    "en": "Hajur or tapāī̃ with strangers; timī once close. Money is ngultrum. Dasho only if they used it or are clearly officials.",
+    "zh": "對生人用 हजुर 或 तपाईं，熟了用 तिमी。錢是 ngultrum。對方先用或官員才稱 Dasho。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Southern Bhutan friend: timī, short warm Nepali. Keep ngultrum and local place names; do not recast them into Indian forms.",
+        "zh": "不丹南部熟友用 तिमी，短而熱絡。錢說 ngultrum，地名留當地說法，不要改成印度習慣譯名。"
+      },
+      "2": {
+        "en": "Easy familiar tone. Hajur can still appear out of courtesy; a Dzongkha title they used should stay.",
+        "zh": "半熟口氣仍可帶 हजुर 以示客氣；對方用了宗喀語頭銜就照留。"
+      },
+      "3": {
+        "en": "Everyday Nepali in Bhutan. Finish each point; cash is ngultrum, not Indian rupees, unless they clearly said so.",
+        "zh": "不丹日常尼泊爾語。把話說完；現金是 ngultrum，除非對方明說，否則不要改成印度盧比。"
+      },
+      "4": {
+        "en": "Polite tapāī̃ or hajur with offices. Dasho only when the other party is an official or already used it.",
+        "zh": "對機關用 तपाईं 或 हजुर。只有對方是官員或已自稱時才用 Dasho。"
+      },
+      "5": {
+        "en": "Formal Nepali for dzong or bank desks. Keep Bhutanese institution names; no Indian bureaucratic stock phrases.",
+        "zh": "面對宗辦公室或銀行用較正式的尼泊爾語。不丹機關名照留，不套用印度公文套句。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on timī if they used it; keep Dasho only if they did, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方用 तिमी 才用 तिमी；對方先稱 Dasho 才跟著稱，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in with hajur. Leave ngultrum as said, and let them know {owner} will be told.",
+        "zh": "帶 हजुर 的溫和代接。ngultrum 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Restate the ngultrum point in one full Nepali sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句尼泊爾語重述 ngultrum 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on tapāī̃: note why they called, keep Bhutanese titles, then confirm the handover.",
+        "zh": "穩重秘書用 तपाईं：記下來電原因，不丹頭銜照留，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on ngultrum and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：ngultrum 與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हलो! तिमी थिम्पुमा नै छौ?",
+      "हजुर, म सुन्दै छु, बोल्नुस्।",
+      "हलो, नमस्कार। Ngultrum को कुरा हो?",
+      "नमस्कार, कल गर्नुभएकोमा धन्यवाद। रकम स्पष्ट छ।",
+      "नमस्कार, धन्यवाद। बैंकको विषय मैले बुझेँ।"
+    ],
+    "a": [
+      "हलो! {owner} हुनुहुन्न, मलाई भन्नुस्, मैले भनिदिन्छु।",
+      "हलो, नमस्ते। म फोनमा छु, के भनेर छाड्ने?",
+      "हलो, नमस्कार। तपाईंको कुरा {owner} लाई भनिदिन्छु।",
+      "नमस्कार, धन्यवाद। Ngultrum को कुरा {owner} लाई भन्छु।",
+      "नमस्कार, धन्यवाद। विवरण लेखेर बुझाइदिन्छु।"
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是 ngultrum，不要預設成尼泊爾或印度盧比。",
+    "機關與官員頭銜常見 Dasho 等不丹用法，只在對方先用或場合明顯時才用。",
+    "這是不丹南部 Lhotshamkha 社群的尼泊爾語，地名與機關名多留不丹說法，不必改成尼泊爾本國習慣。",
+    "宗喀語不在支援清單；若對方夾了宗喀語詞，照留並用尼泊爾語回應。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/bhutan/",
+    "https://assets.publishing.service.gov.uk/media/698dc9e67da91680ad7f431c/Bhutan_Toponymic_Factfile.pdf"
+  ],
+  "uncertain": [
+    "《世界概況》數字是 2005 年估測，較新的語言比重公開資料有限。",
+    "Lhotshamkha 與尼泊爾本國用語的差異，缺少可用來逐條對照的新語料，只能提醒保留不丹地名與貨幣。",
+    "Dasho 等稱謂的使用場合並不完全統一，宜只在對方先用或明顯為官員時才用。"
+  ]
+}

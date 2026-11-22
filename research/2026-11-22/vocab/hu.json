@@ -1,0 +1,449 @@
+{
+  "region": "hu",
+  "vocab": {
+    "hu": {
+      "bank": [
+        {
+          "term": "átutalás",
+          "en": "an átutalás between Hungarian accounts, often a qvik instant payment"
+        },
+        {
+          "term": "bankkártya",
+          "en": "a bankkártya used in a Hungarian netbank or at a till"
+        },
+        {
+          "term": "qvik",
+          "en": "Hungary's instant-payment brand, also used in apps and at some lockers"
+        },
+        {
+          "term": "netbank",
+          "en": "online or app banking, also mobilbank"
+        },
+        {
+          "term": "egyenleg",
+          "en": "the egyenleg in a Hungarian mobilbank"
+        },
+        {
+          "term": "folyószámla",
+          "en": "the current account"
+        },
+        {
+          "term": "SimplePay",
+          "en": "a card gateway many Hungarian shops and Foxpost use"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Foxpost",
+          "en": "a major locker and pickup network, also said FOXPOST"
+        },
+        {
+          "term": "csomagautomata",
+          "en": "a parcel locker, including Foxpost A-BOX or Z-BOX"
+        },
+        {
+          "term": "Packeta",
+          "en": "now closely tied to Foxpost; Z-Pont is a shop pickup point"
+        },
+        {
+          "term": "utánvét",
+          "en": "cash on delivery, often paid by card or qvik before the locker opens"
+        },
+        {
+          "term": "átvételi kód",
+          "en": "the pickup code from SMS, Viber or the app"
+        },
+        {
+          "term": "portás",
+          "en": "the portás in the lépcsőház of a Hungarian társasház"
+        },
+        {
+          "term": "szomszéd",
+          "en": "the szomszéd, a fallback if a Foxpost or Packeta pickup is missed"
+        },
+        {
+          "term": "Magyar Posta",
+          "en": "the national post, still used for letters and some parcels"
+        }
+      ],
+      "government": [
+        {
+          "term": "Ügyfélkapu",
+          "en": "the long-standing government login, still named even as newer IDs roll out"
+        },
+        {
+          "term": "DÁP",
+          "en": "Digitális Állampolgárság, the newer digital-citizenship app some callers already use"
+        },
+        {
+          "term": "személyi",
+          "en": "the ID card, személyazonosító igazolvány"
+        },
+        {
+          "term": "TAJ szám",
+          "en": "the social-security number; keep it off the call unless {owner} wants it checked"
+        },
+        {
+          "term": "NAV",
+          "en": "the tax authority"
+        },
+        {
+          "term": "lakcímkártya",
+          "en": "the address card"
+        },
+        {
+          "term": "útlevél",
+          "en": "a Hungarian útlevél"
+        }
+      ],
+      "health": [
+        {
+          "term": "háziorvos",
+          "en": "the GP"
+        },
+        {
+          "term": "patika",
+          "en": "a pharmacy, also gyógyszertár"
+        },
+        {
+          "term": "recept",
+          "en": "a recept, usually an e-recept filled at a patika"
+        },
+        {
+          "term": "TAJ kártya",
+          "en": "the social-insurance card shown at clinics"
+        },
+        {
+          "term": "sürgősségi",
+          "en": "emergency care, also sürgősségi osztály"
+        },
+        {
+          "term": "szakrendelő",
+          "en": "an outpatient specialist clinic"
+        },
+        {
+          "term": "NEAK",
+          "en": "the national health insurance body, sometimes still called OEP in older speech"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "előfizetés",
+          "en": "an előfizetés with Telekom, Yettel or Vodafone"
+        },
+        {
+          "term": "feltöltőkártya",
+          "en": "a feltöltőkártya, prepaid credit on a Hungarian number"
+        },
+        {
+          "term": "számhordozás",
+          "en": "számhordozás, taking the number to another Hungarian szolgáltató"
+        },
+        {
+          "term": "SIM kártya",
+          "en": "a Hungarian SIM kártya"
+        },
+        {
+          "term": "szolgáltató",
+          "en": "the operator, often Telekom, Yettel or Vodafone"
+        },
+        {
+          "term": "mobilnet",
+          "en": "mobilnet on a Hungarian előfizetés"
+        },
+        {
+          "term": "otthoni internet",
+          "en": "otthoni internet, a Hungarian fixed line"
+        }
+      ],
+      "payment": [
+        {
+          "term": "qvik",
+          "en": "instant account-to-account payment"
+        },
+        {
+          "term": "bankkártya",
+          "en": "paying with a bankkártya at a Hungarian till, also via SimplePay or qvik"
+        },
+        {
+          "term": "készpénz",
+          "en": "készpénz in forint, still used next to a bankkártya or qvik"
+        },
+        {
+          "term": "átutalás",
+          "en": "an átutalás, including a qvik payment"
+        },
+        {
+          "term": "SimplePay",
+          "en": "checkout used by many domestic merchants"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "Apple Pay or Google Pay at a Hungarian till, often through SimplePay"
+        },
+        {
+          "term": "utánvét",
+          "en": "paying on delivery"
+        }
+      ],
+      "transport": [
+        {
+          "term": "BKK",
+          "en": "Budapest transport, also the Budapest GO app"
+        },
+        {
+          "term": "vonat",
+          "en": "a train, often MÁV or Volánbusz for coaches"
+        },
+        {
+          "term": "busz",
+          "en": "a busz, in Budapest a BKK service"
+        },
+        {
+          "term": "villamos",
+          "en": "a villamos, in Budapest a BKK tram"
+        },
+        {
+          "term": "metro",
+          "en": "the Budapest metro, lines named M1 to M4 in speech"
+        },
+        {
+          "term": "taxi",
+          "en": "a taxi, in Budapest also often a Bolt"
+        },
+        {
+          "term": "bérlet",
+          "en": "a season ticket"
+        },
+        {
+          "term": "pályaudvar",
+          "en": "the railway station, also Keleti or Nyugati when in Budapest"
+        }
+      ],
+      "housing": [
+        {
+          "term": "lakás",
+          "en": "a lakás in a Hungarian társasház, including an albérlet"
+        },
+        {
+          "term": "lépcsőház",
+          "en": "the lépcsőház of a Hungarian társasház"
+        },
+        {
+          "term": "kaputelefon",
+          "en": "the kaputelefon at the lépcsőház"
+        },
+        {
+          "term": "postaláda",
+          "en": "the postaláda in the lépcsőház, not a Foxpost box"
+        },
+        {
+          "term": "albérlet",
+          "en": "a rented flat, also a bérleti díj for the rent"
+        },
+        {
+          "term": "közös képviselő",
+          "en": "the közös képviselő of a Hungarian társasház"
+        },
+        {
+          "term": "házmester",
+          "en": "an older word for the caretaker, still heard"
+        },
+        {
+          "term": "társasház",
+          "en": "a condominium building"
+        }
+      ],
+      "school": [
+        {
+          "term": "óvoda",
+          "en": "óvoda, before általános iskola"
+        },
+        {
+          "term": "általános iskola",
+          "en": "általános iskola, before gimnázium or a technikum"
+        },
+        {
+          "term": "napközi",
+          "en": "napközi at an általános iskola"
+        },
+        {
+          "term": "gimnázium",
+          "en": "academic secondary school"
+        },
+        {
+          "term": "szakiskola",
+          "en": "vocational school, also technikum"
+        },
+        {
+          "term": "házifeladat",
+          "en": "házifeladat from an általános iskola or gimnázium"
+        },
+        {
+          "term": "osztályfőnök",
+          "en": "the osztályfőnök, the form teacher in a Hungarian school"
+        }
+      ],
+      "money": [
+        {
+          "term": "forint",
+          "en": "Hungarian forint, also Ft"
+        },
+        {
+          "term": "ezer",
+          "en": "a thousand forint, the usual spoken unit"
+        },
+        {
+          "term": "készpénz",
+          "en": "készpénz in forint, still used next to a bankkártya or qvik"
+        },
+        {
+          "term": "visszajáró",
+          "en": "the visszajáró in forint"
+        },
+        {
+          "term": "összeg",
+          "en": "the összeg in forint"
+        },
+        {
+          "term": "fillér",
+          "en": "fillér, only on receipts now"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "délelőtt",
+          "en": "délelőtt, before midday"
+        },
+        {
+          "term": "délután",
+          "en": "délután, after midday"
+        },
+        {
+          "term": "este",
+          "en": "este, in the evening"
+        },
+        {
+          "term": "hétköznap",
+          "en": "a hétköznap, a Hungarian weekday"
+        },
+        {
+          "term": "hétvége",
+          "en": "hétvége, Saturday and Sunday"
+        },
+        {
+          "term": "munka után",
+          "en": "munka után, once the working day ends"
+        },
+        {
+          "term": "ezen a héten",
+          "en": "ezen a héten, the current week"
+        },
+        {
+          "term": "holnap reggel",
+          "en": "holnap reggel, the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "munka",
+          "en": "munka, the everyday Hungarian word for a job"
+        },
+        {
+          "term": "túlóra",
+          "en": "túlóra, extra hours"
+        },
+        {
+          "term": "szabadság",
+          "en": "szabadság, the yearly leave"
+        },
+        {
+          "term": "táppénz",
+          "en": "sick pay or being on sick leave"
+        },
+        {
+          "term": "főnök",
+          "en": "the boss, also vezető"
+        },
+        {
+          "term": "otthoni munka",
+          "en": "working from home, also home office"
+        },
+        {
+          "term": "kiküldetés",
+          "en": "a kiküldetés, a work trip"
+        },
+        {
+          "term": "fizetés",
+          "en": "the fizetés, usually paid to a Hungarian folyószámla"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Zelle",
+      "use_instead": "qvik, átutalás",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "BLIK",
+      "use_instead": "qvik",
+      "where_it_is_from": "PL"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "csomagautomata, Foxpost",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "Ügyfélkapu, DÁP",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "qvik",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Girokonto",
+      "use_instead": "folyószámla",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "OEP 當唯一現行機構名",
+      "use_instead": "NEAK（年長來電者仍可能說 OEP）",
+      "where_it_is_from": "HU"
+    },
+    {
+      "word": "BKK 套用到所有外縣市",
+      "use_instead": "外縣市用當地 Volán 或城市自己的票證名",
+      "where_it_is_from": "HU"
+    },
+    {
+      "word": "BankID",
+      "use_instead": "Ügyfélkapu, DÁP, netbank",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "InPost",
+      "use_instead": "Foxpost, Packeta Z-Pont, csomagautomata",
+      "where_it_is_from": "PL"
+    }
+  ],
+  "sources": [
+    "https://www.foxpost.hu/",
+    "https://foxpost.hu/a-box-es-z-box-utmutato",
+    "https://foxpost.hu/ugyfelszolgalat",
+    "https://www.packeta.hu/csomagkuldes",
+    "https://www.mnb.hu/",
+    "https://www.nav.gov.hu/",
+    "https://www.magyarposta.hu/"
+  ],
+  "uncertain": [
+    "Ügyfélkapu 正逐步被 Digitális Állampolgárság（DÁP）取代，電話裡兩種名稱都會出現，不要堅稱只有一種有效。",
+    "Foxpost 與 Packeta 已整合網路，但來電者仍可能分開說這兩個品牌。",
+    "BKK／Budapest GO 只適用布達佩斯，外縣市票證名稱不同。"
+  ]
+}

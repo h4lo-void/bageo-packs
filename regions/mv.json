@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "code": "mv",
+  "countries": [
+    "mv"
+  ],
+  "name": {
+    "en": "Maldives",
+    "native": "Dhivehi Raajje",
+    "zh": "馬爾地夫"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Parcels: the harbour, island office or resort desk",
+    "zh": "包裹放在碼頭、島辦公室、度假村櫃檯或快艇交接"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; repeat the island name first.",
+    "zh": "名字用 as-in 拼；號碼分組唸；地址之前先慢慢重複島名。"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request, or a fee to pay first, is a scam",
+    "zh": "要銀行 PIN 或 OTP，或要先付錢，都是詐騙"
+  },
+  "habits": {
+    "en": "Mr/Ms with strangers. Dhivehi is unsupported; use English. Confirm the island.",
+    "zh": "對陌生人用 Mr/Ms。迪維希語不在清單，用英語。要確認是哪一座島。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the speedboat delayed, the bank app spinning, a network drop.",
+    "zh": "卡在當地日常狀況，例如快艇延誤、銀行 App 一直轉、島際網路不穩。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Malé friend: first names, easy English, ask the island if it matters, then one more line, varied.",
+        "zh": "像馬累的朋友：直呼名字，輕鬆英語，若有需要先問是哪座島，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Neighbourly island English: given names if they do, otherwise Mr or Ms; linger on the island name, then acknowledge softly.",
+        "zh": "馬爾地夫島上鄰居式英語：對方用名字再用名字，否則稱 Mr 或 Ms；島名慢慢唸完，再輕聲應一句。"
+      },
+      "3": {
+        "en": "Everyday Maldives English. Full sentence after each point, not a bare yes. Name the island clearly.",
+        "zh": "馬爾地夫日常英語。每點用完整句回，不要只回 yes。島名要說清楚。"
+      },
+      "4": {
+        "en": "Mr or Ms with offices and strangers; restate the point and the island first, varied.",
+        "zh": "對機關與陌生人用 Mr 或 Ms；先覆述重點和島名，每次換。"
+      },
+      "5": {
+        "en": "Resort or bank English: titles, compact; close each item (it's written down), varied.",
+        "zh": "度假村或銀行英語：用職稱，簡潔；每件收束（如 it's written down），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Helper on {owner}'s island line. Repeat the island if it was given, answer lightly, and say you will leave word at their end.",
+        "zh": "在{owner}的島上線路代接。若對方報了島名就先覆誦，輕聲應完，再說會把話留到主人那邊。"
+      },
+      "2": {
+        "en": "Like a resort-desk or island-office clerk: keep Mr/Ms until they drop it, pin the island, then write it for {owner}.",
+        "zh": "像度假村櫃台或島辦公室代接：對方未改口就維持 Mr／Ms，先確定島名，再寫給{owner}。"
+      },
+      "3": {
+        "en": "Answer the harbour or island errand in a complete sentence, then say it will get across to {owner}. Never just ok.",
+        "zh": "用完整句回答碼頭或島上的來意，再說會帶到{owner}。不要只回 ok。"
+      },
+      "4": {
+        "en": "On a BML or atoll-office call, keep Mr or Ms, name the island and the purpose, and confirm the slip stays at the desk.",
+        "zh": "接 BML 或環礁辦公室電話，沿用 Mr 或 Ms，先報島名與來意，並確認字條會留在櫃台。"
+      },
+      "5": {
+        "en": "For a formal Male' or resort-management call, keep titles, fix the island and the facts, then say the note will be handed over.",
+        "zh": "接馬累公務或度假村管理層電話，保留職稱，先對齊島名與事實，再說字條會交到。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "internet banking",
+      "BML",
+      "card payment",
+      "Bank of Maldives"
+    ],
+    "delivery": [
+      "harbour",
+      "island office",
+      "speedboat",
+      "island council"
+    ],
+    "government": [
+      "National ID Card",
+      "DNR",
+      "eFaas",
+      "QueueBee"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "health insurance"
+    ],
+    "telecom": [
+      "Dhiraagu",
+      "Ooredoo",
+      "prepaid SIM",
+      "NID check"
+    ],
+    "payment": [
+      "card payment",
+      "internet banking",
+      "eFaas"
+    ],
+    "transport": [
+      "speedboat",
+      "ferry",
+      "harbour",
+      "seaplane"
+    ],
+    "housing": [
+      "island council",
+      "address",
+      "rent"
+    ]
+  },
+  "status": "draft"
+}

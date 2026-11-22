@@ -1,0 +1,695 @@
+{
+  "region": "az",
+  "countries": [
+    "az"
+  ],
+  "region_name_zh": "亞塞拜然",
+  "region_name": "Azerbaijan",
+  "languages": [
+    {
+      "code": "az",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (widely used in Baku business)"
+    }
+  ],
+  "ai_language_tip": "Start in Azerbaijani (az); in Baku many businesses switch easily to Russian, which is the safest second choice; English is limited to hotels and some central Baku restaurants.",
+  "english_ok": "rarely — Hotels, international restaurants and some private clinics in Baku; most shops, garages and regions speak Azerbaijani or Russian only.",
+  "politeness": "Warm and respectful; formal 'Siz'; open with 'Salam' or 'Salam əleyküm'; address men as '… bəy' / 'müəllim' and women as '… xanım'; close with 'Təşəkkür edirəm, sağ olun'.",
+  "name_tip": "Bookings under first name + 'bəy'/'xanım' or surname; surnames often end -ov/-ova, -li, -zadə; spell Latin names slowly — Azerbaijani uses Latin letters ə, ı, ş, ç, ğ, ö, ü.",
+  "phone_tip": "Mobile 0XX XXX XX XX (codes 50, 51, 55, 70, 77, 99, 10; e.g. 050 12345678), international +994; WhatsApp is the default for confirmations and locations.",
+  "time_tip": "24h in writing; spoken 'saat yeddi yarım' = 7:30 but the Russian-style 'səkkizin yarısı' (half of the eighth) also = 7:30; always read back in 24h.",
+  "number_tip": "Mobile numbers read 3-3-2-2 ('əlli, yüz iyirmi üç, qırx beş, altmış yeddi'); Russian numbers also heard in Baku.",
+  "avoid_calling": "Avoid restaurant peaks 13:00 and 19:00–21:00, calls after 21:00, Sundays for offices, and Novruz holidays in March when much shuts for about 5 days.",
+  "closed_days": "Shops and restaurants open daily; offices closed Saturday–Sunday; holidays include New Year (1–2 Jan), 20 January (mourning day), 8 March, Novruz (5 days around 20–21 March), 9 May, 28 May, 15 and 26 June, 8 and 9 November, 31 December, plus Ramazan and Gurban bayramı by lunar calendar.",
+  "booking_channels": "Phone and WhatsApp dominant; Vilka and YERVAR for restaurant tables in Baku; DocFind for doctors; Wolt and Bolt Food for delivery; Bolt and Uber/local apps for taxis.",
+  "voice_menu": "Azercell, Bakcell, Nar, banks and utilities use IVR; small businesses answer on a mobile directly.",
+  "callback_habits": "Restaurants and clinics often confirm via WhatsApp or a call on the day; platforms send SMS.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "巴庫餐廳最常用電話或 WhatsApp 訂位，也可經 Vilka、YERVAR 線上訂；許多店有包廂（kabinet）並對宴會（toy, ad günü）收訂金或最低消費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Minimum spend per person for a kabinet"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Confirmation sent by WhatsApp"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for a banquet deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time of the table",
+        "Number of guests",
+        "Main hall, private cabin (kabinet) or terrace",
+        "Name with bəy/xanım and mobile, often WhatsApp"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所電話或 WhatsApp 預約最普遍，DocFind 可線上看時段；強制醫療保險（İcbari Tibbi Sığorta）體系下的公立機構需先登記，自費價格常在電話中直接報。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to DocFind for open slots"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Price of the consultation quoted on the phone"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks FIN code from the ID card"
+        }
+      ],
+      "usually_asked": [
+        "Specialist or doctor's name",
+        "Patient name and age",
+        "Paid visit or under mandatory health insurance",
+        "First visit or follow-up",
+        "Mobile, often WhatsApp"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲多以 Instagram 私訊或 WhatsApp 預約，也接電話；男士理髮店多可直接上門。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for bridal hair and make-up"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service (hair, nails, brows)",
+        "Preferred master",
+        "Day and time",
+        "Name and WhatsApp number"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車、家電與手機維修多電話詢價後再約；巴庫常見到府修冷氣、洗衣機的師傅。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price for original vs non-original parts"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car or appliance brand and model",
+        "What is wrong",
+        "When it can be brought in or a visit time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話或 WhatsApp 訂外送自取很普遍，App 以 Wolt、Bolt Food 為主；店家會要 WhatsApp 定位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery fee depends on district"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and portions",
+        "Pickup or delivery time",
+        "Location pin by WhatsApp",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店、甜點（如節日 paxlava、şəkərbura）常以 WhatsApp 傳照片下訂，Novruz 前需求大。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment before Novruz rush"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and amount (e.g. kilograms of pastries)",
+        "Pickup day",
+        "Name and phone",
+        "Prepayment by card transfer"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多直接打電話或發 WhatsApp 訊息即可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit kept if a banquet is cancelled late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name the booking is under",
+        "New time wanted",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "電話問價格、營業時間很普遍，常被要求改在 WhatsApp 傳照片或報價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Price list sent by WhatsApp"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question",
+        "Which day, noting Novruz or bayram holidays",
+        "Quantity"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "巴庫飯店電話、Email 或 WhatsApp 訂房；地方（如 Qəbələ、Şəki）度假村旺季週末要早訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Weekend minimum stay at mountain resorts"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of guests",
+        "Room type",
+        "Guest names as in passports and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "導覽、傳統浴場（hamam）、山區纜車與騎馬活動可電話或 WhatsApp 訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transport from Baku included or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Activity or tour",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多電話叫；巴庫新舊公寓混雜，師傅會問大樓、樓層與附近地標。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "District, building and nearby landmark",
+        "Floor and whether the lift works",
+        "Job description",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "巴庫有寵物醫院與美容可電話預約，其他城市選擇少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home visit available or not"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed, weight",
+        "Vaccination, grooming or illness",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Azərpoçt 與私人快遞查件多用官網或 WhatsApp 客服，國際包裹常需到郵局領取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks FIN code for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "City or post office",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Azercell、Bakcell、Nar）與銀行客服語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks FIN code or card data"
+        }
+      ],
+      "usually_asked": [
+        "SIM or account holder",
+        "Problem",
+        "Contract or SIM number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "巴庫叫車多用 Bolt、Uber 等 App 或傳統電話車行；機場與城際接送常電話預約固定價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price agreed in advance"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or Heydar Aliyev airport",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 bina.az 刊登，打電話給屋主或仲介（makler）約看，仲介常收半個月到一個月租金佣金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Makler commission amount"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or FIN"
+        }
+      ],
+      "usually_asked": [
+        "Which bina.az listing",
+        "Viewing time",
+        "Who will live there",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "ASAN xidmət 服務中心可線上排號，證件、登記多需親臨；電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to ASAN online queue"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks FIN code"
+        }
+      ],
+      "usually_asked": [
+        "Which service at ASAN",
+        "Who it is for",
+        "Application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "az": {
+      "appointment_words": [
+        "həkimə yazılmaq",
+        "növbə götürmək",
+        "bərbərə yazılmaq",
+        "konsultasiya",
+        "servisə yazılmaq"
+      ],
+      "booking_words": [
+        "masa rezerv etmək",
+        "bron",
+        "otaq bron etmək",
+        "4 nəfərlik masa"
+      ],
+      "change_words": [
+        "vaxtı dəyişmək",
+        "bronu ləğv etmək",
+        "yarım saat gec",
+        "cüməyə keçirmək"
+      ],
+      "date": [
+        "sabah",
+        "birisi gün",
+        "bu cümə",
+        "gələn çərşənbə axşamı",
+        "25.11",
+        "25 noyabr"
+      ],
+      "false_friends": [
+        "3-cü mərtəbə",
+        "mənzil 45",
+        "menyu №4",
+        "masaj 60 dəq",
+        "8 nömrəli avtobus"
+      ],
+      "inquiry_words": [
+        "qiyməti nə qədərdir",
+        "var?",
+        "saat neçəyə qədər açıqsınız",
+        "kartla ödəmək olar?",
+        "çatdırılma var?"
+      ],
+      "name": [
+        "Əli bəy adına",
+        "Leyla xanım adına",
+        "Məmmədov",
+        "Həsənova"
+      ],
+      "order_words": [
+        "özümlə aparmaq",
+        "sifariş",
+        "çatdırılma",
+        "əvvəlcədən sifariş"
+      ],
+      "party": [
+        "4 nəfərlik",
+        "biz üç nəfərik",
+        "iki nəfər",
+        "2 böyük 1 uşaq",
+        "5 nəfər"
+      ],
+      "phone": [
+        "050 12345678",
+        "+994 55 12345678",
+        "12345678"
+      ],
+      "time": [
+        "saat 19:30",
+        "yeddi yarım",
+        "səkkizin yarısı",
+        "axşam saat yeddidə",
+        "günorta 12-də"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "записаться на маникюр",
+        "на консультацию"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "кабинка на 6"
+      ],
+      "change_words": [
+        "перенести",
+        "отменить бронь",
+        "на полчаса позже"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в пятницу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 45",
+        "массаж 60 мин",
+        "автобус 8"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть в наличии?",
+        "до скольки работаете"
+      ],
+      "name": [
+        "на имя Али",
+        "на имя Лейла",
+        "Мамедов"
+      ],
+      "order_words": [
+        "с собой",
+        "доставка",
+        "предзаказ"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих"
+      ],
+      "phone": [
+        "050 12345678",
+        "+994 50 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "к семи вечера"
+      ]
+    }
+  }
+}

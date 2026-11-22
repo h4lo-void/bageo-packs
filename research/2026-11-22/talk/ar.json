@@ -1,0 +1,300 @@
+{
+  "lang": "ar",
+  "backchannels": {
+    "direction": "Liesenfeld's Egyptian tokens are ah, M and mhm; Ward's Iraqi list has aih and nam. A flat ah can sound faraway.",
+    "examples": [
+      {
+        "text": "آه.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "مم.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "نعم.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "طيب.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "آها.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "آه، آه.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "حقًا؟ marks surprise; يا للأسف is everyday sympathy, and مبروك fits good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "حقًا؟",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "جد؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "يا للأسف.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "أنا آسف لسماع ذلك.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "رائع!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "مبروك.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "هذا سيكون صعبًا.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Arabic often names a weak line or muffled sound and asks for a louder repeat, without stalling the call.",
+    "examples": [
+      {
+        "text": "الصوت غير واضح.",
+        "style": "polite"
+      },
+      {
+        "text": "الخط ضعيف.",
+        "style": "casual"
+      },
+      {
+        "text": "لم أسمعك جيدًا.",
+        "style": "polite"
+      },
+      {
+        "text": "هل يمكنك أن تتكلم بصوت أعلى؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary's لا أفهم covers a missed sense; هل يمكنك الإعادة asks a replay, and 12345678 is said once more.",
+    "examples": [
+      {
+        "text": "لا أفهم.",
+        "style": "casual"
+      },
+      {
+        "text": "لم أفهم، لو سمحت.",
+        "style": "polite"
+      },
+      {
+        "text": "هل يمكنك الإعادة من فضلك؟",
+        "style": "polite"
+      },
+      {
+        "text": "الرقم مرة أخرى، هل هو 12345678؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "من معي؟ is the everyday probe; formal من المتحدث؟ fits strangers. On a shared phone, name {owner} first.",
+    "examples": [
+      {
+        "text": "من معي؟",
+        "style": "casual"
+      },
+      {
+        "text": "من المتحدث، من فضلك؟",
+        "style": "polite"
+      },
+      {
+        "text": "هذا هاتف {owner}، من معي؟",
+        "style": "polite"
+      },
+      {
+        "text": "مع من أتكلم؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Wiktionary lists رقم خاطئ and رقم غير صحيح; a short apology and close is enough.",
+    "examples": [
+      {
+        "text": "هذا رقم خاطئ.",
+        "style": "polite"
+      },
+      {
+        "text": "الرقم غير صحيح.",
+        "style": "polite"
+      },
+      {
+        "text": "لا يوجد أحد بهذا الاسم هنا.",
+        "style": "polite"
+      },
+      {
+        "text": "رقم خاطئ، آسف.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "سأنقل الرسالة إلى {owner} or سأخبره أنك اتصلت passes the news; that alone sets no time to ring back.",
+    "examples": [
+      {
+        "text": "سأنقل الرسالة إلى {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "سأخبره أنك اتصلت.",
+        "style": "polite"
+      },
+      {
+        "text": "سأبلغه بذلك.",
+        "style": "polite"
+      },
+      {
+        "text": "أوصل له الكلام.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "لا شكرًا، لست مهتمًا is the usual close; giving a reason can sound as if the offer is still open.",
+    "examples": [
+      {
+        "text": "لا شكرًا، لست مهتمًا.",
+        "style": "polite"
+      },
+      {
+        "text": "شكرًا، لكننا لا نحتاج ذلك.",
+        "style": "polite"
+      },
+      {
+        "text": "لست مهتمًا، شكرًا.",
+        "style": "casual"
+      },
+      {
+        "text": "من فضلك احذفوا هذا الرقم من قائمتكم.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second لا often adds الرجاء عدم الاتصال بهذا الرقم مرة أخرى, still without abuse.",
+    "examples": [
+      {
+        "text": "لقد قلت لا. الرجاء عدم الاتصال بهذا الرقم مرة أخرى.",
+        "style": "polite"
+      },
+      {
+        "text": "لست مهتمًا، وأتمنى أن تتوقفوا عن الاتصال.",
+        "style": "polite"
+      },
+      {
+        "text": "لا تتصلوا مرة أخرى، من فضلكم.",
+        "style": "casual"
+      },
+      {
+        "text": "هذا رفض نهائي، لا تتواصلوا معنا بعد اليوم.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "أنت is for familiars; حضرتك or سيد／سيدة is safer with strangers, and dialects differ widely.",
+    "examples": [
+      {
+        "text": "سيد.",
+        "style": "polite"
+      },
+      {
+        "text": "سيدة.",
+        "style": "polite"
+      },
+      {
+        "text": "دكتور.",
+        "style": "polite"
+      },
+      {
+        "text": "حضرتك.",
+        "style": "polite"
+      },
+      {
+        "text": "يا أستاذ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines such as مكالمتك مهمة لدينا sound like a hotline when said on a private mobile.",
+    "examples": [
+      {
+        "text": "مكالمتك مهمة لدينا.",
+        "style": "polite"
+      },
+      {
+        "text": "كيف يمكنني مساعدتك اليوم؟",
+        "style": "polite"
+      },
+      {
+        "text": "يسعدنا خدمتك.",
+        "style": "polite"
+      },
+      {
+        "text": "شكرًا لاتصالك بمكتب {owner}، رضاك هو أولويتنا.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about marriage, salary, or a national ID at the start, or demanding someone's whereabouts, feels intrusive.",
+    "examples": [
+      {
+        "text": "هل أنت متزوج؟ وما راتبك؟",
+        "style": "casual"
+      },
+      {
+        "text": "لماذا لم يتصل {owner}؟ أخبرني أين هو الآن.",
+        "style": "casual"
+      },
+      {
+        "text": "أعطني رقم هويتك وعنوانك أولًا.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/aha"
+  ],
+  "uncertain": [
+    "Liesenfeld 用語料是埃及阿拉伯語（ah、M、mhm），Ward 頁列的是伊拉克阿拉伯語（aih、nam、mmm）；Gemini 的 ar 未標方言。本檔相槌兩邊都註明，套語偏現代標準阿拉伯語。",
+    "من معي؟ 常見於接電話，但各地也用 مين معايا（埃及）等；未找到跨方言頻率表。",
+    "拒推銷與客服套語沒有單一官方稿，例句依標準禮貌說法，不是電信腳本。"
+  ]
+}

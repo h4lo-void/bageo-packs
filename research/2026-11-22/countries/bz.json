@@ -1,0 +1,55 @@
+{
+  "country": "bz",
+  "parent": "us",
+  "name": {
+    "en": "Belize",
+    "native": "Belize",
+    "zh": "貝里斯"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+501（不在 +1 編號計畫內）",
+    "currency": "貝里斯元 BZD，2 BZD＝1 USD 固定匯率，美元也廣泛收",
+    "time_zone": "UTC-6，不實施夏令時間",
+    "language": "英語官方；西班牙語與貝里斯克里奧爾語非常普遍",
+    "date": "日期多為先日後月"
+  },
+  "habits": {
+    "en": "Open in English; follow Spanish or Kriol callers. Prices may be BZ$ or US$; confirm which, at 2 to 1.",
+    "zh": "先用英語；對方說西班牙語或克里奧爾語就跟著說。標價可能是 BZ$ 或 US$，要確認是哪一種（2 比 1）。"
+  },
+  "vocab": {
+    "bank": [
+      "BZ$",
+      "US$"
+    ],
+    "delivery": [
+      "post office",
+      "landmark"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "貝里斯地址一般不用郵遞區號"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國的銀行轉帳，貝里斯不用"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.centralbank.org.bz/",
+    "https://en.wikipedia.org/wiki/Belize_dollar",
+    "https://en.wikipedia.org/wiki/Belizean_Creole"
+  ],
+  "uncertain": [
+    "通訊主管機關 PUC 網站回 406，號碼格式未在官方頁核對。",
+    "當地常用的行動支付或銀行 App 未查到。"
+  ]
+}

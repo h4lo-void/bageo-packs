@@ -1,0 +1,76 @@
+{
+  "country": "sm",
+  "parent": "it",
+  "name": {
+    "en": "San Marino",
+    "native": "San Marino",
+    "zh": "聖馬利諾"
+  },
+  "lang": "it",
+  "hello": {
+    "hello": "Pronto?",
+    "hello_again": "Pronto, mi sente?"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour or a Poste San Marino office",
+    "zh": "包裹交給鄰居，或到聖馬利諾郵局領取"
+  },
+  "readback": {
+    "en": "7:30 may be le sette e mezza: read back; amounts in euro",
+    "zh": "7:30 可能說 le sette e mezza，要複誦；金額用歐元"
+  },
+  "fraud": {
+    "en": "A fake Poste San Marino fee, or a safe-account or OTP request, is a scam",
+    "zh": "假聖馬利諾郵局要補運費，或要轉安全帳戶、要 OTP 的都是詐騙"
+  },
+  "habits": {
+    "en": "Tu with friends, Lei with strangers and elders. Italian. Do not treat SPID or PosteID as local daily tools.",
+    "zh": "朋友用 tu，陌生人和長輩用 Lei。用義大利語。不要把 SPID、PosteID 當本地日常。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the banking app spinning on an OTP, missing reading glasses, or a weak connection.",
+    "zh": "卡在銀行 App 卡在 OTP、找不到老花眼鏡，或網路不穩。"
+  },
+  "vocab": {
+    "bank": [
+      "bonifico",
+      "carta",
+      "conto"
+    ],
+    "delivery": [
+      "vicino",
+      "Poste San Marino",
+      "ufficio postale"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "SPID",
+      "reason": {
+        "en": "Italian public digital ID, not San Marino's everyday system",
+        "zh": "義大利公共數位身分，不是聖馬利諾日常系統"
+      }
+    },
+    {
+      "word": "PosteID",
+      "reason": {
+        "en": "Poste Italiane identity tool",
+        "zh": "義大利郵政身分工具"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "The tu/Lei range matches Italy closely. Drop Italian public-ID stall terms and use Poste San Marino wording.",
+    "zh": "tu／Lei 層級與義大利很接近。不要用義大利的數位身分詞，改說聖馬利諾郵局。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://strategic.sm/osservatorio/in-chiaro/a-chi-segnalare/",
+    "https://ambsanmarino.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-italiano/6-spid-sistema-pubblico-di-identita-digitale-non-rilasciato-dallambasciata/"
+  ],
+  "uncertain": [
+    "聖馬利諾郵局官方防詐專頁此次未穩定打開；詐騙與通報路徑部分依當地說明與義大利相關說明交叉整理。",
+    "部分與義大利有往來的人可能持有 SPID，但不能把它當成聖馬利諾本地日常工具。",
+    "公寓是否普遍有 portineria，小國住家型態差異大，故投遞以鄰居和郵局為主。"
+  ]
+}

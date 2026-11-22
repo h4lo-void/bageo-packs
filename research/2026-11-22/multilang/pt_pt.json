@@ -1,0 +1,91 @@
+{
+  "region": "pt",
+  "lang": "pt",
+  "hello": {
+    "hello": "Alô?",
+    "hello_again": "Alô, pois é?"
+  },
+  "habits": {
+    "en": "Você stays natural for Brazilians; o senhor with offices. Mix NIF, NISS, AIMA, SNS, MB Way; not Pix or CPF.",
+    "zh": "常用 você，機關用 o senhor。夾 NIF、NISS、AIMA、SNS、MB Way，不用 Pix。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Among Brazilian friends in Portugal, keep você and toss in a warm pois é; do not default to European tu.",
+        "zh": "在葡國跟巴西朋友仍用 você，隨口回 pois é，不必一開口就改成歐洲的 tu。"
+      },
+      "2": {
+        "en": "Easy Brazilian Portuguese on a Lisbon or Porto line: after an SNS or junta matter, tack on combinado and keep moving.",
+        "zh": "里斯本或波爾圖線上的輕鬆巴西葡語：聽完 SNS 或區政府的事，補一句 combinado 再往下談。"
+      },
+      "3": {
+        "en": "Ordinary Brazilian speech in Portugal. Answer each point fully and keep NIF, AIMA and MB Way under local names.",
+        "zh": "在葡國的日常巴西葡語要把每點說完整，NIF、AIMA、MB Way 用當地名稱。"
+      },
+      "4": {
+        "en": "At Finanças or AIMA, lean toward o senhor or a senhora, and recap the autorização or NISS item first.",
+        "zh": "面對 Finanças 或 AIMA 改稱 o senhor，先把居留或 NISS 覆述清楚。"
+      },
+      "5": {
+        "en": "Business register: use titles, list the Portuguese IRS or contract points, and drop casual Brazilian fillers.",
+        "zh": "商務語域加上稱謂，條列葡國 IRS 或合約要點，少用巴西口頭禪。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual Brazilian stand-in for {owner} in Portugal: answer combinado, take the recado, and say you will pass it on.",
+        "zh": "在葡國替{owner}隨口代接，先回 combinado，收下 recado，並說會轉過去。"
+      },
+      "2": {
+        "en": "Stay on você, or shift to o senhor if they do. Note an MB Way detail or a callback, then say {owner} will be told.",
+        "zh": "跟著用 você，對方改稱謂再轉。記下 MB Way 或回撥資訊，並說會告訴{owner}。"
+      },
+      "3": {
+        "en": "Steady assistant. Answer the AIMA or SNS reason in a complete sentence, then explain you will update {owner}.",
+        "zh": "助理口氣穩當。先用完整句子回應 AIMA 或 SNS 來意，再說明會向{owner}彙報。"
+      },
+      "4": {
+        "en": "Careful formal Portuguese: restate the NIF or residence-permit point, then confirm {owner} will receive it.",
+        "zh": "較正式的葡語：重述 NIF 或居留許可要點，並確認會交到{owner}那裡。"
+      },
+      "5": {
+        "en": "High-register help for {owner}: titles on, Finanças details itemised, close as soon as the handoff is clear.",
+        "zh": "為{owner}用高階語氣加稱謂，把 Finanças 細節逐項對齊，交代轉交後即結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alô! E aí, tudo certo? Pode falar, tô aqui.",
+      "Alô, pois é, tô escutando, fica à vontade.",
+      "Alô. É do NIF ou da AIMA? Entendi, já anotei.",
+      "Bom dia, obrigado pela ligação. Compreendi, eu trato disso.",
+      "Bom dia, agradeço a chamada. Ficou tudo registado, obrigado."
+    ],
+    "a": [
+      "Alô! Ele não tá, fala comigo que eu passo o recado.",
+      "Alô, pois é, eu atendo por ele, deixa o recado.",
+      "Alô. Anoto a mensagem e levo até ele.",
+      "Bom dia, obrigado pela ligação. Fico com o recado para o {owner}.",
+      "Bom dia, agradeço a chamada. Encaminho os pontos ao {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "仍是巴西葡語底子，電話多用 Alô、você 與進行體 gerúndio，不要一開始就改成葡國的 Está? 或強制用 tu。",
+    "制度與支付要改用葡國名稱：稅號 NIF、社保 NISS、移民機構 AIMA（已取代 SEF）、國民醫療 SNS、付款 MB Way，不要把巴西的 CPF、INSS、Pix 套過來。",
+    "對陌生人與機關，葡國習慣較常說 o senhor／a senhora；巴西的 você 在本地有時會顯得較硬，可隨對方調整。",
+    "住址登記常經 Junta de Freguesia，醫療則是 número de utente 與 médico de família，與巴西的 SUS 用語不同。"
+  ],
+  "sources": [
+    "https://www.gov.pt/guias/como-pedir-o-nif-e-o-niss-para-pessoas-estrangeiras-em-portugal",
+    "https://aima.gov.pt/",
+    "https://www.sns24.gov.pt/",
+    "https://www.portaldasfinancas.gov.pt/",
+    "https://www.mbway.pt/"
+  ],
+  "uncertain": [
+    "巴西居民改用 telemóvel、autocarro 等歐洲詞彙的程度因人而異，電話裡兩套詞常並存。",
+    "AIMA 取代 SEF 後，口語仍有人說 SEF，實際機構名應以對方用詞為準。"
+  ]
+}

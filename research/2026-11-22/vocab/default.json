@@ -1,0 +1,432 @@
+{
+  "region": "default",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "bank transfer",
+          "en": "bank transfer"
+        },
+        {
+          "term": "debit card",
+          "en": "debit card, international default usage"
+        },
+        {
+          "term": "banking app",
+          "en": "banking app"
+        },
+        {
+          "term": "account",
+          "en": "bank account"
+        },
+        {
+          "term": "balance",
+          "en": "balance, international default usage"
+        },
+        {
+          "term": "credit card",
+          "en": "said simply as credit card only until a specific country is known"
+        },
+        {
+          "term": "ATM",
+          "en": "ATM, international default usage"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "front desk",
+          "en": "front desk, international default usage"
+        },
+        {
+          "term": "reception",
+          "en": "said simply as reception only until a specific country is known"
+        },
+        {
+          "term": "by the door",
+          "en": "by the door"
+        },
+        {
+          "term": "parcel locker",
+          "en": "parcel locker, international default usage"
+        },
+        {
+          "term": "post office",
+          "en": "post office"
+        },
+        {
+          "term": "courier",
+          "en": "courier"
+        },
+        {
+          "term": "tracking number",
+          "en": "tracking number, international default usage"
+        }
+      ],
+      "government": [
+        {
+          "term": "ID card",
+          "en": "ID card"
+        },
+        {
+          "term": "passport",
+          "en": "passport, international default usage"
+        },
+        {
+          "term": "tax office",
+          "en": "said simply as tax office only until a specific country is known"
+        },
+        {
+          "term": "residence permit",
+          "en": "residence permit"
+        },
+        {
+          "term": "city office",
+          "en": "city or municipal office (city office)"
+        },
+        {
+          "term": "driver's licence",
+          "en": "driver's licence, international default usage"
+        },
+        {
+          "term": "civil registry",
+          "en": "civil registry"
+        }
+      ],
+      "health": [
+        {
+          "term": "hospital",
+          "en": "hospital, international default usage"
+        },
+        {
+          "term": "clinic",
+          "en": "clinic, international default usage"
+        },
+        {
+          "term": "pharmacy",
+          "en": "pharmacy, international default usage"
+        },
+        {
+          "term": "emergency room",
+          "en": "emergency department (emergency room)"
+        },
+        {
+          "term": "appointment",
+          "en": "appointment"
+        },
+        {
+          "term": "prescription",
+          "en": "said simply as prescription only until a specific country is known"
+        },
+        {
+          "term": "health insurance",
+          "en": "said simply as health insurance only until a specific country is known"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile plan",
+          "en": "mobile plan, international default usage"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid, international default usage"
+        },
+        {
+          "term": "SIM card",
+          "en": "SIM card"
+        },
+        {
+          "term": "number porting",
+          "en": "number porting, international default usage"
+        },
+        {
+          "term": "data plan",
+          "en": "data plan"
+        },
+        {
+          "term": "broadband",
+          "en": "broadband, international default usage"
+        },
+        {
+          "term": "carrier",
+          "en": "mobile operator (carrier)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "bank transfer",
+          "en": "bank transfer"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card, international default usage"
+        },
+        {
+          "term": "debit card",
+          "en": "debit card, international default usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, international default usage"
+        },
+        {
+          "term": "QR payment",
+          "en": "QR payment where it exists"
+        },
+        {
+          "term": "mobile wallet",
+          "en": "mobile wallet"
+        },
+        {
+          "term": "card payment",
+          "en": "card payment, international default usage"
+        }
+      ],
+      "transport": [
+        {
+          "term": "bus",
+          "en": "bus, international default usage"
+        },
+        {
+          "term": "train",
+          "en": "said simply as train only until a specific country is known"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi, international default usage"
+        },
+        {
+          "term": "metro",
+          "en": "metro / subway where it exists"
+        },
+        {
+          "term": "ride-hailing",
+          "en": "ride-hailing app"
+        },
+        {
+          "term": "ticket",
+          "en": "ticket"
+        },
+        {
+          "term": "station",
+          "en": "station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartment",
+          "en": "apartment, international default usage"
+        },
+        {
+          "term": "reception",
+          "en": "reception"
+        },
+        {
+          "term": "mailbox",
+          "en": "mailbox, international default usage"
+        },
+        {
+          "term": "intercom",
+          "en": "intercom, international default usage"
+        },
+        {
+          "term": "building manager",
+          "en": "said simply as building manager only until a specific country is known"
+        },
+        {
+          "term": "access card",
+          "en": "access card"
+        },
+        {
+          "term": "front door",
+          "en": "front door"
+        }
+      ],
+      "school": [
+        {
+          "term": "school",
+          "en": "school"
+        },
+        {
+          "term": "kindergarten",
+          "en": "kindergarten, international default usage"
+        },
+        {
+          "term": "primary school",
+          "en": "said simply as primary school only until a specific country is known"
+        },
+        {
+          "term": "teacher",
+          "en": "said simply as teacher only until a specific country is known"
+        },
+        {
+          "term": "homework",
+          "en": "homework, international default usage"
+        },
+        {
+          "term": "pickup",
+          "en": "school pickup"
+        },
+        {
+          "term": "tuition",
+          "en": "extra classes, if relevant locally (tuition)"
+        }
+      ],
+      "money": [
+        {
+          "term": "local currency",
+          "en": "use the country's currency name, do not assume US dollars (local currency)"
+        },
+        {
+          "term": "thousand",
+          "en": "thousand, or the local large unit"
+        },
+        {
+          "term": "bank transfer",
+          "en": "transfer (bank transfer), international default usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, international default usage"
+        },
+        {
+          "term": "change",
+          "en": "change, international default usage"
+        },
+        {
+          "term": "fee",
+          "en": "fee"
+        },
+        {
+          "term": "amount",
+          "en": "amount"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, generic English"
+        },
+        {
+          "term": "this afternoon",
+          "en": "this afternoon, generic English"
+        },
+        {
+          "term": "this evening",
+          "en": "this evening, in the generic fallback phrasing when no local clock-word is offered"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, generic English"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, generic English"
+        },
+        {
+          "term": "after work",
+          "en": "after work, until a local phrase is known"
+        },
+        {
+          "term": "this week",
+          "en": "this week, generic English"
+        }
+      ],
+      "work": [
+        {
+          "term": "at work",
+          "en": "at work, international default usage"
+        },
+        {
+          "term": "finish work",
+          "en": "finish work, international default usage"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, generic English"
+        },
+        {
+          "term": "leave",
+          "en": "leave, international default usage"
+        },
+        {
+          "term": "manager",
+          "en": "manager"
+        },
+        {
+          "term": "company",
+          "en": "company, international default usage"
+        },
+        {
+          "term": "business trip",
+          "en": "business trip, international default usage"
+        },
+        {
+          "term": "work from home",
+          "en": "working from home, the generic fallback phrasing when no local term such as home office is offered"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Zelle",
+      "use_instead": "a local bank transfer or the local wallet name, once the country is known",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "PayNow",
+      "use_instead": "local instant-pay name, if any",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "local wallet or bank transfer",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "local transfer system",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "checking account 當全球預設",
+      "use_instead": "account, current account, or the local term once the country is known",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "NHS 當全球醫保",
+      "use_instead": "local health system or insurance name",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "the local housing term",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "dollar 預設為美元",
+      "use_instead": "name the local currency when it is known",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Social Security number",
+      "use_instead": "the local ID name; do not ask for long ID numbers on a call",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "ZIP code",
+      "use_instead": "postcode or the local postal-code name",
+      "where_it_is_from": "US"
+    }
+  ],
+  "sources": [
+    "https://www.universal-postal-union.org/",
+    "https://www.who.int/",
+    "https://www.iban.com/"
+  ],
+  "uncertain": [
+    "此區是國際預設，沒有單一國家的口語；一確定對方所在國家，應改用該區詞彙。",
+    "支付與證件名稱差異極大，預設檔只給中性詞，避免誤用某一國系統名。"
+  ]
+}

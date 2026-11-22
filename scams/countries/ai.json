@@ -1,0 +1,82 @@
+{
+  "name": "Anguilla",
+  "name_local": "Anguilla",
+  "iso": "ai",
+  "calling_code": "+1-264",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Anguilla's Financial Intelligence Unit publishes advisories, and the ECCB has warned residents of the whole currency union, Anguilla included, about unsolicited prize and investment approaches.",
+  "cross_border_note": "Anguilla (+1-264) shares the NANP with the US and other Caribbean islands, so lookalike +1 numbers from elsewhere in the Eastern Caribbean or North America are hard to tell apart from local ones.",
+  "scams": [
+    {
+      "id": "ai_eccu_prize_win",
+      "typology": "prize_lottery",
+      "name": "Unsolicited prize win needing a fee",
+      "name_en": "ECCB-flagged prize notice asking an Anguillian to pay before collecting",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "prize claim",
+        "processing fee",
+        "winning notification"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay a fee to release",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "claim your winnings",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A stranger announces a prize or lottery win the owner never entered and asks for a processing fee or bank details before release.",
+      "legit_en": "The ECCB urges residents to protect themselves against financial scams; Anguilla's FIU posts current advisories to check against.",
+      "bait_tactics": [
+        "Ask which draw was entered and on what date, then keep asking for the paper confirmation",
+        "Say any fee would have to go through a branch teller in The Valley first"
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+        "https://www.fiu.gov.ai/notices/advisories"
+      ]
+    },
+    {
+      "id": "ai_eccu_investment_pitch",
+      "typology": "investment_group_scam",
+      "name": "Unlicensed investment offer",
+      "name_en": "Unlicensed high-return investment pitch flagged across the ECCU",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed returns",
+        "investment club",
+        "crypto trading"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "guaranteed high return",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "recruit others",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or chat contact promotes a scheme promising quick, guaranteed returns and pushes the owner to send money or recruit friends.",
+      "legit_en": "ECCB urges checking whether a firm is licensed before investing; licensed firms do not guarantee returns.",
+      "bait_tactics": [
+        "Ask for the firm's licence number and regulator, then ask again slowly",
+        "Say the family accountant handles every investment decision"
+      ],
+      "sources": [
+        "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+      ]
+    }
+  ]
+}

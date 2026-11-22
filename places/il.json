@@ -1,0 +1,771 @@
+{
+  "region": "il",
+  "countries": [
+    "il"
+  ],
+  "region_name_zh": "以色列",
+  "region_name": "Israel",
+  "languages": [
+    {
+      "code": "he",
+      "use": "main"
+    },
+    {
+      "code": "ar",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Use Hebrew (he) by default; Arabic for businesses in Arab towns and many East Jerusalem/Galilee shops; English is widely understood and acceptable as a fallback; Russian is common among older staff in some cities.",
+  "english_ok": "often — Most younger Israelis and tourist-facing businesses speak good English; less at small shops, older staff and government offices.",
+  "politeness": "Informal and direct; 'Shalom' and get to the point; first names are normal; say you call on behalf of someone; 'toda' to close — overt formality is not expected.",
+  "name_tip": "Bookings go under family name or first name; Hebrew systems store names in Hebrew letters, so spell the surname; clinics also ask the ID number (owner only).",
+  "phone_tip": "Mobile 10 digits starting 05 (050-123-4567 style, +972 drops the 0); landlines 02/03/04/08/09 plus 7 digits; star short codes (*1234 style) for businesses; SMS confirmations standard.",
+  "time_tip": "24-hour clock in writing; spoken 'shmone va-hetsi' = 8:30, 'reva le-shmone' = 7:45, 'sheva va-reva' = 7:15; context (ba-erev/ba-boker) decides AM/PM — read back as 24-hour.",
+  "number_tip": "Hebrew numbers have gender (masculine/feminine forms); phone numbers read in groups (050-123-4567); prices in shekels; Western digits used everywhere.",
+  "avoid_calling": "Avoid Friday afternoon through Saturday night (Shabbat) for most Jewish-owned businesses, Jewish holidays (Rosh Hashanah, Yom Kippur — nearly everything shuts), and calls after 21:00; for Arab-owned businesses avoid Friday noon prayer and Ramadan iftar.",
+  "closed_days": "Working week Sunday–Thursday, Friday half day; Shabbat (Friday sunset to Saturday nightfall) closes most shops, offices and public transport, though many Tel Aviv restaurants open; Jewish holidays close offices; Muslim and Christian businesses may close Friday or Sunday instead.",
+  "booking_channels": "Restaurants via Tabit and Ontopo; delivery via Wolt and 10bis; health via the Kupat Holim apps (Clalit, Maccabi, Meuhedet, Leumit) and call centres; taxis via Gett and Yango; government via gov.il online queues; payments by card and Bit.",
+  "voice_menu": "Health funds, banks, telecoms, Israel Post and government use Hebrew IVR with Arabic/Russian/English options; restaurants and small businesses answer in person or send booking links.",
+  "callback_habits": "Booking platforms send SMS confirmations with a link to change or cancel; clinics send SMS reminders; small businesses use WhatsApp heavily.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "導覽、景點與活動多網站預購；週五下午與週六部分景點休息或縮短時間。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Open on Shabbat or not"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Group minimum"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "kids_detail",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Activity and date",
+        "Number of adults and children's ages",
+        "Language of the guide",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "理髮、美甲、美容多用 App 或 WhatsApp 預約，電話也通；週五多只做上午，週六多數休息。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cancellation fee for no-shows"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Booking via an online scheduling link"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Treatment",
+        "Preferred stylist",
+        "Day and time (Friday mornings fill first)",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消多透過原平台連結或 SMS 回覆；部分店家晚取消會收費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation fee"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Use the link in the confirmation SMS"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original date and time",
+        "Name on the booking",
+        "New time wanted",
+        "Mobile number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "多數人看診經健康基金（Kupat Holim：Clalit、Maccabi、Meuhedet、Leumit）App、網站或熱線預約；私人診所電話可約，會問屬於哪個健康基金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Book through the health fund app or call centre instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist requires referral (hafnaya) from the family doctor"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Teudat Zehut (ID) number — used for almost every booking"
+        }
+      ],
+      "usually_asked": [
+        "Which health fund the patient belongs to",
+        "Family doctor, specialist or test",
+        "Referral available",
+        "Patient name and ID",
+        "Mobile number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、健康基金熱線多為星號短碼（如 *1234 類），先過希伯來語語音選單，也提供阿拉伯語、俄語、英語。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Choose language in the IVR (Hebrew, Arabic, Russian, English)"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Customer or line number",
+        "ID check",
+        "Problem description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多經 gov.il 線上預約排號，人口局（Population Authority）辦事須先預約；學校與幼兒園報名走市政府網站。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Appointment only via gov.il online queue"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no",
+        "time"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Teudat Zehut number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or school question",
+        "Applicant or child details",
+        "Reference number",
+        "Name and mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、清潔多靠推薦或平台，電話直約；地址要街名、門牌、樓層、公寓號與門禁密碼。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Landlord approval for repairs (tenants)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks building entry code"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "Street, number, floor, flat, entry code",
+        "Day and time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店英語通行；以色列居民與外國遊客的增值稅處理不同，入住會看護照與簽證；安息日電梯（Shabbat elevator）與餐飲安排可能不同。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "VAT exemption for foreign tourists with passport and visa"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Shabbat check-out time and kosher meal arrangements"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or ID number, or card number"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults and children",
+        "Room type",
+        "Guest name",
+        "Phone or email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間要特別問週五（ערב שבת）與週六晚（מוצ״ש）時段，節日前後也會改。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Friday hours shortened, Saturday closed or opens after Shabbat"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What you want to know",
+        "Which branch",
+        "Which day (Friday/Saturday hours differ)"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "動物醫院與美容可電話預約，大城市有 24 小時急診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination booklet and chip required for boarding"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal, breed, size and age",
+        "Service needed",
+        "Day and time",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 Yad2 等平台與仲介，看房要預約；仲介費與擔保（ערבות）常被問到。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Broker fee and guarantees (bank guarantee, cheques)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID copy or payslips"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "Rooms, floor, budget, entry date",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "車廠（musach）與手機維修可電話約，汽車保養多要預約；週五早收、週六休。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Diagnosis fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts ordering takes days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave phone passcode"
+        }
+      ],
+      "usually_asked": [
+        "Car model and plate, or device model",
+        "Problem description",
+        "Drop-off time",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "以色列訂位大量走 Tabit、Ontopo 等平台，電話仍可訂；週五下午到週六晚安息日（Shabbat）許多潔食（kosher）餐廳不營業，非潔食餐廳則照常。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed on Shabbat (kosher certificate) — reopens Saturday night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table returned after a set time slot (e.g. 2 hours)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Booking link sent by SMS from Tabit or Ontopo"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee a large group"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (dinner usually 19:30–21:30)",
+        "Number of diners, children and high chair",
+        "Inside, outside or bar",
+        "Name and mobile",
+        "Kosher or dietary needs"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "麵包店、蛋糕店、肉鋪與花店常接電話訂貨；安息日與節日前（週四、週五上午）最忙，要提早訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment via Bit or card for custom cakes"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pickup only before Shabbat on Friday"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests card number by phone"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Pickup day and time",
+        "Name and mobile",
+        "Kosher requirements"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送以 Wolt 為主，餐券平台 10bis 用於上班族；直接打電話叫外帶仍常見，潔食店安息日不營業。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Order through Wolt instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Minimum order for delivery"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "allergy",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number by phone"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantities",
+        "Pickup time or delivery address",
+        "Name and mobile",
+        "Payment (card, Bit, cash)"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "以色列郵政（Israel Post）與快遞多以網站、App、SMS 查件；包裹常送到取件點。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Track on the website or SMS link"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number or SMS code to collect"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name and mobile",
+        "Pickup point or address"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 Gett 或 Yango App；安息日大眾運輸停駛，計程車照常但加價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Night/Shabbat tariff applies"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or flight",
+        "Passengers and bags",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "he": {
+      "appointment_words": [
+        "לקבוע תור",
+        "תור לרופא",
+        "תור לספר",
+        "טיפול לרכב",
+        "ייעוץ"
+      ],
+      "booking_words": [
+        "להזמין שולחן",
+        "הזמנת מקום",
+        "הזמנת חדר",
+        "אישור הזמנה",
+        "שריון מקום"
+      ],
+      "change_words": [
+        "להזיז את התור",
+        "ביטול הזמנה",
+        "לשנות שעה",
+        "לדחות למחר",
+        "חצי שעה אחר כך"
+      ],
+      "date": [
+        "היום",
+        "מחר",
+        "מחרתיים",
+        "ביום חמישי הקרוב",
+        "25.11",
+        "25 בנובמבר"
+      ],
+      "false_friends": [
+        "קומה 3",
+        "דירה 12",
+        "כניסה ב",
+        "קו 5",
+        "מנה 2",
+        "טיפול 60 דק׳"
+      ],
+      "inquiry_words": [
+        "עד מתי פתוח?",
+        "פתוח בשבת?",
+        "יש משלוחים?",
+        "כמה עולה?",
+        "אפשר לשלם בביט?"
+      ],
+      "name": [
+        "על שם כהן",
+        "משפחת לוי",
+        "השם המלא",
+        "על שם החברה",
+        "שם המטופל"
+      ],
+      "order_words": [
+        "הזמנה לאיסוף",
+        "משלוח",
+        "טייק אוויי",
+        "הזמנה מראש",
+        "להזמין עוגה"
+      ],
+      "party": [
+        "שולחן ל-4",
+        "אנחנו 5",
+        "2 מבוגרים וילד",
+        "זוג",
+        "קבוצה של 10"
+      ],
+      "phone": [
+        "050-123-4567",
+        "052 123 4567",
+        "+972 50 123 4567",
+        "טלפון 12345678"
+      ],
+      "time": [
+        "בשמונה וחצי בערב",
+        "20:30",
+        "רבע לשמונה",
+        "שבע ורבע",
+        "אחרי צאת השבת",
+        "בצהריים"
+      ]
+    },
+    "ar": {
+      "appointment_words": [
+        "حجز دور",
+        "دور عند الدكتور",
+        "موعد حلاق",
+        "تصليح سيارة",
+        "استشارة"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "بدي أحجز",
+        "حجز غرفة",
+        "تأكيد الحجز",
+        "حجز رحلة"
+      ],
+      "change_words": [
+        "تأجيل الدور",
+        "إلغاء الحجز",
+        "تغيير الساعة",
+        "نخليها لبكرا",
+        "بعد نص ساعة"
+      ],
+      "date": [
+        "اليوم",
+        "بكرا",
+        "بعد بكرا",
+        "يوم الخميس",
+        "25/11",
+        "٢٥ تشرين الثاني"
+      ],
+      "false_friends": [
+        "طابق 3",
+        "شقة 12",
+        "مدخل ب",
+        "خط 5",
+        "وجبة 2",
+        "مساج ساعة"
+      ],
+      "inquiry_words": [
+        "لوقتيش فاتحين؟",
+        "فاتحين السبت؟",
+        "في توصيل؟",
+        "قديش السعر؟",
+        "بتقبلوا فيزا؟"
+      ],
+      "name": [
+        "على اسم محمد",
+        "عائلة خليل",
+        "الاسم الكامل",
+        "على اسم الشركة",
+        "اسم المريض"
+      ],
+      "order_words": [
+        "طلبية",
+        "توصيل",
+        "تيك أواي",
+        "طلب مسبق",
+        "طلب كعكة"
+      ],
+      "party": [
+        "طاولة لـ 4",
+        "إحنا 5",
+        "2 كبار وولد",
+        "شخصين",
+        "مجموعة 10"
+      ],
+      "phone": [
+        "050-123-4567",
+        "054 123 4567",
+        "+972 54 123 4567",
+        "تلفون 12345678"
+      ],
+      "time": [
+        "الساعة ثمانية ونص بالليل",
+        "20:30",
+        "ثمانية إلا ربع",
+        "سبعة وربع",
+        "الظهر",
+        "بعد المغرب"
+      ]
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schema": 1,
+  "code": "tl",
+  "countries": [
+    "tl"
+  ],
+  "name": {
+    "en": "Timor-Leste",
+    "native": "Timor-Leste",
+    "zh": "東帝汶"
+  },
+  "lang": "pt-BR",
+  "hello": {
+    "hello": "Alô?",
+    "hello_again": "Alô? Pois, estou?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, a guard or a neighbour",
+    "zh": "包裹交給門閘、保全或鄰居"
+  },
+  "readback": {
+    "en": "Short number clusters; dates day-month on official papers.",
+    "zh": "東帝汶號碼分小段複誦；公文日期先日後月。"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request or a 'wrong transfer' is a scam",
+    "zh": "要銀行 PIN 或 OTP，或說轉帳轉錯要你退款，都是詐騙"
+  },
+  "habits": {
+    "en": "O senhor/a senhora with strangers, você once casual. Follow Portuguese.",
+    "zh": "對陌生人用 o senhor／a senhora，熟了用 você。跟著葡語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the mobile signal dropping, the bank app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如手機訊號不穩、銀行 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Dili friend: tu or você as they do, lively Portuguese, a 'tudo diak' if they mix Tetum, then one more beat, varied.",
+        "zh": "像帝力的朋友：跟對方用 tu 或 você，活潑葡語，若夾德頓語可回 tudo diak，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Warm and unhurried: você unless they use tu; after they speak, add a kind 'está bem', varied.",
+        "zh": "溫暖不趕：對方不用 tu 就用 você；聽完加一句 está bem，每次換。"
+      },
+      "3": {
+        "en": "Everyday East Timorese Portuguese. Full sentence after each point, not a lone sim.",
+        "zh": "東帝汶日常葡語。每點用完整句回，不要只回 sim。"
+      },
+      "4": {
+        "en": "On a Dili office line, open with o senhor or a senhora, recap the errand (compreendi), and use você only if they do.",
+        "zh": "帝力機關電話先用 o senhor 或 a senhora，再覆述來意（compreendi）；對方改 você 再轉。"
+      },
+      "5": {
+        "en": "Formal Portuguese for ministries or banks: titles, compact; close each item (ficou escrito), varied.",
+        "zh": "對部會或銀行的正式葡語：用職稱，簡潔；每件收束（如 ficou escrito），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s bright helper, informal: react, then say you will carry the recado (eu transmito), varied.",
+        "zh": "{owner}開朗的小幫手，口吻輕鬆：先反應，再說會帶 recado（如 eu transmito），每次換。"
+      },
+      "2": {
+        "en": "Cover for {owner} as a Dili secretary would: keep o senhor/a senhora, gather the matter in Portuguese, then leave a written note.",
+        "zh": "像帝力秘書代{owner}接：沿用 o senhor／a senhora，用葡語弄清事由，再留下字條。"
+      },
+      "3": {
+        "en": "Answer the point in a full Portuguese line, then say it will be delivered to {owner}. Avoid a bare ok or tá.",
+        "zh": "用完整葡語句回答重點，再說會交到{owner}。不要只回 ok 或 tá。"
+      },
+      "4": {
+        "en": "For a ministry or banca móvel desk, stay with o senhor/a senhora, state the purpose, and confirm the recado will be kept.",
+        "zh": "接部會或 banca móvel 櫃台，維持 o senhor／a senhora，說來意，並確認 recado 留下。"
+      },
+      "5": {
+        "en": "When the caller is formal, keep Portuguese titles, pin the facts first, then confirm the message will reach {owner}.",
+        "zh": "對方很正式時，保留葡語職稱，先對齊事實，再確認訊息會到{owner}。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "banca móvel",
+      "transferência",
+      "balcão",
+      "BNU"
+    ],
+    "delivery": [
+      "portão",
+      "segurança",
+      "vizinho",
+      "correios"
+    ],
+    "government": [
+      "bilhete de identidade",
+      "identidade única",
+      "passaporte",
+      "eleitor"
+    ],
+    "health": [
+      "hospital",
+      "clínica",
+      "consulta",
+      "receita"
+    ],
+    "telecom": [
+      "Timor Telecom",
+      "pré-pago",
+      "carregamento"
+    ],
+    "payment": [
+      "banca móvel",
+      "transferência",
+      "levantamento"
+    ],
+    "transport": [
+      "táxi",
+      "microlet",
+      "boleia"
+    ],
+    "housing": [
+      "renda",
+      "senhorio",
+      "eletricidade"
+    ]
+  },
+  "status": "draft"
+}

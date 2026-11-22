@@ -1,0 +1,86 @@
+{
+  "country": "gd",
+  "parent": "us",
+  "name": {
+    "en": "Grenada",
+    "native": "Grenada",
+    "zh": "格瑞那達"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good afternoon",
+    "hello_again": "Afternoon, hello?"
+  },
+  "delivery": {
+    "en": "Arrange collection with Grenada Postal Corporation, or use one of their local parcel locations",
+    "zh": "可向格瑞那達郵政預約取件，或到他們的當地包裹點領"
+  },
+  "readback": {
+    "en": "Read a 473 number as 3-3-4; 0 as zero; East Caribbean dollars; 12-hour time, day then month",
+    "zh": "473 號碼按 3-3-4 唸，0 唸 zero；金額用東加勒比元；12 時制，先日後月"
+  },
+  "fraud": {
+    "en": "A social-media investment ad that shifts you to WhatsApp and promises guaranteed returns is a scam",
+    "zh": "社群廣告談投資，再把你拉到 WhatsApp 或 Telegram，並保證穩賺，都是詐騙"
+  },
+  "habits": {
+    "en": "Good afternoon with strangers. Say mobile, not cell. Money is in East Caribbean dollars. Day before month.",
+    "zh": "對生人說 Good afternoon。說 mobile 不說 cell。貨幣是東加勒比元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "I was about to book a Grenada Postal Corporation collection, and the bank app will not open.",
+    "zh": "正要向格瑞那達郵政預約取件，銀行 App 卻打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "account"
+    ],
+    "delivery": [
+      "Grenada Postal Corporation",
+      "parcel location",
+      "collection",
+      "Burns Point"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "package locker",
+      "reason": {
+        "zh": "美國包裹櫃；格瑞那達郵政寫的是預約取件與當地包裹點"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是格瑞那達投資或銀行的慣用詞"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國健保，不宜套進本地電話"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep a polite, unhurried tone with strangers. Use Grenada Postal Corporation and East Caribbean dollar wording; do not echo US tax, Medicare or locker scripts.",
+    "zh": "對生人保持客氣、不趕。用格瑞那達郵政與東加勒比元，不要跟著說美國稅務、Medicare 或包裹櫃。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://grenadapostal.com/"
+  ],
+  "uncertain": [
+    "上門投遞有多常見，郵政網站主打預約取件與包裹點，沒有全國比例。",
+    "電話裡投資詐騙與社群廣告哪個較多，CSIRT 文主寫社群與即時通。"
+  ]
+}

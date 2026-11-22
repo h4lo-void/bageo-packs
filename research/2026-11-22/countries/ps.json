@@ -1,0 +1,82 @@
+{
+  "country": "ps",
+  "parent": "levant",
+  "name": {
+    "en": "Palestine",
+    "native": "فلسطين",
+    "zh": "巴勒斯坦"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the door, a neighbour, or a courier point",
+    "zh": "包裹交門口、鄰居，或到快遞點領取"
+  },
+  "readback": {
+    "en": "05 mobiles often go in short groups; amounts may be quoted in shekels, so confirm",
+    "zh": "手機常以 05 開頭、分短組唸；日常金額常報新謝克爾，要確認"
+  },
+  "fraud": {
+    "en": "A PalPay or Jawwal OTP request, or a fake delivery fee, is a scam",
+    "zh": "冒充 PalPay 或 Jawwal 要驗證碼，或假包裹補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Palestinian Arabic; titles such as أستاذ. Do not default to CliQ, Whish or Qi Card.",
+    "zh": "用巴勒斯坦阿拉伯語，稱謂用 أستاذ。不要套用 CliQ、Whish、Qi Card。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a wallet app, an SMS code that never arrives, missing glasses, or weak signal.",
+    "zh": "卡在錢包 App、簡訊碼沒到、找不到眼鏡或收訊差。"
+  },
+  "vocab": {
+    "bank": [
+      "PalPay",
+      "OTP",
+      "محفظة"
+    ],
+    "delivery": [
+      "الباب",
+      "الجيران",
+      "شركة الشحن"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CliQ",
+      "reason": {
+        "en": "Jordanian instant payments",
+        "zh": "約旦即時付款"
+      }
+    },
+    {
+      "word": "Whish Money",
+      "reason": {
+        "en": "Lebanese wallet",
+        "zh": "黎巴嫩錢包"
+      }
+    },
+    {
+      "word": "Qi Card",
+      "reason": {
+        "en": "Iraqi payment card",
+        "zh": "伊拉克支付卡"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Stay in Palestinian Levantine Arabic. Keep titles and brief blessings; drop Jordanian, Lebanese and Iraqi payment brands.",
+    "zh": "用巴勒斯坦黎凡特阿拉伯語。保留稱謂和短祝福；不用約旦、黎巴嫩或伊拉克的支付品牌。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.jawwal.ps/ar/individuals/support/information-security",
+    "https://felesteen.news/post/182296/%D8%A8%D8%A7%D9%84-%D8%A8%D8%A7%D9%8A-%D8%AA%D8%AD%D8%B0%D8%B1-%D9%85%D8%B4%D8%AA%D8%B1%D9%83%D9%8A%D9%87%D8%A7-%D9%85%D9%86-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84"
+  ],
+  "uncertain": [
+    "日常金額常以新謝克爾報價是生活習慣觀察，不同城鎮與場合是否一律如此，來源並未規定，需要當場確認。",
+    "取件點名稱各地不一，未把單一業者寫成唯一標準。"
+  ]
+}

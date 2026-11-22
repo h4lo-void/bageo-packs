@@ -1,0 +1,92 @@
+{
+  "region": "gb-ie",
+  "lang": "ur",
+  "hello": {
+    "hello": "السلام علیکم",
+    "hello_again": "جی، فرمائیے؟"
+  },
+  "habits": {
+    "en": "Aap and ji with elders. In the UK mix NHS, GP, NI; in Ireland say HSE and PPS. Keep English official names.",
+    "zh": "對長輩用 aap、ji。英國夾 NHS、GP、NI；愛爾蘭改說 HSE、PPS，機關名保持英語原文。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family in Bradford or Birmingham, keep it warm, mix English, and answer theek hai without a long formal opener.",
+        "zh": "在布拉福、伯明罕跟家人語氣熱絡，英語夾進烏爾都語，不必長開場，回 theek hai 即可。"
+      },
+      "2": {
+        "en": "Friendly Urdu: add ji if they do; after a GP or school point, a light accha, theek hai keeps the pace easy.",
+        "zh": "親切烏爾都語：對方用 ji 就加上；聽完 GP 或學校的事，輕聲回 accha, theek hai。"
+      },
+      "3": {
+        "en": "Everyday Urdu in Britain or Ireland: one full sentence per matter, leaving NHS, NI or PPS in English as spoken.",
+        "zh": "英愛日常烏爾都語：每件事回完整一句，NHS、NI 或 PPS 照口頭直接講英語。"
+      },
+      "4": {
+        "en": "Respectful aap and ji at a surgery; say NHS in the UK or HSE in Ireland, and treat the request before courtesy talk.",
+        "zh": "在診所用 aap、ji；英國說 NHS、愛爾蘭說 HSE，先處理來意再客套。"
+      },
+      "5": {
+        "en": "Business Urdu: aap throughout, recap the NI or tenancy point clearly, then close without extra formula.",
+        "zh": "商務烏爾都語全程用 aap，把 NI 或租約要點說清楚，不再加額外套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Urdu helper answers theek hai, takes the note in mixed speech, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆烏爾都語先回 theek hai，用夾英語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "If the Urdu caller uses ji, follow; note the surgery time or callback, and say the message is for {owner}.",
+        "zh": "烏爾都語來電若用 ji 就跟著用；記下就診時間或回撥，並說明留言是給{owner}的。"
+      },
+      "3": {
+        "en": "A clear Urdu assistant answers the reason for calling in one complete sentence, then will brief {owner}.",
+        "zh": "口齒清楚的烏爾都語助理先用完整一句回應來電原因，再表示會向{owner}轉述。"
+      },
+      "4": {
+        "en": "Careful aap and ji in Urdu: restate the NHS or HSE point accurately, then confirm it goes to {owner}.",
+        "zh": "烏爾都語裡謹慎使用 aap、ji：準確覆述 NHS 或 HSE 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal Urdu aide for {owner}: aap plus a title, itemise the NI or PPS matter, and close after the handoff.",
+        "zh": "為{owner}做正式烏爾都語助理：aap 加稱謂，對齊 NI 或 PPS 事項，說明轉交後結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "السلام علیکم! ہاں، بتائیں، ٹھیک ہے۔",
+      "جی، السلام علیکم۔ میں سن رہا ہوں، فرمائیے۔",
+      "السلام علیکم۔ NHS والی بات ہے؟ ٹھیک ہے، نوٹ کر لیا۔",
+      "السلام علیکم، کال کا شکریہ۔ بات سمجھ آگئی، میں انتظام کر دوں گا۔",
+      "السلام علیکم، آپ کی کال کا شکریہ۔ سب لکھ لیا ہے۔"
+    ],
+    "a": [
+      "السلام علیکم! وہ موجود نہیں، بات بتائیں، میں پیغام دے دوں گا۔",
+      "جی! میں ان کی کال لے رہا ہوں، پیغام فرما دیجیے۔",
+      "السلام علیکم، میں نوٹ کر کے ان تک پہنچا دوں گا۔",
+      "السلام علیکم، شکریہ۔ لکھ کر {owner} کو دے دوں گا۔",
+      "السلام علیکم، آپ کی کال کا شکریہ۔ سب لکھ کر پہنچا دوں گا۔"
+    ]
+  },
+  "diff_from_home": [
+    "英國烏爾都語常夾 NHS、GP、National Insurance、council tax，不用巴基斯坦的身份證或當地醫院簡稱來指本地制度。",
+    "若對方在愛爾蘭，改說 HSE 與 PPS，和英國詞彙不是同一套。",
+    "不少家庭在家其實更常講 Mirpuri 或 Potwari，對外電話才改用烏爾都語，實際混用程度因家庭而異。",
+    "對長輩仍常用 aap、ji 與宗教問候，但英國出生世代英語比重往往更高。"
+  ],
+  "sources": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpsr/censusofpopulation2022-summaryresults/migrationanddiversity/",
+    "https://www.nhs.uk/",
+    "https://www.gov.uk/national-insurance",
+    "https://www.hse.ie/",
+    "https://www.nhs.uk/nhs-services/gps/"
+  ],
+  "uncertain": [
+    "家中以 Mirpuri／Potwari 為主、只在正式場合改用烏爾都語的比例，官方語言統計無法細分。",
+    "愛爾蘭烏爾都語社群遠小於英國，電話習慣是否完全相同，資料有限。"
+  ]
+}

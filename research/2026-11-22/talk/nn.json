@@ -1,0 +1,332 @@
+{
+  "lang": "nn",
+  "backchannels": {
+    "direction": "In Nynorsk, ja, ok and nettopp keep the line moving; Eg skjønar marks following. Stacked ja, ja can sound impatient.",
+    "examples": [
+      {
+        "text": "Ja vel.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, greitt.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Okei.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Nettopp.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Eg skjønar.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ja, ja, greitt.",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "Sjølvsagt.",
+        "style": "polite",
+        "function": "agreement"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Er det sant? still occurs; Så leit å høyra and Det var synd are sympathetic murmurs that sit comfortably in Nynorsk.",
+    "examples": [
+      {
+        "text": "Er det verkeleg sant?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Seriøst, eller?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Så leit å høyra.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Det var synd å høyra.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Så hyggeleg!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratulerer med det.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Det blir vanskeleg.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Eg høyrer deg dårleg and Det er dårleg dekning are the Nynorsk forms of the usual mobile complaints.",
+    "examples": [
+      {
+        "text": "Eg høyrer deg dårleg.",
+        "style": "casual"
+      },
+      {
+        "text": "Eg høyrer deg ikkje så godt.",
+        "style": "casual"
+      },
+      {
+        "text": "Det er dårleg dekning her.",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du snakke litt høgare?",
+        "style": "casual"
+      },
+      {
+        "text": "Eg fekk ikkje med meg slutten.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Kan du seie det ein gong til is the everyday replay; stava covers a name, and a number is asked ein gong til.",
+    "examples": [
+      {
+        "text": "Kan du seie det ein gong til?",
+        "style": "casual"
+      },
+      {
+        "text": "Orsak, kan du gjenta det?",
+        "style": "polite"
+      },
+      {
+        "text": "Kan du seie namnet bokstav for bokstav?",
+        "style": "casual"
+      },
+      {
+        "text": "Kan du seie nummeret ein gong til? 12345678?",
+        "style": "casual"
+      },
+      {
+        "text": "Kva sa du no?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kven er det som ringjer and Kven snakkar eg med are the Nynorsk probes; du is normal. Name {owner}'s handset.",
+    "examples": [
+      {
+        "text": "Kven er det som ringjer?",
+        "style": "casual"
+      },
+      {
+        "text": "Kven snakkar eg med?",
+        "style": "casual"
+      },
+      {
+        "text": "Dette er telefonen til {owner}. Kven er det?",
+        "style": "polite"
+      },
+      {
+        "text": "Kven er det?",
+        "style": "casual"
+      },
+      {
+        "text": "Får eg spørja kva du heiter?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Orsak, du har fått feil nummer is a Nynorsk close; Det bur ingen her med det namnet covers a mismatched name.",
+    "examples": [
+      {
+        "text": "Orsak, du har fått feil nummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Det er feil nummer.",
+        "style": "casual"
+      },
+      {
+        "text": "Det bur ingen her med det namnet.",
+        "style": "polite"
+      },
+      {
+        "text": "Eg trur du har slått feil.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Eg gjev beskjed til {owner} and Eg seier ifrå are the Nynorsk promises; they do not set a return-call hour.",
+    "examples": [
+      {
+        "text": "Eg skal helsa.",
+        "style": "casual"
+      },
+      {
+        "text": "Eg gjev beskjed til {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Eg seier ifrå.",
+        "style": "casual"
+      },
+      {
+        "text": "Eg gjev beskjed.",
+        "style": "polite"
+      },
+      {
+        "text": "Eg seier det til henne.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nei takk, eg er ikkje interessert is the Nynorsk close; Vi treng det ikkje is the household variant, still brief.",
+    "examples": [
+      {
+        "text": "Nei takk, eg er ikkje interessert.",
+        "style": "polite"
+      },
+      {
+        "text": "Vi treng det ikkje, takk.",
+        "style": "polite"
+      },
+      {
+        "text": "Ikkje interessert, takk.",
+        "style": "casual"
+      },
+      {
+        "text": "Nei, det er ikkje noko for oss.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Nynorsk can follow a first no with Ikkje ring dette nummeret igjen, or a request to leave lista dykkar.",
+    "examples": [
+      {
+        "text": "Eg har allereie sagt nei. Ikkje ring dette nummeret igjen.",
+        "style": "polite"
+      },
+      {
+        "text": "Ta dette nummeret av lista dykkar, takk.",
+        "style": "polite"
+      },
+      {
+        "text": "Ikkje ring igjen.",
+        "style": "casual"
+      },
+      {
+        "text": "Dette er eit endeleg nei. Ikkje kontakt oss meir.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "du plus a first name is the modern default in Nynorsk too; De and Dykk are archaic, and titles are mostly official.",
+    "examples": [
+      {
+        "text": "Hei, Ola.",
+        "style": "casual"
+      },
+      {
+        "text": "Herr Hauge.",
+        "style": "polite"
+      },
+      {
+        "text": "Fru Bakke.",
+        "style": "polite"
+      },
+      {
+        "text": "Doktor Mo.",
+        "style": "polite"
+      },
+      {
+        "text": "Hei, dette er telefonen til {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Du, orsak…",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Even recast in Nynorsk, Samtalen din er viktig for oss still sounds like kundesenter copy, not a person at home.",
+    "examples": [
+      {
+        "text": "Takk for at du tok kontakt med oss.",
+        "style": "polite"
+      },
+      {
+        "text": "Korleis kan eg hjelpe deg i dag?",
+        "style": "polite"
+      },
+      {
+        "text": "Takk for at du ringjer, vi er her for å hjelpe.",
+        "style": "polite"
+      },
+      {
+        "text": "Tilfredsheita di er vår høgaste prioritet.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan eg hjelpe deg med noko meir?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Archaic De or Dykk toward an ordinary caller, a late ring, or a request for a fødselsnummer at the start all feel wrong.",
+    "examples": [
+      {
+        "text": "Er du gift? Kva tener du?",
+        "style": "casual"
+      },
+      {
+        "text": "Kven er du? Sei det no.",
+        "style": "casual"
+      },
+      {
+        "text": "Gje meg først adressa og fødselsnummeret ditt.",
+        "style": "polite"
+      },
+      {
+        "text": "Eg tek allereie opp denne samtalen.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://ordbokene.no/",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "新挪威語的電話語料很少；許多說法是依標準 Nynorsk 語法與 Språkråd 用詞，對應 Bokmål 習慣改寫，不是獨立電話語料庫統計。",
+    "口語常在 Bokmål 與 Nynorsk 之間切換，實際接電話未必只用純正 Nynorsk。",
+    "De／Dykk 作尊稱已屬古舊，本檔不以它為預設。"
+  ]
+}

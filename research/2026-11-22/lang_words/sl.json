@@ -1,0 +1,152 @@
+{
+  "lang": "sl",
+  "script": "latin",
+  "common_words": [
+    "sem",
+    "kaj",
+    "zakaj",
+    "tukaj",
+    "jutri",
+    "včeraj",
+    "zjutraj",
+    "zvečer",
+    "lahko",
+    "jaz",
+    "hvala",
+    "prosim",
+    "živjo",
+    "nasvidenje",
+    "tudi",
+    "še",
+    "nisem",
+    "moram",
+    "želim",
+    "narečeno",
+    "zdravnik",
+    "paket",
+    "danes",
+    "zdaj",
+    "ali",
+    "kako",
+    "kje",
+    "kam",
+    "vaš",
+    "naš",
+    "ta",
+    "tole",
+    "nič",
+    "vedno",
+    "nikoli",
+    "dobro",
+    "oprostite",
+    "številka",
+    "naslov",
+    "naročilo",
+    "zobozdravnik",
+    "dostava",
+    "jutrišnji",
+    "prihodnji",
+    "teden",
+    "mesec",
+    "gospod",
+    "gospa",
+    "seveda",
+    "ne vem"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sl/sl_50k.txt",
+  "shared_words": [
+    {
+      "word": "je",
+      "also_in": [
+        "cs",
+        "sk",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "da",
+      "also_in": [
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "ne",
+      "also_in": [
+        "cs",
+        "sk",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "se",
+      "also_in": [
+        "cs",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "na",
+      "also_in": [
+        "cs",
+        "sk",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "to",
+      "also_in": [
+        "cs",
+        "sk",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "dobro",
+      "also_in": [
+        "hr",
+        "sr",
+        "mk"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "hr",
+    "sr",
+    "cs",
+    "sk"
+  ],
+  "how_to_tell_apart": "Slovenian stands apart from Croatian and Serbian Latin with kaj (not što/šta), tukaj, jutri, lahko, živjo, nasvidenje and the future or copula forms sem/bom. Standard Slovenian does not use ć or đ, which are routine in Croatian and in Latin-script Serbian. Shared da, je, ne, se and dobro are too common across South Slavic to rely on. Czech and Slovak look even less alike once kaj/hvala/lahko are visible.",
+  "test_said": [
+    "Na upravni enoti bi oddal vlogo za novo osebno izkaznico še danes.",
+    "Paketomat pred trgovino noče sprejeti kode ki sem jo dobil po sporočilu.",
+    "Omaro morajo prinesti čez dvorišče ker vhodna vrata so preozka.",
+    "Zobobol se je ponoči poslabšal in iščem prvi prost termin pri vas.",
+    "Specialistični pregled kolena je bil preložen in prosim za nov datum.",
+    "Pošiljka z zdravili iz lekarniške službe še ni prispela k nam.",
+    "Ponudbe za življenjsko zavarovanje po telefonu ne sprejemam.",
+    "Članarine v fitnesu ne bom podaljšal zato me o akciji ne kličite."
+  ],
+  "test_not_enough": [
+    "Maja",
+    "ok",
+    "šest",
+    "bus"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sl/sl_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Slovene_alphabet",
+    "https://en.wikipedia.org/wiki/Slovene_language"
+  ],
+  "uncertain": [
+    "unique_letters is empty because č, š and ž also occur in Croatian, Serbian Latin, Czech and Slovak; discrimination has to come from the words, not the alphabet.",
+    "Some western Slovenian speakers borrow Croatian forms in casual speech; the list follows standard written Slovene as reflected in the subtitle frequency list."
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "region": "sg",
+  "lang": "fil",
+  "hello": {
+    "hello": "Hello po?",
+    "hello_again": "Hello po, yes?"
+  },
+  "habits": {
+    "en": "Taglish plus po/opo; Ma'am/Sir to employers; say MOM, work permit, MDW, MRT, EZ-Link; English in most homes.",
+    "zh": "講 Taglish，用 po／opo；對僱主稱 Ma'am；常說 MOM、工準、MRT、EZ-Link。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Filipino friends in Singapore, loose Taglish is fine; reply brightly, then add sige or okay, and switch the wording.",
+        "zh": "跟在新加坡的同鄉可用輕鬆 Taglish，先開朗接話再補 sige 或 okay，說法要換。"
+      },
+      "2": {
+        "en": "If they keep po, follow it; after they talk about a day off or the agency, add okay po, unhurried and slightly rephrased.",
+        "zh": "對方若一直用 po 就跟著用；聽完休息日或仲介的事，補 okay po，不催並換著說。"
+      },
+      "3": {
+        "en": "Daily Filipino in Singapore should be a full sentence: pick up each point with naintindihan ko, including MRT or EZ-Link.",
+        "zh": "在新加坡的日常菲律賓語要講完整：用 naintindihan ko 接住重點，也可帶 MRT、EZ-Link。"
+      },
+      "4": {
+        "en": "With MOM, an agency or the employer, keep po and Ma'am/Sir, complete and careful; acknowledge first, e.g. opo.",
+        "zh": "對 MOM、仲介或僱主保留 po 與 Ma'am／Sir，講完整、先應一口 opo 再談細節。"
+      },
+      "5": {
+        "en": "On work-permit or contract matters, stay formal with po and exact MOM terms (MDW, levy); close each item with naitala ko po.",
+        "zh": "談工準或合約時維持正式 po，MDW、levy 等 MOM 用語要準；各點用 naitala ko po 收束。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A cheerful pickup for {owner} in Singapore Taglish: short warm lines, then ipapasa ko, never the same phrasing twice.",
+        "zh": "代{owner}在新加坡接的輕快 Taglish：先熱絡短句，再說會 ipapasa ko，用詞不要重複。"
+      },
+      "2": {
+        "en": "Mirror po; thank them, write the note for {owner}, and close with itatala ko po or another gentle line.",
+        "zh": "跟著用 po，先致謝再記下要給{owner}的話，用 itatala ko po 一類收尾。"
+      },
+      "3": {
+        "en": "Handle it like a steady helper in a Singapore home: full-sentence reply, then confirm you will tell {owner}; no bare OK.",
+        "zh": "像新加坡家裡能辦事的人：先完整回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A discreet voice for {owner} with MOM or agencies: Ma'am/Sir plus po; restate the request, then ipapasa ko po.",
+        "zh": "代{owner}對 MOM 或仲介：Ma'am／Sir 加 po，先覆述來意，再說 ipapasa ko po。"
+      },
+      "5": {
+        "en": "For official MOM calls, keep po, titles and exact terms (work permit, MDW); confirm the relay to {owner} is naitala.",
+        "zh": "對 MOM 或較正式來電維持 po 與稱謂，工準、MDW 要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Kamusta sa Singapore? Anong balita riyan?",
+      "Hello po! Nandito po ako, sige, tuloy po.",
+      "Hello po. Tungkol po ba sa MOM? Naintindihan ko na.",
+      "Magandang araw po, salamat sa tawag. Opo, aasikasuhin ko po.",
+      "Magandang araw po. Naitala ko na po ang work permit, salamat."
+    ],
+    "a": [
+      "Hello! Wala si Ma'am ngayon, sabihin mo, ipapasa ko!",
+      "Hello po! Ako po ang sasagot, iwan po ang mensahe.",
+      "Hello po. Itatala ko po ito at ipapasa kay {owner}.",
+      "Magandang araw po, salamat sa tawag. Ipasa ko po ang mensahe.",
+      "Magandang araw po. Naitala ko po lahat, ipapasa ko kay {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "與僱主多用英語，同鄉講菲律賓語或 Taglish，並夾 MOM、work permit、MDW、MRT、EZ-Link 等新加坡詞。",
+    "對僱主與機構稱 Ma'am、Sir，並保留 po／opo；官方文件與安全協議常有英語－他加祿語對照。",
+    "休息日多在週日，話題常涉仲介、續約與匯款，與菲律賓本地家居對話不同。",
+    "不要把香港的 Octopus、勞工處直接套過來；新加坡對口是 MOM 與 EZ-Link 或 SimplyGo。"
+  ],
+  "sources": [
+    "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/key-facts",
+    "https://www.mom.gov.sg/-/media/mom/documents/publications/guides/mdw-handy-guide-english-tagalog.pdf",
+    "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-domestic-worker/employers-guide/contracts-and-safety-agreement",
+    "https://ejournal.maal.org.my/asjal/article/view/6"
+  ],
+  "uncertain": [
+    "家務移工在新加坡英語裡夾 Singlish（如 lah、can）的程度，因僱主家庭而異，不宜寫成全體特徵。",
+    "SimplyGo 與 EZ-Link 在口語中哪一個更常用，會隨支付方式改變，電話裡兩者都可能出現。"
+  ]
+}

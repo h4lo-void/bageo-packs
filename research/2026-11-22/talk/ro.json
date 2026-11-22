@@ -1,0 +1,264 @@
+{
+  "lang": "ro",
+  "backchannels": {
+    "direction": "Da and aha show listening; sigur and înțeleg agree; da, da, da said fast sounds impatient.",
+    "examples": [
+      {
+        "text": "Aha, deci așa.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Da, vă ascult.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Sigur.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Înțeleg.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Da, da, da.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Serios? or Nu zău! for surprise; îmi pare rău for sympathy; ce bine for good news.",
+    "examples": [
+      {
+        "text": "Serios?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Nu zău!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Îmi pare foarte rău.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Ce bine!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Va fi cam greu.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (nu vă aud bine) or the line breaks, then ask for mai tare.",
+    "examples": [
+      {
+        "text": "Nu vă aud bine.",
+        "style": "polite"
+      },
+      {
+        "text": "Se întrerupe legătura.",
+        "style": "polite"
+      },
+      {
+        "text": "E semnal slab aici.",
+        "style": "casual"
+      },
+      {
+        "text": "Puteți vorbi mai tare?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Poftim? asks for a replay; ask to spell names (pe litere); read back the number.",
+    "examples": [
+      {
+        "text": "Poftim?",
+        "style": "polite"
+      },
+      {
+        "text": "Puteți repeta, vă rog?",
+        "style": "polite"
+      },
+      {
+        "text": "Îmi spuneți numele pe litere?",
+        "style": "polite"
+      },
+      {
+        "text": "Numărul e 12345678, da?",
+        "style": "polite"
+      },
+      {
+        "text": "Ce?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Cu cine vorbesc? with dumneavoastră; Cine e? alone is blunt.",
+    "examples": [
+      {
+        "text": "Cu cine vorbesc, vă rog?",
+        "style": "polite"
+      },
+      {
+        "text": "De unde sunați?",
+        "style": "polite"
+      },
+      {
+        "text": "Acesta e telefonul lui {owner}, cine sună?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say they dialled wrong (ați greșit numărul), nobody of that name here.",
+    "examples": [
+      {
+        "text": "Ați greșit numărul.",
+        "style": "polite"
+      },
+      {
+        "text": "Aici nu e nimeni cu numele ăsta.",
+        "style": "polite"
+      },
+      {
+        "text": "Greșeală de număr.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Îi transmit says {owner} will be told; no time for a call-back.",
+    "examples": [
+      {
+        "text": "Îi transmit lui {owner} mesajul.",
+        "style": "polite"
+      },
+      {
+        "text": "Îi spun eu.",
+        "style": "casual"
+      },
+      {
+        "text": "Mesajul ajunge la destinatar.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Mulțumesc, nu sunt interesat/ă closes most sales calls.",
+    "examples": [
+      {
+        "text": "Mulțumesc, nu suntem interesați.",
+        "style": "polite"
+      },
+      {
+        "text": "Nu avem nevoie, mulțumim.",
+        "style": "polite"
+      },
+      {
+        "text": "Nu, mersi.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they insist, say you've declined and ask them to delete the number.",
+    "examples": [
+      {
+        "text": "V-am spus deja că nu ne interesează.",
+        "style": "polite"
+      },
+      {
+        "text": "Vă rog să nu mai sunați la acest număr.",
+        "style": "polite"
+      },
+      {
+        "text": "Ștergeți numărul din lista dumneavoastră.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Dumneavoastră for strangers; domnule/doamnă + surname; tanti and nene are informal for elders.",
+    "examples": [
+      {
+        "text": "Domnule Popescu",
+        "style": "polite"
+      },
+      {
+        "text": "Doamnă",
+        "style": "polite"
+      },
+      {
+        "text": "Domnișoară",
+        "style": "polite"
+      },
+      {
+        "text": "Tanti",
+        "style": "casual"
+      },
+      {
+        "text": "Nene",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Apelul dumneavoastră este important pentru noi sounds like a call center.",
+    "examples": [
+      {
+        "text": "Apelul dumneavoastră este important pentru noi.",
+        "style": "polite"
+      },
+      {
+        "text": "Vă mulțumim că ați apelat serviciul clienți.",
+        "style": "polite"
+      },
+      {
+        "text": "Cu ce vă pot ajuta astăzi?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using tu with older strangers or asking salary, politics or religion early is impolite.",
+    "examples": [
+      {
+        "text": "Cât câștigi?",
+        "style": "casual"
+      },
+      {
+        "text": "Cu cine votezi?",
+        "style": "casual"
+      },
+      {
+        "text": "Cine ești, mă?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/alo",
+    "https://en.wikipedia.org/wiki/Romanian_grammar",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "Three levels of address (tu, dumneata, dumneavoastră); examples use dumneavoastră with strangers",
+    "Backchannels (da, aha, sigur, înțeleg) from general usage, no call corpus",
+    "Moldovan usage may differ in vocabulary; not separated"
+  ]
+}

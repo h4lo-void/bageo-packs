@@ -1,0 +1,733 @@
+{
+  "region": "tr",
+  "countries": [
+    "tr"
+  ],
+  "region_name_zh": "土耳其",
+  "region_name": "Türkiye",
+  "languages": [
+    {
+      "code": "tr",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite standard Turkish (tr) with 'siz' and Bey/Hanım; English works at hotels, private hospitals and tourist areas of Istanbul, Antalya and Izmir but rarely elsewhere.",
+  "english_ok": "sometimes — Common at hotels, private hospitals and tourist areas; limited at esnaf shops, garages, public hospitals and government offices.",
+  "politeness": "Formal and warm: open with iyi günler or merhaba, use siz and Bey/Hanım, soften with 'rica etsem'; close with teşekkür ederim, iyi günler.",
+  "name_tip": "Address with first name + Bey/Hanım ('Ahmet Bey'), not the surname; bookings go under first name + surname + mobile.",
+  "phone_tip": "Mobile 11 digits starting 05 (05XX 123 45 67); Istanbul landline 0212/0216 123 45 67; read back 4-3-2-2; WhatsApp usually the same mobile.",
+  "time_tip": "CRITICAL: 'yedi buçuk' = 7:30; 'sekize çeyrek var' = 7:45; 'yediyi çeyrek geçe' = 7:15; written 19.30 or 19:30; dates are day.month (25.11).",
+  "number_tip": "Read mobile numbers in groups (05XX / 123 / 45 / 67 pattern); prices in TL with dots as thousand separators; 'buçuk' = and a half.",
+  "avoid_calling": "Avoid lunch 12:00–13:30, restaurant peak 19:30–21:30, calls after 21:00, and the Ramazan and Kurban Bayramı holidays when many businesses close for days.",
+  "closed_days": "Office weekend is Sat–Sun (Saturday half days in some sectors); most shops open Sat and many on Sun; Ramazan and Kurban Bayramı close many businesses for several days.",
+  "booking_channels": "WhatsApp and phone dominate for restaurants, salons, garages and small clinics; MHRS (ALO 182, web, app) for public hospital appointments; Yemeksepeti/Getir/Trendyol Go for delivery; BiTaksi/taxi stands for rides; e-Devlet for government.",
+  "voice_menu": "Telcos (Turkcell, Vodafone, Türk Telekom), banks, ALO 182 and electricity/gas distributors use IVR; small businesses answer directly.",
+  "callback_habits": "Businesses confirm by WhatsApp or SMS; MHRS sends SMS confirmations and reminders; private hospitals call or SMS the day before.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "卡帕多奇亞熱氣球、遊船與導覽多線上或 WhatsApp 預約；社區足球場（halı saha）習慣電話訂時段。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Balloon flight may be cancelled by weather on the morning"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Halı saha slot paid per hour, kapora to secure it"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport details for balloon passenger list"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "Hotel pickup time",
+        "Number of people",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "理髮（berber）與美髮（kuaför）多電話或 WhatsApp 預約，婚禮季週末與新娘造型要很早；部分沙龍用線上預約連結。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bridal hair and make-up need a kapora and a trial"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Berber often accepts walk-ins"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks IBAN prepayment for a simple haircut"
+        }
+      ],
+      "usually_asked": [
+        "Service: kesim, fön, boya, manikür, ağda",
+        "Preferred stylist",
+        "Date and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多電話或 WhatsApp 即可；MHRS 預約要在系統或打 182 取消，不要只是不到。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "MHRS appointments must be cancelled in the system or via 182"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Kapora not returned for late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks T.C. kimlik number to find the MHRS appointment"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile of the booking",
+        "Original date and time",
+        "New time or iptal",
+        "Number of people if a restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫院與家庭醫師須用 MHRS（電話 182、網站或 App）以 T.C. 身分證號預約；私立醫院可直接電話、WhatsApp 或醫院 App 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public hospital slots are only given through MHRS or ALO 182"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private hospital asks if the patient has SGK or private insurance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks T.C. kimlik number and mother's/father's name"
+        }
+      ],
+      "usually_asked": [
+        "Which hospital, polyclinic (branch) and doctor",
+        "SGK or private insurance or self-pay",
+        "New or control (follow-up) visit",
+        "Patient's T.C. ID number",
+        "Mobile for MHRS SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Turkcell、Vodafone、Türk Telekom）、銀行與水電瓦斯客服有語音選單，帳戶事項須本人以 T.C. 身分證號驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Operator says changes need the line owner"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks T.C. number, customer number or SMS code"
+        }
+      ],
+      "usually_asked": [
+        "IVR menu choice",
+        "Line or account holder",
+        "Abone (subscriber) number",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多走 e-Devlet 或預約後到場；學校可電話詢問，週末不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Most documents are downloaded from e-Devlet"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the e-Devlet password or T.C. number"
+        }
+      ],
+      "usually_asked": [
+        "Which document or registration",
+        "Applicant or child's grade",
+        "Province and district",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣與清潔多電話或用 Armut 等平台叫；Armut 清潔是線上選時段並刷卡付款，可免費改期。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Armut cleaning is booked online with card payment"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Usta quotes after seeing the job"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks money before coming for a small repair"
+        }
+      ],
+      "usually_asked": [
+        "Job type (temizlik, tesisat, klima)",
+        "Mahalle, sokak, apartman, kat, daire",
+        "Day and hour",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 Booking.com、Etstur、Jolly 等平台與官網，小旅館常電話或 WhatsApp；入住須出示身分證或護照登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "ID or passport recorded at check-in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "All-inclusive or room-only price"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details on WhatsApp for prepayment"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out",
+        "Adults and children's ages (for pricing)",
+        "Board type: all-inclusive, half board",
+        "Guest name and mobile"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、宗教節日（Bayram）是否營業、可否刷卡或分期、有無停車位、是否供酒。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives Bayram opening days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Says card and instalment (taksit) options"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and Bayram days",
+        "Card, taksit or cash",
+        "Otopark or valet",
+        "Alcohol served or not"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫診所與寵物美容多可電話或 WhatsApp 預約；寵物旅館要看疫苗卡與晶片紀錄。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming price by breed and coat"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet asks for the vaccination card (aşı karnesi)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel asks full IBAN prepayment to an individual"
+        }
+      ],
+      "usually_asked": [
+        "Muayene, aşı, tıraş or pansiyon",
+        "Cat or dog, breed, weight",
+        "Microchip and vaccine card",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 sahibinden.com、Hepsiemlak、Emlakjet，仲介（emlakçı）與房東習慣電話或 WhatsApp 約看房；常收押金（depozito）與仲介費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Emlakçı arranges viewing by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Depozito and one month commission"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks kapora before seeing the flat"
+        }
+      ],
+      "usually_asked": [
+        "Listing number and district",
+        "Furnished or not, move-in date",
+        "Number of occupants",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車保養多到原廠服務站或工業區（sanayi）小廠；原廠可電話或網站預約，小廠多直接到場。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Authorised service books periodic maintenance online"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Sanayi workshop quotes after looking at the car"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ruhsat (registration) serial number"
+        }
+      ],
+      "usually_asked": [
+        "Car brand, model and plaka",
+        "Kilometre for periyodik bakım",
+        "Complaint",
+        "Drop-off day"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "土耳其餐廳多用電話或 WhatsApp 訂位，海景或露台座與週末晚上要提早；跨年、情人節等特殊晚會常是固定套餐並收訂金（kapora）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Special-night set menu needs a kapora by IBAN transfer"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant replies on WhatsApp with the menu and confirms the table"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Meyhane table booked for a set time with fixed menu (fix menü)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee a New Year's Eve table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (24-hour, 20.30)",
+        "Kaç kişi, adults and children",
+        "Terrace, sea view, smoking or non-smoking area",
+        "Name and surname plus mobile",
+        "Alcohol served or not (some places are alcohol-free)"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕店（pastane）、花店與節日甜點（baklava）常電話或 WhatsApp 預訂，宗教節日前要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Baklava orders by the kilo or tray before Bayram"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full IBAN payment to a personal name"
+        }
+      ],
+      "usually_asked": [
+        "Cake size (kişilik) and message",
+        "Baklava kilo or tray",
+        "Pickup or delivery date",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐廳普遍提供電話點餐自取或外送（paket servis），平台以 Yemeksepeti、Getir、Trendyol Go 為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery handled through Yemeksepeti or the shop's own courier"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Card machine brought to the door for payment"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks IBAN transfer before preparing a small paket order"
+        }
+      ],
+      "usually_asked": [
+        "Items and portions (porsiyon, 1.5 porsiyon)",
+        "Spicy or not, no onion",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "PTT、Yurtiçi、Aras、MNG 多為語音選單，建議用官網或 App 以追蹤號（takip no）查件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier site shows status by takip number"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the delivery SMS code"
+        }
+      ],
+      "usually_asked": [
+        "Kargo takip number",
+        "Receiver name and mobile",
+        "District (ilçe) and address",
+        "Parcel contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多在路邊、計程車站（taksi durağı）電話叫或用 BiTaksi；機場接送（transfer）可電話或 WhatsApp 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests calling the nearest taksi durağı or using BiTaksi"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Airport transfer fixed price per vehicle"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks licence and credit card"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or airport (IST/SAW)",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "tr": {
+      "appointment_words": [
+        "randevu almak",
+        "doktordan randevu",
+        "diş kontrolü",
+        "araç bakımı",
+        "kuaför randevusu"
+      ],
+      "booking_words": [
+        "masa ayırtmak",
+        "rezervasyon yaptırmak",
+        "oda rezervasyonu",
+        "yer ayırtmak",
+        "kapora vermek"
+      ],
+      "change_words": [
+        "randevuyu ertelemek",
+        "cumaya almak",
+        "rezervasyonu iptal",
+        "yarım saat geç",
+        "saati değiştirmek"
+      ],
+      "date": [
+        "yarın",
+        "öbür gün",
+        "bu cumartesi",
+        "haftaya pazartesi",
+        "25.11",
+        "pazar akşamı"
+      ],
+      "false_friends": [
+        "3. kat",
+        "Daire 12",
+        "No: 5",
+        "Menü 2",
+        "2 saatlik masaj",
+        "Blok B"
+      ],
+      "inquiry_words": [
+        "kaçta açılıyor",
+        "otopark var mı",
+        "kredi kartı geçiyor mu",
+        "stokta var mı",
+        "bayramda açık mısınız"
+      ],
+      "name": [
+        "Ahmet Bey adına",
+        "Ayşe Hanım",
+        "Yılmaz ailesi",
+        "şirket adına"
+      ],
+      "order_words": [
+        "paket sipariş",
+        "gel al",
+        "eve servis",
+        "önceden sipariş",
+        "toplu sipariş"
+      ],
+      "party": [
+        "4 kişilik masa",
+        "2 yetişkin 1 çocuk",
+        "10 kişiyiz",
+        "iki kişi",
+        "kalabalık grup"
+      ],
+      "phone": [
+        "05XX 123 45 67",
+        "0212 123 45 67",
+        "WhatsApp aynı numara"
+      ],
+      "time": [
+        "akşam 7'de",
+        "yedi buçuk",
+        "19.30",
+        "sekize çeyrek var",
+        "öğlen 12",
+        "akşam yemeği saati"
+      ]
+    }
+  }
+}

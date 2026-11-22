@@ -1,0 +1,656 @@
+{
+  "region": "ee",
+  "countries": [
+    "ee"
+  ],
+  "region_name_zh": "愛沙尼亞",
+  "region_name": "Estonia",
+  "languages": [
+    {
+      "code": "et",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (Tallinn, Ida-Virumaa)"
+    }
+  ],
+  "ai_language_tip": "Start in Estonian (et); in Tallinn and Ida-Virumaa many businesses also serve in Russian, and English is widely understood among younger staff. Switch only when the other side offers.",
+  "english_ok": "often — Good in Tallinn and Tartu, hotels, restaurants and IT-savvy services; weaker in small-town clinics, garages and with older staff.",
+  "politeness": "Reserved, brief and factual; formal 'Teie' with strangers; open with 'Tere' / 'Tere päevast'; little small talk; close with 'Aitäh, head aega'.",
+  "name_tip": "Booking 'nimele …' (first name or surname); Estonian names are not gendered by ending; spell Latin letters with õ, ä, ö, ü clearly.",
+  "phone_tip": "Mobile 5XXX XXXX (7–8 digits, e.g. 5 12345678), landline 6XX XXXX in Tallinn, international +372; no trunk 0; SMS and email confirmations are standard.",
+  "time_tip": "Watch out: 'pool kaheksa' = 7:30 (half to eight), 'veerand kaheksa' = 7:15, 'kolmveerand kaheksa' = 7:45; written times use 24h ('19.30'); always read back in 24h.",
+  "number_tip": "Mobile numbers are usually read in groups of 3–4; Estonian numerals for teens end in '-teist' and tens in '-kümmend'.",
+  "avoid_calling": "Avoid restaurant peaks 12:00–13:00 and 18:30–20:00, calls after 20:00, and Sundays for non-hospitality; Midsummer (23–24 June) and Christmas Eve to Boxing Day are largely closed.",
+  "closed_days": "Shops and restaurants usually open on Sunday; offices and most clinics closed weekends; public holidays incl. 24 February, Good Friday, Easter, 1 May, Pentecost, 23–24 June, 20 August, 24–26 December.",
+  "booking_channels": "Digiregistratuur for state-funded specialist appointments; family doctor practices by phone/e-mail; Bolt Food DineOut, venue websites and booking widgets for restaurants; Wolt and Bolt Food for delivery; salons via online booking widgets or phone.",
+  "voice_menu": "Family doctor advice line 1220, Haigekassa, banks, Telia/Elisa/Tele2 and Omniva use IVR; many clinics have a phone menu for registration; restaurants answer directly.",
+  "callback_habits": "Digiregistratuur and clinics send SMS/e-mail reminders; restaurants confirm online bookings automatically; small businesses call back or text.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "塔林熱門餐廳可電話、官網或 Bolt Food DineOut 訂位；週末晚間要提早訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Table held for a limited time"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Card guarantee for large groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of guests",
+        "Inside or terrace",
+        "Name and phone"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "基層看家庭醫師（perearst），專科多需轉診並用 Digiregistratuur；診所電話常只在早上開放。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Digiregistratuur"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Paid visit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal ID code (isikukood)"
+        }
+      ],
+      "usually_asked": [
+        "Health insurance (Haigekassa) or paid",
+        "Referral (saatekiri) for specialist",
+        "Complaint",
+        "Patient name",
+        "Phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲多用線上預約小工具，電話也接受。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Stylist",
+        "Date and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車與換胎季（秋冬強制冬胎）很忙，電話或線上預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Tyre storage (rehvihotell)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car model, plate",
+        "Job",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂自取可行，外送主要靠 Wolt、Bolt Food。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店可電話預訂；一般零售多線上。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item",
+        "Pickup date",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期電話或連結都可，診所要求提早取消。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "直接電話詢問普遍可行。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly to ask",
+        "Date if about availability",
+        "Number of people if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店電話或 Email 訂房，鄉間民宿（talu）很習慣電話。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Sauna booking extra"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "三溫暖、SPA、導覽可電話訂，常線上付款。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔電話或網站下單，問地址、門禁。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks door code"
+        }
+      ],
+      "usually_asked": [
+        "Address, floor",
+        "Door code",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與美容電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed",
+        "Service",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Omniva、DPD 包裹機查件以 App／簡訊為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to tracking page"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks parcel machine code"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Name",
+        "Parcel machine",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行需 Smart-ID／Mobiil-ID 核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Holder must authenticate"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Smart-ID PIN or ID code"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Contract number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 Bolt，傳統車行仍接電話。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 kv.ee、city24.ee，打給仲介或房東約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agent fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Listing",
+        "Viewing time",
+        "Tenants",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "國家服務大多線上（eesti.ee），電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to eesti.ee"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal ID code"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Who it is for",
+        "Case number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "et": {
+      "appointment_words": [
+        "aja broneerimine",
+        "arsti juurde aeg",
+        "juuksuri aeg",
+        "registreeruda vastuvõtule",
+        "hoolduse aeg"
+      ],
+      "booking_words": [
+        "laua broneerimine",
+        "broneering",
+        "toa broneerimine",
+        "laud kaheksale"
+      ],
+      "change_words": [
+        "aega muuta",
+        "broneeringu tühistamine",
+        "pool tundi hiljem",
+        "reedeks ümber tõsta"
+      ],
+      "date": [
+        "homme",
+        "ülehomme",
+        "sel reedel",
+        "järgmisel teisipäeval",
+        "25.11",
+        "25. novembril"
+      ],
+      "false_friends": [
+        "3. korrus",
+        "korter 45",
+        "menüü nr 4",
+        "60 min massaaž",
+        "buss nr 8"
+      ],
+      "inquiry_words": [
+        "kui palju maksab",
+        "kas on olemas",
+        "mis kellani avatud",
+        "kas koer tohib",
+        "kas saab kaardiga maksta"
+      ],
+      "name": [
+        "nimele Tamm",
+        "nimele Mari",
+        "Kask",
+        "perekond Saar"
+      ],
+      "order_words": [
+        "kaasa",
+        "järele tulla",
+        "ette tellida",
+        "kohale toimetada"
+      ],
+      "party": [
+        "laud 4 inimesele",
+        "meid on kolm",
+        "kahele",
+        "2 täiskasvanut ja 1 laps",
+        "5 in."
+      ],
+      "phone": [
+        "5 12345678",
+        "+372 5 12345678",
+        "12345678"
+      ],
+      "time": [
+        "kell 19.30",
+        "pool kaheksa",
+        "veerand kaheksa",
+        "kolmveerand kaheksa",
+        "kell 12",
+        "hommikul kell 9"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "записаться на стрижку",
+        "на консультацию",
+        "запись в автосервис"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "забронировать номер",
+        "резерв"
+      ],
+      "change_words": [
+        "перенести запись",
+        "отменить бронь",
+        "на полчаса позже",
+        "перенести на пятницу"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в эту пятницу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 45",
+        "массаж 60 мин",
+        "автобус 8"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть в наличии?",
+        "до скольки работаете",
+        "можно картой?"
+      ],
+      "name": [
+        "на фамилию Иванов",
+        "на имя Ольга",
+        "семья Петровых"
+      ],
+      "order_words": [
+        "на вынос",
+        "самовывоз",
+        "предзаказ",
+        "доставка"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих",
+        "2 взрослых и ребёнок"
+      ],
+      "phone": [
+        "+372 5 12345678",
+        "5 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "к семи вечера",
+        "в 12:00"
+      ]
+    }
+  }
+}

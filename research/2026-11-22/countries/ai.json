@@ -1,0 +1,88 @@
+{
+  "country": "ai",
+  "parent": "us",
+  "name": {
+    "en": "Anguilla",
+    "native": "Anguilla",
+    "zh": "安圭拉"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day there",
+    "hello_again": "Good day, hello?"
+  },
+  "delivery": {
+    "en": "Use Anguilla Post or a courier; official doorstep instructions were not found this pass",
+    "zh": "包裹可走安圭拉郵政或快遞；官方上門說明此次沒找到"
+  },
+  "readback": {
+    "en": "A 264 number goes 3-3-4; 0 as zero; East Caribbean dollars; 12-hour clock; day before month",
+    "zh": "264 號碼照 3-3-4 唸，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "An unsolicited prize or investment approach of the kind flagged across the ECCU is a scam",
+    "zh": "沒邀約就出現的中獎或投資說法，東加勒比央行已對整個貨幣聯盟示警，應當成詐騙"
+  },
+  "habits": {
+    "en": "Quiet, polite British-Caribbean English. Say mobile, not cell. Money is in East Caribbean dollars. Day first.",
+    "zh": "客氣、偏英式的加勒比英語。說 mobile 不說 cell。貨幣是東加勒比元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "I cannot get a clear answer from Anguilla Post, and the bank app is asking for a new sign-in.",
+    "zh": "一時問不到安圭拉郵政的確實回覆，而且銀行 App 要重新登入。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "account"
+    ],
+    "delivery": [
+      "Anguilla Post",
+      "courier",
+      "collection",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是安圭拉日常付款名稱"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國健保，不宜套用"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Soft-spoken and formal with strangers. Use Anguilla Post and East Caribbean dollars; do not sound like a US mainland household.",
+    "zh": "對生人輕聲、正式。郵務與金額用安圭拉郵政、東加勒比元，不要聽起來像美國本土家庭。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.fiu.gov.ai/notices/advisories",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams",
+    "https://www.aps.ai/"
+  ],
+  "uncertain": [
+    "安圭拉金融情報室有警示專頁，此次未能逐則打開核對最新話術，故 fraud 依東加勒比央行對聯盟（含安圭拉）的中獎與投資警示來寫。",
+    "安圭拉郵政官網的上門投遞規則沒有查到清楚說明。"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "name": "Malawi",
+  "name_local": "Malawi",
+  "iso": "mw",
+  "calling_code": "+265",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "MACRA's September 2026 public alert on mobile-money and WhatsApp fraud lists fake social-cash-transfer messages, forged wallet SMS followed by a demand to return money, hijacked WhatsApp accounts begging contacts for cash, and prize claims that require a payment or personal details.",
+  "cross_border_note": "Messages are usually in English or Chichewa and may look like Airtel Money or TNM Mpamba system SMS, or arrive from a relative's WhatsApp after the account has been taken over.",
+  "scams": [
+    {
+      "id": "mw_fake_social_cash_transfer",
+      "typology": "fake_government_subsidy",
+      "name": "Fake social cash transfer payment request",
+      "name_en": "Fake social cash transfer payment request",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "social cash transfer",
+        "beneficiary payment",
+        "government assistance",
+        "send money to receive aid"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "requires a fee before a supposed social cash transfer is paid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the beneficiary to send money so a grant can be released",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to confirm a benefit payment in a chat app",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An ordinary SMS or WhatsApp note claims the person is due a social cash transfer or similar assistance and then asks for a payment, a wallet top-up, or personal details before the grant can be paid.",
+      "legit_en": "MACRA states that government bodies and civil-society groups involved in social cash transfer programmes do not use ordinary SMS or WhatsApp to ask beneficiaries for money.",
+      "bait_tactics": [
+        "I am not sending Mpamba or Airtel Money to release a grant that arrived as an ordinary WhatsApp note.",
+        "No official programme I already use has told me, through its usual channel, that a fee is due today.",
+        "This handset shows no pending official assistance payment in the wallet history."
+      ],
+      "sources": [
+        "https://macra.mw/wp-content/uploads/2026/09/MOBILE-MONEY-FRAUD-rev-Ag-DOLS_-002-cn-PA.pdf",
+        "https://macra.mw/public-announcement-public-alert-beware-of-mobile-money-and-whatsapp-fraud/"
+      ]
+    },
+    {
+      "id": "mw_fake_momo_sms_refund",
+      "typology": "fake_bank_account_alert",
+      "name": "Forged mobile-money SMS and refund demand",
+      "name_en": "Forged mobile-money SMS and refund demand",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "money has been sent to you",
+        "return the funds",
+        "failed payment platform",
+        "wrong number"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "treats a look-alike wallet SMS as proof of a credit and demands a refund",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims a payment platform failed and gives a different destination number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "discourages checking the official balance before reversing a supposed credit",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message is styled like a genuine Airtel Money or TNM Mpamba credit alert, or claims a payment platform has failed, and the sender then demands an immediate transfer to another number.",
+      "legit_en": "MACRA tells the public not to return money solely on the basis of an SMS that claims funds were sent, and to confirm the transaction through the proper mobile-money platform or the account balance first.",
+      "bait_tactics": [
+        "The official Mpamba balance on this phone has not gone up, so I am not sending a refund from my own wallet.",
+        "I will not treat a message that merely looks like a system SMS as proof of a deposit.",
+        "There is no record in this Airtel Money history of the credit you are describing."
+      ],
+      "sources": [
+        "https://macra.mw/wp-content/uploads/2026/09/MOBILE-MONEY-FRAUD-rev-Ag-DOLS_-002-cn-PA.pdf"
+      ]
+    },
+    {
+      "id": "mw_hacked_whatsapp_or_prize",
+      "typology": "fake_relative_money",
+      "name": "Hijacked WhatsApp or unexpected prize claim",
+      "name_en": "Hijacked WhatsApp or unexpected prize claim",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "WhatsApp account",
+        "send money urgently",
+        "you have won",
+        "claim the prize"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "uses a known contact's chat account to ask for money on a new number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "announces an unexpected prize and requires a payment to collect it",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks funds to be sent to a different wallet while claiming the chat is still genuine",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Either a known contact's WhatsApp, after the account has been taken over, asks friends and family for money, or an unexpected prize message demands a payment or personal data before winnings can be collected.",
+      "legit_en": "MACRA warns about compromised WhatsApp accounts used to solicit money, and says that if someone did not enter a competition they cannot win its prize. Requests should be verified through a usual telephone number or a trusted person.",
+      "bait_tactics": [
+        "I am not sending money from a WhatsApp chat until I have reached this person on the number I already use for them.",
+        "I did not enter any prize draw on this line, so I will not pay a collection charge.",
+        "The tone of this message is not how that relative usually asks me for help."
+      ],
+      "sources": [
+        "https://macra.mw/wp-content/uploads/2026/09/MOBILE-MONEY-FRAUD-rev-Ag-DOLS_-002-cn-PA.pdf"
+      ]
+    }
+  ]
+}

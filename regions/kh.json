@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "code": "kh",
+  "countries": [
+    "kh"
+  ],
+  "name": {
+    "en": "Cambodia",
+    "native": "ព្រះរាជាណាចក្រកម្ពុជា",
+    "zh": "柬埔寨"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes, speaking?"
+  },
+  "delivery": {
+    "en": "Parcels: the security desk, gate or a neighbour",
+    "zh": "包裹交給保全櫃檯、門閘、樓下或鄰居"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; confirm riel or US dollars.",
+    "zh": "名字用 as-in 拼；號碼分組唸；先確認瑞爾或美元"
+  },
+  "fraud": {
+    "en": "an ABA, Wing or Bakong PIN request or an up-front fee is a scam",
+    "zh": "要 ABA、Wing 或 Bakong 的 PIN，或先繳費用，都是詐騙"
+  },
+  "habits": {
+    "en": "Mr/Ms with strangers. Use English; Khmer is unsupported. Confirm riel vs USD.",
+    "zh": "對陌生人用 Mr/Ms。高棉語不在清單，用英語。金額要確認是瑞爾還是美元。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the BAKONG or ABA app spinning, a sudden downpour, the gate unlocked.",
+    "zh": "卡在當地日常狀況，例如 Bakong 或 ABA App 一直轉、驟雨、門閘打不開。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Phnom Penh friend: first names, plain English, a warm 'okay, okay', then one extra line; do not switch into Khmer, varied.",
+        "zh": "像金邊的朋友：直呼名字，平實英語，可帶 okay, okay，再多一句；不要改說高棉語，每次換。"
+      },
+      "2": {
+        "en": "Easy and polite: first names unless they stay with Mr/Ms; after they speak, add a caring line, varied.",
+        "zh": "輕鬆有禮：對方不堅持 Mr/Ms 就直呼名字；聽完加一句關心，每次換。"
+      },
+      "3": {
+        "en": "Cambodian business English uses full sentences. If money comes up, say riel or dollars before closing the point.",
+        "zh": "柬埔寨商務英語用完整句。談到錢，先講清楚是瑞爾還是美元，再收這點。"
+      },
+      "4": {
+        "en": "Mr or Ms with strangers and offices; confirm riel or dollars if money comes up; take up the point first, varied.",
+        "zh": "對陌生人與機關用 Mr 或 Ms；談到錢要確認是瑞爾還是美元；先接住重點，每次換。"
+      },
+      "5": {
+        "en": "Office English for ABA or ministries: titles, tidy; close each item (it's down in writing), varied.",
+        "zh": "對 ABA 或機關的辦公室英語：用職稱，整齊；每件收束（如 it's down in writing），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Cheerful helper for {owner}. Use their name, answer in a short full line, then say you will tell {owner}; do not slip into Khmer.",
+        "zh": "替{owner}代接，口氣熱絡。稱名字，用短而完整的句子應，再說會告訴主人；不要改說高棉語。"
+      },
+      "2": {
+        "en": "As a polite Phnom Penh clerk: keep Mr or Ms if they stay formal, note the errand, and write it down for {owner}.",
+        "zh": "像金邊有禮的職員代接：對方維持 Mr／Ms 就沿用，先記下事由，寫給{owner}。"
+      },
+      "3": {
+        "en": "Reply in full to what they asked, mention riel or dollars if a sum is named, then say {owner} will hear it. Not a lone ok.",
+        "zh": "對方問什麼就完整回答；若提到金額，註明瑞爾或美元，再說主人會聽到。不要只回 ok。"
+      },
+      "4": {
+        "en": "For ABA, Wing or a ministry desk, keep Mr/Ms, name the purpose clearly, and say the note will be there for them to read.",
+        "zh": "接 ABA、Wing 或部會櫃台電話，沿用 Mr／Ms，把來意說清楚，並說明字條會留到對方看。"
+      },
+      "5": {
+        "en": "Executive stand-in: formal titles, brisk; lock the figures (riel or USD), then confirm delivery, varied.",
+        "zh": "高階代接：正式職稱，明快；先鎖定數字（瑞爾或美元），再確認會交到，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "ABA",
+      "Bakong",
+      "Wing",
+      "ACLEDA",
+      "account number"
+    ],
+    "delivery": [
+      "security",
+      "gate",
+      "downstairs",
+      "Cambodia Post",
+      "pickup"
+    ],
+    "government": [
+      "National ID card",
+      "passport",
+      "NSSF"
+    ],
+    "health": [
+      "NSSF",
+      "clinic",
+      "hospital",
+      "pharmacy"
+    ],
+    "telecom": [
+      "Cellcard",
+      "Smart",
+      "Metfone",
+      "prepaid SIM",
+      "eSIM"
+    ],
+    "payment": [
+      "Bakong",
+      "KHQR",
+      "Wing Bank",
+      "TrueMoney",
+      "ABA Mobile"
+    ],
+    "transport": [
+      "PassApp",
+      "Grab",
+      "tuk-tuk",
+      "rickshaw"
+    ],
+    "housing": [
+      "rent",
+      "landlord",
+      "electricity bill"
+    ]
+  },
+  "status": "draft"
+}

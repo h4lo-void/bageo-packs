@@ -1,0 +1,88 @@
+{
+  "country": "bo",
+  "parent": "latam",
+  "name": {
+    "en": "Bolivia",
+    "native": "Bolivia",
+    "zh": "玻利維亞"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Bueno?",
+    "hello_again": "¿Bueno, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portero, a shop, a neighbour, or a post office",
+    "zh": "包裹交給門房、店家、鄰居，或到郵局領"
+  },
+  "readback": {
+    "en": "Mobiles in short groups after the prefix; 0 as cero; day-month dates; bolivianos",
+    "zh": "區碼後分短組唸，0 唸 cero；日期先日後月；用玻利維亞諾"
+  },
+  "fraud": {
+    "en": "A fake bank or QR-payment call asking for codes, or a prize transfer, is a scam",
+    "zh": "假冒銀行或 QR 付款要驗證碼，或說中獎要轉帳，都是詐騙"
+  },
+  "habits": {
+    "en": "Usted is safest with strangers. Vos and tú both occur by region. Amounts in bolivianos, not pesos. Not Nequi.",
+    "zh": "對陌生人先 usted。vos 與 tú 都有，視地區而定。金額用玻利維亞諾，不說比索。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, a banking or QR app spinning, or glasses left in another room.",
+    "zh": "卡在停電、銀行或 QR App 一直轉，或眼鏡放在另一個房間。"
+  },
+  "vocab": {
+    "bank": [
+      "QR",
+      "tarjeta",
+      "transferencia",
+      "banca por internet",
+      "código"
+    ],
+    "delivery": [
+      "portero",
+      "portería",
+      "tienda",
+      "correo",
+      "vecino"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "vosotros / vale / ordenador",
+      "reason": {
+        "zh": "這是西班牙說法，本國與所屬地區一樣不用。"
+      }
+    },
+    {
+      "word": "peso 當預設貨幣名稱",
+      "reason": {
+        "zh": "官方貨幣是玻利維亞諾，不宜直接說成比索。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Do not start from the parent's tú default: use usted with strangers and elders, and only follow vos or tú if the caller already does. Keep levels 4–5 formal usted. Avoid Colombian app names in asides.",
+    "zh": "不要照所屬地區預設 tú：對陌生人與長輩用 usted，對方已用 vos 或 tú 再跟上。4～5 格維持正式 usted。閒聊不要出現哥倫比亞錢包名。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador",
+    "https://www.asfi.gob.bo/node/1486"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "RAE 記錄玻利維亞接電話也用「bueno」，是否與「aló」並行缺少新統計。",
+    "vos／tú 的地區分布很細，本檔只寫「都有、視地區而定」，未再拆省。",
+    "門房／店家代收缺少郵政官方專文，僅作城市常見做法。"
+  ]
+}

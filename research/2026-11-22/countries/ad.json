@@ -1,0 +1,92 @@
+{
+  "country": "ad",
+  "parent": "es",
+  "name": {
+    "en": "Andorra",
+    "native": "Andorra",
+    "zh": "安道爾"
+  },
+  "lang": "ca",
+  "hello": {
+    "hello": "Digui?",
+    "hello_again": "Digui? Em sent?"
+  },
+  "delivery": {
+    "en": "Collect at Correos or La Poste; a neighbour or the building porter may also take it",
+    "zh": "到 Correos 或 La Poste 窗口取件，也可交門房或鄰居"
+  },
+  "readback": {
+    "en": "Six-digit numbers go 3-3; 0 as zero; euros; times like les cinc i mitja; day then month",
+    "zh": "號碼照 3-3 唸，0 唸 zero；時間用 i mitja；歐元；先日後月"
+  },
+  "fraud": {
+    "en": "SMS claiming Correos or La Poste needs a small parcel fee or a card OTP are scams",
+    "zh": "簡訊稱 Correos 或 La Poste 要付小額包裹費、或要卡 OTP，都是詐騙"
+  },
+  "habits": {
+    "en": "Catalan tu or vostè, vosaltres in the plural. Say mòbil and ordinador, not Spanish móvil or vosotros.",
+    "zh": "官方語言是加泰隆尼亞語：熟人 tu、生人 vostè、眾人 vosaltres。說 mòbil，勿套西語。"
+  },
+  "stall_local": {
+    "en": "MoraBanc will not finish signing in, and the glasses were left in the sala of a stone house.",
+    "zh": "卡在 MoraBanc 登入不完，或眼鏡留在石牆房子的客廳、室內收訊差。"
+  },
+  "vocab": {
+    "bank": [
+      "MoraBanc",
+      "Andbank",
+      "transferència",
+      "targeta",
+      "OTP"
+    ],
+    "delivery": [
+      "Correos",
+      "La Poste",
+      "porteria",
+      "oficina de correus",
+      "veí"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "¿Diga?",
+      "reason": {
+        "zh": "這是西班牙語接聽語；安道爾官方場合與加泰隆尼亞語使用者較常說 Digui？"
+      }
+    },
+    {
+      "word": "vosotros",
+      "reason": {
+        "zh": "西班牙對眾人的稱呼；加泰隆尼亞語要用 vosaltres"
+      }
+    },
+    {
+      "word": "Bizum",
+      "reason": {
+        "zh": "西班牙銀行的即時轉帳，不是安道爾本地銀行的預設工具"
+      }
+    },
+    {
+      "word": "móvil",
+      "reason": {
+        "zh": "西語拼法；加泰隆尼亞語寫 mòbil"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the five formality steps, but switch the grammar to Catalan tu/vostè/vosaltres rather than Spanish tú/usted/vosotros. Answer Digui? A little more formal with unknown callers is fine.",
+    "zh": "五級語氣可沿用，但文法改成加泰隆尼亞語的 tu／vostè／vosaltres，不要套西班牙稱謂。接聽用 Digui？對陌生來電可略正式。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://elon.io/grammar/catalan/pragmatics/telephone",
+    "https://www.altaveu.com/actualitat/successos/si-resulta-correus-intenta-fer-li-arribar-paquet-rep-sms-no-pateixi-es-estafa_67195_102.html",
+    "https://www.diariandorra.ad/nacional/260419/sms-i-compte-buidat_194325.html",
+    "https://comusantjulia.ad/ca/lauredia-practica/tramits-administratius/serveis/la-poste/",
+    "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000050003PDFF.pdf"
+  ],
+  "uncertain": [
+    "居民有大量西語、法語、葡語使用者，私人電話用哪一種語言接聽缺少統計。",
+    "門房或鄰居代收有多普遍，未見官方數字。"
+  ]
+}

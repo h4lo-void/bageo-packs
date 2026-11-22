@@ -1,0 +1,708 @@
+{
+  "region": "maghreb",
+  "countries": [
+    "ma",
+    "dz",
+    "tn",
+    "ly",
+    "eh",
+    "mr"
+  ],
+  "region_name_zh": "摩洛哥、阿爾及利亞、突尼西亞",
+  "region_name": "Maghreb (Morocco, Algeria, Tunisia)",
+  "languages": [
+    {
+      "code": "ar",
+      "use": "main (Maghrebi Darija spoken, Standard Arabic written)"
+    },
+    {
+      "code": "fr",
+      "use": "common in business, health and administration"
+    }
+  ],
+  "ai_language_tip": "Spoken Maghrebi Arabic (Darija) is the daily language, and French is widely used for business, clinics and hotels; a polite mix of French and simple Arabic works best. Amazigh (Berber) languages are spoken in parts of all three countries. English is limited outside tourism.",
+  "english_ok": "rarely — Tourist hotels, riads and some younger staff in Marrakech, Casablanca, Tunis; most businesses prefer French or Darija.",
+  "politeness": "Greet first ('Salam alaykum' or 'Bonjour') and ask how they are; formal 'vous' in French; 'Si/Lalla' (ma) or 'Monsieur/Madame' as titles; close with thanks ('Merci, bonne journée' / 'شكرا').",
+  "name_tip": "Bookings under family name or first name; Latin spellings follow French conventions (Mohamed, Ouahid, Benali), so spell letter by letter in French.",
+  "phone_tip": "ma 06/07 XX XX XX XX (+212, e.g. 06 12345678); dz 05/06/07 XX XX XX XX (+213); tn 8 digits XX XXX XXX (+216, e.g. 12345678); WhatsApp is the norm for confirmations.",
+  "time_tip": "Time often given in French 24h ('19h30') or Darija ('السبعة ونص'); Morocco shifts clocks for Ramadan; confirm the clock time and day carefully during Ramadan when hours change.",
+  "number_tip": "Prices and phone numbers often said in French; phone numbers read in pairs; Moroccans may quote prices in old units (rial/franc) instead of dirhams/dinars — confirm the currency amount.",
+  "avoid_calling": "Avoid Friday midday prayer, lunch 12:30–14:30, calls after 21:00, the hour before iftar in Ramadan, and Eid holidays; Algeria's weekend is Friday–Saturday.",
+  "closed_days": "Weekend is Saturday–Sunday in ma and tn, Friday–Saturday in dz; many shops still close Friday afternoon; Eid al-Fitr and Eid al-Adha close most businesses; summer (July–August) has reduced hours in offices (tn, dz).",
+  "booking_channels": "DabaDoc for doctors (ma, dz, tn); phone and WhatsApp for restaurants, salons, garages and riads; Glovo (ma, tn), Yassir (dz) and Jumia Food-type apps for delivery; Careem/inDrive/Yassir and petit taxis for rides.",
+  "voice_menu": "Telecoms (Maroc Telecom, Orange, inwi, Djezzy, Mobilis, Ooredoo, Tunisie Telecom), banks and utilities use IVR; small businesses answer directly.",
+  "callback_habits": "Clinics and DabaDoc send SMS reminders; restaurants and riads confirm by WhatsApp or a call on the day.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "摩洛哥、突尼西亞觀光區與城市中高級餐廳常電話或 WhatsApp 訂位（法語最通），一般小館直接上門；齋月很多店白天關、晚上以開齋餐為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Whether alcohol is served"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Ramadan ftour set menu and sunset timing"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details"
+        }
+      ],
+      "usually_asked": [
+        "Date and time, usually given in French (e.g. 20h30)",
+        "Number of people",
+        "Terrace, inside, or a quiet salon",
+        "Name and mobile (WhatsApp)"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所（cabinet）由秘書電話或 DabaDoc 預約；摩洛哥 AMO、阿爾及利亞 CNAS、突尼西亞 CNAM 的報銷流程不同，常先付現再報銷。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to DabaDoc for open slots"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Consultation fee must be paid in cash"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CIN (national ID) number"
+        }
+      ],
+      "usually_asked": [
+        "Doctor or specialty",
+        "Patient name and age",
+        "First visit or contrôle (follow-up)",
+        "Paying directly and claiming from AMO/CNAS/CNAM, or private insurance",
+        "Mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "女性美容院、hammam 與理髮店多電話或 WhatsApp 預約；婚禮季（夏季）與節日前很滿，新娘服務需訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for wedding henna or negafa services"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service: hammam, hair, henna or bridal package",
+        "Day and time",
+        "Name and WhatsApp number"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車（garagiste）與家電維修多先電話詢價，常約在工業區或請師傅到府。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Quote for parts before work starts"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model and year, or appliance",
+        "What is wrong",
+        "When to come",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂外帶外送很常見；App 以 Glovo（摩洛哥、突尼西亞）與 Yassir（阿爾及利亞）為主，常付現。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Cash on delivery"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and portions",
+        "Pickup or delivery time",
+        "Neighbourhood, landmark or WhatsApp pin",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "糕點店（如節日甜點）、肉鋪在節日前要預訂；蛋糕常 WhatsApp 傳照片下單並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and amount (kilos or pieces)",
+        "Pickup day, especially before Eid",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多直接打電話或 WhatsApp，DabaDoc 預約可線上取消。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit kept for late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name on the booking",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問價格、營業時間普遍，常以法語數字報價；摩洛哥人可能用舊單位（rial、franc）報價需換算。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Price quoted in rials or francs must be converted"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question",
+        "Which day, noting Friday afternoon closures",
+        "Quantity and the currency unit used"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與 riad 電話、Email 或 WhatsApp 訂房；需護照登記，摩洛哥另收觀光稅，小型 riad 常只收現金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tourist tax charged per night (ma)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash only at small riads"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Number of guests",
+        "Room type and whether breakfast or dinner is included",
+        "Guest names as in passports and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "沙漠過夜、Atlas 健行、導覽、hammam 套裝多電話或 WhatsApp 訂，常含接送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transfer from the hotel included or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date",
+        "Number of people",
+        "Desert tour, trek or guided visit",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔師傅多電話叫，地址常靠社區名與地標，舊城（médina）車輛難進。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Neighbourhood, street and nearby landmark",
+        "Floor",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "大城市才有寵物獸醫，多改用 WhatsApp 或直接到診所；寵物美容少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Clinic only takes walk-ins"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal and breed",
+        "Problem",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政（Barid Al-Maghrib／Amana、Algérie Poste、La Poste Tunisienne）與快遞查件改用官網追蹤碼，包裹常需到郵局領。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to postal tracking website"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CIN for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "City and post office",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Maroc Telecom、inwi、Djezzy、Mobilis、Ooredoo）與銀行客服語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CIN or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Line or account holder",
+        "Problem",
+        "Line or account number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "城市計程車（petit taxi）多路邊攔，App 有 Careem、inDrive、Yassir；機場與城際（grand taxi、包車）可電話預約定價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price agreed in advance instead of meter"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 Avito（摩洛哥）、Ouedkniss（阿爾及利亞）、Tayara（突尼西亞）刊登，電話約看，常收數月預付與仲介費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Months of advance rent and agency fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CIN or passport"
+        }
+      ],
+      "usually_asked": [
+        "Which listing and neighbourhood",
+        "Viewing time",
+        "Family size",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政（如 moqataa、mairie）多需親臨，電話只問一般資訊；部分證件可線上預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Some document appointments online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CIN number"
+        }
+      ],
+      "usually_asked": [
+        "Office",
+        "Question",
+        "Who it is for"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ar": {
+      "appointment_words": [
+        "موعد عند الطبيب",
+        "بغيت موعد",
+        "رونديفو",
+        "موعد في الحمام"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "بغيت نحجز",
+        "حجز بيت في الفندق",
+        "طاولة لأربعة"
+      ],
+      "change_words": [
+        "تبديل الموعد",
+        "إلغاء الحجز",
+        "نص ساعة من بعد",
+        "نأخروه للجمعة"
+      ],
+      "date": [
+        "غدا",
+        "بعد غدا",
+        "نهار الجمعة",
+        "الثلاثاء الجاية",
+        "25/11"
+      ],
+      "false_friends": [
+        "الطابق 3",
+        "الرقم 12 في الزنقة",
+        "منيو رقم 4",
+        "مساج 60 دقيقة",
+        "3 (ع in Arabizi)"
+      ],
+      "inquiry_words": [
+        "بشحال",
+        "واش كاين",
+        "حتى لشمن ساعة محلولين",
+        "واش كاين التوصيل"
+      ],
+      "name": [
+        "باسم أحمد",
+        "على سمية فاطمة",
+        "عائلة بنعلي"
+      ],
+      "order_words": [
+        "نديه معايا",
+        "توصيل",
+        "نجي ناخدو",
+        "طلبية"
+      ],
+      "party": [
+        "طاولة لأربعة",
+        "حنا تلاتة",
+        "جوج",
+        "جوج كبار وواحد صغير",
+        "5 أشخاص"
+      ],
+      "phone": [
+        "06 12345678",
+        "+212 6 12345678",
+        "+216 12345678",
+        "12345678"
+      ],
+      "time": [
+        "الساعة 7:30",
+        "السبعة ونص",
+        "التمنية غير ربع",
+        "فالعشية",
+        "فالليل"
+      ]
+    },
+    "fr": {
+      "appointment_words": [
+        "prendre rendez-vous",
+        "rdv chez le médecin",
+        "rendez-vous au hammam",
+        "consultation"
+      ],
+      "booking_words": [
+        "réserver une table",
+        "réservation",
+        "réserver une chambre",
+        "table pour 4"
+      ],
+      "change_words": [
+        "décaler le rendez-vous",
+        "annuler la réservation",
+        "une demi-heure plus tard",
+        "reporter à vendredi"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce vendredi",
+        "mardi prochain",
+        "25/11"
+      ],
+      "false_friends": [
+        "3e étage",
+        "n° 12 rue",
+        "menu n° 4",
+        "massage 60 min",
+        "bus 8"
+      ],
+      "inquiry_words": [
+        "c'est combien",
+        "vous avez",
+        "vous fermez à quelle heure",
+        "vous livrez"
+      ],
+      "name": [
+        "au nom de Benali",
+        "pour Fatima",
+        "famille Alaoui"
+      ],
+      "order_words": [
+        "à emporter",
+        "livraison",
+        "je passe récupérer",
+        "commande"
+      ],
+      "party": [
+        "table pour 4",
+        "nous sommes trois",
+        "deux personnes",
+        "2 adultes et 1 enfant"
+      ],
+      "phone": [
+        "06 12345678",
+        "+213 5 12345678",
+        "12345678"
+      ],
+      "time": [
+        "à 19h30",
+        "sept heures et demie",
+        "huit heures moins le quart",
+        "vers 20h"
+      ]
+    }
+  }
+}

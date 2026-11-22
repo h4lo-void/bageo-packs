@@ -1,0 +1,57 @@
+{
+  "country": "bw",
+  "parent": "za",
+  "name": {
+    "en": "Botswana",
+    "native": "Botswana",
+    "zh": "波札那"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+267",
+    "currency": "普拉 BWP（不與蘭特掛鉤，南非蘭特不是法定貨幣）",
+    "time_zone": "UTC+2，與南非相同",
+    "language": "英語官方，塞茨瓦納語為國語，日常電話常用；寒暄稱 rra（先生）、mma（女士）",
+    "post": "BotswanaPost 郵政信箱收件常見"
+  },
+  "habits": {
+    "en": "Follow Setswana callers; rra and mma for sir and madam. Prices are in pula, not rand. Wallets: Orange Money, MyZaka.",
+    "zh": "對方說塞茨瓦納語就跟著說；稱呼用 rra、mma。標價是普拉，不是蘭特。行動錢包常見 Orange Money、MyZaka。"
+  },
+  "vocab": {
+    "bank": [
+      "pula",
+      "Orange Money",
+      "MyZaka"
+    ],
+    "delivery": [
+      "BotswanaPost",
+      "PO box"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "rand",
+      "reason": {
+        "zh": "南非貨幣，波札那用普拉"
+      }
+    },
+    {
+      "word": "Afrikaans 跟說",
+      "reason": {
+        "zh": "南非荷蘭語在波札那不普遍"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.bankofbotswana.bw/",
+    "https://www.botswanapost.co.bw/",
+    "https://en.wikipedia.org/wiki/Botswana_pula",
+    "https://en.wikipedia.org/wiki/Mobile_money"
+  ],
+  "uncertain": [
+    "主管機關 BOCRA 網站從 box 連線逾時，號碼格式未能在官方頁核對。",
+    "Orange Money、MyZaka 的市占比例未查到官方數字。"
+  ]
+}

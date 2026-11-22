@@ -1,0 +1,794 @@
+{
+  "region": "ro-md",
+  "countries": [
+    "ro",
+    "md"
+  ],
+  "region_name_zh": "羅馬尼亞、摩爾多瓦",
+  "region_name": "Romania and Moldova",
+  "languages": [
+    {
+      "code": "ro",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (md, widely used in business)"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Romanian (ro) in both countries; in Moldova (md) Russian is very common in Chișinău, Bălți, Gagauzia and Transnistria-adjacent areas, so switch to Russian if the owner answers in it; English works in Bucharest, Cluj and hotels.",
+  "english_ok": "sometimes — Good among younger staff in Bucharest, Cluj, Timișoara and Chișinău centre and at hotels; limited at state clinics, offices and in villages.",
+  "politeness": "Use 'dumneavoastră', 'domnule/doamnă'; open with 'Bună ziua' and say for whom you call; close with 'Mulțumesc, la revedere'. In Russian use 'вы'.",
+  "name_tip": "Surname is often given first in bookings ('pe numele Popescu'); spell foreign names letter by letter; in Russian-speaking Moldova expect patronymic-free first name + surname.",
+  "phone_tip": "ro: mobile 07xx xxx xxx (10 digits with 0), +40; md: mobile 06x/07x xx xx xx (9 digits with 0), Chișinău landline 022, +373; read in groups.",
+  "time_tip": "'șapte și jumătate' = 7:30 and 'opt fără un sfert' = 7:45 (no half-before trap in Romanian); Russian 'в половине восьмого' = 7:30 is a trap; read back in 24h.",
+  "number_tip": "Romanian uses 'de' from 20 up ('douăzeci de persoane'); 'doi/două' change with gender; prices in lei (RON in ro, MDL in md), so say which currency.",
+  "avoid_calling": "Avoid lunch 12:00–14:00 at small offices, dinner peak 19:00–21:00, calls after 20:00 and Sundays for offices; state clinics answer best early morning.",
+  "closed_days": "Shops and malls open on Sundays in both countries; state offices close weekends; Orthodox Easter and Pentecost (moving dates), 1 and 6–7 January, 24 January, 1 May, 1 June, 15 August, 30 November, 1 December, 25–26 December (ro) and 9 May, 27 August, 31 August (md) close many businesses.",
+  "booking_channels": "Regina Maria and MedLife apps/call centres for private clinics in ro; phone, Facebook, Instagram and WhatsApp for restaurants and salons; Glovo, Wolt and Bolt Food for delivery in ro; EasyReserv and phone/Viber/Telegram in md.",
+  "voice_menu": "Operators (Orange, Vodafone, Digi; Moldcell, Orange MD), banks, Fan Courier/Sameday and the private clinic chains use keypad IVR and call centres.",
+  "callback_habits": "Private clinics send SMS reminders; small businesses confirm by SMS, WhatsApp (ro) or Viber/Telegram (md) or call back from a mobile.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "滑雪、導覽與摩國酒莊參觀（degustare）可電話預約；大型酒窖需提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Winery degustare tours need booking a day ahead"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepayment to a personal card for a tour"
+        }
+      ],
+      "usually_asked": [
+        "Activity",
+        "Date and time",
+        "People",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "羅、摩髮廊美容多電話、Instagram 或 WhatsApp 預約，摩國常用 Viber。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Salon asks a deposit for bridal hair (coafură mireasă)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks avans by transfer before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (tuns, vopsit, manichiură semipermanentă)",
+        "Hair length",
+        "Day, time and stylist",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；私立連鎖可透過 App 或客服中心改期。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Avans lost on late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks CNP or IDNP to find the programare"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original programare",
+        "New time or anulare",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "羅國私立連鎖（Regina Maria、MedLife）透過 App 或客服中心預約；公立需家醫 bilet de trimitere 並受 CNAS 名額限制；摩國公立看 CNAM 保單，常問 IDNP。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Call centre offers the first free slot at another clinic"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "CNAS-funded slots used up for the month; paid consult offered"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNP (ro) or IDNP (md)"
+        }
+      ],
+      "usually_asked": [
+        "CNAS with bilet de trimitere, abonament or plată",
+        "First or follow-up consult",
+        "Specialty and reason",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、公用事業客服有語音選單並須本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Orange or Digi line refuses a caller without împuternicire"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CNP/IDNP or SMS codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Cod client",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多需臨櫃或線上預約（羅國 ghiseul.ro 繳費）；學校報名有固定期。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Evidența persoanelor slots booked online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's CNP or IDNP"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and școală de circumscripție",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需給街道、門牌、樓號（bloc）、單元（scara）、樓層、門號與對講機（interfon）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deplasare (callout) fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Old bloc without working lift"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before visit"
+        }
+      ],
+      "usually_asked": [
+        "Trade (instalator, electrician, lăcătuș)",
+        "Bloc, scara, etaj, apartament and interfon",
+        "Time window",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "山區民宿（pensiune）、農舍與摩國酒莊住宿常電話、WhatsApp 訂房並收 avans；羅國有地方住宿稅。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Taxă de stațiune (resort tax) per night in ro"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Avans transfer within 48 hours to confirm"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CI or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room type",
+        "Breakfast and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、可否刷卡、庫存等問題通常直接回答；摩國小店常只收現金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Card accepted only above a minimum in some md shops"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (program, card, stoc)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（cabinet veterinar）與寵物美容可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Urgență surcharge at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel avans by transfer"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Carnet de vaccinare",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋經 Imobiliare.ro、Storia、OLX（摩國 999.md）與房仲，電話約看房；押金（garanție）通常一個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks the Imobiliare.ro ID"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Garanție before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Rooms and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車服務（service auto）、換胎（vulcanizare）與車檢（ITP）多電話預約；換季時排隊長。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Constatare (diagnosis) fee"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "ITP station gives the next free slot"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN from the talon (registration)"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and număr de înmatriculare",
+        "ITP, vulcanizare or repair",
+        "Drop-off day",
+        "Name and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "羅、摩兩國餐廳多接電話、Facebook/Instagram 或 WhatsApp 訂位；週末婚禮與洗禮宴（botez）季常整場包下，要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant closed for a private nuntă or botez that evening"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Avans for groups or Revelion (New Year's Eve) menu"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to guarantee a Bucharest Old Town table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Câte persoane (party size)",
+        "Name and mobile",
+        "Terasă or smoking area (in md)"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（farmacie）、麵包店與甜點店（cofetărie）可電話預訂；復活節 cozonac 與蛋糕要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Farmacie orders the product by next day"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Avans for a cofetărie tort"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Tort size in kg",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "羅國外送多走 Glovo、Wolt、Bolt Food；披薩與 shaorma 店接電話外帶（la pachet）；摩國多電話或店家自送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery in Bucharest only through Glovo or Wolt"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash (numerar) only for phone orders in md"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "La pachet or livrare",
+        "Items and portion size",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Fan Courier、Sameday、Cargus、Poșta Română（摩國為 Poșta Moldovei）追蹤以網站 App 為主；easybox 取件用碼。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier hotline points to the AWB tracking page"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the easybox pickup code"
+        }
+      ],
+      "usually_asked": [
+        "AWB number",
+        "Recipient name and phone",
+        "Easybox or address",
+        "Ramburs amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "羅國以 Bolt、Uber 與計程車派遣（電話或 App）為主；摩國多用計程車短號與 App。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives car number and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Otopeni airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or permis"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ro": {
+      "appointment_words": [
+        "programare la medic",
+        "programare la coafor",
+        "ITP mașină",
+        "consult de control",
+        "programare la dentist"
+      ],
+      "booking_words": [
+        "rezervare masă",
+        "rezerv o masă",
+        "rezervare cameră",
+        "cazare cu mic dejun",
+        "rezervare loc"
+      ],
+      "change_words": [
+        "reprogramare",
+        "anulare rezervare",
+        "cu o jumătate de oră mai târziu",
+        "mutăm pe vineri",
+        "schimbare de oră"
+      ],
+      "date": [
+        "mâine",
+        "poimâine",
+        "vinerea asta",
+        "marțea viitoare",
+        "25.11",
+        "25 noiembrie"
+      ],
+      "false_friends": [
+        "etaj 3",
+        "ap. 12",
+        "bl. M4, sc. B",
+        "meniul nr. 4",
+        "masaj 60 min",
+        "tramvaiul 41"
+      ],
+      "inquiry_words": [
+        "până la ce oră e bucătăria",
+        "se poate plăti cu cardul",
+        "se poate cu câinele",
+        "aveți în stoc",
+        "program de lucru"
+      ],
+      "name": [
+        "pe numele Popescu",
+        "Ion Popescu",
+        "Maria Ionescu",
+        "familia Popa",
+        "domnul Stan"
+      ],
+      "order_words": [
+        "la pachet",
+        "ridicare personală",
+        "cu livrare",
+        "să mi-l păstrați",
+        "comandă în avans"
+      ],
+      "party": [
+        "masă pentru 4",
+        "2 adulți și 1 copil",
+        "suntem trei",
+        "pentru 2 persoane",
+        "4 pers.",
+        "6 persoane + scaun de copil"
+      ],
+      "phone": [
+        "0712 345 678",
+        "+40 712 345 678",
+        "+373 61 234 567",
+        "sunați la 0712 345 678"
+      ],
+      "time": [
+        "la șapte și jumătate seara",
+        "19:30",
+        "la șase și un sfert",
+        "la opt fără un sfert",
+        "la prânz",
+        "pe la 20"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "запись на стрижку",
+        "техосмотр",
+        "приём у стоматолога",
+        "запись на маникюр"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь столика",
+        "бронь номера",
+        "проживание с завтраком",
+        "резерв"
+      ],
+      "change_words": [
+        "перенести запись",
+        "отменить бронь",
+        "на полчаса позже",
+        "на пятницу",
+        "поменять время"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в эту пятницу",
+        "в следующий вторник",
+        "25.11",
+        "в субботу вечером"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 12",
+        "подъезд 2",
+        "комплекс № 4",
+        "массаж 60 мин",
+        "маршрутка 112"
+      ],
+      "inquiry_words": [
+        "до скольки работает кухня",
+        "можно картой",
+        "можно с собакой",
+        "есть в наличии",
+        "график работы"
+      ],
+      "name": [
+        "на фамилию Попеску",
+        "Иван Попеску",
+        "Мария Чебан",
+        "семья Русу",
+        "господин Рошка"
+      ],
+      "order_words": [
+        "навынос",
+        "самовывоз",
+        "с доставкой",
+        "отложите для меня",
+        "предзаказ"
+      ],
+      "party": [
+        "столик на 4",
+        "2 взрослых и 1 ребёнок",
+        "нас будет трое",
+        "на 2 человека",
+        "6 человек + детский стульчик"
+      ],
+      "phone": [
+        "+373 61 234 567",
+        "061 234 567",
+        "перезвоните на 061 234 567",
+        "061 234 567 (Viber)"
+      ],
+      "time": [
+        "в половине восьмого",
+        "в 19:30",
+        "в четверть седьмого",
+        "без четверти восемь",
+        "в обед",
+        "около 20:00"
+      ]
+    }
+  }
+}

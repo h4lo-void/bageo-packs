@@ -1,0 +1,298 @@
+{
+  "lang": "ca",
+  "backchannels": {
+    "direction": "Liesenfeld's Catalan tokens are sí, mmm and vale; d'acord aligns. A flat sí, sí can hurry the speaker.",
+    "examples": [
+      {
+        "text": "Sí, ho segueixo.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mmm, sí.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Vale, d'acord.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "D'acord.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Sí, sí, ja ho tinc.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "De debò? takes surprise; quina llàstima is everyday sympathy, shorter than em sap greu, and enhorabona marks good news.",
+    "examples": [
+      {
+        "text": "De debò?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "I ara?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Quina llàstima.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Em sap greu.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Que bé!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Enhorabona.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Això serà difícil.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "When a mòbil drops out, Catalan often names the bad line and asks the other person to speak up.",
+    "examples": [
+      {
+        "text": "No us sento bé.",
+        "style": "polite"
+      },
+      {
+        "text": "S'escolta malament.",
+        "style": "casual"
+      },
+      {
+        "text": "Podeu parlar una mica més alt?",
+        "style": "polite"
+      },
+      {
+        "text": "La línia se sent fluixa.",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives no ho entenc; podeu repetir-ho asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "No ho entenc.",
+        "style": "casual"
+      },
+      {
+        "text": "No ho he entès, em sap greu.",
+        "style": "polite"
+      },
+      {
+        "text": "Podeu repetir-ho, si us plau?",
+        "style": "polite"
+      },
+      {
+        "text": "Podeu lletrejar el nom?",
+        "style": "polite"
+      },
+      {
+        "text": "El número, si us plau: és el 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "CPNL drills de part de qui? after a request for someone; on a shared handset, name the telèfon de {owner}.",
+    "examples": [
+      {
+        "text": "De part de qui?",
+        "style": "polite"
+      },
+      {
+        "text": "Qui parla, si us plau?",
+        "style": "polite"
+      },
+      {
+        "text": "És el telèfon de {owner}. De part de qui?",
+        "style": "polite"
+      },
+      {
+        "text": "Qui és?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The same lesson closes a mismatch with no, s'equivoca, and aquí no hi ha ningú amb aquest nom, then ends the call.",
+    "examples": [
+      {
+        "text": "No, s'equivoca.",
+        "style": "polite"
+      },
+      {
+        "text": "Aquí no hi ha ningú amb aquest nom.",
+        "style": "polite"
+      },
+      {
+        "text": "Em penso que s'ha equivocat de número.",
+        "style": "polite"
+      },
+      {
+        "text": "Número erroni, em sap greu.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Li ho dic a {owner} or li passo el recado passes the news along; that alone does not set an hour for a return call.",
+    "examples": [
+      {
+        "text": "Li ho dic a {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Li passo el recado.",
+        "style": "polite"
+      },
+      {
+        "text": "Li diré que heu trucat.",
+        "style": "polite"
+      },
+      {
+        "text": "Ja l'hi dic jo.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "No, gràcies, no m'interessa is the usual brush-off; extra reasons can sound as if the offer is still open.",
+    "examples": [
+      {
+        "text": "No, gràcies, no m'interessa.",
+        "style": "polite"
+      },
+      {
+        "text": "Gràcies, però no ho necessitem.",
+        "style": "polite"
+      },
+      {
+        "text": "No m'interessa, gràcies.",
+        "style": "casual"
+      },
+      {
+        "text": "Si us plau, treieu-nos de la llista.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A restated no often adds no truqueu més a aquest número, still with vostè or a polite plural.",
+    "examples": [
+      {
+        "text": "Ja he dit que no. No truqueu més a aquest número.",
+        "style": "polite"
+      },
+      {
+        "text": "No m'interessa, i us demano que no hi insisteixi.",
+        "style": "polite"
+      },
+      {
+        "text": "Si us plau, no tornis a trucar.",
+        "style": "casual"
+      },
+      {
+        "text": "És un no definitiu; no ens contacteu més.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "vostè is the safe default with strangers; tu waits for familiars. Senyor or senyora fits a careful call.",
+    "examples": [
+      {
+        "text": "Senyor.",
+        "style": "polite"
+      },
+      {
+        "text": "Senyora.",
+        "style": "polite"
+      },
+      {
+        "text": "Doctor.",
+        "style": "polite"
+      },
+      {
+        "text": "Hola, tu.",
+        "style": "casual"
+      },
+      {
+        "text": "Vostè, si us plau.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A script like la seva trucada és important per a nosaltres sounds odd on a private mòbil.",
+    "examples": [
+      {
+        "text": "La seva trucada és important per a nosaltres.",
+        "style": "polite"
+      },
+      {
+        "text": "En què el puc ajudar avui?",
+        "style": "polite"
+      },
+      {
+        "text": "És un plaer atendre'l.",
+        "style": "polite"
+      },
+      {
+        "text": "Gràcies per trucar a l'oficina de {owner}; la seva satisfacció és la nostra prioritat.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to tu too soon, or asking for a DNI or salary at the start of a call, feels like overstepping in Catalan too.",
+    "examples": [
+      {
+        "text": "Escolta, tu, quin sou tens i ets casat?",
+        "style": "casual"
+      },
+      {
+        "text": "Per què no ha trucat {owner}? Digue'm on és ara mateix.",
+        "style": "casual"
+      },
+      {
+        "text": "Primer doni'm el DNI i l'adreça.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://www.cpnl.cat/gramatica/81/14-converses-telefoniques",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "Liesenfeld 的加泰隆尼亞語料是面對面會話，sí／mmm／vale 是否同樣主導私人電話，未另做電話語料統計。",
+    "vale 在加泰隆尼亞語料出現，但也可能是西班牙語借用；各地接受度未量化。",
+    "CPNL 教材用 Digui? 作接聽，本檔不另行規定開場白；De part de qui? 作詢問來者。"
+  ]
+}

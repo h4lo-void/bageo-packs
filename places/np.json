@@ -1,0 +1,729 @@
+{
+  "region": "np",
+  "countries": [
+    "np"
+  ],
+  "region_name_zh": "尼泊爾",
+  "region_name": "Nepal",
+  "languages": [
+    {
+      "code": "ne",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak Nepali (ne) politely with 'tapai' or 'hajur'; English works at hotels, trekking agencies, private hospitals and many Kathmandu and Pokhara businesses; Hindi is widely understood.",
+  "english_ok": "sometimes — Common in tourism, hotels, private hospitals and many city businesses; limited at small local shops, mechanics and outside Kathmandu and Pokhara.",
+  "politeness": "Respectful: greet with namaste, use 'tapai/hajur' and 'ji'; soften requests with 'kripaya'; thank with dhanyabad.",
+  "name_tip": "Given name + surname (often a caste/clan name); address with 'ji' after the name or dai/didi informally; book under full name + mobile.",
+  "phone_tip": "Mobile 10 digits starting 98 or 97 (98X-123 4567 style); Kathmandu landline 01-123 4567; read back in groups.",
+  "time_tip": "12-hour with 'bihana/diuso/beluka/raati' (morning/afternoon/evening/night); 'saadhe saat' = 7:30, 'paune aath' = 7:45, 'sawa saat' = 7:15; check whether a date is BS or AD.",
+  "number_tip": "Devanagari digits (०–९) appear alongside Western digits; the Bikram Sambat calendar (about 56–57 years ahead of AD) is used for official dates; prices in rupees (Rs).",
+  "avoid_calling": "Avoid lunch 13:00–14:00, calls before 10:00 and after 20:00 to shops, and Dashain and Tihar (the big autumn festivals) when many businesses close for days.",
+  "closed_days": "Saturday is the traditional weekly holiday; since April 2026 government offices and schools also close Sunday; many private shops open Sunday; Dashain, Tihar and other festivals bring multi-day closures.",
+  "booking_channels": "Phone calls, Viber and WhatsApp are the main channels; Facebook Messenger for small shops and restaurants; hospital apps or phone for doctors; Foodmandu/Pathao for delivery; Pathao, inDrive and Yango for rides; eSewa/Khalti for payment.",
+  "voice_menu": "Telcos (Nepal Telecom, Ncell), banks and big hospitals use Nepali/English IVR; small businesses answer directly.",
+  "callback_habits": "Businesses usually call back or reply on Viber/WhatsApp; hospitals may SMS a token or appointment number; couriers call on delivery.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "健行、滑翔傘、泛舟與山景觀光飛行多經旅行社或 WhatsApp 預約，健行許可證（TIMS、保護區）由業者代辦。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agency arranges trekking permits"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Paragliding flight depends on weather that morning"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and photos for permits"
+        }
+      ],
+      "usually_asked": [
+        "Trek, flight or rafting and date",
+        "Pickup from hotel in Thamel or Lakeside",
+        "Number of people",
+        "Lead name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美容院多電話或 Viber 預約；節日與婚宴季新娘妝（bridal makeup）要很早訂並付訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Bridal package needs an advance and trial"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Men's barbers mostly take walk-ins"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment to an individual's wallet for a haircut"
+        }
+      ],
+      "usually_asked": [
+        "Service: haircut, facial, threading, mehendi, bridal",
+        "Preferred beautician",
+        "Date and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多電話或 Viber 即可；醫院線上掛號依各院規定，不一定能退費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Online OPD ticket change follows hospital rules"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Banquet advance kept if cancelled late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ticket or registration number"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile used",
+        "Original date and time",
+        "New date or cancel",
+        "Ticket number if online"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "大型公立與教學醫院（如 Bir、TU 教學醫院）可在官網或 App 線上掛號並用 eSewa、Khalti 付費；私立醫院有電話與 App 預約，現場常發號碼牌依序看診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hospital OPD tickets can be bought online with eSewa or Khalti"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist sees only a fixed number of patients per day"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks citizenship number or hospital registration number"
+        }
+      ],
+      "usually_asked": [
+        "Which OPD department and doctor",
+        "First visit or follow-up",
+        "Patient name, age and gender",
+        "Paid online or at the counter",
+        "Mobile number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Nepal Telecom、Ncell）與銀行客服有尼泊爾語／英語語音選單，帳戶事項須本人驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telco says SIM matters need the SIM owner"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks citizenship number or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR language",
+        "Account or SIM holder",
+        "Account number",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多需本人到場或用 Nagarik App；學校可電話詢問，週六與週日（2026 年起政府新規）不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Some services available in the Nagarik App"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks citizenship certificate number"
+        }
+      ],
+      "usually_asked": [
+        "Which office or document",
+        "Applicant or child's age and grade",
+        "District and ward",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與清潔多電話叫；地址常以市、區（ward）、街坊（tole）與地標描述，沒有門牌號也常見。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Plumber charges a visit fee"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks a nearby landmark to find the house"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks wallet payment before the visit"
+        }
+      ],
+      "usually_asked": [
+        "Job type",
+        "City, ward number, tole and landmark",
+        "Time of day",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 Booking.com、Agoda 或電話；健行路線上的山屋（teahouse）多由健行社安排；入住須出示護照或公民證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport or citizenship needed at check-in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Teahouse rooms are arranged by the trekking agency"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport copy by WhatsApp in advance"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out",
+        "Guests and room type",
+        "Breakfast and airport pickup",
+        "Guest name and mobile"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、德賽節與燈節是否營業、可否用 eSewa、Khalti 或 Fonepay、罷工（banda）或停電日是否營業。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives Dashain-Tihar closing days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Says eSewa, Khalti, Fonepay accepted"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and festival days",
+        "Digital wallet or cash",
+        "Open on banda (strike) days",
+        "Parking for bike or car"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容多集中在加德滿都谷地，可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming by breed size"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet asks vaccine record"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding prepayment to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Vet, vaccine, grooming",
+        "Dog or cat, breed, age",
+        "Vaccine record",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Facebook 社團與分類網站，房東與仲介（broker）習慣電話約看房；常以「幾間房（flat/room）」出租。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Broker arranges the viewing by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Broker fee equal to part of one month's rent"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks advance before showing the flat"
+        }
+      ],
+      "usually_asked": [
+        "Area and number of rooms",
+        "Family or single, move-in date",
+        "Water and parking availability",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車是主要交通工具，修理行（workshop）多直接到場；原廠保養可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Authorised service centre books free servicing by phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Workshop quotes after inspection"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks bluebook (vehicle registration) details"
+        }
+      ],
+      "usually_asked": [
+        "Bike or car model and number plate",
+        "Free or paid service number",
+        "Problem",
+        "Drop-off day"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "尼泊爾餐廳多電話或 Viber、Facebook 粉專訂位，一般小店多現場用餐；德賽節、燈節與婚宴季包廂與宴會廳要提早並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Banquet hall for a wedding or bratabandha needs an advance by eSewa or bank"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Small eateries say no booking needed, just walk in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rooftop seating depends on weather"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks advance from the caller's own eSewa or Khalti wallet"
+        }
+      ],
+      "usually_asked": [
+        "Date and time with morning/evening",
+        "Number of people (jana)",
+        "Veg or non-veg, no buff or no pork",
+        "Rooftop or inside",
+        "Name and 98X mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、甜點與節慶禮品常電話或 Viber 預訂並先付 eSewa 訂金；燈節與德賽節前要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cake advance by eSewa or Khalti"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full payment to an unknown wallet"
+        }
+      ],
+      "usually_asked": [
+        "Cake pound size and flavour, eggless or not",
+        "Message",
+        "Pickup or delivery date",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐廳可電話點餐打包，外送以 Foodmandu、Pathao Food 為主；常問 momo 種類（雞、水牛、素）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through Foodmandu or Pathao Food"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay by Fonepay QR at pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks wallet transfer before cooking a small order"
+        }
+      ],
+      "usually_asked": [
+        "Items and plates (momo, chowmein)",
+        "Buff, chicken or veg",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Nepal Post 與本地快遞多電話詢問；國際包裹建議用追蹤號在官網查。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Local courier calls the receiver before delivery"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the receiver's citizenship to release a parcel"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Receiver name and mobile",
+        "City, ward and landmark",
+        "Item"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Pathao、inDrive 為主，機車載客常見；機場接送與長途包車可電話或 WhatsApp 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests Pathao or inDrive in Kathmandu and Pokhara"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Jeep or car hire priced per day including driver"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport copy for a long-distance hire"
+        }
+      ],
+      "usually_asked": [
+        "Pickup point and landmark",
+        "Destination or airport (TIA)",
+        "Passengers and bags",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ne": {
+      "appointment_words": [
+        "डाक्टरसँग समय लिने",
+        "चेकअपको लागि बुक",
+        "कपाल काट्न समय",
+        "गाडी सर्भिसिङ",
+        "दाँतको जाँच"
+      ],
+      "booking_words": [
+        "टेबल बुक गर्ने",
+        "कोठा बुक",
+        "अग्रिम बुकिङ",
+        "हल बुक",
+        "सिट रिजर्भ"
+      ],
+      "change_words": [
+        "समय सार्ने",
+        "शुक्रबार बनाउने",
+        "बुकिङ रद्द",
+        "आधा घण्टा पछि",
+        "मिति परिवर्तन"
+      ],
+      "date": [
+        "भोलि",
+        "पर्सि",
+        "यो शनिबार",
+        "अर्को सोमबार",
+        "मंसिर १० गते",
+        "२५ नोभेम्बर"
+      ],
+      "false_friends": [
+        "तेस्रो तला",
+        "कोठा नं. १२",
+        "वडा नं. ५",
+        "सेट नं. २",
+        "१ घण्टा मसाज"
+      ],
+      "inquiry_words": [
+        "पसल कति बजे खुल्छ",
+        "पार्किङ छ",
+        "eSewa चल्छ",
+        "सामान छ",
+        "होम डेलिभरी छ"
+      ],
+      "name": [
+        "राम जीको नाममा",
+        "सीता दिदी",
+        "कम्पनीको नाममा",
+        "बिरामीको नाम"
+      ],
+      "order_words": [
+        "प्याक गर्ने",
+        "होम डेलिभरी",
+        "अर्डर गर्ने",
+        "अग्रिम अर्डर"
+      ],
+      "party": [
+        "४ जना",
+        "२ ठूला १ बच्चा",
+        "१० जना",
+        "हामी २ जना"
+      ],
+      "phone": [
+        "98X-123 4567",
+        "Viber उही नम्बर",
+        "01-123 4567"
+      ],
+      "time": [
+        "बेलुका ७ बजे",
+        "साढे सात",
+        "पौने आठ",
+        "दिउँसो १ बजे",
+        "बिहान १० बजे"
+      ]
+    }
+  }
+}

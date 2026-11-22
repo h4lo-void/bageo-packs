@@ -1,0 +1,269 @@
+{
+  "lang": "sr",
+  "backchannels": {
+    "direction": "Da, aha and jasno show listening; dobro je agrees; ma da, ma da can sound dismissive.",
+    "examples": [
+      {
+        "text": "Aha, slušam.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Da, pratim vas.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Jasno.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Važi.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ma da, ma da.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Ma nemoj! or Stvarno? for surprise; žao mi je for sympathy; baš lepo for good news.",
+    "examples": [
+      {
+        "text": "Ma nemoj!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ozbiljno, bre?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Baš mi je žao.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Baš lepo!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "E, to će ići teško.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the line cuts out (prekida, ne čujem vas dobro) and ask them to speak louder, with Vi.",
+    "examples": [
+      {
+        "text": "Ne čujem vas dobro.",
+        "style": "polite"
+      },
+      {
+        "text": "Veza se prekida.",
+        "style": "polite"
+      },
+      {
+        "text": "Loš je signal ovde.",
+        "style": "casual"
+      },
+      {
+        "text": "Možete li malo glasnije?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Molim? asks for a replay; for names ask to spell (sricati); echo the digits in pairs.",
+    "examples": [
+      {
+        "text": "Molim?",
+        "style": "polite"
+      },
+      {
+        "text": "Možete li da ponovite?",
+        "style": "polite"
+      },
+      {
+        "text": "Kako se piše vaše prezime?",
+        "style": "polite"
+      },
+      {
+        "text": "Broj je 12345678, je l' tako?",
+        "style": "polite"
+      },
+      {
+        "text": "Šta?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ko je na vezi? / S kim razgovaram? with Vi; bare Ko je to? is blunt.",
+    "examples": [
+      {
+        "text": "S kim razgovaram, molim vas?",
+        "style": "polite"
+      },
+      {
+        "text": "Odakle zovete?",
+        "style": "polite"
+      },
+      {
+        "text": "Ovo je telefon od {owner}, ko je na vezi?",
+        "style": "polite"
+      },
+      {
+        "text": "Ko zove?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Pogrešan broj, and nobody of that name here, said briefly.",
+    "examples": [
+      {
+        "text": "Izvinite, pogrešili ste broj.",
+        "style": "polite"
+      },
+      {
+        "text": "Ovde nema nikog s tim imenom.",
+        "style": "polite"
+      },
+      {
+        "text": "Nije taj broj.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Preneću poruku tells them {owner} will know; skip naming when {owner} rings.",
+    "examples": [
+      {
+        "text": "Preneću poruku {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Reći ću mu/joj.",
+        "style": "casual"
+      },
+      {
+        "text": "Poruka će biti preneta.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Hvala, nisam zainteresovan/a is the clear polite form; no need to justify.",
+    "examples": [
+      {
+        "text": "Hvala, nismo zainteresovani.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne treba nam, hvala lepo.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne hvala.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, say you've already refused and ask them to remove the number.",
+    "examples": [
+      {
+        "text": "Već sam rekao da nas ne zanima.",
+        "style": "polite"
+      },
+      {
+        "text": "Molim vas, ne zovite više ovaj broj.",
+        "style": "polite"
+      },
+      {
+        "text": "Izbrišite ovaj broj sa vaše liste.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Vi for strangers; gospodine/gospođo + surname on formal calls; first names only once invited.",
+    "examples": [
+      {
+        "text": "Gospodine Petroviću",
+        "style": "polite"
+      },
+      {
+        "text": "Gospođo",
+        "style": "polite"
+      },
+      {
+        "text": "Izvolite",
+        "style": "polite"
+      },
+      {
+        "text": "Komšija",
+        "style": "casual"
+      },
+      {
+        "text": "Druže",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Hvala što ste pozvali korisnički servis sound like a telecom helpline.",
+    "examples": [
+      {
+        "text": "Hvala što ste pozvali korisnički servis.",
+        "style": "polite"
+      },
+      {
+        "text": "Vaš poziv nam je važan.",
+        "style": "polite"
+      },
+      {
+        "text": "Kako vam mogu pomoći danas?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ti with older strangers, swearing, or asking about politics, salary or ethnicity early is out of line.",
+    "examples": [
+      {
+        "text": "A kolika ti je plata?",
+        "style": "casual"
+      },
+      {
+        "text": "Za koga glasaš?",
+        "style": "casual"
+      },
+      {
+        "text": "Ko si ti bre?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/molim",
+    "https://en.wiktionary.org/wiki/halo",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wikipedia.org/wiki/Serbian_language"
+  ],
+  "uncertain": [
+    "Serbian uses both Cyrillic and Latin; examples given in Latin, as common in phone/texting, but Cyrillic is official",
+    "Ekavian forms used; ijekavian speakers (e.g. Bosnia, Montenegro) would say 'lijepo', 'nijesam'",
+    "Backchannel set (aha, da, jasno, mhm) from general usage, no corpus"
+  ]
+}

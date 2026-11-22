@@ -1,0 +1,91 @@
+{
+  "region": "cd-cg-cm-ga-cf-td-bi",
+  "lang": "en",
+  "why_added": "喀麥隆以英語、法語同為官方語言；蒲隆地亦以英語為官方語言之一。區包預設為法語。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Sir or Madam with strangers. Strongest in Cameroon’s west. Keep CFA, or Congolese franc in the DRC. Pidgin may appear.",
+    "zh": "對生人用 Sir、Madam。英語在喀麥隆西北與西南較常用。喀麥隆等地是 CFA，剛果民主共和國是剛果法郎。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Cameroonian friend: first names, short lines. Leave Pidgin or French words they used; money is CFA, not naira.",
+        "zh": "喀麥隆熟友可叫名字，句子短。對方用的皮欽或法語詞照留；錢是 CFA，不是奈拉。"
+      },
+      "2": {
+        "en": "Easy bilingual tone. A French street or office name does not need an English rewrite.",
+        "zh": "輕鬆雙語口氣。法語街名或機關名不必改寫成英語。"
+      },
+      "3": {
+        "en": "Everyday Cameroon or Burundi English. Finish each point; say CFA outside the DRC, Congolese franc inside it.",
+        "zh": "喀麥隆或蒲隆地日常英語。把話說完；除剛果民主共和國用剛果法郎外，多說 CFA。"
+      },
+      "4": {
+        "en": "Polite Sir or Madam for offices. Confirm which country and which franc before closing a payment point.",
+        "zh": "對機關用 Sir、Madam。談付款先確認是哪一國、哪一種法郎。"
+      },
+      "5": {
+        "en": "Formal office English. Burundi English is official but less spoken; do not assume the same density as in Cameroon.",
+        "zh": "正式公務英語。蒲隆地英語雖為官方語言，使用較少，不要當成與喀麥隆同樣普遍。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual pickup: first names if they did, keep any Pidgin word, then you will pass the message on.",
+        "zh": "{owner}較熟的代接：對方叫名字才跟著叫，皮欽詞照留，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave CFA or a French title as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。CFA 或法語職銜照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the CFA or Congolese-franc point in one full sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句話重述 CFA 或剛果法郎的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: Sir or Madam, note which country they mean, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 Sir 或 Madam：先確認是哪一國來電，再說明會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on the franc and office names, no extra familiarity, then confirm the note for {owner}.",
+        "zh": "正式代表：把法郎與機關名稱說準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Are you still in Bamenda?",
+      "Hello, yes, hearing you clearly — go ahead.",
+      "Hello, good afternoon. Is this about the CFA payment?",
+      "Good afternoon, thanks for calling. The amount in CFA is clear.",
+      "Good afternoon, thank you. I've noted the office business."
+    ],
+    "a": [
+      "Hello! {owner} is away; tell me the message and I'll relay it.",
+      "Hello, hi. I'm on the line, what should I relay?",
+      "Good afternoon. I'll relay this to {owner} as you put it.",
+      "Thanks for calling. I will note the CFA point for {owner}.",
+      "Thank you. I'll jot the details down and pass them on."
+    ]
+  },
+  "diff_from_home": [
+    "英語主要見於喀麥隆西北／西南與部分公務場合，以及蒲隆地的官方層級，不是七國通用日常語。",
+    "喀麥隆、加彭、查德、中非、剛果共和國多用 CFA；剛果民主共和國用剛果法郎，不要混為一種貨幣。",
+    "電話裡可夾法語機關名或喀麥隆皮欽詞，照留即可。",
+    "不要把奈及利亞英語習慣或奈拉套到本區。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/cameroon/",
+    "https://www.cia.gov/the-world-factbook/countries/burundi/",
+    "https://www.constituteproject.org/constitution/Cameroon_2008"
+  ],
+  "uncertain": [
+    "蒲隆地英語為官方語言，但《世界概況》亦註明使用最少，不能寫成街頭常用語。",
+    "剛果民主共和國、剛果共和國、加彭、中非、查德並不以英語為官方語言，此組合不能代表七國全境。",
+    "喀麥隆皮欽英語不在支援清單，只能保留個別詞，不能改用皮欽接聽。"
+  ]
+}

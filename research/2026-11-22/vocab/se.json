@@ -1,0 +1,469 @@
+{
+  "region": "se",
+  "vocab": {
+    "sv": {
+      "bank": [
+        {
+          "term": "BankID",
+          "en": "Swedish e-ID used to log in and sign"
+        },
+        {
+          "term": "clearingnummer",
+          "en": "Swedish bank sort code before the account number"
+        },
+        {
+          "term": "kontonummer",
+          "en": "Swedish account number"
+        },
+        {
+          "term": "överföring",
+          "en": "Swedish bank transfer"
+        },
+        {
+          "term": "autogiro",
+          "en": "Swedish direct debit"
+        },
+        {
+          "term": "lönekonto",
+          "en": "Swedish salary account"
+        },
+        {
+          "term": "bankdosa",
+          "en": "Swedish card reader for code generation, fading out"
+        },
+        {
+          "term": "internetbanken",
+          "en": "Swedish online bank"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "PostNord",
+          "en": "Swedish-Danish postal carrier"
+        },
+        {
+          "term": "ombud",
+          "en": "Swedish pickup agent in a shop"
+        },
+        {
+          "term": "paketskåp",
+          "en": "Swedish parcel locker"
+        },
+        {
+          "term": "avisering",
+          "en": "Swedish notice that a parcel has arrived"
+        },
+        {
+          "term": "kollinummer",
+          "en": "Swedish parcel/consignment number"
+        },
+        {
+          "term": "hemleverans",
+          "en": "Swedish home delivery"
+        },
+        {
+          "term": "utanför dörren",
+          "en": "left outside the door (Swedish)"
+        },
+        {
+          "term": "Budbee",
+          "en": "Swedish/Nordic delivery firm with lockers"
+        }
+      ],
+      "government": [
+        {
+          "term": "personnummer",
+          "en": "Swedish personal ID number; never read aloud unasked"
+        },
+        {
+          "term": "Skatteverket",
+          "en": "Swedish Tax Agency, also handles population register"
+        },
+        {
+          "term": "Försäkringskassan",
+          "en": "Swedish Social Insurance Agency"
+        },
+        {
+          "term": "folkbokföring",
+          "en": "Swedish population registration"
+        },
+        {
+          "term": "ID-kort",
+          "en": "Swedish ID card"
+        },
+        {
+          "term": "körkort",
+          "en": "Swedish driving licence"
+        },
+        {
+          "term": "Mina sidor",
+          "en": "'my pages' login area on Swedish agency sites"
+        },
+        {
+          "term": "Migrationsverket",
+          "en": "Swedish Migration Agency"
+        }
+      ],
+      "health": [
+        {
+          "term": "1177",
+          "en": "Swedish healthcare advice line and site"
+        },
+        {
+          "term": "vårdcentral",
+          "en": "Swedish primary care centre"
+        },
+        {
+          "term": "e-recept",
+          "en": "Swedish e-prescription"
+        },
+        {
+          "term": "apotek",
+          "en": "pharmacy in Sweden"
+        },
+        {
+          "term": "akuten",
+          "en": "Swedish emergency department, colloquial"
+        },
+        {
+          "term": "remiss",
+          "en": "Swedish referral"
+        },
+        {
+          "term": "sjukskrivning",
+          "en": "Swedish sick-listing by a doctor"
+        },
+        {
+          "term": "högkostnadsskydd",
+          "en": "Swedish cap on yearly medical costs"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobil",
+          "en": "mobile phone, Swedish"
+        },
+        {
+          "term": "abonnemang",
+          "en": "Swedish postpaid subscription"
+        },
+        {
+          "term": "kontantkort",
+          "en": "Swedish prepaid SIM"
+        },
+        {
+          "term": "Telia",
+          "en": "Swedish operator"
+        },
+        {
+          "term": "Tele2",
+          "en": "Swedish operator"
+        },
+        {
+          "term": "Telenor",
+          "en": "operator in Sweden (Telenor Sverige)"
+        },
+        {
+          "term": "surf",
+          "en": "Swedish slang for mobile data"
+        },
+        {
+          "term": "portera numret",
+          "en": "Swedish number porting"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Swish",
+          "en": "Swedish mobile payment, also a verb 'swisha'"
+        },
+        {
+          "term": "kortbetalning",
+          "en": "card payment, Swedish"
+        },
+        {
+          "term": "blippa",
+          "en": "tap a card or phone to pay, Swedish slang"
+        },
+        {
+          "term": "Klarna",
+          "en": "Swedish pay-later service"
+        },
+        {
+          "term": "faktura",
+          "en": "Swedish invoice"
+        },
+        {
+          "term": "OCR-nummer",
+          "en": "Swedish payment reference on bills"
+        },
+        {
+          "term": "kontanter",
+          "en": "cash, rarely used in Sweden"
+        }
+      ],
+      "transport": [
+        {
+          "term": "SL",
+          "en": "Stockholm public transport"
+        },
+        {
+          "term": "pendeltåg",
+          "en": "Swedish commuter train"
+        },
+        {
+          "term": "tunnelbanan",
+          "en": "Stockholm metro, also 'T-banan'"
+        },
+        {
+          "term": "SJ",
+          "en": "Swedish national train operator"
+        },
+        {
+          "term": "Västtrafik",
+          "en": "Gothenburg region transit"
+        },
+        {
+          "term": "hållplats",
+          "en": "Swedish stop"
+        },
+        {
+          "term": "reskassa",
+          "en": "stored value on a Swedish travel card"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi in Sweden (fixed-price common)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "lägenhet",
+          "en": "Swedish apartment"
+        },
+        {
+          "term": "bostadsrätt",
+          "en": "Swedish owner-occupied co-op flat"
+        },
+        {
+          "term": "hyresrätt",
+          "en": "Swedish rental flat"
+        },
+        {
+          "term": "BRF",
+          "en": "Swedish housing association"
+        },
+        {
+          "term": "portkod",
+          "en": "Swedish entrance door code"
+        },
+        {
+          "term": "trapphus",
+          "en": "Swedish stairwell"
+        },
+        {
+          "term": "hyresvärd",
+          "en": "Swedish landlord"
+        },
+        {
+          "term": "tvättstuga",
+          "en": "shared laundry room in Swedish blocks"
+        }
+      ],
+      "school": [
+        {
+          "term": "förskola",
+          "en": "Swedish preschool"
+        },
+        {
+          "term": "dagis",
+          "en": "colloquial Swedish preschool"
+        },
+        {
+          "term": "grundskola",
+          "en": "Swedish compulsory school"
+        },
+        {
+          "term": "gymnasiet",
+          "en": "Swedish upper secondary school"
+        },
+        {
+          "term": "fritids",
+          "en": "Swedish after-school centre"
+        },
+        {
+          "term": "utvecklingssamtal",
+          "en": "Swedish parent-teacher review"
+        },
+        {
+          "term": "CSN",
+          "en": "Swedish student finance agency"
+        },
+        {
+          "term": "högskoleprovet",
+          "en": "Swedish university aptitude test"
+        }
+      ],
+      "money": [
+        {
+          "term": "kronor",
+          "en": "Swedish currency, 'kr'"
+        },
+        {
+          "term": "spänn",
+          "en": "Swedish slang for kronor"
+        },
+        {
+          "term": "tusenlapp",
+          "en": "Swedish thousand-kronor note"
+        },
+        {
+          "term": "lax",
+          "en": "Swedish slang for a thousand kronor"
+        },
+        {
+          "term": "miljon",
+          "en": "million, Swedish"
+        },
+        {
+          "term": "öre",
+          "en": "Swedish subunit, only in prices now"
+        },
+        {
+          "term": "ungefär",
+          "en": "about/roughly, Swedish for amounts"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "halv tre",
+          "en": "Swedish for 2:30"
+        },
+        {
+          "term": "kvart över",
+          "en": "quarter past, Swedish"
+        },
+        {
+          "term": "i övermorgon",
+          "en": "day after tomorrow, Swedish"
+        },
+        {
+          "term": "i eftermiddag",
+          "en": "this afternoon, Swedish"
+        },
+        {
+          "term": "helgen",
+          "en": "Swedish weekend"
+        },
+        {
+          "term": "klämdag",
+          "en": "Swedish bridge day between holiday and weekend"
+        },
+        {
+          "term": "vecka",
+          "en": "Swedes often give dates by week number"
+        }
+      ],
+      "work": [
+        {
+          "term": "jobb",
+          "en": "job, Swedish"
+        },
+        {
+          "term": "semester",
+          "en": "Swedish annual leave"
+        },
+        {
+          "term": "VAB",
+          "en": "Swedish leave to care for a sick child"
+        },
+        {
+          "term": "sjukskriven",
+          "en": "on sick leave, Swedish"
+        },
+        {
+          "term": "föräldraledig",
+          "en": "Swedish parental leave"
+        },
+        {
+          "term": "lön",
+          "en": "Swedish salary, usually paid on the 25th"
+        },
+        {
+          "term": "fika",
+          "en": "Swedish coffee break at work"
+        },
+        {
+          "term": "övertid",
+          "en": "Swedish overtime"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Vipps",
+      "use_instead": "Swish",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "MobilePay",
+      "use_instead": "Swish",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Kela",
+      "use_instead": "Försäkringskassan",
+      "where_it_is_from": "FI"
+    },
+    {
+      "word": "FPA",
+      "use_instead": "Försäkringskassan",
+      "where_it_is_from": "FI"
+    },
+    {
+      "word": "legevakt",
+      "use_instead": "akuten, vårdcentral",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "takk",
+      "use_instead": "tack",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "fødselsnummer",
+      "use_instead": "personnummer",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "NemID",
+      "use_instead": "BankID",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Wilma",
+      "use_instead": "SchoolSoft, Unikum eller skolans egen plattform",
+      "where_it_is_from": "FI"
+    }
+  ],
+  "sources": [
+    "https://www.skatteverket.se/",
+    "https://www.1177.se/",
+    "https://www.postnord.se/",
+    "https://www.swish.nu/",
+    "https://www.bankid.com/",
+    "https://www.pts.se/",
+    "https://www.sl.se/",
+    "https://www.skolverket.se/",
+    "https://svenska.se/",
+    "https://www.riksbank.se/",
+    "https://www.forsakringskassan.se/",
+    "https://www.csn.se/"
+  ],
+  "uncertain": [
+    "「bankdosa」逐漸被行動 BankID 取代，年輕人可能不熟。",
+    "「lax」指一千克朗屬俚語，年長者或正式場合不用。",
+    "瑞典北部部分地區也說 hälsocentral，所以沒列入避用；芬蘭瑞典語其他差異未逐詞查證。"
+  ]
+}

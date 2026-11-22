@@ -1,0 +1,137 @@
+{
+  "name": "Cameroon",
+  "name_local": "Cameroun",
+  "iso": "cm",
+  "calling_code": "+237",
+  "languages": [
+    "fr",
+    "en"
+  ],
+  "prevalence_note": "Cameroon's CIRT (ANTIC) lists several recurring Mobile Money frauds: a fake 'wrong transfer' that is later reversed, a bogus MTN or Orange agent who dictates a USSD string, prize SMS, WhatsApp bonus links, and merchant codes that are actually outbound transfers.",
+  "cross_border_note": "Calls and SMS may be in French or English and often use ordinary Cameroonian mobiles rather than official short codes; lures also arrive on WhatsApp.",
+  "scams": [
+    {
+      "id": "cm_fake_wrong_transfer",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux retour d'argent Mobile Money",
+      "name_en": "Fake Mobile Money wrong-transfer reversal",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "erreur de transfert",
+        "rembourse-moi",
+        "argent envoyé par erreur",
+        "annulation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "demands an immediate manual refund of an apparent credit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims a typo in the destination number and wants the funds back",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "discourages use of the official operator dispute channel",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A stranger appears to credit the wallet 'by mistake' and then phones in a panic asking for a manual refund, after which the original credit is reversed and the victim has lost their own money.",
+      "legit_en": "CIRT-CM describes this 'retour d'argent' pattern and tells users to check the recipient carefully and never to follow informal refund instructions from an unknown person. Disputes belong with the official operator care channel.",
+      "bait_tactics": [
+        "L'historique MTN MoMo de ce téléphone n'affiche pas le crédit dont vous parlez, donc je ne fais aucun remboursement manuel.",
+        "Je ne vais pas transférer mon propre solde vers un numéro que je ne connais pas, même si vous parlez d'une erreur.",
+        "Le SMS de confirmation habituel n'est pas apparu, cette histoire de dépôt ne correspond à rien sur mon écran."
+      ],
+      "sources": [
+        "https://cirt.cm/securisez-vos-transactions-mobile-money/"
+      ]
+    },
+    {
+      "id": "cm_fake_agent_ussd",
+      "typology": "fake_telecom",
+      "name": "Faux agent MTN ou Orange et code USSD",
+      "name_en": "Fake MTN or Orange agent dictating a USSD code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "agent MTN",
+        "mettre à jour le compte",
+        "code USSD",
+        "Orange Money"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dictates a USSD string presented as an account update",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "impersonates an Orange or MTN shop agent on the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to confirm a sequence the caller is dictating",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller pretends to be an MTN or Orange agent and tells the customer to compose a USSD string 'to update the account', which in fact sends the wallet balance out.",
+      "legit_en": "CIRT-CM warns never to compose a USSD code dictated by a stranger on the phone, and never to share a Mobile Money PIN, including with a shop agent.",
+      "bait_tactics": [
+        "Je ne compose aucune séquence USSD dictée par un inconnu, je n'ai demandé aucune mise à jour de compte.",
+        "Le menu Orange Money de cet appareil est figé, je ne valide rien tant que l'écran officiel n'est pas utilisable.",
+        "Je ne communique pas mon code PIN, y compris à quelqu'un qui se présente comme agent en boutique."
+      ],
+      "sources": [
+        "https://cirt.cm/securisez-vos-transactions-mobile-money/"
+      ]
+    },
+    {
+      "id": "cm_fake_momo_lottery",
+      "typology": "prize_lottery",
+      "name": "Faux SMS de gain ou bonus Mobile Money",
+      "name_en": "Fake Mobile Money prize or bonus message",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "vous avez gagné",
+        "tirage MoMo",
+        "bonus WhatsApp",
+        "cliquez pour activer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "announces a MoMo lottery win the person did not enter",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the user to compose a code to cash out a supposed prize",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sends a chat link presented as a way to activate a bonus",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An SMS or WhatsApp note claims a MoMo lottery win or a surprise bonus and then pushes a USSD string or a link that harvests credentials or starts an outbound transfer.",
+      "legit_en": "CIRT-CM lists fictitious prize SMS and fake WhatsApp bonus links among the most common Mobile Money scams and tells users not to follow those prompts.",
+      "bait_tactics": [
+        "Je n'ai participé à aucun tirage MoMo, donc je n'ai aucun lot à retirer et je n'ouvre pas ce lien WhatsApp.",
+        "Le message de bonus arrive d'un numéro personnel, pas d'un short code que j'utilise déjà.",
+        "Je n'active aucun 'nouveau bonus' depuis une conversation, mon solde n'a rien reçu."
+      ],
+      "sources": [
+        "https://cirt.cm/securisez-vos-transactions-mobile-money/"
+      ]
+    }
+  ]
+}

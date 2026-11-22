@@ -1,0 +1,89 @@
+{
+  "region": "kr",
+  "lang": "zh-CN",
+  "hello": {
+    "hello": "喂？",
+    "hello_again": "喂，请说。"
+  },
+  "habits": {
+    "en": "In Korea, Mandarin speakers use 外国人登录证 or ARC, HiKorea, hotline 1345, T-money or Cash-bee, and GS25 or CU.",
+    "zh": "在韓普通話常夾入外國人登錄證、HiKorea、1345、T-money、Cash-bee、GS25、CU。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Casual Mandarin with friends; T-money and convenience-store names are used as is.",
+        "zh": "朋友之間用普通話閒聊，T-money、GS25、CU 等名稱不必另譯。"
+      },
+      "2": {
+        "en": "Easygoing but clear; 外国人登录证 or ARC errands come out in mixed wording.",
+        "zh": "語氣輕鬆仍清楚，外國人登錄證或 ARC 相關事用中韓夾雜說法。"
+      },
+      "3": {
+        "en": "Neutral everyday tone; HiKorea bookings or a 1345 enquiry are named directly.",
+        "zh": "平常語氣，HiKorea 預約或撥打 1345 都當成例行事項直接說。"
+      },
+      "4": {
+        "en": "Polite 您 and a slightly slower pace, keeping Korean admin nouns with a short gloss.",
+        "zh": "用「您」並放慢速度，韓語行政名詞先保留再短補一句。"
+      },
+      "5": {
+        "en": "Formal Mandarin for immigration or city-hall matters, wording close to official living guides.",
+        "zh": "對入管或區廳改用鄭重普通話，用語靠近官方生活指南。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "If {owner} cannot pick up, take the Mandarin note and keep T-money or shop names unchanged.",
+        "zh": "若 {owner} 不方便接，用普通話記下留言，T-money 或店名保持原詞。"
+      },
+      "2": {
+        "en": "A friendly relay for {owner}; keep ARC or 外国人登录证 details exactly as given.",
+        "zh": "替 {owner} 輕鬆傳話，ARC 或外國人登錄證細節按原詞記下。"
+      },
+      "3": {
+        "en": "A steady taker for {owner}; confirm HiKorea steps or a 1345 enquiry before hanging up.",
+        "zh": "穩妥代 {owner} 收訊，核對 HiKorea 步驟或 1345 詢問要點。"
+      },
+      "4": {
+        "en": "A polite secretary for {owner}, restating Korean admin points so the procedure name is not lost.",
+        "zh": "為 {owner} 有禮複述韓語行政要點，以免手續名稱遺漏。"
+      },
+      "5": {
+        "en": "A formal aide for {owner}; record immigration wording carefully and relay it afterwards.",
+        "zh": "以鄭重口吻為 {owner} 紀錄入管用語，之後轉達。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "喂！T-money 卡里还有余额吗？",
+      "喂，听着呢。外国人登录证的事我说一下。",
+      "喂，我记下了：先上 HiKorea，有疑问再打 1345。",
+      "您好，CU 那边的收据我留着，谢谢来电。",
+      "您好，关于登录证延期，我会按指引准备材料。"
+    ],
+    "a": [
+      "喂！他这会儿不方便接，你说，我转告。",
+      "喂，我听着。T-money 还是 Cash-bee，您说一声就行。",
+      "喂，我记下了：先预约 HiKorea，必要时再打 1345。",
+      "您好，我会把登录证和 1345 要点转告 {owner}。",
+      "您好，关于延期手续，我会完整转达后回复。"
+    ]
+  },
+  "diff_from_home": [
+    "用語以簡體普通話為主，夾入外國人登錄證、HiKorea、1345、T-money、Cash-bee，以及 GS25、CU 等韓國生活詞。",
+    "交通卡常直接說 T-money 或 Cash-bee，便利商店常直接叫店名，不必改成「悠遊卡」或「超商」。",
+    "入管預約多經 HiKorea，一般諮詢常提到免區號 1345，與日本的區役所、在留卡用語不同。",
+    "在韓中文使用者背景不一：有人家庭以韓語為主、有人較常用普通話，來電可能兩種都夾雜，需依對方用詞接話。",
+    "與在日普通話相比，這裡插入的是韓國行政與交通專名，而不是在留卡、Suica、便利店那一套。"
+  ],
+  "sources": [
+    "https://chinese.seoul.go.kr/wp-content/uploads/2026/05/2026-Living-in-Seoul-CH.pdf",
+    "https://immigration.go.kr/immigration/1530/subview.do",
+    "https://chinese.seoul.go.kr/2026-%e9%a6%96%e5%b0%94%e7%94%9f%e6%b4%bb%e6%8c%87%e5%8d%97/"
+  ],
+  "uncertain": [
+    "朝鮮族家庭是否以韓語為第一語言、在普通話來電裡夾碼多少，因家庭與世代差異很大，不宜寫成單一習慣。"
+  ]
+}

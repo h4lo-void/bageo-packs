@@ -1,0 +1,107 @@
+{
+  "lang": "lv",
+  "script": "latin",
+  "common_words": [
+    "es",
+    "tu",
+    "jūs",
+    "un",
+    "tas",
+    "ka",
+    "man",
+    "vai",
+    "ko",
+    "ar",
+    "par",
+    "kas",
+    "tā",
+    "kā",
+    "viņš",
+    "tev",
+    "jā",
+    "no",
+    "mēs",
+    "nav",
+    "labi",
+    "nē",
+    "bet",
+    "lai",
+    "viņa",
+    "mani",
+    "bija",
+    "esmu",
+    "esi",
+    "tevi",
+    "mums",
+    "tikai",
+    "tad",
+    "paldies",
+    "lūdzu",
+    "labdien",
+    "uz redzēšanos",
+    "šodien",
+    "rīt",
+    "vakar",
+    "no rīta",
+    "vakarā",
+    "vienmēr",
+    "nekad",
+    "numurs",
+    "adrese",
+    "ārsts",
+    "sūtījums",
+    "vajag",
+    "varu"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lv/lv_50k.txt",
+  "shared_words": [
+    {
+      "word": "ir",
+      "also_in": [
+        "lt"
+      ]
+    },
+    {
+      "word": "ne",
+      "also_in": [
+        "lt"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ģ",
+    "ķ",
+    "ļ",
+    "ņ"
+  ],
+  "confusable_with": [
+    "lt"
+  ],
+  "how_to_tell_apart": "Latvian identifies itself with ģ, ķ, ļ and ņ, and with es, paldies, lūdzu, labdien, uz redzēšanos, šodien, rīt, jā, nē, nav and ārsts. Lithuanian, the only close neighbour in this task, would instead show ė/ų, aš, ačiū, prašau, šiandien and rytoj. ir as ‘is’ or ‘and’ is a false friend across the pair and should not be used as evidence.",
+  "test_said": [
+    "Pašvaldībā gribu apstrīdēt stāvvietas sodu kuru saņēmu pie tirgus.",
+    "Dāvanu kurjeram jābūt klāt pirms pusdienām jo viesi nāk pēcpusdienā.",
+    "Pakomātā sūtījums ir redzams sistēmā bet durvis pēc koda neatveras.",
+    "Veļas mašīnu vajag pieslēgt virtuvē jo vannas istabā nav vietas.",
+    "Ģimenes ārstam lūdzu atkārtot recepti jo zāles šomēnes beidzas.",
+    "Asins analīžu rezultātus solīja pēc trim dienām un es tos vēl neesmu saņēmusi.",
+    "Aizdevums pa telefonu mani neinteresē un līgumu slēgt negrasos.",
+    "Signālizācijas pakalpojumu mājai jau izmantojam tāpēc jaunu līgumu neslēgsim."
+  ],
+  "test_not_enough": [
+    "Jānis",
+    "ok",
+    "seši",
+    "sports"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lv/lv_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Latvian_orthography",
+    "https://en.wikipedia.org/wiki/Latvian_language"
+  ],
+  "uncertain": [
+    "ā, č, ē, ī, š, ū and ž also occur in other Latin orthographies, so unique_letters lists only the letters that Lithuanian does not use.",
+    "OpenSubtitles Latvian includes some Russian code-switching; those tokens were not used as Latvian cues."
+  ]
+}

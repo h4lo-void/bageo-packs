@@ -1,0 +1,160 @@
+{
+  "lang": "hr",
+  "script": "latin",
+  "common_words": [
+    "što",
+    "nisam",
+    "hvala",
+    "molim",
+    "sutra",
+    "jučer",
+    "jutros",
+    "večeras",
+    "zašto",
+    "ovdje",
+    "hoću",
+    "trebam",
+    "liječnik",
+    "gdje",
+    "kada",
+    "sada",
+    "mogu",
+    "oprostite",
+    "bok",
+    "doviđenja",
+    "narudžba",
+    "paket",
+    "danas",
+    "kako",
+    "tko",
+    "vaš",
+    "naš",
+    "ništa",
+    "uvijek",
+    "nikad",
+    "dobro",
+    "broj",
+    "adresa",
+    "gospodine",
+    "gospođo",
+    "trebate",
+    "lijepo",
+    "mlijeko",
+    "prije",
+    "poslije",
+    "tjedan",
+    "mjesec",
+    "jutro",
+    "večer",
+    "da li",
+    "ili",
+    "još",
+    "već",
+    "nemam",
+    "htio"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hr/hr_50k.txt",
+  "shared_words": [
+    {
+      "word": "da",
+      "also_in": [
+        "sr",
+        "sl"
+      ]
+    },
+    {
+      "word": "je",
+      "also_in": [
+        "sr",
+        "sl",
+        "cs",
+        "sk"
+      ]
+    },
+    {
+      "word": "ne",
+      "also_in": [
+        "sr",
+        "sl",
+        "cs"
+      ]
+    },
+    {
+      "word": "se",
+      "also_in": [
+        "sr",
+        "sl"
+      ]
+    },
+    {
+      "word": "i",
+      "also_in": [
+        "sr",
+        "sl"
+      ]
+    },
+    {
+      "word": "što",
+      "also_in": [
+        "sr"
+      ]
+    },
+    {
+      "word": "hvala",
+      "also_in": [
+        "sr"
+      ]
+    },
+    {
+      "word": "dobro",
+      "also_in": [
+        "sr",
+        "sl",
+        "mk"
+      ]
+    },
+    {
+      "word": "sam",
+      "also_in": [
+        "sr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ć",
+    "đ"
+  ],
+  "confusable_with": [
+    "sr",
+    "sl",
+    "cs"
+  ],
+  "how_to_tell_apart": "Croatian is closest to Latin-script Serbian. The safer cues are ijekavian forms such as liječnik, lijepo, mlijeko and gdje, plus što as the default interrogative (Serbian subtitles often prefer šta and ekavian lekar, gde, hteo). Against Slovenian, ć and đ plus što/ovdje/sutra/hoću are enough; Slovenian would have kaj, tukaj and jutri instead. da, je, ne, se and hvala are shared and should not be used as evidence.",
+  "test_said": [
+    "U ljekarni pitam je li gotov pripravak koji su rekli da bude poslije podne.",
+    "Na pošti mi kažu da je paket spreman za preuzimanje ali ja ne vidim obavijest.",
+    "Dostavljeni bicikl ima savijeni blatobran i ogrebano zvono na upravljaču.",
+    "Majstoru treba dovesti rezervne dijelove za slavinu još ujutro.",
+    "Kod dermatologa tražim pregled mladeža koji se zadnjih tjedana mijenja.",
+    "Nalazi krvi trebali su stići jučer i još nisam dobio nikakvu poruku.",
+    "Ne iznajmljujem stan turistima pa me nemojte zvati zbog toga oglasa.",
+    "Grupni razgovor ili nagradna igra me ne zanimaju i broj više ne koristite."
+  ],
+  "test_not_enough": [
+    "Ivana",
+    "ok",
+    "sedam",
+    "cool"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hr/hr_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Gaj%27s_Latin_alphabet",
+    "https://en.wikipedia.org/wiki/Comparison_of_standard_Bosnian,_Croatian,_Montenegrin_and_Serbian"
+  ],
+  "uncertain": [
+    "Bosnian and Montenegrin (not in this todo list) overlap heavily with Croatian; a short call may not separate them reliably.",
+    "Some Croatian speakers also use šta in speech, so što is helpful when present but not an absolute rule.",
+    "The frequency list is Latin-script only, which matches this latin_todo item."
+  ]
+}

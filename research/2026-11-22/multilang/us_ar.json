@@ -1,0 +1,94 @@
+{
+  "region": "us",
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو، مين معي؟",
+    "hello_again": "أيوه، ألو؟"
+  },
+  "habits": {
+    "en": "Dialect-led (Levantine, Iraqi, Yemeni, Egyptian); mix SSN, Medicaid, green card, Zelle; salam is common in Dearborn.",
+    "zh": "以方言為主（黎凡特、伊拉克、葉門、埃及）；夾 SSN、Medicaid、綠卡、Zelle。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friend in Dearborn or Bay Ridge: dialect slang, yalla, wallah, and English drop-ins like bro or okay, short and lively.",
+        "zh": "在迪爾伯恩或貝里吉跟熟友：方言俚語、yalla、wallah，夾 bro、okay，短而熱絡。"
+      },
+      "2": {
+        "en": "Warm family tone: ask after relatives (kifkon, shu akhbarkon), keep it light, mention the halal market or mosque if relevant.",
+        "zh": "親切家常口氣：問候家人近況，輕鬆聊，必要時提清真超市或清真寺。"
+      },
+      "3": {
+        "en": "Everyday US Arabic: one full sentence per point; keep SSN, Medicaid, DMV, green card in English as the community does.",
+        "zh": "在美日常阿語：每點一句完整話；SSN、Medicaid、DMV、綠卡照社群習慣講英文。"
+      },
+      "4": {
+        "en": "Respectful with clinics or community nonprofits: ustaz/ustaza or doctor titles, steady pace, fix the appointment first.",
+        "zh": "對診所或社區非營利機構用 ustaz、doctor 稱謂，語速穩，先敲定預約。"
+      },
+      "5": {
+        "en": "Business Arabic leaning to standard forms: titles, clear recap of invoice or wire transfer, polite but swift close.",
+        "zh": "商務阿語偏標準語：加稱謂，清楚覆述帳單或電匯，禮貌而迅速收尾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easygoing helper for friends: dialect, ahlan, say {owner} is tied up, take the note and promise to relay it.",
+        "zh": "替{owner}接朋友電話：用方言、ahlan，說他忙不開，記下並答應轉達。"
+      },
+      "2": {
+        "en": "Friendly helper: open with salam or marhaba to match the caller, ask their name gently, note what {owner} should know.",
+        "zh": "親切助理：依來電者回 salam 或 marhaba，溫和問姓名，記下要給{owner}的事。"
+      },
+      "3": {
+        "en": "Neutral assistant: sum up the reason for the call (school, rent, clinic) in one sentence and confirm {owner} gets it.",
+        "zh": "中性助理：用一句歸納來電原因（學校、房租、診所），確認{owner}會收到。"
+      },
+      "4": {
+        "en": "Courteous office-facing assistant: explain you pick up for {owner}, ask a name and a number to reach them, stay concise.",
+        "zh": "面對機構的禮貌助理：交代替{owner}接聽，問名字與聯絡號碼，言簡意賅。"
+      },
+      "5": {
+        "en": "Executive assistant in polished Arabic: titles (ustaz, sayyid), itemise the contract point, check name spellings, end firmly.",
+        "zh": "精練阿語的高階助理：用 ustaz、sayyid，逐條核對合約重點與姓名拼法，明快結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "هلا حبيبي، شو في؟ أنا بالسوق هلق.",
+      "ألو، أهلين خالتو! كيفكم كلكم؟",
+      "آه، بخصوص الإيجار؟ تمام، فهمت عليك.",
+      "نعم، تفضل. موعد العيادة يوم الثلاثاء صح؟",
+      "مرحباً أستاذ، وصلت الحوالة على Zelle، شكراً."
+    ],
+    "a": [
+      "هلا، {owner} مشغول هلق، بدك أقله شي؟",
+      "السلام عليكم، أنا عم ردّ عن {owner}، مين معي؟",
+      "تمام، رح خبّر {owner} عن موضوع المدرسة.",
+      "أرد نيابة عن {owner}، ممكن الاسم ورقم للتواصل؟",
+      "تم تسجيل بنود العقد، وسأنقلها كاملة إلى {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "社群方言多元（黎巴嫩、敘利亞、伊拉克、葉門、巴勒斯坦、埃及），電話裡各講各的方言，比母國更混雜。",
+    "常夾美國制度詞：SSN、Medicaid、green card、DMV、Zelle。",
+    "密西根迪爾伯恩、紐澤西佩特森南區、紐約貝里吉等聚集區，店家以清真肉舖、烘焙坊、水煙館為主。",
+    "阿裔美國人中有不少基督徒（黎巴嫩、迦勒底等），不可預設穆斯林問候。"
+  ],
+  "sources": [
+    "https://www.aaiusa.org/demographics",
+    "https://en.wikipedia.org/wiki/Arab_Americans",
+    "https://en.wikipedia.org/wiki/Dearborn,_Michigan",
+    "https://en.wikipedia.org/wiki/South_Paterson",
+    "https://www.uscis.gov/",
+    "https://www.zellepay.com/",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html"
+  ],
+  "uncertain": [
+    "阿裔人口數各來源差距大（人口普查自填 vs 阿拉伯裔美國人協會估計）。",
+    "各方言在全美的比重沒有全國調查。",
+    "水煙館、烘焙坊等商家類型來自地區概述，非統計。"
+  ]
+}

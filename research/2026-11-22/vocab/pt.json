@@ -1,0 +1,447 @@
+{
+  "region": "pt",
+  "vocab": {
+    "pt": {
+      "bank": [
+        {
+          "term": "MB Way",
+          "en": "instant payment and transfer app, extremely common (MB Way)"
+        },
+        {
+          "term": "Multibanco",
+          "en": "ATM and payment network, also transferência MB (Multibanco)"
+        },
+        {
+          "term": "transferência",
+          "en": "bank transfer (transferência)"
+        },
+        {
+          "term": "conta",
+          "en": "account (conta) [Portugal]"
+        },
+        {
+          "term": "cartão de débito",
+          "en": "debit card (cartão de débito) [Portugal]"
+        },
+        {
+          "term": "homebanking",
+          "en": "online banking (homebanking)"
+        },
+        {
+          "term": "saldo",
+          "en": "balance (saldo) [Portugal]"
+        },
+        {
+          "term": "IBAN",
+          "en": "IBAN"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "CTT",
+          "en": "national post (CTT)"
+        },
+        {
+          "term": "ponto de recolha",
+          "en": "pickup point (ponto de recolha)"
+        },
+        {
+          "term": "portaria",
+          "en": "building entrance desk, in some buildings (portaria)"
+        },
+        {
+          "term": "estafeta",
+          "en": "courier (estafeta)"
+        },
+        {
+          "term": "cacifo",
+          "en": "locker (cacifo)"
+        },
+        {
+          "term": "à porta",
+          "en": "at the door (à porta)"
+        },
+        {
+          "term": "número de tracking",
+          "en": "tracking number (número de tracking)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Cartão de Cidadão",
+          "en": "national ID card (Cartão de Cidadão)"
+        },
+        {
+          "term": "NIF",
+          "en": "tax number, do not recite unless asked (NIF)"
+        },
+        {
+          "term": "Portal das Finanças",
+          "en": "tax portal (Portal das Finanças)"
+        },
+        {
+          "term": "Segurança Social",
+          "en": "social security (Segurança Social)"
+        },
+        {
+          "term": "junta de freguesia",
+          "en": "parish council, local office (junta de freguesia)"
+        },
+        {
+          "term": "passaporte",
+          "en": "passport (passaporte) [Portugal]"
+        },
+        {
+          "term": "residência",
+          "en": "residence document (residência)"
+        }
+      ],
+      "health": [
+        {
+          "term": "SNS",
+          "en": "National Health Service (SNS)"
+        },
+        {
+          "term": "centro de saúde",
+          "en": "public health centre (centro de saúde)"
+        },
+        {
+          "term": "farmácia",
+          "en": "pharmacy (farmácia) [Portugal]"
+        },
+        {
+          "term": "urgências",
+          "en": "emergency (urgências)"
+        },
+        {
+          "term": "médico de família",
+          "en": "GP (médico de família)"
+        },
+        {
+          "term": "receita",
+          "en": "prescription, also receita eletrónica"
+        },
+        {
+          "term": "utente",
+          "en": "patient / service user, used in health speech (utente)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "tarifário",
+          "en": "mobile plan (tarifário)"
+        },
+        {
+          "term": "pré-pago",
+          "en": "prepaid (pré-pago) [Portugal]"
+        },
+        {
+          "term": "portabilidade",
+          "en": "number porting (portabilidade) [Portugal]"
+        },
+        {
+          "term": "cartão SIM",
+          "en": "SIM (cartão SIM)"
+        },
+        {
+          "term": "operadora",
+          "en": "operator (operadora) [Portugal]"
+        },
+        {
+          "term": "dados",
+          "en": "data (dados)"
+        },
+        {
+          "term": "fibra",
+          "en": "fibre (fibra) [Portugal]"
+        }
+      ],
+      "payment": [
+        {
+          "term": "MB Way",
+          "en": "MB Way"
+        },
+        {
+          "term": "Multibanco",
+          "en": "Multibanco payment or ATM reference"
+        },
+        {
+          "term": "referência MB",
+          "en": "payment reference used on invoices (referência MB)"
+        },
+        {
+          "term": "transferência",
+          "en": "transfer (transferência)"
+        },
+        {
+          "term": "numerário",
+          "en": "cash, also dinheiro (numerário)"
+        },
+        {
+          "term": "cartão",
+          "en": "card (cartão) [Portugal]"
+        },
+        {
+          "term": "débito direto",
+          "en": "direct debit (débito direto)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "metro",
+          "en": "metro, in Lisbon or Porto"
+        },
+        {
+          "term": "Comboios de Portugal",
+          "en": "national rail, also CP (Comboios de Portugal)"
+        },
+        {
+          "term": "autocarro",
+          "en": "bus, not ônibus (autocarro)"
+        },
+        {
+          "term": "elétrico",
+          "en": "tram, especially Lisbon (elétrico)"
+        },
+        {
+          "term": "táxi",
+          "en": "taxi (táxi) [Portugal]"
+        },
+        {
+          "term": "navegante",
+          "en": "Lisbon-area travel card, local (navegante)"
+        },
+        {
+          "term": "Andante",
+          "en": "Porto-area travel card, local (Andante)"
+        },
+        {
+          "term": "comboio",
+          "en": "train (comboio)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartamento",
+          "en": "apartment (apartamento) [Portugal]"
+        },
+        {
+          "term": "condomínio",
+          "en": "condominium / building (condomínio)"
+        },
+        {
+          "term": "portaria",
+          "en": "reception or gate (portaria)"
+        },
+        {
+          "term": "caixa do correio",
+          "en": "mailbox (caixa do correio) [Portugal]"
+        },
+        {
+          "term": "intercomunicador",
+          "en": "intercom, also porteiro automático (intercomunicador)"
+        },
+        {
+          "term": "renda",
+          "en": "rent (renda)"
+        },
+        {
+          "term": "administração",
+          "en": "building administration (administração)"
+        },
+        {
+          "term": "fracção",
+          "en": "unit / fraction, used in property speech (fracção)"
+        }
+      ],
+      "school": [
+        {
+          "term": "infantário",
+          "en": "nursery, also creche (infantário)"
+        },
+        {
+          "term": "escola primária",
+          "en": "primary school, also 1.º ciclo (escola primária)"
+        },
+        {
+          "term": "escola secundária",
+          "en": "secondary school (escola secundária)"
+        },
+        {
+          "term": "diretor de turma",
+          "en": "form teacher (diretor de turma)"
+        },
+        {
+          "term": "trabalho de casa",
+          "en": "homework (trabalho de casa)"
+        },
+        {
+          "term": "ATL",
+          "en": "after-school centre (ATL)"
+        },
+        {
+          "term": "associação de pais",
+          "en": "parents' association (associação de pais)"
+        }
+      ],
+      "money": [
+        {
+          "term": "euros",
+          "en": "euro (euros) [Portugal]"
+        },
+        {
+          "term": "MB Way",
+          "en": "enviar dinheiro (MB Way)"
+        },
+        {
+          "term": "dinheiro",
+          "en": "cash (dinheiro) [Portugal]"
+        },
+        {
+          "term": "troco",
+          "en": "change (troco) [Portugal]"
+        },
+        {
+          "term": "valor",
+          "en": "amount (valor) [Portugal]"
+        },
+        {
+          "term": "renda",
+          "en": "rent (renda)"
+        },
+        {
+          "term": "cêntimos",
+          "en": "cents (cêntimos)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "esta manhã",
+          "en": "this morning (esta manhã)"
+        },
+        {
+          "term": "esta tarde",
+          "en": "this afternoon (esta tarde) [Portugal]"
+        },
+        {
+          "term": "esta noite",
+          "en": "tonight (esta noite) [Portugal]"
+        },
+        {
+          "term": "durante a semana",
+          "en": "weekday (durante a semana) [Portugal]"
+        },
+        {
+          "term": "fim de semana",
+          "en": "weekend (fim de semana) [Portugal]"
+        },
+        {
+          "term": "depois do trabalho",
+          "en": "after work (depois do trabalho) [Portugal]"
+        },
+        {
+          "term": "esta semana",
+          "en": "this week (esta semana) [Portugal]"
+        }
+      ],
+      "work": [
+        {
+          "term": "trabalho",
+          "en": "work (trabalho) [Portugal]"
+        },
+        {
+          "term": "sair do trabalho",
+          "en": "finish work (sair do trabalho) [Portugal]"
+        },
+        {
+          "term": "horas extra",
+          "en": "overtime (horas extra) [Portugal]"
+        },
+        {
+          "term": "férias",
+          "en": "leave (férias) [Portugal]"
+        },
+        {
+          "term": "baixa",
+          "en": "sick leave (baixa) [Portugal]"
+        },
+        {
+          "term": "chefe",
+          "en": "boss (chefe)"
+        },
+        {
+          "term": "teletrabalho",
+          "en": "work from home (teletrabalho)"
+        },
+        {
+          "term": "deslocação",
+          "en": "business trip (deslocação)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PIX",
+      "use_instead": "MB Way, transferência, Multibanco",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "ônibus",
+      "use_instead": "autocarro",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "celular",
+      "use_instead": "telemóvel",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "CPF",
+      "use_instead": "NIF, Cartão de Cidadão",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "boleto",
+      "use_instead": "referência MB, transferência",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "SUS",
+      "use_instead": "SNS, centro de saúde",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "apartamento 以外只用 apto 或 kitnet",
+      "use_instead": "apartamento, fracção, moradia",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "Bizum",
+      "use_instead": "MB Way",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "real / reais",
+      "use_instead": "euros",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "zelador",
+      "use_instead": "portaria, administração do condomínio",
+      "where_it_is_from": "BR"
+    }
+  ],
+  "sources": [
+    "https://www.mbway.pt/",
+    "https://www.ctt.pt/",
+    "https://www.portaldasfinancas.gov.pt/",
+    "https://www.sns.gov.pt/",
+    "https://www.cp.pt/",
+    "https://www.multibanco.pt/"
+  ],
+  "uncertain": [
+    "附件將葡萄牙語標成 pt-BR，但此區是葡萄牙，此檔用歐洲葡語代碼 pt。",
+    "里斯本用 navegante、波爾圖用 Andante，不能混成一張全國卡。"
+  ]
+}

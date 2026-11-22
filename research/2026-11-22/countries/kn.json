@@ -1,0 +1,87 @@
+{
+  "country": "kn",
+  "parent": "us",
+  "name": {
+    "en": "Saint Kitts and Nevis",
+    "native": "Saint Kitts and Nevis",
+    "zh": "聖克里斯多福及尼維斯"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, good day",
+    "hello_again": "Good day, are you there?"
+  },
+  "delivery": {
+    "en": "Collect at the Basseterre post office, or via a courier; no official doorstep page was found",
+    "zh": "可到巴斯特爾郵局領，或走快遞；官方上門投遞細頁此次沒找到"
+  },
+  "readback": {
+    "en": "A 869 number is read 3-3-4; 0 as zero; East Caribbean dollars; 12-hour time; day first",
+    "zh": "869 號碼照 3-3-4 唸，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A mass text telling you to change a password, or a sudden job, romance or prize offer, is a scam",
+    "zh": "群發簡訊叫你改密碼，或突然出現的求職、感情、中獎邀請，都是詐騙"
+  },
+  "habits": {
+    "en": "Good day with strangers. Say mobile, not cell. Amounts are in East Caribbean dollars. Day before month.",
+    "zh": "對生人說 Good day。說 mobile 不說 cell。金額用東加勒比元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "A bank alert asked me to reset a password I did not request, and I cannot reach Basseterre in time.",
+    "zh": "銀行突然要我重設沒申請過的密碼，而且關門前趕不到巴斯特爾。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "password alert",
+      "transfer"
+    ],
+    "delivery": [
+      "post office",
+      "Basseterre",
+      "courier",
+      "collection"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是聖克里斯多福銀行公會訪談裡的本地工具"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局；本地與區域警示較常提到改密碼簡訊、求職與投資"
+      }
+    },
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件，這裡沒有找到同等的官方門廊投遞說明"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Polite island English, not US buddy slang. Be wary of password-reset texts. Use East Caribbean dollars, not IRS or Zelle language.",
+    "zh": "客氣的島嶼英語，不要美國那種哥兒們口氣。對改密碼簡訊要警覺。金額用東加勒比元，不用 IRS 或 Zelle。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.eccb-centralbank.org/news/eccb-shares-public-awareness-about-the-increase-of-financial-crimes-across-the-eccu",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+  ],
+  "uncertain": [
+    "郵政上門規則沒找到官方細頁。",
+    "ECCB 節目是在巴斯特爾訪問聖克里斯多福銀行公會與警方，適用東加勒比貨幣聯盟，不單這兩島獨有。"
+  ]
+}

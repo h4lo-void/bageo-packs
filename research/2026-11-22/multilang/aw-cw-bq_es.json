@@ -1,0 +1,91 @@
+{
+  "region": "aw-cw-bq",
+  "lang": "es",
+  "why_added": "阿魯巴與庫拉索普查顯示西班牙語為家中常用語言之一（觀光與周邊西語移民），區包預設為荷語。",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, sí?"
+  },
+  "habits": {
+    "en": "Usted with strangers, tú once they do. Keep florin or guilder, stoep, hek. Leave Papiamento words; skip Mexican slang.",
+    "zh": "對生人用 usted，對方用 tú 再轉。說 florin 或 guilder。帕皮阿門托詞照留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friend on the islands: tú, short and warm. Leave dushi or hopi; say florin on Aruba, guilder on Curaçao.",
+        "zh": "島上熟友用 tú，短而熱絡。dushi、hopi 照留；阿魯巴說 florin，庫拉索說 guilder。"
+      },
+      "2": {
+        "en": "Easy Caribbean Spanish. Do not recast Dutch street names; a brief kind line after they speak is enough.",
+        "zh": "輕鬆的加勒比西班牙語。荷語街名不必改寫；聽完短短回一句即可。"
+      },
+      "3": {
+        "en": "Everyday Spanish here mixes Papiamento or Dutch nouns. Finish the thought; confirm which island you mean.",
+        "zh": "這裡的日常西語常夾帕皮阿門托或荷語名詞。把話說完，並確認是哪一島。"
+      },
+      "4": {
+        "en": "Polite usted for offices. Ask whether the sum is florin or guilder before closing a payment point.",
+        "zh": "對機關用 usted。談付款先問清楚是 florin 還是 guilder，再收住這一點。"
+      },
+      "5": {
+        "en": "Formal usted and titles. Keep loket or Dutch form names as given; no mainland-Spain bureaucratic filler.",
+        "zh": "正式 usted 加稱謂。loket 或荷語表格名照用，不套用西班牙本國公文腔。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on tú if they used it; keep dushi, then say you will take the message across.",
+        "zh": "{owner}熟人代接：對方用 tú 才用 tú，dushi 照留，再說會把話帶過去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tú or usted, leave stoep or hek, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 tú 或 usted，stoep、hek 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Restate the florin or guilder item in one full Spanish sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句西語重述 florin 或 guilder 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary on usted: note which island and why they called, then confirm the handover.",
+        "zh": "穩重秘書用 usted：記下是哪一島、為何來電，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on usted: exact on currency and loket names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 usted，貨幣與 loket 名稱要準，不額外套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "¡Aló! ¿Todavía estás en Willemstad?",
+      "Aló, sí, te escucho, dime.",
+      "Aló, buenas tardes. ¿Es lo del hek?",
+      "Buenas tardes, gracias. El monto en florines quedó claro.",
+      "Buenas tardes, gracias. Anoté lo de la cita en el loket."
+    ],
+    "a": [
+      "¡Aló! {owner} no está, dímelo y se lo paso.",
+      "Aló, hola. Estoy al teléfono, ¿cuál es el recado?",
+      "Aló, buenas tardes. Se lo transmito a {owner} con tus palabras.",
+      "Gracias por llamar. Anoto lo de los guilders para {owner}.",
+      "Buenas tardes, gracias. Dejaré escrito lo del loket y se lo paso."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣不是披索或歐元：阿魯巴用 florin，庫拉索一帶常用 guilder。",
+    "西語裡常夾帕皮阿門托或荷語詞（dushi、stoep、loket），不要改成西班牙本國用詞。",
+    "這是觀光與周邊西語移民常用的第二語言，不是三島唯一日常語；第一語言多為帕皮阿門托。",
+    "避免套用墨西哥或西班牙本土木語；稱呼上對生人先用 usted。"
+  ],
+  "sources": [
+    "https://senso.cbs.cw/talen-gesproken-in-curacao-resultaten-census-2023",
+    "https://www.lkca.nl/wp-content/uploads/2022/12/2_Information_Aruba.pdf",
+    "https://www.cbs.nl/en-gb/figures/detail/82867ENG"
+  ],
+  "uncertain": [
+    "阿魯巴 2020 與庫拉索 2023 普查的西語比重不同，不能把一個百分比套到三島。",
+    "博奈爾、薩巴、聖佑達修斯的西語日常使用程度，公開細分資料較少。",
+    "電話上西語與帕皮阿門托、荷語、英語的切換頻率缺少新的大規模語料。"
+  ]
+}

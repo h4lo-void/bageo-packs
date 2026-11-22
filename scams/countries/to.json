@@ -1,0 +1,153 @@
+{
+  "name": "Tonga",
+  "name_local": "Tonga",
+  "iso": "to",
+  "calling_code": "+676",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The National Reserve Bank of Tonga has issued a run of public warnings: on 3 December 2025 and again with New Zealand's Financial Markets Authority on 10 February 2026 it described a Ponzi-style cryptocurrency scheme circulating in Tonga and among Tongan communities abroad; on 17 April 2026 it said romance scams were continuing to rise; on 21 April 2026 it said Ponzi and pyramid-type schemes were rising and were often promoted through social media, messaging apps, churches, workplaces and family networks; and on 20 November 2026 it warned of an online promotion that misused Tonga Communications Corporation branding to collect personal and banking information.",
+  "cross_border_note": "The joint NRBT and FMA notice says the crypto scheme has been aimed at Tongan communities in Tonga, New Zealand, Australia and the United States, and that related clone platforms had been listed by the FMA. The romance notice also warns that caller ID can be spoofed to look local. A +676 number or a familiar telecom logo is not proof of a genuine Nuku'alofa institution.",
+  "scams": [
+    {
+      "id": "to_nrbt_crypto_ponzi_social_groups",
+      "typology": "crypto_scam",
+      "name": "Social-media crypto trading group with a fake app and a withdrawal fee",
+      "name_en": "NRBT and FMA warnings, 2025-2026: a Ponzi-style cryptocurrency scheme promoted in WhatsApp, Viber or similar groups, using a fake trading app, promised very high returns, recruitment of family and friends, and a fee that is said to be required before funds can be withdrawn",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "WhatsApp or Viber investment group for Tongans",
+        "transfer crypto into a trading app",
+        "promised return of one hundred percent",
+        "fee required before a full withdrawal"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "join this group, the return is guaranteed",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "move your crypto from the exchange into our app",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay a fee or tax before you can withdraw",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "bring in family or church members to earn more",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "NRBT's 3 December 2025 notice described a fraudulent cryptocurrency platform circulated mainly on Facebook, impersonating a legitimate trading service and aimed at people in Tonga and in the Tongan diaspora. It listed fake platforms with fabricated profits, pressure to invest more, and blocked withdrawals followed by demands for extra taxes or withdrawal fees that still do not release the money, and it stressed that crypto payments have no legal protection and are not reversible. The 10 February 2026 joint notice with the FMA added that people are invited into investment groups on WhatsApp, Viber and similar apps, promised extremely high returns, and encouraged to recruit friends and family; they are then told to open a cryptocurrency exchange account, fund it from their bank, and move the crypto into a so-called trading account on a fake app that may also contain malware. Small early withdrawals can be used to build trust before a full withdrawal is blocked. The 21 April 2026 NRBT warning placed the same family of schemes in a wider rise of Ponzi and pyramid offers promoted through social media, messaging apps, community networks, churches, workplaces and family connections, which is an offence under the Banking Act 2020.",
+      "legit_en": "Taking funds from the public for investment or lending in Tonga is banking business and, under the Banking Act 2020, may be done only by a holder of an NRBT banking licence. A licensed institution does not require a customer to move money into an unofficial trading app, to recruit relatives, or to pay a fee before a withdrawal. Crypto payments, NRBT notes, have no such legal protection.",
+      "bait_tactics": [
+        "Refuse to download an unofficial trading app, to send crypto into it, or to pay a fee that is said to unlock a withdrawal.",
+        "Ask whether the person or firm holds an NRBT banking licence, and why a lawful investment would need recruitment of family, church or workplace contacts.",
+        "Tell anyone already involved to keep records and to raise the matter with their bank, with NRBT or with the Tonga Police Cybercrime Unit, as the Bank advises."
+      ],
+      "sources": [
+        "https://www.reservebank.to/index.php/news/press-release-cryptocurrency-investment-scam",
+        "https://www.reservebank.to/index.php/news/high-risk-scam-targeting-communities-in-tonga-and-in-new-zealand",
+        "https://www.reservebank.to/index.php/news/public-warning-protect-yourself-from-ponzi-and-pyramid-and-investment-schemes"
+      ]
+    },
+    {
+      "id": "to_nrbt_romance_emergency_fees",
+      "typology": "fake_relative_money",
+      "name": "Romance approach that later asks for emergency, travel or package money",
+      "name_en": "NRBT 17 April 2026 public notice: romance scams that build a fast online relationship, then ask for money for a fake emergency, medical bill, travel, a package or gift, or a business partnership, often after moving the chat to WhatsApp or Viber",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "fast declaration of love after a short chat",
+        "person claims to work overseas and avoids a video call",
+        "move from Facebook Messenger to WhatsApp or Viber",
+        "send crypto or a gift card for a package or fare"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "I love you, please send money for an emergency",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay a fee before the gift or package can be released",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "chip in as a partner in this business",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "leave Messenger and continue on WhatsApp or Viber",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "On 17 April 2026 NRBT alerted the public to a continued rise in romance scams. It listed red flags: strong feelings professed after only a few days or weeks; eventual requests for money for fake emergencies, medical bills, travel to visit, or a package or gift; repeated excuses for avoiding a meeting or a camera, often with a story of working overseas, for example on an oil rig, in the military or as a foreign businessperson; pressure to move from a safer messaging app such as Facebook Messenger to a private app such as WhatsApp or Viber; unusual payment methods including cryptocurrency, gift cards or unconventional wire transfers; an offer of a business partnership that requires the person to pay in; and a lavish gift that can be collected only after a fee is sent. It told the public not to send money, bank details or cards to someone met only online, not to share a passport or address, not to trust stories of high-value gifts, inheritances or secret investments, and not to trust caller ID, which can be made to look local. Victims are told to contact their bank at once and to file a report with the Tonga Police Cybercrime Unit.",
+      "legit_en": "A genuine relative, partner or business counterpart in or from Tonga does not need a fee in crypto or gift cards before a package can be released, and a bank will not ask a customer to send card details to someone known only from a short online courtship. NRBT says not to send money or personal documents to a person who has not been met in real life.",
+      "bait_tactics": [
+        "Refuse to send money, card details, a passport image or a fee for a gift, fare or medical story to someone who has not been met in person.",
+        "Decline to move the conversation onto a private app solely at the other person's insistence, and treat a refusal to use a camera as a warning sign from the Bank's list.",
+        "If money may already have been sent, contact the bank to protect the accounts and report the matter to the Tonga Police Cybercrime Unit."
+      ],
+      "sources": [
+        "https://www.reservebank.to/index.php/news/public-notice-beware-of-romance-scams-targeting-the-vulnerable-community-members"
+      ]
+    },
+    {
+      "id": "to_nrbt_tcc_constitution_day_gift",
+      "typology": "fake_telecom",
+      "name": "Fake TCC Constitution Day gift questionnaire collecting bank data",
+      "name_en": "NRBT 20 November 2026 warning: an online promotion misuses Tonga Communications Corporation branding, offers a Constitution Day gift after a questionnaire, collects personal and banking information, and has already been linked to internet-banking losses",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "TCC Constitution Day Gifts questionnaire",
+        "telecom logo on a social-media prize post",
+        "form that asks for banking information",
+        "link said to be from Tonga Communications Corporation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "complete this TCC gift questionnaire with your bank details",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "Constitution Day prize if you open this unofficial link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter internet-banking data to claim the telecom gift",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "TCC branding on a page that is not the official telecom site",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "On 20 November 2026 NRBT warned the public about an online scam then circulating in Tonga on social media that fraudulently used the branding of Tonga Communications Corporation. The promotion was presented as a TCC Constitution Day Gifts questionnaire and claimed participants could win a cash gift. The Bank said the promotion was designed to collect personal and banking information, and that it had already affected a number of customers' bank accounts through internet banking. It urged the public not to follow suspicious links that may compromise a device or a messaging account, and said anyone who may have been reached or compromised should contact their own bank at once and also Tonga Police and the relevant authorities.",
+      "legit_en": "Tonga Communications Corporation does not need a customer's internet-banking details in a social-media questionnaire in order to run a genuine promotion. A real telecom or bank matter is raised through that institution's published channels, not through an unofficial prize form that carries a copied logo.",
+      "bait_tactics": [
+        "Do not fill in a Constitution Day or telecom gift form that asks for personal or banking information, and do not follow the accompanying link.",
+        "Treat copied TCC branding on a social-media post as a reason to stop, and check any real offer only on the telecom's own published site.",
+        "If a form may already have been completed, contact the customer's bank immediately about internet banking, and report the promotion to Tonga Police, as NRBT advises."
+      ],
+      "sources": [
+        "https://www.reservebank.to/index.php?catid=40&id=736%3Areserve-bank-warns-public-of-online-scam-using-tcc-branding&view=article"
+      ]
+    }
+  ]
+}

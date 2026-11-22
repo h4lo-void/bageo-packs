@@ -1,0 +1,91 @@
+{
+  "region": "se",
+  "lang": "fi",
+  "hello": {
+    "hello": "Moi, haloo?",
+    "hello_again": "Kuuntelen?"
+  },
+  "habits": {
+    "en": "Sinä with almost everyone. Mix personnummer, BankID, Försäkringskassan; Sweden-Finnish words, not only Finland terms.",
+    "zh": "幾乎一律用 sinä。夾 personnummer、BankID；可用瑞典芬蘭語詞。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Sweden-Finnish friends use sinä, may drop Swedish nouns, and answer selvä or no niin without a stiff opener.",
+        "zh": "瑞典芬蘭語熟友用 sinä，可能夾瑞典語名詞，不必生硬開場，回 selvä 或 no niin。"
+      },
+      "2": {
+        "en": "Warm Finnish in Sweden: sinä is normal; after a BankID point, a light joo, selvä keeps it easy.",
+        "zh": "瑞典芬蘭語通常用 sinä；聽完 BankID，輕聲回 joo, selvä，語氣放鬆。"
+      },
+      "3": {
+        "en": "Everyday Finland Finnish or Sweden Finnish: one full sentence per matter, leaving personnummer in Swedish as spoken.",
+        "zh": "日常芬蘭語（含瑞典芬蘭語）：每件事回完整一句，personnummer 照口頭直接講瑞典語。"
+      },
+      "4": {
+        "en": "Clear, calm Finnish with authorities; keep Swedish official names, and handle the request first.",
+        "zh": "對機關用清楚平穩的芬蘭語，官方名稱保持瑞典語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Finnish in Sweden: still usually sinä, recap the Försäkringskassan or tax point, then close neatly.",
+        "zh": "瑞典商務芬蘭語通常仍用 sinä，覆述 Försäkringskassan 或稅務要點後，整齊收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Finnish helper in Sweden answers selvä, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆瑞典芬蘭語先回 selvä，用可能夾瑞典語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Keep sinä and a direct tone; jot the BankID or callback detail, and tell them {owner} will be informed.",
+        "zh": "維持 sinä 與直接口氣；記下 BankID 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A clear Finnish assistant in Sweden answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "口齒清楚的瑞典芬蘭語助理先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Calm official Finnish: restate the Försäkringskassan point accurately, then confirm it goes to {owner}.",
+        "zh": "平穩的公務芬蘭語：準確覆述 Försäkringskassan 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: itemise the personnummer or BankID matter, and close after the handoff.",
+        "zh": "為{owner}任正式助理：對齊 personnummer 或 BankID 事宜，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Moi, haloo! Mitä kuuluu? Sano, selvä juttu.",
+      "Kuuntelen, olen linjalla, kerro rauhassa.",
+      "Moi. Onko BankID-asia? Selvä, merkitsin.",
+      "Hyvää päivää, kiitos soitosta. Ymmärsin, hoidan tämän.",
+      "Hyvää päivää, kiitos kun soititte. Kaikki on merkitty."
+    ],
+    "a": [
+      "Moi, haloo! Hän ei ole, kerro mulle, vien viestin.",
+      "Kuuntelen, vastaan puheluita, jätä viesti.",
+      "Moi. Kirjaan ja vien eteenpäin.",
+      "Hyvää päivää, kiitos soitosta. Kirjaan ja vien {owner}lle.",
+      "Hyvää päivää, kiitos kun soititte. Kirjaan kohdat ja vien."
+    ]
+  },
+  "diff_from_home": [
+    "芬蘭語在瑞典是官方少數民族語言，行政區內有權以芬蘭語向機關溝通，這與在芬蘭本土的地位不同。",
+    "瑞典芬蘭語會夾瑞典語借詞與瑞典制度名，如 personnummer、BankID、Försäkringskassan，不要只套用芬蘭的 Kela、henkilötunnus。",
+    "對幾乎所有人都用 sinä，商務也不必改成過時的 te。",
+    "Meänkieli 是相關但不同的少數語言，本檔以標準芬蘭語（含瑞典芬蘭語詞彙）回應。"
+  ],
+  "sources": [
+    "https://www.isof.se/nationella-minoritetssprak/finska/lar-dig-mer-om-finska-spraket-och-kulturen/finskan-i-sverige",
+    "https://sweden.se/life/equality/national-minorities-in-sweden",
+    "https://www.bankid.com/",
+    "https://www.forsakringskassan.se/",
+    "https://www.isof.se/nationella-minoritetssprak/finska/lar-dig-mer-om-finska-spraket-och-kulturen/sprakvard-av-finska-i-sverige"
+  ],
+  "uncertain": [
+    "瑞典芬蘭語借詞（如部分日常詞）在電話中的實際出現頻率，語料多偏書面語保護，口語量化不足。",
+    "新抵芬蘭人與世代居住的 Sweden Finns 用詞可能不同，不能合成單一口音。"
+  ]
+}

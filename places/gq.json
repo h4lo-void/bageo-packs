@@ -1,0 +1,845 @@
+{
+  "region": "gq",
+  "countries": [
+    "gq"
+  ],
+  "region_name_zh": "赤道幾內亞",
+  "region_name": "Equatorial Guinea",
+  "languages": [
+    {
+      "code": "es",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "some"
+    },
+    {
+      "code": "pt",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "先用正式西班牙語 usted，用歐式用詞（móvil、reserva），不要套拉丁美洲的 celular、mande 或墨西哥口語。對方改法語或葡語再跟著說；不要主動改用葡萄牙或巴西腔。",
+  "english_ok": "rarely — 馬拉博、巴塔部分旅館與石油相關辦公室較可能聽懂英語；街邊餐館與公家窗口仍以西班牙語為主，法語為輔。",
+  "politeness": "開場 Buenos días / Buenas tardes 加 señor / señora 與 usted；熟識前不要改 tú。結尾 muchas gracias、que tenga buen día。",
+  "name_tip": "報名加姓即可（如 María Nse、Pedro Ondo）；當地姓名常含芳語或布比語成分，先用對方已寫在訂位裡的拼法，再逐字拼。",
+  "phone_tip": "國內號碼 9 位；市話以 3 開頭，手機目前以 2 或 5 開頭（222 123 456、555 123 456）。國際冠碼 +240，國際冠碼前綴 00。朗讀分三組，不要連念。",
+  "time_tip": "書面可用 24 小時（19:30）或「las siete y media de la tarde」。晚餐多在 20:00 前後，比西非許多城市略晚，但不要套用西班牙本土的 22:00。",
+  "number_tip": "金額用中非法郎 CFA（franco CFA / XAF），不要說 peseta 或 naira。數字用歐洲西班牙語（dieciséis，不要用墨西哥的其它習慣）。",
+  "avoid_calling": "避開 13:00–16:00 的長午休、傍晚 19:00 後打給行政與小作坊；週日許多機關與市區小店不開，不要在那時打公務電話。",
+  "closed_days": "獨立日 10 月 12 日、憲法相關假期、耶誕與新年常見公休。馬拉博與巴塔的旅館餐廳多半仍開，但市政窗口會關。",
+  "booking_channels": "幾乎都是電話加 WhatsApp；沒有可驗證的全國訂位 App。馬拉博、巴塔旅館可走官網或大型訂房網站，餐廳則直接打給店家。電信用 ORTEL 監理，營運商為當地電信（如 GETESA 體系），不要套用鄰國的 MoMo 品牌。",
+  "voice_menu": "銀行與電信熱線可能有簡短語音選單；多數餐廳、診所與市政窗口仍是人工接聽，而且線路有時不穩。",
+  "callback_habits": "店家多用 WhatsApp 回一行字或語音確認；電子郵件只見於較大旅館。不要假設會有簡訊系統。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "馬拉博、巴塔餐廳幾乎都靠電話或 WhatsApp 留桌，沒有可驗證的全國訂位平台；晚餐約 20:00，先問收不收卡還是只收現金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and hour (almuerzo around 14:00 vs cena around 20:00)",
+        "Number of people and if a child's chair is needed",
+        "Interior with air-conditioning versus terraza",
+        "Name and a nine-digit local móvil",
+        "Cash versus card; do not assume a regional mobile-money brand"
+      ],
+      "may_come_up": [
+        {
+          "what": "Card machines may be offline and cash in CFA is required",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The dining room is inside a hotel and non-residents must be announced at the gate",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A transfer to a personal mobile wallet is demanded before the table is written down",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所與醫院窗口以電話掛號或當日到場為主，沒有廣泛使用的預約 App；要問看哪一科、帶哪種證件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "First visit or a follow-up and the specialty",
+        "Patient name as on the documento de identidad or passport",
+        "Morning or afternoon and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public centres may only give numbers in person in the morning",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "They may ask whether the patient will pay in cash",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A full medical history is requested from a third party on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "美容院與理髮店用 WhatsApp 約時間最常見，電話能通也會被轉去傳造型說明。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Hair, nails or barber work and a rough duration",
+        "Day and hour and a second choice if the stylist is busy",
+        "The WhatsApp number for the reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "The stylist works from a private home and is known by a first name",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Identity photos are demanded in a private chat before any hour is noted",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與手機維修先打電話問有沒有人能看，再約到店；零件進口期不確定時要先說清楚。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What is broken and the brand if known",
+        "Leave the item at the taller versus a visit",
+        "When someone can hand it over"
+      ],
+      "may_come_up": [
+        {
+          "what": "A part may need to be imported and the delay is unclear",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A remote diagnosis fee is demanded to a personal account before the item is seen",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "外帶直接打電話或 WhatsApp 點，馬拉博與巴塔沒有可驗證的大型外送平台；要說清取餐時間與門址。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Dishes and quantities",
+        "Collection time or a simple drop-off in Malabo or Bata",
+        "Name and a number that will answer at the puerta"
+      ],
+      "may_come_up": [
+        {
+          "what": "The kitchen will only pack food within a short evening window",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Payment is redirected to a different personal number than the restaurant's",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商店留貨靠 WhatsApp 問存貨，較少線上目錄；電話只確認型號與何時可取。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "The exact item and quantity",
+        "Collect in store or informal delivery in the same city",
+        "Name to put on the reserved goods"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stock may have to come from Douala or Madrid and the date is loose",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A full transfer to a private account is required before they confirm stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期再打給同一間店或回原 WhatsApp，報名字與原時間即可；較大旅館才有訂單編號。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original date, hour and the name",
+        "The new time or a cancellation",
+        "A new headcount if it changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "A hotel restaurant may treat a late change as a cancellation under its own rule",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An extra payment is demanded only to change the hour",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問營業時間或收不收卡，直接打電話最準，因為許多店沒有可靠網頁。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The concrete question (hours, card acceptance, a dish, a spare part)",
+        "The day they plan to visit",
+        "A number if the answer will come later by WhatsApp"
+      ],
+      "may_come_up": [
+        {
+          "what": "Staff may switch from Spanish into French mid-call",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone asks the owner to read a card PIN or one-time code aloud",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "馬拉博、巴塔較大旅館可用官網或大型訂房網站，小型寄宿舍則 WhatsApp 問空房；入住仍常要出示護照。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates and how many guests",
+        "Room type and whether breakfast is included",
+        "Name as on the passport and a WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "A written confirmation may arrive only as a WhatsApp photo of the ledger",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A passport scan and a transfer to a personal account are demanded before any confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "島嶼或大陸側的短程活動多經旅館櫃檯或導遊 WhatsApp 安排，團員少時可能取消。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which outing and the date, with a weather alternative",
+        "Number of people and the meeting point (hotel or jetty)",
+        "A local móvil"
+      ],
+      "may_come_up": [
+        {
+          "what": "A boat or vehicle leaves only if enough guests join",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to an unnamed personal wallet is required with no receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "水電與維修靠電話或 WhatsApp 約上門，地址要講清馬拉博或巴塔的區名與門房怎麼放行。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The job and a visit window",
+        "Barrio and how the technician is let in",
+        "A number that will answer at the door"
+      ],
+      "may_come_up": [
+        {
+          "what": "The technician will quote only after seeing a photo",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A door code and a remote prepayment are demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獸醫服務有限，通常打電話問當天能不能看；要說明動物種類，不要假設有線上掛號。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item"
+      ],
+      "usually_asked": [
+        "Species and the reason for the visit",
+        "Whether it can be seen the same morning",
+        "Owner name and a móvil"
+      ],
+      "may_come_up": [
+        {
+          "what": "Animals may be seen only in the morning",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal transfer is demanded to reserve a kennel with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "進口包裹常要打電話問清關或代理行，單號格式不一；不要套用國際快遞 App 的標準流程。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "The reference and whether it is air or sea freight",
+        "Name on the consignment and a local contact",
+        "Collection in Malabo or Bata"
+      ],
+      "may_come_up": [
+        {
+          "what": "A cash charge in CFA may be due at the agent's office",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A wallet top-up is requested to 'release' a parcel that cannot be identified",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "銀行與電信（經 ORTEL 監理的本地營運商）以電話為主，可能有短語音選單；不要在電話裡報密碼或一次性代碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which bank or operator and the account or SIM",
+        "The issue in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "The caller may be asked to come to a sucursal with the identity document",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for a PIN, clave or one-time SMS code on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "馬拉博與巴塔叫車仍多靠旅館代叫、街邊的士或 WhatsApp 約司機，沒有可驗證的大規模叫車 App 覆蓋。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (hotel, aeropuerto, barrio) and the time",
+        "Passengers and bags",
+        "A number the driver can call"
+      ],
+      "may_come_up": [
+        {
+          "what": "The hotel desk may prefer to dispatch its usual driver rather than a random taxi",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for the full fare to a personal account before sharing any plate",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房經仲介或熟人 WhatsApp 約，可能被要求先出示證件；地址用區名與地標。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and rent or sale",
+        "Name and a number at the gate",
+        "Budget in CFA if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "The agent wants to see an identity document before opening",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A reservation fee to a personal account is demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政與學校窗口多要本人到場，電話只能問文件與受理時間；用正式西班牙語 usted。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which office or school and the purpose",
+        "The person's name as on the official document",
+        "Whether a number is issued only in person"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many counters close after the long midday break",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be from an office asks for a personal transfer to 'speed up' a file",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "es": {
+      "party": [
+        "mesa para 4",
+        "somos 3 adultos",
+        "2 adultos y 1 niño",
+        "para dos personas",
+        "un grupo de 6",
+        "1 persona"
+      ],
+      "time": [
+        "a las 20:00",
+        "ocho de la noche",
+        "para el almuerzo a las 14:00",
+        "sobre las 10:00",
+        "a las 16:30",
+        "por la tarde"
+      ],
+      "date": [
+        "mañana",
+        "pasado mañana",
+        "este sábado",
+        "el viernes que viene",
+        "el 12 de octubre",
+        "el 1 de enero"
+      ],
+      "name": [
+        "a nombre de María Nse",
+        "Pedro Ondo",
+        "familia Mba",
+        "Ana Esono",
+        "Juan Nsue"
+      ],
+      "phone": [
+        "222 123 456",
+        "mi móvil 555 123 456",
+        "12345678",
+        "el 333 123 456"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "guardar una mesa",
+        "pedir una mesa",
+        "reservar habitación",
+        "dejar una plaza"
+      ],
+      "appointment_words": [
+        "pedir cita",
+        "citar en la consulta",
+        "cita en la peluquería",
+        "llevar el coche al taller",
+        "llamar al técnico"
+      ],
+      "order_words": [
+        "pedir para llevar",
+        "encargar comida",
+        "reservar en la tienda",
+        "mandar el pedido",
+        "apartar uno"
+      ],
+      "change_words": [
+        "cambiar la hora",
+        "pasar a más tarde",
+        "anular la reserva",
+        "cancelar la cita",
+        "mover el día"
+      ],
+      "inquiry_words": [
+        "¿aceptan tarjeta?",
+        "¿abren el festivo?",
+        "¿tienen pescado hoy?",
+        "¿hacen envío en Malabo?",
+        "¿cuál es el precio?"
+      ],
+      "false_friends": [
+        "2.º piso",
+        "casa 12",
+        "masaje 45 min",
+        "pack de 4",
+        "puerta 3"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4 à Malabo",
+        "nous serons 3",
+        "2 adultes et un enfant",
+        "pour deux",
+        "un groupe de 6",
+        "une personne"
+      ],
+      "time": [
+        "à 20h",
+        "huit heures du soir",
+        "pour le déjeuner à 14h",
+        "vers 10h",
+        "à 16h30",
+        "en fin d'après-midi"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "samedi soir",
+        "vendredi prochain",
+        "le 12 octobre",
+        "le 1er janvier"
+      ],
+      "name": [
+        "au nom de María Nse",
+        "Pedro Ondo",
+        "famille Mba",
+        "Ana Esono",
+        "Juan Nsue"
+      ],
+      "phone": [
+        "222 123 456",
+        "le portable 555 123 456",
+        "12345678",
+        "le 333 123 456"
+      ],
+      "booking_words": [
+        "réserver une table à Bata",
+        "garder une table",
+        "prendre une table",
+        "réserver une chambre",
+        "laisser une place"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous",
+        "fixer une consultation",
+        "rendez-vous au salon",
+        "déposer la voiture",
+        "faire venir le technicien"
+      ],
+      "order_words": [
+        "commander à emporter",
+        "faire préparer un plat",
+        "mettre de côté",
+        "envoyer le plat",
+        "garder un article"
+      ],
+      "change_words": [
+        "changer l'heure",
+        "reporter plus tard",
+        "annuler la réservation",
+        "annuler le rendez-vous",
+        "déplacer le jour"
+      ],
+      "inquiry_words": [
+        "vous prenez la carte ?",
+        "vous ouvrez le jour férié ?",
+        "il y a du poisson aujourd'hui ?",
+        "vous livrez à Malabo ?",
+        "quel est le prix ?"
+      ],
+      "false_friends": [
+        "2e étage",
+        "maison 12",
+        "massage 45 min",
+        "pack de 4",
+        "porte 3"
+      ]
+    },
+    "pt": {
+      "party": [
+        "mesa para 4 em Malabo",
+        "somos 3",
+        "2 adultos e 1 criança",
+        "para duas pessoas",
+        "grupo de 6",
+        "1 pessoa"
+      ],
+      "time": [
+        "às 20h",
+        "oito da noite",
+        "ao almoço às 14h",
+        "por volta das 10h",
+        "às 16h30",
+        "ao fim da tarde"
+      ],
+      "date": [
+        "amanhã",
+        "depois de amanhã",
+        "este sábado",
+        "na próxima sexta",
+        "12 de outubro",
+        "1 de janeiro"
+      ],
+      "name": [
+        "em nome de María Nse",
+        "Pedro Ondo",
+        "família Mba",
+        "Ana Esono",
+        "Juan Nsue"
+      ],
+      "phone": [
+        "222 123 456",
+        "o telemóvel 555 123 456",
+        "12345678",
+        "o 333 123 456"
+      ],
+      "booking_words": [
+        "reservar mesa em Bata",
+        "guardar uma mesa",
+        "pedir uma mesa",
+        "reservar quarto",
+        "deixar um lugar"
+      ],
+      "appointment_words": [
+        "marcar consulta",
+        "fazer uma marcação",
+        "marcar cabeleireiro",
+        "levar o carro à oficina",
+        "chamar o técnico"
+      ],
+      "order_words": [
+        "pedir para levar",
+        "encomendar a refeição",
+        "reservar na loja",
+        "mandar o pedido",
+        "pôr de lado um"
+      ],
+      "change_words": [
+        "mudar a hora",
+        "passar para mais tarde",
+        "anular a reserva",
+        "desmarcar a consulta",
+        "mudar o dia"
+      ],
+      "inquiry_words": [
+        "aceitam cartão?",
+        "abrem no feriado?",
+        "têm peixe hoje?",
+        "fazem entrega em Malabo?",
+        "qual é o preço?"
+      ],
+      "false_friends": [
+        "2.º andar",
+        "casa 12",
+        "massagem 45 min",
+        "pack de 4",
+        "porta 3"
+      ]
+    }
+  }
+}

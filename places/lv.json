@@ -1,0 +1,716 @@
+{
+  "region": "lv",
+  "countries": [
+    "lv"
+  ],
+  "region_name_zh": "拉脫維亞",
+  "region_name": "Latvia",
+  "languages": [
+    {
+      "code": "lv",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (Riga, Daugavpils)"
+    }
+  ],
+  "ai_language_tip": "Start in Latvian (lv); Latvian is the required language of service. In Riga and Latgale many staff also speak Russian; English is common with younger staff in Riga. Switch only if the other side does.",
+  "english_ok": "often — Good in central Riga, Jūrmala hotels and restaurants; limited in small-town clinics, garages and state offices.",
+  "politeness": "Reserved and polite; formal 'Jūs'; open with 'Labdien'; little small talk; close with 'Paldies, uz redzēšanos'.",
+  "name_tip": "Booking 'uz vārdu …'; Latvian surnames are gendered (-s/-š for men, -a/-e for women, e.g. Bērziņš / Bērziņa); foreign names get Latvianised in writing, so spell the exact form needed.",
+  "phone_tip": "All numbers 8 digits, mobile starting with 2 (e.g. 2 12345678), Riga landlines 67/66; international +371; no trunk prefix; SMS and e-mail confirmations standard.",
+  "time_tip": "Watch out: 'pusastoņos' = 7:30 (half to eight), 'ceturksnis pāri septiņiem' = 7:15; written 24h ('19:30'); always read back in 24h.",
+  "number_tip": "8-digit numbers are read in pairs or 2-3-3; numerals are gendered ('divi'/'divas').",
+  "avoid_calling": "Avoid restaurant peaks 12:00–13:00 and 18:30–20:00, calls after 20:00, Sundays for non-hospitality, and Jāņi (Midsummer 23–24 June) when the country largely stops.",
+  "closed_days": "Shops and malls open on Sunday; offices and many clinics closed weekends; holidays include Good Friday, Easter, 1 and 4 May, 23–24 June, 18 November, 24–26 and 31 December.",
+  "booking_channels": "Piearsta.lv and clinic e-pieraksts for doctors (state-funded queues via e-veselība referral); Table.lv, Tablein.lv and Meniu.lv for restaurant tables; Wolt and Bolt Food for delivery; salons by phone or online widgets.",
+  "voice_menu": "Clinics with large registries, banks, LMT/Tele2/Bite, Latvijas Pasts and utilities use IVR; restaurants and small salons answer directly.",
+  "callback_habits": "Table.lv confirms by SMS; clinics send SMS reminders; small businesses call or text back.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "里加中心區餐廳常同時接電話與 Table.lv／Tablein 線上訂位（Table.lv 以簡訊確認）；仲夏節 Jāņi（6/23–24）與年底聖誕宴期間很多店改包場或休息。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Table.lv sends an SMS confirmation instead of a call"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Group menu or advance payment for Christmas parties (Ziemassvētku ballītes)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks for card details to guarantee a large table"
+        }
+      ],
+      "usually_asked": [
+        "Booking date and time, e.g. Friday 19:00",
+        "How many people the table (galdiņš) is for",
+        "Hall or summer terrace, and whether a high chair is needed",
+        "Name and mobile number for the SMS confirmation"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "國家給付門診要家庭醫師（ģimenes ārsts）的電子轉診並排隊，常等數週；自費（maksas）門診可電話或 Piearsta.lv 隔天就約到，診所會先問付費或用轉診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "State-funded queue is weeks long; offer of a paid slot sooner"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Piearsta.lv for the slot list"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personas kods to check the e-veselība referral"
+        }
+      ],
+      "usually_asked": [
+        "State-paid with GP referral (nosūtījums) or paid visit (maksas)",
+        "Which specialist or test is needed",
+        "Patient full name (personal code asked at the desk)",
+        "First visit or follow-up at this clinic",
+        "Mobile number for the reminder SMS"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "里加美髮美甲多有 Instagram 或線上預約連結，但多數師傅仍接電話；老客戶常直接指定同一位 meistare。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Colouring takes 2–3 hours, so only morning slots fit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service: cut, colouring or manicure",
+        "A named master (meistare) or whoever is free",
+        "Preferred date and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "拉脫維亞 12 月起冬胎規定讓 10–11 月換胎（riepu maiņa）店滿檔，修車廠電話預約為主；技術檢驗（tehniskā apskate）在 CSDD 線上排。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Tyre-storage fee for the season"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "CSDD roadworthiness test is booked on CSDD site, not at the garage"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model and plate number",
+        "Job: tyre change (riepu maiņa), service or diagnostics",
+        "Whether tyres are stored at the garage (riepu glabāšana)",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與亞洲餐館電話訂自取（līdzņemšanai）可行，但多數人改用 Wolt 或 Bolt Food，店家有時會請你直接在 App 下單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant points you to its Wolt page for delivery"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and quantities",
+        "What time it will be collected",
+        "Name and phone",
+        "Card or cash on collection"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕店（kūkas pasūtījums）多要求 2–3 天前預訂並先付訂金；花店與肉鋪可電話留貨，量販與電子產品走線上。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment for custom cakes"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly (cake, flowers, meat) and how much",
+        "Text or decoration wanted on the cake",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消自費門診通常要 24 小時前通知；Table.lv 訂位可用簡訊連結自己改。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "No-show fee at private clinics"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original appointment time",
+        "Name the booking was made under",
+        "New preferred time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問營業時間、價格或有沒有貨都很普遍，店員回答直接簡短。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Holiday opening hours around Jāņi and Christmas"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question: price, stock or opening hours",
+        "Which day it concerns",
+        "How many people or items"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "里加與尤爾馬拉飯店電話或 Email 訂房，鄉間民宿（viesu nams）多半只接電話與 Email，常附三溫暖（pirts）另計。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pirts rental is extra and booked by the hour"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details as guarantee"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Number of guests",
+        "Room type",
+        "Whether sauna (pirts) or breakfast is wanted",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "鄉間三溫暖屋（pirts）、SPA 與里加導覽多電話訂；冬季週末三溫暖最難訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Minimum booking of 3 hours for a pirts house"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Which: sauna house, spa treatment or guided tour",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "里加公寓多為蘇聯時期樓房無電梯，水電、搬家師傅會問樓層與門禁密碼；ss.lv 上很多個人師傅只接電話。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee (izsaukuma maksa)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the door code"
+        }
+      ],
+      "usually_asked": [
+        "Address, floor and whether there is a lift",
+        "Door code or intercom name",
+        "What needs doing",
+        "Preferred time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinārā klīnika）電話預約，疫苗需帶寵物護照；美容依犬種估時間。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pet passport needed for rabies vaccination"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal, breed and weight",
+        "Vaccination, procedure or symptoms",
+        "Preferred time",
+        "Owner's name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Latvijas Pasts、Omniva、DPD、Venipak 都靠包裹機（pakomāts）與簡訊取件碼，查件改用官網追蹤，人工客服少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the SMS pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Parcel tracking number",
+        "Recipient's name",
+        "Which parcel locker (pakomāts)",
+        "Phone number that receives the SMS"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（LMT、Tele2、Bite）與銀行客服要本人以 Smart-ID 或 eParaksts 驗證，代打只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the contract holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Smart-ID PIN or personas kods"
+        }
+      ],
+      "usually_asked": [
+        "Contract holder",
+        "Description of the problem",
+        "Customer or contract number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "里加叫車多用 Bolt App；傳統計程車行（taksometrs）仍接電話，機場接送可預約固定價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed airport price vs meter"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or Riga airport",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 ss.lv 刊登並請你打電話約看屋；簽約時常收首月租金、一個月押金與仲介佣金，冬季公共費用（komunālie）偏高。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "One-month deposit plus agent commission"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Winter utilities estimate"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal code or employment proof"
+        }
+      ],
+      "usually_asked": [
+        "Which ss.lv listing (street or district)",
+        "Viewing time",
+        "How many will live there, any pets",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "戶籍申報、證件等多在 Latvija.gov.lv／iLatvija 線上辦；學校與幼兒園報名有線上排隊，電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to the e-service portal"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personas kods"
+        }
+      ],
+      "usually_asked": [
+        "Which service: address declaration or documents",
+        "Who it is for",
+        "Application number, if any"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "lv": {
+      "appointment_words": [
+        "pieteikties pie ārsta",
+        "pieraksts",
+        "pierakstīties frizierim",
+        "vizītes laiks",
+        "pieteikt apkopi"
+      ],
+      "booking_words": [
+        "rezervēt galdiņu",
+        "rezervācija",
+        "rezervēt numuru",
+        "galdiņš četriem"
+      ],
+      "change_words": [
+        "pārcelt vizīti",
+        "atcelt rezervāciju",
+        "pusstundu vēlāk",
+        "pārcelt uz piektdienu"
+      ],
+      "date": [
+        "rīt",
+        "parīt",
+        "šo piektdien",
+        "nākamo otrdien",
+        "25.11.",
+        "25. novembrī"
+      ],
+      "false_friends": [
+        "3. stāvs",
+        "dzīvoklis 45",
+        "komplekss nr. 4",
+        "masāža 60 min",
+        "autobuss nr. 8"
+      ],
+      "inquiry_words": [
+        "cik maksā",
+        "vai ir pieejams",
+        "līdz cikiem strādājat",
+        "vai var ar suni",
+        "vai var maksāt ar karti"
+      ],
+      "name": [
+        "uz vārdu Bērziņš",
+        "uz vārdu Anna",
+        "Kalniņa",
+        "ģimene Ozoliņi"
+      ],
+      "order_words": [
+        "līdzņemšanai",
+        "pakaļ atbraukt",
+        "iepriekšējs pasūtījums",
+        "piegāde mājās"
+      ],
+      "party": [
+        "galdiņš 4 personām",
+        "mēs esam trīs",
+        "diviem",
+        "2 pieaugušie un 1 bērns",
+        "5 pers."
+      ],
+      "phone": [
+        "2 12345678",
+        "+371 2 12345678",
+        "12345678"
+      ],
+      "time": [
+        "plkst. 19:30",
+        "pusastoņos",
+        "ceturksnis pāri septiņiem",
+        "bez ceturkšņa astoņi",
+        "pusdienlaikā 12:00"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "записаться на стрижку",
+        "на консультацию",
+        "запись в автосервис"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "забронировать номер",
+        "резерв"
+      ],
+      "change_words": [
+        "перенести запись",
+        "отменить бронь",
+        "на полчаса позже",
+        "перенести на пятницу"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в эту пятницу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 45",
+        "массаж 60 мин",
+        "автобус 8"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть в наличии?",
+        "до скольки работаете",
+        "можно картой?"
+      ],
+      "name": [
+        "на фамилию Иванов",
+        "на имя Ольга",
+        "семья Петровых"
+      ],
+      "order_words": [
+        "на вынос",
+        "самовывоз",
+        "предзаказ",
+        "доставка"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих",
+        "2 взрослых и ребёнок"
+      ],
+      "phone": [
+        "+371 2 12345678",
+        "2 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "к семи вечера",
+        "в 12:00"
+      ]
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "lang": "mk",
+  "script": "cyrillic",
+  "common_words": [
+    "јас",
+    "сум",
+    "што",
+    "ќе",
+    "ова",
+    "дека",
+    "дали",
+    "зошто",
+    "тука",
+    "сакам",
+    "треба",
+    "нема",
+    "благодарам",
+    "молам",
+    "каде",
+    "денес",
+    "утре",
+    "вчера",
+    "наутро",
+    "вечерта",
+    "кој",
+    "кога",
+    "сега",
+    "добро",
+    "извини",
+    "здраво",
+    "пријатно",
+    "нарачка",
+    "лекар",
+    "пакет",
+    "многу",
+    "нешто",
+    "уште",
+    "може",
+    "ние",
+    "вие",
+    "нашиот",
+    "вашиот",
+    "овој",
+    "оваа",
+    "број",
+    "адреса",
+    "господине",
+    "госпоѓо",
+    "недела",
+    "месец",
+    "пред",
+    "после",
+    "ајде",
+    "редица"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/mk/mk_50k.txt",
+  "shared_words": [
+    {
+      "word": "да",
+      "also_in": [
+        "bg",
+        "sr"
+      ]
+    },
+    {
+      "word": "не",
+      "also_in": [
+        "bg",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "се",
+      "also_in": [
+        "bg",
+        "sr"
+      ]
+    },
+    {
+      "word": "и",
+      "also_in": [
+        "bg",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "на",
+      "also_in": [
+        "bg",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "добро",
+      "also_in": [
+        "bg",
+        "sr"
+      ]
+    },
+    {
+      "word": "треба",
+      "also_in": [
+        "bg",
+        "sr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ѓ",
+    "ќ",
+    "ѕ"
+  ],
+  "confusable_with": [
+    "bg",
+    "sr",
+    "be"
+  ],
+  "how_to_tell_apart": "Macedonian is closest to Bulgarian and to Serbian Cyrillic, but the letters ѓ, ќ and ѕ are its own, and so are ќе (future), што, јас, дека, дали, зошто, тука, сакам, каде and благодарам. Bulgarian would show ще, какво, аз, защо, тук and благодаря, and it uses ъ. Serbian would show ђ, ћ, шта, овде and хоћу. Do not decide from да, не, се or треба alone.",
+  "test_said": [
+    "Во општината сакам да пријавам промена на адреса пред крајот на месецов.",
+    "Во аптеката прашувам дали антибиотикот од рецептот е пристигнат.",
+    "Пакетот го оставија кај портарот а јас не добив порака за тоа.",
+    "Новата маса има гребнатини на ногата и сакам да ја заменат.",
+    "Кај матичниот лекар барам преглед поради кашлица што трае трета седмица.",
+    "Лабораторијата треба да ми ги даде резултатите од крвта во четврток.",
+    "Потрошувачки кредит не барам и не сакам да слушам услови по телефон.",
+    "Домашниот интернет ми работи и не менувам оператор поради повик од продажба."
+  ],
+  "test_not_enough": [
+    "Горан",
+    "ok",
+    "пет",
+    "супер"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/mk/mk_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Macedonian_alphabet",
+    "https://en.wikipedia.org/wiki/Macedonian_language"
+  ],
+  "uncertain": [
+    "редица was kept as a language-specific item but is less frequent in the subtitle list than speech particles such as ајде; particles were preferred where both occurred.",
+    "Serbian spoken in North Macedonia may mix ќе/што with Serbian morphology; a very short turn can still be ambiguous."
+  ]
+}

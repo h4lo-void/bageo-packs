@@ -1,0 +1,83 @@
+{
+  "country": "xk",
+  "parent": "al-xk",
+  "name": {
+    "en": "Kosovo",
+    "native": "Kosova",
+    "zh": "科索沃"
+  },
+  "lang": "sq",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, më dëgjoni?"
+  },
+  "delivery": {
+    "en": "Leave it with Posta e Kosovës or a courier, or te komshiu",
+    "zh": "交給科索沃郵政或快遞，或放在鄰居那裡（te komshiu）"
+  },
+  "readback": {
+    "en": "Mobiles often start 04, then short groups; 0 as zero; amounts in euro, not lek; day before month",
+    "zh": "手機常以 04 開頭再分短組唸，0 唸 zero；金額用歐元，不是列克；先日後月"
+  },
+  "fraud": {
+    "en": "An eKosova traffic-fine link, or a Posta e Kosovës text asking to update an address, is a scam",
+    "zh": "冒充 eKosova 的交通罰款連結，或科索沃郵政要你改地址的簡訊，都是詐騙"
+  },
+  "habits": {
+    "en": "Ti with friends, ju otherwise. Everyday speech is Gheg; reply in standard Albanian. Use euro. Don't echo Slavic fillers.",
+    "zh": "朋友 ti、其餘 ju。日常是蓋格口音，用標準阿爾巴尼亞語回。錢用歐元。勿跟著說斯拉夫口頭禪。"
+  },
+  "stall_local": {
+    "en": "The eKosova SMS code has not arrived, and the bank still wants a branch visit for mobile banking.",
+    "zh": "卡在 eKosova 驗證簡訊沒來，而且銀行要先到分行才能開通手機銀行。"
+  },
+  "vocab": {
+    "bank": [
+      "eKosova",
+      "kartela",
+      "transferta",
+      "OTP"
+    ],
+    "delivery": [
+      "Posta e Kosovës",
+      "korrieri",
+      "te komshiu",
+      "recepsioni"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "e-Albania",
+      "reason": {
+        "zh": "這是阿爾巴尼亞的電子政務平台，科索沃用的是 eKosova"
+      }
+    },
+    {
+      "word": "lek",
+      "reason": {
+        "zh": "阿爾巴尼亞貨幣；科索沃日常金額用歐元"
+      }
+    },
+    {
+      "word": "u redu",
+      "reason": {
+        "zh": "斯拉夫語口頭禪，所屬地區已提醒避免；對方若說了也不要跟著學"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the ti/ju scale. Everyday speech around the caller may be Gheg, but the assistant should stay in standard Albanian. Use euro and eKosova or Posta e Kosovës wording, not e-Albania or lek.",
+    "zh": "仍依 ti／ju 分檔。對方日常可能是蓋格口音，助理用標準阿爾巴尼亞語即可。金額與機關用歐元、eKosova、科索沃郵政，不用 e-Albania 或列克。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.kosovopolice.com/njoftim-i-policise-se-kosoves-per-fushate-mashtruese-phishing-permes-mesazheve-sms/",
+    "https://www.hibrid.info/en/Fraudulent-SMS-claiming-to-be-from-the-ekosova-platform/",
+    "https://en.wikipedia.org/wiki/Gheg_Albanian"
+  ],
+  "uncertain": [
+    "04 開頭之後如何分段，缺少電信官方的口誦說明。",
+    "電話裡使用斯拉夫口頭禪的實際頻率，沒有語料統計。",
+    "接聽是否一律說 Alo，缺少專門調查。"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "lang": "ne",
+  "backchannels": {
+    "direction": "हजुर and हो show respectful listening; अँ and ल are casual; repeated ल ल can sound like brushing off.",
+    "examples": [
+      {
+        "text": "हजुर।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "हो, हो।",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "अँ।",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ठिक छ।",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ल ल।",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "हो र? for surprise; कस्तो दुःखको कुरा for sympathy; बधाई छ for good news.",
+    "examples": [
+      {
+        "text": "हो र?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "साँच्चै?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "सुनेर दुःख लाग्यो।",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "बधाई छ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "अलि गाह्रो छ हजुर।",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (आवाज आएन) or the line is weak; request ठूलो स्वर.",
+    "examples": [
+      {
+        "text": "हजुर, आवाज राम्रोसँग आएन।",
+        "style": "polite"
+      },
+      {
+        "text": "लाइन कमजोर छ।",
+        "style": "casual"
+      },
+      {
+        "text": "आवाज काटिँदै छ।",
+        "style": "polite"
+      },
+      {
+        "text": "अलि ठूलो स्वरमा बोलिदिनुहोस् न।",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "हजुर? prompts a repeat; request हिज्जे for names and echo numbers.",
+    "examples": [
+      {
+        "text": "हजुर?",
+        "style": "polite"
+      },
+      {
+        "text": "फेरि भनिदिनुहोस् न।",
+        "style": "polite"
+      },
+      {
+        "text": "नामको हिज्जे भनिदिनुहोस्।",
+        "style": "polite"
+      },
+      {
+        "text": "नम्बर 12345678 हो नि?",
+        "style": "polite"
+      },
+      {
+        "text": "के?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "तपाईं को बोल्नुभएको? with तपाईं; bare को? is curt.",
+    "examples": [
+      {
+        "text": "हजुर, को बोल्नुभएको?",
+        "style": "polite"
+      },
+      {
+        "text": "कहाँबाट फोन गर्नुभएको?",
+        "style": "polite"
+      },
+      {
+        "text": "यो {owner}को नम्बर हो, तपाईं को?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say it's a wrong number (नम्बर मिलेन) and nobody of that name is here.",
+    "examples": [
+      {
+        "text": "माफ गर्नुहोस्, नम्बर मिलेन।",
+        "style": "polite"
+      },
+      {
+        "text": "यहाँ त्यो नामको कोही हुनुहुन्न।",
+        "style": "polite"
+      },
+      {
+        "text": "रङ नम्बर।",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "भनिदिन्छु says {owner} will be told; give no ring-back hour.",
+    "examples": [
+      {
+        "text": "{owner}लाई तपाईंको कुरा भनिदिन्छु।",
+        "style": "polite"
+      },
+      {
+        "text": "भनिदिन्छु।",
+        "style": "casual"
+      },
+      {
+        "text": "सन्देश पुर्‍याइदिन्छु।",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "धन्यवाद then चाहिँदैन; polite and short.",
+    "examples": [
+      {
+        "text": "धन्यवाद, हामीलाई चाहिँदैन।",
+        "style": "polite"
+      },
+      {
+        "text": "रुचि छैन हजुर।",
+        "style": "polite"
+      },
+      {
+        "text": "पर्दैन, धन्यवाद।",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On repeat pushes, cite your earlier चाहिँदैन and ask them to stop ringing.",
+    "examples": [
+      {
+        "text": "मैले पहिल्यै भनिसकें, चाहिँदैन।",
+        "style": "polite"
+      },
+      {
+        "text": "कृपया यो नम्बरमा फेरि फोन नगर्नुहोस्।",
+        "style": "polite"
+      },
+      {
+        "text": "यो नम्बर आफ्नो सूचीबाट हटाइदिनुहोस्।",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "हजुर/तपाईं for strangers; दाइ, दिदी, भाइ, बहिनी by age; सर/म्याडम on formal calls.",
+    "examples": [
+      {
+        "text": "दाइ",
+        "style": "casual"
+      },
+      {
+        "text": "दिदी",
+        "style": "casual"
+      },
+      {
+        "text": "सर",
+        "style": "polite"
+      },
+      {
+        "text": "हजुर",
+        "style": "polite"
+      },
+      {
+        "text": "आमा",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like तपाईंको कल हाम्रो लागि महत्त्वपूर्ण छ sound like an operator recording.",
+    "examples": [
+      {
+        "text": "तपाईंको कल हाम्रो लागि महत्त्वपूर्ण छ।",
+        "style": "polite"
+      },
+      {
+        "text": "ग्राहक सेवामा फोन गर्नुभएकोमा धन्यवाद।",
+        "style": "polite"
+      },
+      {
+        "text": "म तपाईंलाई कसरी सहयोग गर्न सक्छु?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using तँ with strangers or asking caste, income or marriage early is offensive.",
+    "examples": [
+      {
+        "text": "तँ को होस्?",
+        "style": "casual"
+      },
+      {
+        "text": "कुन जात?",
+        "style": "casual"
+      },
+      {
+        "text": "तलब कति हो?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%9C%E0%A5%81%E0%A4%B0",
+    "https://en.wikipedia.org/wiki/Nepali_language",
+    "https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%AA%E0%A4%BE%E0%A4%88%E0%A4%82",
+    "https://en.wikipedia.org/wiki/Nepali_grammar"
+  ],
+  "uncertain": [
+    "Nepali has several 'you' levels (तँ, तिमी, तपाईं, हजुर); examples use तपाईं/हजुर with strangers",
+    "Backchannels (हजुर, हो, अँ, ल) from dictionaries and usage, no call corpus",
+    "No phone-specific study of Nepali speech levels found; guidance drawn from grammar descriptions"
+  ]
+}

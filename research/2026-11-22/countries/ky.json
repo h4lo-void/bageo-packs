@@ -1,0 +1,85 @@
+{
+  "country": "ky",
+  "parent": "us",
+  "name": {
+    "en": "Cayman Islands",
+    "native": "Cayman Islands",
+    "zh": "開曼群島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day to you",
+    "hello_again": "Good day, hello?"
+  },
+  "delivery": {
+    "en": "Collect through the Cayman Islands Postal Service; customs is never paid from a text-message link",
+    "zh": "經開曼郵政領件或確認；關稅絕不會用簡訊連結來收"
+  },
+  "readback": {
+    "en": "After 345, numbers go 3-3-4; 0 as zero; Cayman dollars; 12-hour clock; day before month",
+    "zh": "345 區碼後照 3-3-4 唸，0 唸 zero；開曼元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A text pretending to be Cayman Islands Postal Service and asking for customs via a link is a scam",
+    "zh": "簡訊假冒開曼郵政，要你點連結付關稅，都是詐騙"
+  },
+  "habits": {
+    "en": "Formal financial-centre English. Good day with strangers. Say Cayman dollars, not US dollars. Day first.",
+    "zh": "口氣像金融中心、較正式。對生人說 Good day。貨幣是開曼元，不是美元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The bank app signed me out, and I would only confirm a parcel with Cayman Islands Postal Service.",
+    "zh": "卡在銀行 App 把我登出，而且包裹只想向開曼郵政本身確認。"
+  },
+  "vocab": {
+    "bank": [
+      "Cayman dollars",
+      "debit card",
+      "online banking",
+      "transfer"
+    ],
+    "delivery": [
+      "Cayman Islands Postal Service",
+      "customs duties",
+      "collection",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局；開曼本地警示寫的是假冒郵政收關稅，不是 IRS"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是開曼日常付款的名稱"
+      }
+    },
+    {
+      "word": "package locker",
+      "reason": {
+        "zh": "美國包裹櫃；這裡官方路徑是開曼郵政"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式說法，當地英語較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More polished and cautious than mainland US small talk, as suits a financial centre. Use Cayman dollars and Postal Service wording; do not reach for IRS, Medicare or Zelle scripts.",
+    "zh": "比美國本土閒聊更收斂、謹慎，比較像金融中心的口氣。用開曼元與郵政用語，不要搬 IRS、Medicare 或 Zelle 的腳本。"
+  },
+  "same_as_parent": false,
+  "sources": [],
+  "uncertain": [
+    "上門投遞與郵局領件的比例，警察防詐文沒有給統計。",
+    "日期口頭是否先日後月，未見官方規定。",
+    "來源網址在 2026-11-22 檢查時都已失效"
+  ]
+}

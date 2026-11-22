@@ -1,0 +1,80 @@
+{
+  "country": "me",
+  "parent": "rs",
+  "name": {
+    "en": "Montenegro",
+    "native": "Crna Gora",
+    "zh": "蒙特內哥羅"
+  },
+  "lang": "sr",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo opet?"
+  },
+  "delivery": {
+    "en": "Parcels: Pošta Crne Gore, Post Express, a neighbour, or the post office",
+    "zh": "包裹經 Pošta Crne Gore、Post Express，或交給鄰居、郵局"
+  },
+  "readback": {
+    "en": "After the 0 prefix, read mobiles in short groups; 0 as nula; day-month dates; euros, not dinar",
+    "zh": "區碼後分短組唸，0 唸 nula；日期先日後月；貨幣是歐元，不是第納爾"
+  },
+  "fraud": {
+    "en": "A fake Pošta Crne Gore or bank SMS with a payment or data link is a scam",
+    "zh": "假冒 Pošta Crne Gore 或銀行簡訊，要點連結付款或填資料的都是詐騙"
+  },
+  "habits": {
+    "en": "Ti with friends, Vi otherwise. Latin script, usually ijekavian. Say eura, not dinar.",
+    "zh": "朋友 ti、其餘 Vi，用拉丁字母、伊耶卡維發音。金額說歐元，不說第納爾。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the banking app, weak hillside signal, or glasses left in another room.",
+    "zh": "卡在銀行 App、山坡收訊差，或眼鏡放在另一個房間。"
+  },
+  "vocab": {
+    "bank": [
+      "kartica",
+      "uplata",
+      "e-banking",
+      "račun",
+      "bankomat"
+    ],
+    "delivery": [
+      "Pošta Crne Gore",
+      "Post Express",
+      "pošta",
+      "paket",
+      "komšija"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "dinar",
+      "reason": {
+        "zh": "蒙特內哥羅使用歐元，不是第納爾。"
+      }
+    },
+    {
+      "word": "只要求 ekavian／西里爾字母",
+      "reason": {
+        "zh": "當地書寫多用拉丁字母，口語多為伊耶卡維發音。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "The ti/Vi scale matches the parent. Keep fillers local and ijekavian; do not default to Belgrade ekavian flavour or dinar asides. Levels 4–5 stay formal Vi.",
+    "zh": "ti／Vi 分檔與所屬地區相同。口頭禪用當地伊耶卡維說法，不要預設貝爾格勒埃卡維腔，也不要提到第納爾。4～5 格仍用正式 Vi。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.postacg.me/vazno-obavjestenje/",
+    "https://www.postacg.me/ponovo-aktuelne-onlajn-prevare/",
+    "https://www.gov.me/clanak/uprava-policije-upozorava-gradane-na-pojacane-phishing-prevare-putem-sms-poruka-i-aplikacija-za-komunikaciju",
+    "https://www.montenegro.travel/en/plan-your-stay-in-montenegro/useful-tips-and-facts/montenegrin-dictionary"
+  ],
+  "uncertain": [
+    "官方語言含蒙特內哥羅語，但不在支援清單；本檔 lang 用 sr。阿爾巴尼亞語 sq 在部分地區使用，但不是全國電話預設語言。",
+    "歐元為官方流通貨幣，但此次未另抓中央銀行專頁，僅依政府與郵政材料及通行事實。",
+    "旅遊官方頁列出見面問候，未直接寫「接電話必說 Halo」；Halo 依區域慣例，未找到電信官方規定。"
+  ]
+}

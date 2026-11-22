@@ -1,0 +1,696 @@
+{
+  "region": "lk",
+  "vocab": {
+    "si": {
+      "bank": [
+        {
+          "term": "ලංකා බැංකුව",
+          "en": "Bank of Ceylon, state bank (ලංකා බැංකුව)"
+        },
+        {
+          "term": "මහජන බැංකුව",
+          "en": "People's Bank (මහජන බැංකුව)"
+        },
+        {
+          "term": "ගිණුම",
+          "en": "bank account (ගිණුම)"
+        },
+        {
+          "term": "ගිණුම් අංකය",
+          "en": "account number (ගිණුම් අංකය)"
+        },
+        {
+          "term": "සල්ලි දානවා",
+          "en": "deposit / send money, spoken (සල්ලි දානවා)"
+        },
+        {
+          "term": "ATM කාඩ් එක",
+          "en": "ATM card, spoken with එක (ATM කාඩ් එක)"
+        },
+        {
+          "term": "ඔන්ලයින් බැංකින්",
+          "en": "online banking, English loan (ඔන්ලයින් බැංකින්)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "පාර්සල් එක",
+          "en": "the parcel (පාර්සල් එක)"
+        },
+        {
+          "term": "ශ්‍රී ලංකා තැපෑල",
+          "en": "Sri Lanka Post (ශ්‍රී ලංකා තැපෑල)"
+        },
+        {
+          "term": "කුරියර් එක",
+          "en": "courier service (කුරියර් එක)"
+        },
+        {
+          "term": "Daraz",
+          "en": "largest online marketplace in Sri Lanka (Daraz)"
+        },
+        {
+          "term": "PickMe Food",
+          "en": "food delivery in PickMe (PickMe Food)"
+        },
+        {
+          "term": "cash on delivery",
+          "en": "pay the rider on arrival, said in English (cash on delivery)"
+        },
+        {
+          "term": "ගේට්ටුව ළඟ",
+          "en": "at the gate (ගේට්ටුව ළඟ)"
+        }
+      ],
+      "government": [
+        {
+          "term": "ID එක",
+          "en": "national identity card, spoken (ID එක)"
+        },
+        {
+          "term": "ජාතික හැඳුනුම්පත",
+          "en": "NIC, formal name (ජාතික හැඳුනුම්පත)"
+        },
+        {
+          "term": "ග්‍රාම නිලධාරී",
+          "en": "Grama Niladhari village officer, issues residence letters (ග්‍රාම නිලධාරී)"
+        },
+        {
+          "term": "ප්‍රාදේශීය ලේකම් කාර්යාලය",
+          "en": "Divisional Secretariat (ප්‍රාදේශීය ලේකම් කාර්යාලය)"
+        },
+        {
+          "term": "පොලිසිය",
+          "en": "police station (පොලිසිය)"
+        },
+        {
+          "term": "පාස්පෝට් එක",
+          "en": "passport, spoken (පාස්පෝට් එක)"
+        },
+        {
+          "term": "ලයිසන් එක",
+          "en": "driving licence, spoken (ලයිසන් එක)"
+        }
+      ],
+      "health": [
+        {
+          "term": "ඉස්පිරිතාලය",
+          "en": "hospital, everyday word (ඉස්පිරිතාලය)"
+        },
+        {
+          "term": "චැනල් කරනවා",
+          "en": "book a private doctor session, channelling (චැනල් කරනවා)"
+        },
+        {
+          "term": "ෆාමසිය",
+          "en": "pharmacy (ෆාමසිය)"
+        },
+        {
+          "term": "ඩොක්ටර්",
+          "en": "doctor, spoken (ඩොක්ටර්)"
+        },
+        {
+          "term": "බෙහෙත්",
+          "en": "medicine (බෙහෙත්)"
+        },
+        {
+          "term": "බෙහෙත් තුණ්ඩුව",
+          "en": "prescription slip (බෙහෙත් තුණ්ඩුව)"
+        },
+        {
+          "term": "සුව සැරිය",
+          "en": "free 1990 ambulance service (සුව සැරිය)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Dialog",
+          "en": "largest mobile operator (Dialog)"
+        },
+        {
+          "term": "SLT-Mobitel",
+          "en": "state-linked operator (SLT-Mobitel)"
+        },
+        {
+          "term": "Hutch",
+          "en": "operator (Hutch)"
+        },
+        {
+          "term": "රීලෝඩ් එක",
+          "en": "prepaid reload (රීලෝඩ් එක)"
+        },
+        {
+          "term": "ඩේටා පැකේජ්",
+          "en": "data package (ඩේටා පැකේජ්)"
+        },
+        {
+          "term": "සිම් එක",
+          "en": "SIM card (සිම් එක)"
+        },
+        {
+          "term": "සිග්නල්",
+          "en": "signal (සිග්නල්)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "LankaQR",
+          "en": "national QR payment standard (LankaQR)"
+        },
+        {
+          "term": "FriMi",
+          "en": "Nations Trust digital bank app (FriMi)"
+        },
+        {
+          "term": "eZ Cash",
+          "en": "Dialog mobile money (eZ Cash)"
+        },
+        {
+          "term": "කෑෂ්",
+          "en": "cash, spoken (කෑෂ්)"
+        },
+        {
+          "term": "කාඩ් එකෙන්",
+          "en": "by card (කාඩ් එකෙන්)"
+        },
+        {
+          "term": "බිල",
+          "en": "bill (බිල)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ත්‍රීවීල් එක",
+          "en": "three-wheeler / tuk-tuk (ත්‍රීවීල් එක)"
+        },
+        {
+          "term": "PickMe",
+          "en": "local ride-hailing app (PickMe)"
+        },
+        {
+          "term": "බස් එක",
+          "en": "bus (බස් එක)"
+        },
+        {
+          "term": "කෝච්චිය",
+          "en": "train, colloquial (කෝච්චිය)"
+        },
+        {
+          "term": "හෝල්ට් එක",
+          "en": "bus halt (හෝල්ට් එක)"
+        },
+        {
+          "term": "ට්‍රැෆික්",
+          "en": "traffic jam (ට්‍රැෆික්)"
+        },
+        {
+          "term": "ඇවිදගෙන",
+          "en": "on foot (ඇවිදගෙන)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "ගෙදර",
+          "en": "home (ගෙදර)"
+        },
+        {
+          "term": "ඇනෙක්ස් එක",
+          "en": "annex unit rented beside a house (ඇනෙක්ස් එක)"
+        },
+        {
+          "term": "කුලිය",
+          "en": "rent (කුලිය)"
+        },
+        {
+          "term": "ගේට්ටුව",
+          "en": "gate (ගේට්ටුව)"
+        },
+        {
+          "term": "සිකියුරිටි",
+          "en": "guard at gate (සිකියුරිටි)"
+        },
+        {
+          "term": "ලයිට් බිල",
+          "en": "electricity bill (ලයිට් බිල)"
+        },
+        {
+          "term": "වතුර බිල",
+          "en": "water bill (වතුර බිල)"
+        }
+      ],
+      "school": [
+        {
+          "term": "ඉස්කෝලේ",
+          "en": "school, spoken (ඉස්කෝලේ)"
+        },
+        {
+          "term": "ටියුෂන්",
+          "en": "private tuition classes, very common (ටියුෂන්)"
+        },
+        {
+          "term": "O/L",
+          "en": "ordinary level exam, said in English (O/L)"
+        },
+        {
+          "term": "A/L",
+          "en": "advanced level exam (A/L)"
+        },
+        {
+          "term": "ශිෂ්‍යත්ව විභාගය",
+          "en": "grade 5 scholarship exam (ශිෂ්‍යත්ව විභාගය)"
+        },
+        {
+          "term": "පෙර පාසල",
+          "en": "preschool (පෙර පාසල)"
+        },
+        {
+          "term": "ටීචර්",
+          "en": "teacher, spoken (ටීචර්)"
+        }
+      ],
+      "money": [
+        {
+          "term": "රුපියල්",
+          "en": "rupees, Sri Lanka (රුපියල්)"
+        },
+        {
+          "term": "රු.",
+          "en": "written rupee abbreviation (රු.)"
+        },
+        {
+          "term": "දාහ",
+          "en": "thousand, spoken (දාහ)"
+        },
+        {
+          "term": "ලක්ෂ",
+          "en": "one hundred thousand; common for prices (ලක්ෂ)"
+        },
+        {
+          "term": "කෝටි",
+          "en": "ten million (කෝටි)"
+        },
+        {
+          "term": "සල්ලි",
+          "en": "money, spoken (සල්ලි)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "අද",
+          "en": "today (අද)"
+        },
+        {
+          "term": "හෙට",
+          "en": "tomorrow (හෙට)"
+        },
+        {
+          "term": "අනිද්දා",
+          "en": "day after tomorrow (අනිද්දා)"
+        },
+        {
+          "term": "ඊයේ",
+          "en": "yesterday (ඊයේ)"
+        },
+        {
+          "term": "පෝය",
+          "en": "monthly full-moon holiday (පෝය)"
+        },
+        {
+          "term": "හවස",
+          "en": "late afternoon / evening (හවස)"
+        },
+        {
+          "term": "උදේ",
+          "en": "morning (උදේ)"
+        }
+      ],
+      "work": [
+        {
+          "term": "ඔෆිස් එක",
+          "en": "the office (ඔෆිස් එක)"
+        },
+        {
+          "term": "වැඩ",
+          "en": "work (වැඩ)"
+        },
+        {
+          "term": "පඩිය",
+          "en": "salary (පඩිය)"
+        },
+        {
+          "term": "නිවාඩු",
+          "en": "leave (නිවාඩු)"
+        },
+        {
+          "term": "බොස්",
+          "en": "boss (බොස්)"
+        },
+        {
+          "term": "OT",
+          "en": "overtime, said as O-T (OT)"
+        },
+        {
+          "term": "මීටිං එක",
+          "en": "meeting (මීටිං එක)"
+        }
+      ]
+    },
+    "ta": {
+      "bank": [
+        {
+          "term": "வங்கி",
+          "en": "bank (வங்கி)"
+        },
+        {
+          "term": "கணக்கு",
+          "en": "bank account (கணக்கு)"
+        },
+        {
+          "term": "கணக்கு இலக்கம்",
+          "en": "account number, Sri Lankan Tamil wording (கணக்கு இலக்கம்)"
+        },
+        {
+          "term": "காசு போடுறது",
+          "en": "deposit money, spoken (காசு போடுறது)"
+        },
+        {
+          "term": "ATM கார்ட்",
+          "en": "ATM card (ATM கார்ட்)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "பார்சல்",
+          "en": "parcel (பார்சல்)"
+        },
+        {
+          "term": "தபால் நிலையம்",
+          "en": "post office (தபால் நிலையம்)"
+        },
+        {
+          "term": "கூரியர்",
+          "en": "courier (கூரியர்)"
+        },
+        {
+          "term": "Daraz",
+          "en": "online marketplace, Tamil speech (Daraz)"
+        },
+        {
+          "term": "வீட்டு வாசலில்",
+          "en": "at the front of the house (வீட்டு வாசலில்)"
+        }
+      ],
+      "government": [
+        {
+          "term": "அடையாள அட்டை",
+          "en": "NIC (அடையாள அட்டை)"
+        },
+        {
+          "term": "கிராம சேவகர்",
+          "en": "Grama Niladhari officer, Tamil name (கிராம சேவகர்)"
+        },
+        {
+          "term": "பிரதேச செயலகம்",
+          "en": "Divisional Secretariat (பிரதேச செயலகம்)"
+        },
+        {
+          "term": "பொலிஸ் நிலையம்",
+          "en": "police station, Sri Lankan spelling (பொலிஸ் நிலையம்)"
+        },
+        {
+          "term": "கடவுச்சீட்டு",
+          "en": "passport (கடவுச்சீட்டு)"
+        }
+      ],
+      "health": [
+        {
+          "term": "வைத்தியசாலை",
+          "en": "hospital, Sri Lankan Tamil (வைத்தியசாலை)"
+        },
+        {
+          "term": "வைத்தியர்",
+          "en": "doctor, Sri Lankan Tamil (வைத்தியர்)"
+        },
+        {
+          "term": "மருந்தகம்",
+          "en": "pharmacy (மருந்தகம்)"
+        },
+        {
+          "term": "சனல் பண்ணுறது",
+          "en": "book channelling with a doctor (சனல் பண்ணுறது)"
+        },
+        {
+          "term": "மருந்து",
+          "en": "medicine (மருந்து)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "ரீலோட்",
+          "en": "prepaid reload (ரீலோட்)"
+        },
+        {
+          "term": "சிம்",
+          "en": "SIM card (சிம்)"
+        },
+        {
+          "term": "டேட்டா",
+          "en": "mobile data (டேட்டா)"
+        },
+        {
+          "term": "Dialog",
+          "en": "operator, Tamil speech (Dialog)"
+        },
+        {
+          "term": "சிக்னல்",
+          "en": "signal (சிக்னல்)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "காசு",
+          "en": "cash / money (காசு)"
+        },
+        {
+          "term": "கார்ட்டால",
+          "en": "by card, spoken (கார்ட்டால)"
+        },
+        {
+          "term": "LankaQR",
+          "en": "national QR, Tamil speech (LankaQR)"
+        },
+        {
+          "term": "eZ Cash",
+          "en": "Dialog wallet, Tamil speech (eZ Cash)"
+        },
+        {
+          "term": "பில்",
+          "en": "bill (பில்)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "பஸ்",
+          "en": "bus (பஸ்)"
+        },
+        {
+          "term": "முச்சக்கர வண்டி",
+          "en": "three-wheeler, formal (முச்சக்கர வண்டி)"
+        },
+        {
+          "term": "ஓட்டோ",
+          "en": "three-wheeler, spoken (ஓட்டோ)"
+        },
+        {
+          "term": "புகையிரதம்",
+          "en": "train, Sri Lankan Tamil (புகையிரதம்)"
+        },
+        {
+          "term": "PickMe",
+          "en": "ride app, Tamil speech (PickMe)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "வீடு",
+          "en": "house (வீடு)"
+        },
+        {
+          "term": "வாடகை",
+          "en": "rent (வாடகை)"
+        },
+        {
+          "term": "அனெக்ஸ்",
+          "en": "annex unit, Tamil speech (அனெக்ஸ்)"
+        },
+        {
+          "term": "கேட்",
+          "en": "gate (கேட்)"
+        },
+        {
+          "term": "கரண்ட் பில்",
+          "en": "electricity bill, spoken (கரண்ட் பில்)"
+        }
+      ],
+      "school": [
+        {
+          "term": "பாடசாலை",
+          "en": "school, Sri Lankan Tamil (பாடசாலை)"
+        },
+        {
+          "term": "ரியூசன்",
+          "en": "private tuition, Sri Lankan spelling (ரியூசன்)"
+        },
+        {
+          "term": "சாதாரண தரம்",
+          "en": "O/L exam (சாதாரண தரம்)"
+        },
+        {
+          "term": "உயர் தரம்",
+          "en": "A/L exam (உயர் தரம்)"
+        },
+        {
+          "term": "ஆசிரியர்",
+          "en": "teacher (ஆசிரியர்)"
+        }
+      ],
+      "money": [
+        {
+          "term": "ரூபா",
+          "en": "rupees, Sri Lankan Tamil form (ரூபா)"
+        },
+        {
+          "term": "ஆயிரம்",
+          "en": "thousand (ஆயிரம்)"
+        },
+        {
+          "term": "லட்சம்",
+          "en": "one hundred thousand (லட்சம்)"
+        },
+        {
+          "term": "கோடி",
+          "en": "ten million (கோடி)"
+        },
+        {
+          "term": "சதம்",
+          "en": "cent (சதம்)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "இண்டைக்கு",
+          "en": "today, Sri Lankan Tamil (இண்டைக்கு)"
+        },
+        {
+          "term": "நாளைக்கு",
+          "en": "tomorrow (நாளைக்கு)"
+        },
+        {
+          "term": "நாளையிண்டைக்கு",
+          "en": "day after tomorrow, Jaffna usage (நாளையிண்டைக்கு)"
+        },
+        {
+          "term": "நேற்று",
+          "en": "yesterday (நேற்று)"
+        },
+        {
+          "term": "போயா",
+          "en": "full-moon holiday (போயா)"
+        }
+      ],
+      "work": [
+        {
+          "term": "வேலை",
+          "en": "work (வேலை)"
+        },
+        {
+          "term": "சம்பளம்",
+          "en": "salary (சம்பளம்)"
+        },
+        {
+          "term": "லீவு",
+          "en": "leave (லீவு)"
+        },
+        {
+          "term": "ஒபிஸ்",
+          "en": "office, Sri Lankan spelling (ஒபிஸ்)"
+        },
+        {
+          "term": "மனேஜர்",
+          "en": "manager, Sri Lankan spelling (மனேஜர்)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "பள்ளி",
+      "use_instead": "பாடசாலை",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "மருத்துவமனை",
+      "use_instead": "வைத்தியசாலை",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Paytm",
+      "use_instead": "LankaQR / FriMi",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "LankaQR",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Aadhaar",
+      "use_instead": "NIC / ID එක",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Jio",
+      "use_instead": "Dialog / SLT-Mobitel / Hutch",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "Swiggy",
+      "use_instead": "PickMe Food",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "12th standard",
+      "use_instead": "A/L",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "PIN code",
+      "use_instead": "postal code",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "auto rickshaw",
+      "use_instead": "three-wheeler / ත්‍රීවීල් එක",
+      "where_it_is_from": "IN"
+    }
+  ],
+  "sources": [
+    "https://www.slt.lk/en/personal/telephone/vas/e-channelling",
+    "https://pickme.lk/services/ride/",
+    "https://www.lofc.lk/newsroom/ipay-appointed-as-the-official-lanka-qr-acquiring-partner-of-pickme-at-the-lankaqr-nationwide-rollout-campaign/",
+    "https://apps.findit.lk/government-services/grama-niladhari-character-certificate",
+    "https://www.cbsl.gov.lk/",
+    "https://www.drp.gov.lk/",
+    "https://www.slpost.gov.lk/",
+    "https://www.dialog.lk/",
+    "https://www.daraz.lk/",
+    "https://www.echannelling.com/",
+    "https://www.doenets.lk/"
+  ],
+  "uncertain": [
+    "僧伽羅語與斯里蘭卡泰米爾語都沒有詞頻表，口語拼法（例如 ත්‍රීවීල් එක、இண்டைக்கு）未經語料庫或母語者核對。",
+    "斯里蘭卡泰米爾語北部（賈夫納）與東部、中央山區用詞不同，本檔以賈夫納／科倫坡常見說法為主。",
+    "Uber Eats 在斯里蘭卡是否仍營運查不到最新確認，因此外送只列 PickMe Food。",
+    "英語在斯里蘭卡電話中也常見，本檔未另列英語組。"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "region": "ee",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Слушаю вас."
+  },
+  "habits": {
+    "en": "In Tallinn and Narva, home talk is often Russian; offices use Estonian. Keep ID-kaart, Tervisekassa; вы for strangers.",
+    "zh": "塔林、納爾瓦居家常講俄語，公務用愛沙尼亞語。ID-kaart 照原名；對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Narva or Lasnamäe friend: ты and short teasing warmth; no need to translate everyday Estonian nouns they already use.",
+        "zh": "跟納爾瓦或拉斯納馬埃熟友用 ты，短句帶點熱絡；他們已在用的愛沙尼亞詞不必翻譯。"
+      },
+      "2": {
+        "en": "Easy neighbourly tone: ты if they do; after they finish, a plain acknowledgement, maybe with an Estonian place name left intact.",
+        "zh": "街坊口氣：對方用 ты 就跟著；聽完用平常話接住，地名可留愛沙尼亞原名。"
+      },
+      "3": {
+        "en": "Daily Estonian Russian. Complete the thought in a sentence; for paperwork, keep ID-kaart or eesti.ee untranslated.",
+        "zh": "愛沙尼亞日常俄語。用完整句子把話說完；證件與入口網站用 ID-kaart、eesti.ee 原名。"
+      },
+      "4": {
+        "en": "Office-polite вы. State agencies expect Estonian, so keep Tervisekassa and Maksuamt in the original and speak carefully.",
+        "zh": "面對機關用禮貌 вы。公務仍以愛沙尼亞語為準，Tervisekassa 等名稱照留，措辭小心。"
+      },
+      "5": {
+        "en": "Business вы, calm and exact. Mention Telia, Swedbank or eesti.ee by those names and answer each item fully.",
+        "zh": "商務用 вы，平穩精確。電信銀行與官網用 Telia、Swedbank、eesti.ee 原名，逐項答完。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ты: quick warmth, then you'll carry the note, no fuss.",
+        "zh": "{owner}隨興的代接，用 ты：先熱絡接住，再說會把話帶過去，不要拘謹。"
+      },
+      "2": {
+        "en": "Kind stand-in: copy their ты or вы, keep Estonian brand names, and say {owner} will get the message.",
+        "zh": "客氣代接：跟著 ты 或 вы，愛沙尼亞品牌名照留，並說明會讓{owner}收到。"
+      },
+      "3": {
+        "en": "Practical assistant. Repeat the ID-kaart or bank point in a full sentence, then confirm you will tell {owner}.",
+        "zh": "務實代接。先用整句複述證件或銀行的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Reserved secretary on вы: take the reason for calling, leave official Estonian titles intact, confirm the handover.",
+        "zh": "矜持秘書用 вы：先弄清來意，官方愛沙尼亞名稱不改寫，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: tidy and brief, name Tervisekassa or Swedbank correctly, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，簡潔整齊；Tervisekassa、Swedbank 名稱要正確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты там в Таллине?",
+      "Алло, слушаю вас. Я здесь, говорите.",
+      "Алло, добрый день. Это по ID-kaart? Понял.",
+      "Добрый день. Да, на eesti.ee видел, займусь.",
+      "Добрый день, спасибо за звонок. Вопрос по Telia принял."
+    ],
+    "a": [
+      "Алло! Его сейчас нет, передай мне — скажу.",
+      "Алло, привет. Я вместо него, надиктуй.",
+      "Алло, добрый день. Запишу для {owner} и передам.",
+      "Добрый день, спасибо за звонок. Приму по Tervisekassa и передам.",
+      "Добрый день, спасибо что позвонили. Всё занесу и передам."
+    ]
+  },
+  "diff_from_home": [
+    "證件與公務入口用愛沙尼亞語原名（ID-kaart、eesti.ee、Tervisekassa），不要改成俄羅斯的 паспорт 或 Госуслуги。",
+    "銀行與電信常用 Swedbank、SEB、Telia、Elisa 等當地品牌名，直接夾進俄語。",
+    "地名多保留愛沙尼亞形式（Tallinn、Narva、Lasnamäe），不一定俄語化。",
+    "官方行政以愛沙尼亞語為準，俄語多用於生活與熟人圈，尤其塔林與納爾瓦。"
+  ],
+  "sources": [
+    "https://www.riigiteataja.ee/en/akt/528072023001",
+    "https://news.err.ee/1609272678/nearly-half-of-estonians-use-estonian-and-russian-at-work-quarter-uses-also-english",
+    "https://www.eesti.ee/",
+    "https://www.tervisekassa.ee/",
+    "https://lepo.it.da.ut.ee/~ehalam/pdf/RussLangIdent.pdf"
+  ],
+  "uncertain": [
+    "醫療保險基金已由 Haigekassa 更名為 Tervisekassa，俄語口語仍有人用舊稱，實際混用程度未見系統調查。",
+    "納爾瓦與塔林市區夾用愛沙尼亞語的比例可能不同，缺乏統一的最新量化資料。"
+  ]
+}

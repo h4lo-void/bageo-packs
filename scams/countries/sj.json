@@ -1,0 +1,108 @@
+{
+  "name": "Svalbard & Jan Mayen",
+  "name_local": "Svalbard og Jan Mayen",
+  "iso": "sj",
+  "calling_code": "+47",
+  "languages": [
+    "nb"
+  ],
+  "prevalence_note": "Sysselmesteren is the Norwegian government authority on Svalbard. Økokrim and Politiet have warned nationally that callers spoof police or Økokrim numbers, press people for BankID, and run fake crypto-investment platforms; those warnings apply wherever Norwegian criminal law and BankID are in daily use, including Longyearbyen. No Svalbard-only case count was published. Jan Mayen has no ordinary civilian town.",
+  "cross_border_note": "Svalbard and Jan Mayen use Norway's +47 numbering. A caller ID that resembles an Økokrim or Nord-Norge police extension can be spoofed from abroad, which is the exact method Økokrim described when its staff numbers were misused.",
+  "scams": [
+    {
+      "id": "sj_okokrim_nummer_og_bankid",
+      "typology": "fake_official",
+      "name": "Falsk Økokrim- eller politibetjent som krever BankID",
+      "name_en": "Økokrim and Politiet warning: spoofed police or Økokrim calls demanding BankID, passwords or an urgent transfer",
+      "prevalence": "high",
+      "lang": "nb",
+      "context_keywords": [
+        "Sysselmesteren på Svalbard",
+        "falsk ansatt i Økokrim",
+        "misbrukt telefonnummer",
+        "BankID-kode på telefon"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "oppgi BankID-koden nå",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "flytt pengene til en sikker konto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "ikke snakk med noen andre",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "vi ringer fra Økokrim",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller claims to be from Økokrim, a police district or a bank, often with an apparently official display, and asks the person in Svalbard to share BankID, a password or other sensitive details, or to move money at once. Økokrim has said its own staff numbers have been misused in this way.",
+      "legit_en": "Politiet, Økokrim and the banks do not ask anyone, including residents of Longyearbyen, to read out a BankID code or to move funds to a 'safe account' during an unexpected call. A real check is started by the person hanging up and using the agency's official channel, or by contacting Sysselmesteren.",
+      "bait_tactics": [
+        "Avslutt samtalen og slå opp Sysselmesteren eller banken på offisiell nettside, ikke på nummeret som vises i displayet.",
+        "Si at BankID aldri oppgis på uanmeldt telefon, uansett hvem som ringer.",
+        "Spør hvilket politidistrikt eller hvilken avdeling i Økokrim vedkommende påstår å representere, og tilby å ta saken via offisiell inngang i Longyearbyen."
+      ],
+      "sources": [
+        "https://www.okokrim.no/aktuelle-trusler.562360.no.html",
+        "https://www.politiet.no/rad/beskytt-deg-mot-svindel-og-id-tyveri",
+        "https://www.sysselmesteren.no/"
+      ]
+    },
+    {
+      "id": "sj_krypto_investeringsplattform",
+      "typology": "investment_group_scam",
+      "name": "Fiktiv krypto-investeringsplattform",
+      "name_en": "Økokrim-reported investment fraud on fictitious crypto platforms",
+      "prevalence": "high",
+      "lang": "nb",
+      "context_keywords": [
+        "fiktiv handelsplattform",
+        "kryptovaluta-investering",
+        "høy avkastning uten risiko",
+        "gebyr for å ta ut gevinst"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "betal gebyr for å frigjøre gevinst",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "garantert avkastning i krypto",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "overfør mer for å låse opp kontoen",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "hemmelig investeringstips",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Økokrim has repeatedly received reports of people being drawn into fictitious investment platforms that claim to trade crypto-assets, display invented profits, and then demand extra payments before any withdrawal.",
+      "legit_en": "A lawful investment firm serving a person in Svalbard must be a properly supervised Norwegian or EEA provider. It charges no urgent 'unlock' fee, and it does not insist that the client stay on a private chat instead of using the firm's official login.",
+      "bait_tactics": [
+        "Be om organisasjonsnummer og si at det skal sjekkes i offisielle norske registre, ikke på plattformen som ringer.",
+        "Avvis krav om gebyr for å ta ut penger som angivelig allerede står på konto.",
+        "Tilby å ta med tilbudet til banken i Longyearbyen før det overføres noe som helst."
+      ],
+      "sources": [
+        "https://www.okokrim.no/aktuelle-trusler.562360.no.html",
+        "https://www.okokrim.no/meld-svindel-til-politiet.6682650-549344.html"
+      ]
+    }
+  ]
+}

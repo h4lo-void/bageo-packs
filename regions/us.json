@@ -23,7 +23,10 @@
     "tt",
     "vc",
     "vg",
-    "vi"
+    "vi",
+    "bz",
+    "gy",
+    "um"
   ],
   "name": {
     "en": "United States",
@@ -98,15 +101,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "front porch",
-      "mailroom",
-      "package locker"
-    ],
     "bank": [
       "Zelle",
       "checking account",
+      "debit card",
+      "routing number",
+      "direct deposit",
+      "online banking"
+    ],
+    "delivery": [
+      "front porch",
+      "mailroom",
+      "package locker",
+      "mailbox",
+      "front desk",
+      "USPS"
+    ],
+    "government": [
+      "Social Security",
+      "ITIN or SSN context",
+      "DMV",
+      "IRS",
+      "passport",
+      "green card"
+    ],
+    "health": [
+      "insurance card",
+      "primary care",
+      "pharmacy",
+      "ER",
+      "urgent care",
+      "copay"
+    ],
+    "telecom": [
+      "cell phone",
+      "cell plan",
+      "prepaid",
+      "phone number port",
+      "carrier",
+      "Wi-Fi"
+    ],
+    "payment": [
+      "Zelle",
+      "Venmo",
+      "PayPal",
+      "Cash App",
+      "credit card",
       "debit card"
+    ],
+    "transport": [
+      "subway",
+      "bus",
+      "Uber",
+      "Lyft",
+      "Amtrak",
+      "metro card"
+    ],
+    "housing": [
+      "apartment",
+      "doorman",
+      "front desk",
+      "buzzer",
+      "mailbox",
+      "HOA"
     ]
   },
   "status": "draft"

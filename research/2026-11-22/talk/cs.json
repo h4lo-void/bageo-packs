@@ -1,0 +1,333 @@
+{
+  "lang": "cs",
+  "backchannels": {
+    "direction": "ano, jo and mhm keep a Czech line open; aha marks noticing. A flat no, no can sound as if the story is being hurried.",
+    "examples": [
+      {
+        "text": "Ano.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "mhm, jo.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Aha, rozumím.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Jo.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Přesně tak.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Dobře.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "No, no.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Vážně? and Opravdu? take surprise; To je škoda is everyday sympathy, shorter than To mě mrzí.",
+    "examples": [
+      {
+        "text": "Vážně?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Opravdu?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "To je škoda.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "To mě mrzí.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Výborně!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratuluji.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "To bude těžké.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Špatně vás slyším and Špatné spojení name the line; Pořád to vypadává describes a call that keeps dropping.",
+    "examples": [
+      {
+        "text": "Špatně vás slyším.",
+        "style": "polite"
+      },
+      {
+        "text": "Špatné spojení.",
+        "style": "casual"
+      },
+      {
+        "text": "Pořád to vypadává.",
+        "style": "casual"
+      },
+      {
+        "text": "Můžete mluvit trochu hlasitěji?",
+        "style": "polite"
+      },
+      {
+        "text": "Konec jsem neslyšel.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Můžete to zopakovat, prosím is the careful replay; vyhláskovat covers a name, and a number is said ještě jednou.",
+    "examples": [
+      {
+        "text": "Můžete to zopakovat, prosím?",
+        "style": "polite"
+      },
+      {
+        "text": "Cože? Nerozumím.",
+        "style": "casual"
+      },
+      {
+        "text": "Můžete to jméno vyhláskovat?",
+        "style": "polite"
+      },
+      {
+        "text": "Řeknete číslo ještě jednou? Je to 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Co jste říkal?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kdo volá, prosím and S kým mluvím are the usual probes; Můžete se představit is stiffer. Name {owner}'s phone.",
+    "examples": [
+      {
+        "text": "Kdo volá, prosím?",
+        "style": "polite"
+      },
+      {
+        "text": "S kým mluvím?",
+        "style": "polite"
+      },
+      {
+        "text": "Tady je telefon {owner}. Kdo volá?",
+        "style": "polite"
+      },
+      {
+        "text": "Kdo je to?",
+        "style": "casual"
+      },
+      {
+        "text": "Můžete se představit?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Špatné číslo and Mýlíte se číslem close the matter; Tady nikdo takový nebydlí covers a mismatched name.",
+    "examples": [
+      {
+        "text": "Promiňte, špatné číslo.",
+        "style": "polite"
+      },
+      {
+        "text": "Mýlíte se číslem.",
+        "style": "polite"
+      },
+      {
+        "text": "Tady nikdo takový nebydlí.",
+        "style": "polite"
+      },
+      {
+        "text": "Špatně jste se dovolali.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Vyřídím and Předám vzkaz {owner} pass the news along; they do not, alone, set an hour to ring back.",
+    "examples": [
+      {
+        "text": "Vyřídím.",
+        "style": "polite"
+      },
+      {
+        "text": "Vyřídím to {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Řeknu mu to.",
+        "style": "casual"
+      },
+      {
+        "text": "Předám vzkaz.",
+        "style": "polite"
+      },
+      {
+        "text": "Řeknu jí to.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ne, děkuji, nemám zájem is the everyday close; Nemáme zájem is the household variant, still without a long story.",
+    "examples": [
+      {
+        "text": "Ne, děkuji, nemám zájem.",
+        "style": "polite"
+      },
+      {
+        "text": "Nemáme zájem, děkuji.",
+        "style": "polite"
+      },
+      {
+        "text": "To nepotřebujeme, děkuji.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne, to není nic pro nás.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After a first ne, Czech often adds na toto číslo už nevolejte, still with vy, or asks that the seznam be cleaned.",
+    "examples": [
+      {
+        "text": "Už jsem řekl ne. Prosím, na toto číslo už nevolejte.",
+        "style": "polite"
+      },
+      {
+        "text": "Vyškrtněte toto číslo ze seznamu, prosím.",
+        "style": "polite"
+      },
+      {
+        "text": "Už nevolejte.",
+        "style": "casual"
+      },
+      {
+        "text": "To je konečné ne. Už nás nekontaktujte.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "vy plus pan or paní and the surname with strangers; ty and a first name belong with familiars or after an offer.",
+    "examples": [
+      {
+        "text": "Pane Nováku.",
+        "style": "polite"
+      },
+      {
+        "text": "Paní Svobodová.",
+        "style": "polite"
+      },
+      {
+        "text": "Pane doktore.",
+        "style": "polite"
+      },
+      {
+        "text": "Dobrý den, paní.",
+        "style": "polite"
+      },
+      {
+        "text": "Ahoj, Petra.",
+        "style": "casual"
+      },
+      {
+        "text": "Mohl byste…",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Váš hovor je pro nás důležitý and Jak vám mohu pomoci are centre scripts, odd on a private mobil.",
+    "examples": [
+      {
+        "text": "Váš hovor je pro nás důležitý.",
+        "style": "polite"
+      },
+      {
+        "text": "Jak vám mohu pomoci?",
+        "style": "polite"
+      },
+      {
+        "text": "Děkujeme za hovor, jsme tu pro vás.",
+        "style": "polite"
+      },
+      {
+        "text": "Vaše spokojenost je naší prioritou.",
+        "style": "polite"
+      },
+      {
+        "text": "Mohu ještě s něčím pomoci?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to ty too soon, a late call, or asking for a rodné číslo at the start all feel like overstepping.",
+    "examples": [
+      {
+        "text": "Jsi ženatý? Kolik bereš?",
+        "style": "casual"
+      },
+      {
+        "text": "Kdo jsi? Řekni to hned.",
+        "style": "casual"
+      },
+      {
+        "text": "Nejdřív mi řekněte adresu a rodné číslo.",
+        "style": "polite"
+      },
+      {
+        "text": "Tento hovor už nahrávám.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wiktionary.org/wiki/aha"
+  ],
+  "uncertain": [
+    "vy／Vy 對陌生人仍常用；年輕人對同齡有時直接 ty，代接時若不知關係，較穩妥用 vy。",
+    "Wiktionary 的 nejsem zainteresovaný 偏書面；口語更常 Nemám zájem，本檔以後者為主。",
+    "未找到捷克語私人電話相槌頻率表；aha／mhm／ano 依詞典。"
+  ]
+}

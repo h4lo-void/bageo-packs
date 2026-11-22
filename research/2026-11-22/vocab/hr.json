@@ -1,0 +1,440 @@
+{
+  "region": "hr",
+  "vocab": {
+    "hr": {
+      "bank": [
+        {
+          "term": "m-token",
+          "en": "a bank's mobile token app, used to confirm a payment or login"
+        },
+        {
+          "term": "kartica",
+          "en": "a kartica used in Croatian internet bankarstvo, often confirmed with an m-token"
+        },
+        {
+          "term": "uplata",
+          "en": "a payment or incoming credit"
+        },
+        {
+          "term": "prijenos",
+          "en": "a bank transfer, also transfer"
+        },
+        {
+          "term": "internet bankarstvo",
+          "en": "internet bankarstvo, usually confirmed with an m-token"
+        },
+        {
+          "term": "stanje",
+          "en": "the stanje in a Croatian bank app"
+        },
+        {
+          "term": "tekući račun",
+          "en": "the current account, also žiro račun in older speech"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "paketomat",
+          "en": "a parcel locker, including Hrvatska pošta and private networks"
+        },
+        {
+          "term": "portir",
+          "en": "the portir at the ulaz of a Croatian stan building"
+        },
+        {
+          "term": "susjed",
+          "en": "the susjed, a fallback if a paketomat or Hrvatska pošta drop is missed"
+        },
+        {
+          "term": "Hrvatska pošta",
+          "en": "Hrvatska pošta, the Croatian post, including its paketomat network"
+        },
+        {
+          "term": "Box Now",
+          "en": "a locker brand many webshops use"
+        },
+        {
+          "term": "dostava na vrata",
+          "en": "delivery to the door"
+        },
+        {
+          "term": "poštanski ured",
+          "en": "a poštanski ured of Hrvatska pošta"
+        }
+      ],
+      "government": [
+        {
+          "term": "eGrađani",
+          "en": "the national login for government services, also e-Građani"
+        },
+        {
+          "term": "OIB",
+          "en": "the personal identification number; do not dictate it unless {owner} wants a check"
+        },
+        {
+          "term": "osobna iskaznica",
+          "en": "the ID card, also just osobna"
+        },
+        {
+          "term": "Porezna uprava",
+          "en": "the tax administration, also ePorezna"
+        },
+        {
+          "term": "putovnica",
+          "en": "a Croatian putovnica"
+        },
+        {
+          "term": "vozačka",
+          "en": "a Croatian vozačka"
+        },
+        {
+          "term": "HZZ",
+          "en": "the employment service"
+        }
+      ],
+      "health": [
+        {
+          "term": "liječnik",
+          "en": "the doctor, also obiteljski liječnik for the GP"
+        },
+        {
+          "term": "ljekarna",
+          "en": "a ljekarna, where an eRecept is filled"
+        },
+        {
+          "term": "recept",
+          "en": "a prescription, also eRecept"
+        },
+        {
+          "term": "HZZO",
+          "en": "the health-insurance fund"
+        },
+        {
+          "term": "zdravstvena iskaznica",
+          "en": "the health-insurance card"
+        },
+        {
+          "term": "hitna",
+          "en": "emergency care, also hitna pomoć"
+        },
+        {
+          "term": "ordinacija",
+          "en": "the doctor's practice"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pretplata",
+          "en": "a mobile plan, also postpaid"
+        },
+        {
+          "term": "bon",
+          "en": "prepaid credit, also prepaid"
+        },
+        {
+          "term": "prenosivost broja",
+          "en": "prenosivost broja, taking the number to A1, Hrvatski Telekom or Telemach"
+        },
+        {
+          "term": "SIM kartica",
+          "en": "a Croatian SIM kartica"
+        },
+        {
+          "term": "operater",
+          "en": "the operator, often A1, T-HT/Hrvatski Telekom or Telemach"
+        },
+        {
+          "term": "mobilni podaci",
+          "en": "mobilni podaci on a Croatian pretplata"
+        },
+        {
+          "term": "internet",
+          "en": "home internet, a Croatian fixed line"
+        }
+      ],
+      "payment": [
+        {
+          "term": "kartica",
+          "en": "paying with a kartica at a Croatian till"
+        },
+        {
+          "term": "gotovina",
+          "en": "gotovina in euro, still used next to a kartica or KEKS Pay"
+        },
+        {
+          "term": "prijenos",
+          "en": "a prijenos between Croatian accounts, sometimes sent through KEKS Pay"
+        },
+        {
+          "term": "KEKS Pay",
+          "en": "a popular person-to-person app some callers name"
+        },
+        {
+          "term": "pouzeće",
+          "en": "pouzeće, cash on delivery still used with some Croatian webshops and paketomat pickups"
+        },
+        {
+          "term": "kontaktno",
+          "en": "contactless is usually just prisloni karticu"
+        },
+        {
+          "term": "račun",
+          "en": "a račun, a Croatian bill or invoice"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ZET",
+          "en": "Zagreb's trams and buses; other cities use their own names"
+        },
+        {
+          "term": "HŽ",
+          "en": "national rail, also HŽPP"
+        },
+        {
+          "term": "autobus",
+          "en": "a bus, also autobusni kolodvor"
+        },
+        {
+          "term": "tramvaj",
+          "en": "a tramvaj, in Zagreb a ZET tram"
+        },
+        {
+          "term": "taksi",
+          "en": "a taksi, a Croatian taxi"
+        },
+        {
+          "term": "karta",
+          "en": "a karta for ZET, HŽ or a coastal brod"
+        },
+        {
+          "term": "brod",
+          "en": "a ferry, relevant on the coast and islands"
+        }
+      ],
+      "housing": [
+        {
+          "term": "stan",
+          "en": "a stan in a Croatian apartment building"
+        },
+        {
+          "term": "ulaz",
+          "en": "the ulaz of a Croatian stan building"
+        },
+        {
+          "term": "interfon",
+          "en": "the interfon at the ulaz"
+        },
+        {
+          "term": "poštanski sandučić",
+          "en": "the poštanski sandučić at the ulaz, not a paketomat"
+        },
+        {
+          "term": "kiraća",
+          "en": "the kiraća for a stan"
+        },
+        {
+          "term": "predstavnik suvlasnika",
+          "en": "the predstavnik suvlasnika of a Croatian building"
+        },
+        {
+          "term": "domar",
+          "en": "a caretaker, not in every building"
+        },
+        {
+          "term": "garaža",
+          "en": "a garage or parking space"
+        }
+      ],
+      "school": [
+        {
+          "term": "vrtić",
+          "en": "vrtić, before osnovna škola"
+        },
+        {
+          "term": "osnovna škola",
+          "en": "osnovna škola, before srednja škola or gimnazija"
+        },
+        {
+          "term": "produženi boravak",
+          "en": "produženi boravak at an osnovna škola"
+        },
+        {
+          "term": "srednja škola",
+          "en": "srednja škola, including a gimnazija"
+        },
+        {
+          "term": "gimnazija",
+          "en": "academic secondary"
+        },
+        {
+          "term": "zadaća",
+          "en": "zadaća from an osnovna škola or srednja škola"
+        },
+        {
+          "term": "razrednik",
+          "en": "the razrednik, the form teacher in a Croatian school"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "euro, used since 2023; some older callers still think in kune"
+        },
+        {
+          "term": "cent",
+          "en": "euro cents, some older callers still convert from kune"
+        },
+        {
+          "term": "gotovina",
+          "en": "gotovina in euro, still used next to a kartica or KEKS Pay"
+        },
+        {
+          "term": "ostatak",
+          "en": "the change, also sitniš"
+        },
+        {
+          "term": "iznos",
+          "en": "the iznos in euro, though some older callers still convert from kune"
+        },
+        {
+          "term": "tisuću",
+          "en": "tisuću eura, a thousand euros in Croatian speech"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "ujutro",
+          "en": "ujutro, the morning"
+        },
+        {
+          "term": "poslijepodne",
+          "en": "poslijepodne, after midday"
+        },
+        {
+          "term": "navečer",
+          "en": "navečer, in the evening"
+        },
+        {
+          "term": "radni dan",
+          "en": "a radni dan, a Croatian working weekday"
+        },
+        {
+          "term": "vikend",
+          "en": "vikend, Saturday and Sunday"
+        },
+        {
+          "term": "nakon posla",
+          "en": "nakon posla, once the working day ends"
+        },
+        {
+          "term": "ovaj tjedan",
+          "en": "ovaj tjedan, the current week"
+        },
+        {
+          "term": "sutra ujutro",
+          "en": "sutra ujutro, the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "posao",
+          "en": "posao, the everyday Croatian word for a job"
+        },
+        {
+          "term": "prekovremeni",
+          "en": "prekovremeni, extra hours"
+        },
+        {
+          "term": "godišnji",
+          "en": "annual leave, also godišnji odmor"
+        },
+        {
+          "term": "bolovanje",
+          "en": "bolovanje, time off sick"
+        },
+        {
+          "term": "šef",
+          "en": "the boss, also voditelj"
+        },
+        {
+          "term": "rad od kuće",
+          "en": "rad od kuće, a day working from the stan"
+        },
+        {
+          "term": "službeni put",
+          "en": "a službeni put, a work trip"
+        },
+        {
+          "term": "plaća",
+          "en": "the plaća, usually paid to a Croatian tekući račun"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "kuna 當現行唯一貨幣",
+      "use_instead": "euro（2023 年起；年長來電者仍可能用庫納換算）",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "prijenos, KEKS Pay, kartica",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "paketomat, Box Now",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "eGrađani, m-token",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "KEKS Pay, prijenos",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "ZET 套用到所有城市",
+      "use_instead": "ZET 是薩格勒布；其他城市用自己的名稱",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "dinari",
+      "use_instead": "euro",
+      "where_it_is_from": "RS"
+    },
+    {
+      "word": "BankID",
+      "use_instead": "eGrađani, m-token",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "InPost",
+      "use_instead": "paketomat, Hrvatska pošta, Box Now",
+      "where_it_is_from": "PL"
+    },
+    {
+      "word": "OIB 主動朗讀全號",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "HR"
+    }
+  ],
+  "sources": [
+    "https://www.posta.hr/",
+    "https://gov.hr/",
+    "https://gov.hr/hr/lista-prihvacenih-vjerodajnica/1792",
+    "https://www.hzzo.hr/",
+    "https://porezna-uprava.gov.hr/",
+    "https://www.zet.hr/"
+  ],
+  "uncertain": [
+    "m-token 是各銀行自己的確認 App，不是郵局登入方式。",
+    "KEKS Pay 常用但不是人人第一選擇，有人只說 kartica 或 prijenos。",
+    "ZET 只覆蓋薩格勒布，海岸城市還常提到渡輪。"
+  ]
+}

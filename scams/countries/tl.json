@@ -1,0 +1,108 @@
+{
+  "name": "Timor-Leste",
+  "name_local": "Timor-Leste / Timor Lorosa'e",
+  "iso": "tl",
+  "calling_code": "+670",
+  "languages": [
+    "pt"
+  ],
+  "prevalence_note": "O Banco Central de Timor-Leste tem alertado, desde 2024, para esquemas em Facebook, WhatsApp e sítios da internet que pedem um pagamento inicial a troco de empregos, prémios ou ganhos inventados, e em 2025 voltou a avisar contra empréstimos, transferências e investimentos em linha não licenciados, muitas vezes anunciados por SMS. A Autoridade Nacional de Comunicações publica conselhos gerais de autoprotecção e indica o Banco Central para fraudes bancárias.",
+  "cross_border_note": "O indicativo é +670. O BCTL descreveu operações frequentemente sediadas no estrangeiro; uma mensagem em tétum, português ou indonésio, ou um número que pareça de Díli, não prova que a entidade esteja autorizada em Timor-Leste.",
+  "scams": [
+    {
+      "id": "tl_bctl_adiantamento_emprego_premio",
+      "typology": "loan_advance_fee",
+      "name": "Emprego ou prémio falso nas redes sociais com pagamento antecipado",
+      "name_en": "BCTL 2024 warning, reported by the state news agency: social-media, email or website lures offer fake jobs or prizes and ask the person to send money first; the Bank listed dozens of accounts spreading such scams",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "oportunidade de emprego no Facebook",
+        "prémio para Timor-Leste",
+        "taxa de inscrição antecipada",
+        "conta nas redes indicada pelo Banco Central"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "envie dinheiro primeiro para receber o prémio",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pague a taxa de inscrição do emprego",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "mande os dados do cartão ou do ATM",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "grupo de prémios no Facebook",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The Central Bank, in a warning carried by the state news agency TATOLI in January 2024, said scammers use Facebook, WhatsApp, Instagram, email and websites to dangle bogus jobs or to pose as a real firm promising a large sum, and then ask the person to send money first. The Bank published a list of 31 social-media accounts that had been spreading such scams, and told people not to send money to an unknown destination or to hand over bank, ATM or identity details.",
+      "legit_en": "A genuine employer or licensed firm in Timor-Leste does not require an advance membership fee or a prize 'release' payment into an unknown account, and does not ask for ATM, bank-card or identity details in a Facebook or WhatsApp chat. The Central Bank asked people who had already paid to come forward to the Bank.",
+      "bait_tactics": [
+        "Diga que qualquer pagamento só será considerado depois de confirmar, no sítio do Banco Central, se a entidade tem autorização.",
+        "Recuse enviar dados do cartão, do ATM ou do bilhete de identidade através do Facebook ou do WhatsApp.",
+        "Pergunte porque é que um prémio ou um emprego legítimo exigiria um depósito prévio para uma conta desconhecida."
+      ],
+      "sources": [
+        "https://en.tatoli.tl/2024/01/24/bctl-warns-timorese-social-media-users-to-avoid-scams/17/",
+        "https://www.bancocentral.tl/news/public-advisories/"
+      ]
+    },
+    {
+      "id": "tl_bctl_emprestimo_investimento_ilegal",
+      "typology": "investment_group_scam",
+      "name": "Empréstimo, transferência ou investimento em linha não licenciado",
+      "name_en": "BCTL 2025 warning: unlicensed online lending, money-transfer or investment offers arrive by SMS, WhatsApp or Facebook, demand an upfront fee, and press for personal photos, documents or location data",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "empréstimo online sem licença do BCTL",
+        "investimento anunciado no WhatsApp",
+        "taxa administrativa antes do crédito",
+        "SMS a oferecer juros baixos"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pague a taxa administrativa antes do empréstimo",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "envie fotos e documentos pessoais no WhatsApp",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "crédito fácil sem licença do Banco Central",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "juros baixos só por mensagem",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "TATOLI, quoting the Central Bank's official page in January 2025, said illegal online lending, transfer and investment activity is typically not licensed by the Bank, is sold through SMS, WhatsApp and Facebook, offers easy terms and large sums, and asks for an administrative fee before anything is provided. Promoters may demand contact numbers, photographs, video, location data or personal documents, and may use intimidation if the person does not follow instructions. The Bank told people to delete or block such messages, even when they are written in Tetum, and to deal only with lawfully established institutions.",
+      "legit_en": "Borrowing, sending or investing money in Timor-Leste should go through an institution that holds a BCTL or other relevant authorisation, which the public is told to verify first. A licensed lender does not demand a preliminary administrative charge in a private chat, and does not collect identity documents under threat. The Bank directed people with a problem to the national police and to PCIC.",
+      "bait_tactics": [
+        "Diga que o crédito ou o investimento será confirmado junto de uma instituição já estabelecida em Timor-Leste, e não por SMS.",
+        "Recuse pagar uma taxa administrativa antecipada ou enviar fotografias e documentos por WhatsApp.",
+        "Se a mensagem usar tom de ameaça, interrompa o contacto e trate o caso pelas vias indicadas pelo Banco Central ou pela polícia."
+      ],
+      "sources": [
+        "https://id.tatoli.tl/2025/01/07/bctl-peringatkan-bahaya-scam-di-timor-leste-hingga-investasi-ilegal/",
+        "https://www.bancocentral.tl/en/noticias/go/kuidadu-ho-atividade-imprestimus--transefere-osan-no-investimentu-online-ilegal",
+        "https://www.anc.tl/self-protection-from-scams/index.html"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,14 @@
   "code": "au-nz",
   "countries": [
     "au",
-    "nz"
+    "nz",
+    "cc",
+    "ck",
+    "cx",
+    "hm",
+    "nf",
+    "nu",
+    "tk"
   ],
   "name": {
     "en": "Australia and New Zealand",
@@ -78,15 +85,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "veranda",
-      "mailroom",
-      "side gate"
-    ],
     "bank": [
       "PayID",
       "NetCode",
-      "myGov"
+      "myGov",
+      "BSB",
+      "EFTPOS",
+      "internet banking"
+    ],
+    "delivery": [
+      "veranda",
+      "mailroom",
+      "side gate",
+      "parcel locker",
+      "letterbox",
+      "authority to leave"
+    ],
+    "government": [
+      "myGov",
+      "Medicare",
+      "TFN",
+      "IRD",
+      "RealMe",
+      "driver licence"
+    ],
+    "health": [
+      "Medicare",
+      "GP",
+      "chemist",
+      "ACC",
+      "prescription",
+      "bulk bill"
+    ],
+    "telecom": [
+      "mobile plan",
+      "prepaid",
+      "porting",
+      "NBN",
+      "fibre",
+      "SIM"
+    ],
+    "payment": [
+      "PayID",
+      "EFTPOS",
+      "BPAY",
+      "Afterpay",
+      "POLi",
+      "credit card"
+    ],
+    "transport": [
+      "Opal",
+      "myki",
+      "AT HOP",
+      "Snapper",
+      "Uber",
+      "tram"
+    ],
+    "housing": [
+      "unit",
+      "apartment",
+      "letterbox",
+      "body corporate",
+      "intercom",
+      "building manager"
     ]
   },
   "status": "draft"

@@ -1,0 +1,85 @@
+{
+  "country": "sa",
+  "parent": "gulf",
+  "name": {
+    "en": "Saudi Arabia",
+    "native": "المملكة العربية السعودية",
+    "zh": "沙烏地阿拉伯"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، هل تسمعني؟"
+  },
+  "delivery": {
+    "en": "Leave it at the door, give it to the compound or building guard, or pick it up at an SPL station",
+    "zh": "放門口、交給社區或大樓警衛，或到沙烏地郵政 SPL 取件站"
+  },
+  "readback": {
+    "en": "Mobiles start 05, then 3-3-4; 0 as صفر; riyals; 12-hour time; day first, Hijri may appear",
+    "zh": "手機 05 開頭再唸 3-3-4，0 唸 صفر；里亞爾；12 時制；公曆伊曆先日後月"
+  },
+  "fraud": {
+    "en": "A request to 'renew' Absher, a story that the account is frozen, or a fake official fine is a scam",
+    "zh": "要你「更新」أبشر、編造帳戶凍結，或冒充官方要罰款，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم. أستاذ with strangers. Najdi speech often has شلونك; Hijazi leans to كيف حالك. Use riyals.",
+    "zh": "先回 السلام عليكم。生人用 أستاذ。中部說 شلونك，西部說 كيف حالك。錢算里亞爾。"
+  },
+  "stall_local": {
+    "en": "Absher is blocking the next step until an update finishes, and reception in the majlis is weak.",
+    "zh": "卡在 أبشر 要先完成更新才能繼續，而且客廳收訊很弱。"
+  },
+  "vocab": {
+    "bank": [
+      "أبشر",
+      "ريال",
+      "تحويل",
+      "بطاقة",
+      "OTP"
+    ],
+    "delivery": [
+      "SPL",
+      "محطة الطرود",
+      "الحارس",
+      "الباب",
+      "الاستقبال"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋的數位身分名稱；沙烏地對應平台是 أبشر"
+      }
+    },
+    {
+      "word": "درهم",
+      "reason": {
+        "zh": "迪拉姆是阿聯酋貨幣，沙烏地要說 ريال"
+      }
+    },
+    {
+      "word": "CID",
+      "reason": {
+        "zh": "其他海灣國家對刑警的叫法，不宜直接搬進沙烏地情境"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "With strangers, sit a little more formal than a generic Gulf tone. Use Absher and riyal, and the local how-are-you; do not default to Emirati شحالك or UAE Pass.",
+    "zh": "對陌生人要比泛海灣口氣略正式。用 أبشر、ريال 與當地問候，不要預設阿聯酋的 شحالك 或 UAE Pass。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://splonline.com.sa/en/other-services/other-services/parcels-station/",
+    "https://splonline.com.sa/en/fraud-awareness/",
+    "https://openarabic.org/gulf-arabic-resources/",
+    "https://openarabic.org/common-arabic-phrases/"
+  ],
+  "uncertain": [
+    "內政部 Absher 防詐原文頁此次無法穩定打開，詐騙寫法主要依據 SPL 公告與公開新聞整理。",
+    "奈季迪與希賈茲問候在電話上的比例，沒有口語調查。"
+  ]
+}

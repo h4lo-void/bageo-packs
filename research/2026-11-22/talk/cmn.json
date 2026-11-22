@@ -1,0 +1,335 @@
+{
+  "lang": "cmn",
+  "backchannels": {
+    "direction": "Clancy et al. treat 嗯 as the core Mandarin continuer; 對 and 好 align. Whether 喔／哦 sounds flat depends on tone.",
+    "examples": [
+      {
+        "text": "嗯，嗯。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "喔，這樣。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "對，對。",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "好的，嗯。",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "是，沒錯。",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "喔，知道了。",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "嗯哼。",
+        "style": "casual",
+        "function": "listening"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "For region-neutral Mandarin, 真的嗎 is the safer surprise; echo 真的假的 only if the caller used it first.",
+    "examples": [
+      {
+        "text": "真的嗎？",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "啊？沒想到。",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "哎呀，那真的不容易。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "聽起來挺辛苦的。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "太好了，恭喜。",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "恭喜。",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "這件事恐怕有點為難。",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "聽不清楚 and 訊號不好 are shared forms; say whether the signal dropped or one phrase was missed.",
+    "examples": [
+      {
+        "text": "不好意思，我聽不清楚。",
+        "style": "polite"
+      },
+      {
+        "text": "訊號不太好，聲音斷斷續續。",
+        "style": "casual"
+      },
+      {
+        "text": "最後一句我沒聽清。",
+        "style": "casual"
+      },
+      {
+        "text": "可以說大聲一點嗎？",
+        "style": "polite"
+      },
+      {
+        "text": "電話裡有雜音。",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "請再說一遍 and 再說一次 both occur; 名字怎麼寫 or a number read-back is a separate request from a general replay.",
+    "examples": [
+      {
+        "text": "不好意思，請再說一遍。",
+        "style": "polite"
+      },
+      {
+        "text": "什麼？我沒聽明白。",
+        "style": "casual"
+      },
+      {
+        "text": "名字可以怎麼寫，說一下嗎？",
+        "style": "polite"
+      },
+      {
+        "text": "電話號碼再唸一遍，是 12345678 嗎？",
+        "style": "polite"
+      },
+      {
+        "text": "你剛才說的是什麼？",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "請問是哪位 is the form shared in primers; if the handset is {owner}'s, say so before 你是哪位.",
+    "examples": [
+      {
+        "text": "請問哪一位？",
+        "style": "polite"
+      },
+      {
+        "text": "請問哪位？",
+        "style": "polite"
+      },
+      {
+        "text": "這裡是 {owner} 的電話，請問你是？",
+        "style": "polite"
+      },
+      {
+        "text": "你是哪位？",
+        "style": "casual"
+      },
+      {
+        "text": "請問貴姓？",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "你打錯了 is the shared close; 您打錯了 is more formal. Who lives in the house is not usually discussed.",
+    "examples": [
+      {
+        "text": "抱歉，這個電話打錯了。",
+        "style": "polite"
+      },
+      {
+        "text": "這邊沒有這個人，應該打錯了。",
+        "style": "polite"
+      },
+      {
+        "text": "你打錯號了。",
+        "style": "casual"
+      },
+      {
+        "text": "這個號碼不是你要找的人。",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "我會轉告 and 我會轉達 both circulate; pick one, and do not add an unconfirmed return-call time for {owner}.",
+    "examples": [
+      {
+        "text": "我會轉告他。",
+        "style": "polite"
+      },
+      {
+        "text": "我幫你跟她講一聲。",
+        "style": "casual"
+      },
+      {
+        "text": "我會把話帶給 {owner}。",
+        "style": "polite"
+      },
+      {
+        "text": "這件事我替你帶到。",
+        "style": "casual"
+      },
+      {
+        "text": "我會轉達。",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "不需要，謝謝 is the shared short refusal; 我沒興趣 is blunter, fine with a salesperson, not with an elder relative.",
+    "examples": [
+      {
+        "text": "不需要，謝謝。",
+        "style": "polite"
+      },
+      {
+        "text": "我們沒有這個需要，謝謝。",
+        "style": "polite"
+      },
+      {
+        "text": "謝謝，我沒有興趣。",
+        "style": "casual"
+      },
+      {
+        "text": "這個不用了。",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Restate 不需要 and add 請不要再打來 or 再打過來; 從名單裡刪掉 is for a pitch that keeps returning.",
+    "examples": [
+      {
+        "text": "我說過不需要了，請別再撥這個號碼。",
+        "style": "polite"
+      },
+      {
+        "text": "請把這個號碼從名單裡刪掉。",
+        "style": "polite"
+      },
+      {
+        "text": "不要再打了。",
+        "style": "casual"
+      },
+      {
+        "text": "請把這當作最後一次拒絕，不要再聯繫。",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "你 is general; 您 marks respect. 先生, 女士 and 老師 travel across regions; a bare given name is off with new callers.",
+    "examples": [
+      {
+        "text": "周先生。",
+        "style": "polite"
+      },
+      {
+        "text": "吳女士。",
+        "style": "polite"
+      },
+      {
+        "text": "林老師。",
+        "style": "polite"
+      },
+      {
+        "text": "經理你好。",
+        "style": "polite"
+      },
+      {
+        "text": "阿姨你好。",
+        "style": "casual"
+      },
+      {
+        "text": "你現在方便講嗎？",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Slogans such as 您的來電對我們非常重要 or 很高興為您服務 make a private Mandarin answerer sound like a switchboard.",
+    "examples": [
+      {
+        "text": "您的每一通來電，我們都十分重視。",
+        "style": "polite"
+      },
+      {
+        "text": "歡迎來電，很高興能為您服務。",
+        "style": "polite"
+      },
+      {
+        "text": "請問有什麼可以為您服務？",
+        "style": "polite"
+      },
+      {
+        "text": "感謝您的來電，祝您生活愉快。",
+        "style": "polite"
+      },
+      {
+        "text": "我們會儘速為您處理妥當。",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "A harsh 喂, immediate questions on pay or marriage, and undeclared recording cause offence across Mandarin regions.",
+    "examples": [
+      {
+        "text": "你結婚了嗎？薪水多少？",
+        "style": "casual"
+      },
+      {
+        "text": "喂，你到底是誰？",
+        "style": "casual"
+      },
+      {
+        "text": "先把證件號碼報給我。",
+        "style": "polite"
+      },
+      {
+        "text": "我已經在錄音了，你自己注意。",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://language.chinadaily.com.cn/a/202311/14/WS655334dba31090682a5ee1b3.html",
+    "https://en.wikivoyage.org/wiki/Chinese_phrasebook",
+    "https://doi.org/10.1016/0378-2166(95)00036-4",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/%E5%97%A8",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "Gemini 的 cmn 常對應普通話，未標明地區與用字。本檔例句依專案規定用繁體，口語習慣取其兩岸共用部分；台灣或中國大陸專用說法見 zh-TW、zh-CN。",
+    "「您」的使用頻率兩岸不同；這裡把「您」標為較正式，「你」為通用。",
+    "未找到跨地區私人電話語料可直接比較「轉達／轉告」何者更中性，兩者都保留。"
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "country": "gg",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Guernsey",
+    "native": "Guernsey",
+    "zh": "根西"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Collect at a Guernsey Post myEBOX point such as Envoy House, or leave it with a neighbour.",
+    "zh": "包裹放門廊、交給鄰居，或到根西郵局領取"
+  },
+  "readback": {
+    "en": "Code 01481; 0 as oh, 44 as double four; amounts in pounds; postcodes start GY; half two is 2:30",
+    "zh": "區號 01481。0 唸 oh、double；英鎊；郵區 GY。half two＝2:30"
+  },
+  "fraud": {
+    "en": "A fake Guernsey Post parcel text, or a local tax or social-security request for data, is a scam",
+    "zh": "假根西郵局包裹簡訊，或冒充本地稅務、社保要資料的都是詐騙"
+  },
+  "habits": {
+    "en": "British English. Guernsey Income Tax, not HMRC. Say mobile and postcode; dates go day first.",
+    "zh": "用英式英語。稅務是根西 Income Tax，不是 HMRC。說 mobile、postcode。"
+  },
+  "stall_local": {
+    "en": "The banking app is spinning, and I would only confirm a parcel with official Guernsey Post.",
+    "zh": "銀行 App 一直轉，而且包裹只想透過根西郵政正式管道確認。"
+  },
+  "vocab": {
+    "bank": [
+      "current account",
+      "sort code",
+      "card"
+    ],
+    "delivery": [
+      "safe place",
+      "neighbour",
+      "Guernsey Post"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "HMRC",
+      "reason": {
+        "en": "UK tax authority, not Guernsey's",
+        "zh": "英國稅務機關，不是根西的"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the parent's British courtesy, but name Guernsey Income Tax, not HMRC, and Guernsey Post; postcodes start GY.",
+    "zh": "英式禮貌層級與所屬地區相近，但稅務要說根西 Income Tax，不要用 HMRC；郵局說根西郵政，郵區是 GY。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.guernseypost.com/scam-text",
+    "https://www.gov.gg/tax",
+    "https://www.guernseypost.com/",
+    "https://www.guernseypost.com/contact-us",
+    "https://www.guernseypost.com/ebox"
+  ],
+  "uncertain": [
+    "根西仍可能流通本地紙幣，但口頭多以英鎊計價；是否需要特別區分，未找到通話習慣來源。",
+    "當地 Norman 語不在支援清單，只能當偶發詞，不能當成 AI 要講的語言。",
+    "oh／double、英鎊與 half two 的讀法與英國及其他皇屬地是同一套習慣；此檔已改寫並寫出區號 01481 與郵區 GY。",
+    "門廊或鄰居代收未在根西郵政頁核為一般投遞規定，沿用既有寫法。myEBOX 是需在地址填寫號碼後，到 Envoy House、Town Post Office 或 Guille Alles Library 取件的服務。"
+  ]
+}

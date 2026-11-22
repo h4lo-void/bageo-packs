@@ -1,0 +1,642 @@
+{
+  "region": "lt",
+  "countries": [
+    "lt"
+  ],
+  "region_name_zh": "立陶宛",
+  "region_name": "Lithuania",
+  "languages": [
+    {
+      "code": "lt",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use Lithuanian (lt); many older staff also understand Russian and there are Polish speakers around Vilnius, but do not default to either; English is common with younger staff in Vilnius, Kaunas and Klaipėda.",
+  "english_ok": "often — Good among younger staff and in city-centre restaurants and hotels; weaker at polyclinics, garages and with older staff.",
+  "politeness": "Polite and reserved; formal 'Jūs'; open with 'Laba diena'; close with 'Ačiū, viso gero'. Little small talk.",
+  "name_tip": "Booking 'vardu …' / 'pavarde …'; Lithuanian surnames are gendered and women's forms show marital status (-ienė married, -aitė/-ytė unmarried); spell the exact form.",
+  "phone_tip": "Since 2025 the domestic prefix is 0 (old 8 no longer works): mobile 06XX XXXXX (e.g. 06 12345678), international +370 6XX XXXXX; SMS and e-mail confirmations standard.",
+  "time_tip": "Watch out: 'pusė aštuonių' = 7:30 (half of the eighth), 'be penkiolikos aštuonios' = 7:45; written 24h ('19:30'); read back in 24h.",
+  "number_tip": "Numbers read in groups after the prefix ('nulis šeši…'); people counted with collective numerals ('dviese', 'trise').",
+  "avoid_calling": "Avoid lunch 12:00–13:00 at clinics/offices, restaurant evening peak, calls after 20:00, Sundays for offices, and Joninės (24 June).",
+  "closed_days": "Shops open on Sunday; offices and many clinics closed weekends; holidays include 1 January, 16 February, 11 March, Easter, 1 May, 24 June, 6 July, 15 August, 1–2 November, 24–26 December.",
+  "booking_channels": "e-sveikata IPR (ipr.esveikata.lt) and app for state-funded doctor appointments; private clinics by phone or their sites; Tablein and Meniu.lt plus venue widgets and phone for restaurant tables; Wolt and Bolt Food for delivery; aruodas.lt for rentals.",
+  "voice_menu": "Polyclinic registries, banks, Telia/Bitė/Tele2, Lietuvos paštas and utilities use IVR; small businesses answer directly.",
+  "callback_habits": "IPR and clinics send SMS/e-mail reminders; restaurants and salons confirm by SMS or call.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "維爾紐斯熱門餐廳電話與 Tablein、Meniu.lt 線上訂位並行，線上訂位多自動確認並要求填可接通的手機；10 人以上團體常改用 Email 洽詢。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Groups over about 10 are handled by e-mail"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table returned after a fixed slot (e.g. 2 hours)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for a banquet deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time of the table (staliukas)",
+        "Number of guests and any children",
+        "Inside or summer terrace",
+        "Name and a reachable mobile — bookings with a wrong number may be cancelled"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公費看診先在登記的基層診所（poliklinika）透過 IPR 系統（ipr.esveikata.lt 或 e.sveikata App）或櫃台電話預約；專科要家庭醫師轉診（siuntimas），自費診所電話可很快約到。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Slot can be booked by the patient in IPR / e.sveikata app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Paid visit offered because the state-funded queue is long"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks asmens kodas (personal code)"
+        }
+      ],
+      "usually_asked": [
+        "Registered at this polyclinic or paying privately",
+        "Referral (siuntimas) from the family doctor for a specialist",
+        "Symptoms or which examination",
+        "Patient name and personal code checked at the desk",
+        "Mobile for SMS reminder"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲沙龍多有線上預約頁，也接電話；熱門師傅（meistrė）常要提前一兩週。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for long colouring or extensions"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service and hair length for pricing",
+        "A specific master or any free one",
+        "Date and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "立陶宛冬季（11/10–4/1）強制冬胎，換胎季修車廠（autoservisas）滿檔；車檢（techninė apžiūra）在檢驗站另約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Roadworthiness test is booked with the inspection centre, not the garage"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model, year and plate",
+        "Tyre change, service or a specific fault",
+        "Whether tyres are stored at the garage",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與壽司店電話訂自取（išsinešimui）仍常見，外送主要是 Wolt、Bolt Food。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through Wolt or Bolt Food"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and how many portions",
+        "Collection time",
+        "Name and phone",
+        "Pay by card or cash at pickup"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕（tortas）與節日料理（如聖誕夜 Kūčios 菜）需提前電話預訂並可能付訂金；花店可電話留花。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment for Kūčios or custom orders"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and amount, e.g. cake weight in kg",
+        "Writing or decoration on the cake",
+        "Pickup date",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "IPR 預約可在系統內自己取消改期；自費診所與美容要求提前 24 小時通知。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Charge for a missed private appointment"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original date and time",
+        "Name on the booking",
+        "New preferred time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話詢問很普遍，國定假日（如 6/24 Joninės、聖誕）營業時間常變動。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Holiday opening hours differ"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question: price, stock or opening hours",
+        "Which day, especially around holidays",
+        "How many people or items"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "城市飯店電話、Email 或訂房網站皆可；鄉間莊園（sodyba）很依賴電話，常整棟出租辦派對並附三溫暖、熱水桶（kubilas）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hot tub (kubilas) heating is charged extra"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Quiet hours rule for parties"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details or advance transfer"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Number of guests",
+        "Room or whole homestead (sodyba)",
+        "Sauna or hot tub (kubilas) wanted",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "熱氣球、SPA、導覽、密室多電話或線上訂；夏季週末熱氣球受天氣影響可能改期。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Weather-dependent rescheduling (balloon flights)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "Number of participants",
+        "Which activity or package",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多電話或網站下單，會問公寓樓層、電梯、停車；許多個人師傅只用電話。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee (iškvietimo mokestis)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the door code"
+        }
+      ],
+      "usually_asked": [
+        "Address, floor and lift",
+        "Door code or intercom",
+        "Job description",
+        "Preferred time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinarijos klinika）電話預約，狂犬疫苗與出國要寵物護照；寵物美容依犬種收費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pet passport needed for vaccination record"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal, breed and weight",
+        "Vaccination, grooming or symptoms",
+        "Preferred time",
+        "Owner's name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Omniva、DPD、LP Express、Venipak 以包裹櫃（paštomatas）與簡訊碼取件，查件改用官網或 App 追蹤。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the SMS pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "Which parcel terminal (paštomatas)",
+        "Phone that gets the SMS code"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Telia、Bitė、Tele2）與銀行要本人用 Smart-ID／Mobile-ID 驗證，代打只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the account holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Smart-ID PIN or asmens kodas"
+        }
+      ],
+      "usually_asked": [
+        "Contract holder",
+        "What the problem is",
+        "Customer or contract number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車多用 Bolt、eTaxi 等 App；傳統計程車行仍接電話，機場接送可預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for long distance"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or Vilnius/Kaunas airport",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 aruodas.lt 刊登，打電話給房東或仲介約看；常收一個月押金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and agent fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal code or proof of income"
+        }
+      ],
+      "usually_asked": [
+        "Which aruodas.lt listing",
+        "Viewing time",
+        "Who will live there, pets",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "國家服務多在 epaslaugos.lt 線上辦並以電子身分登入；移民局（Migracijos departamentas）需線上預約，電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to the e-services portal"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks asmens kodas"
+        }
+      ],
+      "usually_asked": [
+        "Which service",
+        "Who it is for",
+        "Case or application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "lt": {
+      "appointment_words": [
+        "užsiregistruoti pas gydytoją",
+        "registracija",
+        "vizitas pas kirpėją",
+        "konsultacija",
+        "užsiregistruoti į servisą"
+      ],
+      "booking_words": [
+        "rezervuoti staliuką",
+        "rezervacija",
+        "užsakyti kambarį",
+        "staliukas keturiems"
+      ],
+      "change_words": [
+        "perkelti vizitą",
+        "atšaukti rezervaciją",
+        "pusvalandžiu vėliau",
+        "perkelti į penktadienį"
+      ],
+      "date": [
+        "rytoj",
+        "poryt",
+        "šį penktadienį",
+        "kitą antradienį",
+        "11-25",
+        "lapkričio 25 d."
+      ],
+      "false_friends": [
+        "3 aukštas",
+        "butas 45",
+        "rinkinys nr. 4",
+        "masažas 60 min",
+        "autobusas nr. 8"
+      ],
+      "inquiry_words": [
+        "kiek kainuoja",
+        "ar turite",
+        "iki kelintos dirbate",
+        "ar galima su šunimi",
+        "ar galima mokėti kortele"
+      ],
+      "name": [
+        "Petraičio vardu",
+        "vardu Rūta",
+        "Jonaitienė",
+        "šeima Kazlauskų"
+      ],
+      "order_words": [
+        "išsinešti",
+        "atsiimti",
+        "iš anksto užsakyti",
+        "pristatymas į namus"
+      ],
+      "party": [
+        "staliukas 4 asmenims",
+        "mes trise",
+        "dviese",
+        "2 suaugę ir 1 vaikas",
+        "5 asm."
+      ],
+      "phone": [
+        "06 12345678",
+        "+370 6 12345678",
+        "12345678"
+      ],
+      "time": [
+        "19:30 val.",
+        "pusė aštuonių",
+        "be penkiolikos aštuonios",
+        "septintą vakaro",
+        "12 val."
+      ]
+    }
+  }
+}

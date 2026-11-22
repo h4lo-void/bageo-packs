@@ -1,0 +1,591 @@
+{
+  "region": "nl",
+  "countries": [
+    "nl"
+  ],
+  "region_name_zh": "荷蘭",
+  "region_name": "Netherlands",
+  "languages": [
+    {
+      "code": "nl",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use Dutch (nl); English is very widely understood and many businesses switch readily, but start in Dutch for clinics, municipal offices and trades.",
+  "english_ok": "yes — Most staff in cities speak good English; still less common at small-town GP practices, trades and with older staff.",
+  "politeness": "Direct, efficient and informal-polite: 'u' with strangers on the phone, quickly moving to 'je' in casual venues; open with 'Goedemiddag, u spreekt met …' style; get to the point; close with 'Dank u wel, fijne dag'.",
+  "name_tip": "Bookings 'op naam van …' (surname); surnames with prefixes (van, de, van der) are filed under the main part in some systems, so spell the full form clearly; Dutch phonetic spelling alphabet uses city/first names.",
+  "phone_tip": "Mobile 06 then 8 digits (e.g. 06 12345678), landline 0XX XXX XXXX (Amsterdam 020); international +31; WhatsApp and SMS confirmations common.",
+  "time_tip": "CRITICAL: 'half acht' = 7:30 (half to eight)! Also 'vijf voor half acht' = 7:25 and 'tien over half acht' = 7:40; written 24h ('19.30 uur'); always read back in 24h.",
+  "number_tip": "Mobile numbers read as 06 then pairs or 4-4; Dutch says units before tens ('vierentwintig' = 24) like German.",
+  "avoid_calling": "Call GPs in the morning slot (often 8:00–10:00) for same-day appointments; avoid restaurant peak 18:00–20:00 and calls after 21:00; Sunday for non-hospitality.",
+  "closed_days": "Many shops open Sunday afternoon in cities (koopzondag); many restaurants closed Monday (and sometimes Tuesday); GP practices closed weekends (huisartsenpost for urgent care); holidays include King's Day (27 April), Easter Monday, Ascension, Whit Monday, Christmas.",
+  "booking_channels": "Phone for GPs (assistant triage) plus practice apps/portals; TheFork and Formitable-powered venue widgets for restaurants; Treatwell and Salonized-type widgets for salons; Thuisbezorgd and Uber Eats for delivery; phone still normal for trades and small businesses.",
+  "voice_menu": "GP practices commonly start with a phone menu (option 1 for urgent), as do banks, telecoms (KPN, Odido, VodafoneZiggo), PostNL and municipalities; restaurants answer directly.",
+  "callback_habits": "Online bookings send e-mail/SMS confirmations; GP assistants call back after triage; trades often reply by WhatsApp.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "荷蘭餐廳電話、官網或 TheFork 訂位普遍；很多餐廳週一公休，晚餐 18:00 左右開始。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Table for a set time slot (e.g. 2 hours)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit or no-show fee for groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for guarantee"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Inside or terrace",
+        "Name and phone"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "家庭醫師（huisarts）需先登記，助理電話分流並多半限早上時段；專科須轉診，牙醫電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Phone menu option 1 for urgent"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Telephone consult instead of visit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks BSN (citizen service number)"
+        }
+      ],
+      "usually_asked": [
+        "Registered patient at practice",
+        "Reason and urgency",
+        "Patient name and date of birth",
+        "Phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲多線上預約，電話也接受。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Stylist",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車（APK 年檢、保養）電話或線上預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car model and licence plate",
+        "Job (APK, service)",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂自取（afhalen）很普遍，外送多 Thuisbezorgd。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "麵包店、肉鋪、花店可電話預訂。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期電話或連結，診所與美容要求提前 24 小時取消。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation fee"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "直接電話問，常被引導到官網。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly to ask",
+        "Date if relevant",
+        "Number of people if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店電話或 Email 訂房，城市稅另計。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tourist tax charged separately"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "密室、博物館多線上購票，團體活動可電話。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔電話或網站下單，問地址、樓層、停車。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee (voorrijkosten)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Address and postcode",
+        "Floor and lift",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與美容電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed",
+        "Service or symptoms",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "PostNL、DHL 查件以網站、App 與聊天機器人為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to track & trace"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Track & trace code",
+        "Postcode and house number",
+        "Name",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行、電信需本人以 DigiD 或客戶驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Holder must verify"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks BSN, IBAN or passcode"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Customer number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車可電話或 App 預約，機場接送常預訂。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 Funda、Pararius 刊登，熱門物件需先線上申請。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Income requirement (e.g. 3–4x rent)"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks payslips or BSN"
+        }
+      ],
+      "usually_asked": [
+        "Listing",
+        "Viewing time",
+        "Tenants and income",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "市政府（gemeente）服務多需線上預約並以 DigiD 登入，電話 14 + 區碼。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online appointment"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks BSN"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Who it is for",
+        "Case number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "nl": {
+      "appointment_words": [
+        "afspraak maken",
+        "afspraak bij de huisarts",
+        "kappersafspraak",
+        "APK laten doen",
+        "consult"
+      ],
+      "booking_words": [
+        "tafel reserveren",
+        "reservering",
+        "kamer boeken",
+        "tafel voor 4"
+      ],
+      "change_words": [
+        "afspraak verzetten",
+        "reservering annuleren",
+        "half uur later",
+        "naar vrijdag verplaatsen"
+      ],
+      "date": [
+        "morgen",
+        "overmorgen",
+        "deze vrijdag",
+        "volgende week dinsdag",
+        "25-11",
+        "25 november"
+      ],
+      "false_friends": [
+        "3e verdieping",
+        "huisnummer 12",
+        "menu 4",
+        "massage 60 min",
+        "lijn 8",
+        "2 halen 1 betalen"
+      ],
+      "inquiry_words": [
+        "wat kost",
+        "heeft u nog",
+        "tot hoe laat open",
+        "mag de hond mee",
+        "kan ik pinnen"
+      ],
+      "name": [
+        "op naam van De Vries",
+        "Jansen",
+        "familie Bakker",
+        "mevrouw Visser"
+      ],
+      "order_words": [
+        "afhalen",
+        "bestellen",
+        "laten bezorgen",
+        "reserveren in de winkel"
+      ],
+      "party": [
+        "tafel voor 4",
+        "we zijn met z'n drieën",
+        "2 personen",
+        "2 volwassenen en 1 kind",
+        "5 pers."
+      ],
+      "phone": [
+        "06 12345678",
+        "+31 6 12345678",
+        "020 12345678"
+      ],
+      "time": [
+        "19.30 uur",
+        "half acht",
+        "kwart over zeven",
+        "kwart voor acht",
+        "om 12 uur",
+        "'s ochtends om 9"
+      ]
+    }
+  }
+}

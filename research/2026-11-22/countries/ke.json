@@ -1,0 +1,83 @@
+{
+  "country": "ke",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Kenya",
+    "native": "Kenya",
+    "zh": "肯亞"
+  },
+  "lang": "sw",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate askari, the door, or a pickup point",
+    "zh": "包裹交給門衛 askari，或放門口、到取件點"
+  },
+  "readback": {
+    "en": "07 mobiles go in short groups, 0 as zero; amounts in shillings; confirm Swahili-hour time",
+    "zh": "07 手機分短組唸，0 唸 zero；金額用先令。若用斯瓦希里語鐘點要確認。"
+  },
+  "fraud": {
+    "en": "An M-Pesa PIN prompt, a request to reverse a wrong transfer, or a fake courier fee, are scams",
+    "zh": "要 M-Pesa PIN、叫你退還轉錯的錢，或假快遞補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Mix Swahili and English; follow the caller. Use askari, boda, M-Pesa. Not Telebirr or MVola.",
+    "zh": "斯瓦希里語常夾英語，跟對方語言回。用 askari、boda、M-Pesa，不用 Telebirr。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a USSD menu timing out, the M-Pesa app spinning, or a power cut.",
+    "zh": "卡在 USSD 選單逾時、M-Pesa 一直轉、或停電。"
+  },
+  "vocab": {
+    "bank": [
+      "M-Pesa",
+      "PIN",
+      "till number"
+    ],
+    "delivery": [
+      "askari",
+      "gate",
+      "pickup point"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Telebirr",
+      "reason": {
+        "en": "Ethiopian mobile money",
+        "zh": "衣索比亞行動錢包"
+      }
+    },
+    {
+      "word": "MVola",
+      "reason": {
+        "en": "Madagascar mobile money",
+        "zh": "馬達加斯加行動錢包"
+      }
+    },
+    {
+      "word": "gardien",
+      "reason": {
+        "en": "French door-staff term from the mixed parent, not the usual Kenyan word",
+        "zh": "所屬地區混用的法語門房詞，不是肯亞常用說法"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Prefer a Swahili–English mix, not French or Amharic. Keep informal warmth with peers and titles in business; drop East-Africa-generic terms from elsewhere.",
+    "zh": "以斯瓦希里語夾英語為主，不用法語或阿姆哈拉語。熟人輕鬆、公事用稱謂；去掉其他東非國家的詞。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.safaricom.co.ke/media-center-landing/press-releases/customer-advisory-on-sharing-of-sim-and-m-pesa-pins-and-other-personal-information",
+    "https://www.safaricom.co.ke/fraud-awareness/m-pesa-fraud",
+    "https://www.safaricom.co.ke/fraud-awareness/tips-tricks"
+  ],
+  "uncertain": [
+    "lang 寫 sw，因為這是全國通用語；但接聽常直接說 Hello，正式或市區通話也常全程英語，比例未找到官方統計。",
+    "斯瓦希里語鐘點與普通 12 小時制並行，何時使用需當場確認。"
+  ]
+}
