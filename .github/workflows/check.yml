@@ -45,6 +45,10 @@ jobs:
             --version 2026112101 \
             --commit 0123456789abcdef0123456789abcdef01234567 \
             --out "$RUNNER_TEMP/bageo-scams.json.gz"
+          cargo run -p bageo-packs --release -- build-prompts "$GITHUB_WORKSPACE/data" \
+            --version 2026112101 \
+            --commit 0123456789abcdef0123456789abcdef01234567 \
+            --out "$RUNNER_TEMP/bageo-prompts.json.gz"
 
       - name: Check scam and voice data JSON structure
         run: |

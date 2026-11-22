@@ -71,6 +71,11 @@ jobs:
             --version "$PACK_VERSION" \
             --commit "$GITHUB_SHA" \
             --out "$GITHUB_WORKSPACE/out"
+          cargo run -p bageo-packs --release -- build-prompts "$GITHUB_WORKSPACE/data" \
+            --version "$PACK_VERSION" \
+            --commit "$GITHUB_SHA" \
+            --out "$GITHUB_WORKSPACE/out/bageo-prompts.json.gz" \
+            --index "$GITHUB_WORKSPACE/out/bageo-pack-index.json"
           cp "$GITHUB_WORKSPACE/data/scams/country_scams.json" "$GITHUB_WORKSPACE/out/bageo-scams.json"
           cp "$GITHUB_WORKSPACE/data/voices/bageo-voices-index.json" "$GITHUB_WORKSPACE/out/bageo-voices-index.json"
           cp "$GITHUB_WORKSPACE/data/voices"/voices-*.zip "$GITHUB_WORKSPACE/out/"
@@ -84,4 +89,4 @@ jobs:
             "$GITHUB_WORKSPACE/out"/* \
             --repo "$GITHUB_REPOSITORY" \
             --title "$TAG_NAME" \
-            --notes "Data packs for Bageo: regional call data (bageo-pack.json), call-only language index (bageo-locales.json.gz), on-demand language/art extras (bageo-extras-index.json, lang-*.json.gz, art-*.json), regional scam pack (bageo-scams.json) and voice pack index (bageo-voices-index.json). All content is draft until marked local_reviewed."
+            --notes "Data packs for Bageo: regional call data (bageo-pack.json), call-only language index (bageo-locales.json.gz), on-demand language/art extras (bageo-extras-index.json, lang-*.json.gz, art-*.json), regional scam pack (bageo-scams.json), changed prompt texts (bageo-prompts.json.gz) and voice pack index (bageo-voices-index.json). All content is draft until marked local_reviewed."
