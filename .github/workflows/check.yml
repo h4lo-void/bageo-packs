@@ -34,13 +34,17 @@ jobs:
         working-directory: bageo-call
         run: cargo run -p bageo-packs --release -- check "$GITHUB_WORKSPACE/data"
 
-      - name: Check on-demand extras pack and mascot art
+      - name: Check on-demand extras pack, scam bundle and mascot art
         working-directory: bageo-call
-        run: >
-          cargo run -p bageo-packs --release -- build-extras "$GITHUB_WORKSPACE/data"
-          --version 2026112101
-          --commit 0123456789abcdef0123456789abcdef01234567
-          --out "$RUNNER_TEMP/extras"
+        run: |
+          cargo run -p bageo-packs --release -- build-extras "$GITHUB_WORKSPACE/data" \
+            --version 2026112101 \
+            --commit 0123456789abcdef0123456789abcdef01234567 \
+            --out "$RUNNER_TEMP/extras"
+          cargo run -p bageo-packs --release -- build-scams "$GITHUB_WORKSPACE/data" \
+            --version 2026112101 \
+            --commit 0123456789abcdef0123456789abcdef01234567 \
+            --out "$RUNNER_TEMP/bageo-scams.json.gz"
 
       - name: Check scam and voice data JSON structure
         run: |

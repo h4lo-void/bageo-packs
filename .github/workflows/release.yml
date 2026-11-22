@@ -62,6 +62,11 @@ jobs:
             --call-only \
             --out "$GITHUB_WORKSPACE/out/bageo-locales.json.gz" \
             --index "$GITHUB_WORKSPACE/out/bageo-pack-index.json"
+          cargo run -p bageo-packs --release -- build-scams "$GITHUB_WORKSPACE/data" \
+            --version "$PACK_VERSION" \
+            --commit "$GITHUB_SHA" \
+            --out "$GITHUB_WORKSPACE/out/bageo-scams.json.gz" \
+            --index "$GITHUB_WORKSPACE/out/bageo-pack-index.json"
           cargo run -p bageo-packs --release -- build-extras "$GITHUB_WORKSPACE/data" \
             --version "$PACK_VERSION" \
             --commit "$GITHUB_SHA" \

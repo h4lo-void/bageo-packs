@@ -1,0 +1,765 @@
+{
+  "region": "au-nz",
+  "countries": [
+    "au",
+    "nz"
+  ],
+  "region_name_zh": "澳洲、紐西蘭",
+  "region_name": "Australia and New Zealand",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak warm, relaxed Australian/New Zealand-friendly English (en); understand local terms like 'arvo', 'rego', 'ute', and NZ 'kia ora'.",
+  "english_ok": "often — Native English across Australia and New Zealand.",
+  "politeness": "Friendly, upbeat, informal-polite ('Hi there / Good morning, calling for...', 'please', 'thanks heaps / cheers'); avoid stiff hierarchy.",
+  "name_tip": "First name and surname (e.g. Jack Taylor, Aroha Williams); casual venues often use first name + initial, clinics/hotels use full name.",
+  "phone_tip": "AU mobile 0491 570 156 (4-3-3), landline 02 5550 1234; NZ mobile 021 123 4567 or 027 123 4567; '0' spoken 'oh' or 'zero'; SMS confirmation standard.",
+  "time_tip": "12-hour AM/PM spoken ('7 PM', 'half past six'); 'arvo' = afternoon; avoid 'half seven' ambiguity by always saying 'seven thirty PM'.",
+  "number_tip": "'0' as 'oh', repeated digits as 'double four' / 'triple zero'; watch NZ short-i vowel shift ('six' vs 'sex', 'ten' vs 'tin').",
+  "avoid_calling": "Avoid cafe brunch rush 08:30–11:00, dinner rush 18:00–19:30, and evening calls after 20:00 (Aussie/Kiwi businesses close earlier than Asia/Europe).",
+  "closed_days": "Retail closes early (~17:00–17:30) except Thu/Fri late-night shopping; many salons/bistros close Sun–Mon; state Public Holidays and Xmas–Jan shutdowns.",
+  "booking_channels": "OpenTable, SevenRooms, Now Book It, First Table for dining; HotDoc and HealthEngine (AU) or ManageMyHealth (NZ) for GPs; Fresha/Timely for salons.",
+  "voice_menu": "Medical centers, pathology/radiology, councils, Centrelink/IRD, banks, telcos (Telstra/Spark), and insurers use heavy keypad IVR.",
+  "callback_habits": "Automated SMS ('Reply Y to confirm') from HotDoc, Timely, Fresha, and SevenRooms is universal 24h before appointments.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "澳紐週日與國定假日餐廳普遍加收 10%～15% 假日服務費（Surcharge），熱門餐廳常發簡訊要求留卡擔保。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and preferred sitting time (early vs late dinner sitting)",
+        "Number of people including kids/pram/highchair",
+        "Indoor vs outdoor/courtyard/beer-garden seating",
+        "Dietary needs (coeliac/GF, vegan, allergies) or BYO wine question",
+        "Full name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Weekend or Public Holiday surcharge (10–15%) applies",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Sends Now Book It / SevenRooms SMS link for card pre-authorisation",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cafes often walk-in only on weekends",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card details over phone for group booking",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "醫療中心（Medical Centre）常有按鍵語音且必核對生日，並會說明是否全額健保給付（Bulk billing）或自付差額。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Existing or new patient at the practice",
+        "Standard (10–15 min) vs long consultation, dental check/clean, or ACC injury (NZ)",
+        "Patient full name",
+        "Preferred doctor and date/time",
+        "Mobile number for SMS confirmation"
+      ],
+      "may_come_up": [
+        {
+          "what": "Out-of-pocket gap fee applies (mixed/private billing vs bulk billing in AU)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "NZ clinic asks if visit is accident-related for ACC claim",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Clinic reception preceded by keypad IVR menu",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks patient date of birth, AU Medicare number, or NZ NHI number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "許多髮廊與美甲店透過 Timely 或 Fresha 傳簡訊要求新客付訂金或留卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service details (cut, foils/balayage, SNS/BIAB nails, massage)",
+        "Hair length or existing gel removal",
+        "Preferred day, time, and stylist",
+        "Client name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sends Timely/Fresha SMS link for booking deposit",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Saturday or public holiday surcharge applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card details over phone for deposit",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate PayID/bank transfer on call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與驗車（澳洲 RWC/Pink Slip、紐西蘭 WoF）必問車牌號碼（Rego），通常要求一早送車。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle 'rego' (registration plate), make, and model, or device model",
+        "Logbook service, roadworthy/Pink Slip (AU), WoF (NZ), or fault check",
+        "Morning drop-off time (typically 08:00–08:30) and pickup deadline",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Mechanic asks rego plate to check exact variant and parts",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Loan car request incurs daily fee or requires advance booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone passcode for handset repair",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands card prepayment for ordering parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "社區炸魚薯條、泰餐、披薩與烤雞店極常接電話訂自取（Pick-up）到店付款。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pick-up vs local delivery and suburb/branch check",
+        "Order items, sizes, and dietary/spice options",
+        "Ready time (usually 15–25 minutes)",
+        "First name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Card payment surcharge (1–1.5%) on pickup",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Delivery available only via Uber Eats / DoorDash / Menulog",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks credit card details over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires immediate prepayment before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型連鎖（JB Hi-Fi、Bunnings等）有部門轉接選單，獨立商店、肉鋪與書店可電話留貨（Put aside）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, brand, size, or model/SKU",
+        "Quantity and physical shelf stock check",
+        "Same-day pick-up time (remember early ~17:00 shop closing!)",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Shop closes at 17:00/17:30; unpaid hold kept until close only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card payment over phone to hold stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所、牙醫與高檔餐廳常有 24 小時內改退收取取消費的規定。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Full name and mobile number",
+        "Original booking date and time",
+        "New preferred time or cancellation",
+        "Updated pax/service details if changing"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cancellation fee within 24 hours of appointment/table",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Medical clinic asks date of birth to open patient record",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Specific question (BYO corkage, public holiday hours/surcharge, dog-friendly courtyard, stock)",
+        "Day and time of visit",
+        "Group size if asking walk-in availability",
+        "Whether caller wants to make a booking"
+      ],
+      "may_come_up": [
+        {
+          "what": "BYO bottled wine only (no beer/spirits) with per-bottle/per-head corkage",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Kitchen closes at 20:00/20:30 even if venue stays open",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "汽車旅館（Motel/Holiday Park）電話訂房很友善但常問卡號擔保，且接待櫃檯傍晚常提早下班。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children, and room/cabin type",
+        "Estimated arrival time (regional motels close reception ~18:00–20:00)",
+        "Guest full name, mobile, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Late check-in after reception closes requires lockbox arrangement",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Offers sending email payment link to secure room",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone to guarantee room",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "高爾夫球敘、草地滾球（Barefoot bowls）、保齡球與包場可電話問，散客體驗課多走網站預付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity type (tee time, barefoot bowls, lanes, court hire)",
+        "Date, start time, and duration",
+        "Group size and equipment/cart hire",
+        "Contact name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs small bookings to online portal",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Group booking requires deposit invoice by email",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests phone card payment to lock slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整街道地址與 Suburb；技師（Tradie）工作時常漏接電話，留語音或傳簡訊後通常會回電。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Job type (plumber, sparky/electrician, split-system aircon clean, pest, locksmith)",
+        "Street address, suburb, and single vs double-storey house/apartment",
+        "Preferred day and morning/arvo window",
+        "Parking/driveway access and dogs on property",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Call-out fee plus hourly rate (incl./excl. GST) quoted",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Tradie on tools asks owner to text photos of job",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks lockbox PIN or gate code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands PayID/bank transfer before visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫、美容與寄宿皆採預約制，夏天與聖誕長假寄宿需提早數月預訂並查 C5（狗）/ F3（貓）疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult, clip/wash groom, or boarding",
+        "Breed, weight, age, and desexed status",
+        "Current C5 (dog) or F3 (cat) vaccination and tick prevention",
+        "Preferred date and drop-off time",
+        "Owner full name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Peak Christmas/school-holiday boarding requires deposit invoice",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Matted coat clip-off fee applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests immediate phone card payment for holiday boarding",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Australia Post、NZ Post、StarTrack 等全國物流皆為語音機器人或按鍵選單，僅地方獨立店家與車行可直撥查單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Order, invoice, or job card number",
+        "Customer surname and mobile number",
+        "Suburb or item description",
+        "Collection readiness or status"
+      ],
+      "may_come_up": [
+        {
+          "what": "Courier hotline uses automated voice/keypad triage",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth or security PIN",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、電信、能源電力、保險與航空客服皆有按鍵 IVR 且受隱私法限制須本人核對生日與安全碼，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Keypad or voice IVR routing",
+        "Account holder presence check under Privacy Act",
+        "Full name, date of birth, and residential address/PIN",
+        "Account, policy, or booking number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Refuses assistant without listed Authorised Representative on account",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth, phone PIN, Medicare/driver licence, card, or OTP",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "計程車隊（13cabs、Blue Bubble）、機場接駁車（Airport Shuttle）與地方租車行皆可電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Street address, suburb, and pickup time",
+        "Destination or airport terminal",
+        "Passengers, luggage, baby capsule/child seat, or Maxi Taxi need",
+        "Passenger name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Shared airport shuttle gives 15–20 min pickup window",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "13cabs automated IVR may answer before human operator",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests card prepayment over phone for shuttle/hire car",
+          "handle": "decline"
+        },
+        {
+          "what": "Asks driver licence number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "often",
+      "before_dialing_zh": "澳紐租屋多為固定開放看房時段（Open for Inspection），電話主要用來問私人看房或確認場次，多要求上網登記。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Property street address and suburb (Domain/Realestate.com.au/Trade Me)",
+        "Whether published Saturday/midweek Open Home suits or private inspection needed",
+        "Move-in date, lease term, and household/pet profile",
+        "Full name, mobile, and email to register for inspection updates"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agent directs prospective tenant to register via online link (Snug/Ignite/InspectRealEstate)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests holding deposit before inspection",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "政府機關（Centrelink、Service NSW、IRD）與市議會多有按鍵選單；托兒中心（Childcare/Kindy）約參觀與排隊名額很常接電話。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General council/school inquiry or childcare tour request",
+        "Child age group (nursery/toddler/kindy) and exact days of week needed",
+        "Preferred start month and tour time",
+        "Parent name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Childcare has waitlist on popular days (Tue–Thu) vs Fri availability",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Council/agency switchboard uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CRN (Centrelink Reference Number), IRD number, or child DOB",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "party": [
+        "table for 4",
+        "2 adults 2 kids",
+        "4 of us",
+        "party of 6",
+        "3 adults + 1 pram",
+        "just 2",
+        "solo",
+        "8 ppl"
+      ],
+      "time": [
+        "7pm",
+        "6:30pm",
+        "19:00",
+        "this arvo around 3pm",
+        "12:30 lunch",
+        "quarter past 6",
+        "10am sharp",
+        "8.15pm"
+      ],
+      "date": [
+        "tmr",
+        "this Fri",
+        "next Tues",
+        "25 Nov",
+        "25/11",
+        "Cup Day Tuesday",
+        "Sat arvo"
+      ],
+      "name": [
+        "Jack Taylor",
+        "under Chloe Nguyen",
+        "Liam Wilson",
+        "Aroha Smith",
+        "Sam Jones"
+      ],
+      "phone": [
+        "0491 570 156",
+        "021 123 4567",
+        "0412 345 678",
+        "flick a text to 027 555 0199"
+      ],
+      "booking_words": [
+        "book a table",
+        "snag a table",
+        "reserve",
+        "tee time",
+        "barefoot bowls booking",
+        "book a cabin"
+      ],
+      "appointment_words": [
+        "GP appointment",
+        "logbook service",
+        "WoF check",
+        "cut and foils",
+        "dental check and clean"
+      ],
+      "order_words": [
+        "order for pickup",
+        "takeaway",
+        "put one aside",
+        "hold in store",
+        "pre-order"
+      ],
+      "change_words": [
+        "push back half an hour",
+        "reschedule",
+        "cancel booking",
+        "move to 7:30",
+        "change day"
+      ],
+      "inquiry_words": [
+        "ask if BYO wine",
+        "check public holiday surcharge",
+        "dog friendly courtyard?",
+        "check stock",
+        "what time kitchen closes"
+      ],
+      "false_friends": [
+        "Unit 3",
+        "2 hour session",
+        "Pack for 4",
+        "4 Pines pub",
+        "Stage 2",
+        "6 pack"
+      ]
+    }
+  }
+}

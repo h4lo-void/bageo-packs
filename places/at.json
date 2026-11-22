@@ -1,0 +1,713 @@
+{
+  "region": "at",
+  "countries": [
+    "at"
+  ],
+  "region_name_zh": "奧地利",
+  "region_name": "Austria",
+  "languages": [
+    {
+      "code": "de",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite Austrian-aware Standard German (de); understand 'Jänner', 'heuer', 'Ordination', 'Schanigarten'; English works in central Vienna/Salzburg/ski resorts.",
+  "english_ok": "sometimes — Good in Vienna tourist areas and Alpine ski resorts, limited at local Ordinationen, workshops, and authorities.",
+  "politeness": "Warm-formal 'Sie'; open with 'Grüß Gott' (or 'Guten Tag' in Vienna) + assistant role; academic titles (Herr/Frau Dr., Mag., DI) respected; close with 'Auf Wiederhören'.",
+  "name_tip": "Surname (plus academic title if owner included it) is standard; spell Slavic/Hungarian/German surnames clearly.",
+  "phone_tip": "Variable-length numbers! Mobile 0664 1234567 or 0676... (10–13 digits), Vienna landline 01 2345678; say 'zwo' for 2; SMS/email confirms.",
+  "time_tip": "CRITICAL: In Vienna/Eastern AT, 'viertel acht' = 7:15, 'halb acht' = 7:30, 'dreiviertel acht' = 7:45! Always confirm 24-hour ('19 Uhr 15')!",
+  "number_tip": "Subscriber numbers have no fixed digit count in Austria—read groups slowly without assuming missing digits; 'Jänner' = January.",
+  "avoid_calling": "Avoid Ordination off-hours (each doctor has specific Ordinationszeiten!), lunch 12:00–13:30 at small trades, dinner rush 18:30–20:00, and calls after 20:00.",
+  "closed_days": "Strict Sunday retail closure (Saturday shops close ~18:00, rural 12:00!); Gasthäuser have 1–2 Ruhetage; Catholic public holidays observed strictly.",
+  "booking_channels": "Phone remains very strong in Austria alongside TheFork/OpenTable/GastroNews for dining, DocFinder/Latido for doctors, and Treatwell/Salonkee for beauty.",
+  "voice_menu": "ÖGK health fund, hospitals, banks, A1/Magenta, ÖBB, Austrian Airlines, and Magistrat Vienna use keypad IVR.",
+  "callback_habits": "Doctors (Wahlarzt) and craftsmen reliably call back missed local mobile numbers; restaurants send SMS/email confirmations.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "奧地利餐廳（Gasthaus/Beisl/Heuriger）極習慣電話訂桌，戶外街邊座稱「Schanigarten」。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and 24h arrival time",
+        "Number of guests plus Kinderstuhl or dog",
+        "Indoor Stube/Nichtraucher vs outdoor Schanigarten/Gastgarten",
+        "Surname and mobile number",
+        "Time limit if peak evening"
+      ],
+      "may_come_up": [
+        {
+          "what": "Schanigarten reserved only in fair weather without indoor backup table",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Traditional Beisl/Heuriger accepts cash only (nur Barzahlung)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Fine-dining restaurant asks credit card for no-show hold",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "奧地利診所稱「Ordination」，電話必問公保或自費退費醫師（Wahlarzt）及10碼社保號（含生日）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Health insurer (ÖGK, BVAEB, SVS) vs Wahlarzt private pay",
+        "New or existing patient and reason for visit",
+        "Patient surname and first name",
+        "Preferred Termin within Ordinationszeiten",
+        "Mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Doctor is a Wahlarzt (patient pays honorarium upfront and claims partial ÖGK refund)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks 10-digit SV-Nummer / e-card number (last 6 digits are birth date!) or Geburtsdatum",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "髮廊與美容院電話預約極普遍，多數週日與週一公休。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Service (Schneiden, Färben/Strähnen, Maniküre, Massage)",
+        "Hair length or nail removal",
+        "Preferred day, hour, and stylist",
+        "Surname and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "24-hour Stornogebühr policy",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands advance transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "奧地利汽車每年定期檢驗稱「§57a Pickerl」，修車廠（Werkstatt）在換冬季胎（11月1日起冬季強制規定）期間極忙。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model and Kennzeichen, or appliance/phone model",
+        "§57a Pickerl Überprüfung, Jahresservice, Reifenwechsel, or fault",
+        "Drop-off morning slot (usually 07:30–08:30)",
+        "Leihwagen (loaner car) need",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pickerl inspection window (-1 to +4 months from registration month) checked",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks handset PIN over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance payment for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "披薩、烤雞、中餐與小館普遍接電話訂自取（Selbstabholung / Gassenverkauf）到店付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Abholung vs Zustellung",
+        "Dishes and sizes",
+        "Pickup time",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash only at pickup counter",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Delivery via Lieferando / Foodora only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests phone payment before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立書店、肉鋪（Fleischhauer）、烘焙坊（Bäckerei）與藥局（Apotheke）很歡迎電話留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, ISBN, size, or weight",
+        "Quantity and stock check",
+        "Pickup time (note early Saturday shop hours outside malls!)",
+        "Surname and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pharmacy orders out-of-stock item for same-afternoon pickup",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests bank transfer deposit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Wahlarzt 私診、牙醫與物理治療多有 24～48 小時前取消規定（否則收 Ausfallhonorar）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and mobile phone",
+        "Original date and 24h time",
+        "New preferred Termin or Absage",
+        "Party size if Gasthaus"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cancellation fee within 24–48h at Wahlarzt/dentist",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Ordination asks SV-Nummer / birth date",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (Küchenzeiten, Bankomat/Kartenzahlung, Hund erlaubt, Ruhetag, stock)",
+        "Visit day/time",
+        "Group size",
+        "Whether to reserve a table"
+      ],
+      "may_come_up": [
+        {
+          "what": "Accepts Bankomatkarte (debit) or cash, no Amex/credit",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "阿爾卑斯山區民宿（Pension / Gasthof / Bauernhof）非常習慣電話與電郵訂房，旺季常限週六至週六整週入住。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Anreise and Abreise dates",
+        "Adults, children (with ages for child rates), and Zimmer type",
+        "Frühstück vs Halbpension (half-board)",
+        "Full name, email, and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Ortstaxe extra per night; ski high-season requires 7-night Saturday changeover or written email confirmation",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate Angeld bank transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "保齡球（Kegelbahn）、網球、滑雪教練（Skischule）與酒莊品酒可電話洽詢，連鎖場館走網站預付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity, private ski instructor, or lane/court",
+        "Date, hour, and duration",
+        "Participants and skill level",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Ski school sends online booking/payment link to lock private instructor",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests immediate phone card payment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "維也納公寓地址必含梯棟與門號（如 Stiege 2 / Tür 14）；瓦斯鍋爐每年須做強制保養。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (Installateur, Thermenwartung, Rauchfangkehrer, Elektriker, Aufsperrdienst)",
+        "Street, house number, Stiege, Stock, Tür number, and 4-digit PLZ",
+        "Boiler brand (e.g. Vaillant/Junkers) if Thermenwartung",
+        "Preferred window",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Wegzeit / Anfahrtspauschale (travel charge) quoted upfront",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building entry code over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands upfront payment before dispatching",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Tierarzt）、寵物美容（Hundesalon）與寄宿皆需預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Ordination visit, Hundesalon, or Tierpension",
+        "Species, breed, weight, age",
+        "Vaccination pass status",
+        "Preferred date and hour",
+        "Surname and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Night/weekend Notdienst surcharge applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Boarding requires advance bank transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Österreichische Post、DPD、GLS 全國客服多有語音機器人或按鍵選單，獨立門市與車廠才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Sendungsnummer or Auftragsnummer",
+        "Surname and 4-digit PLZ",
+        "Item description",
+        "Pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "Post/courier hotline uses automated voice/keypad triage",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Post-Abholcode or ID",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "銀行、A1/Magenta 電信、Wien Energie 與奧航客服皆有按鍵選單並嚴格要求本人核驗生日與客戶密碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "IVR keypad routing",
+        "Vertragsinhaber check",
+        "Geburtsdatum and Kundenkennwort",
+        "Contract/account number"
+      ],
+      "may_come_up": [
+        {
+          "what": "DSGVO blocks third-party caller without Kundenkennwort and mandate",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Geburtsdatum, Kundenkennwort, SV-Nummer, or TAN",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "維也納計程車隊（如 Taxi 40100 / 31300）、機場定價專車（Flughafentaxi）與地方車行非常習慣電話叫車。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Street, house number, Stiege/doorway, PLZ, and pickup time",
+        "Destination or Vienna Airport (Schwechat — ask fixed Airport-Pauschale!)",
+        "Passengers, suitcases, Kombi/Van, or Kindersitz",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Fixed airport flat rate must be ordered explicitly as Flughafentaxi in advance",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental asks Führerschein or credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "willhaben.at 與房仲（Makler）看房可電話或站內信預約，常先問起租日與收入狀況。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Listing on willhaben.at / ImmobilienScout24 (willhaben-Code)",
+        "Preferred Besichtigungstermin",
+        "Occupants, net household income (3x Bruttomiete), and pets",
+        "Target move-in date",
+        "Full name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Private landlord on willhaben prefers message portal; Makler schedules slot directly",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests Kaution/advance fee before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政廳（Magistrat / BH）個人業務需線上預約且個資受保護；私立幼兒園（Kindergarten / Krabbelstube）可電話問參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General requirement inquiry (Meldezettel, Parkpickerl) or kindergarten tour",
+        "Child age and Vienna Kindergartennr. / Gemeinde registration status",
+        "District/Bezirk",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Private kindergarten requires Vienna MA 10 customer number at enrollment",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Magistrat hotline uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks SV-Nummer or child birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "de": {
+      "party": [
+        "Tisch für 4",
+        "2 Erwachsene und 1 Kind",
+        "wir sind zu dritt",
+        "für 2 Personen",
+        "4 Pers.",
+        "5 Leute + Kinderstuhl",
+        "allein",
+        "Partie mit 8 Personen"
+      ],
+      "time": [
+        "um halb acht am Abend",
+        "viertel acht (19:15)",
+        "dreiviertel acht (19:45)",
+        "19:30 Uhr",
+        "mittags 12:30",
+        "morgen in der Früh um 9",
+        "gegen 18 Uhr",
+        "14:15"
+      ],
+      "date": [
+        "morgen",
+        "übermorgen",
+        "diesen Freitag",
+        "nächsten Dienstag",
+        "am 25. Jänner",
+        "25.11.",
+        "Samstagabend"
+      ],
+      "name": [
+        "auf den Namen Gruber",
+        "Hans Huber",
+        "Mag. Anna Steiner",
+        "Familie Bauer",
+        "Lukas Wagner"
+      ],
+      "phone": [
+        "0664 1234567",
+        "0676 12345678",
+        "meine Nummer 0660 9876543",
+        "01 2345678"
+      ],
+      "booking_words": [
+        "Tisch reservieren",
+        "Reservierung im Schanigarten",
+        "Zimmer buchen",
+        "Platz reservieren",
+        "Kegelbahn reservieren"
+      ],
+      "appointment_words": [
+        "Termin in der Ordination",
+        "Zahnarzttermin",
+        "Pickerl und Service",
+        "Thermenwartung",
+        "Friseurtermin"
+      ],
+      "order_words": [
+        "zum Abholen bestellen",
+        "Gassenverkauf",
+        "weglegen lassen",
+        "vorbestellen",
+        "in der Apotheke bestellen"
+      ],
+      "change_words": [
+        "Termin verschieben",
+        "eine halbe Stunde später",
+        "stornieren",
+        "Termin absagen",
+        "auf Freitag verlegen"
+      ],
+      "inquiry_words": [
+        "fragen wie lange Küche ist",
+        "geht Bankomat?",
+        "sind Hunde erlaubt?",
+        "lagernd?",
+        "Öffnungszeiten am Feiertag"
+      ],
+      "false_friends": [
+        "Stiege 2 Tür 14",
+        "3. Stock",
+        "Menü für 2",
+        "60 Min Massage",
+        "1040 Wien",
+        "Linie 5"
+      ]
+    }
+  }
+}

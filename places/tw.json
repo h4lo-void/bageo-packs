@@ -1,0 +1,1120 @@
+{
+  "region": "tw",
+  "countries": [
+    "tw"
+  ],
+  "region_name_zh": "台灣",
+  "region_name": "Taiwan",
+  "languages": [
+    {
+      "code": "cmn",
+      "use": "main"
+    },
+    {
+      "code": "nan-written",
+      "use": "read_only"
+    },
+    {
+      "code": "en",
+      "use": "fallback"
+    }
+  ],
+  "ai_language_tip": "Speak Taiwan Mandarin. If staff speak Taiwanese Hokkien or Hakka, reply politely in Mandarin; almost everyone understands. Switch to English only at international hotels or expat-oriented Taipei venues.",
+  "english_ok": "rarely; mainly international hotels, upscale Taipei restaurants, airlines, and major hospital international desks handle English smoothly.",
+  "politeness": "Warm, polite, concise. Open with greeting and purpose (你好，請問...), state assistant role only if helpful or asked, and close with brief thanks (謝謝，麻煩你了，掰掰).",
+  "name_tip": "Restaurants, takeout, and taxis want surname plus title (王先生, 陳小姐). Clinics, hotels, schools, and couriers require full name (王小明) with character clarification (木子李, 三橫王).",
+  "phone_tip": "Mobile 0912-345-678 (read 4-3-3), landline 02-2345-6789; digit 1 often spoken (么).",
+  "time_tip": "12-hour clock with period prefix (早上9點, 中午12點, 下午2點, 晚上7點) is standard in speech. Confirm month, date, weekday, and time period together.",
+  "number_tip": "4 (四) and 10 (十), 1 (一/么) and 7 (七) sound similar on phones. Use (兩位) for headcount two, and clarify (十四) versus (四十).",
+  "avoid_calling": "Avoid meal peaks (11:30-13:30, 17:30-19:30); many restaurants rest 14:00-17:00. Clinics break between morning, afternoon, and evening sessions; offices pause 12:00-13:30.",
+  "closed_days": "Independent eateries, salons, and clinics commonly close Mondays or Tuesdays; clinics often close Sunday and weekday afternoons. Major closures during Lunar New Year and typhoon days.",
+  "booking_channels": "Chain and trendy restaurants prefer inline, EZTABLE, or LINE Official Accounts; salons use LINE or IG; clinics use web/LINE; famous street-food spots take walk-ins only.",
+  "voice_menu": "Telecoms, banks, airlines, utilities, couriers, hospitals, department stores, KTV chains, and government switchboards use DTMF menus requiring keypresses before reaching staff.",
+  "callback_habits": "Businesses confirm via SMS (inline) or LINE and sometimes call one day prior.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "許多排隊名店與連鎖店只收 inline 訂位或現場候位，大桌與高價餐廳常需綁卡或付訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Desired date and arrival time (請問訂哪一天、幾點)",
+        "Adult and child counts, plus highchair or stroller space (幾大幾小、要不要兒童椅或推車位)",
+        "Surname and title for reservation (請問貴姓、先生還是小姐)",
+        "Local mobile number for confirmation SMS (聯絡電話幾號)",
+        "Acceptance of dining time limit or minimum spend (用餐限時90分鐘、低消可以嗎)"
+      ],
+      "may_come_up": [
+        {
+          "what": "90- or 120-minute dining limit and 10-minute seat hold grace period (用餐限時、座位保留10分鐘)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Per-person minimum spend, private room minimum, or corkage fee (每人低消、包廂低消、開瓶費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large party or fine dining requires deposit or card hold via inline link (需付訂金或線上綁卡保留)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Demands immediate bank transfer during the call to hold table",
+          "handle": "decline"
+        },
+        {
+          "what": "Online booking only via inline or walk-in queue only (只開放線上訂位或現場抽號碼牌)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Requested time full; offers waitlist or second seating round (客滿要不要排候補或第二輪)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over the phone for deposit guarantee",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate bank transfer payment right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "台灣診所掛號極常詢問身分證字號與生日（AI 不會提供），大醫院多為按鍵語音掛號，初診也常規定必須現場填表掛號。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "visit_type",
+        "time",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "First-time or returning patient status (請問初診還是複診)",
+        "Patient full name and character writing (病患大名、哪三個字)",
+        "National ID number or birth date to pull medical chart (身分證字號、出生年月日)",
+        "Main treatment need or symptom, especially at dental clinics (要洗牙、牙痛還是拆線)",
+        "Preferred session, doctor, and contact phone (早診午診晚診、指定哪位醫師、聯絡電話)"
+      ],
+      "may_come_up": [
+        {
+          "what": "First-time patients cannot pre-book by phone and must register on-site with ID and NHI card (初診需現場掛號)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Clinic cannot complete registration without National ID number or birth date",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Gives queue number and advises checking live clinic call progress online (給看診號碼、看線上叫號進度)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Self-pay consultation fee or aesthetic treatment deposit rule (自費門診費用或訂金規定)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "National ID number, ARC/passport number, or birth date (身分證字號、居留證號、生日)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "NHI IC card number (健保卡號)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "often",
+      "before_dialing_zh": "個人美甲、美睫與年輕工作室多半只用 LINE 官方帳號或 IG 預約並收訂金；傳統及連鎖髮廊、按摩館才較常直接電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "time",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "backup"
+      ],
+      "usually_asked": [
+        "Exact services needed to block enough time (要做洗剪、燙染、卸甲重做還是全身指壓)",
+        "Specific stylist or therapist preference, or rotation okay (有沒有指定設計師或幾號師傅)",
+        "New or returning client, plus gender for haircut or massage (之前有來過嗎、男生還是女生)",
+        "Desired date and start time (想約哪一天幾點)",
+        "Client surname or full name and mobile number (貴姓、聯絡電話)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Extra fees for other-salon gel removal, long hair, or designated stylist (他店卸甲費、長髮加價、指定費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Studio asks client to add LINE for reference photos and deposit policy (請加LINE傳款示圖與看須知)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Massage parlor asks preference for male or female therapist (要排男師還是女師)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Demands immediate deposit wire transfer during the call",
+          "handle": "decline"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Member birth date for salon loyalty lookup (會員生日)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate bank transfer deposit right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "汽車保養常問車牌號碼，手機留機維修常問螢幕密碼（AI 不會提供密碼），家電到府檢修若不修通常會收車馬費或檢測費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "floor_elevator",
+        "visit_type",
+        "backup",
+        "address",
+        "budget"
+      ],
+      "usually_asked": [
+        "Brand, model, year, and fault symptoms or mileage service (車款年份里程、手機家電型號、故障狀況)",
+        "License plate number for car records, or warranty status for appliances (車牌幾號、還在保固內嗎)",
+        "Preferred drop-off or home visit time (哪一天幾點送過來或過去看)",
+        "Whether replacement parts are in stock or need ordering (零件有沒有現貨、要不要先訂料)",
+        "Contact surname, phone number, and address if home appliance visit (貴姓、電話、地址)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Diagnostic or call-out fee if owner declines repair after inspection (檢測費、基本出勤車馬費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Part out of stock; asks whether to order part or leave vehicle/device overnight (留車留機或等調料)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Phone shop advises backing up data before drop-off (送修前請先備份資料)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Brand-authorized service hotline uses DTMF voice menu",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Phone screen unlock passcode or Apple/Google password (螢幕解鎖密碼、帳號密碼)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Home address for on-site appliance repair when owner did not write it",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Immediate deposit transfer over the phone for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "手搖飲必問甜度冰塊，用餐尖峰店家常忙線不接；若要店家外送必須先寫地址並達外送低消。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "floor_elevator",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Self-pickup or store delivery, plus delivery address if delivery (自取還是外送、送哪裡)",
+        "Items, sizes, quantities, and customizations like sugar, ice, or spice (品項數量、甜度冰塊、加不加辣)",
+        "Requested pickup time or readiness wait acceptance (幾點來拿、等20分鐘可以嗎)",
+        "Need for shopping bag, disposable chopsticks/spoons, or company tax ID (要不要買袋子、餐具、打統編)",
+        "Surname or last three mobile digits for pickup (貴姓、電話末三碼)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Item sold out; asks to substitute another dish or flavor (這個賣完了要換什麼)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "1 to 2 TWD statutory plastic bag charge (購物袋1塊或2塊可以嗎)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Minimum spend or distance limit for store delivery (外送要滿多少金額才送)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large order requires immediate LINE Pay or wire transfer before cooking",
+          "handle": "decline"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Delivery address when owner did not provide it",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Immediate mobile payment or bank transfer right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "一般零售店多只願免費保留至當日打烊或隔天，限量品常不給電話留貨，訂製蛋糕或高單價商品則常要求先付訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "pickup",
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact product name, model, color, size, and quantity (商品名稱、型號顏色尺寸、數量)",
+        "When the customer will visit the store to pick up (什麼時候過來拿)",
+        "Whether inter-branch stock transfer is needed if sold out (沒現貨要不要調貨)",
+        "Customer surname or full name and local mobile number (留貴姓跟電話)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Store holds item only until closing today or next day (只能幫你保留到今天打烊或明天)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Limited or promotional stock cannot be reserved by phone (限量優惠品現場售完為止不預留)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Inter-store transfer takes several days or requires in-person deposit (調貨要等幾天或先到店付訂金)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Demands immediate bank transfer over the phone to reserve goods",
+          "handle": "decline"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over the phone or member birth date/ID",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate wire transfer right now to hold stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "透過 Agoda、Booking.com 或 inline 綁卡預訂的項目常須回原平台修改，逾時改期或取消可能會被扣訂金。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "reference_no",
+        "backup"
+      ],
+      "usually_asked": [
+        "Original date, time, and booked name or phone number (原本約哪一天幾點、貴姓、電話幾號)",
+        "Whether rescheduling, changing headcount, or cancelling (要改期、改人數還是取消)",
+        "New preferred date, time, or party size if rescheduling (想改到哪一天幾點、變幾位)",
+        "Booking reference number or platform used for hotels and activities (訂房編號、哪個平台訂的)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Third-party OTA or App booking must be changed on original platform (請回原訂房網或線上系統修改)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Late change or cancellation forfeits deposit or incurs fee (臨時取消會扣訂金或收取消費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "New requested time is full; offers other slots or waitlist (新時段客滿要不要換別的時間)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Clinic asks for National ID number or birth date to cancel registration",
+          "handle": "owner_only"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "National ID number, birth date, or bank account number for deposit refund",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "尖峰時段店家回答會很急促；若問到有位子或有現貨想順便預留，建議事先寫好時間、人數或取貨時間。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec",
+        "pet_detail"
+      ],
+      "usually_asked": [
+        "Target date, arrival time, and headcount if asking seat availability (請問幾位、幾點要過來)",
+        "Exact item specification or size if asking stock or price (要問哪一款、什麼規格)",
+        "Pet weight and whether in stroller or carrier if asking pet rules (多大隻、有裝籠或推車嗎)",
+        "Whether caller wants to reserve right away while available (現在還有位子要先留嗎)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pets permitted only inside closed carrier or stroller, paws off floor (寵物需裝籠或推車不落地)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Staff offers to hold seats or item immediately during call",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cash-only notice or partner parking discount rule (只收現金、特約停車場折抵規定)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Directs caller to Facebook or IG page for holiday hours or full menu (詳細菜單或公休請看FB/IG)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "電話新訂房常須匯訂金或填刷卡授權書（AI 無法辦理）；但備註提早入住、延後退房、寄放行李、嬰兒床或預約接駁非常適合打電話。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "checkin_out",
+        "guests",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "room_type",
+        "kids_detail",
+        "reference_no",
+        "time",
+        "budget"
+      ],
+      "usually_asked": [
+        "Check-in/out dates, or existing reservation number and booking platform (入住退房日、訂房編號、哪個平台訂的)",
+        "Registered guest full name matching ID and contact mobile number (入住人全名、聯絡手機)",
+        "Adult and child counts, children's ages, and bed configuration (幾大幾小、小孩幾歲、一大床還兩小床)",
+        "Estimated arrival time, train/flight arrival for shuttle, or luggage drop-off time (預計幾點抵達、接駁班次時間)",
+        "Requests for baby crib, baby tub, sterilizer, extra bed, or parking (嬰兒床澡盆消毒鍋、加床、留車位)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Direct booking requires 30% deposit wire or signed credit card authorization form (需匯3成訂金或回傳刷卡單)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Extra bed, child co-sleeping fee, early check-in, or late check-out hourly charge (加人加床費、提早入住或延退加價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Taiwan hotels do not provide free disposable toothbrushes or razors by law (依法不主動提供一次性備品)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "OTA date changes must be handled on Agoda, Booking.com, or Trip.com directly",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large hotel switchboard starts with DTMF language and department menu",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number, expiry date, or CVV for guarantee",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Guest National ID or passport number over the phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate bank transfer for B&B deposit during call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖 KTV 專線與公營運動中心多走按鍵語音或網路預約，密室逃脫與包場常需先匯訂金；私人球場、烤肉場與親子館較好電話訂。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity item, escape room theme, court type, or box size (哪個主題、幾面羽球場、包廂大小)",
+        "Date, start time, and total hours or session slot (哪一天幾點、幾小時或哪一場次)",
+        "Total headcount, plus children's ages for play centers or workshops (總共幾位、小朋友幾歲)",
+        "Member status or phone lookup for venue discounts (有沒有會員卡號或會員電話)",
+        "Contact name and local mobile number (貴姓、聯絡手機)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Escape room, BBQ venue, or private charter requires deposit within deadline (需期限內匯訂金才保留)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "KTV billing choice between per-person package vs hourly box fee plus minimum spend (算人頭計費還是包廂計費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Indoor play center requires adults and children to wear socks (大人小孩入館皆需穿襪子)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Chain KTV hotline or city sports center uses DTMF menu or online-only booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Member birth date or National ID for birthday discount verification",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate wire transfer during the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "often",
+      "before_dialing_zh": "到府服務必須先寫地址才能確認師傅跑不跑該區，且水電、冷氣清洗與搬家常請主人加 LINE 傳現場照片才能報價。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "address",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "District, street address, floor number, and whether building has elevator (哪一區哪條路、幾樓有沒有電梯)",
+        "Exact work scope: AC type/unit count, leak location, lock type, or furniture volume (分離式還窗型幾台、哪裡漏水、什麼鎖)",
+        "Preferred date and arrival time window (哪一天什麼時段方便)",
+        "Whether owner can add LINE to send photos or video for accurate quote (加LINE傳現場照片估價)",
+        "On-site contact surname and local mobile number (現場聯絡人貴姓、手機)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Call-out inspection fee or late-night locksmith surcharge (車馬費、檢修費、夜間開鎖加價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Technician asks owner to add LINE and send photos before quoting (請加LINE傳圖再報價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Walk-up stairs surcharge per floor for moving or bulky items (無電梯爬樓梯每層加價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Locksmith requires showing ID or lease on-site to verify residency (開鎖現場需看身分證或租約)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Building gate passcode or smart lock PIN over the phone (大門密碼、電子鎖密碼)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Upfront deposit transfer before visiting site",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "寵物美容與寄宿必問品種、體重、會不會緊張咬人與疫苗狀況；寄宿入住現場通常需帶疫苗手冊並核對飼主身分證。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref",
+        "checkin_out",
+        "backup"
+      ],
+      "usually_asked": [
+        "Species, breed, weight, age, and spay/neuter status (貓還是狗、品種、幾公斤幾歲、結紮沒)",
+        "Service needed: vet symptoms, bath vs full trim, or boarding dates (看診狀況、小美容還大美容、寄宿日期)",
+        "Temperament, bite risk, fur matting, flea prevention, and vaccine status (會不會兇或咬人、打結嗎、有打疫苗除蚤嗎)",
+        "First visit or existing chart at this clinic or salon (之前有來過嗎)",
+        "Owner full name or surname and mobile number (飼主貴姓大名、電話)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Extra charges for dematting, aggressive handling, fleas, or weight tier (拆結費、安定處理費、體重加價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Boarding requires prior daycare trial, vaccine booklet, or holiday deposit (需先安親試住、帶疫苗手冊、付訂金)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cat grooming requires cat-only quiet hours or vet sedation check (貓咪洗剪需特定時段或評估)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Owner National ID number for statutory pet boarding contract (寄宿定型化契約身分證字號)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate bank transfer deposit during the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "大型物流與電商客服專線多為按鍵語音且必備單號；若有宅配司機手機或打一般店家問維修、訂貨進度，才較能直接找真人處理。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "time",
+        "address"
+      ],
+      "usually_asked": [
+        "Tracking number, order number, or repair ticket number (宅配單號、訂單編號或維修單號)",
+        "Recipient or customer name and phone number (收件人或留單姓名、電話)",
+        "Delivery street address or repaired item model to confirm record (收件地址、送修什麼商品)",
+        "Preferred redelivery window or whether building guard can sign (改約幾點送、放管理室代收可以嗎)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Courier hotline requires DTMF keypresses and numeric tracking input",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Driver asks permission to leave parcel with building guard or locker (放警衛室管理室或智取櫃可以嗎)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Cash-on-delivery amount reminder for recipient or guard (貨到付款金額提醒)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Platform support refuses order lookup without account holder ID verification",
+          "handle": "owner_only"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Delivery address when owner did not write it",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Account holder National ID number or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信、銀行信用卡、水電瓦斯、航空與網購客服幾乎全有按鍵語音選單，且嚴格要求本人核對身分證字號與生日，AI 通常無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "question"
+      ],
+      "usually_asked": [
+        "DTMF keypress selection for service menu and ID entry (語音選單按鍵分流)",
+        "Confirmation that caller is the account holder personally (請問是本人來電嗎)",
+        "National ID number and date of birth for security verification (身分證字號、出生年月日)",
+        "Registered mobile number, billing address, or card last four digits (註冊手機、帳單地址、卡號末四碼)",
+        "Specific request, booking reference, or account/meter number (申辦事項、訂位代號、水電號)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Mandatory DTMF voice menu blocks call before reaching live agent",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Agent refuses assistant handling and requires account holder personally (依個資法需本人親自核對辦理)",
+          "handle": "owner_only"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "National ID number, passport number, birth date, or credit card number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "SMS OTP code, phone banking PIN, or account password (簡訊驗證碼、語音密碼)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Billing address when owner did not provide it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型計程車隊專線多走按鍵語音派車；機場接送、包車與在地租車行適合電話預約，但常問行李件數與航班。",
+      "for_whom_matters": true,
+      "must_have": [
+        "item",
+        "time",
+        "pickup_place",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "dropoff_place",
+        "party",
+        "spec",
+        "kids_detail",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Pickup date, exact time, and pickup address or landmark (哪一天幾點、上車地址或取車門市)",
+        "Destination, airport terminal, or flight number for transfers (去哪裡、第幾航廈、航班編號)",
+        "Passenger count, luggage count/inch sizes, or vehicle size needed (幾個人、幾件幾吋行李、五人座還九人座)",
+        "Special requests like child car seat, pet friendly, or wheelchair access (要不要安全座椅、帶寵物、無障礙計程車)",
+        "Passenger or renter name and local mobile number for driver contact (乘車人貴姓、台灣手機號碼)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Nighttime surcharge, Lunar New Year fare, child seat fee, or extra-stop charge (夜間加成、過年加成、安全座椅或多點加價)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Airport transfer or car rental requires deposit or adding LINE to confirm details (需加LINE確認派車單或付訂金)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Chain taxi hotline uses automated DTMF favorite-address menu",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Car rental reminds renter to bring physical ID and driver's license at pickup (取車需帶身分證與駕照正本)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "National ID, passport, driver's license, or credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate deposit wire transfer during the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "台灣房東與房仲約看房常先問職業、幾人同住與預計起租日；若撥打 591 轉接號碼可能需按分機鍵，直撥手機則可直接通話。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question",
+        "party",
+        "pet_detail",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which listing, road, floor, or monthly rent the caller saw (請問看哪一間、哪條路多少錢那間)",
+        "Preferred viewing date and time (哪一天幾點方便看屋)",
+        "Who will live there, total occupants, and tenant occupation (誰要住、幾個人、做什麼工作)",
+        "Target move-in date and expected lease term (預計什麼時候起租、租一年嗎)",
+        "Pets, smoking, cooking, or government rent subsidy needs (有沒有養寵物、抽菸、開伙、報稅申請租補)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Landlord screens tenant occupation or company before agreeing to show unit (請問在哪裡上班、什麼工作)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Details on management fee, electricity rate per kWh, or parking fee (管理費、一度電幾塊、車位費)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Pet rules such as cats allowed no dogs, or pet cleaning clause (可貓不可狗、退租寵物清潔條款)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "591 virtual masked number requires DTMF extension keypress",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Requests viewing fee or deposit transfer before viewing property in person",
+          "handle": "decline"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "National ID number over the phone before viewing",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Advance deposit transfer before seeing apartment",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "機關與學校總機多需按分機鍵（建議查處室直線或打 1999）；幫小孩向幼兒園、安親班或學校直線請假，建議寫明班級座號與假別。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question",
+        "time",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Student grade, class, seat number, and full name for absence calls (幾年幾班、幾號、學生姓名)",
+        "Caller's relationship to the student or applicant (請問是爸爸媽媽嗎、跟學生什麼關係)",
+        "Leave type, symptoms if sick leave, and leave dates (病假還是事假、有沒有發燒流感腸病毒、請哪幾天)",
+        "Household district or citizen status for government document inquiries (戶籍在哪裡、本人辦還是代辦)",
+        "Parent or caller callback phone number (聯絡電話)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Main switchboard requires DTMF extension digits to reach office or teacher",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "School asks parent to also submit leave via school App or contact book (請同步在學校App或聯絡簿請假)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Counter procedure requires original ID, personal seal, photos, and authorization letter if represented (需帶身分證正本、印章、委託書)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Checking personal application progress requires National ID number (查個人案件需報身分證字號)",
+          "handle": "owner_only"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Citizen or student National ID number or birth date (身分證字號、生日)",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "cmn": {
+      "party": [
+        "4位",
+        "兩大一小",
+        "2大2小",
+        "7個大人",
+        "三大兩小（一個坐推車）",
+        "一位",
+        "我們總共6個人",
+        "4大人1小孩",
+        "兩位大人",
+        "8~10人一桌"
+      ],
+      "time": [
+        "晚上7點",
+        "明晚19:00",
+        "中午12點半",
+        "下午兩點",
+        "早上10:30",
+        "傍晚6點左右",
+        "六點半到七點之間",
+        "18:30",
+        "下午3點15分"
+      ],
+      "date": [
+        "明天",
+        "後天",
+        "這禮拜五",
+        "下週六",
+        "11/25",
+        "12月3號",
+        "大後天",
+        "這個週末"
+      ],
+      "name": [
+        "姓王，王先生",
+        "訂王小明",
+        "留陳小姐",
+        "名字寫林志明",
+        "張小姐（弓長張）",
+        "用我的名字訂"
+      ],
+      "phone": [
+        "電話留0912-345-678",
+        "0912345678",
+        "市話02-2345-6789",
+        "留我台灣那支手機",
+        "電話給04-2345-6789"
+      ],
+      "booking_words": [
+        "訂位",
+        "預約",
+        "訂桌",
+        "留位子",
+        "訂房",
+        "訂包廂",
+        "包場",
+        "排候補"
+      ],
+      "appointment_words": [
+        "掛號",
+        "約診",
+        "預約看診",
+        "約剪頭髮",
+        "約洗牙",
+        "預約保養",
+        "約師傅來看"
+      ],
+      "order_words": [
+        "外帶",
+        "外送",
+        "自取",
+        "點餐",
+        "訂便當",
+        "預留",
+        "留貨",
+        "調貨",
+        "訂飲料"
+      ],
+      "change_words": [
+        "改期",
+        "改時間",
+        "延後",
+        "提早",
+        "取消",
+        "退訂",
+        "改人數",
+        "先取消掉"
+      ],
+      "inquiry_words": [
+        "問一下",
+        "請問",
+        "今天有開嗎",
+        "還有位子嗎",
+        "有沒有現貨",
+        "要排隊嗎",
+        "多少錢",
+        "能不能帶狗"
+      ],
+      "false_friends": [
+        "3號餐",
+        "7個小時",
+        "4樓",
+        "5分熟",
+        "3分糖",
+        "2館",
+        "6號出口",
+        "85度C",
+        "7-11",
+        "100塊",
+        "第5診",
+        "2代"
+      ]
+    },
+    "nan-written": {
+      "party": [
+        "四个人",
+        "兩大一小",
+        "咱四位",
+        "三個大人一個囡仔",
+        "兩個人",
+        "五位大人",
+        "總共六个人",
+        "一個大人兩個細漢仔",
+        "四大兩細"
+      ],
+      "time": [
+        "暗時七點",
+        "下晡兩點",
+        "透早九點",
+        "中晝十二點半",
+        "下暗六點半",
+        "盈暗七點",
+        "暗頭仔五點半",
+        "下晡三點十五分"
+      ],
+      "date": [
+        "明仔載",
+        "後日",
+        "這禮拜五",
+        "後禮拜六",
+        "今仔日",
+        "大後日",
+        "十一月二十五號"
+      ],
+      "name": [
+        "姓王，王先生",
+        "留陳小姐",
+        "訂王小明",
+        "寫林先生就好",
+        "用阮的名訂"
+      ],
+      "phone": [
+        "電話留0912-345-678",
+        "番號0912345678",
+        "留厝裡電話02-2345-6789",
+        "留我台灣彼支手機仔"
+      ],
+      "booking_words": [
+        "訂位",
+        "注文",
+        "留位",
+        "訂桌",
+        "訂房間",
+        "訂包廂"
+      ],
+      "appointment_words": [
+        "掛號",
+        "約看醫生",
+        "約剃頭",
+        "約洗喙齒",
+        "叫師傅來看"
+      ],
+      "order_words": [
+        "外帶",
+        "包便當",
+        "攢便",
+        "留貨",
+        "叫外送",
+        "訂涼的"
+      ],
+      "change_words": [
+        "改時間",
+        "退掉",
+        "取消",
+        "延後",
+        "改別工",
+        "莫訂矣"
+      ],
+      "inquiry_words": [
+        "問看覓",
+        "今仔日有開無",
+        "猶有位無",
+        "有現貨無",
+        "愛排隊無",
+        "偌濟錢"
+      ],
+      "false_friends": [
+        "三號餐",
+        "四樓",
+        "兩點鐘久",
+        "五分熟",
+        "七分甜",
+        "一百箍",
+        "二館",
+        "三號出口"
+      ]
+    }
+  }
+}

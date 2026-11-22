@@ -1,0 +1,750 @@
+{
+  "region": "fr",
+  "countries": [
+    "fr",
+    "mc"
+  ],
+  "region_name_zh": "法國（含摩納哥）",
+  "region_name": "France",
+  "languages": [
+    {
+      "code": "fr",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Always speak polite French (fr); Monaco (mc) businesses also speak French by default and English widely; in France switch to English only if staff offers.",
+  "english_ok": "sometimes — Common in Monaco, Paris tourist districts, and Riviera hotels, but local clinics, artisans, and offices expect French.",
+  "politeness": "ALWAYS open with 'Bonjour Madame / Monsieur' before any request, use strict 'vous', soften with conditional ('je souhaiterais'), close with 'Merci, bonne journée, au revoir'.",
+  "name_tip": "Title + surname (Monsieur/Madame Dupont) is standard; spell surnames carefully with French first names ('D comme Denis, U comme Ursule').",
+  "phone_tip": "France 10 digits (06 12 34 56 78 or 07..., Paris 01 23 45 67 89) read in two-digit pairs; Monaco 8 digits (99 12 34 56); SMS confirmation common.",
+  "time_tip": "24-hour standard ('19h30' / 'dix-neuf heures trente'); lunch 12:00–14:00, dinner 19:30–21:30 (most non-brasserie kitchens close between!).",
+  "number_tip": "Watch vigesimal numbers: soixante (60) vs soixante-dix (70) and quatre-vingts (80) vs quatre-vingt-dix (90); repeat pairs slowly.",
+  "avoid_calling": "Avoid restaurant coup de feu 12:15–14:00 and 19:30–21:15, shop lunch break 12:30–14:00 in provinces, and calls after 20:00.",
+  "closed_days": "Many restaurants/bistros close Sunday–Monday; salons close Sundays and Mondays; shops close Sundays; heavy August closures (fermeture annuelle en août).",
+  "booking_channels": "Doctolib dominates medical/dental completely; Planity and Treatwell for hair/beauty; TheFork and Zenchef for restaurants.",
+  "voice_menu": "Medical tele-secretariats, hospitals, administrations (CAF/CPAM/Impôts), banks, telecoms, SNCF, and couriers use heavy keypad IVR.",
+  "callback_habits": "Zenchef/TheFork and Planity/Doctolib send automated SMS confirmations; fine dining requires clicking 'Confirmer ma présence' 24h ahead.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "法國餐廳多僅午晚兩段供餐（12:00–14:00、19:30後），熱門店常發 Zenchef 簡訊要求刷卡留印。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and service: lunch (midi) or dinner (soir, usually 19:30+)",
+        "Number of couverts including children/stroller (poussette)",
+        "Indoor dining room (en salle) vs terrace (en terrasse — often unbookable)",
+        "Surname (au nom de M./Mme...) and 06/07 mobile number",
+        "Allergies or dietary restrictions"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sends Zenchef/SevenRooms SMS link for card pre-authorization (empreinte bancaire)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Terrace tables are first-come first-served only",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Two dinner seatings (premier service 19:30 vs deuxième service 21:30)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card digits over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "法國診所與牙醫高度依賴 Doctolib，許多醫師不收新病患且電話轉接外包秘書台（含按鍵選單）並必問生日。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Already followed by this practitioner vs new patient (déjà patient du cabinet ou nouveau patient)",
+        "Reason for consultation (motif de consultation / urgence dentaire)",
+        "Patient surname, first name, and maiden name if applicable",
+        "Preferred slot",
+        "Mobile number for Doctolib SMS"
+      ],
+      "may_come_up": [
+        {
+          "what": "Doctor refuses new patients ('ne prend plus de nouveaux patients') or books on Doctolib only",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Medical tele-secretariat starts with keypad IVR ('tapez 1')",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sector 2 fee overrun (dépassement d'honoraires / secteur 2) mentioned",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth (date de naissance) or Carte Vitale / Sécurité sociale number",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "許多髮廊與美容院已全面導入 Planity 線上預約，大型染燙可能要求線上留卡擔保。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Exact prestation (coupe brushing, balayage, dépose + pose vernis semi-permanent, massage)",
+        "Hair length (cheveux courts/mi-longs/longs)",
+        "Preferred day, hour, and stylist",
+        "Surname and 06/07 mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Planity to complete deposit/card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate phone payment for acompte",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠（Garage）與驗車中心（Contrôle technique）習慣電話預約，報車牌（immatriculation）最快。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle registration plate (plaque d'immatriculation) and make/model, or device model",
+        "Service (révision, contrôle technique, panne) or repair symptom",
+        "Morning drop-off date and time",
+        "Courtesy car need (véhicule de courtoisie)",
+        "Surname and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Garage asks French license plate (AB-123-CD) to identify exact parts",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Paid diagnostic estimate (devis payant si non réparé)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone unlock code over call",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands card payment over phone to order parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獨立披薩店、壽司、中餐與熟食店（Traiteur）常接電話訂自取（à emporter）到店付；外送多走 Uber Eats 或 Deliveroo。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "À emporter (pickup) vs livraison",
+        "Exact dishes, formulas/menus, and cooking temp",
+        "Pickup time",
+        "Surname and 06/07 number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Minimum card amount (minimum carte bancaire, e.g. 10–15€) on pickup",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Delivery handled via Deliveroo / Uber Eats only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires immediate remote payment (VAD) before cooking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型連鎖走按鍵客服專線，獨立書店、肉鋪（boucherie）與糕點店很歡迎電話留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, size, weight, or reference",
+        "Quantity and shelf check",
+        "Pickup day and morning/afternoon slot",
+        "Surname and phone number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Putting item aside (mettre de côté) valid for 24–48h max",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Holiday order (bûche/plateau fruits de mer) requires in-store deposit (arrhes/acompte)",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Doctolib 或 Planity 預約若當初是線上建立，許多店家會請主人在 App 上直接改退；餐廳綁卡逾時取消會扣費。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Surname and mobile number",
+        "Original date and hour",
+        "New desired slot or cancellation",
+        "Updated couverts if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Empreinte bancaire penalty applies within 24h window",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Doctolib-only office asks patient to modify via Doctolib app",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks date of birth to open patient file",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (service continu vs coupure, August/holiday opening, dog allowed, stock)",
+        "Intended visit day and hour",
+        "Group size",
+        "Whether caller wants to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Brasserie offers service continu all afternoon; bistro closes 14:30–19:30",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立旅館與民宿（Chambre d'hôtes）電話訂房友善，但幾乎都要求信用卡號擔保或寄付款連結。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Arrival and departure dates (nombre de nuitées)",
+        "Adults, children, and room type (lit double vs lits jumeaux)",
+        "Breakfast (petit-déjeuner) and parking",
+        "Surname, first name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Taxe de séjour (tourist tax per person/night) extra; late arrival after 20:00 needs notice",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Sends secure email link for card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number and expiry over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "密室、板網球（Padel）與體驗課多要求官網線上預付，保齡球、鄉村網球場與團體包場可電話問。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity or court type",
+        "Date, hour, and duration",
+        "Participant count",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs small bookings to website payment",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests phone card payment (VAD) to lock slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須給完整地址與樓層；巴黎與大城公寓幾乎都有兩道門禁密碼（Digicode / Interphone），AI 絕不可代給密碼！",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Issue (plombier, serrurier, entretien chaudière, clim, déménagement)",
+        "Street, number, bâtiment/escalier, floor, elevator (ascenseur), and postal code",
+        "Name on intercom buzzer (nom sur l'interphone)",
+        "Preferred slot",
+        "Surname and 06/07 mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes call-out fee (frais de déplacement) + hourly rate TTC; warns of written devis above 150€",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Artisan calls owner upon arrival instead of taking digicode in advance",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building digicode or door entry code over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands bank transfer before visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Vétérinaire）、美容（Toilettage）與寄宿（Pension）皆採預約制，寄宿必查晶片與疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult (also some on CaptainVet/MonVéto), toilettage, or pension",
+        "Species, breed, weight, age, and sterilization",
+        "Vaccines including kennel cough (toux du chenil) and I-CAD identification",
+        "Preferred date and hour",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Trimming/epilation vs standard cut pricing difference",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Pension requires arrhes/acompte payment to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Chronopost、Colissimo、Mondial Relay 等全國物流皆為語音機器人或付費按鍵選單，僅獨立門市與車廠可直撥查進度。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking or repair order number (numéro de suivi / bon de dépôt)",
+        "Surname and postal code",
+        "Item description",
+        "Readiness at shop or point relais"
+      ],
+      "may_come_up": [
+        {
+          "what": "National carrier uses automated voice/keypad bot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Chronopost secure delivery PIN code or digicode",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "電信（Orange/Free/SFR）、EDF電力、銀行、保險與法航客服皆有按鍵選單且受 RGPD（GDPR）限制須本人核身。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Keypad IVR selection",
+        "Verification that caller is contract holder (titulaire)",
+        "Date of birth, address, and client reference",
+        "Security code or OTP"
+      ],
+      "may_come_up": [
+        {
+          "what": "RGPD blocks assistant from accessing personal contract",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks date of birth, RIB/IBAN, card digits, or secret code",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "地方計程車（Taxi conventionné / Radio Taxi）、摩納哥叫車與地方租車門市可電話預訂（G7 等大車隊有語音選單）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact pickup address and hour",
+        "Destination, airport, or TGV station",
+        "Passengers, suitcases, or child seat",
+        "Surname and mobile phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Approach fee (approche) starts on meter before pickup for pre-booked taxis",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large taxi network (e.g. G7) uses keypad IVR unless subscriber",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Medical taxi asks Sécurité sociale number or prescription details",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "法國租屋競爭極烈，房仲（Agence immobilière）電話約看房時必先審核租客檔案（Dossier：CDI合約與月薪須達房租3倍）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Listing reference (SeLoger / Leboncoin) and location",
+        "Employment status (CDI hors période d'essai), net monthly income (3x loyer), and Visale/garant",
+        "Single/couple occupancy and move-in date",
+        "Viewing slot",
+        "Surname, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agency requires uploading full dossier online before granting a viewing",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks tax notice details or money before viewing (illegal in France)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政廳（Mairie）、縣政府（Préfecture）與稅務總機有按鍵選單且個資限本人；托嬰機構（Crèche privée）可電話問名額。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General administrative procedure (état civil, urbanisme) or private crèche inquiry",
+        "Child birth month and days per week needed for crèche",
+        "Commune/arrondissement of residence",
+        "Surname and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Municipal crèche allocation handled centrally via mairie portal",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Mairie switchboard uses keypad routing",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CAF allocataire number, Sécurité sociale number, or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fr": {
+      "party": [
+        "table pour 4",
+        "2 adultes et 1 enfant",
+        "nous sommes 3",
+        "4 couverts",
+        "pour 2 personnes",
+        "5 adultes + 1 poussette",
+        "1 personne",
+        "groupe de 8"
+      ],
+      "time": [
+        "19h30",
+        "20h",
+        "midi et demi",
+        "sept heures et demie du soir",
+        "14h15",
+        "vers 20h30",
+        "huit heures moins le quart",
+        "demain à 10h"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce vendredi",
+        "mardi prochain",
+        "le 25 novembre",
+        "25/11",
+        "samedi soir"
+      ],
+      "name": [
+        "au nom de Dupont",
+        "M. Jean Martin",
+        "Mme Claire Bernard",
+        "Camille Laurent",
+        "famille Moreau"
+      ],
+      "phone": [
+        "06 12 34 56 78",
+        "0612345678",
+        "mon portable 07 98 76 54 32",
+        "99 12 34 56"
+      ],
+      "booking_words": [
+        "réserver une table",
+        "réservation",
+        "garder une table",
+        "réserver une chambre",
+        "terrain de padel"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous",
+        "prendre RDV dentiste",
+        "coupe brushing",
+        "contrôle technique",
+        "révision voiture"
+      ],
+      "order_words": [
+        "commander à emporter",
+        "mettre de côté",
+        "garder en rayon",
+        "précommander",
+        "commande traiteur"
+      ],
+      "change_words": [
+        "décaler de 30 min",
+        "reporter le RDV",
+        "annuler ma réservation",
+        "changer l'heure",
+        "déplacer à vendredi"
+      ],
+      "inquiry_words": [
+        "demander s'ils font service continu",
+        "vérifier s'ils sont ouverts en août",
+        "chiens acceptés?",
+        "demander le stock",
+        "se renseigner"
+      ],
+      "false_friends": [
+        "bâtiment 2",
+        "3e étage",
+        "formule pour 2",
+        "massage 60 min",
+        "Paris 15e",
+        "lot de 4"
+      ]
+    }
+  }
+}

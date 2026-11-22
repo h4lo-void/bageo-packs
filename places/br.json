@@ -1,0 +1,750 @@
+{
+  "region": "br",
+  "countries": [
+    "br"
+  ],
+  "region_name_zh": "巴西",
+  "region_name": "Brazil",
+  "languages": [
+    {
+      "code": "pt",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak warm, natural Brazilian Portuguese (pt-BR); English is rarely spoken outside international hotels in São Paulo or Rio Zona Sul.",
+  "english_ok": "rarely — Only upscale international hotels and select São Paulo/Rio corporate venues handle English phone calls.",
+  "politeness": "Warm and friendly; open with 'Oi, bom dia / boa tarde, tudo bem?' before stating request, use 'por favor' and 'você' or polite 'o senhor/a senhora'; close with 'obrigado(a)'.",
+  "name_tip": "First name (or first + surname, e.g. João Silva, Ana Oliveira) is primary everywhere—Brazilians address everyone by first name!",
+  "phone_tip": "2-digit DDD area code + 9-digit mobile (11) 91234-5678, landline (11) 3123-4567; digit 6 spoken as 'meia'; WhatsApp is universal!",
+  "time_tip": "12-hour spoken ('sete e meia da noite', 'meio-dia e meia'), 'quinze pras oito' = 7:45; confirm 'da manhã/da tarde/da noite'.",
+  "number_tip": "Digit 6 is almost always spoken as 'meia' (half-dozen) to avoid confusing 'seis' with 'três' or 'sete'!",
+  "avoid_calling": "Avoid lunch peak 12:00–13:30 for small clinics/offices, restaurant rush 12:00–14:00 and 20:00–21:30, and calls after 20:30.",
+  "closed_days": "Many salons and bistros close Mondays; workshops close Sundays and Saturday afternoons; Carnaval and Christmas–New Year bring multi-day slowdowns.",
+  "booking_channels": "WhatsApp dominates every single sector in Brazil; Tagme, Get In, and TheFork for restaurants; Doctoralia for doctors; Trinks/avec for salons; iFood for delivery.",
+  "voice_menu": "Health plans (Unimed/Bradesco/Amil), diagnostic labs (Fleury/Dasa), banks, Vivo/Claro/TIM, airlines (Azul/GOL/LATAM), and utilities use heavy keypad URA.",
+  "callback_habits": "Businesses immediately message the caller's number on WhatsApp ('Posso confirmar pelo Whats?') and reconfirm 24h before.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "巴西許多熱門餐廳不接晚間尖峰訂位（僅留早場至 19:30 或用 Get In 線上排隊），且店員常會導向 WhatsApp 確認。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and arrival hour (many hold tables only until 19:30/20:00 on weekends!)",
+        "Number of people (lugares/pessoas) and cadeirão infantil",
+        "Indoor AC area (salão interno) vs varanda/área externa",
+        "First and last name plus WhatsApp number with DDD",
+        "Birthday/comemoração benefits or corkage (rolha)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Table tolerance is 15 minutes max; after 19:30 walk-in/Get In queue only",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Optional 10–13% service fee and optional couvert artístico (live music charge)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF number for reservation list",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate Pix deposit (sinal no Pix)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所與牙醫電話及 WhatsApp 普及，必問醫保（Convênio）或自費（Particular），且常索取 CPF。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Particular (self-pay) vs Convênio (Unimed, Bradesco Saúde, SulAmérica, Amil — plus plan tier!)",
+        "First consultation (primeira vez) or return visit within 30 days (retorno)",
+        "Patient full name",
+        "Preferred doctor, date, and shift",
+        "WhatsApp phone with DDD"
+      ],
+      "may_come_up": [
+        {
+          "what": "Large lab/hospital central line uses URA keypad menu",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Doctor only accepts specific high tiers of the convênio or offers reimbursement receipt (reembolso)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF, birth date, or carteirinha do convênio number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance Pix transfer to confirm particular consultation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "美髮沙龍（Salão）週五週六極滿，獨立美甲（Manicure）與美睫常要求先轉 Pix 訂金（sinal）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "spec"
+      ],
+      "usually_asked": [
+        "Service (corte, escova, mechas, pé e mão / gel, massagem)",
+        "Preferred day, hour, and professional",
+        "Hair length or gel removal",
+        "First name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Salon uses Trinks app or sends WhatsApp confirmation",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires immediate Pix deposit (sinal via Pix) to hold slot",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車廠與授權維修站常接電話並轉 WhatsApp 報價；聖保羅市區送修需注意車牌限行（Rodízio）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Vehicle model/year/plate or appliance/phone model and voltage (110V vs 220V!)",
+        "Revisão or fault symptom",
+        "Drop-off morning slot",
+        "Insurance claim (sinistro/seguradora) vs particular",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "São Paulo municipal plate rodízio restricts driving 07:00–10:00 and 17:00–20:00",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Orçamento sem compromisso (free quote) vs inspection fee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF for service order or phone unlock password",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Pix advance for ordering parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "外送多走 iFood；傳統披薩店、便當與烘焙坊仍接電話訂自取，或派外送員帶刷卡機收款。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Retirada no balcão (pickup) vs entrega própria",
+        "Items, half-and-half pizza flavors (meia a meia), and drink sizes",
+        "Pickup time or full address with CEP and apartment block",
+        "Payment method on delivery if rider brings card machine (maquininha — crédito ou débito!)",
+        "Name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Rider brings wireless card terminal (leva a maquininha) on delivery",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Store directs orders to iFood or WhatsApp catalog link",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF number over phone for receipt (CPF na nota)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Pix transfer before preparing order",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型零售連鎖走總機語音，社區建材行（Material de construção）、汽車材料、藥局與花店可電話問現貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, brand, voltage (110V/220V), or size",
+        "Quantity and branch stock check",
+        "Same-day retirada time",
+        "Name and WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cash/Pix discount (desconto à vista no Pix) vs installment card price (parcelado)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires immediate Pix transfer to hold item",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所與沙龍電話或 WhatsApp 改期（remarcar）很普遍。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Full name and WhatsApp phone",
+        "Original date and hour",
+        "Remarcar (reschedule) target slot or desmarcar (cancel)",
+        "Party size if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "Forfeits prior sinal if canceled inside 24h",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks CPF to look up patient schedule",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (feriado hours, estacionamento/valet, taxa de rolha, pet friendly, stock)",
+        "Visit day/time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Valet parking (manobrista) fee and corkage (taxa de rolha) quoted",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "海灘與山區民宿（Pousada）極習慣電話轉 WhatsApp 報價並收 50% Pix 訂金；商務飯店有語音選單且需信用卡。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates (pacote de feriado minimums common!)",
+        "Adults and children (ages for free child policy)",
+        "Suite/room category and café da manhã inclusion",
+        "Full name, phone, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pousada sends quote via WhatsApp for owner to pay deposit directly",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests CPF or credit card number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands immediate 50% Pix transfer now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "沙灘網球（Beach Tennis 在巴西極紅！）、五人制足球（Society）、保齡球與烤肉區包場常接電話或用 Playtomic/App。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Court type (quadra de beach tennis, futebol society, pista de boliche)",
+        "Date, hour, and duration",
+        "Player count",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Arena uses LetzPlay/Playtomic app or holds briefly pending Pix",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands immediate Pix sinal to lock quadra",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須給完整地址（含 8 碼 CEP 與大樓名）；巴西大樓門禁（Portaria）極嚴，師傅姓名與車號必須事先由住戶向警衛授權放行！",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (encanador, eletricista, limpeza de ar-condicionado, dedetização, chaveiro)",
+        "Street, number, bloco/apto, neighborhood (bairro), and 8-digit CEP",
+        "Condominium service-hours rule (horário de obra no condomínio, usually Mon–Fri 08:00–17:00!)",
+        "Preferred day and shift",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Provides technician full name/RG so resident can authorize entry at portaria",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quotes taxa de visita if service not executed",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks resident CPF or electronic gate password",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands Pix advance before visiting",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "寵物店洗澡美容（Banho e tosa）與獸醫極普及，許多店家提供專車接送（Táxi Dog）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "address"
+      ],
+      "usually_asked": [
+        "Banho e tosa (higiênica/tesoura/máquina), vet consult, or hotelzinho/creche",
+        "Breed, porte (pequeno/médio/grande), weight, and knots",
+        "V8/V10, antirrábica, and gripe vaccines up to date",
+        "Preferred time or Táxi Dog home pickup",
+        "Tutor name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Offers Táxi Dog pickup/drop-off service for extra fee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks tutor CPF number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requires immediate Pix deposit for hotelzinho",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Correios、Jadlog、Mercado Livre 全國客服皆為按鍵語音（URA）並索取 CPF，僅地方門市或維修站適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Tracking code or Ordem de Serviço (OS) number",
+        "Customer name and phone",
+        "Item or repair description",
+        "Readiness for pickup"
+      ],
+      "may_come_up": [
+        {
+          "what": "National carrier URA requires keypad CPF entry",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF or iFood/Mercado Livre delivery code (palavra-chave/código)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "所有巴西電信、銀行、水電、醫保與航空客服一接通就是按鍵語音（URA）要求輸入 11 碼 CPF，AI 完全無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "URA prompt demanding 11-digit CPF via keypad ('digite seu CPF')",
+        "Titular confirmation under LGPD",
+        "Birth date, mother's full name (nome da mãe!), and security token",
+        "Protocol number (número de protocolo)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Immediate keypad CPF gate + LGPD blocks third-party assistant",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF, birth date, card digits, password, or SMS token",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "日常叫車多用 Uber 或 99 App；合作社無線計程車（Rádio Táxi / Cooperativa）、包車接機與地方租車行可電話叫車。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Street, number, bairro, reference point, and pickup time",
+        "Destination or airport (GRU/CGH/GIG/SDU)",
+        "Passengers and large suitcases (porta-malas grande if GNV cylinder!)",
+        "Name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many Rio/SP taxis have GNV gas tanks in trunk—request 'porta-malas livre/grande' for luggage!",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Car rental (Localiza/Movida) asks CPF or CNH number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "often",
+      "before_dialing_zh": "QuintoAndar 全走 App 線上約看房；傳統房仲（Imobiliária / ZAP Imóveis）可電話約看房，會問租賃擔保方式。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Property code (código do imóvel) or street/bairro",
+        "Preferred visita date and hour (acessar portaria rules)",
+        "Guarantee type (fiador, seguro-fiança, ou caução)",
+        "Occupants and pets",
+        "Full name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "QuintoAndar listings must be scheduled inside the app",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Condo portaria requires visitor document shown physically upon arrival",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF number over phone before visit",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Requests Pix reservation fee before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "便民中心（Poupatempo）與機關需本人 CPF 線上預約；私立學校與幼兒園（Berçário）歡迎來電約參觀。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "General public-service requirement or school visita pedagógica",
+        "Child age and shift (meio período vs integral) for berçário/escola",
+        "School year (ano letivo starts January/February)",
+        "Parent name and WhatsApp phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Public Poupatempo/Detran requires online Gov.br login appointment",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks CPF or child birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "pt": {
+      "party": [
+        "mesa para 4",
+        "2 adultos e 1 criança",
+        "somos em 3",
+        "para duas pessoas",
+        "4 lugares",
+        "5 adultos + cadeirão",
+        "1 pessoa",
+        "grupo de 8"
+      ],
+      "time": [
+        "às 19h30",
+        "sete e meia da noite",
+        "meio-dia e meia",
+        "20h",
+        "quinze pras oito",
+        "amanhã às 10h da manhã",
+        "lá pelas 14h",
+        "18:30"
+      ],
+      "date": [
+        "amanhã",
+        "depois de amanhã",
+        "nessa sexta",
+        "terça que vem",
+        "dia 25/11",
+        "25 de novembro",
+        "sábado à noite"
+      ],
+      "name": [
+        "em nome de João Silva",
+        "Ana Oliveira",
+        "Pedro Santos",
+        "Mariana Costa",
+        "Lucas Ferreira"
+      ],
+      "phone": [
+        "(11) 91234-5678",
+        "11 98765-4321",
+        "meu zap (21) 99876-5432",
+        "11912345678"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "fazer reserva",
+        "reservar quadra",
+        "reservar pousada",
+        "guardar mesa"
+      ],
+      "appointment_words": [
+        "marcar consulta",
+        "agendar dentista",
+        "marcar corte e escova",
+        "agendar banho e tosa",
+        "revisão do carro"
+      ],
+      "order_words": [
+        "pedir pra viagem",
+        "retirada no balcão",
+        "separar no estoque",
+        "encomendar bolo",
+        "delivery"
+      ],
+      "change_words": [
+        "remarcar consulta",
+        "atrasar meia hora",
+        "desmarcar",
+        "cancelar reserva",
+        "mudar o horário"
+      ],
+      "inquiry_words": [
+        "perguntar se abre no feriado",
+        "quanto é a rolha?",
+        "tem estacionamento?",
+        "aceita pet?",
+        "ver se tem em estoque"
+      ],
+      "false_friends": [
+        "apto 42 bloco 2",
+        "combo p/ 2",
+        "massagem 60 min",
+        "meia calabresa meia mussarela",
+        "andar 3",
+        "110V"
+      ]
+    }
+  }
+}

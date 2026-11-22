@@ -1,0 +1,772 @@
+{
+  "region": "be",
+  "countries": [
+    "be"
+  ],
+  "region_name_zh": "比利時",
+  "region_name": "Belgium",
+  "languages": [
+    {
+      "code": "nl",
+      "use": "main"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    },
+    {
+      "code": "de",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "Match municipality language strictly: Flemish Dutch (nl) in Flanders, French (fr) in Wallonia, match greeting (often fr/nl/en) in Brussels, German (de) in Ostbelgien.",
+  "english_ok": "often — Widely spoken in Flanders and Brussels service sectors; moderate in smaller Walloon towns.",
+  "politeness": "Polite and measured: open with 'Goedendag' (nl, using u) or 'Bonjour Madame/Monsieur' (fr, using vous); close warmly ('Dank u wel, dag' / 'Bonne journée').",
+  "name_tip": "First and surname (e.g. Jan Peeters, Marie Dubois); spell multi-word Flemish surnames ('Van den Berg') clearly indicating spaces.",
+  "phone_tip": "10-digit mobile 0470 12 34 56 (read 4-2-2-2), landline 02 123 45 67 (9 digits); confirmations via SMS or email.",
+  "time_tip": "CRITICAL: In Dutch 'half acht' = 7:30 (NOT 8:30!), while French uses 19h30; Belgian French uses 'septante' (70) and 'nonante' (90)! Always confirm 24h.",
+  "number_tip": "Belgian French says septante (70) and nonante (90), NOT soixante-dix/quatre-vingt-dix (80 is still quatre-vingts); Dutch swaps tens-units ('vierentwintig' = 24).",
+  "avoid_calling": "Avoid lunch rush 12:00–13:45, dinner rush 18:30–20:30, and calls after 20:00.",
+  "closed_days": "Many Belgian restaurants close Mondays AND Tuesdays (or Tue–Wed); retail closes Sundays (~18:00 weekdays); regional holidays differ slightly.",
+  "booking_channels": "Resengo, Tablebooker, Zenchef, and TheFork for restaurants; Doctena and Rosa for medical; Salonkee for hair/beauty.",
+  "voice_menu": "Hospitals, mutualités/ziekenfondsen, Proximus/Telenet, banks, Bpost, and municipal halls use bilingual/keypad IVR.",
+  "callback_habits": "Resengo, Tablebooker, Rosa, Doctena, and Salonkee send automated SMS/email confirmations and 24h cancellation-link reminders.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "比利時許多餐廳透過 Resengo 或 Tablebooker 發連結要求留信用卡作爽約擔保，且常週一週二連休。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and arrival hour (18:30–20:30 typical dinner)",
+        "Party size including children/kinderstoel",
+        "Indoor vs terrace preference",
+        "Allergies or dietary notes",
+        "Full name, 04xx mobile, and often email for Resengo"
+      ],
+      "may_come_up": [
+        {
+          "what": "Sends Resengo/Tablebooker link requiring card guarantee or deposit",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Closed Monday–Tuesday regular rest days (sluitingsdagen)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card details over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands instant Payconiq payment on call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "比利時家醫（Huisarts / Médecin généraliste）與專科多已改用 Rosa 或 Doctena 線上掛號，電話必問國民身分證號或生日。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Existing patient (vaste patiënt) vs new patient (many GPs have patiëntenstop!)",
+        "Reason for visit or dental treatment",
+        "Patient full name",
+        "Preferred doctor and time",
+        "Mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "GP practice has a patient freeze (patiëntenstop) for new patients outside postal code",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Hospital outpatient desk uses keypad IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Rijksregisternummer / Numéro de registre national or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "髮廊（Kapper/Coiffeur）與美容院廣泛使用 Salonkee 線上預約，亦接受電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "usually_asked": [
+        "Treatment (snit/brushing, kleuring/balayage, gellak, massage)",
+        "Hair length or nail removal need",
+        "Preferred date, hour, and stylist",
+        "Full name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Directs caller to Salonkee for deposit on long colour service",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands Payconiq/Bancontact transfer right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獨立修車廠（Garage）與自行車行（Fietsenmaker 在法蘭德斯極忙）可電話約；汽車定期驗車（Autokeuring）多走官方網站。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Car make/model/plate, e-bike brand, or appliance model",
+        "Maintenance (onderhoud/entretien) or fault",
+        "Drop-off morning slot",
+        "Replacement car/bike need (vervangwagen)",
+        "Name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Official Autokeuring / Contrôle technique station requires online slot booking",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Bike shop only repairs e-bike brands bought at their store",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks phone passcode over call",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands advance bank transfer for parts",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "薯條店（Frituur / Baraque à frites）多現場點或線上點，披薩、中餐與熟食店常接電話訂自取（afhalen / à emporter）。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Afhalen / à emporter (pickup) vs delivery",
+        "Exact dishes, sauces, and sizes",
+        "Pickup time",
+        "Name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Shop accepts Bancontact/Payconiq or cash only (no Visa/Mastercard credit!)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires Payconiq payment before preparing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獨立肉鋪（slagerij）、烘焙坊（bakkerij）、書店與專賣店歡迎電話留貨；連鎖量販走客服選單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Product name, size, weight, or article code",
+        "Quantity and stock check",
+        "Pickup day/hour (shops close ~18:00!)",
+        "Name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Weekend bread/pastry pre-orders close by previous afternoon",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests upfront payment via Payconiq/transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Resengo、Salonkee 與牙醫多有 24 小時內晚退罰金規定。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "usually_asked": [
+        "Full name and mobile number",
+        "Original date and hour",
+        "New preferred slot or cancellation",
+        "Party size if restaurant"
+      ],
+      "may_come_up": [
+        {
+          "what": "No-show / <24h fee applies",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Clinic asks birth date or Rijksregisternummer",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "usually_asked": [
+        "Question (opening hours, Bancontact vs credit card acceptance, dog allowed, stock, parking)",
+        "Planned visit day/time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ],
+      "may_come_up": [
+        {
+          "what": "Accepts Bancontact/cash only, no Visa/Amex",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "精品旅館與 B&B 電話友善但需信用卡擔保或寄付款連結；連鎖飯店多經語音選單。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Guests and room configuration",
+        "Breakfast and parking",
+        "Full name, mobile, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "City tax extra per person/night; offers email link for card guarantee",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "板網球（Padel 在比利時極熱門，多用 Playtomic/Tennis Vlaanderen）、密室與室內活動多走線上預訂。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity, lane, or court type",
+        "Date, hour, and duration",
+        "Participant count",
+        "Name and mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Padel/tennis courts booked online via Playtomic or Tennis en Padel Vlaanderen",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requires online prepayment to confirm",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "必須提供完整地址與 4 位數郵遞區號，並注意該區講荷蘭文還是法文。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Service (loodgieter/plombier, verwarming/ketel onderhoud, elektricien, slotenmaker)",
+        "Street, house/bus number, and 4-digit postal code + municipality",
+        "Home age (>10 years qualifies for 6% reduced renovation VAT vs 21%!)",
+        "Preferred date and window",
+        "Name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Quotes verplaatsingskosten / frais de déplacement plus hourly rate excl. BTW/TVA",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks building code or national ID number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Demands upfront payment before visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "獸醫（Dierenarts / Vétérinaire）、美容（Trimsalon）與寄宿皆需預約，寄宿必查晶片與疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Vet consult, trimsalon groom, or dierenpension",
+        "Species, breed, weight, age",
+        "Kennel cough (kennelhoest) and standard vaccines + EU pet passport",
+        "Preferred date and hour",
+        "Owner name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Trimsalon waitlist several weeks out for large doodles/spaniels",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Pension requires bank transfer voorschot/acompte",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "Bpost、PostNL、DPD 全國專線皆有雙語按鍵語音選單；獨立門市、單車行與車廠才適合直撥。",
+      "for_whom_matters": false,
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "usually_asked": [
+        "Order, barcode, or repair ticket number",
+        "Surname and 4-digit postal code",
+        "Item description",
+        "Shop pickup readiness"
+      ],
+      "may_come_up": [
+        {
+          "what": "National parcel line uses keypad language + menu IVR",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Rijksregisternummer or pickup PIN",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "比利時企業客服開頭幾乎必有語言選擇按鍵（NL press 1 / FR press 2）並嚴格核對 GDPR 個資，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Language keypad prompt (Druk op 1 / Appuyez sur 2)",
+        "Titular verification",
+        "Birth date, Rijksregisternummer, or client number",
+        "Security verification"
+      ],
+      "may_come_up": [
+        {
+          "what": "Immediate bilingual DTMF language gate blocks non-keypad caller",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Rijksregisternummer, birth date, card/digipass code, or itsme approval",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "地方計程車行（Taxi）、機場專車（Luchthavenvervoer 往返 BRU/CRL）與地方租車行很習慣電話預訂。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "usually_asked": [
+        "Exact street, number, 4-digit postal code, and pickup hour",
+        "Destination or Zaventem (BRU) / Charleroi (CRL) airport",
+        "Passengers, suitcases, and child seat",
+        "Name and 04xx mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Private vs shared airport shuttle pricing",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests credit card or license number over phone",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Immoweb 看房電話預約普遍（法規禁止篩選歧視但房仲會問入住人數、起租日與養寵）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "usually_asked": [
+        "Property address or Immoweb/Zimmo reference",
+        "Preferred viewing slot (bezoekmoment)",
+        "Household size, target move-in date, and lease type (3-6-9 vs short-term)",
+        "Full name, mobile, and email"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agency requires filling online candidate fiche on website before viewing",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests deposit before viewing",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市政廳（Gemeentehuis / Commune）多有語言或部門按鍵且辦證採預約制；托嬰（Kinderopvang / Crèche）可電話問。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Municipal procedure or crèche/school tour",
+        "Child expected birth/start date and days per week",
+        "Municipality",
+        "Caller name and phone"
+      ],
+      "may_come_up": [
+        {
+          "what": "Flanders crèches often require registering via central municipal Kinderopvangpunt",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Switchboard uses keypad menu",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks Rijksregisternummer / Numéro national or birth date",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "nl": {
+      "party": [
+        "tafel voor 4",
+        "2 volwassenen en 1 kind",
+        "met z'n drieën",
+        "voor 2 personen",
+        "4 pers.",
+        "5 volwassenen + kinderstoel",
+        "1 persoon",
+        "groep van 8"
+      ],
+      "time": [
+        "om half acht 's avonds",
+        "19u30",
+        "kwart voor zeven",
+        "kwart over twaalf",
+        "'s middags om 12u30",
+        "rond 20u",
+        "morgenochtend 10u",
+        "18:00"
+      ],
+      "date": [
+        "morgen",
+        "overmorgen",
+        "deze vrijdag",
+        "volgende dinsdag",
+        "25 november",
+        "25/11",
+        "zaterdagavond"
+      ],
+      "name": [
+        "op naam van Jan Peeters",
+        "Mieke Janssens",
+        "Wouter Maes",
+        "Sofie Van den Berg",
+        "familie Jacobs"
+      ],
+      "phone": [
+        "0470 12 34 56",
+        "0470123456",
+        "mijn gsm 0486 98 76 54",
+        "02 123 45 67"
+      ],
+      "booking_words": [
+        "tafel reserveren",
+        "boeken",
+        "plaats vrijhouden",
+        "kamer boeken",
+        "padelplein reserveren"
+      ],
+      "appointment_words": [
+        "afspraak maken",
+        "tandarts afspraak",
+        "kapper boeken",
+        "onderhoud auto",
+        "ketelonderhoud"
+      ],
+      "order_words": [
+        "bestellen om af te halen",
+        "afhaal",
+        "opzij leggen",
+        "op voorraad houden",
+        "voorbestellen"
+      ],
+      "change_words": [
+        "afspraak verzetten",
+        "een halfuur later",
+        "reservatie annuleren",
+        "uur wijzigen",
+        "afzeggen"
+      ],
+      "inquiry_words": [
+        "vragen of ze open zijn",
+        "betalen met kredietkaart mogelijk?",
+        "honden toegelaten?",
+        "voorraad checken",
+        "prijs vragen"
+      ],
+      "false_friends": [
+        "bus 4",
+        "2e verdieping",
+        "menu voor 2",
+        "60 min massage",
+        "pak van 6",
+        "lijn 3"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4",
+        "2 adultes et 1 enfant",
+        "nous sommes 3",
+        "pour 2 personnes",
+        "5 pers. + chaise haute",
+        "groupe de 6"
+      ],
+      "time": [
+        "19h30",
+        "midi et demi",
+        "sept heures et demie",
+        "20h",
+        "quatre heures moins quart",
+        "demain à 10h"
+      ],
+      "false_friends": [
+        "boîte 3",
+        "2e étage",
+        "menu pour 2",
+        "soin 60 min"
+      ]
+    },
+    "de": {
+      "party": [
+        "Tisch für 4",
+        "2 Erwachsene 1 Kind",
+        "zu dritt",
+        "für 2 Personen",
+        "5 Personen",
+        "6er Gruppe"
+      ],
+      "time": [
+        "halb acht abends",
+        "19:30 Uhr",
+        "12:30 Uhr",
+        "viertel nach sechs",
+        "20 Uhr",
+        "morgen um 10"
+      ],
+      "false_friends": [
+        "2. Stock",
+        "Menü für 2",
+        "60 Min Massage",
+        "Hausnummer 4"
+      ]
+    }
+  }
+}

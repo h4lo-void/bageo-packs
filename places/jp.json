@@ -1,0 +1,982 @@
+{
+  "region": "jp",
+  "countries": [
+    "jp"
+  ],
+  "region_name_zh": "日本",
+  "region_name": "Japan",
+  "languages": [
+    {
+      "code": "ja",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "fallback"
+    }
+  ],
+  "ai_language_tip": "Speak standard Japanese (標準語). If heavy rural dialect is unclear, politely ask to repeat slowly in Japanese; try English only at international hotels or tourist desks.",
+  "english_ok": "rarely; international hotels, airport desks, and major tourist venues sometimes handle English, while local shops, clinics, and offices speak Japanese only.",
+  "politeness": "Use polite Teineigo/Keigo (丁寧語); open with greeting, caller or proxy role (代理), and purpose; confirm details at end before standard closing (失礼いたします).",
+  "name_tip": "Surname (苗字) suffices for casual dining and taxis; clinics, hotels, salons, and offices require full name plus Katakana reading (フリガナ), e.g., 山田太郎 (ヤマダタロウ).",
+  "phone_tip": "Mobile 090-1234-5678, landline 03-1234-5678; group digits with particle no (の) at hyphens; confirmations use SMS (ショートメッセージ) or official LINE accounts.",
+  "time_tip": "Both 12-hour (午後7時) and 24-hour (19時) used; confirm date with day-of-week (何月何日何曜日) and restate 24-hour time to prevent AM/PM errors.",
+  "number_tip": "1 (いち) and 7 (しち) sound alike—say なな for 7 and よん for 4; watch irregular counters like 1人 (ひとり), 2人 (ふたり), 4人 (よにん).",
+  "avoid_calling": "Avoid restaurant peak meal hours (11:30–13:30, 18:00–21:00), clinic morning check-in rush (08:30–09:30), and calls outside posted reception hours.",
+  "closed_days": "Restaurants often close Mon/Tue or Wed; salons Tue; clinics Thu/Sun/afternoon; widespread closures during Obon (mid-Aug), New Year (Dec 29–Jan 3), and Golden Week.",
+  "booking_channels": "Online dominates via Tabelog, Hot Pepper Beauty, EPARK, Jalan, Rakuten; casual ramen shops, chains, and popular eateries often reject phone bookings.",
+  "voice_menu": "Support lines, couriers, utilities, big hospitals, city halls, and hotel chains use keypad IVR (自動音声ガイダンス); AI cannot press keys and may get stuck.",
+  "callback_habits": "Small shops, repairers, and clinics call back missed or pending requests; salons, hotels, and upscale restaurants may call or SMS day before (前日確認).",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "拉麵店、平價連鎖店多不接受預約，高級料亭或主廚套餐常要求綁定信用卡或預付，並請避開午晚餐尖峰時段撥打。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "allergy",
+        "backup",
+        "kids_detail",
+        "seating_pref",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Preferred date and arrival time (ご希望の日時)",
+        "Party size and adult/child breakdown (何名様・お子様の有無)",
+        "Course menu or seat-only booking (コース・お席のみ)",
+        "Seating preference such as counter, table, or private room (カウンター・テーブル・個室) and smoking rule",
+        "Reservation name (お名前) and contact phone number (お電話番号)",
+        "Food allergies or disliked ingredients (アレルギー・苦手な食材) at mid-to-upscale venues"
+      ],
+      "may_come_up": [
+        {
+          "what": "Two-hour seating turnover limit during busy evenings (2時間制)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Mandatory table appetizer charge (お通し代) or private room fee (個室料)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Requested slot full and nearby time offered (別のお時間のご提案)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Advance course selection required instead of seat-only booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card guarantee or advance online payment for high-end courses (カード番号・事前決済)",
+          "handle": "decline"
+        },
+        {
+          "what": "Agreement to cancellation fee policy without upfront card hold (キャンセル料規定の同意)",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型綜合醫院初診常需介紹信（紹介状）否則加收高額選定療養費，且診所常問出生年月日核對病歷，AI無法代答生日。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "visit_type",
+        "item",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "backup",
+        "staff_pref",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "First visit or returning patient (初診・再診) and patient chart number (診察券番号)",
+        "Symptoms, affected area, or checkup purpose (症状・診察内容) and fever status (発熱の有無)",
+        "Patient full name and Katakana reading (患者様のお名前・フリガナ)",
+        "Preferred appointment date and time slot (ご希望の日時)",
+        "Reminder to bring My Number or health insurance card (マイナ保険証・資格確認書) and referral letter (紹介状)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Fever patients routed to separate isolation hours (発熱外来) or declined",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Walk-in order only with no timed phone booking (来院順受付)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Extra surcharge without referral letter at large hospitals (選定療養費)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Patient date of birth for registration or chart lookup (生年月日)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Health insurance card number or My Number over phone (保険証番号・マイナンバー)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "often",
+      "before_dialing_zh": "多數店家以Hot Pepper Beauty網路預約為主且優惠較多，指定設計師或卸甲常有額外費用與時長差異。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "item",
+        "visit_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "staff_pref",
+        "backup",
+        "duration"
+      ],
+      "usually_asked": [
+        "First-time or returning client (ご新規様・再来)",
+        "Service menu details (ご希望メニュー) including nail removal (オフの有無) or course length",
+        "Preferred date and start time (ご希望の日時)",
+        "Stylist or therapist nomination or gender preference (ご指名・男女希望)",
+        "Client full name with reading (お名前・フリガナ) and phone number (お電話番号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stylist nomination fee (指名料) or long-hair surcharge (ロング料金)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Solo stylist busy with client and asks to rebook via LINE or web",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Pregnancy, allergy, or skin condition check before treatment (体調・お肌の確認)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Date of birth to locate existing member record (生年月日)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Advance deposit or card hold for long high-price courses (事前決済・予約金)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "often",
+      "before_dialing_zh": "原廠客服與大型家電品牌多有按鍵式語音選單AI無法操作，建議改打街邊維修店、民間車廠或地區服務站直線。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "address",
+        "backup",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Product category, manufacturer, model code, or car model/year (メーカー・型番・車種)",
+        "Specific malfunction symptoms or error codes (症状・エラー表示)",
+        "Warranty coverage and purchase store or date (保証書・購入店舗)",
+        "In-store drop-off vs on-site visit (持ち込み・出張修理) and preferred date/time (ご希望日時)",
+        "Customer name, phone number, and address if on-site (お名前・お電話番号・ご住所)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Diagnostic or call-out fee charged even if repair is declined (見積もり料・出張費)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Consent warning that phone/PC data may be erased during repair (データ消去の同意)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Loaner car availability check for vehicle service (代車の有無)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Device screen passcode or account password over phone (パスコード・パスワード)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Upfront credit card payment before technician dispatch (事前カード決済)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型速食與連鎖餐飲多改用App預訂或外送平台，獨立便當店、披薩店、壽司與中華料理較常接電話外帶。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Store pickup vs local shop delivery (お持ち帰り・出前)",
+        "Exact menu items, sizes, options, and quantities (ご注文内容・個数)",
+        "Desired pickup or delivery time (お受け取り時間・お届け時間)",
+        "Need for disposable chopsticks, utensils, or paid carrier bag (お箸・レジ袋の有無)",
+        "Customer surname, phone number, and address if delivery (お名前・お電話番号・ご住所)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Item sold out and substitute item suggested (品切れ・代替メニュー)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Kitchen rush causing longer preparation wait than requested time (待ち時間延長)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Minimum order amount or delivery zone limit for shop delivery (配達エリア・最低金額)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Apartment auto-lock PIN code for delivery entry (オートロック暗証番号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Advance payment or transfer required for large bento orders (事前支払い・振込)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "限量品、熱門動漫周邊或特價品通常禁止電話預留（取り置き不可），大型量販店也可能有按鍵式語音選單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Product title, JAN/ISBN code, model number, color, or size (商品名・JAN/ISBN・型番・サイズ)",
+        "Desired quantity (数量) followed by hold wait while staff checks stock (在庫確認のため保留)",
+        "In-store stock hold vs distributor backorder (お取り置き・お取り寄せ)",
+        "Planned pickup date within store hold limit (ご来店予定日・取り置き期限)",
+        "Customer full name and phone number (お名前・お電話番号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Short hold limit such as end of day or 3–7 days before auto-release (取り置き期限)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Strict no-cancellation rule once special backorder is placed (取り寄せ後のキャンセル不可)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Store policy prohibiting phone holds on limited or sale goods (取り置き不可)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Advance deposit or bank transfer required to place backorder (内金・事前振込)",
+          "handle": "decline"
+        },
+        {
+          "what": "Member card PIN or date of birth check (暗証番号・生年月日)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "透過食べログ、じゃらん等平台預訂且過了網路修改期限時通常必須打電話，當日或前日取消常會產生取消費。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "backup"
+      ],
+      "usually_asked": [
+        "Whether rescheduling, changing headcount, or cancelling (ご予約の変更・キャンセル)",
+        "Original reservation date, time, and booked name (現在のご予約日時・お名前)",
+        "Registered contact phone or booking reference code (お電話番号・予約番号)",
+        "New preferred date, time, or headcount if changing (変更後の日時・人数)",
+        "Brief reason if cancelling on short notice (差し支えなければ理由)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Cancellation penalty applies and billing method is explained (キャンセル料の発生)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "OTA-booked reservation still requires cancellation click on platform (予約サイト側の操作案内)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Booking not found initially due to Kanji vs Katakana/Romaji name spelling",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demand for immediate bank transfer or card number during call for cancellation fee",
+          "handle": "decline"
+        },
+        {
+          "what": "Date of birth verification for clinic or hotel booking change (生年月日確認)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "尖峰用餐或看診時段店家常無暇細答，若問當下有無空位成功後想直接保留，可一併交代預計抵達時間與人數。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec",
+        "pet_detail",
+        "contact"
+      ],
+      "usually_asked": [
+        "Specific topic of inquiry (お問い合わせ内容)",
+        "Planned arrival time and party size if asking about walk-in seats (何時頃・何名様)",
+        "Car size and roof height if asking about parking (車種・車高制限の確認)",
+        "Pet breed, weight, and carrier/stroller use if asking about pet policy (犬種・体重・ケージ有無)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Staff offers to hold seats immediately if arriving soon (お席をおさえましょうか)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Brief hold while staff checks floor, kitchen, or stockroom (少々お待ちください)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Busy staff directs caller to check website or Instagram notice",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Occasional member birth date or ID check for member-only inquiries (生年月日・会員番号)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商務連鎖飯店常有語音選單且官網訂房較便宜，外國旅客入住依法需現場出示護照，電話中AI絕不報護照號。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "allergy",
+        "kids_detail",
+        "spec",
+        "budget",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Check-in date and number of nights or check-out date (ご宿泊日・泊数)",
+        "Guest count, male/female split at ryokans, and children's ages/bed-sharing (人数・男女内訳・添い寝年齢)",
+        "Room type, smoking/non-smoking, and meal plan (お部屋タイプ・禁煙喫煙・素泊まり/2食付き)",
+        "Estimated arrival time, crucial for ryokan dinner cutoff (ご到着予定時刻)",
+        "Parking or station shuttle need (駐車場・送迎バス) and guest name, reading, phone, or address"
+      ],
+      "may_come_up": [
+        {
+          "what": "Strict dinner cutoff requiring check-in before 17:00 or 18:00 at ryokans (夕食最終時間)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "On-site hot spring tax (入湯税) or accommodation tax (宿泊税) notice",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Free shuttle pickup booking from nearest train station (送迎予約)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number for booking guarantee or advance payment (クレジットカード番号・事前決済)",
+          "handle": "decline"
+        },
+        {
+          "what": "Passport number or date of birth requested over phone (パスポート番号・生年月日)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "密室逃脫與熱門體驗課多強制官網購票，KTV與高爾夫球場可電話預約但常依時段、會員身分與包廂計價。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "guests",
+        "duration",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup",
+        "kids_detail",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Desired date, start time, and duration or free-time pack (ご希望日時・利用時間・フリータイム)",
+        "Participant count and student/child breakdown (人数・学生やお子様の有無)",
+        "Course plan, karaoke machine preference, or rental gear need (プラン・DAM/JOYSOUND・レンタル)",
+        "Representative full name, phone number, and member status (代表者名・お電話番号・会員有無)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Mandatory one-drink order or drink-bar fee per guest (ワンドリンク制・ドリンクバー必須)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Weather cancellation rule for outdoor golf, court, or BBQ (雨天時の規定)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Youth curfew and ID check after 22:00 at karaoke/arcades (深夜年齢確認・補導条例)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Advance bank transfer or card payment for group charter or workshop (事前振込・前払い)",
+          "handle": "decline"
+        },
+        {
+          "what": "Participant dates of birth for activity insurance registration (生年月日)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "務必先提供完整地址與車位狀況，開鎖服務現場會嚴格查驗載有該地址的本人身分證件否則不予施工。",
+      "for_whom_matters": true,
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact trouble or cleaning details, e.g., AC auto-clean feature or leak state (作業内容・お掃除機能有無・水漏れ状況)",
+        "Full address, house vs apartment, floor, and elevator access (ご住所・戸建て/集合住宅・階数・エレベーター)",
+        "Preferred visit window or emergency dispatch request (ご希望日時・緊急対応)",
+        "On-site parking availability or nearby coin parking (駐車スペースの有無)",
+        "Client full name, phone number, and owner vs renter status (お名前・お電話番号・賃貸/持ち家)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Client billed actual cost of nearby coin parking if no parking space (コインパーキング代実費負担)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Call-out fee, on-site estimate surcharge, or night surcharge (出張費・夜間割増)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Renter advised to contact building management company first for plumbing/locks (管理会社への確認案内)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Field technician will call back directly with arrival window (作業員からの折り返し連絡)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Building auto-lock PIN code or key-box code over phone (オートロック・キーボックス暗証番号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "ID card or driver's license number requested over phone for locksmith (身分証番号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Upfront transfer or card hold required before dispatch (事前振込・事前決済)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "寵物美容與寄宿幾乎必查狂犬病與混合疫苗一年內接種證明，高齡或未結紮寵物可能被婉拒或加價。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "item",
+        "visit_type",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup",
+        "checkin_out",
+        "staff_pref",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "First visit or returning pet and chart number (初診・カルテ番号)",
+        "Species, breed, weight, age, sex, and spay/neuter status (種類・品種・体重・年齢・去勢避妊)",
+        "Symptoms, grooming course, or boarding check-in/out dates (診察内容・トリミング内容・お預かり日程)",
+        "Proof of rabies and mixed vaccination within one year (狂犬病・混合ワクチン接種証明書の有無)",
+        "Owner full name with reading and phone number (飼い主様のお名前・お電話番号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Senior pet age limit or required pre-checkup before grooming/boarding (シニア制限・事前診察)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Extra fee for matted coat, fleas, or two-person handling (毛玉料金・保定料金)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Instruction to bring vaccine certificates, usual food, or stool sample (証明書・フード持参)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Pet insurance policy number over phone (ペット保険証券番号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Advance deposit for peak-season pet hotel booking (予約金・前払い)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "ヤマト運輸、佐川急便與日本郵便客服專線多為按鍵式語音選單AI無法操作，有營業所或司機直撥手機才容易接通真人。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "address",
+        "pickup"
+      ],
+      "usually_asked": [
+        "12-digit tracking slip, repair tag, or order number (伝票番号・お問い合わせ番号・受付番号)",
+        "Recipient or customer full name and contact phone (お届け先のお名前・お電話番号)",
+        "Delivery address to verify parcel match (お届け先ご住所)",
+        "Preferred redelivery date and two-hour time window (再配達希望日・時間帯指定)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Automated DTMF keypad system blocks call before human operator (自動音声・プッシュ操作必須)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Unattended doorstep or delivery-box drop-off option offered (置き配・宅配ボックス希望)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Storage period expiring soon at local depot before return to sender (保管期限切れ間近)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Date of birth, account password, or PIN to verify order owner (生年月日・暗証番号)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate phone card payment for customs duty or shipping fee",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "此類客服幾乎都有多層按鍵式語音選單且嚴格要求本人核對生日與密碼，AI通常無法撥入也無法通過本人確認。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "address",
+        "item"
+      ],
+      "usually_asked": [
+        "Keypad category routing via automated voice menu (自動音声ガイダンスでの番号選択)",
+        "Customer, contract, policy, or booking number (お客様番号・契約番号・予約番号)",
+        "Contract holder full name, registered phone, and address (ご契約者名・登録電話番号・ご住所)",
+        "Confirmation that caller is the contract holder in person (ご本人様確認)",
+        "Specific inquiry or procedure request (ご用件)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Strict privacy rule refusing account actions to proxy—only general FAQ answered (本人以外は手続き不可)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Blocked by keypad IVR or long hold on paid 0570 Navidial line (ナビダイヤル待ち時間)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Directed to self-service web My Page or app chat",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Date of birth, 4-digit PIN, credit card number, or SMS OTP (生年月日・暗証番号・カード番号・認証コード)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate payment or bank transfer during call for arrears or fees",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "市區計程車多改用GO或Uber叫車且部分車行有語音選單，電話叫車通常會加收迎車費（迎車料金）。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "dropoff_place",
+        "spec",
+        "kids_detail",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Immediate pickup vs timed reservation (今すぐ・時間指定予約) and date/time",
+        "Exact pickup address, building name, or landmark (お迎え場所・目印) and destination (行き先)",
+        "Passenger count, large luggage count, or child seat need (人数・スーツケース数・チャイルドシート)",
+        "Vehicle class, snow tires, or return branch/time for car rental (車種クラス・スタッドレス・返却日時)",
+        "Passenger surname and mobile number (お名前・携帯電話番号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pickup dispatch fee (迎車料金) or advance reservation fee (予約料金) added to fare",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "No cars available due to rain, late night, or peak demand (配車不可)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Optional CDW/NOC collision waiver insurance upsell on car rental (免責補償・NOC補償)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Reminder to bring valid Japanese license or 1949 Geneva IDP (免許証・国際免許証持参)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Advance credit card payment or transfer for airport charter (事前カード決済・振込)",
+          "handle": "decline"
+        },
+        {
+          "what": "Driver's license number or passport number over phone (免許証番号・パスポート番号)",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "外國籍租客在日本看房常需先確認房東是否接受外國人（外国籍相談可）及是否具備日文溝通能力，以免白跑一趟。",
+      "for_whom_matters": true,
+      "must_have": [
+        "item",
+        "time",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "backup",
+        "budget",
+        "reference_no",
+        "guests"
+      ],
+      "usually_asked": [
+        "Property name, unit number, or SUUMO/HOME'S inquiry code (物件名・号室・物件番号)",
+        "Preferred viewing date/time and meeting at agency vs property (内見希望日時・店舗集合/現地集合)",
+        "Desired move-in時期, occupant count, and pet/parking needs (入居希望時期・人数・ペット有無)",
+        "Applicant full name, Katakana reading, and contact phone (お名前・フリガナ・お電話番号)",
+        "Tenant nationality and Japanese communication ability when proxy calls (国籍・日本語対応可否)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Unit already under application (申込あり・募集終了) and agent invites office visit for alternatives",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Current tenant still occupying unit so interior viewing is unavailable (居住中のため内見不可)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Mandatory guarantor company or Japanese emergency contact requirement explained (保証会社・緊急連絡先条件)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Annual income, residence card number, or DOB during screening talk (年収・在留カード番号・生年月日)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Holding deposit transfer requested before viewing (手付金・預かり金の振込)",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "區役所與市役所總機常需轉接課室且涉及個資的個人案件限本人辦理，幼兒園參觀（園見学）則很常透過電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name_kana",
+        "allergy",
+        "time",
+        "kids_detail",
+        "address",
+        "backup"
+      ],
+      "usually_asked": [
+        "Target division or section for switchboard transfer (担当課・係への取り次ぎ)",
+        "Purpose of call such as procedure requirements, nursery tour (園見学), or school inquiry",
+        "Parent/resident name and child's age or month-age for nursery tours (保護者名・お子様の年齢/月齢)",
+        "Town or ward of residence to verify municipal jurisdiction (お住まいの区・町名)",
+        "Preferred tour or consultation date/time and callback phone (ご希望日時・お電話番号)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Switchboard transfers call across divisions with hold wait (担当窓口へ転送)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Personal record lookup refused to proxy without written power of attorney (本人限定・委任状必要)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Nursery asks to call back outside drop-off or nap hours (登降園・午睡時間帯の回避)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "My Number, resident code, student ID PIN, or date of birth (マイナンバー・生年月日)",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ja": {
+      "party": [
+        "4名",
+        "4人",
+        "大人2名 子供1名",
+        "大人2人・子ども2人（幼児1）",
+        "おとな3、こども1",
+        "2名様",
+        "ひとり",
+        "1人です",
+        "ふたり",
+        "親子3人",
+        "大人4名＋ベビーカー1台",
+        "計5名（うち小学生2名）"
+      ],
+      "time": [
+        "19時",
+        "19:00",
+        "19時半",
+        "19:30",
+        "午後7時",
+        "夜7時",
+        "夕方6時ごろ",
+        "午前10時",
+        "朝9時半",
+        "お昼12時",
+        "18時〜18時半の間",
+        "今から30分後"
+      ],
+      "date": [
+        "明日",
+        "あさって",
+        "今日",
+        "今度の土曜",
+        "来週の金曜日",
+        "11月25日",
+        "11/25(水)",
+        "今月末",
+        "三連休の初日",
+        "明後日の夜"
+      ],
+      "name": [
+        "山田で",
+        "山田太郎でお願いします",
+        "名前：山田太郎（ヤマダタロウ）",
+        "予約名はヤマダ",
+        "山田花子名義で",
+        "代表者：山田太郎",
+        "カタカナでヤマダでOK"
+      ],
+      "phone": [
+        "090-1234-5678",
+        "09012345678",
+        "連絡先は090-1234-5678",
+        "電話：03-1234-5678",
+        "携帯 090の1234の5678",
+        "折り返し先 090-1234-5678"
+      ],
+      "booking_words": [
+        "予約",
+        "席だけ予約",
+        "お席の確保",
+        "コース予約",
+        "宿泊予約",
+        "部屋を押さえる",
+        "個室予約",
+        "貸切予約"
+      ],
+      "appointment_words": [
+        "診察予約",
+        "初診予約",
+        "受診予約",
+        "カット予約",
+        "施術予約",
+        "内見予約",
+        "園見学の申し込み",
+        "出張見積もり予約"
+      ],
+      "order_words": [
+        "テイクアウト",
+        "持ち帰り予約",
+        "出前",
+        "デリバリー",
+        "取り置き",
+        "取り寄せ",
+        "在庫確保",
+        "弁当の注文"
+      ],
+      "change_words": [
+        "予約変更",
+        "日時変更",
+        "リスケ",
+        "時間をずらす",
+        "人数変更",
+        "キャンセル",
+        "取り消し",
+        "予約を取り消す"
+      ],
+      "inquiry_words": [
+        "空き状況確認",
+        "今日空いてるか聞く",
+        "在庫確認",
+        "営業時間を確認",
+        "問い合わせ",
+        "待ち時間を聞く",
+        "ペット同伴できるか確認"
+      ],
+      "false_friends": [
+        "2時間飲み放題コース",
+        "もみほぐし60分",
+        "ランチ3番セット",
+        "黒毛和牛A5コース",
+        "渋谷109の近く",
+        "ビルの3階",
+        "ラーメン二郎",
+        "三代目鳥メロ",
+        "一風堂",
+        "1泊2日"
+      ]
+    }
+  }
+}

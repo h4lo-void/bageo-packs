@@ -1,0 +1,1093 @@
+{
+  "region": "us",
+  "countries": [
+    "us"
+  ],
+  "region_name_zh": "美國",
+  "region_name": "the United States",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "es",
+      "use": "secondary"
+    },
+    {
+      "code": "cmn",
+      "use": "fallback"
+    }
+  ],
+  "ai_language_tip": "Default to American English. Switch to Spanish if staff speak Spanish, or Mandarin at Chinese-run businesses. If staff speak Cantonese, Vietnamese, or Korean, use simple, slow English.",
+  "english_ok": "often; universal nationwide, except some immigrant-run restaurants, nail salons, or contractors where Spanish, Cantonese, Vietnamese, or Korean is primary and English may be basic.",
+  "politeness": "Friendly, upbeat, direct. Open with brief greeting and request (Hi, I'm calling to...), mention calling as owner's assistant naturally, and close warmly (Thanks so much, have a great day).",
+  "name_tip": "Casual dining and takeout take first name (Alex); clinics, hotels, and offices require first and last name (Alex Smith) spelled using everyday words (S as in Sam).",
+  "phone_tip": "10-digit format (555) 010-0123 spoken in 3-3-4 groups; 0 often read (oh) in area codes or (zero) for clarity. Confirmations mostly use SMS text or email.",
+  "time_tip": "12-hour clock with AM/PM is universal; 24-hour time confuses staff. Confirm weekday, month, date, AM/PM, and local time zone for cross-state hotels or travel.",
+  "number_tip": "13-19 versus 30-90 (fifteen vs fifty) confuse easily on phones; stress (-teen) vs (-ty) or spell digits (one-five). Clarify homophones (two/to, four/for).",
+  "avoid_calling": "Avoid restaurant rushes (12:00-13:30, 18:00-20:00); some fine-dining lines open only after 14:00. Clinics and offices often break 12:00-13:00 and close strictly at 17:00.",
+  "closed_days": "Many independent restaurants close Mondays; clinics, banks, and government offices close weekends. Widespread closures on Thanksgiving, Christmas Day, New Year's Day, Easter, and July 4th.",
+  "booking_channels": "Restaurants rely heavily on OpenTable, Resy, Tock, or Yelp Waitlist; salons use Vagaro, Booksy, or GlossGenius; clinics use Zocdoc or MyChart; casual spots take walk-ins only.",
+  "voice_menu": "Pharmacies, clinics, airlines, banks, utilities, couriers, big-box stores, dealerships, and restaurants using Toast or automated hosts commonly play DTMF menus before live staff.",
+  "callback_habits": "Businesses rely heavily on automated SMS texts (Reply C to confirm) and email links. When unanswered, leaving a concise voicemail with callback number is standard practice.",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "美國大城市熱門餐廳常只收 Resy、OpenTable 或 Tock 線上綁卡訂位，且不少餐廳電話會先接自動語音選單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "kids_detail",
+        "seating_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "Total headcount including children and highchair or booster needs (party of how many, any highchairs)",
+        "Desired date and dining time (for what day and time)",
+        "Seating preference: indoor dining room, patio, booth, or bar (indoor or patio, booth or table)",
+        "First and last name for the reservation (under what name)",
+        "10-digit cell number for SMS confirmation text (best number for text confirmation)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Takes reservations exclusively online via Resy, OpenTable, or Tock",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Parties of 6+ incur automatic 18%-20% gratuity or per-person late-cancel fee (auto-gratuity)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Walk-in only or Yelp Waitlist join when nearby (walk-ins only, no reservations)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Automated restaurant phone tree requires pressing a key to reach host stand",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks about food allergies or special occasions like birthdays (any allergies or celebrations)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over phone to guarantee large-party or tasting-menu booking",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "美國診所與牙醫幾乎都有按鍵語音選單，預約必問生日與醫療保險卡號（AI 不會提供），且受 HIPAA 隱私法限制他人代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "visit_type",
+        "time",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "usually_asked": [
+        "New or established patient status (new patient or returning patient)",
+        "Patient full legal name and spelling (first and last name)",
+        "Patient date of birth to locate or create chart (date of birth)",
+        "Medical or dental insurance carrier and plan type, or self-pay (what insurance, PPO or HMO)",
+        "Reason for visit, symptoms, or routine cleaning/physical (reason for the appointment)",
+        "Callback mobile number and email for digital intake forms (phone number and email)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Clinic phone system requires DTMF keypresses for scheduling vs billing vs nurse",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Front desk refuses to schedule without date of birth and insurance member ID",
+          "handle": "owner_only"
+        },
+        {
+          "what": "HIPAA rules limit sharing an adult patient's details without consent",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Long wait for new MD patients; offers nurse practitioner (NP) or physician assistant (PA) sooner",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Patient date of birth, insurance member/group ID, or SSN",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Credit card on file for late-cancellation policy",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Home billing address when owner did not write it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "often",
+      "before_dialing_zh": "高價髮廊與個人工作室常要求在 Vagaro、Booksy 線上綁信用卡防爽約；街邊美甲店、傳統理髮店與按摩館則很常接電話預約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "time",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "backup"
+      ],
+      "usually_asked": [
+        "Specific service needed: haircut, balayage, gel manicure, acrylic fill, or deep tissue (what service today)",
+        "Preferred stylist, barber, nail technician, or therapist (anyone specific or first available)",
+        "New or returning client, plus hair length/history for color appointments (been here before)",
+        "Preferred date and appointment time (what day and time works)",
+        "First and last name plus mobile number for SMS reminder (name and cell number)"
+      ],
+      "may_come_up": [
+        {
+          "what": "24- or 48-hour late-cancellation fee policy requiring owner agreement",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Major color change or extensions require prior in-person consultation first",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Independent stylist screens calls to voicemail and texts online booking link",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Nail salon notes cash discount or cash-only tipping rule (cash only for tips)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over phone to hold appointment on file",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate Zelle, Venmo, or Cash App deposit right now",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "often",
+      "before_dialing_zh": "原廠經銷商（Dealership）與大型連鎖店多有按鍵語音選單，家電到府必收檢測費；獨立修車廠與手機維修店最容易直接電話預約。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "visit_type",
+        "backup",
+        "address",
+        "budget"
+      ],
+      "usually_asked": [
+        "Vehicle year, make, model, and symptoms, or device/appliance brand and model (year make model, issue)",
+        "Dropping vehicle off for the day vs waiting at the shop (dropping off or waiting)",
+        "Preferred date and morning drop-off or arrival window (what day can you bring it by)",
+        "Stock check for screen, battery, or tire size (let me check if part is in stock)",
+        "Full name, callback number, and street address if home appliance visit"
+      ],
+      "may_come_up": [
+        {
+          "what": "Diagnostic or service-call fee ($80-$200) applied toward final repair if approved",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Auto shop requires morning drop-off and keeping car all day (no waiter slots left)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Car dealership or national chain hotline requires DTMF keypress for Service Department",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Shop asks for 17-character VIN to check recall or exact OEM part",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Phone passcode or Apple/Google password for repair testing",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Home address for appliance technician when owner did not write it",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Credit card number over phone to prepay special-order parts",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "越來越多美國餐廳電話先播按鍵語音導向線上點餐，且店家外送或大單常要求電話刷卡才做餐（AI 不能給卡號）；獨立餐廳自取較常到店付。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "usually_asked": [
+        "Pickup or delivery, plus street address and zip code if delivery (pickup or delivery)",
+        "Exact items, sizes, sides, dressings, meat temperature, or spice level (what side, how cooked)",
+        "Order readback with estimated ready time and total with tax (ready in 20 minutes)",
+        "Whether paying at counter upon pickup or by card now (paying at pickup)",
+        "First name and 10-digit phone number for the ticket (name and phone number)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Restaurant requires credit card payment over phone before sending order to kitchen",
+          "handle": "owner_only"
+        },
+        {
+          "what": "No in-house delivery; directs caller to DoorDash, Uber Eats, or Grubhub",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Item 86'd (sold out) or upcharge for side/modifier substitution",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Automated Toast or restaurant phone menu requires pressing a digit to order",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number, expiry, CVV, and billing zip code over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Delivery address when owner did not provide it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型連鎖賣場（Target、Home Depot、Best Buy）電話全進按鍵選單或客服中心；獨立書店、五金行、花店與烘焙坊較適合電話問庫存留貨。",
+      "for_whom_matters": false,
+      "must_have": [
+        "spec",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "pickup",
+        "substitute",
+        "budget"
+      ],
+      "usually_asked": [
+        "Exact product name, brand, SKU/ISBN, size, or color and quantity (item name or SKU, how many)",
+        "Brief hold while associate checks physical shelf inventory (let me check the floor for you)",
+        "Pickup timing, usually held at register until closing today (hold until end of day)",
+        "Customer first and last name plus phone number for hold tag (under what name)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Chain retailer uses multi-layer DTMF department phone tree",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Store holds merchandise unpaid only until closing time same day",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Custom cake, floral order, or special order requires credit card payment upfront",
+          "handle": "owner_only"
+        },
+        {
+          "what": "High-demand item not eligible for phone holds; directs to online store pickup (BOPIS)",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over phone for prepayment or custom order",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "often",
+      "before_dialing_zh": "美國診所、沙龍與高價餐廳普遍有 24–48 小時內改期取消扣款規定；若原店家有語音選單或屬醫療紀錄，可能需本人處理。",
+      "for_whom_matters": false,
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "reference_no",
+        "backup"
+      ],
+      "usually_asked": [
+        "First and last name plus phone number on the booking (name and number on the reservation)",
+        "Original scheduled date and time (when were you booked for)",
+        "Whether rescheduling, changing guest count, or cancelling (rescheduling or cancelling)",
+        "Confirmation code if hotel, car rental, or ticketed venue (confirmation number)"
+      ],
+      "may_come_up": [
+        {
+          "what": "Inside 24- or 48-hour window; late cancellation fee applies to card on file",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Booked via Expedia, Booking.com, Resy, or OpenTable; must modify in app",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Medical office asks for patient date of birth before altering appointment",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Phone line starts with DTMF menu before reaching front desk",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Date of birth or last four card digits to verify identity",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "often",
+      "before_dialing_zh": "連鎖商店電話常先播放自動語音告知營業時間與地址並要求按鍵轉真人；獨立餐廳與小店則多由店員直接接聽回答。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec",
+        "pet_detail"
+      ],
+      "usually_asked": [
+        "Party size and ETA if asking current walk-in wait time (how many in your party)",
+        "Specific item brand, model, or size if checking stock or price (which exact item)",
+        "Whether animal is an ADA service dog or pet, and patio seating okay (patio is dog-friendly)",
+        "Whether caller wants to hold item or book a slot right away"
+      ],
+      "may_come_up": [
+        {
+          "what": "Recorded greeting states holiday hours/location then requires DTMF key for staff",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Health code permits pet dogs on outdoor patio only; ADA service animals allowed inside",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Parking rules such as street meters, valet price, or lot validation (do you validate)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Staff offers to reserve table or hold merchandise immediately",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": []
+    },
+    "hotel": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "美國連鎖飯店電話多進按鍵選單或中央訂房中心，且新訂房必留信用卡號擔保（AI 不能提供）；直通櫃檯的獨立旅館較適合電話備註需求。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "checkin_out",
+        "guests",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "room_type",
+        "kids_detail",
+        "reference_no",
+        "time",
+        "budget"
+      ],
+      "usually_asked": [
+        "Confirmation number or check-in and check-out dates (confirmation number, dates of stay)",
+        "Registered guest first and last name matching photo ID (last name on reservation)",
+        "Bed type preference like One King vs Two Queens, plus adult/child count",
+        "Request details: early check-in, late check-out, crib/pack-and-play, bell desk bag storage, or shuttle",
+        "Guest mobile number and email address"
+      ],
+      "may_come_up": [
+        {
+          "what": "Hotel automated switchboard requires pressing keys for Front Desk vs Reservations",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "New reservation requires credit card number on file to guarantee room",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Daily resort/destination fee, overnight parking charge, or early check-in fee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Check-in requires minimum age 21+ plus physical ID and credit card for incidentals hold",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "OTA reservation dates (Expedia, Booking.com) must be changed through the OTA",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number, expiration date, CVV, and billing zip code",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Home billing address when owner did not write it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "美國密室逃脫、保齡球、球場與體驗課多強制官網刷卡預付，且連鎖場館常有按鍵選單；社區高爾夫球場、獨立包廂或包場洽詢較能電話處理。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "duration",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Activity type, tee time, lane/court count, or private event inquiry (lanes, tee time, room size)",
+        "Requested date, start time, and duration in hours (what day and how long)",
+        "Total headcount and ages if venue turns 21+ at night or serves kids",
+        "Full name, phone number, and email for confirmation and waivers",
+        "Gear rental needs such as bowling shoes, golf cart, or paddles"
+      ],
+      "may_come_up": [
+        {
+          "what": "Venue requires online booking with full prepayment or card hold; no unpaid phone holds",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "All participants or parents must sign digital liability waiver before entry (waiver required)",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "21+ age limit with physical government ID enforced in evening hours",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Venue phone plays recorded hours/pricing with DTMF menu",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over phone to reserve lanes, tee time, or room",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "水電、冷氣（HVAC）、清潔、搬家與開鎖必須先寫完整地址與 Zip code，且美國水電冷氣行常確認是否為屋主本人；個體師傅常進語音信箱。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "time",
+        "address",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Service street address and 5-digit zip code to confirm territory (address and zip code)",
+        "Whether caller is the homeowner or a tenant (do you own or rent)",
+        "Issue or property specs: square footage, beds/baths, stairs, or urgency (sq ft, beds/baths)",
+        "Preferred 2- to 4-hour arrival window (morning 8-12 or afternoon 1-5 window)",
+        "Full name, cell number, and email for dispatch text alerts"
+      ],
+      "may_come_up": [
+        {
+          "what": "Dispatch/diagnostic fee ($69-$150) or after-hours emergency rate",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Contractor refuses service on rental home without property owner or manager approval",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Solo tradesperson goes to voicemail; expects message with zip code, issue, and callback number",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "House cleaning or moving estimate asks square footage and bedroom/bathroom count",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Gate code, garage keypad code, or smart lock PIN over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Credit card on file to lock in dispatch slot",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate Zelle or Venmo payment before technician arrives",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獸醫與寵物美容寄宿必查狂犬病（Rabies）與 Bordetella 疫苗紀錄，常問原獸醫診所名稱；大型連鎖如 PetSmart 多有按鍵語音選單。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref",
+        "checkin_out",
+        "backup"
+      ],
+      "usually_asked": [
+        "New or existing client status, plus owner first and last name (been here before, full name)",
+        "Pet name, species, breed, weight in pounds, age, and spay/neuter status (breed, weight in lbs)",
+        "Reason for vet exam, bath vs full haircut, or boarding dates (bath or full groom)",
+        "Rabies, DHPP, and Bordetella vaccine status, plus previous vet clinic name for records",
+        "Owner mobile number and email to submit vaccine paperwork"
+      ],
+      "may_come_up": [
+        {
+          "what": "Requires emailing or faxing proof of Rabies/Bordetella vaccines prior to appointment",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Boarding requires paid temperament evaluation day beforehand (temperament test / evaluation day)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Extra dematting fee, special handling fee, or new-patient vet exam deposit",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Chain pet store or multi-doctor animal hospital uses DTMF menu",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number over phone for new-patient vet deposit or boarding hold",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Owner home address for veterinary chart when owner did not write it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "UPS、FedEx、USPS 與大型網購專線皆為語音機器人或按鍵選單，包裹改時段多限官網帳號辦理；僅在地店家維修或訂貨進度適合打電話。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "time",
+        "address"
+      ],
+      "usually_asked": [
+        "Tracking number, order number, or work-order ticket number (tracking or ticket number)",
+        "Customer first and last name plus phone number on file (name and phone number)",
+        "Delivery street address and zip code, or dropped-off item description",
+        "Whether checking ready status or requesting hold for pickup"
+      ],
+      "may_come_up": [
+        {
+          "what": "National courier hotline blocks caller in automated IVR or DTMF menu",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Changing delivery time requires shipper authorization or online recipient account (UPS My Choice / FedEx)",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Local shop updates repair completion estimate or backordered part status",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Delivery or billing address when owner did not write it",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Credit card payment to schedule narrow delivery window or reroute package",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "no",
+      "before_dialing_zh": "美國電信、信用卡、水電瓦斯、航空與網購客服全有按鍵選單，且必驗帳戶 PIN、SSN 末四碼、生日或簡訊驗證碼，AI 無法代辦。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "question"
+      ],
+      "usually_asked": [
+        "DTMF phone tree prompts and keypad account entry (press 1, enter account number)",
+        "Confirmation that caller is the primary account holder or authorized user",
+        "Account PIN, SSN last four digits, date of birth, or SMS one-time passcode",
+        "Service or billing street address and zip code",
+        "Confirmation code (PNR), account number, or specific billing/service issue"
+      ],
+      "may_come_up": [
+        {
+          "what": "Blocked by mandatory DTMF voice menu before reaching human agent",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Agent refuses assistant discussion unless account holder comes on the line personally",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Extended hold queue lasting 20-60+ minutes",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "SSN or last four of SSN, date of birth, account PIN, or card number",
+          "handle": "owner_only"
+        },
+        {
+          "what": "One-time SMS or email verification code (2FA passcode)",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Billing address when owner did not write it",
+          "handle": "ask_owner"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "日常叫車多用 Uber 或 Lyft；連鎖租車行多有按鍵選單，地方計程車行與機場專車可電話預約，但機場專車常要求電話刷信用卡保留。",
+      "for_whom_matters": true,
+      "must_have": [
+        "item",
+        "time",
+        "pickup_place",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "dropoff_place",
+        "party",
+        "spec",
+        "kids_detail",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Pickup date, exact time, and full pickup address or airport terminal (pickup address, airline)",
+        "Drop-off address or airport, plus flight number for arrival tracking (flight number)",
+        "Passenger count, luggage count, or vehicle class like sedan, SUV, or minivan",
+        "Child car seat request, wheelchair van need, or driver age 25+ for rental cars",
+        "Passenger or primary renter full name and mobile number"
+      ],
+      "may_come_up": [
+        {
+          "what": "20% automatic driver gratuity, airport tolls, or inside meet-and-greet fee",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Airport car service requires credit card number on file to confirm dispatch",
+          "handle": "owner_only"
+        },
+        {
+          "what": "National rental chain (Enterprise, Hertz, Avis) uses DTMF menu to reach local counter",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Rental counter requires age 25+ (or young-driver fee), physical license, and major credit card",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Credit card number or driver's license number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Immediate Zelle or Venmo transfer during the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大型公寓社區（Leasing Office）電話常有按鍵選單或 AI 客服，看屋現場必驗駕照或護照；個人房東常先問月收倍數、信用分數與起租日。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question",
+        "party",
+        "pet_detail",
+        "budget"
+      ],
+      "usually_asked": [
+        "Specific unit, bedroom floor plan, or street address (which property or floor plan)",
+        "Target move-in date and desired lease term, typically 12 months (move-in date)",
+        "Preferred tour date and time, noting photo ID is required on arrival",
+        "Pet species, breed, and weight in lbs to check breed restrictions and pet rent",
+        "Prospective tenant full name, cell phone, and email address"
+      ],
+      "may_come_up": [
+        {
+          "what": "Pre-screens whether gross income meets 2.5x-3x rent and approximate credit score tier",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Dog breed/weight limits, one-time nonrefundable pet fee, plus $25-$75 monthly pet rent",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Large apartment community routes calls through DTMF menu or automated leasing bot",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Leasing office requires valid government photo ID before showing any unit",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Demands application fee or deposit via Zelle/wire before in-person tour (common scam)",
+          "handle": "decline"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "SSN, exact income/bank details, or driver's license number over phone",
+          "handle": "owner_only"
+        },
+        {
+          "what": "Advance Zelle, Venmo, or wire fee before touring property",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "美國政府機關與公立學校總機幾乎都有按鍵選單；中小學請假多轉請假語音信箱（Attendance voicemail），私立托兒所與小鎮公所直線較有真人接。",
+      "for_whom_matters": true,
+      "must_have": [
+        "for_whom",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question",
+        "time",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "DTMF menu selection for Attendance Line, Front Office, or municipal department",
+        "Student full name, spelling, grade, and teacher name for school absence",
+        "Caller name and verified parent/guardian relationship on school emergency list",
+        "Absence dates and reason or symptoms (fever, vomiting, doctor visit, family trip)",
+        "County/city residency or document type for general municipal procedure questions"
+      ],
+      "may_come_up": [
+        {
+          "what": "School attendance line routes straight to voicemail asking parent to record absence details",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "FERPA student privacy rules block discussing student records with non-guardians",
+          "handle": "owner_only"
+        },
+        {
+          "what": "City, county, or state agency requires multiple DTMF menu keypresses",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "DMV, passport facility, or clerk office requires booking appointment online first",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Student date of birth, student ID number, or citizen SSN/driver's license number",
+          "handle": "owner_only"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "party": [
+        "party of 4",
+        "table for 2",
+        "7 adults",
+        "2 adults 1 kid",
+        "4 ppl",
+        "me + 3",
+        "6 of us (including a baby in a highchair)",
+        "3 adults and 2 kids",
+        "just 1",
+        "group of 8"
+      ],
+      "time": [
+        "7pm",
+        "7:30 PM",
+        "around 6:30",
+        "noon",
+        "12:15pm",
+        "quarter past 5",
+        "half past 6",
+        "between 6 and 7 pm",
+        "10 in the morning"
+      ],
+      "date": [
+        "tomorrow",
+        "this Friday",
+        "next Saturday",
+        "Nov 25",
+        "12/3",
+        "tonight",
+        "the day after tomorrow"
+      ],
+      "name": [
+        "under Alex Smith",
+        "name: Jordan Taylor",
+        "put it under Alex",
+        "book under Sam Miller",
+        "use my name"
+      ],
+      "phone": [
+        "(555) 010-0123",
+        "555-010-0123",
+        "cell is 5550199876",
+        "use my US number 555-014-5678"
+      ],
+      "booking_words": [
+        "book a table",
+        "make a reservation",
+        "reserve",
+        "grab a spot",
+        "book a room",
+        "tee time",
+        "get on the waitlist"
+      ],
+      "appointment_words": [
+        "schedule an appointment",
+        "book a haircut",
+        "make a dental appointment",
+        "set up a service visit",
+        "get an estimate"
+      ],
+      "order_words": [
+        "order takeout",
+        "pickup order",
+        "to-go order",
+        "carryout",
+        "delivery",
+        "put on hold",
+        "check if in stock"
+      ],
+      "change_words": [
+        "reschedule",
+        "push back",
+        "move my appointment",
+        "cancel",
+        "change party size",
+        "bump it to"
+      ],
+      "inquiry_words": [
+        "ask if they're open",
+        "check wait time",
+        "see if they have",
+        "how much is",
+        "are dogs allowed",
+        "do they take walk-ins"
+      ],
+      "false_friends": [
+        "combo #3",
+        "for 2 hours",
+        "apt 4B",
+        "size 8",
+        "table 12",
+        "24/7",
+        "route 66",
+        "5 stars",
+        "party sub",
+        "2nd floor"
+      ]
+    },
+    "es": {
+      "party": [
+        "mesa para 4",
+        "somos 6",
+        "2 adultos y 1 niño",
+        "para dos personas",
+        "7 adultos",
+        "4 personas (con una silla de bebé)",
+        "para mí solo",
+        "un grupo de 8",
+        "3 adultos y 2 niños"
+      ],
+      "time": [
+        "a las 7 de la noche",
+        "7:30 pm",
+        "al mediodía",
+        "a las 2 de la tarde",
+        "como a las 6:30",
+        "a las 9 de la mañana",
+        "entre las 6 y las 7",
+        "a las cinco y media",
+        "1:15 de la tarde"
+      ],
+      "date": [
+        "mañana",
+        "este viernes",
+        "el próximo sábado",
+        "pasado mañana",
+        "el 25 de noviembre",
+        "esta noche",
+        "12/3"
+      ],
+      "name": [
+        "a nombre de Alex Smith",
+        "ponlo a nombre de María García",
+        "bajo Carlos López",
+        "usa mi nombre",
+        "nombre: Sofía Martínez"
+      ],
+      "phone": [
+        "(555) 010-0123",
+        "mi cel es 555-010-0123",
+        "teléfono 5550199876",
+        "deja el número 555-014-5678"
+      ],
+      "booking_words": [
+        "reservar",
+        "hacer una reservación",
+        "apartar una mesa",
+        "reservar habitación",
+        "anotarse en la lista de espera"
+      ],
+      "appointment_words": [
+        "hacer una cita",
+        "agendar cita",
+        "sacar cita con el dentista",
+        "pedir un estimado",
+        "programar servicio"
+      ],
+      "order_words": [
+        "pedir para llevar",
+        "ordenar comida",
+        "a domicilio",
+        "apartar",
+        "ver si tienen en existencia"
+      ],
+      "change_words": [
+        "cambiar la cita",
+        "reprogramar",
+        "posponer",
+        "cancelar",
+        "mover la reservación"
+      ],
+      "inquiry_words": [
+        "preguntar si están abiertos",
+        "cuánto tiempo de espera hay",
+        "cuánto cuesta",
+        "aceptan perros",
+        "tienen disponible"
+      ],
+      "false_friends": [
+        "combo #3",
+        "por 2 horas",
+        "piso 4",
+        "talla 8",
+        "depto 5",
+        "24 horas",
+        "mesa 10"
+      ]
+    }
+  }
+}
