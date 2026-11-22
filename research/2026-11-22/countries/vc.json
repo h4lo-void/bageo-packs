@@ -1,0 +1,87 @@
+{
+  "country": "vc",
+  "parent": "us",
+  "name": {
+    "en": "Saint Vincent and the Grenadines",
+    "native": "Saint Vincent and the Grenadines",
+    "zh": "聖文森及格瑞那丁"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day",
+    "hello_again": "Good day, hello?"
+  },
+  "delivery": {
+    "en": "Collect at SVG Postal Corporation with a valid photo ID; letter boxes can be rented in Kingstown",
+    "zh": "到聖文森郵政憑有照片的證件領件；Kingstown 等地也可租用私用信箱"
+  },
+  "readback": {
+    "en": "A 784 number is grouped 3-3-4; 0 as zero; East Caribbean dollars; a.m. or p.m.; day before month",
+    "zh": "784 號碼照 3-3-4 唸，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A hacked WhatsApp chat claiming you won money, or telling you to send funds by Zelle, is a scam",
+    "zh": "被盜的 WhatsApp 說你贏了錢，或叫你用 Zelle 匯款，都是詐騙"
+  },
+  "habits": {
+    "en": "Good day with strangers. Say mobile, not cell. Local payments are not Zelle; scammers may still name it. Day first.",
+    "zh": "對生人說 Good day。說 mobile 不說 cell。本地通常不用 Zelle，詐騙者卻可能提到。"
+  },
+  "stall_local": {
+    "en": "I still need a passport or national ID at the Kingstown post office, and the bank app is frozen.",
+    "zh": "到 Kingstown 郵局領件還得出示護照或國民身分證，而且銀行 App 當住了。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "account number"
+    ],
+    "delivery": [
+      "SVG Postal Corporation",
+      "photo ID",
+      "letter box",
+      "Kingstown"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "不是聖文森日常轉帳工具；警方警示裡它是詐騙者要求的匯款方式"
+      }
+    },
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件；這裡是郵政窗口憑證件或租用信箱"
+      }
+    },
+    {
+      "word": "checking account",
+      "reason": {
+        "zh": "美式活存名稱，當地較常直接說帳戶"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局，不是本地詐騙文裡的機關"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Polite Caribbean English, not mainland US slang. Stay calm if a chat mentions winnings or Zelle; use SVG Postal Corporation and East Caribbean dollar terms.",
+    "zh": "用客氣的加勒比英語，不要美國口語。若對話提到中獎或 Zelle，語氣保持穩住。郵務與金額用聖文森郵政、東加勒比元。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://security.gov.vc/security/images/stories/Press_Release_021224_WhatsApp_Phishing_Scam_Alert.pdf",
+    "https://svgpost.gov.vc/svgpost/index.php/services/"
+  ],
+  "uncertain": [
+    "農民證等證件在電話裡會不會被提到，郵政頁有列，但通話頻率不明。",
+    "聖文森日期口頭順序是依當地常見英式習慣推得。"
+  ]
+}

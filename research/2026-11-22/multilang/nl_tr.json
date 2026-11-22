@@ -1,0 +1,91 @@
+{
+  "region": "nl",
+  "lang": "tr",
+  "hello": {
+    "hello": "Alo, merhaba?",
+    "hello_again": "Evet, buyurun?"
+  },
+  "habits": {
+    "en": "Sen with peers, siz with elders. Mix BSN, DigiD, toeslagen, huisarts, iDEAL; not Turkish office names.",
+    "zh": "平輩 sen，長輩 siz。夾 BSN、DigiD、toeslagen、iDEAL，不用土耳其機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friends in Rotterdam or Amsterdam use sen, drop DigiD or iDEAL into Turkish, and answer tamam in a short burst.",
+        "zh": "在鹿特丹或阿姆斯特丹跟熟友用 sen，DigiD、iDEAL 直接夾進土耳其語，短短回 tamam。"
+      },
+      "2": {
+        "en": "Neighbourly Dutch Turkish: stay with sen until they switch to siz; after a toeslagen point, a light olur suffices.",
+        "zh": "荷裔土耳其語鄰里口氣先用 sen，對方改 siz 再跟上；聽完 toeslagen，輕聲回 olur。"
+      },
+      "3": {
+        "en": "Everyday Turkish in the Netherlands: one full sentence per matter, leaving BSN, huisarts or IND in Dutch as spoken.",
+        "zh": "荷蘭日常土耳其語：每件事回完整一句，BSN、huisarts 或 IND 照口頭直接講荷蘭語。"
+      },
+      "4": {
+        "en": "Siz at the gemeente or with a huisarts; keep Dutch official names, and handle the request first.",
+        "zh": "對 gemeente 或 huisarts 用 siz，機關名保持荷蘭語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Turkish: siz throughout, recap the iDEAL or tenancy point, then close without filler.",
+        "zh": "商務土耳其語全程用 siz，覆述 iDEAL 或租約要點後，不再墊話。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Turkish helper in the Netherlands answers tamam, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆荷裔土耳其語先回 tamam，用夾荷語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match sen or siz; jot the DigiD or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 sen 或 siz；記下 DigiD 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A clear Turkish assistant in the Netherlands answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "口齒清楚的荷裔土耳其語助理先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite siz: restate the toeslagen or huisarts point accurately, then confirm it goes to {owner}.",
+        "zh": "禮貌使用 siz：準確覆述 toeslagen 或 huisarts 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: siz and a title, itemise the IND or BSN matter, and close after the handoff.",
+        "zh": "為{owner}任正式助理：siz 加稱謂，對齊 IND 或 BSN 事宜，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo merhaba, selam! Söyle, tamamdır.",
+      "Evet, buyurun, sizi dinliyorum rahatça.",
+      "Merhaba. DigiD işi mi? Peki, notumda.",
+      "Merhaba, aradığınız için sağ olun. Anladım, ilgilenirim.",
+      "İyi günler, sağ olun. Her şeyi yazdım, teşekkürler."
+    ],
+    "a": [
+      "Alo merhaba! O yok şimdi, söyleyin, iletirim.",
+      "Evet, aramaları ben alıyorum, mesajınızı bırakın.",
+      "Merhaba. Not alıp kendisine söyleyeceğim.",
+      "Merhaba, sağ olun. Notu {owner} ulaştıracağım.",
+      "İyi günler, sağ olun. Maddeleri yazıp ileteceğim."
+    ]
+  },
+  "diff_from_home": [
+    "荷語專名如 BSN、DigiD、toeslagen、huisarts、zorgverzekering、iDEAL、IND、gemeente 常整詞插入，不用土耳其國家機關名。",
+    "這也與德國的 Jobcenter、Anmeldung 或奧地利的 AMS、e-card 不同，應使用荷蘭制度名稱。",
+    "對長輩仍多用 siz；荷蘭日常較快改用非正式稱呼，但機關電話仍宜先用 siz。",
+    "CBS 將土耳其語列為家中常見的非荷語之一，社群以大城市為主。"
+  ],
+  "sources": [
+    "https://longreads.cbs.nl/the-netherlands-in-numbers-2025/what-languages-do-people-usually-speak-at-home/",
+    "https://www.digid.nl/",
+    "https://www.ideal.nl/",
+    "https://ind.nl/",
+    "https://www.belastingdienst.nl/"
+  ],
+  "uncertain": [
+    "第二代荷裔土耳其人在電話中改用荷蘭語的比例很高，土耳其語保留程度缺少新的口語量化資料。",
+    "toeslagen 等詞是否被意譯，還是幾乎總是保留荷蘭語，未見系統調查。"
+  ]
+}

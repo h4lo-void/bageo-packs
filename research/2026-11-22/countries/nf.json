@@ -1,0 +1,45 @@
+{
+  "country": "nf",
+  "parent": "au-nz",
+  "name": {
+    "en": "Norfolk Island",
+    "native": "Norfolk Island",
+    "zh": "諾福克島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+672",
+    "currency": "澳幣 AUD",
+    "time_zone": "UTC+11（夏令 UTC+12），與澳洲東岸不同",
+    "language": "官方語為英語與諾福克語"
+  },
+  "habits": {
+    "en": "English or Norfuk; prices in Australian dollars. Island time is UTC+11, not Sydney time; confirm.",
+    "zh": "說英語或諾福克語；標價是澳幣。時間是 UTC+11，不同於雪梨，要確認。"
+  },
+  "vocab": {
+    "bank": [
+      "AU$"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "+61",
+      "reason": {
+        "zh": "諾福克島國碼是 +672"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Norfolk_Island",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Norfolk_Island"
+  ],
+  "uncertain": [
+    "官方 norfolkisland.gov.nf 回 403，未能開啟。",
+    "收件與付款習慣未查。"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "code": "bt",
+  "countries": [
+    "bt"
+  ],
+  "name": {
+    "en": "Bhutan",
+    "native": "Druk Yul",
+    "zh": "不丹"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes, afternoon?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, a neighbour or office reception",
+    "zh": "包裹交給門閘、鄰居或辦公室接待處"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; dates are often day-month-year.",
+    "zh": "名字用 as-in 拼；號碼分組唸；公文日期多為日月年"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request, or a lottery fee to pay first, is a scam",
+    "zh": "要 mBoB 或銀行的 PIN、OTP，或要先匯款才能領彩金，都是詐騙"
+  },
+  "habits": {
+    "en": "Dasho or Sir/Madam with officials. Dzongkha is unsupported; use English.",
+    "zh": "對官員與陌生人可用 Dasho 或 Sir/Madam。宗喀語不在清單；用英語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the road blocked, the banking app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如道路封閉、銀行 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Thimphu friend: first names, unhurried English, a soft follow-up; keep Dasho for those who hold it, varied.",
+        "zh": "像廷布的朋友：直呼名字，不急的英語，再輕接一句；只有對方是 Dasho 才用這稱謂，每次換。"
+      },
+      "2": {
+        "en": "Warm and respectful: first names unless they stay formal; after they speak, add a gentle line, varied.",
+        "zh": "溫暖帶敬意：對方不維持敬語就直呼名字；聽完加一句溫和的話，每次換。"
+      },
+      "3": {
+        "en": "In Thimphu offices and schools, answer each item with a full English sentence; a bare yes sounds too sharp.",
+        "zh": "廷布機關或學校場合，每一點用完整英語句子回；只回 yes 會顯得太硬。"
+      },
+      "4": {
+        "en": "Sir, Madam or Dasho with officials; restate the errand first (I understand), varied.",
+        "zh": "對官員用 Sir、Madam 或 Dasho；先覆述來意（如 I understand），每次換。"
+      },
+      "5": {
+        "en": "Office English for ministries or BoB: titles, compact; close each item (it is noted), varied.",
+        "zh": "對部會或不丹銀行的辦公室英語：用職稱，簡潔；每件收束（如 it is noted），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s soft-spoken helper. Use the given name, acknowledge quietly, then say the message will reach them; change the wording.",
+        "zh": "替{owner}代接、語氣放輕。直呼名字，先輕聲應一句，再說這話會帶到主人那裡；措辭輪替。"
+      },
+      "2": {
+        "en": "Stand in with Bhutanese courtesy: keep Dasho or Sir if they use it, otherwise the given name; write the matter down for {owner}.",
+        "zh": "以不丹式禮貌代接：對方已用 Dasho 或 Sir 就沿用，否則稱名字；把事由寫給{owner}。"
+      },
+      "3": {
+        "en": "As a Bhutanese clerk would: answer the substance in a complete line, then say it will be conveyed. Skip a lone ok.",
+        "zh": "像不丹機關書記：先把重點答完整，再說明會轉達。不要只丟一句 ok。"
+      },
+      "4": {
+        "en": "On a ministry or BoB call, stay with Sir, Madam or Dasho, state the purpose in a full sentence, and confirm the note is kept.",
+        "zh": "接部會或不丹銀行來電，沿用 Sir、Madam 或 Dasho，完整說來意，並確認字條已留下。"
+      },
+      "5": {
+        "en": "Executive stand-in: formal titles, unhurried but exact; lock details, then confirm conveyance, varied.",
+        "zh": "高階代接：正式職稱，不急但準；先鎖定細節，再確認會轉達，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "mBoB",
+      "internet banking",
+      "counter",
+      "goBoB",
+      "Bank of Bhutan",
+      "Druk PNB"
+    ],
+    "delivery": [
+      "gate",
+      "reception",
+      "neighbour",
+      "post office"
+    ],
+    "government": [
+      "CID",
+      "citizen ID card",
+      "Immigration",
+      "legal stamp"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "prescription"
+    ],
+    "telecom": [
+      "Bhutan Telecom",
+      "B-Mobile",
+      "prepaid SIM",
+      "B-Wallet",
+      "e-load"
+    ],
+    "payment": [
+      "goBoB",
+      "mBoB",
+      "QR code",
+      "MPIN",
+      "TPIN"
+    ],
+    "transport": [
+      "taxi",
+      "bus",
+      "fare"
+    ],
+    "housing": [
+      "electricity bill",
+      "water bill",
+      "address"
+    ]
+  },
+  "status": "draft"
+}

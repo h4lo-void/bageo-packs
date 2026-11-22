@@ -1,0 +1,260 @@
+{
+  "lang": "ps",
+  "backchannels": {
+    "direction": "هو and هو جي show listening; ښه or سمه ده agree; repeated هو هو may sound like cutting off.",
+    "examples": [
+      {
+        "text": "هو جي.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "هو.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "سمه ده.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ښه، بالکل.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "هو هو.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "رښتیا؟ for surprise; ډېر خواشینی یم for sympathy; مبارک for good news.",
+    "examples": [
+      {
+        "text": "رښتیا؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "واه!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ډېر خواشینی شوم.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "مبارک دې شه!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "دا لږ ستونزمن دی.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (ښه مې نه اورېږي) or the line is weak; ask for a louder voice.",
+    "examples": [
+      {
+        "text": "بښنه غواړم، ښه مې نه اورېږي.",
+        "style": "polite"
+      },
+      {
+        "text": "لاین کمزوری دی.",
+        "style": "casual"
+      },
+      {
+        "text": "ستاسو غږ پرې کېږي.",
+        "style": "polite"
+      },
+      {
+        "text": "لږ په لوړ غږ خبرې وکړئ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "څه مو وویل؟ asks for a replay; request توري for names and say digits back.",
+    "examples": [
+      {
+        "text": "بښنه، څه مو وویل؟",
+        "style": "polite"
+      },
+      {
+        "text": "بیا یې ووایاست.",
+        "style": "polite"
+      },
+      {
+        "text": "نوم مو په توري ووایاست.",
+        "style": "polite"
+      },
+      {
+        "text": "نمبر 12345678 دی، سمه ده؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ستاسو نوم څه دی؟ or تاسو څوک یاست؟ with تاسو; avoid blunt ته څوک یې.",
+    "examples": [
+      {
+        "text": "تاسو څوک یاست، که مهرباني وکړئ؟",
+        "style": "polite"
+      },
+      {
+        "text": "له کومه ځایه زنګ وهئ؟",
+        "style": "polite"
+      },
+      {
+        "text": "دا د {owner} شمېره ده، تاسو څوک؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say the number is wrong and nobody of that name is here.",
+    "examples": [
+      {
+        "text": "بښنه، شمېره مو غلطه ده.",
+        "style": "polite"
+      },
+      {
+        "text": "دلته په دې نوم څوک نشته.",
+        "style": "polite"
+      },
+      {
+        "text": "غلط نمبر.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "پیغام به ورسوم says {owner} will be told; no call-back time.",
+    "examples": [
+      {
+        "text": "ستاسو پیغام به {owner} ته ورسوم.",
+        "style": "polite"
+      },
+      {
+        "text": "ورته به یې ووایم.",
+        "style": "casual"
+      },
+      {
+        "text": "پیغام به ورسېږي.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "مننه then اړتیا نشته; polite but plain.",
+    "examples": [
+      {
+        "text": "مننه، موږ ته اړتیا نشته.",
+        "style": "polite"
+      },
+      {
+        "text": "علاقه نه لرو، مننه.",
+        "style": "polite"
+      },
+      {
+        "text": "نه وروره، مننه.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If pressed, repeat the no and ask them not to call this number again.",
+    "examples": [
+      {
+        "text": "ما مخکې ویلي وو چې نه.",
+        "style": "polite"
+      },
+      {
+        "text": "مهرباني وکړئ دې شمېرې ته بیا زنګ مه وهئ.",
+        "style": "polite"
+      },
+      {
+        "text": "دا شمېره له خپل لیست نه لرې کړئ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "تاسو for strangers; ښاغلی/اغلې formally; ورور, خور, کاکا, ترور for warmth; جي adds respect.",
+    "examples": [
+      {
+        "text": "ښاغلیه",
+        "style": "polite"
+      },
+      {
+        "text": "اغلې",
+        "style": "polite"
+      },
+      {
+        "text": "وروره",
+        "style": "casual"
+      },
+      {
+        "text": "کاکا جي",
+        "style": "polite"
+      },
+      {
+        "text": "خورې",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like ستاسو زنګ زموږ لپاره مهم دی sound like an operator recording.",
+    "examples": [
+      {
+        "text": "ستاسو زنګ زموږ لپاره مهم دی.",
+        "style": "polite"
+      },
+      {
+        "text": "د پېرودونکو خدماتو سره د اړیکې مننه.",
+        "style": "polite"
+      },
+      {
+        "text": "څنګه درسره مرسته وکړم؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ته with elders, asking for the women of the house, or asking tribe and income early is rude.",
+    "examples": [
+      {
+        "text": "ته څوک یې؟",
+        "style": "casual"
+      },
+      {
+        "text": "له کومې قبیلې یې؟",
+        "style": "casual"
+      },
+      {
+        "text": "معاش دې څومره دی؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%D9%85%D9%86%D9%86%D9%87",
+    "https://en.wikipedia.org/wiki/Pashto",
+    "https://en.wikipedia.org/wiki/Pashtunwali"
+  ],
+  "uncertain": [
+    "Pashto dialects (Kandahari, Peshawari/Yusufzai) differ in sounds and words; examples lean to standard written forms",
+    "Backchannels (هو، ښه، سمه ده) from dictionaries and usage, no call corpus",
+    "Norms about men speaking to women on phone vary; guidance kept general"
+  ]
+}

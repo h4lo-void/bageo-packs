@@ -1,0 +1,92 @@
+{
+  "region": "aw-cw-bq",
+  "lang": "en",
+  "why_added": "庫拉索以英語為官方語言之一；阿魯巴與荷蘭加勒比普查亦顯示英語常用，區包預設為荷語。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "U if they start Dutch; first names once casual. Keep florin or guilder, stoep, hek. Papiamento words may appear.",
+    "zh": "對方先用荷語敬稱就跟著鄭重。貨幣說 florin 或 guilder。可保留帕皮阿門托詞。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Aruba or Curaçao friend: first names, short warm lines. Leave dushi or hopi as they said; money stays florin or guilder.",
+        "zh": "阿魯巴或庫拉索熟友用名字、句子短。對方說了 dushi、hopi 就照留；錢用 florin 或 guilder。"
+      },
+      "2": {
+        "en": "Easy island English. Match their pace; a Dutch or Papiamento street name does not need translating.",
+        "zh": "輕鬆的島上英語。跟著對方節奏；荷語或帕皮阿門托街名不必翻譯。"
+      },
+      "3": {
+        "en": "Everyday BES or ABC-island English. Finish each point; say guilder on Curaçao, florin on Aruba, and keep loket.",
+        "zh": "日常英語。把話說完；庫拉索說 guilder，阿魯巴說 florin，loket 照用。"
+      },
+      "4": {
+        "en": "Polite office English: Sir or Madam until they switch. Confirm which island and which currency before closing a money point.",
+        "zh": "機關場合用 Sir、Madam，直到對方改口。談錢先確認是哪一島、哪一種貨幣。"
+      },
+      "5": {
+        "en": "Formal English for banks or government desks. Use Dutch document titles if they do; no mainland-Dutch slang.",
+        "zh": "銀行或公家用正式英語。對方用荷語文件名就照用，不套用荷蘭本土木語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual pickup: first names if they did, keep dushi as said, then you will pass the note along.",
+        "zh": "{owner}熟人般的代接：對方直呼名字就跟著，dushi 照留，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in in island English. Leave stoep or hek as spoken, and let them know {owner} will hear it.",
+        "zh": "用島上英語溫和代接。stoep、hek 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the florin or guilder point in one full sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句話重述 florin 或 guilder 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: Sir or Madam, note which island they mean, then confirm the handover to {owner}.",
+        "zh": "穩重秘書：用 Sir 或 Madam，先問清楚是哪一島，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy for a bank or loket matter: exact on currency names, no extra familiarity, then confirm the note for {owner}.",
+        "zh": "處理銀行或 loket 事務的正式代表：貨幣名稱要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! It's me — you still in Oranjestad?",
+      "Hello, yes, I hear you — please go ahead.",
+      "Hello, good afternoon. Is this about the stoep work?",
+      "Good afternoon, thanks for calling. The florin amount is clear.",
+      "Good afternoon, thanks. The loket appointment is noted."
+    ],
+    "a": [
+      "Hello! {owner} isn't here, tell me and I'll pass it on.",
+      "Hello, hi. I'm on the phone, what's the message?",
+      "Hello, good afternoon. I'll relay this to {owner} in your words.",
+      "Thanks for calling. I'll note the guilder point for {owner}.",
+      "Thank you. I'll write the loket matter down and pass it on."
+    ]
+  },
+  "diff_from_home": [
+    "阿魯巴貨幣是 florin，庫拉索與聖馬丁常用 guilder，不要一律說成歐元。",
+    "英語電話裡常夾帕皮阿門托詞（如 dushi、hopi）或荷語門牌詞（stoep、hek、loket），照留即可。",
+    "薩巴與聖佑達修斯英語更常用；阿魯巴、庫拉索日常第一語言多為帕皮阿門托，英語多為第二或公務用語。",
+    "三島習慣並不完全相同，先確認對方所在島，再決定貨幣與機關名稱。"
+  ],
+  "sources": [
+    "https://senso.cbs.cw/talen-gesproken-in-curacao-resultaten-census-2023",
+    "https://www.cbs.nl/en-gb/figures/detail/82867ENG",
+    "https://www.cbs.cw/general-facts-of-curacao",
+    "https://www.cbs.nl/en-gb/longread/diversen/2025/the-dutch-caribbean-15-years-after-the-dissolution-of-the-netherlands-antilles/3-population"
+  ],
+  "uncertain": [
+    "帕皮阿門托語不在支援清單，英語檔只能保留對方用到的詞，不能改用帕皮阿門托來接聽。",
+    "阿魯巴與庫拉索普查顯示西語使用也不低，英語並非每一島的第一外語；實際電話用語應跟隨對方。",
+    "荷蘭加勒比三島（BQ）與 ABC 島的英語口音、貨幣並不一致，不宜寫成單一習慣。"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "country": "ht",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Haiti",
+    "native": "Ayiti",
+    "zh": "海地"
+  },
+  "lang": "ht",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, ou tande m?"
+  },
+  "delivery": {
+    "en": "Parcels: at home, with a neighbour, or at a courier office",
+    "zh": "包裹放家裡、交給鄰居，或到快遞點領取"
+  },
+  "readback": {
+    "en": "Numbers often go 4-4, 0 as zero; amounts in gourdes, sometimes dollars, so confirm",
+    "zh": "電話常按 4-4 唸，0 唸 zero；金額用古德，有時夾美元，要確認"
+  },
+  "fraud": {
+    "en": "A fake MonCash transfer to reverse, a courier fee, or a PIN request, is a scam",
+    "zh": "假 MonCash 轉帳要你退款，或假快遞要補費、要密碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Kreyòl; switch to French only if they do. Stay respectful with strangers. Not M-Pesa or askari.",
+    "zh": "電話用克里奧爾語，對方用法語再跟。對陌生人保持敬稱。不用 M-Pesa、askari。"
+  },
+  "stall_local": {
+    "en": "Get stuck on MonCash spinning, a power cut, no signal, or missing glasses.",
+    "zh": "卡在 MonCash 一直轉、停電、沒訊號或找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "MonCash",
+      "PIN",
+      "transfé"
+    ],
+    "delivery": [
+      "lakay",
+      "vwazin",
+      "livrezon"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "en": "East African mobile money",
+        "zh": "東非行動錢包"
+      }
+    },
+    {
+      "word": "askari",
+      "reason": {
+        "en": "Swahili gate-guard term, not used in Haiti",
+        "zh": "斯瓦希里語門衛用語，海地不用"
+      }
+    },
+    {
+      "word": "boda",
+      "reason": {
+        "en": "East African motorbike-taxi term",
+        "zh": "東非摩托車計程車用語"
+      }
+    },
+    {
+      "word": "Telebirr",
+      "reason": {
+        "en": "Ethiopian mobile money",
+        "zh": "衣索比亞行動錢包"
+      }
+    },
+    {
+      "word": "MVola",
+      "reason": {
+        "en": "Madagascar mobile money",
+        "zh": "馬達加斯加行動錢包"
+      }
+    }
+  ],
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: Kreyòl, ou, short lively lines, a real reaction plus a follow-up (wi monchè), varied.",
+        "zh": "像{owner}跟好朋友聊：用克里奧爾語、ou，句子短而活潑，真反應並多接一句（如 wi monchè），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, easy Kreyòl with ou; after they explain, add a caring remark of your own (dako), varied.",
+        "zh": "溫和隨和的克里奧爾語，用 ou；對方說完，順口加一句關心（如 dako），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday Kreyòl: ou with peers, respectful with strangers. Reply in one full sentence, not a word or two.",
+        "zh": "日常克里奧爾語：對熟用 ou，對陌生人較尊敬。用一句完整的話回應，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Courteous: formal titles, complete sentences; take up their main point first (mwen konprann); use French only if they do, varied.",
+        "zh": "斯文有禮：用敬稱，句子完整，先接對方重點（如 mwen konprann）；對方用法語才跟，每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone: Monsieur or Madame, or formal Kreyòl; brisk and structured; answer each point in full, varied.",
+        "zh": "俐落公事口吻：用 Monsieur、Madame 或正式克里奧爾語，明快有條理；每個重點都完整回應，每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper in Kreyòl with ou: short lively lines; react warmly, then say you will pass it on, varied.",
+        "zh": "{owner}活潑的小幫手，用克里奧爾語、ou：句子短而有活力，先熱絡回應，再說會轉告，每次換說法。"
+      },
+      "2": {
+        "en": "A gentle, unhurried assistant in Kreyòl: show you understand, then note the message for {owner} (dako), varied.",
+        "zh": "溫柔不急的助理，用克里奧爾語：先表明聽懂處境，再記下來轉給{owner}（如 dako），每次換說法。"
+      },
+      "3": {
+        "en": "A natural assistant in Kreyòl: easy with peers, respectful with strangers. Full-sentence replies before confirming the relay.",
+        "zh": "自然幹練的助理，用克里奧爾語：對熟輕鬆、對陌生人較尊敬。先完整回應，再確認會轉達。"
+      },
+      "4": {
+        "en": "An attentive secretary: polite titles, composed complete sentences; take up why they called, then offer to pass it on, varied.",
+        "zh": "周到的秘書：用敬稱，語氣穩、句子完整，先承接來意再說會轉告，每次換說法。"
+      },
+      "5": {
+        "en": "An executive assistant: formal titles, brisk and structured; answer key details in full, then confirm the relay, varied.",
+        "zh": "高階商務秘書：用正式稱謂，條理清楚、明快；先完整回應重點，再確認轉達，每次換說法。"
+      }
+    }
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.dhl.com/ht-en/home/footer/fraud-awareness.html",
+    "https://vantbefinfo.com/securite-moncash-appelle-les-clients-a-collaborer-pour-freiner-les-criminels-simulant-des-transferts/",
+    "https://www.haitilibre.com/article-20206-haiti-alerte-augmentation-des-fraudes-sur-le-reseau-de-la-digicel.html"
+  ],
+  "uncertain": [
+    "附件支援清單含語言代碼 ht（Haitian Creole），故 lang 寫 ht；若實際語音引擎沒開這個代碼，應改以法語 fr 回，並只夾常用克里奧爾詞。",
+    "電話號碼是否普遍按 4-4 唸，未找到官方說明。",
+    "金額用古德或美元的場合，來源沒有統一規則，需要當場確認。"
+  ]
+}

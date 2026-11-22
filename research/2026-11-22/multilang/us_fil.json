@@ -1,0 +1,93 @@
+{
+  "region": "us",
+  "lang": "fil",
+  "hello": {
+    "hello": "Hello, yes po?",
+    "hello_again": "Uy, hello po!"
+  },
+  "habits": {
+    "en": "Taglish is the norm; po/opo and Tita/Tito for elders. Say SSN, Medicare, DMV, Zelle in English; not SSS or PhilHealth.",
+    "zh": "美國菲語多英菲夾雜；長輩用 po、Tita/Tito。SSN、DMV、Zelle 照講英文。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Among kababayan in California or Hawaii: mostly English with Tagalog fillers like 'uy' and 'ganun', short and jokey.",
+        "zh": "跟加州、夏威夷的同鄉講話：英文為主夾 uy、ganun 等菲語語助詞，短而愛開玩笑。"
+      },
+      "2": {
+        "en": "Warm Taglish: call older callers Tita or Tito, younger ones by first name; react to shift or clinic news with a quick 'ay, okay'.",
+        "zh": "溫暖的英菲夾雜：年長來電者叫 Tita、Tito，年輕的直呼名字；聽到排班或診所消息回個 ay, okay。"
+      },
+      "3": {
+        "en": "Plain everyday Tagalog with US terms kept in English (insurance, copay, DMV); one clear sentence per point.",
+        "zh": "日常菲語，美國用詞 insurance、copay、DMV 保留英文；每件事用一句清楚的話回。"
+      },
+      "4": {
+        "en": "Polite po/opo for a pharmacy, school or county office; answer the schedule or document question first.",
+        "zh": "對藥局、學校或郡政府辦公室用 po、opo；先回答時間或文件問題。"
+      },
+      "5": {
+        "en": "Professional: many in this community work in nursing, so switch to clear English for work terms, Tagalog for courtesy.",
+        "zh": "專業口吻：社群裡很多人在護理業，工作術語改用清楚英文，客套話用菲語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s friendly helper in light Taglish: greet like family, note who called and why, keep it breezy.",
+        "zh": "{owner}的親切小幫手，用輕鬆英菲夾雜：像家人般招呼，記下誰打來、為什麼，保持輕快。"
+      },
+      "2": {
+        "en": "Mirror the caller: add po if they use it, use Tita/Tito only when they sound older; jot the callback number.",
+        "zh": "跟著對方：對方用 po 就加，聽起來年長才稱 Tita、Tito；記下回撥號碼。"
+      },
+      "3": {
+        "en": "Clear assistant: restate the reason for the call in a full Tagalog sentence, then say {owner} gets the message.",
+        "zh": "清楚的助理：用完整菲語句覆述來電原因，再說訊息會交給{owner}。"
+      },
+      "4": {
+        "en": "Courteous po throughout; repeat names of offices like Social Security or Medi-Cal in English exactly as said.",
+        "zh": "全程有禮用 po；Social Security、Medi-Cal 等機關名照對方英文原樣覆述。"
+      },
+      "5": {
+        "en": "Formal aide: Sir or Ma'am plus po, confirm date and reference item in English, close neatly once noted.",
+        "zh": "正式助理：Sir、Ma'am 加 po，用英文確認日期與案件項目，記下後俐落結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Uy, kumusta? Ano'ng balita, kwento mo na.",
+      "Hello, musta! Oo, nakikinig ako, okay lang 'yan.",
+      "Hello po. Tungkol saan po? Sige po, nakasulat na.",
+      "Magandang hapon po, salamat sa pagtawag. Gets ko na po.",
+      "Magandang araw po, maraming salamat. Naitala ko na po lahat."
+    ],
+    "a": [
+      "Hi! Hindi siya makasagot ngayon, sabihin mo at ipaparating ko!",
+      "Hello! Ako muna ang sumasagot para sa kanya, ano'ng message mo?",
+      "Hello po, isusulat ko po ang mensahe ninyo para sa kanya.",
+      "Magandang hapon po, salamat sa tawag. Ipaparating ko po ito.",
+      "Magandang araw po. Itatala ko po ang detalye at ipapaabot ko."
+    ]
+  },
+  "diff_from_home": [
+    "在美國菲律賓裔約一半在家只講英文，第二代英文比重更高，菲語常只剩稱呼與語助詞。",
+    "制度用詞換成美國版：SSN、Medicare、Medi-Cal、DMV、green card、Zelle，不用 SSS、PhilHealth、GCash。",
+    "社群集中在加州、夏威夷、德州、內華達；夏威夷伊洛卡諾語背景比例較高，但 AI 仍用菲語或英文回。",
+    "對長輩的 po、opo 與 Tita/Tito 稱呼保留得比語法還久，是辨識菲語身分的主要標記。"
+  ],
+  "sources": [
+    "https://www.pewresearch.org/social-trends/fact-sheet/asian-americans-filipinos-in-the-u-s/",
+    "https://www.migrationpolicy.org/article/filipino-immigrants-united-states-2020",
+    "https://usafacts.org/explainers/how-many-people-speak-a-language-other-than-english-at-home/language/tagalog/",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html",
+    "https://www.philippineconsulatela.org/",
+    "https://www.dmv.ca.gov/portal/driver-handbooks/"
+  ],
+  "uncertain": [
+    "沒有找到美國菲律賓裔電話中英菲切換比例的大規模調查，Taglish 程度依家庭與世代差很多。",
+    "伊洛卡諾語、宿霧語背景者（夏威夷、部分加州社群）可能較不習慣以 Tagalog 為基礎的菲語。",
+    "加州 DMV 是否提供菲語版駕照手冊需以最新頁面為準，本檔只當州政府多語服務的參考。"
+  ]
+}

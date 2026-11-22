@@ -81,15 +81,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "pakettiautomaatti",
-      "noutopiste",
-      "Posti"
-    ],
     "bank": [
       "verkkopankki",
       "MobilePay",
-      "pankkitunnukset"
+      "pankkitunnukset",
+      "Siirto",
+      "tilisiirto",
+      "tili"
+    ],
+    "delivery": [
+      "pakettiautomaatti",
+      "noutopiste",
+      "Posti",
+      "OmaPosti",
+      "Helposti-koodi",
+      "naapuri"
+    ],
+    "government": [
+      "henkilötunnus",
+      "Kela",
+      "Maistraatti or DVV",
+      "verokortti",
+      "passi",
+      "ajokortti"
+    ],
+    "health": [
+      "terveyskeskus",
+      "apteekki",
+      "resepti",
+      "Omakanta",
+      "päivystys",
+      "Kela-kortti"
+    ],
+    "telecom": [
+      "liittymä",
+      "prepaid",
+      "numeronsiirto",
+      "SIM-kortti",
+      "operaattori",
+      "mobiilidata"
+    ],
+    "payment": [
+      "MobilePay",
+      "Siirto",
+      "kortti",
+      "käteinen",
+      "tilisiirto",
+      "lähimaksu"
+    ],
+    "transport": [
+      "HSL",
+      "VR",
+      "bussi",
+      "ratikka",
+      "metro",
+      "taksi"
+    ],
+    "housing": [
+      "asunto",
+      "rappu",
+      "ovikello",
+      "postilaatikko",
+      "vuokra",
+      "taloyhtiö"
     ]
   },
   "status": "draft"

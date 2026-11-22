@@ -1,0 +1,260 @@
+{
+  "lang": "gu",
+  "backchannels": {
+    "direction": "હા જી shows respectful listening; બરાબર agrees; હા હા હા said fast sounds hurried.",
+    "examples": [
+      {
+        "text": "હા જી.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "બરાબર છે.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "હા, હા.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "સાચી વાત.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "હા હા હા.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "એમ? or સાચે? for surprise; બહુ દુઃખ થયું for sympathy; અભિનંદન for good news.",
+    "examples": [
+      {
+        "text": "એમ? સાચે?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "અરે વાહ!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "સાંભળીને બહુ દુઃખ થયું.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ખૂબ ખૂબ અભિનંદન!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "આ થોડું અઘરું છે.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't coming (અવાજ નથી આવતો) or the network is weak, then ask for મોટેથી speech.",
+    "examples": [
+      {
+        "text": "માફ કરજો, અવાજ બરાબર નથી આવતો.",
+        "style": "polite"
+      },
+      {
+        "text": "નેટવર્ક નબળું છે.",
+        "style": "casual"
+      },
+      {
+        "text": "અવાજ કપાય છે.",
+        "style": "casual"
+      },
+      {
+        "text": "થોડું મોટેથી બોલશો?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "શું કહ્યું? asks for a replay; ask the spelling of names and echo digits.",
+    "examples": [
+      {
+        "text": "શું કહ્યું આપે?",
+        "style": "polite"
+      },
+      {
+        "text": "ફરીથી કહેશો?",
+        "style": "polite"
+      },
+      {
+        "text": "નામનો સ્પેલિંગ કહેશો?",
+        "style": "polite"
+      },
+      {
+        "text": "નંબર 12345678 છે ને?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "આપ કોણ બોલો છો? with આપ; bare કોણ? sounds curt.",
+    "examples": [
+      {
+        "text": "આપ કોણ બોલો છો?",
+        "style": "polite"
+      },
+      {
+        "text": "ક્યાંથી ફોન કરો છો?",
+        "style": "polite"
+      },
+      {
+        "text": "આ {owner}નો નંબર છે, આપ કોણ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say ખોટો નંબર and nobody by that name is here.",
+    "examples": [
+      {
+        "text": "માફ કરજો, ખોટો નંબર લાગ્યો છે.",
+        "style": "polite"
+      },
+      {
+        "text": "અહીં એ નામનું કોઈ નથી.",
+        "style": "polite"
+      },
+      {
+        "text": "રોંગ નંબર.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "કહી દઈશ says {owner} will be told; no reply hour promised.",
+    "examples": [
+      {
+        "text": "{owner}ને આપનો સંદેશો આપી દઈશ.",
+        "style": "polite"
+      },
+      {
+        "text": "કહી દઈશ.",
+        "style": "casual"
+      },
+      {
+        "text": "સંદેશો પહોંચી જશે.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "આભાર, જરૂર નથી is the plain polite no.",
+    "examples": [
+      {
+        "text": "આભાર, અમારે જરૂર નથી.",
+        "style": "polite"
+      },
+      {
+        "text": "રસ નથી, આભાર.",
+        "style": "polite"
+      },
+      {
+        "text": "ના ભાઈ, રહેવા દો.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, recall the earlier ના and ask them to drop this number.",
+    "examples": [
+      {
+        "text": "મેં પહેલાં જ ના પાડી છે.",
+        "style": "polite"
+      },
+      {
+        "text": "મહેરબાની કરીને આ નંબર પર ફરી ફોન ન કરશો.",
+        "style": "polite"
+      },
+      {
+        "text": "આ નંબર તમારી યાદીમાંથી કાઢી નાખો.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "આપ for strangers; name + ભાઈ/બેન is the classic Gujarati form; કાકા/માસી for elders.",
+    "examples": [
+      {
+        "text": "રમેશભાઈ",
+        "style": "polite"
+      },
+      {
+        "text": "મીનાબેન",
+        "style": "polite"
+      },
+      {
+        "text": "કાકા",
+        "style": "polite"
+      },
+      {
+        "text": "માસી",
+        "style": "polite"
+      },
+      {
+        "text": "ભાઈ",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like આપનો કૉલ અમારા માટે મહત્ત્વનો છે sound like an IVR helpline.",
+    "examples": [
+      {
+        "text": "આપનો કૉલ અમારા માટે મહત્ત્વનો છે.",
+        "style": "polite"
+      },
+      {
+        "text": "ગ્રાહક સેવામાં ફોન કરવા બદલ આભાર.",
+        "style": "polite"
+      },
+      {
+        "text": "હું આપની શી મદદ કરી શકું?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using તું with elders, or asking caste, income or marriage early, gives offence.",
+    "examples": [
+      {
+        "text": "તું કોણ છે?",
+        "style": "casual"
+      },
+      {
+        "text": "કઈ જ્ઞાતિના છો?",
+        "style": "casual"
+      },
+      {
+        "text": "પગાર કેટલો છે?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%AA%9C%E0%AB%80",
+    "https://en.wikipedia.org/wiki/Gujarati_language",
+    "https://en.wikipedia.org/wiki/Gujarati_script"
+  ],
+  "uncertain": [
+    "Backchannels (હા, હા જી, બરાબર, અચ્છા) from usage, no call corpus",
+    "Gujarati speakers mix English and Hindi on calls; degree is a guess",
+    "Kathiawadi and Surati dialects differ; standard Ahmedabad register assumed"
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "region": "ge",
+  "countries": [
+    "ge"
+  ],
+  "region_name_zh": "喬治亞",
+  "region_name": "Georgia",
+  "languages": [
+    {
+      "code": "ka",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (older generation, tourism)"
+    }
+  ],
+  "ai_language_tip": "Start in Georgian (ka); Russian is understood by many older people and in tourism, English increasingly by younger staff in Tbilisi and Batumi. Follow the language the other side chooses.",
+  "english_ok": "sometimes — Common among younger staff in Tbilisi, Batumi and tourist venues; limited in clinics, garages and villages.",
+  "politeness": "Warm and hospitable; respectful 'თქვენ'; open with 'გამარჯობა'; address as 'ბატონო …' (men) / 'ქალბატონო …' (women) + first name; close with 'მადლობა, ნახვამდის'.",
+  "name_tip": "Bookings under first name with 'ბატონი'/'ქალბატონი', or surname (often ending -შვილი, -ძე, -ია, not gendered); spell Latin names slowly.",
+  "phone_tip": "Mobile 5XX XX XX XX (9 digits, e.g. 5XX 12345678), Tbilisi landline 032 2XX XX XX, international +995; WhatsApp and Viber common.",
+  "time_tip": "Watch out: 'რვის ნახევარი' = 7:30 (half of eight); 'შვიდის ნახევარი' = 6:30; written 24h ('19:30'); read back in 24h.",
+  "number_tip": "Georgian counting is vigesimal (base 20): 'ოთხმოცდაათი' = 90 (four-twenty-and-ten); read numbers digit by digit or in small groups to avoid confusion.",
+  "avoid_calling": "Avoid restaurant peaks and late evening; Sundays for offices; Orthodox Christmas (7 January) and Easter periods.",
+  "closed_days": "Shops and restaurants open daily; offices closed weekends; holidays include 1–2 January, 7 and 19 January, 3 and 8 March, 9 April, Orthodox Easter (moves), 9, 12 and 26 May, 28 August, 14 October, 23 November.",
+  "booking_channels": "Rezto and Myjavshani for restaurants, salons and clinics; BigMed and REDMED-type apps for doctors; Wolt, Glovo and Bolt Food for delivery; Bolt and Yandex Go for taxis; phone, WhatsApp and Facebook/Instagram messages very common.",
+  "voice_menu": "Magti, Silknet, Cellfie, banks and utilities use IVR; restaurants and small clinics answer directly.",
+  "callback_habits": "Small businesses confirm by call or WhatsApp/Viber; platforms send SMS.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "提比里斯餐廳常用電話、Facebook／Instagram 訊息或 Rezto 訂位（Rezto 還能預點菜）；傳統宴席（სუფრა）大團要先談菜單與人頭價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Supra set menu priced per person"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Dishes can be pre-ordered through Rezto"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for a deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of guests",
+        "Hall, terrace or a separate room for a supra",
+        "Name and mobile"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人醫院與診所電話或 BigMed、Myjavshani 預約，網上可比較價格；國家全民醫療計畫者需先登記家庭醫師（ოჯახის ექიმი）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Compare prices and times on BigMed"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Universal programme covers it only with a referral"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal number (პირადი ნომერი)"
+        }
+      ],
+      "usually_asked": [
+        "Specialist and whether a specific doctor is wanted",
+        "Patient name and age",
+        "Paid or under the universal healthcare programme",
+        "First visit or follow-up",
+        "Mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲多經 Instagram 或 Myjavshani 預約，也接電話；週末前與節日前很滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for wedding make-up"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Preferred master",
+        "Day and time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車在提比里斯多集中於汽車零件市場周邊的小車廠，電話先問再過去；家電維修可到府。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Used vs new parts price"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model, year or appliance",
+        "Symptom",
+        "When it can be brought in",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂外帶可行，外送多經 Wolt、Glovo、Bolt Food；喬治亞烤餅（khachapuri）店常接電話外帶。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery via Wolt or Glovo instead of own couriers"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and portions",
+        "Pickup time",
+        "Name and phone",
+        "Card or cash"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店與烘焙坊常以 Facebook／Instagram 訊息或電話接訂，需先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for custom cakes"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and size",
+        "Pickup day",
+        "Name and phone",
+        "Prepayment by bank transfer"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多打電話或傳訊息，Rezto、Myjavshani 的預約可在 App 內改。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment lost when cancelled late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name on the booking",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問價格、營業時間很普遍，商家也常用 Facebook 頁面回覆。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hours change around Orthodox Christmas and Easter"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question",
+        "Which day, noting Orthodox holidays",
+        "Quantity or number of people"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與家庭旅館（საოჯახო სასტუმრო）電話、訊息或 Email 訂房；Kazbegi、Batumi 旺季週末需早訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cash payment preferred in family guest houses"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Number of guests",
+        "Room type",
+        "Breakfast or dinner at the guest house",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "酒莊品酒、Kakheti 一日遊與舊城硫磺浴場（Abanotubani）私人包間可電話訂，浴場包間按小時計。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Private bath room priced per hour"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Winery tour, day trip or private bath room",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多電話叫或在 ss.ge 找師傅；舊城區老屋常沒電梯，師傅會問樓層與停車。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Address, district and entrance",
+        "Floor and lift",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "提比里斯寵物醫院與美容電話預約，其他城市較少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home visit by vet"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed, weight",
+        "Vaccination, grooming or illness",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Georgian Post 與快遞查件以官網追蹤為主，國際包裹可能需到海關或郵局領取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal number for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "Address or post office",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Magti、Silknet、Cellfie）與銀行客服語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal number or card data"
+        }
+      ],
+      "usually_asked": [
+        "Account or SIM holder",
+        "Problem",
+        "Contract number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "提比里斯與巴統叫車多用 Bolt、Yandex Go；城際接送（如去 Kazbegi）可電話或訊息預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for a mountain day trip"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 myhome.ge、ss.ge 刊登，打給屋主或仲介約看，租金常以美元報價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Rent quoted in USD, paid in USD or lari"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport"
+        }
+      ],
+      "usually_asked": [
+        "Which myhome.ge or ss.ge listing",
+        "Viewing time",
+        "Who will live there",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "公共服務大廳（Public Service Hall／იუსტიციის სახლი）可線上預約，證件與登記多需親臨。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Public Service Hall online booking"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal number"
+        }
+      ],
+      "usually_asked": [
+        "Which service",
+        "Who it is for",
+        "Application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ka": {
+      "appointment_words": [
+        "ექიმთან ჩაწერა",
+        "ვიზიტის დაჯავშნა",
+        "სალონში ჩაწერა",
+        "კონსულტაცია"
+      ],
+      "booking_words": [
+        "მაგიდის დაჯავშნა",
+        "ჯავშანი",
+        "ნომრის დაჯავშნა",
+        "მაგიდა 4 კაცზე"
+      ],
+      "change_words": [
+        "ვიზიტის გადატანა",
+        "ჯავშნის გაუქმება",
+        "ნახევარი საათით გვიან",
+        "პარასკევზე გადატანა"
+      ],
+      "date": [
+        "ხვალ",
+        "ზეგ",
+        "ამ პარასკევს",
+        "მომავალ სამშაბათს",
+        "25.11",
+        "25 ნოემბერს"
+      ],
+      "false_friends": [
+        "მე-3 სართული",
+        "ბინა 45",
+        "მასაჟი 60 წთ",
+        "8 ნომერი ავტობუსი"
+      ],
+      "inquiry_words": [
+        "რა ღირს",
+        "გაქვთ?",
+        "რომლამდე მუშაობთ",
+        "ბარათით შეიძლება?"
+      ],
+      "name": [
+        "გიორგის სახელზე",
+        "ნინოს სახელზე",
+        "ბერიძე",
+        "ბატონი დავითი"
+      ],
+      "order_words": [
+        "წასაღებად",
+        "შეკვეთა",
+        "მიტანა",
+        "წინასწარი შეკვეთა"
+      ],
+      "party": [
+        "4 კაცზე",
+        "სამნი ვართ",
+        "ორნი",
+        "2 დიდი და 1 ბავშვი"
+      ],
+      "phone": [
+        "5XX 12345678",
+        "+995 5XX 12345678",
+        "12345678"
+      ],
+      "time": [
+        "19:30-ზე",
+        "რვის ნახევარზე",
+        "საღამოს შვიდზე",
+        "12 საათზე"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "на маникюр",
+        "на консультацию"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "номер на двоих"
+      ],
+      "change_words": [
+        "перенести",
+        "отменить бронь",
+        "на полчаса позже"
+      ],
+      "date": [
+        "завтра",
+        "в пятницу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 45",
+        "массаж 60 мин"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть?",
+        "до скольки работаете"
+      ],
+      "name": [
+        "на имя Георгий",
+        "на имя Нино",
+        "Беридзе"
+      ],
+      "order_words": [
+        "с собой",
+        "доставка",
+        "предзаказ"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих"
+      ],
+      "phone": [
+        "5XX 12345678",
+        "+995 5XX 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "к семи вечера"
+      ]
+    }
+  }
+}

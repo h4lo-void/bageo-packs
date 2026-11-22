@@ -1,0 +1,105 @@
+{
+  "name": "Belize",
+  "name_local": "Belize",
+  "iso": "bz",
+  "calling_code": "+501",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "prevalence_note": "In October 2026 the Central Bank of Belize warned that callers posing as its staff, some inviting people into Google Meet sessions, were asking for passwords, PINs and card details; the same month it named an unlicensed lending service in a separate warning notice.",
+  "cross_border_note": "Belize numbers have seven digits after +501; impostors often move the victim from a voice call into a video-meeting link or a messaging app, so the visible number says little about where the caller is.",
+  "scams": [
+    {
+      "id": "bz_central_bank_impersonation",
+      "typology": "fake_official",
+      "name": "Fake Central Bank of Belize caller",
+      "name_en": "Caller claiming to represent the Central Bank of Belize asks for banking credentials, sometimes over Google Meet",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "central bank",
+        "central bank of belize",
+        "google meet",
+        "online meeting",
+        "pin",
+        "password",
+        "credit card",
+        "banking details"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "join a google meet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "confirm your pin",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "read me your card number",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "central bank verification",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited call or meeting invite from someone saying they work for the Central Bank of Belize, asking for passwords, PINs, card numbers or other banking details.",
+      "legit_en": "The Central Bank of Belize states it does not make unsolicited calls asking the public for banking credentials, passwords, PINs or card information.",
+      "bait_tactics": [
+        "My bank told me to deal with these matters only at the branch counter, so I'll go there tomorrow.",
+        "I don't join meetings from numbers I don't know; send me the official letter by post."
+      ],
+      "sources": [
+        "https://www.centralbank.org.bz/detail-pages/news/2026/10/14/central-bank-of-belize-issues-warning-on-telephone-scam-targeting-the-public"
+      ]
+    },
+    {
+      "id": "bz_unlicensed_easy_loan",
+      "typology": "loan_advance_fee",
+      "name": "Unlicensed quick-loan offer",
+      "name_en": "Easy-loan service operating without a Central Bank licence",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "easy loan",
+        "quick loan",
+        "rapidito",
+        "moneylender",
+        "no credit check",
+        "loan approval"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay a processing fee first",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "no credit check",
+          "weight": 1,
+          "hard": false
+        },
+        {
+          "text": "loan approved today",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "A lender advertising fast, easy loans that does not appear among institutions licensed under Belize's Moneylenders Act; the Central Bank issued a warning notice naming one such service.",
+      "legit_en": "Licensed lenders in Belize are supervised by the Central Bank and can be checked on its lists of regulated institutions before any money changes hands.",
+      "bait_tactics": [
+        "Give me your licence number and I'll look it up on the Central Bank's site first.",
+        "I only borrow from my credit union."
+      ],
+      "sources": [
+        "https://www.centralbank.org.bz/detail-pages/news/2026/10/21/warning-notice---rapidito-easy-loans-belize"
+      ]
+    }
+  ]
+}

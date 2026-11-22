@@ -1,0 +1,141 @@
+{
+  "schema": 1,
+  "code": "ng-gh-sl-lr-gm",
+  "countries": [
+    "ng",
+    "gh",
+    "sl",
+    "lr",
+    "gm"
+  ],
+  "name": {
+    "en": "West Africa (English)",
+    "native": "West Africa (English)",
+    "zh": "西非（英語）"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, afternoon?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, security post or compound reception",
+    "zh": "包裹交給門閘、保全亭或宅院接待處"
+  },
+  "readback": {
+    "en": "Spell names as-in; group mobiles in threes; dates day-month.",
+    "zh": "名字用 as-in 拼；手機號分三段唸；日期先日後月"
+  },
+  "fraud": {
+    "en": "a MoMo PIN or OTP request, or a fee to pay first, is a scam",
+    "zh": "要 MoMo PIN 或 OTP，或要先付錢，都是詐騙"
+  },
+  "habits": {
+    "en": "Sir/Madam with strangers; first names once casual. Follow English; keep MoMo.",
+    "zh": "對陌生人用 Sir/Madam，熟了直呼名字。用英語；照用 MoMo。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the USSD menu timing out, the MoMo app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如 USSD 選單逾時、MoMo 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Lagos or Accra pal: first names, brisk English, light Pidgin if they use it (how far), then a short follow-up, varied.",
+        "zh": "像拉哥斯或阿克拉的熟朋友：直呼名字，英語輕快，對方用皮欽語就可帶 how far，再短接一句，每次換。"
+      },
+      "2": {
+        "en": "West African neighbourly English: first names only after they drop Sir; a short 'I get you' can follow. Keep MoMo if they say it.",
+        "zh": "西非鄰居式英語：對方還在用 Sir 就不要直呼名字；聽完可接 I get you。對方說 MoMo 就照用。"
+      },
+      "3": {
+        "en": "Compound and office English here wants a full sentence, not a bare yes. Keep Pidgin words they use, but answer in English.",
+        "zh": "這一帶大院與機關英語要用完整句，不要只回 yes。對方夾皮欽語詞就保留，但用英語回答。"
+      },
+      "4": {
+        "en": "With a gate, ministry or MoMo agent, stay on Sir or Madam, restating the errand ('I get you') before you answer.",
+        "zh": "對門閘、部會或 MoMo 代理，維持 Sir 或 Madam，先覆述來意（如 I get you）再回答。"
+      },
+      "5": {
+        "en": "Office English for banks or MoMo agents: titles, compact; close each item (well noted), varied.",
+        "zh": "對銀行或 MoMo 代理的辦公室英語：用職稱，簡潔；每件收束（如 well noted），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s unfussy helper. Stay on Sir until they use a first name; react, then say you will take the message across.",
+        "zh": "{owner}不拘謹的幫手。對方改口前維持 Sir；先應一句，再說會把話帶過去。"
+      },
+      "2": {
+        "en": "Stand in at the compound gate: keep Sir or Madam, or Oga/Chief if they use it, take the matter, then jot it for {owner}.",
+        "zh": "像大院門閘代接：維持 Sir 或 Madam，對方說 Oga、Chief 就沿用；弄清事由，再為{owner}記下。"
+      },
+      "3": {
+        "en": "Give a complete English answer, then say {owner} will hear it. If they used a Pidgin word, keep it. Not a lone ok.",
+        "zh": "用完整英語回答，再說{owner}會聽到。對方用了皮欽語詞就保留。不要只回 ok。"
+      },
+      "4": {
+        "en": "For a ministry or MoMo-agent call, keep Sir/Madam, name the purpose in a full line, and confirm the note is kept for them.",
+        "zh": "接部會或 MoMo 代理電話，沿用 Sir／Madam，完整說來意，並確認字條會留給主人。"
+      },
+      "5": {
+        "en": "Formal office stand-in in Accra or Lagos: titles, brisk complete lines; lock the facts, then confirm the message will reach them.",
+        "zh": "在阿克拉或拉哥斯的正式機關代接：用職稱，句子明快完整；先鎖定事實，再確認訊息會到達。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "MoMo",
+      "USSD",
+      "agent",
+      "BVN",
+      "transfer"
+    ],
+    "delivery": [
+      "gate",
+      "compound",
+      "security",
+      "GhanaPost",
+      "pickup station"
+    ],
+    "government": [
+      "NIN",
+      "Ghana Card",
+      "passport",
+      "ECOWAS ID"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "NHIS",
+      "NASSIT"
+    ],
+    "telecom": [
+      "MTN",
+      "AirtelTigo",
+      "Vodafone",
+      "prepaid SIM",
+      "USSD"
+    ],
+    "payment": [
+      "MoMo",
+      "agent",
+      "USSD",
+      "wallet"
+    ],
+    "transport": [
+      "tro-tro",
+      "okada",
+      "bus park",
+      "taxi"
+    ],
+    "housing": [
+      "compound",
+      "landlord",
+      "rent",
+      "light bill"
+    ]
+  },
+  "status": "draft"
+}

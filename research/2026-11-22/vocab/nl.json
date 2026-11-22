@@ -1,0 +1,447 @@
+{
+  "region": "nl",
+  "vocab": {
+    "nl-NL": {
+      "bank": [
+        {
+          "term": "overschrijving",
+          "en": "bank transfer, also overmaken (overschrijving)"
+        },
+        {
+          "term": "rekening",
+          "en": "bank account (rekening) [the Netherlands]"
+        },
+        {
+          "term": "pinpas",
+          "en": "debit card (pinpas)"
+        },
+        {
+          "term": "internetbankieren",
+          "en": "online banking (internetbankieren)"
+        },
+        {
+          "term": "IBAN",
+          "en": "IBAN"
+        },
+        {
+          "term": "incasso",
+          "en": "direct debit (incasso)"
+        },
+        {
+          "term": "saldo",
+          "en": "balance (saldo) [the Netherlands]"
+        },
+        {
+          "term": "TAN or app-bevestiging",
+          "en": "approval in the bank app (TAN or app-bevestiging)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "PostNL",
+          "en": "national post and parcels (PostNL)"
+        },
+        {
+          "term": "pakketautomaat",
+          "en": "parcel locker (pakketautomaat)"
+        },
+        {
+          "term": "afhaalpunt",
+          "en": "pickup point (afhaalpunt) [the Netherlands]"
+        },
+        {
+          "term": "bij de buren",
+          "en": "leave with the neighbours (bij de buren)"
+        },
+        {
+          "term": "voor de deur",
+          "en": "at the door (voor de deur)"
+        },
+        {
+          "term": "brievenbus",
+          "en": "mailbox, also letterbox for small items (brievenbus)"
+        },
+        {
+          "term": "track-and-trace",
+          "en": "tracking number (track-and-trace)"
+        }
+      ],
+      "government": [
+        {
+          "term": "DigiD",
+          "en": "government login (DigiD)"
+        },
+        {
+          "term": "BSN",
+          "en": "citizen service number, do not recite unless asked (BSN)"
+        },
+        {
+          "term": "gemeente",
+          "en": "municipality / town hall (gemeente)"
+        },
+        {
+          "term": "Belastingdienst",
+          "en": "tax office (Belastingdienst)"
+        },
+        {
+          "term": "identiteitskaart",
+          "en": "ID card, also ID (identiteitskaart)"
+        },
+        {
+          "term": "verblijfsvergunning",
+          "en": "residence permit (verblijfsvergunning) [the Netherlands]"
+        },
+        {
+          "term": "KvK",
+          "en": "chamber of commerce, for business matters (KvK)"
+        }
+      ],
+      "health": [
+        {
+          "term": "huisarts",
+          "en": "GP (huisarts) [the Netherlands]"
+        },
+        {
+          "term": "apotheek",
+          "en": "pharmacy (apotheek) [the Netherlands]"
+        },
+        {
+          "term": "zorgverzekering",
+          "en": "health insurance (zorgverzekering)"
+        },
+        {
+          "term": "ziekenhuis",
+          "en": "hospital (ziekenhuis)"
+        },
+        {
+          "term": "SEH",
+          "en": "emergency department, also spoed (SEH)"
+        },
+        {
+          "term": "recept",
+          "en": "prescription (recept)"
+        },
+        {
+          "term": "zorgpas",
+          "en": "health-insurance card (zorgpas)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "abonnement",
+          "en": "mobile plan (abonnement) [the Netherlands]"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid [the Netherlands]"
+        },
+        {
+          "term": "nummerbehoud",
+          "en": "number porting (nummerbehoud)"
+        },
+        {
+          "term": "simkaart",
+          "en": "SIM (simkaart) [the Netherlands]"
+        },
+        {
+          "term": "provider",
+          "en": "operator (provider) [the Netherlands]"
+        },
+        {
+          "term": "databundel",
+          "en": "data plan (databundel)"
+        },
+        {
+          "term": "wifi",
+          "en": "Wi-Fi / home internet (wifi)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "iDEAL",
+          "en": "standard Dutch online bank payment (iDEAL)"
+        },
+        {
+          "term": "Tikkie",
+          "en": "payment-request link, very common among people (Tikkie)"
+        },
+        {
+          "term": "pinnen",
+          "en": "pay by debit card, everyday verb (pinnen)"
+        },
+        {
+          "term": "overschrijving",
+          "en": "bank transfer (overschrijving) [the Netherlands]"
+        },
+        {
+          "term": "contant",
+          "en": "cash (contant) [the Netherlands]"
+        },
+        {
+          "term": "incasso",
+          "en": "direct debit (incasso)"
+        },
+        {
+          "term": "creditcard",
+          "en": "credit card, less central than pin (creditcard)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ov-chipkaart",
+          "en": "public-transport chip card, also OVpay (ov-chipkaart)"
+        },
+        {
+          "term": "trein",
+          "en": "train, often NS (trein)"
+        },
+        {
+          "term": "tram",
+          "en": "tram [the Netherlands]"
+        },
+        {
+          "term": "bus",
+          "en": "bus [the Netherlands]"
+        },
+        {
+          "term": "metro",
+          "en": "metro [the Netherlands]"
+        },
+        {
+          "term": "NS",
+          "en": "national railways (NS)"
+        },
+        {
+          "term": "OV-fiets",
+          "en": "station bike hire (OV-fiets)"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi [the Netherlands]"
+        }
+      ],
+      "housing": [
+        {
+          "term": "woning",
+          "en": "home / dwelling (woning)"
+        },
+        {
+          "term": "appartement",
+          "en": "apartment (appartement) [the Netherlands]"
+        },
+        {
+          "term": "brievenbus",
+          "en": "mailbox (brievenbus) [the Netherlands]"
+        },
+        {
+          "term": "intercom",
+          "en": "intercom [the Netherlands]"
+        },
+        {
+          "term": "huisbaas",
+          "en": "landlord, also verhuurder (huisbaas)"
+        },
+        {
+          "term": "VVE",
+          "en": "owners' association (VVE)"
+        },
+        {
+          "term": "huur",
+          "en": "rent (huur) [the Netherlands]"
+        },
+        {
+          "term": "portiek",
+          "en": "shared entrance / porch (portiek)"
+        }
+      ],
+      "school": [
+        {
+          "term": "kinderopvang",
+          "en": "childcare (kinderopvang)"
+        },
+        {
+          "term": "basisschool",
+          "en": "primary school (basisschool) [the Netherlands]"
+        },
+        {
+          "term": "middelbare school",
+          "en": "secondary school (middelbare school)"
+        },
+        {
+          "term": "BSO",
+          "en": "after-school care (BSO)"
+        },
+        {
+          "term": "mentoor",
+          "en": "mentor / form tutor, also mentor (mentoor)"
+        },
+        {
+          "term": "huiswerk",
+          "en": "homework (huiswerk) [the Netherlands]"
+        },
+        {
+          "term": "ouderavond",
+          "en": "parents' evening (ouderavond) [the Netherlands]"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "euro [the Netherlands]"
+        },
+        {
+          "term": "cent",
+          "en": "cent"
+        },
+        {
+          "term": "Tikkie",
+          "en": "send a payment request (Tikkie)"
+        },
+        {
+          "term": "overschrijven",
+          "en": "transfer money (overschrijven)"
+        },
+        {
+          "term": "contant",
+          "en": "cash (contant) [the Netherlands]"
+        },
+        {
+          "term": "wisselgeld",
+          "en": "change (wisselgeld) [the Netherlands]"
+        },
+        {
+          "term": "bedrag",
+          "en": "amount (bedrag) [the Netherlands]"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "vanmorgen",
+          "en": "this morning (vanmorgen) [the Netherlands]"
+        },
+        {
+          "term": "vanmiddag",
+          "en": "this afternoon (vanmiddag) [the Netherlands]"
+        },
+        {
+          "term": "vanavond",
+          "en": "this evening (vanavond) [the Netherlands]"
+        },
+        {
+          "term": "doordeweeks",
+          "en": "on weekdays (doordeweeks)"
+        },
+        {
+          "term": "weekend",
+          "en": "weekend [the Netherlands]"
+        },
+        {
+          "term": "na het werk",
+          "en": "after work (na het werk) [the Netherlands]"
+        },
+        {
+          "term": "deze week",
+          "en": "this week (deze week) [the Netherlands]"
+        }
+      ],
+      "work": [
+        {
+          "term": "werken",
+          "en": "work (werken)"
+        },
+        {
+          "term": "uit werk",
+          "en": "finish work, also vrij (uit werk)"
+        },
+        {
+          "term": "overuren",
+          "en": "overtime (overuren) [the Netherlands]"
+        },
+        {
+          "term": "vakantie",
+          "en": "leave (vakantie)"
+        },
+        {
+          "term": "ziekmelden",
+          "en": "call in sick (ziekmelden)"
+        },
+        {
+          "term": "leidinggevende",
+          "en": "manager (leidinggevende)"
+        },
+        {
+          "term": "thuiswerken",
+          "en": "work from home (thuiswerken)"
+        },
+        {
+          "term": "zakenreis",
+          "en": "business trip (zakenreis)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Bancontact",
+      "use_instead": "pinnen, iDEAL, Tikkie",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "itsme",
+      "use_instead": "DigiD",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "GSM",
+      "use_instead": "mobiel, telefoon",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "pakketautomaat, afhaalpunt",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "Überweisung",
+      "use_instead": "overschrijving, Tikkie, iDEAL",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "Tikkie, iDEAL, overschrijving",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "chemist",
+      "use_instead": "apotheek",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "checking account",
+      "use_instead": "rekening, betaalrekening",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "point relais 當荷蘭預設",
+      "use_instead": "afhaalpunt",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "NHS",
+      "use_instead": "huisarts, zorgverzekering",
+      "where_it_is_from": "GB"
+    }
+  ],
+  "sources": [
+    "https://www.ideal.nl/",
+    "https://www.postnl.nl/",
+    "https://www.digid.nl/",
+    "https://www.belastingdienst.nl/",
+    "https://www.ns.nl/",
+    "https://www.ov-chipkaart.nl/"
+  ],
+  "uncertain": [
+    "OVpay 與 ov-chipkaart 並行，口語還在變。",
+    "「Tikkie」極常用於熟人之間，對公家機關更常說 overschrijving 或 iDEAL。"
+  ]
+}

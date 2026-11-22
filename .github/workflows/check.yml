@@ -68,5 +68,9 @@ jobs:
           assert lines.get("format") == 1 and isinstance(lines.get("regions"), dict) and lines["regions"], "voices/lines.json"
           vidx = json.loads((root / "voices/bageo-voices-index.json").read_text(encoding="utf-8"))
           assert vidx.get("format") == 1 and isinstance(vidx.get("voices"), list), "voices/bageo-voices-index.json"
+          research = sorted((root / "research").rglob("*.json"))
+          for p in research:
+              json.loads(p.read_text(encoding="utf-8"))
+          print(f"ok: {len(research)} research file(s) parse")
           print(f"ok: {len(country_files)} country scam file(s), {len(kw['keywords'])} keyword group(s), {len(lines['regions'])} voice line region(s)")
           PY

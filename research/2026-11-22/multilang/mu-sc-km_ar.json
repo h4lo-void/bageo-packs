@@ -1,0 +1,89 @@
+{
+  "region": "mu-sc-km",
+  "lang": "ar",
+  "why_added": "葛摩以葛摩語、法語與阿拉伯語為官方語言；此組合以葛摩為主，不是三國同樣常用。",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "نعم، تفضل."
+  },
+  "habits": {
+    "en": "Formal Arabic with strangers; keep blessings brief. Strongest in the Comoros. Money is the Comorian franc, not a rupee.",
+    "zh": "對生人用較正式的阿拉伯語，祝福語要短。主要在葛摩。貨幣是葛摩法郎，不是模里西斯盧比。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Moroni friend: shorter, warmer Arabic. Leave French or Comorian words they used; cash is the Comorian franc.",
+        "zh": "莫羅尼熟友可用較短較熱的阿拉伯語。對方用的法語或葛摩語詞照留；錢是葛摩法郎。"
+      },
+      "2": {
+        "en": "Easy familiar tone. A French office name stays; do not switch into Gulf dialect greetings.",
+        "zh": "半熟口氣。法語機關名照留；不要改成海灣方言招呼。"
+      },
+      "3": {
+        "en": "Everyday Arabic in the Comoros sits beside Comorian and French. Finish each point; say Comorian francs.",
+        "zh": "葛摩日常阿拉伯語與葛摩語、法語並用。把話說完；要說葛摩法郎。"
+      },
+      "4": {
+        "en": "Polite formal Arabic for offices. Confirm the Comorian franc, not a rupee, before closing a payment point.",
+        "zh": "對機關用較正式的阿拉伯語。談付款先確認是葛摩法郎，不是盧比。"
+      },
+      "5": {
+        "en": "Formal register for administration. French document titles can remain; no Gulf bureaucratic slogans.",
+        "zh": "行政場合用較莊重的語體。法語文件標題可留；不套用海灣公文口號。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easier pickup only if they were informal, then you will take the message over.",
+        "zh": "{owner}較熟的代接：只有對方先輕鬆，才用輕鬆口氣，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave the Comorian franc or a French title as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。葛摩法郎或法語職銜照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Comorian-franc point in one full Arabic sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句阿拉伯語重述葛摩法郎的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary in formal Arabic: write down why they called, then confirm it will go to {owner}.",
+        "zh": "穩重秘書用較正式的阿拉伯語：寫下來電事由，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on the franc and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：法郎與機關名稱要精確，不額外親熱，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ألو، ما زلت في موروني؟",
+      "نعم، أسمعك، تفضل.",
+      "ألو، السلام عليكم. هل الموضوع عن الفرنك القمري؟",
+      "السلام عليكم، شكراً لاتصالك. المبلغ بالفرنك واضح.",
+      "السلام عليكم، شكراً لك. قيدت أمر المكتب."
+    ],
+    "a": [
+      "ألو، {owner} غير موجود، أخبرني وسأوصله.",
+      "ألو، مرحبا. الخط معي، ما الرسالة؟",
+      "ألو، السلام عليكم. سأوصل كلامك إلى {owner}.",
+      "السلام عليكم، شكراً لاتصالك. سأبلغ {owner} بأمر الفرنك.",
+      "السلام عليكم، شكراً. سأدون التفاصيل وأبلغه."
+    ]
+  },
+  "diff_from_home": [
+    "此組合以葛摩為主：阿拉伯語是官方語言之一，貨幣是葛摩法郎，不是盧比，也不是 CFA。",
+    "電話裡常夾法語或葛摩語詞，照留即可；葛摩語本身不在支援清單。",
+    "不要把模里西斯或塞席爾的盧比、銀行 App 套到葛摩。",
+    "不宜預設海灣或埃及口語為當地習慣。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/comoros/",
+    "https://www.cia.gov/the-world-factbook/countries/mauritius/"
+  ],
+  "uncertain": [
+    "葛摩語才是許多家庭的第一語言，阿拉伯語在行政、宗教與學校的比重大於日常閒聊，電話上的實際選用比例缺少新統計。",
+    "模里西斯與塞席爾也有穆斯林社群使用阿拉伯語的場合，但不能寫成兩國的通用電話語言。"
+  ]
+}

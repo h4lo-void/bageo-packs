@@ -1,0 +1,44 @@
+{
+  "country": "cc",
+  "parent": "au-nz",
+  "name": {
+    "en": "Cocos (Keeling) Islands",
+    "native": "Cocos (Keeling) Islands",
+    "zh": "科科斯（基林）群島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+61（西澳號段 8 91 開頭）",
+    "currency": "澳幣",
+    "time_zone": "UTC+6:30",
+    "language": "科科斯馬來語與英語"
+  },
+  "habits": {
+    "en": "Follow Cocos Malay or English callers. Clock is UTC+6:30; confirm times against Australia.",
+    "zh": "對方說科科斯馬來語或英語就跟著說。時間 UTC+6:30，與澳洲本土要換算確認。"
+  },
+  "vocab": {
+    "bank": [
+      "AU$"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "AEST 換算",
+      "reason": {
+        "zh": "科科斯是 UTC+6:30"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"
+  ],
+  "uncertain": [
+    "只有維基百科來源，需補官方頁。",
+    "居民 593 人（2021 普查），收件與付款習慣未查。"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "name": "Uganda",
+  "name_local": "Uganda",
+  "iso": "ug",
+  "calling_code": "+256",
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "prevalence_note": "Uganda Communications Commission, relayed by the Uganda Police Force, warns that fraudsters impersonate UCC or telecom staff to 'upgrade' SIMs, push PIN or OTP collection, and run unexpected prize stories; mobile-money operators also warn never to share wallet secrets.",
+  "cross_border_note": "Calls may be in English or Luganda and can look local; some operator notices also mention numbers that do not match the firm's published service lines.",
+  "scams": [
+    {
+      "id": "ug_ucc_sim_upgrade_impersonation",
+      "typology": "fake_telecom",
+      "name": "Fake UCC or telecom SIM-upgrade call",
+      "name_en": "Fake UCC or telecom SIM-upgrade call",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "SIM upgrade",
+        "verify your line",
+        "UCC staff",
+        "registered in your name"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "claims to be calling from the communications regulator",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presses for an on-the-spot SIM upgrade",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to confirm every line registered on a national ID",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers claim to be UCC officers or telecom staff who need to verify or upgrade a SIM, sometimes warning that lines registered on the person's national ID are at risk if the listener does not cooperate on the spot.",
+      "legit_en": "UCC, as republished by the Uganda Police Force and in its consumer-awareness material, states that UCC never calls consumers and that operators do not phone customers to verify or upgrade SIMs; doubts should be taken to the operator's own published care line.",
+      "bait_tactics": [
+        "I have not asked anyone to upgrade this Airtel line, and I am not discussing SIM details with a number I cannot match to a published care line.",
+        "The national-ID enquiry menu on this handset is not opening, so I cannot confirm any extra lines from here.",
+        "This call is breaking up on the Kampala side of the house and I will not keep talking about a SIM I did not request to change."
+      ],
+      "sources": [
+        "https://upf.go.ug/ucc-advisory-on-bafere/",
+        "https://www.ucc.co.ug/wp-content/uploads/2023/11/UCC-YEAR-IN-REVIEW-MAGAZINE-2022.pdf"
+      ]
+    },
+    {
+      "id": "ug_momo_pin_otp",
+      "typology": "otp_theft",
+      "name": "Mobile-money PIN or OTP collection",
+      "name_en": "Mobile-money PIN or OTP collection",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "mobile money PIN",
+        "one-time password",
+        "wallet verification",
+        "MoMo update"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the mobile-money PIN during the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to enter a one-time password the caller has triggered",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tells the listener not to mention the code to anyone else",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone posing as UCC, a network, or a mobile-money desk asks the customer to speak a PIN, type a one-time password, or enter a verification code so a wallet can be 'restored' or a transfer completed.",
+      "legit_en": "UCC tells the public never to give out a PIN or OTP for any reason and not to enter verification codes at a caller's request. MTN Mobile Money Uganda likewise says a PIN, code or OTP must not be shared with anyone.",
+      "bait_tactics": [
+        "The MTN MoMo balance screen is still loading on this weak data connection, and I am not typing a PIN while a stranger stays on the line.",
+        "No one-time password has landed in this inbox, so there is nothing for me to read back.",
+        "The wallet PIN pad is covered by a frozen overlay and I am not entering digits until the official app is usable again."
+      ],
+      "sources": [
+        "https://upf.go.ug/ucc-advisory-on-bafere/",
+        "https://www.mtn.co.ug/public-statement-safety-of-our-mobile-money-services/"
+      ]
+    },
+    {
+      "id": "ug_unexpected_prize",
+      "typology": "prize_lottery",
+      "name": "Unexpected prize or promotion call",
+      "name_en": "Unexpected prize or promotion call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "you have won",
+        "promotion prize",
+        "claim your award",
+        "airtime bonus"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "announces a prize for a contest the person never joined",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "requires a fee before supposed winnings can be released",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for a mobile-money transfer to unlock a bonus",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or text congratulates the person on a prize or promotion they never joined and then pushes a fee, a code, or a mobile-money transfer to 'release' the winnings.",
+      "legit_en": "UCC consumer guidance points out a basic check: if someone has not taken part in a competition, they cannot then be winning anything, and surprise prize calls should be treated as a fraud attempt.",
+      "bait_tactics": [
+        "I have not entered any promotion on this number, so I have no prize to claim and I will not send a release fee.",
+        "The message about a bonus is from an ordinary mobile number rather than a short code I already use, and I am ignoring it.",
+        "My MoMo wallet has no spare float for a claim charge, and I do not pay to collect a gift I never signed up for."
+      ],
+      "sources": [
+        "https://upf.go.ug/ucc-advisory-on-bafere/",
+        "https://www.ucc.co.ug/wp-content/uploads/2023/11/UCC-YEAR-IN-REVIEW-MAGAZINE-2022.pdf"
+      ]
+    }
+  ]
+}

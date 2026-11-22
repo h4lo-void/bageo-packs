@@ -1,0 +1,455 @@
+{
+  "region": "mx",
+  "vocab": {
+    "es-US": {
+      "bank": [
+        {
+          "term": "SPEI",
+          "en": "the interbank electronic transfer that people name when they send money in Mexico"
+        },
+        {
+          "term": "CLABE",
+          "en": "the standardized Mexican account number; say CLABE, do not recite the full digit string unless asked"
+        },
+        {
+          "term": "transferencia",
+          "en": "a bank transfer, usually a SPEI"
+        },
+        {
+          "term": "cuenta",
+          "en": "a cuenta, reached by SPEI with a CLABE, or through Mercado Pago"
+        },
+        {
+          "term": "tarjeta de débito",
+          "en": "a tarjeta de débito, used at Mexican tills next to Mercado Pago"
+        },
+        {
+          "term": "banca móvil",
+          "en": "the bank's mobile app"
+        },
+        {
+          "term": "saldo",
+          "en": "the account balance"
+        },
+        {
+          "term": "sucursal",
+          "en": "a bank branch"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "OXXO",
+          "en": "the convenience-store chain used as a pickup and drop-off point, and to pay many bills"
+        },
+        {
+          "term": "paquetería",
+          "en": "parcel service, also a desk inside some stores"
+        },
+        {
+          "term": "caseta",
+          "en": "the guard booth at a neighborhood or factory gate"
+        },
+        {
+          "term": "portería",
+          "en": "the building entrance desk, in some apartment buildings"
+        },
+        {
+          "term": "guía",
+          "en": "the tracking or waybill code, often just la guía"
+        },
+        {
+          "term": "Estafeta",
+          "en": "a widely named courier"
+        },
+        {
+          "term": "a la puerta",
+          "en": "leave it at the door"
+        },
+        {
+          "term": "correo",
+          "en": "Correos de México, less central than private couriers for shopping parcels"
+        }
+      ],
+      "government": [
+        {
+          "term": "INE",
+          "en": "the voter and identity credential, the ID people usually mean"
+        },
+        {
+          "term": "RFC",
+          "en": "the tax ID; say RFC, do not recite it unless asked"
+        },
+        {
+          "term": "CURP",
+          "en": "the population-registry code; do not recite it unless asked"
+        },
+        {
+          "term": "SAT",
+          "en": "the tax authority, also used for invoices and appointments"
+        },
+        {
+          "term": "trámite",
+          "en": "a government procedure, a very common word on calls"
+        },
+        {
+          "term": "pasaporte",
+          "en": "a Mexican pasaporte, next to a credencial INE for everyday identity"
+        },
+        {
+          "term": "cita",
+          "en": "an appointment, often required at SAT or consulates"
+        }
+      ],
+      "health": [
+        {
+          "term": "IMSS",
+          "en": "the main public social-security health system for formal workers"
+        },
+        {
+          "term": "ISSSTE",
+          "en": "public health cover for many government workers"
+        },
+        {
+          "term": "consultorio",
+          "en": "a doctor's office"
+        },
+        {
+          "term": "farmacia",
+          "en": "a pharmacy, including large chains people name"
+        },
+        {
+          "term": "urgencias",
+          "en": "the emergency department"
+        },
+        {
+          "term": "receta",
+          "en": "a receta filled at a farmacia, sometimes covered by an IMSS or private plan"
+        },
+        {
+          "term": "médico",
+          "en": "a doctor, also el doctor"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "celular",
+          "en": "a mobile phone, the usual Mexican word rather than móvil"
+        },
+        {
+          "term": "recarga",
+          "en": "a prepaid top-up"
+        },
+        {
+          "term": "plan",
+          "en": "a postpaid mobile plan, said plan in Mexico"
+        },
+        {
+          "term": "chip",
+          "en": "a SIM card"
+        },
+        {
+          "term": "portabilidad",
+          "en": "keeping the number when changing carrier"
+        },
+        {
+          "term": "datos",
+          "en": "datos on a plan from Telcel, Movistar or AT&T Mexico"
+        },
+        {
+          "term": "compañía",
+          "en": "the mobile operator, often named Telcel, Movistar or AT&T"
+        }
+      ],
+      "payment": [
+        {
+          "term": "SPEI",
+          "en": "the default way to describe a bank-to-bank payment"
+        },
+        {
+          "term": "CoDi",
+          "en": "Banco de México's QR or NFC request-to-pay, still uneven in everyday speech"
+        },
+        {
+          "term": "OXXO",
+          "en": "paying cash or a bill at an OXXO, a habit people mention on calls"
+        },
+        {
+          "term": "Mercado Pago",
+          "en": "the wallet widely used with Mercado Libre and in shops"
+        },
+        {
+          "term": "efectivo",
+          "en": "efectivo in Mexican pesos, often paid at an OXXO as well as in person"
+        },
+        {
+          "term": "tarjeta",
+          "en": "a tarjeta, débito or crédito, at a Mexican terminal"
+        },
+        {
+          "term": "transferencia",
+          "en": "a transfer, usually SPEI"
+        }
+      ],
+      "transport": [
+        {
+          "term": "metro",
+          "en": "the metro, in Mexico City and a few other cities"
+        },
+        {
+          "term": "camión",
+          "en": "a city bus, the everyday Mexican word"
+        },
+        {
+          "term": "Metrobús",
+          "en": "the BRT in Mexico City, a local name"
+        },
+        {
+          "term": "Uber",
+          "en": "ride-hailing, also Didi"
+        },
+        {
+          "term": "taxi",
+          "en": "a street taxi"
+        },
+        {
+          "term": "caseta",
+          "en": "a highway toll booth"
+        },
+        {
+          "term": "combi",
+          "en": "a shared van, in many cities"
+        },
+        {
+          "term": "estación",
+          "en": "a metro or bus station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "departamento",
+          "en": "an apartment, not piso"
+        },
+        {
+          "term": "fraccionamiento",
+          "en": "a gated housing development"
+        },
+        {
+          "term": "caseta",
+          "en": "the neighborhood guard booth, a common parcel drop-off"
+        },
+        {
+          "term": "interfón",
+          "en": "the door intercom, also interfon"
+        },
+        {
+          "term": "buzón",
+          "en": "the mailbox"
+        },
+        {
+          "term": "renta",
+          "en": "the renta for a departamento, plus any mantenimiento charges"
+        },
+        {
+          "term": "administrador",
+          "en": "the building or estate administrator"
+        },
+        {
+          "term": "privada",
+          "en": "a private street or closed-off residential street"
+        }
+      ],
+      "school": [
+        {
+          "term": "kínder",
+          "en": "kindergarten, also jardín de niños"
+        },
+        {
+          "term": "primaria",
+          "en": "primary school, always primaria in Mexican speech"
+        },
+        {
+          "term": "secundaria",
+          "en": "lower secondary school"
+        },
+        {
+          "term": "prepa",
+          "en": "upper secondary, short for preparatoria"
+        },
+        {
+          "term": "tarea",
+          "en": "tarea sent home from a primaria or secundaria"
+        },
+        {
+          "term": "maestro",
+          "en": "a teacher, also maestra"
+        },
+        {
+          "term": "tutores",
+          "en": "tutoring, also asesoria"
+        }
+      ],
+      "money": [
+        {
+          "term": "pesos",
+          "en": "Mexican pesos, the default unit"
+        },
+        {
+          "term": "varos",
+          "en": "informal word for money or pesos, in some speech"
+        },
+        {
+          "term": "mil pesos",
+          "en": "a thousand pesos, the usual large-amount unit"
+        },
+        {
+          "term": "SPEI",
+          "en": "send the money by SPEI"
+        },
+        {
+          "term": "efectivo",
+          "en": "efectivo in Mexican pesos, often paid at an OXXO as well as in person"
+        },
+        {
+          "term": "cambio",
+          "en": "the cambio in Mexican pesos"
+        },
+        {
+          "term": "lana",
+          "en": "informal word for money, heard in some regions"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "en la mañana",
+          "en": "en la mañana, the morning on a Mexican call"
+        },
+        {
+          "term": "en la tarde",
+          "en": "in the afternoon, and often early evening too"
+        },
+        {
+          "term": "en la noche",
+          "en": "at night or this evening"
+        },
+        {
+          "term": "entre semana",
+          "en": "on a weekday"
+        },
+        {
+          "term": "fin de semana",
+          "en": "el fin de semana, Saturday and Sunday on a Mexican call"
+        },
+        {
+          "term": "después del trabajo",
+          "en": "después del trabajo, once the jornada ends"
+        },
+        {
+          "term": "esta semana",
+          "en": "esta semana, the current week on a Mexican call"
+        },
+        {
+          "term": "hoy",
+          "en": "today"
+        }
+      ],
+      "work": [
+        {
+          "term": "trabajo",
+          "en": "work, or el jale in very informal speech"
+        },
+        {
+          "term": "la salida",
+          "en": "finishing time, also la hora de salida"
+        },
+        {
+          "term": "tiempo extra",
+          "en": "tiempo extra, added hours beyond the usual jornada"
+        },
+        {
+          "term": "vacaciones",
+          "en": "vacaciones, the yearly leave under Mexican labour rules"
+        },
+        {
+          "term": "incapacidad",
+          "en": "sick leave documented by a clinic, a formal word"
+        },
+        {
+          "term": "jefe",
+          "en": "the boss"
+        },
+        {
+          "term": "home office",
+          "en": "work from home, a common English loan"
+        },
+        {
+          "term": "viaje de trabajo",
+          "en": "a business trip, also comisión in some workplaces"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Bizum",
+      "use_instead": "SPEI, Mercado Pago, transferencia",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "PIX",
+      "use_instead": "SPEI",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "móvil 當唯一說法",
+      "use_instead": "celular",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "piso 當住房唯一詞",
+      "use_instead": "departamento, casa, fraccionamiento",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "DNI",
+      "use_instead": "INE, identificación oficial",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "autobús 當唯一公車詞",
+      "use_instead": "camión 更常用，也有 Metrobús、combi",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "SPEI, Mercado Pago",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "subte",
+      "use_instead": "metro",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "CUIT",
+      "use_instead": "RFC, CURP, INE",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "OXXO 講成 7-Eleven 就能代替",
+      "use_instead": "OXXO 是墨西哥最常被點名的超商取件與繳費點",
+      "where_it_is_from": "US"
+    }
+  ],
+  "sources": [
+    "https://www.banxico.org.mx/sistemas-de-pago/codi-cobro-digital-banco-me.html",
+    "https://www.oxxo.com/paqueteria/estafeta",
+    "https://www.sat.gob.mx/",
+    "https://www.ine.mx/",
+    "https://www.imss.gob.mx/"
+  ],
+  "uncertain": [
+    "CoDi 雖是墨西哥銀行官方掃碼收款，日常電話裡仍遠不如直接說 SPEI 或 Mercado Pago 常見。",
+    "「camión」當公車主要是墨西哥用法；北部或邊境可能夾英語 bus。",
+    "「varos」「lana」等金錢口語因地區與年齡差別大，對陌生來電宜先用 pesos。"
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "lang": "vi",
+  "backchannels": {
+    "direction": "Dạ and vâng signal polite listening (dạ more southern); ừ, ờ are casual to peers; bare ừ to elders sounds rude.",
+    "examples": [
+      {
+        "text": "Dạ.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Vâng.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Dạ, đúng rồi.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ừ, ừ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ờ.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Trời ơi covers shock or pity; thật à? / thật hả? for surprise; tiếc quá for regret; ạ softens to elders.",
+    "examples": [
+      {
+        "text": "Trời ơi!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Thật hả?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Thật vậy ạ?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Tiếc quá ạ.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Vui quá!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Hơi khó ạ.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Name the weak line: nghe không rõ, sóng yếu; ask them to speak up with nói to hơn, adding ạ for strangers.",
+    "examples": [
+      {
+        "text": "Alô, em nghe không rõ ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Sóng yếu quá, anh chị nói lại được không ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Tiếng bị rè.",
+        "style": "casual"
+      },
+      {
+        "text": "Anh nói to hơn chút được không?",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Dạ? with rising tone asks for a replay; for names ask đánh vần; for numbers ask to read the số again slowly.",
+    "examples": [
+      {
+        "text": "Dạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Anh chị nhắc lại giúp em được không ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Tên anh đánh vần thế nào ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Số điện thoại là 12345678 phải không ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Gì cơ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ask politely with ai đấy ạ / ai vậy ạ, or ask which company is calling; avoid bare ai đấy? with strangers.",
+    "examples": [
+      {
+        "text": "Dạ, xin hỏi ai đang gọi ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Anh chị gọi từ đâu ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Đây là máy của {owner}, xin hỏi ai vậy ạ?",
+        "style": "polite"
+      },
+      {
+        "text": "Ai đấy?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say the caller has the wrong number (nhầm số) and that nobody by that name is here; keep it short.",
+    "examples": [
+      {
+        "text": "Dạ, anh chị gọi nhầm số rồi ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Ở đây không có ai tên đó ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Nhầm số rồi.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Promise to pass the message (nhắn lại, chuyển lời) to {owner}; do not commit to a call-back time.",
+    "examples": [
+      {
+        "text": "Dạ, em sẽ nhắn lại cho {owner} ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Em sẽ chuyển lời ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Để em báo {owner}.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Vietnamese refusals stay soft: thank them (cảm ơn) then say không có nhu cầu; an outright không sounds abrupt.",
+    "examples": [
+      {
+        "text": "Dạ cảm ơn, bên em không có nhu cầu ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Em không cần đâu ạ, cảm ơn anh chị.",
+        "style": "polite"
+      },
+      {
+        "text": "Thôi, không cần đâu.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If the seller keeps going, restate no need and ask them not to call this number again, still with ạ.",
+    "examples": [
+      {
+        "text": "Em đã nói là không có nhu cầu rồi ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Xin đừng gọi lại số này nữa ạ.",
+        "style": "polite"
+      },
+      {
+        "text": "Vui lòng xoá số này khỏi danh sách ạ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Kin pronouns by age: anh/chị for a bit older, cô/chú/bác for elders, em for yourself; avoid bạn with strangers.",
+    "examples": [
+      {
+        "text": "Anh ơi",
+        "style": "polite"
+      },
+      {
+        "text": "Chị ơi",
+        "style": "polite"
+      },
+      {
+        "text": "Dạ, thưa cô",
+        "style": "polite"
+      },
+      {
+        "text": "Chú ơi",
+        "style": "polite"
+      },
+      {
+        "text": "Anh Minh",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Xin cảm ơn quý khách đã gọi or Rất hân hạnh được phục vụ sound like a tổng đài switchboard.",
+    "examples": [
+      {
+        "text": "Xin cảm ơn quý khách đã gọi đến tổng đài.",
+        "style": "polite"
+      },
+      {
+        "text": "Rất hân hạnh được phục vụ quý khách.",
+        "style": "polite"
+      },
+      {
+        "text": "Cuộc gọi của quý khách rất quan trọng với chúng tôi.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Blunt mày/tao, asking age or salary early, or calling late at night breach phone manners with strangers.",
+    "examples": [
+      {
+        "text": "Mày là ai?",
+        "style": "casual"
+      },
+      {
+        "text": "Anh bao nhiêu tuổi, lương bao nhiêu?",
+        "style": "casual"
+      },
+      {
+        "text": "Gọi lúc nửa đêm mà không xin lỗi.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikipedia.org/wiki/Vietnamese_pronouns",
+    "https://en.wiktionary.org/wiki/al%C3%B4",
+    "https://en.wiktionary.org/wiki/d%E1%BA%A1",
+    "https://en.wiktionary.org/wiki/%E1%BA%A1"
+  ],
+  "uncertain": [
+    "Backchannel set (dạ, vâng, ừ, ờ) from dictionaries and pronoun literature, not from a phone-call corpus",
+    "Northern vâng vs southern dạ preference is widely described but no survey found",
+    "Choice of anh/chị/em/cô/chú depends on the callee's guessed age; the AI cannot see the caller, so 'anh/chị' is a default guess"
+  ]
+}

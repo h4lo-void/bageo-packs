@@ -1,0 +1,46 @@
+{
+  "country": "sh",
+  "parent": "gb-ie",
+  "name": {
+    "en": "St. Helena, Ascension and Tristan da Cunha",
+    "native": "St. Helena, Ascension and Tristan da Cunha",
+    "zh": "聖赫倫那、亞森欣與特里斯坦達庫尼亞"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "聖赫倫那與特里斯坦達庫尼亞為 +290，亞森欣為 +247",
+    "currency": "聖赫倫那與亞森欣用聖赫倫那鎊（與英鎊 1:1）；特里斯坦達庫尼亞用英鎊",
+    "time_zone": "UTC+0 全年，英國夏令期間比倫敦慢 1 小時",
+    "population": "三地相距遙遠，2016 年普查合計約 5,633 人"
+  },
+  "habits": {
+    "en": "English; three far-apart islands with different codes (+290 or +247). Prices in Saint Helena pounds or sterling.",
+    "zh": "說英語；三地相距很遠、國碼不同（+290 或 +247）。標價為聖赫倫那鎊或英鎊。"
+  },
+  "vocab": {
+    "bank": [
+      "pound",
+      "sterling"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "BST 換算",
+      "reason": {
+        "zh": "當地全年 UTC+0，英國夏令期間差 1 小時"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.sainthelena.gov.sh/",
+    "https://en.wikipedia.org/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+  ],
+  "uncertain": [
+    "亞森欣以基地與合約人員為主，一般居民電話習慣資料很少。",
+    "收件與付款習慣未查。"
+  ]
+}

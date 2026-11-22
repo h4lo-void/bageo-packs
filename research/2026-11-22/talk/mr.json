@@ -1,0 +1,295 @@
+{
+  "lang": "mr",
+  "backchannels": {
+    "direction": "हो and हं signal listening; बरोबर agrees; a clipped हो हो can sound impatient, especially to elders.",
+    "examples": [
+      {
+        "text": "हं.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "हो, हो.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "बरोबर.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "अच्छा.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "हो का?",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ठीक आहे.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "हं, हं.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Marathi speakers react with अरे-based exclamations; अरेरे for bad news, अरे वा for good news.",
+    "examples": [
+      {
+        "text": "खरंच?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "अरे बापरे!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "अरेरे, वाईट झालं.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "अरे वा!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "छान!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "अवघड आहे.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice is not coming through (आवाज येत नाही); mobile users often blame रेंज, an English loan.",
+    "examples": [
+      {
+        "text": "आवाज नीट येत नाहीये.",
+        "style": "polite"
+      },
+      {
+        "text": "रेंज नाहीये इथे.",
+        "style": "casual"
+      },
+      {
+        "text": "आवाज तुटतोय.",
+        "style": "casual"
+      },
+      {
+        "text": "जरा मोठ्याने बोलाल का?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Use the polite future question form (सांगाल का?) to ask again; spelling a name in English letters is common.",
+    "examples": [
+      {
+        "text": "पुन्हा सांगाल का?",
+        "style": "polite"
+      },
+      {
+        "text": "काय म्हणालात?",
+        "style": "polite"
+      },
+      {
+        "text": "नाव स्पेलिंग करून सांगाल का?",
+        "style": "polite"
+      },
+      {
+        "text": "नंबर परत एकदा सांगा, 12345678 ना?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "कोण बोलतंय? is the everyday ask; add आपण for respect when the caller sounds older or official.",
+    "examples": [
+      {
+        "text": "कोण बोलतंय?",
+        "style": "casual"
+      },
+      {
+        "text": "आपण कोण बोलताय?",
+        "style": "polite"
+      },
+      {
+        "text": "कुठून बोलताय?",
+        "style": "polite"
+      },
+      {
+        "text": "हा {owner} यांचा फोन आहे. आपण कोण?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Tell them the number is wrong (चुकीचा नंबर); the English रॉंग नंबर is widely understood too.",
+    "examples": [
+      {
+        "text": "चुकीचा नंबर लागलाय.",
+        "style": "polite"
+      },
+      {
+        "text": "इथे त्या नावाचं कोणी नाही.",
+        "style": "polite"
+      },
+      {
+        "text": "रॉंग नंबर.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "निरोप देणे means passing a message; verb endings change with the speaker's gender (सांगतो/सांगते).",
+    "examples": [
+      {
+        "text": "मी त्यांना सांगतो.",
+        "style": "polite"
+      },
+      {
+        "text": "मी त्यांना सांगते.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} यांना निरोप देतो.",
+        "style": "polite"
+      },
+      {
+        "text": "निरोप पोहोचवते.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "नको is the natural refusal; pair it with धन्यवाद and keep it short rather than explaining.",
+    "examples": [
+      {
+        "text": "नको, धन्यवाद.",
+        "style": "polite"
+      },
+      {
+        "text": "आम्हाला याची गरज नाही.",
+        "style": "polite"
+      },
+      {
+        "text": "सध्या काही नको.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If a caller keeps pushing, restate नाही clearly and ask them not to phone again, still using आपण forms.",
+    "examples": [
+      {
+        "text": "मी आधीच नाही सांगितलं आहे, परत फोन करू नका.",
+        "style": "polite"
+      },
+      {
+        "text": "हा नंबर तुमच्या यादीतून काढून टाका.",
+        "style": "polite"
+      },
+      {
+        "text": "नाही म्हणजे नाही.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "आपण is the polite you; elders get काका/काकू, peers दादा/ताई; offices use साहेब or मॅडम; -जी adds respect.",
+    "examples": [
+      {
+        "text": "नमस्कार, साहेब.",
+        "style": "polite"
+      },
+      {
+        "text": "मॅडम, नमस्कार.",
+        "style": "polite"
+      },
+      {
+        "text": "काका, बोला.",
+        "style": "casual"
+      },
+      {
+        "text": "हो ताई.",
+        "style": "casual"
+      },
+      {
+        "text": "दादा,",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Formal Sanskrit-heavy service lines sound like a bank IVR in a Marathi household call.",
+    "examples": [
+      {
+        "text": "आपला कॉल आमच्यासाठी महत्त्वाचा आहे.",
+        "style": "polite"
+      },
+      {
+        "text": "मी आपली काय मदत करू शकतो?",
+        "style": "polite"
+      },
+      {
+        "text": "आपल्या सेवेत सदैव तत्पर.",
+        "style": "polite"
+      },
+      {
+        "text": "कॉल केल्याबद्दल धन्यवाद.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid तू with strangers, early salary or marriage questions, and ever asking for Aadhaar or OTP digits.",
+    "examples": [
+      {
+        "text": "पगार किती आहे?",
+        "style": "casual"
+      },
+      {
+        "text": "लग्न झालं का?",
+        "style": "casual"
+      },
+      {
+        "text": "तू कोण रे?",
+        "style": "casual"
+      },
+      {
+        "text": "आधी तुमचा आधार नंबर सांगा.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Marathi_phrasebook",
+    "https://en.wikipedia.org/wiki/Indian_honorifics",
+    "https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A5%8B",
+    "https://en.wiktionary.org/wiki/%E0%A4%9C%E0%A5%80",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A4%BE",
+    "https://en.wiktionary.org/wiki/%E0%A4%A4%E0%A4%BE%E0%A4%88"
+  ],
+  "uncertain": [
+    "未找到馬拉提語電話附和聲的語料或頻率研究；附和詞依 Wiktionary 與 Wikivoyage 片語集整理。",
+    "轉告句的動詞詞尾隨說話者性別變（सांगतो 男／सांगते 女），Bageo 的聲音性別設定未知，兩種都列。",
+    "「रेंज」「रॉंग नंबर」屬英語借詞，城市與鄉村使用比例沒有查到數據。"
+  ]
+}

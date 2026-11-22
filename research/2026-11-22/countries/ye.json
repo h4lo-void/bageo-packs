@@ -1,0 +1,136 @@
+{
+  "country": "ye",
+  "parent": "gulf",
+  "name": {
+    "en": "Yemen",
+    "native": "اليمن",
+    "zh": "葉門"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، نعم؟"
+  },
+  "delivery": {
+    "en": "Leave it at the door or collect from the courier's office; apartment-tower reception is uncommon",
+    "zh": "放門口或到快遞公司領，較少像海灣那樣交給大樓櫃台"
+  },
+  "readback": {
+    "en": "Mobiles start with 7 and go in threes; 0 as صفر; Yemeni rials, not Gulf riyals; day before month",
+    "zh": "手機以 7 開頭、三位一組唸，0 唸 صفر；用葉門里亞爾，不是海灣里亞爾；先日後月"
+  },
+  "fraud": {
+    "en": "A courier or customs fee link, or anyone asking for an OTP to release a parcel, is a scam",
+    "zh": "自稱快遞或關稅要點連結付費，或為了放行包裹向你要 OTP，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم and use كيف حالك. This is Yemeni Arabic, not Gulf speech. Say the Yemeni rial, not Absher terms.",
+    "zh": "先回 السلام عليكم，問好用 كيف حالك。這是葉門阿拉伯語，不是海灣話。用葉門里亞爾。"
+  },
+  "stall_local": {
+    "en": "The bank's confirmation SMS is late, and the mobile signal keeps dropping.",
+    "zh": "卡在銀行確認簡訊遲遲不來，而且手機訊號一直斷。"
+  },
+  "vocab": {
+    "bank": [
+      "ريال يمني",
+      "تحويل",
+      "بطاقة",
+      "OTP"
+    ],
+    "delivery": [
+      "الباب",
+      "مكتب البريد",
+      "المندوب",
+      "شركة الشحن"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "沙烏地政府平台，葉門沒有這套系統，聽起來會像別國的話"
+      }
+    },
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋數位身分，與葉門日常生活無關"
+      }
+    },
+    {
+      "word": "شلونك",
+      "reason": {
+        "zh": "海灣問候；葉門更常說 كيف حالك"
+      }
+    },
+    {
+      "word": "حارس العمارة",
+      "reason": {
+        "zh": "海灣公寓大樓警衛的說法，葉門多數住處不是這種交付方式"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Much less Gulf in tone: drop شلونك and يا هلا as defaults, keep blessings sincere but not rushed, and stay in Yemeni Arabic. Because the gap is large, a full talk_style is also given.",
+    "zh": "語氣跟海灣差很多：不要預設 شلونك、يا هلا，祝福要認真但不急，並留在葉門阿拉伯語。因差異大，另附完整 talk_style。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family: return السلام عليكم, ask كيف حالك, short warm lines plus a follow-up. Do not default to Gulf شلونك or يا هلا.",
+        "zh": "跟親人：回禮 السلام عليكم、問 كيف حالك，短句溫暖並多接一句。勿套海灣 شلونك、يا هلا。"
+      },
+      "2": {
+        "en": "Gentle and unhurried: return blessings briefly, then add a kind remark such as حياك الله after they explain, and vary the wording.",
+        "zh": "語氣溫和、不趕：祝福簡短回一下，對方說完再補一句體貼的話（如 حياك الله），每次換說法。"
+      },
+      "3": {
+        "en": "Courteous everyday Yemeni Arabic. When they finish a point, answer in one full sentence, not a bare نعم.",
+        "zh": "日常有禮的葉門阿拉伯語。對方講完一件事，用一句完整的話回應，不要只回 نعم。"
+      },
+      "4": {
+        "en": "Dignified: أستاذ or a title, measured full sentences; take up their main point first, then continue, and vary the wording.",
+        "zh": "沉穩：用 أستاذ 或頭銜，句子完整；先接住對方重點再往下說，每次換說法。"
+      },
+      "5": {
+        "en": "Formal business Arabic with أستاذ or أستاذة, concise and gracious; answer each point in full, and vary the wording.",
+        "zh": "正式商務阿拉伯語，用 أستاذ 或 أستاذة，簡潔得體；每個重點都完整回應，每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s warm helper: greet kindly, react to what they said, then say you will pass it on, and vary the wording.",
+        "zh": "像{owner}溫暖的幫手：先親切回應對方的話，再說會轉告，每次換說法。"
+      },
+      "2": {
+        "en": "A calm assistant: acknowledge their situation, then take a message for {owner}, and vary the wording.",
+        "zh": "從容的助理：先體諒對方處境，再替{owner}記下留言，每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant in courteous Arabic: one full sentence after their point, then confirm the relay, never a bare طيب.",
+        "zh": "幹練有禮的助理：對方講完先用一句完整的話回應，再確認會轉達，不要只回 طيب。"
+      },
+      "4": {
+        "en": "Polished secretary: أستاذ or أستاذة, complete sentences; take up why they called, then offer to pass it to {owner}.",
+        "zh": "周到的秘書：用 أستاذ 或 أستاذة，句子完整；先承接來意，再說會轉告給{owner}。"
+      },
+      "5": {
+        "en": "Executive assistant in concise business Arabic: answer the details in full, then confirm the relay to {owner}.",
+        "zh": "主管級助理，用簡潔的商務阿拉伯語：先完整回應細節，再確認會轉告{owner}。"
+      }
+    }
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.dhl.com/ye-en/home/footer/fraud-awareness.html",
+    "https://en.wikipedia.org/wiki/Yemeni_Arabic",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Yemen",
+    "https://preply.com/en/blog/phone-calls-in-arabic/"
+  ],
+  "uncertain": [
+    "面對面問候是否真的會多繞幾輪，再轉到電話上，缺乏專門的通話語用研究。",
+    "貨到付款有多普遍，此次沒有足夠的官方統計，故未寫進 delivery。",
+    "手機以 7 開頭後如何分段，主要依據公開編號說明，不是電信口誦手冊。"
+  ]
+}

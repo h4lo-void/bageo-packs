@@ -1,0 +1,74 @@
+{
+  "country": "ie",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Ireland",
+    "native": "Éire",
+    "zh": "愛爾蘭"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Parcels: a safe place, the porch, a neighbour, or an An Post pickup point",
+    "zh": "包裹放安全處、門廊、交給鄰居，或到 An Post 點取"
+  },
+  "readback": {
+    "en": "08 mobiles use oh and double; amounts in euro; say Eircode; half two is 2:30",
+    "zh": "手機用 oh、double 唸；金額用歐元與 Eircode；half two＝2:30"
+  },
+  "fraud": {
+    "en": "A fake Revenue threat, an An Post fee link, or a courier collecting your card, are scams",
+    "zh": "冒充稅務局 Revenue 威脅、假 An Post 要補費，或派人收卡的都是詐騙"
+  },
+  "habits": {
+    "en": "Irish English. Say mobile, Eircode, flat; not cell, zip or HMRC. Dates go day first.",
+    "zh": "用愛爾蘭英語。說 mobile、Eircode、flat，不說 cell、zip、HMRC。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the banking app spinning, glasses upstairs, a missing card reader, or a lost Eircode.",
+    "zh": "卡在銀行 App 一直轉、眼鏡在樓上、找不到讀卡機或 Eircode 信件。"
+  },
+  "vocab": {
+    "bank": [
+      "current account",
+      "IBAN",
+      "SEPA"
+    ],
+    "delivery": [
+      "safe place",
+      "An Post",
+      "neighbour"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "HMRC",
+      "reason": {
+        "en": "UK tax authority; Ireland's is Revenue",
+        "zh": "英國稅務機關，愛爾蘭是 Revenue"
+      }
+    },
+    {
+      "word": "Faster Payments",
+      "reason": {
+        "en": "UK transfer scheme; Ireland typically uses SEPA and IBAN",
+        "zh": "英國轉帳機制，愛爾蘭日常多用 SEPA、IBAN"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Warmer Irish English, often with grand. Tax talk is Revenue, not HMRC; money is in euro and postcodes are Eircodes. Formality range otherwise stays close.",
+    "zh": "愛爾蘭英語更暖，常說 grand。稅務是 Revenue 不是 HMRC；用歐元和 Eircode。親疏層級仍相近。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.anpost.com/Media-Centre/News/Scam-Alerts-%E2%80%93-Stay-Vigilant",
+    "https://www.revenue.ie/en/corporate/communications/fraudulent-emails/index.aspx"
+  ],
+  "uncertain": [
+    "愛爾蘭帳戶歷史上仍有 sort code，但日常轉帳更常報 IBAN；兩者並用的比例未再深查。"
+  ]
+}

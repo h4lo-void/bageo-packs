@@ -1,0 +1,97 @@
+{
+  "name": "Angola",
+  "name_local": "Angola",
+  "iso": "ao",
+  "calling_code": "+244",
+  "languages": [
+    "pt"
+  ],
+  "prevalence_note": "The Banco Nacional de Angola has warned about fraudulent emails asking customers to 'update' data, and about social-media and phone offers of easy jobs, investments or credit that demand an upfront commission. Large banks also describe vishing that seeks PINs, passwords or urgent transfers.",
+  "cross_border_note": "Calls and messages are usually in Portuguese and may use Angolan mobile numbers or spoofed bank identities.",
+  "scams": [
+    {
+      "id": "ao_bank_vishing_transfer",
+      "typology": "fake_bank_account_alert",
+      "name": "Vishing bancário e pedido de transferência",
+      "name_en": "Bank vishing and urgent transfer request",
+      "prevalence": "very_high",
+      "lang": "pt",
+      "context_keywords": [
+        "actualizar dados",
+        "transferência urgente",
+        "PIN do cartão",
+        "homebanking"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks for the card PIN during an unsolicited bank-style call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "orders an urgent transfer into a so-called safe account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to update account data over the phone",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An unsolicited caller pretends to be a bank, already recites some personal details, and then asks for a card PIN, a homebanking password, or an immediate transfer, sometimes after a phishing email about 'updating customer information'.",
+      "legit_en": "Angolan bank security guidance on vishing says the bank will not ask for a card PIN or homebanking password on a call and will not order the customer to transfer money to another account. BNA has also flagged fraudulent 'update your data' emails.",
+      "bait_tactics": [
+        "A aplicação do banco está presa no ecrã de entrada com fraca rede, portanto não consigo ver o movimento que descreveu.",
+        "O cartão e o código estão na outra divisão, e eu não recito PIN nenhum ao telefone.",
+        "Este pedido de transferência não corresponde a nenhuma operação que eu tenha iniciado no Multicaixa."
+      ],
+      "sources": [
+        "https://www.bfa.ao/pt/particulares/seguranca/vishing/",
+        "https://www.bfa.ao/pt/o-bfa/sala-de-imprensa/noticias/comunicado-bna/",
+        "https://www.bna.ao/Conteudos/Artigos/detalhe_artigo.aspx?idc=175&idl=1&idi=16709"
+      ]
+    },
+    {
+      "id": "ao_fake_job_credit_fee",
+      "typology": "loan_advance_fee",
+      "name": "Falso emprego, crédito ou investimento com comissão prévia",
+      "name_en": "Fake job, credit or investment with an upfront fee",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "oferta de emprego",
+        "crédito fácil",
+        "aplicação financeira",
+        "comissão inicial"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "requires an upfront commission for a job, loan or placement",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "offers an immediate post at a supposed financial institution",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "promises guaranteed returns if a transfer is made at once",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Messages or calls offer an immediate job at a supposed financial institution, or easy credit and high-yield placements, then tell the person to pay an initial commission; after the payment the contact disappears.",
+      "legit_en": "The Banco Nacional de Angola has described these social-media and telephone offers as fraudulent and tells the public to ignore the approach, not to exchange personal information, and to report the contacts to the competent authorities.",
+      "bait_tactics": [
+        "Não vou pagar nenhuma comissão adiantada por um emprego ou crédito que apareceu nesta chamada.",
+        "O link da alegada instituição financeira não abre neste telemóvel, e eu não instalo aplicações a partir de uma conversa.",
+        "Não tenho kwanzas disponíveis nesta conta para uma taxa de activação que eu não contratei."
+      ],
+      "sources": [
+        "https://pti.ao/bna-denuncia-esquema-de-fraude-nas-redes-sociais-que-atrai-vitimas-com-a-oferta-de-falsos-produtos-e-servicos-financeiros/"
+      ]
+    }
+  ]
+}

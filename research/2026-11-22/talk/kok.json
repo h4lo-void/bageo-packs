@@ -1,0 +1,292 @@
+{
+  "lang": "kok",
+  "backchannels": {
+    "direction": "No ranked Konkani call corpus was found; वोय and बरें keep a line moving. A clipped वोय, वोय can sound hurried.",
+    "examples": [
+      {
+        "text": "वोय.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "बरें.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "हां, हांव आयकतां.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "हां, समजलें.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "वोय, वोय.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "खरे? marks surprise; माफ कर and गुन्यांव बगोस cover apology or sympathy, then the floor returns.",
+    "examples": [
+      {
+        "text": "खरे?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "खरेन?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "माफ कर.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "गुन्यांव बगोस, तें आयकून दुखलां.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "बरी खबर!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "अभिनंदन.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "हें कठीण जातलें.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "When the फोन fades, speakers say बरें आयकता ना and ask the other person to speak a little louder.",
+    "examples": [
+      {
+        "text": "बरें आयकता ना.",
+        "style": "casual"
+      },
+      {
+        "text": "तुमी बरें आयकुंक येना.",
+        "style": "polite"
+      },
+      {
+        "text": "लाइन दुर्बळ आसा.",
+        "style": "casual"
+      },
+      {
+        "text": "दया करून थोडें व्हड आवाजांन उलयात.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "म्हाका समजलें ना covers a missed sense; परतुून सांगात asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "म्हाका समजलें ना.",
+        "style": "casual"
+      },
+      {
+        "text": "माफ करात, म्हाका समजलें ना.",
+        "style": "polite"
+      },
+      {
+        "text": "दया करून परतुून सांगात.",
+        "style": "polite"
+      },
+      {
+        "text": "नंबर परत सांगात, 12345678 आसा?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "कोण उलयता? or तुमी कोण? asks who is on the line; on a shared handset, first name {owner}चो फोन.",
+    "examples": [
+      {
+        "text": "कोण उलयता?",
+        "style": "casual"
+      },
+      {
+        "text": "तुमी कोण, दया करून?",
+        "style": "polite"
+      },
+      {
+        "text": "हो {owner}चो फोन. कोण उलयता?",
+        "style": "polite"
+      },
+      {
+        "text": "तुमी कोण?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "चुकीचो नंबर is the short close used here; no official phone script was found, so the wording is flagged.",
+    "examples": [
+      {
+        "text": "चुकीचो नंबर.",
+        "style": "casual"
+      },
+      {
+        "text": "माफ करात, चुकीचो नंबर आसा.",
+        "style": "polite"
+      },
+      {
+        "text": "ह्या नांवान कोणूच हांगा ना.",
+        "style": "polite"
+      },
+      {
+        "text": "तुमी चुकीच्या नंबरार फोन केला.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "{owner}क सांगतलों or संदेश दितलों passes the news; that alone sets no hour for a return call.",
+    "examples": [
+      {
+        "text": "{owner}क सांगतलों.",
+        "style": "polite"
+      },
+      {
+        "text": "हांव संदेश दितलों.",
+        "style": "polite"
+      },
+      {
+        "text": "सांगतलों की तुमी फोन केलो.",
+        "style": "polite"
+      },
+      {
+        "text": "ताका सांगतलों.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ना, देव बरे करूं, म्हाका रस ना closes a pitch; extra reasons can sound like bargaining.",
+    "examples": [
+      {
+        "text": "ना, देव बरे करूं, म्हाका रस ना.",
+        "style": "polite"
+      },
+      {
+        "text": "देव बरे करूं, हें आम्कां नका.",
+        "style": "polite"
+      },
+      {
+        "text": "म्हाका रस ना, देव बरे करूं.",
+        "style": "casual"
+      },
+      {
+        "text": "दया करून आम्कां यादींतल्यान काडात.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second ना often adds ह्या नंबरार परत फोन करू नाकात, still with तुमी.",
+    "examples": [
+      {
+        "text": "हांवें पयलीं ना म्हळां. ह्या नंबरार परत फोन करू नाकात.",
+        "style": "polite"
+      },
+      {
+        "text": "म्हाका रस ना, दया करून फोन बंद करात.",
+        "style": "polite"
+      },
+      {
+        "text": "परत फोन करूं नाका, दया करून.",
+        "style": "casual"
+      },
+      {
+        "text": "हें निमाणें ना; परत संपर्क करू नाकात.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "तुमी is safer with strangers; तूं waits for familiars. Titles such as साहेब or बाई stay careful.",
+    "examples": [
+      {
+        "text": "साहेब.",
+        "style": "polite"
+      },
+      {
+        "text": "बाई.",
+        "style": "polite"
+      },
+      {
+        "text": "डॉक्टर.",
+        "style": "polite"
+      },
+      {
+        "text": "तुमी.",
+        "style": "polite"
+      },
+      {
+        "text": "तूं कसो आसा?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A helpline calque like तुमची कॉल आमकां म्हत्वाची sounds odd on a private फोन.",
+    "examples": [
+      {
+        "text": "तुमची कॉल आमकां म्हत्वाची.",
+        "style": "polite"
+      },
+      {
+        "text": "आयज हांव तुमकां कशें मदत करूं येता?",
+        "style": "polite"
+      },
+      {
+        "text": "तुमची सेवा करंक आम्कां आनंद.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}च्या कार्यालयाक फोन केल्याबद्दल देव बरे करूं.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about marriage, pay, or an Aadhaar number at the start, or pressing for {owner}'s place, oversteps.",
+    "examples": [
+      {
+        "text": "तुमचें लग्न जालां? पगार कितलो?",
+        "style": "casual"
+      },
+      {
+        "text": "{owner}न कित्याक परत फोन केलो ना? आतां खंय आसा?",
+        "style": "casual"
+      },
+      {
+        "text": "पयलीं आधार नंबर आनी पत्तो दियात.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://goatourism.gov.in/konkani/",
+    "https://hi.wiktionary.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A8%E0%A4%B0%E0%A5%80:%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%A6%E0%A5%80%E2%80%93%E0%A4%95%E0%A5%8B%E0%A4%82%E0%A4%95%E0%A4%A3%E0%A5%80_%E0%A4%B6%E0%A4%AC%E0%A5%8D%E0%A4%A6%E0%A4%95%E0%A5%8B%E0%A4%B6"
+  ],
+  "uncertain": [
+    "貢根語沒有找到私人電話語料庫，但仍按支援語言寫齊十二欄，不標成不支援。本檔用果阿官方場合常見的天城文；天主教社群口語常寫羅馬字，用字差異已存在。",
+    "果阿旅遊局詞表是羅馬字（voi、na、tum、konn、guneaun bogos 等）；天城文寫法依官方／詞典對應（वोय、ना、तूं、कोण、गुन्यांव बगोस），不是通話錄音轉寫。",
+    "「打錯電話」「誰在講話」沒有官方電話腳本；चुकीचो नंबर、कोण उलयता 依詞典（चुकीचे、कोण）與通行說法組成，並在此註明。拒推銷亦無監管稿。"
+  ]
+}

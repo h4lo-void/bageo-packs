@@ -1,0 +1,92 @@
+{
+  "region": "gb-ie",
+  "lang": "ro",
+  "hello": {
+    "hello": "Alo, bună?",
+    "hello_again": "Da, vă rog?"
+  },
+  "habits": {
+    "en": "Tu with friends, dumneavoastră at offices. UK: NHS, GP, NI. Ireland: HSE, PPS. Not Romanian CNP or CNAS names.",
+    "zh": "熟友用 tu，機關用 dumneavoastră。英夾 NHS、NI；愛爾蘭說 HSE、PPS，不用 CNP。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Mates in London or Dublin use tu, mix English, and answer okay or perfect without a stiff bunã ziua.",
+        "zh": "在倫敦或都柏林跟熟友用 tu，英語夾進來，不必生硬的 bună ziua，回 okay 或 perfect。"
+      },
+      "2": {
+        "en": "Friendly Romanian: stay with tu until they switch; after a GP booking, a light da, am înțeles keeps it easy.",
+        "zh": "親切羅馬尼亞語先用 tu，對方改正式再跟上；聽完 GP 預約，輕聲回 da, am înțeles。"
+      },
+      "3": {
+        "en": "Everyday Romanian in Britain or Ireland: one full sentence per matter, leaving NHS, NI or PPS in English as spoken.",
+        "zh": "英愛日常羅馬尼亞語：每件事回完整一句，NHS、NI 或 PPS 照口頭直接講英語。"
+      },
+      "4": {
+        "en": "Dumneavoastră at a surgery or jobcentre; say NHS in the UK or HSE in Ireland, and answer the request first.",
+        "zh": "在診所或就業中心用 dumneavoastră；英國說 NHS、愛爾蘭說 HSE，先回應來意。"
+      },
+      "5": {
+        "en": "Business Romanian: dumneavoastră throughout, recap the sort code or contract point, then close cleanly.",
+        "zh": "商務羅馬尼亞語全程用 dumneavoastră，覆述 sort code 或合約要點後，乾脆收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Romanian helper answers perfect, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆羅馬尼亞語先回 perfect，用夾英語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match tu or dumneavoastră; jot the GP or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 tu 或 dumneavoastră；記下 GP 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A clear Romanian assistant answers the reason for calling in one complete sentence, then will brief {owner}.",
+        "zh": "口齒清楚的羅馬尼亞語助理先用完整一句回應來電原因，再表示會向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite dumneavoastră: restate the NHS or HSE point accurately, then confirm it goes to {owner}.",
+        "zh": "禮貌使用 dumneavoastră：準確覆述 NHS 或 HSE 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: titles, itemise the NI or PPS matter, and close after stating the handoff.",
+        "zh": "為{owner}任正式助理：加上稱謂，對齊對方提的 NI 或 PPS，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo, bună! Ce e? Spune, totul e ok.",
+      "Alo, da, te ascult. Spune liniștit.",
+      "Bună ziua. E vorba de NHS? Bine, am notat.",
+      "Bună ziua, mulțumesc pentru apel. Am înțeles, mă ocup eu.",
+      "Bună ziua, mulțumesc că ați sunat. Am notat totul."
+    ],
+    "a": [
+      "Alo, bună! Nu e disponibil, spune-mi, transmit mesajul!",
+      "Alo, preiau eu apelurile, lasă mesajul.",
+      "Bună ziua. Notez și transmit mai departe.",
+      "Bună ziua, mulțumesc pentru apel. Notez și transmit lui {owner}.",
+      "Bună ziua, mulțumesc că ați sunat. Notez punctele și transmit."
+    ]
+  },
+  "diff_from_home": [
+    "在英國常直接說 NHS、GP、National Insurance、Jobcentre、sort code，不要用羅馬尼亞的 CNP、CNAS 來指本地制度。",
+    "在愛爾蘭改說 HSE 與 PPS number，與英國詞彙不同，也與在西班牙、義大利的羅馬尼亞語社群用語不同。",
+    "2011 至 2021 年間以羅馬尼亞語為主要語言的人數在英格蘭與威爾斯增加最多，電話裡英語借詞很常見。",
+    "熟友可用 tu，對機關多用 dumneavoastră，這一點與在羅馬尼亞相似，但專名已換成英愛用法。"
+  ],
+  "sources": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpsr/censusofpopulation2022-summaryresults/migrationanddiversity/",
+    "https://www.nhs.uk/",
+    "https://www.gov.uk/national-insurance",
+    "https://www.hse.ie/",
+    "https://www.nhs.uk/nhs-services/gps/"
+  ],
+  "uncertain": [
+    "愛爾蘭羅馬尼亞語使用人口少於英國，兩地口語細節是否完全相同，缺少專門比較研究。",
+    "年輕世代在電話中改用英語的比例，沒有最新的分年齡語料。"
+  ]
+}

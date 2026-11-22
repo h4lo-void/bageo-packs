@@ -1,0 +1,91 @@
+{
+  "region": "de",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло, слушаю.",
+    "hello_again": "Говорите, пожалуйста."
+  },
+  "habits": {
+    "en": "Vy with strangers. Mix Anmeldung, Jobcenter, Kindergeld, Krankenkasse; not Gosuslugi names.",
+    "zh": "對陌生人用 вы。夾 Anmeldung、Jobcenter、Krankenkasse，不用俄羅斯公務入口名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friends among Russian speakers in Germany use ty, mix German nouns, and answer ясно or ладно in short lines.",
+        "zh": "在德國的俄語熟友用 ты，德語名詞直接夾進來，短短回 ясно 或 ладно。"
+      },
+      "2": {
+        "en": "Warm local Russian: stay with ty unless they use vy; after a Jobcenter point, a friendly хорошо, понял is enough.",
+        "zh": "親切的德國俄語先用 ты，對方改 вы 再跟上；聽完 Jobcenter 的事，輕聲回 хорошо, понял。"
+      },
+      "3": {
+        "en": "Everyday Russian in Germany: one full sentence per matter, leaving Anmeldung or Kindergeld in German as spoken.",
+        "zh": "德國日常俄語：每件事回完整一句，Anmeldung 或 Kindergeld 照口頭直接講德語。"
+      },
+      "4": {
+        "en": "Vy at the Bürgeramt or a Krankenkasse call; keep German official names, and answer the request first.",
+        "zh": "對 Bürgeramt 或 Krankenkasse 來電用 вы，機關名保持德語，先回應來意。"
+      },
+      "5": {
+        "en": "Business Russian: vy throughout, recap the Überweisung or residence-paper point, then close calmly.",
+        "zh": "商務俄語全程用 вы，覆述 Überweisung 或居留文件要點後，平穩收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Russian helper in Germany answers ясно, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆德語區俄語先回 ясно，用夾德語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match ty or vy; jot the Jobcenter or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 ты 或 вы；記下 Jobcenter 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A measured Russian assistant in Germany answers the purpose of the call in one complete sentence, then briefs {owner}.",
+        "zh": "措辭穩妥的德國俄語助理先用完整一句回應來電目的，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite vy: restate the Anmeldung or Krankenkasse point accurately, then confirm it goes to {owner}.",
+        "zh": "禮貌使用 вы：準確覆述 Anmeldung 或 Krankenkasse 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal desk for {owner}: vy and a title, itemise the Kindergeld or file they named, and close after the handoff.",
+        "zh": "為{owner}坐鎮的正式口氣用 вы 加稱謂，對齊 Kindergeld 或檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло, привет! Что случилось? Давай, ладно.",
+      "Алло, да, я на месте. Говорите спокойно.",
+      "Алло, добрый день. По Jobcenter? Хорошо, записал.",
+      "Добрый день, спасибо за звонок. Понял, займусь этим.",
+      "Добрый день, благодарю за звонок. Всё записал, спасибо."
+    ],
+    "a": [
+      "Алло! Его сейчас нет, скажите мне, я передам.",
+      "Алло, да. Я принимаю звонки, оставьте сообщение.",
+      "Алло, добрый день. Запишу и передам ему.",
+      "Добрый день, спасибо за звонок. Запишу и передам {owner}.",
+      "Добрый день, благодарю за звонок. Отмечу пункты и передам."
+    ]
+  },
+  "diff_from_home": [
+    "公務入口不是 Госуслуги，而是 Anmeldung、Bürgeramt、Jobcenter、Krankenkasse、Kindergeld 等德語專名直接插入俄語。",
+    "社群包含較早的後蘇聯裔德國人，也包括近年來德的俄語使用者，口音與借詞程度差別很大。",
+    "對陌生人仍多用 вы，這點與在俄羅斯相似，但機關對話常很快切入德語專名。",
+    "包裹常提 Packstation，手機說 Handy，不要用俄羅斯電商或電信品牌來指德國服務。"
+  ],
+  "sources": [
+    "https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/04/PD22_162_125.html",
+    "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Migration-Integration/Tabellen/migrationshintergrund-staatsangehoerigkeit-staaten.html",
+    "https://www.arbeitsagentur.de/",
+    "https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation.html",
+    "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung.html"
+  ],
+  "uncertain": [
+    "較早抵德的俄語社群與近年新抵者，電話裡夾用德語的比例可能不同，缺少分群體的新口語調查。",
+    "烏克蘭來德者是否以俄語通話，應依對方實際用語，不能預設。"
+  ]
+}

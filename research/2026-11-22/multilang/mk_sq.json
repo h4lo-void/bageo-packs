@@ -1,0 +1,89 @@
+{
+  "region": "mk",
+  "lang": "sq",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Po, ju lutem?"
+  },
+  "habits": {
+    "en": "North Macedonian Albanian is official in many places. Keep denar, Shkup, Tetovë. Formal ju. Offices may be bilingual.",
+    "zh": "北馬其頓阿爾巴尼亞語在多處有官方地位。貨幣是 denar，地名用 Shkup、Tetovë。對生人用 ju。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend in Tetovë or Shkup: ti, lively; denar or a Macedonian office short name can sit in the Albanian sentence.",
+        "zh": "泰托沃或斯科普里熟友用 ti，語氣活；denar 或馬其頓機關簡稱可留在阿爾巴尼亞語句裡。"
+      },
+      "2": {
+        "en": "Easygoing: ti unless they stay on ju; after they speak, a short në rregull, bilingual place names are fine.",
+        "zh": "隨和：除非對方用 ju，否則用 ti；聽完短短說 në rregull，雙語地名無妨。"
+      },
+      "3": {
+        "en": "Everyday Albanian in North Macedonia. Finish the point fully; money is denar, the capital is often Shkup in Albanian.",
+        "zh": "北馬其頓日常阿爾巴尼亞語。把重點說完整；貨幣是 denar，首都在阿爾巴尼亞語裡常稱 Shkup。"
+      },
+      "4": {
+        "en": "Polite ju at a counter. Keep bilingual institution names as the caller said them, sentences fuller.",
+        "zh": "在櫃檯用禮貌 ju。雙語機關名跟對方的叫法，句子較完整。"
+      },
+      "5": {
+        "en": "Formal ju, tidy. Quote denar exactly, use Shkup or Tetovë as given, close each item fully.",
+        "zh": "正式 ju，整齊。denar 要說準，地名跟對方用 Shkup 或 Tetovë，各項收完整。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ti: short and warm, then you'll pass the message, local names left as said.",
+        "zh": "{owner}隨興代接，用 ti：短而熱，再把話帶去，當地名稱照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match ti or ju, leave denar or Shkup as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 ti 或 ju，denar、Shkup 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the document or denar point in one full Albanian sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句阿爾巴尼亞語重述證件或 denar 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on ju: note the purpose, keep bilingual official names, confirm the handover.",
+        "zh": "沉穩秘書用 ju：記下目的，雙語官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on ju: exact about denar and place names, then confirm the note for {owner}.",
+        "zh": "正式代表用 ju，把 denar 與地名說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo! Çkemi, si je? Trego, çfarë ndodhi?",
+      "Po, ju lutem, po të dëgjoj.",
+      "Alo, mirëdita. Për denarët? E kuptova.",
+      "Mirëdita, faleminderit. Çështja e Shkupit është e qartë.",
+      "Mirëdita, ju faleminderit. E shënova çështjen në Tetovë."
+    ],
+    "a": [
+      "Alo! Nuk është, më thuaj mua, unë ia them.",
+      "Po, ju lutem. Unë po e marr telefonin, thuaje mesazhin.",
+      "Alo, mirëdita. Do t'i them {owner}.",
+      "Mirëdita, faleminderit. Do ta çoj mesazhin.",
+      "Mirëdita, ju faleminderit. Do t'i shënoj të gjitha dhe t'i them."
+    ]
+  },
+  "diff_from_home": [
+    "阿爾巴尼亞語在北馬其頓許多市鎮有官方地位，公務場合常見馬其頓語、阿爾巴尼亞語雙語切換。",
+    "首都在阿爾巴尼亞語裡常稱 Shkup，泰托沃稱 Tetovë，不要只套用馬其頓語形式。",
+    "貨幣是 denar，不是歐元或阿爾巴尼亞列克。",
+    "對生人用 ju；這與阿爾巴尼亞本國阿爾巴尼亞語相近，但機關與地名習慣不同。"
+  ],
+  "sources": [
+    "https://iuj.gov.mk/wp-content/uploads/2020/10/THE-LAW-ON-THE-USE-OF-LANGUAGES-PDF.pdf",
+    "https://en.wikipedia.org/wiki/Languages_of_North_Macedonia",
+    "https://pretsedatel.mk/en/republic-of-north-macedonia/"
+  ],
+  "uncertain": [
+    "維基百科僅作語言地位補充，法律條文已另附官方英譯。",
+    "各市鎮雙語實施程度不一，電話中實際切換頻率缺少新調查。"
+  ]
+}

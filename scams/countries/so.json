@@ -1,0 +1,98 @@
+{
+  "name": "Somalia",
+  "name_local": "Soomaaliya",
+  "iso": "so",
+  "calling_code": "+252",
+  "languages": [
+    "ar"
+  ],
+  "prevalence_note": "Somalia has thin official scam typology: the Central Bank licenses mobile-money providers and the NCA ties its SIM registration rules and traffic monitoring to fraud, identity theft and SIM-box abuse, but neither publishes a detailed consumer scam list.",
+  "cross_border_note": "Most wallet traffic runs on operator USD wallets reached by USSD; callers would usually speak Somali, and diaspora remittance flows mean some contact comes from foreign numbers.",
+  "scams": [
+    {
+      "id": "so_wallet_code_reversal_trick",
+      "typology": "otp_theft",
+      "name": "Wallet PIN or reset-code request after a fake mistaken transfer",
+      "name_en": "Wallet PIN or reset-code request after a fake mistaken transfer",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "mobile wallet",
+        "sent by mistake",
+        "undo a wallet credit",
+        "PIN",
+        "reset code"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "I sent dollars to your number by mistake, send them back",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "give me the code so I can reverse it",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "your wallet will be closed unless you confirm the PIN",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message mimicking an incoming wallet credit is followed by a call asking the subscriber to return the money or to share a PIN or reset code so the sender can reverse it; the credit never actually reached the wallet.",
+      "legit_en": "CBS mobile-money rules make licensed providers responsible for protecting customer funds and handling claims, so disputed or mistaken transfers belong with the provider's own complaint process, not a stranger.",
+      "bait_tactics": [
+        "The balance in my wallet menu still shows the same dollars as this morning.",
+        "This SIM belongs to my cousin abroad and I cannot open his wallet.",
+        "The phone battery is at two percent and the charger is at the shop."
+      ],
+      "sources": [
+        "https://centralbank.gov.so/mobile-money-transfer/",
+        "https://nca.gov.so/wp-content/uploads/2026/03/NCA%20Annual%20Report%202024-2025.pdf"
+      ]
+    },
+    {
+      "id": "so_fake_operator_sim_verification",
+      "typology": "fake_telecom",
+      "name": "Fake operator agent asking to verify or re-register a SIM",
+      "name_en": "Fake operator agent asking to verify or re-register a SIM",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "SIM registration",
+        "verify your number",
+        "line suspension",
+        "customer care"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "your SIM will be blocked today unless you verify by phone",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tell me your ID details and the code we sent",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "I am from customer care, re-register your line now",
+          "weight": 1,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller claiming to be operator customer care uses the national SIM registration drive as cover, threatening a cut-off unless the subscriber dictates identity details or a code that could let the caller take over the line.",
+      "legit_en": "The NCA's SIM registration guidelines tie verification to operator registration and KYC checks, aimed at stopping fraud and identity theft; they do not describe remote verification by an unsolicited caller.",
+      "bait_tactics": [
+        "My line was registered in person at the Mogadishu branch last month, so there is nothing pending.",
+        "My identity card is with my father in Hargeisa this week.",
+        "This old phone cannot receive SMS any more, only calls."
+      ],
+      "sources": [
+        "https://nca.gov.so/wp-content/uploads/2026/03/NCA%20Annual%20Report%202024-2025.pdf",
+        "https://nca.gov.so/news/"
+      ]
+    }
+  ]
+}

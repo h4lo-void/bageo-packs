@@ -1,0 +1,88 @@
+{
+  "region": "ro-md",
+  "lang": "hu",
+  "hello": {
+    "hello": "Halló?",
+    "hello_again": "Tessék, hallom."
+  },
+  "habits": {
+    "en": "Transylvanian Hungarian keeps te with friends, Ön with strangers, and Romanian admin words: buletin, ANAF, leu.",
+    "zh": "特蘭西瓦尼亞對熟友用 te、對生人用 Ön，並夾羅馬尼亞行政詞（buletin、ANAF、leu）。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Székely or Cluj friend: te, quick and teasing; a Romanian street or buletin can sit inside the Hungarian sentence.",
+        "zh": "塞克伊或克盧日熟友用 te，快嘴帶點調侃；羅馬尼亞街名或 buletin 可直接出現在匈牙利語句中。"
+      },
+      "2": {
+        "en": "Easygoing: stay on te unless they önöznek; after they finish, a short rendben, mixed place names are fine.",
+        "zh": "隨和：除非對方用 Ön，否則用 te；聽完短短說 rendben，地名中羅混用無妨。"
+      },
+      "3": {
+        "en": "Everyday Transylvanian Hungarian. Complete the point; tax and ID stay ANAF or buletin, not the Hungary terms.",
+        "zh": "特蘭西瓦尼亞日常匈牙利語。把重點說完整；稅務與證件用 ANAF、buletin，不用匈牙利本國詞。"
+      },
+      "4": {
+        "en": "Polite Ön at the primărie or clinic. Romanian office names stay; sentences are fuller and slower.",
+        "zh": "在市府或診所使用禮貌 Ön。羅馬尼亞機關名照留，句子較完整、較慢。"
+      },
+      "5": {
+        "en": "Formal Ön, structured. Speak of leu, not forint; close each ANAF or card de sănătate point in full.",
+        "zh": "正式 Ön，有條理。貨幣說 leu 不說 forint；ANAF 或醫保卡各點都要講完。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on te: a quick köszi, then you'll ferry the message, like a cousin in Kolozsvár.",
+        "zh": "{owner}隨興代接，用 te：先回一句 köszi，再說會把話帶去，像克盧日表親。"
+      },
+      "2": {
+        "en": "Warm stand-in: match te or Ön, leave ANAF as said, and tell them {owner} will be informed.",
+        "zh": "溫暖代接：跟著 te 或 Ön，ANAF 照叫，並告知會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the buletin or primărie matter in one full sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句重述證件或市府的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on Ön: note the purpose, keep Romanian official names, confirm the handover.",
+        "zh": "沉穩秘書用 Ön：記下目的，羅馬尼亞官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Ön: exact about leu and ANAF, bilingual place names as given, then confirm the note for {owner}.",
+        "zh": "正式代表用 Ön，把 leu、ANAF 說準，地名跟對方的雙語叫法，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halló! Szia, mi újság Kolozsváron?",
+      "Halló, tessék, hallom. Nyugodtan mondd.",
+      "Halló, jó napot! Az ANAF ügyében? Értem.",
+      "Jó napot, köszönöm a hívást. A buletin ügye világos.",
+      "Jó napot kívánok, köszönöm a hívást. A leu-s tételt felírtam."
+    ],
+    "a": [
+      "Halló! Nincs itt, mondd nekem, átadom neki.",
+      "Halló, szia. Én vagyok a vonalán, diktáld az üzenetet.",
+      "Halló, jó napot! Felírom és átadom {owner}nak.",
+      "Jó napot, köszönöm a hívást. Az ANAF ügyet átveszem, továbbítom.",
+      "Jó napot kívánok, köszönöm a hívást. Mindent feljegyzek, átadom."
+    ]
+  },
+  "diff_from_home": [
+    "證件、稅務與醫保常直接用羅馬尼亞語（buletin、ANAF、card de sănătate），不要套用匈牙利本國機構名。",
+    "貨幣是 leu，不是福林（forint）。",
+    "地名常匈、羅並用（Kolozsvár／Cluj、Marosvásárhely／Târgu Mureș），視場合選用。",
+    "公務以羅馬尼亞語為準，電話中常在匈牙利語與羅馬尼亞語之間切換。"
+  ],
+  "sources": [
+    "https://www.anaf.ro/",
+    "https://doi.org/10.1515/ausp-2017-0024",
+    "https://folyoirat.ludovika.hu/index.php/actahumana/article/view/963"
+  ],
+  "uncertain": [
+    "附件代碼是 ro-md，本組依說明寫羅馬尼亞特蘭西瓦尼亞匈牙利語；摩爾多瓦境內匈牙利語使用情況資料很少，未單獨描述。"
+  ]
+}

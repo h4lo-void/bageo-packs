@@ -1,0 +1,91 @@
+{
+  "region": "es",
+  "lang": "ar",
+  "hello": {
+    "hello": "أيوا، الو؟",
+    "hello_again": "لاباس، أهلا؟"
+  },
+  "habits": {
+    "en": "Darija with compatriots; tighten up with elders. Leave NIE, padrón, cita previa and extranjería in Spanish.",
+    "zh": "同鄉講達里賈，對長輩收斂。NIE、padrón、cita previa、extranjería 照口頭講西語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Family in Spain can stay on informal Darija: mix Spanish nouns and answer labas or tamam after a short hello.",
+        "zh": "在西班牙跟家人可用輕鬆達里賈，西語名詞夾進來，簡短招呼後回 labas 或 tamam。"
+      },
+      "2": {
+        "en": "Friendly Moroccan Arabic on a Spanish line. When the padrón or a cita comes up, acknowledge it and keep their tone.",
+        "zh": "西班牙線上親切的摩洛哥阿語。談到戶籍或預約先接住，語氣跟對方走。"
+      },
+      "3": {
+        "en": "Ordinary Darija in Spain. Answer the matter fully and keep NIE, Seguridad Social or extranjería in Spanish.",
+        "zh": "西班牙日常達里賈要把事情說完整，NIE、社保或 extranjería 維持西語名稱。"
+      },
+      "4": {
+        "en": "At extranjería or the ayuntamiento, raise formality, keep the Spanish office names, and take up the request first.",
+        "zh": "在移民辦或市政府提高敬語，機關名維持西語，先處理對方提出的事。"
+      },
+      "5": {
+        "en": "Business Arabic with titles. Recap the NIE or TIE point, then stop without an added formula.",
+        "zh": "商務阿語加稱謂，覆述 NIE 或 TIE 要點後就停，不再加套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Informal Darija covering for {owner} in Spain: reply tamam, keep their Spanish mix, and say you will carry the recado.",
+        "zh": "在西班牙替{owner}用輕鬆達里賈代接，先回 tamam，照夾西語的說法記下，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Follow their level of formality. Jot the cita or NIE detail, and let them know {owner} will hear of it.",
+        "zh": "正式程度跟對方走。記下預約或 NIE 細節，並說會通知{owner}。"
+      },
+      "3": {
+        "en": "Even Arabic helper in Spain. Give a complete reply to why they phoned, then say {owner} will get your summary.",
+        "zh": "西班牙阿語助理語氣平穩，先完整回答為何來電，再說會把摘要交給{owner}。"
+      },
+      "4": {
+        "en": "Careful formal Arabic: go back over the padrón or extranjería matter, and make clear the slip is meant for {owner}.",
+        "zh": "較正式的阿語：把戶籍或移民辦事項再對一遍，並說清楚字條是要給{owner}的。"
+      },
+      "5": {
+        "en": "Formal deputy for {owner}: add titles, order the TIE papers, and end once you have stated the transfer.",
+        "zh": "以正式身分代{owner}：加上稱謂，把 TIE 文件理順，說明已轉交就結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "أيوا، الو! لاباس؟ تفضل، أنا هنا.",
+      "أهلا، لاباس، أنا كسمعك، قول.",
+      "أهلا. على الـ NIE أو الـ cita؟ حسن، سجلت.",
+      "مرحبا، شكراً لاتصالك. فهمت موضوع الخارجية وأتكلف به.",
+      "مرحبا، شكراً لاتصالكم. دوّنت بيانات الـ padrón."
+    ],
+    "a": [
+      "أيوا! هو ما كاين، عفاك قول لي نوصلها.",
+      "أهلا، لاباس. أنا لي كندير التيليفون، خلي الرسالة.",
+      "أهلا. غادي نكتب ونبلغو.",
+      "مرحبا، شكراً لاتصالك. كنسجل هاد الشي لـ {owner}.",
+      "مرحبا، شكراً لاتصالكم. نثبت النقاط ونوصلها لـ {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "西班牙的摩洛哥社群是最大外國國籍之一，日常電話多用達里賈（Darija），對機關常改用較通用的阿語並直接夾西語詞。",
+    "身份與居留口語離不開 NIE、TIE、extranjería 與 cita previa，這與摩洛哥本國證件名稱不同。",
+    "幾乎所有市政手續都要先辦 empadronamiento（口語常說 padrón），社保是 Seguridad Social，醫療是 tarjeta sanitaria。",
+    "北部一些來電者在摩洛哥本已夾西班牙語或法語，到西班牙後西語借詞更重；不要預設對方講現代標準阿語。"
+  ],
+  "sources": [
+    "https://www.ine.es/",
+    "https://sede.administracionespublicas.gob.es/",
+    "https://www.seg-social.es/",
+    "https://www.exteriores.gob.es/Embajadas/rabat/es/ServiciosConsulares/Paginas/index.aspx?scca=Pasaportes+y+otros+documentos&scco=Marruecos&scd=236&scs=N%C3%BAmero+de+Identidad+de+Extranjero+%28NIE%29",
+    "https://observatoriodelespanol.cervantes.org/documentos/IOGE-001-El-espanol-en-el-panorama-idiomatico-marroqui-IOGE012025.pdf"
+  ],
+  "uncertain": [
+    "加泰隆尼亞等地是否在達里賈裡再夾加泰隆尼亞語，缺少可量化的口語調查。",
+    "阿語方言與阿馬齊格語並存，無法用單一方言涵蓋所有摩洛哥來電。"
+  ]
+}

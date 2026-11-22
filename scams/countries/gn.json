@@ -1,0 +1,98 @@
+{
+  "name": "Guinea",
+  "name_local": "Guinée",
+  "iso": "gn",
+  "calling_code": "+224",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "In Guinea the central bank's August 2026 communiqué targets crypto platforms run as Ponzi schemes that recruit savers on social networks, while Orange Guinée and the national police point to mobile-money fraud such as fake transfer-cancellation requests and theft of agent wallet codes.",
+  "cross_border_note": "Contact is mostly in French over local mobile numbers and social networks; Pular, Malinké and Soussou are widely spoken but no official warning text in those languages was found.",
+  "scams": [
+    {
+      "id": "gn_crypto_ponzi_platform",
+      "typology": "crypto_scam",
+      "name": "Plateforme crypto à rendement garanti montée en pyramide",
+      "name_en": "Guaranteed-return crypto platform run as a Ponzi scheme",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "crypto-actifs",
+        "plateforme de placement",
+        "gains rapides",
+        "parrainage"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "vos gains sont garantis chaque semaine",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "déposez via Orange Money pour activer votre compte",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "parrainez trois personnes pour débloquer le retrait",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Promoters on social networks push crypto investment platforms with outsized, guaranteed returns paid by mobile money; early members are paid from newcomers' deposits until withdrawals freeze.",
+      "legit_en": "The BCRG says crypto-assets are not legal tender in Guinea, that it has licensed no entity to collect or invest public funds in crypto, and asks savers to confirm a firm's BCRG approval first.",
+      "bait_tactics": [
+        "Mon portefeuille Orange Money sert uniquement aux frais de scolarité des enfants ce trimestre.",
+        "Le lien de la plateforme ne s'ouvre pas sur ce vieux téléphone, la page reste blanche.",
+        "Je place mon argent seulement dans la tontine du quartier, je ne connais rien aux cryptos."
+      ],
+      "sources": [
+        "https://guineenews.org/2026/08/10/crypto-actifs-la-bcrg-met-en-garde-contre-les-offres-dinvestissement-frauduleuses-et-les-systemes-de-ponzi/",
+        "https://www.rfi.fr/fr/afrique/20260813-guin%C3%A9e-des-centaines-de-personnes-victimes-d-arnaques-aux-cryptomonnaies",
+        "https://www.bcrg-guinee.org"
+      ]
+    },
+    {
+      "id": "gn_fake_transfer_cancellation",
+      "typology": "fake_telecom",
+      "name": "Faux appel d'annulation de transfert Orange Money",
+      "name_en": "Fake Orange Money transfer-cancellation call or message",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "Orange Money",
+        "annulation de transfert",
+        "envoi par erreur",
+        "code secret"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "j'ai envoyé de l'argent sur votre numéro par erreur",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "donnez le code reçu pour annuler l'opération",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "renvoyez la somme avant ce soir",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or SMS claims a transfer landed by mistake or must be cancelled, then pushes the subscriber to send money back or share the secret code, even though no real credit arrived in the wallet.",
+      "legit_en": "Orange Guinée tells customers that a credible-looking call or message about cancelling a transfer must be verified first; the wallet balance in the official app or menu is what counts, not the SMS.",
+      "bait_tactics": [
+        "Mon solde Orange Money affiché dans le menu n'a pas bougé depuis hier soir.",
+        "Cette puce est enregistrée au nom de mon mari et c'est lui qui garde le code.",
+        "Le réseau coupe sans arrêt dans ce quartier de Kankan, le menu Orange Money ne charge pas."
+      ],
+      "sources": [
+        "https://fr.linkedin.com/posts/orange-gn_orangeastuce-orangemoney-pr%C3%A9vention-activity-7519364062888050688-dsjx",
+        "https://guineenews.org/2025/12/04/cybercriminalite-en-guinee-un-reseau-darnaqueurs-demantele-apres-avoir-vole-plus-de-900-millions-gf/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "lang": "eu",
+  "script": "latin",
+  "common_words": [
+    "ez",
+    "ni",
+    "zu",
+    "gu",
+    "zuek",
+    "dut",
+    "duzu",
+    "dugu",
+    "naiz",
+    "zara",
+    "gara",
+    "zer",
+    "zergatik",
+    "nola",
+    "non",
+    "noiz",
+    "nor",
+    "bai",
+    "ezetz",
+    "nahi",
+    "behar",
+    "baina",
+    "hori",
+    "hau",
+    "nire",
+    "zure",
+    "gure",
+    "hemen",
+    "orain",
+    "kaixo",
+    "eskerrik asko",
+    "mesedez",
+    "agur",
+    "ondo",
+    "ongi",
+    "asko",
+    "ezer",
+    "dena",
+    "gaur",
+    "bihar",
+    "atzo",
+    "goizean",
+    "arratsaldean",
+    "beti",
+    "inoiz",
+    "zenbakia",
+    "helbidea",
+    "medikua",
+    "eskaria",
+    "paketea"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/eu/eu_50k.txt",
+  "shared_words": [
+    {
+      "word": "a",
+      "also_in": [
+        "es",
+        "pt"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "es",
+    "fr",
+    "ca"
+  ],
+  "how_to_tell_apart": "Basque uses the same Latin letters as Spanish and French, so letters will not help. Identification has to come from the verb and pronoun system: ez, ni/zu, dut/duzu/naiz, zer, zergatik, nola, kaixo, eskerrik asko, mesedez, agur, hemen and nahi. Those do not exist as everyday words in Spanish, French or Catalan, even though a phone call in the Basque Country may switch into those languages mid-sentence. Digraphs tx, tz and ts are helpful hints but they also appear in names and loans.",
+  "test_said": [
+    "Euskara eskolako arratsaldeko taldean ba al dago tokirik asteazkenetan?",
+    "Udal kiroldegian pilota pista bat erreserbatu nahi nuke larunbat goizerako.",
+    "Familia bazkarirako arraina entregatzea hitzeman zuten eta oraindik ez da iritsi.",
+    "Altzariak laugarren solairura igo behar dira igogailurik ez dagoelako.",
+    "Emaginarekin hitzordua berretsi nahi nuke hileko jarraipenerako.",
+    "Odol-presioa neurtzeko txanda eskatu nahi dut osasun-zentroan.",
+    "Aseguru-eskaintza honek ez nau interesatzen eta ez dut kontratua aldatuko.",
+    "Oporetako denboraldi-eskaintzarik ez dut nahi eta zenbakia kendu dezatela zerrendatik."
+  ],
+  "test_not_enough": [
+    "Ane",
+    "ok",
+    "zazpi",
+    "parking"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/eu/eu_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Basque_alphabet",
+    "https://en.wikipedia.org/wiki/Basque_language"
+  ],
+  "uncertain": [
+    "unique_letters is empty because Basque has no exclusive diacritic in the standard orthography; tx/tz/ts are digraphs, not separate letters, and also occur in loanwords.",
+    "Western and eastern dialects differ (h-dropping, verb auxiliaries); the list follows forms that rank high in the OpenSubtitles eu file, which is largely standard Batua."
+  ]
+}

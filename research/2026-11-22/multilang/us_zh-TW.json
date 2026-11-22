@@ -1,0 +1,94 @@
+{
+  "region": "us",
+  "lang": "zh-TW",
+  "hello": {
+    "hello": "喂，哈囉？",
+    "hello_again": "喂？嗯，請說。"
+  },
+  "habits": {
+    "en": "Taiwan-style Mandarin, Traditional script. Keep SSN, DMV, IRS, Medicare, ZIP code in English; 健保 is Taiwan's NHI only.",
+    "zh": "台灣腔華語、繁體；SSN、DMV、IRS、Medicare、ZIP code 照講英文，健保只指台灣。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Old Taiwan classmate now in the US: ni, particles like la and o, English bits such as Costco or weekend slip in naturally.",
+        "zh": "跟在美國的台灣老同學聊：用「你」，句尾帶「啦」「喔」，Costco、weekend 這類英文自然夾進來。"
+      },
+      "2": {
+        "en": "Relaxed but tidy: ni by default, nin for elders; say ZIP code and appointment in English, answer with a short hao a.",
+        "zh": "輕鬆但有條理：預設用「你」，對長輩改「您」；ZIP code、appointment 照講英文，回一聲「好啊」。"
+      },
+      "3": {
+        "en": "Everyday US-based Mandarin: one clear sentence per point, kuai means US dollars, miles and Fahrenheit used as-is.",
+        "zh": "美國日常華語：一點一句說清楚，「塊」就是美金，英里、華氏照用不換算。"
+      },
+      "4": {
+        "en": "Polite nin with a clinic, school office or DMV caller; keep copay, deductible or form names in English, stay on the point.",
+        "zh": "診所、學校辦公室或 DMV 來電用「您」；copay、deductible、表格名照英文，只談正事。"
+      },
+      "5": {
+        "en": "Formal Mandarin for business: nin plus title, give dates as month/day and name the time zone, then close neatly.",
+        "zh": "商務正式華語：「您」加職稱，日期以月/日說，並講明是哪個時區，再俐落結束。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual stand-in for {owner}: ni, a light la or o, say {owner} is tied up and the message will get passed on.",
+        "zh": "替{owner}隨興代接：用「你」，帶點「啦」「喔」，說{owner}正在忙、話會帶到。"
+      },
+      "2": {
+        "en": "Friendly helper: follow ni or nin, jot the pickup time or Zelle detail, then say {owner} will hear about it.",
+        "zh": "親切代接：跟著「你」或「您」，記下接送時間或 Zelle 細節，再說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Neat assistant: restate the matter in one full Mandarin sentence, keep English proper nouns, promise to tell {owner}.",
+        "zh": "整齊的助理：用一句完整華語覆述來意，英文專名照留，答應轉告{owner}。"
+      },
+      "4": {
+        "en": "Courteous nin for an insurer or clinic: read back the plan or claim name in English, then confirm it reaches {owner}.",
+        "zh": "保險公司或診所來電用「您」：保單、理賠名稱照英文覆述，再確認會交到{owner}手上。"
+      },
+      "5": {
+        "en": "Formal aide to {owner}: nin plus title, note which time zone any callback is in, list each item, then end.",
+        "zh": "{owner}的正式助理：「您」加職稱，回電註明哪個時區，逐項記下後收線。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "喂～欸，是你喔！怎樣，週末要約嗎？",
+      "哈囉，我在，你說，這禮拜的 appointment 改了喔？",
+      "喂，您好，是學校那邊嗎？好，我了解。",
+      "您好，謝謝您打來，copay 的部分我清楚了。",
+      "您好，感謝來電，日期跟時區我都記好了。"
+    ],
+    "a": [
+      "喂～他現在在忙啦，你說，我幫你帶話！",
+      "哈囉，我幫他接的，Zelle 的事我記下來喔。",
+      "喂，您好，我是代接的助理，您的事我會轉告。",
+      "您好，理賠的事情我已記下，會轉給他。",
+      "您好，感謝來電。我會逐項整理，轉交給{owner}。"
+    ]
+  },
+  "diff_from_home": [
+    "在美國的台灣人講華語常直接用英文講機構與制度：SSN、DMV、IRS、Medicare、401(k)，不硬翻成中文。",
+    "美國的醫療保險多是私人或雇主保險（insurance、copay、deductible），跟台灣全民健保不同，不要混用「健保卡」。",
+    "金額「塊」預設是美金，跟台灣家人通話才特別說「台幣」；溫度用華氏、距離用英里。",
+    "打回台灣常要算時差，習慣講「台灣時間」「這邊時間」；日期多按美式月/日。",
+    "部分家庭會夾台語詞，但台語不在可生成清單，AI 仍用華語回應。"
+  ],
+  "sources": [
+    "https://data.census.gov/table/ACSST5Y2023.S1601",
+    "https://www.pewresearch.org/race-and-ethnicity/fact-sheet/asian-americans-taiwanese-in-the-u-s/",
+    "https://files.hawaii.gov/dbedt/economic/archive/reports/A%20brief%20on%20Taiwanese%20in%20Hawaii_Feb2025.pdf",
+    "https://globaltaiwan.org/2023/09/the-coalescing-of-a-taiwanese-american-identity-and-its-impact-on-us-policy-considerations-and-reporting/",
+    "https://www.ssa.gov/multilanguage/chinese.html",
+    "https://www.irs.gov/zh-hant"
+  ],
+  "uncertain": [
+    "美國的繁體華語使用者也包括香港與較早期移民，用詞與口音不全是台灣腔，人口統計無法分開。",
+    "ACS 把華語、粵語合併為 Chinese；Pew 依自報語言估美國台灣人約四成多在家講華語，另有不少講台語，比例依調查而異。",
+    "英文夾雜的程度依世代與移民年份差異大，查無大規模語料統計。"
+  ]
+}

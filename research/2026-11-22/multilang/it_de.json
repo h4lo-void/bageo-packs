@@ -1,0 +1,89 @@
+{
+  "region": "it",
+  "lang": "de",
+  "hello": {
+    "hello": "Grüß Gott?",
+    "hello_again": "Hallo, bitte?"
+  },
+  "habits": {
+    "en": "South Tyrol German is Austrian-leaning: Grüß Gott, Jänner, Spital. Italian loans: Targa, Patent. Formal Sie.",
+    "zh": "南提洛德語偏奧地利，常說 Grüß Gott、Spital，並夾 Targa、Patent。對生人用 Sie。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Bozen friend: du, alpine and direct; a Targa, Patent or Italian café name can sit in the German sentence.",
+        "zh": "博岑熟友用 du，直來直往；Targa、Patent 或義大利語店名可留在德語句子裡。"
+      },
+      "2": {
+        "en": "Easygoing: du unless they stay on Sie; after they speak, a short passt, Italian office words left as-is if they used them.",
+        "zh": "隨和：除非對方用 Sie，否則用 du；聽完短短說 passt，對方用的義大利公務詞照留。"
+      },
+      "3": {
+        "en": "Everyday South Tyrolean German. Finish the point fully; greet with Grüß Gott more often than a flat Guten Tag.",
+        "zh": "南提洛日常德語。把重點說完整；招呼更常說 Grüß Gott，而不是平淡的 Guten Tag。"
+      },
+      "4": {
+        "en": "Polite Sie at the Gemeinde or Landesverwaltung. Keep bilingual names (Bozen/Bolzano), sentences fuller.",
+        "zh": "在鄉鎮公所或邦政府用禮貌 Sie。雙語地名（Bozen／Bolzano）照留，句子較完整。"
+      },
+      "5": {
+        "en": "Formal Sie, crisp. Austrian words like Spital or Jänner are natural; close each item fully, no northern German slang.",
+        "zh": "正式 Sie，俐落。Spital、Jänner 等奧地利詞很自然；各項收完整，少用北德俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on du: a brief Servus or Grüß Gott, then you'll pass the message, local loans left as said.",
+        "zh": "{owner}隨興代接，用 du：先短短 Servus 或 Grüß Gott，再把話帶去，當地借詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match du or Sie, leave Targa or Patent as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 du 或 Sie，Targa、Patent 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the licence or clinic point in one full German sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句德語重述駕照或診所的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on Sie: note the purpose, keep bilingual official names, confirm the handover.",
+        "zh": "沉穩秘書用 Sie：記下目的，雙語官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Sie: exact about Land offices and place names, then confirm the note for {owner}.",
+        "zh": "正式代表用 Sie，把邦機關與地名說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Grüß Gott! Servus, wie geht's in Bozen?",
+      "Hallo, bitte? Ich bin da, erzähl.",
+      "Grüß Gott, guten Tag. Geht's ums Patent? Verstanden.",
+      "Guten Tag, danke für den Anruf. Die Targa-Sache ist klar.",
+      "Guten Tag, danke. Ich habe das vom Spital notiert."
+    ],
+    "a": [
+      "Grüß Gott! Ist nicht da, sag's mir, ich richt's aus.",
+      "Hallo, bitte? Ich geh' ans Telefon, sag die Nachricht.",
+      "Grüß Gott, guten Tag. Ich sag's {owner}.",
+      "Guten Tag, danke für den Anruf. Ich richte die Nachricht aus.",
+      "Guten Tag, danke. Ich schreib alles auf und richt's aus."
+    ]
+  },
+  "diff_from_home": [
+    "招呼更常說 Grüß Gott 或熟人的 Servus，詞彙偏奧地利德語（Jänner、Spital、heuer），不是德國北部用法。",
+    "日常會夾義大利語或義式借詞，如車牌 Targa、駕照 Patent，有人把來電叫 Squillo。",
+    "地名與行政常德、義並用（Bozen／Bolzano、Meran／Merano），公務跟對方的叫法。",
+    "對生人用 Sie；這是義大利南提洛的德語，不是德國本國電話習慣。"
+  ],
+  "sources": [
+    "https://www.suedtirolerland.it/de/highlights/brauchtum-kultur/suedtiroler-dialekt/",
+    "https://www.provinz.bz.it/",
+    "https://it.wikipedia.org/wiki/Dialetto_sudtirolese"
+  ],
+  "uncertain": [
+    "維基百科僅補充義大利借詞例子，已另以當地觀光與省政府網站佐證。",
+    "方言音韻特徵很多，本檔只寫標準德語層可用的稱呼與借詞，不模擬整段方言發音。"
+  ]
+}

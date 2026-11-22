@@ -8,12 +8,15 @@ Also in `README.zh-TW.md` (繁體中文).
 
 ## What is inside
 
-- `regions/<code>.json`: one file per region (74 regions). Countries, primary language, parcel rules, number/time readback, common scams, local words, five talk styles for owner and assistant, and local details for stalling a scam caller.
+- `regions/<code>.json`: one file per region (92 regions). Countries, primary language, parcel rules, number/time readback, common scams, local words, five talk styles for owner and assistant, and local details for stalling a scam caller.
+- `places/<code>.json`: what shops, clinics and other businesses in a region usually ask on the phone, for AI errands (89 regions).
+- `regions_multilang.json`: second-language versions of a region's greeting, habits and talk styles (69 combinations).
 - `languages/<code>/`: one folder per extra language (70 languages + shared call layers). `call.json`, `names.json`, `notify.json`, `desktop.json`, `console.json`, and `_review.json` (Android APK translations are built directly into the APK in `bageo-call`).
 - `art/<region>.json`: SVG mascot drawings for the 64 non-built-in regions, downloaded on demand by the console once a region is reviewed.
-- `scams/`: isolated country phone-scam intelligence (`country_scams.json` and `countries/<iso>.json` for 112 countries) plus extra-language scam keywords and own-matter phrases (`keywords.json`).
+- `scams/`: isolated country phone-scam intelligence (`country_scams.json` and `countries/<iso>.json` for 205 countries) plus extra-language scam keywords and own-matter phrases (`keywords.json`).
 - `voices/`: regional voice pack lines (`lines.json`) and release voice-pack manifest (`bageo-voices-index.json`).
 - `prompts/<language>.json`: reworded prompt texts, the words Bageo tells the AI during a call. Only the texts that should differ from the ones built into Bageo; see [prompts/README.md](prompts/README.md).
+- `research/<date>/`: research data that Bageo does not read yet. See the README in that folder.
 - `source/`: English source strings, notes and `glossary.json`. Do not edit source text here (update in `bageo-call` first).
 - `templates/`: templates for adding or editing a region or language.
 

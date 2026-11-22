@@ -1,0 +1,97 @@
+{
+  "name": "Zambia",
+  "name_local": "Zambia",
+  "iso": "zm",
+  "calling_code": "+260",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Bank of Zambia has publicly urged people to verify digital payments and, with ZICTA, has run awareness work on digital-financial-services fraud, including SIM-swap and phishing risks around mobile money. Users are told to protect PINs and treat unexpected payment requests with caution.",
+  "cross_border_note": "Calls are usually in English or a local language and may use Zambian mobiles that look like a bank, Airtel Money, MTN or Zamtel care line.",
+  "scams": [
+    {
+      "id": "zm_unverified_digital_payment",
+      "typology": "fake_bank_account_alert",
+      "name": "Unverified digital-payment or refund call",
+      "name_en": "Unverified digital-payment or refund call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "confirm payment",
+        "reverse the transfer",
+        "mobile money refund",
+        "account flagged"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presses the customer to approve a payment without checking the official record",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "demands that an apparent credit be sent on to another wallet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "threatens an account block unless a payment is made at once",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or message claims a payment is pending, failed, or was sent in error and pushes the customer to approve a debit, refund a wallet, or 'verify' a transfer without checking the official transaction record first.",
+      "legit_en": "The Bank of Zambia has urged the public to verify digital payments before acting, so as not to fall for fraud. Genuine payment queries are checked in the bank or wallet app, or the provider's published care channel, not via a stranger's refund script.",
+      "bait_tactics": [
+        "The Airtel Money history on this handset does not show the payment you described, so I am not sending a refund from my own balance.",
+        "The bank app is still loading on this slow connection and I will not approve a debit I cannot see.",
+        "I do not confirm transfers from a number I cannot match to my bank's published contact list."
+      ],
+      "sources": [
+        "https://www.zambiamonitor.com/bank-of-zambia-urges-public-to-verify-digital-payments-to-avoid-fraud/",
+        "https://www.boz.zm/sites/default/files/2026-03/Q3%20Edition%20-%20Zambanker%202025.pdf"
+      ]
+    },
+    {
+      "id": "zm_sim_swap_or_pin",
+      "typology": "otp_theft",
+      "name": "SIM-swap or mobile-money PIN collection",
+      "name_en": "SIM-swap or mobile-money PIN collection",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "SIM swap",
+        "replace your number",
+        "MoMo PIN",
+        "ZICTA registration"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presses for an immediate SIM replacement the customer did not request",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "solicits the mobile-money PIN on the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to read a one-time password for a new SIM",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone posing as a network, a wallet desk or a registration agent tries to arrange a SIM replacement or to collect a mobile-money PIN or OTP, which can open the wallet tied to that number.",
+      "legit_en": "Bank of Zambia and ZICTA awareness work has highlighted digital-financial-services fraud around SIM anomalies and the need to keep PINs confidential. A SIM change or PIN reset is done through the operator's official process, not on an unsolicited call.",
+      "bait_tactics": [
+        "I have not walked into a Zamtel or MTN shop to request a new SIM, and I am not authorising a swap on this call.",
+        "No OTP has arrived on this line, so there is no code for me to read out.",
+        "I am not speaking my MoMo PIN, including to someone who says they work at an agent booth."
+      ],
+      "sources": [
+        "https://www.boz.zm/sites/default/files/2026-03/Q3%20Edition%20-%20Zambanker%202025.pdf",
+        "https://www.lusakatimes.com/2022/04/03/bank-of-zambia-and-zicta-join-hands-to-create-awareness-on-digital-financial-services-fraud-activities/"
+      ]
+    }
+  ]
+}

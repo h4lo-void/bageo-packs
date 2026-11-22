@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "code": "mt",
+  "countries": [
+    "mt"
+  ],
+  "name": {
+    "en": "Malta",
+    "native": "Malta",
+    "zh": "馬爾他"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes, who's this?"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour, porter, reception or PUDO point",
+    "zh": "包裹交給鄰居、門房、接待處或 PUDO 取件點"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; Maltese dates go day-month.",
+    "zh": "名字按英式 as-in 拼；號碼分組唸；馬爾他日期先日後月。"
+  },
+  "fraud": {
+    "en": "a bank PIN or OTP request, or a fee to pay first, is a scam",
+    "zh": "要銀行 PIN 或 OTP，或要先付錢才能領獎、清關，都是詐騙"
+  },
+  "habits": {
+    "en": "Sir/Madam with strangers. Use English; say mobile, ID card, not cell.",
+    "zh": "對陌生人用 Sir/Madam。用英語；馬爾他語不在清單。說 mobile，不說 cell。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the ferry delayed, the banking app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如渡輪延誤、銀行 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Valletta mate: first names, easy Maltese English, an 'orrajt' or 'you alright', then one more line, varied.",
+        "zh": "像瓦萊塔的熟朋友：直呼名字，輕鬆的馬爾他英語，可帶 orrajt 或 you alright，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Warm island pace: first names unless they stay formal; after they speak, add a friendly 'right then', varied.",
+        "zh": "島上溫和步調：對方不維持敬語就直呼名字；聽完加一句 right then，每次換。"
+      },
+      "3": {
+        "en": "Everyday Maltese English. Answer each matter in a full sentence, not a bare yes.",
+        "zh": "馬爾他日常英語。每件事用完整句回，不要只回 yes。"
+      },
+      "4": {
+        "en": "Courteous Sir/Madam with offices and strangers; restate the point first (I've got that), varied.",
+        "zh": "對機關與陌生人用 Sir/Madam；先覆述重點（如 I've got that），每次換。"
+      },
+      "5": {
+        "en": "Crisp office English: titles, short; close each item (it's recorded), varied.",
+        "zh": "俐落的辦公室英語：用職稱，短句；每件收束（如 it's recorded），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s cheerful helper, first names: react, then say you will pass the word, varied.",
+        "zh": "{owner}開朗的小幫手，直呼名字：先反應，再說會帶話，每次換。"
+      },
+      "2": {
+        "en": "Gentle stand-in: match their tone; take in the case, then note it for {owner} (I'll set this aside), varied.",
+        "zh": "溫和代接：跟著對方語氣，先了解情況，再為{owner}記下（如 I'll set this aside），每次換。"
+      },
+      "3": {
+        "en": "Clear Maltese assistant. Full sentence on the point, then confirm the handover, never a lone ok.",
+        "zh": "清楚的馬爾他助理。先完整回重點，再確認會交到，不要只回 ok。"
+      },
+      "4": {
+        "en": "Discreet secretary: Sir/Madam, complete lines; name the purpose, then confirm (the note will reach them), varied.",
+        "zh": "低調秘書：用 Sir/Madam、整句；先說來意，再確認會送到，每次換。"
+      },
+      "5": {
+        "en": "Executive stand-in: formal titles, brisk; lock details, then confirm delivery to {owner}, varied.",
+        "zh": "高階代接：正式職稱，明快；先鎖定細節，再確認會交到{owner}，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "internet banking",
+      "BOV",
+      "Revolut",
+      "BOV Mobile",
+      "current account",
+      "direct debit"
+    ],
+    "delivery": [
+      "porter",
+      "neighbour",
+      "PUDO",
+      "MaltaPost",
+      "post office",
+      "sales outlet"
+    ],
+    "government": [
+      "Identity Card",
+      "eID account",
+      "Identità",
+      "Servizz hub",
+      "eResidence"
+    ],
+    "health": [
+      "myHealth",
+      "POYC",
+      "appointment",
+      "vaccination record",
+      "case summary",
+      "pharmacy finder"
+    ],
+    "telecom": [
+      "GO",
+      "Melita",
+      "Epic",
+      "prepaid SIM",
+      "eSIM",
+      "bill payment"
+    ],
+    "payment": [
+      "BOV Mobile",
+      "contactless",
+      "Revolut",
+      "direct debit",
+      "top up"
+    ],
+    "transport": [
+      "tallinja card",
+      "tallinja app",
+      "day route",
+      "ferry",
+      "Barrakka Lift"
+    ],
+    "housing": [
+      "ARMS bill",
+      "GO bill",
+      "utility bill",
+      "Housing Authority",
+      "direct debit"
+    ]
+  },
+  "status": "draft"
+}

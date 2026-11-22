@@ -1,0 +1,333 @@
+{
+  "lang": "pt",
+  "backchannels": {
+    "direction": "Brazil answers with Alô?, Portugal with Estou? or Estou sim?. aham and sim keep listening; pois is frequent in Portugal.",
+    "examples": [
+      {
+        "text": "Sim.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Aham.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Tá.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Pois.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Certo.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Pois, pois.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Tá, tá.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Sério? signals surprise and Que pena sympathy; Que bom answers good news, in both Brazilian and European use.",
+    "examples": [
+      {
+        "text": "Sério?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "É mesmo?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Que pena.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Sinto muito.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Que bom!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Parabéns.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Isso vai ser difícil.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Brazilians often say a ligação está ruim or caiu a ligação; in either variety one may ask the other to speak mais alto.",
+    "examples": [
+      {
+        "text": "Não o estou a ouvir bem.",
+        "style": "polite"
+      },
+      {
+        "text": "Não estou te escutando bem.",
+        "style": "casual"
+      },
+      {
+        "text": "A linha está má / a ligação está ruim.",
+        "style": "casual"
+      },
+      {
+        "text": "Pode falar um pouco mais alto?",
+        "style": "polite"
+      },
+      {
+        "text": "Não apanhei a última parte.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Pode repetir, por favor is the polite repair; a name may be requested letra por letra, and a number said once more.",
+    "examples": [
+      {
+        "text": "Pode repetir, por favor?",
+        "style": "polite"
+      },
+      {
+        "text": "Como? Não percebi.",
+        "style": "casual"
+      },
+      {
+        "text": "Pode soletrar o nome?",
+        "style": "polite"
+      },
+      {
+        "text": "Pode dizer o número outra vez? É 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "O que disse?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Quem fala is shared; Portugal also uses Da parte de quem?. If this is {owner}'s number, say so when asking.",
+    "examples": [
+      {
+        "text": "Quem fala?",
+        "style": "polite"
+      },
+      {
+        "text": "Com quem estou a falar?",
+        "style": "polite"
+      },
+      {
+        "text": "É o telefone de {owner}. Quem está ligando?",
+        "style": "polite"
+      },
+      {
+        "text": "Quem é?",
+        "style": "casual"
+      },
+      {
+        "text": "Pode dizer o seu nome?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "In Portugal, é engano is the compact misdial close; in Brazil one more often hears número errado or ligou errado.",
+    "examples": [
+      {
+        "text": "Desculpe, é engano.",
+        "style": "polite"
+      },
+      {
+        "text": "Número errado.",
+        "style": "casual"
+      },
+      {
+        "text": "Não há ninguém com esse nome aqui.",
+        "style": "polite"
+      },
+      {
+        "text": "Acho que ligou para o número errado.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Eu passo o recado offers to leave word for {owner}, without fixing an hour when they will ring back.",
+    "examples": [
+      {
+        "text": "Eu passo o recado.",
+        "style": "polite"
+      },
+      {
+        "text": "Digo ao {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Eu aviso.",
+        "style": "casual"
+      },
+      {
+        "text": "Transmito a mensagem.",
+        "style": "polite"
+      },
+      {
+        "text": "Falo com ela.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Não, obrigado, não tenho interesse (or obrigada) shuts a sales call; no invented excuse is required.",
+    "examples": [
+      {
+        "text": "Não, obrigado, não tenho interesse.",
+        "style": "polite"
+      },
+      {
+        "text": "Não estamos interessados, obrigado.",
+        "style": "polite"
+      },
+      {
+        "text": "Não precisamos disso, obrigado.",
+        "style": "polite"
+      },
+      {
+        "text": "Não, isso não é para nós.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "When the pitch continues, speakers say the no again and ask, still politely, not to ring this number again.",
+    "examples": [
+      {
+        "text": "Já disse que não. Por favor, não liguem mais para este número.",
+        "style": "polite"
+      },
+      {
+        "text": "Por favor, tirem este número da vossa lista.",
+        "style": "polite"
+      },
+      {
+        "text": "Não liguem mais, por favor.",
+        "style": "casual"
+      },
+      {
+        "text": "É um não definitivo; não nos contactem outra vez.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "In Portugal, o senhor or a senhora marks distance; in Brazil você is everyday, with titles kept for formal calls.",
+    "examples": [
+      {
+        "text": "Senhor Silva.",
+        "style": "polite"
+      },
+      {
+        "text": "Senhora Costa.",
+        "style": "polite"
+      },
+      {
+        "text": "Doutor Almeida.",
+        "style": "polite"
+      },
+      {
+        "text": "Bom dia, senhora.",
+        "style": "polite"
+      },
+      {
+        "text": "Oi, João.",
+        "style": "casual"
+      },
+      {
+        "text": "Você pode falar?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A sua chamada é muito importante para nós fits a call centre script, not a private Portuguese-language handset.",
+    "examples": [
+      {
+        "text": "A sua chamada é muito importante para nós.",
+        "style": "polite"
+      },
+      {
+        "text": "Em que posso ajudar?",
+        "style": "polite"
+      },
+      {
+        "text": "É um prazer atendê-lo.",
+        "style": "polite"
+      },
+      {
+        "text": "Obrigado pela sua chamada, a sua satisfação é a nossa prioridade.",
+        "style": "polite"
+      },
+      {
+        "text": "Posso ajudar em mais alguma coisa?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "In formal Portugal, jumping to tu too soon, late calls, or opening with a demand for private data all sit badly.",
+    "examples": [
+      {
+        "text": "És casado? Ganhas quanto?",
+        "style": "casual"
+      },
+      {
+        "text": "Quem é você? Fala logo.",
+        "style": "casual"
+      },
+      {
+        "text": "Primeiro dê o seu endereço e o número do documento.",
+        "style": "polite"
+      },
+      {
+        "text": "Já estou a gravar esta chamada.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://elon.io/grammar/portuguese-portugal/expressions/telephone-expressions",
+    "https://elon.io/grammar/portuguese-brazil/expressions/telephone-expressions",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "歐洲葡語接聽常用 Estou?，巴西常用 Alô?，此對比見教學語法說明，不是電信監管規定。",
+    "葡萄牙誤撥常說 é engano；巴西更常說 número errado 或 ligou errado，engano 在巴西也能聽到，實際比例未量化。",
+    "歐洲葡語對陌生人常用 o senhor／a senhora，巴西口語大量用 você；本檔兩種都列，不指定單一標準。"
+  ]
+}

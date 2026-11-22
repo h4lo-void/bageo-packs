@@ -1,0 +1,655 @@
+{
+  "region": "uz-tj-tm",
+  "countries": [
+    "uz",
+    "tj",
+    "tm"
+  ],
+  "region_name_zh": "中亞（烏茲別克、塔吉克、土庫曼）",
+  "region_name": "Uzbekistan, Tajikistan, Turkmenistan",
+  "languages": [
+    {
+      "code": "ru",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Russian (ru) is the safe working language in Tashkent, Dushanbe and Ashgabat businesses; Uzbek, Tajik and Turkmen are not on Bageo's list, so switch only if the shop clearly prefers Russian-free talk and offer English as a fallback.",
+  "english_ok": "rarely — Hotels, international clinics and tour agencies may speak it; markets, garages and most salons do not.",
+  "politeness": "Formal вы with strangers, a short greeting before business, and calm courtesy; elders get extra respect, and haggling is normal only at bazaars.",
+  "name_tip": "Names are given name + surname, often with Russian-style endings (-ov/-ova); older people may expect the patronymic; spell names letter by letter.",
+  "phone_tip": "Uzbek mobiles are 9 digits after +998 (90 123 45 67); Tajik numbers are 9 digits after +992; Turkmen mobiles are 8 digits after +993; read in 2-3-2-2 groups.",
+  "time_tip": "24-hour clock everywhere; Tashkent and Dushanbe are UTC+5, as is Ashgabat.",
+  "number_tip": "Prices in sum (Uzbekistan), somoni (Tajikistan) or manat (Turkmenistan); sums in Uzbekistan run into thousands, so say 'тысяч' clearly.",
+  "avoid_calling": "Avoid 13:00–14:00 lunch, Friday midday near mosques, and Navruz (21 March) plus Eid days when many places close.",
+  "closed_days": "Offices work Monday to Friday, some Saturday; bazaars and shops open daily; Navruz and Eid close many businesses.",
+  "booking_channels": "Telegram is the main business chat in Uzbekistan and Tajikistan; payments by Click, Payme or Humo/Uzcard cards in Uzbekistan; taxis via Yandex Go; Turkmenistan relies on phone calls because many apps are blocked.",
+  "voice_menu": "Telcos (Beeline, Ucell, Uzmobile, Tcell, TMCELL) and banks run IVR in the local language and Russian.",
+  "callback_habits": "Uzbek and Tajik shops confirm in Telegram, often by voice message; in Turkmenistan expect a callback by phone.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "撒馬爾罕、布哈拉導覽與山區健行多經旅行社或 Telegram 預約；土庫曼旅遊通常須經旅行社。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Turkmenistan tours go through an agency"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Transfer to a personal card to lock a tour"
+        }
+      ],
+      "usually_asked": [
+        "Tour and day",
+        "Participants",
+        "Guide speaking Russian or English",
+        "Lead contact"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美甲多 Telegram 或 Instagram 預約，常傳作品照片。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for long colouring"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details to 'reserve' the slot"
+        }
+      ],
+      "usually_asked": [
+        "Procedure wanted",
+        "Master's name",
+        "Date and hour",
+        "Client Telegram"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消多電話或 Telegram 即可；宴會廳訂金多不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Banquet advance not refundable"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport data to find it"
+        }
+      ],
+      "usually_asked": [
+        "Reservation name",
+        "Previous time",
+        "Requested time",
+        "Guest count change"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立診所多電話或 Telegram 預約，公立多現場排隊；外國人看病多自費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Private clinic gives the price list in sum"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor receives only before noon"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport series and number"
+        }
+      ],
+      "usually_asked": [
+        "Patient full name as in passport",
+        "Which doctor",
+        "First visit or repeat",
+        "Phone for the reminder"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服有語音選單，帳戶與卡片事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Card issues need the cardholder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card number, SMS code or passport data"
+        }
+      ],
+      "usually_asked": [
+        "Russian-language option",
+        "Account owner",
+        "Number on the account",
+        "Problem"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "烏茲別克許多手續可在政府服務中心或 my.gov.uz 線上辦；其餘須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service done at the public service centre"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport or birth certificate data"
+        }
+      ],
+      "usually_asked": [
+        "Which service",
+        "Child's class",
+        "District (tuman)",
+        "Parent phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與冷氣多電話或 Telegram 叫；地址要報街、樓號、單元門與樓層。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out price in sum"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment upfront"
+        }
+      ],
+      "usually_asked": [
+        "Type of repair",
+        "Street, house, entrance and floor",
+        "Visit time",
+        "Phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經訂房平台或電話；外國人入住須登記，飯店代辦。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotel registers foreign guests"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Tourist tax per night"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport scan and card number in chat"
+        }
+      ],
+      "usually_asked": [
+        "Nights booked",
+        "Guests",
+        "Room type",
+        "Name as in passport"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問營業時間、Navruz 是否營業、可否用 Click/Payme，店家多直接答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Accepts Humo and Uzcard"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed on Navruz"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Hours on Navruz",
+        "Card systems accepted",
+        "Parking",
+        "Whether it's in stock"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容集中在大城，可電話或 Telegram 約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination passport needed"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding fully prepaid to a card"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "Pet type and age",
+        "Preferred time",
+        "Owner phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 OLX 與 Telegram 頻道，房東用 Telegram 約看；常收押金與首月租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and first month"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Payment to view"
+        }
+      ],
+      "usually_asked": [
+        "Listing link or district",
+        "Move-in",
+        "Residents",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車到 СТО 多直接到場或電話約；手機維修多在商場攤位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Mechanic asks a video on Telegram"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Original or Chinese part"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full payment before the diagnosis"
+        }
+      ],
+      "usually_asked": [
+        "Car make and plate",
+        "Fault symptoms",
+        "When to drive in",
+        "Contact"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "中亞餐廳多電話或 Telegram 訂位，婚宴與大型宴會廳（тойхона）常需訂金；週末晚餐要早訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Banquet hall wants an advance via Click"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Administrator confirms in Telegram"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number and SMS code"
+        }
+      ],
+      "usually_asked": [
+        "Evening time on the 24-hour clock",
+        "Guests at the table",
+        "Hall, tapchan or terrace",
+        "Name and Telegram number"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與節慶點心多 Telegram 傳圖預訂並先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment by Payme"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Entire sum to an unknown card first"
+        }
+      ],
+      "usually_asked": [
+        "Cake design and kilograms",
+        "Inscription",
+        "Pickup date",
+        "Customer"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送多經 Yandex Eats、Uzum Tezkor 等 App，小店可電話或 Telegram 點後自取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash or card on pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay to an unknown card"
+        }
+      ],
+      "usually_asked": [
+        "Plov, samsa or other dishes and portions",
+        "When to collect",
+        "Address with entrance (подъезд)",
+        "Number"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政與快遞可電話查詢，國際包裹以追蹤號查；取件常需護照。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport needed at the counter"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "SMS code for collection"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient surname",
+        "Branch or address",
+        "Contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "塔什干與杜尚別叫車多用 Yandex Go；城際多搭火車或共乘計程車；土庫曼多打電話叫。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Car ordered through Yandex Go"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Intercity shared taxi price"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport for a train ticket"
+        }
+      ],
+      "usually_asked": [
+        "Pickup and hour",
+        "Destination city",
+        "People and luggage",
+        "Name"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ru": {
+      "appointment_words": [
+        "запись к врачу",
+        "к стоматологу",
+        "на стрижку",
+        "на СТО"
+      ],
+      "booking_words": [
+        "бронь стола",
+        "номер в гостинице на двое суток",
+        "заказ зала"
+      ],
+      "change_words": [
+        "перенести на субботу",
+        "отменить бронь",
+        "другое время"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в субботу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 12",
+        "дом 5"
+      ],
+      "inquiry_words": [
+        "работаете в Навруз?",
+        "Click или Payme",
+        "есть парковка"
+      ],
+      "name": [
+        "Азиз",
+        "Нигора",
+        "на имя фирмы"
+      ],
+      "order_words": [
+        "навынос",
+        "доставка",
+        "самовывоз"
+      ],
+      "party": [
+        "на 4 человек",
+        "двое взрослых и ребёнок"
+      ],
+      "phone": [
+        "90 123 45 67",
+        "в Телеграм тот же номер"
+      ],
+      "time": [
+        "в 19:00",
+        "к семи вечера",
+        "в 10 утра"
+      ]
+    }
+  }
+}

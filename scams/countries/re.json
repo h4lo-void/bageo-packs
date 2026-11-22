@@ -1,0 +1,72 @@
+{
+  "name": "Réunion",
+  "name_local": "La Réunion",
+  "iso": "re",
+  "calling_code": "+262",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Local reporting has documented fraudulent undelivered-parcel SMS waves on Réunion, and the island's DEETS warns about SMS promising a prize that leads to costly contact.",
+  "cross_border_note": "Réunion shares +262 with Mayotte and receives many mainland French (+33) calls; Mauritius (+230) and Madagascar (+261) numbers are also common nearby.",
+  "scams": [
+    {
+      "id": "re_sms_colis_non_livre",
+      "typology": "fake_customs_parcel",
+      "name": "SMS frauduleux colis non livré",
+      "name_en": "Fraudulent undelivered-parcel SMS circulating on Réunion",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "colis non livré",
+        "reprogrammer la livraison",
+        "frais"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "reprogrammer via ce lien",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A wave of texts claims a parcel to Réunion could not be delivered and asks for a fee through a link.",
+      "legit_en": "Official French guidance says carriers do not demand fees by SMS link; check only on the carrier's site.",
+      "bait_tactics": [
+        "Demander de quel dépôt de Saint-Denis vient le colis",
+        "Dire que seul un avis dans la boîte aux lettres sera pris en compte"
+      ],
+      "sources": [
+        "https://la1ere.franceinfo.fr/reunion/alerte-arnaque-des-sms-frauduleux-sur-des-colis-non-livres-circulent-a-la-reunion-1491506.html",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+      ]
+    },
+    {
+      "id": "re_sms_gain_rappel",
+      "typology": "prize_lottery",
+      "name": "SMS promettant un gain",
+      "name_en": "SMS promising a prize that leads to a costly call or click",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "gain",
+        "cadeau",
+        "contacter le service"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "appeler pour récupérer votre gain",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A text announces a win and urges the owner to call a number or click a link that triggers premium charges.",
+      "legit_en": "DEETS Réunion advises not responding to unsolicited prize SMS.",
+      "bait_tactics": [
+        "Demander quel jeu a été gagné et à quelle date on y a participé",
+        "Ne pas rappeler et garder le SMS pour le signaler"
+      ],
+      "sources": [
+        "https://reunion.deets.gouv.fr/Un-SMS-promettant-un-gain-Un-clic-sur-Internet-pour-contacter-une"
+      ]
+    }
+  ]
+}

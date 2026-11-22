@@ -1,0 +1,75 @@
+{
+  "country": "jo",
+  "parent": "levant",
+  "name": {
+    "en": "Jordan",
+    "native": "الأردن",
+    "zh": "約旦"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the ناطور, reception, the door, or a post or courier point",
+    "zh": "包裹交給 ناطور、櫃台或放門口，或到郵局、快遞點取"
+  },
+  "readback": {
+    "en": "Jordanian mobiles starting 07 go in short groups; 0 as صفر; Jordanian dinars; 12-hour time",
+    "zh": "約旦 07 開頭的手機分短組唸，0 唸 صفر；金額用約旦第納爾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A fake Jordan Post or customs fee, or a CliQ or OTP request, is a scam",
+    "zh": "假約旦郵局或海關要補費，或要 CliQ、驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Jordanian Arabic; titles such as أستاذ. Do not lead with Whish or Qi Card.",
+    "zh": "用約旦阿拉伯語，稱謂用 أستاذ。不要先用黎巴嫩的 Whish 或伊拉克的 Qi Card。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a CliQ or wallet app freeze, an SMS code that never arrives, or missing glasses.",
+    "zh": "卡在 CliQ 或錢包 App 卡住、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "CliQ",
+      "تحويل",
+      "OTP"
+    ],
+    "delivery": [
+      "الناطور",
+      "الباب",
+      "البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Whish Money",
+      "reason": {
+        "en": "Lebanese wallet, not Jordan's everyday term",
+        "zh": "黎巴嫩錢包，不是約旦日常用語"
+      }
+    },
+    {
+      "word": "Qi Card",
+      "reason": {
+        "en": "Iraqi payment card",
+        "zh": "伊拉克支付卡"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "A little more formal than a mixed Levant tone. Keep titles and brief blessings; use Jordanian wording and CliQ, not Lebanese or Iraqi payment brands.",
+    "zh": "比混合黎凡特口氣稍正式。保留稱謂和短祝福；用約旦說法與 CliQ，不用黎巴嫩或伊拉克支付品牌。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://petra.gov.jo/en/news/jordan-post-warns-public-of-fraudulent-messages-impersonating-company",
+    "https://petra.gov.jo/en/news/jordan-customs-warns-of-phishing-scams-targeting-postal-shipments",
+    "https://petra.gov.jo/ar/news/%D8%A7%D9%84%D8%A8%D8%B1%D9%8A%D8%AF-%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86%D9%8A-%D9%8A%D8%AC%D8%AF%D8%AF-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D9%87-%D9%85%D9%86-%D8%B1%D8%B3%D8%A7%D8%A6%D9%84-%D8%A7%D8%AD%D8%AA%D9%8A%D8%A7%D9%84%D9%8A%D8%A9"
+  ],
+  "uncertain": [
+    "Aramex 在約旦很常見，但此次官方來源以約旦郵政與海關為主，故投遞詞彙未把 Aramex 當必用詞。"
+  ]
+}

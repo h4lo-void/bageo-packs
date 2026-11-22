@@ -1,0 +1,90 @@
+{
+  "region": "ru",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Да, на линии."
+  },
+  "habits": {
+    "en": "Kazakh and Kyrgyz city Russian uses Kaspi, tenge or som, акимат, рахмет — not Sber. вы with strangers.",
+    "zh": "哈薩克城市俄語夾 Kaspi、tenge、акимат、рахмет；吉爾吉斯則用 som。對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Almaty or Bishkek friend: ты, casual; рахмет can replace спасибо, and Kaspi is the usual way to mention payment.",
+        "zh": "阿拉木圖或比什凱克熟友用 ты，隨性；謝謝可說 рахмет，付錢常直接提 Kaspi。"
+      },
+      "2": {
+        "en": "Easygoing: follow ты; after they explain, a short ясно, with tenge, som or акимат left in local form.",
+        "zh": "隨和：跟著 ты；聽完短短接 ясно，tenge、som 或 акимат 留當地說法。"
+      },
+      "3": {
+        "en": "Everyday lingua-franca Russian of the two countries. Finish the point; payments live in Kaspi, not a Russian bank app.",
+        "zh": "兩國日常通用俄語。把重點說完；付款用 Kaspi，不是俄羅斯銀行應用程式。"
+      },
+      "4": {
+        "en": "Polite вы at an акимат or clinic. Keep IIN or eGov as locals say them, and don’t import Gosuslugi wording.",
+        "zh": "在 акимат 或診所用禮貌 вы。IIN、eGov 照當地叫，不要套用俄羅斯 Госуслуги 的說法。"
+      },
+      "5": {
+        "en": "Formal вы, precise about tenge or som, Kaspi or акимат, each item closed fully, no Russian-domestic assumptions.",
+        "zh": "正式 вы，把 tenge 或 som、Kaspi、акимат 說準，各項收完整，不要按俄羅斯本國習慣套。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ты: a quick рахмет if they used it, then you'll pass the note, city-casual.",
+        "zh": "{owner}隨興代接，用 ты：若對方說了 рахмет 就跟著謝，再把話帶去，城市隨口口氣。"
+      },
+      "2": {
+        "en": "Warm stand-in: match ты or вы, leave Kaspi or tenge as said, and tell them {owner} will hear it.",
+        "zh": "溫暖代接：跟著 ты 或 вы，Kaspi、tenge 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Kaspi or акимат request in one full sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句複述 Kaspi 或 акимат 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on вы: note the purpose, keep eGov or IIN wording, confirm the handover.",
+        "zh": "沉穩秘書用 вы：記下目的，eGov、IIN 用語照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: exact on tenge, som and Kaspi, no Russian-domestic bank names, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，把 tenge、som、Kaspi 說準，不用俄羅斯本國銀行名，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты в Алматы?",
+      "Алло, да, на линии. Говори.",
+      "Алло, добрый день. Это по Kaspi? Рахмет, понял.",
+      "Добрый день, спасибо за звонок. По тенге всё ясно.",
+      "Добрый день, благодарю за звонок. Вопрос в акимат принял."
+    ],
+    "a": [
+      "Алло! Его нет, скажи — я ему перескажу.",
+      "Алло, привет. Я взял трубку за него, диктуй.",
+      "Алло, добрый день. {owner} передам, слово в слово.",
+      "Добрый день, спасибо за звонок. Заявку по Kaspi запишу и скажу.",
+      "Добрый день, благодарю за звонок. Всё по тенге отмечу и передам."
+    ]
+  },
+  "diff_from_home": [
+    "哈薩克付款與生活超級應用常是 Kaspi，不要改成俄羅斯的 Sber 或同類應用。",
+    "貨幣分別是 tenge 與 som；市政府常叫 акимат，公務入口是 eGov，不是 Госуслуги。",
+    "口語可夾哈薩克或吉爾吉斯禮貌詞 рахмет（謝謝）等，但仍對生人用 вы。",
+    "這組描述的是哈薩克與吉爾吉斯的城市俄語，與俄羅斯本國用語、機構和支付習慣不同。"
+  ],
+  "sources": [
+    "https://egov.kz/",
+    "https://kaspi.kz/",
+    "https://ruslang.ru/sites/default/files/doc/kashkin/2025/Kashkin_Winkler-2025-Kyrgyz_Russian_Rusrech.pdf",
+    "https://cyberleninka.ru/article/n/russkiy-yazyk-v-kazahstane-status-realii-vitalnost-tendentsii"
+  ],
+  "uncertain": [
+    "哈薩克與吉爾吉斯兩國城市習慣並不完全相同（如 Kaspi 在哈薩克更普及），本檔合寫時可能把某一國特徵說得過滿。",
+    "рахмет 在俄語句子裡的使用頻率缺少新的定量語料。"
+  ]
+}

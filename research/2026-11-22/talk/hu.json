@@ -1,0 +1,264 @@
+{
+  "lang": "hu",
+  "backchannels": {
+    "direction": "Igen and aha show listening; persze and értem agree; jó, jó, jó said fast sounds dismissive.",
+    "examples": [
+      {
+        "text": "Aha, igen.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Értem.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Persze.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Így van.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Jó, jó, jó.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Tényleg? or Ne mondja! for surprise; sajnálom for sympathy; de jó / gratulálok for good news.",
+    "examples": [
+      {
+        "text": "Tényleg?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ne mondja!",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Nagyon sajnálom.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Gratulálok!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Ez kicsit nehéz lesz.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you hear badly (rosszul hallom) or the line breaks, then ask for hangosabban.",
+    "examples": [
+      {
+        "text": "Elnézést, rosszul hallom.",
+        "style": "polite"
+      },
+      {
+        "text": "Szakad a vonal.",
+        "style": "casual"
+      },
+      {
+        "text": "Recseg a telefon.",
+        "style": "casual"
+      },
+      {
+        "text": "Tudna kicsit hangosabban beszélni?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Tessék? or Hogy mondta? asks for a replay; ask names betűzve; echo the szám.",
+    "examples": [
+      {
+        "text": "Tessék?",
+        "style": "polite"
+      },
+      {
+        "text": "Hogy mondta?",
+        "style": "polite"
+      },
+      {
+        "text": "Betűzné a nevét?",
+        "style": "polite"
+      },
+      {
+        "text": "A szám 12345678, ugye?",
+        "style": "polite"
+      },
+      {
+        "text": "Mi van?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kivel beszélek? is courteous; a bare Ki az? feels short.",
+    "examples": [
+      {
+        "text": "Elnézést, kivel beszélek?",
+        "style": "polite"
+      },
+      {
+        "text": "Honnan hív?",
+        "style": "polite"
+      },
+      {
+        "text": "Ez {owner} telefonja, ki keresi?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say rossz számot hívott, nobody of that name lives here.",
+    "examples": [
+      {
+        "text": "Rossz számot hívott.",
+        "style": "polite"
+      },
+      {
+        "text": "Itt nincs ilyen nevű ember.",
+        "style": "polite"
+      },
+      {
+        "text": "Téves.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Átadom az üzenetet tells them {owner} will hear; no promise of a ring-back time.",
+    "examples": [
+      {
+        "text": "Átadom az üzenetet {owner} részére.",
+        "style": "polite"
+      },
+      {
+        "text": "Megmondom neki.",
+        "style": "casual"
+      },
+      {
+        "text": "Továbbítom.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Köszönöm, nem érdekel is the normal polite no; no excuse needed.",
+    "examples": [
+      {
+        "text": "Köszönöm, nem érdekel.",
+        "style": "polite"
+      },
+      {
+        "text": "Nincs rá szükségünk, köszönjük.",
+        "style": "polite"
+      },
+      {
+        "text": "Kösz, nem kell.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, recall the earlier nem and ask to töröljék a számot from their list.",
+    "examples": [
+      {
+        "text": "Már mondtam, hogy nem érdekel.",
+        "style": "polite"
+      },
+      {
+        "text": "Kérem, ne hívják többet ezt a számot.",
+        "style": "polite"
+      },
+      {
+        "text": "Töröljék a számot a listájukról.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Ön or verb-only formal for strangers; úr/asszony after surname; tegezés only if offered.",
+    "examples": [
+      {
+        "text": "Kovács úr",
+        "style": "polite"
+      },
+      {
+        "text": "Asszonyom",
+        "style": "polite"
+      },
+      {
+        "text": "Uram",
+        "style": "polite"
+      },
+      {
+        "text": "Kedves",
+        "style": "polite"
+      },
+      {
+        "text": "Haver",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Hívása fontos számunkra sound like an ügyfélszolgálat recording.",
+    "examples": [
+      {
+        "text": "Hívása fontos számunkra.",
+        "style": "polite"
+      },
+      {
+        "text": "Köszönjük, hogy ügyfélszolgálatunkat hívta.",
+        "style": "polite"
+      },
+      {
+        "text": "Miben segíthetek?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Tegezés with older strangers, or asking pay or politics early, is rude.",
+    "examples": [
+      {
+        "text": "Mennyit keresel?",
+        "style": "casual"
+      },
+      {
+        "text": "Kire szavazol?",
+        "style": "casual"
+      },
+      {
+        "text": "Te ki vagy?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/tess%C3%A9k",
+    "https://en.wikipedia.org/wiki/Hungarian_language",
+    "https://en.wiktionary.org/wiki/maga"
+  ],
+  "uncertain": [
+    "Formal address has two forms (ön vs maga); maga can sound condescending, ön is safer but stiff",
+    "Backchannels (igen, aha, persze, értem) from usage, no call corpus",
+    "Answering with Halló or Tessék varies by person; not measured"
+  ]
+}

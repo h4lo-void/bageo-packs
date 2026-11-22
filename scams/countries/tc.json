@@ -1,0 +1,47 @@
+{
+  "name": "Turks and Caicos Islands",
+  "name_local": "Turks and Caicos Islands",
+  "iso": "tc",
+  "calling_code": "+1-649",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The TCI Financial Services Commission has urged the public to stay vigilant against scam calls that spoof official bodies and ask for banking details or transfers.",
+  "cross_border_note": "Turks and Caicos (+1-649) uses NANP numbering, so spoofed caller IDs showing local or US numbers are hard to spot.",
+  "scams": [
+    {
+      "id": "tc_fsc_spoof_call",
+      "typology": "fake_official",
+      "name": "Spoofed police or FSC call",
+      "name_en": "Call spoofing police or the Financial Services Commission demanding bank details",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Financial Services Commission",
+        "account investigation",
+        "compliance check"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "transfer funds for safekeeping",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "give your bank login",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A caller claims to be from the FSC or police, alleges an account problem and asks for bank details or a transfer.",
+      "legit_en": "The FSC urges the public to stay vigilant and not to hand banking details or money to unverified callers.",
+      "bait_tactics": [
+        "Ask for the officer's name and FSC department, then ask for it spelled out",
+        "Say every bank matter is settled in person at the Providenciales branch"
+      ],
+      "sources": [
+        "https://www.tcifsc.tc/assets/documents/FSC-URGES-TCI-TO-REMAIN-VIGILANT-AGAINST-SCAM-CALLS--20260722005749.pdf"
+      ]
+    }
+  ]
+}

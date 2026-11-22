@@ -1,0 +1,710 @@
+{
+  "region": "rs",
+  "countries": [
+    "rs",
+    "ba",
+    "me"
+  ],
+  "region_name_zh": "塞爾維亞、波士尼亞、蒙特內哥羅",
+  "region_name": "Serbia, Bosnia and Herzegovina, Montenegro",
+  "languages": [
+    {
+      "code": "sr",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use the local standard: Serbian (sr) in rs and much of ba/me, Bosnian (bs) in Federation BiH, Montenegrin in me — all mutually intelligible; match the owner's choice; Serbian is written in Cyrillic and Latin, both fine; English works with younger staff in Belgrade, Novi Sad, Sarajevo and coast resorts.",
+  "english_ok": "sometimes — Common among under-40s in big cities and tourism; limited at state clinics, municipal offices and small towns.",
+  "politeness": "Formal 'Vi' with strangers, 'gospodine/gospođo'; open with 'Dobar dan' (in ba also 'Selam' or 'Dobar dan' by community; neutral 'Dobar dan' is safest); close with 'Hvala, prijatno' or 'doviđenja'.",
+  "name_tip": "Surname first in bookings ('na ime Petrović'); many surnames end in -ić and do not change by gender; spell foreign names letter by letter; Cyrillic or Latin spelling both acceptable.",
+  "phone_tip": "rs mobile 06x + 6–7 digits (+381), ba mobile 06x + 6 digits (+387), me mobile 06x + 6 digits (+382); Viber on the same number is very common.",
+  "time_tip": "TRAP: 'pola osam' = 7:30; 'sedam i po' also 7:30; 'petnaest do osam' = 7:45; always read back in 24h.",
+  "number_tip": "Group counts use collective forms ('troje', 'četvoro'); prices in dinars (rs), convertible marks KM (ba) or euro (me), so say which currency.",
+  "avoid_calling": "Avoid lunch 13:00–15:00, dinner peak 19:30–22:00, calls after 21:00, and Sundays for offices; public clinics answer best early morning.",
+  "closed_days": "Shops and malls open on Sundays; holidays: Orthodox Christmas 7 January, Sretenje 15–16 February, Orthodox Easter Friday–Monday, 1–2 May, 11 November (rs); ba and me add their own holidays (e.g. 1 March and 25 November in ba, 21 May and 13 July in me) and Catholic/Muslim holidays by community.",
+  "booking_channels": "Phone and Viber dominate for restaurants, salons, garages and small hotels; Instagram/Facebook messages for venues; Wolt and Glovo for delivery (rs, ba, me partly); eUprava/Moj doktor for public GP slots in rs.",
+  "voice_menu": "Operators (mts, Yettel, A1; BH Telecom, m:tel; Crnogorski Telekom, One), banks and courier hotlines use IVR; small venues answer directly on mobile.",
+  "callback_habits": "Viber is the default for confirmations and photos (rs, ba); owners often call back from a personal mobile; SMS reminders at private clinics.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "滑雪學校、漂流（rafting，Tara 河）與導覽可電話或 Viber 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tara rafting runs only in season with set departure times"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks advance payment to a personal card"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲多電話、Viber 或 Instagram 預約；老闆常以個人手機接聽。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Salon asks to confirm on Viber the day before"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks uplata (transfer) to a personal account before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (šišanje, farbanje, nokti)",
+        "Hair length",
+        "Day, time and frizerka",
+        "Name and Viber"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早，多以電話或 Viber 訊息通知即可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Depozit lost on late otkazivanje"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Dom zdravlja asks JMBG to find the termin"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original termin",
+        "New time or otkazivanje",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立需先找選定醫師（izabrani lekar）並開 uput；塞國可經 eUprava/Moj doktor 預約家醫；私人診所與牙醫常用電話或 Viber 預約，可能問 JMBG。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dom zdravlja offers the next free slot with the izabrani lekar"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private ordinacija price when the public queue is long"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks JMBG or LBO health number"
+        }
+      ],
+      "usually_asked": [
+        "Public (dom zdravlja) or private ordinacija",
+        "First or kontrola",
+        "Reason and uput",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、公用事業客服有語音選單並須本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "mts or bank line refuses caller without ovlašćenje"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks JMBG or one-time codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Broj korisnika",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "塞國部分服務走 eUprava 線上預約；學校報名有固定期，電話可問流程。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "eUprava appointment replaces the šalter queue"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's JMBG"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and opština",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需告知街道、門牌、入口（ulaz）、樓層（sprat）、門號與對講機；師傅常 Viber 傳照片估價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Majstor asks Viber photos before quoting"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Zgrada without a lift for heavy items"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Trade (vodoinstalater, električar, bravar)",
+        "Address, ulaz, sprat and stan",
+        "Time window",
+        "Name and Viber"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "私人公寓、山區度假（Zlatibor、Kopaonik、Jahorina）與蒙國海岸小旅館常電話、Viber 或 WhatsApp 訂房並收訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Boravišna taksa charged per night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Depozit for ski-season weeks on Kopaonik or Jahorina"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or lična karta number for police registration"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and apartman size",
+        "Parking and arrival time",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、庫存等問題通常直接回答；貨幣各國不同（RSD、KM、EUR）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Prices quoted in dinars, KM or euro depending on the country"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (radno vreme, kartica, pas)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinar）與寵物美容可電話或 Viber 預約；出境需晶片、狂犬抗體檢測與證明。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dežurna ambulanta surcharge"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel deposit to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Vakcinacija and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋經 Halo Oglasi、4zida、OLX.ba 與房仲，電話或 Viber 約看房。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks the Halo Oglasi oglas number"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Depozit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（auto servis）、換胎（vulkanizer）與車檢（tehnički pregled）多電話預約；換季時 vulkanizer 排隊長。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dijagnostika paid separately"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vulkanizer works first come first served"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN from the saobraćajna dozvola"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and registarske tablice",
+        "Servis, gume or tehnički",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "餐廳與 kafana 多電話或 Viber 訂位；週末有現場樂團的 kafana、slava 節慶與婚禮季要提早，訂位常只需名字與手機。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kafana with live music needs a booking on Friday and Saturday"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Depozit for New Year's Eve (doček) menu"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to hold a splav (river club) table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Broj osoba (party size)",
+        "Name and Viber number",
+        "Inside, bašta or near the band"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（apoteka）、麵包店（pekara）與蛋糕店（poslastičarnica）可電話預訂；slava 用蛋糕與 slavski kolač 要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Apoteka orders the lek for tomorrow"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepayment for a slavski kolač or torta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Torta size and inscription",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "烤肉（ćevapi、pljeskavica）、披薩與麵包店常接電話外帶外送；也用 Wolt、Glovo。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant's own dostava faster than the apps"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Gotovina only for phone orders"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Za poneti or dostava",
+        "Items and portion size",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Pošta Srbije/Post Express、D Express、BEX（波國 BH Pošta、EuroExpress）追蹤以網站為主，快遞員送件前常先打電話。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier calls the recipient before delivery anyway"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Post office asks the recipient lična karta at pickup"
+        }
+      ],
+      "usually_asked": [
+        "Broj pošiljke",
+        "Recipient name and phone",
+        "Address or paketomat",
+        "Otkupnina (COD) amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車電話派遣非常普遍，貝爾格勒另有 CarGo 等 App；機場接送可預約，價格依車行。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives the taxi number and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Nikola Tesla airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or vozačka dozvola"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "sr": {
+      "appointment_words": [
+        "zakazati pregled",
+        "termin kod frizera",
+        "tehnički pregled",
+        "kontrola kod lekara",
+        "заказати термин"
+      ],
+      "booking_words": [
+        "rezervacija stola",
+        "rezervisati sto",
+        "rezervacija sobe",
+        "smeštaj sa doručkom",
+        "резервација"
+      ],
+      "change_words": [
+        "pomeriti termin",
+        "otkazati rezervaciju",
+        "pola sata kasnije",
+        "prebaciti za petak",
+        "промена термина"
+      ],
+      "date": [
+        "sutra",
+        "prekosutra",
+        "ovog petka",
+        "sledećeg utorka",
+        "25. 11.",
+        "у суботу увече"
+      ],
+      "false_friends": [
+        "3. sprat",
+        "stan 12",
+        "ulaz 2",
+        "meni br. 4",
+        "masaža 60 min",
+        "autobus 26"
+      ],
+      "inquiry_words": [
+        "do kad radi kuhinja",
+        "može li karticom",
+        "da li može sa psom",
+        "imate li na stanju",
+        "радно време"
+      ],
+      "name": [
+        "na ime Petrović",
+        "Marko Jovanović",
+        "Jelena Nikolić",
+        "porodica Ilić",
+        "gospodin Popović"
+      ],
+      "order_words": [
+        "za poneti",
+        "lično preuzimanje",
+        "dostava",
+        "ostavite mi",
+        "poručiti unapred"
+      ],
+      "party": [
+        "sto za 4",
+        "2 odrasla i 1 dete",
+        "biće nas troje",
+        "za 2 osobe",
+        "6 osoba + stolica za bebu"
+      ],
+      "phone": [
+        "064 123 4567",
+        "+381 64 123 4567",
+        "+387 61 234 567",
+        "+382 67 123 456",
+        "Viber na 064 123 4567"
+      ],
+      "time": [
+        "u pola osam uveče",
+        "u 19:30",
+        "u sedam i po",
+        "u petnaest do osam",
+        "u podne",
+        "oko 20h"
+      ]
+    }
+  }
+}

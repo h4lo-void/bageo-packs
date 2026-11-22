@@ -1,0 +1,461 @@
+{
+  "region": "au-nz",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "PayID",
+          "en": "Australia: instant transfer using a phone, email or ABN (PayID)"
+        },
+        {
+          "term": "NetCode",
+          "en": "one-time bank code, used by some Australian banks (NetCode)"
+        },
+        {
+          "term": "BSB",
+          "en": "Australian bank-state-branch code, spoken as BSB, no long number on the call unless asked"
+        },
+        {
+          "term": "EFTPOS",
+          "en": "card payment at a terminal (EFTPOS)"
+        },
+        {
+          "term": "internet banking",
+          "en": "online or app banking (internet banking)"
+        },
+        {
+          "term": "transaction account",
+          "en": "everyday account, Australia (transaction account)"
+        },
+        {
+          "term": "Kiwi account terms",
+          "en": "New Zealand everyday account, often just 'account' or transaction account (Kiwi account terms)"
+        },
+        {
+          "term": "direct debit",
+          "en": "direct debit, Australia or New Zealand usage"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "veranda",
+          "en": "veranda / verandah, common leave-at spot"
+        },
+        {
+          "term": "mailroom",
+          "en": "mailroom in an office or apartment"
+        },
+        {
+          "term": "side gate",
+          "en": "side gate, common in houses"
+        },
+        {
+          "term": "parcel locker",
+          "en": "Australia Post or NZ Post locker (parcel locker)"
+        },
+        {
+          "term": "letterbox",
+          "en": "letterbox, Australia or New Zealand usage"
+        },
+        {
+          "term": "authority to leave",
+          "en": "ATL, leave the parcel without a signature (authority to leave)"
+        },
+        {
+          "term": "collection point",
+          "en": "post-office or shop pickup (collection point)"
+        },
+        {
+          "term": "porch",
+          "en": "porch, also used"
+        }
+      ],
+      "government": [
+        {
+          "term": "myGov",
+          "en": "Australian government login (myGov)"
+        },
+        {
+          "term": "Medicare",
+          "en": "Australian public health card and system (Medicare)"
+        },
+        {
+          "term": "TFN",
+          "en": "tax file number, do not read it out unless the owner asks (TFN)"
+        },
+        {
+          "term": "IRD",
+          "en": "New Zealand tax office / IRD number context"
+        },
+        {
+          "term": "RealMe",
+          "en": "New Zealand government login (RealMe)"
+        },
+        {
+          "term": "driver licence",
+          "en": "driver licence"
+        },
+        {
+          "term": "passport",
+          "en": "passport, Australia or New Zealand usage"
+        },
+        {
+          "term": "Centrelink",
+          "en": "Australian social-support agency, often named on calls (Centrelink)"
+        }
+      ],
+      "health": [
+        {
+          "term": "Medicare",
+          "en": "Australia public health (Medicare)"
+        },
+        {
+          "term": "GP",
+          "en": "general practitioner (GP)"
+        },
+        {
+          "term": "chemist",
+          "en": "pharmacy, common word in both countries (chemist)"
+        },
+        {
+          "term": "A&E",
+          "en": "emergency department, also ED (A&E)"
+        },
+        {
+          "term": "ACC",
+          "en": "New Zealand accident-compensation scheme (ACC)"
+        },
+        {
+          "term": "prescription",
+          "en": "script / prescription"
+        },
+        {
+          "term": "bulk bill",
+          "en": "Australia: doctor bills Medicare directly (bulk bill)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile plan",
+          "en": "mobile plan, Australia or New Zealand usage"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid, Australia or New Zealand usage"
+        },
+        {
+          "term": "porting",
+          "en": "number porting, Australia or New Zealand usage"
+        },
+        {
+          "term": "NBN",
+          "en": "Australian broadband network, often just NBN"
+        },
+        {
+          "term": "fibre",
+          "en": "NZ fibre broadband, also fibre broadband"
+        },
+        {
+          "term": "SIM",
+          "en": "SIM"
+        },
+        {
+          "term": "telco",
+          "en": "mobile or broadband provider (telco)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayID",
+          "en": "Australian instant payment (PayID)"
+        },
+        {
+          "term": "EFTPOS",
+          "en": "card payment (EFTPOS)"
+        },
+        {
+          "term": "BPAY",
+          "en": "Australian bill payment (BPAY)"
+        },
+        {
+          "term": "Afterpay",
+          "en": "buy now, pay later, widely used (Afterpay)"
+        },
+        {
+          "term": "POLi",
+          "en": "online bank payment, more common in NZ and some AU bills (POLi)"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card, Australia or New Zealand usage"
+        },
+        {
+          "term": "direct credit",
+          "en": "bank transfer into an account (direct credit)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Opal",
+          "en": "Sydney transit card (Opal)"
+        },
+        {
+          "term": "myki",
+          "en": "Melbourne transit card (myki)"
+        },
+        {
+          "term": "AT HOP",
+          "en": "Auckland transit card (AT HOP)"
+        },
+        {
+          "term": "Snapper",
+          "en": "Wellington transit card (Snapper)"
+        },
+        {
+          "term": "Uber",
+          "en": "Uber"
+        },
+        {
+          "term": "tram",
+          "en": "tram, especially Melbourne"
+        },
+        {
+          "term": "train",
+          "en": "train"
+        },
+        {
+          "term": "bus",
+          "en": "bus, Australia or New Zealand usage"
+        }
+      ],
+      "housing": [
+        {
+          "term": "unit",
+          "en": "apartment or unit"
+        },
+        {
+          "term": "apartment",
+          "en": "apartment, Australia or New Zealand usage"
+        },
+        {
+          "term": "letterbox",
+          "en": "letterbox, Australia or New Zealand usage"
+        },
+        {
+          "term": "body corporate",
+          "en": "owners corporation / body corporate"
+        },
+        {
+          "term": "intercom",
+          "en": "intercom, Australia or New Zealand usage"
+        },
+        {
+          "term": "building manager",
+          "en": "building manager or on-site manager"
+        },
+        {
+          "term": "flat",
+          "en": "flat, more common in NZ speech"
+        },
+        {
+          "term": "access fob",
+          "en": "fob or swipe for the door (access fob)"
+        }
+      ],
+      "school": [
+        {
+          "term": "kindy",
+          "en": "kindergarten or preschool, also kindy in NZ/AU"
+        },
+        {
+          "term": "primary school",
+          "en": "primary school, Australia or New Zealand usage"
+        },
+        {
+          "term": "high school",
+          "en": "high school, also college or secondary in NZ"
+        },
+        {
+          "term": "OSHC",
+          "en": "out-of-school-hours care, Australia (OSHC)"
+        },
+        {
+          "term": "homework",
+          "en": "homework, Australia or New Zealand usage"
+        },
+        {
+          "term": "NCEA",
+          "en": "NZ senior-school qualification (NCEA)"
+        },
+        {
+          "term": "ATAR",
+          "en": "Australian senior rank, mentioned in some school calls (ATAR)"
+        }
+      ],
+      "money": [
+        {
+          "term": "dollar",
+          "en": "Australian or New Zealand dollar, usually just dollars"
+        },
+        {
+          "term": "bucks",
+          "en": "informal dollars (bucks), Australia or New Zealand usage"
+        },
+        {
+          "term": "thousand",
+          "en": "thousand"
+        },
+        {
+          "term": "EFT",
+          "en": "electronic transfer, still heard (EFT)"
+        },
+        {
+          "term": "PayID",
+          "en": "send money in Australia (PayID)"
+        },
+        {
+          "term": "change",
+          "en": "change, Australia or New Zealand usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, Australia or New Zealand usage"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, AU/NZ English"
+        },
+        {
+          "term": "arvo",
+          "en": "afternoon, common colloquialism in Australia, also heard in NZ (arvo)"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, Australia or New Zealand usage"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, Australia or New Zealand usage"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, Australia or New Zealand usage"
+        },
+        {
+          "term": "after work",
+          "en": "after work, sometimes after knock-off"
+        },
+        {
+          "term": "this week",
+          "en": "this week, also 'this week sometime'"
+        },
+        {
+          "term": "public holiday",
+          "en": "public holiday, Australia or New Zealand usage"
+        }
+      ],
+      "work": [
+        {
+          "term": "at work",
+          "en": "at work, Australia or New Zealand usage"
+        },
+        {
+          "term": "knock off",
+          "en": "finish work, colloquial (knock off)"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, also OT, Australia or New Zealand usage"
+        },
+        {
+          "term": "annual leave",
+          "en": "annual leave, Australia or New Zealand usage"
+        },
+        {
+          "term": "sickie",
+          "en": "sick leave, informal (sickie)"
+        },
+        {
+          "term": "boss",
+          "en": "boss, also manager, Australia or New Zealand usage"
+        },
+        {
+          "term": "the office",
+          "en": "office (the office)"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home (WFH), Australia or New Zealand usage"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "PayID in Australia; in New Zealand say bank transfer or the bank's own pay function",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "PayID, bank transfer, direct credit",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "sort code",
+      "use_instead": "BSB in Australia; NZ uses bank account numbers, not a UK sort code",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "Interac",
+      "use_instead": "PayID or bank transfer",
+      "where_it_is_from": "CA"
+    },
+    {
+      "word": "checking account",
+      "use_instead": "transaction account, everyday account",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "chemist 以外只說 pharmacy 當唯一詞",
+      "use_instead": "chemist 很常用，pharmacy 也可以",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "subway",
+      "use_instead": "train, metro or the local network name",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "myGov 用在紐西蘭",
+      "use_instead": "紐西蘭用 RealMe、IRD；myGov 與 Medicare 是澳洲的",
+      "where_it_is_from": "AU"
+    },
+    {
+      "word": "Faster Payments",
+      "use_instead": "PayID, direct credit",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "Eircode",
+      "use_instead": "postcode, also NZ postcode or Australian postcode",
+      "where_it_is_from": "IE"
+    }
+  ],
+  "sources": [
+    "https://payid.com.au/",
+    "https://auspost.com.au/",
+    "https://my.gov.au/",
+    "https://www.servicesaustralia.gov.au/medicare",
+    "https://www.nzpost.co.nz/",
+    "https://www.ird.govt.nz/",
+    "https://www.realme.govt.nz/"
+  ],
+  "uncertain": [
+    "PayID 是澳洲系統，紐西蘭沒有同名服務；此區合併兩國，電話裡要先分清對方在哪一國。",
+    "「NetCode」並非所有銀行都用，有的說 SMS code 或 app code。",
+    "各城交通卡不同（Opal、myki、AT HOP、Snapper），不能假設一張全國卡。"
+  ]
+}

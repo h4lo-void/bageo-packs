@@ -1,0 +1,90 @@
+{
+  "region": "tw",
+  "lang": "fil",
+  "hello": {
+    "hello": "Hello po?",
+    "hello_again": "Hello po, sige?"
+  },
+  "habits": {
+    "en": "Taglish plus po/opo; Ma'am/Sir to employers; mix 健保, 仲介, 居留證, 捷運; English often used with offices and some homes.",
+    "zh": "講 Taglish，用 po／opo；對僱主稱 Ma'am／Sir；常夾健保、仲介、居留證、捷運。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Filipino coworkers in Taiwan, loose Taglish is fine; reply brightly, then add sige, and change the wording each time.",
+        "zh": "跟在台菲籍工友可用輕鬆 Taglish，先開朗接話再補 sige，不要反覆同一句。"
+      },
+      "2": {
+        "en": "If they keep po, follow it in a relaxed way; after they explain factory or care matters, add okay po, slightly rephrased.",
+        "zh": "對方若一直用 po 就跟著用，聽完廠裡或照顧的事再補 okay po，並換著說。"
+      },
+      "3": {
+        "en": "Daily Filipino in Taiwan should be a full sentence: pick up each point with naintindihan ko, including mixed 捷運 or 健保.",
+        "zh": "在台日常菲律賓語要講完整：用 naintindihan ko 接住重點，也可帶捷運、健保。"
+      },
+      "4": {
+        "en": "With 仲介, the plant or a clinic, keep po and Ma'am/Sir, unhurried and complete; acknowledge first, e.g. opo.",
+        "zh": "對仲介、廠方或診所保留 po 與 Ma'am／Sir，不急、講完整，先應一口 opo。"
+      },
+      "5": {
+        "en": "On 居留證 or labour contracts, stay formal with po and exact local terms; close each item with naitala ko po, rephrased.",
+        "zh": "談居留證或勞動契約時維持正式 po，當地專名要準；各點用 naitala ko po 收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A cheerful pickup for {owner} in Taglish: short warm lines, then ipapasa ko, wording changed each time.",
+        "zh": "代{owner}接的輕快 Taglish：先熱絡短句，再說會 ipapasa ko，用詞常換。"
+      },
+      "2": {
+        "en": "Mirror po; thank them kindly, write the note for {owner}, and close with itatala ko or another gentle line.",
+        "zh": "跟著用 po，先客氣致謝，再記下要給{owner}的話，用 itatala ko 一類收尾。"
+      },
+      "3": {
+        "en": "Sound like a steady plant or household helper: full-sentence reply, then confirm you will tell {owner}; no bare OK.",
+        "zh": "像廠裡或家裡能辦事的人：先完整回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A discreet voice for {owner} with agencies: Ma'am/Sir plus po and complete lines; restate the request, then ipapasa ko po.",
+        "zh": "代{owner}對仲介：Ma'am／Sir 加 po，先完整覆述來意，再說 ipapasa ko po。"
+      },
+      "5": {
+        "en": "For labour or hospital calls, keep po, titles and exact terms (居留證, 健保); confirm the relay to {owner} is naitala ko po.",
+        "zh": "對勞動或醫院來電維持 po 與稱謂，居留證、健保要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Kamusta sa linya? Anong meron sa trabaho?",
+      "Hello po! Oo, naririnig kita, sige po.",
+      "Hello po. Tungkol po ba sa 健保? Naintindihan ko na.",
+      "Magandang araw po, salamat sa tawag. Opo, aasikasuhin ko.",
+      "Magandang araw po. Naitala ko na po ang 居留證, salamat."
+    ],
+    "a": [
+      "Hello! Nasa shift siya, sabihin mo, ipapasa ko!",
+      "Hello po! Ako ang sasagot, iwan po ang mensahe.",
+      "Hello po. Itatala ko po ang tungkol sa 仲介.",
+      "Magandang araw po, salamat sa tawag. Ipasa ko po ito.",
+      "Magandang araw po. Naitala ko po lahat para kay {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "與台灣雇主或機構常夾英語，同鄉之間用菲律賓語或 Taglish，並嵌入健保、仲介、居留證、捷運等當地詞。",
+    "對僱主與長輩多用 po／opo、Ma'am／Sir；官方已改稱「移工」，應避免「外勞」一類輕慢說法。",
+    "工廠、漁船與看護場域用詞不完全相同，但勞動契約與 1955 專線是共同參照。",
+    "相較香港外傭場景，台灣菲籍移工不全是家務工作，電話話題也常涉及廠區與轉換雇主。"
+  ],
+  "sources": [
+    "https://fw.wda.gov.tw/",
+    "https://www.immigration.gov.tw/5382/5385/7445/138688/142450/184477/",
+    "https://www.mol.gov.tw/",
+    "https://www.21manpower.com.tw/migrant-workers/29828/"
+  ],
+  "uncertain": [
+    "菲籍工廠移工與看護在 Taglish 程度上的差異，缺乏公開分群調查。",
+    "他們在台灣使用台語詞的頻率，資料不足，不加以臆測。"
+  ]
+}

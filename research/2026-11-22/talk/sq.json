@@ -1,0 +1,264 @@
+{
+  "lang": "sq",
+  "backchannels": {
+    "direction": "Po and aha show listening; në rregull agrees; mirë mirë said fast can sound dismissive.",
+    "examples": [
+      {
+        "text": "Po.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Aha, po të dëgjoj.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Në rregull.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Patjetër.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Mirë mirë.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Vërtet? or Ou! for surprise; më vjen keq for sympathy; sa mirë or urime for good news.",
+    "examples": [
+      {
+        "text": "Vërtet?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ou, s'e besoj!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Më vjen shumë keq.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Urime!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Kjo është pak e vështirë.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (nuk ju dëgjoj mirë) or the line breaks, then request më fort.",
+    "examples": [
+      {
+        "text": "Nuk ju dëgjoj mirë.",
+        "style": "polite"
+      },
+      {
+        "text": "Linja po ndërpritet.",
+        "style": "polite"
+      },
+      {
+        "text": "Sinjali është i dobët.",
+        "style": "casual"
+      },
+      {
+        "text": "Mund të flisni pak më fort?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Si? or Urdhëro? asks for a replay; ask names to be spelled; repeat the numër to confirm.",
+    "examples": [
+      {
+        "text": "Si thatë?",
+        "style": "polite"
+      },
+      {
+        "text": "Mund ta përsërisni?",
+        "style": "polite"
+      },
+      {
+        "text": "Si shkruhet emri juaj?",
+        "style": "polite"
+      },
+      {
+        "text": "Numri është 12345678, apo jo?",
+        "style": "polite"
+      },
+      {
+        "text": "Çfarë?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kush jeni ju, ju lutem? or Me kë po flas? with ju form; avoid blunt Kush je?",
+    "examples": [
+      {
+        "text": "Me kë po flas, ju lutem?",
+        "style": "polite"
+      },
+      {
+        "text": "Nga po telefononi?",
+        "style": "polite"
+      },
+      {
+        "text": "Ky është telefoni i {owner}, kush jeni?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say keni gabuar numrin and nobody by that name is here; brief.",
+    "examples": [
+      {
+        "text": "Më falni, keni gabuar numrin.",
+        "style": "polite"
+      },
+      {
+        "text": "Këtu nuk ka njeri me atë emër.",
+        "style": "polite"
+      },
+      {
+        "text": "Numër i gabuar.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Do t'ia përcjell mesazhin says {owner} will hear; avoid a call-back time.",
+    "examples": [
+      {
+        "text": "Do t'ia përcjell mesazhin {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Do t'i them.",
+        "style": "casual"
+      },
+      {
+        "text": "Mesazhi do të arrijë.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Faleminderit, nuk jam i/e interesuar is clear and polite.",
+    "examples": [
+      {
+        "text": "Faleminderit, nuk jemi të interesuar.",
+        "style": "polite"
+      },
+      {
+        "text": "Nuk na duhet, faleminderit.",
+        "style": "polite"
+      },
+      {
+        "text": "Jo, flm.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On a second push, note the earlier jo and ask that this numër be left alone.",
+    "examples": [
+      {
+        "text": "Jua thashë, nuk na intereson.",
+        "style": "polite"
+      },
+      {
+        "text": "Ju lutem mos e telefononi më këtë numër.",
+        "style": "polite"
+      },
+      {
+        "text": "Hiqeni këtë numër nga lista juaj.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Ju for strangers; zotëri/zonjë on formal calls; xhaxha, teze for older people informally.",
+    "examples": [
+      {
+        "text": "Zotëri",
+        "style": "polite"
+      },
+      {
+        "text": "Zonja Hoxha",
+        "style": "polite"
+      },
+      {
+        "text": "Xhaxha",
+        "style": "casual"
+      },
+      {
+        "text": "Teze",
+        "style": "casual"
+      },
+      {
+        "text": "I nderuar",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Faleminderit që telefonuat shërbimin e klientit sound like an operator helpline.",
+    "examples": [
+      {
+        "text": "Faleminderit që telefonuat shërbimin e klientit.",
+        "style": "polite"
+      },
+      {
+        "text": "Thirrja juaj është e rëndësishme për ne.",
+        "style": "polite"
+      },
+      {
+        "text": "Si mund t'ju ndihmoj sot?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ti with elders, asking income, religion or family feuds early is disrespectful.",
+    "examples": [
+      {
+        "text": "Sa fiton në muaj?",
+        "style": "casual"
+      },
+      {
+        "text": "Çfarë feje je?",
+        "style": "casual"
+      },
+      {
+        "text": "Kush je ti, mo?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/alo",
+    "https://en.wikipedia.org/wiki/Albanian_language",
+    "https://en.wiktionary.org/wiki/zotëri"
+  ],
+  "uncertain": [
+    "Gheg (north, Kosovo) vs Tosk (south) differ; examples use standard Tosk-based forms",
+    "Backchannel set (po, aha, mirë, në rregull) from dictionaries and usage, no call corpus",
+    "How phone greetings like 'Urdhëro' are used across Albania vs Kosovo not verified"
+  ]
+}

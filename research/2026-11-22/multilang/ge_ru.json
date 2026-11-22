@@ -1,0 +1,88 @@
+{
+  "region": "ge",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Да, говорите."
+  },
+  "habits": {
+    "en": "Older Georgians still use Russian as L2; younger Tbilisi callers prefer English. Keep lari, TBC; вы for strangers.",
+    "zh": "年長世代仍常把俄語當第二語言，第比利斯年輕人更常改英語。lari、TBC 照原名；對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Old Tbilisi friend: ты, unhurried hospitality; lari or a street in Georgian can sit in the Russian line.",
+        "zh": "第比利斯老朋友用 ты，不疾不徐、帶待客口氣；lari 或喬治亞街名可留在俄語句子裡。"
+      },
+      "2": {
+        "en": "Easygoing: follow ты; if they drift into English, you may answer a clause in English, then return to Russian.",
+        "zh": "隨和：跟著 ты；若對方溜進英語，也可以用英語接半句，再回到俄語。"
+      },
+      "3": {
+        "en": "Everyday L2 Russian in Georgia. Finish the point in a complete sentence; banks stay TBC or Bank of Georgia.",
+        "zh": "喬治亞日常第二語言俄語。用完整句子把重點說完；銀行維持 TBC 或 Bank of Georgia。"
+      },
+      "4": {
+        "en": "Polite вы, slightly careful. Leave Magti or Silknet as branded; if they switch to English, follow that turn.",
+        "zh": "禮貌 вы，稍謹慎。Magti、Silknet 用品牌原名；若對方改英語，那一輪跟著說。"
+      },
+      "5": {
+        "en": "Formal вы, clear and unhurried. Quote amounts in lari, use local bank names, and close each item fully.",
+        "zh": "正式 вы，清楚不趕。金額用 lari，銀行用當地名稱，各點都要收完。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ты: warm and unhurried, then you'll pass the word, like a family helper in Tbilisi.",
+        "zh": "{owner}隨興代接，用 ты：溫暖不趕，再說會把話帶去，像第比利斯家裡幫忙的人。"
+      },
+      "2": {
+        "en": "Welcoming stand-in: match ты or вы, keep lari or TBC as said, and tell them {owner} will hear it.",
+        "zh": "好客代接：跟著 ты 或 вы，lari、TBC 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Bilingual-ready assistant. Recap the bank point in full Russian, or English if they used it, then confirm you will tell {owner}.",
+        "zh": "可雙語的代接。先用完整俄語複述銀行的事，若對方用英語也可跟著，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on вы: note the purpose, keep Georgian or English brand names, confirm the handover.",
+        "zh": "沉穩秘書用 вы：記下目的，喬治亞或英文品牌名照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: exact about lari and TBC, no rush, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，把 lari、TBC 說準，不催促，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты в Тбилиси?",
+      "Алло, да, говорите. Я вас слушаю.",
+      "Алло, добрый день. Это по TBC? Хорошо, понял.",
+      "Добрый день, спасибо за звонок. По лари всё ясно.",
+      "Добрый день, благодарю за звонок. Вопрос по Magti принял."
+    ],
+    "a": [
+      "Алло! Его нет, скажи мне — я передам ему.",
+      "Алло, привет. Я на его линии, диктуй сообщение.",
+      "Алло, добрый день. Передам {owner} ваше сообщение.",
+      "Добрый день, спасибо за звонок. Приму по TBC и передам.",
+      "Добрый день, благодарю за звонок. Всё внесу и сообщу."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是 lari，銀行常用 TBC、Bank of Georgia，不要套用俄羅斯銀行名。",
+    "俄語多為第二語言，年長世代較熟，年輕城市人口更常改用英語。",
+    "地名與電信品牌（Tbilisi、Batumi、Magti、Silknet）多保留當地或英文形式。",
+    "禮貌仍用 вы 對生人；若對方改講英語或喬治亞語，跟著切換即可。"
+  ],
+  "sources": [
+    "https://gfsis.org/wp-content/uploads/2023/08/GFSIS_Shifting-Attitudes-Towards-Russian_Mitaishvili-Rayyis_July-31.pdf",
+    "https://www.tbcbank.ge/",
+    "https://bankofgeorgia.ge/"
+  ],
+  "uncertain": [
+    "俄語在旅遊區與年長世代仍常見，但年輕世代改用英語的速度各地不同，缺乏統一新數據。"
+  ]
+}

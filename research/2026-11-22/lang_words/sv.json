@@ -1,0 +1,212 @@
+{
+  "lang": "sv",
+  "script": "latin",
+  "common_words": [
+    "jag",
+    "är",
+    "inte",
+    "och",
+    "ett",
+    "ni",
+    "ska",
+    "från",
+    "tack",
+    "vad",
+    "hur",
+    "också",
+    "någon",
+    "något",
+    "varsågod",
+    "ursäkta",
+    "hejsan",
+    "klockan",
+    "även",
+    "kanske",
+    "varför",
+    "skulle",
+    "måste",
+    "här",
+    "där",
+    "själv",
+    "gärna",
+    "mycket",
+    "nästa",
+    "idag",
+    "imorgon",
+    "igår",
+    "kväll",
+    "morgon",
+    "eftersom",
+    "utan",
+    "mellan",
+    "redan",
+    "fortfarande",
+    "precis",
+    "både",
+    "eller",
+    "ingen",
+    "aldrig",
+    "endast",
+    "alltid",
+    "deras",
+    "denna",
+    "vilken",
+    "behöver"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sv/sv_50k.txt",
+  "shared_words": [
+    {
+      "word": "det",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "du",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "en",
+      "also_in": [
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "vi",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "har",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "på",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "i",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "med",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "han",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "kan",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "ja",
+      "also_in": [
+        "da",
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "nej",
+      "also_in": [
+        "da"
+      ]
+    },
+    {
+      "word": "mig",
+      "also_in": [
+        "da"
+      ]
+    },
+    {
+      "word": "dig",
+      "also_in": [
+        "da"
+      ]
+    },
+    {
+      "word": "hej",
+      "also_in": [
+        "da"
+      ]
+    },
+    {
+      "word": "heter",
+      "also_in": [
+        "nb"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ä",
+    "ö"
+  ],
+  "confusable_with": [
+    "nb",
+    "nn",
+    "da"
+  ],
+  "how_to_tell_apart": "If the speaker uses jag, är, inte, och, ett, ni or ska, and writes ä or ö, treat the turn as Swedish. Those forms do not belong to Danish or Norwegian (which have jeg/eg, er, ikke/ikkje, og, et/eit, and æ/ø). Weak clues such as hej, ja, or mig/dig also turn up in Danish, and heter is shared with Bokmål, so they should not decide the language by themselves.",
+  "test_said": [
+    "Finns mitt recept fortfarande kvar att hämta nu på eftermiddagen?",
+    "Jag glömde plånboken i omklädningsrummet vid badhuset i går.",
+    "Blommorna skulle ha varit framme före lunchen men ingen har ringt på.",
+    "Kylskåpet kommer med fraktbolaget och behöver bäras in genom bakdörren.",
+    "Kan jag boka ett blodprov redan på torsdag morgon?",
+    "Sjukgymnasten ville att jag skulle höra av mig efter knäoperationen.",
+    "Vi har redan hemförsäkring och tackar nej till ett nytt erbjudande.",
+    "Stryk det här numret från er säljlista hädanefter."
+  ],
+  "test_not_enough": [
+    "Lisa",
+    "ok",
+    "sju",
+    "weekend"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sv/sv_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Swedish_orthography",
+    "https://en.wikipedia.org/wiki/Comparison_of_Danish,_Norwegian_and_Swedish"
+  ],
+  "uncertain": [
+    "å is part of the Swedish alphabet but is also used in Danish and both Norwegian standards, so it is omitted from unique_letters.",
+    "OpenSubtitles Swedish mixes du and ni; call-centre speech may use either, depending on the institution."
+  ]
+}

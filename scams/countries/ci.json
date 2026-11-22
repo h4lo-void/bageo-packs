@@ -1,0 +1,95 @@
+{
+  "name": "Côte d'Ivoire",
+  "name_local": "Côte d'Ivoire",
+  "iso": "ci",
+  "calling_code": "+225",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "The BCEAO has warned the public about fraudulent messages and sites that misuse its name. Orange Côte d'Ivoire publishes a 'stop arnaques' guide for Orange Money, covering secret codes and prize or link tricks. Ivorian cybercrime reporting (PLCC) has also been cited on APK links aimed at mobile-money accounts.",
+  "cross_border_note": "Calls and SMS are usually in French and may come from Ivorian mobiles or from numbers made to look like a bank or an operator care line. BCEAO-themed lures also appear across the UEMOA area.",
+  "scams": [
+    {
+      "id": "ci_fake_bceao_message",
+      "typology": "fake_official",
+      "name": "Faux message ou site au nom de la BCEAO",
+      "name_en": "Fake BCEAO message or website",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "BCEAO",
+        "mise à jour obligatoire",
+        "compte gelé",
+        "formulaire officiel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "invokes a mandatory update in the name of the regional central bank",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sends a link supposedly needed to unblock an account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for account codes to be sent to a supposed central-bank desk",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message, call or website borrows the name of the Central Bank of West African States and tells the person to open a link, fill a form, or hand over account codes to avoid a blockage or a penalty.",
+      "legit_en": "The BCEAO has issued a public notice warning about fraudulent messages that refer to the institution. Official contact is made through the Bank's own published channels, not through an unsolicited form or a code collected on a call.",
+      "bait_tactics": [
+        "Je ne remplis pas un formulaire arrivé par message au nom de la BCEAO, je n'ai saisi aucun guichet officiel.",
+        "Le lien que vous indiquez ne correspond pas au site que j'utilise déjà pour suivre cette institution.",
+        "Je ne communique aucun code secret dans le cadre d'une prétendue mise à jour monétaire."
+      ],
+      "sources": [
+        "https://www.bceao.int/fr/communique-presse/attention-aux-messages-frauduleux-se-rapportant-la-bceao"
+      ]
+    },
+    {
+      "id": "ci_orange_money_secret_or_link",
+      "typology": "otp_theft",
+      "name": "Arnaque Orange Money par code ou lien",
+      "name_en": "Orange Money secret-code or link scam",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "Orange Money",
+        "code secret",
+        "lien de validation",
+        "Wave"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the Orange Money secret code on an unsolicited call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sends a validation link presented as a way to credit the wallet",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to type an SMS code during the call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or a chat lure, often dressed as a credit, a security check or a merchant payment, asks the customer to reveal the Orange Money secret code, type an SMS code, or open a validation link.",
+      "legit_en": "Orange Côte d'Ivoire's official anti-scam pages tell customers how to protect an Orange Money account, including not handing over the secret code or following unsolicited validation links sent in a message.",
+      "bait_tactics": [
+        "Le solde Orange Money sur cet écran n'a pas changé, donc je n'ouvre pas un lien de 'crédit' reçu par message.",
+        "Je ne dicte pas le code secret de ce portefeuille, y compris à quelqu'un qui se dit conseiller.",
+        "Le SMS de confirmation n'est pas arrivé sur cette ligne Moov, il n'y a donc aucun code à relire."
+      ],
+      "sources": [
+        "https://www.orange.ci/fr/assistance-stop-arnaques-orange-money.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "lang": "lt",
+  "script": "latin",
+  "common_words": [
+    "aš",
+    "tu",
+    "jūs",
+    "ne",
+    "taip",
+    "kad",
+    "kas",
+    "ką",
+    "čia",
+    "kaip",
+    "ar",
+    "man",
+    "gerai",
+    "mano",
+    "bet",
+    "mes",
+    "tik",
+    "tau",
+    "ji",
+    "yra",
+    "jei",
+    "jie",
+    "tavo",
+    "buvo",
+    "savo",
+    "kur",
+    "kada",
+    "dar",
+    "mane",
+    "dabar",
+    "kodėl",
+    "nieko",
+    "mūsų",
+    "ačiū",
+    "prašau",
+    "laba diena",
+    "viso gero",
+    "šiandien",
+    "rytoj",
+    "vakar",
+    "rytą",
+    "vakare",
+    "visada",
+    "niekada",
+    "numeris",
+    "adresas",
+    "gydytojas",
+    "siuntinys",
+    "reikia",
+    "galima"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lt/lt_50k.txt",
+  "shared_words": [
+    {
+      "word": "ir",
+      "also_in": [
+        "lv"
+      ]
+    },
+    {
+      "word": "ne",
+      "also_in": [
+        "lv"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ė",
+    "ų"
+  ],
+  "confusable_with": [
+    "lv",
+    "pl"
+  ],
+  "how_to_tell_apart": "Lithuanian and Latvian share a Baltic look, but the letters ė and ų are Lithuanian, while Latvian uses ģ, ķ, ļ and ņ instead. Word-level cues include aš, jūs, ačiū, prašau, laba diena, viso gero, šiandien, rytoj, kad, ką and gydytojas. Latvian would show es, paldies, lūdzu, šodien and rīt. The conjunction ir appears in both and is not diagnostic; Polish is a neighbour in the region but its pronunciation and diacritics (ł, ń, ś) are different.",
+  "test_said": [
+    "Seniūnijoje noriu gauti pažymą apie deklaruotą gyvenamąją vietą.",
+    "Šildymas name vis dar neįjungtas nors naktį temperatūra jau minusinė.",
+    "Paštomatas kitame prekybos centro gale ir siuntinio ten nerandu.",
+    "Naujus langus turėtų atgabenti į kiemą nes laiptine jie nepraeis.",
+    "Poliklinikoje reikia pratęsti kortelę kad galėčiau registruotis pas šeimos gydytoją.",
+    "Noriu paskiepyti nuo hepatito B ir klausiu ar dar yra laisvų vietų šią savaitę.",
+    "Vartojimo kredito telefonu neimsiu ir asmens kodo tikrai nediktuosiu.",
+    "Sporto klubo narystės nepratęsiu tad akcijų pasiūlymų nebesiųskite."
+  ],
+  "test_not_enough": [
+    "Rasa",
+    "ok",
+    "septyni",
+    "taksi"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/lt/lt_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Lithuanian_orthography",
+    "https://en.wikipedia.org/wiki/Lithuanian_language"
+  ],
+  "uncertain": [
+    "The full Lithuanian special set also includes ą, č, ę, į, š, ū and ž, but several of those appear in other Latin-script languages; ė and ų are the ones Latvian does not use.",
+    "taip (‘yes’) is frequent and distinctive in this set; it is kept in common_words, not in shared_words."
+  ]
+}

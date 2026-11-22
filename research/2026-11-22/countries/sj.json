@@ -1,0 +1,39 @@
+{
+  "country": "sj",
+  "parent": "no",
+  "name": {
+    "en": "Svalbard and Jan Mayen",
+    "native": "Svalbard and Jan Mayen",
+    "zh": "斯瓦巴與揚馬延"
+  },
+  "lang": "nb",
+  "differs_from_parent": {
+    "calling_code": "+47（與挪威相同）",
+    "currency": "挪威克朗（相同）",
+    "time_zone": "CET，與挪威相同",
+    "language": "挪威語為主；巴倫支堡等社區說俄語",
+    "population": "斯瓦巴約 2,500 人；揚馬延只有站務人員"
+  },
+  "habits": {
+    "en": "Same as Norway in code, currency and time. Barentsburg callers may speak Russian; follow them.",
+    "zh": "國碼、貨幣、時間都與挪威相同；巴倫支堡等社區可能說俄語，跟著對方。"
+  },
+  "vocab": {
+    "bank": [
+      "kroner"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.sysselmesteren.no/",
+    "https://www.ssb.no/en/befolkning/folketall/statistikk/befolkningen-pa-svalbard",
+    "https://en.wikipedia.org/wiki/Svalbard"
+  ],
+  "uncertain": [
+    "與父區差異很小，可考慮 same_as_parent 只加俄語註記。"
+  ]
+}

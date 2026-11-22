@@ -82,15 +82,69 @@
     }
   },
   "vocab": {
+    "bank": [
+      "iDEAL",
+      "overboeking",
+      "overschrijving",
+      "rekening",
+      "pinpas",
+      "internetbankieren"
+    ],
     "delivery": [
       "pakketpunt",
       "pakketkluis",
-      "buren"
+      "buren",
+      "PostNL",
+      "pakketautomaat",
+      "afhaalpunt"
     ],
-    "bank": [
+    "government": [
+      "DigiD",
+      "BSN",
+      "gemeente",
+      "Belastingdienst",
+      "identiteitskaart",
+      "verblijfsvergunning"
+    ],
+    "health": [
+      "huisarts",
+      "apotheek",
+      "zorgverzekering",
+      "ziekenhuis",
+      "SEH",
+      "recept"
+    ],
+    "telecom": [
+      "abonnement",
+      "prepaid",
+      "nummerbehoud",
+      "simkaart",
+      "provider",
+      "databundel"
+    ],
+    "payment": [
       "iDEAL",
-      "e.dentifier",
-      "overboeking"
+      "Tikkie",
+      "pinnen",
+      "overschrijving",
+      "contant",
+      "incasso"
+    ],
+    "transport": [
+      "ov-chipkaart",
+      "trein",
+      "tram",
+      "bus",
+      "metro",
+      "NS"
+    ],
+    "housing": [
+      "woning",
+      "appartement",
+      "brievenbus",
+      "intercom",
+      "huisbaas",
+      "VVE"
     ]
   },
   "status": "draft"

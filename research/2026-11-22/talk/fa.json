@@ -1,0 +1,299 @@
+{
+  "lang": "fa",
+  "backchannels": {
+    "direction": "A Farsdot phone study pairs formal bale and doroste with informal xob and âre; Liesenfeld also ranks AhAn and KHob.",
+    "examples": [
+      {
+        "text": "بله.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "درسته.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "خوب.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "آره.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "آهان.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "خوب، خوب.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "That study lists jeddan for surprise; وای and متاسفم cover shock or sympathy, and مبارک است good news.",
+    "examples": [
+      {
+        "text": "جدن؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "وای، واقعاً؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "متأسفم.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "چه حیف.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "مبارکه!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "تبریک می‌گویم.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "این کار سخت خواهد بود.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "On a weak خط, Persian often says صدا واضح نیست or خط قطع می‌شود, and asks the other person to speak a little louder.",
+    "examples": [
+      {
+        "text": "صدا واضح نیست.",
+        "style": "polite"
+      },
+      {
+        "text": "خط قطع می‌شود.",
+        "style": "casual"
+      },
+      {
+        "text": "خوب صدایتان را نمی‌شنوم.",
+        "style": "polite"
+      },
+      {
+        "text": "ممکن است کمی بلندتر صحبت کنید؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives نمی‌فهمم and متوجه نمی‌شوم; a careful replay is ممکن است تکرار کنید, and 12345678 is read back once.",
+    "examples": [
+      {
+        "text": "نمی‌فهمم.",
+        "style": "casual"
+      },
+      {
+        "text": "متوجه نمی‌شوم.",
+        "style": "polite"
+      },
+      {
+        "text": "ممکن است دوباره بگویید؟",
+        "style": "polite"
+      },
+      {
+        "text": "شماره را یک بار دیگر، آیا 12345678 است؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "بفرمایید شما؟ or با چه کسی صحبت می‌کنم asks who is on the line; on a shared phone, first say this is the تلفن {owner}.",
+    "examples": [
+      {
+        "text": "بفرمایید، شما؟",
+        "style": "polite"
+      },
+      {
+        "text": "با چه کسی صحبت می‌کنم؟",
+        "style": "polite"
+      },
+      {
+        "text": "این تلفن {owner} است؛ شما؟",
+        "style": "polite"
+      },
+      {
+        "text": "کی هستی؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "اشتباه گرفتید or شماره اشتباه است closes the matter; there is no need to ask how the caller found the number.",
+    "examples": [
+      {
+        "text": "شماره اشتباه است.",
+        "style": "polite"
+      },
+      {
+        "text": "اشتباه گرفتید.",
+        "style": "casual"
+      },
+      {
+        "text": "اینجا کسی با این اسم نیست.",
+        "style": "polite"
+      },
+      {
+        "text": "ببخشید، شماره غلط است.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "پیام را به {owner} می‌رسانم or می‌گویم زنگ زدید passes the news; that alone sets no hour for a return call.",
+    "examples": [
+      {
+        "text": "پیام را به {owner} می‌رسانم.",
+        "style": "polite"
+      },
+      {
+        "text": "می‌گویم که زنگ زدید.",
+        "style": "polite"
+      },
+      {
+        "text": "پیامتان را می‌رسانم.",
+        "style": "polite"
+      },
+      {
+        "text": "بهش می‌گم.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "نه متشکرم، علاقه‌مند نیستم is the usual close; extra reasons can sound as if the offer is still being weighed.",
+    "examples": [
+      {
+        "text": "نه متشکرم، علاقه‌مند نیستم.",
+        "style": "polite"
+      },
+      {
+        "text": "متشکرم، به این نیاز نداریم.",
+        "style": "polite"
+      },
+      {
+        "text": "علاقه ندارم، ممنون.",
+        "style": "casual"
+      },
+      {
+        "text": "لطفاً این شماره را از فهرست‌تان حذف کنید.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second نه often adds لطفاً دیگر به این شماره زنگ نزنید, still in a polite register.",
+    "examples": [
+      {
+        "text": "قبلاً گفتم نه. لطفاً دیگر به این شماره زنگ نزنید.",
+        "style": "polite"
+      },
+      {
+        "text": "علاقه‌مند نیستم و خواهش می‌کنم تماس را قطع کنید.",
+        "style": "polite"
+      },
+      {
+        "text": "دیگر زنگ نزنید، ممنون.",
+        "style": "casual"
+      },
+      {
+        "text": "این آخرین پاسخ است؛ دیگر تماس نگیرید.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Formal شما and آقا／خانم are the default with strangers; تو is for intimates and can sound sharp too soon.",
+    "examples": [
+      {
+        "text": "آقا.",
+        "style": "polite"
+      },
+      {
+        "text": "خانم.",
+        "style": "polite"
+      },
+      {
+        "text": "دکتر.",
+        "style": "polite"
+      },
+      {
+        "text": "جناب.",
+        "style": "polite"
+      },
+      {
+        "text": "تو که؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Hotline calques like تماس شما برای ما مهم است sound like a شرکت centre on a private همراه.",
+    "examples": [
+      {
+        "text": "تماس شما برای ما مهم است.",
+        "style": "polite"
+      },
+      {
+        "text": "چطور می‌توانم امروز کمکتان کنم؟",
+        "style": "polite"
+      },
+      {
+        "text": "از خدمت به شما خوشحالیم.",
+        "style": "polite"
+      },
+      {
+        "text": "از تماس با دفتر {owner} سپاسگزاریم؛ رضایت شما اولویت ماست.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about marriage, income, or a national ID at the outset, or pressing for {owner}'s exact place, feels intrusive.",
+    "examples": [
+      {
+        "text": "متأهل هستی؟ حقوقت چقدر است؟",
+        "style": "casual"
+      },
+      {
+        "text": "چرا {owner} برنگشت؟ الان دقیقاً کجاست؟",
+        "style": "casual"
+      },
+      {
+        "text": "اول کد ملی و آدرس را بدهید.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://doi.org/10.1349/ps1.1537-0852.a.401",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh"
+  ],
+  "uncertain": [
+    "Liesenfeld 記的是 AhAn／mhm／KHob，Yazdanfar 的電話語料另列 بله、درسته、خوب، آره；兩者都用，但樣本不是同一個語庫，頻率不能直接合併。",
+    "Wiktionary 的 uh-huh 對譯寫 آه，與常見的 آهان／آها不完全相同。",
+    "拒推銷用語沒有找到監管機構腳本，例句依普通禮貌拒絕。"
+  ]
+}

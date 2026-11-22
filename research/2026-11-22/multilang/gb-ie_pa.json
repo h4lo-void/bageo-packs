@@ -1,0 +1,92 @@
+{
+  "region": "gb-ie",
+  "lang": "pa",
+  "hello": {
+    "hello": "ਸਤ ਸ੍ਰੀ ਅਕਾਲ",
+    "hello_again": "ਹੈਲੋ ਜੀ?"
+  },
+  "habits": {
+    "en": "Tusi and ji with elders. In the UK mix NHS, GP, NI; in Ireland say HSE and PPS, not Indian office or Canadian SIN names.",
+    "zh": "對長輩用 tusi、ji。英國夾 NHS、GP、NI；愛爾蘭改說 HSE、PPS，不用印度或加拿大機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "In Southall or Birmingham, close kin use tu, drop English, and answer koi gall nahi without stretching Sat Sri Akal.",
+        "zh": "在 Southall、伯明罕跟至親用 tu，英語夾進句子，短短回 koi gall nahi。"
+      },
+      "2": {
+        "en": "Neighbourly British Punjabi: stay with tu until they switch to tusi; after a GP visit, a light theek hai ji suffices.",
+        "zh": "英裔旁遮普鄰里口氣先用 tu，對方改 tusi 再跟上；聽完 GP 就診，輕聲回 theek hai ji。"
+      },
+      "3": {
+        "en": "Ordinary Punjabi in Britain or Ireland: one full reply per point, leaving NHS, NI or PPS in English as spoken locally.",
+        "zh": "英愛日常旁遮普語：每一點回完整一句，NHS、NI 或 PPS 照當地直接講英語。"
+      },
+      "4": {
+        "en": "Tusi and ji at a surgery; say NHS in the UK or HSE in Ireland, and deal with the appointment before chit-chat.",
+        "zh": "在診所用 tusi、ji；英國說 NHS、愛爾蘭說 HSE，先處理預約再閒聊。"
+      },
+      "5": {
+        "en": "Business Punjabi: tusi throughout, recap the sort code or tenancy point, then close in a tidy way.",
+        "zh": "商務旁遮普語全程用 tusi，覆述 sort code 或租約要點後，整齊收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual British Punjabi helper uses tu, offers koi gall nahi, then says the note will be passed on.",
+        "zh": "替{owner}代接的英裔旁遮普熟人口氣用 tu，先回 koi gall nahi，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Follow the caller's tu or tusi; thank them, jot the NHS or callback detail, and say {owner} will hear it.",
+        "zh": "來電用 tu 或 tusi 就跟著用；先道謝，記下 NHS 或回撥細節，並說明{owner}會聽到。"
+      },
+      "3": {
+        "en": "A Punjabi go-between in the UK or Ireland answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "英愛的旁遮普語中間人先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Office tone with tusi and ji; repeat the GP or HSE point accurately, then say it goes to {owner}.",
+        "zh": "機關口氣用 tusi、ji；準確覆述 GP 或 HSE 要點，並告知會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal desk for {owner}: only tusi, list the NI or PPS item they raised, and confirm the handoff at the close.",
+        "zh": "為{owner}坐鎮的正式口氣只用 tusi，對上對方提的 NI 或 PPS 事項，收尾時確認已轉交。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਦੱਸੋ, ਕੀ ਹੋਇਆ ਜੀ?",
+      "ਹੈਲੋ ਜੀ, ਹਾਂ, ਮੈਂ ਸੁਣ ਰਿਹਾ ਹਾਂ, ਦੱਸੋ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ। NHS ਵਾਲੀ ਗੱਲ ਹੈ? ਠੀਕ ਹੈ, ਲਿਖ ਲਿਆ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ, ਧੰਨਵਾਦ। ਗੱਲ ਸਮਝ ਆ ਗਈ, ਮੈਂ ਇੰਤਜ਼ਾਮ ਕਰਦਾ ਹਾਂ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ, ਕਾਲ ਲਈ ਧੰਨਵਾਦ। ਸਭ ਲਿਖ ਲਿਆ ਹੈ।"
+    ],
+    "a": [
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ! ਓਹ ਨਹੀਂ ਆ, ਗੱਲ ਦੱਸੋ, ਮੈਂ ਕਹਿ ਦਿਆਂਗਾ।",
+      "ਹੈਲੋ ਜੀ, ਮੈਂ ਉਹਨਾਂ ਵਲੋਂ ਕਾਲ ਲੈ ਰਿਹਾ ਹਾਂ, ਮੈਸੇਜ ਦੱਸੋ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ, ਮੈਂ ਲਿਖ ਕੇ ਉਹਨਾਂ ਤੱਕ ਪਹੁੰਚਾ ਦਿਆਂਗਾ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ, ਧੰਨਵਾਦ। ਲਿਖ ਕੇ {owner} ਨੂੰ ਦੇ ਦਿਆਂਗਾ।",
+      "ਸਤ ਸ੍ਰੀ ਅਕਾਲ ਜੀ, ਕਾਲ ਲਈ ਧੰਨਵਾਦ। ਸਭ ਲਿਖ ਕੇ ਪਹੁੰਚਾ ਦਿਆਂਗਾ।"
+    ]
+  },
+  "diff_from_home": [
+    "英國旁遮普語常夾 NHS、GP、National Insurance、council tax，不要用印度機關名，也不要用加拿大的 SIN、OHIP。",
+    "若對方在愛爾蘭，口語改走 HSE 與 PPS，和英國不是同一套詞。",
+    "Southall、伯明罕、萊斯特、布拉福等地社群較久，第二代英語比重往往很高，旁遮普語句子更短。",
+    "錫克家庭仍常用 Sat Sri Akal，但英國電話也常見 Hello ji；穆斯林家庭問候可能不同。"
+  ],
+  "sources": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpsr/censusofpopulation2022-summaryresults/migrationanddiversity/",
+    "https://www.nhs.uk/",
+    "https://www.gov.uk/national-insurance",
+    "https://www.hse.ie/",
+    "https://www.nhs.uk/nhs-services/gps/"
+  ],
+  "uncertain": [
+    "英愛旁遮普語社群宗教背景不同，開場用 Sat Sri Akal 還是 Hello ji 不能一概而論。",
+    "英國出生世代在電話中保留多少旁遮普語，缺少新的大規模口語調查。"
+  ]
+}

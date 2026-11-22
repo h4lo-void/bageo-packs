@@ -1,0 +1,127 @@
+{
+  "lang": "lb",
+  "script": "latin",
+  "common_words": [
+    "ech",
+    "du",
+    "dir",
+    "mir",
+    "hien",
+    "hatt",
+    "si",
+    "ass",
+    "net",
+    "dat",
+    "déi",
+    "hunn",
+    "fir",
+    "hei",
+    "wat",
+    "eppes",
+    "dech",
+    "eis",
+    "och",
+    "méi",
+    "dass",
+    "näischt",
+    "wéi",
+    "iech",
+    "esou",
+    "muss",
+    "nee",
+    "wann",
+    "gëtt",
+    "vun",
+    "op",
+    "moien",
+    "merci",
+    "äddi",
+    "wann ech gelift",
+    "entschëllegt",
+    "haut",
+    "muer",
+    "gëschter",
+    "moies",
+    "owes",
+    "ëmmer",
+    "ni",
+    "nummer",
+    "adress",
+    "dokter",
+    "bestellung",
+    "brauch",
+    "kann"
+  ],
+  "frequency_source": "OPUS OpenSubtitles v2024 Luxembourgish frequencies https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/lb.freq.gz , supplemented by the Leipzig Luxembourgish Wikipedia 2021 100K word list https://downloads.wortschatz-leipzig.de/corpora/ltz_wikipedia_2021_100K.tar.gz (FrequencyWords 2018 has no lb file).",
+  "shared_words": [
+    {
+      "word": "an",
+      "also_in": [
+        "de"
+      ]
+    },
+    {
+      "word": "den",
+      "also_in": [
+        "de"
+      ]
+    },
+    {
+      "word": "de",
+      "also_in": [
+        "fr",
+        "nl"
+      ]
+    },
+    {
+      "word": "merci",
+      "also_in": [
+        "fr"
+      ]
+    },
+    {
+      "word": "et",
+      "also_in": [
+        "fr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ë"
+  ],
+  "confusable_with": [
+    "de",
+    "fr",
+    "nl",
+    "af"
+  ],
+  "how_to_tell_apart": "Luxembourgish can look like German until ech, ass, net, dat/déi, hunn, moien, äddi, näischt, gëtt, muer and wann ech gelift appear, or until the letter ë is visible. German would have ich, ist, nicht, habe and danke; Dutch would have ik, is, niet and dankjewel; French loans such as merci are common in Luxembourgish and must not be read as proof that the speaker switched to French. Afrikaans ek/nie/dankie are a different West Germanic pair.",
+  "test_said": [
+    "An der Gemeng brauch ech e Wunnsëtzcertificat fir d'Schoul vum Kand.",
+    "Zanter haut moies ass de Stroum an der ganzer Trap ausgefall an ech well dat mellen.",
+    "De Päckchen an der Post ass ukomm mee ech hunn nach keng Noriicht kritt.",
+    "D'Miwwele mussen iwwer d'Trap eropgedroen ginn well den Lift ze kleng ass.",
+    "Beim Zänndokter froen ech no engem éischte fräie Termäin well et wéi deet.",
+    "D'Bluttanalys sollt donnescht fäerdeg sinn an ech froen ob d'Resultat do ass.",
+    "Eng nei Hausversécherung wëll ech net ofschléissen an och keng Donnéeën duerchginn.",
+    "De Stroumvertrag gouf dëse Mount geännert dofir brauche mer keng weider Offeren."
+  ],
+  "test_not_enough": [
+    "Charel",
+    "ok",
+    "dräi",
+    "ticket"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/lb.freq.gz",
+    "https://downloads.wortschatz-leipzig.de/corpora/ltz_wikipedia_2021_100K.tar.gz",
+    "https://wortschatz.uni-leipzig.de/",
+    "https://en.wikipedia.org/wiki/Luxembourgish_orthography",
+    "https://en.wikipedia.org/wiki/Luxembourgish"
+  ],
+  "uncertain": [
+    "The OpenSubtitles lb list is relatively small, so greetings such as moien and äddi were confirmed against the larger Leipzig Wikipedia word list as well.",
+    "ë is the clearest unique letter versus German; ä also occurs, but German uses ä too.",
+    "Spoken Luxembourgish freely mixes French and German content words, which can make a short turn look multilingual even when the grammar is Luxembourgish."
+  ]
+}

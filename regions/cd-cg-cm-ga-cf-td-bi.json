@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "code": "cd-cg-cm-ga-cf-td-bi",
+  "countries": [
+    "cd",
+    "cg",
+    "cm",
+    "ga",
+    "cf",
+    "td",
+    "bi"
+  ],
+  "name": {
+    "en": "Central Africa (French)",
+    "native": "Afrique centrale (français)",
+    "zh": "中非（法語）"
+  },
+  "lang": "fr-FR",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, oui, j'écoute ?"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, the courtyard or gate security",
+    "zh": "包裹交給 gardien、庭院或門口保全"
+  },
+  "readback": {
+    "en": "Short French number groups; dates day-month; repeat the town.",
+    "zh": "號碼用法語分小段唸；日期先日後月；重複城鎮名"
+  },
+  "fraud": {
+    "en": "a mobile-money PIN request, 'wrong transfer' or fake fee is a scam",
+    "zh": "要行動錢包 PIN、叫你退還轉錯的錢，或假冒公家要你繳費，都是詐騙"
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Follow French, English or Arabic.",
+    "zh": "對陌生人用 vous，對方改 tu 再轉 tu。預設法語；或跟英語、阿拉伯語。照用 gardien、cour。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: a power cut, the mobile-money app spinning, the USSD menu timing out.",
+    "zh": "卡在當地日常狀況，例如停電、行動錢包 App 一直轉、USSD 選單逾時。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Kinshasa or Douala friend: tu, lively French, a 'mbote' if they use Lingala colour, then one more beat, varied.",
+        "zh": "像金夏沙或杜阿拉的朋友：用 tu，活潑法語，若帶林加拉語色彩可回 mbote，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Warm Central African French: vous until they offer tu, a short très bien at the end.",
+        "zh": "中非法語溫和語氣：對方未改 tu 就維持 vous；結尾用短短的 très bien。"
+      },
+      "3": {
+        "en": "Everyday French of the Congo basin. Full sentence after each point, not a lone oui. Keep gardien and cour.",
+        "zh": "剛果盆地日常法語。每點用完整句回，不要只回 oui。照用 gardien、cour。"
+      },
+      "4": {
+        "en": "Vous with offices and strangers; restate the errand first (c'est compris), varied.",
+        "zh": "對機關與陌生人用 vous；先覆述來意（如 c'est compris），每次換。"
+      },
+      "5": {
+        "en": "Office French for Airtel Money or ministries: Monsieur/Madame, compact; close each item (sont notées), varied.",
+        "zh": "對 Airtel Money 或部會的公事法語：用 Monsieur／Madame，簡潔；每件收束，每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s bright helper. Use tu only after they do, react briefly, then say you will pass it on (je transmets).",
+        "zh": "{owner}的輕快幫手。對方改 tu 才用 tu，先簡短回應，再說會轉（如 je transmets）。"
+      },
+      "2": {
+        "en": "As a cour clerk: keep vous and Monsieur/Madame, note the matter, then write it for {owner}. Follow English if they switch.",
+        "zh": "像院子或秘書處代接：維持 vous 與 Monsieur／Madame，記下事由，再寫給{owner}。改英語就跟著說。"
+      },
+      "3": {
+        "en": "Give a full French answer to the point, then say it will be remitted to {owner}. Skip a lone ok or d'accord.",
+        "zh": "用完整法語回答重點，再說會交到{owner}。不要只回 ok 或 d'accord。"
+      },
+      "4": {
+        "en": "On a ministry, Orange Money or Airtel Money desk, keep vous and titles, name the purpose, and confirm the mot is retained.",
+        "zh": "接部會或 Orange Money 櫃台，維持 vous 與職稱，說來意，並確認 mot 會留下。"
+      },
+      "5": {
+        "en": "Office deputy here: vous plus titles, brisk but complete; lock the facts, then confirm the message will go.",
+        "zh": "這一帶的機關代表：vous 加職稱，明快但完整；先鎖定事實，再確認訊息會交到。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "Airtel Money",
+      "Orange Money",
+      "M-Pesa",
+      "agence",
+      "virement"
+    ],
+    "delivery": [
+      "gardien",
+      "cour",
+      "sécurité",
+      "bureau de poste"
+    ],
+    "government": [
+      "CNI",
+      "passeport",
+      "carte d'électeur"
+    ],
+    "health": [
+      "hôpital",
+      "centre de santé",
+      "dispensaire",
+      "ordonnance"
+    ],
+    "telecom": [
+      "Airtel",
+      "Orange",
+      "Vodacom",
+      "prépayé"
+    ],
+    "payment": [
+      "Airtel Money",
+      "Orange Money",
+      "M-Pesa",
+      "agent"
+    ],
+    "transport": [
+      "taxi-moto",
+      "minibus",
+      "taxi",
+      "embouteillage"
+    ],
+    "housing": [
+      "loyer",
+      "cour",
+      "propriétaire",
+      "facture"
+    ]
+  },
+  "status": "draft"
+}

@@ -1,0 +1,56 @@
+{
+  "country": "ax",
+  "parent": "se",
+  "name": {
+    "en": "Åland Islands",
+    "native": "Åland Islands",
+    "zh": "奧蘭群島"
+  },
+  "lang": "sv",
+  "differs_from_parent": {
+    "calling_code": "+358（屬芬蘭號碼，區碼 18），不是瑞典的 +46",
+    "currency": "歐元，不是瑞典克朗",
+    "time_zone": "UTC+2（夏令 UTC+3），比瑞典快 1 小時",
+    "language": "瑞典語為唯一官方語言，與父區相同；芬蘭語不是官方語",
+    "post": "有自己的郵政 Åland Post 與郵票"
+  },
+  "habits": {
+    "en": "Swedish as in Sweden, but prices are in euros and the clock is an hour ahead of Stockholm. Numbers are Finnish.",
+    "zh": "說瑞典語，與瑞典相同；但標價是歐元，時間比斯德哥爾摩快一小時，電話是芬蘭號碼。"
+  },
+  "vocab": {
+    "bank": [
+      "euro",
+      "bank card"
+    ],
+    "delivery": [
+      "Åland Post",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Swish",
+      "reason": {
+        "zh": "瑞典的手機轉帳，奧蘭用芬蘭的銀行體系，不宜預設"
+      }
+    },
+    {
+      "word": "kronor",
+      "reason": {
+        "zh": "瑞典貨幣，奧蘭用歐元"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.regeringen.ax/",
+    "https://www.lagtinget.ax/",
+    "https://www.asub.ax/en/aland-faq",
+    "https://en.wikipedia.org/wiki/%C3%85land"
+  ],
+  "uncertain": [
+    "奧蘭郵政 posten.ax 從 box 連不上；歐元、時區與 +358 18 依維基百科資訊框，奧蘭政府、議會與統計局首頁可開但未逐條找到對應段落。",
+    "當地常用付款 App 未查證。"
+  ]
+}

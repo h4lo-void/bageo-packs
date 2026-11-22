@@ -1,0 +1,90 @@
+{
+  "region": "mu-sc-km",
+  "lang": "en",
+  "why_added": "模里西斯議會官方語言為英語（辯論可用法語）；塞席爾以克里奧爾語、英語、法語為國家語言。區包預設為法語。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Sir or Madam with strangers. Office English in Mauritius or Seychelles. Keep the local rupee, not the Comorian franc.",
+    "zh": "對生人用 Sir、Madam。模里西斯與塞席爾公務場合常用英語。貨幣要分清盧比與葛摩法郎。克里奧爾詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Mauritian or Seychellois friend: first names, short lines. Leave a Kreol or French word they used; money is the rupee.",
+        "zh": "模里西斯或塞席爾熟友可叫名字，句子短。對方用的克里奧爾或法語詞照留；錢是盧比。"
+      },
+      "2": {
+        "en": "Easy island English. A French legal or street name does not need translating.",
+        "zh": "輕鬆的島上英語。法語法律詞或街名不必翻譯。"
+      },
+      "3": {
+        "en": "Everyday English in Mauritius or Seychelles. Finish each point; Juice is a Mauritius banking app, not a three-country brand.",
+        "zh": "模里西斯或塞席爾日常英語。把話說完；Juice 是模里西斯常見銀行 App，不是三國通用。"
+      },
+      "4": {
+        "en": "Polite Sir or Madam for offices. Confirm whether the rupee is Mauritian or Seychellois, or if they mean the Comorian franc.",
+        "zh": "對機關用 Sir、Madam。先確認是模里西斯盧比、塞席爾盧比，還是葛摩法郎。"
+      },
+      "5": {
+        "en": "Formal office English. National Assembly business in Mauritius is in English; keep official names as given.",
+        "zh": "正式公務英語。模里西斯議會事務用英語；官方名稱照留。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual pickup: first names if they did, then you will pass the message on.",
+        "zh": "{owner}較熟的代接：對方先叫名字才跟著叫，再說明會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave a rupee or Juice mention as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。盧比或 Juice 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the rupee point in one full sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句話重述盧比的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: Sir or Madam, note which island state they mean, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 Sir 或 Madam：先分清是哪一國，再確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on currency and office names, no extra familiarity, then confirm the note for {owner}.",
+        "zh": "正式代表：貨幣與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Are you still in Port Louis?",
+      "Hello, yes, the line is clear.",
+      "Hello, good afternoon. Is this about the rupee payment?",
+      "Good afternoon, thanks for calling. The rupee amount is clear.",
+      "Good afternoon, thank you. The office point is on my pad."
+    ],
+    "a": [
+      "Hello! {owner} is out; tell me and I'll pass it on.",
+      "Hello. I'm taking the call — what should I relay?",
+      "Good afternoon. I'll tell {owner}, using your wording.",
+      "Thanks for calling. I will note the rupee point for {owner}.",
+      "Thank you. I'll write those details down and pass them on."
+    ]
+  },
+  "diff_from_home": [
+    "模里西斯與塞席爾的貨幣都叫盧比，但是兩種貨幣；葛摩用葛摩法郎，不要三國混用。",
+    "英語在模里西斯是議會與行政用語，在塞席爾是國家語言之一；葛摩行政仍多用法語與阿語。",
+    "克里奧爾語不在支援清單，對方夾了詞就照留，仍用英語回應。",
+    "Juice 等銀行 App 名稱主要見於模里西斯，不要自動套到塞席爾或葛摩。"
+  ],
+  "sources": [
+    "https://mauritiusassembly.govmu.org/mauritiusassembly/wp-content/uploads/2023/03/constitution.pdf",
+    "https://www.cia.gov/the-world-factbook/countries/mauritius/",
+    "https://www.cia.gov/the-world-factbook/countries/seychelles/"
+  ],
+  "uncertain": [
+    "模里西斯家庭與店面電話是否更常說法語或克里奧爾語，缺少新的分場合統計。",
+    "塞席爾三種國家語言在電話上的實際切換頻率，公開量化資料有限。"
+  ]
+}

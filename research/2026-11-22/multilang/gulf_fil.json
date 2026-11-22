@@ -1,0 +1,89 @@
+{
+  "region": "gulf",
+  "lang": "fil",
+  "hello": {
+    "hello": "Kamusta po?",
+    "hello_again": "Opo, hello?"
+  },
+  "habits": {
+    "en": "OFW Filipino keeps po/opo and sir/ma'am, with Taglish. Work words: visa, agency, day off, padala, iqama.",
+    "zh": "海外菲人仍用 po、opo 與 sir，並夾 Taglish。常說 visa、day off、padala。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close kababayan: still a little po out of habit; day off or padala drop in, English and Tagalog mix freely.",
+        "zh": "同鄉熟友仍可能習慣性加 po；day off、padala 隨口出現，英語與他加祿語自由混用。"
+      },
+      "2": {
+        "en": "Easygoing: po unless they drop it; after they speak, a short sige po, agency or visa left in English.",
+        "zh": "隨和：除非對方不加，否則用 po；聽完短短說 sige po，agency、visa 維持英語。"
+      },
+      "3": {
+        "en": "Everyday OFW Filipino. Finish the point in a full line; remittance is padala, weekly rest is day off, not only formal Tagalog.",
+        "zh": "海外菲人日常用語。用完整句子說完；匯款說 padala，休息日說 day off，不必只用書面他加祿語。"
+      },
+      "4": {
+        "en": "Polite po/opo and sir/ma'am with employers and offices. Keep iqama or Emirates ID, sentences fuller.",
+        "zh": "對僱主與機關用禮貌 po、opo 與 sir、ma'am。iqama、Emirates ID 照留，句子較完整。"
+      },
+      "5": {
+        "en": "Formal po and titles. Exact about visa or padala, close each item completely, no slangy teasing.",
+        "zh": "正式場合用 po 加稱謂。visa、padala 要說準，各項收完整，不要開玩笑式俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: warm po, short Taglish, then you'll pass the message to them.",
+        "zh": "{owner}隨興代接：帶 po 的熱絡短句，可夾 Taglish，再把話帶去。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep po/opo, leave day off or agency as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：維持 po、opo，day off、agency 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Household or office assistant. Recap the visa or padala point in a full line, then confirm you will tell {owner}.",
+        "zh": "家務或辦公室代接。先用完整句子重述 visa 或 padala 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: po and sir/ma'am, note the purpose, keep Gulf official words, confirm the handover.",
+        "zh": "沉穩秘書：用 po 與 sir、ma'am，記下來意，海灣官方用詞照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about iqama and remittance, respectful po, then confirm the note for {owner}.",
+        "zh": "正式代表：把 iqama 與匯款說準，保持 po 的敬意，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello po! Kamusta? Anong nangyari, sabihin mo.",
+      "Opo, hello? Nakikinig po ako, sige.",
+      "Hello po, magandang araw. Tungkol sa visa po ba? Naintindihan ko.",
+      "Magandang araw po, salamat sa tawag. Klaro na ang padala.",
+      "Magandang araw po, salamat. Naitala ko na ang day off ninyo."
+    ],
+    "a": [
+      "Hello po! Wala po sila, sabihin ninyo, ipapasa ko.",
+      "Opo, hello? Ako po ang sumasagot, ano po ang mensahe?",
+      "Hello po, magandang araw. Sasabihin ko po kay {owner}.",
+      "Magandang araw po, salamat sa tawag. Ipapasa ko po ang mensahe.",
+      "Magandang araw po, salamat. Itatala ko po at sasabihin sa kanya."
+    ]
+  },
+  "diff_from_home": [
+    "即使在熟人之間，po、opo 與 sir、ma'am 仍比在菲律賓本國某些場合更常保留，尤其面對僱主。",
+    "工作與匯款詞多用英語或固定說法：visa、agency、day off、padala，不一定用純他加祿語。",
+    "海灣居留詞 iqama、Emirates ID 直接夾進 Taglish。",
+    "這是海外菲人（OFW）在海灣的用法，不是菲律賓國內電話的預設腔。"
+  ],
+  "sources": [
+    "https://filipinotimes.net/feature/2024/08/16/ate-kuya-kamusta-ka/",
+    "https://archium.ateneo.edu/cgi/viewcontent.cgi?article=1221&context=katipunan",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id"
+  ],
+  "uncertain": [
+    "Filipino Times 與學術論文能支持 po/opo 與在地混用，但海灣電話開場的固定句式缺少專門調查。",
+    "家務與公司職員的正式程度差距很大，不宜寫成單一 OFW 口吻。"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "region": "cd-cg-cm-ga-cf-td-bi",
+  "lang": "sw",
+  "why_added": "史瓦希里語是剛果民主共和國的國家語言之一（東部常用），蒲隆地亦使用；區包預設為法語。",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, ndiyo?"
+  },
+  "habits": {
+    "en": "Respectful address with strangers. Strongest in eastern DRC and Burundi. Money is the Congolese franc.",
+    "zh": "對生人用較尊敬的稱呼。東部剛果民主共和國與蒲隆地較常用。當地貨幣是剛果法郎。法語機關名照留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend in Goma or Bukavu: short warm Swahili. Leave French street names; cash is Congolese francs, not Tanzanian shillings.",
+        "zh": "戈馬或布卡武的熟友用短而熱絡的史瓦希里語。法語街名照留；錢是剛果法郎，不是坦尚尼亞先令。"
+      },
+      "2": {
+        "en": "Easy familiar tone. Kingwana or Congo Swahili may mix French nouns; do not recast them into Tanzania usage.",
+        "zh": "半熟口氣。剛果史瓦希里語（Kingwana）常夾法語名詞，不要改成坦尚尼亞用法。"
+      },
+      "3": {
+        "en": "Everyday eastern-DRC Swahili. Finish each point; M-Pesa may appear on Vodacom, but it is not used in every country of this region.",
+        "zh": "剛果民主共和國東部日常史瓦希里語。把話說完；Vodacom 的 M-Pesa 可能出現，但不是本區七國通用。"
+      },
+      "4": {
+        "en": "Polite forms for offices. Confirm the Congolese franc amount; keep French document titles.",
+        "zh": "對機關用較禮貌的說法。金額確認是剛果法郎；法語文件標題照用。"
+      },
+      "5": {
+        "en": "Formal Swahili for administration. Do not assume Tanzanian or Kenyan greetings as the default here.",
+        "zh": "行政場合用較正式的史瓦希里語。不要把坦尚尼亞或肯亞的招呼當成這裡的預設。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup, short and warm, then you will pass the message along.",
+        "zh": "{owner}熟人代接：短而熱絡，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave a French office name or franc as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。法語機關名或法郎照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Congolese-franc point in one full Swahili sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句史瓦希里語重述剛果法郎的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: note why they called, keep French titles, then confirm the handover to {owner}.",
+        "zh": "穩重秘書：記下來電原因，法語職銜照留，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: precise on the franc and office names, without extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：法郎與機關名稱要正確，不要套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo! Bado uko Goma?",
+      "Halo, ndiyo, ninasikia, sema.",
+      "Halo, habari. Ni kuhusu franc?",
+      "Habari, asante kwa kupiga. Kiasi cha franc kimeeleweka.",
+      "Habari, asante. Nimeelewa suala la ofisi."
+    ],
+    "a": [
+      "Halo! {owner} hayupo, niambie nitasema.",
+      "Halo, habari. Niko simuni, ujumbe ni upi?",
+      "Halo, habari. Nitamwambia {owner} maneno yako.",
+      "Habari, asante kwa kupiga. Nitamwambia {owner} kuhusu franc.",
+      "Habari, asante. Nitaandika maelezo na kumfikishia."
+    ]
+  },
+  "diff_from_home": [
+    "此組合主要對應剛果民主共和國東部與蒲隆地，不是中非法語區七國都通用史瓦希里語。",
+    "剛果史瓦希里語（Kingwana）常夾法語詞，貨幣是剛果法郎，不要說成坦尚尼亞或肯亞先令。",
+    "M-Pesa 在剛果民主共和國可見於 Vodacom，不可自動套到加彭、喀麥隆或查德。",
+    "林加拉語等其他國家語言不在支援清單；對方夾了那些詞就照留。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/congo-democratic-republic-of-the/",
+    "https://www.cia.gov/the-world-factbook/countries/burundi/"
+  ],
+  "uncertain": [
+    "剛果史瓦希里語與東非標準史瓦希里語的差異，缺少可逐句對照的新電話語料。",
+    "蒲隆地史瓦希里語的日常電話比重，公開數字不如剛果民主共和國東部清楚。",
+    "本區法語國家（加彭、剛果共和國、喀麥隆等）並不以史瓦希里語為跨國通用語。"
+  ]
+}

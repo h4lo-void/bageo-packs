@@ -1,0 +1,275 @@
+{
+  "lang": "bn",
+  "backchannels": {
+    "direction": "জি marks respectful listening, especially in Bangladesh; আচ্ছা shows uptake; a clipped আচ্ছা আচ্ছা can sound dismissive.",
+    "examples": [
+      {
+        "text": "জি।",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "জি, ঠিক আছে।",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "হ্যাঁ।",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "আচ্ছা।",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "আচ্ছা আচ্ছা।",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "তাই নাকি? marks surprise; দুঃখিত is sympathy; অভিনন্দন is the usual congratulation on Omniglot.",
+    "examples": [
+      {
+        "text": "তাই নাকি?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "সত্যি?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "এটা শুনে দুঃখিত।",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "অভিনন্দন!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "এটা একটু মুশকিল হবে।",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice is unclear (শুনতে পাচ্ছি না) or the line is poor, then ask them to speak a little louder.",
+    "examples": [
+      {
+        "text": "আমি আপনাকে পরিষ্কার শুনতে পাচ্ছি না।",
+        "style": "polite"
+      },
+      {
+        "text": "লাইনটা খারাপ।",
+        "style": "casual"
+      },
+      {
+        "text": "আওয়াজটা ভেঙে যাচ্ছে।",
+        "style": "casual"
+      },
+      {
+        "text": "আপনি কি একটু জোরে বলবেন?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Omniglot's অনুগ্রহ পূর্বক পুনরায় বলুন asks a replay; have a name spelled, or 12345678 said again.",
+    "examples": [
+      {
+        "text": "অনুগ্রহ পূর্বক পুনরায় বলুন।",
+        "style": "polite"
+      },
+      {
+        "text": "বুঝতে পারিনি।",
+        "style": "casual"
+      },
+      {
+        "text": "নামটা কি বানান করে বলবেন?",
+        "style": "polite"
+      },
+      {
+        "text": "নম্বরটা আবার বলবেন: 12345678 কি?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "কে বলছেন is the everyday probe; on a shared handset, say this is {owner}'s phone and ask who is speaking.",
+    "examples": [
+      {
+        "text": "কে বলছেন, দয়া করে?",
+        "style": "polite"
+      },
+      {
+        "text": "আমি কার সাথে কথা বলছি?",
+        "style": "polite"
+      },
+      {
+        "text": "এটা {owner}-এর ফোন, কে বলছেন?",
+        "style": "polite"
+      },
+      {
+        "text": "কোথা থেকে ফোন করছেন?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "A Bangladesh teachers' glossary glosses a wrong-number apology; add that nobody of that name is here.",
+    "examples": [
+      {
+        "text": "দুঃখিত, আপনি ভুল নম্বরে ফোন করেছেন।",
+        "style": "polite"
+      },
+      {
+        "text": "এই নামে এখানে কেউ নেই।",
+        "style": "polite"
+      },
+      {
+        "text": "এটা ভুল নম্বর।",
+        "style": "casual"
+      },
+      {
+        "text": "মাফ করবেন, নম্বরটা ভুল পড়েছে।",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "আমি বলে দেব or {owner}-কে জানিয়ে দেব passes the message; do not name a time for a return call.",
+    "examples": [
+      {
+        "text": "আমি {owner}-কে বলে দেব।",
+        "style": "polite"
+      },
+      {
+        "text": "কথাটা তাঁকে পৌঁছে দেব।",
+        "style": "polite"
+      },
+      {
+        "text": "জানিয়ে দেব, ধন্যবাদ।",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ধন্যবাদ, দরকার নেই is a sufficient polite refusal; no detailed excuse is needed.",
+    "examples": [
+      {
+        "text": "ধন্যবাদ, দরকার নেই।",
+        "style": "polite"
+      },
+      {
+        "text": "আমি আগ্রহী নই।",
+        "style": "polite"
+      },
+      {
+        "text": "এখন এটা লাগবে না।",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they continue, restate না, হবে না and ask them not to call this number again about that offer.",
+    "examples": [
+      {
+        "text": "না, এটা হবে না।",
+        "style": "polite"
+      },
+      {
+        "text": "অনুগ্রহ করে এই প্রস্তাব নিয়ে আর ফোন করবেন না।",
+        "style": "polite"
+      },
+      {
+        "text": "আমি রাজি নই, এটা চূড়ান্ত।",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "আপনি is the default with adult strangers (Wikipedia T-V); তুমি is familiar; তুই with a stranger is rude.",
+    "examples": [
+      {
+        "text": "আপনি।",
+        "style": "polite"
+      },
+      {
+        "text": "স্যার।",
+        "style": "polite"
+      },
+      {
+        "text": "ম্যাডাম।",
+        "style": "polite"
+      },
+      {
+        "text": "জনাব।",
+        "style": "polite"
+      },
+      {
+        "text": "তুমি কেমন আছো?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Hotline calques such as আপনার কল আমাদের কাছে গুরুত্বপূর্ণ sound like a centre script, not a household call.",
+    "examples": [
+      {
+        "text": "আপনার কল আমাদের কাছে খুবই গুরুত্বপূর্ণ।",
+        "style": "polite"
+      },
+      {
+        "text": "আপনাকে কীভাবে সাহায্য করতে পারি?",
+        "style": "polite"
+      },
+      {
+        "text": "সেবা দিতে পেরে আমরা আনন্দিত।",
+        "style": "polite"
+      },
+      {
+        "text": "আপনার সন্তুষ্টিই আমাদের অগ্রাধিকার।",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "তুই to a stranger stings; early questions on pay or marriage feel abrupt; bKash says never read out an OTP or PIN.",
+    "examples": [
+      {
+        "text": "তুই কে রে? এখনই বল।",
+        "style": "casual"
+      },
+      {
+        "text": "তোমার বেতন কত? বিয়ে করেছো?",
+        "style": "casual"
+      },
+      {
+        "text": "ওটিপি আর পিন এখন বলে দাও।",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://www.omniglot.com/language/phrases/bengali.php",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction_in_the_world%27s_languages",
+    "https://en.wiktionary.org/wiki/%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BF",
+    "https://teachers.gov.bd/content/details/460936",
+    "https://www.bkash.com/bn/page/fraud-awareness"
+  ],
+  "uncertain": [
+    "未找到孟加拉語私人電話相槌頻率表；জি／আচ্ছা／হ্যাঁ 依詞典與會話習慣，不是語料庫排序。",
+    "孟加拉（國）對陌生人更常用 আপনি，西孟加拉熟人場合有人較早轉 তুমি；本檔代接陌生人時一律用 আপনি。",
+    "teachers.gov.bd 的電話詞表是英語套語加孟加拉語對譯，且含叫人在線上停留的對譯；本檔只用其聽不清、打錯等對譯，不用那類句子。",
+    "開場問候在孟加拉（國）常為 সালাম，西孟加拉常為 নমস্কার；本檔不規定固定開場白。"
+  ]
+}

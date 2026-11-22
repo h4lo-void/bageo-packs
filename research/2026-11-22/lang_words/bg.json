@@ -1,0 +1,147 @@
+{
+  "lang": "bg",
+  "script": "cyrillic",
+  "common_words": [
+    "аз",
+    "съм",
+    "какво",
+    "ще",
+    "това",
+    "защо",
+    "тук",
+    "искам",
+    "трябва",
+    "няма",
+    "благодаря",
+    "моля",
+    "къде",
+    "днес",
+    "утре",
+    "вчера",
+    "сутрин",
+    "вечер",
+    "кой",
+    "кога",
+    "сега",
+    "добре",
+    "извинете",
+    "здравейте",
+    "довиждане",
+    "поръчка",
+    "лекар",
+    "пакет",
+    "много",
+    "нещо",
+    "вече",
+    "още",
+    "може",
+    "ли",
+    "дали",
+    "вие",
+    "нас",
+    "вашият",
+    "този",
+    "тази",
+    "число",
+    "адрес",
+    "господин",
+    "госпожо",
+    "сутринта",
+    "седмица",
+    "месец",
+    "преди",
+    "след",
+    "не желая"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/bg/bg_50k.txt",
+  "shared_words": [
+    {
+      "word": "да",
+      "also_in": [
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "не",
+      "also_in": [
+        "mk",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "се",
+      "also_in": [
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "и",
+      "also_in": [
+        "mk",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "на",
+      "also_in": [
+        "mk",
+        "sr",
+        "be"
+      ]
+    },
+    {
+      "word": "добре",
+      "also_in": [
+        "mk",
+        "sr"
+      ]
+    },
+    {
+      "word": "трябва",
+      "also_in": [
+        "mk",
+        "sr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ъ",
+    "щ"
+  ],
+  "confusable_with": [
+    "mk",
+    "sr",
+    "be"
+  ],
+  "how_to_tell_apart": "Bulgarian is the only language in this Cyrillic set that regularly writes ъ and щ and that uses ще for the future, какво for ‘what’, аз/съм, тук, защо, къде and благодаря. It has no ђ/ћ (Serbian) and no ѓ/ќ/ѕ or ќе/што/јас (Macedonian). Belarusian would instead show ў and і. Very common да, не, се and трябва also appear in Macedonian and Serbian, so they are not enough on their own.",
+  "test_said": [
+    "Топлофикация още не е включила радиаторите и в хола е студено.",
+    "От онлайн магазина писаха че пратката е тръгнала но проследяването стои на място.",
+    "Куриерът остави пратката пред блока без да се обади на домофона.",
+    "Новият гардероб не влиза през асансьора и трябва да се качва по стълбите.",
+    "Личният лекар няма свободен час тази седмица освен в петък следобед.",
+    "Искам да запиша ваксина срещу грип за възрастен пациент при вас.",
+    "Кредит по телефона не ми трябва и лични данни няма да диктувам.",
+    "Картата за фитнес е спряна и не желая да я подновявам с промоция."
+  ],
+  "test_not_enough": [
+    "Елена",
+    "ok",
+    "четири",
+    "plus"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/bg/bg_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Bulgarian_alphabet",
+    "https://en.wikipedia.org/wiki/Bulgarian_language"
+  ],
+  "uncertain": [
+    "щ also exists in Russian, which is not in this task list; within the five Cyrillic languages being built here, ъ is the clearer unique cue.",
+    "Spoken Bulgarian often drops or reduces vowels; the common_words follow the written forms in the subtitle list."
+  ]
+}

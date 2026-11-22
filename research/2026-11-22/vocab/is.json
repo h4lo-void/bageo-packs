@@ -1,0 +1,441 @@
+{
+  "region": "is",
+  "vocab": {
+    "is": {
+      "bank": [
+        {
+          "term": "netbanki",
+          "en": "the netbanki, usually opened with auðkenni or Ísland.is identification"
+        },
+        {
+          "term": "kort",
+          "en": "a payment kort, contactless at most Icelandic tills"
+        },
+        {
+          "term": "millifærsla",
+          "en": "a millifærsla between Icelandic accounts"
+        },
+        {
+          "term": "reikningur",
+          "en": "an account, or a bill, depending on the sentence"
+        },
+        {
+          "term": "staða",
+          "en": "the balance on the account"
+        },
+        {
+          "term": "auðkenni",
+          "en": "electronic identification used with the bank and with Ísland.is"
+        },
+        {
+          "term": "heimabanki",
+          "en": "an older word some people still use for the netbank"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Póstbox",
+          "en": "Pósturinn's parcel locker"
+        },
+        {
+          "term": "Dropp",
+          "en": "a widely used pickup-point and locker network"
+        },
+        {
+          "term": "útidyrahurð",
+          "en": "the front door, a common place to leave a parcel"
+        },
+        {
+          "term": "Pósturinn",
+          "en": "Pósturinn, the Icelandic post, including its Póstbox lockers"
+        },
+        {
+          "term": "pósthús",
+          "en": "a pósthús of Pósturinn"
+        },
+        {
+          "term": "nágranni",
+          "en": "the nágranni, a fallback if a Póstbox or Dropp pickup is missed"
+        },
+        {
+          "term": "sendingarnúmer",
+          "en": "the tracking number"
+        }
+      ],
+      "government": [
+        {
+          "term": "Ísland.is",
+          "en": "the national portal for most official errands"
+        },
+        {
+          "term": "kennitala",
+          "en": "the national ID number; confirm it only if {owner} asks, and never invent one"
+        },
+        {
+          "term": "Þjóðskrá",
+          "en": "the national registry"
+        },
+        {
+          "term": "Skatturinn",
+          "en": "the tax authority, also RSK in older speech"
+        },
+        {
+          "term": "vegabréf",
+          "en": "an Icelandic vegabréf"
+        },
+        {
+          "term": "ökuskírteini",
+          "en": "an Icelandic ökuskírteini"
+        },
+        {
+          "term": "nafnskírteini",
+          "en": "an identity card"
+        }
+      ],
+      "health": [
+        {
+          "term": "heilsugæsla",
+          "en": "the local health clinic"
+        },
+        {
+          "term": "apótek",
+          "en": "an apótek, where a lyfseðill is filled"
+        },
+        {
+          "term": "lyfseðill",
+          "en": "a lyfseðill, often managed through Heilsuvera or Ísland.is"
+        },
+        {
+          "term": "Heilsuvera",
+          "en": "the older health-portal name; more of this now sits on Ísland.is"
+        },
+        {
+          "term": "bráðamóttaka",
+          "en": "emergency care, also slysadeild in everyday talk"
+        },
+        {
+          "term": "sjúkratryggingar",
+          "en": "public health-insurance cover"
+        },
+        {
+          "term": "heimilislæknir",
+          "en": "the GP, also just læknir"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "áskrift",
+          "en": "an áskrift with Síminn, Nova or Vodafone"
+        },
+        {
+          "term": "fyrirframgreitt",
+          "en": "fyrirframgreitt credit on an Icelandic number"
+        },
+        {
+          "term": "númerflutningur",
+          "en": "númerflutningur, taking the number to another Icelandic símafélag"
+        },
+        {
+          "term": "SIM-kort",
+          "en": "an Icelandic SIM-kort"
+        },
+        {
+          "term": "símafélag",
+          "en": "the operator, often Síminn, Nova or Vodafone"
+        },
+        {
+          "term": "gagnaflutningur",
+          "en": "gagnaflutningur on an Icelandic áskrift"
+        },
+        {
+          "term": "heimilisnett",
+          "en": "heimilisnett, an Icelandic home line"
+        }
+      ],
+      "payment": [
+        {
+          "term": "kort",
+          "en": "card payment; contactless is the default in most shops"
+        },
+        {
+          "term": "staðgreiðsla",
+          "en": "paying the full amount at once"
+        },
+        {
+          "term": "raðgreiðsla",
+          "en": "paying in instalments, a very common checkout option"
+        },
+        {
+          "term": "millifærsla",
+          "en": "a millifærsla, or a payment in the Krón app"
+        },
+        {
+          "term": "reiðufé",
+          "en": "cash, used less than the card"
+        },
+        {
+          "term": "Krón",
+          "en": "a popular domestic payment app some callers name"
+        },
+        {
+          "term": "reikningur",
+          "en": "a reikningur, an Icelandic bill or invoice, sometimes paid in raðgreiðsla"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Strætó",
+          "en": "capital-area buses, the name people still use for the service"
+        },
+        {
+          "term": "Klapp",
+          "en": "the ticket wallet now used with Strætó, not yet every caller's first word"
+        },
+        {
+          "term": "Flygbussarnir",
+          "en": "the airport coach to Keflavík, also just flugrútan"
+        },
+        {
+          "term": "leigubíll",
+          "en": "a leigubíll, an Icelandic taxi"
+        },
+        {
+          "term": "bíll",
+          "en": "a private car, the usual way to travel outside the capital area"
+        },
+        {
+          "term": "umferð",
+          "en": "traffic"
+        },
+        {
+          "term": "biðstöð",
+          "en": "a bus stop"
+        }
+      ],
+      "housing": [
+        {
+          "term": "íbúð",
+          "en": "an íbúð, often in a building with a húsfélag"
+        },
+        {
+          "term": "stigagangur",
+          "en": "the stigagangur of an Icelandic íbúð building"
+        },
+        {
+          "term": "dyrabjalla",
+          "en": "the dyrabjalla at the stigagangur"
+        },
+        {
+          "term": "póstkassi",
+          "en": "the póstkassi, not a Póstbox locker"
+        },
+        {
+          "term": "leiga",
+          "en": "the leiga for an íbúð"
+        },
+        {
+          "term": "húsfélag",
+          "en": "the residents' association"
+        },
+        {
+          "term": "húsvörður",
+          "en": "a caretaker, only in some buildings"
+        },
+        {
+          "term": "bílastæði",
+          "en": "a parking space, often mentioned with deliveries"
+        }
+      ],
+      "school": [
+        {
+          "term": "leikskóli",
+          "en": "preschool"
+        },
+        {
+          "term": "grunnskóli",
+          "en": "compulsory school"
+        },
+        {
+          "term": "framhaldsskóli",
+          "en": "framhaldsskóli, after grunnskóli"
+        },
+        {
+          "term": "háskóli",
+          "en": "university"
+        },
+        {
+          "term": "heimavinna",
+          "en": "heimavinna from a grunnskóli or framhaldsskóli"
+        },
+        {
+          "term": "umsjónarkennari",
+          "en": "the umsjónarkennari, the form teacher in an Icelandic school"
+        },
+        {
+          "term": "frístund",
+          "en": "after-school activity"
+        }
+      ],
+      "money": [
+        {
+          "term": "krónur",
+          "en": "Icelandic krónur, also kr."
+        },
+        {
+          "term": "þúsund",
+          "en": "a thousand krónur, the usual spoken unit"
+        },
+        {
+          "term": "reiðufé",
+          "en": "reiðufé in Icelandic krónur, used less than a kort"
+        },
+        {
+          "term": "afgangur",
+          "en": "the afgangur in krónur"
+        },
+        {
+          "term": "upphæð",
+          "en": "the upphæð in Icelandic krónur"
+        },
+        {
+          "term": "aurar",
+          "en": "aurar, almost only on receipts"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "í morgun",
+          "en": "this morning"
+        },
+        {
+          "term": "síðdegis",
+          "en": "síðdegis, after midday"
+        },
+        {
+          "term": "í kvöld",
+          "en": "í kvöld, later today in the evening"
+        },
+        {
+          "term": "virkur dagur",
+          "en": "a virkur dagur, an Icelandic weekday"
+        },
+        {
+          "term": "helgi",
+          "en": "helgi, Saturday and Sunday"
+        },
+        {
+          "term": "eftir vinnu",
+          "en": "eftir vinnu, once the working day ends"
+        },
+        {
+          "term": "í þessari viku",
+          "en": "í þessari viku, the current week"
+        },
+        {
+          "term": "snemma á morgun",
+          "en": "snemma á morgun, early the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "vinna",
+          "en": "vinna, the everyday Icelandic word for a job"
+        },
+        {
+          "term": "yfirvinna",
+          "en": "yfirvinna, extra hours"
+        },
+        {
+          "term": "orlof",
+          "en": "orlof, the yearly leave"
+        },
+        {
+          "term": "veikindaleyfi",
+          "en": "veikindaleyfi, time off sick"
+        },
+        {
+          "term": "yfirmaður",
+          "en": "the yfirmaður at an Icelandic workplace"
+        },
+        {
+          "term": "fjarvinna",
+          "en": "remote work"
+        },
+        {
+          "term": "starfsferð",
+          "en": "a starfsferð, a work trip"
+        },
+        {
+          "term": "laun",
+          "en": "the laun, paid to an Icelandic reikningur"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "MitID",
+      "use_instead": "auðkenni, Ísland.is",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "BankID",
+      "use_instead": "auðkenni, netbanki",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "MobilePay",
+      "use_instead": "millifærsla, Krón, kort",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "millifærsla, Krón",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "personnummer",
+      "use_instead": "kennitala",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "PostNord",
+      "use_instead": "Pósturinn, Póstbox, Dropp",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "CPR-nummer",
+      "use_instead": "kennitala",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "krone 講成丹麥或挪威克朗",
+      "use_instead": "íslenskar krónur",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "millifærsla, kort",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Strætó 套用到所有鄉鎮都有密集公車",
+      "use_instead": "首都圈以外常常要靠私家車或較疏班次",
+      "where_it_is_from": "IS"
+    }
+  ],
+  "sources": [
+    "https://island.is/",
+    "https://island.is/en/o/digital-iceland/my-health-on-iceland-is",
+    "https://www.heilsuvera.is/en/",
+    "https://posturinn.is/en/individuals/post-offices-and-postbox/postbox-parcel-lockers/",
+    "https://www.dropp.is/",
+    "https://www.skatturinn.is/",
+    "https://www.straeto.is/"
+  ],
+  "uncertain": [
+    "Heilsuvera 的個人頁正遷到 Ísland.is，2026 年底前兩種名稱都可能出現。",
+    "Klapp 已是 Strætó 票證錢包，但不少人電話裡仍只說 Strætó 或 kort.",
+    "Krón 是常用支付 App，但不是人人第一個想到的轉帳方式。"
+  ]
+}

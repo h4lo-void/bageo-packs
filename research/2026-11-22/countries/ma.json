@@ -1,0 +1,64 @@
+{
+  "country": "ma",
+  "parent": "maghreb",
+  "name": {
+    "en": "Morocco",
+    "native": "المغرب",
+    "zh": "摩洛哥"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, concierge, or an Amana or Barid agency",
+    "zh": "包裹交給 gardien、concierge，或到 Amana 或 Barid 據點"
+  },
+  "readback": {
+    "en": "06 or 07 mobiles go in pairs; 0 as zéro or صفر; amounts in dirhams",
+    "zh": "06 或 07 手機兩位一組唸，0 可唸 zéro 或 صفر；金額用迪拉姆"
+  },
+  "fraud": {
+    "en": "A fake parcel address or card link, a bank code request, or a fake CNSS bank-data ask, is a scam",
+    "zh": "要補地址或卡號的假包裹連結、銀行要驗證碼，或假冒 CNSS 要銀行資料，都是詐騙"
+  },
+  "habits": {
+    "en": "Moroccan Darija mixes with French; follow the language in use. Informal nta or nti; stay courteous with strangers.",
+    "zh": "摩洛哥方言常夾法語，跟對方語言回。熟人才用 nta、nti；對陌生人保持禮貌。"
+  },
+  "stall_local": {
+    "en": "Get stuck on D17 or the bank app on weak data, no SMS code, or the card in another jacket.",
+    "zh": "卡在 D17 或銀行 App 訊號弱打不開、簡訊碼沒到、卡在另一件外套。"
+  },
+  "vocab": {
+    "bank": [
+      "CIH",
+      "Attijariwafa",
+      "D17"
+    ],
+    "delivery": [
+      "gardien",
+      "concierge",
+      "Amana"
+    ]
+  },
+  "avoid_words": [],
+  "talk_style_diff": {
+    "en": "The parent already fits Morocco closely. Keep the Darija–French mix and local bank names; no need to sound pan-Maghreb.",
+    "zh": "所屬地區已接近摩洛哥。保持方言夾法語和本地銀行名稱，不必做成北非通用腔。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://en.hespress.com/88137-online-fraud-alert-moroccans-targeted-by-new-awaiting-package-phishing-scam.html",
+    "https://www.barid.ma/",
+    "https://en.hespress.com/72410-cnss-warns-moroccans-against-digital-scams-as-more-citizens-report-personal-data-leaks.html"
+  ],
+  "uncertain": [
+    "所屬地區詞彙（Amana、CIH、Attijariwafa、D17、CNSS）本來就偏摩洛哥，故 avoid_words 留空。",
+    "接聽時 ألو 與法語 Allô 都很常見，兩者比例未找到官方統計。",
+    "Hespress 待領包裹釣魚文寫的是模仿物流、銀行或郵政的補地址／卡號連結，沒有點名 Amana；Amana 作為 Barid Al-Maghrib 包裹品牌與據點，已對照官方 www.barid.ma。",
+    "CNSS 的官方警示（經 Hespress 轉述）是冒充人員要銀行或個資，不是「補助金」話術，故 fraud 已改寫。",
+    "gardien、concierge 的上門習慣，以及 06／07 兩位一組的唸法，此次未在已打開的官方頁找到規定；D17、CIH、Attijariwafa 官網此次未能在本環境穩定打開。"
+  ]
+}

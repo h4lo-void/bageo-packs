@@ -1,0 +1,89 @@
+{
+  "region": "th",
+  "lang": "my",
+  "hello": {
+    "hello": "မင်္ဂလာပါ?",
+    "hello_again": "ဟုတ်ကဲ့၊ ပြောပါ။"
+  },
+  "habits": {
+    "en": "Use ခင်ဗျာ or ရှင် with a boss. Mix work permit, baht, SSO or ประกันสังคม; not a Myanmar ID for Thai status.",
+    "zh": "對雇主用 ခင်ဗျာ 或 ရှင်。夾 work permit、baht、SSO；勿用緬甸證件指泰方身分。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close Myanmar coworkers in Thailand may drop baht or factory into casual Burmese and answer with ဟုတ်ကဲ့.",
+        "zh": "在泰國的緬甸工友熟人之間，隨口緬甸語可夾 baht 或工廠，回一句 ဟုတ်ကဲ့。"
+      },
+      "2": {
+        "en": "Warm but careful: ခင်ဗျာ or ရှင် if the caller is older; Thai workplace words stay in the Burmese line.",
+        "zh": "親切但小心：對方較長輩就用 ခင်ဗျာ 或 ရှင်；泰語職場詞可留在緬甸語句裡。"
+      },
+      "3": {
+        "en": "Everyday worker Burmese. Restate the work-permit or wage point in a full sentence, not a bare ဟုတ်ကဲ့.",
+        "zh": "日常移工緬甸語。用整句複述工作准證或工錢重點，不要只回 ဟုတ်ကဲ့。"
+      },
+      "4": {
+        "en": "Courteous with an office or clinic: ခင်ဗျာ or ရှင်, unhurried, take the permit or SSO point first.",
+        "zh": "對機關或診所較客氣：用 ခင်ဗျာ 或 ရှင်，不催，先接住准證或社保那一點。"
+      },
+      "5": {
+        "en": "Formal: complete Burmese sentences, amounts in baht, and official names such as work permit or SSO kept as is.",
+        "zh": "正式場合緬甸語完整，金額用 baht，work permit、SSO 等名稱照用。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual helper uses short Burmese, then says the message will be passed on, perhaps with ဟုတ်ကဲ့.",
+        "zh": "{owner}隨和的幫手：緬甸語簡短，或應一句 ဟုတ်ကဲ့，再說會轉達。"
+      },
+      "2": {
+        "en": "Friendly relay: match ခင်ဗျာ or a casual tone, then note the baht or permit point for {owner}.",
+        "zh": "親切代接：跟著用 ခင်ဗျာ 或較隨和的口氣，再把 baht 或准證的事記給{owner}。"
+      },
+      "3": {
+        "en": "Clear workplace relay: one full sentence on the SSO or work-permit issue, then confirm you will tell {owner}.",
+        "zh": "清楚的職場代接：先整句說明社保或工作准證的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet: ခင်ဗျာ or ရှင်, composed; confirm you will give {owner} the permit or clinic message.",
+        "zh": "穩重：用 ခင်ဗျာ 或 ရှင်，說明會把准證或診所的話交給{owner}。"
+      },
+      "5": {
+        "en": "Formal: structured Burmese, exact on baht amounts and permit wording, then confirm the relay to {owner}.",
+        "zh": "正式、有條理，baht 金額與准證用詞要準，再確認轉達給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ဟယ်လို၊ ဘယ်လိုလဲ၊ ပြောပါဦး။",
+      "ဟုတ်ကဲ့၊ နားထောင်နေပါတယ်၊ ပြောပါ။",
+      "မင်္ဂလာပါ။ work permit အကြောင်းလား။ နားလည်ပါပြီ။",
+      "ကျေးဇူးပါ၊ ဖုန်းဆက်လို့။ baht ပမာဏ မှတ်ထားပါတယ်။",
+      "ကျေးဇူးပါ။ SSO ကိစ္စ မှတ်ပြီးပါပြီ။"
+    ],
+    "a": [
+      "ဟယ်လို! သူအလုပ်မှာ၊ ပြောပါ၊ ကျွန်တော် လွှဲပေးပါမယ်။",
+      "ဟုတ်ကဲ့၊ သူ့ဖုန်းကို ကျွန်တော် ကိုင်ထားပါတယ်၊ ပြောပါ။",
+      "မင်္ဂလာပါ။ work permit အကြောင်း {owner} ကို ပြောပေးပါမယ်။",
+      "ကျေးဇူးပါ။ baht စာရင်းကို လွှဲပေးပါမယ်။",
+      "ကျေးဇူးပါ။ အားလုံးရေးပြီး {owner} ကို ပြောပါမယ်။"
+    ]
+  },
+  "diff_from_home": [
+    "在泰國工作，身分與准證要說 work permit 或勞動部／OSS 相關手續，不要用緬甸本國身分證來指在泰合法工作身分。",
+    "工錢與開銷用 baht，不是緬元；社保常說 SSO 或泰國的ประกันสังคม。",
+    "對雇主與機關維持 ခင်ဗျာ 或 ရှင်；句子主體是緬甸語，但常夾泰語或英語職場詞。",
+    "緬甸國內的銀行、電信與行政名稱不要直接套用到泰國職場電話。"
+  ],
+  "sources": [
+    "https://www.mol.go.th/en/news/opened-oss-center-has-made-history-and-requested-work-permits-of-cambodian-laos-myanmar-workers-2",
+    "https://qa.thailand.go.th/issue-focus-detail/007-029-2-2",
+    "https://publications.iom.int/system/files/pdf/Social-Protection-for-Migrant-Workers-in-Thailand.pdf"
+  ],
+  "uncertain": [
+    "口語是否仍常把登記證件叫成บัตรชมพู（粉卡），官方現行文件多寫 work permit，故habits不把粉卡寫成標準用語。",
+    "泰緬邊境與曼谷工廠移工的夾雜程度不同，缺少公開的通話調查。"
+  ]
+}

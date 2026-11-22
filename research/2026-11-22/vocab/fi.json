@@ -1,0 +1,799 @@
+{
+  "region": "fi",
+  "vocab": {
+    "fi": {
+      "bank": [
+        {
+          "term": "verkkopankki",
+          "en": "online banking, also the mobile pankkisovellus"
+        },
+        {
+          "term": "pankkitunnukset",
+          "en": "bank credentials used both for the bank and for Suomi.fi login"
+        },
+        {
+          "term": "MobilePay",
+          "en": "still a common way to send a small amount to a number in Finland"
+        },
+        {
+          "term": "Siirto",
+          "en": "the bank-backed instant payment app, often named alongside MobilePay"
+        },
+        {
+          "term": "tilisiirto",
+          "en": "a credit transfer"
+        },
+        {
+          "term": "tili",
+          "en": "a bank tili, opened with pankkitunnukset or in the verkkopankki"
+        },
+        {
+          "term": "saldo",
+          "en": "the saldo in a Finnish verkkopankki"
+        },
+        {
+          "term": "pankkikortti",
+          "en": "a pankkikortti, the usual debit card at Finnish tills"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "pakettiautomaatti",
+          "en": "a Posti locker; opened with an avauskoodi from OmaPosti or a text"
+        },
+        {
+          "term": "noutopiste",
+          "en": "a shop pickup point"
+        },
+        {
+          "term": "Posti",
+          "en": "the national carrier people usually name"
+        },
+        {
+          "term": "OmaPosti",
+          "en": "the app where arrival notices and locker codes appear"
+        },
+        {
+          "term": "Helposti-koodi",
+          "en": "the sending code written on a parcel at the locker"
+        },
+        {
+          "term": "naapuri",
+          "en": "the naapuri, a fallback if a Posti pakettiautomaatti pickup is missed"
+        },
+        {
+          "term": "ulko-ovi",
+          "en": "the front door, also oven eteen"
+        }
+      ],
+      "government": [
+        {
+          "term": "Suomi.fi",
+          "en": "the national identification and messages portal"
+        },
+        {
+          "term": "henkilötunnus",
+          "en": "the personal identity code, also hetu; do not read it out unless the owner has asked"
+        },
+        {
+          "term": "Kela",
+          "en": "the social-insurance institution, also FPA in Swedish-speaking speech"
+        },
+        {
+          "term": "Maistraatti or DVV",
+          "en": "the Digital and Population Data Services Agency, often still called maistraatti"
+        },
+        {
+          "term": "verokortti",
+          "en": "the tax card"
+        },
+        {
+          "term": "passi",
+          "en": "a Finnish passi"
+        },
+        {
+          "term": "ajokortti",
+          "en": "a Finnish ajokortti"
+        }
+      ],
+      "health": [
+        {
+          "term": "terveyskeskus",
+          "en": "the municipal health centre, also TK"
+        },
+        {
+          "term": "apteekki",
+          "en": "an apteekki, where an e-resepti from Kanta is filled"
+        },
+        {
+          "term": "resepti",
+          "en": "a prescription, also e-resepti in Kanta"
+        },
+        {
+          "term": "Omakanta",
+          "en": "the national health-record login"
+        },
+        {
+          "term": "päivystys",
+          "en": "emergency or out-of-hours care"
+        },
+        {
+          "term": "Kela-kortti",
+          "en": "the social-insurance card, still sometimes asked for"
+        },
+        {
+          "term": "työterveys",
+          "en": "occupational health, a very common route to a doctor in Finland"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "liittymä",
+          "en": "a mobile subscription"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid credit, also prepaid-liittymä"
+        },
+        {
+          "term": "numeronsiirto",
+          "en": "numeronsiirto, taking the number to Elisa, Telia or DNA"
+        },
+        {
+          "term": "SIM-kortti",
+          "en": "a Finnish SIM-kortti"
+        },
+        {
+          "term": "operaattori",
+          "en": "the operator, often Elisa, Telia or DNA"
+        },
+        {
+          "term": "mobiilidata",
+          "en": "mobiilidata on a Finnish liittymä"
+        },
+        {
+          "term": "laajakaista",
+          "en": "laajakaista, a Finnish home broadband line"
+        }
+      ],
+      "payment": [
+        {
+          "term": "MobilePay",
+          "en": "everyday person-to-person payment"
+        },
+        {
+          "term": "Siirto",
+          "en": "instant payment between participating banks"
+        },
+        {
+          "term": "kortti",
+          "en": "a payment kortti at a Finnish till, often lähimaksu"
+        },
+        {
+          "term": "käteinen",
+          "en": "käteinen in euro, now secondary to a kortti or MobilePay"
+        },
+        {
+          "term": "tilisiirto",
+          "en": "a bank transfer, also viitenumero on invoices"
+        },
+        {
+          "term": "lähimaksu",
+          "en": "contactless"
+        },
+        {
+          "term": "verkkomaksu",
+          "en": "paying in a webshop via the bank"
+        }
+      ],
+      "transport": [
+        {
+          "term": "HSL",
+          "en": "Helsinki-region tickets and the HSL app; other cities have their own names"
+        },
+        {
+          "term": "VR",
+          "en": "national rail"
+        },
+        {
+          "term": "bussi",
+          "en": "a bussi, in the capital often an HSL ride"
+        },
+        {
+          "term": "ratikka",
+          "en": "a tram, especially in Helsinki, also raitiovaunu"
+        },
+        {
+          "term": "metro",
+          "en": "the Helsinki metro"
+        },
+        {
+          "term": "taksi",
+          "en": "a taksi, a Finnish taxi"
+        },
+        {
+          "term": "matkakortti",
+          "en": "a travel card"
+        },
+        {
+          "term": "asema",
+          "en": "a station, also rautatieasema"
+        }
+      ],
+      "housing": [
+        {
+          "term": "asunto",
+          "en": "a flat or home"
+        },
+        {
+          "term": "rappu",
+          "en": "the stairwell, also porras"
+        },
+        {
+          "term": "ovikello",
+          "en": "the doorbell, also ovipuhelin"
+        },
+        {
+          "term": "postilaatikko",
+          "en": "the postilaatikko, not a pakettiautomaatti"
+        },
+        {
+          "term": "vuokra",
+          "en": "the vuokra paid for a flat in a taloyhtiö"
+        },
+        {
+          "term": "taloyhtiö",
+          "en": "the housing company that owns the building"
+        },
+        {
+          "term": "isännöitsijä",
+          "en": "the property manager"
+        },
+        {
+          "term": "huoltomies",
+          "en": "the caretaker, also kiinteistöhuolto"
+        }
+      ],
+      "school": [
+        {
+          "term": "päiväkoti",
+          "en": "day care"
+        },
+        {
+          "term": "esiopetus",
+          "en": "pre-primary, often the year before school"
+        },
+        {
+          "term": "peruskoulu",
+          "en": "comprehensive school"
+        },
+        {
+          "term": "lukio",
+          "en": "general upper secondary"
+        },
+        {
+          "term": "ammattikoulu",
+          "en": "vocational school, also amis"
+        },
+        {
+          "term": "läksyt",
+          "en": "läksyt from a peruskoulu or lukio"
+        },
+        {
+          "term": "opettaja",
+          "en": "a teacher, also luokanopettaja"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "euro, also euroa in spoken amounts"
+        },
+        {
+          "term": "sentti",
+          "en": "a cent, rarely handled in cash"
+        },
+        {
+          "term": "käteinen",
+          "en": "käteinen in euro, now secondary to a kortti or MobilePay"
+        },
+        {
+          "term": "vaihtoraha",
+          "en": "vaihtoraha in euro and sentti"
+        },
+        {
+          "term": "summa",
+          "en": "the summa in euro on a Finnish invoice or a MobilePay request"
+        },
+        {
+          "term": "tuhat",
+          "en": "a thousand euros, used for larger everyday sums"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "aamupäivällä",
+          "en": "aamupäivällä, before midday"
+        },
+        {
+          "term": "iltapäivällä",
+          "en": "iltapäivällä, after midday"
+        },
+        {
+          "term": "illalla",
+          "en": "illalla, in the evening"
+        },
+        {
+          "term": "arkipäivä",
+          "en": "an arkipäivä, a Finnish weekday"
+        },
+        {
+          "term": "viikonloppu",
+          "en": "viikonloppu, Saturday and Sunday"
+        },
+        {
+          "term": "töiden jälkeen",
+          "en": "töiden jälkeen, once the working day ends"
+        },
+        {
+          "term": "tällä viikolla",
+          "en": "tällä viikolla, the current week"
+        },
+        {
+          "term": "huomenna aamulla",
+          "en": "huomenna aamulla, the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "työ",
+          "en": "työ, the everyday Finnish word for a job"
+        },
+        {
+          "term": "ylityö",
+          "en": "ylityö, extra hours at a Finnish workplace"
+        },
+        {
+          "term": "loma",
+          "en": "annual leave, also vuosiloma"
+        },
+        {
+          "term": "sairausloma",
+          "en": "sairausloma, time off sick, often arranged through työterveys"
+        },
+        {
+          "term": "esihenkilö",
+          "en": "the manager, also pomo in casual speech"
+        },
+        {
+          "term": "etätyö",
+          "en": "remote work"
+        },
+        {
+          "term": "työmatka",
+          "en": "a business trip, or the daily commute depending on context"
+        },
+        {
+          "term": "palkka",
+          "en": "the palkka, paid to a Finnish tili"
+        }
+      ]
+    },
+    "sv": {
+      "bank": [
+        {
+          "term": "nätbanken",
+          "en": "online banking in Finland-Swedish speech"
+        },
+        {
+          "term": "bankkoder",
+          "en": "bank codes used also for Suomi.fi identification"
+        },
+        {
+          "term": "MobilePay",
+          "en": "still widely named for a transfer to a number"
+        },
+        {
+          "term": "Siirto",
+          "en": "the bank instant-pay app used in Finland, not Swish"
+        },
+        {
+          "term": "konto",
+          "en": "a bankkonto in Finland, reached with bankkoder rather than Swedish BankID"
+        },
+        {
+          "term": "saldo",
+          "en": "the saldo in a Finland-Swedish nätbanken"
+        },
+        {
+          "term": "bankkort",
+          "en": "a bankkort used at Finnish tills"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "paketautomat",
+          "en": "a Posti locker"
+        },
+        {
+          "term": "avhämtningsställe",
+          "en": "a pickup point, also noutopiste said in Finnish even in mixed speech"
+        },
+        {
+          "term": "Posti",
+          "en": "the carrier's name stays Posti in Swedish too"
+        },
+        {
+          "term": "OmaPosti",
+          "en": "the app for notices and locker codes"
+        },
+        {
+          "term": "grannen",
+          "en": "the grannen, a fallback if a Posti paketautomat is missed"
+        },
+        {
+          "term": "ytterdörren",
+          "en": "the front door"
+        }
+      ],
+      "government": [
+        {
+          "term": "Suomi.fi",
+          "en": "the same national login, also used in Swedish"
+        },
+        {
+          "term": "personbeteckning",
+          "en": "the Finnish personal identity code; do not recite it unless asked"
+        },
+        {
+          "term": "FPA",
+          "en": "Kela's Swedish name, Folkpensionsanstalten"
+        },
+        {
+          "term": "skattekort",
+          "en": "the tax card, also verokortti"
+        },
+        {
+          "term": "pass",
+          "en": "a Finnish pass, the same document as passi"
+        },
+        {
+          "term": "körkort",
+          "en": "a Finnish körkort"
+        }
+      ],
+      "health": [
+        {
+          "term": "hälsovårdscentral",
+          "en": "the municipal health centre, also hälsocentral"
+        },
+        {
+          "term": "apotek",
+          "en": "an apotek in Finland, where an e-recept via Mina Kanta-sidor is filled"
+        },
+        {
+          "term": "recept",
+          "en": "a prescription, also e-recept via Kanta"
+        },
+        {
+          "term": "Mina Kanta-sidor",
+          "en": "the Swedish name often used for Omakanta"
+        },
+        {
+          "term": "jour",
+          "en": "out-of-hours or emergency care"
+        },
+        {
+          "term": "FPA-kort",
+          "en": "the FPA-kort, Kela's card in Swedish-speaking Finland"
+        },
+        {
+          "term": "företagshälsovård",
+          "en": "occupational health, very common in Finland"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "abonnemang",
+          "en": "a mobile abonnemang with Elisa, Telia or DNA"
+        },
+        {
+          "term": "prepaid",
+          "en": "a prepaid liittymä in Finland, topped up in euro"
+        },
+        {
+          "term": "nummerflyttning",
+          "en": "nummerflyttning between Finnish operators, not a Swedish number port"
+        },
+        {
+          "term": "SIM-kort",
+          "en": "a SIM-kort on a Finnish subscription"
+        },
+        {
+          "term": "operatör",
+          "en": "the operator, Elisa, Telia or DNA"
+        },
+        {
+          "term": "mobildata",
+          "en": "mobildata on a Finnish abonnemang"
+        }
+      ],
+      "payment": [
+        {
+          "term": "MobilePay",
+          "en": "everyday person-to-person payment in Finland"
+        },
+        {
+          "term": "Siirto",
+          "en": "instant bank payment, not a Swedish Swish transfer"
+        },
+        {
+          "term": "kort",
+          "en": "a payment kort at a Finnish till"
+        },
+        {
+          "term": "kontant",
+          "en": "kontant in euro, less used than MobilePay or Siirto in Finland"
+        },
+        {
+          "term": "girering",
+          "en": "a credit transfer, also referensnummer on bills"
+        },
+        {
+          "term": "kontaktlös",
+          "en": "contactless"
+        }
+      ],
+      "transport": [
+        {
+          "term": "HRT",
+          "en": "HSL's Swedish abbreviation in the capital region"
+        },
+        {
+          "term": "VR",
+          "en": "national rail, the same letters"
+        },
+        {
+          "term": "buss",
+          "en": "a buss, in the capital often an HRT or HSL ride"
+        },
+        {
+          "term": "spårvagn",
+          "en": "a spårvagn, a tram in Helsinki or another Finnish city that has one"
+        },
+        {
+          "term": "metro",
+          "en": "the Helsinki metro"
+        },
+        {
+          "term": "taxi",
+          "en": "a taxi in Finland"
+        },
+        {
+          "term": "resekort",
+          "en": "a travel card"
+        }
+      ],
+      "housing": [
+        {
+          "term": "lägenhet",
+          "en": "a lägenhet in a bostadsaktiebolag"
+        },
+        {
+          "term": "trappuppgång",
+          "en": "the trappuppgång of a Finnish housing-company building"
+        },
+        {
+          "term": "dörrklocka",
+          "en": "the dörrklocka at the trapphus"
+        },
+        {
+          "term": "brevlåda",
+          "en": "the brevlåda, not a Posti locker"
+        },
+        {
+          "term": "hyra",
+          "en": "the hyra for a Finnish lägenhet"
+        },
+        {
+          "term": "bostadsaktiebolag",
+          "en": "the housing company, also husbolaget"
+        },
+        {
+          "term": "disponent",
+          "en": "the property manager, Finland-Swedish for isännöitsijä"
+        }
+      ],
+      "school": [
+        {
+          "term": "daghem",
+          "en": "day care, also dagis"
+        },
+        {
+          "term": "förskola",
+          "en": "pre-primary"
+        },
+        {
+          "term": "grundskola",
+          "en": "comprehensive school"
+        },
+        {
+          "term": "gymnasium",
+          "en": "upper secondary in the Finland-Swedish system"
+        },
+        {
+          "term": "yrkesskola",
+          "en": "yrkesskola, vocational school in the Finland-Swedish system"
+        },
+        {
+          "term": "läxor",
+          "en": "läxor from a finlandssvensk grundskola or gymnasium"
+        },
+        {
+          "term": "lärare",
+          "en": "a teacher"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "euro"
+        },
+        {
+          "term": "cent",
+          "en": "eurocent, rarely handled as cash in Finland"
+        },
+        {
+          "term": "kontanter",
+          "en": "kontanter in euro in Finland-Swedish speech"
+        },
+        {
+          "term": "växel",
+          "en": "växel in euro at a Finnish till"
+        },
+        {
+          "term": "summa",
+          "en": "the summa in euro, Finland-Swedish wording on a bill or a Siirto request"
+        },
+        {
+          "term": "tusen",
+          "en": "tusen euro, a thousand euros in Finland-Swedish speech"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "på förmiddagen",
+          "en": "på förmiddagen, before midday"
+        },
+        {
+          "term": "på eftermiddagen",
+          "en": "på eftermiddagen, after midday"
+        },
+        {
+          "term": "på kvällen",
+          "en": "på kvällen, in the evening"
+        },
+        {
+          "term": "vardag",
+          "en": "a vardag, a weekday in Finland-Swedish"
+        },
+        {
+          "term": "veckoslut",
+          "en": "the weekend, also helg"
+        },
+        {
+          "term": "efter jobbet",
+          "en": "efter jobbet, once the working day ends"
+        },
+        {
+          "term": "den här veckan",
+          "en": "den här veckan, the current week"
+        },
+        {
+          "term": "i morgon bitti",
+          "en": "i morgon bitti, early the next morning, a Finland-Swedish habit of speech"
+        }
+      ],
+      "work": [
+        {
+          "term": "jobb",
+          "en": "work, also arbete"
+        },
+        {
+          "term": "övertid",
+          "en": "övertid, extra hours at a Finnish workplace"
+        },
+        {
+          "term": "semester",
+          "en": "semester, the yearly leave in Finland"
+        },
+        {
+          "term": "sjukledighet",
+          "en": "sjukledighet, often arranged through företagshälsovård"
+        },
+        {
+          "term": "chef",
+          "en": "the chef at a Finnish workplace, also called esihenkilö in Finnish"
+        },
+        {
+          "term": "distansarbete",
+          "en": "remote work"
+        },
+        {
+          "term": "tjänsteresa",
+          "en": "a tjänsteresa, a work trip from a Finnish employer"
+        },
+        {
+          "term": "lön",
+          "en": "the lön paid to a Finnish konto"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Swish",
+      "use_instead": "MobilePay, Siirto",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "BankID",
+      "use_instead": "pankkitunnukset, Suomi.fi-tunnistautuminen",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "personnummer 當芬蘭說法",
+      "use_instead": "henkilötunnus, personbeteckning",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "PostNord pakkeshop",
+      "use_instead": "pakettiautomaatti, noutopiste, Posti",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Försäkringskassan",
+      "use_instead": "Kela, FPA",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "pankkitunnukset, Suomi.fi",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "MobilePay, Siirto, tilisiirto",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "HSL 套用到全國所有城市",
+      "use_instead": "其他城市用自己的名稱，如 Tampere Nysse、Turku Föli",
+      "where_it_is_from": "FI"
+    },
+    {
+      "word": "BankID med QR 瑞典用法",
+      "use_instead": "pankkitunnukset 或 mobiilivarmenne",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Vipps",
+      "use_instead": "MobilePay, Siirto",
+      "where_it_is_from": "NO"
+    }
+  ],
+  "sources": [
+    "https://www.posti.fi/lahettaminen/paketit/pakettiautomaatit",
+    "https://www.posti.fi/lahettaminen/paketit/ohjeet-paketin-lahettamiseen",
+    "https://www.posti.fi/omaposti/oma-postin-kayttoohjeet",
+    "https://www.kela.fi/e-services",
+    "https://www.suomi.fi/",
+    "https://www.kanta.fi/",
+    "https://www.hsl.fi/"
+  ],
+  "uncertain": [
+    "MobilePay 與 Siirto 在芬蘭並存，年輕族群兩者都會說，不要預設只有一種。",
+    "瑞典語組是芬蘭瑞典語用法（FPA、disponent、HRT），不是瑞典本國的 BankID／Swish。",
+    "HSL／HRT 只覆蓋首都圈，不可當成全國交通卡。"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "country": "vg",
+  "parent": "us",
+  "name": {
+    "en": "British Virgin Islands",
+    "native": "British Virgin Islands",
+    "zh": "英屬維京群島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good afternoon",
+    "hello_again": "Good afternoon, hello?"
+  },
+  "delivery": {
+    "en": "Use the local post or a courier; official BVI doorstep rules were not found. Money is in US dollars",
+    "zh": "可走當地郵局或快遞；官方上門規則沒找到。貨幣是美元"
+  },
+  "readback": {
+    "en": "After 284, numbers go 3-3-4; 0 as zero; US dollars, not EC dollars; 12-hour time; day first",
+    "zh": "284 號碼照 3-3-4 唸，0 唸 zero；美元非東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A WhatsApp message fishing for personal or banking details, as BVI government has warned, is a scam",
+    "zh": "WhatsApp 用話術套取個人或銀行資料，英屬維京群島政府已警示，都是詐騙"
+  },
+  "habits": {
+    "en": "British-Caribbean and a little formal, but amounts are in US dollars. Say mobile, not cell. Day before month.",
+    "zh": "英式加勒比、稍正式，但金額用美元。說 mobile 不說 cell。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The bank app will not let me approve a transfer, and I have no official postal tracking just now.",
+    "zh": "銀行 App 不讓我核准轉帳，而且手邊暫時沒有官方郵政查件可對。"
+  },
+  "vocab": {
+    "bank": [
+      "US dollars",
+      "debit card",
+      "transfer",
+      "online banking"
+    ],
+    "delivery": [
+      "post office",
+      "courier",
+      "collection",
+      "WhatsApp"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "East Caribbean dollars",
+      "reason": {
+        "zh": "鄰近 ECCU 島嶼的貨幣；英屬維京群島用美元"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是本地政府警示裡的正規付款方式"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國聯邦健保，不宜直接套用"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More formal than US small talk, in British-Caribbean English, but quote dollars, not EC dollars. Be cautious with WhatsApp requests for data.",
+    "zh": "比美國閒聊正式，用英式加勒比英語，但金額說美元，不是東加勒比元。對 WhatsApp 要資料要謹慎。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.bvi.gov.vg/"
+  ],
+  "uncertain": [
+    "只有一則政府 WhatsApp 警示作為本地防詐主來源，郵政投遞細節不足。",
+    "日期口頭順序依英式習慣推得。"
+  ]
+}

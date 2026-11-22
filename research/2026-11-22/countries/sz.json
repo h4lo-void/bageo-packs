@@ -1,0 +1,50 @@
+{
+  "country": "sz",
+  "parent": "za",
+  "name": {
+    "en": "Eswatini",
+    "native": "Eswatini",
+    "zh": "史瓦帝尼"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+268",
+    "currency": "里蘭吉尼 SZL，與蘭特 1:1 掛鉤，蘭特也可使用",
+    "time_zone": "UTC+2，與南非相同",
+    "language": "史瓦濟語與英語皆官方；寒暄常用 sawubona",
+    "name": "2018 年由 Swaziland 改名為 Eswatini"
+  },
+  "habits": {
+    "en": "Follow siSwati callers (sawubona). Say Eswatini, not Swaziland. Emalangeni or rand both work; wallet: MTN MoMo.",
+    "zh": "對方說史瓦濟語就跟著說（如 sawubona）。國名說 Eswatini，不說 Swaziland。里蘭吉尼與蘭特都能用；行動錢包常見 MTN MoMo。"
+  },
+  "vocab": {
+    "bank": [
+      "emalangeni",
+      "rand",
+      "MTN MoMo"
+    ],
+    "delivery": [
+      "PO box"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Swaziland",
+      "reason": {
+        "zh": "2018 年已改名 Eswatini"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.esccom.org.sz/",
+    "https://www.centralbank.org.sz/",
+    "https://en.wikipedia.org/wiki/Swazi_lilangeni",
+    "https://en.wikipedia.org/wiki/Eswatini"
+  ],
+  "uncertain": [
+    "MTN MoMo 以外的行動錢包使用情形未查。",
+    "到府投遞普及度沒有資料。"
+  ]
+}

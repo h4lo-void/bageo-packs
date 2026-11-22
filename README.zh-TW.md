@@ -8,12 +8,15 @@ English: [README.md](README.md).
 
 ## 裡面有什麼
 
-- `regions/<代號>.json`：一個地區一個檔（目前 74 區）。國家、語言、包裹習慣、號碼與時間唸法、當地用詞、本人與助理各 5 格講話風格，以及陪聊細節。
+- `regions/<代號>.json`：一個地區一個檔（目前 92 區）。國家、語言、包裹習慣、號碼與時間唸法、當地用詞、本人與助理各 5 格講話風格，以及陪聊細節。
+- `places/<代號>.json`：各地店家、診所等接電話時常問的事，給 AI 代打電話用（89 區）。
+- `regions_multilang.json`：地區的第二語言版本，包含接聽語、習慣與講話風格（69 組）。
 - `languages/<代號>/`：額外語言與共通層（70 種譯語）。包含 `call.json`、`names.json`、`notify.json`、`desktop.json`、`console.json` 與 `_review.json`（手機 APK 的多國語言已直接內建於 `bageo-call` 的 APK 中）。
 - `art/<地區>.json`：64 區非內建八哥小動畫 SVG 資料，控制台在該區通過審閱後按需下載。
-- `scams/`：隔離出來的各國電信詐騙資料（`country_scams.json` 與 `countries/<國碼>.json`，共 112 國）與核心九語以外的詐騙／正常來電關鍵字（`keywords.json`）。
+- `scams/`：隔離出來的各國電信詐騙資料（`country_scams.json` 與 `countries/<國碼>.json`，共 205 國）與核心九語以外的詐騙／正常來電關鍵字（`keywords.json`）。
 - `voices/`：各地區語音包試聽／拒接台詞（`lines.json`）與語音包索引（`bageo-voices-index.json`）。
 - `prompts/<語言>.json`：改寫過的提示詞，也就是通話中 Bageo 交代 AI 的話。只放要跟 Bageo 內建不一樣的那幾段，見 [prompts/README.zh-TW.md](prompts/README.zh-TW.md)。
+- `research/<日期>/`：Bageo 還沒讀取的研究資料，說明見該資料夾的 README。
 - `source/`：英文原文、說明與固定用詞表（`glossary.json`）。請勿直接改這裡（原文由 `bageo-call` 同步）。
 - `templates/`：新增地區、語言或名稱檔的範本。
 

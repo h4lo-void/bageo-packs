@@ -1,0 +1,156 @@
+{
+  "lang": "ca",
+  "script": "latin",
+  "common_words": [
+    "què",
+    "és",
+    "amb",
+    "això",
+    "sí",
+    "jo",
+    "meu",
+    "meva",
+    "vaig",
+    "aquest",
+    "aquesta",
+    "ens",
+    "quan",
+    "res",
+    "només",
+    "on",
+    "sóc",
+    "estic",
+    "ets",
+    "us",
+    "ell",
+    "teu",
+    "puc",
+    "perquè",
+    "avui",
+    "demà",
+    "ahir",
+    "mati",
+    "vespre",
+    "sempre",
+    "mai",
+    "número",
+    "adreça",
+    "metge",
+    "comanda",
+    "necessito",
+    "vull",
+    "gràcies",
+    "si us plau",
+    "hola",
+    "adéu",
+    "bon dia",
+    "molt",
+    "aquí",
+    "allà",
+    "encara",
+    "tampoc",
+    "ningú",
+    "aquesta tarda",
+    "de res"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ca/ca_50k.txt",
+  "shared_words": [
+    {
+      "word": "que",
+      "also_in": [
+        "es",
+        "fr",
+        "pt",
+        "gl"
+      ]
+    },
+    {
+      "word": "de",
+      "also_in": [
+        "es",
+        "fr",
+        "pt",
+        "gl",
+        "it"
+      ]
+    },
+    {
+      "word": "la",
+      "also_in": [
+        "es",
+        "fr",
+        "it",
+        "gl"
+      ]
+    },
+    {
+      "word": "el",
+      "also_in": [
+        "es",
+        "gl"
+      ]
+    },
+    {
+      "word": "no",
+      "also_in": [
+        "es",
+        "pt",
+        "it"
+      ]
+    },
+    {
+      "word": "i",
+      "also_in": [
+        "it"
+      ]
+    },
+    {
+      "word": "un",
+      "also_in": [
+        "es",
+        "fr",
+        "pt"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "l·l",
+    "à",
+    "è",
+    "ò"
+  ],
+  "confusable_with": [
+    "es",
+    "fr",
+    "gl",
+    "pt",
+    "it"
+  ],
+  "how_to_tell_apart": "Catalan is most often confused with Spanish or French. The geminated letter l·l and the grave vowels à, è and ò (Spanish would write á, é, ó) are strong written cues, together with què, jo, sóc, vaig, això, gràcies, si us plau, demà and metge. Spanish would show qué, yo, soy, gracias and mañana; French would show je, suis, merci and demain. Shared que, de, la, el and no must not be used as evidence. Galician is closer to Portuguese than to Catalan once unha, non and ñ appear.",
+  "test_said": [
+    "A l'ajuntament vull demanar el volant d'empadronament per a un tràmit d'escola.",
+    "El pastís el volia recollir dimarts perquè dilluns al matí tanqueu.",
+    "La maleta s'ha quedat a l'estació i pregunto on la puc recuperar avui.",
+    "El sofà l'han de fer entrar pel pati perquè l'escala del bloc és estreta.",
+    "A l'òptica necessito hora perquè les ulleres ja no em corregeixen bé.",
+    "El pediatra va dir que la vacuna es podia posar cap al final d'aquest mes.",
+    "Un sistema d'alarma nou no el vull contractar i ja en tenim un que funciona.",
+    "La fibra òptica ja la tinc contractada així que no m'oferiu un altre operador."
+  ],
+  "test_not_enough": [
+    "Jordi",
+    "ok",
+    "vuit",
+    "film"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ca/ca_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Catalan_orthography",
+    "https://www.iec.cat/"
+  ],
+  "uncertain": [
+    "Valencian official spelling is very close to Catalan and is not given a separate code in this task, so a short Valencian call may be labelled ca.",
+    "The geminated l·l is decisive when it appears, but many everyday words never contain it, so vowel graves and function words still matter."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "country": "yt",
+  "parent": "fr",
+  "name": {
+    "en": "Mayotte",
+    "native": "Mayotte",
+    "zh": "馬約特"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour, the letterbox, or a La Poste office",
+    "zh": "包裹交給鄰居、放進信箱，或到郵局領"
+  },
+  "readback": {
+    "en": "Landlines start 0269 and mobiles 0639; shares +262 with Réunion; ten-digit pairs; 0 as zéro; euros.",
+    "zh": "市話 0269，手機 0639；與留尼旺同屬 +262。兩位一組，0 唸 zéro；歐元。"
+  },
+  "fraud": {
+    "en": "A fake La Poste message about a parcel fee, a contest or a secret code is a scam",
+    "zh": "自稱馬約特 La Poste 要補地址或點付款連結的，都是詐騙。"
+  },
+  "habits": {
+    "en": "Vous by default; keep a respectful tone. Locals may mix Shimaore or Kibushi; a salaam may be heard. AI uses French.",
+    "zh": "預設 vous，語氣偏尊重。當地常夾雜希馬奧勒語或 Kibushi，也可能聽到問安；AI 只講法語。"
+  },
+  "stall_local": {
+    "en": "The power is out after a storm, and I cannot get the bank app to open.",
+    "zh": "剛碰上停電，而且銀行 App 怎麼都打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "appli bancaire",
+      "virement",
+      "code secret"
+    ],
+    "delivery": [
+      "La Poste",
+      "boîte aux lettres",
+      "voisin",
+      "bureau de poste"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "把克里奧爾語當AI用語",
+      "reason": {
+        "zh": "希馬奧勒語、Kibushi 與克里奧爾語都不在支援清單，只能當當地夾雜詞，AI 講法語。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the parent's vous/tu scale, but stay a little more formal at levels 1–3 than in Réunion; tu only once clearly offered. Levels 4–5 stay polished vous. Do not switch into Shimaore or Arabic.",
+    "zh": "vous／tu 分檔照所屬地區，但 1～3 格比留尼旺更穩重，對方明確改 tu 再跟上。4～5 格維持得體 vous。不要改講希馬奧勒語或阿拉伯語。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.linfokwezi.fr/la-poste-de-mayotte-signale-des-tentatives-darnaque/",
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste",
+    "https://www.routard.com/fr/guide/a/vie-pratique/afrique/mayotte",
+    "https://www.arcep.fr/uploads/tx_gspublication/consultation-plan-de-numerotation-2025_Annexe-1-modifiee-diff-officiel.pdf"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "日常是否比本土法國更常用 vous，缺少大型語料，僅作謹慎方向。",
+    "點 relais 在馬約特的普及程度未核對，delivery 只寫鄰居、信箱與郵局。",
+    "0269／0639 分組唸法未找到當地電信專文。",
+    "十位號碼、兩位一組與 0 唸 zéro、用歐元，與法國本土及留尼旺是同一套號碼制度；此檔已改寫並寫出馬約特市話 0269、手機 0639。國碼 +262 與留尼旺共用。",
+    "ARCEP 附件將 0639（06390 至 06398 等區塊）列為馬約特行動號碼，留尼旺手機則為 0692 與 0693。"
+  ]
+}

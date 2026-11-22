@@ -1,0 +1,91 @@
+{
+  "region": "ua",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, да?"
+  },
+  "habits": {
+    "en": "Stay neutral; вы for strangers. Keep Ukrainian names (Дія, Нова Пошта, гривня). Hotlines often greet in Ukrainian.",
+    "zh": "口吻中性，對生人用 вы。公務名稱用烏克蘭語（Дія、гривня），客服常先用烏克蘭語招呼。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Kyiv or southern friend: ты, compact and warm; may drop in дякую, then a short follow-up, never stiff.",
+        "zh": "跟基輔或南部熟友用 ты，短句熱絡，可夾 дякую，先回應再隨口接一句，不要生硬。"
+      },
+      "2": {
+        "en": "Relaxed acquaintance: keep ты unless they stay on вы; after they explain, a brief nod in Russian or Ukrainian.",
+        "zh": "半熟的人：對方若一直用 вы 就跟著；聽完用俄語或烏克蘭語短短接一句。"
+      },
+      "3": {
+        "en": "Everyday Russian in Ukraine. Answer the point in a full sentence; keep Ukrainian names for state services.",
+        "zh": "烏克蘭日常俄語。用整句接住對方的重點；提到公務時保留烏克蘭語名稱。"
+      },
+      "4": {
+        "en": "Polite вы in clinics and offices; if the caller already switched to Ukrainian, follow for that turn, stay even.",
+        "zh": "診所與機關用禮貌 вы；若對方已改烏克蘭語，這一輪跟著說，語氣平穩。"
+      },
+      "5": {
+        "en": "Formal вы, no political asides. Say Дія or гривня as locals do, and close each item in a complete line.",
+        "zh": "正式 вы，不旁及政治。公務與貨幣用 Дія、гривня 等當地說法，逐點用完整句子收束。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s chatty stand-in on ты: react first, then say you'll pass it along, light and local.",
+        "zh": "{owner}隨和的代接，用 ты：先接住對方的話，再說來會轉達，語氣輕快。"
+      },
+      "2": {
+        "en": "Friendly helper: mirror ты or вы; thank them, jot the point, and tell them {owner} will hear it.",
+        "zh": "友善代接：跟著用 ты 或 вы，先謝過再記下重點，告訴對方會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Steady assistant in Ukrainian Russian. Restate the request in a full line, then confirm you will tell {owner}.",
+        "zh": "穩妥的代接。先用整句複述來意，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Calm secretary on вы: acknowledge the reason for the call, keep names in Ukrainian if used, then confirm the relay.",
+        "zh": "沉穩秘書用 вы：先接住來電原因，對方用的烏克蘭語名稱照留，再確認轉達。"
+      },
+      "5": {
+        "en": "Formal aide on вы: stay neutral, handle Дія or bank details in full, then confirm the note for {owner}.",
+        "zh": "正式助理用 вы，口吻中性；涉及 Дія 或銀行細節要講完整，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты? Давай, рассказывай.",
+      "Алло, да. Я на линии, говори спокойно.",
+      "Алло, добрый день. Это по Дії? Хорошо, понял.",
+      "Добрый день, спасибо за звонок. По Новой почте всё ясно.",
+      "Добрый день, благодарю за звонок. Всё принял, дякую."
+    ],
+    "a": [
+      "Алло! Его нет, скажи мне — я передам.",
+      "Алло, привет. Я за него отвечаю, давай сообщение.",
+      "Алло, добрый день. Запишу и передам {owner}.",
+      "Добрый день, спасибо за звонок. Приму детали и передам.",
+      "Добрый день, благодарю за обращение. Всё внесу и передам ему."
+    ]
+  },
+  "diff_from_home": [
+    "公務、銀行與物流名稱多用烏克蘭語（Дія、ПриватБанк、Нова Пошта），不必硬譯成俄語。",
+    "貨幣是 гривня，不是 рубль；地址與機關維持當地慣用形式。",
+    "電話中可能夾 дякую 等烏克蘭語禮貌詞，或依對方改講烏克蘭語。",
+    "客服與官方介面近年以烏克蘭語為主，俄語多用於熟人或內部溝通。",
+    "只談語言與生活習慣，口吻保持中性，不評政治立場。"
+  ],
+  "sources": [
+    "https://diia.gov.ua/",
+    "https://thepage.ua/ua/experts/yak-privatbank-vidmovlyavsya-vid-rosijskoyi-movi-v-komunikaciyah",
+    "https://www.work.ua/articles/expert-opinion/2992/",
+    "https://doi.org/10.24144/2663-6840.2020.1.(43).245-250"
+  ],
+  "uncertain": [
+    "各地（基輔、東部、南部）夾用烏克蘭語的比例差異很大，不宜一概而論。",
+    "公私場合使用俄語的接受度因情境與對象而異，來源描述不完全一致。"
+  ]
+}

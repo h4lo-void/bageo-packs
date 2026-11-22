@@ -1,0 +1,137 @@
+{
+  "lang": "ur",
+  "script": "arabic",
+  "common_words": [
+    "میں",
+    "آپ",
+    "تم",
+    "وہ",
+    "ہم",
+    "نہیں",
+    "ہاں",
+    "شکریہ",
+    "براہ کرم",
+    "سلام",
+    "اللہ حافظ",
+    "آج",
+    "کل",
+    "صبح",
+    "شام",
+    "کیوں",
+    "کیسے",
+    "کہاں",
+    "کیا",
+    "یہ",
+    "ہے",
+    "ہوں",
+    "کا",
+    "کے",
+    "کی",
+    "سے",
+    "اور",
+    "لیکن",
+    "اگر",
+    "بہت",
+    "اب",
+    "نمبر",
+    "پتہ",
+    "ڈاکٹر",
+    "آرڈر",
+    "چاہتا",
+    "سکتا",
+    "یہاں",
+    "وہاں",
+    "ابھی",
+    "پہلے",
+    "بعد",
+    "ہمیشہ",
+    "کبھی نہیں",
+    "ضرورت",
+    "براہِ کرم",
+    "مہربانی",
+    "جی",
+    "ٹھیک",
+    "ابھی نہیں"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) has no ur_50k.txt, but does publish a full Urdu list: https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ur/ur_full.txt",
+  "shared_words": [
+    {
+      "word": "میں",
+      "also_in": [
+        "fa"
+      ]
+    },
+    {
+      "word": "سے",
+      "also_in": [
+        "fa",
+        "ar"
+      ]
+    },
+    {
+      "word": "اور",
+      "also_in": [
+        "ar"
+      ]
+    },
+    {
+      "word": "کا",
+      "also_in": [
+        "ar"
+      ]
+    },
+    {
+      "word": "کی",
+      "also_in": [
+        "ar"
+      ]
+    },
+    {
+      "word": "کیا",
+      "also_in": [
+        "ar"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ٹ",
+    "ڈ",
+    "ڑ",
+    "ں",
+    "ے"
+  ],
+  "confusable_with": [
+    "fa",
+    "ar",
+    "ps",
+    "sd"
+  ],
+  "how_to_tell_apart": "Urdu is closest to Persian in script and to Hindi in spoken vocabulary, but in this Arabic-script set the letters ٹ, ڈ, ڑ, ں and especially final ے are the clean identifiers, along with ہوں, آپ, نہیں, شکریہ, براہ کرم, کہاں, کیسے and اللہ حافظ. Persian lacks those letters and uses است/نیست and لطفا; Arabic uses أنا/هل/شكرا and ة; Pashto and Sindhi have their own additional letters (ې/ښ, ٻ/ٺ and so on). Shared کا, کی, اور and کیا-looking strings can appear in Arabic too and should not decide the language.",
+  "test_said": [
+    "یونین کونسل سے رہائش کا سرٹیفکیٹ لینا ہے جو سکول میں جمع کرانا ہے۔",
+    "دواخانے سے پوچھ رہا ہوں کہ کھانسی کی شربت آج شام تک مل جائے گی یا نہیں۔",
+    "کارگو کی ڈلیوری سسٹم میں دکھائی دے رہی ہے مگر مجھے اب تک اطلاع نہیں ملی۔",
+    "واشنگ مشین کا ڈبہ ایک طرف سے پھٹا ہوا آیا ہے اور میں اسے بدلوانا چاہتا ہوں۔",
+    "کلینک میں تین دن سے بخار ہے اس لیے آج دوپہر معائنہ کرانا چاہتا ہوں۔",
+    "خون کے ٹیسٹ کی رپورٹ جمعرات تک آنی تھی اور اب تک موصول نہیں ہوئی۔",
+    "اس کال پر نئی انشورنس نہیں لوں گا اور ذاتی تفصیل بھی نہیں بتاؤں گا۔",
+    "موبائل کا پیکیج اس مہینے بدل چکا ہے اس لیے نیا آفر درکار نہیں۔"
+  ],
+  "test_not_enough": [
+    "نادیہ",
+    "ok",
+    "پانچ",
+    "thanks"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ur/ur_full.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Urdu_alphabet",
+    "https://en.wikipedia.org/wiki/Urdu"
+  ],
+  "uncertain": [
+    "The published FrequencyWords path is ur_full.txt, not ur_50k.txt; the latter returns 404, which is why the local /workspace/bageo/freq/ur.txt stub was unusable.",
+    "براہ کرم and براہِ کرم are the same phrase with or without a typographic izāfat; both were listed because both occur in writing.",
+    "Spoken Urdu and Hindi are close; this file only covers Urdu written in the Perso-Arabic script, not Devanagari Hindi."
+  ]
+}

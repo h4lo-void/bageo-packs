@@ -1,0 +1,116 @@
+{
+  "lang": "az",
+  "script": "latin",
+  "common_words": [
+    "mən",
+    "sən",
+    "o",
+    "biz",
+    "siz",
+    "onlar",
+    "yox",
+    "bəli",
+    "təşəkkür",
+    "zəhmət olmasa",
+    "salam",
+    "sağ ol",
+    "bu gün",
+    "sabah",
+    "dünən",
+    "səhər",
+    "axşam",
+    "niyə",
+    "necə",
+    "harada",
+    "nə",
+    "mənim",
+    "sənin",
+    "çox",
+    "də",
+    "və",
+    "üçün",
+    "kimi",
+    "deyil",
+    "heç",
+    "belə",
+    "hər",
+    "ancaq",
+    "görə",
+    "ilə",
+    "yaxşı",
+    "indi",
+    "burada",
+    "nömrə",
+    "ünvan",
+    "həkim",
+    "sifariş",
+    "istəyirəm",
+    "bilərəm",
+    "lazımdır",
+    "artıq",
+    "hələ",
+    "yenə",
+    "xahiş edirəm",
+    "bağışlayın"
+  ],
+  "frequency_source": "OPUS OpenSubtitles v2024 Azerbaijani frequencies https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/az.freq.gz (FrequencyWords 2018 has no az file). The subtitle list mixes Latin and Arabic-script tokens; only Latin forms were kept for this latin_todo item.",
+  "shared_words": [
+    {
+      "word": "və",
+      "also_in": [
+        "tr"
+      ]
+    },
+    {
+      "word": "bir",
+      "also_in": [
+        "tr"
+      ]
+    },
+    {
+      "word": "də",
+      "also_in": [
+        "tr"
+      ]
+    },
+    {
+      "word": "var",
+      "also_in": [
+        "tr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ə"
+  ],
+  "confusable_with": [
+    "tr"
+  ],
+  "how_to_tell_apart": "Azerbaijani is closest to Turkish, which already has a word list in latin_have_lists. The letter ə is the fastest written cue (Turkish does not use it). Pronouns and politeness also diverge: mən, sən, yox, bəli, təşəkkür, zəhmət olmasa, sağ ol, necə, niyə and deyil, versus Turkish ben, sen, yok, evet, teşekkür, lütfen, sağ ol (this last one is shared in form), nasıl and değil. Shared bir, və/ve-like forms and var should not be used alone. Arabic-script Azerbaijani appears in some subtitle lines and was excluded here because the task item is Latin-script.",
+  "test_said": [
+    "Bələdiyyədə qeydiyyat barədə arayış istəyirəm ki, məktəbə təqdim edim.",
+    "Aptekdən soruşuram ki, təzyiq dərmanının resepti bu axşam hazır olacaqmı?",
+    "Bağlama artıq sistemdə görünür amma şkafın qapısı kodu qəbul etmir.",
+    "Yeni dolab liftə sığmır deyə onu pilləkənlə qaldırmaq lazım gələcək.",
+    "Poliklinikada qan təzyiqimə baxmaq üçün bu həftəyə növbə istəyirəm.",
+    "Diş həkimindən ağrı üçün ən tez boş vaxtı öyrənmək istəyirəm.",
+    "Telefonla təklif olunan sığortanı götürməyəcəyəm və şəxsi məlumat verməyəcəyəm.",
+    "İnternet tarifini bu ay dəyişmişəm ona görə yeni operator təklifi lazım deyil."
+  ],
+  "test_not_enough": [
+    "Aysel",
+    "ok",
+    "beş",
+    "wow"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/az.freq.gz",
+    "https://opus.nlpl.eu/",
+    "https://en.wikipedia.org/wiki/Azerbaijani_alphabet",
+    "https://en.wikipedia.org/wiki/Azerbaijani_language"
+  ],
+  "uncertain": [
+    "sağ ol is also used in Turkish, so it is only weak evidence unless ə or mən/sən/təşəkkür is also present.",
+    "South Azerbaijani written in Arabic script is a different orthography; this file only covers the official Latin orthography."
+  ]
+}

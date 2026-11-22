@@ -1,0 +1,80 @@
+{
+  "country": "kz",
+  "parent": "ru",
+  "name": {
+    "en": "Kazakhstan",
+    "native": "Қазақстан",
+    "zh": "哈薩克"
+  },
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, меня слышно?"
+  },
+  "delivery": {
+    "en": "Parcels: the concierge, a postamat, KazPost, or a Kaspi pickup point",
+    "zh": "包裹交管理員、放包裹櫃，或到 KazPost、Kaspi 點取"
+  },
+  "readback": {
+    "en": "Mobiles go in short groups; 24-hour times; amounts in tenge",
+    "zh": "手機分短組唸；時間用 24 小時制；金額用堅戈"
+  },
+  "fraud": {
+    "en": "A fake bank or National Bank 'safe account' or code request, or a parcel SMS, is a scam",
+    "zh": "冒充銀行或央行要轉到安全帳戶、要驗證碼，或假包裹簡訊都是詐騙"
+  },
+  "habits": {
+    "en": "Russian is common in city calls; formal name plus patronymic. Not Gosuslugi or Sberbank as defaults.",
+    "zh": "都市電話常用俄語，正式稱呼用名字加父名。不要把 Госуслуги 或 Sberbank 當本地預設。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the Kaspi app showing a blank screen, missing glasses, or an old keypad phone.",
+    "zh": "卡在 Kaspi App 白畫面、找不到眼鏡，或只有舊按鍵手機。"
+  },
+  "vocab": {
+    "bank": [
+      "Kaspi",
+      "перевод",
+      "тенге"
+    ],
+    "delivery": [
+      "консьерж",
+      "постамат",
+      "KazPost"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Госуслуги",
+      "reason": {
+        "en": "Russian government-services portal",
+        "zh": "俄國政府服務入口"
+      }
+    },
+    {
+      "word": "Сбербанк",
+      "reason": {
+        "en": "Russian bank, not the usual Kazakhstan everyday brand",
+        "zh": "俄國銀行，不是哈薩克日常主要品牌"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep Вы and the patronymic. Drop Russian Gosuslugi and Sberbank as first-line terms; Kaspi is the local everyday brand. Kazakh words may appear; answer in Russian.",
+    "zh": "仍用 Вы 和父名。不要先用俄國 Госуслуги、Sberbank；日常品牌是 Kaspi。可能夾哈薩克詞，用俄語回。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://nationalbank.kz/ru/news/informacionnye-soobshcheniya/20338",
+    "https://nationalbank.kz/ru/news/informacionnye-soobshcheniya/18679",
+    "https://guide.kaspi.kz/client/ru/shop/receive/general/q1073",
+    "https://track.kazpost.kz/"
+  ],
+  "uncertain": [
+    "哈薩克語不在支援清單，故 lang 為 ru；都市電話是否已更常改用哈薩克語，此次未找到可引用的新統計。",
+    "2ГИС 在中亞也有使用，是否仍算「當地詞」未再核對，故未列入主要詞彙。",
+    "門房（консьерж）是否普遍，已打開的央行與 Kaspi 取件說明未寫，故只保留作為可能的交件方式。",
+    "24 小時制與正式場合用父名，是依俄語習慣推得，不是電信或央行規定。",
+    "Kaspi App 白畫面是日常卡關寫法，不是官方故障公告。"
+  ]
+}

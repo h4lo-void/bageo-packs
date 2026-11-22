@@ -1,0 +1,61 @@
+{
+  "name": "Cocos (Keeling) Islands",
+  "name_local": "Pulu Cocos / Cocos (Keeling) Islands",
+  "iso": "cc",
+  "calling_code": "+61",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Western Australia Consumer Protection delivers consumer services in the Indian Ocean Territories under a Service Delivery Arrangement, and tells Christmas and Cocos residents to report scams to WA ScamNet. The same office issued a 'Look out for scams' poster in Cocos Malay, which shows targeted local education rather than a loss table broken out for the atoll.",
+  "cross_border_note": "The atoll uses Australia's +61 plan with Indian Ocean Territories prefixes, so caller ID can look like a mainland Australian number. Advice may need to be adjusted once the caller says they are phoning from the Cocos (Keeling) Islands, as the WA office itself requests.",
+  "scams": [
+    {
+      "id": "cc_wascamnet_phishing_impersonation",
+      "typology": "fake_bank_account_alert",
+      "name": "WA ScamNet phishing that pretends to be a bank or service provider",
+      "name_en": "Phishing, as described by WA ScamNet for territories served by WA Consumer Protection, seeking passwords or card data after a fake account alert",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "WA ScamNet report",
+        "Indian Ocean Territories consumer service",
+        "Cocos Malay scam poster",
+        "unauthorised purchase overseas"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "confirm your card security code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "customer records wiped by a technical error",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "quote the three-digit code on the card",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "log in on this recovery site",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "WA ScamNet describes an out-of-the-blue email, text, social-media message or call that copies a bank or utility's branding, claims a foreign purchase or a lost customer file, and then asks the person to confirm a password, account number or card security code, sometimes on a look-alike web address.",
+      "legit_en": "Australian banks and the WA service do not ask Territory residents to hand over a card security code or password in an unexpected message. A real check starts from the organisation's published website or from WA ScamNet, not from the link in the message.",
+      "bait_tactics": [
+        "Say a Home Island or West Island household will only use the contact path printed by WA Consumer Protection for the Indian Ocean Territories.",
+        "Ask which Australian bank or provider is supposedly calling, then look the number up independently rather than ringing back the displayed caller ID.",
+        "Mention that a Cocos Malay official poster already tells residents to treat unexpected requests for personal data as suspect, and decline to read anything aloud from a text."
+      ],
+      "sources": [
+        "https://www.consumerprotection.wa.gov.au/indian-ocean-territories-christmas-and-cocos-keeling-islands",
+        "https://scamnet.wa.gov.au/scamnet/Scam_types-Attempts_to_gain_your_personal_information-Phishing.htm",
+        "https://www.scamwatch.gov.au/about-us/about-scamwatch"
+      ]
+    }
+  ]
+}

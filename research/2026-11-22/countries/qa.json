@@ -1,0 +1,86 @@
+{
+  "country": "qa",
+  "parent": "gulf",
+  "name": {
+    "en": "Qatar",
+    "native": "قطر",
+    "zh": "卡達"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو؟ تسمعني؟"
+  },
+  "delivery": {
+    "en": "Collect at Qatar Post, or leave the parcel at the door or with reception",
+    "zh": "到 Qatar Post 領件，或放門口、交給櫃台"
+  },
+  "readback": {
+    "en": "Eight-digit numbers go 4-4; 0 as صفر; Qatari riyals; 12-hour clock; day before month",
+    "zh": "八位號碼照 4-4 唸，0 唸 صفر；卡達里亞爾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A bank SMS that contains a link, or a Qatar Post fee or address-update text, is a scam",
+    "zh": "銀行簡訊裡帶連結，或 Qatar Post 要你付費、改地址，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم. هلا is casual. On شلونك versus شحالك, sources disagree, so follow the caller. Use riyals.",
+    "zh": "先回 السلام عليكم，隨興可說 هلا。شلونك 或 شحالك 來源不一，跟著對方。用里亞爾。"
+  },
+  "stall_local": {
+    "en": "The official bank app is asking for a new login, and Qatar Post tracking will not load.",
+    "zh": "卡在銀行正式 App 要重新登入，而且 Qatar Post 查件頁打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "ريال",
+      "تحويل",
+      "بطاقة",
+      "OTP",
+      "QCB"
+    ],
+    "delivery": [
+      "Qatar Post",
+      "الباب",
+      "الاستقبال",
+      "مندوب"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "沙烏地平台，不是卡達政府服務的名稱"
+      }
+    },
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋數位身分，卡達不要套用"
+      }
+    },
+    {
+      "word": "درهم",
+      "reason": {
+        "zh": "迪拉姆是阿聯酋貨幣；卡達說 ريال"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the five steps and brief blessings. Follow the caller's how-are-you, because published Gulf guides do not agree on Qatar. Use Qatar Post and riyal wording, not Absher, UAE Pass or dirhams.",
+    "zh": "五級與簡短祝福可沿用。問候跟著對方，因公開資料對卡達用 شلونك 還是 شحالك 並不一致。用 Qatar Post 與里亞爾，不用 أبشر、UAE Pass 或迪拉姆。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.qcb.gov.qa/en/pages/the-national-awareness-campaign-for-information-security.aspx",
+    "https://marhaba.qa/qatar-central-bank-issues-warning-against-suspicious-sms-links/",
+    "https://www.dohabank.com.qa/fraud-awareness-campaign/",
+    "https://openarabic.org/gulf-arabic-resources/",
+    "https://www.ruqeloarabic.com/arabic-dialect-bridge"
+  ],
+  "uncertain": [
+    "OpenArabic 與其他方言對照頁對卡達問候（شلونك／شحالك）說法不一致，故不預設單一問候。",
+    "卡達八碼電話怎麼分段唸，這次沒找到電信監理機關的口誦說明。",
+    "Qatar Post 官網防詐原文此次只找到官方法人帳號與銀行宣傳頁的轉述。"
+  ]
+}

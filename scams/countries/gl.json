@@ -1,0 +1,152 @@
+{
+  "name": "Greenland",
+  "name_local": "Kalaallit Nunaat / Grønland",
+  "iso": "gl",
+  "calling_code": "+299",
+  "languages": [
+    "da"
+  ],
+  "prevalence_note": "Grønlands Politi said on 20 November 2025 that it was receiving many approaches from people who had been sent a mail pretending to be a summons from Interpol-Europol and from the Danish national police leadership, used for extortion. GrønlandsBANKEN warned on 11 November 2025 of a Facebook profile using a Danish mortgage bank's name and logo to offer cheap loans, aimed especially at people in Greenland. In September 2026 both the bank and Naalakkersuisut warned of unsolicited Messenger contacts that impersonated the official contraception-compensation process. In October 2026, after an unauthorised access to civil-registration data that the government said included residents in Greenland, the bank told customers to be extra careful with unexpected calls, texts and emails, even if the sender already knew a name, address or civil-registration number.",
+  "cross_border_note": "Several of the published cases borrow the names of Danish or international bodies (a mortgage bank, the Danish national police, Interpol-Europol, or the official compensation board that uses MitID). Greenland's own country code is +299; a Danish-looking sender or a familiar logo is not proof of a genuine Nuuk office.",
+  "scams": [
+    {
+      "id": "gl_police_fake_interpol_europol_mail",
+      "typology": "fake_official",
+      "name": "Extortion email pretending to be a police or Interpol-Europol summons",
+      "name_en": "Greenland Police, 20 November 2025: mails that pretend to be a summons from Interpol-Europol and from the Danish national police, allege a serious criminal investigation, and try to obtain money through fear",
+      "prevalence": "high",
+      "lang": "da",
+      "context_keywords": [
+        "mail that names Interpol-Europol and Rigspolitiet",
+        "fake summons sent to an address in Greenland",
+        "threat of a serious criminal case",
+        "payment demanded to make the accusation go away"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "this is a summons from Interpol-Europol, pay now",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "the national police chief has opened a case against you",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay this amount or the accusation will proceed",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "open the link in this official-looking police mail",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "On 20 November 2025 Greenland Police said it was receiving many contacts from worried people who had been sent a mail purporting to be a summons from Interpol-Europol, the Danish national police and the national police commissioner. The mail claimed the recipient was a suspect in a serious case involving possession or sharing of sexual abuse material involving children. The Police stated plainly that these mails are fraud: they are sent by criminals who use extortion to try to obtain money. Recipients are told to delete the mail, not to enter into a dialogue with the sender, not to follow any links, and not to pay if money is demanded. The Police also said people who are unsure whether a mail is genuinely from them may contact Greenland Police through the official channels published on the Police site.",
+      "legit_en": "Greenland Police does not start a criminal case by sending an unsolicited mail that demands a payment or asks the recipient to follow a link in order to answer a summons. A genuine approach from the Police in Greenland can be checked on the official politi.gl channels, not by replying to the same message.",
+      "bait_tactics": [
+        "Do not reply, pay, or follow a link in a mail that claims to be a summons from Interpol-Europol or the Danish national police.",
+        "Delete the message, and if certainty is still needed, contact Greenland Police only through a channel published on the official Police site.",
+        "Warn close contacts, as the Police asked, so that the same extortion mail is recognised elsewhere."
+      ],
+      "sources": [
+        "https://politi.gl/da/politistationer/nyhedsliste/pas-paa-falske-mails-fra-politiet/2025/11/20"
+      ]
+    },
+    {
+      "id": "gl_banken_fake_nykredit_facebook_loan",
+      "typology": "loan_advance_fee",
+      "name": "Facebook profile using a Danish bank's logo to offer cheap loans in Greenland",
+      "name_en": "GrønlandsBANKEN, 11 November 2025: a Facebook profile uses Nykredit's name and logo to offer cheap loans, directed especially at people in Greenland; the bank says neither Nykredit nor GrønlandsBANKEN contacts customers on social media",
+      "prevalence": "high",
+      "lang": "da",
+      "context_keywords": [
+        "Facebook cheap loan aimed at Greenland",
+        "profile that copies a Danish mortgage-bank logo",
+        "loan offer sent through Messenger",
+        "request for bank details on Facebook"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "cheap loan from this Facebook bank profile",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send your details on Messenger to get the loan",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "Nykredit or the local bank wrote to you on Facebook",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "open this social-media link to apply",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "On 11 November 2025 GrønlandsBANKEN said it had found a Danish Facebook profile using Nykredit's name and logo to offer cheap loans, and that the profile was aimed especially at people in Greenland. The bank stressed that neither Nykredit nor GrønlandsBANKEN will ever contact customers through social media, that personal or bank information should never be shared on Facebook, and that a fake page should be reported to Facebook and not followed through its links.",
+      "legit_en": "A genuine loan from GrønlandsBANKEN or from Nykredit is not arranged through an unsolicited Facebook profile. Those banks, according to the Nuuk bank's notice, do not approach customers on social media to collect personal or account data.",
+      "bait_tactics": [
+        "Do not send personal or bank information to a Facebook profile that offers a loan, even if it uses a familiar Danish bank logo.",
+        "Do not follow the profile's links, and report the page to Facebook as the local bank advised.",
+        "If a loan is still needed, use only a channel the customer already knows from the real bank, not the social-media approach."
+      ],
+      "sources": [
+        "https://www.banken.gl/da/nyheder/2025/pas-paa-falske-facebook-profiler/"
+      ]
+    },
+    {
+      "id": "gl_spiralsagen_messenger_compensation",
+      "typology": "fake_government_subsidy",
+      "name": "Messenger contact impersonating the official contraception-compensation process",
+      "name_en": "Naalakkersuisut and GrønlandsBANKEN, September 2026: unsolicited Messenger or similar messages that pretend to handle compensation in the contraception case, then ask for personal data and later an account number",
+      "prevalence": "high",
+      "lang": "da",
+      "context_keywords": [
+        "Messenger message about Spiralsagen compensation",
+        "unsolicited request for an account number",
+        "claim to represent the official payout",
+        "MitID login only on the real compensation site"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "we handle your compensation, send your details on Messenger",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "give your account number so the payout can be sent",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "share your MitID or SMS code in this chat",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "official compensation office wrote to you on Facebook",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "On 4 September 2026 GrønlandsBANKEN said it had become aware of fraud attempts aimed at people who may be covered by the compensation scheme in the contraception case known as Spiralsagen. It described a case in which a person was contacted via Messenger by someone claiming to represent that matter, and was asked for personal information and later for an account number. The bank noted that applications for compensation go through Patienterstatningen, and that an online application is made by logging in with MitID, along official routes on that board's website. It warned people not to share MitID data, MitID or SMS codes, passwords, a civil-registration number unless the recipient's identity is certain, or an account number in reply to an unsolicited approach, and to break off and contact the real authority through official details if in doubt. On 10 September 2026 Naalakkersuisut issued its own warning about fraud in connection with those compensation payments, including approaches via Messenger, and said that people who have applied will not be contacted via Messenger about their application, and should not hand over personal or sensitive information in such messages.",
+      "legit_en": "Naalakkersuisut has said that applicants are not contacted via Messenger about a compensation application. According to GrønlandsBANKEN, a genuine online application goes through Patienterstatningen with a MitID login on that board's official site, not through an unsolicited chat that then asks for an account number or a MitID code.",
+      "bait_tactics": [
+        "End an unsolicited Messenger or Facebook approach that claims to handle the compensation, and do not send personal data, a civil-registration number, an account number or a MitID or SMS code in that chat.",
+        "If the person still needs to check a real application, use only the official Patienterstatningen route described by the bank, with MitID on that board's own site.",
+        "Say the messages can be raised with the real authority through published official contacts, not by continuing in the same thread."
+      ],
+      "sources": [
+        "https://www.banken.gl/da/nyheder/2026/advarsel-svindlere-udgiver-sig-for-at-vaere-en-del-af-spiralsagen/",
+        "https://naalakkersuisut.gl/Nyheder/2026/09/1009_Naartunaveersaasersuisimaneq?sc_lang=da"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "region": "levant",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, ahlan?",
+    "hello_again": "Yes, go ahead."
+  },
+  "habits": {
+    "en": "Jordan and Lebanon English mix Arabic: yalla, inshallah, khalas. Keep Zain, Umniah, Alfa, Touch. Warm but polite.",
+    "zh": "約旦、黎巴嫩英語常夾 yalla、inshallah。電信說 Zain、Alfa。對生人客氣熱絡。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Amman or Beirut friend: informal, warm, a yalla or inshallah can sit in the English line, no stiff small talk script.",
+        "zh": "安曼或貝魯特熟友非正式、熱絡；英語裡可夾 yalla、inshallah，不必套僵硬寒暄稿。"
+      },
+      "2": {
+        "en": "Easygoing acquaintance: after they speak, a short khalas or alright, Arabic names for people and shops left intact.",
+        "zh": "半熟隨和：聽完可短短說 khalas 或 alright，人名與店名的阿拉伯叫法照留。"
+      },
+      "3": {
+        "en": "Everyday Levant English. Finish the point fully; mobile brands stay Zain, Umniah, Alfa or Touch, not a generic operator.",
+        "zh": "黎凡特日常英語。用完整句子說完；門號品牌維持 Zain、Alfa 或 Touch，不要只說籠統電信名。"
+      },
+      "4": {
+        "en": "Polite with offices: warmer than dry US official English, but complete sentences. Keep dinar or local bank names as said.",
+        "zh": "對機關客氣，比乾冷的美國公文英語更熱絡，但句子要完整。dinar 或當地銀行名照叫。"
+      },
+      "5": {
+        "en": "Professional, still hospitable. Little slang; quote the operator or dinar exactly, and close each item clearly.",
+        "zh": "商務仍帶待客口氣，少俚語。電信與 dinar 要說準，各項清楚收住。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: a brief ahlan if they used it, short and warm, then you'll pass the message.",
+        "zh": "{owner}隨興代接：若對方先說 ahlan 就跟著回，短而熱，再把話帶去。"
+      },
+      "2": {
+        "en": "Kind stand-in: match their warmth, leave Zain or Alfa as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：口氣跟對方的熱絡程度，Zain、Alfa 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Umniah or appointment point in one full English sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句英語重述 Umniah 或約會的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: polite and warm, note the purpose, keep Levant brand names, confirm the handover.",
+        "zh": "沉穩秘書：有禮且熱絡，記下來意，黎凡特品牌名照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about dinar or the operator, little slang, then confirm the note for {owner}.",
+        "zh": "正式代表：把 dinar 或電信說準，少俚語，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, ahlan! How are you? Tell me what's up.",
+      "Yes, go ahead, I'm listening.",
+      "Hello, good afternoon. Is this about Zain? Got it, khalas.",
+      "Good afternoon, thanks for the call. The Alfa matter is clear.",
+      "Good afternoon, thank you. I've noted the dinar amount."
+    ],
+    "a": [
+      "Hello, ahlan! They're not in, tell me and I'll pass it.",
+      "Yes, go ahead. I'm taking their calls, share the message.",
+      "Hello, good afternoon. I'll let {owner} know.",
+      "Good afternoon, thanks for the call. I'll pass your message on.",
+      "Good afternoon, thank you. I'll note it all and tell them."
+    ]
+  },
+  "diff_from_home": [
+    "約旦與黎巴嫩英語常夾阿拉伯話語標記，如 yalla、inshallah、khalas、ahlan，比海灣職場英語更生活化。",
+    "黎巴嫩場合還可能再夾法語詞；約旦則較常只在英語與阿拉伯語之間切換。",
+    "電信品牌用當地名稱：約旦常見 Zain、Orange、Umniah，黎巴嫩常見 Alfa、Touch。",
+    "貨幣在約旦是第納爾（dinar）；黎巴嫩口語仍可能提里拉，不要預設美元或海灣貨幣。"
+  ],
+  "sources": [
+    "https://www.jo.zain.com/",
+    "https://www.orange.jo/",
+    "https://www.umniah.com/",
+    "https://www.alfa.com.lb/",
+    "https://fount.aucegypt.edu/retro_etds/1613/"
+  ],
+  "uncertain": [
+    "黎巴嫩與約旦的英語夾用法語的程度不同，本檔合寫時可能把黎巴嫩的三語習慣說得過滿。",
+    "Orange 同時出現在約旦與其他國家，口語是否都直稱 Orange，缺少電話語料。"
+  ]
+}

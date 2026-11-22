@@ -1,0 +1,169 @@
+{
+  "lang": "sr",
+  "script": "cyrillic",
+  "common_words": [
+    "шта",
+    "нисам",
+    "хвала",
+    "молим",
+    "сутра",
+    "јуче",
+    "јутрос",
+    "вечерас",
+    "зашто",
+    "овде",
+    "хоћу",
+    "треба",
+    "лекар",
+    "где",
+    "када",
+    "сада",
+    "могу",
+    "извините",
+    "ћао",
+    "довиђења",
+    "поруџбина",
+    "пакет",
+    "данас",
+    "како",
+    "ко",
+    "ваш",
+    "наш",
+    "ништа",
+    "увек",
+    "никад",
+    "добро",
+    "број",
+    "адреса",
+    "господине",
+    "госпођо",
+    "лепо",
+    "млеко",
+    "пре",
+    "после",
+    "недеља",
+    "месец",
+    "јутро",
+    "вече",
+    "да ли",
+    "или",
+    "још",
+    "већ",
+    "немам",
+    "хтео",
+    "молим вас"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — the published sr file is Latin-script OpenSubtitles (https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sr/sr_50k.txt); words here are given in official Serbian Cyrillic, which is a one-to-one mapping of that list's standard forms.",
+  "shared_words": [
+    {
+      "word": "да",
+      "also_in": [
+        "hr",
+        "sl",
+        "bg",
+        "mk"
+      ]
+    },
+    {
+      "word": "је",
+      "also_in": [
+        "hr",
+        "sl",
+        "bg",
+        "mk"
+      ]
+    },
+    {
+      "word": "не",
+      "also_in": [
+        "hr",
+        "sl",
+        "bg",
+        "mk",
+        "be"
+      ]
+    },
+    {
+      "word": "се",
+      "also_in": [
+        "hr",
+        "sl",
+        "bg",
+        "mk"
+      ]
+    },
+    {
+      "word": "и",
+      "also_in": [
+        "hr",
+        "bg",
+        "mk",
+        "be"
+      ]
+    },
+    {
+      "word": "шта",
+      "also_in": [
+        "hr"
+      ]
+    },
+    {
+      "word": "хвала",
+      "also_in": [
+        "hr"
+      ]
+    },
+    {
+      "word": "добро",
+      "also_in": [
+        "hr",
+        "sl",
+        "mk",
+        "bg"
+      ]
+    },
+    {
+      "word": "сам",
+      "also_in": [
+        "hr"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ђ",
+    "ћ"
+  ],
+  "confusable_with": [
+    "mk",
+    "bg",
+    "be",
+    "hr"
+  ],
+  "how_to_tell_apart": "This file is in Serbian Cyrillic, so the first filter versus Croatian is the script itself. Inside Cyrillic, ђ and ћ separate Serbian from Macedonian (which uses ѓ and ќ) and from Bulgarian (ъ, щ, no ђ/ћ). Useful words in the ekavian standard used in Serbia include шта, овде, хоћу, лекар, где, хтео and млеко; Croatian Latin would more often show ijekavian liječnik, gdje and mlijeko. Shared да, је, не, се and хвала are not evidence. If the same speaker later types Latin-script Serbian, treat šta/ovde/lekar the same way against Croatian što/ovdje/liječnik.",
+  "test_said": [
+    "На шалтеру поште тражим пошиљку која је јављена поруком јутрос.",
+    "Курир је оставио картон на вратима а пакета нема ни код комшија.",
+    "Нови сто је стигао са оштећеном плочом и треба да га вратимо.",
+    "Зуб ме јако боли и тражим први слободан термин још данас.",
+    "Лабораторија је рекла да ће налази бити готови до понедељка.",
+    "Постојећу полису осигурања не мењам и нову нећу да потписујем.",
+    "Чланарину у теретани нећу да обнављам па ме не зовите због акције.",
+    "Рачун за грејање је већ плаћен и не дугујем ништа за овај месец."
+  ],
+  "test_not_enough": [
+    "Марко",
+    "ok",
+    "десет",
+    "stop"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/sr/sr_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Serbian_Cyrillic_alphabet",
+    "https://en.wikipedia.org/wiki/Comparison_of_standard_Bosnian,_Croatian,_Montenegrin_and_Serbian"
+  ],
+  "uncertain": [
+    "FrequencyWords sr is Latin-script; Cyrillic forms were produced with the official one-to-one Serbian transliteration, not from a separate Cyrillic frequency file.",
+    "Ijekavian Serbian (Bosnia, Montenegro, and some neighbouring areas) will look closer to Croatian; the distinctive words here follow ekavian usage typical of Serbia."
+  ]
+}

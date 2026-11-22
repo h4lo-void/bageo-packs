@@ -1,0 +1,468 @@
+{
+  "region": "sk",
+  "vocab": {
+    "sk": {
+      "bank": [
+        {
+          "term": "účet",
+          "en": "bank account in Slovak"
+        },
+        {
+          "term": "prevod na účet",
+          "en": "Slovak bank transfer"
+        },
+        {
+          "term": "okamžitá platba",
+          "en": "Slovak instant payment"
+        },
+        {
+          "term": "IBAN",
+          "en": "SK-prefixed account number"
+        },
+        {
+          "term": "internetbanking",
+          "en": "Slovak word for online banking"
+        },
+        {
+          "term": "George",
+          "en": "Slovenská sporiteľňa app"
+        },
+        {
+          "term": "trvalý príkaz",
+          "en": "Slovak standing order"
+        },
+        {
+          "term": "výpis z účtu",
+          "en": "Slovak bank statement"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "balík",
+          "en": "parcel, Slovak"
+        },
+        {
+          "term": "Packeta",
+          "en": "Slovak parcel network, pickup points"
+        },
+        {
+          "term": "Z-BOX",
+          "en": "Packeta's locker in Slovakia"
+        },
+        {
+          "term": "Slovenská pošta",
+          "en": "Slovak national post"
+        },
+        {
+          "term": "dobierka",
+          "en": "Slovak cash/card on delivery"
+        },
+        {
+          "term": "výdajné miesto",
+          "en": "Slovak pickup point"
+        },
+        {
+          "term": "sledovacie číslo",
+          "en": "Slovak tracking number"
+        },
+        {
+          "term": "u suseda",
+          "en": "left with a neighbour (Slovak)"
+        }
+      ],
+      "government": [
+        {
+          "term": "občiansky preukaz",
+          "en": "Slovak ID card, often 'občiansky'"
+        },
+        {
+          "term": "slovensko.sk",
+          "en": "Slovak e-government portal"
+        },
+        {
+          "term": "eID",
+          "en": "Slovak ID card chip for e-government"
+        },
+        {
+          "term": "rodné číslo",
+          "en": "Slovak birth number; never read aloud unasked"
+        },
+        {
+          "term": "okresný úrad",
+          "en": "Slovak district office"
+        },
+        {
+          "term": "finančná správa",
+          "en": "Slovak tax authority"
+        },
+        {
+          "term": "trvalý pobyt",
+          "en": "Slovak permanent residence registration"
+        },
+        {
+          "term": "vodičák",
+          "en": "Slovak colloquial driving licence"
+        }
+      ],
+      "health": [
+        {
+          "term": "zdravotná poisťovňa",
+          "en": "Slovak health insurer (VšZP, Dôvera, Union)"
+        },
+        {
+          "term": "obvodný lekár",
+          "en": "Slovak GP, colloquial"
+        },
+        {
+          "term": "lekáreň",
+          "en": "pharmacy (Slovak)"
+        },
+        {
+          "term": "eRecept",
+          "en": "Slovak e-prescription"
+        },
+        {
+          "term": "PN",
+          "en": "Slovak sick leave note (práceneschopnosť)"
+        },
+        {
+          "term": "pohotovosť",
+          "en": "Slovak out-of-hours emergency service"
+        },
+        {
+          "term": "výmenný lístok",
+          "en": "Slovak referral slip"
+        },
+        {
+          "term": "ambulancia",
+          "en": "Slovak doctor's surgery"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobil",
+          "en": "mobile phone, Slovak"
+        },
+        {
+          "term": "paušál",
+          "en": "Slovak monthly phone plan"
+        },
+        {
+          "term": "dobiť kredit",
+          "en": "top up prepaid credit, Slovak"
+        },
+        {
+          "term": "Orange",
+          "en": "Slovak operator"
+        },
+        {
+          "term": "Telekom",
+          "en": "Slovak operator (Slovak Telekom)"
+        },
+        {
+          "term": "O2",
+          "en": "Slovak operator"
+        },
+        {
+          "term": "4ka",
+          "en": "Slovak operator"
+        },
+        {
+          "term": "prenos čísla",
+          "en": "Slovak number porting"
+        }
+      ],
+      "payment": [
+        {
+          "term": "platba kartou",
+          "en": "card payment, Slovak"
+        },
+        {
+          "term": "hotovosť",
+          "en": "cash, Slovak"
+        },
+        {
+          "term": "bezkontaktne",
+          "en": "contactless, Slovak"
+        },
+        {
+          "term": "PAY by square",
+          "en": "Slovak QR payment standard on invoices"
+        },
+        {
+          "term": "faktúra",
+          "en": "Slovak invoice"
+        },
+        {
+          "term": "variabilný symbol",
+          "en": "Slovak payment reference number"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "used in Slovak shops"
+        }
+      ],
+      "transport": [
+        {
+          "term": "MHD",
+          "en": "Slovak city public transport"
+        },
+        {
+          "term": "električka",
+          "en": "Slovak tram"
+        },
+        {
+          "term": "trolejbus",
+          "en": "Slovak trolleybus"
+        },
+        {
+          "term": "ZSSK",
+          "en": "Slovak passenger rail"
+        },
+        {
+          "term": "cestovný lístok",
+          "en": "Slovak ticket"
+        },
+        {
+          "term": "zastávka",
+          "en": "Slovak stop"
+        },
+        {
+          "term": "Bolt",
+          "en": "ride-hailing in Bratislava and Košice"
+        },
+        {
+          "term": "diaľnica",
+          "en": "Slovak motorway (needs e-vignette)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "panelák",
+          "en": "Slovak prefab block of flats"
+        },
+        {
+          "term": "byt",
+          "en": "flat, Slovak"
+        },
+        {
+          "term": "vchod",
+          "en": "entrance of a Slovak block"
+        },
+        {
+          "term": "zvonček",
+          "en": "Slovak doorbell / intercom button"
+        },
+        {
+          "term": "schránka",
+          "en": "Slovak letterbox"
+        },
+        {
+          "term": "správca",
+          "en": "Slovak building administrator"
+        },
+        {
+          "term": "nájom",
+          "en": "Slovak rent"
+        },
+        {
+          "term": "poschodie",
+          "en": "Slovak floor"
+        }
+      ],
+      "school": [
+        {
+          "term": "škôlka",
+          "en": "Slovak kindergarten"
+        },
+        {
+          "term": "základná škola",
+          "en": "Slovak primary/lower-secondary school (ZŠ)"
+        },
+        {
+          "term": "gymnázium",
+          "en": "Slovak academic secondary school"
+        },
+        {
+          "term": "maturita",
+          "en": "Slovak school-leaving exam"
+        },
+        {
+          "term": "triedna",
+          "en": "Slovak class teacher, colloquial"
+        },
+        {
+          "term": "krúžok",
+          "en": "Slovak after-school club"
+        },
+        {
+          "term": "doučovanie",
+          "en": "Slovak tutoring"
+        },
+        {
+          "term": "EduPage",
+          "en": "Slovak school info app"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "Slovakia's currency since 2009"
+        },
+        {
+          "term": "cent",
+          "en": "Slovak subunit of euro"
+        },
+        {
+          "term": "tisíc",
+          "en": "thousand, Slovak"
+        },
+        {
+          "term": "stovka",
+          "en": "Slovak slang for a hundred-euro note"
+        },
+        {
+          "term": "drobné",
+          "en": "Slovak small change"
+        },
+        {
+          "term": "výdavok",
+          "en": "change given back in Slovakia"
+        },
+        {
+          "term": "milión",
+          "en": "million, Slovak"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "zajtra",
+          "en": "tomorrow, Slovak"
+        },
+        {
+          "term": "pozajtra",
+          "en": "day after tomorrow, Slovak"
+        },
+        {
+          "term": "o pol tretej",
+          "en": "at half past two (Slovak counts to the next hour)"
+        },
+        {
+          "term": "o štvrť na tri",
+          "en": "at quarter past two (Slovak)"
+        },
+        {
+          "term": "cez obed",
+          "en": "around lunchtime, Slovak"
+        },
+        {
+          "term": "budúci týždeň",
+          "en": "next week, Slovak"
+        },
+        {
+          "term": "víkend",
+          "en": "weekend, Slovak"
+        }
+      ],
+      "work": [
+        {
+          "term": "výplata",
+          "en": "Slovak payday/salary"
+        },
+        {
+          "term": "výplatná páska",
+          "en": "Slovak payslip"
+        },
+        {
+          "term": "dovolenka",
+          "en": "Slovak annual leave"
+        },
+        {
+          "term": "nadčasy",
+          "en": "Slovak overtime"
+        },
+        {
+          "term": "home office",
+          "en": "work from home, as said in Slovakia"
+        },
+        {
+          "term": "živnosť",
+          "en": "Slovak sole trader licence"
+        },
+        {
+          "term": "zmena",
+          "en": "Slovak work shift"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "díky",
+      "use_instead": "ďakujem, vďaka",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "nashledanou",
+      "use_instead": "dovidenia",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "hele",
+      "use_instead": "počujte",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "zítra",
+      "use_instead": "zajtra",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "pojišťovna",
+      "use_instead": "poisťovňa",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "lékárna",
+      "use_instead": "lekáreň",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "tramvaj",
+      "use_instead": "električka",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "koruna",
+      "use_instead": "euro",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "Zásilkovna",
+      "use_instead": "Packeta",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "občanka",
+      "use_instead": "občiansky",
+      "where_it_is_from": "CZ"
+    }
+  ],
+  "sources": [
+    "https://www.slovensko.sk/",
+    "https://www.nbs.sk/",
+    "https://www.posta.sk/",
+    "https://www.packeta.sk/",
+    "https://www.vszp.sk/",
+    "https://www.minedu.sk/",
+    "https://www.teleoff.gov.sk/",
+    "https://www.zsr.sk/",
+    "https://slovnik.juls.savba.sk/",
+    "https://www.slsp.sk/"
+  ],
+  "uncertain": [
+    "「stovka」在斯洛伐克多指一百歐元或一百單位，俚語範圍不明確，AI 宜說數字本身。",
+    "不少斯洛伐克人也說捷克語借詞（例如 občanka），避用表只列較明顯的捷克說法。",
+    "詞頻表 sk.txt 查不到 Packeta、Z-BOX、paušál 等品牌或新詞，靠官網與平台確認。"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "country": "gu",
+  "parent": "us",
+  "name": {
+    "en": "Guam",
+    "native": "Guåhan",
+    "zh": "關島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, still there?"
+  },
+  "delivery": {
+    "en": "Carriers serve Guam, but mainland Priority Mail can take several days and Ground far longer",
+    "zh": "可送到關島，但從美國本土寄的 Priority 可能要好幾天，Ground 更久"
+  },
+  "readback": {
+    "en": "After 671, numbers go 3-3-4; 0 as zero or oh; US dollars; month first; 12-hour a.m./p.m.",
+    "zh": "671 區碼後照 3-3-4 唸，0 可唸 zero 或 oh；美元；先月後日；12 時制"
+  },
+  "fraud": {
+    "en": "A call or text pushing a link or a payment, including a fake USPS delivery notice, is a scam",
+    "zh": "來電或簡訊催你點連結、付錢，包括假冒 USPS 的投遞通知，都是詐騙"
+  },
+  "habits": {
+    "en": "Reply in English. People may say Hafa adai, which is unsupported. Month first, zip codes, US dollars.",
+    "zh": "用英語回。有人會順口說 Hafa adai，但不在支援清單。日期先月後日，有 zip code，貨幣美元。"
+  },
+  "stall_local": {
+    "en": "Mainland tracking has not updated, which is common on Guam routes, and the home Wi-Fi just dropped.",
+    "zh": "從本土寄來的查件一直沒更新，關島航線常見，而且家裡 Wi-Fi 剛好斷了。"
+  },
+  "vocab": {
+    "bank": [
+      "checking account",
+      "debit card",
+      "direct deposit",
+      "routing number"
+    ],
+    "delivery": [
+      "USPS",
+      "mailbox",
+      "customs",
+      "tracking"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "postcode",
+      "reason": {
+        "zh": "英式說法；關島用 zip code"
+      }
+    },
+    {
+      "word": "East Caribbean dollars",
+      "reason": {
+        "zh": "加勒比貨幣，關島用美元"
+      }
+    },
+    {
+      "word": "flat",
+      "reason": {
+        "zh": "英式住宅詞，當地較常說 apartment"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Largely US English, with a possible Hafa adai in passing. Do not pretend to speak Chamorro. Allow slower island USPS times; refuse fake delivery links.",
+    "zh": "大致是美式英語，對方或順口說 Hafa adai。不要假裝會講查莫羅語。接受島嶼郵務較慢，但拒絕假投遞連結。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://faq.usps.com/articles/FAQ/Delayed-Mail-and-Packages",
+    "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams"
+  ],
+  "uncertain": [
+    "Hafa adai 是否常用來接電話，還是多半用於見面，沒有通話調查。",
+    "關島本地特有詐騙話術，官方稿寫得較概括，故同時引用 USPS 防詐。"
+  ]
+}

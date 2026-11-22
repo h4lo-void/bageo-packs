@@ -1,0 +1,3427 @@
+{
+  "about": "ISO 3166-1 codes not in Bageo mapped_countries, with a join or new_region decision for each. Names from CLDR (en, zh-Hant). Populations from World Bank SP.POP.TOTL 2024 where available, otherwise a cited official or UN figure.",
+  "iso_3166_1_total": 249,
+  "mapped_countries_count": 157,
+  "mapped_official_iso_count": 156,
+  "unmapped_count": 93,
+  "note": "mapped_countries 含科索沃 xk（不在 ISO 3166-1 正式 249 碼內），故未對照名單為 249−156=93。",
+  "supported_languages_used": [
+    "ar",
+    "da",
+    "en",
+    "es",
+    "fr",
+    "ko",
+    "ms",
+    "nb",
+    "nl",
+    "pt",
+    "ru",
+    "sv"
+  ],
+  "countries": [
+    {
+      "code": "ao",
+      "name": {
+        "en": "Angola",
+        "zh": "安哥拉"
+      },
+      "population": {
+        "value": "37,885,849",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AO"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為葡萄牙語。對陌生人與機關講電話用葡萄牙語。",
+        "en": "The official language is Portuguese. Use Portuguese with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AO",
+        "https://en.wikipedia.org/wiki/Angola"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ao-mz-gw-cv-st",
+      "region_reason": {
+        "zh": "非洲葡語國家，稱呼與支付習慣接近，合併為新區。",
+        "en": "Lusophone African countries with similar address forms and payment habits, grouped as a new region."
+      }
+    },
+    {
+      "code": "aq",
+      "name": {
+        "en": "Antarctica",
+        "zh": "南極洲"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: Antarctica — no indigenous inhabitants; research station populations vary seasonally",
+        "source_url": "https://en.wikipedia.org/wiki/Antarctica",
+        "note": "無常住平民；僅有季節性考察站人員。"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "無常住平民；各考察站使用派遣國語言。支援清單裡最常用的共通語是英語。",
+        "en": "No permanent civilian population; stations use the sending country's language. English is the most common supported lingua franca."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/Antarctica",
+        "https://www.ats.aq/"
+      ],
+      "uncertain": [
+        "無常住平民，電話文化資料不適用一般住宅或商店情境。"
+      ],
+      "new_region": true,
+      "region": "aq",
+      "region_reason": {
+        "zh": "無單一管轄國，不能併入現有國家區；僅能單列，並註明沒有一般民間電話習慣。",
+        "en": "No single administering state, so it cannot join an existing country region; list it alone and note that there is no ordinary civilian phone culture."
+      }
+    },
+    {
+      "code": "aw",
+      "name": {
+        "en": "Aruba",
+        "zh": "荷屬阿魯巴"
+      },
+      "population": {
+        "value": "107,995",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AW"
+      },
+      "phone_lang": "nl",
+      "phone_lang_name": "Dutch",
+      "phone_lang_note": {
+        "zh": "帕皮阿門托語為日常主要語言，但不在支援清單；荷蘭語為官方語言，英語在觀光與部分場合也常用。對陌生人講電話最常改用荷蘭語，對方用英語就跟著說。",
+        "en": "Papiamento is the everyday language but is unsupported; Dutch is official, and English is common in tourism and some settings. With strangers, switch most often to Dutch, and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=AW",
+        "https://en.wikipedia.org/wiki/Aruba"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "aw-cw-bq",
+      "region_reason": {
+        "zh": "帕皮阿門托語與加勒比生活習慣與荷蘭本土差異明顯，不宜直接併入 nl，應獨立成荷屬加勒比區。",
+        "en": "Papiamento and Caribbean daily habits differ clearly from the Netherlands proper, so do not join nl; make a separate Dutch Caribbean region."
+      }
+    },
+    {
+      "code": "ax",
+      "name": {
+        "en": "Åland Islands",
+        "zh": "奧蘭群島"
+      },
+      "population": {
+        "value": "30,836",
+        "year": 2025,
+        "as_of": "2025-12-31",
+        "source": "Ålands statistik- och utredningsbyrå (ÅSUB)",
+        "source_url": "https://www.asub.ax/en/facts-about-aland"
+      },
+      "phone_lang": "sv",
+      "phone_lang_name": "Swedish",
+      "phone_lang_note": {
+        "zh": "奧蘭群島官方與日常主要用瑞典語（瑞典語在支援清單內）；芬蘭語較少作為對陌生人講電話的語言。",
+        "en": "Åland uses Swedish officially and in daily life (Swedish is supported); Finnish is less often used with strangers on the phone."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://www.asub.ax/en/facts-about-aland",
+        "https://en.wikipedia.org/wiki/%C3%85land"
+      ],
+      "uncertain": [
+        "行政上屬芬蘭，但電話語言與習慣更接近瑞典；若對方改用芬蘭語，既有芬蘭地區資料並未自動套用。"
+      ],
+      "join": "se",
+      "join_reason": {
+        "zh": "官方與日常生活主要用瑞典語，講電話的稱呼與語氣習慣與瑞典幾乎相同。",
+        "en": "Swedish is the official and everyday language; phone address and tone are almost the same as in Sweden."
+      }
+    },
+    {
+      "code": "bf",
+      "name": {
+        "en": "Burkina Faso",
+        "zh": "布吉納法索"
+      },
+      "population": {
+        "value": "23,548,781",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BF"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言長期為法語（近年語言政策有調整）；對機關與跨族電話仍最常改用法語。",
+        "en": "French has long been the official language (language policy has shifted in recent years); office and inter-ethnic calls still most often switch to French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BF",
+        "https://en.wikipedia.org/wiki/Burkina_Faso"
+      ],
+      "uncertain": [
+        "近年官方語言政策調整後，法語在政府與民間電話的實際比重可能變化，公開觀察仍顯示法語為跨族溝通主語。"
+      ],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語溝通區，併入同一新區。",
+        "en": "West African French-speaking area, grouped into the same new region."
+      }
+    },
+    {
+      "code": "bi",
+      "name": {
+        "en": "Burundi",
+        "zh": "蒲隆地"
+      },
+      "population": {
+        "value": "14,047,786",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BI"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言包括克倫迪語、法語與英語；克倫迪語不在支援清單。正式與機關電話仍多用法語，英語使用在增加。預設法語，對方用英語就跟著說。",
+        "en": "Official languages include Kirundi, French and English; Kirundi is unsupported. Formal and office calls still often use French, and English is growing. Default to French and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BI",
+        "https://en.wikipedia.org/wiki/Burundi"
+      ],
+      "uncertain": [
+        "英語官方地位在提高，是否已與法語同等用於陌生人電話，公開資料有限。"
+      ],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "雖地處東非，正式電話仍偏法語，併入中非法語新區較接近習慣。",
+        "en": "Though in East Africa, formal calls still lean French, so joining the Central Africa French region is closer to actual habits."
+      }
+    },
+    {
+      "code": "bj",
+      "name": {
+        "en": "Benin",
+        "zh": "貝南"
+      },
+      "population": {
+        "value": "14,462,724",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BJ"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語。對陌生人與機關講電話用法語。",
+        "en": "The official language is French. Use French with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BJ",
+        "https://en.wikipedia.org/wiki/Benin"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，併入同一新區。",
+        "en": "West African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "bn",
+      "name": {
+        "en": "Brunei",
+        "zh": "汶萊"
+      },
+      "population": {
+        "value": "462,721",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BN"
+      },
+      "phone_lang": "ms",
+      "phone_lang_name": "Malay",
+      "phone_lang_note": {
+        "zh": "官方語言為馬來語（在支援清單）；英語在商務電話也常用。對陌生人講電話最常用馬來語，對方用英語就跟著說。",
+        "en": "The official language is Malay (supported); English is also common on business calls. With strangers, use Malay most often, and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BN",
+        "https://en.wikipedia.org/wiki/Brunei"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "bn",
+      "region_reason": {
+        "zh": "馬來語習慣接近馬來西亞，但支付、銀行與語氣更偏正式，不宜直接併入 my。",
+        "en": "Malay usage is close to Malaysia, but payments, banking and tone are more formal, so do not join my directly."
+      }
+    },
+    {
+      "code": "bq",
+      "name": {
+        "en": "Caribbean Netherlands",
+        "zh": "荷蘭加勒比區"
+      },
+      "population": {
+        "value": "31,980",
+        "year": 2025,
+        "as_of": "2025-01-01",
+        "source": "CBS: Bonaire 26,552 + Sint Eustatius 3,270 + Saba 2,158",
+        "source_url": "https://www.cbs.nl/en-gb/news/2025/21/population-of-the-caribbean-netherlands-up-by-nearly-1-6-thousand-in-2024"
+      },
+      "phone_lang": "nl",
+      "phone_lang_name": "Dutch",
+      "phone_lang_note": {
+        "zh": "波奈爾多用帕皮阿門托語與荷蘭語；聖佑達修斯與薩巴英語較常用。帕皮阿門托語不在支援清單。講電話最常改用的支援語言：波奈爾偏荷蘭語，其餘兩島偏英語；預設荷蘭語並跟隨對方。",
+        "en": "Bonaire mostly uses Papiamento and Dutch; Sint Eustatius and Saba use English more often. Papiamento is unsupported. The usual supported fallback is Dutch on Bonaire and English on the other two islands; default to Dutch and follow the caller."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://www.cbs.nl/en-gb/news/2025/21/population-of-the-caribbean-netherlands-up-by-nearly-1-6-thousand-in-2024",
+        "https://en.wikipedia.org/wiki/Caribbean_Netherlands"
+      ],
+      "uncertain": [
+        "三島語言比重不同（薩巴、聖佑達修斯英語較強），預設語言選荷蘭語是折衷。"
+      ],
+      "new_region": true,
+      "region": "aw-cw-bq",
+      "region_reason": {
+        "zh": "與阿魯巴、庫拉索同屬荷屬加勒比，合併為新區。",
+        "en": "Same Dutch Caribbean setting as Aruba and Curaçao, grouped as a new region."
+      }
+    },
+    {
+      "code": "bt",
+      "name": {
+        "en": "Bhutan",
+        "zh": "不丹"
+      },
+      "population": {
+        "value": "791,524",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BT"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為宗喀語，但不在支援清單。行政、教育與對外電話常改用英語。",
+        "en": "The official language is Dzongkha, which is unsupported. Administrative, education and outward calls often switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BT",
+        "https://en.wikipedia.org/wiki/Bhutan"
+      ],
+      "uncertain": [
+        "當地人對內講電話可能更常用宗喀語，英語作為對外與正式場合的替代，實際比重公開資料有限。"
+      ],
+      "new_region": true,
+      "region": "bt",
+      "region_reason": {
+        "zh": "宗喀語不在支援清單，禮儀與稱呼習慣獨特，宜獨立成區。",
+        "en": "Dzongkha is unsupported, and etiquette and forms of address are distinctive, so it should be its own region."
+      }
+    },
+    {
+      "code": "bv",
+      "name": {
+        "en": "Bouvet Island",
+        "zh": "布威島"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: Bouvet Island — uninhabited",
+        "source_url": "https://en.wikipedia.org/wiki/Bouvet_Island",
+        "note": "無常住人口。"
+      },
+      "phone_lang": "nb",
+      "phone_lang_name": "Norwegian",
+      "phone_lang_note": {
+        "zh": "無常住人口；若有科考或補給聯絡，管轄國為挪威，可用挪威語。",
+        "en": "No permanent population; if research or resupply calls occur, the administering state is Norway, so Norwegian can be used."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/Bouvet_Island",
+        "https://www.geonames.org/3371123/bouvet-island.html"
+      ],
+      "uncertain": [
+        "無常住平民，實際通話極罕見。"
+      ],
+      "join": "no",
+      "join_reason": {
+        "zh": "無人定居的挪威屬地，無獨立的民間電話習慣，沿用挪威地區資料。",
+        "en": "Uninhabited Norwegian territory with no separate civilian phone habits; follow the Norway region."
+      }
+    },
+    {
+      "code": "bw",
+      "name": {
+        "en": "Botswana",
+        "zh": "波札那"
+      },
+      "population": {
+        "value": "2,521,139",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BW"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；茨瓦納語為多數人日常語言，但不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "The official language is English; Setswana is the everyday language for most people but is unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BW",
+        "https://en.wikipedia.org/wiki/Botswana"
+      ],
+      "uncertain": [],
+      "join": "za",
+      "join_reason": {
+        "zh": "英語為官方語言，日常用語（如 gate、complex）與南非接近，講電話習慣幾乎相同。",
+        "en": "English is official, everyday terms such as gate and complex are close to South Africa, and phone habits are almost the same."
+      }
+    },
+    {
+      "code": "bz",
+      "name": {
+        "en": "Belize",
+        "zh": "貝里斯"
+      },
+      "population": {
+        "value": "417,072",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BZ"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；西班牙語與貝里斯克里奧爾語也廣泛使用，對陌生人講電話最常改用英語。",
+        "en": "The official language is English; Spanish and Belizean Creole are also widely used. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=BZ",
+        "https://en.wikipedia.org/wiki/Belize"
+      ],
+      "uncertain": [
+        "不少來電者用西班牙語；us 區預設為英語，且用詞偏美式，與當地英式／加勒比用詞可能不完全相同。"
+      ],
+      "join": "us",
+      "join_reason": {
+        "zh": "英語為官方語言，既有資料已把多個英語加勒比地區歸入 us，先沿用同一區。",
+        "en": "English is official, and existing data already places several English Caribbean territories in us, so follow that region for now."
+      }
+    },
+    {
+      "code": "cc",
+      "name": {
+        "en": "Cocos (Keeling) Islands",
+        "zh": "科克斯（基靈）群島"
+      },
+      "population": {
+        "value": "593",
+        "year": 2021,
+        "as_of": "2021-08-10 census",
+        "source": "Australian Bureau of Statistics, Census of Population and Housing 2021",
+        "source_url": "https://www.abs.gov.au/census"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "馬來語在當地社群常用，英語為官方語言；對陌生人講電話最常改用英語（馬來語雖在支援清單，但作為澳洲領地、對外場合以英語為主）。",
+        "en": "Malay is common in the local community and English is official; with strangers, switch most often to English (Malay is supported, but as an Australian territory outward calls are mainly in English)."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://www.abs.gov.au/census",
+        "https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands"
+      ],
+      "uncertain": [
+        "部分家庭與社區以馬來語為主，若對方從頭用馬來語，是否應改用馬來語地區資料，公開電話習慣資料不足。",
+        "常引用的 2021 普查居住人口為 593；另有來源寫 602（可能為不同時點或估計），以普查 593 為準並標差異。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "澳洲領地，對外講電話多用英語，習慣接近澳紐。",
+        "en": "Australian territory; outward calls are usually in English, and habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "cd",
+      "name": {
+        "en": "Congo - Kinshasa",
+        "zh": "剛果（金夏沙）"
+      },
+      "population": {
+        "value": "109,276,265",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CD"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語；林加拉語、史瓦希里語、 Kikongo、Tshiluba 等也常用。史瓦希里語在支援清單。對陌生人與機關講電話最常改用法語，對方用史瓦希里語就跟著說。",
+        "en": "The official language is French; Lingala, Swahili, Kikongo and Tshiluba are also common. Swahili is supported. With strangers and offices, switch most often to French, and follow if the caller uses Swahili."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CD",
+        "https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "中非法語國家，與剛果（布）等國習慣接近，合併為新區。",
+        "en": "Central African French-speaking country with habits close to the Republic of the Congo and neighbours, grouped as a new region."
+      }
+    },
+    {
+      "code": "cf",
+      "name": {
+        "en": "Central African Republic",
+        "zh": "中非共和國"
+      },
+      "population": {
+        "value": "5,330,690",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CF"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語與桑戈語；桑戈語不在支援清單。對陌生人講電話最常改用法語。",
+        "en": "Official languages are French and Sango; Sango is unsupported. With strangers, switch most often to French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CF",
+        "https://en.wikipedia.org/wiki/Central_African_Republic"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "中非法語國家，併入同一新區。",
+        "en": "Central African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "cg",
+      "name": {
+        "en": "Congo - Brazzaville",
+        "zh": "剛果（布拉薩）"
+      },
+      "population": {
+        "value": "6,332,961",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CG"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語；林加拉語等也常用。對陌生人講電話最常改用法語。",
+        "en": "The official language is French; Lingala and other languages are also common. With strangers, switch most often to French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CG",
+        "https://en.wikipedia.org/wiki/Republic_of_the_Congo"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "中非法語國家，併入同一新區。",
+        "en": "Central African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "ci",
+      "name": {
+        "en": "Côte d’Ivoire",
+        "zh": "象牙海岸"
+      },
+      "population": {
+        "value": "31,934,230",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CI"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語；對陌生人與機關講電話用法語。",
+        "en": "The official language is French; use French with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CI",
+        "https://en.wikipedia.org/wiki/Ivory_Coast"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，併入同一新區。",
+        "en": "West African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "ck",
+      "name": {
+        "en": "Cook Islands",
+        "zh": "庫克群島"
+      },
+      "population": {
+        "value": "25,000",
+        "year": 2024,
+        "as_of": "2024 mid-year (UN DYB, thousands)",
+        "source": "UN Demographic Yearbook 2024, table 5 (mid-year estimate, in thousands: 25)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/dyb/documents/DYB2024/table05.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "庫克群島毛利語亦常用，但不在支援清單；對陌生人與正式場合多用英語（與紐西蘭自由聯合）。",
+        "en": "Cook Islands Māori is also common but unsupported; with strangers and in formal settings English is usual (free association with New Zealand)."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/dyb/documents/DYB2024/table05.pdf",
+        "https://en.wikipedia.org/wiki/Cook_Islands"
+      ],
+      "uncertain": [
+        "常住人口與聯合國估計口徑可能不一致（見人口欄 uncertain）。",
+        "聯合國 DYB 2024 年中估計約 25,000；部分來源常住人口約 1.4–1.7 萬，口徑可能不同（是否含海外或估計方法），未能在此核對統計局最新常住數字。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "與紐西蘭自由聯合，英語為正式溝通語言，講電話習慣接近澳紐。",
+        "en": "In free association with New Zealand; English is the formal language of communication, and phone habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "cm",
+      "name": {
+        "en": "Cameroon",
+        "zh": "喀麥隆"
+      },
+      "population": {
+        "value": "29,123,744",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CM"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語與英語。多數地區對陌生人講電話用法語，西北／西南地區多用英語。預設法語，對方用英語就跟著說。",
+        "en": "Official languages are French and English. Most areas use French with strangers; the Northwest and Southwest more often use English. Default to French and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CM",
+        "https://en.wikipedia.org/wiki/Cameroon"
+      ],
+      "uncertain": [
+        "英語區與法語區電話習慣並存，預設法語是依使用人口較多的一方，不是全國單一習慣。"
+      ],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "雖為英法雙語，但仍與中非法語區共享許多習慣，併入同一新區並註明跟隨英語來電。",
+        "en": "Though bilingual in French and English, many habits are shared with the Central Africa French area; join that new region and note following English callers."
+      }
+    },
+    {
+      "code": "cv",
+      "name": {
+        "en": "Cape Verde",
+        "zh": "維德角"
+      },
+      "population": {
+        "value": "524,877",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CV"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為葡萄牙語；維德角克里奧爾語為日常語言，但不在支援清單。對正式電話多用葡萄牙語。",
+        "en": "The official language is Portuguese; Cape Verdean Creole is the everyday language but is unsupported. Formal calls usually use Portuguese."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CV",
+        "https://en.wikipedia.org/wiki/Cape_Verde"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ao-mz-gw-cv-st",
+      "region_reason": {
+        "zh": "非洲葡語國家，併入同一新區。",
+        "en": "Lusophone African country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "cw",
+      "name": {
+        "en": "Curaçao",
+        "zh": "庫拉索"
+      },
+      "population": {
+        "value": "155,967",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CW"
+      },
+      "phone_lang": "nl",
+      "phone_lang_name": "Dutch",
+      "phone_lang_note": {
+        "zh": "帕皮阿門托語為日常主要語言，但不在支援清單；荷蘭語為官方語言，英語、西班牙語也常用。對陌生人講電話最常改用荷蘭語，對方用英語或西班牙語就跟著說。",
+        "en": "Papiamento is the everyday language but is unsupported; Dutch is official, and English and Spanish are also common. With strangers, switch most often to Dutch, and follow if the caller uses English or Spanish."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=CW",
+        "https://en.wikipedia.org/wiki/Cura%C3%A7ao"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "aw-cw-bq",
+      "region_reason": {
+        "zh": "與阿魯巴、荷蘭加勒比區同屬帕皮阿門托語／荷蘭語環境，習慣接近，合併為新區。",
+        "en": "Same Papiamento/Dutch setting as Aruba and the Caribbean Netherlands, with close habits, grouped as a new region."
+      }
+    },
+    {
+      "code": "cx",
+      "name": {
+        "en": "Christmas Island",
+        "zh": "聖誕島"
+      },
+      "population": {
+        "value": "1,692",
+        "year": 2021,
+        "as_of": "2021-08-10 census",
+        "source": "Australian Bureau of Statistics, Census of Population and Housing 2021",
+        "source_url": "https://www.abs.gov.au/census"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "英語為官方語言；亦有華語、馬來語社群，對陌生人講電話最常改用英語。",
+        "en": "English is official; there are also Chinese- and Malay-speaking communities. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://www.abs.gov.au/census",
+        "https://en.wikipedia.org/wiki/Christmas_Island"
+      ],
+      "uncertain": [
+        "華語或馬來語來電時，既有澳紐地區資料預設為英語。",
+        "ABS 2021 Census 公布為 1,692；未再查到更新的官方年中估計。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "澳洲領地，對外講電話多用英語，習慣接近澳紐。",
+        "en": "Australian territory; outward calls are usually in English, and habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "dj",
+      "name": {
+        "en": "Djibouti",
+        "zh": "吉布地"
+      },
+      "population": {
+        "value": "1,168,722",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=DJ"
+      },
+      "phone_lang": "ar",
+      "phone_lang_name": "Arabic",
+      "phone_lang_note": {
+        "zh": "官方語言為阿拉伯語與法語（皆在支援清單）；索馬利亞語、阿法爾語為日常語言，但不在支援清單。行政電話常用法語，宗教與部分正式場合用阿拉伯語。預設阿拉伯語，對方用法語或英語就跟著說。",
+        "en": "Official languages are Arabic and French (both supported); Somali and Afar are everyday languages but unsupported. Administrative calls often use French; religious and some formal settings use Arabic. Default to Arabic and follow if the caller uses French or English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=DJ",
+        "https://en.wikipedia.org/wiki/Djibouti"
+      ],
+      "uncertain": [
+        "行政場合法語很強，預設阿拉伯語是依官方語言之一與區域合併，不是所有電話的最自然選擇。"
+      ],
+      "new_region": true,
+      "region": "so-er-dj",
+      "region_reason": {
+        "zh": "與索馬利亞、厄利垂亞同屬非洲之角，合併為新區。",
+        "en": "Same Horn of Africa setting as Somalia and Eritrea, grouped as a new region."
+      }
+    },
+    {
+      "code": "eh",
+      "name": {
+        "en": "Western Sahara",
+        "zh": "西撒哈拉"
+      },
+      "population": {
+        "value": "590,506",
+        "year": 2024,
+        "as_of": "2024-07-01, UN WPP 2024 medium variant",
+        "source": "United Nations World Population Prospects 2024 (medium variant); also listed via UNdata PopDiv",
+        "source_url": "https://population.un.org/wpp/"
+      },
+      "phone_lang": "ar",
+      "phone_lang_name": "Arabic",
+      "phone_lang_note": {
+        "zh": "當地主要講哈桑尼亞阿拉伯語（阿拉伯語在支援清單）；西班牙語、法語亦有人使用。對陌生人講電話最常改用阿拉伯語。",
+        "en": "Hassaniya Arabic is the main local variety (Arabic is supported); some people also use Spanish or French. With strangers, switch most often to Arabic."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://population.un.org/wpp/",
+        "https://en.wikipedia.org/wiki/Western_Sahara"
+      ],
+      "uncertain": [
+        "公開的民間電話習慣與電信提示資料很少；人口估計來源與口徑不一。",
+        "西撒哈拉人口估計因普查久遠與管轄爭議，不同來源數字有出入；此處採聯合國 WPP 2024 年中估計。只寫人口與語言，不下政治評語。"
+      ],
+      "join": "maghreb",
+      "join_reason": {
+        "zh": "日常與電話習慣接近馬格里布：主要用阿拉伯語，有時夾雜法語或西班牙語。只寫語言與生活習慣，不涉及政治歸屬。",
+        "en": "Daily and phone habits are close to the Maghreb: mainly Arabic, sometimes mixed with French or Spanish. This covers language and daily habits only, not political status."
+      }
+    },
+    {
+      "code": "er",
+      "name": {
+        "en": "Eritrea",
+        "zh": "厄利垂亞"
+      },
+      "population": {
+        "value": "3,535,603",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ER"
+      },
+      "phone_lang": "ar",
+      "phone_lang_name": "Arabic",
+      "phone_lang_note": {
+        "zh": "蒂格利尼亞語為主要日常語言之一，但不在支援清單；阿拉伯語、英語亦為工作語言。對陌生人講電話可能改用阿拉伯語或英語。預設阿拉伯語，對方用英語就跟著說。",
+        "en": "Tigrinya is one of the main everyday languages but is unsupported; Arabic and English are also working languages. With strangers, callers may switch to Arabic or English. Default to Arabic and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ER",
+        "https://en.wikipedia.org/wiki/Eritrea"
+      ],
+      "uncertain": [
+        "英語與阿拉伯語何者為對陌生人更常用的支援語言，公開資料有限。"
+      ],
+      "new_region": true,
+      "region": "so-er-dj",
+      "region_reason": {
+        "zh": "與索馬利亞、吉布地同屬非洲之角，正式電話常改用阿拉伯語或英語，合併為新區。",
+        "en": "Same Horn of Africa setting as Somalia and Djibouti; formal calls often switch to Arabic or English, grouped as a new region."
+      }
+    },
+    {
+      "code": "fj",
+      "name": {
+        "en": "Fiji",
+        "zh": "斐濟"
+      },
+      "population": {
+        "value": "928,784",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FJ"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "英語、斐濟語、斐濟印地語為官方語言；斐濟語與斐濟印地語不在支援清單（印地語在清單，但當地變體不同）。對陌生人講電話最常改用英語。",
+        "en": "English, Fijian and Fiji Hindi are official; Fijian and Fiji Hindi are unsupported (Hindi is listed, but the local variety differs). With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FJ",
+        "https://en.wikipedia.org/wiki/Fiji"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "pg-fj-sb-vu",
+      "region_reason": {
+        "zh": "美拉尼西亞英語溝通區，併入同一新區。",
+        "en": "Melanesian English-speaking area, grouped into the same new region."
+      }
+    },
+    {
+      "code": "fk",
+      "name": {
+        "en": "Falkland Islands",
+        "zh": "福克蘭群島"
+      },
+      "population": {
+        "value": "3,541",
+        "year": 2021,
+        "as_of": "2021-10-10 census",
+        "source": "UN Statistics Division, Population and Vital Statistics Report, Series A (census 10 Oct 2021: 3,541)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "英語為主要日常與官方語言。",
+        "en": "English is the main everyday and official language."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Falkland_Islands"
+      ],
+      "uncertain": [
+        "只寫語言與生活習慣，地名用中性寫法，不下政治評語。"
+      ],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英國海外領地，英語為主要語言，講電話習慣與英國幾乎相同。",
+        "en": "British Overseas Territory; English is the main language, and phone habits are almost the same as in the United Kingdom."
+      }
+    },
+    {
+      "code": "fm",
+      "name": {
+        "en": "Micronesia",
+        "zh": "密克羅尼西亞"
+      },
+      "population": {
+        "value": "113,160",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FM"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "英語為官方語言；各州本地語言不在支援清單。對陌生人講電話用英語。",
+        "en": "English is official; state-level local languages are unsupported. Use English with strangers."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FM",
+        "https://en.wikipedia.org/wiki/Federated_States_of_Micronesia"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "密克羅尼西亞聯邦，併入太平洋英語島嶼新區。",
+        "en": "Federated States of Micronesia, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "fo",
+      "name": {
+        "en": "Faroe Islands",
+        "zh": "法羅群島"
+      },
+      "population": {
+        "value": "54,640",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FO"
+      },
+      "phone_lang": "da",
+      "phone_lang_name": "Danish",
+      "phone_lang_note": {
+        "zh": "法羅語是當地主要語言，但不在支援清單；法羅語與丹麥語皆為官方語言，對陌生人與機關講電話多用丹麥語。",
+        "en": "Faroese is the main local language but is unsupported; Faroese and Danish are both official, and calls with strangers and offices usually use Danish."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=FO",
+        "https://en.wikipedia.org/wiki/Faroe_Islands"
+      ],
+      "uncertain": [
+        "當地人之間常用法羅語，AI 只能用丹麥語（或對方改用的英語）回。"
+      ],
+      "join": "dk",
+      "join_reason": {
+        "zh": "法羅語不在支援清單，對陌生人講電話多用丹麥語，習慣接近丹麥。",
+        "en": "Faroese is unsupported; calls with strangers usually use Danish, and habits are close to Denmark."
+      }
+    },
+    {
+      "code": "ga",
+      "name": {
+        "en": "Gabon",
+        "zh": "加彭"
+      },
+      "population": {
+        "value": "2,538,952",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GA"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語。對陌生人與機關講電話用法語。",
+        "en": "The official language is French. Use French with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GA",
+        "https://en.wikipedia.org/wiki/Gabon"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "中非法語國家，併入同一新區。",
+        "en": "Central African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "gh",
+      "name": {
+        "en": "Ghana",
+        "zh": "迦納"
+      },
+      "population": {
+        "value": "34,427,414",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GH"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；阿坎語等本地語言常用，但不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "The official language is English; Akan and other local languages are common but unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GH",
+        "https://en.wikipedia.org/wiki/Ghana"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ng-gh-sl-lr-gm",
+      "region_reason": {
+        "zh": "與奈及利亞等西非英語國家習慣接近（Sir/Madam、MoMo），合併為新區。",
+        "en": "Habits are close to Nigeria and other West African English-speaking countries (Sir/Madam, MoMo), grouped as a new region."
+      }
+    },
+    {
+      "code": "gi",
+      "name": {
+        "en": "Gibraltar",
+        "zh": "直布羅陀"
+      },
+      "population": {
+        "value": "39,329",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GI"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方與日常講電話主要用英語。",
+        "en": "Official and everyday phone use is mainly in English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GI",
+        "https://en.wikipedia.org/wiki/Gibraltar"
+      ],
+      "uncertain": [],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英國海外領地，英語為主要語言，講電話習慣與英國幾乎相同。",
+        "en": "British Overseas Territory; English is the main language, and phone habits are almost the same as in the United Kingdom."
+      }
+    },
+    {
+      "code": "gl",
+      "name": {
+        "en": "Greenland",
+        "zh": "格陵蘭"
+      },
+      "population": {
+        "value": "56,836",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GL"
+      },
+      "phone_lang": "da",
+      "phone_lang_name": "Danish",
+      "phone_lang_note": {
+        "zh": "格陵蘭語是多數人的日常語言，但不在支援清單；丹麥語亦為官方語言，對機關與許多外來電話改用丹麥語。",
+        "en": "Greenlandic is the everyday language for most people but is unsupported; Danish is also official, and office and many incoming calls switch to Danish."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GL",
+        "https://en.wikipedia.org/wiki/Greenland"
+      ],
+      "uncertain": [
+        "格陵蘭語才是多數人母語，丹麥語使用程度因人而異；公開的電話習慣資料有限。"
+      ],
+      "join": "dk",
+      "join_reason": {
+        "zh": "格陵蘭語不在支援清單，對機關與陌生人講電話常改用丹麥語，習慣接近丹麥。",
+        "en": "Greenlandic is unsupported; office and stranger calls often switch to Danish, and habits are close to Denmark."
+      }
+    },
+    {
+      "code": "gm",
+      "name": {
+        "en": "Gambia",
+        "zh": "甘比亞"
+      },
+      "population": {
+        "value": "2,759,988",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GM"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；當地語言常用但不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "The official language is English; local languages are common but unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GM",
+        "https://en.wikipedia.org/wiki/The_Gambia"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ng-gh-sl-lr-gm",
+      "region_reason": {
+        "zh": "西非英語國家，併入同一新區。",
+        "en": "West African English-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "gn",
+      "name": {
+        "en": "Guinea",
+        "zh": "幾內亞"
+      },
+      "population": {
+        "value": "14,754,785",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GN"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語。對陌生人與機關講電話用法語。",
+        "en": "The official language is French. Use French with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GN",
+        "https://en.wikipedia.org/wiki/Guinea"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，併入同一新區。",
+        "en": "West African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "gq",
+      "name": {
+        "en": "Equatorial Guinea",
+        "zh": "赤道幾內亞"
+      },
+      "population": {
+        "value": "1,892,516",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GQ"
+      },
+      "phone_lang": "es",
+      "phone_lang_name": "Spanish",
+      "phone_lang_note": {
+        "zh": "官方語言為西班牙語、法語與葡萄牙語；多數場合最常用西班牙語。對陌生人講電話最常用西班牙語，對方用法語或葡萄牙語就跟著說。",
+        "en": "Official languages are Spanish, French and Portuguese; Spanish is most common in most settings. With strangers, use Spanish most often, and follow if the caller uses French or Portuguese."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GQ",
+        "https://en.wikipedia.org/wiki/Equatorial_Guinea"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "gq",
+      "region_reason": {
+        "zh": "非洲以西班牙語為主的國家，不宜併入拉丁美洲或法語／葡語非洲區，宜獨立成區。",
+        "en": "An African country where Spanish is primary; do not join Latin America or Francophone/Lusophone Africa. It should be its own region."
+      }
+    },
+    {
+      "code": "gs",
+      "name": {
+        "en": "South Georgia & South Sandwich Islands",
+        "zh": "南喬治亞與南三明治群島"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: South Georgia and the South Sandwich Islands — no permanent civilian population; small seasonal / government presence",
+        "source_url": "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands",
+        "note": "無常住平民；僅有少數季節性或派駐人員。"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "無常住平民；英國海外領地，若有駐站聯絡用英語。",
+        "en": "No permanent civilian population; British Overseas Territory, so use English if a station needs to be reached."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/South_Georgia_and_the_South_Sandwich_Islands",
+        "https://www.gov.uk/world/south-georgia-and-the-south-sandwich-islands"
+      ],
+      "uncertain": [
+        "僅有季節性或科學站人員，無一般民間電話習慣。"
+      ],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英國海外領地，無常住平民，沿用英國與愛爾蘭地區資料。",
+        "en": "British Overseas Territory with no permanent civilian population; follow the UK and Ireland region."
+      }
+    },
+    {
+      "code": "gw",
+      "name": {
+        "en": "Guinea-Bissau",
+        "zh": "幾內亞比索"
+      },
+      "population": {
+        "value": "2,201,352",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GW"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為葡萄牙語；幾內亞克里奧爾語常用但不在支援清單。對正式電話多用葡萄牙語。",
+        "en": "The official language is Portuguese; Guinea-Bissau Creole is common but unsupported. Formal calls usually use Portuguese."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GW",
+        "https://en.wikipedia.org/wiki/Guinea-Bissau"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ao-mz-gw-cv-st",
+      "region_reason": {
+        "zh": "非洲葡語國家，併入同一新區。",
+        "en": "Lusophone African country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "gy",
+      "name": {
+        "en": "Guyana",
+        "zh": "蓋亞那"
+      },
+      "population": {
+        "value": "831,087",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GY"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；亦有克里奧爾語等，對陌生人講電話多用英語。",
+        "en": "The official language is English; Creole and other languages are also used. With strangers, English is usual."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=GY",
+        "https://en.wikipedia.org/wiki/Guyana"
+      ],
+      "uncertain": [
+        "蓋亞那英語用詞偏英式（如 mobile 而非 cell），與 us 區預設的美式用詞可能不完全相同。"
+      ],
+      "join": "us",
+      "join_reason": {
+        "zh": "英語為官方語言，既有資料已把多個英語加勒比／大西洋地區歸入 us，先沿用同一區。",
+        "en": "English is official, and existing data already places several English Caribbean/Atlantic territories in us, so follow that region for now."
+      }
+    },
+    {
+      "code": "hm",
+      "name": {
+        "en": "Heard Island & McDonald Islands",
+        "zh": "赫德島及麥唐納群島"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: Heard Island and McDonald Islands — uninhabited",
+        "source_url": "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+        "note": "無常住人口。"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "無常住人口；管轄國為澳洲，若有科考聯絡可用英語。",
+        "en": "No permanent population; the administering state is Australia, so English can be used for research contacts."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/Heard_Island_and_McDonald_Islands",
+        "https://www.antarctica.gov.au/antarctic-operations/stations-and-field-locations/heard-island/"
+      ],
+      "uncertain": [
+        "無常住平民，實際通話極罕見。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "無人定居的澳洲領地，無獨立民間電話習慣，沿用澳紐地區資料。",
+        "en": "Uninhabited Australian territory with no separate civilian phone habits; follow the Australia–New Zealand region."
+      }
+    },
+    {
+      "code": "io",
+      "name": {
+        "en": "British Indian Ocean Territory",
+        "zh": "英屬印度洋領地"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: British Indian Ocean Territory — no permanent civilian population",
+        "source_url": "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory",
+        "note": "無常住平民。只寫人口與語言，不下政治評語。"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "無常住平民；行政與駐地溝通用英語。",
+        "en": "No permanent civilian population; administration and station communication use English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/British_Indian_Ocean_Territory",
+        "https://www.gov.uk/world/british-indian-ocean-territory"
+      ],
+      "uncertain": [
+        "無常住平民；只寫語言與聯絡習慣，不下政治評語。"
+      ],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英屬印度洋領地，無常住平民，沿用英國與愛爾蘭地區資料。",
+        "en": "British Indian Ocean Territory with no permanent civilian population; follow the UK and Ireland region."
+      }
+    },
+    {
+      "code": "kh",
+      "name": {
+        "en": "Cambodia",
+        "zh": "柬埔寨"
+      },
+      "population": {
+        "value": "17,638,801",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KH"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為高棉語，但不在支援清單。商務與對外電話最常改用英語；部分場合也用華語。",
+        "en": "The official language is Khmer, which is unsupported. Business and outward calls most often switch to English; Chinese is also used in some settings."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KH",
+        "https://en.wikipedia.org/wiki/Cambodia"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "kh",
+      "region_reason": {
+        "zh": "高棉語不在支援清單，講電話習慣、支付（Bakong、ABA、Wing）與鄰近已有地區不同，宜獨立成區。",
+        "en": "Khmer is unsupported, and phone habits and payments (Bakong, ABA, Wing) differ from nearby mapped regions, so it should be its own region."
+      }
+    },
+    {
+      "code": "ki",
+      "name": {
+        "en": "Kiribati",
+        "zh": "吉里巴斯"
+      },
+      "population": {
+        "value": "134,518",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KI"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "吉里巴斯語為日常語言，但不在支援清單；英語為正式溝通語言。",
+        "en": "Gilbertese is the everyday language but is unsupported; English is the formal language of communication."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KI",
+        "https://en.wikipedia.org/wiki/Kiribati"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "密克羅尼西亞島國，併入太平洋英語島嶼新區。",
+        "en": "Micronesian island country, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "km",
+      "name": {
+        "en": "Comoros",
+        "zh": "葛摩"
+      },
+      "population": {
+        "value": "866,628",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KM"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "葛摩語、阿拉伯語、法語為官方語言；葛摩語不在支援清單。正式電話用法語或阿拉伯語。預設法語，對方用阿拉伯語就跟著說。",
+        "en": "Comorian, Arabic and French are official; Comorian is unsupported. Formal calls use French or Arabic. Default to French and follow if the caller uses Arabic."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KM",
+        "https://en.wikipedia.org/wiki/Comoros"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "mu-sc-km",
+      "region_reason": {
+        "zh": "印度洋島國，正式場合用法語或阿拉伯語，與模里西斯、塞席爾合併為新區。",
+        "en": "Indian Ocean island country where formal settings use French or Arabic, grouped with Mauritius and Seychelles as a new region."
+      }
+    },
+    {
+      "code": "kp",
+      "name": {
+        "en": "North Korea",
+        "zh": "北韓"
+      },
+      "population": {
+        "value": "26,498,823",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KP"
+      },
+      "phone_lang": "ko",
+      "phone_lang_name": "Korean",
+      "phone_lang_note": {
+        "zh": "朝鮮語／韓語在支援清單內，為當地主要語言。",
+        "en": "Korean is supported and is the main local language."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=KP",
+        "https://en.wikipedia.org/wiki/North_Korea"
+      ],
+      "uncertain": [
+        "民用移動電話、包裹與銀行習慣的公開一手資料極少，多數欄位只能寫語言禮貌層級，其餘標不確定。只寫語言與生活習慣，不下政治評語。"
+      ],
+      "new_region": true,
+      "region": "kp",
+      "region_reason": {
+        "zh": "雖與韓國同用韓語，但生活、電信與電話習慣不能視為相同，且公開資料很少，不宜併入 kr。",
+        "en": "Although Korean is also used in South Korea, daily life, telecom and phone habits cannot be treated as the same, and public sources are scarce, so do not join kr."
+      }
+    },
+    {
+      "code": "lr",
+      "name": {
+        "en": "Liberia",
+        "zh": "賴比瑞亞"
+      },
+      "population": {
+        "value": "5,612,817",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=LR"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語（用詞受美式影響較多）；對陌生人講電話用英語。",
+        "en": "The official language is English (usage is more American-influenced); use English with strangers."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=LR",
+        "https://en.wikipedia.org/wiki/Liberia"
+      ],
+      "uncertain": [
+        "賴比瑞亞英語用詞偏美式，與區內其他國家的英式／西非用詞可能略有不同。"
+      ],
+      "new_region": true,
+      "region": "ng-gh-sl-lr-gm",
+      "region_reason": {
+        "zh": "西非英語國家，併入同一新區。",
+        "en": "West African English-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "ls",
+      "name": {
+        "en": "Lesotho",
+        "zh": "賴索托"
+      },
+      "population": {
+        "value": "2,337,423",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=LS"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語與塞索托語；塞索托語不在支援清單，對陌生人與正式場合講電話多用英語。",
+        "en": "Official languages are English and Sesotho; Sesotho is unsupported, so calls with strangers and in formal settings usually use English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=LS",
+        "https://en.wikipedia.org/wiki/Lesotho"
+      ],
+      "uncertain": [],
+      "join": "za",
+      "join_reason": {
+        "zh": "與南非經濟與電信往來密切，英語為正式溝通語言，講電話習慣接近南非。",
+        "en": "Close economic and telecom ties with South Africa; English is the formal language of communication, and phone habits are close to South Africa."
+      }
+    },
+    {
+      "code": "mh",
+      "name": {
+        "en": "Marshall Islands",
+        "zh": "馬紹爾群島"
+      },
+      "population": {
+        "value": "37,548",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MH"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "馬紹爾語與英語為官方語言；馬紹爾語不在支援清單。對正式電話改用英語。",
+        "en": "Marshallese and English are official; Marshallese is unsupported. Formal calls switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MH",
+        "https://en.wikipedia.org/wiki/Marshall_Islands"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "密克羅尼西亞島國，併入太平洋英語島嶼新區。",
+        "en": "Micronesian island country, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "ml",
+      "name": {
+        "en": "Mali",
+        "zh": "馬利"
+      },
+      "population": {
+        "value": "24,478,595",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ML"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "法語為主要正式與跨族溝通語言；班巴拉語等日常語言不在支援清單。對陌生人講電話最常改用法語。",
+        "en": "French is the main formal and inter-ethnic language; Bambara and other everyday languages are unsupported. With strangers, switch most often to French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ML",
+        "https://en.wikipedia.org/wiki/Mali"
+      ],
+      "uncertain": [
+        "官方語言政策近年有調整，法語作為跨族電話語言的比重以公開商務與行政習慣為準。"
+      ],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語溝通區，併入同一新區。",
+        "en": "West African French-speaking area, grouped into the same new region."
+      }
+    },
+    {
+      "code": "mr",
+      "name": {
+        "en": "Mauritania",
+        "zh": "茅利塔尼亞"
+      },
+      "population": {
+        "value": "5,169,395",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MR"
+      },
+      "phone_lang": "ar",
+      "phone_lang_name": "Arabic",
+      "phone_lang_note": {
+        "zh": "官方語言為阿拉伯語；法語在行政、教育與商務電話仍常用。對陌生人講電話最常改用阿拉伯語，對方看法語就跟著說。",
+        "en": "The official language is Arabic; French is still common on administrative, education and business calls. With strangers, switch most often to Arabic, and follow if the caller uses French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MR",
+        "https://en.wikipedia.org/wiki/Mauritania"
+      ],
+      "uncertain": [],
+      "join": "maghreb",
+      "join_reason": {
+        "zh": "官方阿拉伯語，電話上常夾法語，講電話習慣與馬格里布既有資料幾乎相同。",
+        "en": "Official Arabic, often mixed with French on the phone; habits are almost the same as the existing Maghreb data."
+      }
+    },
+    {
+      "code": "mt",
+      "name": {
+        "en": "Malta",
+        "zh": "馬爾他"
+      },
+      "population": {
+        "value": "568,847",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MT"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "馬爾他語與英語同為官方語言；馬爾他語不在支援清單。對陌生人、商務與多數對外電話改用英語。",
+        "en": "Maltese and English are both official; Maltese is unsupported. Calls with strangers, in business and most outward calls switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MT",
+        "https://en.wikipedia.org/wiki/Malta"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "mt",
+      "region_reason": {
+        "zh": "英語與馬爾他語並用的歐盟國家，習慣與英國不完全相同，宜獨立成區。",
+        "en": "An EU country that uses both English and Maltese; habits are not identical to the UK, so it should be its own region."
+      }
+    },
+    {
+      "code": "mu",
+      "name": {
+        "en": "Mauritius",
+        "zh": "模里西斯"
+      },
+      "population": {
+        "value": "1,245,779",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MU"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "英語為官方語言，但日常與多數電話用法語或模里西斯克里奧爾語（克里奧爾語不在支援清單）。對陌生人講電話最常改用法語，對方用英語就跟著說。",
+        "en": "English is official, but everyday and most calls use French or Mauritian Creole (Creole is unsupported). With strangers, switch most often to French, and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MU",
+        "https://en.wikipedia.org/wiki/Mauritius"
+      ],
+      "uncertain": [
+        "英語亦為官方與部分商務語言，實際法語／英語比重因場合而異。"
+      ],
+      "new_region": true,
+      "region": "mu-sc-km",
+      "region_reason": {
+        "zh": "印度洋島國，法語／克里奧爾語為日常電話主調，與塞席爾、葛摩合併為新區。",
+        "en": "Indian Ocean island country where French/Creole sets the everyday phone tone, grouped with Seychelles and Comoros as a new region."
+      }
+    },
+    {
+      "code": "mv",
+      "name": {
+        "en": "Maldives",
+        "zh": "馬爾地夫"
+      },
+      "population": {
+        "value": "527,799",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MV"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為迪維希語，但不在支援清單。觀光、商務與對外電話最常改用英語。",
+        "en": "The official language is Dhivehi, which is unsupported. Tourism, business and outward calls most often switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MV",
+        "https://en.wikipedia.org/wiki/Maldives"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "mv",
+      "region_reason": {
+        "zh": "迪維希語不在支援清單，海島送貨與支付習慣獨特，宜獨立成區。",
+        "en": "Dhivehi is unsupported, and island delivery and payment habits are distinctive, so it should be its own region."
+      }
+    },
+    {
+      "code": "mw",
+      "name": {
+        "en": "Malawi",
+        "zh": "馬拉威"
+      },
+      "population": {
+        "value": "21,655,286",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MW"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；齊切瓦語為日常主要語言，但不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "The official language is English; Chichewa is the main everyday language but is unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MW",
+        "https://en.wikipedia.org/wiki/Malawi"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "zm-zw-mw",
+      "region_reason": {
+        "zh": "與尚比亞、辛巴威同屬南部非洲英語區，併入同一新區。",
+        "en": "Same Southern Africa English-speaking area as Zambia and Zimbabwe, grouped into the same new region."
+      }
+    },
+    {
+      "code": "mz",
+      "name": {
+        "en": "Mozambique",
+        "zh": "莫三比克"
+      },
+      "population": {
+        "value": "34,631,766",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MZ"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為葡萄牙語。對陌生人與機關講電話用葡萄牙語。",
+        "en": "The official language is Portuguese. Use Portuguese with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=MZ",
+        "https://en.wikipedia.org/wiki/Mozambique"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ao-mz-gw-cv-st",
+      "region_reason": {
+        "zh": "非洲葡語國家，併入同一新區。",
+        "en": "Lusophone African country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "na",
+      "name": {
+        "en": "Namibia",
+        "zh": "納米比亞"
+      },
+      "population": {
+        "value": "3,030,131",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NA"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；南非荷蘭語等也常用（南非荷蘭語在支援清單）。對陌生人講電話最常改用英語，對方用南非荷蘭語就跟著說。",
+        "en": "The official language is English; Afrikaans and others are also common (Afrikaans is supported). With strangers, switch most often to English, and follow if the caller uses Afrikaans."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NA",
+        "https://en.wikipedia.org/wiki/Namibia"
+      ],
+      "uncertain": [],
+      "join": "za",
+      "join_reason": {
+        "zh": "英語為官方語言，亦常用南非荷蘭語，講電話習慣與南非幾乎相同。",
+        "en": "English is official and Afrikaans is also common; phone habits are almost the same as in South Africa."
+      }
+    },
+    {
+      "code": "ne",
+      "name": {
+        "en": "Niger",
+        "zh": "尼日"
+      },
+      "population": {
+        "value": "27,032,412",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NE"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語；豪薩語等日常語言不在支援清單。對陌生人講電話最常改用法語。",
+        "en": "The official language is French; Hausa and other everyday languages are unsupported. With strangers, switch most often to French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NE",
+        "https://en.wikipedia.org/wiki/Niger"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，併入同一新區。",
+        "en": "West African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "nf",
+      "name": {
+        "en": "Norfolk Island",
+        "zh": "諾福克島"
+      },
+      "population": {
+        "value": "2,188",
+        "year": 2021,
+        "as_of": "2021-08-10 census",
+        "source": "UN Statistics Division, Population and Vital Statistics Report, Series A (census 10 Aug 2021: 2,188)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "諾福克語（Norfuk）有人使用，但不在支援清單；講電話主要用英語（澳洲領地）。",
+        "en": "Norfuk is used by some people but is unsupported; phone use is mainly English (Australian territory)."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Norfolk_Island"
+      ],
+      "uncertain": [
+        "同一普查日另有來源寫 1,739，可能為不同統計口徑；此處採聯合國 Series A 所列 2,188。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "澳洲領地，英語為主要語言，講電話習慣接近澳紐。",
+        "en": "Australian territory; English is the main language, and phone habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "ng",
+      "name": {
+        "en": "Nigeria",
+        "zh": "奈及利亞"
+      },
+      "population": {
+        "value": "232,679,478",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NG"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；豪薩語、約魯巴語、伊博語與尼日利亞皮欽語常用，但不都在支援清單。對陌生人講電話最常改用英語，對方用皮欽語可輕輕跟著、但 AI 仍用英語。",
+        "en": "The official language is English; Hausa, Yoruba, Igbo and Nigerian Pidgin are common, but not all are supported. With strangers, switch most often to English; lightly follow Pidgin terms if used, but the AI still replies in English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NG",
+        "https://en.wikipedia.org/wiki/Nigeria"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ng-gh-sl-lr-gm",
+      "region_reason": {
+        "zh": "西非英語區的核心國家，與迦納等國電話習慣接近，合併為新區。",
+        "en": "Core country of the West Africa English-speaking area, with phone habits close to Ghana and neighbours, grouped as a new region."
+      }
+    },
+    {
+      "code": "nr",
+      "name": {
+        "en": "Nauru",
+        "zh": "諾魯"
+      },
+      "population": {
+        "value": "11,947",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NR"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "諾魯語為日常語言，但不在支援清單；英語為正式溝通語言。",
+        "en": "Nauruan is the everyday language but is unsupported; English is the formal language of communication."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=NR",
+        "https://en.wikipedia.org/wiki/Nauru"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "密克羅尼西亞島國，人口很少，併入太平洋英語島嶼新區。",
+        "en": "Micronesian island country with a small population, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "nu",
+      "name": {
+        "en": "Niue",
+        "zh": "紐埃島"
+      },
+      "population": {
+        "value": "1,681",
+        "year": 2022,
+        "as_of": "2022-11-11 census",
+        "source": "UN Statistics Division, Population and Vital Statistics Report, Series A (census 11 Nov 2022: 1,681)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "紐埃語亦常用，但不在支援清單；正式與對外講電話多用英語（與紐西蘭自由聯合）。",
+        "en": "Niuean is also common but unsupported; formal and outward calls usually use English (free association with New Zealand)."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Niue"
+      ],
+      "uncertain": [],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "與紐西蘭自由聯合，英語為正式溝通語言，講電話習慣接近澳紐。",
+        "en": "In free association with New Zealand; English is the formal language of communication, and phone habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "pg",
+      "name": {
+        "en": "Papua New Guinea",
+        "zh": "巴布亞紐幾內亞"
+      },
+      "population": {
+        "value": "10,576,502",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PG"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語、托克皮辛語與希里莫圖語；後兩者都不在支援清單。對正式與對外電話用英語，對方夾雜托克皮辛語時可保留當地詞，但 AI 用英語回。",
+        "en": "Official languages are English, Tok Pisin and Hiri Motu; the latter two are unsupported. Formal and outward calls use English; keep local words if the caller mixes in Tok Pisin, but the AI replies in English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PG",
+        "https://en.wikipedia.org/wiki/Papua_New_Guinea"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "pg-fj-sb-vu",
+      "region_reason": {
+        "zh": "美拉尼西亞英語區，皮欽語習慣接近，與斐濟、索羅門、萬那杜合併為新區。",
+        "en": "Melanesian English-speaking area with similar pidgin habits, grouped with Fiji, Solomon Islands and Vanuatu as a new region."
+      }
+    },
+    {
+      "code": "pn",
+      "name": {
+        "en": "Pitcairn Islands",
+        "zh": "皮特肯群島"
+      },
+      "population": {
+        "value": "45",
+        "year": 2020,
+        "as_of": "2020-02-19 census",
+        "source": "UN Statistics Division, Population and Vital Statistics Report, Series A (census 19 Feb 2020: 45)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "居民極少，講電話用英語。",
+        "en": "Very few residents; phone use is in English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Pitcairn_Islands"
+      ],
+      "uncertain": [
+        "居民僅數十人，公開的當地電話習慣資料極少。"
+      ],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英國海外領地，英語為日常語言，人口極少，沿用英國與愛爾蘭地區資料。",
+        "en": "British Overseas Territory; English is the everyday language and the population is tiny, so follow the UK and Ireland region."
+      }
+    },
+    {
+      "code": "pw",
+      "name": {
+        "en": "Palau",
+        "zh": "帛琉"
+      },
+      "population": {
+        "value": "17,695",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PW"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "帕勞語與英語常用；帕勞語不在支援清單。對正式與對外電話改用英語。",
+        "en": "Palauan and English are both common; Palauan is unsupported. Formal and outward calls switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=PW",
+        "https://en.wikipedia.org/wiki/Palau"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "密克羅尼西亞島國，併入太平洋英語島嶼新區。",
+        "en": "Micronesian island country, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "rw",
+      "name": {
+        "en": "Rwanda",
+        "zh": "盧安達"
+      },
+      "population": {
+        "value": "14,256,567",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=RW"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "盧安達語是日常主要語言，但不在支援清單；英語、法語、斯瓦希里語皆為官方語言。對陌生人講電話最常改用英語，對方用法語或斯瓦希里語就跟著說。",
+        "en": "Kinyarwanda is the main everyday language but is unsupported; English, French and Swahili are all official. With strangers, switch most often to English, and follow if the caller uses French or Swahili."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=RW",
+        "https://en.wikipedia.org/wiki/Rwanda"
+      ],
+      "uncertain": [
+        "法語在部分機關與年長來電者中仍常用，既有東非區以英語為預設。"
+      ],
+      "join": "ke-tz-et-mg-ht",
+      "join_reason": {
+        "zh": "英語為官方語言之一，行動錢包與門衛等習慣接近東非既有資料；法語也常用，需跟著對方語言。",
+        "en": "English is one of the official languages, and mobile-money and gate-guard habits are close to existing East Africa data; French is also common, so follow the caller's language."
+      }
+    },
+    {
+      "code": "sb",
+      "name": {
+        "en": "Solomon Islands",
+        "zh": "索羅門群島"
+      },
+      "population": {
+        "value": "819,198",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SB"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；索羅門皮欽語為日常語言，但不在支援清單。對正式電話用英語。",
+        "en": "The official language is English; Solomon Islands Pijin is the everyday language but is unsupported. Formal calls use English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SB",
+        "https://en.wikipedia.org/wiki/Solomon_Islands"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "pg-fj-sb-vu",
+      "region_reason": {
+        "zh": "美拉尼西亞英語區，併入同一新區。",
+        "en": "Melanesian English-speaking area, grouped into the same new region."
+      }
+    },
+    {
+      "code": "sc",
+      "name": {
+        "en": "Seychelles",
+        "zh": "塞席爾"
+      },
+      "population": {
+        "value": "121,354",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SC"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "塞席爾克里奧爾語、英語、法語皆為官方語言；克里奧爾語不在支援清單。日常電話常用法語或英語。預設法語，對方用英語就跟著說。",
+        "en": "Seychellois Creole, English and French are all official; Creole is unsupported. Everyday calls often use French or English. Default to French and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SC",
+        "https://en.wikipedia.org/wiki/Seychelles"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "mu-sc-km",
+      "region_reason": {
+        "zh": "與模里西斯、葛摩同屬印度洋，法語與英語並用，合併為新區。",
+        "en": "Same Indian Ocean setting as Mauritius and Comoros, using both French and English, grouped as a new region."
+      }
+    },
+    {
+      "code": "sh",
+      "name": {
+        "en": "St. Helena, Ascension & Tristan da Cunha",
+        "zh": "聖赫勒拿島"
+      },
+      "population": {
+        "value": "5,075",
+        "year": 2024,
+        "as_of": "mixed official figures, approx. total",
+        "source": "UN Series A: Saint Helena ex-dep. mid-year 3,980; Ascension 802; Tristan da Cunha census 2016: 293",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "聖赫勒拿、阿森松與特里斯坦-達庫尼亞均以英語為主要語言。",
+        "en": "Saint Helena, Ascension and Tristan da Cunha all use English as the main language."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Saint_Helena,_Ascension_and_Tristan_da_Cunha"
+      ],
+      "uncertain": [
+        "三個島的數字年份不一（聖赫勒拿年中估計、阿森松約 802、特里斯坦普查 293），加總約 5,075 僅為約數。"
+      ],
+      "join": "gb-ie",
+      "join_reason": {
+        "zh": "英國海外領地，英語為主要語言，人口少，沿用英國與愛爾蘭地區資料。",
+        "en": "British Overseas Territory; English is the main language and the population is small, so follow the UK and Ireland region."
+      }
+    },
+    {
+      "code": "sj",
+      "name": {
+        "en": "Svalbard & Jan Mayen",
+        "zh": "挪威屬斯瓦巴及尖棉"
+      },
+      "population": {
+        "value": "2,504",
+        "year": 2026,
+        "as_of": "2026-06-30 approx., Longyearbyen and Ny-Ålesund only",
+        "source": "Statistics Norway (SSB), Population of Svalbard: Longyearbyen and Ny-Ålesund end of 1st half 2026, by residence groups 416+1,118+970=2,504",
+        "source_url": "https://www.ssb.no/en/befolkning/folketall/statistikk/befolkningen-pa-svalbard"
+      },
+      "phone_lang": "nb",
+      "phone_lang_name": "Norwegian",
+      "phone_lang_note": {
+        "zh": "斯瓦巴日常與行政用挪威語（支援清單有 nb／nn）；揚馬延無常住平民。",
+        "en": "Svalbard uses Norwegian in daily life and administration (nb/nn are supported); Jan Mayen has no permanent civilian population."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://www.ssb.no/en/befolkning/folketall/statistikk/befolkningen-pa-svalbard",
+        "https://en.wikipedia.org/wiki/Svalbard_and_Jan_Mayen"
+      ],
+      "uncertain": [
+        "SSB 人口統計主要涵蓋朗伊爾城與新奧勒松；巴倫支堡等其他聚落人數需另查，總人口不確定。揚馬延無常住平民。",
+        "SSB 此表主要涵蓋朗伊爾城與新奧勒松，不含巴倫支堡等其他聚落；揚馬延無常住平民。全屬地總人口因此不確定。"
+      ],
+      "join": "no",
+      "join_reason": {
+        "zh": "由挪威管轄，講電話用挪威語，習慣與挪威幾乎相同。",
+        "en": "Administered by Norway; phone use is in Norwegian, and habits are almost the same as in Norway."
+      }
+    },
+    {
+      "code": "sl",
+      "name": {
+        "en": "Sierra Leone",
+        "zh": "獅子山"
+      },
+      "population": {
+        "value": "8,642,022",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SL"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；克里奧爾語常用但不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "The official language is English; Creole is common but unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SL",
+        "https://en.wikipedia.org/wiki/Sierra_Leone"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ng-gh-sl-lr-gm",
+      "region_reason": {
+        "zh": "西非英語國家，習慣接近奈及利亞與迦納，合併為新區。",
+        "en": "West African English-speaking country with habits close to Nigeria and Ghana, grouped as a new region."
+      }
+    },
+    {
+      "code": "sn",
+      "name": {
+        "en": "Senegal",
+        "zh": "塞內加爾"
+      },
+      "population": {
+        "value": "18,501,984",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SN"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語；沃洛夫語為日常主要語言，但不在支援清單。對陌生人與機關講電話多用法語。",
+        "en": "The official language is French; Wolof is the main everyday language but is unsupported. Calls with strangers and offices usually use French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SN",
+        "https://en.wikipedia.org/wiki/Senegal"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，vous／行動錢包等習慣接近，合併為新區。",
+        "en": "West African French-speaking country with similar vous and mobile-money habits, grouped as a new region."
+      }
+    },
+    {
+      "code": "so",
+      "name": {
+        "en": "Somalia",
+        "zh": "索馬利亞"
+      },
+      "population": {
+        "value": "19,009,151",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SO"
+      },
+      "phone_lang": "ar",
+      "phone_lang_name": "Arabic",
+      "phone_lang_note": {
+        "zh": "索馬利亞語為主要日常語言，但不在支援清單；阿拉伯語為官方語言之一。對正式與對外電話常改用阿拉伯語，部分商務場合用英語。預設阿拉伯語，對方用英語就跟著說。",
+        "en": "Somali is the main everyday language but is unsupported; Arabic is one of the official languages. Formal and outward calls often switch to Arabic; some business settings use English. Default to Arabic and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SO",
+        "https://en.wikipedia.org/wiki/Somalia"
+      ],
+      "uncertain": [
+        "索馬利亞語才是多數人母語；阿拉伯語與英語何者在電話上更常用，因場合而異。"
+      ],
+      "new_region": true,
+      "region": "so-er-dj",
+      "region_reason": {
+        "zh": "非洲之角國家，正式場合常改用阿拉伯語，與厄利垂亞、吉布地合併為新區。",
+        "en": "Horn of Africa country; formal settings often switch to Arabic, grouped with Eritrea and Djibouti as a new region."
+      }
+    },
+    {
+      "code": "sr",
+      "name": {
+        "en": "Suriname",
+        "zh": "蘇利南"
+      },
+      "population": {
+        "value": "634,431",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SR"
+      },
+      "phone_lang": "nl",
+      "phone_lang_name": "Dutch",
+      "phone_lang_note": {
+        "zh": "官方語言為荷蘭語；蘇里南湯加語是日常通用語，但不在支援清單。對陌生人與機關講電話多用荷蘭語。",
+        "en": "The official language is Dutch; Sranan Tongo is the everyday lingua franca but is unsupported. Calls with strangers and offices usually use Dutch."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SR",
+        "https://en.wikipedia.org/wiki/Suriname"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sr",
+      "region_reason": {
+        "zh": "雖用荷蘭語，但南美生活、送貨與用詞與荷蘭本土不同，不宜併入 nl。",
+        "en": "Dutch is used, but South American daily life, delivery and wording differ from the Netherlands proper, so do not join nl."
+      }
+    },
+    {
+      "code": "ss",
+      "name": {
+        "en": "South Sudan",
+        "zh": "南蘇丹"
+      },
+      "population": {
+        "value": "11,943,408",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SS"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語；朱巴阿拉伯語等也廣泛使用，但不都在支援清單。對陌生人講電話最常改用英語，對方用阿拉伯語就跟著說。",
+        "en": "The official language is English; Juba Arabic and others are also widely used, but not all are supported. With strangers, switch most often to English, and follow if the caller uses Arabic."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SS",
+        "https://en.wikipedia.org/wiki/South_Sudan"
+      ],
+      "uncertain": [
+        "公開的民間電話習慣資料有限；阿拉伯語使用程度因地區而異。"
+      ],
+      "join": "ke-tz-et-mg-ht",
+      "join_reason": {
+        "zh": "英語為官方語言，電話與行動錢包習慣接近東非英語區既有資料。",
+        "en": "English is official, and phone and mobile-money habits are close to existing East Africa English-area data."
+      }
+    },
+    {
+      "code": "st",
+      "name": {
+        "en": "São Tomé & Príncipe",
+        "zh": "聖多美普林西比"
+      },
+      "population": {
+        "value": "235,536",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ST"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為葡萄牙語。對陌生人與機關講電話用葡萄牙語。",
+        "en": "The official language is Portuguese. Use Portuguese with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ST",
+        "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ao-mz-gw-cv-st",
+      "region_reason": {
+        "zh": "非洲葡語國家，併入同一新區。",
+        "en": "Lusophone African country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "sz",
+      "name": {
+        "en": "Eswatini",
+        "zh": "史瓦帝尼"
+      },
+      "population": {
+        "value": "1,242,822",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SZ"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語與史瓦帝語；史瓦帝語不在支援清單，對陌生人與正式場合講電話多用英語。",
+        "en": "Official languages are English and siSwati; siSwati is unsupported, so calls with strangers and in formal settings usually use English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SZ",
+        "https://en.wikipedia.org/wiki/Eswatini"
+      ],
+      "uncertain": [],
+      "join": "za",
+      "join_reason": {
+        "zh": "與南非經濟與電信往來密切，英語為正式溝通語言，講電話習慣接近南非。",
+        "en": "Close economic and telecom ties with South Africa; English is the formal language of communication, and phone habits are close to South Africa."
+      }
+    },
+    {
+      "code": "td",
+      "name": {
+        "en": "Chad",
+        "zh": "查德"
+      },
+      "population": {
+        "value": "20,299,123",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TD"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語與阿拉伯語（兩者皆在支援清單）。對陌生人講電話可能用法語或阿拉伯語；預設法語，對方用阿拉伯語就跟著說。",
+        "en": "Official languages are French and Arabic (both supported). With strangers, callers may use French or Arabic; default to French and follow if the caller uses Arabic."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TD",
+        "https://en.wikipedia.org/wiki/Chad"
+      ],
+      "uncertain": [
+        "北部與首都的阿拉伯語使用程度較高，預設法語並非所有場合都最自然。"
+      ],
+      "new_region": true,
+      "region": "cd-cg-cm-ga-cf-td-bi",
+      "region_reason": {
+        "zh": "中非法語溝通仍很常見，併入同一新區並註明跟隨阿拉伯語來電。",
+        "en": "French remains common for Central African communication; join the same new region and note following Arabic callers."
+      }
+    },
+    {
+      "code": "tf",
+      "name": {
+        "en": "French Southern and Antarctic Lands",
+        "zh": "法屬南部屬地"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: French Southern and Antarctic Lands — no permanent civilian population",
+        "source_url": "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+        "note": "無常住平民。"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "無常住平民；管轄國為法國，若有科考聯絡用法語。",
+        "en": "No permanent civilian population; the administering state is France, so use French for research contacts."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/French_Southern_and_Antarctic_Lands",
+        "https://taaf.fr/"
+      ],
+      "uncertain": [
+        "無常住平民，實際通話極罕見。"
+      ],
+      "join": "fr",
+      "join_reason": {
+        "zh": "法屬南部屬地，無常住平民，沿用法國地區資料。",
+        "en": "French Southern Territories with no permanent civilian population; follow the France region."
+      }
+    },
+    {
+      "code": "tg",
+      "name": {
+        "en": "Togo",
+        "zh": "多哥"
+      },
+      "population": {
+        "value": "8,406,558",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TG"
+      },
+      "phone_lang": "fr",
+      "phone_lang_name": "French",
+      "phone_lang_note": {
+        "zh": "官方語言為法語。對陌生人與機關講電話用法語。",
+        "en": "The official language is French. Use French with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TG",
+        "https://en.wikipedia.org/wiki/Togo"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "region_reason": {
+        "zh": "西非法語國家，併入同一新區。",
+        "en": "West African French-speaking country, grouped into the same new region."
+      }
+    },
+    {
+      "code": "tj",
+      "name": {
+        "en": "Tajikistan",
+        "zh": "塔吉克"
+      },
+      "population": {
+        "value": "10,590,927",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TJ"
+      },
+      "phone_lang": "ru",
+      "phone_lang_name": "Russian",
+      "phone_lang_note": {
+        "zh": "官方語言為塔吉克語，屬波斯語變體（波斯語 fa 在支援清單）；俄語在機關與商務電話仍常用。對陌生人講電話可能用塔吉克語／波斯語或俄語。預設俄語，對方用波斯語就跟著說。",
+        "en": "The official language is Tajik, a variety of Persian (fa is supported); Russian is still common on office and business calls. With strangers, callers may use Tajik/Persian or Russian. Default to Russian and follow if the caller uses Persian."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TJ",
+        "https://en.wikipedia.org/wiki/Tajikistan"
+      ],
+      "uncertain": [
+        "塔吉克語與波斯語接近但文字為西里爾字母，電話上要用 fa 還是 ru，因人而異。"
+      ],
+      "new_region": true,
+      "region": "uz-tj-tm",
+      "region_reason": {
+        "zh": "與烏茲別克、土庫曼同屬中亞，正式場合常改用俄語，合併為新區。",
+        "en": "Same Central Asian setting as Uzbekistan and Turkmenistan; formal settings often switch to Russian, grouped as a new region."
+      }
+    },
+    {
+      "code": "tk",
+      "name": {
+        "en": "Tokelau",
+        "zh": "托克勞群島"
+      },
+      "population": {
+        "value": "1,285",
+        "year": 2016,
+        "as_of": "2016-10-18 census",
+        "source": "UN Statistics Division, Population and Vital Statistics Report, Series A (census 18 Oct 2016: 1,285)",
+        "source_url": "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "托克勞語、薩摩亞語亦常用，但不在支援清單；正式溝通多用英語（紐西蘭屬地）。",
+        "en": "Tokelauan and Samoan are also common but unsupported; formal communication usually uses English (New Zealand territory)."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+        "https://en.wikipedia.org/wiki/Tokelau"
+      ],
+      "uncertain": [
+        "最新完整普查人口較舊（2016），之後數字來源不一。",
+        "聯合國所列最新普查為 2016 年，之後數字來源不一，可能已變化。"
+      ],
+      "join": "au-nz",
+      "join_reason": {
+        "zh": "紐西蘭屬地，英語為正式溝通語言，講電話習慣接近澳紐。",
+        "en": "New Zealand territory; English is the formal language of communication, and phone habits are close to Australia–New Zealand."
+      }
+    },
+    {
+      "code": "tl",
+      "name": {
+        "en": "Timor-Leste",
+        "zh": "東帝汶"
+      },
+      "population": {
+        "value": "1,400,638",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TL"
+      },
+      "phone_lang": "pt",
+      "phone_lang_name": "Portuguese",
+      "phone_lang_note": {
+        "zh": "官方語言為德頓語與葡萄牙語；德頓語不在支援清單。對機關與正式電話多用葡萄牙語，對方用英語就跟著說。",
+        "en": "Official languages are Tetum and Portuguese; Tetum is unsupported. Office and formal calls usually use Portuguese, and follow if the caller uses English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TL",
+        "https://en.wikipedia.org/wiki/Timor-Leste"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "tl",
+      "region_reason": {
+        "zh": "雖用葡萄牙語，但東南亞生活習慣與葡萄牙或非洲葡語區都不完全相同，宜獨立成區。",
+        "en": "Portuguese is used, but Southeast Asian daily habits are not identical to Portugal or Lusophone Africa, so it should be its own region."
+      }
+    },
+    {
+      "code": "tm",
+      "name": {
+        "en": "Turkmenistan",
+        "zh": "土庫曼"
+      },
+      "population": {
+        "value": "7,494,498",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TM"
+      },
+      "phone_lang": "ru",
+      "phone_lang_name": "Russian",
+      "phone_lang_note": {
+        "zh": "官方語言為土庫曼語，但不在支援清單（勿把土耳其語當成土庫曼語）。俄語在部分機關與對外電話仍使用，是支援清單裡較可用的替代語。",
+        "en": "The official language is Turkmen, which is unsupported (do not treat Turkish as Turkmen). Russian is still used on some office and outward calls, and is the more usable supported fallback."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TM",
+        "https://en.wikipedia.org/wiki/Turkmenistan"
+      ],
+      "uncertain": [
+        "土庫曼語為主、俄語使用程度較難估計；公開的民間電話習慣資料有限。"
+      ],
+      "new_region": true,
+      "region": "uz-tj-tm",
+      "region_reason": {
+        "zh": "與烏茲別克、塔吉克同屬中亞，對外電話常改用俄語，合併為新區。",
+        "en": "Same Central Asian setting as Uzbekistan and Tajikistan; outward calls often switch to Russian, grouped as a new region."
+      }
+    },
+    {
+      "code": "to",
+      "name": {
+        "en": "Tonga",
+        "zh": "東加"
+      },
+      "population": {
+        "value": "104,175",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TO"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "東加語為日常主要語言，但不在支援清單；英語在正式場合常用。對陌生人講電話最常改用英語。",
+        "en": "Tongan is the main everyday language but is unsupported; English is common in formal settings. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TO",
+        "https://en.wikipedia.org/wiki/Tonga"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "波利尼西亞島國，併入太平洋英語島嶼新區。",
+        "en": "Polynesian island country, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "tv",
+      "name": {
+        "en": "Tuvalu",
+        "zh": "吐瓦魯"
+      },
+      "population": {
+        "value": "9,646",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TV"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "吐瓦魯語為日常語言，但不在支援清單；英語為正式溝通語言。",
+        "en": "Tuvaluan is the everyday language but is unsupported; English is the formal language of communication."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=TV",
+        "https://en.wikipedia.org/wiki/Tuvalu"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "波利尼西亞島國，人口很少，併入太平洋英語島嶼新區。",
+        "en": "Polynesian island country with a small population, grouped into the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "ug",
+      "name": {
+        "en": "Uganda",
+        "zh": "烏干達"
+      },
+      "population": {
+        "value": "50,015,092",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=UG"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語，斯瓦希里語也通用（兩者皆在支援清單）；對陌生人講電話最常用英語，對方用斯瓦希里語就跟著說。",
+        "en": "The official language is English, and Swahili is also widely used (both are supported). With strangers, use English most often, and follow if the caller uses Swahili."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=UG",
+        "https://en.wikipedia.org/wiki/Uganda"
+      ],
+      "uncertain": [],
+      "join": "ke-tz-et-mg-ht",
+      "join_reason": {
+        "zh": "英語與斯瓦希里語通用，行動錢包與門衛（askari）等講電話習慣與肯尼亞、坦尚尼亞幾乎相同。",
+        "en": "English and Swahili are both in common use; mobile-money and gate-guard (askari) phone habits are almost the same as in Kenya and Tanzania."
+      }
+    },
+    {
+      "code": "um",
+      "name": {
+        "en": "U.S. Outlying Islands",
+        "zh": "美國本土外小島嶼"
+      },
+      "population": {
+        "value": "0",
+        "year": null,
+        "as_of": "no permanent civilian population",
+        "source": "Wikipedia: United States Minor Outlying Islands / ISO 3166 UM: no permanent civilian population",
+        "source_url": "https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands",
+        "note": "無常住平民。"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "無常住平民；管轄國為美國，若有駐守或補給聯絡可用英語。",
+        "en": "No permanent civilian population; the administering state is the United States, so English can be used for station or resupply contacts."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://en.wikipedia.org/wiki/United_States_Minor_Outlying_Islands",
+        "https://www.fws.gov/locations/pacific-islands-heritage-marine-national-monument"
+      ],
+      "uncertain": [
+        "無常住平民，實際通話極罕見。",
+        "CIA 頁面按各島分列，未見單一「UM」總人口；各島均無常住平民。"
+      ],
+      "join": "us",
+      "join_reason": {
+        "zh": "美國本土外小島嶼，無常住平民，沿用美國地區資料。",
+        "en": "U.S. Minor Outlying Islands with no permanent civilian population; follow the United States region."
+      }
+    },
+    {
+      "code": "uz",
+      "name": {
+        "en": "Uzbekistan",
+        "zh": "烏茲別克"
+      },
+      "population": {
+        "value": "36,361,859",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=UZ"
+      },
+      "phone_lang": "ru",
+      "phone_lang_name": "Russian",
+      "phone_lang_note": {
+        "zh": "官方語言為烏茲別克語，但不在支援清單。俄語在機關、商務與跨族溝通的電話仍常用，是支援清單裡最常用的替代語。",
+        "en": "The official language is Uzbek, which is unsupported. Russian is still common on office, business and inter-ethnic calls, and is the most used supported fallback."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=UZ",
+        "https://en.wikipedia.org/wiki/Uzbekistan"
+      ],
+      "uncertain": [
+        "烏茲別克語使用在加強，俄語比重因世代與場合而異。"
+      ],
+      "new_region": true,
+      "region": "uz-tj-tm",
+      "region_reason": {
+        "zh": "俄語雖也在哈薩克、吉爾吉斯使用，但支付（Humo、Click、Payme）與用詞與 ru 區的 Kaspi、Госуслуги 不同，宜與塔吉克、土庫曼合成中亞新區。",
+        "en": "Russian is also used in Kazakhstan and Kyrgyzstan, but payments (Humo, Click, Payme) and wording differ from Kaspi and Gosuslugi in the ru region, so group with Tajikistan and Turkmenistan as a Central Asia region."
+      }
+    },
+    {
+      "code": "vu",
+      "name": {
+        "en": "Vanuatu",
+        "zh": "萬那杜"
+      },
+      "population": {
+        "value": "327,777",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=VU"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為比斯拉馬語、英語與法語；比斯拉馬語不在支援清單。對正式電話用英語或法語。預設英語，對方用法語就跟著說。",
+        "en": "Official languages are Bislama, English and French; Bislama is unsupported. Formal calls use English or French. Default to English and follow if the caller uses French."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=VU",
+        "https://en.wikipedia.org/wiki/Vanuatu"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "pg-fj-sb-vu",
+      "region_reason": {
+        "zh": "美拉尼西亞，與巴紐等國習慣接近，併入同一新區。",
+        "en": "Melanesia, with habits close to Papua New Guinea and neighbours, grouped into the same new region."
+      }
+    },
+    {
+      "code": "ws",
+      "name": {
+        "en": "Samoa",
+        "zh": "薩摩亞"
+      },
+      "population": {
+        "value": "218,019",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=WS"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "薩摩亞語為日常主要語言，但不在支援清單；英語亦為官方語言。對正式與對外電話改用英語。",
+        "en": "Samoan is the main everyday language but is unsupported; English is also official. Formal and outward calls switch to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=WS",
+        "https://en.wikipedia.org/wiki/Samoa"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "ws-to-ki-fm-mh-pw-nr-tv",
+      "region_reason": {
+        "zh": "波利尼西亞英語溝通的島國，與東加等合併為太平洋英語島嶼新區。",
+        "en": "Polynesian island country that communicates formally in English, grouped with Tonga and others as the Pacific English-speaking islands region."
+      }
+    },
+    {
+      "code": "zm",
+      "name": {
+        "en": "Zambia",
+        "zh": "尚比亞"
+      },
+      "population": {
+        "value": "21,314,956",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZM"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言為英語。對陌生人與機關講電話用英語。",
+        "en": "The official language is English. Use English with strangers and offices."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZM",
+        "https://en.wikipedia.org/wiki/Zambia"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "zm-zw-mw",
+      "region_reason": {
+        "zh": "英語為官方語言，行動錢包與門閘等習慣與辛巴威、馬拉威接近，合併為新區（與南非用詞、支付不完全相同，故不併入 za）。",
+        "en": "English is official, and mobile-money and gate habits are close to Zimbabwe and Malawi, grouped as a new region (wording and payments are not identical to South Africa, so do not join za)."
+      }
+    },
+    {
+      "code": "zw",
+      "name": {
+        "en": "Zimbabwe",
+        "zh": "辛巴威"
+      },
+      "population": {
+        "value": "16,634,373",
+        "year": 2024,
+        "as_of": "2024 mid-year",
+        "source": "World Bank World Development Indicators, SP.POP.TOTL (2024)",
+        "source_url": "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZW"
+      },
+      "phone_lang": "en",
+      "phone_lang_name": "English",
+      "phone_lang_note": {
+        "zh": "官方語言包括英語與修納語、北恩德貝勒語等；本地語言多不在支援清單。對陌生人講電話最常改用英語。",
+        "en": "Official languages include English, Shona and Northern Ndebele; most local languages are unsupported. With strangers, switch most often to English."
+      },
+      "sources": [
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+        "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+        "https://data.worldbank.org/indicator/SP.POP.TOTL?locations=ZW",
+        "https://en.wikipedia.org/wiki/Zimbabwe"
+      ],
+      "uncertain": [],
+      "new_region": true,
+      "region": "zm-zw-mw",
+      "region_reason": {
+        "zh": "與尚比亞、馬拉威同屬南部非洲英語區，併入同一新區。",
+        "en": "Same Southern Africa English-speaking area as Zambia and Malawi, grouped into the same new region."
+      }
+    }
+  ],
+  "new_regions": [
+    {
+      "code": "aw-cw-bq",
+      "countries": [
+        "aw",
+        "bq",
+        "cw"
+      ],
+      "name": {
+        "en": "Dutch Caribbean",
+        "zh": "荷屬加勒比"
+      }
+    },
+    {
+      "code": "sr",
+      "countries": [
+        "sr"
+      ],
+      "name": {
+        "en": "Suriname",
+        "zh": "蘇利南"
+      }
+    },
+    {
+      "code": "mt",
+      "countries": [
+        "mt"
+      ],
+      "name": {
+        "en": "Malta",
+        "zh": "馬爾他"
+      }
+    },
+    {
+      "code": "bn",
+      "countries": [
+        "bn"
+      ],
+      "name": {
+        "en": "Brunei",
+        "zh": "汶萊"
+      }
+    },
+    {
+      "code": "kh",
+      "countries": [
+        "kh"
+      ],
+      "name": {
+        "en": "Cambodia",
+        "zh": "柬埔寨"
+      }
+    },
+    {
+      "code": "tl",
+      "countries": [
+        "tl"
+      ],
+      "name": {
+        "en": "Timor-Leste",
+        "zh": "東帝汶"
+      }
+    },
+    {
+      "code": "mv",
+      "countries": [
+        "mv"
+      ],
+      "name": {
+        "en": "Maldives",
+        "zh": "馬爾地夫"
+      }
+    },
+    {
+      "code": "bt",
+      "countries": [
+        "bt"
+      ],
+      "name": {
+        "en": "Bhutan",
+        "zh": "不丹"
+      }
+    },
+    {
+      "code": "kp",
+      "countries": [
+        "kp"
+      ],
+      "name": {
+        "en": "North Korea",
+        "zh": "北韓"
+      }
+    },
+    {
+      "code": "uz-tj-tm",
+      "countries": [
+        "tj",
+        "tm",
+        "uz"
+      ],
+      "name": {
+        "en": "Central Asia (Uzbekistan, Tajikistan, Turkmenistan)",
+        "zh": "中亞（烏茲別克、塔吉克、土庫曼）"
+      }
+    },
+    {
+      "code": "ng-gh-sl-lr-gm",
+      "countries": [
+        "gh",
+        "gm",
+        "lr",
+        "ng",
+        "sl"
+      ],
+      "name": {
+        "en": "West Africa (English)",
+        "zh": "西非（英語）"
+      }
+    },
+    {
+      "code": "sn-ci-bf-ml-ne-tg-bj-gn",
+      "countries": [
+        "bf",
+        "bj",
+        "ci",
+        "gn",
+        "ml",
+        "ne",
+        "sn",
+        "tg"
+      ],
+      "name": {
+        "en": "West Africa (French)",
+        "zh": "西非（法語）"
+      }
+    },
+    {
+      "code": "cd-cg-cm-ga-cf-td-bi",
+      "countries": [
+        "bi",
+        "cd",
+        "cf",
+        "cg",
+        "cm",
+        "ga",
+        "td"
+      ],
+      "name": {
+        "en": "Central Africa (French)",
+        "zh": "中非（法語）"
+      }
+    },
+    {
+      "code": "ao-mz-gw-cv-st",
+      "countries": [
+        "ao",
+        "cv",
+        "gw",
+        "mz",
+        "st"
+      ],
+      "name": {
+        "en": "Lusophone Africa",
+        "zh": "非洲葡語國家"
+      }
+    },
+    {
+      "code": "gq",
+      "countries": [
+        "gq"
+      ],
+      "name": {
+        "en": "Equatorial Guinea",
+        "zh": "赤道幾內亞"
+      }
+    },
+    {
+      "code": "zm-zw-mw",
+      "countries": [
+        "mw",
+        "zm",
+        "zw"
+      ],
+      "name": {
+        "en": "Southern Africa (English)",
+        "zh": "南部非洲（英語）"
+      }
+    },
+    {
+      "code": "so-er-dj",
+      "countries": [
+        "dj",
+        "er",
+        "so"
+      ],
+      "name": {
+        "en": "Horn of Africa",
+        "zh": "非洲之角"
+      }
+    },
+    {
+      "code": "mu-sc-km",
+      "countries": [
+        "km",
+        "mu",
+        "sc"
+      ],
+      "name": {
+        "en": "Western Indian Ocean islands",
+        "zh": "西印度洋島國"
+      }
+    },
+    {
+      "code": "pg-fj-sb-vu",
+      "countries": [
+        "fj",
+        "pg",
+        "sb",
+        "vu"
+      ],
+      "name": {
+        "en": "Melanesia",
+        "zh": "美拉尼西亞"
+      }
+    },
+    {
+      "code": "ws-to-ki-fm-mh-pw-nr-tv",
+      "countries": [
+        "fm",
+        "ki",
+        "mh",
+        "nr",
+        "pw",
+        "to",
+        "tv",
+        "ws"
+      ],
+      "name": {
+        "en": "Polynesia and Micronesia",
+        "zh": "波利尼西亞與密克羅尼西亞"
+      }
+    },
+    {
+      "code": "aq",
+      "countries": [
+        "aq"
+      ],
+      "name": {
+        "en": "Antarctica",
+        "zh": "南極洲"
+      }
+    }
+  ],
+  "sources": [
+    "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/zh-Hant/territories.json",
+    "https://github.com/unicode-org/cldr-json/blob/main/cldr-json/cldr-localenames-full/main/en/territories.json",
+    "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "https://en.wikipedia.org/wiki/List_of_official_languages_by_country_and_territory",
+    "https://unstats.un.org/unsd/demographic-social/products/vitstats/seratab2.pdf",
+    "https://unstats.un.org/unsd/demographic-social/products/dyb/documents/DYB2024/table05.pdf",
+    "https://population.un.org/wpp/",
+    "https://www.asub.ax/en/facts-about-aland",
+    "https://www.cbs.nl/en-gb/news/2025/21/population-of-the-caribbean-netherlands-up-by-nearly-1-6-thousand-in-2024",
+    "https://www.ssb.no/en/befolkning/folketall/statistikk/befolkningen-pa-svalbard"
+  ],
+  "uncertain": [
+    "部分島嶼與領地沒有世界銀行 2024 年人口，改用普查或聯合國數字，年份與口徑不一致處已寫在該國 uncertain。",
+    "庫克群島、諾福克島、科科斯群島、聖赫勒拿（三島加總）、斯瓦巴（僅部分聚落）的人口數字有來源或口徑差異。",
+    "西撒哈拉人口為聯合國估計；只寫人口與語言，不下政治評語。",
+    "查無公開資料顯示本批未對照國家普遍有「國際來電先播語音提示」的電信監理規定（螢幕標示國際來電與語音提示不同）。各國細節見新地區檔。"
+  ]
+}

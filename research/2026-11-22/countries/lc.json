@@ -1,0 +1,88 @@
+{
+  "country": "lc",
+  "parent": "us",
+  "name": {
+    "en": "Saint Lucia",
+    "native": "Saint Lucia",
+    "zh": "聖露西亞"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day",
+    "hello_again": "Good day once more"
+  },
+  "delivery": {
+    "en": "Use Saint Lucia Postal Service in Castries, or a courier; door-to-door rules are unclear",
+    "zh": "可走卡斯特里的聖露西亞郵政或快遞；上門投遞規則官網寫得不清楚"
+  },
+  "readback": {
+    "en": "A 758 number goes 3-3-4; 0 as zero; East Caribbean dollars; 12-hour clock; day before month",
+    "zh": "758 號碼照 3-3-4 唸，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "An unexpected prize, investment or payment request is a scam until checked officially",
+    "zh": "突然出現的中獎、投資或付款要求，在經官方管道確認前都應當成詐騙"
+  },
+  "habits": {
+    "en": "Locals may mix Kwéyòl; reply in English, which is supported. Say mobile, not cell. East Caribbean dollars. Day first.",
+    "zh": "當地或夾克里奧爾語，但不在支援清單，用英語回。說 mobile 不說 cell。東加勒比元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "I cannot get through to the Castries post office, and the bank app is asking for a new password.",
+    "zh": "打不通卡斯特里郵局，而且銀行 App 要設新密碼。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "online banking"
+    ],
+    "delivery": [
+      "Saint Lucia Postal Service",
+      "Castries",
+      "courier",
+      "collection"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式說法，當地英語較常說 mobile"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是聖露西亞日常付款名"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局，不是本地機關"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Warm but polite, in English. If the caller mixes Kwéyòl, stay in English. Use Saint Lucia Postal Service and East Caribbean dollars, not US tax or locker talk.",
+    "zh": "熱絡但有禮，用英語。對方夾克里奧爾語也用英語回。郵務與金額用聖露西亞郵政、東加勒比元，不要說美國稅務或包裹櫃。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://opm.govt.lc/news/important-notice-scam-alert",
+    "https://www.govt.lc/ministries/infrastructure-port-services-and-transport/postal-services",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+  ],
+  "uncertain": [
+    "總理府有詐騙警示頁，但此次抓取遇到轉址，未能核對具體話術，故 fraud 寫得較概括，並輔以東加勒比央行的區域警示。",
+    "上門投遞細節官網不足。"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "country": "iq",
+  "parent": "levant",
+  "name": {
+    "en": "Iraq",
+    "native": "العراق",
+    "zh": "伊拉克"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the door, a neighbour, or a reception or courier office",
+    "zh": "包裹交門口、鄰居，或到收發室、快遞點"
+  },
+  "readback": {
+    "en": "Iraqi mobiles starting 07 go in short groups; 0 as صفر; amounts in Iraqi dinars; 12-hour time",
+    "zh": "伊拉克 07 開頭的手機分短組唸，0 唸 صفر；金額用伊拉克第納爾；12 時制"
+  },
+  "fraud": {
+    "en": "A Qi Card or bank OTP or card-data request, or a fake courier fee, is a scam",
+    "zh": "冒充 Qi Card 或銀行要驗證碼、卡資料，或假快遞補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Iraqi Arabic, formal titles with strangers. Do not use CliQ, Whish, or ناطور as the default.",
+    "zh": "用伊拉克阿拉伯語，對陌生人用敬稱。不要套用 CliQ、Whish 或黎凡特的 ناطور。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a Qi or bank app hanging, an SMS code that never arrives, or missing glasses.",
+    "zh": "卡在 Qi 或銀行 App 卡住、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "Qi Card",
+      "OTP",
+      "راتب"
+    ],
+    "delivery": [
+      "الباب",
+      "الجيران",
+      "الاستعلامات"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CliQ",
+      "reason": {
+        "en": "Jordanian instant payments",
+        "zh": "約旦即時付款"
+      }
+    },
+    {
+      "word": "Whish Money",
+      "reason": {
+        "en": "Lebanese wallet",
+        "zh": "黎巴嫩錢包"
+      }
+    },
+    {
+      "word": "الناطور",
+      "reason": {
+        "en": "Levant doorman term, not the usual Iraqi wording",
+        "zh": "黎凡特門房用語，不是伊拉克常用說法"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Use Iraqi Arabic, which differs clearly from Levant dialects. Stay formal with strangers; drop Levant payment and doorman terms.",
+    "zh": "用伊拉克阿拉伯語，和黎凡特方言差別明顯。對陌生人保持正式；不用黎凡特的支付和門房詞。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://cbi.iq/news/view/3016",
+    "https://964media.com/632484/",
+    "https://shafaq.com/en/Security/Five-detained-in-Iraq-over-Qi-Card-scam"
+  ],
+  "uncertain": [
+    "日常取件除門口與鄰居外，各城市是否普遍有門房或固定快遞櫃，公開資料不足。",
+    "接聽 ألو 是泛用阿拉伯語說法，伊拉克是否另有更常用的接聽語，未找到官方說明。"
+  ]
+}

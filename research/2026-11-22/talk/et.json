@@ -1,0 +1,295 @@
+{
+  "lang": "et",
+  "backchannels": {
+    "direction": "Wiktionary lists mhm among Estonian continuers; jah keeps agreement. A clipped jah, jah can sound impatient.",
+    "examples": [
+      {
+        "text": "Jah.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, jah.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Selge.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Saan aru.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Jah, jah.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Kas tõesti? marks surprise; kahju and vabandust cover sympathy, and õnne soovid a congratulation.",
+    "examples": [
+      {
+        "text": "Kas tõesti?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Päriselt?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Kahju kuulda.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Kahju.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Tubli!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Õnne soovin.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "See tuleb raske.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Course lists give ma ei kuule when the kõne fades; ask them to räägi valjemini, not to stay waiting on the line.",
+    "examples": [
+      {
+        "text": "Ma ei kuule.",
+        "style": "casual"
+      },
+      {
+        "text": "Ma ei kuule teid hästi.",
+        "style": "polite"
+      },
+      {
+        "text": "Palun rääkige valjemini.",
+        "style": "polite"
+      },
+      {
+        "text": "Ühendus on kehv.",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives ma ei saa aru; palun korrake asks a careful replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "Ma ei saa aru.",
+        "style": "casual"
+      },
+      {
+        "text": "Palun korrake.",
+        "style": "polite"
+      },
+      {
+        "text": "Vabandust, ma ei saanud aru.",
+        "style": "polite"
+      },
+      {
+        "text": "Number veel kord: kas see on 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kes räägib? is the stock probe; vabandust, kes räägib? is softer. On a shared phone, say this is {owner} telefon.",
+    "examples": [
+      {
+        "text": "Kes räägib?",
+        "style": "casual"
+      },
+      {
+        "text": "Vabandust, kes räägib?",
+        "style": "polite"
+      },
+      {
+        "text": "See on {owner} telefon. Kes räägib?",
+        "style": "polite"
+      },
+      {
+        "text": "Kellega ma räägin?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The same lists give vale number; a short vabandust and close is enough, without asking how the number was found.",
+    "examples": [
+      {
+        "text": "Vale number.",
+        "style": "casual"
+      },
+      {
+        "text": "Vabandust, vale number.",
+        "style": "polite"
+      },
+      {
+        "text": "Siin ei ole kedagi selle nimega.",
+        "style": "polite"
+      },
+      {
+        "text": "Teil on vale number.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ütlen {owner} edasi or annan sõnumi edasi passes the news; that alone does not name an hour for a return call.",
+    "examples": [
+      {
+        "text": "Ütlen {owner} edasi.",
+        "style": "polite"
+      },
+      {
+        "text": "Annan sõnumi edasi.",
+        "style": "polite"
+      },
+      {
+        "text": "Ütlen, et helistasite.",
+        "style": "polite"
+      },
+      {
+        "text": "Ütlen talle.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ei, aitäh, mind ei huvita closes a sales call; extra reasons can sound as if the offer is still being weighed.",
+    "examples": [
+      {
+        "text": "Ei, aitäh, mind ei huvita.",
+        "style": "polite"
+      },
+      {
+        "text": "Aitäh, meil ei ole seda vaja.",
+        "style": "polite"
+      },
+      {
+        "text": "Mind ei huvita, aitäh.",
+        "style": "casual"
+      },
+      {
+        "text": "Palun võtke meid nimekirjast maha.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second ei often adds palun ärge helistage sellele numbrile rohkem, still with teie.",
+    "examples": [
+      {
+        "text": "Ma juba ütlesin ei. Palun ärge helistage sellele numbrile rohkem.",
+        "style": "polite"
+      },
+      {
+        "text": "Mind ei huvita ja palun lõpetage helistamine.",
+        "style": "polite"
+      },
+      {
+        "text": "Ära palun enam helista.",
+        "style": "casual"
+      },
+      {
+        "text": "See on lõplik ei. Palun ärge enam ühendust võtke.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "teie (often capital Te) is safer with strangers; sina waits for familiars. Härra or proua plus a surname is careful.",
+    "examples": [
+      {
+        "text": "Härra.",
+        "style": "polite"
+      },
+      {
+        "text": "Proua.",
+        "style": "polite"
+      },
+      {
+        "text": "Doktor.",
+        "style": "polite"
+      },
+      {
+        "text": "Teie.",
+        "style": "polite"
+      },
+      {
+        "text": "Sina, kuidas läheb?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A script like teie kõne on meile tähtis sounds like a call centre on a private mobiil.",
+    "examples": [
+      {
+        "text": "Teie kõne on meile tähtis.",
+        "style": "polite"
+      },
+      {
+        "text": "Kuidas saan teid täna aidata?",
+        "style": "polite"
+      },
+      {
+        "text": "Meil on hea meel teid teenindada.",
+        "style": "polite"
+      },
+      {
+        "text": "Täname, et helistasite {owner} büroosse.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to sina too soon, or asking for an isikukood or salary at the start, feels intrusive.",
+    "examples": [
+      {
+        "text": "Kas sa oled abielus? Mis su palk on?",
+        "style": "casual"
+      },
+      {
+        "text": "Miks {owner} tagasi ei helistanud? Ütle, kus ta praegu on.",
+        "style": "casual"
+      },
+      {
+        "text": "Kõigepealt isikukood ja aadress, palun.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://eestikeeletest.ee/en/topics/phone"
+  ],
+  "uncertain": [
+    "eestikeeletest.ee 是學習練習頁，不是通話語料庫；vale number／kes räägib／ma ei kuule 依該頁與詞典。",
+    "教材裡常見的請人不要掛斷、或請人在線上短暫停留的套語，本檔完全不用。",
+    "拒推銷用語沒有官方稿，例句依普通禮貌拒絕。teie 大寫 Te 多見於書面，口語界線未量化。"
+  ]
+}

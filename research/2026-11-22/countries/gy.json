@@ -1,0 +1,57 @@
+{
+  "country": "gy",
+  "parent": "us",
+  "name": {
+    "en": "Guyana",
+    "native": "Guyana",
+    "zh": "蓋亞那"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+592（不在北美編號計畫 +1 之內，與父區多數加勒比國家不同）",
+    "currency": "蓋亞那元 GYD",
+    "time_zone": "UTC-4，不實施夏令時間",
+    "language": "英語官方；日常多說蓋亞那克里奧爾語",
+    "date": "日期多為先日後月（英式），與美國相反",
+    "driving": "靠左行駛"
+  },
+  "habits": {
+    "en": "Open in English; follow Guyanese Creole. Dates are day first; prices in G$. Do not assume a zip code or +1 number.",
+    "zh": "先用英語；對方說蓋亞那克里奧爾語就跟著說。日期先日後月；標價是 G$。不要假設有 zip code 或 +1 號碼。"
+  },
+  "vocab": {
+    "bank": [
+      "G$",
+      "MMG"
+    ],
+    "delivery": [
+      "post office",
+      "landmark"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "蓋亞那地址一般不用郵遞區號"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國的銀行轉帳，蓋亞那不用"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.bankofguyana.org.gy/",
+    "https://en.wikipedia.org/wiki/Guyanese_dollar",
+    "https://en.wikipedia.org/wiki/Guyanese_Creole"
+  ],
+  "uncertain": [
+    "MMG（行動錢包）名稱未在官方頁確認。",
+    "GTT 網站從 box 無法連上，號碼格式只依一般資料。",
+    "以地標描述地址的普遍程度缺少資料。"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "country": "vi",
+  "parent": "us",
+  "name": {
+    "en": "U.S. Virgin Islands",
+    "native": "U.S. Virgin Islands",
+    "zh": "美屬維京群島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello? Can you hear me?"
+  },
+  "delivery": {
+    "en": "USPS delivers to the address, but island transit is slower; a surprise USPS call is not official",
+    "zh": "USPS 可送到住址，但較美國本土慢；突然打來的 USPS 電話不是投遞通知"
+  },
+  "readback": {
+    "en": "After 340, numbers go 3-3-4; 0 as zero or oh; US dollars; 12-hour a.m./p.m.; month first",
+    "zh": "340 區碼後照 3-3-4 唸，0 可唸 zero 或 oh；美元；12 時制；先月後日"
+  },
+  "fraud": {
+    "en": "Unsolicited official-sounding calls aimed at seniors, as the VIPD has warned, are scams",
+    "zh": "向長者打來、聽起來像官方的陌生電話，維京群島警方已警示，應當成詐騙"
+  },
+  "habits": {
+    "en": "US English with some Caribbean colour. Month first, zip codes, US dollars. Good afternoon is common.",
+    "zh": "美式英語為主，帶一點加勒比色彩。日期先月後日，有 zip code，用美元。"
+  },
+  "stall_local": {
+    "en": "USPS tracking has sat still for days, which can happen on island routes, and the bank app is stuck.",
+    "zh": "USPS 查件好幾天沒動，島嶼航線有時會這樣，而且銀行 App 刷新不了。"
+  },
+  "vocab": {
+    "bank": [
+      "checking account",
+      "debit card",
+      "Zelle",
+      "routing number"
+    ],
+    "delivery": [
+      "USPS",
+      "porch",
+      "mailbox",
+      "tracking"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "postcode",
+      "reason": {
+        "zh": "英式說法；美屬維京群島用 zip code"
+      }
+    },
+    {
+      "word": "mobile",
+      "reason": {
+        "zh": "英式說法在這裡不如 cell 自然，雖也聽得懂"
+      }
+    },
+    {
+      "word": "flat",
+      "reason": {
+        "zh": "英式住宅用語，當地較常說 apartment 或 house"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Closer to the US parent than the British-Caribbean islands, but a little more formal with elders. Do not invent a specific VIPD pitch; just refuse official-sounding pressure for money or codes.",
+    "zh": "比英式加勒比島更接近美國母區，但對長輩可稍正式。不要編造警方警示裡的具體話術，只需拒絕要錢或要驗證碼的官方腔來電。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://vipd.vi.gov/news/warning-issued-about-phone-scam-targeting-senior-citizens-territorially/",
+    "https://faq.usps.com/articles/FAQ/Delayed-Mail-and-Packages",
+    "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls"
+  ],
+  "uncertain": [
+    "VIPD 警示標題確認針對長者的電話詐騙，此次未能打開全文核對具體話術，故 fraud 寫得較概括。",
+    "cell 與 mobile 在島上的使用比例沒有調查。"
+  ]
+}

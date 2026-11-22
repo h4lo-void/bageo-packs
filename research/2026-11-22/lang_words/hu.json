@@ -1,0 +1,106 @@
+{
+  "lang": "hu",
+  "script": "latin",
+  "common_words": [
+    "én",
+    "te",
+    "ön",
+    "nem",
+    "hogy",
+    "és",
+    "van",
+    "ez",
+    "de",
+    "csak",
+    "ha",
+    "mi",
+    "igen",
+    "kell",
+    "itt",
+    "már",
+    "még",
+    "mit",
+    "vagyok",
+    "most",
+    "jó",
+    "tudom",
+    "miért",
+    "akkor",
+    "nincs",
+    "mert",
+    "minden",
+    "sem",
+    "nekem",
+    "lehet",
+    "köszönöm",
+    "kérem",
+    "viszlát",
+    "szia",
+    "ma",
+    "holnap",
+    "tegnap",
+    "reggel",
+    "este",
+    "mindig",
+    "soha",
+    "szám",
+    "cím",
+    "orvos",
+    "csomag",
+    "rendelés",
+    "szeretnék",
+    "tudok",
+    "kérem szépen",
+    "elnézést"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hu/hu_50k.txt",
+  "shared_words": [
+    {
+      "word": "a",
+      "also_in": [
+        "pt",
+        "ro"
+      ]
+    },
+    {
+      "word": "oké",
+      "also_in": [
+        "en"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ő",
+    "ű"
+  ],
+  "confusable_with": [
+    "fi"
+  ],
+  "how_to_tell_apart": "Hungarian is not easily mistaken for the other Latin-script languages in this set once ő or ű appears, or once the speaker uses hogy, nincs, köszönöm, kérem, viszlát, miért, vagyok or szeretnék. Finnish is typologically similar (both are agglutinative) but the vocabulary does not overlap in these everyday words, and Finnish never uses double-acute ő/ű. Shared items such as a or the loan oké are useless for identification.",
+  "test_said": [
+    "A kormányablakban szeretnék időpontot kérni a személyi igazolvány cseréjére.",
+    "A gázóra állását ma délelőtt olvastam le és ezt szeretném bejelenteni.",
+    "A csomagautomata nem adta ki a dobozt pedig a jelszó megjelent a telefonon.",
+    "A zongorát a földszinten kellene letenni mert a lépcsőház túl szűk.",
+    "A védőnőhöz kérek egy új időpontot a következő tanácsadásra.",
+    "A szakorvosi beutalót már kiállították és a vizsgálatot szeretném előjegyezni.",
+    "Hitelkártyát nem igényelek és a feltételeket sem szeretném végighallgatni.",
+    "Az újság előfizetését nem hosszabbítom meg ezért erről ne hívjanak többet."
+  ],
+  "test_not_enough": [
+    "Gábor",
+    "ok",
+    "nyolc",
+    "extra"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hu/hu_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Hungarian_alphabet",
+    "https://en.wikipedia.org/wiki/Hungarian_language"
+  ],
+  "uncertain": [
+    "oké is frequent in the subtitle list but is a loan acknowledgement, so it was placed with shared items rather than diagnostic common_words.",
+    "Self-address forms te and ön both occur on calls; the formal ön is more typical of offices and clinics."
+  ]
+}

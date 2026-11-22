@@ -1,0 +1,660 @@
+{
+  "region": "tl",
+  "countries": [
+    "tl"
+  ],
+  "region_name_zh": "東帝汶",
+  "region_name": "Timor-Leste",
+  "languages": [
+    {
+      "code": "pt",
+      "use": "common"
+    },
+    {
+      "code": "id",
+      "use": "common"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Tetum (tet) is the street language but Bageo cannot speak it; try Portuguese (pt) with offices and older staff, Indonesian (id) with many shopkeepers, and English with NGOs, hotels and expat-facing cafés in Dili.",
+  "english_ok": "sometimes — Common in Dili hotels, NGO-linked businesses and some clinics; rare in markets, kiosks and rural shops.",
+  "politeness": "Warm and personal; greet with bondia/botarde, use Senhor or Senhora, and allow a little small talk before the request.",
+  "name_tip": "Names mix Portuguese given names with family names; many people go by a nickname; spell names out because Portuguese spelling is not always used.",
+  "phone_tip": "Mobiles have 8 digits starting with 7 (7723 4567); landlines keep 7 digits; there is no trunk zero.",
+  "time_tip": "Times are said in Tetum or Portuguese with 24-hour in writing; 'tuku hitu' style hours are common, so repeat the number in digits.",
+  "number_tip": "The currency is the US dollar, with local centavo coins; prices are quoted in dollars everywhere.",
+  "avoid_calling": "Avoid the midday break around 12:00–14:00 and Sunday mornings, when many attend Mass; Catholic holidays close most offices.",
+  "closed_days": "Offices close Saturday and Sunday; small shops open daily but may shut Sunday morning; Christmas, Easter and national days close government services.",
+  "booking_channels": "Facebook pages and WhatsApp handle most bookings; calls still matter for small businesses; there is no big ride-hail app, so drivers are called directly; payment is mostly cash in dollars.",
+  "voice_menu": "Telcos (Timor Telecom, Telkomcel, Telemor) and banks run short IVR menus; most small businesses answer the phone themselves.",
+  "callback_habits": "Owners reply on WhatsApp or Facebook Messenger, sometimes hours later; drivers and guesthouses call back from a different mobile.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "潛水與阿陶羅島行程多經潛水中心或旅行社用 WhatsApp 預約，視海況而定。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Boat to Atauro depends on weather"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Money to a personal account to keep the trip"
+        }
+      ],
+      "usually_asked": [
+        "Dive or Atauro trip date",
+        "Divers and non-divers",
+        "Gear rental",
+        "Organiser name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美甲多現場或打電話約，少數會用 Facebook 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Colour price depends on hair length"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Transfer to an unknown account first"
+        }
+      ],
+      "usually_asked": [
+        "Cut, colour or nails",
+        "Who should do it",
+        "Day and hour",
+        "Client phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多電話或訊息即可，小店多不收取消費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit kept for no-shows"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the electoral card number"
+        }
+      ],
+      "usually_asked": [
+        "Under what name",
+        "Original booking time",
+        "Move it or call it off",
+        "Headcount update"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "國立醫院免費但排隊久；私人與國際診所可電話預約，嚴重病例多轉往峇里島或達爾文。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic quotes consultation fees in dollars"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor sees walk-ins first"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Electoral card or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Patient's name and birth year",
+        "Complaint in brief",
+        "First time at this clinic",
+        "Cash or insurer"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服語音選單短，帳戶事項須本人到櫃台。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Account change requires the holder in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "ID number or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Which menu option",
+        "Name of account holder",
+        "SIM number",
+        "Description of the fault"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府手續多須本人到場並帶文件；週末不辦公。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Office requires the person to come"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Electoral card or birth certificate number"
+        }
+      ],
+      "usually_asked": [
+        "Office or school in question",
+        "Child's year",
+        "Municipality",
+        "Parent contact"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電與冷氣多靠熟人推薦打電話；地址以 suco、aldeia 與地標描述。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transport cost to outer suburbs"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pay before anyone comes"
+        }
+      ],
+      "usually_asked": [
+        "Kind of job",
+        "Suco, aldeia and landmark",
+        "Visit time",
+        "Who to call"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "帝力飯店與民宿可經訂房平台、電話或 WhatsApp；入住出示護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Airport pickup available for a fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Generator power during outages"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport scan sent by chat"
+        }
+      ],
+      "usually_asked": [
+        "Arrival day and leaving day",
+        "Number staying",
+        "Air-con room or fan",
+        "Name on passport"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問營業時間、週日是否開門、可否刷卡，店家多直接回答；多數只收現金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Cash only, US dollars"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed Sunday morning"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Sunday and holiday hours",
+        "Card or cash",
+        "Where to park",
+        "Item availability"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫選擇很少，多集中在帝力，可電話詢問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet available only some days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full prepayment for minding a pet"
+        }
+      ],
+      "usually_asked": [
+        "Why the visit",
+        "Animal type and age",
+        "Day wanted",
+        "Owner contact"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多靠 Facebook 社團與口耳相傳，房東用 WhatsApp 約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Several months of rent in advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Fee to reserve before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which house or area",
+        "When moving in",
+        "How many will live there",
+        "Viewing slot"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車與汽車修理多直接到場；零件常從印尼或澳洲進口，要等。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Part has to be imported"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Workshop wants photos on WhatsApp"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pay everything before inspection"
+        }
+      ],
+      "usually_asked": [
+        "Bike or car model",
+        "What sound or fault",
+        "When to bring it in",
+        "Name with mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "帝力餐廳多電話、WhatsApp 或 Facebook 訊息訂位，多數店家現場入座即可；以美元現金結帳為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Owner asks for a Messenger note with the booking"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Set menu for a big group paid partly in advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks bank card digits to keep the table"
+        }
+      ],
+      "usually_asked": [
+        "Which evening and hour in Dili",
+        "Group size",
+        "Inside or by the beach road",
+        "Booker and WhatsApp"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與禮品多以 Facebook 或 WhatsApp 傳圖預訂並先付部分訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Half paid up front"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full sum to a stranger"
+        }
+      ],
+      "usually_asked": [
+        "Cake design and size",
+        "Words to write",
+        "Collection date",
+        "Customer name"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶多打電話點餐後自取，外送服務有限，部分餐廳自送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Restaurant delivers only inside Dili"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery fee in dollars"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Which dishes, how many plates",
+        "Pickup hour",
+        "Neighbourhood (suco) for delivery",
+        "Phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "國際包裹經郵政或快遞，可電話或以追蹤號查詢；收件常需到櫃台領取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parcel must be picked up at the counter"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Tracking code from sender",
+        "Name parcel is under",
+        "Contact mobile",
+        "What the package holds"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "帝力沒有主流叫車 App，計程車多路邊攔或打司機手機；長途靠包車或巴士。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "No ride-hailing app; call the driver"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fare agreed before the trip"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Rental asks licence and passport"
+        }
+      ],
+      "usually_asked": [
+        "Pickup place and hour",
+        "Where to go",
+        "How many riding",
+        "Contact mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "pt": {
+      "appointment_words": [
+        "consulta médica",
+        "dentista",
+        "corte de cabelo",
+        "revisão do carro"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "reservar quarto",
+        "marcação"
+      ],
+      "change_words": [
+        "mudar a data",
+        "anular marcação",
+        "passar para sábado"
+      ],
+      "date": [
+        "amanhã",
+        "sábado",
+        "25/11"
+      ],
+      "false_friends": [
+        "2.º andar",
+        "quarto 12",
+        "casa perto da igreja"
+      ],
+      "inquiry_words": [
+        "que horas abre",
+        "aceita cartão",
+        "tem estacionamento"
+      ],
+      "name": [
+        "Sr. João",
+        "Sra. Maria",
+        "nome da empresa"
+      ],
+      "order_words": [
+        "para levar",
+        "entrega em casa",
+        "vou buscar"
+      ],
+      "party": [
+        "4 pessoas",
+        "dois adultos, uma criança"
+      ],
+      "phone": [
+        "7723 4567",
+        "mesmo número no WhatsApp"
+      ],
+      "time": [
+        "19h",
+        "7 da noite",
+        "10h da manhã"
+      ]
+    }
+  }
+}

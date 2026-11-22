@@ -1,0 +1,40 @@
+{
+  "country": "fk",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Falkland Islands",
+    "native": "Falkland Islands",
+    "zh": "福克蘭群島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+500",
+    "currency": "福克蘭鎊 FKP，與英鎊 1:1，英鎊也通用",
+    "time_zone": "UTC-3，比英國慢 3 小時（英國夏令時差 4 小時）",
+    "population": "2021 年普查約 3,662 人"
+  },
+  "habits": {
+    "en": "English as in Britain; prices in pounds (Falklands or sterling). The clock is UTC-3; confirm times against London.",
+    "zh": "說英語，與英國相同；標價是福克蘭鎊或英鎊。時間是 UTC-3，約時間要跟倫敦換算確認。"
+  },
+  "vocab": {
+    "bank": [
+      "pound",
+      "sterling"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.falklands.gov.fk/",
+    "https://en.wikipedia.org/wiki/Falkland_Islands"
+  ],
+  "uncertain": [
+    "名稱在不同語言有不同稱呼，本檔只用中文「福克蘭群島」與英文名，不評論主權。",
+    "常用付款 App 未查。",
+    "郵遞區號與收件習慣未查證。"
+  ]
+}

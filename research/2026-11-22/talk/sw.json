@@ -1,0 +1,265 @@
+{
+  "lang": "sw",
+  "backchannels": {
+    "direction": "Eeh and ndiyo show listening; naam is respectful; sawa sawa said fast can sound like cutting short.",
+    "examples": [
+      {
+        "text": "Eeh.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ndiyo.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Naam.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Kweli kabisa.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Sawa sawa.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Kweli? or Ah! for surprise; pole for sympathy; hongera for good news; aisee to show amazement.",
+    "examples": [
+      {
+        "text": "Kweli?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Aisee!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Pole sana.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Hongera!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Ni vigumu kidogo.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the network is poor (mtandao ni mbovu) or you can't hear well, then ask them to raise their voice.",
+    "examples": [
+      {
+        "text": "Sikusikii vizuri.",
+        "style": "polite"
+      },
+      {
+        "text": "Mtandao uko chini hapa.",
+        "style": "casual"
+      },
+      {
+        "text": "Sauti inakatika.",
+        "style": "polite"
+      },
+      {
+        "text": "Tafadhali ongea kwa sauti zaidi.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Naam? or Samahani? asks for a replay; ask to spell names (taja herufi); repeat numbers back.",
+    "examples": [
+      {
+        "text": "Samahani, umesema?",
+        "style": "polite"
+      },
+      {
+        "text": "Rudia tafadhali.",
+        "style": "polite"
+      },
+      {
+        "text": "Jina lako linaandikwaje?",
+        "style": "polite"
+      },
+      {
+        "text": "Namba ni 12345678, sivyo?",
+        "style": "polite"
+      },
+      {
+        "text": "Nini?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ask Nani anaongea? or Naongea na nani? politely; mention this is {owner}'s phone if needed.",
+    "examples": [
+      {
+        "text": "Naongea na nani, tafadhali?",
+        "style": "polite"
+      },
+      {
+        "text": "Unapiga kutoka wapi?",
+        "style": "polite"
+      },
+      {
+        "text": "Hii ni simu ya {owner}, wewe ni nani?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say umekosea namba and nobody of that name is here; brief and polite.",
+    "examples": [
+      {
+        "text": "Samahani, umekosea namba.",
+        "style": "polite"
+      },
+      {
+        "text": "Hakuna mtu wa jina hilo hapa.",
+        "style": "polite"
+      },
+      {
+        "text": "Namba si yenyewe.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Nitampa ujumbe tells them {owner} will get the message; no promise of a call-back time.",
+    "examples": [
+      {
+        "text": "Nitampa {owner} ujumbe wako.",
+        "style": "polite"
+      },
+      {
+        "text": "Nitamwambia.",
+        "style": "casual"
+      },
+      {
+        "text": "Ujumbe utafika.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Asante, sihitaji is clear and polite; a short apology softens it.",
+    "examples": [
+      {
+        "text": "Asante, lakini sihitaji.",
+        "style": "polite"
+      },
+      {
+        "text": "Hapana, asante sana.",
+        "style": "polite"
+      },
+      {
+        "text": "Sitaki, asante.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they push, point to your earlier sihitaji and ask them to stop dialling this namba.",
+    "examples": [
+      {
+        "text": "Nimeshasema sihitaji.",
+        "style": "polite"
+      },
+      {
+        "text": "Tafadhali usipige namba hii tena.",
+        "style": "polite"
+      },
+      {
+        "text": "Ondoa namba hii kwenye orodha yenu.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Ndugu, bwana, mama/dada for respect; mzee for elders, who expect shikamoo; avoid first name alone.",
+    "examples": [
+      {
+        "text": "Bwana Juma",
+        "style": "polite"
+      },
+      {
+        "text": "Mama",
+        "style": "polite"
+      },
+      {
+        "text": "Mzee",
+        "style": "polite"
+      },
+      {
+        "text": "Dada",
+        "style": "casual"
+      },
+      {
+        "text": "Ndugu",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Karibu huduma kwa wateja or simu yako ni muhimu sound like a mobile-operator hotline.",
+    "examples": [
+      {
+        "text": "Karibu huduma kwa wateja.",
+        "style": "polite"
+      },
+      {
+        "text": "Simu yako ni muhimu kwetu.",
+        "style": "polite"
+      },
+      {
+        "text": "Asante kwa kuchagua huduma zetu.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Skipping greetings, ignoring elders' shikamoo, or asking income and tribe early feels disrespectful.",
+    "examples": [
+      {
+        "text": "Wewe ni kabila gani?",
+        "style": "casual"
+      },
+      {
+        "text": "Unapata mshahara kiasi gani?",
+        "style": "casual"
+      },
+      {
+        "text": "Nani wewe?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/shikamoo",
+    "https://en.wiktionary.org/wiki/naam",
+    "https://en.wikipedia.org/wiki/Swahili_language",
+    "https://en.wiktionary.org/wiki/pole"
+  ],
+  "uncertain": [
+    "Kenyan vs Tanzanian usage differs (e.g. Sheng in Nairobi); examples aim at standard Swahili",
+    "Backchannels (eeh, ndiyo, sawa, naam) from dictionaries and usage, no call corpus",
+    "Use of shikamoo on the phone with unknown elders is plausible but not documented for calls"
+  ]
+}

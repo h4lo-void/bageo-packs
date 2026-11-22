@@ -1,0 +1,73 @@
+{
+  "country": "je",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Jersey",
+    "native": "Jersey",
+    "zh": "澤西"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Leave it at a Jersey Post SecureDrop porch or shed, or collect at a post office or with a neighbour.",
+    "zh": "包裹放門廊、交給鄰居，或到澤西郵局領取"
+  },
+  "readback": {
+    "en": "Postcodes start JE, in capitals. 0 as oh, doubles as double; amounts in pounds; half two means 2:30.",
+    "zh": "JE 郵區須大寫。0 唸 oh，重複唸 double；用英鎊。half two＝2:30"
+  },
+  "fraud": {
+    "en": "A fake Jersey Post parcel text, or a local Income Tax request for data or payment, is a scam",
+    "zh": "假澤西郵局包裹簡訊，或冒充本地稅務要資料、要付款的都是詐騙"
+  },
+  "habits": {
+    "en": "British English. Jersey Income Tax and Revenue Jersey, not HMRC. Say mobile and postcode; day first.",
+    "zh": "用英式英語。稅務走澤西的 Revenue Jersey，不是 HMRC。說 mobile、postcode。"
+  },
+  "stall_local": {
+    "en": "I need to open an official Revenue Jersey page, and the bank app will not sign me in.",
+    "zh": "要到 Revenue Jersey 正式頁面才看得清楚，而且銀行 App 登不進去。"
+  },
+  "vocab": {
+    "bank": [
+      "current account",
+      "sort code",
+      "card"
+    ],
+    "delivery": [
+      "safe place",
+      "neighbour",
+      "Jersey Post"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "HMRC",
+      "reason": {
+        "en": "UK tax authority, not Jersey's",
+        "zh": "英國稅務機關，不是澤西的"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep British courtesy, but tax is Revenue Jersey, not HMRC, and post is Jersey Post; postcodes start JE.",
+    "zh": "英式禮貌層級相近，稅務要說 Revenue Jersey 而不是 HMRC，郵局說澤西郵政，郵區是 JE。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gov.je/TaxesMoney/IncomeTax/Technical/Guidelines/pages/avoidingfraudulentemails.aspx",
+    "https://www.jerseypost.com/",
+    "https://www.jerseypost.com/letters-and-parcels/receiving/securedrop/",
+    "https://www.jerseypost.com/letters-and-parcels/resources/addressing-standards/",
+    "https://www.jerseypost.com/about-us/contact-us/"
+  ],
+  "uncertain": [
+    "此次主要來源是澤西稅務防詐頁；澤西郵局官方防詐專頁未在同一次搜尋中穩定打開。",
+    "當地 Jèrriais 不在支援清單，只能當偶發詞。",
+    "oh／double、英鎊與 half two 的讀法與英國及其他皇屬地是同一套習慣；此檔已改寫並寫出郵區 JE 須大寫。此次打開的澤西郵政頁未核到區號 01534，故未寫入。",
+    "SecureDrop 官頁寫明可指定住地內防風雨位置，並舉 porch、shed、garage 為例。"
+  ]
+}

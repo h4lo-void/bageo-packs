@@ -1,0 +1,88 @@
+{
+  "country": "tt",
+  "parent": "us",
+  "name": {
+    "en": "Trinidad and Tobago",
+    "native": "Trinidad and Tobago",
+    "zh": "千里達及托巴哥"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day",
+    "hello_again": "Good day again"
+  },
+  "delivery": {
+    "en": "TTPost asks for a numbered mailbox at the gate, high enough for the delivery officer to reach",
+    "zh": "TTPost 要在大門設有編號、夠高的信箱，方便投遞人員伸手放入"
+  },
+  "readback": {
+    "en": "After 868, read 3-3-4; 0 as zero; TT dollars; 12-hour clock; day before month",
+    "zh": "868 區碼後照 3-3-4 唸，0 唸 zero；千里達元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A prize or inheritance call, or a bank asking you to 'verify' by phone, is a scam",
+    "zh": "自稱中獎、遺產、銀行要驗證，或對沒訂的包裹要運費，都是詐騙"
+  },
+  "habits": {
+    "en": "Say mobile, not cell, and LINX, not Zelle. Day before month. Sir or Madam is common with strangers.",
+    "zh": "說 mobile 不說 cell，付款用 LINX。日期先日後月。對生人常稱 Sir 或 Madam。"
+  },
+  "stall_local": {
+    "en": "The LINX payment is stuck, and the latch on the gate mailbox will not close.",
+    "zh": "卡在 LINX 付款停住，而且大門信箱的門閂關不起來。"
+  },
+  "vocab": {
+    "bank": [
+      "LINX",
+      "TT dollars",
+      "transfer",
+      "debit card"
+    ],
+    "delivery": [
+      "TTPost",
+      "mailbox",
+      "gate",
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國銀行常見轉帳；千里達較常說 LINX 或本地轉帳"
+      }
+    },
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件說法；這裡郵政要求的是大門信箱"
+      }
+    },
+    {
+      "word": "checking account",
+      "reason": {
+        "zh": "美式活存名稱，當地較常直接說 bank account 或卡"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國健保計畫，不是本地電話慣用詞"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "A little warmer and more conversational than stiff US business English, but still more formal than 'buddy' talk with strangers. Use Good day, TT dollars and LINX, not IRS or Zelle language.",
+    "zh": "比生硬的美國商務英語隨興一點，但對生人仍比稱兄道弟正經。用 Good day、千里達元和 LINX，不要套 IRS 或 Zelle。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.central-bank.org.tt/public-education/stop/",
+    "https://ttpost.net/personal-services/local-residential-mail/",
+    "https://www.fedex.com/en-tt/trust-center/report-fraud.html"
+  ],
+  "uncertain": [
+    "fraud 中文提到「沒訂的包裹要運費」，主要依據 FedEx 千里達防詐頁；央行文宣更強調中獎與遺產。",
+    "大門信箱門閂卡住只是依 TTPost 信箱規範想像的日常卡點，不是調查數據。"
+  ]
+}

@@ -1,0 +1,842 @@
+{
+  "region": "so-er-dj",
+  "countries": [
+    "so",
+    "er",
+    "dj"
+  ],
+  "region_name_zh": "非洲之角",
+  "region_name": "Horn of Africa",
+  "languages": [
+    {
+      "code": "ar",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    },
+    {
+      "code": "fr",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "索馬利亞語、蒂格利尼亞語不在清單。預設可用阿拉伯語；索馬利亞城市商務也常改英語，吉布地行政場合法語很強，厄利垂亞英語也常見。對方改用哪一種支援語言就跟著說。",
+  "english_ok": "sometimes — 摩加迪休、哈爾格薩部分旅館與 NGO 相關場合英語較通；吉布地以法語、阿拉伯語為主；厄利垂亞公務英語與提格雷尼亞語並用，但後者不在支援清單。",
+  "politeness": "阿拉伯語用 السيد／السيدة 與正式稱呼；英語用 Sir／Madam；法語用 vous。先問候再辦正事。不要用過短的命令句。",
+  "name_tip": "報名加父名或姓（如 Ahmed Hassan、Amina Farah）；拼法先跟對方已寫的拉丁或阿拉伯字母，再逐字確認。",
+  "phone_tip": "索馬利亞手機常見 61 等開頭（61 123 4567），國際冠碼 +252。厄利垂亞 +291、吉布地 +253（吉布地手機常見 77 開頭）。朗讀分組。WhatsApp 是最常見的確認渠道。",
+  "time_tip": "書面可用 24 小時；口語常配合禮拜時間（بعد صلاة المغرب），仍要再問鐘點。吉布地、摩加迪休晚餐多在 19:00 之後。",
+  "number_tip": "索馬利亞商務常提到 EVC Plus（Hormuud）或 ZAAD，不要自動套到厄利垂亞或吉布地。金額先問對方用哪一種先令、法郎或美元計價。",
+  "avoid_calling": "避開週五中午禮拜、日落禮拜前後的用餐高峰，以及中午最熱的時段打給小店；厄利垂亞公務窗口多在上午。夜間少打給機關。",
+  "closed_days": "開齋節、古爾邦節在三國都重要。吉布地另有獨立日等法國曆與伊斯蘭曆並用的假期。厄利垂亞還有自己的獨立日與基督教節日，不要用同一張假期表套三國。",
+  "booking_channels": "旅館與餐廳幾乎都靠 WhatsApp 或電話，較大旅館（如吉布地的國際品牌）可用官網或大型訂房網站。沒有可驗證的區域級訂桌 App。索馬利亞付款常見 EVC Plus。",
+  "voice_menu": "Hormuud 等大型電信與部分銀行可能有簡短語音；多數旅館櫃檯與餐館仍人工接聽，線路品質不穩時會改用 WhatsApp。",
+  "callback_habits": "幾乎都用 WhatsApp 文字確認；國際旅館才會發電郵。不要假設有簡訊系統。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "摩加迪休、哈爾格薩、吉布地餐廳多半 WhatsApp 或電話留桌，沒有可驗證的區域訂位平台；先問收 EVC、現金還是卡。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and hour, including whether it is after evening prayer",
+        "Party size and whether a family section is preferred",
+        "Name and a local mobile or WhatsApp number",
+        "Payment: EVC Plus in much of Somalia, cash or card in a hotel restaurant in Djibouti"
+      ],
+      "may_come_up": [
+        {
+          "what": "A hotel restaurant in Djibouti may prefer a booking through the front desk",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The dining area is separated and the host wants the party type stated",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An EVC or ZAAD payment is demanded to an unlabelled personal number before any confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所多半打電話或 WhatsApp 問當天能不能看，公立機構常要到場；要說明看哪一科、帶哪種證件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "First visit or follow-up and the specialty",
+        "Patient name as on an ID or passport",
+        "Morning or afternoon and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "A public facility may only take names in person in the morning",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A third party is asked to recite a full medical history on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "沙龍用 WhatsApp 約時間最常見，電話能通也會被轉去傳說明。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Hair, henna or barber work and a rough duration",
+        "Day and hour and a second choice",
+        "The WhatsApp number for the reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "A stylist works from a private home and is known by a first name",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Identity photos are demanded in a private chat before any time is noted",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "維修先 WhatsApp 傳照片再約到店；零件供應不穩定時，先問能不能修、大概何時取件。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What failed and the make if known",
+        "Leave the item at the workshop versus a visit",
+        "When someone can hand it over"
+      ],
+      "may_come_up": [
+        {
+          "what": "A part may be hard to source and the delay is unclear",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A remote fee to a personal EVC number is demanded before the item is seen",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "外帶直接 WhatsApp 或打電話點，沒有可驗證的大型外送平台；要說清取餐時間與門址。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Dishes and quantities",
+        "Collection time or a simple drop-off in a named district",
+        "A number that will answer at the gate or hotel entrance"
+      ],
+      "may_come_up": [
+        {
+          "what": "Delivery may be possible only inside a short list of neighbourhoods",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Payment is redirected to a different personal EVC number than the shop named",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商店留貨靠 WhatsApp 問存貨，電話只確認還有沒有貨與何時可取。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "The exact item and quantity",
+        "Collect in store or a short local drop-off",
+        "Name to put on the reserved goods"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stock may have to come from another city or from Djibouti port",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to a private EVC number is required before they confirm stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期回原 WhatsApp 或再打給同一間店，報名字與原時間；國際旅館才有訂單編號。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original date, hour and the name",
+        "The new time or a cancellation",
+        "A new headcount if it changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "A hotel may treat a late change under its own desk rule",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An extra EVC payment is demanded only to change the hour",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問營業時間或收哪一種錢包，直接打或傳 WhatsApp 最準，因為許多店沒有網頁。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The concrete question (hours, EVC or cash, a dish, a spare part)",
+        "The day they plan to visit",
+        "A number if the answer will come later by WhatsApp"
+      ],
+      "may_come_up": [
+        {
+          "what": "EVC Plus and ZAAD should not be assumed in Eritrea or in every Djibouti shop",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone asks the owner to read a wallet PIN or one-time code aloud",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "吉布地國際品牌可用官網或大型訂房網站；索馬利亞與厄利垂亞多數旅館用 WhatsApp 問空房，入住常要出示護照。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates and how many guests",
+        "Room type and whether breakfast is included",
+        "Name as on the passport and a WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "A written confirmation may arrive only as a WhatsApp message",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A passport scan and a transfer to a personal wallet are demanded before any confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "短程行程多經旅館或導遊 WhatsApp 安排，團員不足或安全狀況變化時可能改期。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which outing and the date, with an alternative day",
+        "Number of people and the meeting point",
+        "A local mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "The operator leaves only if enough guests join, or may postpone for local conditions",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to an unnamed personal wallet is required with no receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "維修與清潔靠 WhatsApp 約上門，地址要講清區名、複合院落與門房怎麼放行。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The job and a visit window",
+        "District and how the technician is let in",
+        "A number that will answer at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "The technician quotes only after a photo on WhatsApp",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A door code and a remote EVC payment are demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "獸醫服務有限，通常先 WhatsApp 或電話問當天能不能看，不要假設有線上掛號。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item"
+      ],
+      "usually_asked": [
+        "Species and the reason for the visit",
+        "Whether it can be seen the same day",
+        "Owner name and a mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "A clinic may only see animals in the morning, if at all that day",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal transfer is demanded to reserve a kennel with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "海運經吉布地或空運到貨後，常要打電話給代理行；單號加上航班或船舶名稱較有用。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "The reference and whether it is air or sea freight",
+        "Name on the consignment and a local contact",
+        "Collection in Djibouti, Hargeisa, Mogadishu or Asmara"
+      ],
+      "may_come_up": [
+        {
+          "what": "A cash charge may be due at the agent's office before release",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A wallet top-up is requested to release a parcel that cannot be identified",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "電信（如 Hormuud 與 EVC Plus）與銀行以電話或 WhatsApp 為主；不要在通話或訊息裡報錢包密碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which operator or bank and the account or wallet label",
+        "The issue in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "They may ask the customer to visit an office with an identity document",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for an EVC PIN, ZAAD PIN or one-time code on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "often",
+      "before_dialing_zh": "叫車多靠旅館代叫、WhatsApp 約司機或街邊的士，沒有可驗證的大規模叫車 App 覆蓋；機場接送最好提前約。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (hotel, airport, district) and the time",
+        "Passengers and bags",
+        "A number the driver can call"
+      ],
+      "may_come_up": [
+        {
+          "what": "The hotel desk may prefer to send a known driver rather than a random taxi",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for the full fare to a personal EVC number before sharing any plate",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房經仲介或熟人 WhatsApp 約，可能被要求先出示證件；地址用區名與地標。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and rent or sale",
+        "Name and a number at the gate",
+        "Budget currency if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "The agent wants to see an identity document before opening",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A reservation fee to a personal wallet is demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公務窗口與學校多要本人到場，電話只能問文件與受理時間；吉布地用法語較順，其他地方可用阿拉伯語或英語。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which office or school and the purpose",
+        "The person's name as on the official document",
+        "Whether a number is issued only in person"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many counters are morning-only or close around Friday prayer",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be from an office asks for a personal wallet payment to speed up a file",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ar": {
+      "party": [
+        "طاولة لأربعة في مقديشو",
+        "نحن 3 أشخاص",
+        "بالغان وطفل",
+        "شخصان فقط",
+        "مجموعة من 6",
+        "شخص واحد"
+      ],
+      "time": [
+        "الساعة 19:30",
+        "الثامنة مساء",
+        "بعد صلاة المغرب",
+        "حوالي العاشرة صباحا",
+        "الساعة 16:00",
+        "الغداء عند 13:00"
+      ],
+      "date": [
+        "غدا",
+        "بعد غد",
+        "يوم السبت",
+        "الجمعة القادمة",
+        "1 يوليو",
+        "عيد الأضحى"
+      ],
+      "name": [
+        "باسم أحمد حسن",
+        "أمينة فرح",
+        "عائلة علي",
+        "خديجة يوسف",
+        "عمر إسماعيل"
+      ],
+      "phone": [
+        "61 123 4567",
+        "12345678",
+        "واتساب 61 765 4321",
+        "77 12 34 56"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "تأكيد مكان",
+        "حجز غرفة",
+        "طلب طاولة للعائلات",
+        "حجز عبر واتساب"
+      ],
+      "appointment_words": [
+        "موعد في العيادة",
+        "حجز كشف",
+        "موعد في الصالون",
+        "أخذ السيارة للورشة",
+        "طلب فني"
+      ],
+      "order_words": [
+        "طلب للأكل الخارجي",
+        "توصيل إلى الحي",
+        "تجهيز طبق",
+        "حجز سلعة",
+        "طلب وجبة"
+      ],
+      "change_words": [
+        "تغيير الموعد",
+        "تأخير ساعة",
+        "إلغاء الطاولة",
+        "تأجيل الكشف",
+        "تغيير اليوم"
+      ],
+      "inquiry_words": [
+        "هل تقبلون EVC؟",
+        "هل تفتحون يوم الجمعة؟",
+        "هل بقي الأرز؟",
+        "هل توصلون إلى هرجيسا؟",
+        "ما هو السعر؟"
+      ],
+      "false_friends": [
+        "المنزل 12",
+        "الطابق 2",
+        "مساج 45 دقيقة",
+        "علبة من 4",
+        "المركب الباب 3"
+      ]
+    },
+    "en": {
+      "party": [
+        "table for 4 in Hargeisa",
+        "we are 3 adults",
+        "2 adults and 1 child",
+        "just two people",
+        "a group of 6",
+        "one person"
+      ],
+      "time": [
+        "at 19:30",
+        "eight in the evening",
+        "after evening prayer, around 19:00",
+        "about 10 in the morning",
+        "at 16:00",
+        "lunch at 13:00"
+      ],
+      "date": [
+        "tomorrow",
+        "the day after tomorrow",
+        "this Saturday",
+        "next Friday",
+        "1 July",
+        "Eid day"
+      ],
+      "name": [
+        "under Ahmed Hassan",
+        "Amina Farah",
+        "the Ali family",
+        "Khadija Yusuf",
+        "Omar Ismail"
+      ],
+      "phone": [
+        "61 123 4567",
+        "12345678",
+        "WhatsApp 61 765 4321",
+        "77 12 34 56"
+      ],
+      "booking_words": [
+        "book a table on WhatsApp",
+        "keep a family table",
+        "book a room",
+        "reserve a seat",
+        "ask the hotel desk to book dinner"
+      ],
+      "appointment_words": [
+        "book a clinic visit",
+        "fix a consultation",
+        "book the salon",
+        "take the car to the workshop",
+        "ask a technician to come"
+      ],
+      "order_words": [
+        "order to take away",
+        "send the food to the district",
+        "prepare a dish",
+        "set an item aside",
+        "order a meal"
+      ],
+      "change_words": [
+        "change the time",
+        "move it one hour later",
+        "cancel the table",
+        "postpone the visit",
+        "change the day"
+      ],
+      "inquiry_words": [
+        "do you take EVC Plus?",
+        "are you open on Friday?",
+        "is the rice still available?",
+        "do you deliver in Hargeisa?",
+        "what is the price?"
+      ],
+      "false_friends": [
+        "house 12",
+        "2nd floor",
+        "massage 45 min",
+        "pack of 4",
+        "compound gate 3"
+      ]
+    },
+    "fr": {
+      "party": [
+        "table pour 4 à Djibouti-ville",
+        "nous sommes 3",
+        "2 adultes et 1 enfant",
+        "pour deux personnes",
+        "un groupe de 6",
+        "une personne"
+      ],
+      "time": [
+        "à 19h30",
+        "huit heures du soir",
+        "après la prière du soir, vers 19h",
+        "vers 10h",
+        "à 16h",
+        "pour le déjeuner à 13h"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce samedi",
+        "vendredi prochain",
+        "le 27 juin",
+        "le jour de l'Aïd"
+      ],
+      "name": [
+        "au nom de Ahmed Hassan",
+        "Amina Farah",
+        "famille Ali",
+        "Khadija Yusuf",
+        "Omar Ismail"
+      ],
+      "phone": [
+        "77 12 34 56",
+        "12345678",
+        "WhatsApp 77 65 43 21",
+        "61 123 4567"
+      ],
+      "booking_words": [
+        "réserver une table à l'hôtel",
+        "garder une table famille",
+        "réserver une chambre",
+        "prendre une table",
+        "demander au réceptionniste"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous à la clinique",
+        "fixer une consultation",
+        "rendez-vous au salon",
+        "déposer la voiture",
+        "faire venir un technicien"
+      ],
+      "order_words": [
+        "commander à emporter",
+        "faire livrer dans le quartier",
+        "préparer un plat",
+        "mettre un article de côté",
+        "commander un repas"
+      ],
+      "change_words": [
+        "changer l'heure",
+        "reporter d'une heure",
+        "annuler la table",
+        "reporter la visite",
+        "changer de jour"
+      ],
+      "inquiry_words": [
+        "vous prenez la carte ?",
+        "vous ouvrez le vendredi ?",
+        "il reste du riz ?",
+        "vous livrez à Djibouti-ville ?",
+        "quel est le tarif ?"
+      ],
+      "false_friends": [
+        "maison 12",
+        "2e étage",
+        "massage 45 min",
+        "pack de 4",
+        "compound porte 3"
+      ]
+    }
+  }
+}

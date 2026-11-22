@@ -1,0 +1,91 @@
+{
+  "region": "uz-tj-tm",
+  "lang": "fa",
+  "why_added": "塔吉克語為塔吉克官方語言，屬波斯語變體；區包因烏茲別克語、土庫曼語不在清單而預設俄語。此組合以塔吉克為主。",
+  "hello": {
+    "hello": "الو؟",
+    "hello_again": "بله، بفرمایید."
+  },
+  "habits": {
+    "en": "Shomā with strangers, to once close. This is Tajik Persian, often in Cyrillic. Money is the somoni. Russian nouns stay.",
+    "zh": "對生人用 شما，熟了才用 تو。這是塔吉克波斯語，書寫常是西里爾字母。錢是 somoni。俄語名詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Dushanbe friend: to, short warm lines. Leave Russian street names; cash is somoni, not Iranian rials or Uzbek som.",
+        "zh": "杜尚別熟友用 تو，短而熱絡。俄語街名照留；錢是 somoni，不是伊朗里亞爾或烏茲別克 som。"
+      },
+      "2": {
+        "en": "Easy familiar Tajik. A Russian office name they used stays; do not recast it into Tehran usage.",
+        "zh": "輕鬆熟悉的塔吉克語。對方用的俄語機關名照留，不要改成德黑蘭用法。"
+      },
+      "3": {
+        "en": "Everyday Tajik. Finish each point; say somoni in Tajikistan. Humo or Click are Uzbekistan brands, not a default here.",
+        "zh": "日常塔吉克語。把話說完；在塔吉克要說 somoni。Humo、Click 是烏茲別克品牌，不是這裡的預設。"
+      },
+      "4": {
+        "en": "Polite shomā for offices. Formal calls may mix Russian; confirm somoni amounts if they stay in Persian.",
+        "zh": "對機關用 شما。正式電話可能夾俄語；若仍用波斯語，金額要確認是 somoni。"
+      },
+      "5": {
+        "en": "Formal shomā. This is not Iranian official Persian; avoid Tehran bureaucratic set phrases and rial talk.",
+        "zh": "正式 شما。這不是伊朗公文波斯語，不套用德黑蘭套句，也不要談里亞爾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on to if they used it, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方用 تو 才用 تو，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match to or shomā, leave somoni as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 تو 或 شما，somoni 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Dushanbe assistant. Recap the somoni point in one full Persian sentence, then confirm the relay to {owner}.",
+        "zh": "杜尚別代接。先用整句波斯語重述 somoni 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on shomā: note why they called, keep Russian titles, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 شما：記下來電原因，俄語職銜照留，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy on shomā: exact on somoni and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 شما：somoni 與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "الو، هنوز در دوشنبه‌ای؟",
+      "بله، صدایت را دارم، بفرمایید.",
+      "الو، سلام. موضوع به سامونی است؟",
+      "سلام، ممنون از تماس. مبلغ سامونی روشن است.",
+      "سلام، سپاس. موضوع اداره را یادداشت کردم."
+    ],
+    "a": [
+      "الو، {owner} نیست، بگویید تا برسانم.",
+      "الو، سلام. خط دست من است، پیام چیست؟",
+      "الو، سلام. حرف شما را به {owner} می‌رسانم.",
+      "سلام، ممنون از تماس. مورد سامونی را به {owner} می‌گویم.",
+      "سلام، سپاس. جزئیات را می‌نویسم و می‌رسانم."
+    ]
+  },
+  "diff_from_home": [
+    "此組合以塔吉克為主：塔吉克語屬波斯語變體，貨幣是 somoni，不是伊朗里亞爾。",
+    "當地實際書寫多用西里爾字母，與伊朗、阿富汗的波斯—阿拉伯字母不同；AI 的 fa 只能輸出後者。",
+    "電話裡常夾俄語機關名或詞，照留即可。",
+    "不要把烏茲別克的 Humo、Click、Payme 或土庫曼的 manat 自動套過來。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/tajikistan/",
+    "https://mfa.tj/en/main/view/70/constitution-of-the-republic-of-tajikistan",
+    "https://www.cia.gov/the-world-factbook/countries/uzbekistan/"
+  ],
+  "uncertain": [
+    "fa 在支援清單中是波斯語，不能等同完整的塔吉克語（尤其是西里爾書寫與部分詞彙）。",
+    "烏茲別克、土庫曼並不以塔吉克／波斯語為全國官方語言，此檔不能代表三國全境。",
+    "俄語在三國城市的實際比重不同，且都在變化，不宜寫成固定比例。"
+  ]
+}

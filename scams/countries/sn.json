@@ -1,0 +1,97 @@
+{
+  "name": "Senegal",
+  "name_local": "Sénégal",
+  "iso": "sn",
+  "calling_code": "+221",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Orange/Sonatel tells customers it will not phone to collect a secret code, a date of birth, a temporary code or a 'security' transfer on Orange Money, and it warns about fake prizes and bogus transfer errors. ARTP is the official telecoms complaints body. The BCEAO has separately warned about messages that misuse its name.",
+  "cross_border_note": "Calls and SMS are usually in French or Wolof and may mention Wave or Orange Money; some lures also borrow the BCEAO's name used across UEMOA.",
+  "scams": [
+    {
+      "id": "sn_orange_money_secret_code",
+      "typology": "otp_theft",
+      "name": "Faux conseiller Orange Money demandant un code",
+      "name_en": "Fake Orange Money desk asking for a secret or SMS code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "code secret",
+        "Orange Money",
+        "sécuriser le compte",
+        "Wave"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the Orange Money secret code while posing as the operator",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to dictate a temporary SMS code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for a transfer supposedly needed to secure the wallet",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller pretends to be Orange or a wallet help desk and asks for the secret code, a date of birth, a temporary SMS code, or a transfer that is supposed to 'secure' the account.",
+      "legit_en": "Orange Senegal's Stop Arnaque notice says the company does not collect a secret code, a date of birth, a temporary code or a security transfer by phone. Customers are told to treat such a request as fraud.",
+      "bait_tactics": [
+        "Je ne communique ni le code secret ni un code temporaire, Orange ne me les demande pas au téléphone.",
+        "Je n'effectue aucun transfert pour 'sécuriser' un compte que je n'ai pas déclaré compromis.",
+        "L'application Orange Money tourne encore sur le chargement, je ne valide rien depuis cet appel."
+      ],
+      "sources": [
+        "https://www.orange.sn/actualite/stoparnaque",
+        "https://www.orange.sn/actualite/arnaques-sur-orange-money"
+      ]
+    },
+    {
+      "id": "sn_fake_prize_or_wrong_transfer",
+      "typology": "prize_lottery",
+      "name": "Faux gain ou fausse erreur de transfert",
+      "name_en": "Fake winnings or fake transfer-error request",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "vous avez gagné",
+        "erreur de transfert",
+        "frais de déblocage",
+        "Wave"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "requires a fee before supposed winnings can be withdrawn",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "demands a manual return of a transfer said to have been made in error",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to credit another number to unlock a prize",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message or call announces a prize that must be unlocked with a fee, or claims money was sent in error and must be returned by a manual Wave or Orange Money transfer.",
+      "legit_en": "Orange Senegal warns customers not to pay for a fake prize, a bogus bill or a supposed transfer error. Unexpected credits should be checked in the official wallet history, not refunded at a stranger's direction.",
+      "bait_tactics": [
+        "Je n'ai acheté aucun ticket de jeu, je ne paie pas de frais pour un gain que je n'ai pas remporté.",
+        "L'historique Wave de ce téléphone n'affiche pas le dépôt dont vous parlez, je ne fais donc aucun renvoi.",
+        "Ce message de lot arrive d'un numéro personnel, pas d'un canal Orange que je connais déjà."
+      ],
+      "sources": [
+        "https://www.orange.sn/actualite/arnaques-sur-orange-money",
+        "https://www.orange.sn/actualite/stoparnaque"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Chad",
+  "name_local": "Tchad",
+  "iso": "td",
+  "calling_code": "+235",
+  "languages": [
+    "fr",
+    "ar"
+  ],
+  "prevalence_note": "Airtel Tchad and Airtel Money Tchad have warned about a fraudulent Facebook page offering supposed Starlink mobile packages paid with Airtel Money, used to harvest the wallet PIN. The BEAC has also warned CEMAC residents about a fake financing notice circulated in its name.",
+  "cross_border_note": "Calls and messages are usually in French or Arabic and may use Chadian mobiles. BEAC-themed lures circulate across the CEMAC area; operator-wallet PIN requests may also arrive in chat apps rather than only by voice call.",
+  "scams": [
+    {
+      "id": "td_fake_starlink_airtel_money_pin",
+      "typology": "otp_theft",
+      "name": "Fausse offre Starlink pour obtenir le code PIN Airtel Money",
+      "name_en": "Fake Starlink offer used to harvest an Airtel Money PIN",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "Starlink",
+        "Airtel Money",
+        "code PIN",
+        "forfait téléphone"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "offers a satellite-to-phone package paid through Airtel Money and then solicits the wallet PIN",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "moves the customer from a social-media page into a chat or website to collect the PIN",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presents an unofficial page as a partner of the mobile-money service",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A Facebook page or follow-up chat offers Starlink-for-phone packages payable with Airtel Money and then asks the customer in Chad for the wallet PIN, often on WhatsApp or on a website the operator has not published as its own.",
+      "legit_en": "Airtel Tchad and Airtel Money Tchad said they have no link with that page, that the PIN must stay confidential and must not be given to a third party, and that the Starlink-for-phone service was not available in Chad when the warning was issued.",
+      "bait_tactics": [
+        "Je ne communique pas mon code PIN Airtel Money pour un forfait présenté sur une page que je n'ai pas ouverte depuis un canal que je connais déjà.",
+        "Cette page n'est pas un partenaire que j'ai moi-même vérifié chez mon opérateur, je n'entre dans aucun site qu'elle m'envoie.",
+        "Je ne dicte ni ne saisis mon code confidentiel dans une conversation ou un formulaire lancé par une offre de connexion."
+      ],
+      "sources": [
+        "https://fr.linkedin.com/posts/airtel-tchad_avisimportant-arnaqueenligne-activity-7447243495649685504-LTl_",
+        "https://fr.linkedin.com/posts/airtelmoneytd_avisimportant-arnaqueenligne-activity-7447243876114944000-BE8q"
+      ]
+    },
+    {
+      "id": "td_fake_beac_project_finance",
+      "typology": "fake_official",
+      "name": "Faux avis de financement de projets au nom de la BEAC",
+      "name_en": "Fake BEAC project-finance notice asking for a payment",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "BEAC",
+        "financement de projets",
+        "appel d'offres",
+        "contrepartie financière"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "circulates a tender or finance notice in the name of the regional central bank and asks for a personal contribution",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims the central bank is funding private or sub-regional projects in exchange for a fee",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "directs the customer to treat a social-media document as an official call for funds",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message or document presented as a BEAC call for offers invites a person in Chad to take part in a large project-finance operation and to pay a personal contribution, even though the Bank has said it does not finance such projects against a fee.",
+      "legit_en": "The BEAC has disowned a fraudulent call-for-offers on social media. It does not finance national or sub-regional projects in return for a fee, and money-market operations are reserved for CEMAC credit institutions. Official information is on its own site.",
+      "bait_tactics": [
+        "Je ne verse aucune contrepartie pour un prétendu financement de projet annoncé au nom de la BEAC.",
+        "Ce document d'appel d'offres n'est pas un texte que j'ai ouvert sur le site que j'utilise déjà pour cette banque, je n'y réponds pas.",
+        "Je ne donne aucun RIB ni aucun dépôt à un interlocuteur qui dit lancer une opération de la banque centrale sur les réseaux sociaux."
+      ],
+      "sources": [
+        "https://www.beac.int/wp-content/uploads/2025/02/Communiqu%c3%a9-de-presse-relatif-%c3%a0-une-publication-frauduleuse.pdf",
+        "https://www.beac.int/beac/communiques-de-presse/autres-communiques/"
+      ]
+    }
+  ]
+}

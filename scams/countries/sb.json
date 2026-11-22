@@ -1,0 +1,151 @@
+{
+  "name": "Solomon Islands",
+  "name_local": "Solomon Islands",
+  "iso": "sb",
+  "calling_code": "+677",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "In 2025 the Central Bank, through the Solomon Islands Financial Intelligence Unit, described a money-mule pattern in which people are talked into sharing bank details and Visa debit cards so that cash can be hopped through several local accounts and collected overseas. The Bank has also warned of a Facebook profile impersonating the Governor, and the Royal Solomon Islands Police Force has warned of a Gmail address using the Commissioner's name to press people about court or police files.",
+  "cross_border_note": "The country code is +677. CBSI says the mule chain typically ends with a Visa debit card that has been sent out of the country, so a Honiara-looking account or a sender who appears to be local still does not show that the payment is a lawful domestic transfer.",
+  "scams": [
+    {
+      "id": "sb_cbsi_money_mule_visa_card",
+      "typology": "job_account_mule",
+      "name": "Money-mule chain using local accounts and a Visa debit card sent overseas",
+      "name_en": "CBSI and SIFIU warning: social-media or phone approaches use fake jobs, aid, investments, romance or inheritance to capture bank details and hop deposits through several local accounts",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "Solomon Islands Financial Intelligence Unit",
+        "third-party local account deposit",
+        "Visa debit card sent overseas",
+        "fake job or inheritance offer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send your Visa debit card overseas",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "withdraw the deposit and pass it to another account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "receive funds into your account for a fee",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "share your bank details for the inheritance",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "SIFIU, via the Central Bank, says victims are approached on Facebook, WhatsApp or by telephone with a false job, grant, investment, romance or inheritance story, and are asked for bank details. They may then be told to put cash or a mobile transfer into another local account, whose holder is told to withdraw it and send it on. After several such hops, the money is taken from an account that the organiser can use with a Visa debit card that a resident has already posted abroad.",
+      "legit_en": "CBSI tells the public not to give bank details, or a Visa debit card, to someone met online. A genuine employer, bank or government office in the Solomon Islands does not ask a private person to receive unexplained deposits and pass them along, and doing so can amount to money laundering even if the holder was misled.",
+      "bait_tactics": [
+        "Refuse to hand over a Visa debit card or account details to anyone introduced only on Facebook or WhatsApp.",
+        "Ask why cash would have to be taken out and then walked through several other local accounts if the payment were genuine.",
+        "Say the request will be put to the person's own bank, the Police, or SIFIU before any incoming deposit is accepted."
+      ],
+      "sources": [
+        "https://www.cbsi.com.sb/article/press-release-no1225-public-warning-money-mule-scam-targeting-local-bank-account-holders"
+      ]
+    },
+    {
+      "id": "sb_fake_cbsi_governor_facebook",
+      "typology": "fake_official",
+      "name": "Facebook profile impersonating the Central Bank Governor",
+      "name_en": "CBSI public notice 04/2025: a Facebook account uses the Governor's identity; the Bank says the Governor does not keep a personal official Facebook profile of that kind",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "fake CBSI Governor profile",
+        "Central Bank of Solomon Islands Facebook",
+        "message claiming to be from the Governor",
+        "request to add the official account"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "add the Governor on a personal Facebook",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "the Governor asks you to transfer funds",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "private message from the Central Bank Governor",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "follow this unofficial CBSI page",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "CBSI announced that a Facebook account impersonating the sitting Governor had been created and was circulating. The Bank states that the Governor does not maintain a personalised official Facebook account that carries those profile pictures, and the public should not engage with, reply to, or add the fake profile.",
+      "legit_en": "Communications that truly come from CBSI go through the Bank's website, its official social-media pages, or its published office email, not a personal Facebook profile in the Governor's name. The Bank asked the public to report suspect accounts to the Bank or to local authorities.",
+      "bait_tactics": [
+        "Do not add or reply to a Facebook profile that claims to be the Governor; use only the Central Bank pages listed on cbsi.com.sb.",
+        "If the profile asks for money or personal details, say the matter will be raised with the Bank through its published office channel.",
+        "Ask a relative who received the same friend request to compare the page with the Bank's official site before responding."
+      ],
+      "sources": [
+        "https://www.cbsi.com.sb/article/public-notice-042025-fake-facebook-account-cbsi-governor"
+      ]
+    },
+    {
+      "id": "sb_rsipf_gmail_commissioner",
+      "typology": "fake_official",
+      "name": "Gmail message pretending to be the Police Commissioner about a court file",
+      "name_en": "RSIPF warning: a Gmail account uses the Commissioner's name to demand an immediate response about a court or police file and may be a prelude to a money scheme",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Royal Solomon Islands Police Force",
+        "Gmail using the Commissioner's name",
+        "court decision on a case file",
+        "demand for an immediate reply"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "reply at once about the court file",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay a fee to settle the police case",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "this Gmail is the Commissioner's office",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "ignore the wrong police signature",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The Royal Solomon Islands Police Force published a warning that a Gmail account bearing the Commissioner's name had been sent to some people, pressing them for an immediate response about a court decision or case file. The Commissioner said the address and the signature were wrong, and that this kind of mail might lead into a money scheme.",
+      "legit_en": "A genuine RSIPF message does not arrive from an informal Gmail address in the Commissioner's name, and it does not demand money to influence a court or police file. The Force told the public to delete or ignore such mail.",
+      "bait_tactics": [
+        "Leave the Gmail unanswered and say any real police question will be checked at a Police station or through a published RSIPF channel.",
+        "Point out that the signature or office address on the message does not match the Force's usual format.",
+        "Refuse to pay a fee or send account details in response to a threat about a case file."
+      ],
+      "sources": [
+        "https://www.rsipf.gov.sb/?q=node/3109"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "lang": "ceb",
+  "backchannels": {
+    "direction": "Oo shows the line is heard; mao diay marks uptake; a clipped sige sige can sound like cutting in.",
+    "examples": [
+      {
+        "text": "Oo.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Oo, nakasabot ko.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Mao diay.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Sige.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Sige na, sige.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Tuod? flags surprise; ikasubo nako is sympathy; pahalipay congratulates, as listed on Omniglot.",
+    "examples": [
+      {
+        "text": "Tuod?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Grabe diay!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ikasubo nako nga nadungog nako.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Pahalipay!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Medyo lisod na na.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "That Peace Corps list has no weak-line cue; say dili ko kadungog nimo, then ask for a slightly louder voice.",
+    "examples": [
+      {
+        "text": "Dili ko kadungog nimo og klaro.",
+        "style": "casual"
+      },
+      {
+        "text": "Wala ko kadungog og maayo.",
+        "style": "casual"
+      },
+      {
+        "text": "Palihog, kusgi gamay ang tingog.",
+        "style": "polite"
+      },
+      {
+        "text": "Palihog hinaya pagsulti.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Usba palihog is the courtesy list's replay request; for a name or 12345678, ask only that part again.",
+    "examples": [
+      {
+        "text": "Usba palihog.",
+        "style": "polite"
+      },
+      {
+        "text": "Wa ko kasabot.",
+        "style": "casual"
+      },
+      {
+        "text": "Unsay gisulti mo?",
+        "style": "casual"
+      },
+      {
+        "text": "Palihog usba ang numero: 12345678 ba ni?",
+        "style": "polite"
+      },
+      {
+        "text": "Palihog i-spell ang ngalan.",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "The Peace Corps telephone list uses kinsa 'ni, palihog?; on a shared handset, say this is {owner}'s phone.",
+    "examples": [
+      {
+        "text": "Kinsa 'ni, palihog?",
+        "style": "polite"
+      },
+      {
+        "text": "Kinsa man ang nagtawag?",
+        "style": "casual"
+      },
+      {
+        "text": "Telepono ni {owner} ni. Kinsa 'ni, palihog?",
+        "style": "polite"
+      },
+      {
+        "text": "Asa man ni gikan, palihog?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "No fixed wrong-number line in that list; a short sayop nga numero, and nobody of that name, is enough.",
+    "examples": [
+      {
+        "text": "Pasaylo, sayop ning numero.",
+        "style": "polite"
+      },
+      {
+        "text": "Wala dinhi niana nga ngalan.",
+        "style": "polite"
+      },
+      {
+        "text": "Dili ni ang imong gipangita.",
+        "style": "polite"
+      },
+      {
+        "text": "Sayop ka og numero.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Palihog sultihi nga mitawag is the listed way to pass a message; do not name a time when {owner} will ring back.",
+    "examples": [
+      {
+        "text": "Akong sultihan si {owner} nga mitawag ka.",
+        "style": "polite"
+      },
+      {
+        "text": "Palihog, akong ipahibalo kang {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Sige, akong iingon.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "A brief wala koy kinahanglan or dili ko interesado is enough; no long excuse is required.",
+    "examples": [
+      {
+        "text": "Salamat, pero wala koy kinahanglan ani.",
+        "style": "polite"
+      },
+      {
+        "text": "Dili ko interesado.",
+        "style": "polite"
+      },
+      {
+        "text": "Ayaw ko og gibaligya, salamat.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "When the offer is repeated, restate the no with gyud and ask them not to call again about that offer.",
+    "examples": [
+      {
+        "text": "Klaro na: dili gyud ko moapalit.",
+        "style": "polite"
+      },
+      {
+        "text": "Ayaw na kog tawagi ani nga tanyag.",
+        "style": "polite"
+      },
+      {
+        "text": "Dili nako usbon ning tubag.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Kamo is the honorific you in Wiktionary; Sir or Ma'am is common with strangers; ka stays among familiars.",
+    "examples": [
+      {
+        "text": "Kamo, palihog.",
+        "style": "polite"
+      },
+      {
+        "text": "O, sir.",
+        "style": "polite"
+      },
+      {
+        "text": "Ma'am.",
+        "style": "polite"
+      },
+      {
+        "text": "Ginoo.",
+        "style": "polite"
+      },
+      {
+        "text": "Kumusta ka?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Calques of BPO lines such as ang imong tawag importante kanamo sound like a hotline, out of place on a home line.",
+    "examples": [
+      {
+        "text": "Ang imong tawag importante kaayo kanamo.",
+        "style": "polite"
+      },
+      {
+        "text": "Unsa may akong ikatabang nimo karon?",
+        "style": "polite"
+      },
+      {
+        "text": "Salamat sa pagtawag sa among linya.",
+        "style": "polite"
+      },
+      {
+        "text": "Nalipay kami nga makaserbisyo nimo.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking minyo ka na or pay on a first stranger call feels nosy; so does dropping kamo with elders.",
+    "examples": [
+      {
+        "text": "Minyo ka na? Pilay imong sweldo?",
+        "style": "casual"
+      },
+      {
+        "text": "Ikaw, kinsa ka gyud?",
+        "style": "casual"
+      },
+      {
+        "text": "Sulti og tanan nimo nga numero sa bangko.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://www.bohol.ph/article.php?id=123",
+    "https://manifold.uhpress.hawaii.edu/read/cebuano-for-beginners/section/b88e5e17-942d-4eda-b494-4803a24dc542",
+    "https://www.omniglot.com/language/phrases/cebuano.php",
+    "https://en.wiktionary.org/wiki/palihog",
+    "https://en.wiktionary.org/wiki/kamo"
+  ],
+  "uncertain": [
+    "未找到宿霧語私人電話相槌頻率表（本機 freq/ceb.txt 為 404）；oo／mao diay／sige 依會話習慣，不是語料庫排序。",
+    "Peace Corps／ERIC 電話課含叫人在線上短暫停留的句子，本檔依規定不用。",
+    "城市口語常夾英語或他加祿語 po／opo；傳統敬語靠 kamo 與 palihog。代接陌生人時本檔先用 kamo，不以 po 為預設。",
+    "「打錯電話」該課沒有固定對譯，例句依 sayop nga numero 的普通說法，並列入不確定。"
+  ]
+}

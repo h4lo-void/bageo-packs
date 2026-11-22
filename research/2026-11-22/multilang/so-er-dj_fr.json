@@ -1,0 +1,90 @@
+{
+  "region": "so-er-dj",
+  "lang": "fr",
+  "why_added": "吉布地以法語與阿拉伯語為官方語言；此組合以吉布地為主，不是非洲之角三國同樣常用。",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, j’écoute."
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Strongest in Djibouti. Money is the Djibouti franc. Arabic or Somali words stay.",
+    "zh": "對生人用 vous，對方改 tu 再轉。主要在吉布地。貨幣是吉布地法郎。阿語或索馬利亞語詞可留，不用巴黎俚語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Djibouti friend: tu once close, compact lines. Leave Arabic greetings they used; cash is the Djibouti franc, not euros.",
+        "zh": "吉布地熟友可用 tu，句子緊湊。對方用的阿語招呼照留；錢是吉布地法郎，不是歐元或先令。"
+      },
+      "2": {
+        "en": "Warm, unhurried French. A Somali or Afar place name does not need a French rewrite.",
+        "zh": "溫和、不趕的法語。索馬利亞語或阿法爾語地名不必改寫成法語。"
+      },
+      "3": {
+        "en": "Everyday Djibouti French in offices and schools. Finish each point; EVC Plus is a Somalia wallet, not a Djibouti default.",
+        "zh": "吉布地機關與學校常用法語。把話說完；EVC Plus 是索馬利亞錢包，不是吉布地預設。"
+      },
+      "4": {
+        "en": "Polite vous for administration. Confirm Djibouti-franc amounts; Arabic document titles can remain.",
+        "zh": "對行政機關用 vous。金額用吉布地法郎；阿語文件標題可留。"
+      },
+      "5": {
+        "en": "Formal vous and Monsieur or Madame. This official French is for Djibouti, not a stand-in for Eritrea or Somalia.",
+        "zh": "正式 vous 加 Monsieur、Madame。這是吉布地的官方法語，不能當成厄利垂亞或索馬利亞的預設。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on tu if they used it, then you will take the message across.",
+        "zh": "{owner}較熟的代接：對方用 tu 才用 tu，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Welcoming stand-in: match tu or vous, leave the Djibouti franc as said, and let them know {owner} will hear it.",
+        "zh": "親切代接：跟著 tu 或 vous，吉布地法郎照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Djibouti assistant. Restate the franc item in one complete French sentence, then confirm you will tell {owner}.",
+        "zh": "吉布地代接。先用完整法語句子重述法郎的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary on vous: write down the reason for the call, then confirm it will reach {owner}.",
+        "zh": "謹慎秘書用 vous：寫下來電原因，再確認會送到{owner}那裡。"
+      },
+      "5": {
+        "en": "Formal deputy on vous: precise on the Djibouti franc and office names, then confirm the note for {owner}.",
+        "zh": "正式代表用 vous：吉布地法郎與機關名要精確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Allô, c'est bien toi à Djibouti-ville ?",
+      "Allô, j'écoute, vas-y.",
+      "Allô, bonjour. On parle du franc djiboutien ?",
+      "Bonjour, merci. Le montant en franc djiboutien est noté.",
+      "Bonjour, merci. Le dossier administratif est bien reçu."
+    ],
+    "a": [
+      "Allô, {owner} est absent, je peux prendre le message.",
+      "Allô, bonjour. Je prends la ligne, que faut-il transmettre ?",
+      "Allô, bonjour. Je rapporterai cela à {owner} fidèlement.",
+      "Bonjour, merci pour cet appel. Je signalerai le franc à {owner}.",
+      "Bonjour, merci. Je mets les détails par écrit pour {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "此組合以吉布地為主：法語是官方語言之一，貨幣是吉布地法郎，不是歐元，也不是索馬利亞先令。",
+    "阿法爾語、索馬利亞語不在支援清單，對方夾了詞就照留。",
+    "EVC Plus、ZAAD 主要見於索馬利亞／索馬利蘭，不要自動用到吉布地電話。",
+    "厄利垂亞與索馬利亞並非法語官方區，不能把吉布地習慣套到三國。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/djibouti/",
+    "https://www.cia.gov/the-world-factbook/countries/eritrea/",
+    "https://www.cia.gov/the-world-factbook/countries/somalia/"
+  ],
+  "uncertain": [
+    "吉布地街頭與家庭電話是否更常說索馬利亞語或阿法爾語，公開分場合統計很少。",
+    "厄利垂亞歷史上與義大利、英語行政有關，不能用吉布地法語來代表。"
+  ]
+}

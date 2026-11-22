@@ -1,0 +1,90 @@
+{
+  "region": "my",
+  "lang": "id",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, ya?"
+  },
+  "habits": {
+    "en": "Bahasa among workers, often mixed with Malay; say majikan, ringgit, imigresen, PLKS; watch percuma as a false friend.",
+    "zh": "同鄉講印尼語，常混馬來語；說 majikan、ringgit、PLKS；小心 percuma 等假朋友。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Indonesian coworkers in Malaysia, keep casual Bahasa; reply brightly, then add baiklah, and switch the wording.",
+        "zh": "跟在大馬的同鄉用隨口印尼語，先開朗接話再補 baiklah，說法要換。"
+      },
+      "2": {
+        "en": "If they lean into Malay, follow carefully; after they explain, add baik, and don't treat percuma as free in the Indonesian sense.",
+        "zh": "對方若偏向馬來語說法，要跟著但小心用詞；聽完補 baik，不要把 percuma 按印尼語理解成免費。"
+      },
+      "3": {
+        "en": "Daily Indonesian in Malaysia should be a full sentence: pick up each point with saya mengerti, including ringgit or PLKS.",
+        "zh": "在大馬的日常印尼語要講完整：用 saya mengerti 接住重點，也可帶 ringgit、PLKS。"
+      },
+      "4": {
+        "en": "With imigresen, an agency or a new majikan, use Ibu/Bapak and measured lines; show you understood first, e.g. saya paham.",
+        "zh": "對移民局、仲介或新 majikan 用 Ibu／Bapak，句子穩，先說 saya paham 再談細節。"
+      },
+      "5": {
+        "en": "On PLKS, levy or pay matters, stay formal and exact; close each item with sudah saya catat, and keep official Malay terms precise.",
+        "zh": "談 PLKS、levy 或薪資要正式、用詞準，各點用 sudah saya catat 收束，官方馬來語專名不要說錯。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A bright stand-in for {owner} in informal Indonesian: short warm lines, then saya sampaikan, wording changed each time.",
+        "zh": "代{owner}在大馬接的輕快印尼語：先短句熱絡回應，再說會 sampaikan，用詞常換。"
+      },
+      "2": {
+        "en": "Echo Ibu or Bapak if they use it; thank them, write the note for {owner}, and close with baik, saya catat.",
+        "zh": "對方用 Ibu／Bapak 就跟著用，先致謝再記下要給{owner}的話，用 baik, saya catat 收尾。"
+      },
+      "3": {
+        "en": "Like a reliable worker taking a message: answer the point in one full line, then confirm you will tell {owner}; skip bare ya.",
+        "zh": "像能代收話的穩當工友：先完整回應來意，再確認會告訴{owner}，不要只回 ya。"
+      },
+      "4": {
+        "en": "A careful voice for {owner} with agencies or imigresen: polite Ibu and complete lines; restate the request, then saya sampaikan.",
+        "zh": "代{owner}對仲介或移民局：用禮貌 Ibu 與完整句子覆述來意，再說 akan saya sampaikan。"
+      },
+      "5": {
+        "en": "For formal permit calls, keep titles and exact terms (PLKS, ringgit, imigresen); confirm the relay to {owner} is sudah tercatat.",
+        "zh": "對許可證等正式來電保留稱謂，PLKS、ringgit、imigresen 要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo! Apa kabar di Malaysia? Ceritakan saja.",
+      "Halo, ya. Saya dengar, baik begitu.",
+      "Halo, selamat siang. Soal PLKS ya? Sudah saya catat.",
+      "Selamat pagi. Terima kasih menelepon, saya paham soal PLKS ini.",
+      "Selamat pagi. Urusan imigresen sudah tercatat, terima kasih."
+    ],
+    "a": [
+      "Halo! Dia sedang kerja; sampaikan, saya beritahu!",
+      "Halo! Saya angkat untuknya, silakan titip pesan.",
+      "Halo, selamat siang. Saya catat soal majikan lalu sampaikan.",
+      "Selamat pagi, terima kasih. Pesan ini saya teruskan nanti.",
+      "Selamat pagi. Sudah tercatat semua, saya beritahu {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "同鄉仍講印尼語，但常混馬來語；貨幣是 ringgit，不是盾，工作許可常說 PLKS，出入境說 imigresen。",
+    "印尼語與馬來語有假朋友，例如 percuma 在馬來語不是「免費」的常用義，電話裡不要照搬印尼用法。",
+    "對僱主仍常稱 majikan；官方場合可能夾 levy、permit 等詞。",
+    "不要把港澳的 Octopus、MTR 套到大馬；交通與支付常見 Touch 'n Go 等本地說法。"
+  ],
+  "sources": [
+    "https://www.imi.gov.my/index.php/perkhidmatan-utama/pembantu-rumah-asing/",
+    "https://www.atlantis-press.com/article/125995819.pdf",
+    "https://irep.iium.edu.my/43665/1/Paper_for_South_Asian_Anth.pdf",
+    "https://www.imi.gov.my/index.php/penguatkuasaan/"
+  ],
+  "uncertain": [
+    "印尼語與馬來語在電話裡的混用程度，因來自爪哇或半島、以及在大馬年資而異，不宜一概而論。",
+    "Touch 'n Go 等支付詞在移工口語中的使用頻率，公開語言調查有限。"
+  ]
+}

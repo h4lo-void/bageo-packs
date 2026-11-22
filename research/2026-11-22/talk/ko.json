@@ -1,0 +1,334 @@
+{
+  "lang": "ko",
+  "backchannels": {
+    "direction": "Corpus tokens are 응, 어 and 예; polite replies more often use 네. A flat 응 can sound as if attention has drifted.",
+    "examples": [
+      {
+        "text": "응.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "어.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "네.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "예.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "맞아요.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "그래요.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "응, 그래.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "정말요 is the polite surprise; 헐 is intimate. 안타깝네요 carries sympathy; 잘 됐네요 and 축하해요 mark good news.",
+    "examples": [
+      {
+        "text": "정말요?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "헐, 진짜?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "아이고, 안타깝네요.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "마음이 힘드시겠어요.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "잘 됐네요!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "축하해요.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "그건 좀 어려울 것 같아요.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "잘 안 들려요 and 통화 상태가 안 좋아요 are ordinary mobile complaints; 목소리가 끊기네요 names a dropping link.",
+    "examples": [
+      {
+        "text": "잘 안 들려요.",
+        "style": "polite"
+      },
+      {
+        "text": "통화 상태가 안 좋아요.",
+        "style": "polite"
+      },
+      {
+        "text": "목소리가 끊기네요.",
+        "style": "casual"
+      },
+      {
+        "text": "조금만 더 크게 말씀해 주시겠어요?",
+        "style": "polite"
+      },
+      {
+        "text": "방금 말씀이 안 들렸어요.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "다시 한 번 말씀해 주시겠어요 is the careful replay; how a 성함 is written, and a number check, are separate moves.",
+    "examples": [
+      {
+        "text": "죄송한데, 다시 한 번 말씀해 주시겠어요?",
+        "style": "polite"
+      },
+      {
+        "text": "뭐라고? 다시 말해 줄래?",
+        "style": "casual"
+      },
+      {
+        "text": "성함을 어떻게 쓰는지 알려 주시겠어요?",
+        "style": "polite"
+      },
+      {
+        "text": "번호 다시 한번요. 12345678 맞나요?",
+        "style": "polite"
+      },
+      {
+        "text": "방금 뭐라고 하셨죠?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "누구세요 and 어디세요 probe an unknown caller; 당신 can sound harsh, so a title or 성함 is safer.",
+    "examples": [
+      {
+        "text": "누구세요?",
+        "style": "polite"
+      },
+      {
+        "text": "어디세요?",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} 전화번호인데요, 누구세요?",
+        "style": "polite"
+      },
+      {
+        "text": "성함이 어떻게 되세요?",
+        "style": "polite"
+      },
+      {
+        "text": "누구야?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "잘못 거셨는데요 is the ordinary close; 그런 분은 안 계시는데요 covers a name that does not match the house.",
+    "examples": [
+      {
+        "text": "잘못 거셨는데요.",
+        "style": "polite"
+      },
+      {
+        "text": "없는 번호 같은데요.",
+        "style": "casual"
+      },
+      {
+        "text": "그런 분은 안 계시는데요.",
+        "style": "polite"
+      },
+      {
+        "text": "잘못된 번호입니다.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "전해 드릴게요 and 말씀 전해 드리겠습니다 undertake delivery to {owner}, without by themselves setting a return-call time.",
+    "examples": [
+      {
+        "text": "전해 드릴게요.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}한테 말해 둘게요.",
+        "style": "casual"
+      },
+      {
+        "text": "말씀 전해 드리겠습니다.",
+        "style": "polite"
+      },
+      {
+        "text": "나중에 전할게요.",
+        "style": "casual"
+      },
+      {
+        "text": "잘 전달해 드릴게요.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "괜찮습니다 and 필요 없습니다 refuse a pitch politely; 관심 없어요 is more direct and fits an unknown salesperson.",
+    "examples": [
+      {
+        "text": "괜찮습니다, 감사합니다.",
+        "style": "polite"
+      },
+      {
+        "text": "필요 없습니다.",
+        "style": "polite"
+      },
+      {
+        "text": "관심 없어요.",
+        "style": "casual"
+      },
+      {
+        "text": "저희는 해당 없고요, 감사합니다.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After a first 필요 없습니다, 다시 전화하지 마세요 or 이 번호로 연락하지 말아 주세요 draws the line in 요 or 습니다 speech.",
+    "examples": [
+      {
+        "text": "이미 말씀드렸는데요, 다시 전화하지 마세요.",
+        "style": "polite"
+      },
+      {
+        "text": "관심 없습니다. 이 번호로 연락하지 말아 주세요.",
+        "style": "polite"
+      },
+      {
+        "text": "그만 전화해 주세요.",
+        "style": "casual"
+      },
+      {
+        "text": "더 이상 연락하지 말아 주시기 바랍니다.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "씨, 님, 선생님 and titles such as 사장님 do the work; 너 and, with strangers, 당신 are usually dropped in favour of 요.",
+    "examples": [
+      {
+        "text": "김 선생님.",
+        "style": "polite"
+      },
+      {
+        "text": "박 씨.",
+        "style": "polite"
+      },
+      {
+        "text": "사장님.",
+        "style": "polite"
+      },
+      {
+        "text": "과장님.",
+        "style": "polite"
+      },
+      {
+        "text": "손님.",
+        "style": "polite"
+      },
+      {
+        "text": "민수야.",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "고객님, 무엇을 도와드릴까요 and 소중한 전화 감사합니다 are centre scripts and jar on a private Korean mobile.",
+    "examples": [
+      {
+        "text": "고객님, 무엇을 도와드릴까요?",
+        "style": "polite"
+      },
+      {
+        "text": "소중한 전화 감사합니다.",
+        "style": "polite"
+      },
+      {
+        "text": "항상 최선을 다해 모시겠습니다.",
+        "style": "polite"
+      },
+      {
+        "text": "만족스러운 서비스 제공을 위해 노력하겠습니다.",
+        "style": "polite"
+      },
+      {
+        "text": "다른 문의 사항 있으실까요?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "야 or 너 toward an unknown caller, early questions on age, marriage or pay, or an undeclared recording all feel rude.",
+    "examples": [
+      {
+        "text": "몇 살이에요? 결혼하셨어요? 연봉이 어떻게 돼요?",
+        "style": "casual"
+      },
+      {
+        "text": "야, 너 누구야?",
+        "style": "casual"
+      },
+      {
+        "text": "주민번호부터 대세요.",
+        "style": "polite"
+      },
+      {
+        "text": "이 통화 이미 녹음 중이니까 조심하세요.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wiktionary.org/wiki/%EB%84%A4",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "語料中的相槌常記成 eung／eo／ye，對應「응／어／예」；日常禮貌回答更常「네」，兩者語域差異依場合而定，未找到私人電話頻率表。",
+    "「당신」在面對面或電話對陌生人可能顯得生硬甚至不友善，一般改用稱呼或敬語語尾；例外場合未完全釐清。",
+    "「여보세요」幾乎專用於接電話；能否用在視訊或對講機，來源說法不一。"
+  ]
+}

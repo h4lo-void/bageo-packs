@@ -1,0 +1,332 @@
+{
+  "lang": "uk",
+  "backchannels": {
+    "direction": "так and ага take alignment; угу is a quieter continuer. Flat так-так can sound as if the listener has already moved on.",
+    "examples": [
+      {
+        "text": "Так.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ага, зрозуміло.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Угу, чую.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Зрозуміло.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Добре.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Саме так.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Так-так.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Справді? and Невже? take surprise; Шкода is everyday sympathy, shorter than Мені дуже прикро.",
+    "examples": [
+      {
+        "text": "Справді?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Невже?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Шкода.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Мені дуже прикро.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Чудово!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Вітаю.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Це буде складно.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Я вас погано чую and Поганий зв'язок are the ordinary complaints; Вас обриває names a dropping link.",
+    "examples": [
+      {
+        "text": "Я вас погано чую.",
+        "style": "polite"
+      },
+      {
+        "text": "Поганий зв'язок.",
+        "style": "casual"
+      },
+      {
+        "text": "Вас обриває.",
+        "style": "casual"
+      },
+      {
+        "text": "Можете говорити трохи гучніше?",
+        "style": "polite"
+      },
+      {
+        "text": "Останню фразу я не розчув.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Повторіть, будь ласка is the careful replay; names may be asked по літерах, numbers ще раз.",
+    "examples": [
+      {
+        "text": "Повторіть, будь ласка.",
+        "style": "polite"
+      },
+      {
+        "text": "Що? Я не зрозумів.",
+        "style": "casual"
+      },
+      {
+        "text": "Можете назвати ім'я по літерах?",
+        "style": "polite"
+      },
+      {
+        "text": "Назвіть номер ще раз. Це 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Як ви сказали?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Хто говорить and З ким я розмовляю are the usual probes; Представтеся is stiffer. Say if the phone is {owner}'s.",
+    "examples": [
+      {
+        "text": "Хто говорить?",
+        "style": "polite"
+      },
+      {
+        "text": "З ким я розмовляю?",
+        "style": "polite"
+      },
+      {
+        "text": "Це телефон {owner}. Хто дзвонить?",
+        "style": "polite"
+      },
+      {
+        "text": "Хто це?",
+        "style": "casual"
+      },
+      {
+        "text": "Представтеся, будь ласка.",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Ви помилилися номером is the standard close; Неправильний номер is blunter. The household is not usually explained.",
+    "examples": [
+      {
+        "text": "Вибачте, ви помилилися номером.",
+        "style": "polite"
+      },
+      {
+        "text": "Неправильний номер.",
+        "style": "casual"
+      },
+      {
+        "text": "Тут нікого з таким ім'ям немає.",
+        "style": "polite"
+      },
+      {
+        "text": "Ви не туди потрапили.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Передам повідомлення and Я {owner} перекажу pass word along in Ukrainian; they do not book an hour to ring back.",
+    "examples": [
+      {
+        "text": "Передам, добре.",
+        "style": "polite"
+      },
+      {
+        "text": "Обов'язково перекажу {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Я йому скажу.",
+        "style": "casual"
+      },
+      {
+        "text": "Передам повідомлення.",
+        "style": "polite"
+      },
+      {
+        "text": "Я їй передам.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ні, дякую, мені не цікаво is the stock close; Нам це не потрібно is a household variant, still brief.",
+    "examples": [
+      {
+        "text": "Ні, дякую, мені не цікаво.",
+        "style": "polite"
+      },
+      {
+        "text": "Ми не зацікавлені, дякую.",
+        "style": "polite"
+      },
+      {
+        "text": "Нам це не потрібно, дякую.",
+        "style": "polite"
+      },
+      {
+        "text": "Ні, це не для нас.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After a first відмова, Ukrainian often adds більше не телефонуйте на цей номер, still with ви.",
+    "examples": [
+      {
+        "text": "Я вже відмовився. Будь ласка, більше не телефонуйте на цей номер.",
+        "style": "polite"
+      },
+      {
+        "text": "Приберіть цей номер зі свого списку, будь ласка.",
+        "style": "polite"
+      },
+      {
+        "text": "Більше не телефонуйте.",
+        "style": "casual"
+      },
+      {
+        "text": "Це остаточна відмова. Не турбуйте нас знову.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ви plus a name and patronymic, or пан and пані, with strangers; ти and a bare first name stay with familiars.",
+    "examples": [
+      {
+        "text": "Олено Іванівно.",
+        "style": "polite"
+      },
+      {
+        "text": "Пане Петренко.",
+        "style": "polite"
+      },
+      {
+        "text": "Пані Шевченко.",
+        "style": "polite"
+      },
+      {
+        "text": "Докторе Коваль.",
+        "style": "polite"
+      },
+      {
+        "text": "Привіт, Андрію.",
+        "style": "casual"
+      },
+      {
+        "text": "Ви не могли б…",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Ваш дзвінок дуже важливий для нас and Чим можу допомогти are call-centre lines, odd on a private мобільний.",
+    "examples": [
+      {
+        "text": "Ваш дзвінок дуже важливий для нас.",
+        "style": "polite"
+      },
+      {
+        "text": "Чим можу допомогти?",
+        "style": "polite"
+      },
+      {
+        "text": "Дякуємо за дзвінок, ми завжди раді допомогти.",
+        "style": "polite"
+      },
+      {
+        "text": "Ваше задоволення — наш пріоритет.",
+        "style": "polite"
+      },
+      {
+        "text": "Чи можу я ще чимось допомогти?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to ти too soon, a late call without cause, or demanding паспорт data at the outset all feel abrupt.",
+    "examples": [
+      {
+        "text": "Ти одружений? Скільки заробляєш?",
+        "style": "casual"
+      },
+      {
+        "text": "Ти хто такий? Говори швидше.",
+        "style": "casual"
+      },
+      {
+        "text": "Спочатку назвіть адресу і номер паспорта.",
+        "style": "polite"
+      },
+      {
+        "text": "Цю розмову я вже записую.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "ви 是對陌生人的常態，正式書信有時大寫 Ви；ты 只用於很熟的人。",
+    "未在 Wiktionary 的 wrong number 表找到烏克蘭語對譯，例句依標準說法「Ви помилилися номером」，並列入不確定。",
+    "會話詞 ага 與俄語相近，對公務場合是否合適依語氣而定。"
+  ]
+}

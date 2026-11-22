@@ -1,0 +1,137 @@
+{
+  "name": "Nigeria",
+  "name_local": "Nigeria",
+  "iso": "ng",
+  "calling_code": "+234",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Nigeria official warnings highlight OTP and SIM-swap vishing around fake 5G or SIM-replacement help, plus phone and message phishing that impersonates banks or other trusted organisations, and high-return investment pitches.",
+  "cross_border_note": "Calls and SMS are often in English and may appear to come from local mobile numbers or spoofed bank short codes.",
+  "scams": [
+    {
+      "id": "ng_fake_5g_sim_otp",
+      "typology": "otp_theft",
+      "name": "Fake 5G or SIM-replacement OTP vishing",
+      "name_en": "Fake 5G or SIM-replacement OTP vishing",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "5G upgrade",
+        "SIM replacement",
+        "one-time password",
+        "NIN registration"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks the listener to recite a one-time password just received",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presses for an immediate 5G SIM upgrade over the phone",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims to be a network agent and solicits the activation code",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or SMS posing as a network or registration agent offers to finish a 5G upgrade or SIM replacement and then asks the customer to dictate a one-time password that just arrived on the handset.",
+      "legit_en": "NCC consumer guidance and EFCC alerts say genuine SIM replacement is done in a controlled operator or licensed-agent setting; staff should not collect an activation OTP over the phone to complete a remote upgrade.",
+      "bait_tactics": [
+        "The SMS inbox on this MTN line has not shown any new one-time password yet, so I cannot read a code I have not received.",
+        "The network settings screen on this handset is still spinning and the upgrade menu will not open.",
+        "My reading glasses are in the other room and the message on this small screen is too blurry to read aloud."
+      ],
+      "sources": [
+        "https://csirt.ncc.gov.ng/index.php/resources/latest-news/56-5g-scam-do-not-provide-otp-sent-to-you-efcc-warns-nigerians",
+        "https://www.ncc.gov.ng/media-centre/press-releases/news-release-ncc-demands-mnos-agents-consumers-compliance-sim"
+      ]
+    },
+    {
+      "id": "ng_bank_phishing_vishing",
+      "typology": "fake_bank_account_alert",
+      "name": "Bank or service-provider phishing and vishing",
+      "name_en": "Bank or service-provider phishing and vishing",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "unusual transaction",
+        "internet banking",
+        "BVN update",
+        "reset your password"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the internet-banking password under a confirmation pretext",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to speak the token shown in the banking app",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "instructs a transfer into a so-called safe account",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Fraudsters pose as a bank or other trusted organisation by email, text or phone and try to harvest passwords, card data or tokens, often with a story about a suspicious debit or an urgent account update.",
+      "legit_en": "The Central Bank of Nigeria tells customers not to hand over personal or financial information from unsolicited messages and to verify the sender by contacting the institution through a channel the customer already trusts.",
+      "bait_tactics": [
+        "The GTBank app is spinning on this weak signal and the transaction history page will not load, so I cannot see the debit you described.",
+        "This token device is in my closed bag in the next room and I am not going to recite a code I have not looked at.",
+        "The home Wi-Fi dropped mid-login and the banking app is asking me to start again from the splash screen."
+      ],
+      "sources": [
+        "https://www.cbn.gov.ng/supervision/cpdfraudandscam.html"
+      ]
+    },
+    {
+      "id": "ng_high_return_investment",
+      "typology": "investment_group_scam",
+      "name": "High-return investment or crypto pitch",
+      "name_en": "High-return investment or crypto pitch",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "guaranteed return",
+        "crypto investment",
+        "get rich quick",
+        "trading mentor"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "promises risk-free guaranteed investment profit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urges an immediate starter transfer into the scheme",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "requires an activation fee before any supposed investment",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Callers or messages promise unusually high returns with little risk, often dressing the pitch as a crypto pool, trading mentorship or a private placement that needs a quick opening payment.",
+      "legit_en": "CBN fraud-awareness guidance warns that investment scams dangle quick profits and tells people to research thoroughly, treat get-rich-quick claims with caution, and consult a qualified adviser before sending money to an unfamiliar scheme.",
+      "bait_tactics": [
+        "I have no unused naira sitting in this account for a starter transfer, and I do not fund schemes I have not checked with someone I already trust.",
+        "The investment brochure link you sent will not open on this phone, and I am not installing a new app from a chat message.",
+        "My salary wallet is already allocated this month, so there is no spare balance for an activation payment."
+      ],
+      "sources": [
+        "https://www.cbn.gov.ng/supervision/cpdfraudandscam.html"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1937 @@
+{
+  "region": "my",
+  "vocab": {
+    "ms": {
+      "bank": [
+        {
+          "term": "DuitNow",
+          "en": "instant transfer in Malaysia using a mobile number or DuitNow ID (DuitNow)"
+        },
+        {
+          "term": "akaun bank",
+          "en": "a bank account, everyday Malay (akaun bank)"
+        },
+        {
+          "term": "pemindahan wang",
+          "en": "a bank transfer (pemindahan wang)"
+        },
+        {
+          "term": "Maybank2u",
+          "en": "Maybank's app, often named on Malaysian calls (Maybank2u)"
+        },
+        {
+          "term": "kad debit",
+          "en": "a debit card (kad debit)"
+        },
+        {
+          "term": "akaun simpanan",
+          "en": "a savings account (akaun simpanan)"
+        },
+        {
+          "term": "OTP",
+          "en": "one-time code used by Malaysian banks (OTP)"
+        },
+        {
+          "term": "cawangan bank",
+          "en": "a bank branch (cawangan bank)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pos Laju",
+          "en": "Pos Malaysia's courier service (Pos Laju)"
+        },
+        {
+          "term": "pengawal",
+          "en": "a security guard who may take a parcel (pengawal)"
+        },
+        {
+          "term": "pondok pengawal",
+          "en": "the guardhouse at a condo or factory (pondok pengawal)"
+        },
+        {
+          "term": "loker pakej",
+          "en": "a parcel locker (loker pakej)"
+        },
+        {
+          "term": "depan pintu",
+          "en": "leave it at the door (depan pintu)"
+        },
+        {
+          "term": "pejabat pos",
+          "en": "a Pos Malaysia office (pejabat pos)"
+        },
+        {
+          "term": "COD",
+          "en": "cash on delivery, widely used with Pos Laju (COD)"
+        },
+        {
+          "term": "nombor penjejakan",
+          "en": "a tracking number (nombor penjejakan)"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyKad",
+          "en": "the Malaysian identity card (MyKad)"
+        },
+        {
+          "term": "MyDigital ID",
+          "en": "the government digital ID, still less common in speech than MyKad (MyDigital ID)"
+        },
+        {
+          "term": "LHDN",
+          "en": "the inland revenue board (LHDN)"
+        },
+        {
+          "term": "JPJ",
+          "en": "the road-transport department (JPJ)"
+        },
+        {
+          "term": "imigresen",
+          "en": "immigration (imigresen)"
+        },
+        {
+          "term": "surat beranak",
+          "en": "a birth certificate (surat beranak)"
+        },
+        {
+          "term": "pejabat daerah",
+          "en": "a district office (pejabat daerah)"
+        }
+      ],
+      "health": [
+        {
+          "term": "klinik kesihatan",
+          "en": "a public health clinic (klinik kesihatan)"
+        },
+        {
+          "term": "hospital kerajaan",
+          "en": "a government hospital (hospital kerajaan)"
+        },
+        {
+          "term": "farmasi",
+          "en": "a pharmacy (farmasi)"
+        },
+        {
+          "term": "klinik swasta",
+          "en": "a private clinic (klinik swasta)"
+        },
+        {
+          "term": "kad rawatan",
+          "en": "a clinic treatment or appointment card (kad rawatan)"
+        },
+        {
+          "term": "jabatan kecemasan",
+          "en": "the emergency department (jabatan kecemasan)"
+        },
+        {
+          "term": "ubat",
+          "en": "medicine (ubat)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pelan prabayar",
+          "en": "a prepaid mobile plan, still very common (pelan prabayar)"
+        },
+        {
+          "term": "pasca bayar",
+          "en": "a postpaid plan (pasca bayar)"
+        },
+        {
+          "term": "pindah nombor",
+          "en": "keeping the number when changing telco (pindah nombor)"
+        },
+        {
+          "term": "data",
+          "en": "mobile data (data)"
+        },
+        {
+          "term": "Unifi",
+          "en": "TM's widely named fibre broadband (Unifi)"
+        },
+        {
+          "term": "syarikat telco",
+          "en": "a mobile operator (syarikat telco)"
+        },
+        {
+          "term": "kad SIM",
+          "en": "a SIM card (kad SIM)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "DuitNow",
+          "en": "instant payment or DuitNow QR (DuitNow)"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "the eWallet and toll card almost everyone names (Touch 'n Go)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab's wallet in Malaysia (GrabPay)"
+        },
+        {
+          "term": "kad kredit",
+          "en": "a credit card (kad kredit)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai)"
+        },
+        {
+          "term": "QR",
+          "en": "a QR payment, usually DuitNow QR (QR)"
+        },
+        {
+          "term": "FPX",
+          "en": "online payment by logging into a Malaysian bank (FPX)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "LRT",
+          "en": "light rail in the Klang Valley (LRT)"
+        },
+        {
+          "term": "MRT",
+          "en": "the Klang Valley metro (MRT)"
+        },
+        {
+          "term": "bas",
+          "en": "a bus (bas)"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing, the default app name (Grab)"
+        },
+        {
+          "term": "teksi",
+          "en": "a taxi (teksi)"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "the card used at tolls and on some transit (Touch 'n Go)"
+        },
+        {
+          "term": "komuter",
+          "en": "KTM Komuter trains (komuter)"
+        },
+        {
+          "term": "tol",
+          "en": "an expressway toll (tol)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "kondominium",
+          "en": "a condominium (kondominium)"
+        },
+        {
+          "term": "rumah teres",
+          "en": "a terrace house (rumah teres)"
+        },
+        {
+          "term": "pengawal",
+          "en": "the guard (pengawal)"
+        },
+        {
+          "term": "pondok pengawal",
+          "en": "the guardhouse (pondok pengawal)"
+        },
+        {
+          "term": "peti surat",
+          "en": "the letterbox (peti surat)"
+        },
+        {
+          "term": "kad akses",
+          "en": "an access card (kad akses)"
+        },
+        {
+          "term": "taman",
+          "en": "a housing neighbourhood (taman)"
+        },
+        {
+          "term": "pangsapuri",
+          "en": "a walk-up or non-condo flat (pangsapuri)"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuisyen",
+          "en": "after-school tutoring (tuisyen)"
+        },
+        {
+          "term": "sekolah rendah",
+          "en": "primary school (sekolah rendah)"
+        },
+        {
+          "term": "sekolah menengah",
+          "en": "secondary school (sekolah menengah)"
+        },
+        {
+          "term": "tadika",
+          "en": "kindergarten (tadika)"
+        },
+        {
+          "term": "kerja rumah",
+          "en": "homework (kerja rumah)"
+        },
+        {
+          "term": "KPM",
+          "en": "the Ministry of Education (KPM)"
+        },
+        {
+          "term": "asrama",
+          "en": "a hostel (asrama)"
+        }
+      ],
+      "money": [
+        {
+          "term": "ringgit",
+          "en": "the Malaysian ringgit (ringgit)"
+        },
+        {
+          "term": "sen",
+          "en": "cents of a ringgit (sen)"
+        },
+        {
+          "term": "ribu",
+          "en": "thousand, the usual large unit (ribu)"
+        },
+        {
+          "term": "DuitNow",
+          "en": "send money by DuitNow (DuitNow)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai)"
+        },
+        {
+          "term": "baki",
+          "en": "the balance, or the change, depending on context (baki)"
+        },
+        {
+          "term": "duit",
+          "en": "everyday word for money (duit)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "pagi ini",
+          "en": "this morning (pagi ini)"
+        },
+        {
+          "term": "petang",
+          "en": "afternoon or early evening, the usual Malay word (petang)"
+        },
+        {
+          "term": "malam ini",
+          "en": "tonight (malam ini)"
+        },
+        {
+          "term": "hari bekerja",
+          "en": "a weekday (hari bekerja)"
+        },
+        {
+          "term": "hujung minggu",
+          "en": "the weekend (hujung minggu)"
+        },
+        {
+          "term": "lepas kerja",
+          "en": "after work (lepas kerja)"
+        },
+        {
+          "term": "cuti umum",
+          "en": "a public holiday (cuti umum)"
+        },
+        {
+          "term": "minggu ini",
+          "en": "this week, Malay minggu ini (minggu ini)"
+        }
+      ],
+      "work": [
+        {
+          "term": "pergi kerja",
+          "en": "go to work (pergi kerja)"
+        },
+        {
+          "term": "habis kerja",
+          "en": "finish work (habis kerja)"
+        },
+        {
+          "term": "kerja lebih masa",
+          "en": "overtime (kerja lebih masa)"
+        },
+        {
+          "term": "cuti",
+          "en": "leave (cuti)"
+        },
+        {
+          "term": "MC",
+          "en": "a medical certificate, almost always said MC (MC)"
+        },
+        {
+          "term": "syarikat",
+          "en": "a company (syarikat)"
+        },
+        {
+          "term": "kerja dari rumah",
+          "en": "work from home (kerja dari rumah)"
+        },
+        {
+          "term": "bos",
+          "en": "the boss, a common loanword (bos)"
+        }
+      ]
+    },
+    "en": {
+      "bank": [
+        {
+          "term": "DuitNow",
+          "en": "Malaysia's instant transfer, by mobile number, MyKad or account"
+        },
+        {
+          "term": "online banking",
+          "en": "a Malaysian bank app or website"
+        },
+        {
+          "term": "savings account",
+          "en": "a savings account at a Malaysian bank"
+        },
+        {
+          "term": "current account",
+          "en": "a current account, the phrase used in Malaysian English"
+        },
+        {
+          "term": "debit card",
+          "en": "a debit card issued in Malaysia"
+        },
+        {
+          "term": "OTP",
+          "en": "the one-time password from a Malaysian bank"
+        },
+        {
+          "term": "bank branch",
+          "en": "a branch, also cawangan"
+        },
+        {
+          "term": "Maybank2u",
+          "en": "a bank app people often name even if they use another bank"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pos Laju",
+          "en": "the Pos Malaysia courier, the name used on calls"
+        },
+        {
+          "term": "guardhouse",
+          "en": "the condo or industrial-park guard post"
+        },
+        {
+          "term": "security guard",
+          "en": "the guard who may accept a parcel"
+        },
+        {
+          "term": "parcel locker",
+          "en": "a locker point, still less common than the guardhouse"
+        },
+        {
+          "term": "at the gate",
+          "en": "leave it at the gate or with the guard"
+        },
+        {
+          "term": "tracking number",
+          "en": "the consignment or tracking number"
+        },
+        {
+          "term": "COD",
+          "en": "cash on delivery, still widely offered"
+        },
+        {
+          "term": "post office",
+          "en": "a Pos Malaysia outlet"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyKad",
+          "en": "the national identity card, the name everyone uses"
+        },
+        {
+          "term": "LHDN",
+          "en": "the Inland Revenue Board, usually said LHDN"
+        },
+        {
+          "term": "JPJ",
+          "en": "the road-transport department, usually said JPJ"
+        },
+        {
+          "term": "immigration",
+          "en": "immigration, also imigresen"
+        },
+        {
+          "term": "MyDigital ID",
+          "en": "the newer government login, many people still just say MyKad"
+        },
+        {
+          "term": "birth cert",
+          "en": "a birth certificate, also surat beranak"
+        },
+        {
+          "term": "district office",
+          "en": "the pejabat daerah"
+        }
+      ],
+      "health": [
+        {
+          "term": "klinik kesihatan",
+          "en": "the public clinic; even English speakers often keep the Malay name"
+        },
+        {
+          "term": "government hospital",
+          "en": "a public hospital"
+        },
+        {
+          "term": "pharmacy",
+          "en": "a pharmacy, also farmasi"
+        },
+        {
+          "term": "private clinic",
+          "en": "a GP in private practice"
+        },
+        {
+          "term": "A&E",
+          "en": "accident and emergency, also jabatan kecemasan"
+        },
+        {
+          "term": "medicine",
+          "en": "medicine, also ubat"
+        },
+        {
+          "term": "panel clinic",
+          "en": "a clinic on an employer's panel"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "prepaid",
+          "en": "a prepaid line, still the default for many people"
+        },
+        {
+          "term": "postpaid",
+          "en": "a postpaid plan"
+        },
+        {
+          "term": "number porting",
+          "en": "keep the number when changing telco"
+        },
+        {
+          "term": "data",
+          "en": "mobile data on a Malaysian plan, often from Celcom, Digi, Maxis or U Mobile"
+        },
+        {
+          "term": "Unifi",
+          "en": "TM fibre, a brand people name on calls"
+        },
+        {
+          "term": "telco",
+          "en": "a mobile operator"
+        },
+        {
+          "term": "SIM card",
+          "en": "a Malaysian SIM card"
+        }
+      ],
+      "payment": [
+        {
+          "term": "DuitNow",
+          "en": "instant payment and DuitNow QR"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "the eWallet and the toll card"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab's wallet"
+        },
+        {
+          "term": "FPX",
+          "en": "pay a bill by signing into a Malaysian bank"
+        },
+        {
+          "term": "credit card",
+          "en": "a credit card"
+        },
+        {
+          "term": "cash",
+          "en": "cash, also duit tunai"
+        },
+        {
+          "term": "QR pay",
+          "en": "a QR payment, usually DuitNow"
+        }
+      ],
+      "transport": [
+        {
+          "term": "LRT",
+          "en": "light rail in the Klang Valley only"
+        },
+        {
+          "term": "MRT",
+          "en": "the Klang Valley metro"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing"
+        },
+        {
+          "term": "bus",
+          "en": "a bus, also bas"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "the card at the toll plaza, and on some transit"
+        },
+        {
+          "term": "Komuter",
+          "en": "KTM Komuter"
+        },
+        {
+          "term": "toll",
+          "en": "an expressway toll, often just tol"
+        },
+        {
+          "term": "teksi",
+          "en": "a taxi; the Malay word is often used in English speech"
+        }
+      ],
+      "housing": [
+        {
+          "term": "condo",
+          "en": "a condominium"
+        },
+        {
+          "term": "terrace house",
+          "en": "a linked or terrace house"
+        },
+        {
+          "term": "guardhouse",
+          "en": "security at the gate"
+        },
+        {
+          "term": "letterbox",
+          "en": "the letterbox, also peti surat"
+        },
+        {
+          "term": "access card",
+          "en": "the door or car-park card"
+        },
+        {
+          "term": "taman",
+          "en": "the housing area, a Malay word used in English too"
+        },
+        {
+          "term": "apartment",
+          "en": "a walk-up or non-condo flat, also pangsapuri"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuition",
+          "en": "after-school tutoring, also tuisyen"
+        },
+        {
+          "term": "primary school",
+          "en": "primary school, sekolah rendah in Malaysia"
+        },
+        {
+          "term": "secondary school",
+          "en": "secondary school, sekolah menengah in Malaysia"
+        },
+        {
+          "term": "tadika",
+          "en": "kindergarten; the Malay word is common even in English"
+        },
+        {
+          "term": "homework",
+          "en": "homework from a sekolah rendah or sekolah menengah"
+        },
+        {
+          "term": "SPM",
+          "en": "the national upper-secondary exam"
+        },
+        {
+          "term": "hostel",
+          "en": "a hostel, also asrama"
+        }
+      ],
+      "money": [
+        {
+          "term": "ringgit",
+          "en": "the Malaysian ringgit, never dollars unless someone means a foreign currency"
+        },
+        {
+          "term": "sen",
+          "en": "cents of a ringgit"
+        },
+        {
+          "term": "thousand",
+          "en": "a thousand ringgit, also ribu"
+        },
+        {
+          "term": "DuitNow",
+          "en": "send money"
+        },
+        {
+          "term": "cash",
+          "en": "cash, also duit tunai"
+        },
+        {
+          "term": "change",
+          "en": "the change, also baki or baki pulangan"
+        },
+        {
+          "term": "duit",
+          "en": "everyday mixed-speech word for money"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, or pagi ini"
+        },
+        {
+          "term": "petang",
+          "en": "afternoon; English speakers often still say petang"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, or malam ini"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, or hari bekerja"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, or hujung minggu"
+        },
+        {
+          "term": "after work",
+          "en": "after work, or lepas kerja"
+        },
+        {
+          "term": "public holiday",
+          "en": "a public holiday, also cuti umum"
+        },
+        {
+          "term": "this week",
+          "en": "this week, or minggu ini"
+        }
+      ],
+      "work": [
+        {
+          "term": "go to work",
+          "en": "go to work, also pergi kerja"
+        },
+        {
+          "term": "off work",
+          "en": "finish work, also habis kerja"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, also OT or kerja lebih masa"
+        },
+        {
+          "term": "MC",
+          "en": "medical certificate or sick leave, almost always MC"
+        },
+        {
+          "term": "annual leave",
+          "en": "annual leave, also cuti tahunan"
+        },
+        {
+          "term": "boss",
+          "en": "the boss, also bos"
+        },
+        {
+          "term": "company",
+          "en": "the company, also syarikat"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home, also WFH or kerja dari rumah"
+        }
+      ]
+    },
+    "zh-TW": {
+      "bank": [
+        {
+          "term": "DuitNow",
+          "en": "馬來西亞即時轉帳 (DuitNow)"
+        },
+        {
+          "term": "網銀",
+          "en": "網上銀行或銀行App (網銀)"
+        },
+        {
+          "term": "戶口",
+          "en": "銀行帳戶 (戶口)"
+        },
+        {
+          "term": "轉帳",
+          "en": "轉帳 (轉帳)"
+        },
+        {
+          "term": "金融卡",
+          "en": "金融卡或扣帳卡 (金融卡)"
+        },
+        {
+          "term": "OTP",
+          "en": "銀行一次性密碼 (OTP)"
+        },
+        {
+          "term": "銀行分行",
+          "en": "銀行分行，也說 cawangan (銀行分行)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pos Laju",
+          "en": "馬來西亞郵政速遞，打電話幾乎都說這個名字 (Pos Laju)"
+        },
+        {
+          "term": "警衛室",
+          "en": "公寓或園區的警衛室 (警衛室)"
+        },
+        {
+          "term": "保安",
+          "en": "保安或門衛 (保安)"
+        },
+        {
+          "term": "智能櫃",
+          "en": "包裹櫃，還不如警衛室常見 (智能櫃)"
+        },
+        {
+          "term": "門口",
+          "en": "放在門口 (門口)"
+        },
+        {
+          "term": "郵局",
+          "en": "郵局，也就是 Pos Malaysia (郵局)"
+        },
+        {
+          "term": "貨到付款",
+          "en": "貨到付款，也說 COD (貨到付款)"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyKad",
+          "en": "馬來西亞身份證，口語就說 MyKad (MyKad)"
+        },
+        {
+          "term": "內陸稅收局",
+          "en": "稅務機關 LHDN (內陸稅收局)"
+        },
+        {
+          "term": "陸路交通局",
+          "en": "陸路交通局 JPJ (陸路交通局)"
+        },
+        {
+          "term": "移民廳",
+          "en": "移民廳 (移民廳)"
+        },
+        {
+          "term": "數位身分",
+          "en": "MyDigital ID，很多人仍只說 MyKad (數位身分)"
+        },
+        {
+          "term": "出生紙",
+          "en": "出生證明 (出生紙)"
+        },
+        {
+          "term": "縣署",
+          "en": "縣署或 pejabat daerah (縣署)"
+        }
+      ],
+      "health": [
+        {
+          "term": "政府診所",
+          "en": "政府診所，常直接說 klinik kesihatan (政府診所)"
+        },
+        {
+          "term": "政府醫院",
+          "en": "政府醫院 (政府醫院)"
+        },
+        {
+          "term": "藥房",
+          "en": "藥房 (藥房)"
+        },
+        {
+          "term": "私人診所",
+          "en": "私人診所 (私人診所)"
+        },
+        {
+          "term": "急症室",
+          "en": "急症室 (急症室)"
+        },
+        {
+          "term": "藥",
+          "en": "藥，也說 ubat (藥)"
+        },
+        {
+          "term": "掛鈎診所",
+          "en": "公司掛鈎診所，也說 panel clinic (掛鈎診所)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "預付卡",
+          "en": "預付配套，仍然很常見 (預付卡)"
+        },
+        {
+          "term": "後付配套",
+          "en": "後付配套 (後付配套)"
+        },
+        {
+          "term": "攜號轉網",
+          "en": "攜號轉網 (攜號轉網)"
+        },
+        {
+          "term": "流動數據",
+          "en": "流動數據 (流動數據)"
+        },
+        {
+          "term": "Unifi",
+          "en": "常見寬頻品牌，電話裡常直接報名 (Unifi)"
+        },
+        {
+          "term": "電信公司",
+          "en": "電信公司，也說 telco (電信公司)"
+        },
+        {
+          "term": "電話卡",
+          "en": "電話卡或 SIM (電話卡)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "DuitNow",
+          "en": "即時付款或掃 DuitNow QR (DuitNow)"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "電子錢包與過路卡，幾乎人人都這樣叫 (Touch 'n Go)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab 錢包 (GrabPay)"
+        },
+        {
+          "term": "FPX",
+          "en": "用網上銀行付款的 FPX (FPX)"
+        },
+        {
+          "term": "信用卡",
+          "en": "信用卡 (信用卡)"
+        },
+        {
+          "term": "現金",
+          "en": "現金，也說 duit tunai (現金)"
+        },
+        {
+          "term": "掃碼",
+          "en": "掃碼付款，多數是 DuitNow QR (掃碼)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "輕快鐵",
+          "en": "巴生谷的 LRT (輕快鐵)"
+        },
+        {
+          "term": "MRT",
+          "en": "巴生谷的捷運 (MRT)"
+        },
+        {
+          "term": "Grab",
+          "en": "網約車，預設就叫 Grab (Grab)"
+        },
+        {
+          "term": "巴士",
+          "en": "巴士 (巴士)"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "過路費與部分交通卡 (Touch 'n Go)"
+        },
+        {
+          "term": "通勤火車",
+          "en": "KTM Komuter (通勤火車)"
+        },
+        {
+          "term": "過路費",
+          "en": "高速公路收費，口語常說 tol (過路費)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "公寓",
+          "en": "condo 或公寓 (公寓)"
+        },
+        {
+          "term": "排屋",
+          "en": "排屋或連棟住宅 (排屋)"
+        },
+        {
+          "term": "警衛室",
+          "en": "門口警衛室 (警衛室)"
+        },
+        {
+          "term": "信箱",
+          "en": "信箱 (信箱)"
+        },
+        {
+          "term": "門卡",
+          "en": "門禁卡或停車場卡 (門卡)"
+        },
+        {
+          "term": "花園住宅區",
+          "en": "住宅區，也說 taman (花園住宅區)"
+        },
+        {
+          "term": "組屋",
+          "en": "這裡的組屋是 pangsapuri，不是新加坡 HDB (組屋)"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習",
+          "en": "補習，也說 tuisyen (補習)"
+        },
+        {
+          "term": "小學",
+          "en": "小學 (小學)"
+        },
+        {
+          "term": "中學",
+          "en": "中學 (中學)"
+        },
+        {
+          "term": "幼稚園",
+          "en": "幼稚園，也常說 tadika (幼稚園)"
+        },
+        {
+          "term": "功課",
+          "en": "功課 (功課)"
+        },
+        {
+          "term": "SPM",
+          "en": "高中統考 SPM (SPM)"
+        },
+        {
+          "term": "宿舍",
+          "en": "宿舍，也說 asrama (宿舍)"
+        }
+      ],
+      "money": [
+        {
+          "term": "令吉",
+          "en": "馬來西亞令吉 (令吉)"
+        },
+        {
+          "term": "仙",
+          "en": "令吉的「仙」(仙)"
+        },
+        {
+          "term": "千",
+          "en": "千令吉，也說 ribu (千)"
+        },
+        {
+          "term": "DuitNow",
+          "en": "用 DuitNow 轉錢 (DuitNow)"
+        },
+        {
+          "term": "現金",
+          "en": "現金 (現金)"
+        },
+        {
+          "term": "找錢",
+          "en": "找錢 (找錢)"
+        },
+        {
+          "term": "錢",
+          "en": "錢，口語也夾 duit (錢)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "今早",
+          "en": "今天早上，也說 pagi ini (今早)"
+        },
+        {
+          "term": "下午",
+          "en": "下午，華語電話也常夾 petang (下午)"
+        },
+        {
+          "term": "今晚",
+          "en": "今晚 (今晚)"
+        },
+        {
+          "term": "工作日",
+          "en": "工作日 (工作日)"
+        },
+        {
+          "term": "週末",
+          "en": "週末 (週末)"
+        },
+        {
+          "term": "下班後",
+          "en": "下班後，也說 lepas kerja (下班後)"
+        },
+        {
+          "term": "公共假期",
+          "en": "公共假期，也說 cuti umum (公共假期)"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "上班 (上班)"
+        },
+        {
+          "term": "下班",
+          "en": "下班 (下班)"
+        },
+        {
+          "term": "加班",
+          "en": "加班，也說 OT (加班)"
+        },
+        {
+          "term": "病假單",
+          "en": "病假單，幾乎都說 MC (病假單)"
+        },
+        {
+          "term": "年假",
+          "en": "年假 (年假)"
+        },
+        {
+          "term": "老闆",
+          "en": "老闆，也說 bos (老闆)"
+        },
+        {
+          "term": "公司",
+          "en": "公司 (公司)"
+        },
+        {
+          "term": "在家工作",
+          "en": "在家工作，也說 WFH (在家工作)"
+        }
+      ]
+    },
+    "zh-CN": {
+      "bank": [
+        {
+          "term": "DuitNow",
+          "en": "馬來西亞即時轉帳 (DuitNow); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "網銀",
+          "en": "網上銀行或銀行App (網銀); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "戶口",
+          "en": "銀行帳戶 (戶口); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "轉帳",
+          "en": "轉帳 (轉帳); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "金融卡",
+          "en": "金融卡或扣帳卡 (金融卡); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "OTP",
+          "en": "銀行一次性密碼 (OTP); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "銀行分行",
+          "en": "銀行分行，也說 cawangan (銀行分行); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pos Laju",
+          "en": "馬來西亞郵政速遞，打電話幾乎都說這個名字 (Pos Laju); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "警衛室",
+          "en": "公寓或園區的警衛室 (警衛室); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "保安",
+          "en": "保安或門衛 (保安); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "智能櫃",
+          "en": "包裹櫃，還不如警衛室常見 (智能櫃); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "門口",
+          "en": "放在門口 (門口); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "郵局",
+          "en": "郵局，也就是 Pos Malaysia (郵局); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "貨到付款",
+          "en": "貨到付款，也說 COD (貨到付款); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyKad",
+          "en": "馬來西亞身份證，口語就說 MyKad (MyKad); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "內陸稅收局",
+          "en": "稅務機關 LHDN (內陸稅收局); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "陸路交通局",
+          "en": "陸路交通局 JPJ (陸路交通局); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "移民廳",
+          "en": "移民廳 (移民廳); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "數位身分",
+          "en": "MyDigital ID，很多人仍只說 MyKad (數位身分); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "出生紙",
+          "en": "出生證明 (出生紙); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "縣署",
+          "en": "縣署或 pejabat daerah (縣署); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "health": [
+        {
+          "term": "政府診所",
+          "en": "政府診所，常直接說 klinik kesihatan (政府診所); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "政府醫院",
+          "en": "政府醫院 (政府醫院); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "藥房",
+          "en": "藥房 (藥房); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "私人診所",
+          "en": "私人診所 (私人診所); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "急症室",
+          "en": "急症室 (急症室); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "藥",
+          "en": "藥，也說 ubat (藥); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "掛鈎診所",
+          "en": "公司掛鈎診所，也說 panel clinic (掛鈎診所); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "預付卡",
+          "en": "預付配套，仍然很常見 (預付卡); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "後付配套",
+          "en": "後付配套 (後付配套); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "攜號轉網",
+          "en": "攜號轉網 (攜號轉網); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "流動數據",
+          "en": "流動數據 (流動數據); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "Unifi",
+          "en": "常見寬頻品牌，電話裡常直接報名 (Unifi); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "電信公司",
+          "en": "電信公司，也說 telco (電信公司); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "電話卡",
+          "en": "電話卡或 SIM (電話卡); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "payment": [
+        {
+          "term": "DuitNow",
+          "en": "即時付款或掃 DuitNow QR (DuitNow); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "電子錢包與過路卡，幾乎人人都這樣叫 (Touch 'n Go); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab 錢包 (GrabPay); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "FPX",
+          "en": "用網上銀行付款的 FPX (FPX); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "信用卡",
+          "en": "信用卡 (信用卡); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "現金",
+          "en": "現金，也說 duit tunai (現金); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "掃碼",
+          "en": "掃碼付款，多數是 DuitNow QR (掃碼); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "transport": [
+        {
+          "term": "輕快鐵",
+          "en": "巴生谷的 LRT (輕快鐵); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "MRT",
+          "en": "巴生谷的捷運 (MRT); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "Grab",
+          "en": "網約車，預設就叫 Grab (Grab); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "巴士",
+          "en": "巴士 (巴士); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "過路費與部分交通卡 (Touch 'n Go); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "通勤火車",
+          "en": "KTM Komuter (通勤火車); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "過路費",
+          "en": "高速公路收費，口語常說 tol (過路費); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "housing": [
+        {
+          "term": "公寓",
+          "en": "condo 或公寓 (公寓); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "排屋",
+          "en": "排屋或連棟住宅 (排屋); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "警衛室",
+          "en": "門口警衛室 (警衛室); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "信箱",
+          "en": "信箱 (信箱); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "門卡",
+          "en": "門禁卡或停車場卡 (門卡); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "花園住宅區",
+          "en": "住宅區，也說 taman (花園住宅區); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "組屋",
+          "en": "這裡的組屋是 pangsapuri，不是新加坡 HDB (組屋); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習",
+          "en": "補習，也說 tuisyen (補習); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "小學",
+          "en": "小學 (小學); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "中學",
+          "en": "中學 (中學); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "幼稚園",
+          "en": "幼稚園，也常說 tadika (幼稚園); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "功課",
+          "en": "功課 (功課); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "SPM",
+          "en": "高中統考 SPM (SPM); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "宿舍",
+          "en": "宿舍，也說 asrama (宿舍); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "money": [
+        {
+          "term": "令吉",
+          "en": "馬來西亞令吉 (令吉); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "仙",
+          "en": "令吉的「仙」(仙); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "千",
+          "en": "千令吉，也說 ribu (千); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "DuitNow",
+          "en": "用 DuitNow 轉錢 (DuitNow); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "現金",
+          "en": "現金 (現金); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "找錢",
+          "en": "找錢 (找錢); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "錢",
+          "en": "錢，口語也夾 duit (錢); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "今早",
+          "en": "今天早上，也說 pagi ini (今早); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "下午",
+          "en": "下午，華語電話也常夾 petang (下午); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "今晚",
+          "en": "今晚 (今晚); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "工作日",
+          "en": "工作日 (工作日); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "週末",
+          "en": "週末 (週末); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "下班後",
+          "en": "下班後，也說 lepas kerja (下班後); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "公共假期",
+          "en": "公共假期，也說 cuti umum (公共假期); Malaysian Chinese often types this in Simplified"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "上班 (上班); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "下班",
+          "en": "下班 (下班); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "加班",
+          "en": "加班，也說 OT (加班); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "病假單",
+          "en": "病假單，幾乎都說 MC (病假單); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "年假",
+          "en": "年假 (年假); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "老闆",
+          "en": "老闆，也說 bos (老闆); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "公司",
+          "en": "公司 (公司); Malaysian Chinese often types this in Simplified"
+        },
+        {
+          "term": "在家工作",
+          "en": "在家工作，也說 WFH (在家工作); Malaysian Chinese often types this in Simplified"
+        }
+      ]
+    },
+    "ta": {
+      "bank": [
+        {
+          "term": "DuitNow",
+          "en": "மலேசிய உடனடி பணப் பரிமாற்றம் (DuitNow)"
+        },
+        {
+          "term": "வங்கி கணக்கு",
+          "en": "வங்கி கணக்கு"
+        },
+        {
+          "term": "பணம் அனுப்புதல்",
+          "en": "வங்கி வழியாக பணம் அனுப்புதல்"
+        },
+        {
+          "term": "டெபிட் அட்டை",
+          "en": "டெபிட் அட்டை"
+        },
+        {
+          "term": "OTP",
+          "en": "மலேசிய வங்கியின் OTP"
+        },
+        {
+          "term": "வங்கி கிளை",
+          "en": "வங்கி கிளை, also cawangan"
+        },
+        {
+          "term": "சேமிப்பு கணக்கு",
+          "en": "சேமிப்பு கணக்கு"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pos Laju",
+          "en": "போஸ் மலேசியா விரைவு சேவை (Pos Laju)"
+        },
+        {
+          "term": "guardhouse",
+          "en": "காவல் அறை / pondok pengawal"
+        },
+        {
+          "term": "security",
+          "en": "பாதுகாப்பு / pengawal"
+        },
+        {
+          "term": "parcel locker",
+          "en": "பொதி பெட்டி"
+        },
+        {
+          "term": "வாசல்",
+          "en": "வாசலில் வைக்க"
+        },
+        {
+          "term": "தபால் நிலையம்",
+          "en": "தபால் நிலையம்"
+        },
+        {
+          "term": "COD",
+          "en": "பெறும்போது பணம்"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyKad",
+          "en": "மலேசிய அடையாள அட்டை (MyKad)"
+        },
+        {
+          "term": "LHDN",
+          "en": "வரித்துறை LHDN"
+        },
+        {
+          "term": "JPJ",
+          "en": "சாலை போக்குவரத்து துறை JPJ"
+        },
+        {
+          "term": "immigration",
+          "en": "குடியகல்வு"
+        },
+        {
+          "term": "MyDigital ID",
+          "en": "அரசு டிஜிட்டல் அடையாளம், பலர் இன்னும் MyKad என்றே சொல்வர்"
+        },
+        {
+          "term": "பிறப்பு சான்றிதழ்",
+          "en": "பிறப்பு சான்றிதழ்"
+        },
+        {
+          "term": "மாவட்ட அலுவலகம்",
+          "en": "மாவட்ட அலுவலகம் / pejabat daerah"
+        }
+      ],
+      "health": [
+        {
+          "term": "klinik kesihatan",
+          "en": "அரசு சுகாதார கிளினிக், மலாய் பெயரே அடிக்கடி நிற்கும்"
+        },
+        {
+          "term": "அரசு மருத்துவமனை",
+          "en": "அரசு மருத்துவமனை"
+        },
+        {
+          "term": "மருந்தகம்",
+          "en": "மருந்தகம்"
+        },
+        {
+          "term": "தனியார் கிளினிக்",
+          "en": "தனியார் கிளினிக்"
+        },
+        {
+          "term": "அவசர சிகிச்சை",
+          "en": "அவசர சிகிச்சை"
+        },
+        {
+          "term": "மருந்து",
+          "en": "மருந்து, also ubat"
+        },
+        {
+          "term": "panel clinic",
+          "en": "நிறுவன ஒப்பந்தக் கிளினிக்"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "prepaid",
+          "en": "முன்செலுத்து இணைப்பு"
+        },
+        {
+          "term": "postpaid",
+          "en": "பின்செலுத்து திட்டம்"
+        },
+        {
+          "term": "number porting",
+          "en": "எண்ணை வைத்துக்கொண்டு ஆபரேட்டர் மாறுதல்"
+        },
+        {
+          "term": "data",
+          "en": "மொபைல் தரவு"
+        },
+        {
+          "term": "Unifi",
+          "en": "பொதுவான இழை இணையப் பிராண்ட்"
+        },
+        {
+          "term": "telco",
+          "en": "தொலைத்தொடர்பு நிறுவனம்"
+        },
+        {
+          "term": "SIM",
+          "en": "சிம்"
+        }
+      ],
+      "payment": [
+        {
+          "term": "DuitNow",
+          "en": "உடனடி அல்லது QR கட்டணம்"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "மின் பணப்பை மற்றும் டோல் அட்டை"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab பணப்பை"
+        },
+        {
+          "term": "FPX",
+          "en": "வங்கி வழி ஆன்லைன் கட்டணம்"
+        },
+        {
+          "term": "கடன் அட்டை",
+          "en": "கடன் அட்டை"
+        },
+        {
+          "term": "ரொக்கம்",
+          "en": "ரொக்கம், also duit tunai"
+        },
+        {
+          "term": "QR",
+          "en": "DuitNow QR கட்டணம்"
+        }
+      ],
+      "transport": [
+        {
+          "term": "LRT",
+          "en": "கிளாங் பள்ளத்தாக்கு இலகு தண்டவாளம்"
+        },
+        {
+          "term": "MRT",
+          "en": "கிளாங் பள்ளத்தாக்கு மெட்ரோ"
+        },
+        {
+          "term": "Grab",
+          "en": "ஊர்தி அழைப்பு"
+        },
+        {
+          "term": "பேருந்து",
+          "en": "பேருந்து"
+        },
+        {
+          "term": "Touch 'n Go",
+          "en": "டோல் மற்றும் சில போக்குவரத்து அட்டை"
+        },
+        {
+          "term": "Komuter",
+          "en": "KTM புறநகர் தொடருந்து"
+        },
+        {
+          "term": "tol",
+          "en": "நெடுஞ்சாலை கட்டணம்"
+        }
+      ],
+      "housing": [
+        {
+          "term": "condo",
+          "en": "குடியிருப்பு"
+        },
+        {
+          "term": "terrace house",
+          "en": "தொடர் வீடு / rumah teres"
+        },
+        {
+          "term": "guardhouse",
+          "en": "காவல் அறை"
+        },
+        {
+          "term": "letterbox",
+          "en": "கடிதப் பெட்டி"
+        },
+        {
+          "term": "access card",
+          "en": "நுழைவு அட்டை"
+        },
+        {
+          "term": "taman",
+          "en": "குடியிருப்புப் பகுதி, மலாய் சொல் அடிக்கடி நிற்கும்"
+        },
+        {
+          "term": "pangsapuri",
+          "en": "அடுக்குமாடி, HDB அல்ல"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuition",
+          "en": "கூடுதல் வகுப்பு / tuisyen"
+        },
+        {
+          "term": "தொடக்கப் பள்ளி",
+          "en": "தொடக்கப் பள்ளி"
+        },
+        {
+          "term": "உயர்நிலைப் பள்ளி",
+          "en": "உயர்நிலைப் பள்ளி"
+        },
+        {
+          "term": "tadika",
+          "en": "மழலையர் பள்ளி"
+        },
+        {
+          "term": "வீட்டுப்பாடம்",
+          "en": "வீட்டுப்பாடம்"
+        },
+        {
+          "term": "SPM",
+          "en": "தேசிய பொதுத் தேர்வு SPM"
+        },
+        {
+          "term": "hostel",
+          "en": "விடுதி / asrama"
+        }
+      ],
+      "money": [
+        {
+          "term": "ரிங்கிட்",
+          "en": "மலேசிய ரிங்கிட்"
+        },
+        {
+          "term": "sen",
+          "en": "ரிங்கிட் சதம்"
+        },
+        {
+          "term": "ஆயிரம்",
+          "en": "ஆயிரம் ரிங்கிட்"
+        },
+        {
+          "term": "DuitNow",
+          "en": "DuitNow வழியாக பணம் அனுப்புதல்"
+        },
+        {
+          "term": "ரொக்கம்",
+          "en": "ரொக்கம்"
+        },
+        {
+          "term": "சில்லறை",
+          "en": "சில்லறை"
+        },
+        {
+          "term": "duit",
+          "en": "பணம், அன்றாடக் கலப்புச் சொல்"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "இன்று காலை",
+          "en": "இன்று காலை, also pagi ini"
+        },
+        {
+          "term": "petang",
+          "en": "பிற்பகல், மலாய் சொல் தமிழ் பேச்சிலும் கலக்கும்"
+        },
+        {
+          "term": "இன்று இரவு",
+          "en": "இன்று இரவு"
+        },
+        {
+          "term": "வேலை நாள்",
+          "en": "வேலை நாள்"
+        },
+        {
+          "term": "வார இறுதி",
+          "en": "வார இறுதி"
+        },
+        {
+          "term": "வேலைக்குப் பிறகு",
+          "en": "வேலைக்குப் பிறகு, also lepas kerja"
+        },
+        {
+          "term": "பொது விடுமுறை",
+          "en": "பொது விடுமுறை / cuti umum"
+        }
+      ],
+      "work": [
+        {
+          "term": "வேலைக்குச் செல்லுதல்",
+          "en": "வேலைக்குச் செல்லுதல்"
+        },
+        {
+          "term": "வேலை முடிதல்",
+          "en": "வேலை முடிதல்"
+        },
+        {
+          "term": "கூடுதல் நேரம்",
+          "en": "கூடுதல் நேரம் / OT"
+        },
+        {
+          "term": "MC",
+          "en": "மருத்துவச் சான்றிதழ், பொதுவாக MC என்றே"
+        },
+        {
+          "term": "ஆண்டு விடுப்பு",
+          "en": "ஆண்டு விடுப்பு"
+        },
+        {
+          "term": "முதலாளி",
+          "en": "முதலாளி / bos"
+        },
+        {
+          "term": "நிறுவனம்",
+          "en": "நிறுவனம்"
+        },
+        {
+          "term": "வீட்டிலிருந்து வேலை",
+          "en": "வீட்டிலிருந்து வேலை / WFH"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "DuitNow",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "Singpass",
+      "use_instead": "MyDigital ID、MyKad",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "PPR、pangsapuri、rumah teres、condo，視住房類型",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "EZ-Link",
+      "use_instead": "Touch 'n Go",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "DuitNow",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "rupiah",
+      "use_instead": "ringgit",
+      "where_it_is_from": "ID"
+    },
+    {
+      "word": "NRIC",
+      "use_instead": "MyKad（新加坡才常說 NRIC）",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "DuitNow、Touch 'n Go、GrabPay",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "void deck",
+      "use_instead": "bawah pangsapuri、depan rumah；馬來西亞一般不說 void deck",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "IRAS、CPF",
+      "use_instead": "LHDN、KWSP（EPF）",
+      "where_it_is_from": "SG"
+    }
+  ],
+  "sources": [
+    "https://www.pos.com.my/paynet-cashless-campaign",
+    "https://www.pos.com.my/knowledge-hub/cod-payment",
+    "https://www.touchngo.com.my/",
+    "https://www.bankislam.com/personal-banking/services/duitnow-request/",
+    "https://www.paynet.my/",
+    "https://www.jpn.gov.my/",
+    "https://www.hasil.gov.my/"
+  ],
+  "uncertain": [
+    "MyDigital ID 的日常口語使用率仍在變化，很多人打電話仍只說 MyKad。",
+    "東馬（沙巴、砂拉越）交通不完全是 LRT/MRT，電話裡更常說巴士、飛機或渡輪。",
+    "淡米爾與華語電話常夾雜馬來語、英語專有名詞，本地特有口語的出典有限。"
+  ]
+}

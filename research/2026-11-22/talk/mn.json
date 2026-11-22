@@ -1,0 +1,284 @@
+{
+  "lang": "mn",
+  "backchannels": {
+    "direction": "За is the all-purpose acknowledgement; тийм agrees; a rapid за за can sound like you want to hang up.",
+    "examples": [
+      {
+        "text": "За.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Тийм.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Тиймээ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Аан, ойлголоо.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Үгүй ш дээ?",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "За за.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Mongolian reactions are short; Үнэхээр үү? for surprise, Хөөрхий for pity, Гоё for good news among friends.",
+    "examples": [
+      {
+        "text": "Үнэхээр үү?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Ёстой юу?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Хөөрхий.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Харамсалтай байна.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Гоё!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Баяр хүргэе!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Хэцүү юм аа.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the sound is not coming through or the line (холбоо) is bad; ask with -ач/-ээч for a softer tone.",
+    "examples": [
+      {
+        "text": "Сайн сонсогдохгүй байна.",
+        "style": "polite"
+      },
+      {
+        "text": "Холбоо муу байна.",
+        "style": "polite"
+      },
+      {
+        "text": "Тасраад байна.",
+        "style": "casual"
+      },
+      {
+        "text": "Арай чанга яриач.",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Use the polite imperative нэ үү or the softer -ээд өгөөч to ask again; spelling uses Cyrillic letter names.",
+    "examples": [
+      {
+        "text": "Дахиад хэлээд өгөөч.",
+        "style": "polite"
+      },
+      {
+        "text": "Юу гэнээ?",
+        "style": "casual"
+      },
+      {
+        "text": "Нэрээ үсэглээд өгөхгүй юу?",
+        "style": "polite"
+      },
+      {
+        "text": "Дугаараа дахин хэлнэ үү, 12345678 юу?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "With strangers use Та; Хэн бэ? alone is curt, so add Та or ask where they are calling from.",
+    "examples": [
+      {
+        "text": "Хэн бэ?",
+        "style": "casual"
+      },
+      {
+        "text": "Та хэн бэ?",
+        "style": "polite"
+      },
+      {
+        "text": "Хаанаас ярьж байна вэ?",
+        "style": "polite"
+      },
+      {
+        "text": "Энэ {owner}-ийн утас. Та хэн бэ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Буруу дугаар is enough; you may add that no such person is here without giving any household details.",
+    "examples": [
+      {
+        "text": "Буруу дугаар байна.",
+        "style": "polite"
+      },
+      {
+        "text": "Ийм хүн энд байхгүй.",
+        "style": "polite"
+      },
+      {
+        "text": "Буруу залгасан байна.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Дамжуулъя and уламжилъя are polite volitional forms meaning I will pass it on; хэлье is the casual one.",
+    "examples": [
+      {
+        "text": "Би түүнд дамжуулъя.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}-д хэлье.",
+        "style": "casual"
+      },
+      {
+        "text": "Таны үгийг уламжилъя.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Thank them (баярлалаа) and say it is not needed (хэрэггүй); сонирхохгүй means not interested.",
+    "examples": [
+      {
+        "text": "Баярлалаа, хэрэггүй.",
+        "style": "polite"
+      },
+      {
+        "text": "Бид сонирхохгүй байна.",
+        "style": "polite"
+      },
+      {
+        "text": "Одоохондоо хэрэггүй.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second refusal can be direct; add шүү for emphasis and ask politely with уу that they stop calling.",
+    "examples": [
+      {
+        "text": "Би аль хэдийн татгалзсан. Дахиж залгахгүй байна уу.",
+        "style": "polite"
+      },
+      {
+        "text": "Энэ дугаарыг жагсаалтаасаа хасна уу.",
+        "style": "polite"
+      },
+      {
+        "text": "Хэрэггүй гэж хэлсэн шүү.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Та for strangers and elders; ах/эгч by age even to strangers; гуай after a name honours older people.",
+    "examples": [
+      {
+        "text": "Ах аа,",
+        "style": "casual"
+      },
+      {
+        "text": "Эгч ээ,",
+        "style": "casual"
+      },
+      {
+        "text": "Багш аа,",
+        "style": "polite"
+      },
+      {
+        "text": "Эрхэм ээ,",
+        "style": "polite"
+      },
+      {
+        "text": "Та,",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Corporate wording of this kind belongs to bank or mobile operator recordings, not to someone answering a home phone.",
+    "examples": [
+      {
+        "text": "Таны дуудлага бидэнд чухал.",
+        "style": "polite"
+      },
+      {
+        "text": "Танд юугаар туслах вэ?",
+        "style": "polite"
+      },
+      {
+        "text": "Манай үйлчилгээг сонгосонд баярлалаа.",
+        "style": "polite"
+      },
+      {
+        "text": "Таны сэтгэл ханамж бидний зорилго.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Don't use чи with unknown adults, ask age or income early, or demand a registry number (регистрийн дугаар).",
+    "examples": [
+      {
+        "text": "Хэдэн настай вэ? Цалин хэд вэ?",
+        "style": "casual"
+      },
+      {
+        "text": "Чи хэн юм бэ, хурдан хэл.",
+        "style": "casual"
+      },
+      {
+        "text": "Регистрийн дугаараа хэлээд өг.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Mongolian_phrasebook",
+    "https://en.wiktionary.org/wiki/%D0%B7%D0%B0",
+    "https://en.wikipedia.org/wiki/Mongolian_name",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "蒙古語電話附和聲沒有找到語料研究；「за」的多種用法依 Wiktionary 詞條，頻率未知。",
+    "「гуай」接在名字後表示對長者的敬意，來源為姓名條目的概述；檔內不放真名，實際多接名還是接姓未確認。",
+    "本檔只寫蒙古國通行的西里爾字母；中國大陸內蒙古使用傳統蒙古文，習慣是否相同沒有查證。"
+  ]
+}

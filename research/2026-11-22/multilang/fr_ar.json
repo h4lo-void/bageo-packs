@@ -1,0 +1,90 @@
+{
+  "region": "fr",
+  "lang": "ar",
+  "hello": {
+    "hello": "أيوا؟",
+    "hello_again": "أهلا، لاباس؟"
+  },
+  "habits": {
+    "en": "More formal with elders. Mix CAF, CPAM, carte Vitale, France Travail, préfecture. Keep French official names.",
+    "zh": "對長輩較正式。夾 CAF、CPAM、carte Vitale、France Travail，保留法語機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family in France, keep it informal, mix French nouns, and answer ça va or tamam after a short opener.",
+        "zh": "在法國跟家人不必客套，法語名詞夾進阿語，短短開場後回 ça va 或 tamam。"
+      },
+      "2": {
+        "en": "Warm Maghrebi Arabic in France: stay informal unless they formalise; after a CAF point, add a friendly hasanan.",
+        "zh": "法國馬格里布阿語先保持輕鬆，對方變正式再跟上；聽完 CAF 的事，補一句 hasanan。"
+      },
+      "3": {
+        "en": "Everyday Arabic in France: one full sentence per matter, leaving carte Vitale, CPAM or préfecture in French as spoken.",
+        "zh": "法國日常阿拉伯語：每件事回完整一句，carte Vitale、CPAM 或 préfecture 照口頭直接講法語。"
+      },
+      "4": {
+        "en": "Formal address at the préfecture or CPAM; keep French official names, and treat the request first.",
+        "zh": "對 préfecture 或 CPAM 用較正式稱呼，機關名保持法語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Arabic: titles, recap the RIB or titre de séjour point, then end without extra formula.",
+        "zh": "商務阿語加上稱謂，覆述 RIB 或居留證件要點後，不再加額外套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Arabic helper in France answers tamam, takes the mixed note, and says it will be passed along.",
+        "zh": "替{owner}代接的輕鬆法國阿語先回 tamam，用夾法語的口語記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match their formality; write the CAF or callback detail, and tell them {owner} will hear it.",
+        "zh": "跟隨對方的正式程度；記下 CAF 或回撥細節，並告知{owner}會聽到。"
+      },
+      "3": {
+        "en": "A measured Arabic assistant in France answers why they called in one complete sentence, then briefs {owner}.",
+        "zh": "措辭穩妥的法國阿語助理先用完整一句回應為何來電，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite formal Arabic: restate the CPAM or France Travail point, then confirm it will be delivered to {owner}.",
+        "zh": "禮貌正式阿語：覆述 CPAM 或 France Travail 要點後，確認會送到{owner}處。"
+      },
+      "5": {
+        "en": "Executive manner for {owner}: use titles, itemise the préfecture file, and close after the handoff.",
+        "zh": "為{owner}採商務禮數：加上稱謂，對齊 préfecture 檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "أيوا، أهلا! لاباس؟ تفضل، تمام.",
+      "أهلا، لاباس. أنا سامعك، قول.",
+      "أهلا. موضوع الـ CAF؟ حسناً، سجلت.",
+      "أهلا، شكراً على الاتصال. فهمت، سأتولى الموضوع.",
+      "أهلا، شكراً لاتصالكم. سجّلت المعلومات."
+    ],
+    "a": [
+      "أيوا! هو مش كاين، قول لي وأوصلها.",
+      "أهلا، لاباس. أنا كندير التليفون، خلي الرسالة.",
+      "أهلا. غادي نسجّل ونبلّغو.",
+      "أهلا، شكراً على الاتصال. نسجّل هاد الشي لـ {owner}.",
+      "أهلا، شكراً لاتصالكم. ندون النقاط ونوصلها."
+    ]
+  },
+  "diff_from_home": [
+    "福利與醫療常直接說法語專名，如 CAF、CPAM、carte Vitale、sécu、France Travail、préfecture、RIB，不用原居地戶政名稱。",
+    "日常多為馬格里布方言並大量夾法語；對機關可用較通用的阿拉伯語，不必硬改成巴黎口音法語。",
+    "手機說 portable，不要用比利時的 GSM 來說法國的情況。",
+    "開場常見 أهلا、لاباس、أيوا，不一定用宗教問候。"
+  ],
+  "sources": [
+    "https://www.insee.fr/fr/statistiques/6793260?sommaire=6793391",
+    "https://www.caf.fr/",
+    "https://www.ameli.fr/",
+    "https://www.francetravail.fr/"
+  ],
+  "uncertain": [
+    "阿爾及利亞、摩洛哥、突尼西亞方言在電話中的比重，官方語言傳承調查無法再細分到通話場合。",
+    "France Travail 仍有人口頭沿用 Pôle emploi 舊稱，混用程度未見新的量化資料。"
+  ]
+}

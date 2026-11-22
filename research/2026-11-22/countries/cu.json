@@ -1,0 +1,81 @@
+{
+  "country": "cu",
+  "parent": "latam",
+  "name": {
+    "en": "Cuba",
+    "native": "Cuba",
+    "zh": "古巴"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the house, a neighbour, a portero, or a Correos de Cuba office",
+    "zh": "包裹送到住家、交給鄰居或門房，或到 Correos de Cuba 領"
+  },
+  "readback": {
+    "en": "Mobiles often start with 5, in short groups; 0 as cero; day-month dates; pesos cubanos",
+    "zh": "手機常以 5 開頭再分短組唸，0 唸 cero；日期先日後月；用古巴比索"
+  },
+  "fraud": {
+    "en": "A fake ETECSA or Transfermóvil message about mobile credit or a login is a scam",
+    "zh": "假冒 ETECSA 或 Transfermóvil 說要補手機餘額或要登入的都是詐騙"
+  },
+  "habits": {
+    "en": "Usted with strangers; tú with friends. People also answer with oigo, qué hay or bueno. Say Transfermóvil, not Nequi.",
+    "zh": "陌生人 usted，朋友 tú。也可能說 oigo 或 bueno。不說 Nequi。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, weak ETECSA signal, or Transfermóvil being slow.",
+    "zh": "卡在停電、ETECSA 收訊差，或 Transfermóvil 很慢。"
+  },
+  "vocab": {
+    "bank": [
+      "Transfermóvil",
+      "EnZona",
+      "tarjeta",
+      "cuenta"
+    ],
+    "delivery": [
+      "casa",
+      "vecino",
+      "portero",
+      "correo",
+      "paquete"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "OTP／歐美式驗證口令當唯一說法",
+      "reason": {
+        "zh": "日常更常碰到的是 Transfermóvil、ETECSA 餘額或登入，不是所屬地區寫的 Nequi／OTP。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Usted for strangers, tú for friends, close to the parent, but a bit more formal at 1–2 until the caller is informal. No Colombian app names. Everyday language only, no political asides.",
+    "zh": "陌生人 usted、朋友 tú，分檔接近所屬地區，但 1～2 格在對方明顯隨和前可更穩重。不要用哥倫比亞錢包名。只談日常生活，不加政治閒話。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador",
+    "http://www.etecsa.cu/es/noticias/estafa-saldo-movil-vuelve-carga"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "接電話用語 RAE 記有 bueno、qué hay、aló，另有資料寫 oigo；本檔 hello 用 aló，其餘寫在習慣裡，實際比例不明。",
+    "民營快遞與 portería 並不普遍，delivery 只寫住家、鄰居、門房與郵局，細節缺少新的官方說明。",
+    "貨幣與帳戶日常叫法仍可能聽到歷史遺留詞，本檔只用古巴比索，未展開。"
+  ]
+}

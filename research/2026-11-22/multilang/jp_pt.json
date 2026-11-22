@@ -1,0 +1,90 @@
+{
+  "region": "jp",
+  "lang": "pt",
+  "hello": {
+    "hello": "Alô?",
+    "hello_again": "Alô, pois?"
+  },
+  "habits": {
+    "en": "Brazilian PT (Alô, você); mix work terms zangyo, yakin, hirukin, keitai, kyukei; common in Hamamatsu and Toyota.",
+    "zh": "巴西葡語（Alô、você）；常夾 zangyo、yakin、keitai 等日語職場詞；濱松、豐田等地常見。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With dekasegi friends, keep Brazilian você or tu and factory slang; reply warmly, then add valeu or fechou, varied.",
+        "zh": "跟在日工友用巴西式 você 或 tu，可帶工廠口語；先熱絡接話再補 valeu 或 fechou，並換說法。"
+      },
+      "2": {
+        "en": "Easy Brazilian pace; after they talk about yakin or zangyo, add a friendly tá bom or entendi, unhurried and rephrased.",
+        "zh": "巴西式輕鬆步調；對方說完夜班或加班後，補 tá bom 或 entendi，不催並換著說。"
+      },
+      "3": {
+        "en": "Daily Brazilian Portuguese in Japan should be complete: pick up each point with entendi, plus loanwords like keitai.",
+        "zh": "在日日常巴西葡語要講完整：用 entendi 接住重點，也可帶 keitai、kyukei 等借詞。"
+      },
+      "4": {
+        "en": "With a factory office, city hall or school, use o senhor/a senhora or formal você; show you understood first, e.g. compreendi.",
+        "zh": "對工廠事務室、市公所或學校用 o senhor 或較正式的 você，先說 compreendi 再談正事。"
+      },
+      "5": {
+        "en": "On visa, zairyu or pay-slip matters, stay precise; close each item with está anotado, slightly rephrased, in Brazilian forms.",
+        "zh": "談簽證、在留或薪資單要準，各點用 está anotado 一類收束；仍用巴西語式，不要改成歐洲葡語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A lively pickup for {owner} in dekasegi Portuguese: short warm Alô lines, then digo pra ele, wording changed each time.",
+        "zh": "代{owner}接的輕快日系巴西葡語：先用 Alô 熱絡短句，再說會 digo pra ele，用詞常換。"
+      },
+      "2": {
+        "en": "Stay on informal você unless they formalize; thank them, note the message for {owner}, and close with tá bom, anotei.",
+        "zh": "除非對方改正式，否則用輕鬆 você；先致謝再記下給{owner}，用 tá bom, anotei 收尾。"
+      },
+      "3": {
+        "en": "Like a coworker taking a recado: answer the point in one full sentence, then confirm you will tell {owner}; skip bare tá.",
+        "zh": "像能代收 recado 的工友：先完整回應來意，再確認會告訴{owner}，不要只回 tá。"
+      },
+      "4": {
+        "en": "A careful voice for {owner} with offices: formal você and complete lines; restate the request, then vou passar o recado.",
+        "zh": "代{owner}對公務：用較正式的 você 與完整句子覆述來意，再說 vou passar o recado。"
+      },
+      "5": {
+        "en": "For city hall or factory admin calls, keep titles and exact terms (zangyo, zairyu); confirm the relay to {owner} is está anotado.",
+        "zh": "對市公所或工廠行政來電，zangyo、在留等詞要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alô! E aí, tudo bem? Já saiu do zangyo?",
+      "Alô, pois! Tô ouvindo, tá bom.",
+      "Alô, boa tarde. É sobre o yakin? Entendi, anotei.",
+      "Boa tarde, obrigado por ligar. Compreendi, eu resolvo.",
+      "Boa tarde, obrigado pelo telefonema. Está anotado, obrigado."
+    ],
+    "a": [
+      "Alô! Ele tá no turno; fala aí que eu passo o recado!",
+      "Alô! Eu pego o recado pra ele, pode falar.",
+      "Alô, boa tarde. Anoto o recado e passo pra ele.",
+      "Boa tarde, obrigado por ligar. Vou passar o recado.",
+      "Boa tarde. Está tudo anotado, eu informo o {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "仍是巴西葡語底子，電話多用 Alô、você，不要改成澳門或葡國的 Está?、o senhor 為預設。",
+    "職場日語借詞會直接嵌入葡語，如 zangyo（加班）、yakin（夜班）、hirukin（日班）、keitai、kyukei。",
+    "社群集中在濱松、豐田等工業城市，話題常涉工廠輪班、在留資格與子女就學，與巴西本地生活不同。",
+    "這是文獻所稱的 Dekasegi Portuguese（或 dekasseguês），詞彙與語音都因與日語接觸而變化。"
+  ],
+  "sources": [
+    "https://doi.org/10.6092/issn.2036-0967/13245",
+    "https://confluenze.unibo.it/article/download/13245/14580/58654",
+    "https://wp.ufpel.edu.br/tesouro-linguistico/2025/08/31/eu-sou-um-%e5%a4%96%e5%9b%bd%e4%ba%bagaikokujin-estrangeiro-dekassegues-uma-variedade-do-portugues-no-japao/",
+    "https://www.redalyc.org/pdf/361/36100604.pdf"
+  ],
+  "uncertain": [
+    "借詞在口語裡的拼法不一（如 zangyo／zanguio），不宜規定單一寫法。",
+    "第二代在家講葡語還是日語的比例，因家庭與地區差異大，缺乏統一數據。"
+  ]
+}

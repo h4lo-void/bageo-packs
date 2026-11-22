@@ -82,15 +82,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "Päckli",
-      "PickPost",
-      "Milchkasten"
-    ],
     "bank": [
       "TWINT",
       "Kontokarte",
-      "Überweisung"
+      "Überweisung",
+      "Konto",
+      "eBanking",
+      "IBAN"
+    ],
+    "delivery": [
+      "Päckli",
+      "PickPost",
+      "Milchkasten",
+      "Paketautomat",
+      "Briefkasten",
+      "Post"
+    ],
+    "government": [
+      "AHV",
+      "Gemeinde",
+      "ID",
+      "Niederlassung",
+      "Steuererklärung",
+      "Pass"
+    ],
+    "health": [
+      "Krankenkasse",
+      "Versicherungskarte",
+      "Hausarzt",
+      "Apotheke",
+      "Notfall",
+      "Rezept"
+    ],
+    "telecom": [
+      "Abo",
+      "Prepaid",
+      "Nummer mitnehmen",
+      "SIM-Karte",
+      "Anbieter",
+      "Datenabo"
+    ],
+    "payment": [
+      "TWINT",
+      "Überweisung",
+      "Kontokarte",
+      "Bargeld",
+      "Rechnung",
+      "Kreditkarte"
+    ],
+    "transport": [
+      "SBB",
+      "Tram",
+      "Bus",
+      "PostAuto",
+      "Halbtax",
+      "GA"
+    ],
+    "housing": [
+      "Wohnung",
+      "Hauswart",
+      "Briefkasten",
+      "Klingel",
+      "Nebenkosten",
+      "Verwaltung"
     ]
   },
   "status": "draft"

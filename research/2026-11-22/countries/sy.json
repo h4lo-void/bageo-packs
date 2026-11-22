@@ -1,0 +1,84 @@
+{
+  "country": "sy",
+  "parent": "levant",
+  "name": {
+    "en": "Syria",
+    "native": "سوريا",
+    "zh": "敘利亞"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Leave it at the door or with a neighbour, or collect from the Syrian post or a courier office",
+    "zh": "放門口或交鄰居，或到敘利亞郵局、快遞點領取"
+  },
+  "readback": {
+    "en": "09 mobiles go in short groups; 12-hour times; amounts in Syrian pounds",
+    "zh": "09 手機分短組唸；時間用 12 小時制；金額用敘利亞鎊"
+  },
+  "fraud": {
+    "en": "A fake post, telecom or bank OTP request, or a parcel fee, is a scam",
+    "zh": "冒充郵局、電信或銀行要驗證碼，或假包裹補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Syrian Arabic; formal titles with strangers and brief courtesy. Do not use CliQ, Whish or Qi Card.",
+    "zh": "用敘利亞阿拉伯語，對陌生人用敬稱，客套要短。不要套用 CliQ、Whish、Qi Card。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut freezing an app, an SMS code that never arrives, or missing glasses.",
+    "zh": "卡在停電讓 App 卡住、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "تحويل",
+      "OTP",
+      "حساب"
+    ],
+    "delivery": [
+      "الباب",
+      "الجيران",
+      "البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CliQ",
+      "reason": {
+        "en": "Jordanian instant payments",
+        "zh": "約旦即時付款"
+      }
+    },
+    {
+      "word": "Whish Money",
+      "reason": {
+        "en": "Lebanese wallet",
+        "zh": "黎巴嫩錢包"
+      }
+    },
+    {
+      "word": "Qi Card",
+      "reason": {
+        "en": "Iraqi payment card",
+        "zh": "伊拉克支付卡"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Stay in Syrian Arabic. Keep formal address with strangers and brief blessings; drop other-country payment brands.",
+    "zh": "用敘利亞阿拉伯語。對陌生人保持正式、祝福要短；不用其他國家的支付品牌。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.sgb.sy/awareness",
+    "https://www.enabbaladi.net/833370/",
+    "https://archive.sana.sy/%d8%a7%d9%84%d9%87%d9%8a%d8%a6%d8%a9-%d8%a7%d9%84%d9%86%d8%a7%d8%b8%d9%85%d8%a9-%d9%84%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84%d8%a7%d8%aa-%d9%88%d8%a7%d9%84%d8%a8%d8%b1%d9%8a%d8%af-%d8%aa%d8%ad%d8%b0/"
+  ],
+  "uncertain": [
+    "本地常用電子錢包名稱此次未找到足夠穩妥、可單獨引用的官方清單，故銀行詞彙只用通用說法。",
+    "郵局與電信防詐通告有，但日常取件習慣的細項資料較少。",
+    "投遞欄改寫為點出敘利亞郵局；日常取件細項仍偏少，見既有 uncertain。"
+  ]
+}

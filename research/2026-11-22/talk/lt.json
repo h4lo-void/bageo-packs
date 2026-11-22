@@ -1,0 +1,285 @@
+{
+  "lang": "lt",
+  "backchannels": {
+    "direction": "Aha and supratau show you follow; tikrai taip agrees; a quick taip, taip can sound impatient.",
+    "examples": [
+      {
+        "text": "Taip.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Aha.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Supratau.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Tikrai taip.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Gerai.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Taip, taip.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Lithuanian reactions: Tikrai? or Negali būti! for surprise, Gaila or užjaučiu for sympathy, Puiku for good news.",
+    "examples": [
+      {
+        "text": "Tikrai?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Negali būti!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Gaila.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Labai užjaučiu.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Puiku!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Sveikinu!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Bus sunku.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Blogai girdžiu is the standard; ryšys trūkinėja means the line keeps cutting out.",
+    "examples": [
+      {
+        "text": "Blogai girdžiu.",
+        "style": "polite"
+      },
+      {
+        "text": "Prastas ryšys.",
+        "style": "casual"
+      },
+      {
+        "text": "Ryšys trūkinėja.",
+        "style": "casual"
+      },
+      {
+        "text": "Ar galite kalbėti garsiau?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Ar galite pakartoti? is polite; ask for a surname paraidžiui (letter by letter).",
+    "examples": [
+      {
+        "text": "Ar galite pakartoti?",
+        "style": "polite"
+      },
+      {
+        "text": "Atsiprašau, ką sakėte?",
+        "style": "polite"
+      },
+      {
+        "text": "Gal galite pasakyti pavardę paraidžiui?",
+        "style": "polite"
+      },
+      {
+        "text": "Pakartokite numerį: 12345678?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Su kuo kalbu? is the courteous form; Kas skambina? is plainer and fine with acquaintances.",
+    "examples": [
+      {
+        "text": "Kas skambina?",
+        "style": "casual"
+      },
+      {
+        "text": "Su kuo kalbu?",
+        "style": "polite"
+      },
+      {
+        "text": "Iš kur skambinate?",
+        "style": "polite"
+      },
+      {
+        "text": "Čia {owner} telefonas. Kas kalba?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say they reached the wrong number (ne tas numeris) and leave it there.",
+    "examples": [
+      {
+        "text": "Jūs ne tuo numeriu skambinate.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne tas numeris.",
+        "style": "casual"
+      },
+      {
+        "text": "Tokio žmogaus čia nėra.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Perduosiu (I'll pass it on) is the common offer; pasakysiu is the everyday alternative.",
+    "examples": [
+      {
+        "text": "Perduosiu.",
+        "style": "polite"
+      },
+      {
+        "text": "Pasakysiu {owner}.",
+        "style": "casual"
+      },
+      {
+        "text": "Būtinai perduosiu jūsų žinutę.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ne, ačiū is enough; man neįdomu (not interesting to me) is direct but acceptable.",
+    "examples": [
+      {
+        "text": "Ne, ačiū.",
+        "style": "polite"
+      },
+      {
+        "text": "Man neįdomu.",
+        "style": "casual"
+      },
+      {
+        "text": "Mums to nereikia.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Restate the refusal and ask them not to call again (prašau daugiau neskambinti) in jūs form.",
+    "examples": [
+      {
+        "text": "Jau sakiau, kad ne. Prašau daugiau neskambinti.",
+        "style": "polite"
+      },
+      {
+        "text": "Išbraukite šį numerį iš savo sąrašo.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne, ir viskas.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Jūs with strangers; pone/ponia with surname in vocative; gerbiamas(-a) formally; tu among friends.",
+    "examples": [
+      {
+        "text": "Laba diena, ponia.",
+        "style": "polite"
+      },
+      {
+        "text": "Pone,",
+        "style": "polite"
+      },
+      {
+        "text": "Gerbiamasis,",
+        "style": "polite"
+      },
+      {
+        "text": "Daktare,",
+        "style": "polite"
+      },
+      {
+        "text": "Labas, Tomai.",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Stock customer-line wording; Lithuanians hear it as a company script, not a household voice.",
+    "examples": [
+      {
+        "text": "Jūsų skambutis mums svarbus.",
+        "style": "polite"
+      },
+      {
+        "text": "Kuo galiu jums padėti?",
+        "style": "polite"
+      },
+      {
+        "text": "Dėkojame, kad pasirinkote mus.",
+        "style": "polite"
+      },
+      {
+        "text": "Linkime malonios dienos!",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid early tu, nosy family or pay questions, and asking for an asmens kodas by phone.",
+    "examples": [
+      {
+        "text": "Kiek uždirbi?",
+        "style": "casual"
+      },
+      {
+        "text": "Kodėl dar nevedęs?",
+        "style": "casual"
+      },
+      {
+        "text": "Pasakykite asmens kodą.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Lithuanian_phrasebook",
+    "https://en.wiktionary.org/wiki/ponas",
+    "https://en.wiktionary.org/wiki/ponia",
+    "https://en.wiktionary.org/wiki/gerai",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "立陶宛語電話附和聲沒有找到語料；「supratau／aha」依詞典與片語集整理。",
+    "「pone／ponia」接姓氏呼格屬正式用法，年輕人之間多直呼名字，世代差異未量化。",
+    "「Man neįdomu」在 Wikivoyage 列為不感興趣，直接程度在電話推銷情境中是否失禮，沒有找到第二來源。"
+  ]
+}

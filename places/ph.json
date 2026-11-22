@@ -1,0 +1,811 @@
+{
+  "region": "ph",
+  "countries": [
+    "ph"
+  ],
+  "region_name_zh": "菲律賓",
+  "region_name": "Philippines",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "fil",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "English is fine for almost all business calls; switch to Filipino/Taglish (tl) if the staff does, and add 'po/opo' for politeness; in Cebu/Visayas staff may prefer Cebuano but understand English and Tagalog.",
+  "english_ok": "yes — English is an official language and used in business, clinics and government; rural staff may answer more comfortably in Filipino or a local language.",
+  "politeness": "Warm and polite: use 'po/opo', Sir/Ma'am; avoid blunt refusals; thank with 'thank you po' or 'salamat po'.",
+  "name_tip": "Western-style first name + surname; address as Sir/Ma'am, or Kuya/Ate for friendly informality; bookings go under surname or full name + mobile.",
+  "phone_tip": "Mobile 11 digits starting 09 (09XX-123-4567 style); Metro Manila landline (02) 1234-5678; read back in 4-3-4 groups; Viber often uses the same number.",
+  "time_tip": "Clock time mixes English ('7 pm') and Spanish-based Filipino ('alas-siyete ng gabi'); add ng umaga/hapon/gabi; written as 7:30 PM; always read back with AM/PM.",
+  "number_tip": "Phone numbers and prices are usually read in English digits; Spanish-derived numbers are used for clock time in Filipino ('alas-siyete'); prices in pesos.",
+  "avoid_calling": "Avoid lunch 12:00–13:00, dinner rush 18:00–20:00 at restaurants, calls after 21:00, Holy Week (Maundy Thursday–Good Friday) and Christmas Eve/New Year's Eve when many shops close early.",
+  "closed_days": "Office weekend is Sat–Sun but malls and most shops open daily; government offices close weekends; Holy Week and Christmas–New Year are the main closures; holidays are often moved to Mondays.",
+  "booking_channels": "Facebook Messenger (business pages) is the top booking channel, followed by SMS, phone calls and Viber; GrabFood/foodpanda for delivery; Grab for rides; online appointment portals for government IDs.",
+  "voice_menu": "Telcos (Globe, Smart), banks, Meralco and courier hotlines use IVR in English/Filipino; small shops answer directly or reply on Messenger.",
+  "callback_habits": "Shops usually confirm by Messenger or SMS; clinics and salons text a reminder the day before; couriers text or call on delivery day.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "跳島、潛水與一日遊多用 Messenger 預約並付訂金；部分景點要先線上登記或付環境費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Island hopping price is per boat or per head"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Environmental fee paid on site"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks full names and ages of every guest for the manifest"
+        }
+      ],
+      "usually_asked": [
+        "Tour package (A, B, C)",
+        "Date and pickup at resort",
+        "Number of pax",
+        "Lead guest name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美甲多 Messenger 或電話預約，商場內連鎖店接受現場排隊（walk-in）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Mall salon says walk-ins are accepted on a first-come basis"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Rebond or keratin price depends on hair length"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks GCash full payment before giving a slot"
+        }
+      ],
+      "usually_asked": [
+        "Service: haircut, rebond, mani-pedi, foot spa",
+        "Preferred stylist",
+        "Date and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消在原本的 Messenger、簡訊或電話處理；HMO 線上預約要至少在數小時前改期。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Down payment is non-refundable but may be moved to a new date"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "HMO scheduler asks to reschedule at least 4 hours ahead"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks HMO card number to find the appointment"
+        }
+      ],
+      "usually_asked": [
+        "Name on the booking",
+        "Original date and time",
+        "New schedule or cancel",
+        "Reference number from SMS or e-mail"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "醫師多有固定看診時段（clinic hours），常以到診順序；有 HMO 的病人要確認醫師是否為認可醫師，部分醫院門診須先申請 LOA，HMO 直營診所可直接到診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "HMO-run primary care clinics take walk-ins without an LOA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor sees patients first-come, first-served during clinic hours"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks HMO card number and birthdate"
+        }
+      ],
+      "usually_asked": [
+        "HMO, PhilHealth or cash",
+        "Which doctor and clinic hours",
+        "New or follow-up patient",
+        "Patient name and age",
+        "LOA reference if the hospital requires one"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Globe、Smart）、銀行與 Meralco 客服有英語／菲律賓語語音選單，帳戶事項須本人驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotline says only the account owner can request changes"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks account number, birthdate or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR language choice",
+        "Account name",
+        "Account or reference number",
+        "Concern"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "護照、NBI 良民證、駕照等多走各機關線上預約系統再到場；學校可電話或 Facebook 粉專詢問。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "NBI clearance requires an online appointment and two valid IDs"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks PSA birth certificate details"
+        }
+      ],
+      "usually_asked": [
+        "Which document (NBI, passport, LTO)",
+        "Applicant's age",
+        "Branch or city",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣清洗、水電與清潔多電話或 Messenger 叫；住宅社區（subdivision）與公寓要先向保全或管理處申請工作許可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Aircon cleaning priced per unit, window or split type"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Condo admin requires a work permit for contractors"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks GCash before the technician leaves the shop"
+        }
+      ],
+      "usually_asked": [
+        "Window or split-type aircon, how many",
+        "Address with Blk/Lot, subdivision or condo tower",
+        "Preferred date",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 Agoda、Booking.com，度假村與海島民宿常用 Messenger 或電話，旺季要先付訂金；入住須出示身分證件。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Valid ID needed at check-in"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Island resort asks a bank or GCash down payment in peak season"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by Messenger"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out",
+        "Number of guests and extra mattress",
+        "Breakfast or boat transfer",
+        "Guest name and mobile"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、聖週與聖誕假期是否營業、可否用 GCash 或 Maya、有無停車位，店家多在 Messenger 直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives Holy Week and Christmas holiday hours"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Says GCash, Maya or cards are accepted"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Store hours and holiday schedule",
+        "GCash, Maya or card",
+        "Parking or which mall entrance",
+        "Item available or not"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "動物醫院與寵物美容多可電話或 Messenger 預約；寵物旅館要求疫苗卡。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming price by size small, medium, large"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic asks for the vaccine card"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet boarding asks full payment to a personal GCash"
+        }
+      ],
+      "usually_asked": [
+        "Check-up, vaccine, grooming or boarding",
+        "Breed, size, age",
+        "Vaccine card",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Lamudi、Facebook 社團與 Marketplace，仲介習慣 Messenger 或 Viber 約看房；常見「一個月押金加一個月預付」。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent continues on Viber or Messenger"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Post-dated cheques for the lease term"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks reservation fee before showing the unit"
+        }
+      ],
+      "usually_asked": [
+        "Condo tower or house and listing",
+        "Move-in date and lease term",
+        "Number of occupants",
+        "Viewing schedule"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車定期保養（PMS）可電話或原廠網站預約；機車與小修理行（talyer）多直接到場。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Casa (dealer) books PMS by odometer reading"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Talyer gives a quote only after inspecting the car"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks OR/CR (registration) details"
+        }
+      ],
+      "usually_asked": [
+        "Car model and plate number",
+        "Odometer for PMS",
+        "Issue to check",
+        "Drop-off date"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "菲律賓餐廳多透過 Facebook 粉專 Messenger、電話或簡訊訂位；生日與團體會問人數上限、包場消費額（consumable）與是否可自帶蛋糕，可能收 GCash 訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Function room needs a minimum consumable amount and GCash down payment"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Page admin replies on Messenger instead of the phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Corkage fee for bringing a cake or wine"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks a screenshot of the GCash payment with the sender's name"
+        }
+      ],
+      "usually_asked": [
+        "Date and time with AM/PM",
+        "Number of pax including kids",
+        "Function room or regular table",
+        "Name under the booking and mobile",
+        "Occasion such as birthday, with cake to bring"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、bilao 大盤菜與花束常用 Messenger 預訂並先付 GCash 訂金，聖誕節前要很早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Custom cake needs 50 percent down payment via GCash"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment to a GCash name different from the shop"
+        }
+      ],
+      "usually_asked": [
+        "Size, flavour and dedication",
+        "Number of trays or pax",
+        "Pickup or Lalamove delivery date",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐廳可電話或 Messenger 點餐自取，外送以 GrabFood、foodpanda 為主；派對大盤菜（bilao）要提前訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through GrabFood or foodpanda"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay through GCash or Maya on pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks GCash to a personal number before a small order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and number of orders",
+        "Good for how many (bilao size)",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "LBC、J&T、Flash 多用官網或 App 以追蹤號查件；同城急送常用 Lalamove，在 App 內聯絡司機。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier hotline points to tracking on its website"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the OTP for rerouting"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number (LBC, J&T, Flash)",
+        "Receiver name and mobile",
+        "Barangay and city",
+        "Item sent"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Grab 為主，菲律賓 Grab 不提供預約叫車；機場接送與包車（van rental）多 Messenger 或電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Grab rides cannot be scheduled ahead in the Philippines"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Van rental rate per day, driver meals and toll extra"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Self-drive rental asks driver's licence and valid IDs"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or NAIA terminal",
+        "Pax and luggage, van or sedan",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "sched for check-up",
+        "dental cleaning",
+        "PMS for my car",
+        "haircut appointment"
+      ],
+      "booking_words": [
+        "reserve a table",
+        "book a room",
+        "reservation for",
+        "advance booking",
+        "venue reservation"
+      ],
+      "change_words": [
+        "resched",
+        "move to Friday",
+        "cancel my booking",
+        "change the time",
+        "30 mins late"
+      ],
+      "date": [
+        "tom",
+        "on Sat",
+        "next Monday",
+        "Nov 25",
+        "25/11",
+        "this weekend"
+      ],
+      "false_friends": [
+        "3rd flr",
+        "Unit 12B",
+        "Phase 2 Blk 5 Lot 8",
+        "2 hrs massage",
+        "Set B",
+        "Gate 4"
+      ],
+      "inquiry_words": [
+        "what time do you open",
+        "do you accept GCash?",
+        "may parking ba?",
+        "available pa?",
+        "open on holiday?"
+      ],
+      "name": [
+        "under Santos",
+        "Ma'am Ana",
+        "for Mr. Cruz",
+        "name of patient"
+      ],
+      "order_words": [
+        "take out",
+        "pick up",
+        "for delivery",
+        "pre-order",
+        "bilao order"
+      ],
+      "party": [
+        "table for 4",
+        "2 adults 1 kid",
+        "10 pax",
+        "party of 6",
+        "just me"
+      ],
+      "phone": [
+        "09XX 123 4567",
+        "+63 9XX 123 4567",
+        "(02) 1234 5678",
+        "Viber same number"
+      ],
+      "time": [
+        "7pm",
+        "7:30 PM",
+        "around 6 in the evening",
+        "12 noon",
+        "after lunch"
+      ]
+    },
+    "fil": {
+      "appointment_words": [
+        "magpa-appointment",
+        "magpa-check-up",
+        "magpagupit",
+        "magpa-sched sa doktor",
+        "magpaayos ng sasakyan"
+      ],
+      "booking_words": [
+        "magpa-reserve ng mesa",
+        "mag-book ng kwarto",
+        "pa-reserve po",
+        "magpareserba",
+        "advance booking po"
+      ],
+      "change_words": [
+        "palipat ng sched",
+        "sa Biyernes na lang",
+        "i-cancel po",
+        "pakilipat ng oras",
+        "male-late kami"
+      ],
+      "date": [
+        "bukas",
+        "sa makalawa",
+        "sa Sabado",
+        "sa susunod na Lunes",
+        "ika-25 ng Nobyembre"
+      ],
+      "false_friends": [
+        "ikatlong palapag",
+        "Blk 5 Lot 8",
+        "Set B",
+        "dalawang oras na masahe",
+        "bahay numero 12"
+      ],
+      "inquiry_words": [
+        "anong oras kayo bukas",
+        "may parking po ba",
+        "pwede GCash",
+        "meron pa po ba",
+        "bukas po ba sa holiday"
+      ],
+      "name": [
+        "sa pangalan ni Juan",
+        "Ate Ana",
+        "Kuya Ben",
+        "pangalan ng pasyente"
+      ],
+      "order_words": [
+        "pa-take out",
+        "pa-deliver po",
+        "oorder po",
+        "pa-reserve ng bilao"
+      ],
+      "party": [
+        "apat kami",
+        "dalawang matanda isang bata",
+        "sampung tao",
+        "kaming dalawa"
+      ],
+      "phone": [
+        "09XX 123 4567",
+        "tawag sa 09XX 123 4567",
+        "Viber ko rin po"
+      ],
+      "time": [
+        "alas-siyete ng gabi",
+        "alas-siyete y medya",
+        "mga alas-sais",
+        "tanghali",
+        "pagkatapos ng tanghalian"
+      ]
+    }
+  }
+}

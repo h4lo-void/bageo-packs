@@ -1,0 +1,98 @@
+{
+  "name": "Niger",
+  "name_local": "Niger",
+  "iso": "ne",
+  "calling_code": "+227",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Niger is a UEMOA member. The BCEAO has warned the public about messages, documents, addresses and websites that misuse its name or logo to extract money or personal data, and about unofficial sites that solicit applications for supposed Bank jobs.",
+  "cross_border_note": "Calls and messages are usually in French or a local language and may use Nigerien mobiles. Lures that borrow the BCEAO name also circulate across the UEMOA area, not only in one member state.",
+  "scams": [
+    {
+      "id": "ne_bceao_impersonation_data_or_payment",
+      "typology": "fake_official",
+      "name": "Usurpation de la BCEAO pour données ou paiement",
+      "name_en": "BCEAO impersonation seeking data or a payment",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "BCEAO",
+        "banque centrale",
+        "sécurisation de carte",
+        "logo officiel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presents a message or site as coming from the regional central bank in order to collect card or personal data",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for a payment supposedly required to use a central-bank service",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "uses the Bank's name or logo on a channel the Bank has not published as its own",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An unsolicited message, call or website uses the name or logo of the Central Bank of West African States and asks a person in Niger to hand over card data, identity details, or a payment to unlock a supposed official service.",
+      "legit_en": "The BCEAO says its website involves no payment, that it does not enter private commercial deals, and that messages or sites borrowing its marks should be treated with caution. Official information is issued through the Bank's own published channels.",
+      "bait_tactics": [
+        "Je ne transmets aucune donnée de carte à un interlocuteur qui se présente au nom de la BCEAO sans que j'aie ouvert un canal que je connais déjà.",
+        "Ce site ou ce message n'est pas le canal que j'utilise déjà pour consulter cette institution, je ne paie rien ici.",
+        "Je ne donne aucun renseignement personnel pour une prétendue sécurisation de carte initiée par un appel imprévu."
+      ],
+      "sources": [
+        "https://www.bceao.int/fr/communique-presse/attention-aux-messages-frauduleux-se-rapportant-la-bceao",
+        "https://www.bceao.int/fr/communique-presse/communique-de-la-bceao-la-banque-centrale-des-etats-de-lafrique-de-louest-bceao",
+        "https://www.bceao.int/en/content/legal-notices"
+      ]
+    },
+    {
+      "id": "ne_fake_bceao_recruitment_fee",
+      "typology": "loan_advance_fee",
+      "name": "Faux recrutement BCEAO avec contrepartie financière",
+      "name_en": "Fake BCEAO recruitment that requires a payment",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "recrutement BCEAO",
+        "déposer une candidature",
+        "offre d'emploi",
+        "frais de dossier"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks for a fee or other payment as a condition of applying for a supposed central-bank post",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "directs the applicant to a recruitment site other than the Bank's own published address",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "treats an unofficial inbox or form as the only way to submit a Bank job application",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or a website offers a post at the Central Bank of West African States and tells a person in Niger to pay a file fee, or to apply on a page that is not the Bank's own site or the address given in an official vacancy notice.",
+      "legit_en": "The BCEAO states that its published vacancy notices require no financial counterpart, and that only applications filed on the Bank's website, or at the address given in the official notice, are taken into account.",
+      "bait_tactics": [
+        "Je ne verse aucun frais pour un prétendu poste à la banque centrale, je n'ai vu aucun avis que j'ai moi-même ouvert sur son site.",
+        "Cette page de candidature n'est pas celle que je connais déjà pour cette institution, je n'y dépose rien.",
+        "Je ne paie pas un intermédiaire qui dit déposer mon dossier auprès de la BCEAO."
+      ],
+      "sources": [
+        "https://www.bceao.int/fr/documents/un-autre-site-me-propose-de-deposer-ma-candidature-en-ligne-pour-un-recrutement-la-0",
+        "https://www.bceao.int/fr/communique-presse/attention-aux-messages-frauduleux-se-rapportant-la-bceao"
+      ]
+    }
+  ]
+}

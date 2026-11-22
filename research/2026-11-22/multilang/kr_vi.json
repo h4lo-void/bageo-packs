@@ -1,0 +1,89 @@
+{
+  "region": "kr",
+  "lang": "vi",
+  "hello": {
+    "hello": "A-lô?",
+    "hello_again": "A-lô, nghe đây?"
+  },
+  "habits": {
+    "en": "In Korea, Vietnamese keep Vietnamese with friends but mix in 건강보험, 산후조리 (vs ở cữ) and 외국인등록; honorifics stay hard.",
+    "zh": "在韓越南語常夾入 건강보험、산후조리（對照 ở cữ）與 외국인등록，韓語敬語仍不易。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Chatty Vietnamese among friends, with 건강보험 dropped in as an ordinary noun, not a foreign label.",
+        "zh": "同鄉閒聊用越南語，건강보험 當普通名詞插入，不必另作解釋。"
+      },
+      "2": {
+        "en": "Relaxed but clear; postpartum talk may contrast Vietnamese ở cữ with Korean 산후조리.",
+        "zh": "語氣輕鬆仍清楚，坐月子會對照 ở cữ 與韓式 산후조리。"
+      },
+      "3": {
+        "en": "Everyday work or family tone; 외국인등록 errands are named in Korean and left untranslated.",
+        "zh": "日常語氣，登錄手續直接說 외국인등록，不再改寫成越南語全名。"
+      },
+      "4": {
+        "en": "Polite anh or chị and slightly slower Vietnamese, while Korean institutional nouns stay as used locally.",
+        "zh": "用 anh、chị 客氣稱呼並放慢越南語，韓語制度名詞仍照當地用法。"
+      },
+      "5": {
+        "en": "Careful Vietnamese for a hospital or agency, with Korean terms spoken first and then briefly glossed.",
+        "zh": "對醫院或仲介改用鄭重越南語，韓語專名先說再短補說明。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Take a short Vietnamese note for {owner} and leave 건강보험 details unchanged.",
+        "zh": "替 {owner} 用越南語草記留言，건강보험 細節保持原詞。"
+      },
+      "2": {
+        "en": "Pass word for {owner} in a friendly tone, keeping ở cữ and 산후조리 exactly as spoken.",
+        "zh": "以輕鬆語氣為 {owner} 傳話，ở cữ 與 산후조리 用詞照原樣。"
+      },
+      "3": {
+        "en": "Collect the message for {owner} and double-check 외국인등록 items with the caller.",
+        "zh": "代 {owner} 收下訊息，並與來電者核對 외국인등록 事項。"
+      },
+      "4": {
+        "en": "Speak for {owner} with care, repeating Korean admin nouns so the procedure name stays exact.",
+        "zh": "為 {owner} 謹慎傳話，複述韓語行政詞，手續名稱保持正確。"
+      },
+      "5": {
+        "en": "Write down hospital or immigration phrases for {owner} in formal Vietnamese, then relay them.",
+        "zh": "以鄭重越南語為 {owner} 記下醫院或入管用語，再代為轉達。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "A-lô! 건강보험 hồ sơ nộp chưa đó?",
+      "A-lô, mình nghe. Ở cữ với 산후조리 nói chậm giúp mình.",
+      "A-lô, em ghi rồi, chiều đi làm 외국인등록증.",
+      "A-lô, cảm ơn anh chị đã gọi, phần bảo hiểm em nhớ rồi.",
+      "Xin chào, tôi đã ghi các thủ tục liên quan đến 외국인등록."
+    ],
+    "a": [
+      "A-lô! Đang làm, bạn nói, mình chuyển 건강보험 giúp.",
+      "A-lô, mình nghe rõ. Ở cữ hay 산후조리, giữ nguyên giúp mình.",
+      "A-lô, tôi đã ghi lịch đi làm 외국인등록, sẽ báo lại.",
+      "Xin chào, tôi sẽ chuyển đúng các mốc 건강보험 cho {owner}.",
+      "Xin chào, tôi sẽ chuyển đầy đủ thủ tục 외국인등록."
+    ]
+  },
+  "diff_from_home": [
+    "在韓越南語常夾入 건강보험、외국인등록 等韓國制度詞，與台灣廠區的健保、仲介、機台，或在日的 kaisya、nyukan 並不相同。",
+    "婚姻移民家庭談坐月子時，可能並用越南傳統 ở cữ 與韓國 산후조리，兩者不必互相取代。",
+    "電話開場仍多用 A-lô；同鄉之間語氣隨意，對醫院或仲介才轉為較鄭重的越南語。",
+    "韓語敬語體系不易掌握，來電者往往以越南語為主幹，只插入必要的韓語專名。",
+    "勞工與婚姻移民的生活詞不完全重疊，不能把同一套混合詞當成所有在韓越南語使用者的習慣。"
+  ],
+  "sources": [
+    "https://doi.org/10.5932/jkphn.2015.29.2.325",
+    "https://learning-gate.com/index.php/2576-8484/article/download/6426/2285/8776",
+    "https://immigration.go.kr/immigration/1530/subview.do"
+  ],
+  "uncertain": [
+    "坐月子用詞主要見於婚姻移民健康研究；工廠或漁場勞工電話裡是否同樣對照 산후조리 與 ở cữ，會因家庭與工種而異。"
+  ]
+}

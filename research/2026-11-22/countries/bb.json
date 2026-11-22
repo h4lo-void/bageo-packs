@@ -1,0 +1,88 @@
+{
+  "country": "bb",
+  "parent": "us",
+  "name": {
+    "en": "Barbados",
+    "native": "Barbados",
+    "zh": "巴貝多"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good afternoon",
+    "hello_again": "Good afternoon again"
+  },
+  "delivery": {
+    "en": "Letters can come to the house; other parcels are collected at Barbados Postal Service with ID",
+    "zh": "文件可送到住址，非文件包裹要到巴貝多郵政憑證件領取"
+  },
+  "readback": {
+    "en": "After 246, numbers go 3-3-4; 0 as zero; Barbados dollars; 12-hour time; day before month",
+    "zh": "246 區碼後照 3-3-4 唸，0 唸 zero；巴貝多元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A lottery you never entered, or a plea to clear a container at the port, is a scam",
+    "zh": "說你中了沒參加過的彩票或遺產，或港口有貨櫃要付報關費，都是詐騙"
+  },
+  "habits": {
+    "en": "More formal than US chat: Good afternoon with strangers. Say mobile, not cell. Use Barbados dollars.",
+    "zh": "比美國閒聊客氣，對生人說 Good afternoon。說 mobile 不說 cell。用巴貝多元。"
+  },
+  "stall_local": {
+    "en": "The parcel is still at the post office, and a helper would need written authorisation plus ID.",
+    "zh": "包裹還要到郵局親自領，代領的人得帶書面授權與證件。"
+  },
+  "vocab": {
+    "bank": [
+      "Barbados dollars",
+      "debit card",
+      "online banking",
+      "transfer"
+    ],
+    "delivery": [
+      "Barbados Postal Service",
+      "post office",
+      "collection",
+      "authorisation"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "package locker",
+      "reason": {
+        "zh": "美國包裹櫃文化；巴貝多非文件件是到郵政窗口憑證件領"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "不是巴貝多日常轉帳的叫法"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語；當地英語較常說 mobile"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅務機關，不宜當作本地詐騙的預設話術"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the five steps, but start more formally with strangers and stay in Bajan-style British English. Mention Barbados dollars, not US tax or Medicare hooks.",
+    "zh": "五級可沿用，但對生人一開口就更正式，用巴貝多那種英式英語。金額說巴貝多元，不要用美國稅務或 Medicare 當話鉤。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.centralbank.org.bb/news/blog/investment-scams-how-to-recognise-them-and-what-to-do-if-you-re-victim",
+    "http://bps.gov.bb/category/general-client/",
+    "https://nationnews.com/2026/04/08/flow-warns-customers-about-increase-in-scams/"
+  ],
+  "uncertain": [
+    "中文 fraud 把遺產一併寫入，來源裡彩票與港口貨櫃較明確，遺產是同一則警察訪談中的例子。",
+    "日期口頭是否一律先日後月，未見官方規定。"
+  ]
+}

@@ -81,15 +81,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "pakomāts",
-      "Omniva",
-      "Latvijas Pasts"
-    ],
     "bank": [
       "Smart-ID",
       "bankas karte",
-      "pārskaitījums"
+      "pārskaitījums",
+      "konts",
+      "internetbanka",
+      "maksājumu karte"
+    ],
+    "delivery": [
+      "pakomāts",
+      "Omniva",
+      "Latvijas Pasts",
+      "DPD Pickup",
+      "sūtījums",
+      "kurjers"
+    ],
+    "government": [
+      "VID",
+      "EDS",
+      "personas kods",
+      "eID karte",
+      "PMLP",
+      "pašvaldība"
+    ],
+    "health": [
+      "ģimenes ārsts",
+      "nosūtījums",
+      "e-veselība",
+      "e-recepte",
+      "aptieka",
+      "pacienta iemaksa"
+    ],
+    "telecom": [
+      "LMT",
+      "Tele2",
+      "Bite",
+      "Zelta Zivtiņa",
+      "priekšapmaksas karte",
+      "līgums"
+    ],
+    "payment": [
+      "ar karti",
+      "skaidrā naudā",
+      "rēķins",
+      "e-rēķins",
+      "nomaksa",
+      "maksāt ar telefonu"
+    ],
+    "transport": [
+      "Rīgas Satiksme",
+      "e-talons",
+      "tramvajs",
+      "trolejbuss",
+      "Pasažieru vilciens",
+      "autoosta"
+    ],
+    "housing": [
+      "dzīvoklis",
+      "kāpņu telpa",
+      "apsaimniekotājs",
+      "īres maksa",
+      "komunālie maksājumi",
+      "domofons"
     ]
   },
   "status": "draft"

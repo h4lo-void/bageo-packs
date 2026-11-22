@@ -2,7 +2,8 @@
   "schema": 1,
   "code": "se",
   "countries": [
-    "se"
+    "se",
+    "ax"
   ],
   "name": {
     "en": "Sweden",
@@ -81,15 +82,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "ombud",
-      "paketskåp",
-      "utanför dörren"
-    ],
     "bank": [
       "BankID",
       "Swish",
-      "bankdosa"
+      "bankdosa",
+      "clearingnummer",
+      "kontonummer",
+      "överföring"
+    ],
+    "delivery": [
+      "ombud",
+      "paketskåp",
+      "utanför dörren",
+      "PostNord",
+      "avisering",
+      "kollinummer"
+    ],
+    "government": [
+      "personnummer",
+      "Skatteverket",
+      "Försäkringskassan",
+      "folkbokföring",
+      "ID-kort",
+      "körkort"
+    ],
+    "health": [
+      "1177",
+      "vårdcentral",
+      "e-recept",
+      "apotek",
+      "akuten",
+      "remiss"
+    ],
+    "telecom": [
+      "mobil",
+      "abonnemang",
+      "kontantkort",
+      "Telia",
+      "Tele2",
+      "Telenor"
+    ],
+    "payment": [
+      "Swish",
+      "kortbetalning",
+      "blippa",
+      "Klarna",
+      "faktura",
+      "OCR-nummer"
+    ],
+    "transport": [
+      "SL",
+      "pendeltåg",
+      "tunnelbanan",
+      "SJ",
+      "Västtrafik",
+      "hållplats"
+    ],
+    "housing": [
+      "lägenhet",
+      "bostadsrätt",
+      "hyresrätt",
+      "BRF",
+      "portkod",
+      "trapphus"
     ]
   },
   "status": "draft"

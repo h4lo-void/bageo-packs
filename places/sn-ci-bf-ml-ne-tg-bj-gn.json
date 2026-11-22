@@ -1,0 +1,700 @@
+{
+  "region": "sn-ci-bf-ml-ne-tg-bj-gn",
+  "countries": [
+    "sn",
+    "ci",
+    "bf",
+    "ml",
+    "ne",
+    "tg",
+    "bj",
+    "gn"
+  ],
+  "region_name_zh": "西非（法語）",
+  "region_name": "West Africa (French)",
+  "languages": [
+    {
+      "code": "fr",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "用禮貌法語 vous，開場 Bonjour。沃洛夫語、班巴拉語等日常語不在清單，店家若夾這些詞，回覆仍用法語。不要套用中非的 M-Pesa 或 Lianayo 口吻。",
+  "english_ok": "sometimes — 阿必尚、達卡部分旅館與國際餐廳聽得懂英語；內陸城市與政府窗口仍以法語為主。",
+  "politeness": "對陌生人用 vous 與 Monsieur / Madame；對方改 tu 再轉。收尾 merci beaucoup、bonne soirée。代訂時保持第三人稱。",
+  "name_tip": "報一個名加一個姓（如 Aïssatou Diop、Kouadio Yao）；穆斯林與阿kan、曼德等姓名都常見，先用已寫在訂位裡的拼法。",
+  "phone_tip": "塞內加爾 9 位、手機常見 77／76／70 開頭（77 123 45 67）。象牙海岸 2021 年起改為 10 位，手機以 01／05／07 開頭（07 12 34 56 78），阿必尚市話常見 27。布吉納、馬利等多數仍為 8 位。國際冠碼 +221 / +225 / +226 / +223 / +227 / +228 / +229 / +224。朗讀分組。",
+  "time_tip": "書面 24 小時（12h30、20h）；口語「huit heures du soir」。阿必尚、達卡晚餐可到 20:00 之後。對方若說「après la prière」，再問鐘點。",
+  "number_tip": "金額用 CFA（XOF），不要與中非 XAF 混為同一套找零習慣。付款常說 Wave、Orange Money 或 Moov，品牌要跟著對方，不要八國混用成同一個錢包。",
+  "avoid_calling": "避開 13:00–15:00 午休、20:00 前後的餐廳高峰，以及週五中午禮拜時段（塞內加爾、馬利、尼日、幾內亞尤然）；週日上午許多機關不開。",
+  "closed_days": "獨立日各國不同；開齋節、古爾邦節在本區很常見全休。耶誕與新年在沿海城市也常歇業。沒有單一的八國假期表，要以對方國為準。",
+  "booking_channels": "達卡、阿必尚以外，電話與 WhatsApp 仍是主流。阿必尚可用 Restoo、Tabora 線上留桌，也有 Tableezy 經 WhatsApp 訂位。SenEat 在達卡、阿必尚等地宣傳訂桌與外送。達卡有 Yango 外送，阿必尚有 Glovo。支付常見 Wave 與 Orange Money。",
+  "voice_menu": "Orange、MTN、Moov、Free 與銀行熱線常用語音選單；maquis 與多數診所仍人工接聽。",
+  "callback_habits": "Restoo／Tabora 會在 App 內確認；小館與 maquis 幾乎都用 WhatsApp。Wave 收款常是掃碼或傳一個號碼，要先核對店名。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "阿必尚可用 Restoo 或 Tabora 留桌，也可經 Tableezy 用 WhatsApp 訂；達卡有 SenEat 與電話。街頭 maquis 多半直接打電話。不要套用中非的 Lianayo。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and sitting (déjeuner around 13:00 vs dîner around 20:00)",
+        "Party size and whether a chaise enfant is needed",
+        "Climatisation, terrasse or a maquis courtyard",
+        "Name and a local mobile in that country's current format",
+        "Whether a Wave or Orange Money dépôt is required"
+      ],
+      "may_come_up": [
+        {
+          "what": "A Tabora booking may request a Mobile Money or card dépôt that is later deducted from the bill",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "The venue is a maquis and only takes a phone or WhatsApp name, not an app reference",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Glovo in Abidjan is for delivery, not for table bookings",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A Wave payment is demanded to an unlabelled personal number before any confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "私立診所多用電話或 WhatsApp 掛號，公立醫院常要到場取號；要問科別與是否走保險。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "First visit or suivi and the specialty",
+        "Patient name as on the pièce d'identité",
+        "Cash, mutuelle or a company account"
+      ],
+      "may_come_up": [
+        {
+          "what": "A public hôpital may only distribute tickets in person in the morning",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A third party is asked to recite a full medical file on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "髮廊與美甲幾乎都用 WhatsApp 約檔期，電話打通後也常被請傳造型與要編多久。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Tresses, coupe, ongles or make-up and a realistic duration",
+        "Date and hour plus a backup",
+        "The WhatsApp number for the reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "A stylist in a cité is known mainly by a first name",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "A Wave deposit is asked for a wedding booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Identity photos are demanded in a private chat before any hour is noted",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與手機維修先 WhatsApp 傳照片，再約到店或上門；電話只確認師傅是否在。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What failed and the marque",
+        "Drop-off at the atelier versus a visit in a concession or cité",
+        "When someone can receive the technician"
+      ],
+      "may_come_up": [
+        {
+          "what": "A part may have to come from Abidjan or Dakar",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A diagnostic fee is demanded to a personal Wave account before the item is seen",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "阿必尚可用 Glovo，達卡有 Yango Food 與 SenEat；其他城市多半 WhatsApp 或電話給餐廳。地址要寫 quartier、cité 或 concession。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Plates and portions (thiébou dieune, alloco, attiéké, poulet braisé) and spice level",
+        "Collect versus delivery to a named quartier or concession",
+        "A number the rider can call, plus the gardien's landmark"
+      ],
+      "may_come_up": [
+        {
+          "what": "Glovo coverage is documented in parts of Côte d'Ivoire, not across all eight countries",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Payment on delivery may be Wave, Orange Money or cash",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "The rider quotes a personal Wave number that is not the restaurant's",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商店留貨靠 WhatsApp 對型號，較少購物車；電話只確認庫存與取貨日。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Article, taille or modèle and the quantity",
+        "Collect in boutique versus a courier to another commune",
+        "Name to write on the reserved item"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stock is in a marché in another commune and would travel the next day",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to a private Wave number is required before they confirm stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "App 上的訂位在同一 App 改；WhatsApp 訂的回原對話。Tabora 若已付訂金，取消規則以店家為準。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original day, hour and the name or app reference",
+        "The new slot or a cancellation",
+        "New headcount if it changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "A Tabora or Restoo dépôt may already have been taken",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An extra Wave payment is demanded only to change the hour",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問是否營業、收不收 Wave，直接打或傳 WhatsApp；maquis 往往沒有可靠網頁。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The exact question (hours, Wave versus Orange Money, a dish, a spare part)",
+        "The day they plan to come",
+        "A number for a later reply"
+      ],
+      "may_come_up": [
+        {
+          "what": "Wave is common in Senegal and Côte d'Ivoire but not equally present in every Sahel market",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A stranger asks the owner to read a Wave code or PIN aloud",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "達卡、阿必尚旅館可用 Booking.com 或官網，小型 auberge 用 WhatsApp 問空房；入住常要出示證件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Arrival and departure dates and the number of guests",
+        "Room type and whether breakfast is included",
+        "Name as on the passport and a WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "A smaller auberge may confirm only by WhatsApp photo of the ledger",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A passport scan plus a transfer to a personal account is demanded before confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "海岸、河遊與週末活動多經旅行社或 WhatsApp 組團，常有最低人數；出發前再確認集合點。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which excursion and the date, with a weather alternative",
+        "Adults and children and the meeting point",
+        "A mobile that works on the road"
+      ],
+      "may_come_up": [
+        {
+          "what": "A park or boat fee may be cash-only",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The vehicle leaves only with a minimum group",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to an unnamed personal Wave account is required with no receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "水電與清潔靠 WhatsApp 約上門，地址要寫 quartier、cité 或 concession，並說明 gardien 怎麼放行。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The work needed and a visit window",
+        "Quartier, cité or concession and how to pass the gardien",
+        "A number that will answer at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "The technician quotes only after a WhatsApp photo",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A gate code and a remote Wave payment are demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "達卡、阿必尚獸醫可電話預約，其他城市常是上午到場；要說明動物種類與疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "Species, size and the reason for the visit",
+        "First visit or rappel de vaccin",
+        "Owner name and a reachable mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Animals may be seen only in the morning",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal Wave payment is demanded to reserve a kennel with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "國內託運與從港口取件常要打電話或 WhatsApp 問倉庫，單號加上城市與 quartier 較有用。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "Waybill and the destination city (Dakar, Abidjan, Bamako…)",
+        "Name on the consignment and a local contact",
+        "Depot collection versus a delivery to a concession"
+      ],
+      "may_come_up": [
+        {
+          "what": "A cash balance in CFA may be due at the depot",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A Wave top-up is requested to 'release' an unidentified parcel",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "電信與銀行多半先入語音選單；備妥 SIM 或錢包號碼，不要在電話裡報 Wave／Orange Money 密碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which operator or bank and the account or SIM label",
+        "The issue in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "They may send the customer to an agence with a pièce d'identité",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for a Wave, Orange Money or Moov PIN or SMS code on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "達卡、阿必尚等城市可用 Yango 或類似 App 叫車，不必先打電話；沒有 App 的城鎮才用 WhatsApp 約熟司機。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (quartier, hôtel, aéroport) and the time",
+        "Passengers and luggage",
+        "A number the driver can call at the gardien"
+      ],
+      "may_come_up": [
+        {
+          "what": "Yango or a similar app already covers the city, so a phone dispatch is unnecessary",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for the full fare to a personal Wave account before sharing a plate",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房經仲介 WhatsApp 約，地址用 quartier 與地標；可能被要求先出示證件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and rent versus sale",
+        "Name and a number at the gate",
+        "Budget in CFA if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "The agent wants to see a pièce d'identité before opening",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Charges for the gardien may be separate from the advertised rent",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A reservation fee to a personal account is demanded before any accompanied visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公家單位與學校窗口多要本人取號，電話只能問文件與開放時間；用正式 vous。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which administration or school and the purpose",
+        "The person's name as on the official document",
+        "Whether tickets are given only in person and from which hour"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many guichets close for Friday prayer or a long midday break",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be a fonctionnaire asks for a Wave payment to speed up a dossier",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fr": {
+      "party": [
+        "table pour 4 à Cocody",
+        "nous sommes 3",
+        "2 adultes et 1 enfant",
+        "pour deux personnes",
+        "un groupe de 8",
+        "une personne"
+      ],
+      "time": [
+        "à 20h",
+        "huit heures du soir",
+        "pour le déjeuner à 13h",
+        "vers 10h",
+        "à 16h",
+        "après 19h"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce samedi soir",
+        "vendredi prochain",
+        "le 4 avril",
+        "le 7 août"
+      ],
+      "name": [
+        "au nom de Aïssatou Diop",
+        "Kouadio Yao",
+        "famille Traoré",
+        "Mariam Sow",
+        "Jean-Baptiste Koffi"
+      ],
+      "phone": [
+        "77 123 45 67",
+        "07 12 34 56 78",
+        "12345678",
+        "WhatsApp 70 123 45 67"
+      ],
+      "booking_words": [
+        "réserver sur Restoo",
+        "prendre une table au maquis",
+        "garder une table",
+        "réserver une chambre",
+        "bloquer une place via Tabora"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous à la clinique",
+        "fixer une consultation",
+        "rendez-vous au salon",
+        "déposer la voiture à l'atelier",
+        "faire venir le technicien"
+      ],
+      "order_words": [
+        "commander sur Glovo",
+        "prendre à emporter",
+        "faire livrer dans la cité",
+        "mettre de côté au marché",
+        "préparer un sachet"
+      ],
+      "change_words": [
+        "modifier la réservation Tabora",
+        "décaler d'une heure",
+        "annuler la table",
+        "reporter la consultation",
+        "changer de jour"
+      ],
+      "inquiry_words": [
+        "vous prenez Wave ?",
+        "vous ouvrez le jour de Korité ?",
+        "il reste du thiébou dieune ?",
+        "vous livrez aux Almadies ?",
+        "quel est le tarif ?"
+      ],
+      "false_friends": [
+        "cité 12",
+        "2e étage",
+        "tresses 4 h",
+        "pack de 4",
+        "concession porte 3"
+      ]
+    }
+  }
+}

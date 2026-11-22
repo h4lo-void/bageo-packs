@@ -1,0 +1,447 @@
+{
+  "region": "br",
+  "vocab": {
+    "pt-BR": {
+      "bank": [
+        {
+          "term": "PIX",
+          "en": "instant payment, the default everyday transfer (PIX)"
+        },
+        {
+          "term": "conta corrente",
+          "en": "checking account (conta corrente)"
+        },
+        {
+          "term": "token",
+          "en": "bank security token or app token"
+        },
+        {
+          "term": "transferência",
+          "en": "transfer, also TED in older speech (transferência)"
+        },
+        {
+          "term": "saldo",
+          "en": "balance (saldo) [Brazil]"
+        },
+        {
+          "term": "banco digital",
+          "en": "digital bank / app (banco digital)"
+        },
+        {
+          "term": "cartão de débito",
+          "en": "debit card (cartão de débito) [Brazil]"
+        },
+        {
+          "term": "agência",
+          "en": "bank branch (agência)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "portaria",
+          "en": "doorman / entrance desk, extremely common drop-off (portaria)"
+        },
+        {
+          "term": "zelador",
+          "en": "building caretaker (zelador)"
+        },
+        {
+          "term": "armário inteligente",
+          "en": "parcel locker (armário inteligente)"
+        },
+        {
+          "term": "na portaria",
+          "en": "leave at the entrance desk (na portaria)"
+        },
+        {
+          "term": "Correios",
+          "en": "national post (Correios)"
+        },
+        {
+          "term": "código de rastreio",
+          "en": "tracking number (código de rastreio)"
+        },
+        {
+          "term": "entregador",
+          "en": "courier (entregador)"
+        }
+      ],
+      "government": [
+        {
+          "term": "CPF",
+          "en": "taxpayer ID, used constantly, do not recite unless asked (CPF)"
+        },
+        {
+          "term": "RG",
+          "en": "identity card, in some states now CIN (RG)"
+        },
+        {
+          "term": "Gov.br",
+          "en": "government login (Gov.br)"
+        },
+        {
+          "term": "Receita Federal",
+          "en": "federal tax (Receita Federal)"
+        },
+        {
+          "term": "cartório",
+          "en": "registry office (cartório)"
+        },
+        {
+          "term": "passaporte",
+          "en": "passport (passaporte) [Brazil]"
+        },
+        {
+          "term": "título de eleitor",
+          "en": "voter card, sometimes requested (título de eleitor)"
+        }
+      ],
+      "health": [
+        {
+          "term": "SUS",
+          "en": "public health system (SUS)"
+        },
+        {
+          "term": "plano de saúde",
+          "en": "private health plan (plano de saúde)"
+        },
+        {
+          "term": "UBS",
+          "en": "basic health unit / clinic (UBS)"
+        },
+        {
+          "term": "farmácia",
+          "en": "pharmacy (farmácia) [Brazil]"
+        },
+        {
+          "term": "pronto-socorro",
+          "en": "emergency, also PS or UPA (pronto-socorro)"
+        },
+        {
+          "term": "receita",
+          "en": "prescription (receita) [Brazil]"
+        },
+        {
+          "term": "convênio",
+          "en": "employer or private plan, often used for clinics (convênio)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "plano",
+          "en": "mobile plan (plano)"
+        },
+        {
+          "term": "pré-pago",
+          "en": "prepaid (pré-pago) [Brazil]"
+        },
+        {
+          "term": "portabilidade",
+          "en": "number porting (portabilidade) [Brazil]"
+        },
+        {
+          "term": "chip",
+          "en": "SIM (chip)"
+        },
+        {
+          "term": "operadora",
+          "en": "operator (operadora) [Brazil]"
+        },
+        {
+          "term": "internet móvel",
+          "en": "mobile data, also dados (internet móvel)"
+        },
+        {
+          "term": "vivo, Claro, TIM or Tim",
+          "en": "operators are often named (vivo, Claro, TIM or Tim)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PIX",
+          "en": "PIX"
+        },
+        {
+          "term": "boleto",
+          "en": "payment slip, still very common for bills (boleto)"
+        },
+        {
+          "term": "cartão de crédito",
+          "en": "credit card (cartão de crédito)"
+        },
+        {
+          "term": "cartão de débito",
+          "en": "debit card (cartão de débito) [Brazil]"
+        },
+        {
+          "term": "dinheiro",
+          "en": "cash (dinheiro) [Brazil]"
+        },
+        {
+          "term": "cartão",
+          "en": "card (cartão) [Brazil]"
+        },
+        {
+          "term": "débito automático",
+          "en": "automatic debit (débito automático)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ônibus",
+          "en": "bus (ônibus)"
+        },
+        {
+          "term": "metrô",
+          "en": "metro (metrô)"
+        },
+        {
+          "term": "aplicativo",
+          "en": "ride-hailing, also Uber or 99 (aplicativo)"
+        },
+        {
+          "term": "táxi",
+          "en": "taxi (táxi) [Brazil]"
+        },
+        {
+          "term": "Bilhete Único",
+          "en": "São Paulo transit card, other cities differ (Bilhete Único)"
+        },
+        {
+          "term": "RioCard or similar",
+          "en": "local transit card names differ (RioCard or similar)"
+        },
+        {
+          "term": "metrô-ferrovia",
+          "en": "commuter rail in some cities (metrô-ferrovia)"
+        },
+        {
+          "term": "passagem",
+          "en": "ticket / fare (passagem)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartamento",
+          "en": "apartment (apartamento) [Brazil]"
+        },
+        {
+          "term": "condomínio",
+          "en": "condominium complex (condomínio)"
+        },
+        {
+          "term": "portaria",
+          "en": "entrance desk (portaria)"
+        },
+        {
+          "term": "zelador",
+          "en": "caretaker (zelador)"
+        },
+        {
+          "term": "interfone",
+          "en": "intercom (interfone)"
+        },
+        {
+          "term": "caixa do correio",
+          "en": "mailbox (caixa do correio) [Brazil]"
+        },
+        {
+          "term": "aluguel",
+          "en": "rent (aluguel)"
+        },
+        {
+          "term": "síndico",
+          "en": "condo chair / manager (síndico)"
+        }
+      ],
+      "school": [
+        {
+          "term": "creche",
+          "en": "daycare (creche)"
+        },
+        {
+          "term": "ensino fundamental",
+          "en": "primary and lower secondary (ensino fundamental)"
+        },
+        {
+          "term": "ensino médio",
+          "en": "upper secondary (ensino médio)"
+        },
+        {
+          "term": "professor",
+          "en": "teacher (professor)"
+        },
+        {
+          "term": "lição de casa",
+          "en": "homework, also dever de casa (lição de casa)"
+        },
+        {
+          "term": "reforço",
+          "en": "tutoring (reforço)"
+        },
+        {
+          "term": "reunião de pais",
+          "en": "parents' meeting (reunião de pais)"
+        }
+      ],
+      "money": [
+        {
+          "term": "real",
+          "en": "Brazilian real, also reais in the plural"
+        },
+        {
+          "term": "reais",
+          "en": "plural of real (reais)"
+        },
+        {
+          "term": "PIX",
+          "en": "send money (PIX)"
+        },
+        {
+          "term": "dinheiro",
+          "en": "cash (dinheiro) [Brazil]"
+        },
+        {
+          "term": "troco",
+          "en": "change (troco) [Brazil]"
+        },
+        {
+          "term": "valor",
+          "en": "amount (valor) [Brazil]"
+        },
+        {
+          "term": "aluguel",
+          "en": "rent (aluguel)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "hoje de manhã",
+          "en": "this morning (hoje de manhã)"
+        },
+        {
+          "term": "hoje à tarde",
+          "en": "this afternoon (hoje à tarde)"
+        },
+        {
+          "term": "hoje à noite",
+          "en": "tonight (hoje à noite)"
+        },
+        {
+          "term": "durante a semana",
+          "en": "weekday (durante a semana) [Brazil]"
+        },
+        {
+          "term": "fim de semana",
+          "en": "weekend (fim de semana) [Brazil]"
+        },
+        {
+          "term": "depois do trabalho",
+          "en": "after work (depois do trabalho) [Brazil]"
+        },
+        {
+          "term": "essa semana",
+          "en": "this week, also esta semana (essa semana)"
+        }
+      ],
+      "work": [
+        {
+          "term": "trabalho",
+          "en": "work (trabalho) [Brazil]"
+        },
+        {
+          "term": "sair do trabalho",
+          "en": "finish work (sair do trabalho) [Brazil]"
+        },
+        {
+          "term": "hora extra",
+          "en": "overtime (hora extra)"
+        },
+        {
+          "term": "férias",
+          "en": "leave (férias) [Brazil]"
+        },
+        {
+          "term": "atestado",
+          "en": "sick note (atestado)"
+        },
+        {
+          "term": "chefe",
+          "en": "boss, also gestor (chefe)"
+        },
+        {
+          "term": "home office",
+          "en": "work from home (home office) [Brazil]"
+        },
+        {
+          "term": "viagem a trabalho",
+          "en": "business trip (viagem a trabalho)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "MB Way",
+      "use_instead": "PIX",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "autocarro",
+      "use_instead": "ônibus",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "telemóvel",
+      "use_instead": "celular",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "Cartão de Cidadão",
+      "use_instead": "RG, CPF, CIN",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "referência MB",
+      "use_instead": "boleto, PIX",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "SNS",
+      "use_instead": "SUS, UBS, plano de saúde",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "Bizum",
+      "use_instead": "PIX",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "euro 當預設貨幣",
+      "use_instead": "real, reais",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "condomínio 以外只用 portaria 的歐洲說法 porteiro da loja",
+      "use_instead": "portaria, zelador, síndico",
+      "where_it_is_from": "PT"
+    },
+    {
+      "word": "cheque 當日常轉帳預設",
+      "use_instead": "PIX, boleto",
+      "where_it_is_from": "PT"
+    }
+  ],
+  "sources": [
+    "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+    "https://www.correios.com.br/",
+    "https://www.gov.br/",
+    "https://www.gov.br/receitafederal/",
+    "https://www.gov.br/saude/",
+    "https://www.caixa.gov.br/"
+  ],
+  "uncertain": [
+    "各州身分證件正從 RG 過渡到 CIN，電話裡兩種說法都還在用。",
+    "交通卡名稱依城市而異（Bilhete Único、RioCard、BOM 等），不能當成全國統一。"
+  ]
+}

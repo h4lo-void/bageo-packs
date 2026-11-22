@@ -1,0 +1,96 @@
+{
+  "region": "us",
+  "lang": "ht",
+  "hello": {
+    "hello": "Alo?",
+    "hello_again": "Alo, wi bonjou?"
+  },
+  "habits": {
+    "en": "Kreyòl first; Madanm/Msye for elders. Say Medicaid, SSN, green card, insurance in English; French only if caller does.",
+    "zh": "以海地克里奧爾語為主；長輩稱 Madanm/Msye。Medicaid、SSN、保險照講英文；對方講法語才跟。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Little Haiti or Flatbush: 'Sak pase?' and 'N ap boule', quick banter, English words slipped in freely.",
+        "zh": "跟小海地或布魯克林 Flatbush 的朋友：Sak pase、N ap boule 來回，輕快說笑，隨口夾英文。"
+      },
+      "2": {
+        "en": "Warm and familiar: ask after the family first, call older callers Tonton or Matant if they are close relatives.",
+        "zh": "溫暖親近：先問候家人，對熟的長輩親戚可叫 Tonton、Matant。"
+      },
+      "3": {
+        "en": "Everyday Kreyòl, one full sentence per point; keep US terms like appointment or insurance as people say them.",
+        "zh": "日常克里奧爾語，每件事一句話講完；appointment、insurance 等美國用詞照口語講。"
+      },
+      "4": {
+        "en": "Respectful Madanm or Msye plus surname for clinics, church or school; deal with the date or paper first.",
+        "zh": "對診所、教會、學校用 Madanm 或 Msye 加姓；先處理日期或文件。"
+      },
+      "5": {
+        "en": "Formal: Kreyòl with careful courtesy, switch to English for agency or employer details if the caller does.",
+        "zh": "正式場合：克里奧爾語加周到禮貌，對方改講英文時，機關或雇主細節就用英文。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easygoing helper: a cheerful 'Alo!' and plain Kreyòl, take the message with no stiff phrasing.",
+        "zh": "{owner}隨和的小幫手：開朗一聲 Alo，用平實克里奧爾語，不用生硬句子記下留言。"
+      },
+      "2": {
+        "en": "Match the caller's warmth; use Madanm or Msye if they sound older, and write down the callback number.",
+        "zh": "配合對方的熱絡程度；聽來年長就稱 Madanm 或 Msye，並記下回撥號碼。"
+      },
+      "3": {
+        "en": "Answer why they called in one full Kreyòl sentence, then say plainly that {owner} will get the message.",
+        "zh": "用一句完整克里奧爾語回應來意，再清楚說訊息會交給{owner}。"
+      },
+      "4": {
+        "en": "Careful courtesy with mèsi and souple; repeat office names like Medicaid or USCIS in English as heard.",
+        "zh": "用 mèsi、souple 保持禮貌；Medicaid、USCIS 等機關名照聽到的英文覆述。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: Madanm or Msye, confirm the date and case item, offer English if the caller prefers.",
+        "zh": "{owner}的正式助理：稱 Madanm 或 Msye，確認日期與案件事項，對方偏好英文就改用英文。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo! Sak pase? Kisa k genyen, pale m non.",
+      "Alo, bonjou! Wi, m ap koute w, pa gen pwoblèm.",
+      "Alo, bonjou. Se pou ki sa w rele? Dakò, m pran nòt.",
+      "Bonjou, mèsi paske w rele. M konprann, m ap okipe sa.",
+      "Bonjou, mèsi anpil pou apèl la. Tout bagay byen note."
+    ],
+    "a": [
+      "Alo! Li okipe kounye a, di m mesaj la, m ap pase l ba li!",
+      "Alo, bonjou! Se mwen k ap pran apèl li yo, ki mesaj ou genyen?",
+      "Bonjou, m ap ekri mesaj ou a epi m ap transmèt li ba li.",
+      "Bonjou, mèsi dèske w rele. M ap note tout pou m ka transmèt li.",
+      "Bonswa, mèsi pou apèl ou. M ap pran mesaj la ak tout detay yo."
+    ]
+  },
+  "diff_from_home": [
+    "在海地正式電話常切成法語，在美國改成切英語；法語只在年長或教會場合較常出現。",
+    "夾入美國制度詞：Medicaid、SSN、green card、TPS、insurance、appointment，多半直接講英文。",
+    "社群集中在佛州（邁阿密、布勞沃德）、紐約布魯克林與波士頓，佛州環境還常夾西班牙語詞。",
+    "很多人從事居家照護與護理助理，電話常談排班與病患照護時間。",
+    "移民身分議題敏感，只記錄事務內容，不追問身分、不評論政策。"
+  ],
+  "sources": [
+    "https://www.migrationpolicy.org/article/haitian-immigrants-united-states",
+    "https://usafacts.org/explainers/how-many-people-speak-a-language-other-than-english-at-home/language/haitian/",
+    "https://languagemap.nyc/Explore/Language/Haitian%20Creole",
+    "https://www.irs.gov/ht/",
+    "https://www.irs.gov/help/languages",
+    "https://www.mbta.com/language-services",
+    "https://www.uscis.gov/i-9-central/form-i-9-related-news/update-on-termination-of-temporary-protected-status-for-haiti-release-july-29-2026"
+  ],
+  "uncertain": [
+    "美國海地社群口語中英語借詞（如 appointment）的使用比例，沒有找到量化調查。",
+    "TPS 與人道假釋政策 2025–2026 年變動很大，相關話題只記內容，不提供身分判斷。",
+    "海地國別 TPS 專頁已改入 USCIS /archive/；指定自 2026-07-27 終止，現行官方說明改以 2026-07-29 終止公告為準。",
+    "第二代多半以英語為主，克里奧爾語能力差異大，對方回英文時應跟著改用英文。"
+  ]
+}

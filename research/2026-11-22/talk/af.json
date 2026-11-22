@@ -1,0 +1,293 @@
+{
+  "lang": "af",
+  "backchannels": {
+    "direction": "No call corpus ranks Afrikaans continuers; ja and mm keep a chat moving, and a clipped ja-ja can sound impatient.",
+    "examples": [
+      {
+        "text": "Ja, ek hoor.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Mm, ja.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ja, dis reg.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ek verstaan.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ja ja, goed.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Shame is everyday sympathy in South African Afrikaans; is dit waar? marks surprise, and veels geluk a congratulation.",
+    "examples": [
+      {
+        "text": "Is dit waar?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Regtig?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ai, dis jammer.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Shame, ek is jammer om dit te hoor.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Baie geluk!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Veels geluk daarmee.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Dit gaan moeilik wees.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "A phrasebook flags a weak link with die konneksie is swak and jy breek op; ask for a louder repeat, not a hold.",
+    "examples": [
+      {
+        "text": "Die konneksie is swak. Jy breek op.",
+        "style": "casual"
+      },
+      {
+        "text": "Die konneksie is swak. U breek op.",
+        "style": "polite"
+      },
+      {
+        "text": "Ek hoor u nie duidelik nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan u 'n bietjie harder praat?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary's ek verstaan nie covers a missed meaning; for a name or the digits 12345678, ask them to sê dit weer.",
+    "examples": [
+      {
+        "text": "Ek verstaan nie.",
+        "style": "casual"
+      },
+      {
+        "text": "Jammer, ek verstaan nie heeltemal nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Kan u dit asseblief weer sê?",
+        "style": "polite"
+      },
+      {
+        "text": "Sê net die nommer weer: is dit 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Phrasebooks put met wie praat ek, asseblief? as the usual probe; on a shared handset, say it is {owner} se foon.",
+    "examples": [
+      {
+        "text": "Met wie praat ek, asseblief?",
+        "style": "polite"
+      },
+      {
+        "text": "Wie praat, asseblief?",
+        "style": "polite"
+      },
+      {
+        "text": "Dis {owner} se foon — met wie praat ek?",
+        "style": "polite"
+      },
+      {
+        "text": "Wie is dit wat praat?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The same list models jammer, ek het die verkeerde nommer, then a short close, without asking how the number was found.",
+    "examples": [
+      {
+        "text": "Jammer, ek het die verkeerde nommer.",
+        "style": "polite"
+      },
+      {
+        "text": "Jammer, u het die verkeerde nommer.",
+        "style": "polite"
+      },
+      {
+        "text": "Hier is niemand met daardie naam nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Verkeerde nommer, jammer.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Kan ek 'n boodskap neem? is the usual offer; deurgee to {owner} does not, alone, fix a time to ring back.",
+    "examples": [
+      {
+        "text": "Kan ek 'n boodskap neem?",
+        "style": "polite"
+      },
+      {
+        "text": "Ek sal die boodskap vir {owner} deurgee.",
+        "style": "polite"
+      },
+      {
+        "text": "Ek sal sê u het gebel.",
+        "style": "polite"
+      },
+      {
+        "text": "Ek gee die boodskap aan.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "A short nee, dankie, ek is nie belangstellend nie closes a sales pitch; adding a reason can sound like bargaining.",
+    "examples": [
+      {
+        "text": "Nee, dankie, ek is nie belangstellend nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Nee dankie, ons het dit nie nodig nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Ek is nie belangstellend nie, dankie.",
+        "style": "casual"
+      },
+      {
+        "text": "Nee dankie, haal ons asseblief van die lys af.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they keep pitching, Afrikaans often repeats the no and adds moenie weer hierdie nommer bel nie, still without abuse.",
+    "examples": [
+      {
+        "text": "Ek het al nee gesê. Moenie weer hierdie nommer bel nie.",
+        "style": "polite"
+      },
+      {
+        "text": "Ek is nie belangstellend nie, en ek vra dat u ophou bel.",
+        "style": "polite"
+      },
+      {
+        "text": "Moet asseblief nie terugbel nie.",
+        "style": "casual"
+      },
+      {
+        "text": "Dit is 'n finale nee. Moenie weer kontak maak nie.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Stellenbosch advises formal u with strangers or business; jy and jou wait for familiarity or a first-name cue.",
+    "examples": [
+      {
+        "text": "Meneer.",
+        "style": "polite"
+      },
+      {
+        "text": "Mevrou.",
+        "style": "polite"
+      },
+      {
+        "text": "Dokter.",
+        "style": "polite"
+      },
+      {
+        "text": "Goeiedag, meneer.",
+        "style": "polite"
+      },
+      {
+        "text": "Haai, hoe gaan dit?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Helpline calques like u oproep is vir ons belangrik sound like a contact centre on a home selfoon.",
+    "examples": [
+      {
+        "text": "U oproep is vir ons belangrik.",
+        "style": "polite"
+      },
+      {
+        "text": "Hoe kan ek u vandag help?",
+        "style": "polite"
+      },
+      {
+        "text": "Dit is vir ons 'n plesier om u te bedien.",
+        "style": "polite"
+      },
+      {
+        "text": "Dankie dat u {owner} se kantoor bel; u tevredenheid is ons prioriteit.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Jumping to jy with a stranger, or asking for an ID number or salary in the first minutes, comes across as over-familiar.",
+    "examples": [
+      {
+        "text": "Haai jy, wat is jou salaris en is jy getroud?",
+        "style": "casual"
+      },
+      {
+        "text": "Hoekom het {owner} my nie teruggebel nie? Sê my waar hulle nou is.",
+        "style": "casual"
+      },
+      {
+        "text": "Gee eers jou adres en ID-nommer.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.afrikaans.us/afrikaans/woordeskat/communication/phone/",
+    "https://languagecentre.sun.ac.za/u-or-jy-and-jou-how-does-one-choose-in-afrikaans/",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "未找到南非荷語私人電話的相槌頻率表；ja／mm 依日常會話，不是語料庫排序。",
+    "Stellenbosch 語言中心討論的是書信與校園場合的 u／jy，電話上何時改 jy 沒有另做統計；代接陌生人時本檔先用 u。",
+    "拒推銷、客服套語沒有找到南非荷語官方稿，相關例句依普通禮貌拒絕，不是電信或銀行腳本。"
+  ]
+}

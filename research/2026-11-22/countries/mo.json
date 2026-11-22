@@ -1,0 +1,84 @@
+{
+  "country": "mo",
+  "parent": "hk-mo",
+  "name": {
+    "en": "Macau",
+    "native": "澳門",
+    "zh": "澳門"
+  },
+  "lang": "cmn",
+  "hello": {
+    "hello": "喂？",
+    "hello_again": "喂，聽得到嗎？"
+  },
+  "delivery": {
+    "en": "Parcels: the building management desk or lobby guard, CTT, or a locker",
+    "zh": "包裹交大廈管理員或大堂保安，或到郵電局、智能櫃"
+  },
+  "readback": {
+    "en": "8-digit numbers go 4-4, 0 as 零; amounts in patacas, sometimes Hong Kong dollars, so confirm",
+    "zh": "八位電話按 4-4 唸，0 唸「零」；金額用澳門元，有時夾港幣，要確認"
+  },
+  "fraud": {
+    "en": "A fake CTT fee or form, or a call claiming to be the police, is a scam",
+    "zh": "冒充郵電局要補運費或填資料、假冒治安警或司警局的都是詐騙"
+  },
+  "habits": {
+    "en": "Times take 上午, 下午 or 晚上; large sums use 萬. AI speaks Mandarin. Not iAM Smart or FPS; not mainland words.",
+    "zh": "時間帶上午、下午或晚上，大金額用「萬」。用普通話回。不用 iAM Smart、FPS，也不用大陸詞。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a dead bank token, the banking app spinning at login, or glasses left at the office.",
+    "zh": "卡在銀行保安編碼器沒電、銀行 App 登入一直轉、眼鏡忘在公司。"
+  },
+  "vocab": {
+    "bank": [
+      "保安編碼器",
+      "轉賬",
+      "澳門元"
+    ],
+    "delivery": [
+      "管理員",
+      "大堂保安",
+      "郵電局"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "iAM Smart",
+      "reason": {
+        "en": "Hong Kong government app, not Macau's",
+        "zh": "香港政府 App，不是澳門的"
+      }
+    },
+    {
+      "word": "FPS",
+      "reason": {
+        "en": "Hong Kong Faster Payment System",
+        "zh": "香港轉數快，不是澳門支付系統"
+      }
+    },
+    {
+      "word": "座頭保安",
+      "reason": {
+        "en": "Hong Kong lobby wording; Macau more often says 大堂保安 or 管理員",
+        "zh": "較偏香港說法，澳門更常說大堂保安或管理員"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Close to the Hong Kong-leaning parent, but use Macau wording: 郵電局, patacas, local police names. AI stays in Mandarin; Cantonese particles may be heard.",
+    "zh": "接近偏香港的所屬地區，但要用澳門說法：郵電局、澳門元、治安警或司警局。AI 用普通話；對方可能夾粵語語氣詞。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gov.mo/zh-hant/news/1192269/",
+    "https://www.gov.mo/zh-hant/news/1220078/",
+    "https://www.gcs.gov.mo/news/detail/zh-hant/N26HZ52S0R"
+  ],
+  "uncertain": [
+    "粵語不在支援清單，故 lang 為 cmn；實際接聽常用「喂」，口語常夾粵語語氣詞。",
+    "葡語是官方語言之一，但日常電話是否常用，未當成主要語言來寫。",
+    "港幣與澳門元並行報價的場合，沒有統一規則，需要當場確認。"
+  ]
+}

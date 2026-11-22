@@ -1,0 +1,300 @@
+{
+  "lang": "ka",
+  "backchannels": {
+    "direction": "დიახ is formal yes, კი the everyday one, ჰო and ხო casual; კარგი or გასაგებია shows you follow.",
+    "examples": [
+      {
+        "text": "დიახ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "კი.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ჰო.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ხო.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "კარგი.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "გასაგებია.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ჰო, ჰო.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "მართლა? marks surprise; ვწუხვარ is the listed sorry; გილოცავთ fits good news.",
+    "examples": [
+      {
+        "text": "მართლა?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ვწუხვარ.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ბოდიში.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "გილოცავთ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ძალიან კარგი!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "ეს რთულია.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "არ მესმის and ვერ გავიგე cover missed speech; ask for a slower turn with ნელა მელაპარაკეთ.",
+    "examples": [
+      {
+        "text": "არ მესმის.",
+        "style": "polite"
+      },
+      {
+        "text": "ვერ გავიგე.",
+        "style": "casual"
+      },
+      {
+        "text": "თუ შეიძლება, უფრო ნელა ილაპარაკეთ.",
+        "style": "polite"
+      },
+      {
+        "text": "ნელა მელაპარაკეთ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "გაიმეორეთ or გთხოვთ გაიმეოროთ asks for a replay; ასო-ასო წარმოთქვით spells a name (Dictionary.ge), then confirm digits.",
+    "examples": [
+      {
+        "text": "თუ შეიძლება, გაიმეორეთ.",
+        "style": "polite"
+      },
+      {
+        "text": "გაიმეორე.",
+        "style": "casual"
+      },
+      {
+        "text": "გთხოვთ გაიმეოროთ.",
+        "style": "polite"
+      },
+      {
+        "text": "თუ შეიძლება, ეს კიდევ ერთხელ გამიმეორეთ.",
+        "style": "polite"
+      },
+      {
+        "text": "თუ შეიძლება, ეგ სახელი ასო-ასო კიდევ ერთხელ წარმოთქვით.",
+        "style": "polite"
+      },
+      {
+        "text": "ნომერი 12345678 არის?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Open with უკაცრავად, then რა გქვიათ? or ვინ ხართ? If the line is {owner}'s, say that first.",
+    "examples": [
+      {
+        "text": "უკაცრავად, ვინ ხართ?",
+        "style": "polite"
+      },
+      {
+        "text": "რა გქვიათ?",
+        "style": "polite"
+      },
+      {
+        "text": "ეს {owner}ს ნომერია, ვინ ხართ?",
+        "style": "polite"
+      },
+      {
+        "text": "ვინ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "არასწორია is listed for 'wrong'; ნომერი არასწორია names the misdial and does not ask who lives there.",
+    "examples": [
+      {
+        "text": "უკაცრავად, ნომერი არასწორია.",
+        "style": "polite"
+      },
+      {
+        "text": "ეს ნომერი არასწორია.",
+        "style": "polite"
+      },
+      {
+        "text": "ბოდიში, ნომერი არასწორია.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "The ordinary future {owner}ს ვეტყვი is what sources support; no hour for a later call is added.",
+    "examples": [
+      {
+        "text": "{owner}ს ვეტყვი.",
+        "style": "polite"
+      },
+      {
+        "text": "მე {owner}ს ვეტყვი.",
+        "style": "polite"
+      },
+      {
+        "text": "ვეტყვი.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "არა, გმადლობთ or არ მინდა turns an offer down; keep თქვენ forms with a seller you do not know.",
+    "examples": [
+      {
+        "text": "არა, გმადლობთ.",
+        "style": "polite"
+      },
+      {
+        "text": "არ მინდა, მადლობა.",
+        "style": "polite"
+      },
+      {
+        "text": "არა.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second არა is enough; თავი დამანებეთ is Omniglot's 'leave me alone', only after they keep pushing.",
+    "examples": [
+      {
+        "text": "არა, უკვე გითხარით.",
+        "style": "polite"
+      },
+      {
+        "text": "გთხოვთ, აღარ დამირეკოთ.",
+        "style": "polite"
+      },
+      {
+        "text": "თავი დამანებეთ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "თქვენ and the -თ verb ending are the default with strangers and elders; ბატონო or ქალბატონო plus a given name.",
+    "examples": [
+      {
+        "text": "ბატონო",
+        "style": "polite"
+      },
+      {
+        "text": "ქალბატონო",
+        "style": "polite"
+      },
+      {
+        "text": "ბატონო გიორგი",
+        "style": "polite"
+      },
+      {
+        "text": "ქალბატონო ნინო",
+        "style": "polite"
+      },
+      {
+        "text": "თქვენ",
+        "style": "polite"
+      },
+      {
+        "text": "შენ",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "გისმენთ is an office pickup, not a private one; praise of 'your call' sounds like a helpline, not a household.",
+    "examples": [
+      {
+        "text": "გისმენთ.",
+        "style": "polite"
+      },
+      {
+        "text": "თქვენი ზარი ჩვენთვის მნიშვნელოვანია.",
+        "style": "polite"
+      },
+      {
+        "text": "რით შემიძლია დაგეხმაროთ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Dropping -თ, or moving to შენ with an elder or new caller, is the slip that gets noticed.",
+    "examples": [
+      {
+        "text": "გმადლობ, ბატონო.",
+        "style": "casual"
+      },
+      {
+        "text": "შენ ვინ ხარ?",
+        "style": "casual"
+      },
+      {
+        "text": "გენაცვალე, ქალბატონო.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://www.omniglot.com/language/phrases/georgian.php",
+    "https://en.wikivoyage.org/wiki/Georgian_phrasebook",
+    "https://whatlit.com/en/blog/please-and-thank-you-in-georgian/",
+    "https://kahibaro.com/course/66-georgian/6035-basic-etiquette-and-social-norms",
+    "https://kahibaro.com/course/66-georgian/6039-participating-in-short-conversations",
+    "https://kvela.app/georgian-phrases",
+    "https://dictionary.ge/en/word/spell%C2%B3/",
+    "https://en.wiktionary.org/wiki/please_say_that_again"
+  ],
+  "uncertain": [
+    "沒有找到格魯吉亞語通話語料庫；附和輕重依詞典與教材，不是錄音統計。",
+    "არ მესმის 在教材裡多作「聽不懂」，也可涵蓋沒聽清；專門講訊號差的套語沒查到，未自造。",
+    "轉告只用普通動詞未來式 {owner}ს ვეტყვი；片語書沒有固定轉述稿，也不約定回撥時間。",
+    "ნომერი არასწორია 是把 Wikivoyage 的 არასწორია（錯）接到 ნომერი，未見固定「打錯了」電話專句。",
+    "客服腔是依辦公室接聽 გისმენთ 與熱線語氣標出，不是電信 IVR 逐字稿。",
+    "ეს რთულია 只是普通「這很難」，不是取自通話實錄。",
+    "ask_repeat 的拼名依據 Dictionary.ge：თუ შეიძლება, ეგ სახელი ასო-ასო კიდევ ერთხელ წარმოთქვით；რა გქვიათ? 是問姓名，已移出此欄。"
+  ]
+}

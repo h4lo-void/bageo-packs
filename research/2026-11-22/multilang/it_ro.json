@@ -1,0 +1,91 @@
+{
+  "region": "it",
+  "lang": "ro",
+  "hello": {
+    "hello": "Alo, da?",
+    "hello_again": "Da, te-ascult?"
+  },
+  "habits": {
+    "en": "Friends get tu; counters get dumneavoastră. Slip in codice fiscale, INPS, Anagrafe, SPID. EU citizens need no permesso.",
+    "zh": "熟友用 tu，公家用敬稱。夾 codice fiscale、INPS、SPID；不必 permesso。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Romanian friends in Italy stay on tu. A short perfect is enough, and Italian nouns can sit inside the sentence.",
+        "zh": "在義大利跟羅馬尼亞熟友用 tu，短短一句 perfect 即可，義語名詞可直接嵌進句子。"
+      },
+      "2": {
+        "en": "Warm Romanian on an Italian number. If INPS comes up, answer în regulă and only tighten if they do.",
+        "zh": "義大利號碼上的親切羅馬尼亞語。提到 INPS 就回 în regulă，對方變正式再跟著收斂。"
+      },
+      "3": {
+        "en": "Everyday Romanian in Italy. Finish the thought in one line and leave codice fiscale, ASL or the 730 in Italian.",
+        "zh": "義大利日常羅馬尼亞語把話說完，codice fiscale、ASL 或報稅 730 維持義語。"
+      },
+      "4": {
+        "en": "At INPS or the comune use dumneavoastră. Restate the iscrizione or tessera item before you take it on.",
+        "zh": "在 INPS 或市政廳用 dumneavoastră，先覆述戶籍登記或醫療卡事項再接辦。"
+      },
+      "5": {
+        "en": "Business Romanian with titles. Lay out the 730 or the contratto, then end without padding.",
+        "zh": "商務羅馬尼亞語加稱謂，把 730 或合約攤開說明，說完即止。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual Romanian stand-in for {owner}: answer perfect, keep the mixed wording, and say you will carry the message.",
+        "zh": "替{owner}隨口代接先回 perfect，照夾義語的說法記下，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Follow tu or dumneavoastră. Write the INPS detail or a return number, and say {owner} will hear about it.",
+        "zh": "跟著用 tu 或 dumneavoastră。記下 INPS 或回撥號碼，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Measured Romanian helper in Italy. Respond completely to why they rang, then tell them you will fill {owner} in.",
+        "zh": "義大利羅馬尼亞語助理語氣穩妥，先把來電原因說完，再告訴對方會向{owner}交代。"
+      },
+      "4": {
+        "en": "Careful formal Romanian: repeat the Anagrafe or SPID point, then confirm the note is meant for {owner}.",
+        "zh": "較正式的羅馬尼亞語：重述戶籍或 SPID 要點，並確認留言是要給{owner}的。"
+      },
+      "5": {
+        "en": "For {owner} in a formal key: add titles, line up the patronato papers, and stop once the handoff is stated.",
+        "zh": "替{owner}用正式口氣加稱謂，把 patronato 文件排好，說明轉交後就停。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo, da! Ce faci? Zi, e-n regulă.",
+      "Da, te-ascult, spune liniștit.",
+      "Bună. E de la INPS? Am notat, în regulă.",
+      "Bună ziua, mulțumesc de apel. Am înțeles, mă ocup eu.",
+      "Bună ziua, vă mulțumesc că ați sunat. Am notat toate datele."
+    ],
+    "a": [
+      "Alo! El nu e, spune-mi și duc mesajul.",
+      "Da, preiau eu telefonul, lasă mesajul.",
+      "Bună. Notez și îi transmit.",
+      "Bună ziua, mulțumesc de apel. Păstrez mesajul pentru {owner}.",
+      "Bună ziua, vă mulțumesc. I le duc lui {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "羅馬尼亞人是義大利人數最多的外國社群，且為歐盟公民：居留是向市政府辦 iscrizione anagrafica，不要誤用非歐盟的 permesso di soggiorno。",
+    "身份與稅務口語用 codice fiscale，不要用羅馬尼亞的 CNP 來指義大利文件；報稅常見 730，社保談 INPS、失業金談 NASpI。",
+    "醫療說 tessera sanitaria、medico di base、ASL；數位登入常提 SPID，這些都是義大利專名。",
+    "實務上常經 patronato 辦 INPS 手續，電話裡也會直接夾義大利詞。跟熟友說 tu，跟公家改稱 dumneavoastră。"
+  ],
+  "sources": [
+    "https://www.lavoro.gov.it/en/single-digital-gateway/taking-employment/recruitment-eu-citizens-italy",
+    "https://www.agenziaentrate.gov.it/portale/codice-fiscale-e-tessera-sanitaria/che-cos-cittadini",
+    "https://www.inps.it/",
+    "https://www.spid.gov.it/",
+    "https://www.istat.it/comunicato-stampa/cittadini-non-comunitari-in-italia-anno-2024/"
+  ],
+  "uncertain": [
+    "第二代在家講羅馬尼亞語還是義大利語的比例，因家庭與城市差異大，缺少新的口語量化資料。",
+    "口語夾義大利詞的密度缺乏統一調查，只能依對方用詞跟隨。"
+  ]
+}

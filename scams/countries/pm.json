@@ -1,0 +1,43 @@
+{
+  "name": "Saint Pierre and Miquelon",
+  "name_local": "Saint-Pierre-et-Miquelon",
+  "iso": "pm",
+  "calling_code": "+508",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "No archipelago-specific official scam notice was found; national French guidance on fake parcel messages and La Poste's help pages are the applicable references.",
+  "cross_border_note": "Saint-Pierre-et-Miquelon (+508) sits next to Canada, so +1 Canadian numbers are common alongside mainland French (+33) calls.",
+  "scams": [
+    {
+      "id": "pm_faux_la_poste_code",
+      "typology": "otp_theft",
+      "name": "Faux message La Poste ou banque",
+      "name_en": "Fake La Poste or bank message asking for a fee or secret code in Saint-Pierre-et-Miquelon",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "La Poste",
+        "frais d'envoi",
+        "code de sécurité"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "donner le code de sécurité",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message claiming La Poste or a bank requests a small payment or a security code to release a parcel or unblock an account.",
+      "legit_en": "French national guidance and La Poste state they never ask for a secret code by text.",
+      "bait_tactics": [
+        "Demander si le colis est au bureau de poste de Saint-Pierre",
+        "Dire que la tempête a retardé le bateau et que seul l'avis papier fait foi"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+        "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste"
+      ]
+    }
+  ]
+}

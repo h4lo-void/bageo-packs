@@ -1,0 +1,48 @@
+{
+  "name": "French Polynesia",
+  "name_local": "Polynésie française",
+  "iso": "pf",
+  "calling_code": "+689",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "The High Commission in French Polynesia publishes an FAQ on scam attempts and identity fraud by internet or SMS.",
+  "cross_border_note": "French Polynesia (+689) has eight-digit numbers; messages using mainland French formats or foreign prefixes are a signal worth checking.",
+  "scams": [
+    {
+      "id": "pf_usurpation_administration",
+      "typology": "fake_official",
+      "name": "Usurpation de l'administration par SMS ou internet",
+      "name_en": "Message posing as the administration asking for card, login or fee in French Polynesia",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "dossier administratif",
+        "identifiants",
+        "régularisation"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "régulariser en payant par carte",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "transmettre vos identifiants",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "An SMS or email posing as a public office asks for card details, login credentials or a fee to settle a file.",
+      "legit_en": "The High Commission's FAQ on internet and SMS fraud attempts advises caution and checking with the real office directly.",
+      "bait_tactics": [
+        "Demander quel service administratif de Papeete suit le dossier",
+        "Dire que les papiers seront déposés au guichet en personne"
+      ],
+      "sources": [
+        "https://www.polynesie-francaise.pref.gouv.fr/Outils/FAQ/Tentatives-d-arnaque-et-ou-de-fraude-a-l-identite-par-internet-ou-par-SMS",
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/smishing-hameconnage-sms"
+      ]
+    }
+  ]
+}

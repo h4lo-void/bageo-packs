@@ -1,0 +1,807 @@
+{
+  "region": "gr-cy",
+  "countries": [
+    "gr",
+    "cy"
+  ],
+  "region_name_zh": "希臘、賽普勒斯",
+  "region_name": "Greece and Cyprus",
+  "languages": [
+    {
+      "code": "el",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "secondary (cy, widely used in business)"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite Standard Modern Greek (el); Cypriots understand Standard Greek though they speak Cypriot Greek; English is widely spoken in Cyprus (switch if staff offers) and in Greek tourist areas, much less at Greek state services and village shops.",
+  "english_ok": "sometimes — Very common in Cyprus and in Greek islands/Athens centre hotels and restaurants; limited at Greek public services, village tavernas, garages and older shopkeepers.",
+  "politeness": "Use plural 'εσείς' with strangers; open with 'Καλημέρα' (until early afternoon) or 'Καλησπέρα' + who you call for ('τηλεφωνώ εκ μέρους του/της...'); close with 'Ευχαριστώ πολύ, καλή συνέχεια'. Tone is warm and conversational.",
+  "name_tip": "Surname first ('στο όνομα Παπαδόπουλος'); Greek surnames change by gender (Παπαδόπουλος / Παπαδοπούλου), give the exact form; spell foreign names in Latin letters and expect Greek transliteration.",
+  "phone_tip": "Greece: 10 digits, no trunk 0 — mobile 69x xxx xxxx, Athens landline 21x xxx xxxx; Cyprus: 8 digits — mobile 9x xxx xxx, landline 2x xxx xxx; Viber/WhatsApp often on the same mobile.",
+  "time_tip": "24-hour clock in writing; spoken 'επτάμισι' = 7:30 and 'οχτώ παρά τέταρτο' = 7:45 (eight minus a quarter); 'απόγευμα' is afternoon roughly 17:00–20:00, 'βράδυ' after that; dinner bookings at 21:00–22:00 are normal; read back in 24h.",
+  "number_tip": "Greek phone numbers are often read in groups (210 / 12 34 567); 'τρία' vs 'τρεις' and 'τέσσερα' vs 'τέσσερις' change with gender ('τρεις άνθρωποι'); in Cyprus English digits are common.",
+  "avoid_calling": "Avoid the afternoon quiet hours (about 15:00–17:30, mesimeri), restaurant peaks around 14:00 and 21:00–22:30, calls after 21:00, and Sundays for non-hospitality; in August many small businesses close for holidays (around 15 August).",
+  "closed_days": "Traditional retail hours: Mon/Wed/Sat close mid-afternoon, Tue/Thu/Fri reopen in the evening after a long break (gr); most shops closed Sunday except tourist areas; Orthodox Easter (moves yearly), 15 August, 25 March and 28 October shut most offices (cy has its own national days such as 1 April and 1 October).",
+  "booking_channels": "Doctoranytime for private doctors (gr); the national phone booking line / finddoctors.gov.gr / MyHealth for public hospital clinics (gr); GESY portal with personal doctor referral (cy); efood and Wolt for delivery (gr), Foody, Wolt and Bolt Food (cy); phone and Instagram/Viber common for tavernas, salons and small hotels.",
+  "voice_menu": "Telecoms (Cosmote, Vodafone, Nova; Cyta, Epic, PrimeTel in cy), banks, utilities and public services use keypad IVR; tavernas and small shops answer directly on landline or mobile.",
+  "callback_habits": "Small businesses call back from a mobile or reply on Viber/WhatsApp; public hospital outpatient booking is by the national phone line or online (gr); OKYPY online requests are confirmed by a phone call within about 48 hours (cy).",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "出海船遊、潛水、導覽多可電話或 WhatsApp 預約；考古遺址門票多走官方線上售票。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Archaeological site tickets only online or at gate"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepayment to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and meeting point",
+        "Date, start time and duration",
+        "Number of people",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲多電話或 Instagram 私訊預約，熟客指定師傅；節日與婚禮季（夏季）很滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for long colour or bridal service"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash discount or card only above an amount"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands transfer deposit to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Exact service (κούρεμα, βαφή, μανικιούρ, μασάζ)",
+        "Hair length or gel removal",
+        "Preferred day, hour and stylist",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消通常口頭即可；海島旺季旅館與部分餐廳有取消政策或訂金不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refunded inside the cancellation window"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks AMKA or ID to find the booking"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original date and time",
+        "New time or cancellation",
+        "Party size if restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "希臘私人診所普遍電話或 Doctoranytime 預約，公立醫院門診打國家門診預約專線或上 finddoctors.gov.gr；賽普勒斯 GESY 需個人醫師轉診。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public hospital clinic booked via the national booking line or finddoctors.gov.gr (gr)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist needs GESY referral from personal doctor (cy) or offers private fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks AMKA (gr) or ID/ARC number (cy)"
+        }
+      ],
+      "usually_asked": [
+        "Private visit or public/GESY covered",
+        "First or follow-up visit",
+        "Reason for the visit",
+        "Patient full name",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、電力（ΔΕΗ / EAC）客服皆有語音選單並依 GDPR 嚴格要求本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Refuses third party without account holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks AFM/AMKA, ID number, card details or one-time codes"
+        }
+      ],
+      "usually_asked": [
+        "Keypad IVR routing",
+        "Account holder verification",
+        "Contract or customer number",
+        "Description of the issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "希臘公務多走 gov.gr 線上並以 Taxisnet 登入，市民服務中心（ΚΕΠ）可電話或線上預約；賽普勒斯有 Citizen Service Centres。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Procedure only online via gov.gr or appointment system"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks AFM, AMKA or ID number"
+        }
+      ],
+      "usually_asked": [
+        "General procedure question",
+        "Documents needed",
+        "Child age and area for school/kindergarten",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需說明樓層（όροφος）、門鈴姓名與是否有電梯；水電工與冷氣維修夏季很滿。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Callout fee plus labour quoted"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Air-conditioning service waiting list in summer"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before visit"
+        }
+      ],
+      "usually_asked": [
+        "Trade needed (υδραυλικός, ηλεκτρολόγος, κλειδαράς, κλιματιστικά)",
+        "Street, number, floor, bell name, postcode",
+        "Owner or tenant",
+        "Preferred time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "小旅館（ενοικιαζόμενα δωμάτια）與家庭飯店習慣電話與 Email 訂房，旺季常要求訂金；希臘另收住宿稅（每晚）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Accommodation/climate tax charged per night (gr)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Bank transfer deposit to confirm in high season"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests card number or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Adults, children and room type (δίκλινο, στούντιο)",
+        "Breakfast, parking, sea view, port/airport transfer",
+        "Full name, email and phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間（午休與夏季時間不同）、是否刷卡、是否有貨等可直接電話問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Summer and winter opening hours differ"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (ωράριο, κάρτα, διαθεσιμότητα, κατοικίδια)",
+        "Intended visit day and time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容可電話預約；出境需歐盟寵物護照與晶片。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Emergency or out-of-hours fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel transfer deposit"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or boarding",
+        "Species, breed, weight and age",
+        "Vaccination and microchip",
+        "Preferred date and time",
+        "Name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 spitogatos.gr、xe.gr（gr）或 bazaraki.com（cy）與房仲，看房多電話約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks listing code first"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing code or address",
+        "Household size, pets and move-in date",
+        "Budget and lease length",
+        "Viewing appointment",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車廠（συνεργείο）與車檢（ΚΤΕΟ，賽普勒斯為 MOT）可電話預約；8 月許多小廠休假。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Paid diagnosis if repair declined"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts ordered from Athens or abroad take days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks phone unlock code"
+        },
+        {
+          "handle": "decline",
+          "what": "Demands prepayment for a part"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model and plate number",
+        "Work needed (σέρβις, ΚΤΕΟ/MOT, λάστιχα, βλάβη)",
+        "Drop-off day and time",
+        "Device model and fault",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "希臘晚餐偏晚（21:00～22:30），夏季海島與週末熱門餐廳要預約；傳統小酒館（ταβέρνα）多接電話，海景座位常不保證。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Sea-view or terrace tables first come first served"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Large group asked for set menu or deposit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests card details to guarantee the table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time in 24h",
+        "Number of people and children (καρεκλάκι)",
+        "Inside or outside/terrace (μέσα ή έξω)",
+        "Surname and mobile",
+        "Special occasion"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（φαρμακείο，有輪值 εφημερία）、麵包甜點店（復活節、聖誕甜點）與書店常可電話預留。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pharmacy orders item for same or next day"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Upfront transfer for custom cake"
+        }
+      ],
+      "usually_asked": [
+        "Product name, size or weight",
+        "Quantity and stock check",
+        "Pickup day and hour (mind split shop hours)",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶（πακέτο）與電話外送在希臘賽普勒斯很常見，烤肉捲（σουβλάκι/γύρος）店多接電話；平台則用 efood、Wolt（gr）、Foody、Wolt（cy）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Minimum order for phone delivery"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only via efood/Wolt/Foody"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests card number before cooking"
+        }
+      ],
+      "usually_asked": [
+        "Pickup (πακέτο) or delivery",
+        "Items, sizes and sauces (με όλα / χωρίς κρεμμύδι)",
+        "Pickup time",
+        "Name, phone and address if delivery"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "ELTA、ACS、Speedex（gr）與 Cyprus Post、ACS（cy）追蹤多用網站或 App，客服有語音選單；建議改用官網追蹤或到門市詢問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier line uses IVR and suggests tracking online"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks pickup PIN or ID of recipient"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number (αριθμός αποστολής)",
+        "Recipient name and phone",
+        "Branch or address delivery",
+        "Cash on delivery (αντικαταβολή)"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車（ταξί）可電話叫車（雅典電召台、賽普勒斯城市計程車），也常用 FreeNow／Uber（gr）、Bolt（cy）；機場接送可預約定價。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Radio taxi gives car number and arrival time"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for airport/port transfer"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or licence number"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination, port or airport",
+        "Passengers, luggage, child seat",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "el": {
+      "appointment_words": [
+        "κλείσιμο ραντεβού",
+        "ραντεβού με γιατρό",
+        "ραντεβού για κούρεμα",
+        "καθαρισμός δοντιών",
+        "ΚΤΕΟ αυτοκινήτου"
+      ],
+      "booking_words": [
+        "κράτηση τραπεζιού",
+        "κλείσε τραπέζι",
+        "κράτηση δωματίου",
+        "διανυκτέρευση με πρωινό",
+        "κρατήστε μου θέση"
+      ],
+      "change_words": [
+        "αλλαγή ραντεβού",
+        "ακύρωση κράτησης",
+        "μισή ώρα αργότερα",
+        "να το πάμε Παρασκευή",
+        "μετάθεση της κράτησης"
+      ],
+      "date": [
+        "αύριο",
+        "μεθαύριο",
+        "αυτή την Παρασκευή",
+        "την άλλη Τρίτη",
+        "στις 25/11",
+        "Σάββατο βράδυ"
+      ],
+      "false_friends": [
+        "3ος όροφος",
+        "ισόγειο",
+        "μενού Νο 4",
+        "μασάζ 60'",
+        "λεωφορείο 040",
+        "Οδός Ερμού 12, Τ.Κ. 10563"
+      ],
+      "inquiry_words": [
+        "μέχρι τι ώρα έχει κουζίνα",
+        "δέχεστε κάρτα",
+        "επιτρέπονται κατοικίδια",
+        "το έχετε διαθέσιμο",
+        "ωράριο λειτουργίας"
+      ],
+      "name": [
+        "στο όνομα Παπαδόπουλος",
+        "Γιώργος Παπαδάκης",
+        "Μαρία Νικολάου",
+        "οικογένεια Γεωργίου",
+        "κ. Ιωάννου"
+      ],
+      "order_words": [
+        "παραγγελία για πακέτο",
+        "τέικ αγουέι (take away)",
+        "για παραλαβή",
+        "με ντελίβερι",
+        "να μου το κρατήσετε"
+      ],
+      "party": [
+        "τραπέζι για 4",
+        "2 ενήλικες και 1 παιδί",
+        "είμαστε τρεις",
+        "για 2 άτομα",
+        "5 άτομα + καρεκλάκι μωρού",
+        "παρέα 8 ατόμων"
+      ],
+      "phone": [
+        "69x 123 4567 (κινητό, gr)",
+        "210 123 4567 (σταθερό Αθήνα)",
+        "91 234 567 (κινητό, cy)",
+        "21 234 567 (σταθερό, cy)"
+      ],
+      "time": [
+        "στις επτάμισι το βράδυ",
+        "19:30",
+        "επτά και τέταρτο",
+        "οχτώ παρά τέταρτο",
+        "το μεσημέρι στις 2",
+        "κατά τις 9 το βράδυ"
+      ]
+    },
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "doctor's appointment",
+        "haircut appointment",
+        "car MOT",
+        "dental cleaning"
+      ],
+      "booking_words": [
+        "table reservation",
+        "book a table",
+        "book a room",
+        "bed and breakfast",
+        "hold a place"
+      ],
+      "change_words": [
+        "reschedule",
+        "cancel the booking",
+        "half an hour later",
+        "move it to Friday",
+        "change the date"
+      ],
+      "date": [
+        "tomorrow",
+        "the day after tomorrow",
+        "this Friday",
+        "next Tuesday",
+        "on 25/11",
+        "Saturday evening"
+      ],
+      "false_friends": [
+        "2nd floor flat 4",
+        "Ground floor",
+        "menu no. 4",
+        "60 min massage",
+        "bus 30",
+        "P.O. Box 1234"
+      ],
+      "inquiry_words": [
+        "until what time is the kitchen open",
+        "do you take cards",
+        "are pets allowed",
+        "is it in stock",
+        "opening hours"
+      ],
+      "name": [
+        "under the name Georgiou",
+        "Andreas Christou",
+        "Elena Charalambous",
+        "the Ioannou family",
+        "Mr Constantinou"
+      ],
+      "order_words": [
+        "order to take away",
+        "for collection",
+        "for delivery",
+        "keep it aside for me",
+        "pre-order"
+      ],
+      "party": [
+        "table for 4",
+        "2 adults and 1 child",
+        "there are three of us",
+        "for 2 people",
+        "5 people plus a high chair",
+        "group of 8"
+      ],
+      "phone": [
+        "91 234 567",
+        "+357 91 234 567",
+        "call back on 91 234 567",
+        "21 234 567"
+      ],
+      "time": [
+        "half past seven in the evening",
+        "19:30",
+        "quarter past seven",
+        "quarter to eight",
+        "around 9 pm",
+        "1 o'clock lunch"
+      ]
+    }
+  }
+}

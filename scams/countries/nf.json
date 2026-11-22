@@ -1,0 +1,61 @@
+{
+  "name": "Norfolk Island",
+  "name_local": "Norf'k Ailen / Norfolk Island",
+  "iso": "nf",
+  "calling_code": "+672",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "In August 2024 the Australian Department of Infrastructure warned the Norfolk Island community to use only authorised banks and insurers, because unauthorised operators are not covered by the Financial Claims Scheme. Broader Scamwatch typologies apply to the territory as part of Australia, but no Norfolk-only case series was found.",
+  "cross_border_note": "Norfolk Island's public code is +672 3, distinct in allocation from the mainland +61 plan, yet spoofed international calls can still display a Norfolk-style number. APRA authorisation, not a number that merely looks local, is what shows that a deposit-taker is lawful.",
+  "scams": [
+    {
+      "id": "nf_unauthorised_bank_or_insurer",
+      "typology": "fake_bank_account_alert",
+      "name": "Infrastructure Department warning on unauthorised banking or insurance",
+      "name_en": "Official 2024 Norfolk Island warning: depositing with or buying cover from an operator not authorised by APRA leaves no Financial Claims Scheme protection",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Financial Claims Scheme",
+        "APRA authorisation",
+        "Norfolk Island banking law",
+        "unauthorised insurance cover"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "bank that is not on the APRA list",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "deposit outside the government safety net",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "insurance from an unlicensed operator",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "community scheme instead of an authorised ADI",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The Australian Government told Norfolk Island residents that some local financial activity may be run by operators who are not authorised under the Banking Act or the Insurance Act as they extend to the island. Money placed with those operators is not protected by the Financial Claims Scheme.",
+      "legit_en": "Lawful banking, general insurance and superannuation businesses on Norfolk Island must be authorised by APRA and appear in APRA's published licensing material. A genuine authorised deposit-taking institution does not need to ask a customer to move funds into an unofficial 'community bank' to keep the money safe.",
+      "bait_tactics": [
+        "Ask for the institution's APRA authorisation and say the name will be read from APRA's own licensing pages, not from a flyer the caller supplies.",
+        "Refuse to shift a deposit or premium into an informal island 'bank' or a privately run purse that cannot point to the Financial Claims Scheme.",
+        "Offer to continue the conversation only after the Norfolk Island community has checked the Infrastructure Department's 29 August 2024 notice."
+      ],
+      "sources": [
+        "https://www.infrastructure.gov.au/sites/default/files/documents/media-release-protect-your-money-and-yourself-29august2024.pdf",
+        "https://www.apra.gov.au/financial-claims-scheme-0",
+        "https://www.infrastructure.gov.au/territories-regions/australian-territories"
+      ]
+    }
+  ]
+}

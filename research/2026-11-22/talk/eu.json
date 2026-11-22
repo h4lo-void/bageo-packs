@@ -1,0 +1,294 @@
+{
+  "lang": "eu",
+  "backchannels": {
+    "direction": "No Basque call-corpus ranking was found; bai and ados keep a line moving. A flat bai, bai can sound rushed.",
+    "examples": [
+      {
+        "text": "Bai.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ados.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ulertzen dut.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Hala da.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Bai, bai.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Benetan? marks surprise; sentitzen dut is careful sympathy, and zorionak fits good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "Benetan?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Egitan?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Sentitzen dut.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Pena da.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Zorionak!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Zorionak bihotzez.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Zaila izango da.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "A course flags gaizki entzuten da or deia moztu da; ask them to speak up, without stalling the call.",
+    "examples": [
+      {
+        "text": "Gaizki entzuten da.",
+        "style": "casual"
+      },
+      {
+        "text": "Ez zaitut ondo entzuten.",
+        "style": "polite"
+      },
+      {
+        "text": "Deia moztu da.",
+        "style": "casual"
+      },
+      {
+        "text": "Ozenago hitz egin, mesedez.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives ez dut ulertzen; mesedez errepikatu asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "Ez dut ulertzen.",
+        "style": "casual"
+      },
+      {
+        "text": "Mesedez errepikatu.",
+        "style": "polite"
+      },
+      {
+        "text": "Barkatu, ez dut ulertu.",
+        "style": "polite"
+      },
+      {
+        "text": "Zenbakia berriro: 12345678 da?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "An EHU phone list uses bai, nor da? and noren partez, mesedez?; on a shared handset, name {owner} first.",
+    "examples": [
+      {
+        "text": "Bai, nor da?",
+        "style": "polite"
+      },
+      {
+        "text": "Noren partez, mesedez?",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}-ren telefonoa da. Nor da?",
+        "style": "polite"
+      },
+      {
+        "text": "Nor zara?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Elhuyar models okerreko telefono-zenbakia daukazu; a short barkatu and close is enough.",
+    "examples": [
+      {
+        "text": "Okerreko telefono-zenbakia daukazu.",
+        "style": "polite"
+      },
+      {
+        "text": "Okerreko zenbakia.",
+        "style": "casual"
+      },
+      {
+        "text": "Barkatu, okerreko zenbakia da.",
+        "style": "polite"
+      },
+      {
+        "text": "Ez dago izen horretako inor hemen.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "The same EHU list offers a mezu; esango diot {owner}-ri passes the news and does not, alone, fix a time.",
+    "examples": [
+      {
+        "text": "Esango diot {owner}-ri.",
+        "style": "polite"
+      },
+      {
+        "text": "Mezua utziko diot.",
+        "style": "polite"
+      },
+      {
+        "text": "Esango diot deitu duzula.",
+        "style": "polite"
+      },
+      {
+        "text": "Esango diot.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Ez, eskerrik asko, ez zait interesatzen closes a pitch; extra reasons can sound like bargaining.",
+    "examples": [
+      {
+        "text": "Ez, eskerrik asko, ez zait interesatzen.",
+        "style": "polite"
+      },
+      {
+        "text": "Eskerrik asko, ez dugu hori behar.",
+        "style": "polite"
+      },
+      {
+        "text": "Ez zait interesatzen.",
+        "style": "casual"
+      },
+      {
+        "text": "Mesedez, kendu gaitzazue zerrendatik.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second ez often adds mesedez ez deitu berriro zenbaki honetara, still with zu or a polite form.",
+    "examples": [
+      {
+        "text": "Jada ezetz esan dut. Mesedez ez deitu berriro zenbaki honetara.",
+        "style": "polite"
+      },
+      {
+        "text": "Ez zait interesatzen, eta deitzeari uzteko eskatzen dizut.",
+        "style": "polite"
+      },
+      {
+        "text": "Ez deitu berriro, mesedez.",
+        "style": "casual"
+      },
+      {
+        "text": "Ezetz definitiboa da; ez zaitezte berriro harremanetan jarri.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "zu is the everyday polite address; hi is intimate and regional. Jaun or andre plus a surname stays careful.",
+    "examples": [
+      {
+        "text": "Jauna.",
+        "style": "polite"
+      },
+      {
+        "text": "Andrea.",
+        "style": "polite"
+      },
+      {
+        "text": "Doktorea.",
+        "style": "polite"
+      },
+      {
+        "text": "Zu.",
+        "style": "polite"
+      },
+      {
+        "text": "Hi, zer moduz?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A centre calque like zure deia garrantzitsua da guretzat sounds odd on a private mugikor.",
+    "examples": [
+      {
+        "text": "Zure deia garrantzitsua da guretzat.",
+        "style": "polite"
+      },
+      {
+        "text": "Nola lagun zaitzaket gaur?",
+        "style": "polite"
+      },
+      {
+        "text": "Pozik zaituztegu zerbitzatzen.",
+        "style": "polite"
+      },
+      {
+        "text": "Eskerrik asko {owner}-ren bulegora deitzeagatik.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to hi too soon, or asking for a NAN or salary at the start of a call, feels like overstepping.",
+    "examples": [
+      {
+        "text": "Ezkonduta zaude? Zenbat irabazten duzu?",
+        "style": "casual"
+      },
+      {
+        "text": "Zergatik ez du {owner}-k deitu? Esan non dagoen orain.",
+        "style": "casual"
+      },
+      {
+        "text": "Lehenik NANa eta helbidea, mesedez.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.ehu.eus/documents/d/euskara/bai_esan_kanpaniako_zerrenda_telefono",
+    "https://hiztegiak.elhuyar.eus/en_eu/telephone%20number",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "未找到巴斯克語私人電話相槌頻率表；bai／ados 依會話習慣，不是語料庫排序。",
+    "EHU 電話用語表裡有請人在線上短暫停留的句子，本檔完全不用。",
+    "hi 作為親密稱謂有方言限制，代接陌生人時本檔以 zu 為預設。"
+  ]
+}

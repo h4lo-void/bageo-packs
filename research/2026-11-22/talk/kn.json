@@ -1,0 +1,290 @@
+{
+  "lang": "kn",
+  "backchannels": {
+    "direction": "ಹೌದು is the plain yes; ಸರಿ accepts a point; ಹೂಂ keeps the line open, and rushed ಹೌದು ಹೌದು can sound curt.",
+    "examples": [
+      {
+        "text": "ಹೌದು.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ಸರಿ.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ಹೂಂ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ಹೌದು ಸಾರ್.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ಹೌದು ಮೇಡಂ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ಹೌದು, ಹೌದು.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "North-Karnataka ಸುಳ್ಳೆ can mean 'seriously?!'; ಕ್ಷಮಿಸಿ is the listed sorry; ಅಭಿನಂದನೆಗಳು congratulates.",
+    "examples": [
+      {
+        "text": "ಸುಳ್ಳೆ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ಏನು?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ಕ್ಷಮಿಸಿ.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ಅಭಿನಂದನೆಗಳು!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ಸಖತ್ತಾಗಿದೆ!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "ಇದು ಸ್ವಲ್ಪ ಕಷ್ಟ.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "ಕೇಳಿಸ್ತಿಲ್ಲ means the sound is not arriving, unlike ನನಗೆ ಅರ್ಥ ಆಗಲಿಲ್ಲ; ask for volume or name a dead network.",
+    "examples": [
+      {
+        "text": "ಕೇಳಿಸ್ತಿಲ್ಲ.",
+        "style": "casual"
+      },
+      {
+        "text": "ಸ್ವಲ್ಪ ಜೋರಾಗಿ ಮಾತಾಡಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ನೆಟ್‌ವರ್ಕ್ ಇಲ್ಲ.",
+        "style": "casual"
+      },
+      {
+        "text": "ನನಗೆ ಅರ್ಥ ಆಗಲಿಲ್ಲ.",
+        "style": "polite"
+      },
+      {
+        "text": "ಸ್ವಲ್ಪ ನಿಧಾನವಾಗಿ ಮಾತಾಡಿ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ or ಇನ್ನೊಂದು ಸಲ ಹೇಳಿ asks for a replay; take the name again and confirm the digits.",
+    "examples": [
+      {
+        "text": "ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ಇನ್ನೊಂದು ಸಲ ಹೇಳಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ನಿಮ್ಮ ಹೆಸರೇನು? ಇನ್ನೊಮ್ಮೆ ಹೇಳಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ನಂಬರ್ 12345678 ಅಲ್ವಾ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Phone openings use ಹಲೋ, then ಯಾರು ಮಾತಾಡ್ತಿದ್ದೀರಿ? Clipped ಯಾರ್ ಮಾತಾಡ್ತ್ ಇರೋದು is the same ask, more casual.",
+    "examples": [
+      {
+        "text": "ಹಲೋ, ಯಾರು ಮಾತಾಡ್ತಿದ್ದೀರಿ?",
+        "style": "polite"
+      },
+      {
+        "text": "ಯಾರ್ ಮಾತಾಡ್ತ್ ಇರೋದು?",
+        "style": "casual"
+      },
+      {
+        "text": "ಇದು {owner} ಅವರ ನಂಬರ್, ನೀವು ಯಾರು?",
+        "style": "polite"
+      },
+      {
+        "text": "ನಿಮ್ಮ ಹೆಸರೇನು?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Wikivoyage has ನೀವು ತಪ್ಪಾದ ನಂಬರ್ ಒತ್ತಿದ್ದೀರಿ for the receiver; ತಪ್ಪು ನಂಬರ್ and ರಾಂಗ್ ನಂಬರ್ are the short forms.",
+    "examples": [
+      {
+        "text": "ನೀವು ತಪ್ಪಾದ ನಂಬರ್ ಒತ್ತಿದ್ದೀರಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ತಪ್ಪು ನಂಬರ್.",
+        "style": "casual"
+      },
+      {
+        "text": "ರಾಂಗ್ ನಂಬರ್.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "{owner}ಗೆ ಹೇಳ್ತೀನಿ uses everyday ಹೇಳು with respectful ಅವರು; no later callback hour is stated.",
+    "examples": [
+      {
+        "text": "{owner} ಅವರಿಗೆ ಹೇಳ್ತೀನಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}ಗೆ ಹೇಳ್ತೀನಿ.",
+        "style": "casual"
+      },
+      {
+        "text": "ಅವರಿಗೆ ಹೇಳುತ್ತೇನೆ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ನನಗೆ ಇದು ಬೇಡ and ನನಗೆ ಇಷ್ಟ ಇಲ್ಲ are the shopping-list refusals; add ಧನ್ಯವಾದಗಳು to keep it civil.",
+    "examples": [
+      {
+        "text": "ಧನ್ಯವಾದಗಳು, ನನಗೆ ಇದು ಬೇಡ.",
+        "style": "polite"
+      },
+      {
+        "text": "ನನಗೆ ಇಷ್ಟ ಇಲ್ಲ, ಧನ್ಯವಾದ.",
+        "style": "polite"
+      },
+      {
+        "text": "ಇನ್ನೇನೂ ಬೇಡ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After the first ಬೇಡ, say that refusal again; no published anti-sales script was found, so none is invented.",
+    "examples": [
+      {
+        "text": "ನಾನು ಆಗಲೇ ಬೇಡ ಅಂದಿದ್ದೀನಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ನನಗೆ ಇಷ್ಟ ಇಲ್ಲ, ಮತ್ತೆ ಹೇಳಬೇಡಿ.",
+        "style": "polite"
+      },
+      {
+        "text": "ಈ ನಂಬರ್‌ಗೆ ಕರೆ ಬೇಡ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ನೀನು is intimate; ನೀವು is ordinary respect; ತಾವು is higher; name plus ಅವರು, or ಸಾರ್ and ಮೇಡಂ in offices.",
+    "examples": [
+      {
+        "text": "ನೀವು",
+        "style": "polite"
+      },
+      {
+        "text": "ತಾವು",
+        "style": "polite"
+      },
+      {
+        "text": "ರಮೇಶ್ ಅವರು",
+        "style": "polite"
+      },
+      {
+        "text": "ಸಾರ್",
+        "style": "polite"
+      },
+      {
+        "text": "ಮೇಡಂ",
+        "style": "polite"
+      },
+      {
+        "text": "ನೀನು",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Thanking them for the call, or asking how you may assist, belongs on a helpdesk, not a private Kannada line.",
+    "examples": [
+      {
+        "text": "ನಿಮ್ಮ ಕರೆಗೆ ಧನ್ಯವಾದಗಳು.",
+        "style": "polite"
+      },
+      {
+        "text": "ನಾನು ನಿಮಗೆ ಹೇಗೆ ಸಹಾಯ ಮಾಡಲಿ?",
+        "style": "polite"
+      },
+      {
+        "text": "ಗ್ರಾಹಕ ಸೇವೆಗೆ ಸ್ವಾಗತ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "ನೀನು or ನಿನ್ನ ಹೆಸರೇನು? to an elder or stranger drops the honorific; marriage questions stay with familiars.",
+    "examples": [
+      {
+        "text": "ನೀನು ಯಾರು?",
+        "style": "casual"
+      },
+      {
+        "text": "ನಿನ್ನ ಹೆಸರೇನು?",
+        "style": "casual"
+      },
+      {
+        "text": "ನಿಮ್ಮ ಮದುವೆ ಆಗಿದೆಯಾ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://www.omniglot.com/language/phrases/kannada.php",
+    "https://en.wikivoyage.org/wiki/Kannada_phrasebook",
+    "https://learnkannada.site/blog/office-talk-and-phone-calls-in-kannada",
+    "https://adeptwrite.com/kn/guides/kannada-honorifics-avaru-forms-of-address/",
+    "https://govanico.com/kannada/say/hello-who-is-speaking",
+    "https://govanico.com/kannada/say/wrong-number",
+    "https://govanico.com/kannada/say/i-dont-understand"
+  ],
+  "uncertain": [
+    "沒有找到卡納達語通話語料庫；班加羅爾口語大量夾英語（hello、call、network、number、busy），比例無法量化。",
+    "教材裡常見的請人在線上短暫停留的套語，本檔完全不用。",
+    "ಸುಳ್ಳೆ 作「真的假的？」是 Wikivoyage 所記北卡納塔卡用法，不當作全域驚訝詞。",
+    "ಕ್ಷಮಿಸಿ 在片語表是道歉，沒有單獨的「聽到這事很難過」電話專句，同情只好借用它。",
+    "ಇದು ಸ್ವಲ್ಪ ಕಷ್ಟ 是普通「這有點難」，不是取自通話實錄。",
+    "轉告 {owner}ಗೆ ಹೇಳ್ತೀನಿ 依普通動詞 ಹೇಳು 加敬稱 ಅವರು；片語書沒有現成轉述稿，也不約定何時回撥。",
+    "反纏拒銷沒有官方稿，只重複已見的 ಬೇಡ／ಇಷ್ಟ ಇಲ್ಲ。ನೀನು 對長輩或陌生人是明確失禮。"
+  ]
+}

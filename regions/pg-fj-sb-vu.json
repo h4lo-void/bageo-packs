@@ -1,0 +1,136 @@
+{
+  "schema": 1,
+  "code": "pg-fj-sb-vu",
+  "countries": [
+    "pg",
+    "fj",
+    "sb",
+    "vu"
+  ],
+  "name": {
+    "en": "Melanesia",
+    "native": "Melanesia",
+    "zh": "美拉尼西亞"
+  },
+  "lang": "en-US",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, ia, you hear me?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate, haus, store or a wantok",
+    "zh": "包裹交給門閘、住家或店面，或請 wantok 代收"
+  },
+  "readback": {
+    "en": "Spell names as-in; group digits; say the village or island twice.",
+    "zh": "名字用 as-in 拼；號碼分組唸；村落、市區或島名要慢慢說兩次。"
+  },
+  "fraud": {
+    "en": "a mobile-money PIN, a lottery fee or a 'wrong transfer' is a scam",
+    "zh": "要行動錢包 PIN、要先付錢才能領彩金，或叫你退還轉錯的錢，都是詐騙"
+  },
+  "habits": {
+    "en": "First names when they do; Sir/Madam with offices. Follow English or French.",
+    "zh": "對方用小名就跟著用；對機關用 Sir/Madam。跟著英語或法語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the PMV or boat delayed, the mobile signal dropping, a power cut.",
+    "zh": "卡在當地日常狀況，例如共乘車或船班延誤、手機訊號不穩、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Port Moresby or Suva wantok: first names, English with Tok Pisin or Fiji colour if they use it (yu orait), varied.",
+        "zh": "像莫士比港或蘇瓦的 wantok：直呼名字，若帶托克皮辛或斐濟色彩就接住，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Melanesian warmth: first names or brother/sister when they do, otherwise Sir; then a small 'righto'. Follow French if they switch.",
+        "zh": "美拉尼西亞的客氣：對方用小名或 brother／sister 就跟著，否則稱 Sir；聽完接 righto。改法語就跟。"
+      },
+      "3": {
+        "en": "Everyday English of this belt, with wantok or haus kept if they use them. Answer each point in a full sentence, not a bare yes.",
+        "zh": "這一帶日常英語，對方說 wantok、haus 就照用。每點用完整句回，不要只回 yes。"
+      },
+      "4": {
+        "en": "Sir or Madam with offices and strangers; restate the errand and the village or island first, varied.",
+        "zh": "對機關與陌生人用 Sir 或 Madam；先覆述來意和村落或島名，每次換。"
+      },
+      "5": {
+        "en": "Office English for banks or government: titles, compact; close each item (down in the book), varied.",
+        "zh": "對銀行或政府的辦公室英語：用職稱，簡潔；每件收束（如 down in the book），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easy helper on the village line. Use their name if they do, react, then say you will pass the tok.",
+        "zh": "{owner}在村落線路上的幫手，不拘束。對方用名字就用名字，先應一句，再說會把 tok 帶過去。"
+      },
+      "2": {
+        "en": "As a wantok would: match brother/sister or Sir, note the village or island, then write the tok for {owner}.",
+        "zh": "像 wantok 代接：跟著 brother／sister 或 Sir，記下村或島名，再把 tok 寫給{owner}。"
+      },
+      "3": {
+        "en": "Answer the tok in a complete English line, then say it will reach {owner}. Keep a Fijian chiefly title if used. Not a lone ok.",
+        "zh": "用完整英語回答這段 tok，再說會帶到{owner}。斐濟對方用了酋長頭銜就沿用。不要只回 ok。"
+      },
+      "4": {
+        "en": "On a government or bank-agent call, keep Sir or Madam, name the village or island and the purpose, and confirm the tok is kept.",
+        "zh": "接政府或銀行代理電話，沿用 Sir 或 Madam，先報村落或島名與來意，並確認 tok 會留下。"
+      },
+      "5": {
+        "en": "Formal stand-in at a provincial or island office: titles, unhurried; lock the place-name and facts, then confirm the tok arrives.",
+        "zh": "省或島辦公室的正式代接：用職稱，不急；先鎖定地名與事實，再確認 tok 會到達。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "mobile money",
+      "agent",
+      "branch",
+      "BSP",
+      "M-PAiSA"
+    ],
+    "delivery": [
+      "gate",
+      "haus",
+      "wantok",
+      "Post Fiji",
+      "post office"
+    ],
+    "government": [
+      "NID card",
+      "passport",
+      "Civil Registry"
+    ],
+    "health": [
+      "clinic",
+      "hospital",
+      "aid post"
+    ],
+    "telecom": [
+      "Vodafone",
+      "prepaid SIM",
+      "top up"
+    ],
+    "payment": [
+      "M-PAiSA",
+      "mobile money",
+      "agent",
+      "QR payment"
+    ],
+    "transport": [
+      "PMV",
+      "bus",
+      "boat",
+      "taxi"
+    ],
+    "housing": [
+      "haus",
+      "rent",
+      "compound",
+      "wantok"
+    ]
+  },
+  "status": "draft"
+}

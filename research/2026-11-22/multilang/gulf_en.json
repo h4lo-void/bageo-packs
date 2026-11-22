@@ -1,0 +1,91 @@
+{
+  "region": "gulf",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Yes, hello?"
+  },
+  "habits": {
+    "en": "Expat work English: sir/madam and kindly are common. Keep iqama, Emirates ID, RTA, DEWA, Absher. Formal with strangers.",
+    "zh": "海灣職場英語常稱 sir、madam，也用 kindly。證件說 iqama。對生人偏正式。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close expat friend: casual, but still a bit of sir or yaar; Arabic work words like iqama stay, no need to unpack them.",
+        "zh": "僑民熟友可隨便些，仍可能叫 sir 或 yaar；iqama 等阿拉伯工作詞直接用，不必解釋。"
+      },
+      "2": {
+        "en": "Easygoing colleague: friendly but neat; after they speak, a short sure, kindly if they used it, local IDs left as named.",
+        "zh": "隨和同事友善但整齊；聽完短短接一句，若對方用 kindly 可跟著，證件名照當地叫法。"
+      },
+      "3": {
+        "en": "Everyday Gulf work English. Answer in a full plain sentence; papers are iqama or Emirates ID, not a generic residence card only.",
+        "zh": "海灣日常工作英語。用完整明白的句子回答；證件說 iqama 或 Emirates ID，不要只說籠統的居留證。"
+      },
+      "4": {
+        "en": "Polite sir/madam with offices and clients. Keep RTA, DEWA or Absher, sentences fuller, slightly more formal than US English.",
+        "zh": "對機關與客戶用 sir、madam。RTA、DEWA、Absher 照留，句子較完整，比美國英語更正式一些。"
+      },
+      "5": {
+        "en": "Professional and tidy. Kindly is fine; quote Civil ID or Qiwa exactly, close each item in a complete line, no slang.",
+        "zh": "商務整齊。可用 kindly；Civil ID、Qiwa 要說準，各項用完整句子收住，不用俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: still polite, short, then you'll pass the message, no slangy American filler.",
+        "zh": "{owner}隨興代接：仍要客氣、句子短，再把話帶去，不要美式隨口空話。"
+      },
+      "2": {
+        "en": "Welcoming stand-in: match sir/madam if they use it, leave iqama as said, and tell them {owner} will be informed.",
+        "zh": "好客代接：對方稱 sir、madam 就跟著，iqama 照叫，並告知會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Workplace assistant. Restate the Emirates ID or RTA point in one full sentence, then confirm you will tell {owner}.",
+        "zh": "職場代接。先用整句重述 Emirates ID 或 RTA 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary: composed, sir or madam, note the purpose, keep government portal names, confirm the handover.",
+        "zh": "謹慎秘書：穩重，用 sir 或 madam，記下來意，政府網站名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about Absher, DEWA or dirham, kindly and clear, then confirm the note for {owner}.",
+        "zh": "正式代表：把 Absher、DEWA 或 dirham 說準，客氣清楚，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hey, how are you, tell me what's going on.",
+      "Yes, hello? I'm listening, go ahead please.",
+      "Hello, good afternoon. Is this about the iqama? Understood.",
+      "Good afternoon, thanks for calling. The RTA matter is clear.",
+      "Good afternoon, thank you. The Emirates ID point is noted."
+    ],
+    "a": [
+      "Hello! They're not here, tell me and I'll pass it.",
+      "Yes, hello? I'm taking their calls, please share the message.",
+      "Hello, good afternoon. I will note this for {owner}.",
+      "Good afternoon, thank you. I will convey the message.",
+      "Good afternoon, thank you. I will record the details for them."
+    ]
+  },
+  "diff_from_home": [
+    "比英美日常英語更常使用 sir、madam 與 kindly，受南亞職場英語影響明顯。",
+    "居留與政府手續用當地詞：沙烏地稱 iqama，阿聯酋用 Emirates ID，科威特常見 Civil ID。",
+    "機關與帳單常直接說 RTA、DEWA、Salik、Absher、Qiwa，不必改成通用英文描述。",
+    "付款貨幣依國而異（dirham、riyal、dinar）；週末在多數海灣國家是週五、六，阿聯酋私人企業多已改週六、日。"
+  ],
+  "sources": [
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "https://www.gov.uk/guidance/living-in-the-united-arab-emirates",
+    "https://www.absher.sa/",
+    "https://www.rta.ae/",
+    "https://www.dewa.gov.ae/"
+  ],
+  "uncertain": [
+    "六國英語習慣並不完全相同：阿聯酋、卡達、巴林英語更普及，沙烏地與阿曼政府場合更常先用阿拉伯語。",
+    "please do the needful 等南亞書面語在電話口語中的實際頻率，缺少定量調查。"
+  ]
+}

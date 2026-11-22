@@ -1,0 +1,137 @@
+{
+  "name": "Burkina Faso",
+  "name_local": "Burkina Faso",
+  "iso": "bf",
+  "calling_code": "+226",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Orange Burkina Faso, a BCEAO-licensed e-money issuer, has warned that fake Orange Money credit SMS are followed by a call asking the customer to send the money back. It also tells users not to type a code dictated by a caller and not to give the wallet password even to someone claiming to work for Orange. Official pages further caution that a remote transfer request may come from someone impersonating a relative.",
+  "cross_border_note": "Calls and SMS are usually in French or a local language and may use Burkinabe mobiles; some lures also borrow regional institution names used across UEMOA.",
+  "scams": [
+    {
+      "id": "bf_fake_credit_sms_refund",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux SMS de crédit Orange Money et demande de renvoi",
+      "name_en": "Fake Orange Money credit SMS and refund call",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "erreur de transfert",
+        "renvoyer la somme",
+        "SMS de réception",
+        "Orange Money"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "demands a manual refund of an apparent Orange Money credit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims the credit was sent to the wrong number",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "treats a credit SMS as proof that funds have arrived",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A forged SMS looks like an Orange Money credit notice. Shortly afterwards a caller claims the transfer was a mistake and presses the customer to send the same amount back from their own wallet.",
+      "legit_en": "Orange Burkina Faso's official communiqué describes this exact sequence and tells subscribers to check their real balance before making any transaction, rather than treating a credit SMS as proof that money has arrived.",
+      "bait_tactics": [
+        "Le solde Orange Money affiché sur ce téléphone à Ouagadougou n'a pas augmenté, donc je ne renvoie rien à partir d'un SMS de crédit.",
+        "L'historique officiel du compte ne montre aucun dépôt correspondant à ce que vous décrivez.",
+        "Je ne vais pas transférer mon propre argent vers un numéro que je viens d'entendre au téléphone."
+      ],
+      "sources": [
+        "https://www.orange.bf/fr/communique-arnaque.html"
+      ]
+    },
+    {
+      "id": "bf_dictated_code_or_password",
+      "typology": "otp_theft",
+      "name": "Code dicté ou mot de passe Orange Money exigé",
+      "name_en": "Dictated code or Orange Money password request",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "mot de passe Orange Money",
+        "code dicté",
+        "agent Orange",
+        "guichet automatique"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks the customer to key in a code being spoken on the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "solicits the Orange Money password from a claimed agent",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for the kiosk transaction code that can unlock a cash-out",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller, SMS or email tells the customer to type a code being dictated, to say the Orange Money password, or to repeat an automatic-kiosk transaction code, often while the person claims to work for Orange.",
+      "legit_en": "Orange Burkina Faso says never to type a code dictated by phone, SMS or email, never to give the Orange Money password even to someone claiming to work for Orange, and never to share a kiosk transaction code that could be used to withdraw funds.",
+      "bait_tactics": [
+        "Je ne saisis aucune séquence dictée au téléphone, mon mot de passe reste uniquement sur cet appareil.",
+        "Le menu du compte est encore en chargement, je ne valide aucune opération demandée par un tiers.",
+        "Je n'énonce pas un code de guichet, cela servirait à un retrait que je n'ai pas initié."
+      ],
+      "sources": [
+        "https://www.orange.bf/fr/communique-arnaque.html",
+        "https://www.orange.bf/fr/mes-donnees-mon-identite.html"
+      ]
+    },
+    {
+      "id": "bf_remote_relative_transfer",
+      "typology": "fake_relative_money",
+      "name": "Faux proche demandant un transfert à distance",
+      "name_en": "Impersonated relative asking for a remote transfer",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "transfert à distance",
+        "proche en difficulté",
+        "envoie-moi de l'argent",
+        "urgence familiale"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "poses as a relative and demands an immediate remote transfer",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "says the usual number is no longer usable and offers another",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "discourages the customer from checking with other relatives",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone asks for an Orange Money transfer at a distance while posing as a relative or close contact, often with an urgent story and a number the customer does not usually use for that person.",
+      "legit_en": "Orange Burkina Faso tells customers always to verify the identity of a person who asks for a remote transfer, because it may be a fraudster impersonating a relative or someone close.",
+      "bait_tactics": [
+        "Je n'envoie pas d'argent à un numéro que cette personne n'utilise pas d'habitude, tant que je n'ai pas confirmé son identité par un autre moyen que cet appel.",
+        "Le récit d'urgence ne correspond à rien que la famille m'ait déjà signalé aujourd'hui.",
+        "Mon solde de la journée est déjà engagé, je ne fais pas un transfert improvisé vers un contact que je ne reconnais pas."
+      ],
+      "sources": [
+        "https://www.orange.bf/fr/mes-donnees-mon-identite.html"
+      ]
+    }
+  ]
+}

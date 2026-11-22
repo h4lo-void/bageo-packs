@@ -1,0 +1,89 @@
+{
+  "region": "gulf",
+  "lang": "ta",
+  "hello": {
+    "hello": "வணக்கம்.",
+    "hello_again": "ஹலோ, சொல்லுங்க."
+  },
+  "habits": {
+    "en": "Gulf Tamil keeps நீங்கள் with strangers. Work words stay English or Arabic: iqama, visa, camp, duty, dirham.",
+    "zh": "海灣泰米爾語對生人用 நீங்கள்。工作詞常留 iqama、visa、camp、duty、dirham。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Tamil friend: நீ among close peers, otherwise நீங்கள்; visa or camp sit in the Tamil sentence unchanged.",
+        "zh": "泰米爾熟友平輩可用 நீ，否則用 நீங்கள்；visa、camp 原樣進泰米爾語句。"
+      },
+      "2": {
+        "en": "Easygoing: keep நீங்கள் if unsure; after they speak, a short சரி, Arabic ID terms left as-is.",
+        "zh": "沒把握時用 நீங்கள்；聽完短短說 சரி，阿拉伯語證件詞照留。"
+      },
+      "3": {
+        "en": "Everyday Gulf Tamil. Finish the point fully; papers and shifts are visa, iqama or duty, not only Tamil Nadu official style.",
+        "zh": "海灣日常泰米爾語。把重點說完整；證件與班次常說 visa、iqama、duty，不必只用泰米爾納德公文腔。"
+      },
+      "4": {
+        "en": "Polite நீங்கள் and வாங்க with offices. Keep sponsor or company as said, sentences fuller.",
+        "zh": "對機關用禮貌 நீங்கள்、வாங்க。sponsor、company 照叫，句子較完整。"
+      },
+      "5": {
+        "en": "Formal நீங்கள், careful. Quote dirham and iqama exactly, close each item, no overly casual slang.",
+        "zh": "正式 நீங்கள்，謹慎。dirham 與 iqama 要說準，各項收住，不要太俗。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: a brief வணக்கம், then you'll pass the message, work words left as said.",
+        "zh": "{owner}隨興代接：先短短 வணக்கம்，再把話帶去，工作詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep நீங்கள், leave camp or visa untouched, and tell them {owner} will hear it.",
+        "zh": "客氣代接：維持 நீங்கள்，camp、visa 不改寫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the duty or iqama point in one full Tamil sentence, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用整句泰米爾語重述 duty 或 iqama 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on நீங்கள்: note the purpose, keep Gulf official words, confirm the handover politely.",
+        "zh": "沉穩秘書用 நீங்கள்：記下目的，海灣官方用詞照留，再客氣確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on நீங்கள்: exact about iqama and dirham, then confirm the note for {owner}.",
+        "zh": "正式代表用 நீங்கள்，把 iqama 與 dirham 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "வணக்கம்! எப்படி இருக்க? சொல்லு, என்ன ஆச்சு?",
+      "ஹலோ, சொல்லுங்க. நான் கேட்கிறேன்.",
+      "வணக்கம். iqama விஷயமா? புரிஞ்சுடுச்சு.",
+      "வணக்கம், கூப்பிட்டதுக்கு நன்றி. visa விஷயம் தெளிவா இருக்கு.",
+      "வணக்கம், நன்றி. dirham விஷயத்தை குறிச்சுக்கிட்டேன்."
+    ],
+    "a": [
+      "வணக்கம்! அவர் இல்ல, என்னிடம் சொல்லுங்க, நான் சொல்றேன்.",
+      "ஹலோ, சொல்லுங்க. நான் அவங்க போன் எடுக்கிறேன்.",
+      "வணக்கம். {owner} கிட்ட நான் சொல்லிடுறேன்.",
+      "வணக்கம், நன்றி. செய்தியை நான் சேர்ப்பிக்கிறேன்.",
+      "வணக்கம், நன்றி. எல்லாம் எழுதி அவர்கிட்ட சொல்றேன்."
+    ]
+  },
+  "diff_from_home": [
+    "對生人維持 நீங்கள்、வாங்க，比在泰米爾納德某些平輩場合更常保持敬語。",
+    "工作與居留詞幾乎不翻譯：iqama、visa、camp、duty、company 直接夾進泰米爾語。",
+    "開場可用 வணக்கம் 或 ஹலோ，正式一點時前者較穩妥。",
+    "斯里蘭卡與印度泰米爾僑民口音不同，但海灣工作詞彙大致相通；不要套用本國政府機構名。"
+  ],
+  "sources": [
+    "https://doi.org/10.7302/4562",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "https://www.gov.uk/guidance/living-in-the-united-arab-emirates"
+  ],
+  "uncertain": [
+    "印度與斯里蘭卡泰米爾僑民在海灣的開場習慣可能不同，本檔未能分開描述。",
+    "泰米爾電話口語中英語切換的比例缺少專門調查。"
+  ]
+}

@@ -1,0 +1,818 @@
+{
+  "region": "in",
+  "vocab": {
+    "en-IN": {
+      "bank": [
+        {
+          "term": "UPI",
+          "en": "instant account-to-account payment, the default way Indians talk about sending money"
+        },
+        {
+          "term": "UPI PIN",
+          "en": "the passcode that authorises a UPI debit; never ask someone to say it aloud"
+        },
+        {
+          "term": "KYC",
+          "en": "know-your-customer checks, named constantly for wallets and SIMs"
+        },
+        {
+          "term": "Aadhaar",
+          "en": "the national ID, often used to open accounts; do not read the full number unless the owner has asked"
+        },
+        {
+          "term": "savings account",
+          "en": "a savings account, the usual retail account"
+        },
+        {
+          "term": "net banking",
+          "en": "logging into the bank site or app, still said even when people mostly use UPI"
+        },
+        {
+          "term": "IFSC",
+          "en": "the bank-branch code for NEFT or IMPS; say IFSC, do not spell a full code unless asked"
+        },
+        {
+          "term": "passbook",
+          "en": "a passbook, still asked for in some branches"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "society",
+          "en": "a housing society, the usual apartment-complex word, and a common place to leave instructions"
+        },
+        {
+          "term": "security guard",
+          "en": "the society or building guard, the person who often takes the parcel"
+        },
+        {
+          "term": "lobby",
+          "en": "the building lobby"
+        },
+        {
+          "term": "at the gate",
+          "en": "leave it at the society gate"
+        },
+        {
+          "term": "India Post",
+          "en": "the national post, also Speed Post when a card or official item is coming"
+        },
+        {
+          "term": "AWB",
+          "en": "the airway-bill or consignment number used to track a Speed Post item"
+        },
+        {
+          "term": "Delhivery",
+          "en": "a widely named private courier"
+        },
+        {
+          "term": "watchman",
+          "en": "another everyday word for the guard, especially in older buildings"
+        }
+      ],
+      "government": [
+        {
+          "term": "Aadhaar",
+          "en": "the identity number and card issued by UIDAI, the document named most often"
+        },
+        {
+          "term": "PAN",
+          "en": "the tax identity card, needed for many money matters; do not read the full PAN unless asked"
+        },
+        {
+          "term": "mAadhaar",
+          "en": "the official UIDAI app, also MyAadhaar for the portal"
+        },
+        {
+          "term": "passport",
+          "en": "an Indian passport, alongside Aadhaar and a PAN card for everyday identity"
+        },
+        {
+          "term": "ration card",
+          "en": "a ration card, still used in some welfare and address proofs"
+        },
+        {
+          "term": "municipality",
+          "en": "the municipal or corporation office, also nagar nigam or nagar palika in mixed speech"
+        },
+        {
+          "term": "GST",
+          "en": "goods and services tax, named in business calls"
+        }
+      ],
+      "health": [
+        {
+          "term": "hospital",
+          "en": "a hospital"
+        },
+        {
+          "term": "chemist",
+          "en": "a pharmacy, the usual Indian English word"
+        },
+        {
+          "term": "clinic",
+          "en": "a clinic, also dispensary in some towns"
+        },
+        {
+          "term": "Ayushman",
+          "en": "public health-cover schemes often shortened this way, also PM-JAY in more official speech"
+        },
+        {
+          "term": "appointment",
+          "en": "a doctor appointment, also OPD"
+        },
+        {
+          "term": "prescription",
+          "en": "a prescription, also just a slip in some Indian speech"
+        },
+        {
+          "term": "medical",
+          "en": "a medical shop or a medical check, depending on context"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "recharge",
+          "en": "topping up a prepaid mobile, the everyday verb"
+        },
+        {
+          "term": "prepaid",
+          "en": "a prepaid SIM, still the majority of lines"
+        },
+        {
+          "term": "postpaid",
+          "en": "a postpaid mobile plan, Indian English usually just postpaid"
+        },
+        {
+          "term": "MNP",
+          "en": "mobile number portability, usually just MNP"
+        },
+        {
+          "term": "data pack",
+          "en": "a mobile-data pack"
+        },
+        {
+          "term": "Jio or Airtel or Vi",
+          "en": "operators are almost always named, not just 'the telco'"
+        },
+        {
+          "term": "SIM",
+          "en": "a SIM, also eSIM in newer phones"
+        }
+      ],
+      "payment": [
+        {
+          "term": "UPI",
+          "en": "scan a QR, send to a UPI ID, or pay a mobile number"
+        },
+        {
+          "term": "PhonePe",
+          "en": "a UPI app people often name"
+        },
+        {
+          "term": "Google Pay",
+          "en": "also GPay, a UPI app people often name"
+        },
+        {
+          "term": "Paytm",
+          "en": "a wallet and UPI app still widely named"
+        },
+        {
+          "term": "cash",
+          "en": "cash, still common for small shops"
+        },
+        {
+          "term": "QR",
+          "en": "a UPI QR at the counter"
+        },
+        {
+          "term": "BHIM",
+          "en": "the NPCI UPI app, heard less than PhonePe or GPay but official"
+        }
+      ],
+      "transport": [
+        {
+          "term": "metro",
+          "en": "the metro, in cities that have one"
+        },
+        {
+          "term": "auto",
+          "en": "an auto-rickshaw, the everyday short form"
+        },
+        {
+          "term": "Ola or Uber",
+          "en": "app cabs, both names are used"
+        },
+        {
+          "term": "local train",
+          "en": "suburban rail, especially in Mumbai"
+        },
+        {
+          "term": "bus",
+          "en": "a city or state-road bus"
+        },
+        {
+          "term": "IRCTC",
+          "en": "the railway booking system, named when someone talks about a train ticket"
+        },
+        {
+          "term": "cab",
+          "en": "an app or radio taxi"
+        },
+        {
+          "term": "scooter or bike taxi",
+          "en": "two-wheeler taxis, in some cities"
+        }
+      ],
+      "housing": [
+        {
+          "term": "society",
+          "en": "the housing society, used in the address and for the office or guard"
+        },
+        {
+          "term": "flat",
+          "en": "a flat in a housing society, where the lobby or security guard often takes deliveries"
+        },
+        {
+          "term": "watchman",
+          "en": "the guard"
+        },
+        {
+          "term": "lift",
+          "en": "the lift, not elevator, in most Indian English"
+        },
+        {
+          "term": "intercom",
+          "en": "the intercom"
+        },
+        {
+          "term": "rent",
+          "en": "the rent, also house rent"
+        },
+        {
+          "term": "builder floor",
+          "en": "an independently built floor, a common housing type in some cities"
+        },
+        {
+          "term": "society office",
+          "en": "the society office, for notices and sometimes parcels"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuition",
+          "en": "private after-school classes, a central word in family calls"
+        },
+        {
+          "term": "tuition teacher",
+          "en": "the tutor, also tuitions"
+        },
+        {
+          "term": "school",
+          "en": "the school"
+        },
+        {
+          "term": "homework",
+          "en": "homework, also HW or classwork"
+        },
+        {
+          "term": "principal",
+          "en": "the principal"
+        },
+        {
+          "term": "tiffin",
+          "en": "the packed lunch, often mentioned when arranging pickup"
+        },
+        {
+          "term": "PTM",
+          "en": "parent-teacher meeting"
+        }
+      ],
+      "money": [
+        {
+          "term": "rupees",
+          "en": "Indian rupees, often just Rs or rupees"
+        },
+        {
+          "term": "lakh",
+          "en": "a hundred thousand, the usual large-amount unit"
+        },
+        {
+          "term": "crore",
+          "en": "ten million, used for still larger amounts"
+        },
+        {
+          "term": "UPI",
+          "en": "send the money on UPI"
+        },
+        {
+          "term": "cash",
+          "en": "cash in rupees, still used though UPI is the default for most everyday sums"
+        },
+        {
+          "term": "change",
+          "en": "the change, also balance in some speech"
+        },
+        {
+          "term": "NEFT",
+          "en": "a slower bank transfer, still named for some official payments"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "in the morning",
+          "en": "in the morning, Indian English scheduling"
+        },
+        {
+          "term": "in the afternoon",
+          "en": "in the afternoon, after midday on an Indian call"
+        },
+        {
+          "term": "in the evening",
+          "en": "in the evening, the usual later-day slot"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, also working day"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, Saturday and Sunday, or a Sunday-only off in some Indian workplaces"
+        },
+        {
+          "term": "after office",
+          "en": "after office hours, a very common scheduling phrase"
+        },
+        {
+          "term": "this week",
+          "en": "this week, also this week itself in Indian English"
+        },
+        {
+          "term": "today itself",
+          "en": "today itself, a common Indian English intensifier for timing"
+        }
+      ],
+      "work": [
+        {
+          "term": "office",
+          "en": "the office, also going to office"
+        },
+        {
+          "term": "after office",
+          "en": "when the working day is over"
+        },
+        {
+          "term": "OT",
+          "en": "overtime, also extra hours"
+        },
+        {
+          "term": "leave",
+          "en": "leave, also casual leave or SL for sick leave"
+        },
+        {
+          "term": "boss",
+          "en": "the boss, also reporting manager"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home, also work from office as WFO"
+        },
+        {
+          "term": "official tour",
+          "en": "a work trip, also official travel"
+        },
+        {
+          "term": "shift",
+          "en": "a shift, common in IT support, hospitals and factories"
+        }
+      ]
+    },
+    "hi": {
+      "bank": [
+        {
+          "term": "यूपीआई",
+          "en": "तुरंत पैसा भेजने का सबसे आम तरीका, UPI"
+        },
+        {
+          "term": "यूपीआई पिन",
+          "en": "भुगतान की पुष्टि वाला पिन, फोन पर बोलकर न माँगें"
+        },
+        {
+          "term": "आधार",
+          "en": "बैंक खाता खोलते समय अक्सर इसी पहचान की बात होती है"
+        },
+        {
+          "term": "खाता",
+          "en": "बैंक खाता"
+        },
+        {
+          "term": "नेट बैंकिंग",
+          "en": "बैंक की वेबसाइट या ऐप, अब भी यही कहा जाता है"
+        },
+        {
+          "term": "आईएफएससी",
+          "en": "IFSC कोड, पूरा न पढ़ें जब तक मालिक न कहे"
+        },
+        {
+          "term": "पासबुक",
+          "en": "पासबुक"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "सोसाइटी",
+          "en": "हाउसिंग सोसाइटी, पते और डिलीवरी दोनों में यही शब्द चलता है"
+        },
+        {
+          "term": "गार्ड",
+          "en": "सोसाइटी या बिल्डिंग का गार्ड, पार्सल अक्सर यहीं रुकता है"
+        },
+        {
+          "term": "लॉबी",
+          "en": "लॉबी"
+        },
+        {
+          "term": "गेट पर",
+          "en": "सोसाइटी गेट पर छोड़ना"
+        },
+        {
+          "term": "इंडिया पोस्ट",
+          "en": "डाकघर या स्पीड पोस्ट"
+        },
+        {
+          "term": "एडब्ल्यूबी",
+          "en": "स्पीड पोस्ट का ट्रैकिंग नंबर, AWB"
+        },
+        {
+          "term": "वाचमैन",
+          "en": "गार्ड का पुराना, अब भी सुनाई देने वाला शब्द"
+        }
+      ],
+      "government": [
+        {
+          "term": "आधार",
+          "en": "पहचान के लिए सबसे आम दस्तावेज़"
+        },
+        {
+          "term": "पैन",
+          "en": "टैक्स पहचान, पूरा नंबर फोन पर न पढ़ें जब तक न कहा जाए"
+        },
+        {
+          "term": "माई आधार",
+          "en": "UIDAI का ऐप या पोर्टल, mAadhaar / MyAadhaar"
+        },
+        {
+          "term": "पासपोर्ट",
+          "en": "पासपोर्ट"
+        },
+        {
+          "term": "राशन कार्ड",
+          "en": "कुछ कामों में पते या योजना के लिए अब भी नाम आता है"
+        },
+        {
+          "term": "नगर निगम",
+          "en": "नगर निगम या नगर पालिका"
+        },
+        {
+          "term": "जीएसटी",
+          "en": "व्यवसाय वाली बातों में GST"
+        }
+      ],
+      "health": [
+        {
+          "term": "अस्पताल",
+          "en": "अस्पताल"
+        },
+        {
+          "term": "मेडिकल",
+          "en": "दवाई की दुकान, या जाँच, बात से समझना पड़ता है"
+        },
+        {
+          "term": "क्लिनिक",
+          "en": "क्लिनिक"
+        },
+        {
+          "term": "आयुष्मान",
+          "en": "सरकारी स्वास्थ्य योजना, अक्सर यही छोटा नाम"
+        },
+        {
+          "term": "ओपीडी",
+          "en": "डॉक्टर के यहाँ OPD या अपॉइंटमेंट"
+        },
+        {
+          "term": "पर्ची",
+          "en": "दवाई की पर्ची"
+        },
+        {
+          "term": "केमिस्ट",
+          "en": "केमिस्ट, अंग्रेज़ी शब्द हिन्दी बात में भी चलता है"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "रिचार्ज",
+          "en": "प्रीपेड नंबर में पैसे या डेटा डालना"
+        },
+        {
+          "term": "प्रीपेड",
+          "en": "प्रीपेड सिम"
+        },
+        {
+          "term": "पोस्टपेड",
+          "en": "पोस्टपेड प्लान"
+        },
+        {
+          "term": "एमएनपी",
+          "en": "नंबर रखकर कंपनी बदलना, MNP"
+        },
+        {
+          "term": "डाटा पैक",
+          "en": "मोबाइल डेटा का पैक"
+        },
+        {
+          "term": "जियो या एयरटेल या वीआई",
+          "en": "कंपनी का नाम आमतौर पर लिया जाता है"
+        },
+        {
+          "term": "सिम",
+          "en": "सिम"
+        }
+      ],
+      "payment": [
+        {
+          "term": "यूपीआई",
+          "en": "QR स्कैन, UPI आईडी या मोबाइल नंबर पर भुगतान"
+        },
+        {
+          "term": "फोनपे",
+          "en": "अक्सर नाम लिया जाने वाला UPI ऐप"
+        },
+        {
+          "term": "गूगल पे",
+          "en": "GPay भी कहते हैं"
+        },
+        {
+          "term": "पेटीएम",
+          "en": "वॉलेट और UPI, अब भी नाम आता है"
+        },
+        {
+          "term": "नकद",
+          "en": "नकद या कैश"
+        },
+        {
+          "term": "क्यूआर",
+          "en": "दुकान का UPI QR"
+        },
+        {
+          "term": "भीम",
+          "en": "NPCI का BHIM ऐप, नाम कम लिया जाता है लेकिन आधिकारिक है"
+        }
+      ],
+      "transport": [
+        {
+          "term": "मेट्रो",
+          "en": "जिन शहरों में है, वहाँ मेट्रो"
+        },
+        {
+          "term": "ऑटो",
+          "en": "ऑटो रिक्शा, छोटा रूप ऑटो"
+        },
+        {
+          "term": "ओला या उबर",
+          "en": "ऐप वाली कैब"
+        },
+        {
+          "term": "लोकल ट्रेन",
+          "en": "खासकर मुंबई की लोकल"
+        },
+        {
+          "term": "बस",
+          "en": "बस"
+        },
+        {
+          "term": "आईआरसीटीसी",
+          "en": "ट्रेन टिकट की बात में IRCTC"
+        },
+        {
+          "term": "कैब",
+          "en": "कैब"
+        }
+      ],
+      "housing": [
+        {
+          "term": "सोसाइटी",
+          "en": "हाउसिंग सोसाइटी"
+        },
+        {
+          "term": "फ्लैट",
+          "en": "फ्लैट"
+        },
+        {
+          "term": "वाचमैन",
+          "en": "गार्ड या चौकीदार"
+        },
+        {
+          "term": "लिफ्ट",
+          "en": "लिफ्ट"
+        },
+        {
+          "term": "इंटरकॉम",
+          "en": "इंटरकॉम"
+        },
+        {
+          "term": "किराया",
+          "en": "किराया"
+        },
+        {
+          "term": "सोसाइटी ऑफिस",
+          "en": "सोसाइटी का दफ्तर"
+        }
+      ],
+      "school": [
+        {
+          "term": "ट्यूशन",
+          "en": "स्कूल के बाद की कक्षाएँ, घर की बातों में बहुत आम"
+        },
+        {
+          "term": "ट्यूशन टीचर",
+          "en": "ट्यूटर"
+        },
+        {
+          "term": "स्कूल",
+          "en": "स्कूल"
+        },
+        {
+          "term": "होमवर्क",
+          "en": "होमवर्क या गृहकार्य"
+        },
+        {
+          "term": "प्रिंसिपल",
+          "en": "प्रिंसिपल"
+        },
+        {
+          "term": "टिफिन",
+          "en": "टिफिन, लेने-छोड़ने की बात में आता है"
+        },
+        {
+          "term": "पीटीएम",
+          "en": "अभिभावक-शिक्षक बैठक, PTM"
+        }
+      ],
+      "money": [
+        {
+          "term": "रुपये",
+          "en": "भारतीय रुपये"
+        },
+        {
+          "term": "लाख",
+          "en": "एक लाख, बड़ी रकम का आम इकाई"
+        },
+        {
+          "term": "करोड़",
+          "en": "करोड़, और बड़ी रकम के लिए"
+        },
+        {
+          "term": "यूपीआई",
+          "en": "यूपीआई से पैसे भेजना"
+        },
+        {
+          "term": "नकद",
+          "en": "नकद"
+        },
+        {
+          "term": "खुले पैसे",
+          "en": "खुले पैसे या रेज़गारी"
+        },
+        {
+          "term": "नेफ्ट",
+          "en": "NEFT, कुछ सरकारी या बड़े भुगतान में नाम आता है"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "सुबह",
+          "en": "सुबह"
+        },
+        {
+          "term": "दोपहर",
+          "en": "दोपहर"
+        },
+        {
+          "term": "शाम",
+          "en": "शाम, दिन के बाद का आम समय"
+        },
+        {
+          "term": "काम के दिन",
+          "en": "काम के दिन या वीकडे"
+        },
+        {
+          "term": "वीकेंड",
+          "en": "वीकेंड, अंग्रेज़ी शब्द ही चलता है"
+        },
+        {
+          "term": "ऑफिस के बाद",
+          "en": "ऑफिस के बाद, समय तय करने में बहुत आम"
+        },
+        {
+          "term": "इस हफ्ते",
+          "en": "इस हफ्ते"
+        }
+      ],
+      "work": [
+        {
+          "term": "ऑफिस",
+          "en": "ऑफिस या दफ्तर"
+        },
+        {
+          "term": "ऑफिस के बाद",
+          "en": "काम खत्म होने के बाद"
+        },
+        {
+          "term": "ओटी",
+          "en": "ओवरटाइम, OT"
+        },
+        {
+          "term": "छुट्टी",
+          "en": "leave; sick leave is often just SL in mixed speech"
+        },
+        {
+          "term": "बॉस",
+          "en": "बॉस या मैनेजर"
+        },
+        {
+          "term": "डब्ल्यूएफएच",
+          "en": "घर से काम, WFH"
+        },
+        {
+          "term": "टूर",
+          "en": "ऑफिशियल टूर या दौरा"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "UPI, PhonePe, Google Pay",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "PayID",
+      "use_instead": "UPI",
+      "where_it_is_from": "AU"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "UPI",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "PIX",
+      "use_instead": "UPI",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "DuitNow",
+      "use_instead": "UPI",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "PromptPay",
+      "use_instead": "UPI",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "society, flat, builder floor",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "chemist 以外只說 pharmacy 當唯一詞",
+      "use_instead": "chemist 在印度英語裡很常用",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "elevator 當唯一詞",
+      "use_instead": "lift",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "lakh 講成 million 就代替",
+      "use_instead": "大金額先用 lakh 或 crore，不要直接改成西式 million",
+      "where_it_is_from": "US"
+    }
+  ],
+  "sources": [
+    "https://www.npci.org.in/product/upi/",
+    "https://uidai.gov.in/en/aadhaar-online-services",
+    "https://myaadhaar.uidai.gov.in/",
+    "https://www.indiapost.gov.in/",
+    "https://www.uidai.gov.in/",
+    "https://www.irctc.co.in/"
+  ],
+  "uncertain": [
+    "此輪只完整寫了英語與印地語；坦米爾、泰盧固、孟加拉等其他主要語言未展開，以免套樣板，列為後續補齊。",
+    "Ayushman / PM-JAY 的口語短稱各地不一，有人只說 सरकारी स्कीम 或保險名。",
+    "UPI 應用以 PhonePe、GPay、Paytm 最常被點名，BHIM 雖官方但電話裡較少聽到。"
+  ]
+}

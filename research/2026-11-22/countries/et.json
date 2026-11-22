@@ -1,0 +1,136 @@
+{
+  "country": "et",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Ethiopia",
+    "native": "ኢትዮጵያ",
+    "zh": "衣索比亞"
+  },
+  "lang": "am",
+  "hello": {
+    "hello": "አሎ?",
+    "hello_again": "አሎ፣ ይሰሙኛል?"
+  },
+  "delivery": {
+    "en": "Parcels: the compound guard, the door, or an Ethiopian Post office",
+    "zh": "包裹交給社區保全或放門口，或到衣索比亞郵局"
+  },
+  "readback": {
+    "en": "09 mobiles go in short groups; amounts in birr; local hours start at sunrise, so confirm the clock",
+    "zh": "09 手機分短組唸；金額用比爾。當地鐘點從日出算，要確認是哪一種。"
+  },
+  "fraud": {
+    "en": "A Telebirr PIN or code request, or a plea to return a wrong transfer, is a scam",
+    "zh": "要 Telebirr 密碼或驗證碼，或叫你退還誤轉款的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Amharic; formal address and titles (Ato, Weizero) with strangers. Not M-Pesa or askari. English only if they use it.",
+    "zh": "電話用阿姆哈拉語，陌生人用正式敬語和 Ato、Weizero。不用 M-Pesa、askari。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Telebirr or the bank app hanging, a power cut, no SMS code, or missing glasses.",
+    "zh": "卡在 Telebirr 或銀行 App 卡住、停電、簡訊碼沒到或找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "Telebirr",
+      "OTP",
+      "ባንክ"
+    ],
+    "delivery": [
+      "ጠባቂ",
+      "በሩ",
+      "ፖስታ ቤት"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "en": "Kenyan and Tanzanian mobile money, not Ethiopia's everyday term",
+        "zh": "肯亞與坦尚尼亞行動錢包，不是衣索比亞日常用語"
+      }
+    },
+    {
+      "word": "askari",
+      "reason": {
+        "en": "Swahili gate-guard term",
+        "zh": "斯瓦希里語門衛用語"
+      }
+    },
+    {
+      "word": "boda",
+      "reason": {
+        "en": "East African boda-boda wording",
+        "zh": "東非摩托車計程車用語"
+      }
+    },
+    {
+      "word": "MVola",
+      "reason": {
+        "en": "Madagascar mobile money",
+        "zh": "馬達加斯加行動錢包"
+      }
+    }
+  ],
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: informal Amharic, short warm lines, a real reaction plus a follow-up (እሺ), varied.",
+        "zh": "像{owner}跟好朋友聊：用輕鬆阿姆哈拉語，句子短而熱絡，真反應並多接一句（如 እሺ），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, unhurried informal Amharic; after they explain, add a caring remark of your own (ደህና), varied.",
+        "zh": "溫和不急的口語阿姆哈拉語；對方說完，順口加一句關心（如 ደህና），每次換說法。"
+      },
+      "3": {
+        "en": "Everyday Amharic: informal with peers, polite and formal with strangers. Reply in one full sentence, not a word or two.",
+        "zh": "日常阿姆哈拉語：對熟人以輕鬆口氣，對陌生人較正式。用一句完整的話回應，不只回一兩個字。"
+      },
+      "4": {
+        "en": "Courteous formal address and titles (Ato, Weizero); complete sentences; take up their main point first (ገባኝ), varied.",
+        "zh": "斯文有禮：用正式敬語和稱謂（Ato、Weizero）；句子完整，先接對方重點（如 ገባኝ），每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business Amharic: titles, brisk and structured; answer each point in full (ግልጽ ነው), varied.",
+        "zh": "俐落公事口吻：用稱謂，明快有條理；每個重點都完整回應（如 ግልጽ ነው），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper in informal Amharic: short lively lines; react warmly, then say you will pass it on, varied.",
+        "zh": "{owner}活潑的小幫手，用輕鬆阿姆哈拉語：句子短而有活力，先熱絡回應，再說會轉告，每次換說法。"
+      },
+      "2": {
+        "en": "A gentle, unhurried assistant in informal Amharic: show you understand, then note the message for {owner}, varied.",
+        "zh": "溫柔不急的助理，用口語阿姆哈拉語：先表明聽懂處境，再記下來轉給{owner}，每次換說法。"
+      },
+      "3": {
+        "en": "A natural assistant: informal with peers, formal with strangers. Answer in one full sentence before confirming the relay.",
+        "zh": "自然幹練的助理：對熟人口語、對陌生人較正式。先用一句完整的話回應，再確認會轉達。"
+      },
+      "4": {
+        "en": "An attentive secretary: polite formal address and titles; take up why they called, then offer to pass it on, varied.",
+        "zh": "周到的秘書：用正式敬語和稱謂，先承接來意再說會轉告，每次換說法。"
+      },
+      "5": {
+        "en": "A senior assistant in formal Amharic: Ato/Weizero, orderly and brisk; settle each point, then confirm the relay to {owner}.",
+        "zh": "資深秘書口吻，用正式阿姆哈拉語：稱 Ato／Weizero，條理明快；逐點講清楚，再確認轉給{owner}。"
+      }
+    }
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.ethiotelecom.et/fraud-awareness/",
+    "https://ethio.post/send-and-receive/send/parcel-post/"
+  ],
+  "uncertain": [
+    "接聽 አሎ 是依阿姆哈拉語電話習慣整理，未找到官方通話禮儀文件。",
+    "投遞詞彙 ጠባቂ、በሩ、ፖስታ ቤት 是通用阿姆哈拉語，各城市是否還有更常用的口語說法未再核對。",
+    "衣索比亞鐘點與西式鐘點並行，何時用哪一種，來源只提醒要確認，沒有統一規則。"
+  ],
+  "talk_style_diff": {
+    "en": "Do not use the shared Swahili or Haitian tone. Stay in Amharic, with Ato or Weizero for strangers, Telebirr wording and birr. Confirm which clock a time uses.",
+    "zh": "不要用共用區的斯瓦希里語或海地語氣。留在阿姆哈拉語，對生人用 Ato 或 Weizero，詞彙用 Telebirr 與比爾。時間要確認是哪一種鐘點。"
+  }
+}

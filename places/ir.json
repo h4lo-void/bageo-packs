@@ -1,0 +1,640 @@
+{
+  "region": "ir",
+  "countries": [
+    "ir"
+  ],
+  "region_name_zh": "伊朗",
+  "region_name": "Iran",
+  "languages": [
+    {
+      "code": "fa",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite standard Persian (fa) with formal plural 'شما'; Azerbaijani Turkish, Kurdish and other languages are spoken regionally but Persian works everywhere for business. English is limited to some hotels, travel agencies and private clinics in Tehran, Isfahan and Shiraz.",
+  "english_ok": "rarely — Some hotel front desks, tour agencies and private hospitals in big cities; most shops, clinics and drivers speak only Persian.",
+  "politeness": "Elaborate courtesy (taarof) is normal: greet with 'سلام' and a polite phrase, use titles ('آقای', 'خانم', 'دکتر'); requests are softened; close with thanks and 'خداحافظ'.",
+  "name_tip": "Bookings usually under surname with 'آقای'/'خانم'; many people prefer surname for formal records; Latin spellings of Persian names vary, so spell slowly.",
+  "phone_tip": "Mobile 09XX XXX XXXX (11 digits with 0, e.g. 0912 12345678), international +98 9XX; Tehran landline 021 + 8 digits; SMS and messaging apps (WhatsApp, Telegram, local apps) are used for confirmations.",
+  "time_tip": "Spoken time often 12-hour with part of day (صبح, ظهر, عصر, شب); confirm am/pm. Dates normally use the solar Hijri calendar (e.g. ۲۵ آبان) — convert carefully; lunar Hijri for religious holidays.",
+  "number_tip": "Eastern Persian digits (e.g. ۰ ۱ ۲ ۳ ۴) and Western digits both appear; mobile numbers are read in groups (0912 / 345 / 67 89).",
+  "avoid_calling": "Avoid Friday (weekend), early afternoon rest 14:00–16:00 at many small shops, late night, and Nowruz (around 20 March to early April) when businesses close or run thin; Muharram mourning days and Ramadan change hours.",
+  "closed_days": "Friday is the weekly day off; many offices also close or work short on Thursday; Nowruz holidays (about 1–4 Farvardin, ~21–24 March) plus 12–13 Farvardin, Tasua/Ashura and other religious days close most businesses.",
+  "booking_channels": "Paziresh24, Doctoreto and Snapp Doctor for doctor appointments; Snapp and Tapsi for rides; SnappFood for delivery; Divar for property and services; phone and messaging apps still dominant for restaurants, salons and garages.",
+  "voice_menu": "Banks, MCI (Hamrah-e Aval), Irancell, Rightel, utilities and large hospitals use IVR; private clinics often have a receptionist (منشی) answering directly.",
+  "callback_habits": "Doctor platforms send SMS appointment codes and reminders; clinics may call the day before; small businesses confirm by SMS or messenger.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "德黑蘭等大城餐廳可打電話訂位，週四晚與週五（週末）最滿；許多傳統餐廳（سفره‌خانه）只能現場排隊，訂位常要先給名字與手機讓店家簡訊確認。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Minimum spend per person for a private room"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in only on Friday lunch"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Day (Persian solar date) and time, confirming evening vs midday",
+        "Number of people and whether it is a family group",
+        "Traditional platform seating (takht) or chairs",
+        "Surname with Agha/Khanom and mobile number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人醫師診所（مطب）由秘書（منشی）接電話排號，也常用 Paziresh24、Doctoreto；看診按排號順序，時間只是大約；保險類型（تأمین اجتماعی、بیمه سلامت、補充保險）會影響費用。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Turn number sent by SMS; arrive at the stated hour block"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor does not accept this insurance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks code melli (national ID)"
+        }
+      ],
+      "usually_asked": [
+        "Doctor's name or specialty",
+        "Patient name, age and national code (code melli) at the desk",
+        "First visit or follow-up (re-visit)",
+        "Which insurance booklet or supplementary insurance",
+        "Mobile number for the SMS turn code"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "女性美容院（آرایشگاه زنانه）多用 Instagram 或電話預約，男女分開營業；新娘妝需早訂並付訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit by card-to-card transfer for bridal bookings"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service: hair, brows, nails or bridal package",
+        "Day and hour",
+        "Preferred stylist",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（تعمیرگاه）與家電維修多先電話詢價，國產車與進口車零件價差大，常說「看了才知道」。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Parts price must be approved before ordering"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car model (e.g. domestic or imported) and year",
+        "Problem description",
+        "When the car can be brought in",
+        "Name and mobile"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂外送（بیرون‌بر／پیک）很普遍，App 以 SnappFood 為主；店家會問地址與門牌（پلاک）、樓層。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier (peyk) fee depends on distance"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and number of portions",
+        "Delivery or pickup time",
+        "Address with plaque number and unit",
+        "Name and mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "甜點、蛋糕、花店與藥局可電話預訂；付款常用卡對卡轉帳（کارت به کارت）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance card-to-card payment"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and amount (e.g. kilograms of sweets)",
+        "Pickup day",
+        "Name and mobile",
+        "Payment by card-to-card or at pickup"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "診所改期要打給秘書，平台預約可在 App 取消；美容院取消可能扣訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refunded for late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and turn",
+        "Name on the booking",
+        "New preferred day",
+        "Mobile"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問價格、營業時間、有無存貨很普遍，答覆常客氣婉轉，需再確認確切數字。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hours change in Ramadan and Muharram"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question and item",
+        "Which day, noting Friday closures",
+        "Quantity needed"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店電話訂房普遍，外國旅客需出示護照，境外信用卡通常無法使用，現金或當地卡付款。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Payment in cash because foreign cards do not work"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Unmarried couples rules at check-in"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of guests and whether they are a family",
+        "Room type",
+        "Guest names as in passports and mobile"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "導覽、滑雪場、遊樂與運動設施可電話訂，泳池與健身房常有男女分開時段。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Women-only or men-only session times"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and session time",
+        "Number of people and their gender for separate sessions",
+        "Activity or tour",
+        "Name and mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多經電話或 Divar 上的師傅；會問樓層、電梯與停車。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee (هزینه ایاب و ذهاب)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Neighbourhood, street and plaque number",
+        "Floor and lift",
+        "What needs fixing or moving",
+        "Preferred time",
+        "Name and mobile"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "大城市寵物醫院與美容可電話預約；遛狗在部分城市受限，運送服務要先問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home visit by vet instead of clinic"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed and weight",
+        "Vaccination, grooming or symptoms",
+        "Preferred time",
+        "Owner's name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "伊朗郵政（Post）與私人快遞（如 Tipax）查件多用官網輸入追蹤碼或簡訊連結。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to tracking website"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks code melli for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking code",
+        "Sender or recipient name",
+        "Destination city",
+        "Mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行、電信（همراه اول、ایرانسل）客服有語音選單並需本人核身，代打只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card PIN or code melli"
+        }
+      ],
+      "usually_asked": [
+        "Account or SIM holder",
+        "Problem description",
+        "Account or SIM number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Snapp、Tapsi App 為主；傳統電話車行（آژانس）仍普遍，城際與機場接送可電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Driver calls on arrival"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed fare for intercity trips"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 Divar 刊登並透過仲介（بنگاه املاک）約看；租約常是押金（رهن）與月租（اجاره）可互換的組合。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Split between rahn deposit and monthly ejare"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Agency commission"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks code melli and job details"
+        }
+      ],
+      "usually_asked": [
+        "Which listing and neighbourhood",
+        "Viewing time",
+        "Family size (many landlords prefer families)",
+        "Mobile"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多需在服務櫃台（پیشخوان دولت）或線上辦，電話只答一般問題；學校報名有固定期間。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to the e-government counter"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks code melli"
+        }
+      ],
+      "usually_asked": [
+        "Which office or service",
+        "Question",
+        "Who it is for"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fa": {
+      "appointment_words": [
+        "نوبت دکتر",
+        "نوبت گرفتن",
+        "وقت آرایشگاه",
+        "ویزیت",
+        "نوبت تعمیرگاه"
+      ],
+      "booking_words": [
+        "رزرو میز",
+        "رزرو",
+        "رزرو اتاق",
+        "میز برای چهار نفر"
+      ],
+      "change_words": [
+        "تغییر نوبت",
+        "کنسل کردن رزرو",
+        "نیم ساعت دیرتر",
+        "جابجا کردن به پنجشنبه"
+      ],
+      "date": [
+        "فردا",
+        "پس‌فردا",
+        "همین پنجشنبه",
+        "سه‌شنبه هفته بعد",
+        "۲۵ آبان",
+        "۱۴۰۵/۰۸/۲۵"
+      ],
+      "false_friends": [
+        "طبقه سوم",
+        "واحد ۴۵",
+        "پلاک ۱۲",
+        "ماساژ ۶۰ دقیقه",
+        "خط ۸"
+      ],
+      "inquiry_words": [
+        "قیمتش چنده؟",
+        "موجود دارید؟",
+        "تا ساعت چند باز هستید؟",
+        "پیک دارید؟",
+        "کارتخوان دارید؟"
+      ],
+      "name": [
+        "به نام آقای احمدی",
+        "به اسم خانم رضایی",
+        "محمدی",
+        "خانواده کریمی"
+      ],
+      "order_words": [
+        "سفارش بیرون‌بر",
+        "سفارش",
+        "پیک",
+        "پیش‌سفارش"
+      ],
+      "party": [
+        "میز برای ۴ نفر",
+        "سه نفریم",
+        "دو نفر",
+        "دو بزرگسال و یک بچه",
+        "۵ نفر"
+      ],
+      "phone": [
+        "0912 12345678",
+        "+98 912 12345678",
+        "۰۹۱۲ ۱۲۳۴ ۵۶۷۸",
+        "12345678"
+      ],
+      "time": [
+        "ساعت ۷:۳۰",
+        "هفت و نیم شب",
+        "ساعت ۹ صبح",
+        "ظهر",
+        "هشت ربع کم"
+      ]
+    }
+  }
+}

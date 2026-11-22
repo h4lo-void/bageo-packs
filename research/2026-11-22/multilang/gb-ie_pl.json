@@ -1,0 +1,92 @@
+{
+  "region": "gb-ie",
+  "lang": "pl",
+  "hello": {
+    "hello": "Słucham?",
+    "hello_again": "Halo, tak?"
+  },
+  "habits": {
+    "en": "Ty with friends, Pan/Pani at offices. In the UK mix NHS, NI, GP, sort code; in Ireland say HSE and PPS, not NFZ.",
+    "zh": "熟友用 ty，機關用 Pan/Pani。英國夾 NHS、NI、GP；愛爾蘭改說 HSE、PPS，不用 NFZ。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Mates in London or Dublin use ty, slip in English, and answer spoko or jasne without a formal dzień dobry.",
+        "zh": "在倫敦或都柏林跟熟友用 ty，英語直接夾進來，不必正式 dzień dobry，回 spoko 或 jasne。"
+      },
+      "2": {
+        "en": "Friendly Polish: stay with ty until they use Pan; after an NHS or HSE point, a light dobrze, rozumiem is enough.",
+        "zh": "親切波蘭語先用 ty，對方改用 Pan 再跟上；聽完 NHS 或 HSE，輕聲回 dobrze, rozumiem。"
+      },
+      "3": {
+        "en": "Everyday Polish in Britain or Ireland: one full sentence per matter, leaving GP, NI or PPS in English as spoken.",
+        "zh": "英愛日常波蘭語：每件事回完整一句，GP、NI 或 PPS 照口頭直接講原文。"
+      },
+      "4": {
+        "en": "Pan/Pani at a surgery or council office; say NHS in the UK or HSE in Ireland, and answer the request first.",
+        "zh": "在診所或市政機關用 Pan/Pani；英國說 NHS、愛爾蘭說 HSE，先回應來意。"
+      },
+      "5": {
+        "en": "Business Polish: Pan/Pani throughout, recap the sort code or tenancy point, then close without extra small talk.",
+        "zh": "商務波蘭語全程用 Pan/Pani，覆述 sort code 或租約要點後，不再額外閒聊。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Polish helper answers jasne, takes the note in mixed speech, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆波蘭語先回 jasne，用夾英語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match ty or Pan; jot the callback or GP detail, and tell the caller {owner} will be informed.",
+        "zh": "跟隨 ty 或 Pan；記下回撥或 GP 細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A steady Polish go-between answers the reason for calling in one complete sentence, then will brief {owner}.",
+        "zh": "穩當的波蘭語中間人先用完整一句回應來電原因，再表示會向{owner}轉述。"
+      },
+      "4": {
+        "en": "Office tone with Pan/Pani: restate the NHS, HSE or council point, then confirm it goes to {owner}.",
+        "zh": "機關口氣用 Pan/Pani：覆述 NHS、HSE 或市政要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal desk for {owner}: titles, itemise the NI or PPS matter they named, and close after the handoff.",
+        "zh": "為{owner}坐鎮的正式口氣加上稱謂，對齊對方提的 NI 或 PPS 事項，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo, cześć! Co tam? Mów śmiało, spoko.",
+      "Słucham, jestem. Mów spokojnie, dobrze.",
+      "Dzień dobry. W sprawie NHS? Dobrze, zanotowałem.",
+      "Dzień dobry, dziękuję za telefon. Rozumiem, zajmę się tym.",
+      "Dzień dobry, dziękuję za połączenie. Wszystko mam zapisane."
+    ],
+    "a": [
+      "Halo! Jego nie ma, powiedz mi, przekażę wiadomość!",
+      "Słucham, odbieram za niego, zostaw wiadomość.",
+      "Dzień dobry. Zapiszę i przekażę dalej.",
+      "Dzień dobry, dziękuję za telefon. Zapiszę i przekażę {owner}.",
+      "Dzień dobry, dziękuję za połączenie. Spiszę punkty i przekażę."
+    ]
+  },
+  "diff_from_home": [
+    "在英國口語常直接說 NHS、GP、National Insurance、sort code、council tax，不要用波蘭的 NFZ 或 PESEL 來指本地制度。",
+    "在愛爾蘭則改說 HSE 與 PPS number，和英國的 NHS、NI 不是同一套詞，不可混用。",
+    "熟友可用 ty，對診所、銀行或機關仍多用 Pan/Pani，這點與在波蘭相似，但專名已換成英愛用法。",
+    "歐盟自由移動後來英愛的社群很大，電話裡波蘭語與英語切換很頻繁。"
+  ],
+  "sources": [
+    "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/language/bulletins/languageenglandandwales/census2021",
+    "https://www.cso.ie/en/releasesandpublications/ep/p-cpsr/censusofpopulation2022-summaryresults/migrationanddiversity/",
+    "https://www.nhs.uk/",
+    "https://www.gov.uk/national-insurance",
+    "https://www.hse.ie/",
+    "https://www.nhs.uk/nhs-services/gps/"
+  ],
+  "uncertain": [
+    "同一語檔要涵蓋英國與愛爾蘭，對方使用 NHS 還是 HSE 只能依來電判斷，不能預設。",
+    "第二代在家外幾乎改講英語的比例，缺少專針對電話場合的語料。"
+  ]
+}

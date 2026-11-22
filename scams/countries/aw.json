@@ -1,0 +1,105 @@
+{
+  "name": "Aruba",
+  "name_local": "Aruba",
+  "iso": "aw",
+  "calling_code": "+297",
+  "languages": [
+    "nl"
+  ],
+  "prevalence_note": "The Centrale Bank van Aruba (CBA) has issued public warnings about websites that impersonate a financial supervisor for Aruba or a former Aruban commercial bank, and about a lookalike domain used to collect personal data from people who already think they have been defrauded and to push them to call numbers beginning with +284, an area code the Bank links to one-ring fraud.",
+  "cross_border_note": "Legitimate Aruban authorities and the CBA use the +297 country code. The Bank specifically warned that the lookalike supervisor site used +284 numbers and even borrowed a visiting address that belongs to another Aruban institution. The British Virgin Islands Financial Services Commission and IOSCO also published alerts on the fake Aruba Financial Services Commission site.",
+  "scams": [
+    {
+      "id": "aw_cba_fake_supervisor_faaruba",
+      "typology": "fake_official",
+      "name": "Lookalike site posing as Aruba's financial supervisor, with +284 call-back",
+      "name_en": "CBA 20 October 2023 warning: a fraudulent site designed to look like Aruba's financial supervisor collects names, addresses and emails, especially from earlier fraud victims, and steers them to telephone numbers starting with +284, which the Bank links to one-ring fraud",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "website that mimics the Aruban supervisor",
+        "callback number starting with +284",
+        "asks for name, address and email after a fraud",
+        "uses an address that belongs to another Oranjestad body"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "enter your details so the Aruban supervisor can help",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "call this +284 number about your case",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "site that looks like the central bank but is not cbaruba.org",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "one-ring call that asks you to ring back",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "On 20 October 2023 the CBA warned of a fraudulent website posing as the financial supervisory authority of Aruba. It said the site was designed to trick visitors, especially people who had already been victims of fraud, into providing personal information such as emails, names and addresses, or into calling telephone numbers starting with the area code +284, which the Bank links to one-ring fraud. It noted that the domain was similar to the official CBA site and to the Aruban Financial Intelligence Unit site, and that warning signs include a site that claims to be an Aruban public authority yet talks about the financial stability of the United States, uses the wrong area code (+284 instead of +297), or uses a visiting address of another institution. The Bank tells people not to enter personal information unless they are sure they are on the legitimate site, and to contact the real authority directly if they are unsure.",
+      "legit_en": "The official site of the Centrale Bank van Aruba is the Bank's own published domain, and genuine Aruban official numbers use +297. The Bank and the FIU do not collect a fraud victim's details through a lookalike supervisor site, and they do not ask that person to call back on a +284 number.",
+      "bait_tactics": [
+        "Do not enter a name, address or email on a site that only resembles the CBA or the FIU, and do not call back a +284 number from that page.",
+        "Check the address against the Bank's published domain, and raise any doubt through a contact route found on that official site, not through the lookalike page.",
+        "If details may already have been entered, tell the customer's own bank or card issuer, change passwords, watch the statements, and say the site can be reported to the police or the public prosecutor, as the CBA advises."
+      ],
+      "sources": [
+        "https://www.cbaruba.org/article/id/709/"
+      ]
+    },
+    {
+      "id": "aw_cba_fake_afsc_interbank",
+      "typology": "investment_group_scam",
+      "name": "Fake financial services commission and former-bank site used for investments or refunds",
+      "name_en": "CBA public warning: two fraudulent websites, one posing as a single financial-services regulator for Aruba and one posing as a former commercial bank, which the Bank has reason to believe are linked; people were told to open an account in order to invest or to receive a reimbursement, and some lost significant sums",
+      "prevalence": "high",
+      "lang": "nl",
+      "context_keywords": [
+        "self-described financial services commission for Aruba",
+        "website reusing the name of a former Aruban bank",
+        "open an account to invest or to get a refund",
+        "uses the central bank's published contact details"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "open an account here to invest or to get a reimbursement",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "we are the only financial regulator in Aruba",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "enter personal data on this unofficial bank site",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "securities or derivatives sold from an unknown page",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The CBA warned the public about two fraudulent websites. The first, presenting itself as an Aruba Financial Services Commission, purported to be the single regulatory body for financial services in Aruba and used the Bank's own address and telephone numbers as its contact information; the British Virgin Islands Financial Services Commission and IOSCO had already issued alerts on that site. The second posed as a commercial bank and used the name of a former Aruban commercial bank. The CBA said it had reason to believe the two sites were linked or run by the same people, and that it had received reports that the first site had urged people to open an account on the second in order to invest, for example in securities or derivatives, or to receive a reimbursement of costs, and that some people had lost significant amounts of money. It urged the public not to click links related to those sites and not to enter personal information there.",
+      "legit_en": "The Centrale Bank van Aruba is the supervisor. A former bank's name on a new website, or a commission that merely copies the CBA's contact details, is not a licensed Aruban institution. A genuine refund or investment account is opened only with a firm that can be verified through official Aruban channels, not through an unsolicited lookalike site.",
+      "bait_tactics": [
+        "Refuse to open an account or to send money for an investment or a reimbursement on a site that is not the customer's known bank or the CBA.",
+        "Treat copied official contact details or the recycled name of a former bank as a warning sign, not as proof.",
+        "If money or data may already have been given, contact the real bank or card issuer, change passwords, watch the statements, and report the sites to the police or the public prosecutor."
+      ],
+      "sources": [
+        "https://www.cbaruba.org/readBlob.do?id=18900"
+      ]
+    }
+  ]
+}

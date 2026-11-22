@@ -1,0 +1,508 @@
+{
+  "region": "no",
+  "vocab": {
+    "nb": {
+      "bank": [
+        {
+          "term": "BankID",
+          "en": "Norwegian bank e-ID used to log in and sign (BankID)"
+        },
+        {
+          "term": "nettbank",
+          "en": "online banking (nettbank)"
+        },
+        {
+          "term": "kontonummer",
+          "en": "account number, 11 digits in Norway (kontonummer)"
+        },
+        {
+          "term": "bankkort",
+          "en": "debit card (bankkort)"
+        },
+        {
+          "term": "overføring",
+          "en": "transfer between accounts (overføring)"
+        },
+        {
+          "term": "AvtaleGiro",
+          "en": "automatic bill debit agreement (AvtaleGiro)"
+        },
+        {
+          "term": "eFaktura",
+          "en": "e-invoice into the online bank (eFaktura)"
+        },
+        {
+          "term": "KID-nummer",
+          "en": "payment reference on Norwegian bills (KID-nummer)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Posten",
+          "en": "Norwegian post (Posten)"
+        },
+        {
+          "term": "Bring",
+          "en": "Posten group's parcel brand (Bring)"
+        },
+        {
+          "term": "hentested",
+          "en": "pickup point named on the slip (hentested)"
+        },
+        {
+          "term": "Post i Butikk",
+          "en": "post counter inside a grocery store (Post i Butikk)"
+        },
+        {
+          "term": "pakkeboks",
+          "en": "parcel locker (pakkeboks)"
+        },
+        {
+          "term": "hentekode",
+          "en": "pickup code sent by SMS (hentekode)"
+        },
+        {
+          "term": "sporingsnummer",
+          "en": "tracking number (sporingsnummer)"
+        },
+        {
+          "term": "levert på døra",
+          "en": "delivered to the door (levert på døra)"
+        }
+      ],
+      "government": [
+        {
+          "term": "NAV",
+          "en": "labour and welfare office (NAV)"
+        },
+        {
+          "term": "Skatteetaten",
+          "en": "Norwegian tax administration (Skatteetaten)"
+        },
+        {
+          "term": "skattemelding",
+          "en": "annual tax return (skattemelding)"
+        },
+        {
+          "term": "fødselsnummer",
+          "en": "11-digit national ID; never read it out (fødselsnummer)"
+        },
+        {
+          "term": "D-nummer",
+          "en": "ID number for non-residents (D-nummer)"
+        },
+        {
+          "term": "Folkeregisteret",
+          "en": "national population register (Folkeregisteret)"
+        },
+        {
+          "term": "kommunen",
+          "en": "the municipality (kommunen)"
+        },
+        {
+          "term": "ID-porten",
+          "en": "state login portal (ID-porten)"
+        },
+        {
+          "term": "passkontoret",
+          "en": "police passport office (passkontoret)"
+        }
+      ],
+      "health": [
+        {
+          "term": "fastlege",
+          "en": "assigned regular GP (fastlege)"
+        },
+        {
+          "term": "legevakt",
+          "en": "out-of-hours emergency clinic (legevakt)"
+        },
+        {
+          "term": "Helsenorge",
+          "en": "national health portal (Helsenorge)"
+        },
+        {
+          "term": "apotek",
+          "en": "pharmacy; Apotek 1 and Vitusapotek are the big chains (apotek)"
+        },
+        {
+          "term": "e-resept",
+          "en": "electronic prescription (e-resept)"
+        },
+        {
+          "term": "legetime",
+          "en": "GP appointment (legetime)"
+        },
+        {
+          "term": "egenandel",
+          "en": "patient co-payment (egenandel)"
+        },
+        {
+          "term": "frikort",
+          "en": "exemption card after the co-pay ceiling (frikort)"
+        },
+        {
+          "term": "tannlege",
+          "en": "dentist, mostly paid privately (tannlege)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Telenor",
+          "en": "largest Norwegian operator (Telenor)"
+        },
+        {
+          "term": "Telia",
+          "en": "second operator in Norway (Telia)"
+        },
+        {
+          "term": "Ice",
+          "en": "third mobile network (Ice)"
+        },
+        {
+          "term": "abonnement",
+          "en": "monthly mobile plan (abonnement)"
+        },
+        {
+          "term": "kontantkort",
+          "en": "prepaid SIM (kontantkort)"
+        },
+        {
+          "term": "SIM-kort",
+          "en": "SIM card, Norwegian spelling (SIM-kort)"
+        },
+        {
+          "term": "dekning",
+          "en": "coverage / signal (dekning)"
+        },
+        {
+          "term": "mobilnummer",
+          "en": "mobile number, 8 digits (mobilnummer)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Vipps",
+          "en": "dominant Norwegian person-to-person and shop payment app (Vipps)"
+        },
+        {
+          "term": "vippse",
+          "en": "everyday verb: pay someone with Vipps (vippse)"
+        },
+        {
+          "term": "betale med kort",
+          "en": "pay by card (betale med kort)"
+        },
+        {
+          "term": "faktura",
+          "en": "invoice to pay later (faktura)"
+        },
+        {
+          "term": "forfallsdato",
+          "en": "due date on a bill (forfallsdato)"
+        },
+        {
+          "term": "kontanter",
+          "en": "cash, rarely used now (kontanter)"
+        },
+        {
+          "term": "delbetaling",
+          "en": "pay in instalments (delbetaling)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Ruter",
+          "en": "Oslo-area public transport (Ruter)"
+        },
+        {
+          "term": "Entur",
+          "en": "national journey planner and tickets (Entur)"
+        },
+        {
+          "term": "Vy",
+          "en": "main train operator (Vy)"
+        },
+        {
+          "term": "trikken",
+          "en": "the tram (trikken)"
+        },
+        {
+          "term": "T-banen",
+          "en": "Oslo metro (T-banen)"
+        },
+        {
+          "term": "ferja",
+          "en": "the ferry (ferja)"
+        },
+        {
+          "term": "bompenger",
+          "en": "road tolls (bompenger)"
+        },
+        {
+          "term": "AutoPASS",
+          "en": "electronic toll tag (AutoPASS)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "borettslag",
+          "en": "housing co-operative (borettslag)"
+        },
+        {
+          "term": "sameie",
+          "en": "owners' association for a building (sameie)"
+        },
+        {
+          "term": "styret",
+          "en": "the board of the building (styret)"
+        },
+        {
+          "term": "vaktmester",
+          "en": "caretaker (vaktmester)"
+        },
+        {
+          "term": "postkasse",
+          "en": "mailbox, often in the stairwell (postkasse)"
+        },
+        {
+          "term": "ringeklokke",
+          "en": "doorbell / intercom panel (ringeklokke)"
+        },
+        {
+          "term": "fellesutgifter",
+          "en": "monthly shared costs (fellesutgifter)"
+        },
+        {
+          "term": "husleie",
+          "en": "rent (husleie)"
+        },
+        {
+          "term": "oppgang",
+          "en": "stairwell / entrance (oppgang)"
+        }
+      ],
+      "school": [
+        {
+          "term": "barnehage",
+          "en": "kindergarten (barnehage)"
+        },
+        {
+          "term": "SFO",
+          "en": "after-school programme (SFO)"
+        },
+        {
+          "term": "barneskole",
+          "en": "primary school, years 1-7 (barneskole)"
+        },
+        {
+          "term": "ungdomsskole",
+          "en": "lower secondary, years 8-10 (ungdomsskole)"
+        },
+        {
+          "term": "videregående",
+          "en": "upper secondary school (videregående)"
+        },
+        {
+          "term": "kontaktlærer",
+          "en": "homeroom teacher (kontaktlærer)"
+        },
+        {
+          "term": "foreldremøte",
+          "en": "parents' meeting (foreldremøte)"
+        },
+        {
+          "term": "planleggingsdag",
+          "en": "school closed for staff planning (planleggingsdag)"
+        }
+      ],
+      "money": [
+        {
+          "term": "kroner",
+          "en": "Norwegian kroner (kroner)"
+        },
+        {
+          "term": "kr",
+          "en": "written abbreviation (kr)"
+        },
+        {
+          "term": "hundrelapp",
+          "en": "100-krone note (hundrelapp)"
+        },
+        {
+          "term": "tusenlapp",
+          "en": "1000-krone note (tusenlapp)"
+        },
+        {
+          "term": "en million",
+          "en": "one million (en million)"
+        },
+        {
+          "term": "en milliard",
+          "en": "one billion (en milliard)"
+        },
+        {
+          "term": "spenn",
+          "en": "slang for money (spenn)"
+        },
+        {
+          "term": "et par tusen",
+          "en": "a couple of thousand (et par tusen)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "i dag",
+          "en": "today (i dag)"
+        },
+        {
+          "term": "i morgen",
+          "en": "tomorrow (i morgen)"
+        },
+        {
+          "term": "i overmorgen",
+          "en": "day after tomorrow (i overmorgen)"
+        },
+        {
+          "term": "i forgårs",
+          "en": "day before yesterday (i forgårs)"
+        },
+        {
+          "term": "halv tre",
+          "en": "2:30, not 3:30 (halv tre)"
+        },
+        {
+          "term": "kvart over",
+          "en": "quarter past (kvart over)"
+        },
+        {
+          "term": "uke 47",
+          "en": "week numbers are used for planning (uke 47)"
+        },
+        {
+          "term": "fellesferie",
+          "en": "July common holiday (fellesferie)"
+        },
+        {
+          "term": "påske",
+          "en": "Easter break, many offices shut (påske)"
+        }
+      ],
+      "work": [
+        {
+          "term": "jobben",
+          "en": "the job / workplace (jobben)"
+        },
+        {
+          "term": "sjefen",
+          "en": "the boss (sjefen)"
+        },
+        {
+          "term": "hjemmekontor",
+          "en": "working from home (hjemmekontor)"
+        },
+        {
+          "term": "egenmelding",
+          "en": "self-certified sick days (egenmelding)"
+        },
+        {
+          "term": "sykemelding",
+          "en": "doctor's sick note (sykemelding)"
+        },
+        {
+          "term": "lønning",
+          "en": "payday (lønning)"
+        },
+        {
+          "term": "arbeidsgiver",
+          "en": "employer (arbeidsgiver)"
+        },
+        {
+          "term": "ferie",
+          "en": "holiday leave (ferie)"
+        },
+        {
+          "term": "møte",
+          "en": "meeting (møte)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Swish",
+      "use_instead": "Vipps",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "MobilePay",
+      "use_instead": "Vipps",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "BankID",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "personnummer",
+      "use_instead": "fødselsnummer",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Skatteverket",
+      "use_instead": "Skatteetaten",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Försäkringskassan",
+      "use_instead": "NAV",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "vårdcentral",
+      "use_instead": "fastlege / legevakt",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "tusind",
+      "use_instead": "tusen",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "pakkeshop",
+      "use_instead": "hentested",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "hyra",
+      "use_instead": "husleie",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "ombud",
+      "use_instead": "hentested / Post i Butikk",
+      "where_it_is_from": "SE"
+    }
+  ],
+  "sources": [
+    "https://www.bankid.no/",
+    "https://vipps.no/",
+    "https://www.posten.no/",
+    "https://www.bring.no/",
+    "https://www.nav.no/",
+    "https://www.skatteetaten.no/",
+    "https://www.helsenorge.no/",
+    "https://ruter.no/",
+    "https://entur.no/",
+    "https://www.vy.no/",
+    "https://www.autopass.no/",
+    "https://www.sprakradet.no/",
+    "https://www.udir.no/"
+  ],
+  "uncertain": [
+    "Vipps 已與丹麥 MobilePay 合併為 Vipps MobilePay，但挪威口語仍說 Vipps／vippse；品牌名未來可能再變。",
+    "「halv tre」= 2:30 的說法在挪威常見，但跨北歐與英語使用者容易誤解，報時間最好再用 24 小時制講一次。",
+    "Post i Butikk 與 pakkeboks 的實際分布各地不同，無法確認哪一種在全國較常被提到。"
+  ]
+}

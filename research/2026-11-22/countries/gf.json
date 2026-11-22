@@ -1,0 +1,83 @@
+{
+  "country": "gf",
+  "parent": "fr",
+  "name": {
+    "en": "French Guiana",
+    "native": "Guyane",
+    "zh": "法屬圭亞那"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour, a reception desk, the letterbox, or a post office",
+    "zh": "包裹交給鄰居、接待處，放進信箱，或到郵局領"
+  },
+  "readback": {
+    "en": "10-digit numbers go in pairs (0594, 0694); 0 as zéro; day-month dates; euros",
+    "zh": "十位號碼兩位一組唸（0594、0694），0 唸 zéro；日期先日後月；用歐元"
+  },
+  "fraud": {
+    "en": "A fake La Poste or courier message asking for a fee or a secret code is a scam",
+    "zh": "假冒 La Poste 或快遞要補費或要密碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Vous by default, tu once offered. Locals may mix Guianese Creole; Portuguese or Spanish may be heard near borders.",
+    "zh": "預設 vous，同輩提議後才 tu。當地常夾雜圭亞那克里奧爾語，邊境也可能聽到葡語或西語。AI 只講法語。"
+  },
+  "stall_local": {
+    "en": "Get stuck on heavy rain, a bad road, weak signal, or a banking app spinning.",
+    "zh": "卡在大雨、路況差、收訊不好，或銀行 App 一直轉。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "appli bancaire",
+      "virement",
+      "code secret"
+    ],
+    "delivery": [
+      "La Poste",
+      "boîte aux lettres",
+      "voisin",
+      "accueil",
+      "bureau de poste"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "把內陸都當成巴黎式 point relais 網路",
+      "reason": {
+        "zh": "城市以外取件點密度與本土法國不同，較常是鄰居、接待處或郵局。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the parent's vous/tu scale. Levels 1–3 can be warmer and unhurried, without assuming a dense métropole relay network in casual asides. Levels 4–5 stay polished vous. Stay in French.",
+    "zh": "vous／tu 分檔照所屬地區。1～3 格可更熱絡從容，閒聊不要預設本土那樣密的轉運點。4～5 格維持得體 vous。只講法語。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "此次較少找到只針對圭亞那的官方詐騙或送貨習慣專文，多沿用法國海外省共用的 La Poste／反詐資料。",
+    "內陸取件方式與 point relais 覆蓋未逐區核對。"
+  ]
+}

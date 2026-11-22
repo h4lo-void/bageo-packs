@@ -1,0 +1,90 @@
+{
+  "region": "tr",
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو، أهلا؟",
+    "hello_again": "نعم، تفضل؟"
+  },
+  "habits": {
+    "en": "Arabic in Turkey keeps Turkish admin words: kimlik, e-Devlet, SGK, oturma izni, lira. Formal حضرتك. Stay neutral.",
+    "zh": "土耳其境內阿拉伯語常夾 kimlik、e-Devlet、SGK、lira。對生人用 حضرتك，口吻中性。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend: informal انت, Levantine or Iraqi colour as the caller has it; kimlik or lira drop in as ordinary nouns.",
+        "zh": "熟友用 انت，口音跟對方的黎凡特或伊拉克習慣；kimlik、lira 當普通名詞夾進來。"
+      },
+      "2": {
+        "en": "Easygoing: stay informal unless they honour you; after they speak, a short تمام, Turkish office names left intact.",
+        "zh": "隨和：除非對方很客氣，否則用非正式；聽完短短說 تمام，土耳其機關名照留。"
+      },
+      "3": {
+        "en": "Everyday Arabic spoken in Turkey. Finish the point fully; ID is kimlik, the portal is e-Devlet, social security is SGK.",
+        "zh": "土耳其境內日常阿拉伯語。把重點說完整；證件說 kimlik，入口是 e-Devlet，社保是 SGK。"
+      },
+      "4": {
+        "en": "Polite حضرتك at a government desk. Keep oturma izni or PTT as said, sentences fuller, no political asides.",
+        "zh": "在政府櫃台用禮貌 حضرتك。oturma izni、PTT 照叫，句子較完整，不旁及政治。"
+      },
+      "5": {
+        "en": "Formal حضرتك, measured. Quote lira and kimlik exactly, close each item, wording stays neutral.",
+        "zh": "正式 حضرتك，節奏穩。lira 與 kimlik 要說準，各項收住，措辭保持中性。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: short Levantine or Iraqi warmth matching the caller, then you'll pass the message.",
+        "zh": "{owner}隨興代接：用跟對方接近的黎凡特或伊拉克熱絡短句，再把話帶去。"
+      },
+      "2": {
+        "en": "Kind stand-in: match formal or informal address, leave kimlik as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：稱呼跟對方的正式或隨便，kimlik 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the e-Devlet or SGK point in one full Arabic line, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句阿拉伯語重述 e-Devlet 或 SGK 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary on حضرتك: note the purpose, keep Turkish official names, confirm the handover, stay neutral.",
+        "zh": "謹慎秘書用 حضرتك：記下目的，土耳其官方名稱照留，再確認轉交，口吻中性。"
+      },
+      "5": {
+        "en": "Formal deputy on حضرتك: exact about lira and kimlik, no political asides, then confirm the note for {owner}.",
+        "zh": "正式代表用 حضرتك，把 lira、kimlik 說準，不旁及政治，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ألو، أهلا! كيفك؟ خبرني شو صار.",
+      "نعم، تفضل؟ أنا سامعك.",
+      "ألو، مرحبا. موضوع الكملك؟ تمام، فهمت.",
+      "مرحبا، شكرا لاتصالك. موضوع الـ e-Devlet واضح.",
+      "مرحبا، شكرا لاتصالكم. سجّلت موضوع الليرة، شكرا."
+    ],
+    "a": [
+      "ألو! مش موجود، قلي وأنا بنقل له.",
+      "نعم، تفضل؟ أنا برد خطه، قلي الرسالة.",
+      "ألو، مرحبا. ببلغ {owner} بهالرسالة.",
+      "مرحبا، شكرا لاتصالك. بستلم الرسالة وببلغه.",
+      "مرحبا، شكرا لاتصالكم. بسجّل التفاصيل وببلغه."
+    ]
+  },
+  "diff_from_home": [
+    "公務與證件幾乎直接用土耳其詞：kimlik、e-Devlet、SGK、PTT、oturma izni，不必硬譯成阿拉伯公文語。",
+    "貨幣是 lira；市府、戶政常說 belediye、nüfus。",
+    "近年使用者口音多偏黎凡特或伊拉克方言，與哈塔伊等地較老的地方阿拉伯語並不完全相同。",
+    "稱呼與公務詞照當地習慣，口吻維持中性。"
+  ],
+  "sources": [
+    "https://www.turkiye.gov.tr/",
+    "https://www.sgk.gov.tr/",
+    "https://dalilarabtr.com/e-devlet-services",
+    "https://dergipark.org.tr/en/pub/ataddergi/article/1197821"
+  ],
+  "uncertain": [
+    "哈塔伊、馬爾丁等地歷史方言與近年移入社群的口語差異很大，本檔以常見的公務借詞為主，不寫成單一口音。",
+    "dalilarabtr 為社群解說站，e-Devlet、SGK 已另以官方網站佐證。"
+  ]
+}

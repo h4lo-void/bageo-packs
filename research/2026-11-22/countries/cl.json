@@ -1,0 +1,88 @@
+{
+  "country": "cl",
+  "parent": "latam",
+  "name": {
+    "en": "Chile",
+    "native": "Chile",
+    "zh": "智利"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the conserjería, a pickup point, or Chilexpress / Correos Chile",
+    "zh": "包裹交給 conserjería、取件點或 Chilexpress"
+  },
+  "readback": {
+    "en": "Mobiles often 9 then 4-4; 0 as cero; day-month dates; pesos chilenos (lucas informally)",
+    "zh": "手機常唸 9 再 4-4，0 唸 cero；日期先日後月；用智利比索"
+  },
+  "fraud": {
+    "en": "A fake BancoEstado, CuentaRUT or Chilexpress call asking for keys or codes is a scam",
+    "zh": "假冒 BancoEstado 或 CuentaRUT 要密碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Friends use tú plus verbal voseo (cachái); vos as a pronoun can sound rough. Formal: usted. Say computador and conserje.",
+    "zh": "熟人間用 tú 加動詞 voseo；代詞 vos 顯粗。正式 usted。說 computador。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the BancoEstado app spinning, conserjería closed, or glasses misplaced.",
+    "zh": "卡在銀行 App 一直轉、conserjería 已關門，或眼鏡放錯地方。"
+  },
+  "vocab": {
+    "bank": [
+      "CuentaRUT",
+      "BancoEstado",
+      "transferencia",
+      "clave",
+      "tarjeta"
+    ],
+    "delivery": [
+      "conserjería",
+      "conserje",
+      "punto de retiro",
+      "Chilexpress",
+      "Correos Chile"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "computadora",
+      "reason": {
+        "zh": "智利（與哥倫比亞）多數說 computador，所屬地區寫的 computadora 在此聽來偏外國。"
+      }
+    },
+    {
+      "word": "只會用標準 tú 動詞",
+      "reason": {
+        "zh": "熟人口語常是動詞 voseo，不是教科書式的 tú tienes。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Levels 1–2 should allow Chilean verbal voseo with tú, plus po, rather than generic tú only. Level 3 still often informal. Levels 4–5 use usted. Avoid Mexican or Colombian slang and Nequi.",
+    "zh": "1～2 格可用智利式 tú 加動詞 voseo，並帶 po，不要只會通用 tú。3 格也常偏輕鬆。4～5 格用 usted。避免墨西哥、哥倫比亞俚語和 Nequi。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador",
+    "https://www.tvn.cl/actualidad-y-tendencias/datos-y-servicios/cuentarut-la-nueva-estafa-que-busca-robar-tus-datos-bancarios",
+    "https://www.t13.cl/noticia/nacional/bancoestado-alerta-nueva-estafa-cuenta-rut-falso-ejecutivo-12-04-2021"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "手機 9 再 4-4 的唸法依常見書寫，未找到電信官方規範。",
+    "lucas 作為金額口語很常見，正式場合仍應說比索；分界依情境，沒有硬性規定。"
+  ]
+}

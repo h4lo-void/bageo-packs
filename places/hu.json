@@ -1,0 +1,707 @@
+{
+  "region": "hu",
+  "countries": [
+    "hu"
+  ],
+  "region_name_zh": "匈牙利",
+  "region_name": "Hungary",
+  "languages": [
+    {
+      "code": "hu",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Hungarian (hu); German is sometimes understood by older staff in the west and Balaton area; English works in central Budapest, hotels and with younger staff, rarely at GP offices, kormányablak or village trades.",
+  "english_ok": "sometimes — Good in central Budapest, Balaton resorts and hotels; limited among older staff, public clinics and municipal offices.",
+  "politeness": "Formal 'Ön' (or 'maga') with strangers; open with 'Jó napot kívánok' and say whom you call for; on the phone close with 'Köszönöm, viszonthallásra'.",
+  "name_tip": "Hungarian order is family name first ('Nagy János'); married women may use '-né' forms; ask for name order explicitly and spell foreign names letter by letter.",
+  "phone_tip": "Domestic format 06 + area/mobile code: mobile 06 20/30/70 + 7 digits, Budapest 06 1 + 7 digits; international +36; read in groups.",
+  "time_tip": "TRAP: 'fél nyolc' = 7:30, 'negyed nyolc' = 7:15, 'háromnegyed nyolc' = 7:45; dates are year-month-day (2026. 11. 25.); always read back in 24h.",
+  "number_tip": "Nouns stay singular after numbers ('4 fő', 'két személy'); 'kettő/két' both mean 2; districts are written in Roman numerals (XI. kerület), not counts.",
+  "avoid_calling": "Avoid lunch rush 12:00–14:00, dinner peak 18:30–20:30, calls after 20:00 and weekends for offices; GP practices (háziorvos) have fixed rendelési idő and phone hours.",
+  "closed_days": "Shops generally open on Sundays (the 2015 Sunday ban was repealed in 2016) but close on public holidays such as 15 March, Easter Monday, 1 May, Whit Monday, 20 August, 23 October, 1 November, 25–26 December; 24 December closes early.",
+  "booking_channels": "Online booking pages (e.g. Bookinda, Revino) and Google for salons and some restaurants; private clinic chains and dental systems online, public care via EESZT/háziorvos by phone; Wolt and Foodora for delivery; phone and Facebook Messenger still dominant for small venues and trades.",
+  "voice_menu": "Operators (Telekom, Yettel, One), banks, MÁV, Magyar Posta and government hotlines (e.g. 1818) use keypad IVR; small venues answer directly.",
+  "callback_habits": "Booking systems send email/SMS reminders; small businesses confirm by SMS, Messenger or a call back from a mobile.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "溫泉浴場（fürdő）、密室（szabadulószoba）、導覽可電話預約；熱門浴場與國會導覽走官網購票。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parliament tours sold online in timed slots"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepayment for a szabadulószoba to a private account"
+        }
+      ],
+      "usually_asked": [
+        "Activity",
+        "Date and time",
+        "People",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "匈牙利髮廊美容多接電話或線上預約頁。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Lemondási díj for late cancellation"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks előleg by átutalás before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (hajvágás, festés, műköröm)",
+        "Hair length",
+        "Day, time and fodrász",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；私人診所與美容可能收取消費（lemondási díj）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Lemondási díj inside 24 hours"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks TAJ szám to find the időpont"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original időpont",
+        "New time or lemondás",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立家庭醫師（háziorvos）依門診時間接電話，專科需 beutaló；私立診所與牙醫可線上或電話預約，必問 TAJ 健保號。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Private magánrendelő offers its online időpontfoglaló"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "NEAK-funded slot months away, private visit offered"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks TAJ szám (social security number)"
+        }
+      ],
+      "usually_asked": [
+        "Public (NEAK) or private (magán)",
+        "First or follow-up visit",
+        "Reason and beutaló",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、公用事業客服有語音選單並須本人核身，常問母親婚前姓名。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telekom or bank line refuses a meghatalmazott without papers"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks anyja neve (mother's maiden name) or codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Ügyfélszám",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府窗口（kormányablak）可線上預約，學校報名（beiratkozás）在四月；電話可問流程。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kormányablak időpont booked online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's TAJ and lakcímkártya data"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and körzet",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需給區（kerület）、街道、門牌、樓層、門號與門鈴碼（kapukód）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Kiszállási díj plus hourly rate"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Old bérház without lift for heavy items"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before visit"
+        }
+      ],
+      "usually_asked": [
+        "Trade (vízszerelő, villanyszerelő, lakatos)",
+        "Kerület, address, floor and kapukód",
+        "Time window",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "民宿與巴拉頓湖小旅館常電話或 Email 訂房並收 előleg；常接受 SZÉP 卡；入住需登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Idegenforgalmi adó (IFA) charged per night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "SZÉP kártya payment for the stay"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks személyi or passport number for NTAK registration"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room type",
+        "Breakfast and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、SZÉP 卡、庫存、可否帶狗等問題通常直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "SZÉP kártya accepted for food and lodging"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (nyitvatartás, kártya, SZÉP)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（állatorvos）與寵物美容可電話預約；狗需晶片與狂犬疫苗。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Ügyelet (on-duty) surcharge"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Kutyapanzió transfer deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Oltási könyv (vaccination book)",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋經 ingatlan.com 與房仲，電話約看房；押金（kaució）通常兩三個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks the ingatlan.com hirdetés ID"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Kaució demanded before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Rooms and move-in date",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（autószerviz）、換胎（gumicsere）與車檢（műszaki vizsga）多電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hibafelmérés (diagnosis) charged"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Műszaki vizsga station books separately"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks forgalmi engedély (registration) data"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and rendszám (plate)",
+        "Work needed",
+        "Drop-off day",
+        "Name and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "匈牙利餐廳多接電話或 Messenger 訂位，布達佩斯熱門店也有線上訂位；帳單常含 12–15% 服務費（szervizdíj）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Szervizdíj (service charge) already added to the bill"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Foglaló (deposit) for groups at Christmas"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to hold a ruin-bar table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Hány főre (party size)",
+        "Name (family name first)",
+        "Inside or terasz"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（patika）、麵包店與甜點店（cukrászda）可電話預訂；聖誕與復活節蛋糕要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Patika orders the item for next-day pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Előleg required for a cukrászda torta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Torta size (szelet count)",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與快餐店接電話外帶（elvitelre）；外送多走 Wolt、Foodora。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Házhozszállítás only via Wolt or Foodora"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Csomagolási díj (packaging) added"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks bankkártya number before cooking"
+        }
+      ],
+      "usually_asked": [
+        "Elvitel or kiszállítás",
+        "Items and pizza size in cm",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Magyar Posta、GLS、Foxpost、DPD 追蹤以網站 App 為主；Foxpost 取件用碼。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Foxpost hotline refers to its app"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the Foxpost locker code"
+        }
+      ],
+      "usually_asked": [
+        "Csomagszám",
+        "Recipient name and phone",
+        "Automata or address",
+        "Utánvét amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車可電話叫或用 Bolt 與車行 App；布達佩斯計程車費率全市統一。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives rendszám and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed fare to Liszt Ferenc Airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or jogosítvány"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "hu": {
+      "appointment_words": [
+        "időpontot kérni",
+        "orvosi időpont",
+        "fodrászhoz bejelentkezni",
+        "műszaki vizsga",
+        "fogászati kontroll"
+      ],
+      "booking_words": [
+        "asztalfoglalás",
+        "asztalt foglalni",
+        "szobafoglalás",
+        "szállás reggelivel",
+        "helyet foglalni"
+      ],
+      "change_words": [
+        "időpontot módosítani",
+        "foglalást lemondani",
+        "fél órával később",
+        "péntekre áttenni",
+        "átfoglalni"
+      ],
+      "date": [
+        "holnap",
+        "holnapután",
+        "ezen a pénteken",
+        "jövő kedden",
+        "2026. 11. 25.",
+        "november 25."
+      ],
+      "false_friends": [
+        "3. emelet",
+        "2. lépcsőház",
+        "XI. kerület",
+        "4-es menü",
+        "60 perces masszázs",
+        "4-es villamos"
+      ],
+      "inquiry_words": [
+        "meddig van konyha",
+        "lehet kártyával fizetni",
+        "kutyabarát hely",
+        "van raktáron",
+        "nyitvatartás"
+      ],
+      "name": [
+        "Kovács névre",
+        "Nagy János",
+        "Szabó Anna",
+        "Tóth család",
+        "Kiss úr"
+      ],
+      "order_words": [
+        "elvitelre",
+        "személyes átvétel",
+        "házhozszállítás",
+        "félre tudná tenni",
+        "előrendelés"
+      ],
+      "party": [
+        "4 főre",
+        "2 felnőtt és 1 gyerek",
+        "hárman leszünk",
+        "2 személyre",
+        "6 fő + etetőszék"
+      ],
+      "phone": [
+        "+36 30 123 4567",
+        "06 20 123 4567",
+        "visszahívás: 06 70 123 4567",
+        "06 1 234 5678"
+      ],
+      "time": [
+        "fél nyolckor",
+        "19:30-kor",
+        "negyed hétkor",
+        "háromnegyed nyolckor",
+        "délben",
+        "este 8 körül"
+      ]
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "country": "re",
+  "parent": "fr",
+  "name": {
+    "en": "Réunion",
+    "native": "La Réunion",
+    "zh": "留尼旺"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "On Réunion, leave it at a point relais, the letterbox or a neighbour, or collect at La Poste",
+    "zh": "在留尼旺可放 point relais、信箱或交給鄰居，或到 La Poste 窗口領"
+  },
+  "readback": {
+    "en": "10-digit numbers go in pairs (0262, 0692); 0 as zéro; day-month dates; euros",
+    "zh": "十位號碼兩位一組唸（0262、0692），0 唸 zéro；日期先日後月；用歐元"
+  },
+  "fraud": {
+    "en": "A fake La Poste SMS about an undelivered parcel, a fee or a code is a scam",
+    "zh": "假冒 La Poste 簡訊說包裹未送到、要補費或要驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Vous by default; tu more readily with peers. Réunion Creole may appear; reply only in French. Not septante.",
+    "zh": "預設 vous，同輩較快改 tu。或夾留尼旺克里奧爾語，只用法語回。不用 septante。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, heavy rain, a banking app spinning, or glasses left in the case.",
+    "zh": "卡在停電、大雨、銀行 App 一直轉，或眼鏡放在屋子裡。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "appli bancaire",
+      "virement",
+      "code secret"
+    ],
+    "delivery": [
+      "point relais",
+      "La Poste",
+      "boîte aux lettres",
+      "voisin",
+      "bureau de poste"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "Clé Digitale 當預設 stall",
+      "reason": {
+        "zh": "這偏本土法國某些銀行的驗證方式，不宜當成留尼旺日常卡點。"
+      }
+    }
+  ],
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: tu, short warm lines, an easy island pace, a real reaction (ah ouais, nickel), varied.",
+        "zh": "像{owner}跟好朋友：用 tu，句子短而熱絡，節奏從容，真反應（如 ah ouais、nickel），每次換說法。"
+      },
+      "2": {
+        "en": "Warm and unhurried: tu comes easily with peers; after they explain, add a kind remark (ah d'accord, ça va), varied.",
+        "zh": "溫暖不趕：對同輩很自然用 tu；對方講完，加一句體貼回應（如 ah d'accord、ça va），每次換說法。"
+      },
+      "3": {
+        "en": "Vous with strangers, tu if they already use it. After their point, reply in one full sentence, not a word or two, varied.",
+        "zh": "陌生人用 vous，對方已用 tu 再跟著用。對方講完一件事，用一句完整的話回應，不只回一兩個字，每次換。"
+      },
+      "4": {
+        "en": "Polished vous, complete sentences; take up their main point first, still warm rather than stiff métropole formal, varied.",
+        "zh": "有禮的 vous，句子完整，先回應重點；語氣仍溫暖，不要做成僵硬的本土法國腔，每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business vous, full sentences, little small talk but not cold; answer each point clearly (c'est très clair), varied.",
+        "zh": "俐落公事 vous，句子完整，少閒聊但不冷；每個重點都清楚回應（如 c'est très clair），每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper: tu, breezy warm lines; react first, then say you will pass it on (ah super, je transmets), varied.",
+        "zh": "{owner}活潑的小幫手：用 tu，句子輕快；先回應再說會轉告（如 ah super），每次換說法。"
+      },
+      "2": {
+        "en": "Calm assistant: tu or relaxed vous to match the caller; acknowledge their situation, then take the message (c'est noté), varied.",
+        "zh": "親切從容的助理：看對方用 tu 或輕鬆 vous；先體貼處境，再記下留言（如 c'est noté），每次換說法。"
+      },
+      "3": {
+        "en": "Capable assistant: vous by default. After their point, one full sentence, then confirm the relay (je prends note), varied.",
+        "zh": "自然幹練的助理：一般用 vous。對方講完先完整回應一句，再確認轉達（如 je prends note），每次換。"
+      },
+      "4": {
+        "en": "Discreet secretary: polished vous, composed full sentences; take up why they called, then offer to pass it on (bien reçu), varied.",
+        "zh": "低調周到的秘書：得體的 vous，句子沉穩完整；先承接來意再說會轉告（如 bien reçu），每次換說法。"
+      },
+      "5": {
+        "en": "Executive assistant: refined vous, concise and brisk; answer key details in full, then confirm the relay (entendu), varied.",
+        "zh": "主管級助理：正式 vous，精簡明快；先完整回應重點，再確認轉達（如 entendu），每次換說法。"
+      }
+    }
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://la1ere.franceinfo.fr/reunion/alerte-arnaque-des-sms-frauduleux-sur-des-colis-non-livres-circulent-a-la-reunion-1491506.html",
+    "https://reunion.deets.gouv.fr/Un-SMS-promettant-un-gain-Un-clic-sur-Internet-pour-contacter-une",
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "留尼旺克里奧爾語不在支援清單，不能當 AI 用語；當地實際夾雜程度因人而異。",
+    "十位號碼兩位一組是沿用法國唸法，未找到當地電信「必須這樣唸」的專文。"
+  ]
+}

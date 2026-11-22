@@ -1,0 +1,132 @@
+{
+  "lang": "ps",
+  "script": "arabic",
+  "common_words": [
+    "زه",
+    "تاسو",
+    "ته",
+    "هغه",
+    "موږ",
+    "دوی",
+    "نه",
+    "هو",
+    "مننه",
+    "مهرباني",
+    "سلام",
+    "خدای پامان",
+    "نن",
+    "سبا",
+    "پرون",
+    "سهار",
+    "ماښام",
+    "ولې",
+    "څنګه",
+    "چیرته",
+    "څه",
+    "دا",
+    "دی",
+    "یم",
+    "یو",
+    "په",
+    "کې",
+    "او",
+    "خو",
+    "که",
+    "ډیر",
+    "اوس",
+    "شمېره",
+    "پته",
+    "ډاکټر",
+    "غواړم",
+    "کولای",
+    "دلته",
+    "هلته",
+    "لا",
+    "بیا",
+    "باید",
+    "ښه",
+    "زما",
+    "ستاسو",
+    "لپاره",
+    "څخه",
+    "سره",
+    "مه",
+    "وکړئ"
+  ],
+  "frequency_source": "OPUS OpenSubtitles v2024 Pashto frequencies https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/ps.freq.gz (FrequencyWords 2018 has no ps file). The list is modest in size compared with Arabic or Persian.",
+  "shared_words": [
+    {
+      "word": "د",
+      "also_in": [
+        "ar",
+        "fa"
+      ]
+    },
+    {
+      "word": "او",
+      "also_in": [
+        "ur",
+        "fa"
+      ]
+    },
+    {
+      "word": "نه",
+      "also_in": [
+        "ur",
+        "fa"
+      ]
+    },
+    {
+      "word": "دا",
+      "also_in": [
+        "ur"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ټ",
+    "ډ",
+    "ړ",
+    "ږ",
+    "ښ",
+    "ګ",
+    "ڼ",
+    "ې",
+    "ۍ",
+    "ځ",
+    "څ"
+  ],
+  "confusable_with": [
+    "ar",
+    "fa",
+    "ur",
+    "sd"
+  ],
+  "how_to_tell_apart": "Pashto has a large set of letters that Arabic, Persian and Urdu do not use, notably ښ, ږ, ځ, څ, ې, ۍ, ټ and ڼ. Word cues include زه, تاسو, مننه, مهرباني, څه, څنګه, چیرته, ولې, سبا, ماښام and غواړم. Urdu would show ہوں/آپ/شکریہ and ے; Persian would show است/لطفا and پ/چ/ژ/گ without the Pashto-only letters. Short items such as د, او and نه occur in neighbouring languages and are not sufficient. The OpenSubtitles Pashto list is relatively small, so mid-frequency ranks should be treated with more caution than for Arabic.",
+  "test_said": [
+    "د ښاروالۍ څخه د استوګنې کاغذ غواړم چې ښوونځي ته یې وړاندې کړم.",
+    "د درملتون څخه پوښتم چې د ټوخي دارو نن ماښام چمتو کېږي که نه.",
+    "د پوستې بسته په سیستم کې ښکاري خو ما ته تر اوسه خبر نه دی راغلی.",
+    "نوې المارۍ یوه پښه ماتې ښکاري او غواړم چې بدله راولېږل شي.",
+    "کلینیک ته د درې ورځو ټوخي له امله د معاينې وخت غواړم.",
+    "د وینې معایناتو پایله باید پنجشنبې ته راشي او تر اوسه را نه رسېدلې.",
+    "په دې تلیفون نوې بیمه نه اخلم او شخصي معلومات هم نه وایم.",
+    "د موبایل بسته مې دا میاشت بدلې کړې نو د بل شرکت وړاندیز نه غواړم."
+  ],
+  "test_not_enough": [
+    "لیلا",
+    "ok",
+    "شپږ",
+    "ready"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2024/freq/ps.freq.gz",
+    "https://opus.nlpl.eu/",
+    "https://en.wikipedia.org/wiki/Pashto_alphabet",
+    "https://en.wikipedia.org/wiki/Pashto"
+  ],
+  "uncertain": [
+    "The OpenSubtitles Pashto frequency list is small, and some lines may mix Dari or Urdu; distinctive letters and the pronouns زه/تاسو were preferred for that reason.",
+    "Regional dialect differences (northern versus southern pronunciation of ښ, and some verb forms) are not fully visible in a short word list."
+  ]
+}

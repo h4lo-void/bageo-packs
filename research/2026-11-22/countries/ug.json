@@ -1,0 +1,63 @@
+{
+  "country": "ug",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Uganda",
+    "native": "Uganda",
+    "zh": "烏干達"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+256",
+    "currency": "烏干達先令 UGX（父區為肯亞先令、坦尚尼亞先令、比爾等）",
+    "time_zone": "UTC+3（與父區東非時間相同）",
+    "language": "官方語為英語與斯瓦希里語；日常最廣的是盧干達語，電話對陌生人多先用英語",
+    "holidays": "有自己的國定日，例如 6 月 3 日烏干達殉道者紀念日、10 月 9 日獨立日"
+  },
+  "fraud": {
+    "en": "Calls claiming a mistaken MoMo transfer to send back, or asking for a PIN, are scams",
+    "zh": "來電說 MoMo 轉錯錢要你退回、或要 PIN 的，都是詐騙"
+  },
+  "habits": {
+    "en": "Open in English; follow Luganda callers (ssebo, nnyabo). Mobile money is MTN MoMo or Airtel Money, not M-Pesa.",
+    "zh": "先用英語；對方說盧干達語就跟著說（ssebo、nnyabo 為先生、女士）。行動錢包是 MTN MoMo、Airtel Money，不是 M-Pesa。"
+  },
+  "vocab": {
+    "bank": [
+      "MTN MoMo",
+      "Airtel Money",
+      "mobile money agent"
+    ],
+    "delivery": [
+      "boda boda",
+      "askari",
+      "stage"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "zh": "肯亞 Safaricom 的行動錢包，烏干達通行的是 MTN MoMo 與 Airtel Money"
+      }
+    },
+    {
+      "word": "Telebirr",
+      "reason": {
+        "zh": "衣索比亞的行動錢包，烏干達不用"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.ucc.co.ug/",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Uganda",
+    "https://en.wikipedia.org/wiki/Ugandan_shilling",
+    "https://en.wikipedia.org/wiki/Public_holidays_in_Uganda",
+    "https://www.mtn.co.ug/"
+  ],
+  "uncertain": [
+    "MTN MoMo 與 Airtel Money 的市占比例沒有開到官方統計。",
+    "盧干達語以外的地方語（如 Runyankole、Acholi）在電話上何時切換，缺少資料。"
+  ]
+}

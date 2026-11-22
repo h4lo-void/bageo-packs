@@ -1,0 +1,280 @@
+{
+  "lang": "be",
+  "backchannels": {
+    "direction": "Так, ага, угу show listening; зразумела (akanye spelling, not понятно) agrees; так-так-так can sound hurried.",
+    "examples": [
+      {
+        "text": "Так, слухаю.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Ага, зразумела.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Угу, ясна.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Менавіта так.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Так-так-так.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Сапраўды? (with ў) or Ды ну! for surprise; шкада for regret, as in Ukrainian; віншую for good news.",
+    "examples": [
+      {
+        "text": "Сапраўды?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Ды ну!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Як шкада.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Мне вельмі шкада гэта чуць.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Віншую!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Гэта будзе нялёгка.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you hear badly (дрэнна чую — дрэнна, not плохо/погано) or the line is weak (сувязь кепская); ask for гучней.",
+    "examples": [
+      {
+        "text": "Я вас дрэнна чую.",
+        "style": "polite"
+      },
+      {
+        "text": "Сувязь кепская.",
+        "style": "casual"
+      },
+      {
+        "text": "Голас прападае.",
+        "style": "casual"
+      },
+      {
+        "text": "Ці можаце гаварыць крыху гучней?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Перапрашаю? or Прабачце? asks for a replay; ask names па літарах; echo the нумар.",
+    "examples": [
+      {
+        "text": "Перапрашаю, што вы сказалі?",
+        "style": "polite"
+      },
+      {
+        "text": "Паўтарыце, калі ласка.",
+        "style": "polite"
+      },
+      {
+        "text": "Скажыце прозвішча па літарах.",
+        "style": "polite"
+      },
+      {
+        "text": "Нумар 12345678, правільна?",
+        "style": "polite"
+      },
+      {
+        "text": "Га?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Хто гаворыць? or З кім я размаўляю? with вы; note тэлефануе (цеканне: т→ц before soft vowels).",
+    "examples": [
+      {
+        "text": "З кім я размаўляю, калі ласка?",
+        "style": "polite"
+      },
+      {
+        "text": "Хто тэлефануе?",
+        "style": "polite"
+      },
+      {
+        "text": "Гэта тэлефон {owner}, хто гэта?",
+        "style": "polite"
+      },
+      {
+        "text": "Хто там?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say вы памыліліся нумарам and nobody by that name is here; brief.",
+    "examples": [
+      {
+        "text": "Прабачце, вы памыліліся нумарам.",
+        "style": "polite"
+      },
+      {
+        "text": "Тут няма нікога з такім імем.",
+        "style": "polite"
+      },
+      {
+        "text": "Не туды трапілі.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Перадам (same root as Russian) tells the caller {owner} will hear of it; name no time for a reply.",
+    "examples": [
+      {
+        "text": "Я перадам {owner} ваша паведамленне.",
+        "style": "polite"
+      },
+      {
+        "text": "Перадам, не хвалюйцеся.",
+        "style": "polite"
+      },
+      {
+        "text": "Скажу яму.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Дзякуй (дз where Russian has спасибо), мне не цікава is the plain polite no.",
+    "examples": [
+      {
+        "text": "Дзякуй, мне не цікава.",
+        "style": "polite"
+      },
+      {
+        "text": "Нам гэта не патрэбна, дзякуй.",
+        "style": "polite"
+      },
+      {
+        "text": "Не, дзякуй.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On a second push, cite the earlier refusal and ask them to stop dialling; калі ласка, not пожалуйста.",
+    "examples": [
+      {
+        "text": "Я ўжо адмовіўся.",
+        "style": "polite"
+      },
+      {
+        "text": "Калі ласка, больш не тэлефануйце на гэты нумар.",
+        "style": "polite"
+      },
+      {
+        "text": "Выдаліце гэты нумар са свайго спісу.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Вы for strangers; спадар/спадарыня (not господин/пан) or first name + patronymic; ты only when invited.",
+    "examples": [
+      {
+        "text": "Спадар",
+        "style": "polite"
+      },
+      {
+        "text": "Спадарыня",
+        "style": "polite"
+      },
+      {
+        "text": "Шаноўны спадар",
+        "style": "polite"
+      },
+      {
+        "text": "Ганна Іванаўна",
+        "style": "polite"
+      },
+      {
+        "text": "Прывітанне, Сашка",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Ваш званок вельмі важны для нас sound like a кол-цэнтр recording.",
+    "examples": [
+      {
+        "text": "Ваш званок вельмі важны для нас.",
+        "style": "polite"
+      },
+      {
+        "text": "Дзякуем, што патэлефанавалі ў службу падтрымкі.",
+        "style": "polite"
+      },
+      {
+        "text": "Чым магу дапамагчы?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Ты with older strangers, asking pay or marriage, or remarking on the caller's choice of language is rude.",
+    "examples": [
+      {
+        "text": "Ты жанаты? Колькі зарабляеш?",
+        "style": "casual"
+      },
+      {
+        "text": "Ты хто такі?",
+        "style": "casual"
+      },
+      {
+        "text": "Чаго ты не па-руску гаворыш?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikipedia.org/wiki/Belarusian_language",
+    "https://en.wikipedia.org/wiki/Belarusian_alphabet",
+    "https://en.wikipedia.org/wiki/Short_U",
+    "https://en.wikipedia.org/wiki/Akanye",
+    "https://en.wikipedia.org/wiki/Trasianka",
+    "https://en.wikipedia.org/wiki/Languages_of_Belarus",
+    "https://en.wiktionary.org/wiki/%D0%B4%D0%B7%D1%8F%D0%BA%D1%83%D0%B9",
+    "https://en.wiktionary.org/wiki/%D1%81%D0%BF%D0%B0%D0%B4%D0%B0%D1%80",
+    "https://en.wiktionary.org/wiki/%D0%BA%D0%B0%D0%BB%D1%96_%D0%BB%D0%B0%D1%81%D0%BA%D0%B0"
+  ],
+  "uncertain": [
+    "Per the 2019 census (Wikipedia, Languages of Belarus) about 71% speak Russian at home and about 26% Belarusian; many callers will open in Russian or trasianka, and the AI should follow the caller's language",
+    "Trasianka (Belarusian-Russian mixed speech) is common in everyday talk but has no fixed norm, so it is not modelled here; examples use standard Belarusian",
+    "Two spellings coexist (official narkamaŭka vs. taraškievica); examples use the official one",
+    "No Belarusian phone-call corpus found; backchannels and phrasing come from dictionaries and grammar descriptions"
+  ]
+}

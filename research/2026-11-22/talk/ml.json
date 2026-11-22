@@ -1,0 +1,289 @@
+{
+  "lang": "ml",
+  "backchannels": {
+    "direction": "ഉം and ശരി show you follow; ആണോ? invites more detail; ശരി ശരി said fast can sound like brushing off.",
+    "examples": [
+      {
+        "text": "ഉം.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "അതെ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ശരി.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ആണോ?",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ഓ, അങ്ങനെയാണോ.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ശരി ശരി.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "അയ്യോ covers shock and sympathy; കഷ്ടം for pity, കൊള്ളാം for good news among friends.",
+    "examples": [
+      {
+        "text": "അയ്യോ!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "സത്യമാണോ?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "കഷ്ടം.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "വിഷമമായി കേട്ടപ്പോൾ.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "കൊള്ളാം!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "നന്നായി.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ബുദ്ധിമുട്ടാണ്.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice is unclear; Keralites commonly mention റേഞ്ച് or the call cutting (കട്ട് ആകുന്നു).",
+    "examples": [
+      {
+        "text": "ശബ്ദം വ്യക്തമല്ല.",
+        "style": "polite"
+      },
+      {
+        "text": "റേഞ്ച് കുറവാണ്.",
+        "style": "casual"
+      },
+      {
+        "text": "കട്ട് ആകുന്നു.",
+        "style": "casual"
+      },
+      {
+        "text": "കുറച്ചു ഉറക്കെ പറയാമോ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "The -ആമോ? ending makes a soft request; names are often spelled in English letters over the phone.",
+    "examples": [
+      {
+        "text": "ഒന്നുകൂടി പറയാമോ?",
+        "style": "polite"
+      },
+      {
+        "text": "എന്താ പറഞ്ഞത്?",
+        "style": "casual"
+      },
+      {
+        "text": "പേര് സ്പെല്ലിംഗ് പറയാമോ?",
+        "style": "polite"
+      },
+      {
+        "text": "നമ്പർ വീണ്ടും പറയാമോ, 12345678 അല്ലേ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ആരാ? alone is blunt; the fuller ആരാണ് സംസാരിക്കുന്നത്? is the polite way to ask a stranger.",
+    "examples": [
+      {
+        "text": "ആരാണ് സംസാരിക്കുന്നത്?",
+        "style": "polite"
+      },
+      {
+        "text": "ആരാ?",
+        "style": "casual"
+      },
+      {
+        "text": "എവിടെ നിന്നാണ് വിളിക്കുന്നത്?",
+        "style": "polite"
+      },
+      {
+        "text": "ഇത് {owner}-ന്റെ ഫോൺ ആണ്. ആരാണ്?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Simply say the number went wrong; റോങ്ങ് നമ്പർ in English is just as common in Kerala.",
+    "examples": [
+      {
+        "text": "നമ്പർ തെറ്റിപ്പോയി.",
+        "style": "polite"
+      },
+      {
+        "text": "ആ പേരിൽ ഇവിടെ ആരുമില്ല.",
+        "style": "polite"
+      },
+      {
+        "text": "റോങ്ങ് നമ്പർ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "പറഞ്ഞേക്കാം or അറിയിക്കാം offers to pass it on without promising a callback time.",
+    "examples": [
+      {
+        "text": "ഞാൻ പറഞ്ഞേക്കാം.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner}-നോട് പറയാം.",
+        "style": "casual"
+      },
+      {
+        "text": "വിവരം അറിയിക്കാം.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "വേണ്ട is the core refusal; താൽപര്യമില്ല means not interested and sounds firm but civil.",
+    "examples": [
+      {
+        "text": "വേണ്ട, നന്ദി.",
+        "style": "polite"
+      },
+      {
+        "text": "എനിക്ക് താൽപര്യമില്ല.",
+        "style": "polite"
+      },
+      {
+        "text": "ഇപ്പോൾ ആവശ്യമില്ല.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On repeat calls use the prohibitive -അരുത് (do not) to ask them to stop, still with polite pronouns.",
+    "examples": [
+      {
+        "text": "ഞാൻ നേരത്തെ വേണ്ടെന്ന് പറഞ്ഞു. ഇനി വിളിക്കരുത്.",
+        "style": "polite"
+      },
+      {
+        "text": "ഈ നമ്പർ നിങ്ങളുടെ ലിസ്റ്റിൽ നിന്ന് മാറ്റണം.",
+        "style": "polite"
+      },
+      {
+        "text": "വേണ്ടെന്ന് പറഞ്ഞില്ലേ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "താങ്കൾ or നിങ്ങൾ for strangers; ചേട്ടൻ/ചേച്ചി by age; offices get സാർ or മാഡം.",
+    "examples": [
+      {
+        "text": "ചേട്ടാ,",
+        "style": "casual"
+      },
+      {
+        "text": "ചേച്ചീ,",
+        "style": "casual"
+      },
+      {
+        "text": "സാർ,",
+        "style": "polite"
+      },
+      {
+        "text": "മാഡം,",
+        "style": "polite"
+      },
+      {
+        "text": "താങ്കൾ",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Written-style Malayalam with സേവനം and ആശംസ sounds like a telecom recording on a personal line.",
+    "examples": [
+      {
+        "text": "താങ്കളുടെ കോൾ ഞങ്ങൾക്ക് പ്രധാനമാണ്.",
+        "style": "polite"
+      },
+      {
+        "text": "ഞാൻ എങ്ങനെ സഹായിക്കണം?",
+        "style": "polite"
+      },
+      {
+        "text": "ഞങ്ങളുടെ സേവനം തിരഞ്ഞെടുത്തതിന് നന്ദി.",
+        "style": "polite"
+      },
+      {
+        "text": "വിളിച്ചതിന് നന്ദി, നല്ല ദിവസം ആശംസിക്കുന്നു.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid നീ or എടാ with strangers, early salary or marriage questions, and any request for an OTP.",
+    "examples": [
+      {
+        "text": "എത്ര ശമ്പളമുണ്ട്?",
+        "style": "casual"
+      },
+      {
+        "text": "കല്യാണം കഴിഞ്ഞോ?",
+        "style": "casual"
+      },
+      {
+        "text": "നീ ആരാടാ?",
+        "style": "casual"
+      },
+      {
+        "text": "ആദ്യം OTP പറയൂ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Malayalam_phrasebook",
+    "https://en.wiktionary.org/wiki/%E0%B4%9A%E0%B5%87%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%BB",
+    "https://en.wiktionary.org/wiki/%E0%B4%B6%E0%B4%B0%E0%B4%BF",
+    "https://en.wikipedia.org/wiki/Indian_honorifics",
+    "https://en.wiktionary.org/wiki/%E0%B4%9A%E0%B5%87%E0%B4%9A%E0%B5%8D%E0%B4%9A%E0%B4%BF"
+  ],
+  "uncertain": [
+    "馬拉雅拉姆語電話附和詞沒有語料可查，「ഉം／ശരി」依詞典與片語集，使用頻率不明。",
+    "「താങ്കൾ」較書面、「നിങ്ങൾ」較口語，對陌生人選哪個在北部與南部喀拉拉可能不同，未找到地區比較。",
+    "OTP、റേഞ്ച് 等英語借詞在電話中很常見，但沒有正式統計。"
+  ]
+}

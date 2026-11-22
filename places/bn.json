@@ -1,0 +1,666 @@
+{
+  "region": "bn",
+  "countries": [
+    "bn"
+  ],
+  "region_name_zh": "汶萊",
+  "region_name": "Brunei",
+  "languages": [
+    {
+      "code": "ms",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Begin in standard Malay (ms); most counter staff switch to English easily, and Chinese-run shops may prefer Mandarin.",
+  "english_ok": "mostly — Schooling is bilingual, so offices, clinics, hotels and larger shops handle English; older stall keepers may lean on Malay.",
+  "politeness": "Courteous and unhurried; use Awang (Mr) or Dayang (Ms) or plain Encik/Cik, keep a calm tone and close with terima kasih.",
+  "name_tip": "Malay names are given name + bin/binti + father's name with no surname; book under the given name and repeat any Chinese or foreign name slowly.",
+  "phone_tip": "All numbers are 7 digits with no area code; mobiles begin with 7 or 8 (712 3456), landlines with 2; read in a 3+4 split.",
+  "time_tip": "Both 12-hour (pagi/petang/malam) and 24-hour appear; confirm 'malam 7' as 19:00 for dinner slots.",
+  "number_tip": "Prices are in Brunei dollars (B$), pegged one-to-one with the Singapore dollar; say B$ before amounts.",
+  "avoid_calling": "Avoid Friday 12:00–14:00, when shops pause for Friday prayers; during Ramadan many places shorten daytime hours and open late after buka puasa.",
+  "closed_days": "The official weekend is Friday and Sunday; many private shops open Saturday; Hari Raya Aidilfitri closes businesses for several days.",
+  "booking_channels": "WhatsApp is the default business chat; Instagram pages take orders; Dart handles ride-hailing; clinics at public hospitals book through the health ministry's BruHealth app.",
+  "voice_menu": "Banks and telcos run Malay/English IVR; small businesses pick up themselves or answer on WhatsApp.",
+  "callback_habits": "Shops reply by WhatsApp text or voice note; government clinics send appointment slips inside the app rather than calling.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "雨林、水村遊船等行程多經旅行社電話或 WhatsApp 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Temburong trips depend on boat times"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Transfer to a personal account to lock the tour"
+        }
+      ],
+      "usually_asked": [
+        "Tour and date",
+        "Group size",
+        "Hotel pickup",
+        "Lead name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊與美容多 WhatsApp 或 Instagram 預約，女性專用沙龍常見，男性不可入內。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Ladies-only salon cannot take a male stylist request"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full transfer before the slot is even given"
+        }
+      ],
+      "usually_asked": [
+        "Cut, colour, facial or bridal makeup",
+        "Any favourite stylist",
+        "Day and time",
+        "Contact on WhatsApp"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多 WhatsApp 一句即可；齋戒月訂位改動要早說。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepaid buffet not refundable"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks IC number to find the record"
+        }
+      ],
+      "usually_asked": [
+        "Booked name",
+        "Current slot",
+        "Desired new slot",
+        "Whether headcount changed"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫療多透過衛生部 BruHealth App 預約；私立診所可直接電話。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Government clinic slots are taken only in BruHealth"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private clinic fee for non-citizens"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the patient's IC number"
+        }
+      ],
+      "usually_asked": [
+        "Patient's full name",
+        "First visit or review",
+        "Which department",
+        "Citizen, resident or visitor"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行與電信客服有馬來語／英語選單，帳戶事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Account changes need the holder at the branch"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "IC number, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Language option",
+        "Holder's name",
+        "Linked phone",
+        "The issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府辦公週五、週日休；手續多須本人，學校可電話洽詢。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Counter closed on Friday and Sunday"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Child's or parent's IC number"
+        }
+      ],
+      "usually_asked": [
+        "Which office or school",
+        "Child's level",
+        "District",
+        "Parent's phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣、水電與清潔多電話叫，地址以 kampong 名、Simpang 編號與門牌描述。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transport charge for outer districts"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment ahead of the call-out"
+        }
+      ],
+      "usually_asked": [
+        "Job type",
+        "Kampong, Simpang and house number",
+        "Visit window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店多經 Booking.com、Agoda 或電話；入住出示護照或 IC。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotel is alcohol-free"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Late checkout fee"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card number asked by phone"
+        }
+      ],
+      "usually_asked": [
+        "Stay dates",
+        "Guests and beds",
+        "Airport transfer",
+        "Guest's passport name"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、週五禱告時段、齋戒月時刻或付款方式，店家多直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed 12:00–14:00 on Friday"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Accepts debit card and bank transfer"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Friday and Ramadan hours",
+        "Card or transfer",
+        "Parking",
+        "Halal status of items"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫多可電話預約；寵物以貓為主，養狗相對少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vet sees dogs only at certain hours"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding wants full advance payment"
+        }
+      ],
+      "usually_asked": [
+        "Check-up, neutering or boarding",
+        "Species and age",
+        "Vaccine record",
+        "Owner name"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Facebook 與分類網站，房東用 WhatsApp 約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit equal to one or two months"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Viewing fee before seeing the house"
+        }
+      ],
+      "usually_asked": [
+        "Listing and kampong",
+        "Move-in date",
+        "Household size",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車維修多預約到廠；汶萊幾乎家家開車，保養廠排程常要幾天。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Workshop asks the plate and mileage"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts must be ordered from Malaysia"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pay in full before diagnosis"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model and plate",
+        "What is wrong",
+        "Drop-off day",
+        "Owner and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "汶萊餐廳多電話或 WhatsApp 訂位；全國禁酒，齋戒月傍晚開齋時段一位難求。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Buka puasa buffet needs prepayment"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Staff asks to confirm via WhatsApp"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests card digits over the phone to secure the buffet"
+        }
+      ],
+      "usually_asked": [
+        "Lunch or dinner and the clock time",
+        "Adults and kids in the group",
+        "Family hall or regular table",
+        "Name and 7-digit number"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "節慶糕點與 Hari Raya 餅乾多提前在 Instagram 或 WhatsApp 預訂並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hari Raya cookie orders close weeks ahead"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Unknown seller demands full payment first"
+        }
+      ],
+      "usually_asked": [
+        "Flavour, jar count or cake size",
+        "Message on the item",
+        "Date to collect",
+        "Buyer name"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶（bungkus）可電話先點；外送多經本地 App 或店家 WhatsApp。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only via the delivery app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery needs a minimum spend in B$"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Prepay to a personal account for a small bungkus order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and spice level",
+        "Collection time",
+        "Area for delivery",
+        "Name for the bag"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政與本地快遞可電話或 WhatsApp 詢問，國際包裹以追蹤號查。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parcels collected at the post office counter"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "OTP or collection PIN"
+        }
+      ],
+      "usually_asked": [
+        "Tracking reference",
+        "Recipient name",
+        "Delivery district",
+        "Parcel contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車用 Dart；計程車少，機場與包車可電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Few street taxis; book via Dart"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fare to Kuala Belait or across the border"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Rental asks licence and IC copy"
+        }
+      ],
+      "usually_asked": [
+        "Pickup spot and time",
+        "Destination",
+        "Riders and suitcase count",
+        "Rider name"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ms": {
+      "appointment_words": [
+        "temujanji doktor",
+        "temujanji gigi",
+        "buat rambut",
+        "servis kereta"
+      ],
+      "booking_words": [
+        "tempah meja",
+        "tempah bilik",
+        "booking awal"
+      ],
+      "change_words": [
+        "tukar tarikh",
+        "batal tempahan",
+        "anjak ke hari Sabtu"
+      ],
+      "date": [
+        "esok",
+        "lusa",
+        "hari Sabtu",
+        "25/11"
+      ],
+      "false_friends": [
+        "tingkat 3",
+        "bilik 12",
+        "urut 1 jam"
+      ],
+      "inquiry_words": [
+        "buka pukul berapa",
+        "ada parking kah",
+        "boleh bayar kad"
+      ],
+      "name": [
+        "Awang Hadi",
+        "Dayang Nur",
+        "atas nama syarikat"
+      ],
+      "order_words": [
+        "bungkus",
+        "hantar ke rumah",
+        "ambil sendiri"
+      ],
+      "party": [
+        "4 orang",
+        "2 dewasa 1 budak",
+        "meja 10 orang"
+      ],
+      "phone": [
+        "712 3456",
+        "WhatsApp nombor sama"
+      ],
+      "time": [
+        "7 malam",
+        "19:30",
+        "10 pagi",
+        "tengah hari"
+      ]
+    }
+  }
+}

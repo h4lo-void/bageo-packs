@@ -1,0 +1,91 @@
+{
+  "region": "nl",
+  "lang": "ar",
+  "hello": {
+    "hello": "أهلا، أيوا؟",
+    "hello_again": "نعم، تفضّل؟"
+  },
+  "habits": {
+    "en": "More formal with elders. Mix BSN, DigiD, toeslagen, huisarts, iDEAL, IND. Keep Dutch official names.",
+    "zh": "對長輩較正式。夾 BSN、DigiD、huisarts、iDEAL、IND，保留荷語機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family in the Netherlands, keep it informal, mix Dutch nouns, and answer tamam after a short opener.",
+        "zh": "在荷蘭跟家人不必客套，荷語名詞夾進阿語，短短開場後回 tamam。"
+      },
+      "2": {
+        "en": "Warm Arabic in the Netherlands: stay informal unless they formalise; after a huisarts point, add a friendly hasanan.",
+        "zh": "荷裔阿語先保持輕鬆，對方變正式再跟上；聽完 huisarts 的事，補一句 hasanan。"
+      },
+      "3": {
+        "en": "Everyday Arabic in the Netherlands: one full sentence per matter, leaving DigiD, BSN or IND in Dutch as spoken.",
+        "zh": "荷蘭日常阿拉伯語：每件事回完整一句，DigiD、BSN 或 IND 照口頭直接講荷蘭語。"
+      },
+      "4": {
+        "en": "Formal address at the gemeente or IND; keep Dutch official names, and treat the request first.",
+        "zh": "對 gemeente 或 IND 用較正式稱呼，機關名保持荷蘭語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Arabic: titles, recap the iDEAL or toeslagen point, then end without extra formula.",
+        "zh": "商務阿語加上稱謂，覆述 iDEAL 或 toeslagen 要點後，不再加額外套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Arabic helper in the Netherlands answers tamam, takes the mixed note, and says it will be passed along.",
+        "zh": "替{owner}代接的輕鬆荷裔阿語先回 tamam，用夾荷語的口語記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match their formality; write the DigiD or callback detail, and tell them {owner} will hear it.",
+        "zh": "跟隨對方的正式程度；記下 DigiD 或回撥細節，並告知{owner}會聽到。"
+      },
+      "3": {
+        "en": "A measured Arabic assistant in the Netherlands answers why they called in one complete sentence, then briefs {owner}.",
+        "zh": "措辭穩妥的荷裔阿語助理先用完整一句回應為何來電，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite formal Arabic: restate the huisarts or IND point, then confirm it will be delivered to {owner}.",
+        "zh": "禮貌正式阿語：覆述 huisarts 或 IND 要點後，確認會送到{owner}處。"
+      },
+      "5": {
+        "en": "Executive manner for {owner}: use titles, itemise the BSN or toeslagen file, and close after the handoff.",
+        "zh": "為{owner}採商務禮數：加上稱謂，對齊 BSN 或 toeslagen 檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "أهلا، أيوا! كيفك؟ تفضل، تمام.",
+      "نعم، تفضّل. أنا سامعك، احك براحتك.",
+      "أهلا. موضوع DigiD؟ حسناً، سجلت.",
+      "أهلا، شكراً على الاتصال. فهمت، سأتابع الموضوع.",
+      "أهلا، شكراً لاتصالكم. سجّلت كل النقاط."
+    ],
+    "a": [
+      "أهلا، أيوا! هو مش موجود، قلّي وأوصلها.",
+      "نعم، تفضّل. أنا بردّ، اترك الرسالة عندي.",
+      "أهلا. سأسجّل وأبلّغه.",
+      "أهلا، شكراً على الاتصال. سأسجّل هذا لـ {owner}.",
+      "أهلا، شكراً لاتصالكم. سأدوّن النقاط وأنقلها."
+    ]
+  },
+  "diff_from_home": [
+    "荷語專名如 BSN、DigiD、toeslagen、huisarts、iDEAL、IND 常整詞插入，不用原居地戶政或醫保名稱。",
+    "候選說明指向摩洛哥阿拉伯語使用者，但許多摩洛哥裔家庭在家其實講里夫柏柏爾語，電話裡阿語比重因家庭而異。",
+    "對機關可用較通用的阿拉伯語，日常或夾摩洛哥方言與荷蘭語，不宜假定單一口音。",
+    "這與法國、比利時的馬格里布阿語社群相近之處在方言背景，但制度詞必須用荷蘭語專名。"
+  ],
+  "sources": [
+    "https://longreads.cbs.nl/the-netherlands-in-numbers-2025/what-languages-do-people-usually-speak-at-home/",
+    "https://www.digid.nl/",
+    "https://www.ideal.nl/",
+    "https://ind.nl/",
+    "https://www.belastingdienst.nl/"
+  ],
+  "uncertain": [
+    "CBS 將摩洛哥阿拉伯語與柏柏爾語合併統計，無法從官方數字單獨得知 Darija 在電話中的實際比重。",
+    "研究估計部分家庭以 Tarifit 為主，本檔仍以支援清單中的阿拉伯語回應，不能改用柏柏爾語。"
+  ]
+}

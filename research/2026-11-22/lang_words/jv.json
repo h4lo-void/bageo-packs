@@ -1,0 +1,119 @@
+{
+  "lang": "jv",
+  "script": "latin",
+  "common_words": [
+    "aku",
+    "kowe",
+    "panjenengan",
+    "kula",
+    "dheweke",
+    "kita",
+    "ora",
+    "ya",
+    "iku",
+    "iki",
+    "ana",
+    "apa",
+    "ing",
+    "karo",
+    "wis",
+    "isa",
+    "arep",
+    "kudu",
+    "aja",
+    "wonten",
+    "punika",
+    "saka",
+    "lan",
+    "nanging",
+    "dudu",
+    "yen",
+    "wong",
+    "duwe",
+    "durung",
+    "marang",
+    "ngerti",
+    "maneh",
+    "sapa",
+    "endi",
+    "kene",
+    "matur nuwun",
+    "nyuwun sewu",
+    "sugeng enjing",
+    "sugeng sonten",
+    "saiki",
+    "sesuk",
+    "wingi",
+    "esuk",
+    "bengi",
+    "nomer",
+    "alamat",
+    "dhokter",
+    "pesenan",
+    "butuh",
+    "bisa"
+  ],
+  "frequency_source": "Leipzig Javanese Wikipedia 2021 100K https://downloads.wortschatz-leipzig.de/corpora/jav_wikipedia_2021_100K.tar.gz , with informal spoken forms checked against OPUS Tatoeba https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/jv.freq.gz (FrequencyWords 2018 has no jv file).",
+  "shared_words": [
+    {
+      "word": "aku",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "bisa",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "apa",
+      "also_in": [
+        "id",
+        "ms"
+      ]
+    },
+    {
+      "word": "ya",
+      "also_in": [
+        "id"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "id",
+    "ms",
+    "fil"
+  ],
+  "how_to_tell_apart": "Javanese is easy to mix with Indonesian or Malay in Latin script. Prefer ora (not tidak/tak), kowe or panjenengan (not kamu/awak), iku/iki, wis, aja, wonten/punika in polite speech, matur nuwun, nyuwun sewu and sugeng enjing. Indonesian bisa and aku also occur in informal Javanese, so they are listed as shared and should not decide the language. The Tatoeba dump contains some Javanese-script (Aksara Jawa) tokens; those were ignored because this task item is Latin-script only.",
+  "test_said": [
+    "Ing kantor desa kula nyuwun surat pindah kanggo urusan sekolah anak.",
+    "Pasar sabtu isih mbukak esuk apa wis pindah dina kanggo tuku beras?",
+    "Paket saka pos wis dikandhakake teka nanging kula durung nampa kabar.",
+    "Lemari sing dikirim ana goresan ing lawange lan kula kersa ngganti.",
+    "Ing puskesmas kula takon bab demam sawise kewan nyengat ing kebon.",
+    "Bidan desa njaluk kula mriksakake bobot badan maneh minggu ngarep.",
+    "Asuransi anyar ora kula butuhake saka telpon iki lan data pribadi ora kula paringake.",
+    "Pulsa lan paket data isih cukup mula tawaran anyar ora kula butuhake."
+  ],
+  "test_not_enough": [
+    "Sri",
+    "ok",
+    "telu",
+    "hello"
+  ],
+  "sources": [
+    "https://downloads.wortschatz-leipzig.de/corpora/jav_wikipedia_2021_100K.tar.gz",
+    "https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/jv.freq.gz",
+    "https://wortschatz.uni-leipzig.de/",
+    "https://en.wikipedia.org/wiki/Javanese_language",
+    "https://en.wikipedia.org/wiki/Javanese_orthography"
+  ],
+  "uncertain": [
+    "Ngoko and krama (aku/kowe versus kula/panjenengan) both appear on calls depending on formality; both layers were included, which means a short informal turn may look closer to Indonesian.",
+    "Spelling of dh/d and é/e varies in Latin Javanese (dheweke/dhèwèké); the list follows forms found in the Leipzig Latin word list.",
+    "Tatoeba is small; polite greetings were cross-checked in the Wikipedia list rather than taken from a large subtitle corpus, which does not exist here."
+  ]
+}

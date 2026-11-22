@@ -1,0 +1,90 @@
+{
+  "region": "tl",
+  "lang": "en",
+  "why_added": "東帝汶憲法第 159 條以英語與印尼語為行政工作語言（與官方的德頓語、葡萄牙語並行）。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, I’m here."
+  },
+  "habits": {
+    "en": "Sir or Madam, or o senhor if they speak Portuguese. Money is the US dollar, not the real or rupiah.",
+    "zh": "對生人用 Sir、Madam；對方轉葡語就用 o senhor。貨幣是美元，不是里亞爾或印尼盾。德頓語詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Dili friend: first names, short lines. Leave Tetum or Portuguese words they used; prices are in US dollars.",
+        "zh": "帝力熟友可叫名字，句子短。對方用的德頓語或葡語詞照留；價錢是美元。"
+      },
+      "2": {
+        "en": "Easy working English. A Portuguese street or office name does not need an English rewrite.",
+        "zh": "輕鬆的工作英語。葡語街名或機關名不必改寫成英語。"
+      },
+      "3": {
+        "en": "Everyday English as a working language. Finish each point; say US dollars, never Brazilian reais or Indonesian rupiah.",
+        "zh": "作為工作語言的日常英語。把話說完；要說美元，不要說巴西里亞爾或印尼盾。"
+      },
+      "4": {
+        "en": "Polite Sir or Madam for offices. Official papers may be in Portuguese or Tetum; keep those titles.",
+        "zh": "對機關用 Sir、Madam。正式文件可能是葡語或德頓語，標題照留。"
+      },
+      "5": {
+        "en": "Formal office English. This is a constitutional working language, not the usual home language; do not sound like a tourist script.",
+        "zh": "正式公務英語。這是憲法上的工作語言，不是家裡常用語，不要聽起來像觀光客講稿。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup, first names if they already used them, then you will carry the note.",
+        "zh": "{owner}較熟的代接：若對方先叫名字才跟著叫，再說會把話帶過去。"
+      },
+      "2": {
+        "en": "Calm stand-in. Leave a Tetum word or a dollar amount as said, and let them know {owner} will hear it.",
+        "zh": "平穩代接。德頓語詞或美元金額照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Dili assistant. Restate the dollar item in one complete sentence, then confirm you will tell {owner}.",
+        "zh": "帝力代接。先用完整句子重述美元的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary: Sir or Madam, write down why they rang, then confirm it will reach {owner}.",
+        "zh": "謹慎秘書用 Sir 或 Madam：寫下來電事由，再確認會送到{owner}那邊。"
+      },
+      "5": {
+        "en": "Formal deputy: precise on US-dollar amounts and Portuguese titles, then confirm the note for {owner}.",
+        "zh": "正式代表：美元金額與葡語職銜要精確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, are you still in Dili?",
+      "Hello, I'm here — go ahead.",
+      "Good afternoon. Is this priced in US dollars?",
+      "Good afternoon, thanks. The dollar amount is understood.",
+      "Good afternoon, thank you. The ministry paper is noted."
+    ],
+    "a": [
+      "Hello, {owner} is not available; I can take the message.",
+      "Hello there. I have the line, what should be passed on?",
+      "Good afternoon. I'll go over this with {owner} in your words.",
+      "Thanks for the call. I will raise the dollar point with {owner}.",
+      "Thank you. I'll put the details in writing for {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "東帝汶流通美元，不要說成巴西里亞爾或印尼盾。",
+    "英語是憲法規定的工作語言，不是與德頓語、葡萄牙語同等的官方語言，也不是多數家庭用語。",
+    "地名與許多機關名常是葡語或德頓語形式，照留即可。",
+    "德頓語不在支援清單，對方夾了詞就照留，仍用英語回應。"
+  ],
+  "sources": [
+    "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constitution_RDTL_ENG.pdf",
+    "https://timor-leste.gov.tl/?lang=en&p=547",
+    "https://www.cia.gov/the-world-factbook/countries/timor-leste/"
+  ],
+  "uncertain": [
+    "憲法寫工作語言「在仍有必要時」使用，英語在今日行政電話上的實際比重缺少新的量化調查。",
+    "年輕世代的英語與印尼語能力分布，新一輪普查的公開整理不完整。"
+  ]
+}

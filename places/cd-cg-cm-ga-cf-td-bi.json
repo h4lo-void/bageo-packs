@@ -1,0 +1,916 @@
+{
+  "region": "cd-cg-cm-ga-cf-td-bi",
+  "countries": [
+    "cd",
+    "cg",
+    "cm",
+    "ga",
+    "cf",
+    "td",
+    "bi"
+  ],
+  "region_name_zh": "中非（法語）",
+  "region_name": "Central Africa (French)",
+  "languages": [
+    {
+      "code": "fr",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    },
+    {
+      "code": "sw",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "預設禮貌法語 vous；喀麥隆西北／西南可改清楚英語，剛果民主共和國東部若對方改用史瓦希里語再跟著說。不要一開口就用英語，也不要套用西非 Wave 支付口吻。",
+  "english_ok": "sometimes — 喀麥隆英語區與部分外資診所、旅館較通；金夏沙、自由市、加彭首都以法語為主，查德部分場合也用阿拉伯語。",
+  "politeness": "對陌生人用 Bonjour 加 vous 與 Monsieur / Madame；對方改 tu 再轉。結束用 merci beaucoup、bonne journée。不要用過於隨便的 gros 稱呼來代訂。",
+  "name_tip": "報一個名加一個姓（如 Jean-Pierre Mbala、Amina Ngo）；複合法語名先報訂位用的那個姓，必要時逐字拼。",
+  "phone_tip": "喀麥隆手機 9 位、以 6 開頭（6 75 12 34 56）；剛果民主共和國手機約 9 位、多為 8 開頭；加彭等國位數較短。國際冠碼 +237 / +243 / +242 / +241 / +236 / +235 / +257。朗讀分組，不要連念。",
+  "time_tip": "書面 24 小時（12h30、19h）；口語「sept heures et demie du soir」。首都晚餐多在 19:00–20:00。對方若說「après la prière」，先問明確鐘點。",
+  "number_tip": "金額先報當地貨幣：多為 CFA（XAF），剛果民主共和國用剛果法郎。法國式數字（soixante-dix、quatre-vingt-dix）為準，不要改成比利時七十的說法。",
+  "avoid_calling": "避開 12:00–15:00 的長午休、傍晚 18:30 後打給行政機關，以及查德、中非與喀麥隆北部週五中午禮拜時段；週日上午許多機關不開。",
+  "closed_days": "獨立日各國不同；耶誕、新年、勞動節常見。伊斯蘭節日在查德與部分喀麥隆、中非地區會歇業。蒲隆地與喀麥隆英語區公共假期清單也不完全相同。",
+  "booking_channels": "電話與 WhatsApp 仍是主流。剛果民主共和國與布拉薩有 Lianayo 可查餐廳並線上留桌；喀麥隆有 Camyamo 點餐或訂住宿，餐費可直接付 MTN MoMo 或 Orange Money。杜阿拉一帶另有本地外送（Reeyo、Gozem 的餐飲頁）。金夏沙出行常見 Yango，可搭配 Orange Money。",
+  "voice_menu": "Orange、MTN、Airtel、Vodacom RDC（含 M-Pesa）與銀行熱線常用按鍵語音；街邊 maquis 與診所櫃台多直接接聽。",
+  "callback_habits": "餐廳與技師幾乎都用 WhatsApp 文字或語音留言確認；Camyamo 會把訂單與住宿回覆送到 WhatsApp。不要期待電子郵件，除非是國際旅館。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "金夏沙、布拉薩可用 Lianayo 留桌，其餘多半 WhatsApp 或電話；喀麥隆不要假設有 Glovo。講清 commune／quartier，晚餐約 19 時。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Day and sitting (déjeuner around 13:00 vs dîner around 19:30)",
+        "Party size and whether a chaise enfant is needed",
+        "Salle climatisée versus terrasse or cour",
+        "Name and a local mobile, plus whether they will pay Orange Money, MTN MoMo or cash"
+      ],
+      "may_come_up": [
+        {
+          "what": "Table is listed on Lianayo and the venue wants that same booking reference",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Only cash or a local mobile-money brand used in that country, not a foreign card",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Generator may cut the kitchen after a certain evening hour",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands an Orange Money or Airtel Money transfer to an unnamed personal number to 'keep' the table",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "診所多半電話掛號，大城市私立院所也用 WhatsApp；要問看哪一科、用現金還是保險，很少有統一的全國預約 App。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "First visit versus suivi and the specialty",
+        "Patient name as on the pièce d'identité and a callback number",
+        "Morning or afternoon, and cash versus assurance"
+      ],
+      "may_come_up": [
+        {
+          "what": "Some public hospitals only distribute tickets in person at opening time",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "They may ask which official document to bring",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests a full medical file or HIV status to be discussed with a third party on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "髮型與美甲店幾乎都用 WhatsApp 約檔期，電話打通後也常被請改傳造型照片。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Tresses, coupe, ongles or make-up and a rough duration",
+        "Date and hour and an alternative slot",
+        "The WhatsApp number they will use for the reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stylist works from a private cour and is known only by a first name",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "A MoMo deposit is asked for a wedding booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for identity photos in a private chat before noting any time",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與手機維修先用電話或 WhatsApp 問零件，再約到店；常被要求先傳照片。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What failed and the marque if known",
+        "Drop-off at the atelier versus a visit in a parcelle or bureau",
+        "When someone can receive the technician"
+      ],
+      "may_come_up": [
+        {
+          "what": "Part has to come from another city and the delay is uncertain",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Quote will arrive as a WhatsApp voice message",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A 'diagnostic' fee is demanded to a personal MoMo account before the device is seen",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "外帶以外打電話或 WhatsApp 為主；喀麥隆部分城市可用 Camyamo、Reeyo 或 Gozem，不要套用西非 Glovo 的覆蓋範圍。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Plates and portions (poulet mayeko, ndolé, poisson braisé) and spice level",
+        "Collect versus delivery to a named quartier or parcelle",
+        "A number the rider can call, plus the gardien's landmark"
+      ],
+      "may_come_up": [
+        {
+          "what": "Camyamo or a local courier only covers certain arrondissements",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Payment should go directly to the restaurant's MoMo or Orange Money, not a middleman wallet",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Rider quotes a different personal wallet than the one the restaurant named",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商店留貨多用 WhatsApp 對型號，較少線上購物車；電話只為確認還有沒有庫存與何時可取。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Article, taille or modèle and the quantity",
+        "Pick-up in boutique versus a courier to another commune",
+        "Name to write on the reserved item"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stock is in Douala or Kinshasa and would travel by bus cargo",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "They can only set it aside until the next evening",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to a private number is required before they confirm the item exists",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期直接回原來的 WhatsApp 對話或再打給同一間店，報原時間與名字；Lianayo 上的訂位也要在同一條渠道改。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original day, hour and the name on the booking",
+        "The new slot, or that it should be cancelled",
+        "New headcount if it changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "A weekend table was tied to a deposit already paid by MoMo",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Only the original WhatsApp account can modify a Lianayo or Camyamo request",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An extra transfer is demanded solely to 'process' a change of hour",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問是否營業、收哪一種手機錢包，直接打或傳訊息較準；官網資料往往不完整。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The exact question (hours, Orange Money versus Airtel Money, a dish, a spare part)",
+        "The day they intend to come",
+        "A number for a later WhatsApp reply"
+      ],
+      "may_come_up": [
+        {
+          "what": "M-Pesa here usually means the Vodacom DRC wallet, not a West African brand",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Cameroon anglophone staff may prefer to answer in English",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A stranger asks the owner to read a wallet PIN or one-time code aloud",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "國際品牌可用 Booking.com，本地客棧多用 WhatsApp 或 Camyamo 發入住請求，款項往往到店再付。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Arrival and departure dates and the number of guests",
+        "Room type and whether breakfast is included",
+        "Name as on the passport and a WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Camyamo stay requests are paid at the property, not in the app",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Water or power cuts may be mentioned for a smaller auberge",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A passport scan plus a transfer to a personal account is required before any written confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "國家公園、河遊與週末活動多經旅行社或導遊 WhatsApp 組團，常有最低人數；出發前會再確認。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which excursion and the date, with a weather alternative",
+        "Adults and children and the meeting point",
+        "A mobile that works on the road or river"
+      ],
+      "may_come_up": [
+        {
+          "what": "A park fee is payable in cash at the gate",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The boat or vehicle leaves only with a minimum group",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to an unnamed personal wallet is required with no receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "水電與清潔靠 WhatsApp 約上門，地址要寫 commune、parcelle 或 cour，並說明 gardien 怎麼放行。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The work needed and a visit window",
+        "Commune, parcelle or cour and how to pass the gardien",
+        "A number that will answer at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "The technician quotes only after a WhatsApp photo",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "A residence permit or badge is needed to enter the compound",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone asks for the gate code and a remote MoMo payment before any visit is agreed",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "大城市獸醫可電話預約，其他地方常是上午現場掛號；要說明動物種類與疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "Species, size and the reason for the visit",
+        "First visit or rappel de vaccin",
+        "Owner name and a reachable mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Animals are seen only in the morning",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "A rabies certificate may be needed for a garde",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal MoMo payment is demanded to 'reserve' a kennel with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "國內託運與從港口清關常要打電話問倉庫，單號格式不一；不要套用國際快遞 App 的步驟。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "Waybill and the destination city (Kinshasa, Douala, Libreville…)",
+        "Name on the consignment and a local contact",
+        "Depot collection versus a delivery to a parcelle"
+      ],
+      "may_come_up": [
+        {
+          "what": "A cash or franc congolais balance may be due at the depot",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The parcel is stuck at a land border and needs a local broker",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A message asks for a wallet top-up to 'release' an unidentified parcel",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "電信與銀行多半先入語音選單；要備妥 SIM、合約或 MoMo／M-Pesa 號碼，不要在電話裡報密碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which operator or bank and the account or SIM label",
+        "The issue in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "The IVR may be French-only, with English on some Cameroon lines",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "They may send the customer to an agence with a pièce d'identité",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for a MoMo, Orange Money or M-Pesa PIN or SMS code on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "金夏沙、杜阿拉、雅溫德等城市常用 Yango 叫車，不必先打電話；沒有 App 的城鎮才用 WhatsApp 約熟司機或街邊計程車。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (commune, hotel, aéroport) and the time",
+        "Passengers and luggage",
+        "A number the driver can call at the gardien"
+      ],
+      "may_come_up": [
+        {
+          "what": "Yango already covers the city, so a phone dispatch is not needed",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Rain or checkpoints may require an earlier set-off to the airport",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for a full fare in advance to a personal wallet before giving a plate number",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房經仲介或房東 WhatsApp 約，地址用 commune 與地標；可能被要求先出示身份證件。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and rent versus sale",
+        "Name and a number to call at the gate",
+        "Budget in CFA or francs congolais if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "The agent wants to see a pièce d'identité before opening",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Charges for the gardien or the cour are separate from the advertised rent",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A reservation fee is demanded to a personal account before any accompanied visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公家單位與學校窗口多半要本人取號，電話只能問文件清單與開放時間；用正式法語 vous。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which administration or school and the purpose (acte, inscription, visa papers)",
+        "The person's name as on the official document",
+        "Whether tickets are given only in person and from which hour"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many guichets close for a long midday break",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Originals usually have to be shown in person; the call only confirms the list",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be a fonctionnaire asks for a MoMo payment to 'speed up' a dossier",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fr": {
+      "party": [
+        "table pour 4",
+        "nous sommes 3",
+        "2 adultes et 1 enfant",
+        "pour deux personnes",
+        "un groupe de 6",
+        "une personne"
+      ],
+      "time": [
+        "à 19h30",
+        "sept heures et demie du soir",
+        "pour le déjeuner à 13h",
+        "vers 10h",
+        "à 16h précises",
+        "après 18h"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce samedi soir",
+        "vendredi prochain",
+        "le 1er janvier",
+        "le 20 mai"
+      ],
+      "name": [
+        "au nom de Jean-Pierre Mbala",
+        "Amina Ngo",
+        "famille Kalala",
+        "Marie-Claire Owona",
+        "Pascaline Bongo"
+      ],
+      "phone": [
+        "6 75 12 34 56",
+        "le numéro 81 123 4567",
+        "12345678",
+        "WhatsApp 6 99 12 34 56"
+      ],
+      "booking_words": [
+        "réserver une table",
+        "prendre une table",
+        "garder une place",
+        "réserver une chambre",
+        "bloquer une table"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous",
+        "fixer une consultation",
+        "rendez-vous au salon",
+        "déposer la voiture à l'atelier",
+        "faire venir le technicien"
+      ],
+      "order_words": [
+        "commander à emporter",
+        "faire livrer",
+        "mettre de côté en boutique",
+        "envoyer le plat",
+        "préparer un sachet"
+      ],
+      "change_words": [
+        "décaler le rendez-vous",
+        "passer à plus tard",
+        "annuler la table",
+        "reporter la consultation",
+        "changer de jour"
+      ],
+      "inquiry_words": [
+        "vous prenez Orange Money ?",
+        "vous ouvrez le jour férié ?",
+        "il reste du ndolé ?",
+        "vous livrez dans la commune ?",
+        "quel est le tarif ?"
+      ],
+      "false_friends": [
+        "parcelle 12",
+        "2e étage",
+        "tresses 3 h",
+        "pack de 4",
+        "avenue 12"
+      ]
+    },
+    "en": {
+      "party": [
+        "table for 4",
+        "we are 3 adults",
+        "2 adults and 1 child",
+        "just two people",
+        "a group of 6",
+        "one person"
+      ],
+      "time": [
+        "at 19:30",
+        "half past seven in the evening",
+        "for lunch at 13:00",
+        "around 10 in the morning",
+        "at 16:00 sharp",
+        "after 18:00"
+      ],
+      "date": [
+        "tomorrow",
+        "the day after tomorrow",
+        "this Saturday evening",
+        "next Friday",
+        "1 January",
+        "20 May"
+      ],
+      "name": [
+        "under Jean-Pierre Mbala",
+        "Amina Ngo",
+        "the Kalala family",
+        "Marie-Claire Owona",
+        "Pascaline Bongo"
+      ],
+      "phone": [
+        "6 75 12 34 56",
+        "call me on 81 123 4567",
+        "12345678",
+        "WhatsApp 6 99 12 34 56"
+      ],
+      "booking_words": [
+        "book a table",
+        "reserve a seat",
+        "set a table aside",
+        "book a room",
+        "keep a place"
+      ],
+      "appointment_words": [
+        "book an appointment",
+        "fix a consultation",
+        "book the salon",
+        "take the car to the workshop",
+        "ask the technician to come"
+      ],
+      "order_words": [
+        "order to take away",
+        "have it delivered",
+        "put one aside in the shop",
+        "send the dish",
+        "prepare a parcel"
+      ],
+      "change_words": [
+        "move the appointment",
+        "push it later",
+        "cancel the table",
+        "postpone the consultation",
+        "change the day"
+      ],
+      "inquiry_words": [
+        "do you take MTN MoMo?",
+        "are you open on the public holiday?",
+        "is there ndolé left?",
+        "do you deliver in the quarter?",
+        "what is the price?"
+      ],
+      "false_friends": [
+        "parcelle 12",
+        "2nd floor",
+        "braids 3 hours",
+        "pack of 4",
+        "avenue 12"
+      ]
+    },
+    "sw": {
+      "party": [
+        "meza ya watu 4",
+        "sisi ni watu 3",
+        "watu wazima 2 na mtoto 1",
+        "watu wawili tu",
+        "kundi la 6",
+        "mtu mmoja"
+      ],
+      "time": [
+        "saa moja na nusu usiku",
+        "saa saba kamili",
+        "saa saba na nusu mchana",
+        "saa nne asubuhi",
+        "saa kumi kamili",
+        "baada ya saa kumi na mbili"
+      ],
+      "date": [
+        "kesho",
+        "kesho kutwa",
+        "Jumamosi jioni",
+        "Ijumaa ijayo",
+        "tarehe 1 Januari",
+        "tarehe 20 Mei"
+      ],
+      "name": [
+        "kwa jina la Jean-Pierre Mbala",
+        "Amina Ngo",
+        "familia Kalala",
+        "Marie-Claire Owona",
+        "Pascaline Bongo"
+      ],
+      "phone": [
+        "6 75 12 34 56",
+        "simu 81 123 4567",
+        "12345678",
+        "WhatsApp 6 99 12 34 56"
+      ],
+      "booking_words": [
+        "weka meza",
+        "hifadhi nafasi",
+        "weka chumba",
+        "reserve meza",
+        "baka nafasi"
+      ],
+      "appointment_words": [
+        "panga miadi",
+        "weka consultation",
+        "panga salon",
+        "peleka gari warsha",
+        "mwite fundi"
+      ],
+      "order_words": [
+        "agiza chakula cha kubeba",
+        "lete nyumbani",
+        "weka duka",
+        "tuma chakula",
+        "tengeneza pakiti"
+      ],
+      "change_words": [
+        "ahirisha miadi",
+        "sogeza baadaye",
+        "sitisha meza",
+        "ahirisha consultation",
+        "badilisha siku"
+      ],
+      "inquiry_words": [
+        "mnapokea M-Pesa?",
+        "mnafungua sikukuu?",
+        "ndolé bado ipo?",
+        "mnapeleka quartier?",
+        "bei ni kiasi gani?"
+      ],
+      "false_friends": [
+        "parcelle 12",
+        "orofa ya 2",
+        "tresses masaa 3",
+        "pakiti ya 4",
+        "avenue 12"
+      ]
+    }
+  }
+}

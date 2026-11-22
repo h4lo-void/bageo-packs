@@ -1,0 +1,461 @@
+{
+  "region": "gb-ie",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "current account",
+          "en": "everyday bank account (current account)"
+        },
+        {
+          "term": "sort code",
+          "en": "UK bank sort code, spoken as sort code, do not recite a full code unless asked"
+        },
+        {
+          "term": "Faster Payments",
+          "en": "UK instant or near-instant bank transfer (Faster Payments)"
+        },
+        {
+          "term": "debit card",
+          "en": "debit card, UK and Irish wording"
+        },
+        {
+          "term": "online banking",
+          "en": "online or app banking (online banking), Britain or Ireland usage"
+        },
+        {
+          "term": "direct debit",
+          "en": "direct debit for bills"
+        },
+        {
+          "term": "standing order",
+          "en": "standing order"
+        },
+        {
+          "term": "IBAN",
+          "en": "IBAN"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "safe place",
+          "en": "agreed safe place for a parcel"
+        },
+        {
+          "term": "neighbour",
+          "en": "leave with a neighbour"
+        },
+        {
+          "term": "parcel shop",
+          "en": "parcel shop or pickup shop"
+        },
+        {
+          "term": "porch",
+          "en": "porch"
+        },
+        {
+          "term": "letterbox",
+          "en": "letterbox, Britain or Ireland usage"
+        },
+        {
+          "term": "Royal Mail",
+          "en": "UK postal service (Royal Mail)"
+        },
+        {
+          "term": "An Post",
+          "en": "Ireland postal service (An Post)"
+        },
+        {
+          "term": "collection point",
+          "en": "post office or locker pickup (collection point)"
+        }
+      ],
+      "government": [
+        {
+          "term": "National Insurance",
+          "en": "UK National Insurance, also NI number, do not read the full number unless asked"
+        },
+        {
+          "term": "HMRC",
+          "en": "UK tax authority (HMRC)"
+        },
+        {
+          "term": "NHS number",
+          "en": "health number in the UK, do not read it out unless asked (NHS number)"
+        },
+        {
+          "term": "PPS number",
+          "en": "Ireland personal public service number, do not read it out unless asked (PPS number)"
+        },
+        {
+          "term": "Revenue",
+          "en": "Irish tax authority (Revenue)"
+        },
+        {
+          "term": "passport",
+          "en": "passport, Britain or Ireland usage"
+        },
+        {
+          "term": "driving licence",
+          "en": "driving licence"
+        },
+        {
+          "term": "council",
+          "en": "local council"
+        }
+      ],
+      "health": [
+        {
+          "term": "NHS",
+          "en": "UK National Health Service (NHS)"
+        },
+        {
+          "term": "GP",
+          "en": "general practitioner / surgery (GP)"
+        },
+        {
+          "term": "pharmacy",
+          "en": "pharmacy, also chemist"
+        },
+        {
+          "term": "A&E",
+          "en": "accident and emergency (A&E), Britain or Ireland usage"
+        },
+        {
+          "term": "HSE",
+          "en": "Ireland Health Service Executive (HSE)"
+        },
+        {
+          "term": "prescription",
+          "en": "prescription, also script"
+        },
+        {
+          "term": "surgery",
+          "en": "GP practice, in UK and Irish speech (surgery)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile",
+          "en": "mobile phone"
+        },
+        {
+          "term": "PAYG",
+          "en": "pay as you go / prepaid (PAYG)"
+        },
+        {
+          "term": "contract",
+          "en": "monthly contract"
+        },
+        {
+          "term": "PAC code",
+          "en": "UK porting authorisation code, often just PAC (PAC code)"
+        },
+        {
+          "term": "broadband",
+          "en": "broadband, Britain or Ireland usage"
+        },
+        {
+          "term": "SIM",
+          "en": "SIM"
+        },
+        {
+          "term": "network",
+          "en": "mobile network"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Faster Payments",
+          "en": "bank transfer (Faster Payments)"
+        },
+        {
+          "term": "contactless",
+          "en": "contactless card or phone payment"
+        },
+        {
+          "term": "direct debit",
+          "en": "direct debit, Britain or Ireland usage"
+        },
+        {
+          "term": "card payment",
+          "en": "card payment, Britain or Ireland usage"
+        },
+        {
+          "term": "PayPal",
+          "en": "PayPal"
+        },
+        {
+          "term": "Revolut",
+          "en": "Revolut, commonly used, especially in Ireland"
+        },
+        {
+          "term": "cash",
+          "en": "cash, Britain or Ireland usage"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Oyster",
+          "en": "London transit card (Oyster)"
+        },
+        {
+          "term": "contactless",
+          "en": "pay for travel with a bank card in some cities (contactless)"
+        },
+        {
+          "term": "the Tube",
+          "en": "London Underground (the Tube)"
+        },
+        {
+          "term": "bus",
+          "en": "bus, Britain or Ireland usage"
+        },
+        {
+          "term": "train",
+          "en": "train, also National Rail in GB"
+        },
+        {
+          "term": "Leap card",
+          "en": "Ireland transit card, especially Dublin (Leap card)"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi, also black cab in London, or local cab firm"
+        },
+        {
+          "term": "Uber",
+          "en": "Uber"
+        }
+      ],
+      "housing": [
+        {
+          "term": "flat",
+          "en": "flat"
+        },
+        {
+          "term": "house",
+          "en": "house"
+        },
+        {
+          "term": "letterbox",
+          "en": "letterbox, Britain or Ireland usage"
+        },
+        {
+          "term": "concierge",
+          "en": "concierge in some buildings"
+        },
+        {
+          "term": "estate",
+          "en": "housing estate"
+        },
+        {
+          "term": "letting agent",
+          "en": "letting or estate agent (letting agent)"
+        },
+        {
+          "term": "communal door",
+          "en": "shared entrance (communal door)"
+        },
+        {
+          "term": "intercom",
+          "en": "intercom, Britain or Ireland usage"
+        }
+      ],
+      "school": [
+        {
+          "term": "nursery",
+          "en": "nursery or preschool"
+        },
+        {
+          "term": "primary school",
+          "en": "primary school, Britain or Ireland usage"
+        },
+        {
+          "term": "secondary school",
+          "en": "secondary school, Britain or Ireland usage"
+        },
+        {
+          "term": "reception",
+          "en": "first year of primary in England (reception)"
+        },
+        {
+          "term": "homework",
+          "en": "homework, Britain or Ireland usage"
+        },
+        {
+          "term": "Ofsted",
+          "en": "England school inspection, sometimes mentioned (Ofsted)"
+        },
+        {
+          "term": "childminder",
+          "en": "childminder"
+        }
+      ],
+      "money": [
+        {
+          "term": "pound",
+          "en": "pound sterling in the UK"
+        },
+        {
+          "term": "euro",
+          "en": "euro in Ireland"
+        },
+        {
+          "term": "quid",
+          "en": "informal UK pound (quid)"
+        },
+        {
+          "term": "grand",
+          "en": "informal thousand (grand)"
+        },
+        {
+          "term": "bank transfer",
+          "en": "transfer (bank transfer), Britain or Ireland usage"
+        },
+        {
+          "term": "change",
+          "en": "change, Britain or Ireland usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, Britain or Ireland usage"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, often with o'clock"
+        },
+        {
+          "term": "this afternoon",
+          "en": "this afternoon, later today in British or Irish English, before the evening"
+        },
+        {
+          "term": "this evening",
+          "en": "this evening, often used rather than tonight for plans"
+        },
+        {
+          "term": "weekday",
+          "en": "weekday, also week day"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, also at the weekend"
+        },
+        {
+          "term": "after work",
+          "en": "after work, or after I finish"
+        },
+        {
+          "term": "this week",
+          "en": "this week, this coming week"
+        },
+        {
+          "term": "bank holiday",
+          "en": "public holiday (bank holiday)"
+        }
+      ],
+      "work": [
+        {
+          "term": "in the office",
+          "en": "in the office"
+        },
+        {
+          "term": "finish work",
+          "en": "finish work, Britain or Ireland usage"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, sometimes extra hours"
+        },
+        {
+          "term": "annual leave",
+          "en": "annual leave, Britain or Ireland usage"
+        },
+        {
+          "term": "off sick",
+          "en": "off sick"
+        },
+        {
+          "term": "line manager",
+          "en": "line manager"
+        },
+        {
+          "term": "secondment",
+          "en": "secondment, sometimes used"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home, also working from home (WFH)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "checking account",
+      "use_instead": "current account",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "Faster Payments, bank transfer, Revolut",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "routing number",
+      "use_instead": "sort code in the UK; IBAN in Ireland",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "cell phone",
+      "use_instead": "mobile",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "ZIP code",
+      "use_instead": "postcode; in Ireland also Eircode",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "mailbox 當信箱唯一詞",
+      "use_instead": "letterbox",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "ER 當唯一急診詞",
+      "use_instead": "A&E",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Medicare",
+      "use_instead": "NHS in the UK, HSE in Ireland",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "apartment 當唯一住房詞",
+      "use_instead": "flat 更常用，apartment 也聽得到",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "PayID",
+      "use_instead": "Faster Payments, bank transfer",
+      "where_it_is_from": "AU"
+    }
+  ],
+  "sources": [
+    "https://www.pay.uk/",
+    "https://www.royalmail.com/",
+    "https://www.anpost.com/",
+    "https://www.gov.uk/",
+    "https://www.nhs.uk/",
+    "https://www.hse.ie/",
+    "https://www.revenue.ie/"
+  ],
+  "uncertain": [
+    "英國用英鎊、愛爾蘭用歐元，此區合併兩國，金額與支付系統要先分清對方在哪裡。",
+    "「PAC code」是英國攜碼用語，愛爾蘭提法可能不同。",
+    "Oyster 只適用倫敦；愛爾蘭常用 Leap card。"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "lang": "te",
+  "backchannels": {
+    "direction": "Add -అండి for respect: అవునండి, సరేనండి; bare ఆ or ఊ is casual; repeated సరే సరే can sound like brushing off.",
+    "examples": [
+      {
+        "text": "అవునండి.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "సరేనండి.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ఆ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ఊ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "సరే సరే.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "అవునా? for surprise; అయ్యో for pity or dismay; చాలా సంతోషం for good news.",
+    "examples": [
+      {
+        "text": "అవునా?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "నిజమా అండి?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "అయ్యో పాపం.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "చాలా బాధగా ఉందండి.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "చాలా సంతోషం!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "కొంచెం కష్టమేనండి.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Mention the weak signal or unclear voice, then ask them to speak louder with -అండి.",
+    "examples": [
+      {
+        "text": "వినిపించట్లేదండి.",
+        "style": "polite"
+      },
+      {
+        "text": "సిగ్నల్ సరిగ్గా లేదు.",
+        "style": "casual"
+      },
+      {
+        "text": "మీ గొంతు కట్ అవుతోందండి.",
+        "style": "polite"
+      },
+      {
+        "text": "కొంచెం గట్టిగా మాట్లాడతారా?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "ఏమన్నారు? or మళ్ళీ చెప్తారా asks for a replay; for numbers ask them to read each digit again.",
+    "examples": [
+      {
+        "text": "ఏమన్నారండి?",
+        "style": "polite"
+      },
+      {
+        "text": "మళ్ళీ ఒకసారి చెప్తారా?",
+        "style": "polite"
+      },
+      {
+        "text": "మీ పేరు స్పెల్లింగ్ చెప్తారా?",
+        "style": "polite"
+      },
+      {
+        "text": "నంబర్ 12345678 కదండి?",
+        "style": "polite"
+      },
+      {
+        "text": "ఏంటి?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ask ఎవరు మాట్లాడుతున్నారండి with మీరు; plain ఎవరు? to a stranger sounds curt.",
+    "examples": [
+      {
+        "text": "ఎవరు మాట్లాడుతున్నారండి?",
+        "style": "polite"
+      },
+      {
+        "text": "ఎక్కడి నుంచి కాల్ చేస్తున్నారు?",
+        "style": "polite"
+      },
+      {
+        "text": "ఇది {owner} గారి నంబర్, మీరెవరండి?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Tell them రాంగ్ నంబర్ and that no such person lives here, briefly and with -అండి.",
+    "examples": [
+      {
+        "text": "రాంగ్ నంబర్ అండి.",
+        "style": "polite"
+      },
+      {
+        "text": "ఇక్కడ ఆ పేరుతో ఎవరూ లేరండి.",
+        "style": "polite"
+      },
+      {
+        "text": "తప్పు నంబర్.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "చెప్తాను says you'll tell {owner}; do not fix any time for {owner} to ring back.",
+    "examples": [
+      {
+        "text": "{owner} గారికి చెప్తానండి.",
+        "style": "polite"
+      },
+      {
+        "text": "మీ మెసేజ్ అందజేస్తాను.",
+        "style": "polite"
+      },
+      {
+        "text": "చెప్పేస్తా.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Thank them (ధన్యవాదాలు) then say no need (అవసరం లేదు); a gentle -అండి tone softens it.",
+    "examples": [
+      {
+        "text": "ధన్యవాదాలు, మాకు అవసరం లేదండి.",
+        "style": "polite"
+      },
+      {
+        "text": "ఆసక్తి లేదండి.",
+        "style": "polite"
+      },
+      {
+        "text": "వద్దు, థాంక్స్.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, repeat that you declined already and ask not to ring this number again.",
+    "examples": [
+      {
+        "text": "ఇందాకే చెప్పాను, వద్దండి.",
+        "style": "polite"
+      },
+      {
+        "text": "దయచేసి ఈ నంబర్‌కి మళ్ళీ కాల్ చేయకండి.",
+        "style": "polite"
+      },
+      {
+        "text": "మా నంబర్ మీ లిస్ట్ నుంచి తీసేయండి.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "మీరు for strangers; name + గారు for respect; అన్నా/అక్కా, అంకుల్/ఆంటీ for warmth; మేడం/సార్ on formal calls.",
+    "examples": [
+      {
+        "text": "రావు గారు",
+        "style": "polite"
+      },
+      {
+        "text": "సార్",
+        "style": "polite"
+      },
+      {
+        "text": "మేడం",
+        "style": "polite"
+      },
+      {
+        "text": "అన్నా",
+        "style": "casual"
+      },
+      {
+        "text": "ఆంటీ",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like మీ కాల్ మాకు ముఖ్యం sound like a customer-care hotline, not a person.",
+    "examples": [
+      {
+        "text": "మీ కాల్ మాకు ఎంతో ముఖ్యం.",
+        "style": "polite"
+      },
+      {
+        "text": "కస్టమర్ కేర్‌కి కాల్ చేసినందుకు ధన్యవాదాలు.",
+        "style": "polite"
+      },
+      {
+        "text": "మీకు ఏ విధంగా సహాయం చేయగలను?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using నువ్వు/ఒరేయ్ with strangers, asking caste, salary or marriage early is offensive.",
+    "examples": [
+      {
+        "text": "ఒరేయ్, ఎవడివి?",
+        "style": "casual"
+      },
+      {
+        "text": "మీది ఏ కులం?",
+        "style": "casual"
+      },
+      {
+        "text": "నీ జీతం ఎంత?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B1%81",
+    "https://en.wikipedia.org/wiki/Telugu_grammar",
+    "https://en.wikipedia.org/wiki/Telugu_language"
+  ],
+  "uncertain": [
+    "Backchannel set (అవునండి, ఆ, సరే, ఓహో) from general usage and dictionaries, no Telugu call corpus found",
+    "Telangana vs coastal Andhra wording differs; examples lean to a neutral spoken register",
+    "English loans (sorry, number, signal) are normal in calls; degree of mixing is a guess"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "region": "us",
+  "lang": "ko",
+  "hello": {
+    "hello": "여보세요?",
+    "hello_again": "네, 여보세요?"
+  },
+  "habits": {
+    "en": "Use 존댓말 by default; mix US loans like 렌트, 크레딧, 소셜 번호, DMV, Zelle; elders may prefer Korean.",
+    "zh": "預設用존댓말；夾렌트、크레딧、소셜 번호、DMV、Zelle 等美國詞；長輩偏好韓語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close Korean-American friend: 반말, quick 응/그래, sprinkle English (okay, my bad), and 카톡 해 to move to chat.",
+        "zh": "跟韓裔熟朋友：用반말，快回응、그래，夾 okay、my bad，常說카톡 해。"
+      },
+      "2": {
+        "en": "Friendly 해요체 with church or K-town acquaintances; light small talk about 그로서리 runs or kids' school.",
+        "zh": "對教會或韓國城熟人用해요체，順口聊그로서리或孩子學校。"
+      },
+      "3": {
+        "en": "Everyday 해요체: answer each point fully; keep US words such as 렌트, 디파짓, 보험 the way Korean Americans say them.",
+        "zh": "日常해요체：每件事完整回一句；렌트、디파짓、보험照在美韓人說法。"
+      },
+      "4": {
+        "en": "Polite 합쇼체 with clinics or 한인 tax and law offices; settle the appointment or 서류 point before courtesies.",
+        "zh": "對診所、韓人會計或律師事務所用합쇼체，先談妥預約或文件再客套。"
+      },
+      "5": {
+        "en": "Formal business Korean with 님 titles (사장님, 선생님); recap the invoice, Zelle or wire detail crisply, then close.",
+        "zh": "正式商務韓語加님（사장님、선생님），俐落覆述帳單、Zelle 或匯款細節後收尾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easygoing helper in 반말 for close friends: say they are tied up, jot the note, offer to pass it on via 카톡.",
+        "zh": "替{owner}接熟友電話用반말：說他抽不開身，記下留言，可用카톡轉告。"
+      },
+      "2": {
+        "en": "Soft 해요체 assistant: greet warmly, ask who is calling with 어느 분이세요, and note what {owner} should know.",
+        "zh": "柔和해요체助理：親切問候，用어느 분이세요問來者，記下要給{owner}的事。"
+      },
+      "3": {
+        "en": "Plain 해요체: restate the key item (pickup time, 렌트 issue) in one sentence and say {owner} will hear about it.",
+        "zh": "平實해요체：用一句覆述重點（取貨時間、렌트問題），說會讓{owner}知道。"
+      },
+      "4": {
+        "en": "Courteous 합쇼체 for offices: state you pick up for {owner}, confirm the caller's name and number, skip filler.",
+        "zh": "對機構用합쇼체：表明代{owner}接電話，核對來電者姓名與號碼，省掉贅語。"
+      },
+      "5": {
+        "en": "Executive 합쇼체 with 님 titles: itemise the deal or document point, confirm the company's English spelling, end crisply.",
+        "zh": "高階商務합쇼체加님稱謂，逐條核對交易或文件，確認公司英文名寫法，乾脆收線。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "어, 왜? 나 지금 마트야, 말해.",
+      "네, 여보세요~ 아, 집사님! 잘 지내셨어요?",
+      "아 렌트 건이요? 알겠어요, 그렇게 할게요.",
+      "네, 말씀하세요. 예약 날짜가 화요일 맞죠?",
+      "네, 사장님. Zelle로 보내신 거 잘 받았습니다."
+    ],
+    "a": [
+      "어, {owner} 지금 바빠. 뭐 전할 거 있어?",
+      "안녕하세요, {owner} 전화 대신 받았어요. 어느 분이세요?",
+      "네, 렌트 문제라고 {owner}한테 전해 드릴게요.",
+      "{owner} 님 대신 받았습니다. 성함과 연락처 남겨 주시겠습니까?",
+      "말씀하신 계약 건, {owner} 님께 정확히 전달하겠습니다."
+    ]
+  },
+  "diff_from_home": [
+    "常夾美式生活詞：렌트、디파짓、크레딧、소셜 번호、보험 카드，韓國本地少這樣說。",
+    "韓人教會是社群核心，稱謂常用집사님、권사님、장로님等教會職稱。",
+    "第二代多半只會簡單韓語，通話中途轉英語很普遍；Pew 指 68% 英語流利。",
+    "跟韓國家人多用 KakaoTalk 語音，美國本地事務才打一般電話。",
+    "聚集在洛杉磯韓國城、紐約皇后區與紐澤西 Fort Lee 一帶，店家以韓國超市、乾洗、美容用品為大宗。"
+  ],
+  "sources": [
+    "https://www.pewresearch.org/social-trends/fact-sheet/asian-americans-koreans-in-the-u-s/",
+    "https://en.wikipedia.org/wiki/Korean_Americans",
+    "https://en.wikipedia.org/wiki/Koreatown,_Los_Angeles",
+    "https://en.wikipedia.org/wiki/Fort_Lee,_New_Jersey",
+    "https://www.kakaocorp.com/page/",
+    "https://www.zellepay.com/",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html"
+  ],
+  "uncertain": [
+    "教會職稱在非教會家庭的使用普遍度沒有統計，屬社群描述。",
+    "KakaoTalk 與一般電話的實際使用比例無調查數據。",
+    "乾洗、美容用品等行業分布來自社群概述，非最新普查。"
+  ]
+}

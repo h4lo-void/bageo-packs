@@ -1,0 +1,671 @@
+{
+  "region": "mn",
+  "countries": [
+    "mn"
+  ],
+  "region_name_zh": "蒙古",
+  "region_name": "Mongolia",
+  "languages": [
+    {
+      "code": "mn",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite Mongolian (Khalkha, Cyrillic) with 'ta'; English works at international hotels, some upscale Ulaanbaatar restaurants and tour operators; Russian is understood by many older staff but is not the default.",
+  "english_ok": "sometimes — Common among younger staff in central Ulaanbaatar and tourism; rare at local shops, clinics and outside the capital.",
+  "politeness": "Greet with 'Sain baina uu', use 'ta' (formal you), state you call on behalf of someone; close with 'bayarlalaa'.",
+  "name_tip": "Mongolians use a given name with the father's name (ovog) as a patronymic initial rather than a family surname; bookings usually go under the given name — spell it.",
+  "phone_tip": "Mobile 8 digits (prefixes such as 88, 99, 95, 96, 80, 85; e.g. 8812 3456), +976 country code; landlines rarely used by small businesses; Facebook Messenger is a common follow-up channel.",
+  "time_tip": "24-hour in writing (19:30); spoken 'X tsag khagas' = X:30, '...minut dutuu' = minutes to the hour; day-part words (öglöö, ödör, oroi) mark AM/PM — read back as 24-hour.",
+  "number_tip": "Western digits; mobile numbers are read in two groups of four (8812 3456) or in pairs; confirm digit by digit.",
+  "avoid_calling": "Avoid the office lunch break (about 13:00–14:00), calls before 9:00 or after 21:00, and the national holidays of Tsagaan Sar (lunar new year) and Naadam (July) when many businesses close.",
+  "closed_days": "Saturday–Sunday weekend for government and offices; shops and restaurants open daily; Tsagaan Sar (about 3 days, Jan/Feb) and Naadam (around 11–15 July; 10–15 July in 2026) close most offices and many businesses.",
+  "booking_channels": "Taxis via UBCab and Toki; food via Toki, UBCab Eats and restaurant phone lines; government via e-Mongolia; shops and salons via Facebook pages and Messenger; payments via QPay, bank apps and Toki Pay.",
+  "voice_menu": "Telecoms, banks and utilities use Mongolian IVR; restaurants, salons and small shops answer in person.",
+  "callback_habits": "Businesses confirm by phone call or Messenger; delivery drivers call on arrival, often asking for the entrance and door number.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "草原行程、騎馬、滑雪多經旅行社或網站；夏季（6～8 月）旺季、冬季很多行程停辦。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Season availability"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Transport from Ulaanbaatar included"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "kids_detail",
+        "pickup_place",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Activity and date",
+        "Number of people and ages",
+        "Pickup point",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲與按摩多用電話、Facebook 或 Instagram 預約，節日前很滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for wedding or festival styling"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Preferred staff",
+        "Day and time",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消直接打回店家或回原訊息即可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refundable"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name used",
+        "New time wanted",
+        "Mobile number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立家庭醫療中心（өрхийн эрүүл мэндийн төв）按戶籍區看診，私立醫院與牙科多可電話或 Facebook Messenger 預約；部分醫院可經 e-Mongolia 等平台預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public appointments booked through the hospital system or e-Mongolia"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Health insurance coverage or self-pay"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the patient's registration (register) number"
+        }
+      ],
+      "usually_asked": [
+        "Department or doctor",
+        "First or repeat visit",
+        "Patient name and age",
+        "Day and time",
+        "Mobile number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Unitel、Mobicom 等）、銀行與公用事業客服有蒙古語語音選單，需身分驗證。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "IVR in Mongolian, press for operator"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks register number, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Account or line number",
+        "Identity check",
+        "Problem description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "戶籍、證件與多數政府服務走 e-Mongolia 線上辦理；學校與幼兒園報名多經線上系統，電話詢問有限。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service available online through e-Mongolia"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks register number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or school question",
+        "Applicant or child details",
+        "Reference number",
+        "Name and mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、暖氣、清潔多靠推薦或 Facebook 群組；公寓地址要講區（дүүрэг）、小區（хороо）、樓棟號、單元入口（орц）、門牌（тоот）與樓層。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Building management (СӨХ) approval"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks door code"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "District, khoroo, building, entrance, door number, floor",
+        "Day and time",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "烏蘭巴托飯店英語可通，地方旅館與蒙古包營地（ger camp）多以電話或平台預約，夏季旺季要提早。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Ger camp meals and transfer included or not"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or card number"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Number of guests",
+        "Room or ger type",
+        "Guest name",
+        "Phone or email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "許多店家資訊放在 Facebook 粉專；國定假日（白月、那達慕）期間營業時間會變。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed or short hours during Tsagaan Sar and Naadam"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What you want to know",
+        "Which branch",
+        "When you plan to come"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所集中在烏蘭巴托，電話可約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record needed"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal type, breed, age",
+        "Service needed",
+        "Day and time",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 Unegui.mn 等分類網站與 Facebook 群組，看房要約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and months in advance"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID copy"
+        },
+        {
+          "handle": "decline",
+          "what": "Asks deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "District, rooms, budget",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車維修廠很多，冬季換胎與暖車問題最忙；可電話約但常要排隊。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price only after inspection"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts imported, takes time"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave phone passcode"
+        }
+      ],
+      "usually_asked": [
+        "Car make/model or device",
+        "Problem description",
+        "When to bring it",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "烏蘭巴托餐廳多可電話訂位，高級餐廳與包廂（VIP өрөө）週末與節日（白月 Tsagaan Sar、那達慕、年底聚會）要提早；部分可用 Toki 等 App 訂位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Private room needs a minimum spend or deposit"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Table booking also possible in the Toki app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Year-end party (shine jil) set menu by prepayment"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks prepayment by bank transfer to reserve a private room"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Hall or private room (VIP)",
+        "Name and mobile",
+        "Set menu or à la carte"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店與商店常接電話或 Facebook 訂貨，多以 QPay 或銀行轉帳付款。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment by transfer or QPay"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests transfer to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Pickup or delivery day",
+        "Name and mobile",
+        "Payment method"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送多經 Toki、UBCab Eats 等 App；許多餐廳也接電話外送或自取，冬季外送需求高。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Order through the app instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery area and fee"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantities",
+        "Pickup time or address (district, khoroo, building, entrance, door)",
+        "Name and mobile",
+        "Payment by QR or transfer"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "蒙古郵政與快遞多以網站、Facebook 或電話查件；國際包裹常需本人到郵局。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Track on the website"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks register number to release parcel"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name and mobile",
+        "Address"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "烏蘭巴托叫車多用 UBCab、Toki 等 App，市區塞車嚴重，要預留時間；長途司機可電話包車。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for countryside trips"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "mn": {
+      "appointment_words": [
+        "цаг авах",
+        "эмчид цаг захиалах",
+        "үсчинд цаг авах",
+        "машин засварт оруулах",
+        "зөвлөгөө авах"
+      ],
+      "booking_words": [
+        "ширээ захиалах",
+        "өрөө захиалах",
+        "VIP өрөө захиалга",
+        "захиалга баталгаажуулах",
+        "урьдчилсан захиалга"
+      ],
+      "change_words": [
+        "цагаа хойшлуулах",
+        "захиалга цуцлах",
+        "цаг өөрчлөх",
+        "маргааш руу шилжүүлэх",
+        "хагас цагийн дараа"
+      ],
+      "date": [
+        "өнөөдөр",
+        "маргааш",
+        "нөгөөдөр",
+        "энэ баасан гаригт",
+        "11 сарын 25",
+        "11/25"
+      ],
+      "false_friends": [
+        "3 давхар",
+        "2-р орц",
+        "45 тоот",
+        "12-р байр",
+        "4-р хороо",
+        "1 цагийн массаж"
+      ],
+      "inquiry_words": [
+        "хэдэн цагт нээдэг вэ?",
+        "үнэ хэд вэ?",
+        "хүргэлт байгаа юу?",
+        "QPay-аар төлж болох уу?",
+        "амралтын өдөр ажилладаг уу?"
+      ],
+      "name": [
+        "Болдын нэр дээр",
+        "овог нэр",
+        "компанийн нэр дээр",
+        "өвчтөний нэр",
+        "захиалагчийн нэр"
+      ],
+      "order_words": [
+        "захиалга өгөх",
+        "хүргэлтээр",
+        "очиж авна",
+        "урьдчилж захиалах",
+        "бялуу захиалах"
+      ],
+      "party": [
+        "4 хүний ширээ",
+        "бид 5 хүн",
+        "2 том 1 хүүхэд",
+        "2 хүн",
+        "10 хүний компани"
+      ],
+      "phone": [
+        "8812 3456",
+        "9912 3456",
+        "+976 8812 3456",
+        "утас 12345678"
+      ],
+      "time": [
+        "19:30",
+        "оройн 7 хагас",
+        "8 цаг 15 минут",
+        "8 болоход 15 минут дутуу",
+        "үдээс хойш 2 цагт",
+        "өглөө 10 цагт"
+      ]
+    }
+  }
+}

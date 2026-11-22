@@ -1,0 +1,53 @@
+{
+  "country": "na",
+  "parent": "za",
+  "name": {
+    "en": "Namibia",
+    "native": "Namibia",
+    "zh": "納米比亞"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+264",
+    "currency": "納米比亞元 NAD，與南非蘭特 1:1 掛鉤，蘭特也可在當地使用",
+    "time_zone": "UTC+2，與南非相同",
+    "language": "官方語為英語；奧萬博語、南非荷蘭語、德語也常見",
+    "post": "多數住址以郵政信箱收信，NamPost 為郵政業者"
+  },
+  "habits": {
+    "en": "Open in English; follow Afrikaans, Oshiwambo or German callers. Prices may be in N$ or rand; both work.",
+    "zh": "先用英語；對方說南非荷蘭語、奧萬博語或德語就跟著說。標價可能是 N$ 或蘭特，兩者通用。"
+  },
+  "vocab": {
+    "bank": [
+      "N$",
+      "rand",
+      "EFT"
+    ],
+    "delivery": [
+      "NamPost",
+      "PO box",
+      "security gate"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "SAST",
+      "reason": {
+        "zh": "南非時間名稱；納米比亞時間同樣是 UTC+2，但稱 CAT"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.nampost.com.na/",
+    "https://www.bon.com.na/",
+    "https://www.cran.na/",
+    "https://en.wikipedia.org/wiki/Namibian_dollar",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Namibia"
+  ],
+  "uncertain": [
+    "郵政信箱與到府投遞的比例沒有統計。",
+    "常用行動支付品牌未在官方頁確認，故未寫入。"
+  ]
+}

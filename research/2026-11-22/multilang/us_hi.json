@@ -1,0 +1,94 @@
+{
+  "region": "us",
+  "lang": "hi",
+  "hello": {
+    "hello": "हैलो?",
+    "hello_again": "जी, हैलो?"
+  },
+  "habits": {
+    "en": "Hinglish is the norm; mix OPT, H-1B, green card, SSN, Zelle, Venmo; aap and ji with elders; many switch to English fast.",
+    "zh": "以 Hinglish 為常；夾 OPT、H-1B、綠卡、SSN、Zelle；對長輩用 aap、ji。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "College or tech friend: yaar, bro, chill Hinglish, quick haan haan, talk of OPT or the Indian grocery run, very loose.",
+        "zh": "跟大學或科技業朋友：yaar、bro、輕鬆 Hinglish，聊 OPT 或去印度超市。"
+      },
+      "2": {
+        "en": "Warm family tone with aunties and uncles: aap plus ji, ask about health and kids, Diwali plans at the mandir.",
+        "zh": "跟 aunty、uncle 親切口吻：aap 加 ji，問健康與孩子，聊廟裡的排燈節。"
+      },
+      "3": {
+        "en": "Everyday Hindi in the US: one full sentence per point, keep SSN, insurance, lease, visa terms in English.",
+        "zh": "在美日常印地語：每件事一句完整話，SSN、保險、租約、簽證詞照英文說。"
+      },
+      "4": {
+        "en": "Polite to clinics, CPAs or immigration lawyers: aap, ji, steady pace; settle the appointment or document first.",
+        "zh": "對診所、會計師或移民律師：aap、ji，語速穩，先談定預約或文件。"
+      },
+      "5": {
+        "en": "Formal business Hindi with English terms: sir/madam, crisp recap of the invoice, wire or H-1B paperwork, then close.",
+        "zh": "正式商務印地語夾英文術語：sir/madam，俐落覆述帳單、匯款或 H-1B 文件後收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual helper for friends: yaar-level Hinglish, say {owner} is busy right now, take the message lightly.",
+        "zh": "替{owner}接朋友電話：輕鬆 Hinglish，說他正忙，隨口記下留言。"
+      },
+      "2": {
+        "en": "Warm helper for relatives: namaste ji, ask who is calling with aap, note the family or puja detail for {owner}.",
+        "zh": "替親戚來電溫和應對：namaste ji，用 aap 問來者，記下家事或法會細節給{owner}。"
+      },
+      "3": {
+        "en": "Clear assistant: restate the main point (lease, school, visa date) in one sentence, then say {owner} will be informed.",
+        "zh": "清楚的助理：一句覆述重點（租約、學校、簽證日期），說會通知{owner}。"
+      },
+      "4": {
+        "en": "Courteous assistant for offices: introduce yourself as taking calls for {owner}, ask name and contact number, keep it tight.",
+        "zh": "對機構有禮：自稱代{owner}接聽，詢問姓名與聯絡電話，簡潔不拖。"
+      },
+      "5": {
+        "en": "Executive assistant: sir/madam, itemise the contract or filing point, read back the company name, end on time.",
+        "zh": "高階助理：sir/madam，逐項核對合約或申報重點，回念公司名稱，準時結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हाँ यार, बोल, मैं ग्रोसरी स्टोर में हूँ।",
+      "नमस्ते आंटी जी! घर पे सब कैसे हैं?",
+      "अच्छा, लीज़ वाली बात? हाँ, पूरी बात समझ आ गई।",
+      "जी, कहिए, डॉक्टर की अपॉइंटमेंट मंगलवार को है न?",
+      "नमस्ते सर, Zelle वाला पेमेंट मिल गया, धन्यवाद।"
+    ],
+    "a": [
+      "हाँ, {owner} अभी बिज़ी है, कुछ बताना है?",
+      "नमस्ते जी, मैं {owner} की तरफ़ से बात कर रही हूँ, आप कौन?",
+      "ठीक है, स्कूल वाली बात {owner} तक पहुँचा दूँगी।",
+      "मैं {owner} की ओर से कॉल ले रही हूँ, नाम और नंबर बता दीजिए।",
+      "कॉन्ट्रैक्ट के सारे पॉइंट {owner} को पूरे भेज दूँगी।"
+    ]
+  },
+  "diff_from_home": [
+    "Hinglish 比印度本地更重，簽證、稅務、租屋詞彙幾乎都用英文（OPT、H-1B、lease、W-2）。",
+    "社群內有古吉拉特、泰盧固、旁遮普等不同母語者，印地語常當跨族群通用語。",
+    "聚集區如紐澤西 Oak Tree Road、芝加哥 Devon Avenue，以印度超市、餐館、珠寶店為主。",
+    "Pew 指 84% 英語流利，第二代電話裡常直接轉英語。"
+  ],
+  "sources": [
+    "https://www.pewresearch.org/social-trends/fact-sheet/asian-americans-indians-in-the-u-s/",
+    "https://en.wikipedia.org/wiki/Indian_Americans",
+    "https://en.wikipedia.org/wiki/Oak_Tree_Road",
+    "https://en.wikipedia.org/wiki/Devon_Avenue",
+    "https://www.uscis.gov/",
+    "https://www.zellepay.com/",
+    "https://www.census.gov/library/stories/2022/12/languages-we-speak-in-united-states.html"
+  ],
+  "uncertain": [
+    "印地語在印度裔家庭的實際使用比例沒有單獨的通話數據，ACS 只有在家語言統計。",
+    "Hinglish 夾雜程度因世代與地區而異，無量化研究。",
+    "助理例句用女性動詞形（रही、दूँगी），若 AI 聲音為男性需改陽性。"
+  ]
+}

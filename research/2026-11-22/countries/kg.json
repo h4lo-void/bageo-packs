@@ -1,0 +1,82 @@
+{
+  "country": "kg",
+  "parent": "ru",
+  "name": {
+    "en": "Kyrgyzstan",
+    "native": "Кыргызстан",
+    "zh": "吉爾吉斯"
+  },
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, меня слышно?"
+  },
+  "delivery": {
+    "en": "Parcels: the door, a neighbour, or a Kyrgyz Post or pickup point",
+    "zh": "包裹交門口、鄰居，或到吉爾吉斯郵局、取件點"
+  },
+  "readback": {
+    "en": "Numbers go in short groups; 24-hour times; amounts in som",
+    "zh": "號碼分短組唸；時間用 24 小時制；金額用索姆"
+  },
+  "fraud": {
+    "en": "A fake Kyrgyz Post customs or delivery fee, or a bank code request, is a scam",
+    "zh": "假吉爾吉斯郵局要補關稅或運費，或銀行要驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Russian is common in cities; formal Вы and patronymic. Not Kaspi, Gosuslugi or Sberbank.",
+    "zh": "都市常用俄語，正式用 Вы 和父名。不用 Kaspi、Госуслуги 或 Sberbank。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the MBANK or bank app spinning, missing glasses, or a weak connection.",
+    "zh": "卡在 MBANK 或銀行 App 一直轉、找不到眼鏡，或網路不穩。"
+  },
+  "vocab": {
+    "bank": [
+      "MBANK",
+      "перевод",
+      "сом"
+    ],
+    "delivery": [
+      "почта",
+      "пункт выдачи",
+      "дверь"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Kaspi",
+      "reason": {
+        "en": "Kazakhstan super-app, not Kyrgyzstan's everyday brand",
+        "zh": "哈薩克超級 App，不是吉爾吉斯日常品牌"
+      }
+    },
+    {
+      "word": "Госуслуги",
+      "reason": {
+        "en": "Russian government-services portal",
+        "zh": "俄國政府服務入口"
+      }
+    },
+    {
+      "word": "Сбербанк",
+      "reason": {
+        "en": "Russian bank",
+        "zh": "俄國銀行"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Same formal Вы and patronymic, but drop Kazakh Kaspi and Russian Gosuslugi or Sberbank. Kyrgyz words may appear; answer in Russian.",
+    "zh": "正式仍用 Вы 和父名，但不用哈薩克的 Kaspi，也不用俄國 Госуслуги、Sberbank。可能夾吉爾吉斯詞，用俄語回。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://post.kg/language/en/recently-cases-of-fraudulent-sms-and-imessage-messages-sent-on-behalf-of-kyrgyz-post-jsc-have-been-recorded/",
+    "https://mbank.kg/en/news/mbank-napominaet-o-vazhnosti-zashity-ot-moshenniko"
+  ],
+  "uncertain": [
+    "吉爾吉斯語不在支援清單，故 lang 為 ru；比什凱克以外是否更常先用吉爾吉斯語，未找到可引用統計。",
+    "包裹櫃是否已普遍，此次未找到足夠資料，故投遞以門口、鄰居和郵局／取件點為主。"
+  ]
+}

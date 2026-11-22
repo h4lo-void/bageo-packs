@@ -1,0 +1,95 @@
+{
+  "country": "nz",
+  "parent": "au-nz",
+  "name": {
+    "en": "New Zealand",
+    "native": "Aotearoa New Zealand",
+    "zh": "紐西蘭"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello again"
+  },
+  "delivery": {
+    "en": "Parcels: front door, letterbox, rural box, or an NZ Post Parcel Collect locker",
+    "zh": "包裹放前門、信箱、鄉村信箱，或 NZ Post 寄存櫃"
+  },
+  "readback": {
+    "en": "02X mobiles often 3-3-4, 0 as oh or zero; day-month dates; New Zealand dollars",
+    "zh": "02X 手機常照 3-3-4 唸，0 唸 oh 或 zero；日期先日後月；用紐西蘭元"
+  },
+  "fraud": {
+    "en": "IRD, myIR or NZ Post asking for passwords, bank logins or a parcel-fee link are scams",
+    "zh": "冒充 IRD、myIR 或 NZ Post 要密碼、網銀或點包裹費連結的都是詐騙"
+  },
+  "habits": {
+    "en": "First names; spell as-in. Use letterbox, mobile, not mailbox, cell, zip code. Kia ora is common. Rural addresses use RD.",
+    "zh": "直接叫名字。說 letterbox、mobile，不說 mailbox、cell。Kia ora 常用。"
+  },
+  "stall_local": {
+    "en": "Get stuck on rural broadband dropping, a slow bank or myIR code, or glasses left in the ute.",
+    "zh": "卡在鄉村網路斷線、銀行或 myIR 驗證碼遲來，或眼鏡忘在 ute 上。"
+  },
+  "vocab": {
+    "bank": [
+      "myIR",
+      "IRD",
+      "RealMe",
+      "account suffix",
+      "internet banking"
+    ],
+    "delivery": [
+      "letterbox",
+      "Parcel Collect",
+      "rural delivery",
+      "parcel locker",
+      "front door"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "NBN",
+      "reason": {
+        "zh": "澳洲寬頻品牌，紐西蘭不用這個說法。"
+      }
+    },
+    {
+      "word": "ATO / myGov",
+      "reason": {
+        "zh": "澳洲稅局與政府帳號；紐西蘭對應是 IRD、myIR、RealMe。"
+      }
+    },
+    {
+      "word": "PayID / NetCode",
+      "reason": {
+        "zh": "偏澳洲銀行用語；紐西蘭帳戶常用帳號加 suffix。"
+      }
+    },
+    {
+      "word": "04X 4-3-3",
+      "reason": {
+        "zh": "04X 是澳洲手機；紐西蘭是 02X，常見寫成 3-3-4。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Levels 1–2: less Aussie mate-talk (beauty, no dramas); kia ora, sweet as and chur sit naturally. Levels 3–5 stay close, still Mr/Ms until invited.",
+    "zh": "1～2 格少用澳洲味的 beauty、no dramas；kia ora、sweet as、chur 較自然。3～5 格接近所屬地區，仍先稱 Mr／Ms。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.ird.govt.nz/managing-my-tax/scams/signs-of-a-scam",
+    "https://www.nzpost.co.nz/contact-support/scams-and-fraud",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_New_Zealand",
+    "https://en.wikipedia.org/wiki/Kia_ora",
+    "https://help.nzcouriers.co.nz/rural-residential/rural-deliveries",
+    "https://nzsafe.org.nz/en/alerts/ird-tax-refund-email-and-text-scams/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 en-US，支援清單只有 en，故本檔用 en。",
+    "接電話時較多人說 Hello 還是 Kia ora，沒有官方統計；hello 欄用 Hello，習慣裡註明 Kia ora 也常用。",
+    "02X 唸成 3-3-4 依常見書寫與編號資料，未找到電信官方「必須這樣唸」的規定。",
+    "RealMe 在日常電話裡有多常用，未再核對使用頻率。"
+  ]
+}

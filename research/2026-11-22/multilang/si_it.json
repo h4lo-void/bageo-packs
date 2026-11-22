@@ -1,0 +1,88 @@
+{
+  "region": "si",
+  "lang": "it",
+  "hello": {
+    "hello": "Pronto?",
+    "hello_again": "Pronto, dimmi?"
+  },
+  "habits": {
+    "en": "Coastal Slovene Italian is official in Koper/Capodistria and nearby. Keep ZZZS, FURS. Formal lei. Pronto on the phone.",
+    "zh": "斯洛文尼亞海岸義大利語在科佩爾等地有官方地位。常說 ZZZS、FURS。對生人用 lei。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend in Capodistria: tu, seaside and easy; a Slovene street or ZZZS can sit inside the Italian sentence.",
+        "zh": "科佩爾熟友用 tu，沿海隨和；斯洛文尼亞街名或 ZZZS 可留在義大利語句裡。"
+      },
+      "2": {
+        "en": "Easygoing: tu unless they stay on lei; after they speak, a short va bene, bilingual names are fine.",
+        "zh": "隨和：除非對方用 lei，否則用 tu；聽完短短說 va bene，雙語名稱無妨。"
+      },
+      "3": {
+        "en": "Everyday coastal Italian in Slovenia. Finish the point fully; health insurance is often ZZZS, tax is FURS.",
+        "zh": "斯洛文尼亞海岸日常義大利語。把重點說完整；醫保常說 ZZZS，稅務是 FURS。"
+      },
+      "4": {
+        "en": "Polite lei at an office. Keep občina or official Slovene titles as said, sentences fuller.",
+        "zh": "在機關用禮貌 lei。občina 或斯洛文尼亞官方職稱照留，句子較完整。"
+      },
+      "5": {
+        "en": "Formal lei, tidy. Quote euro and FURS exactly, use Koper or Capodistria as the caller does, close each item.",
+        "zh": "正式 lei，整齊。歐元與 FURS 要說準，地名跟對方用 Koper 或 Capodistria，各項收住。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on tu: short and coastal-warm, then you'll pass the message, local names left as said.",
+        "zh": "{owner}隨興代接，用 tu：短而帶海岸的熱絡，再把話帶去，當地名稱照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match tu or lei, leave ZZZS as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 tu 或 lei，ZZZS 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the FURS or health point in one full Italian sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句義大利語重述稅務或醫保的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on lei: note the purpose, keep Slovene official names, confirm the handover.",
+        "zh": "沉穩秘書用 lei：記下目的，斯洛文尼亞官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on lei: exact about FURS and place names, then confirm the note for {owner}.",
+        "zh": "正式代表用 lei，把 FURS 與地名說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Pronto! Ciao, come va a Capodistria?",
+      "Pronto, dimmi, ti ascolto.",
+      "Pronto, buongiorno. È per la ZZZS? Ho capito.",
+      "Buongiorno, grazie della chiamata. La cosa del FURS è chiara.",
+      "Buongiorno, grazie. Ho annotato la pratica di Koper."
+    ],
+    "a": [
+      "Pronto! Non c'è, dimmi a me, glielo riferisco.",
+      "Pronto, dimmi. Rispondo io al suo telefono, dimmi il messaggio.",
+      "Pronto, buongiorno. Lo dico a {owner}.",
+      "Buongiorno, grazie della chiamata. Trasmetto il messaggio.",
+      "Buongiorno, grazie. Annoto tutto e glielo riferisco."
+    ]
+  },
+  "diff_from_home": [
+    "義大利語在科佩爾／卡波迪斯特里亞、伊佐拉、皮蘭等海岸市鎮有官方地位，地名常義、斯並用。",
+    "醫保與稅務常用斯洛文尼亞機關名 ZZZS、FURS，不要套用義大利本國的 ASL 或 Agenzia delle Entrate。",
+    "貨幣同樣是歐元，但行政詞是斯洛文尼亞的。",
+    "對生人用 lei，電話仍常以 Pronto 開頭，這點與義大利相近。"
+  ],
+  "sources": [
+    "https://assets.publishing.service.gov.uk/media/650bf4d7fbd7bc000de546ff/Slovenia_Toponymic_Factfile.pdf",
+    "https://www.zzzs.si/",
+    "https://www.fu.gov.si/"
+  ],
+  "uncertain": [
+    "海岸三市以外的義大利語使用較少，本檔以官方雙語市鎮習慣為主。"
+  ]
+}
