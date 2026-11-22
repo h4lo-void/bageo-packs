@@ -1,0 +1,142 @@
+{
+  "schema": 1,
+  "code": "sn-ci-bf-ml-ne-tg-bj-gn",
+  "countries": [
+    "sn",
+    "ci",
+    "bf",
+    "ml",
+    "ne",
+    "tg",
+    "bj",
+    "gn"
+  ],
+  "name": {
+    "en": "West Africa (French)",
+    "native": "Afrique de l'Ouest (français)",
+    "zh": "西非（法語）"
+  },
+  "lang": "fr-FR",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, c'est qui ?"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, the courtyard or a neighbour",
+    "zh": "包裹交給 gardien、庭院（cour）或鄰居"
+  },
+  "readback": {
+    "en": "Short French number groups; dates day-month; confirm the city.",
+    "zh": "號碼用法語分小段唸；公文日期先日後月；城市名（達卡、阿比讓等）要確認。"
+  },
+  "fraud": {
+    "en": "an Orange Money, Wave or Moov PIN request or 'wrong transfer' is a scam",
+    "zh": "要 Orange Money、Wave 或 Moov 的 PIN，或叫你退錯帳，都是詐騙"
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Follow French; keep gardien.",
+    "zh": "對陌生人用 vous，對方改 tu 再轉 tu。用法語。照用 Orange Money、Wave、cour。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the USSD menu timing out, Orange Money or Wave spinning, a power cut.",
+    "zh": "卡在當地狀況，例如 USSD 逾時、Orange Money 或 Wave 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Dakar or Abidjan friend: tu, lively French, a 'dis-moi un peu', then one more beat, varied.",
+        "zh": "像達卡或阿比讓的朋友：用 tu，活潑法語，可帶 dis-moi un peu，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Warm: tu unless they stay on vous; after they speak, add a friendly 'd'accord', varied.",
+        "zh": "溫暖：對方不堅持 vous 就用 tu；聽完加一句 d'accord，每次換。"
+      },
+      "3": {
+        "en": "Everyday French of this coast. Full sentence after each point, not a lone oui. Keep Wave or Orange Money if they name them.",
+        "zh": "這一帶的日常法語。每點用完整句回，不要只回 oui。對方說 Wave、Orange Money 就照用。"
+      },
+      "4": {
+        "en": "On a Dakar or Abidjan office line, stay with vous and Monsieur/Madame, recap the errand (j'ai bien compris). Keep Wave if named.",
+        "zh": "達卡或阿比讓機關電話，維持 vous 與 Monsieur／Madame，先覆述來意；對方說 Wave 就照用。"
+      },
+      "5": {
+        "en": "Office French for banks or Wave agents: Monsieur/Madame, compact; close each item (c'est consigné), varied.",
+        "zh": "對銀行或 Wave 代理的公事法語：用 Monsieur／Madame，簡潔；每件收束，每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper in French. Use tu only after they offer it, react, then say you will pass it on (je transmets).",
+        "zh": "{owner}的活潑法語幫手。未獲允許前不用 tu；先應一句，再說會把話轉給主人。"
+      },
+      "2": {
+        "en": "As a gardien or concession clerk: keep vous, take down the matter, then write it for {owner}. Do not start Wolof or Bambara.",
+        "zh": "像門衛或 concession 代接：維持 vous，先記下事由，再寫給{owner}。不要自己改口沃洛夫語或班巴拉語。"
+      },
+      "3": {
+        "en": "Respond in complete French, then say {owner} will be informed. Avoid a bare ouais or ok.",
+        "zh": "法語把重點說完整，再說明會告知{owner}。不要只回 ouais 或 ok。"
+      },
+      "4": {
+        "en": "For a Wave, Orange Money or préfecture desk, keep vous and titles, state the purpose, and confirm the mot is retained.",
+        "zh": "縣府或 Wave 櫃台來電，用 vous 與職稱，先報事由，再保證字條會留著。"
+      },
+      "5": {
+        "en": "Préfecture or bank-style deputy: keep vous and titles, go briskly, pin the facts, then confirm the mot will be remitted.",
+        "zh": "縣府式代表：維持 vous 與職稱，節奏明快；事實對齊後，再確認 mot 會交出去。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "Orange Money",
+      "Wave",
+      "Moov",
+      "agence",
+      "virement"
+    ],
+    "delivery": [
+      "gardien",
+      "cour",
+      "concession",
+      "bureau de poste"
+    ],
+    "government": [
+      "CNI",
+      "CEDEAO",
+      "carte consulaire",
+      "passeport"
+    ],
+    "health": [
+      "dispensaire",
+      "hôpital",
+      "clinique",
+      "ordonnance"
+    ],
+    "telecom": [
+      "Orange",
+      "Moov",
+      "prépayé",
+      "crédit téléphone"
+    ],
+    "payment": [
+      "Orange Money",
+      "Wave",
+      "Moov",
+      "marchand"
+    ],
+    "transport": [
+      "woro-woro",
+      "gbaka",
+      "taxi",
+      "car"
+    ],
+    "housing": [
+      "loyer",
+      "propriétaire",
+      "cour",
+      "facture SENELEC"
+    ]
+  },
+  "status": "draft"
+}

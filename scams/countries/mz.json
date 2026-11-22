@@ -1,0 +1,98 @@
+{
+  "name": "Mozambique",
+  "name_local": "Moçambique",
+  "iso": "mz",
+  "calling_code": "+258",
+  "languages": [
+    "pt"
+  ],
+  "prevalence_note": "The Banco de Moçambique has issued a public phishing alert, and the communications regulator INCM publishes consumer guidance on the same pattern. The Attorney-General's Office also runs a fraud-reporting channel that covers mobile-wallet cases, after an MoU with the central bank.",
+  "cross_border_note": "Messages and calls are usually in Portuguese and may use Mozambican mobiles or look like a bank or e-wallet notice.",
+  "scams": [
+    {
+      "id": "mz_bank_phishing_vishing",
+      "typology": "fake_bank_account_alert",
+      "name": "Phishing ou vishing em nome do banco ou carteira",
+      "name_en": "Bank or wallet phishing and vishing",
+      "prevalence": "very_high",
+      "lang": "pt",
+      "context_keywords": [
+        "actualizar conta",
+        "mensagem do banco",
+        "código de confirmação",
+        "M-Pesa"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "sends a link supposedly needed to update a bank or wallet account",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for the mobile-wallet PIN on the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to speak a confirmation code just received",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An email, SMS or call that looks as if it comes from a bank or a mobile wallet asks the person to open a link, confirm an account, or hand over a PIN or confirmation code.",
+      "legit_en": "The Banco de Moçambique has publicly alerted customers to phishing attempts that seek personal data. INCM consumer material likewise tells people not to click unknown links and not to share codes, PINs or banking details.",
+      "bait_tactics": [
+        "O link desta mensagem não abre no browser do telemóvel, e eu não introduzo o PIN da carteira a partir de um SMS.",
+        "A aplicação M-Pesa está presa a carregar e eu não vejo nenhum débito com a descrição que indicou.",
+        "Não chegou nenhum código de confirmação a esta linha, portanto não há nada para eu ditar."
+      ],
+      "sources": [
+        "https://bancomoc.mz/media/1ztmr0ri/alerta-sobre-tentativas-de-phishing.pdf",
+        "https://consumidor.incm.gov.mz/video/como-se-prevenir-de-fraude-do-tipo-physhing/"
+      ]
+    },
+    {
+      "id": "mz_wallet_unauthorised_pressure",
+      "typology": "otp_theft",
+      "name": "Pressão para validar um movimento na carteira móvel",
+      "name_en": "Pressure to approve a mobile-wallet movement",
+      "prevalence": "high",
+      "lang": "pt",
+      "context_keywords": [
+        "validar transferência",
+        "carteira móvel",
+        "código USSD",
+        "agente"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "dictates a USSD string presented as a validation step",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presses for immediate confirmation of a cash-out the customer did not start",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to tell a supposed agent the wallet PIN",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller claiming to be a wallet agent or support desk pushes the customer to compose a USSD string or speak a PIN to 'validate' a transfer or a cash-out the customer did not start.",
+      "legit_en": "INCM guidance is not to share PINs or codes. The Attorney-General's fraud channel, set up with the central bank, is the official route for reporting mobile-wallet fraud rather than following instructions from an unknown caller.",
+      "bait_tactics": [
+        "Eu não vou compor um código USSD ditado por quem me ligou, porque não iniciei nenhum levantamento.",
+        "O saldo da carteira neste ecrã não mostra a operação que descreveu, por isso não valido nada.",
+        "O menu do agente está inacessível com esta rede instável, e eu não digo o PIN em voz alta."
+      ],
+      "sources": [
+        "https://consumidor.incm.gov.mz/video/como-se-prevenir-de-fraude-do-tipo-physhing/",
+        "https://fraude-denuncias.pgr.gov.mz/home",
+        "https://www.bancomoc.mz/pt/media/noticias/bm-e-pgr-assinam-memorando-de-entendimento-em-materia-de-fraudes-1/"
+      ]
+    }
+  ]
+}

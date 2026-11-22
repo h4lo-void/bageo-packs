@@ -1,0 +1,90 @@
+{
+  "region": "bn",
+  "lang": "en",
+  "why_added": "汶萊官方語言為馬來語，但憲法規定公文須備英語本，學校多數科目以英語授課，商務電話常用。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes speaking."
+  },
+  "habits": {
+    "en": "Encik, Cik or Puan with strangers. Keep BND, BIBD or Baiduri, TelBru. Avoid Indonesian nggak or satpam; lah is light.",
+    "zh": "對生人用 Encik、Cik 或 Puan。錢是 BND，銀行常見 BIBD、Baiduri。不用印尼詞。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Bandar friend: first names once close, short lines. Leave Encik if they still use it; money is Brunei dollars, not ringgit.",
+        "zh": "斯里巴加灣熟友可叫名字。對方仍用 Encik 就跟著；錢是汶萊元，不是令吉。"
+      },
+      "2": {
+        "en": "Easy bilingual tone. Malay honorifics can stay in an English call; do not switch in Indonesian slang.",
+        "zh": "輕鬆雙語口氣。英語電話裡仍可留馬來語稱謂，不要改口說印尼俚語。"
+      },
+      "3": {
+        "en": "Everyday Brunei English. Finish each point; telco is TelBru or DST, banks BIBD or Baiduri.",
+        "zh": "汶萊日常英語。把話說完；電信說 TelBru 或 DST，銀行說 BIBD 或 Baiduri。"
+      },
+      "4": {
+        "en": "Polite Encik, Cik or Puan until they invite a first name. Confirm amounts in Brunei dollars.",
+        "zh": "未獲允許前用 Encik、Cik 或 Puan。金額要說成汶萊元。"
+      },
+      "5": {
+        "en": "Formal office English, titles kept. Jawi on a form is named as Jawi, not Arabic; no Singlish flourish.",
+        "zh": "正式公務英語，稱謂保留。表格上的爪夷文就叫 Jawi，不要說成阿拉伯文；不耍新加坡式語氣。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: first names if they did, keep Encik otherwise, then you will pass the message on.",
+        "zh": "{owner}較熟的代接：對方叫名字才跟著叫，否則留 Encik，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in. Leave BIBD or TelBru as said, and let them know {owner} will be told.",
+        "zh": "溫和代接。BIBD、TelBru 照叫，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Brunei-dollar or Baiduri point in one full sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句話重述汶萊元或 Baiduri 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary with Encik or Puan: note why they called, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 Encik 或 Puan：記下來電原因，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on BND and official names, no extra familiarity, then confirm the note for {owner}.",
+        "zh": "正式代表：BND 與機關名稱要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Are you still in Bandar?",
+      "Hello, yes — I can hear you clearly.",
+      "Hello, good afternoon. Is this about TelBru?",
+      "Good afternoon, thanks for calling. The BND amount is clear.",
+      "Good afternoon, thank you. I have noted the BIBD matter."
+    ],
+    "a": [
+      "Hello! {owner} isn't here — tell me and I'll pass it along.",
+      "Hello, hi. I am on the phone — what should I relay?",
+      "Good afternoon. I'll pass {owner} your exact words.",
+      "Thanks for calling. I will note the Baiduri point for {owner}.",
+      "Thank you. I will write the BND details down and pass them on."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是汶萊元（BND），不要說成令吉或新幣；銀行常見 BIBD、Baiduri。",
+    "英語電話裡仍常用馬來語稱謂 Encik、Cik、Puan，對生人不要一開始就直呼名字。",
+    "用詞靠近汶萊馬來語習慣，避免印尼詞（如 nggak、satpam）；lah 只可偶爾出現。",
+    "爪夷文是馬來語的官方文字之一，不是把通話改成阿拉伯語。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/brunei/",
+    "https://assets.publishing.service.gov.uk/media/6504622dfc63f60014957360/Brunei_Toponymic_Factfile__002_.pdf",
+    "https://www.constituteproject.org/constitution/Brunei_2006"
+  ],
+  "uncertain": [
+    "英語在行政與學校很常用，但家庭與店面電話是否仍以馬來語為主，缺少新的量化統計。",
+    "DST 與 TelBru 的市場比重會變，品牌應跟隨對方用語，不要當成唯一電信商。"
+  ]
+}

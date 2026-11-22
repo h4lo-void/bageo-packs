@@ -1,0 +1,90 @@
+{
+  "region": "il",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hi, yes?"
+  },
+  "habits": {
+    "en": "Israeli English is dugri: short, direct, little padding. Tags: yalla, beseder, todah. Keep Kupat Holim, Bituach Leumi.",
+    "zh": "以色列英語直來直往（dugri），少鋪陳，常夾 yalla、beseder。機關名用 Kupat Holim。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friend: informal, fast, dugri — say what you mean, a yalla or todah can land naturally, little small talk.",
+        "zh": "熟友用非正式、節奏快的 dugri：有話直說，可自然夾 yalla、todah，少寒暄。"
+      },
+      "2": {
+        "en": "Easygoing colleague: still fairly direct; after they explain, a short beseder, then the next point, no long preamble.",
+        "zh": "隨和同事仍偏直接；聽完短短說 beseder，接著下一點，不要長序。"
+      },
+      "3": {
+        "en": "Everyday Israeli English. Answer the point in a full, plain sentence; clinics and insurance keep Hebrew names.",
+        "zh": "以色列日常英語。用完整明白的句子回答重點；診所與保險保留希伯來名稱。"
+      },
+      "4": {
+        "en": "Civil and direct with offices: not stiff, not chatty. Keep Teudat Zehut or Kupat Holim as said, close the item clearly.",
+        "zh": "對機關客氣但直接：不僵、也不閒聊。Teudat Zehut、Kupat Holim 照叫，把該項說清楚。"
+      },
+      "5": {
+        "en": "Professional, still compact. No waffle; quote shekel or Bituach Leumi exactly, and finish each item in one clear line.",
+        "zh": "商務也要簡潔，不繞彎。shekel、Bituach Leumi 要說準，每項用一句清楚的話收住。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: upbeat, short, dugri, then you'll pass the message — no filler.",
+        "zh": "{owner}隨興代接：輕快短句、直說，再把話帶去，不要空話。"
+      },
+      "2": {
+        "en": "Friendly stand-in: match their casual or formal tone, leave yalla or office names as said, tell them {owner} will hear it.",
+        "zh": "友善代接：口氣跟對方的隨便或正式，yalla 或機關名照留，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Straightforward assistant. Restate the Kupat Holim point in one full line, then confirm you will tell {owner}.",
+        "zh": "直截了當的代接。先用整句重述 Kupat Holim 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: polite but not flowery; note why they called, keep Hebrew official names, confirm the handover.",
+        "zh": "沉穩秘書：有禮但不華麗；記下來意，希伯來官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: compact and exact about Bituach Leumi or shekel, then confirm the note for {owner}.",
+        "zh": "正式代表：簡潔精確，把 Bituach Leumi 或 shekel 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hi! Hey, what's up? Tell me.",
+      "Hello, yes. I'm here, go ahead.",
+      "Hello, good afternoon. Is this about Kupat Holim? Got it.",
+      "Good afternoon, thanks for calling. The Bituach point is clear.",
+      "Good afternoon, thanks for calling. The shekel amount is noted."
+    ],
+    "a": [
+      "Hi! They're not in, tell me and I'll pass it on.",
+      "Hello, hey. I'm taking their calls, give me the message.",
+      "Hello, good afternoon. I'll note this for {owner}.",
+      "Good afternoon, thanks for calling. I will pass the message on.",
+      "Good afternoon, thank you. I will record it all and tell them."
+    ]
+  },
+  "diff_from_home": [
+    "溝通風格偏 dugri：比英美日常英語更直接、少鋪陳，打斷與快速進入正題較能被接受。",
+    "常夾希伯來話語標記與詞彙，如 yalla、beseder、todah、nu。",
+    "機關與證件多用 Bituach Leumi、Kupat Holim、Teudat Zehut 等本地名稱，不必硬譯。",
+    "新移民與高科技場合英語使用多，但仍應跟從對方的直接程度與夾用程度。"
+  ],
+  "sources": [
+    "https://www.culturalatlas.sbs.com.au/articles/2bc48957-8634-4eeb-a456-31ea16e4f68e",
+    "https://www.nbn.org.il/making-aliyah/the-aliyah-process/your-first-steps/oleh-glossary/",
+    "https://www.btl.gov.il/EnglishHomePage/Pages/default.aspx",
+    "https://doi.org/10.1556/aling.53.2006.4.5"
+  ],
+  "uncertain": [
+    "Cultural Atlas 對 dugri 的歸納偏通論，不同年齡與行業的直接程度仍有差異。",
+    "提供的 Cultural Atlas 網址路徑較深，若抽查失效可改查 SBS Cultural Atlas 的 Israeli communication 條目。"
+  ]
+}

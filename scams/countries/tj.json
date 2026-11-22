@@ -1,0 +1,97 @@
+{
+  "name": "Tajikistan",
+  "name_local": "Тоҷикистон",
+  "iso": "tj",
+  "calling_code": "+992",
+  "languages": [
+    "ru"
+  ],
+  "prevalence_note": "The National Bank of Tajikistan has repeatedly warned that ads and calls unrelated to the Bank ask for names, card numbers and the secret code sent by SMS. People are told not to give these details to strangers posing as bank or operator staff.",
+  "cross_border_note": "Calls may be in Tajik or Russian and can be followed by SMS or messaging-app pressure; some lures misuse the National Bank's name.",
+  "scams": [
+    {
+      "id": "tj_sms_code_and_card_data",
+      "typology": "otp_theft",
+      "name": "Запрос SMS-кода или данных карты",
+      "name_en": "Request for an SMS code or card details",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "код из СМС",
+        "номер карты",
+        "секретный код",
+        "банковский сотрудник"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks the customer to read an SMS secret code aloud",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for a card number to be dictated on the call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "presents an SMS code as the way to confirm a transfer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or a message, sometimes dressed as bank or payment-card support, asks for a full name, a card number and the secret code that has just arrived by SMS, in order to 'confirm' a payment or unlock an account.",
+      "legit_en": "The National Bank of Tajikistan reminds the public that such advertisements have no relation to the Bank, and tells people not to give strangers their name, card number or the secret code sent by SMS.",
+      "bait_tactics": [
+        "На эту SIM не приходило новое СМС с кодом, и я не диктую номер карты незнакомому человеку.",
+        "Приложение карты сейчас не открывает историю операций, так что я не подтверждаю перевод, которого не вижу.",
+        "Я не сообщаю фамилию и отчество вместе с данными карты по этому звонку."
+      ],
+      "sources": [
+        "https://www.nbt.tj/en/news/573233/",
+        "https://www.nbt.tj/tj/news/614702/"
+      ]
+    },
+    {
+      "id": "tj_fake_nbt_or_bank_ad",
+      "typology": "fake_official",
+      "name": "Ложное объявление от имени Нацбанка",
+      "name_en": "Fake notice in the name of the National Bank",
+      "prevalence": "high",
+      "lang": "ru",
+      "context_keywords": [
+        "Национальный банк",
+        "официальное объявление",
+        "обновить карту",
+        "горячая линия"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presents the message as an official notice from the national bank",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "sends a link supposedly needed to update a payment card",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for a confirmation fee to be transferred",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An ad, SMS or call borrows the National Bank's name and invites the person to 'update' a card, call an unofficial number, or pay a confirmation fee.",
+      "legit_en": "NBT has stated that the ads it is warning about have no relation to the National Bank of Tajikistan. Official information and the Bank's published hotline are reached through nbt.tj, not through an unsolicited advert.",
+      "bait_tactics": [
+        "Я не перехожу по ссылке из объявления, которое якобы от Нацбанка, если оно пришло не с сайта, который я уже использую.",
+        "Никакого сбора за подтверждение карты я не перевожу по телефонной просьбе.",
+        "Этот номер не похож на тот, что я знаю для своего банка, поэтому я не продолжаю разговор о 'официальном' обновлении."
+      ],
+      "sources": [
+        "https://www.nbt.tj/en/news/573233/",
+        "https://www.nbt.tj/en/tel/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,965 @@
+{
+  "region": "my",
+  "countries": [
+    "my"
+  ],
+  "region_name_zh": "馬來西亞",
+  "region_name": "Malaysia",
+  "languages": [
+    {
+      "code": "ms",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    },
+    {
+      "code": "cmn",
+      "use": "common"
+    },
+    {
+      "code": "ta",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "Open in Bahasa Melayu or English (both normal in KL/Penang); switch to Mandarin or Cantonese for Chinese-run shops and Tamil for Indian-run shops if staff do; Manglish code-mixing is normal.",
+  "english_ok": "yes — English is widely used in business, hotels and private clinics in cities; less so at small Malay kampung shops, government counters and rural east coast.",
+  "politeness": "Warm and indirect: open with 'Selamat pagi/petang' or 'Hello, good afternoon', use Encik/Puan/Cik, Mr/Ms or 'boss/auntie' only if they do; thank with 'terima kasih'.",
+  "name_tip": "Malay names use 'bin/binti' + father's name, not a surname: use 'Encik/Puan' + given name; Chinese names surname first ('Mr Tan'); Indian names often given name + father's name.",
+  "phone_tip": "Mobile 01X-123 4567 (10 digits) or 011-1234 5678 (11 digits); KL landline 03-1234 5678; read back in groups; WhatsApp number is usually the same mobile.",
+  "time_tip": "Malay 'pukul 7.30 malam' uses a dot; 'setengah lapan' = 7:30 in Malay; English 12-hour with am/pm dominates; always read back with pagi/petang/malam or am/pm.",
+  "number_tip": "Read numbers in Malay or English singly; Manglish 'double 3' for 33 is common; prices in RM with sen; Chinese-speakers may avoid saying '4' — just read digits plainly.",
+  "avoid_calling": "Avoid lunch rush 12:00–14:00 and dinner 19:00–21:00 at eateries, Friday 12:30–14:30 (Jumaat prayer) at Malay-run businesses, and calls after 21:00; mind Ramadan iftar time.",
+  "closed_days": "Weekend is Sat–Sun except Kedah, Kelantan, Terengganu (Fri–Sat); many hawkers and Chinese eateries close one weekday; Hari Raya and Chinese New Year close shops for days.",
+  "booking_channels": "WhatsApp is the default for restaurants, salons, clinics and tradesmen; TABLEAPP/Eatigo for dining, BookDoc/DoctorOnCall for doctors, Fresha for salons, Grab for rides.",
+  "voice_menu": "Telcos (Maxis, CelcomDigi, U Mobile), banks, TNB electricity and Pos Malaysia use IVR with BM/English/Chinese options; small shops answer by hand or not at all.",
+  "callback_habits": "Most businesses confirm or reply by WhatsApp message rather than calling back; clinics and garages may send a WhatsApp reminder the day before.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "主題樂園與景點多上網買票，私人導覽、羽球場、保齡球與密室常可電話或 WhatsApp 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tickets cheaper or only available online"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requires transfer to personal account to secure the slot"
+        }
+      ],
+      "usually_asked": [
+        "Activity or court",
+        "Date and start time",
+        "Number of people",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲與按摩店多用 WhatsApp 或 Fresha 預約；部分穆斯林女性顧客會要求女性設計師與私密空間。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Female-only staff or private room requested"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for long colour or rebonding sessions"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full prepayment by transfer before slot is held"
+        }
+      ],
+      "usually_asked": [
+        "Service (cut, colour, rebonding, manicure, massage)",
+        "Hair length",
+        "Preferred stylist",
+        "Name and WhatsApp number"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多用 WhatsApp 即可，診所與髮廊通常不收費，但宴席與蛋糕訂金常不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit forfeited if cancelled late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks IC number to find a clinic booking"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone used for booking",
+        "Original date and time",
+        "New date/time or cancel",
+        "Party size if restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所（klinik swasta）多可電話或 WhatsApp 預約，政府診所（Klinik Kesihatan）多為現場排號；專科常需轉介信。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in only for GP clinic; queue number on arrival"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist needs referral letter or panel/insurance guarantee letter"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks MyKad (IC) number or passport number to register"
+        },
+        {
+          "handle": "owner_only",
+          "what": "Asks insurance policy or company panel details"
+        }
+      ],
+      "usually_asked": [
+        "New or existing patient",
+        "Symptoms or reason for visit",
+        "Patient name as in IC",
+        "Panel company/insurance or self-pay",
+        "Phone number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行與 TNB 客服有語音選單，帳戶問題必須本人驗證身分。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Third party cannot access account without the holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks IC number, account number or OTP/TAC code"
+        }
+      ],
+      "usually_asked": [
+        "IVR language and menu choice",
+        "Account holder name",
+        "IC number or account number",
+        "Nature of issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府部門（JPN、JPJ、移民局）多需線上預約；學校與幼兒園可直接打電話詢問。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Appointment must be made online or walk-in queue"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks IC or birth certificate number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or enquiry",
+        "Child age and school year",
+        "Area",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣清洗、水電與清潔多以 WhatsApp 聯絡並傳照片；公寓（condo）進出需管理處登記。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transport charge plus service fee quoted"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Condo guardhouse needs visitor registration"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands full payment before visit"
+        }
+      ],
+      "usually_asked": [
+        "Service (aircon, plumbing, electrical, cleaning)",
+        "Unit number, block, condo name, postcode",
+        "Preferred date and time",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "連鎖飯店多經 Booking.com/Agoda，民宿與度假村仍習慣電話或 WhatsApp 預訂，入住時常收押金與旅遊稅（外國人）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tourism tax per room per night for foreign guests"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Security deposit by card or cash at check-in"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests credit card number over phone"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children and bed type",
+        "Breakfast included",
+        "Name as in passport/IC and contact"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、是否清真認證、能否刷卡或電子錢包、停車位等，多數店家電話或 WhatsApp 都會回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closes earlier on Friday or during Ramadan"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Answers 'halal certified' vs 'pork-free' and parking"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and rest day",
+        "Halal status",
+        "Card or e-wallet payment",
+        "Parking or stock"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容多電話或 WhatsApp 預約；穆斯林員工可能不處理狗，宜先問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming shop does not handle dogs or large breeds"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel asks full prepayment to personal account"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or boarding",
+        "Species, breed, weight and age",
+        "Vaccination record",
+        "Date and time",
+        "Owner name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋與買房多透過 PropertyGuru、iProperty、Mudah，仲介習慣 WhatsApp 約看房。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks to continue on WhatsApp"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Landlord prefers certain race/gender tenants or no pets"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks booking fee before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or unit address",
+        "Move-in date and tenancy length",
+        "Number of occupants and occupation",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車廠（bengkel）與家電維修多直接打電話或 WhatsApp 傳照片；原廠服務中心則有線上預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Quotes inspection fee before giving price"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks to send a photo of the problem on WhatsApp"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands deposit to order parts before inspection"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model and plate number or appliance model",
+        "Problem description",
+        "Drop-off time",
+        "Name and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "馬來西亞多數餐廳習慣 WhatsApp 或電話訂位；中式酒家在農曆新年團圓飯需數週前訂並常收訂金，須確認清真（halal）需求。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Large group or CNY reunion dinner requires a deposit by bank transfer or DuitNow"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Tells caller to WhatsApp the booking details instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pork-free/halal or set-menu-only on festive days"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee a fine-dining booking"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (am/pm or 'malam')",
+        "Number of pax and baby chair",
+        "Indoor air-con vs outdoor",
+        "Name and mobile/WhatsApp number",
+        "Halal or dietary needs"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "糕餅店、年餅、蛋糕與五金行常接受 WhatsApp 預訂；節慶前（開齋節、農曆新年）訂單常提早截止。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Requires deposit for custom cake or festive cookies"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Order cut-off date before festival"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests full payment to unknown personal account"
+        }
+      ],
+      "usually_asked": [
+        "Item, size, flavour or quantity",
+        "Message on cake",
+        "Pickup date and time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃店與中餐館普遍接受電話或 WhatsApp 訂外帶（tapau/打包）；外送多走 GrabFood、foodpanda 或 ShopeeFood。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through GrabFood/foodpanda/ShopeeFood"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay by DuitNow QR on collection"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment by transfer before cooking for a small order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and quantity",
+        "Spice level, less oil, no MSG",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Pos Laju、J&T、Ninja Van 多為線上追蹤或機器人客服，電話難打通；建議改用官網或 App 追蹤。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotline directs to online tracking or chatbot"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks IC number to release parcel"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or consignment number",
+        "Recipient name and phone",
+        "Delivery address",
+        "Item description"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Grab 為主，機場接送與包車常可 WhatsApp 預約；計程車電召仍存在但較少。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Advises to book through Grab app instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Extra charge for midnight or extra luggage"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks IC/passport and driving licence number"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or airport (KLIA/KLIA2)",
+        "Passengers and luggage",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "make an appointment",
+        "see the doctor",
+        "dental cleaning",
+        "car service",
+        "haircut slot"
+      ],
+      "booking_words": [
+        "book a table",
+        "reserve for dinner",
+        "book a room",
+        "reserve the function room",
+        "book a slot"
+      ],
+      "change_words": [
+        "change to Friday",
+        "push back 30 minutes",
+        "cancel the booking",
+        "postpone",
+        "bring forward to 6pm"
+      ],
+      "date": [
+        "tomorrow",
+        "day after tomorrow",
+        "this Saturday",
+        "next Monday",
+        "25/11",
+        "Sunday night"
+      ],
+      "false_friends": [
+        "Level 3",
+        "Block B",
+        "Set A No. 2",
+        "Unit 12-3",
+        "Jalan 4/5"
+      ],
+      "inquiry_words": [
+        "ask what time they close",
+        "is it halal?",
+        "can pay by card?",
+        "got stock?",
+        "got parking?"
+      ],
+      "name": [
+        "under the name Tan",
+        "Mr Lee",
+        "Ms Kumar",
+        "Mdm Wong"
+      ],
+      "order_words": [
+        "takeaway",
+        "order to collect",
+        "order a cake",
+        "pre-order",
+        "self pickup"
+      ],
+      "party": [
+        "table for 4",
+        "2 adults 1 kid",
+        "we are 5",
+        "10 pax",
+        "just 2 of us"
+      ],
+      "phone": [
+        "01X-123 4567",
+        "011-1234 5678",
+        "03-1234 5678",
+        "WhatsApp me at 01X-123 4567"
+      ],
+      "time": [
+        "7.30pm",
+        "8 o'clock at night",
+        "lunch time 12.30",
+        "around 7",
+        "half past 6 evening"
+      ]
+    },
+    "ms": {
+      "appointment_words": [
+        "buat temujanji",
+        "appointment doktor",
+        "temujanji klinik gigi",
+        "servis kereta",
+        "potong rambut"
+      ],
+      "booking_words": [
+        "tempah meja",
+        "buat tempahan",
+        "booking bilik hotel",
+        "reserve tempat",
+        "tempah dewan"
+      ],
+      "change_words": [
+        "tukar tarikh",
+        "tunda ke Jumaat",
+        "batalkan tempahan",
+        "awalkan setengah jam",
+        "postpone appointment"
+      ],
+      "date": [
+        "esok",
+        "lusa",
+        "Sabtu ni",
+        "minggu depan hari Isnin",
+        "25/11",
+        "malam Ahad"
+      ],
+      "false_friends": [
+        "Tingkat 3",
+        "No. 12, Jalan 4/5",
+        "Set Nasi Lemak No. 2",
+        "Lot 23A",
+        "PJ Seksyen 17"
+      ],
+      "inquiry_words": [
+        "tanya buka pukul berapa",
+        "ada halal ke?",
+        "boleh bayar kad?",
+        "stok ada lagi?",
+        "ada parking?"
+      ],
+      "name": [
+        "atas nama Ahmad",
+        "Encik Ali",
+        "Puan Siti",
+        "Cik Aina"
+      ],
+      "order_words": [
+        "tapau",
+        "order bungkus",
+        "pesan untuk ambil sendiri",
+        "order kek untuk birthday",
+        "pre-order"
+      ],
+      "party": [
+        "meja untuk 4 orang",
+        "2 dewasa 1 budak",
+        "kami berlima",
+        "10 pax",
+        "berdua je"
+      ],
+      "phone": [
+        "01X-123 4567",
+        "011-1234 5678",
+        "03-1234 5678",
+        "WhatsApp 01X-123 4567"
+      ],
+      "time": [
+        "pukul 7.30 malam",
+        "pukul 8 pagi",
+        "setengah lapan malam",
+        "tengah hari",
+        "lepas Maghrib",
+        "pukul 12.30 tengah hari"
+      ]
+    },
+    "ta": {
+      "appointment_words": [
+        "டாக்டர் அப்பாயின்ட்மென்ட்",
+        "பல் சுத்தம் செய்ய",
+        "கார் சர்வீஸ்",
+        "முடி வெட்ட"
+      ],
+      "booking_words": [
+        "டேபிள் புக் செய்ய",
+        "ரூம் புக்",
+        "இடம் ரிசர்வ்",
+        "ஹால் புக்"
+      ],
+      "change_words": [
+        "தேதி மாற்ற",
+        "வெள்ளிக்கு மாற்ற",
+        "புக்கிங் ரத்து",
+        "அரை மணி நேரம் தள்ளி"
+      ],
+      "date": [
+        "நாளை",
+        "நாளை மறுநாள்",
+        "இந்த சனிக்கிழமை",
+        "அடுத்த திங்கள்",
+        "25/11"
+      ],
+      "false_friends": [
+        "3வது மாடி",
+        "செட் எண் 2",
+        "Lot 23A",
+        "10 இன்ச் கேக்"
+      ],
+      "inquiry_words": [
+        "எத்தனை மணிக்கு மூடுவீர்கள்?",
+        "கார்டு எடுப்பீர்களா?",
+        "ஸ்டாக் இருக்கா?",
+        "பார்க்கிங் இருக்கா?"
+      ],
+      "name": [
+        "திரு. குமார் பெயரில்",
+        "திருமதி லட்சுமி",
+        "குமார்"
+      ],
+      "order_words": [
+        "பார்சல்",
+        "டேக்அவே",
+        "கேக் ஆர்டர்",
+        "முன்பதிவு ஆர்டர்"
+      ],
+      "party": [
+        "4 பேருக்கு டேபிள்",
+        "2 பெரியவர்கள் 1 குழந்தை",
+        "நாங்கள் 5 பேர்",
+        "10 பேர்"
+      ],
+      "phone": [
+        "01X-123 4567",
+        "011-1234 5678",
+        "03-1234 5678"
+      ],
+      "time": [
+        "இரவு 7.30",
+        "காலை 8 மணி",
+        "மதியம் 12.30",
+        "மாலை 6 மணி"
+      ]
+    },
+    "cmn": {
+      "appointment_words": [
+        "预约看医生",
+        "约洗牙",
+        "汽车保养",
+        "剪头发",
+        "预约时间"
+      ],
+      "booking_words": [
+        "订位",
+        "订桌",
+        "订房",
+        "订包厢",
+        "订团圆饭"
+      ],
+      "change_words": [
+        "改期",
+        "推迟半个钟",
+        "取消订位",
+        "改到星期五",
+        "提早一点"
+      ],
+      "date": [
+        "明天",
+        "后天",
+        "这个星期六",
+        "下个礼拜一",
+        "25/11",
+        "星期天晚上"
+      ],
+      "false_friends": [
+        "三楼",
+        "4号套餐",
+        "Lot 23A",
+        "10寸蛋糕",
+        "2号桌"
+      ],
+      "inquiry_words": [
+        "问几点关门",
+        "有没有清真",
+        "可以刷卡吗",
+        "还有货吗",
+        "有停车位吗"
+      ],
+      "name": [
+        "陈先生",
+        "李小姐",
+        "林太太",
+        "用陈的名字"
+      ],
+      "order_words": [
+        "打包",
+        "外卖自取",
+        "订蛋糕",
+        "预订年饼",
+        "预先订货"
+      ],
+      "party": [
+        "4位",
+        "2大1小",
+        "我们5个人",
+        "10人一桌",
+        "两个人"
+      ],
+      "phone": [
+        "01X-123 4567",
+        "011-1234 5678",
+        "03-1234 5678"
+      ],
+      "time": [
+        "晚上7点半",
+        "7点30分",
+        "中午12点",
+        "傍晚6点",
+        "8点左右"
+      ]
+    }
+  }
+}

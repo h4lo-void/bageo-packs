@@ -1,0 +1,97 @@
+{
+  "name": "Rwanda",
+  "name_local": "Rwanda",
+  "iso": "rw",
+  "calling_code": "+250",
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "prevalence_note": "The National Bank of Rwanda's consumer booklet tells users never to share a mobile-money PIN, password or OTP and not to follow instructions in suspicious calls, SMS, WhatsApp or email. The Rwanda Investigation Bureau has publicised arrests in mobile-money theft cases, and the National Cyber Security Authority issues shopping-season caution on payment links.",
+  "cross_border_note": "Calls may be in Kinyarwanda, English or French and can look like MTN MoMo, Airtel Money or a bank care line.",
+  "scams": [
+    {
+      "id": "rw_momo_pin_otp",
+      "typology": "otp_theft",
+      "name": "Mobile-money PIN or OTP collection",
+      "name_en": "Mobile-money PIN or OTP collection",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "MoMo PIN",
+        "OTP",
+        "reset your wallet",
+        "Airtel Money"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the MoMo PIN during an unsolicited help-desk call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to enter a one-time password the caller has sent",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "tells the listener not to mention the code to family members",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or a WhatsApp note, often posing as a wallet help desk, asks the customer to speak a PIN, type an OTP, or follow a reset step that would hand over the mobile-money account.",
+      "legit_en": "The National Bank of Rwanda tells financial consumers never to share a mobile-money PIN, password or OTP and not to follow instructions in suspicious calls or messages. Suspected fraud is reported to the provider and, if needed, to BNR or RIB.",
+      "bait_tactics": [
+        "The MTN MoMo screen on this phone is still refreshing, and I am not typing a PIN while an unknown caller stays on the line.",
+        "No OTP has arrived on this handset, so I have no code to read back.",
+        "I do not reset a wallet from a WhatsApp instruction I did not request."
+      ],
+      "sources": [
+        "https://www.bnr.rw/documents/CP_Booklet_English_version.pdf"
+      ]
+    },
+    {
+      "id": "rw_suspicious_payment_link",
+      "typology": "fake_shop_order_error",
+      "name": "Suspicious payment or shopping link",
+      "name_en": "Suspicious payment or shopping link",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "pay this invoice",
+        "order problem",
+        "click to complete payment",
+        "holiday offer"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "sends a payment link for an order the customer did not place",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims a purchase failed and asks for a second payment",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the wallet PIN as confirmation of a purchase",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message about a failed order, an unpaid invoice or a seasonal offer pushes the person to open a payment link or confirm a wallet debit that they did not start.",
+      "legit_en": "Rwanda's National Cyber Security Authority has published guidance on safer shopping with technology, including caution about payments in busy periods. Unexpected payment links should be checked in the merchant's usual channel, not from an unsolicited chat.",
+      "bait_tactics": [
+        "I have no pending order on this number, so I am not opening a payment link that arrived in chat.",
+        "The merchant app I already use does not show this invoice, and I will not pay it a second time.",
+        "My wallet PIN stays unused until I can see the exact merchant name on the official payment screen."
+      ],
+      "sources": [
+        "https://cyber.gov.rw/updates/article/uburyo-bwizewe-bwagufasha-guhaha-wifashishije-ikoranabuhanga-mu-minsi-mikuru/",
+        "https://www.bnr.rw/documents/CP_Booklet_English_version.pdf"
+      ]
+    }
+  ]
+}

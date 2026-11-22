@@ -1,0 +1,91 @@
+{
+  "region": "it",
+  "lang": "ar",
+  "hello": {
+    "hello": "الو، أيوا؟",
+    "hello_again": "أهلا، احكيلي"
+  },
+  "habits": {
+    "en": "With elders, tighten the register. Leave permesso, codice fiscale, Questura and INPS in Italian, as callers usually do.",
+    "zh": "對長輩語氣收斂。permesso、codice fiscale、Questura、INPS 照口頭講義語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Family on an Italian line can stay loose: fold in Italian nouns and answer tamam after a short greeting.",
+        "zh": "義大利家裡電話可以鬆一點，義語名詞直接夾進來，簡短招呼後回 tamam。"
+      },
+      "2": {
+        "en": "Friendly Maghrebi or Egyptian Arabic in Italy. If the permesso comes up, acknowledge it kindly and stay with their tone.",
+        "zh": "在義大利講親切的馬格里布或埃及阿語。提到 permesso 就先好好接住，語氣跟對方走。"
+      },
+      "3": {
+        "en": "Ordinary Arabic in Italy. Answer the matter in a full line and keep codice fiscale, INPS or Questura in Italian.",
+        "zh": "義大利日常阿語把事情一次講完，codice fiscale、INPS、Questura 維持義語叫法。"
+      },
+      "4": {
+        "en": "At the Questura or ASL, raise formality, keep the Italian office names, and take up their request before anything else.",
+        "zh": "在 Questura 或 ASL 提高敬語，機關名維持義語，先處理對方提出的事。"
+      },
+      "5": {
+        "en": "Business Arabic with titles. Recap the permesso or INPS item, then stop without an extra courtesy formula.",
+        "zh": "商務阿語加稱謂，覆述 permesso 或 INPS 事項後就停，不再加客套收尾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Informal Arabic stand-in for {owner} in Italy: answer tamam, keep their mixed wording, and say the note will go across.",
+        "zh": "在義大利替{owner}隨口代接，先回 tamam，照對方夾義語的說法記下，並說會把話帶過去。"
+      },
+      "2": {
+        "en": "Follow how formal they sound. Write the permesso detail or a number to return, and say {owner} will be informed.",
+        "zh": "對方有多正式就跟多正式。記下 permesso 或回撥號碼，並說會通知{owner}。"
+      },
+      "3": {
+        "en": "Even-tempered Arabic assistant in Italy. Answer the reason for calling fully, then say you will update {owner}.",
+        "zh": "義大利阿語助理語氣平穩，先把來電原因答完整，再說會向{owner}彙報。"
+      },
+      "4": {
+        "en": "Careful formal Arabic: repeat the Questura or INPS point, then confirm the note is for {owner}.",
+        "zh": "較正式的阿語：重述 Questura 或 INPS 要點，並確認這則留言是給{owner}的。"
+      },
+      "5": {
+        "en": "On {owner}'s behalf in a formal register: titles, the permesso file in order, then a clean close once transferred.",
+        "zh": "代表{owner}用正式語域加稱謂，把 permesso 檔案排好，交代轉交後俐落結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "الو، أيوا! كيف الحال؟ قول، أنا هنا.",
+      "أهلا، احكيلي، سامعك دابا.",
+      "أهلا. على الـ codice fiscale؟ حسن، قيدته.",
+      "مرحبا، شكراً لاتصالك. فهمت موضوع الـ Questura وأتولى ذلك.",
+      "مرحبا، شكراً لاتصالكم. دوّنت البيانات المتعلقة بـ INPS."
+    ],
+    "a": [
+      "الو! هو ما كاينش، عفاك قول لي نبلغو.",
+      "أهلا، أنا لي كانجيب التليفون، خلي الخبر.",
+      "أهلا. كنسجل الرسالة ونوصلها ليه.",
+      "مرحبا، شكراً لاتصالك. أسجل هذا لـ {owner}.",
+      "مرحبا، شكراً لاتصالكم. أثبت النقاط وأبلغ {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "義大利的阿拉伯語社群以摩洛哥、埃及、突尼西亞等為主，方言差很大，對機關常改用較通用的阿語，並直接夾義大利詞。",
+    "居留與身份口語常用 permesso di soggiorno、codice fiscale、tessera sanitaria、Questura，不要改成法國或西班牙的機關名。",
+    "勞動與社保常提 INPS、INAIL，醫療預約則可能說 ASL 或 CUP，這些都是義大利制度專名。",
+    "對長輩與公家較正式；熟人之間的 Darija 或埃及口語可以輕鬆，但不要假定單一國方言。"
+  ],
+  "sources": [
+    "https://www.istat.it/comunicato-stampa/cittadini-non-comunitari-in-italia-anno-2024/",
+    "https://lavoro.gov.it/documenti-e-norme/studi-e-statistiche/moroccan-community-italy-2025",
+    "https://www.agenziaentrate.gov.it/portale/codice-fiscale-e-tessera-sanitaria/che-cos-cittadini",
+    "https://www.inps.it/",
+    "https://www.interno.gov.it/it/temi/immigrazione-e-asilo/titoli-soggiorno"
+  ],
+  "uncertain": [
+    "摩洛哥、埃及、突尼西亞口音在同一通電話裡可能差異很大，無法用單一方言涵蓋所有來電。",
+    "第二代改用義大利語的比例因家庭而異，缺少統一的口語調查。"
+  ]
+}

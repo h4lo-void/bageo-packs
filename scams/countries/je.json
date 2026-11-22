@@ -1,0 +1,77 @@
+{
+  "name": "Jersey",
+  "name_local": "Jersey",
+  "iso": "je",
+  "calling_code": "+44",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Revenue Jersey publishes guidance on avoiding fraudulent tax emails, and Jersey Post handles parcels via its own channels, making fake tax-refund and parcel approaches the main documented patterns.",
+  "cross_border_note": "Jersey uses UK numbering (+44), so UK-wide HMRC-style and parcel scam waves often spill over to Jersey phones even though local tax is run by Revenue Jersey.",
+  "scams": [
+    {
+      "id": "je_revenue_jersey_refund",
+      "typology": "tax_refund_scam",
+      "name": "Fake Revenue Jersey refund",
+      "name_en": "Fraudulent Revenue Jersey refund email or call asking for bank details",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Revenue Jersey",
+        "tax refund",
+        "income tax"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "refund needs your card number",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "respond within 24 hours",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An email, text or call claims Revenue Jersey owes a refund or demands payment and asks for card or bank details.",
+      "legit_en": "Revenue Jersey's guidance explains how to spot fraudulent emails claiming to come from it.",
+      "bait_tactics": [
+        "Ask which tax year and which Revenue Jersey reference it concerns",
+        "Say refunds always arrive by the usual bank route and nothing needs confirming"
+      ],
+      "sources": [
+        "https://www.gov.je/TaxesMoney/IncomeTax/Technical/Guidelines/pages/avoidingfraudulentemails.aspx"
+      ]
+    },
+    {
+      "id": "je_jersey_post_parcel",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Jersey Post parcel message",
+      "name_en": "Fake Jersey Post parcel message asking for a fee",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "Jersey Post",
+        "SecureDrop",
+        "customs charge"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay customs charge online now",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message styled as Jersey Post says a parcel is held until a charge is paid through a link.",
+      "legit_en": "Jersey Post handles charges on its own site and offers SecureDrop for safe drop-offs; check there rather than via a message link.",
+      "bait_tactics": [
+        "Ask whether the item was meant for the SecureDrop shed",
+        "Say the parcel will be raised with Jersey Post's counter staff in St Helier"
+      ],
+      "sources": [
+        "https://www.jerseypost.com/",
+        "https://www.jerseypost.com/letters-and-parcels/receiving/securedrop/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "country": "cx",
+  "parent": "au-nz",
+  "name": {
+    "en": "Christmas Island",
+    "native": "Christmas Island",
+    "zh": "聖誕島"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+61（西澳號段 8 91 開頭）",
+    "currency": "澳幣",
+    "time_zone": "UTC+7，與澳洲本土都不同",
+    "language": "英語為實際通用語；馬來語、華語、粵語、福建話也常見"
+  },
+  "habits": {
+    "en": "Open in English; follow Malay or Chinese callers. Clock is UTC+7, far from Perth or Sydney time.",
+    "zh": "先用英語；對方說馬來語或華語就跟著說。時間 UTC+7，與伯斯、雪梨都不同。"
+  },
+  "vocab": {
+    "bank": [
+      "AU$"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "AEST 換算",
+      "reason": {
+        "zh": "聖誕島是 UTC+7"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Christmas_Island"
+  ],
+  "uncertain": [
+    "澳洲政府印度洋領地頁從 box 連不上，只剩維基百科。",
+    "華語方言在電話上使用比例無統計。"
+  ]
+}

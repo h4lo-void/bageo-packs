@@ -1,0 +1,471 @@
+{
+  "region": "lt",
+  "vocab": {
+    "lt": {
+      "bank": [
+        {
+          "term": "sąskaita",
+          "en": "bank account; also a bill (sąskaita)"
+        },
+        {
+          "term": "pavedimas",
+          "en": "bank transfer (pavedimas)"
+        },
+        {
+          "term": "mokėjimo kortelė",
+          "en": "payment card (mokėjimo kortelė)"
+        },
+        {
+          "term": "internetinė bankininkystė",
+          "en": "online banking (internetinė bankininkystė)"
+        },
+        {
+          "term": "Smart-ID",
+          "en": "login app for banks and e-government, Lithuanian usage (Smart-ID)"
+        },
+        {
+          "term": "Mobile-ID",
+          "en": "SIM-based e-signature (Mobile-ID)"
+        },
+        {
+          "term": "Swedbank",
+          "en": "large bank in Lithuania (Swedbank)"
+        },
+        {
+          "term": "Šiaulių bankas",
+          "en": "Lithuanian-owned bank (Šiaulių bankas)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "paštomatas",
+          "en": "parcel locker (paštomatas)"
+        },
+        {
+          "term": "LP Express",
+          "en": "Lithuanian Post parcel service and lockers (LP Express)"
+        },
+        {
+          "term": "Lietuvos paštas",
+          "en": "national post (Lietuvos paštas)"
+        },
+        {
+          "term": "Omniva",
+          "en": "locker network in Lithuania (Omniva)"
+        },
+        {
+          "term": "siunta",
+          "en": "shipment / parcel (siunta)"
+        },
+        {
+          "term": "kurjeris",
+          "en": "courier (kurjeris)"
+        },
+        {
+          "term": "siuntos sekimas",
+          "en": "parcel tracking (siuntos sekimas)"
+        },
+        {
+          "term": "prie durų",
+          "en": "at the door (prie durų)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Elektroniniai valdžios vartai",
+          "en": "state e-services gateway (Elektroniniai valdžios vartai)"
+        },
+        {
+          "term": "VMI",
+          "en": "State Tax Inspectorate (VMI)"
+        },
+        {
+          "term": "Sodra",
+          "en": "social insurance fund (Sodra)"
+        },
+        {
+          "term": "asmens kodas",
+          "en": "11-digit personal code; never read it out (asmens kodas)"
+        },
+        {
+          "term": "asmens tapatybės kortelė",
+          "en": "ID card (asmens tapatybės kortelė)"
+        },
+        {
+          "term": "savivaldybė",
+          "en": "municipality (savivaldybė)"
+        },
+        {
+          "term": "seniūnija",
+          "en": "local ward office (seniūnija)"
+        },
+        {
+          "term": "MIGRIS",
+          "en": "migration services portal (MIGRIS)"
+        }
+      ],
+      "health": [
+        {
+          "term": "šeimos gydytojas",
+          "en": "family doctor (šeimos gydytojas)"
+        },
+        {
+          "term": "poliklinika",
+          "en": "outpatient clinic (poliklinika)"
+        },
+        {
+          "term": "siuntimas",
+          "en": "referral (siuntimas)"
+        },
+        {
+          "term": "e. receptas",
+          "en": "electronic prescription (e. receptas)"
+        },
+        {
+          "term": "vaistinė",
+          "en": "pharmacy (vaistinė)"
+        },
+        {
+          "term": "registracija pas gydytoją",
+          "en": "booking a doctor's appointment (registracija pas gydytoją)"
+        },
+        {
+          "term": "ligonių kasa",
+          "en": "health insurance fund office (ligonių kasa)"
+        },
+        {
+          "term": "greitoji",
+          "en": "ambulance, colloquial (greitoji)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Telia",
+          "en": "operator (Telia)"
+        },
+        {
+          "term": "Bitė",
+          "en": "operator (Bitė)"
+        },
+        {
+          "term": "Tele2",
+          "en": "operator in Lithuania (Tele2)"
+        },
+        {
+          "term": "Pildyk",
+          "en": "Tele2 prepaid brand (Pildyk)"
+        },
+        {
+          "term": "Labas",
+          "en": "Bitė prepaid brand (Labas)"
+        },
+        {
+          "term": "Ežys",
+          "en": "Telia prepaid brand (Ežys)"
+        },
+        {
+          "term": "išankstinio mokėjimo kortelė",
+          "en": "prepaid SIM, must be registered since 2025 (išankstinio mokėjimo kortelė)"
+        },
+        {
+          "term": "papildyti sąskaitą",
+          "en": "top up credit (papildyti sąskaitą)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "kortele",
+          "en": "by card (kortele)"
+        },
+        {
+          "term": "grynaisiais",
+          "en": "in cash (grynaisiais)"
+        },
+        {
+          "term": "Perlo terminalas",
+          "en": "Perlas kiosk in shops for top-ups and bills (Perlo terminalas)"
+        },
+        {
+          "term": "Paysera",
+          "en": "payment app popular in Lithuania (Paysera)"
+        },
+        {
+          "term": "išsimokėtinai",
+          "en": "in instalments (išsimokėtinai)"
+        },
+        {
+          "term": "sąskaita faktūra",
+          "en": "invoice (sąskaita faktūra)"
+        },
+        {
+          "term": "čekis",
+          "en": "till receipt (čekis)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "autobusas",
+          "en": "bus (autobusas)"
+        },
+        {
+          "term": "troleibusas",
+          "en": "trolleybus (troleibusas)"
+        },
+        {
+          "term": "Vilniečio kortelė",
+          "en": "Vilnius transport card (Vilniečio kortelė)"
+        },
+        {
+          "term": "JUDU",
+          "en": "Vilnius public transport and its app (JUDU)"
+        },
+        {
+          "term": "LTG Link",
+          "en": "national passenger trains (LTG Link)"
+        },
+        {
+          "term": "stotelė",
+          "en": "stop (stotelė)"
+        },
+        {
+          "term": "autobusų stotis",
+          "en": "bus station (autobusų stotis)"
+        },
+        {
+          "term": "kamštis",
+          "en": "traffic jam (kamštis)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "butas",
+          "en": "apartment (butas)"
+        },
+        {
+          "term": "daugiabutis",
+          "en": "apartment block (daugiabutis)"
+        },
+        {
+          "term": "laiptinė",
+          "en": "stairwell / entrance (laiptinė)"
+        },
+        {
+          "term": "bendrija",
+          "en": "owners' association (bendrija)"
+        },
+        {
+          "term": "administratorius",
+          "en": "building administrator (administratorius)"
+        },
+        {
+          "term": "nuoma",
+          "en": "rent (nuoma)"
+        },
+        {
+          "term": "komunaliniai mokesčiai",
+          "en": "utility bills (komunaliniai mokesčiai)"
+        },
+        {
+          "term": "domofonas",
+          "en": "door intercom, Lithuanian (domofonas)"
+        }
+      ],
+      "school": [
+        {
+          "term": "darželis",
+          "en": "kindergarten (darželis)"
+        },
+        {
+          "term": "mokykla",
+          "en": "school (mokykla)"
+        },
+        {
+          "term": "gimnazija",
+          "en": "upper secondary school (gimnazija)"
+        },
+        {
+          "term": "klasės auklėtojas",
+          "en": "homeroom teacher (klasės auklėtojas)"
+        },
+        {
+          "term": "e. dienynas",
+          "en": "online school diary, e.g. Tamo (e. dienynas)"
+        },
+        {
+          "term": "tėvų susirinkimas",
+          "en": "parents' meeting (tėvų susirinkimas)"
+        },
+        {
+          "term": "brandos egzaminai",
+          "en": "school-leaving exams (brandos egzaminai)"
+        },
+        {
+          "term": "būrelis",
+          "en": "after-school club (būrelis)"
+        }
+      ],
+      "money": [
+        {
+          "term": "eurai",
+          "en": "euros (eurai)"
+        },
+        {
+          "term": "centai",
+          "en": "cents (centai)"
+        },
+        {
+          "term": "tūkstantis",
+          "en": "thousand (tūkstantis)"
+        },
+        {
+          "term": "milijonas",
+          "en": "million (milijonas)"
+        },
+        {
+          "term": "atlyginimas",
+          "en": "salary (atlyginimas)"
+        },
+        {
+          "term": "litai",
+          "en": "pre-2015 currency, older people may still mention it (litai)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "šiandien",
+          "en": "today (šiandien)"
+        },
+        {
+          "term": "rytoj",
+          "en": "tomorrow (rytoj)"
+        },
+        {
+          "term": "poryt",
+          "en": "day after tomorrow (poryt)"
+        },
+        {
+          "term": "vakar",
+          "en": "yesterday, Lithuanian (vakar)"
+        },
+        {
+          "term": "užvakar",
+          "en": "day before yesterday (užvakar)"
+        },
+        {
+          "term": "popiet",
+          "en": "in the afternoon (popiet)"
+        },
+        {
+          "term": "savaitgalį",
+          "en": "at the weekend (savaitgalį)"
+        },
+        {
+          "term": "Joninės",
+          "en": "midsummer holiday (Joninės)"
+        }
+      ],
+      "work": [
+        {
+          "term": "darbas",
+          "en": "work (darbas)"
+        },
+        {
+          "term": "viršininkas",
+          "en": "boss (viršininkas)"
+        },
+        {
+          "term": "biuras",
+          "en": "office (biuras)"
+        },
+        {
+          "term": "atostogos",
+          "en": "vacation / leave (atostogos)"
+        },
+        {
+          "term": "nedarbingumas",
+          "en": "sick leave (nedarbingumas)"
+        },
+        {
+          "term": "viršvalandžiai",
+          "en": "overtime (viršvalandžiai)"
+        },
+        {
+          "term": "susirinkimas",
+          "en": "meeting (susirinkimas)"
+        },
+        {
+          "term": "nuotoliniu būdu",
+          "en": "remotely (nuotoliniu būdu)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "pakomāts",
+      "use_instead": "paštomatas",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "VID",
+      "use_instead": "VMI",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "personas kods",
+      "use_instead": "asmens kodas",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "eiro",
+      "use_instead": "eurai",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "e-talons",
+      "use_instead": "Vilniečio kortelė",
+      "where_it_is_from": "LV"
+    },
+    {
+      "word": "pakiautomaat",
+      "use_instead": "paštomatas",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "isikukood",
+      "use_instead": "asmens kodas",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "paczkomat",
+      "use_instead": "paštomatas",
+      "where_it_is_from": "PL"
+    },
+    {
+      "word": "Госуслуги",
+      "use_instead": "Elektroniniai valdžios vartai",
+      "where_it_is_from": "RU"
+    }
+  ],
+  "sources": [
+    "https://lt.wikipedia.org/wiki/SIM_kortel%C4%97",
+    "https://www.lrt.lt/naujienos/verslas/4/2448128/lrt-trumpai-nuo-sausio-reikia-registruoti-isankstinio-mokejimo-sim-korteles",
+    "https://tele2.lt/privatiems/naujienos/pildyk-registracija",
+    "https://www.labas.lt/registracija",
+    "https://www.epaslaugos.lt/",
+    "https://www.vmi.lt/",
+    "https://www.sodra.lt/",
+    "https://www.post.lt/",
+    "https://www.lpexpress.lt/",
+    "https://ipr.esveikata.lt/",
+    "https://judu.lt/",
+    "https://ltglink.lt/",
+    "https://www.migracija.lt/"
+  ],
+  "uncertain": [
+    "「ligonių kasa」機構已改組，口語仍說 ligonių kasa，但正式名稱可能已變，查不到最新統一名稱。",
+    "維爾紐斯有波蘭語與俄語社群，本檔只寫立陶宛語，未查證該兩語在當地的用詞。",
+    "電子聯絡簿有 Tamo、Mano dienynas 等多個平台，各校不同，因此只寫泛稱 e. dienynas。",
+    "JUDU 與 Vilniečio kortelė 只限維爾紐斯；考納斯等地交通卡名稱未查。"
+  ]
+}

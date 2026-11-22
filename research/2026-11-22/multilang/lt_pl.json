@@ -1,0 +1,89 @@
+{
+  "region": "lt",
+  "lang": "pl",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Tak, słucham?"
+  },
+  "habits": {
+    "en": "Around Wilno, Pan/Pani with strangers. Official words often stay Lithuanian (Sodra, VMI); labas may slip into Polish.",
+    "zh": "維爾紐斯一帶對生人用 Pan/Pani。公務詞常留 Sodra、VMI，口語或夾 labas。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend from around Wilno: ty, lively and blunt, a dialect colour or labas can slip in without comment.",
+        "zh": "維爾紐斯一帶熟友用 ty，口氣直接熱絡，方言或 labas 隨口出現也不必糾正。"
+      },
+      "2": {
+        "en": "Warm acquaintance: ty unless they stay with Pan; after they talk, a short friendly reply, place names may be Polish or Lithuanian.",
+        "zh": "半熟用 ty，除非對方堅持 Pan；聽完短短回一句，地名可用波蘭或立陶宛形式。"
+      },
+      "3": {
+        "en": "Everyday borderland Polish. Answer in a full sentence; when the topic is benefits or tax, say Sodra or VMI as locals do.",
+        "zh": "邊境日常波蘭語。用完整句子回答；談到補助或稅務，照當地說 Sodra、VMI。"
+      },
+      "4": {
+        "en": "Polite Pan/Pani at the office. Lithuanian institution names stay, sentences are complete, no hurried slang.",
+        "zh": "辦公場合用禮貌 Pan/Pani。立陶宛機關名照留，句子完整，不急著用俚語。"
+      },
+      "5": {
+        "en": "Formal Pan/Pani, tidy and bilingual-aware. Use Wilno or Vilnius as the caller does, and close each point fully.",
+        "zh": "正式 Pan/Pani，整齊且留意雙語。地名跟對方用 Wilno 或 Vilnius，各點都要說完。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ty: a quick 'jasne', then you'll carry the news, like a cousin in the region.",
+        "zh": "{owner}隨興代接，用 ty：先接一句 jasne，再說會把話帶去，像當地表親。"
+      },
+      "2": {
+        "en": "Friendly stand-in: match ty or Pan/Pani, leave Sodra as said, and tell them {owner} will be informed.",
+        "zh": "友善代接：跟著 ty 或 Pan/Pani，Sodra 照叫，並告知會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Practical assistant in regional Polish. Recap the VMI or document point fully, then confirm you will tell {owner}.",
+        "zh": "當地波蘭語務實代接。先完整重述 VMI 或證件的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary on Pan/Pani: note the purpose, keep Lithuanian official names, confirm the handover.",
+        "zh": "謹慎秘書用 Pan/Pani：記下目的，立陶宛官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Pan/Pani: measured, bilingual place names as given, then confirm the note for {owner}.",
+        "zh": "正式代表用 Pan/Pani，節奏穩；地名按對方的說法，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo! Cześć, co u Ciebie na Wileńszczyźnie?",
+      "Halo, tak, słucham. Mów spokojnie, jestem.",
+      "Halo, dzień dobry. To w sprawie Sodry? Rozumiem.",
+      "Dzień dobry, dziękuję za telefon. W sprawie VMI jasne.",
+      "Dzień dobry, dziękuję za połączenie. Sprawę z Wilna przyjąłem."
+    ],
+    "a": [
+      "Halo! Nie ma go, powiedz mi — przekażę ciotce, znaczy jemu.",
+      "Halo, cześć. Odbieram za niego, dyktuj wiadomość.",
+      "Halo, dzień dobry. Spiszę i oddam {owner}.",
+      "Dzień dobry, dzięki za telefon. Przyjmę sprawę Sodry i przekażę.",
+      "Dzień dobry, dziękuję za połączenie. Wszystko spiszę i przekażę."
+    ]
+  },
+  "diff_from_home": [
+    "維爾紐斯一帶波蘭語會夾立陶宛公務名稱（Sodra、VMI），不要改成波蘭本國機構名。",
+    "地名常並用波蘭語舊稱與立陶宛官方名（Wilno／Vilnius），視場合選用。",
+    "當地口語可能帶邊境方言與少量立陶宛或白俄語借詞，與波蘭本土標準語不完全相同。",
+    "正式場合仍用 Pan/Pani；公務文件以立陶宛語為準，電話中常雙語切換。"
+  ],
+  "sources": [
+    "https://www.sodra.lt/",
+    "https://www.vmi.lt/",
+    "https://journals.lki.lt/actalinguisticalithuanica/article/download/981/1071/",
+    "https://journals.vu.lt/baltistica/en/article/view/42647"
+  ],
+  "uncertain": [
+    "年輕波蘭裔日常還保留多少方言詞與立陶宛借詞，新近調查不多，不宜寫成全體統一的口音特徵。"
+  ]
+}

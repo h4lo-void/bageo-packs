@@ -1,0 +1,448 @@
+{
+  "region": "ar-uy",
+  "vocab": {
+    "es-US": {
+      "bank": [
+        {
+          "term": "Mercado Pago",
+          "en": "the wallet almost everyone in Argentina names, also used in Uruguay"
+        },
+        {
+          "term": "CBU",
+          "en": "Argentina's bank-account key; never read a long number unless {owner} asks you to check it"
+        },
+        {
+          "term": "CVU",
+          "en": "the virtual key for a Mercado Pago or other PSP account in Argentina, not a bank CBU"
+        },
+        {
+          "term": "alias",
+          "en": "the short name that stands in for a CBU or CVU in Argentina"
+        },
+        {
+          "term": "homebanking",
+          "en": "online or app banking, used on both sides of the river"
+        },
+        {
+          "term": "transferencia",
+          "en": "a transferencia to an Argentine alias, CBU or CVU, or to a Uruguayan account such as one at BROU"
+        },
+        {
+          "term": "BROU",
+          "en": "Banco República, the bank Uruguayans often name first"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "encargado",
+          "en": "the building manager in Argentina, the person couriers actually call"
+        },
+        {
+          "term": "portería",
+          "en": "the lodge or front desk, used in both countries"
+        },
+        {
+          "term": "recepción",
+          "en": "a reception desk, more common in offices and some newer buildings"
+        },
+        {
+          "term": "Correo Argentino",
+          "en": "Argentina's national post"
+        },
+        {
+          "term": "Correo Uruguayo",
+          "en": "Uruguay's national post"
+        },
+        {
+          "term": "Andreani",
+          "en": "a major Argentine parcel network, also OCA"
+        },
+        {
+          "term": "DAC or UES",
+          "en": "Uruguayan courier names some callers use"
+        },
+        {
+          "term": "portero",
+          "en": "the doorman, heard in both countries"
+        }
+      ],
+      "government": [
+        {
+          "term": "DNI",
+          "en": "Argentina's national ID"
+        },
+        {
+          "term": "cédula",
+          "en": "Uruguay's ID, also cédula de identidad; do not assume DNI for a Uruguayan caller"
+        },
+        {
+          "term": "ANSES",
+          "en": "Argentina's social-security administration"
+        },
+        {
+          "term": "AFIP or ARCA",
+          "en": "Argentina's tax authority; many people still say AFIP"
+        },
+        {
+          "term": "DGI",
+          "en": "Uruguay's tax authority"
+        },
+        {
+          "term": "pasaporte",
+          "en": "a pasaporte, used next to a DNI in Argentina or a cédula in Uruguay"
+        },
+        {
+          "term": "gub.uy",
+          "en": "Uruguay's government portal, also Mi ID / usuario gub.uy"
+        }
+      ],
+      "health": [
+        {
+          "term": "obra social",
+          "en": "Argentina's employment-based health cover"
+        },
+        {
+          "term": "prepaga",
+          "en": "a private health plan in Argentina"
+        },
+        {
+          "term": "mutualista",
+          "en": "Uruguay's mutual health insurer, the usual way people describe cover"
+        },
+        {
+          "term": "farmacia",
+          "en": "a farmacia where a receta is filled, whether the cover is an obra social, a prepaga or a mutualista"
+        },
+        {
+          "term": "receta",
+          "en": "a receta from a médico de cabecera, an obra social, a prepaga or a Uruguayan mutualista"
+        },
+        {
+          "term": "guardia",
+          "en": "the emergency or on-duty service"
+        },
+        {
+          "term": "médico de cabecera",
+          "en": "the regular doctor"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "abono",
+          "en": "a mobile plan, also plan"
+        },
+        {
+          "term": "prepago",
+          "en": "a prepago mobile load, often topped up with Mercado Pago or cash at a kiosk"
+        },
+        {
+          "term": "portabilidad",
+          "en": "portabilidad, keeping the number when leaving Personal, Movistar, Claro or Antel"
+        },
+        {
+          "term": "chip or SIM",
+          "en": "the SIM, chip is very common in the Río de la Plata"
+        },
+        {
+          "term": "compañía",
+          "en": "the operator; Argentina often Movistar, Claro or Personal, Uruguay Antel, Movistar or Claro"
+        },
+        {
+          "term": "datos",
+          "en": "datos on a plan from Personal, Claro, Movistar or, in Uruguay, Antel"
+        },
+        {
+          "term": "Antel",
+          "en": "Uruguay's state telecom, often named for home internet as well"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Mercado Pago",
+          "en": "the default wallet payment in Argentina, also used in Uruguay"
+        },
+        {
+          "term": "transferencia",
+          "en": "a transfer to an alias, CBU, CVU, or a Uruguayan account"
+        },
+        {
+          "term": "efectivo",
+          "en": "efectivo in Argentine or Uruguayan pesos; confirm which peso before naming an amount"
+        },
+        {
+          "term": "tarjeta",
+          "en": "a tarjeta, often débito, used less for small sums than Mercado Pago"
+        },
+        {
+          "term": "Abitab",
+          "en": "a Uruguayan payment-and-collection network, also Redpagos"
+        },
+        {
+          "term": "rapipago or pago fácil",
+          "en": "Argentine cash-payment networks for bills"
+        },
+        {
+          "term": "débito",
+          "en": "paying with a debit card"
+        }
+      ],
+      "transport": [
+        {
+          "term": "SUBE",
+          "en": "Argentina's transit card, mainly Buenos Aires and some other cities"
+        },
+        {
+          "term": "colectivo",
+          "en": "a city bus in Argentina"
+        },
+        {
+          "term": "ómnibus",
+          "en": "a bus in Uruguay, also a long-distance coach in both"
+        },
+        {
+          "term": "subte",
+          "en": "the Buenos Aires underground"
+        },
+        {
+          "term": "remis",
+          "en": "a booked car in Argentina, distinct from a street taxi"
+        },
+        {
+          "term": "taxi",
+          "en": "a street taxi, as opposed to a remis in Argentina"
+        },
+        {
+          "term": "bondi",
+          "en": "informal Argentine word for the bus"
+        },
+        {
+          "term": "STM",
+          "en": "Montevideo's transit card"
+        }
+      ],
+      "housing": [
+        {
+          "term": "departamento",
+          "en": "a flat, also depto"
+        },
+        {
+          "term": "encargado",
+          "en": "the building manager, especially in Argentina"
+        },
+        {
+          "term": "portero",
+          "en": "the doorman"
+        },
+        {
+          "term": "timbre",
+          "en": "the timbre of a departamento, often answered by the encargado or portero"
+        },
+        {
+          "term": "buzón",
+          "en": "the buzón in the hallway of a departamento"
+        },
+        {
+          "term": "alquiler",
+          "en": "the alquiler; building charges are expensas in Argentina and often gastos comunes in Uruguay"
+        },
+        {
+          "term": "expensas",
+          "en": "building charges in Argentina, Uruguay often says gastos comunes"
+        },
+        {
+          "term": "consorcio",
+          "en": "the co-owners' body in Argentina"
+        }
+      ],
+      "school": [
+        {
+          "term": "jardín",
+          "en": "kindergarten, also inicial"
+        },
+        {
+          "term": "escuela primaria",
+          "en": "escuela primaria; later years are secundaria in Argentina and liceo in Uruguay"
+        },
+        {
+          "term": "liceo",
+          "en": "secondary school in Uruguay, a word Argentines do not use the same way"
+        },
+        {
+          "term": "secundaria",
+          "en": "secondary school in Argentina"
+        },
+        {
+          "term": "preescolar",
+          "en": "pre-primary"
+        },
+        {
+          "term": "tarea",
+          "en": "tarea sent home from primaria, secundaria or a liceo"
+        },
+        {
+          "term": "maestro",
+          "en": "a primary teacher, also profesor in secondary"
+        }
+      ],
+      "money": [
+        {
+          "term": "pesos",
+          "en": "pesos; always confirm whether the caller means Argentine or Uruguayan pesos"
+        },
+        {
+          "term": "efectivo",
+          "en": "efectivo in Argentine or Uruguayan pesos; confirm which peso before naming an amount"
+        },
+        {
+          "term": "vuelto",
+          "en": "the vuelto in pesos, whose value depends on which country's currency the caller is using"
+        },
+        {
+          "term": "monto",
+          "en": "the monto, always tied to Argentine or Uruguayan pesos"
+        },
+        {
+          "term": "mil",
+          "en": "a thousand pesos, whose real value differs sharply by country"
+        },
+        {
+          "term": "dólares",
+          "en": "US dollars, often mentioned in larger Argentine amounts"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "a la mañana",
+          "en": "a la mañana, the early part of the day in Río de la Plata speech"
+        },
+        {
+          "term": "a la tarde",
+          "en": "a la tarde, after midday, the usual wording on both banks of the river"
+        },
+        {
+          "term": "a la noche",
+          "en": "a la noche, from early evening onward"
+        },
+        {
+          "term": "día de semana",
+          "en": "a weekday, also día hábil"
+        },
+        {
+          "term": "fin de semana",
+          "en": "el fin de semana, Saturday and Sunday"
+        },
+        {
+          "term": "después del trabajo",
+          "en": "después del trabajo, once the office or shop day ends"
+        },
+        {
+          "term": "esta semana",
+          "en": "esta semana, the current calendar week in Río de la Plata speech"
+        },
+        {
+          "term": "mañana a la mañana",
+          "en": "mañana a la mañana, the following morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "trabajo",
+          "en": "trabajo, the everyday word for a job"
+        },
+        {
+          "term": "horas extra",
+          "en": "horas extra, added hours on top of the usual jornada"
+        },
+        {
+          "term": "vacaciones",
+          "en": "vacaciones, the yearly leave, often taken in the southern-hemisphere summer"
+        },
+        {
+          "term": "licencia médica",
+          "en": "sick leave, also certificado médico"
+        },
+        {
+          "term": "jefe",
+          "en": "the jefe, the person they report to"
+        },
+        {
+          "term": "home office",
+          "en": "working from home, also trabajo remoto"
+        },
+        {
+          "term": "viaje de trabajo",
+          "en": "a viaje de trabajo, a work trip away from the usual city"
+        },
+        {
+          "term": "sueldo",
+          "en": "the sueldo, usually paid monthly in local pesos"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "SPEI",
+      "use_instead": "transferencia, alias, CBU, CVU（SPEI 是墨西哥）",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "CLABE",
+      "use_instead": "CBU 或 CVU（阿根廷）；烏拉圭用自己的帳號資料",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "Mercado Pago, transferencia",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "PIX",
+      "use_instead": "alias, CBU, CVU, Mercado Pago",
+      "where_it_is_from": "BR"
+    },
+    {
+      "word": "RUT 當阿根廷稅號",
+      "use_instead": "阿根廷常見 CUIT／CUIL；烏拉圭才是 RUT",
+      "where_it_is_from": "CL"
+    },
+    {
+      "word": "DNI 套用到烏拉圭來電者",
+      "use_instead": "烏拉圭說 cédula",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "SUBE 套用到蒙特維多",
+      "use_instead": "蒙特維多用 STM",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "expensas 套用到所有烏拉圭大樓",
+      "use_instead": "烏拉圭較常說 gastos comunes",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "把兩國披索當成同一種貨幣",
+      "use_instead": "先確認是 peso argentino 還是 peso uruguayo",
+      "where_it_is_from": "AR"
+    },
+    {
+      "word": "不要朗讀 CBU 或 CVU 全號",
+      "use_instead": "請主人用 alias，或只在要求時核對",
+      "where_it_is_from": "AR"
+    }
+  ],
+  "sources": [
+    "https://www.bcra.gob.ar/clave-virtual-uniforme-cvu/",
+    "https://www.argentina.gob.ar/economia/inclusion-financiera/transferencia-electronica",
+    "https://www.mercadopago.com.ar/",
+    "https://www.correoargentino.com.ar/",
+    "https://www.gub.uy/",
+    "https://www.brou.com.uy/"
+  ],
+  "uncertain": [
+    "此區含阿根廷與烏拉圭：CBU／CVU／alias／SUBE／ANSES 偏阿根廷；cédula、BROU、Abitab、mutualista、STM、liceo 偏烏拉圭，不可混用。",
+    "阿根廷稅務機關近年改組，來電者仍可能說 AFIP 或較新的 ARCA。",
+    "不要朗讀 22 位 CBU／CVU；請改用 alias 或只在主人要求時核對。"
+  ]
+}

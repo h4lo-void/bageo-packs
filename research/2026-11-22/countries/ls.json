@@ -1,0 +1,49 @@
+{
+  "country": "ls",
+  "parent": "za",
+  "name": {
+    "en": "Lesotho",
+    "native": "Lesotho",
+    "zh": "賴索托"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+266",
+    "currency": "洛蒂 LSL，與蘭特 1:1 掛鉤，蘭特在當地也是法定貨幣",
+    "time_zone": "UTC+2，與南非相同",
+    "language": "塞索托語與英語皆官方，日常電話多用塞索托語；稱呼 ntate（先生）、'me（女士）"
+  },
+  "habits": {
+    "en": "Follow Sesotho callers; ntate and 'me for sir and madam. Maloti or rand both work. Wallets: M-Pesa, EcoCash.",
+    "zh": "對方說塞索托語就跟著說；稱呼用 ntate、'me。洛蒂與蘭特都能用。行動錢包常見 M-Pesa、EcoCash。"
+  },
+  "vocab": {
+    "bank": [
+      "maloti",
+      "M-Pesa",
+      "EcoCash"
+    ],
+    "delivery": [
+      "PO box",
+      "village chief"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Afrikaans 跟說",
+      "reason": {
+        "zh": "南非荷蘭語在賴索托不普遍"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.vodacom.co.ls/",
+    "https://en.wikipedia.org/wiki/Lesotho_loti",
+    "https://en.wikipedia.org/wiki/Mobile_money"
+  ],
+  "uncertain": [
+    "中央銀行與通訊主管機關網站從 box 無法連上（逾時與 406），只依業者官網與維基百科。",
+    "「village chief」作為鄉間收件參照只是方向，未見官方說明，可刪。"
+  ]
+}

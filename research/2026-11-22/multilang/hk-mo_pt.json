@@ -1,0 +1,90 @@
+{
+  "region": "hk-mo",
+  "lang": "pt",
+  "hello": {
+    "hello": "Está?",
+    "hello_again": "Está? Sim?"
+  },
+  "habits": {
+    "en": "European PT (Está?/Estou); o senhor with offices; say pataca, telemóvel, RAEM; not celular, ônibus or default oi.",
+    "zh": "歐洲葡語（Está?）；公家用 o senhor；說 pataca、telemóvel，不用 celular。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Macau friends keep tu and a light European cadence; reply warmly, then add está bem or a similar tag, varied.",
+        "zh": "澳門熟友之間用 tu、歐洲葡語氣口，先熱絡接話再補 está bem 一類短語，不要套同一句。"
+      },
+      "2": {
+        "en": "If they haven't moved to o senhor, stay on tu, unhurried; after they finish, add a friendly tudo bem, rephrased each time.",
+        "zh": "對方若還沒改用 o senhor，就維持 tu，不搶話；聽完補一句 tudo bem 之類，每次換個說法。"
+      },
+      "3": {
+        "en": "Ordinary Macau Portuguese should be complete: pick up each point in a full line such as percebi or já anotei, never a lone word.",
+        "zh": "澳門日常葡語要講完整：用 percebi、já anotei 這類整句接住重點，不要只丟單字。"
+      },
+      "4": {
+        "en": "With strangers, banks or RAEM offices use o senhor and measured full lines; show you caught the request first, e.g. compreendi.",
+        "zh": "對陌生人、銀行或特區機關改用 o senhor，句子穩，先表明聽懂（如 compreendi）。"
+      },
+      "5": {
+        "en": "In legal or official PT keep titles and o senhor, brief and ordered; close each item with ficou registado or similar, varied.",
+        "zh": "法律或公務場合加稱謂與 o senhor，條理清楚，各點用 ficou registado 一類完整回覆並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A lively stand-in for {owner}, still on tu: greet warmly in short European PT, then say you will pass the note on (já digo).",
+        "zh": "代{owner}接的輕快幫手，用 tu 先熱絡接話，再說明會轉達（如 já digo），用詞不要重複。"
+      },
+      "2": {
+        "en": "Match tu or o senhor to the caller; thank them in an easy Macau tone, note it for {owner}, and confirm with está bem or similar.",
+        "zh": "依對方用 tu 或 o senhor，先輕鬆致謝並記下要給{owner}的話，再用 está bem 一類確認。"
+      },
+      "3": {
+        "en": "Sound like a capable local helper: answer the point in one full sentence, then say you will relay it to {owner}; skip bare sim.",
+        "zh": "像能辦事的本地助理：先用完整句子回應來意，再說明會轉告{owner}，不要只回 sim。"
+      },
+      "4": {
+        "en": "A composed secretary for {owner}: polite o senhor and full sentences; restate why they called, then confirm you will transmit it.",
+        "zh": "代{owner}的穩重秘書：用 o senhor 與完整句子先覆述來意，再確認會轉達。"
+      },
+      "5": {
+        "en": "Formal RAEM-style aide: titles plus o senhor, crisp on each detail, then confirm the relay to {owner} with com certeza.",
+        "zh": "特區式正式助理：稱謂加 o senhor，各項細節完整回應後，再用 com certeza 確認會轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Está? Olá, tudo bem? Diz, o que se passa?",
+      "Está? Olá! Sim, estou a ouvir, está bem.",
+      "Está, boa tarde. Qual é o assunto? Já anotei.",
+      "Bom dia, obrigado por ligar. Compreendi, trato disso.",
+      "Bom dia, obrigado pelo telefonema. Ficou registado, obrigado."
+    ],
+    "a": [
+      "Está? Ele está ocupado; diz-me e eu transmito!",
+      "Está? Olá! Dou o recado por ti, diz-me só.",
+      "Está, boa tarde. Anoto a mensagem e transmito.",
+      "Bom dia, obrigado por ligar. Registo e transmito-lhe.",
+      "Bom dia, obrigado pelo telefonema. Anoto tudo e transmito."
+    ]
+  },
+  "diff_from_home": [
+    "官方與教學用語接近歐洲葡語，電話開場多用 Está? 或 Estou，少用巴西的 Alô、Oi。",
+    "常夾澳門機關與地名，如特區（RAEM）、金融管理局、氹仔、路氹；貨幣說 pataca，也常並提港元。",
+    "有本地詞，如 sopa de fitas、auto-silo，與葡國、巴西日常用詞不完全相同。",
+    "實際場合常與中文、英語並用，公文書雙語；葡語口語社群規模較小。"
+  ],
+  "sources": [
+    "https://www.macaotourism.gov.mo/en/travelessential/about-macao/language",
+    "https://www.dsedj.gov.mo/cdl/courseware/portuguese/aprenderMais/aprenderMaisUnit05.pdf",
+    "https://www.cgportugal.org/pt/outrosassuntos",
+    "https://pt.wikipedia.org/wiki/Portugu%C3%AAs_macaense"
+  ],
+  "uncertain": [
+    "年輕公務員與土生葡人日常口語混用中、英、葡的程度，來源描述不一。",
+    "本地葡語新舊正字法（如 direcção／direção）並存，難以規定單一拼法。"
+  ]
+}

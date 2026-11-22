@@ -1,0 +1,714 @@
+{
+  "region": "lu",
+  "vocab": {
+    "fr": {
+      "bank": [
+        {
+          "term": "Spuerkeess",
+          "en": "state savings bank BCEE, everyday name (Spuerkeess)"
+        },
+        {
+          "term": "BGL BNP Paribas",
+          "en": "large Luxembourg bank (BGL BNP Paribas)"
+        },
+        {
+          "term": "LuxTrust",
+          "en": "Luxembourg login and signing token/app (LuxTrust)"
+        },
+        {
+          "term": "virement",
+          "en": "SEPA bank transfer (virement)"
+        },
+        {
+          "term": "domiciliation",
+          "en": "direct debit mandate in Luxembourg (domiciliation)"
+        },
+        {
+          "term": "compte POST",
+          "en": "POST Finance account (compte POST)"
+        },
+        {
+          "term": "IBAN LU",
+          "en": "Luxembourg IBAN prefix (IBAN LU)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "POST Luxembourg",
+          "en": "national post (POST Luxembourg)"
+        },
+        {
+          "term": "PackUp",
+          "en": "POST 24/7 parcel lockers (PackUp)"
+        },
+        {
+          "term": "avis de passage",
+          "en": "missed-delivery notice (avis de passage)"
+        },
+        {
+          "term": "colis",
+          "en": "parcel, as on POST notices (colis)"
+        },
+        {
+          "term": "bureau de poste",
+          "en": "POST counter / branch (bureau de poste)"
+        },
+        {
+          "term": "chez le voisin",
+          "en": "left with a neighbour (chez le voisin)"
+        },
+        {
+          "term": "point relais",
+          "en": "pickup point, often across the border (point relais)"
+        }
+      ],
+      "government": [
+        {
+          "term": "MyGuichet.lu",
+          "en": "state e-services login (MyGuichet.lu)"
+        },
+        {
+          "term": "Guichet.lu",
+          "en": "citizen information portal (Guichet.lu)"
+        },
+        {
+          "term": "matricule",
+          "en": "13-digit social security number; never read it out (matricule)"
+        },
+        {
+          "term": "commune",
+          "en": "municipality, register residence there (commune)"
+        },
+        {
+          "term": "bureau de la population",
+          "en": "population office at the commune (bureau de la population)"
+        },
+        {
+          "term": "ACD",
+          "en": "direct tax administration (ACD)"
+        },
+        {
+          "term": "certificat de résidence",
+          "en": "residence certificate (certificat de résidence)"
+        },
+        {
+          "term": "carte d'identité",
+          "en": "Luxembourg ID card (carte d'identité)"
+        }
+      ],
+      "health": [
+        {
+          "term": "CNS",
+          "en": "national health fund (CNS)"
+        },
+        {
+          "term": "médecin généraliste",
+          "en": "GP; patients pay and claim back from the CNS (médecin généraliste)"
+        },
+        {
+          "term": "Doctena",
+          "en": "common online booking for doctors (Doctena)"
+        },
+        {
+          "term": "pharmacie de garde",
+          "en": "duty pharmacy, Luxembourg rota (pharmacie de garde)"
+        },
+        {
+          "term": "ordonnance",
+          "en": "prescription, taken to any Luxembourg pharmacy (ordonnance)"
+        },
+        {
+          "term": "remboursement",
+          "en": "reimbursement from the CNS (remboursement)"
+        },
+        {
+          "term": "maison médicale",
+          "en": "out-of-hours medical centre (maison médicale)"
+        },
+        {
+          "term": "CHL",
+          "en": "main hospital in the capital (CHL)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "POST",
+          "en": "also the incumbent mobile operator (POST)"
+        },
+        {
+          "term": "Tango",
+          "en": "operator (Tango)"
+        },
+        {
+          "term": "Orange Luxembourg",
+          "en": "operator (Orange Luxembourg)"
+        },
+        {
+          "term": "abonnement",
+          "en": "postpaid plan (abonnement)"
+        },
+        {
+          "term": "prépayé",
+          "en": "prepaid (prépayé)"
+        },
+        {
+          "term": "forfait",
+          "en": "bundle (forfait)"
+        },
+        {
+          "term": "roaming",
+          "en": "roaming, relevant near the borders (roaming)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Payconiq",
+          "en": "common Luxembourg QR / phone payment (Payconiq)"
+        },
+        {
+          "term": "carte bancaire",
+          "en": "bank card (carte bancaire)"
+        },
+        {
+          "term": "sans contact",
+          "en": "contactless card payment, near universal in Luxembourg (sans contact)"
+        },
+        {
+          "term": "espèces",
+          "en": "cash, less used than card in Luxembourg (espèces)"
+        },
+        {
+          "term": "virement instantané",
+          "en": "instant transfer (virement instantané)"
+        },
+        {
+          "term": "facture",
+          "en": "invoice (facture)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "transports publics gratuits",
+          "en": "public transport is free nationwide (transports publics gratuits)"
+        },
+        {
+          "term": "mobiliteit.lu",
+          "en": "national journey planner (mobiliteit.lu)"
+        },
+        {
+          "term": "CFL",
+          "en": "national railway (CFL)"
+        },
+        {
+          "term": "tram",
+          "en": "Luxembourg City tram (tram)"
+        },
+        {
+          "term": "RGTR",
+          "en": "regional bus network (RGTR)"
+        },
+        {
+          "term": "AVL",
+          "en": "Luxembourg City buses (AVL)"
+        },
+        {
+          "term": "Park & Ride",
+          "en": "park-and-ride sites (Park & Ride)"
+        },
+        {
+          "term": "bouchons",
+          "en": "traffic jams, especially at the borders (bouchons)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "appartement",
+          "en": "flat (appartement)"
+        },
+        {
+          "term": "résidence",
+          "en": "apartment building in Luxembourg usage (résidence)"
+        },
+        {
+          "term": "syndic",
+          "en": "building manager hired by the co-owners (syndic)"
+        },
+        {
+          "term": "copropriété",
+          "en": "co-owned building (copropriété)"
+        },
+        {
+          "term": "loyer",
+          "en": "rent in Luxembourg (loyer)"
+        },
+        {
+          "term": "charges",
+          "en": "service charges (charges)"
+        },
+        {
+          "term": "garantie locative",
+          "en": "rental deposit (garantie locative)"
+        },
+        {
+          "term": "sonnette",
+          "en": "doorbell; names are on the panel at the résidence door (sonnette)"
+        }
+      ],
+      "school": [
+        {
+          "term": "crèche",
+          "en": "day nursery (crèche)"
+        },
+        {
+          "term": "maison relais",
+          "en": "after-school care (maison relais)"
+        },
+        {
+          "term": "école fondamentale",
+          "en": "primary school (école fondamentale)"
+        },
+        {
+          "term": "cycle",
+          "en": "school stage, cycle 1 to 4 (cycle)"
+        },
+        {
+          "term": "lycée",
+          "en": "secondary school (lycée)"
+        },
+        {
+          "term": "chèque-service accueil",
+          "en": "childcare subsidy voucher (chèque-service accueil)"
+        },
+        {
+          "term": "titulaire",
+          "en": "class teacher (titulaire)"
+        }
+      ],
+      "money": [
+        {
+          "term": "euro",
+          "en": "currency; prices are high, often in thousands (euro)"
+        },
+        {
+          "term": "centimes",
+          "en": "euro cents, Luxembourg French (centimes)"
+        },
+        {
+          "term": "mille",
+          "en": "thousand (mille)"
+        },
+        {
+          "term": "million",
+          "en": "million (million)"
+        },
+        {
+          "term": "salaire social minimum",
+          "en": "legal minimum wage (salaire social minimum)"
+        },
+        {
+          "term": "chèques-repas",
+          "en": "meal vouchers from employers (chèques-repas)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "aujourd'hui",
+          "en": "today, in Luxembourg French (aujourd'hui)"
+        },
+        {
+          "term": "demain",
+          "en": "tomorrow, in Luxembourg French (demain)"
+        },
+        {
+          "term": "après-demain",
+          "en": "day after tomorrow, Luxembourg (après-demain)"
+        },
+        {
+          "term": "ce midi",
+          "en": "around lunchtime today (ce midi)"
+        },
+        {
+          "term": "jour férié",
+          "en": "public holiday (jour férié)"
+        },
+        {
+          "term": "Fête nationale",
+          "en": "national day in June (Fête nationale)"
+        },
+        {
+          "term": "pont",
+          "en": "bridge day off between holiday and weekend (pont)"
+        }
+      ],
+      "work": [
+        {
+          "term": "frontalier",
+          "en": "cross-border commuter (frontalier)"
+        },
+        {
+          "term": "patron",
+          "en": "boss / employer in Luxembourg French (patron)"
+        },
+        {
+          "term": "CDI",
+          "en": "permanent contract (CDI)"
+        },
+        {
+          "term": "congé",
+          "en": "paid leave days under Luxembourg law (congé)"
+        },
+        {
+          "term": "télétravail",
+          "en": "remote work, limited days for commuters (télétravail)"
+        },
+        {
+          "term": "heures supplémentaires",
+          "en": "overtime (heures supplémentaires)"
+        },
+        {
+          "term": "fiche de salaire",
+          "en": "payslip (fiche de salaire)"
+        }
+      ]
+    },
+    "lb": {
+      "bank": [
+        {
+          "term": "Spuerkeess",
+          "en": "state savings bank (Spuerkeess)"
+        },
+        {
+          "term": "Kont",
+          "en": "bank account in Luxembourgish (Kont)"
+        },
+        {
+          "term": "Iwwerweisung",
+          "en": "bank transfer (Iwwerweisung)"
+        },
+        {
+          "term": "Bankkaart",
+          "en": "bank card (Bankkaart)"
+        },
+        {
+          "term": "LuxTrust",
+          "en": "login token / app, said the same in Luxembourgish (LuxTrust)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Pak",
+          "en": "parcel (Pak)"
+        },
+        {
+          "term": "Bréifkëscht",
+          "en": "letterbox (Bréifkëscht)"
+        },
+        {
+          "term": "Post",
+          "en": "the post (Post)"
+        },
+        {
+          "term": "PackUp",
+          "en": "locker, Luxembourgish speech (PackUp)"
+        },
+        {
+          "term": "Noper",
+          "en": "neighbour (Noper)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Gemeng",
+          "en": "municipality (Gemeng)"
+        },
+        {
+          "term": "Guichet",
+          "en": "the guichet.lu portal (Guichet)"
+        },
+        {
+          "term": "Steierkaart",
+          "en": "tax card (Steierkaart)"
+        },
+        {
+          "term": "Pass",
+          "en": "passport, Luxembourgish word (Pass)"
+        },
+        {
+          "term": "Identitéitskaart",
+          "en": "ID card (Identitéitskaart)"
+        }
+      ],
+      "health": [
+        {
+          "term": "Dokter",
+          "en": "doctor (Dokter)"
+        },
+        {
+          "term": "Apdikt",
+          "en": "pharmacy (Apdikt)"
+        },
+        {
+          "term": "Spidol",
+          "en": "hospital (Spidol)"
+        },
+        {
+          "term": "Rezept",
+          "en": "prescription (Rezept)"
+        },
+        {
+          "term": "Keess",
+          "en": "the health fund, colloquial (Keess)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Handy",
+          "en": "mobile phone (Handy)"
+        },
+        {
+          "term": "Abonnement",
+          "en": "plan, Luxembourgish speech (Abonnement)"
+        },
+        {
+          "term": "SIM-Kaart",
+          "en": "SIM card (SIM-Kaart)"
+        },
+        {
+          "term": "Netz",
+          "en": "signal (Netz)"
+        },
+        {
+          "term": "Prepaid",
+          "en": "prepaid (Prepaid)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Payconiq",
+          "en": "phone payment, Luxembourgish speech (Payconiq)"
+        },
+        {
+          "term": "Cash",
+          "en": "cash (Cash)"
+        },
+        {
+          "term": "mat der Kaart",
+          "en": "by card (mat der Kaart)"
+        },
+        {
+          "term": "Rechnung",
+          "en": "invoice (Rechnung)"
+        },
+        {
+          "term": "iwwerweisen",
+          "en": "to transfer (iwwerweisen)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Bus",
+          "en": "bus (Bus)"
+        },
+        {
+          "term": "Zuch",
+          "en": "train (Zuch)"
+        },
+        {
+          "term": "Tram",
+          "en": "tram (Tram)"
+        },
+        {
+          "term": "Stau",
+          "en": "traffic jam (Stau)"
+        },
+        {
+          "term": "Arrêt",
+          "en": "stop (Arrêt)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "Wunneng",
+          "en": "flat / home (Wunneng)"
+        },
+        {
+          "term": "Loyer",
+          "en": "rent, Luxembourgish speech (Loyer)"
+        },
+        {
+          "term": "Syndic",
+          "en": "building manager, Luxembourgish speech (Syndic)"
+        },
+        {
+          "term": "Schell",
+          "en": "doorbell (Schell)"
+        },
+        {
+          "term": "Stack",
+          "en": "floor / storey (Stack)"
+        }
+      ],
+      "school": [
+        {
+          "term": "Schoul",
+          "en": "school (Schoul)"
+        },
+        {
+          "term": "Crèche",
+          "en": "nursery, Luxembourgish speech (Crèche)"
+        },
+        {
+          "term": "Maison relais",
+          "en": "after-school care, Luxembourgish speech (Maison relais)"
+        },
+        {
+          "term": "Léierin",
+          "en": "female teacher (Léierin)"
+        },
+        {
+          "term": "Lycée",
+          "en": "secondary school, Luxembourgish speech (Lycée)"
+        }
+      ],
+      "money": [
+        {
+          "term": "Euro",
+          "en": "euro, Luxembourgish speech (Euro)"
+        },
+        {
+          "term": "dausend",
+          "en": "thousand (dausend)"
+        },
+        {
+          "term": "Millioun",
+          "en": "million (Millioun)"
+        },
+        {
+          "term": "Paie",
+          "en": "salary (Paie)"
+        },
+        {
+          "term": "Suen",
+          "en": "money (Suen)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "haut",
+          "en": "today (haut)"
+        },
+        {
+          "term": "muer",
+          "en": "tomorrow (muer)"
+        },
+        {
+          "term": "iwwermuer",
+          "en": "day after tomorrow (iwwermuer)"
+        },
+        {
+          "term": "gëschter",
+          "en": "yesterday (gëschter)"
+        },
+        {
+          "term": "mëttes",
+          "en": "at midday / early afternoon (mëttes)"
+        }
+      ],
+      "work": [
+        {
+          "term": "Aarbecht",
+          "en": "work (Aarbecht)"
+        },
+        {
+          "term": "Chef",
+          "en": "boss (Chef)"
+        },
+        {
+          "term": "Congé",
+          "en": "leave, Luxembourgish speech (Congé)"
+        },
+        {
+          "term": "Büro",
+          "en": "office (Büro)"
+        },
+        {
+          "term": "Frontalier",
+          "en": "cross-border worker, Luxembourgish speech (Frontalier)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Bancontact",
+      "use_instead": "Payconiq",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "Lydia",
+      "use_instead": "Payconiq",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "carte Vitale",
+      "use_instead": "carte CNS",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "ameli",
+      "use_instead": "CNS",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "La Poste / Colissimo",
+      "use_instead": "POST Luxembourg / PackUp",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "bpost",
+      "use_instead": "POST Luxembourg",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "septante",
+      "use_instead": "soixante-dix",
+      "where_it_is_from": "BE"
+    },
+    {
+      "word": "Sécu",
+      "use_instead": "CNS",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "HLM",
+      "use_instead": "logement social / Fonds du Logement",
+      "where_it_is_from": "FR"
+    },
+    {
+      "word": "Krankenkasse",
+      "use_instead": "CNS",
+      "where_it_is_from": "DE"
+    }
+  ],
+  "sources": [
+    "https://guichet.public.lu/",
+    "https://www.myguichet.lu/",
+    "https://cns.public.lu/",
+    "https://www.post.lu/",
+    "https://www.post.lu/particuliers/colis-courrier/packup",
+    "https://www.luxtrust.com/",
+    "https://www.payconiq.lu/",
+    "https://www.mobiliteit.lu/",
+    "https://www.cfl.lu/",
+    "https://www.spuerkeess.lu/",
+    "https://www.doctena.lu/",
+    "https://www.lod.lu/",
+    "https://impotsdirects.public.lu/"
+  ],
+  "uncertain": [
+    "盧森堡語（lb）詞頻表是空檔；lb 拼寫參考 LOD 線上辭典，但每個詞未逐一在辭典核對。",
+    "盧森堡日常也大量用德語，本檔未另列 de 組；德語用詞需另查。",
+    "Payconiq 在盧森堡的品牌名可能已併入 Bancontact Payconiq，口語名稱仍在變。",
+    "大量跨境上班族來自法、比、德，常混用各自國家的說法（例如 Sécu、Krankenkasse），對方用這些詞時應理解但用盧森堡說法回應。"
+  ]
+}

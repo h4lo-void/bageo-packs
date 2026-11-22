@@ -84,15 +84,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "portineria",
-      "punto di ritiro",
-      "vicino"
-    ],
     "bank": [
       "SPID",
       "bonifico",
-      "carta"
+      "carta",
+      "IBAN",
+      "conto corrente",
+      "bancomat"
+    ],
+    "delivery": [
+      "portineria",
+      "punto di ritiro",
+      "vicino",
+      "citofono",
+      "fermo posta",
+      "Poste Italiane"
+    ],
+    "government": [
+      "SPID",
+      "CIE",
+      "codice fiscale",
+      "Agenzia delle Entrate",
+      "comune",
+      "passaporto"
+    ],
+    "health": [
+      "tessera sanitaria",
+      "ASL",
+      "medico di base",
+      "farmacia",
+      "pronto soccorso",
+      "ricetta"
+    ],
+    "telecom": [
+      "offerta",
+      "ricaricabile",
+      "passaggio del numero",
+      "SIM",
+      "operatore",
+      "giga"
+    ],
+    "payment": [
+      "bonifico",
+      "bancomat",
+      "PostePay",
+      "contanti",
+      "carta di credito",
+      "Satispay"
+    ],
+    "transport": [
+      "mezzi",
+      "metro",
+      "Trenitalia",
+      "autobus",
+      "tram",
+      "taxi"
+    ],
+    "housing": [
+      "appartamento",
+      "portineria",
+      "amministratore",
+      "citofono",
+      "cassetta della posta",
+      "condominio"
     ]
   },
   "status": "draft"

@@ -1,0 +1,335 @@
+{
+  "lang": "fr",
+  "backchannels": {
+    "direction": "Ward's French list is led by oui, ouais and hum; ouais is casual and can sound slack with an elder or an official.",
+    "examples": [
+      {
+        "text": "Hum.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Oui.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ouais.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "D'accord.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ah.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Tout à fait.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ouais, ouais.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Ah bon? and Vraiment? take surprise; C'est dommage is the everyday note of sympathy, lighter than a formal apology.",
+    "examples": [
+      {
+        "text": "Ah bon ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Vraiment ?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Oh, je suis désolé d'apprendre ça.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "C'est dommage.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Super !",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Félicitations.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Ça va être difficile.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Je vous entends mal and La ligne est mauvaise are the ordinary complaints; Ça coupe names a dropping mobile link.",
+    "examples": [
+      {
+        "text": "Je vous entends mal.",
+        "style": "polite"
+      },
+      {
+        "text": "La ligne est mauvaise.",
+        "style": "polite"
+      },
+      {
+        "text": "Ça coupe un peu.",
+        "style": "casual"
+      },
+      {
+        "text": "Pouvez-vous parler un peu plus fort ?",
+        "style": "polite"
+      },
+      {
+        "text": "Je n'ai pas saisi la fin.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Vous pouvez répéter, s'il vous plaît is the unmarked replay; épeler is used for names, redire le numéro for digits.",
+    "examples": [
+      {
+        "text": "Vous pouvez répéter, s'il vous plaît ?",
+        "style": "polite"
+      },
+      {
+        "text": "Comment ? J'ai pas compris.",
+        "style": "casual"
+      },
+      {
+        "text": "Vous pouvez épeler le nom ?",
+        "style": "polite"
+      },
+      {
+        "text": "Vous pouvez redire le numéro ? C'est 12345678 ?",
+        "style": "polite"
+      },
+      {
+        "text": "Pardon, vous disiez ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "C'est de la part de qui is the everyday probe; À qui ai-je l'honneur is more formal. Say if the phone is {owner}'s.",
+    "examples": [
+      {
+        "text": "C'est de la part de qui ?",
+        "style": "polite"
+      },
+      {
+        "text": "À qui ai-je l'honneur ?",
+        "style": "polite"
+      },
+      {
+        "text": "Ici le téléphone de {owner}. Qui est à l'appareil ?",
+        "style": "polite"
+      },
+      {
+        "text": "Vous êtes qui ?",
+        "style": "casual"
+      },
+      {
+        "text": "Je peux savoir qui appelle ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Collins gives Vous vous êtes trompé de numéro and faux numéro; a short Désolé is enough, without questioning the house.",
+    "examples": [
+      {
+        "text": "Désolé, vous vous êtes trompé de numéro.",
+        "style": "polite"
+      },
+      {
+        "text": "C'est un faux numéro.",
+        "style": "polite"
+      },
+      {
+        "text": "Il n'y a personne de ce nom ici.",
+        "style": "polite"
+      },
+      {
+        "text": "Mauvais numéro, désolé.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Je lui transmettrai le message and Je préviendrai {owner} pass the news; neither one books an hour to ring back.",
+    "examples": [
+      {
+        "text": "Je lui transmettrai le message.",
+        "style": "polite"
+      },
+      {
+        "text": "Je ferai passer le message à {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Je lui dirai.",
+        "style": "casual"
+      },
+      {
+        "text": "Je préviendrai {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Je lui passerai le mot.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Non merci, ça ne m'intéresse pas is the stock close; Je ne suis pas intéressé adds little and is often skipped.",
+    "examples": [
+      {
+        "text": "Non merci, ça ne m'intéresse pas.",
+        "style": "polite"
+      },
+      {
+        "text": "Je ne suis pas intéressé, merci.",
+        "style": "polite"
+      },
+      {
+        "text": "On n'en a pas besoin, merci.",
+        "style": "polite"
+      },
+      {
+        "text": "Non merci, ce n'est pas pour nous.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Once refused, French often adds Merci de ne plus appeler ce numéro, or asks that the number leave the liste, with vous.",
+    "examples": [
+      {
+        "text": "J'ai déjà dit non. Merci de ne plus appeler ce numéro.",
+        "style": "polite"
+      },
+      {
+        "text": "Retirez ce numéro de votre liste, s'il vous plaît.",
+        "style": "polite"
+      },
+      {
+        "text": "N'appelez plus, merci.",
+        "style": "casual"
+      },
+      {
+        "text": "C'est un non définitif, veuillez cesser de nous contacter.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "vous plus Monsieur or Madame with strangers; tu and a first name only with familiars, or after an offer to tutoyer.",
+    "examples": [
+      {
+        "text": "Monsieur Dupont.",
+        "style": "polite"
+      },
+      {
+        "text": "Madame Martin.",
+        "style": "polite"
+      },
+      {
+        "text": "Docteur Moreau.",
+        "style": "polite"
+      },
+      {
+        "text": "Bonjour, Madame.",
+        "style": "polite"
+      },
+      {
+        "text": "Salut, Camille.",
+        "style": "casual"
+      },
+      {
+        "text": "Monsieur le directeur.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Votre appel est important pour nous and Comment puis-je vous aider belong in a centre d'appels, not a home line.",
+    "examples": [
+      {
+        "text": "Votre appel est important pour nous.",
+        "style": "polite"
+      },
+      {
+        "text": "Comment puis-je vous aider aujourd'hui ?",
+        "style": "polite"
+      },
+      {
+        "text": "Nous sommes à votre entière disposition.",
+        "style": "polite"
+      },
+      {
+        "text": "Merci d'avoir appelé, votre satisfaction est notre priorité.",
+        "style": "polite"
+      },
+      {
+        "text": "Puis-je faire autre chose pour vous ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to tu uninvited, a late call without cause, or asking for a pièce d'identité at the start all feel abrupt.",
+    "examples": [
+      {
+        "text": "T'es marié ? Tu gagnes combien ?",
+        "style": "casual"
+      },
+      {
+        "text": "Allô ? C'est qui, toi ?",
+        "style": "casual"
+      },
+      {
+        "text": "Donnez-moi d'abord votre adresse et votre numéro de pièce d'identité.",
+        "style": "polite"
+      },
+      {
+        "text": "J'enregistre déjà cet appel.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.collinsdictionary.com/dictionary/english-french/wrong-number",
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh"
+  ],
+  "uncertain": [
+    "法國總機常見的請人不要掛斷、或請人在線上短暫停留的套語，本檔完全不用。",
+    "魁北克與法國在 tu／vous 轉換時機、以及 allô 的使用上有差異，本檔以法國用法為主。",
+    "ouais 在語料中很常見，對長輩或公家機關可能顯得太隨便，實際界線依語氣而定。"
+  ]
+}

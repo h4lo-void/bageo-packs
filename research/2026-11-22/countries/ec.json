@@ -1,0 +1,81 @@
+{
+  "country": "ec",
+  "parent": "latam",
+  "name": {
+    "en": "Ecuador",
+    "native": "Ecuador",
+    "zh": "厄瓜多"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portería, conserjería, a shop, or a courier office",
+    "zh": "包裹交給 portería、conserjería、店家，或到快遞點領"
+  },
+  "readback": {
+    "en": "Mobiles often start with 09, in short groups; 0 as cero; day-month dates; US dollars",
+    "zh": "手機常以 09 開頭再分短組唸，0 唸 cero；日期先日後月；用美元"
+  },
+  "fraud": {
+    "en": "A fake Banco Pichincha or wallet call asking for codes, or an accident story, is a scam",
+    "zh": "假冒 Banco Pichincha 或電子錢包要驗證碼，或說親人出事，都是詐騙"
+  },
+  "habits": {
+    "en": "Tú with peers, usted with elders or offices; some Sierra speech has vos. Amounts in dollars, not pesos. Not Nequi.",
+    "zh": "同輩 tú，長輩或機關 usted；部分高原地區也有 vos。金額用美元，不說比索。不要預設 Nequi。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, a slow bank or Deuna app, or misplaced glasses.",
+    "zh": "卡在停電、銀行或 Deuna App 很慢，或眼鏡放錯地方。"
+  },
+  "vocab": {
+    "bank": [
+      "Deuna",
+      "transferencia",
+      "tarjeta",
+      "Banco Pichincha",
+      "clave"
+    ],
+    "delivery": [
+      "portería",
+      "conserjería",
+      "Servientrega",
+      "tienda",
+      "vecino"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "peso 當貨幣",
+      "reason": {
+        "zh": "厄瓜多日常使用美元，不能照其他拉美國家說成比索。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "The tú/usted scale is close to the parent, with usted a bit more common in some Sierra settings. The key change is currency and app names: dollars and local wallets such as Deuna, not Nequi or pesos.",
+    "zh": "tú／usted 分檔接近所屬地區，部分高原場合 usted 更常見。真正要改的是貨幣與App：說美元和 Deuna 等本地錢包，不要說 Nequi 或比索。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "此次未打開 Banco Pichincha 或 Deuna 的官方防詐專頁，詐騙與錢包名稱依地區常見用法，Deuna 的口語普及程度未量化。",
+    "高原 vos 的範圍依 RAE 體系，未再查最新方言調查。",
+    "09 開頭分組唸法未找到電信官方規範。"
+  ]
+}

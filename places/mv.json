@@ -1,0 +1,660 @@
+{
+  "region": "mv",
+  "countries": [
+    "mv"
+  ],
+  "region_name_zh": "馬爾地夫",
+  "region_name": "Maldives",
+  "languages": [
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Dhivehi (dv) is spoken at home but is not on Bageo's list; English is taught in schools and used in business, so the AI should simply speak English.",
+  "english_ok": "yes — Resorts, guesthouses, clinics and most Malé shops work in English; some island grocers and fishermen are more at ease in Dhivehi.",
+  "politeness": "Friendly but reserved; a polite 'assalaamu alaikum' or plain hello works, keep dress-code and alcohol topics neutral, and thank with shukuriyya.",
+  "name_tip": "Many people go by a given name plus a house name, and on small islands people are identified by their house; spell names carefully, as English spellings vary.",
+  "phone_tip": "Seven-digit numbers with no trunk zero; mobiles start 7 (Dhiraagu) or 9 (Ooredoo), Malé landlines start 3, atoll landlines start 6; read as 3+4 (912 3456).",
+  "time_tip": "24-hour clock is normal in writing; resorts often run on 'island time' an hour ahead of Malé time, so confirm which clock a pickup uses.",
+  "number_tip": "Local shops price in rufiyaa (MVR); resorts, dive centres and tours price in US dollars; ask which currency each time.",
+  "avoid_calling": "Avoid prayer times, when Malé shops close briefly, and Friday late morning to early afternoon; during Ramadan, daytime hours shrink.",
+  "closed_days": "Weekend is Friday and Saturday; many shops reopen Friday afternoon; Eid holidays close offices for days.",
+  "booking_channels": "Viber and WhatsApp carry most business chat; resorts book through their websites, email and big travel platforms; speedboat and seaplane transfers are set by the resort; ferries run on public timetables.",
+  "voice_menu": "Telcos (Dhiraagu, Ooredoo) and banks have Dhivehi/English IVR; small shops and guesthouses answer directly or reply on Viber.",
+  "callback_habits": "Guesthouses and dive shops reply by Viber or WhatsApp; clinics call or text the patient with the slot.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "潛水、浮潛與出海釣魚多經潛水中心或民宿安排，受天候影響。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dive centre asks certification level"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Trip cancelled if the sea is rough"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Wire to a personal account to lock the trip"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "Divers or snorkellers",
+        "Certification level",
+        "Lead name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "馬列沙龍與水療多 Viber 預約，女性沙龍常見；度假村水療由村內櫃台排。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Women-only salon"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance transfer to a private account"
+        }
+      ],
+      "usually_asked": [
+        "Service wanted",
+        "Preferred staff",
+        "Time slot",
+        "Client name"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消多電話或訊息即可；度假村與船班變更依合約條款。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transfer change fee from the resort"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport number to find the booking"
+        }
+      ],
+      "usually_asked": [
+        "Name on booking",
+        "Original slot",
+        "New slot",
+        "Pax change"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "馬列有公立與私立醫院，可電話預約；國民醫療由 Aasandha 負擔，外地人多自費或用旅遊保險。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Aasandha cover is only for Maldivian nationals"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist visits only on certain days"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "National ID or passport number"
+        }
+      ],
+      "usually_asked": [
+        "Patient name and how old",
+        "Which specialty",
+        "New or follow-up",
+        "Insurance or self-pay"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信與銀行客服有語音選單，帳戶事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Holder must call or visit"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "ID number, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Menu choice",
+        "Holder",
+        "Account phone",
+        "Problem"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多走線上入口與本人臨櫃，週五、週六休。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service handled on the government online portal"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "ID number of the applicant"
+        }
+      ],
+      "usually_asked": [
+        "Which service or school",
+        "Child's grade",
+        "Island or ward",
+        "Parent's phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "馬列水電冷氣多電話叫；住址常寫房屋名加街名，公寓要報樓層。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Wants rufiyaa paid before coming"
+        }
+      ],
+      "usually_asked": [
+        "Job type",
+        "House name, road and floor",
+        "Time window",
+        "Phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "度假村多經官網或大型平台；本地島民宿可 Viber／WhatsApp 直訂，船接駁常另計。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Transfer by speedboat or seaplane priced separately"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Green tax charged per night"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport and card copy by chat"
+        }
+      ],
+      "usually_asked": [
+        "Arrival flight and time",
+        "Nights and guests",
+        "Meal plan",
+        "Lead guest name"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、禱告時段是否關門、可否刷卡或收美元，店家多直接答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Takes US dollars as well as rufiyaa"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed Friday morning"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Hours around prayer",
+        "Dollars or rufiyaa",
+        "Card acceptance",
+        "Stock"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "馬爾地夫禁止輸入狗，寵物以貓為主；獸醫選擇很少，多在馬列。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic treats cats and birds only"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full prepayment for boarding"
+        }
+      ],
+      "usually_asked": [
+        "Reason for visit",
+        "Animal and age",
+        "Preferred day",
+        "Owner name"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "馬列租屋多看 Facebook 與仲介，房租高、押金常數個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Several months' advance rent"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Fee to reserve before seeing"
+        }
+      ],
+      "usually_asked": [
+        "Building and floor",
+        "Move-in date",
+        "Occupants",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車是馬列主要交通工具，修車多直接到店；冷氣與手機維修可電話約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Shop asks the bike's registration"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts shipped from abroad take days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full pay before checking"
+        }
+      ],
+      "usually_asked": [
+        "Scooter or device model",
+        "Fault description",
+        "When to bring it",
+        "Contact number"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "馬列餐廳與咖啡館多電話或 Viber 訂位；本地島上餐廳不供酒，度假村餐廳則由村方訂位系統處理。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Resort dinner reservation must go via the guest relations desk"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Place shuts briefly at prayer time"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Card details demanded to save a beach table"
+        }
+      ],
+      "usually_asked": [
+        "Seating hour after or before Maghrib",
+        "Pax count",
+        "Seaview or indoor",
+        "Guest name and Viber contact"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與節慶訂單多以 Viber 傳圖並先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit before baking"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Stranger asks for the whole amount up front"
+        }
+      ],
+      "usually_asked": [
+        "Design and size",
+        "Text on cake",
+        "Collection day",
+        "Name"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外帶可電話或 Viber 點；馬列有本地外送 App，島上多店家自送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery inside Malé only"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery charge by area"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks prepayment into a private wallet"
+        }
+      ],
+      "usually_asked": [
+        "What items and how many",
+        "Collect or have it brought",
+        "House name and road",
+        "Phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵局與本地快遞可電話詢問；外島包裹靠船運，時間較長。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Parcel goes by ferry to the island"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Collection PIN"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient",
+        "Island and house",
+        "Contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "馬列計程車多打電話叫車行；渡輪照公營時刻表，快艇與水上飛機由度假村安排。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Ferry runs on a fixed timetable"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Speedboat charter price"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Passport for the transfer manifest"
+        }
+      ],
+      "usually_asked": [
+        "Pickup jetty or address",
+        "Island or airport",
+        "People and bags",
+        "Passenger name"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "doctor appt",
+        "dental slot",
+        "haircut booking",
+        "AC service"
+      ],
+      "booking_words": [
+        "table reserve",
+        "room booking",
+        "dive booking"
+      ],
+      "change_words": [
+        "shift booking to Sat",
+        "cancel",
+        "change transfer time"
+      ],
+      "date": [
+        "tmrw",
+        "Sat",
+        "25/11"
+      ],
+      "false_friends": [
+        "H. Blue Wave house",
+        "floor 3",
+        "room 12"
+      ],
+      "inquiry_words": [
+        "open till what time",
+        "card ok?",
+        "transfer included?"
+      ],
+      "name": [
+        "Ali",
+        "Ms Aisha",
+        "company booking"
+      ],
+      "order_words": [
+        "takeaway",
+        "deliver to house",
+        "pickup"
+      ],
+      "party": [
+        "4 pax",
+        "2 adults 1 kid",
+        "10 pax"
+      ],
+      "phone": [
+        "912 3456",
+        "Viber same number"
+      ],
+      "time": [
+        "19:00",
+        "7pm",
+        "10am",
+        "after Maghrib"
+      ]
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "lang": "fi",
+  "script": "latin",
+  "common_words": [
+    "minä",
+    "sinä",
+    "olen",
+    "olet",
+    "en",
+    "ei",
+    "mitä",
+    "että",
+    "mutta",
+    "tämä",
+    "täällä",
+    "älä",
+    "kiitos",
+    "anteeksi",
+    "huomenta",
+    "päivää",
+    "mikä",
+    "miksi",
+    "miten",
+    "olisi",
+    "kanssa",
+    "tai",
+    "minulle",
+    "sinulle",
+    "hän",
+    "nyt",
+    "vain",
+    "kun",
+    "kaikki",
+    "hyvä",
+    "me",
+    "te",
+    "heidän",
+    "tänään",
+    "huomenna",
+    "eilen",
+    "aamulla",
+    "illalla",
+    "koska",
+    "ilman",
+    "aina",
+    "koskaan",
+    "numero",
+    "osoite",
+    "lääkäri",
+    "paketti",
+    "tilaus",
+    "tarvitsen",
+    "voidaan",
+    "kiitos paljon"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fi/fi_50k.txt",
+  "shared_words": [
+    {
+      "word": "ja",
+      "also_in": [
+        "et"
+      ]
+    },
+    {
+      "word": "on",
+      "also_in": [
+        "et"
+      ]
+    },
+    {
+      "word": "hei",
+      "also_in": [
+        "nb",
+        "nn"
+      ]
+    },
+    {
+      "word": "ei",
+      "also_in": [
+        "et"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ä",
+    "ö"
+  ],
+  "confusable_with": [
+    "et",
+    "sv"
+  ],
+  "how_to_tell_apart": "Finnish is typologically close to Estonian but the everyday words diverge quickly: minä/sinä, olen/en, mitä, että, kiitos, anteeksi, täällä and älä are Finnish, whereas Estonian uses ma/sa, olen/ei, mis, et, aitäh or tänan, and palun. Finnish also lacks the letter õ, which is a strong Estonian cue. Swedish may appear in the same country, but it is Germanic (jag, inte, och) and uses å, which Finnish native words do not.",
+  "test_said": [
+    "Jäävuoron iltaharjoitus peruttiin ja kysyn onko tilalle vapaata jääaikaa.",
+    "Verotoimistosta varasin ajan ja haluan varmistaa että paperit riittävät.",
+    "Talvirenkaat pitäisi jättää korjaamolle jo tänään ennen sulkemista.",
+    "Postin paketti on noutopisteessä mutta koodi ei toimi luukussa.",
+    "Neuvolaan tarvitsen uuden ajan koska edellinen meni päällekkäin työn kanssa.",
+    "Työterveydestä pyydän todistusta lyhyttä sairauspoissaoloa varten.",
+    "Iltalehteä en tilaa ja puhelinmyyntiä tähän numeroon ei tarvita.",
+    "Kotiin ei olla hankkimassa latausasemaa joten tarjous ei ole ajankohtainen."
+  ],
+  "test_not_enough": [
+    "Mikko",
+    "ok",
+    "kymmenen",
+    "radio"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fi/fi_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Finnish_orthography",
+    "https://en.wikipedia.org/wiki/Finnish_language"
+  ],
+  "uncertain": [
+    "hei is frequent in Finnish greetings but also in Norwegian, so it is listed as shared and not treated as a Finnish-only cue.",
+    "Colloquial Finnish often shortens minä to mä and sinä to sä; those forms are common on the phone but were not counted separately from the standard pronouns."
+  ]
+}

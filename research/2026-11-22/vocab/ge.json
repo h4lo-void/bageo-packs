@@ -1,0 +1,386 @@
+{
+  "region": "ge",
+  "vocab": {
+    "ka": {
+      "bank": [
+        {
+          "term": "ბარათი",
+          "en": "bank card (ბარათი)"
+        },
+        {
+          "term": "ანგარიში",
+          "en": "account (ანგარიში)"
+        },
+        {
+          "term": "გადარიცხვა",
+          "en": "bank transfer (გადარიცხვა)"
+        },
+        {
+          "term": "ბანკომატი",
+          "en": "ATM (ბანკომატი)"
+        },
+        {
+          "term": "ინტერნეტბანკი",
+          "en": "internet banking (ინტერნეტბანკი)"
+        },
+        {
+          "term": "სესხი",
+          "en": "loan (სესხი)"
+        },
+        {
+          "term": "ბალანსი",
+          "en": "balance (ბალანსი)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "კურიერი",
+          "en": "courier (კურიერი)"
+        },
+        {
+          "term": "ამანათი",
+          "en": "parcel (ამანათი)"
+        },
+        {
+          "term": "მიწოდება",
+          "en": "delivery (მიწოდება)"
+        },
+        {
+          "term": "Wolt",
+          "en": "Wolt food delivery, very common in Tbilisi (Wolt)"
+        },
+        {
+          "term": "Glovo",
+          "en": "Glovo delivery app (Glovo)"
+        },
+        {
+          "term": "საქართველოს ფოსტა",
+          "en": "Georgian Post (საქართველოს ფოსტა)"
+        }
+      ],
+      "government": [
+        {
+          "term": "პირადობის მოწმობა",
+          "en": "ID card (პირადობის მოწმობა)"
+        },
+        {
+          "term": "პირადი ნომერი",
+          "en": "personal ID number (პირადი ნომერი)"
+        },
+        {
+          "term": "იუსტიციის სახლი",
+          "en": "Public Service Hall (იუსტიციის სახლი)"
+        },
+        {
+          "term": "პასპორტი",
+          "en": "passport (პასპორტი)"
+        },
+        {
+          "term": "my.gov.ge",
+          "en": "government services portal (my.gov.ge)"
+        },
+        {
+          "term": "ამონაწერი",
+          "en": "official extract or record (ამონაწერი)"
+        }
+      ],
+      "health": [
+        {
+          "term": "აფთიაქი",
+          "en": "pharmacy (აფთიაქი)"
+        },
+        {
+          "term": "ექიმი",
+          "en": "doctor (ექიმი)"
+        },
+        {
+          "term": "კლინიკა",
+          "en": "clinic (კლინიკა)"
+        },
+        {
+          "term": "რეცეპტი",
+          "en": "prescription (რეცეპტი)"
+        },
+        {
+          "term": "საყოველთაო ჯანდაცვა",
+          "en": "universal healthcare programme (საყოველთაო ჯანდაცვა)"
+        },
+        {
+          "term": "დაზღვევა",
+          "en": "insurance (დაზღვევა)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "მაგთი",
+          "en": "Magti operator (მაგთი)"
+        },
+        {
+          "term": "სილქნეტი",
+          "en": "Silknet operator (სილქნეტი)"
+        },
+        {
+          "term": "სელფი",
+          "en": "Cellfie operator (სელფი)"
+        },
+        {
+          "term": "ბალანსის შევსება",
+          "en": "top-up (ბალანსის შევსება)"
+        },
+        {
+          "term": "ინტერნეტ პაკეტი",
+          "en": "data package (ინტერნეტ პაკეტი)"
+        },
+        {
+          "term": "სიმ ბარათი",
+          "en": "SIM card (სიმ ბარათი)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "ნაღდი",
+          "en": "cash (ნაღდი)"
+        },
+        {
+          "term": "ბარათით",
+          "en": "by card (ბარათით)"
+        },
+        {
+          "term": "ჩეკი",
+          "en": "receipt (ჩეკი)"
+        },
+        {
+          "term": "განვადება",
+          "en": "instalment plan (განვადება)"
+        },
+        {
+          "term": "სწრაფი გადახდის აპარატი",
+          "en": "self-service payment kiosk for bills and top-ups (სწრაფი გადახდის აპარატი)"
+        },
+        {
+          "term": "გადახდა",
+          "en": "payment (გადახდა)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "მეტრო",
+          "en": "Tbilisi metro (მეტრო)"
+        },
+        {
+          "term": "მარშრუტკა",
+          "en": "minibus (მარშრუტკა)"
+        },
+        {
+          "term": "ტაქსი",
+          "en": "taxi (ტაქსი)"
+        },
+        {
+          "term": "Bolt",
+          "en": "Bolt ride app (Bolt)"
+        },
+        {
+          "term": "მეტრომანი",
+          "en": "Metromoney transit card (მეტრომანი)"
+        },
+        {
+          "term": "საცობი",
+          "en": "traffic jam (საცობი)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "ბინა",
+          "en": "flat (ბინა)"
+        },
+        {
+          "term": "კორპუსი",
+          "en": "apartment block (კორპუსი)"
+        },
+        {
+          "term": "ამხანაგობა",
+          "en": "residents' association (ამხანაგობა)"
+        },
+        {
+          "term": "ქირა",
+          "en": "rent (ქირა)"
+        },
+        {
+          "term": "მეპატრონე",
+          "en": "owner or landlord (მეპატრონე)"
+        },
+        {
+          "term": "სადარბაზო",
+          "en": "stairwell entrance (სადარბაზო)"
+        }
+      ],
+      "school": [
+        {
+          "term": "სკოლა",
+          "en": "school (სკოლა)"
+        },
+        {
+          "term": "საბავშვო ბაღი",
+          "en": "kindergarten (საბავშვო ბაღი)"
+        },
+        {
+          "term": "ეროვნული გამოცდები",
+          "en": "national entrance exams (ეროვნული გამოცდები)"
+        },
+        {
+          "term": "რეპეტიტორი",
+          "en": "private tutor (რეპეტიტორი)"
+        },
+        {
+          "term": "მასწავლებელი",
+          "en": "teacher (მასწავლებელი)"
+        },
+        {
+          "term": "კლასი",
+          "en": "class or grade (კლასი)"
+        }
+      ],
+      "money": [
+        {
+          "term": "ლარი",
+          "en": "lari, national currency (ლარი)"
+        },
+        {
+          "term": "თეთრი",
+          "en": "tetri, lari cent (თეთრი)"
+        },
+        {
+          "term": "ათასი",
+          "en": "thousand (ათასი)"
+        },
+        {
+          "term": "მილიონი",
+          "en": "million (მილიონი)"
+        },
+        {
+          "term": "ხურდა",
+          "en": "small change (ხურდა)"
+        },
+        {
+          "term": "ლარიანი",
+          "en": "one-lari coin (ლარიანი)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "დღეს",
+          "en": "today (დღეს)"
+        },
+        {
+          "term": "ხვალ",
+          "en": "tomorrow (ხვალ)"
+        },
+        {
+          "term": "გუშინ",
+          "en": "yesterday (გუშინ)"
+        },
+        {
+          "term": "ზეგ",
+          "en": "day after tomorrow (ზეგ)"
+        },
+        {
+          "term": "საღამოს",
+          "en": "in the evening (საღამოს)"
+        },
+        {
+          "term": "შაბათ-კვირას",
+          "en": "at the weekend (შაბათ-კვირას)"
+        }
+      ],
+      "work": [
+        {
+          "term": "სამსახური",
+          "en": "job or workplace (სამსახური)"
+        },
+        {
+          "term": "ხელფასი",
+          "en": "salary (ხელფასი)"
+        },
+        {
+          "term": "შვებულება",
+          "en": "vacation leave (შვებულება)"
+        },
+        {
+          "term": "უფროსი",
+          "en": "boss (უფროსი)"
+        },
+        {
+          "term": "ოფისი",
+          "en": "office (ოფისი)"
+        },
+        {
+          "term": "საშემოსავლო",
+          "en": "income tax (საშემოსავლო)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "магазин",
+      "use_instead": "მაღაზია",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "сдача",
+      "use_instead": "ხურდა",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "спасибо",
+      "use_instead": "მადლობა",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "подъезд",
+      "use_instead": "სადარბაზო",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "рубль",
+      "use_instead": "ლარი",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "ჟეკი (Soviet housing office)",
+      "use_instead": "ამხანაგობა",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "драм",
+      "use_instead": "ლარი",
+      "where_it_is_from": "AM"
+    },
+    {
+      "word": "manat",
+      "use_instead": "ლარი",
+      "where_it_is_from": "AZ"
+    },
+    {
+      "word": "заявка",
+      "use_instead": "განაცხადი",
+      "where_it_is_from": "RU"
+    }
+  ],
+  "sources": [
+    "https://www.my.gov.ge/",
+    "https://www.tbcbank.ge/",
+    "https://bankofgeorgia.ge/",
+    "https://www.magticom.ge/",
+    "https://www.silknet.com/",
+    "https://www.nbg.gov.ge/",
+    "https://ttc.com.ge/",
+    "https://www.gpost.ge/",
+    "https://www.psh.gov.ge/"
+  ],
+  "uncertain": [
+    "老一輩與部分城市居民仍夾雜俄語詞（магазин、сдача），AI 應理解但用喬治亞語回。",
+    "psh.gov.ge、sda.gov.ge 從主機連不上；cellfie.ge 回 500，運營商名稱以通稱寫入未逐頁核對。",
+    "Metromoney 卡已逐步改為銀行卡直接刷，名稱流行度不確定。"
+  ]
+}

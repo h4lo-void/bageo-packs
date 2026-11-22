@@ -1,0 +1,80 @@
+{
+  "country": "ae",
+  "parent": "gulf",
+  "name": {
+    "en": "United Arab Emirates",
+    "native": "الإمارات العربية المتحدة",
+    "zh": "阿聯酋"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Hand the parcel to building reception or security, leave it at the door, or collect at Emirates Post",
+    "zh": "交給大樓櫃台或保全、放在門口，或到 Emirates Post 自取"
+  },
+  "readback": {
+    "en": "Mobiles start 05, then 3-3-4; 0 as صفر; amounts in dirhams; 12-hour clock; day before month",
+    "zh": "手機以 05 開頭再唸 3-3-4，0 唸 صفر；金額用迪拉姆；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A UAE Pass 'update', a frozen-account call, or a CID or Dubai Police fine link is a scam",
+    "zh": "要更新 UAE Pass、說帳戶被凍結，或發刑警／杜拜警察罰款連結，都是詐騙"
+  },
+  "habits": {
+    "en": "Ask شحالك, not شلونك. Return السلام عليكم. أستاذ is safe with strangers. Short English asides are common in Dubai.",
+    "zh": "問候用 شحالك，不用 شلونك。要回禮 السلام عليكم。對生人稱 أستاذ。杜拜常夾英語。"
+  },
+  "stall_local": {
+    "en": "UAE Pass is asking for a fresh face scan, and the line keeps breaking up in the majlis.",
+    "zh": "卡在 UAE Pass 要再做一次人臉驗證，且客廳通話一直斷斷續續。"
+  },
+  "vocab": {
+    "bank": [
+      "UAE Pass",
+      "درهم",
+      "تحويل",
+      "بطاقة",
+      "OTP"
+    ],
+    "delivery": [
+      "الاستقبال",
+      "الأمن",
+      "Emirates Post",
+      "الباب",
+      "صندوق البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "這是沙烏地政府平台名稱，阿聯酋數位身分是 UAE Pass"
+      }
+    },
+    {
+      "word": "شلونك",
+      "reason": {
+        "zh": "科威特、卡達與中部沙烏地常用；阿聯酋口語更常說 شحالك"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep brief blessings and the five steps, but use Emirati شحالك and local titles. A little English mixed in is natural in Dubai. Do not sound Egyptian, and do not reach for Saudi Absher wording.",
+    "zh": "祝福仍要簡短、五級不變，但改用阿聯酋的 شحالك 與當地稱謂。杜拜夾一點英語自然。不要像埃及話，也不要用沙烏地 أبشر 那套詞。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://mohap.gov.ae/en/w/safeguarding-uae-pass-a-guide-to-a-secure-digital-identity",
+    "https://www.khaleejtimes.com/uae/uae-new-scam-alert-have-you-received-this-fake-dubai-police-message-asking-you-to-pay-traffic-fines",
+    "https://gulfnews.com/living-in-uae/safety-security/stay-vigilant-11-common-scams-exposed-by-uae-authorities-1.1732026136912",
+    "https://www.emiratespost.ae/scam-prevention",
+    "https://openarabic.org/common-arabic-phrases/"
+  ],
+  "uncertain": [
+    "05 後面口頭是否一律照 3-3-4 分段，未找到電信官方口誦規定。",
+    "大樓櫃台代收與放門口哪個較常見，沒有全國統計。"
+  ]
+}

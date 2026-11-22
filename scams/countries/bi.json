@@ -1,0 +1,123 @@
+{
+  "name": "Burundi",
+  "name_local": "Uburundi",
+  "iso": "bi",
+  "calling_code": "+257",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Burundi's telecom regulator ARCT, together with the police cybercrime unit, has published a ten-point Kirundi warning list on mobile-money theft via Lumicash and EcoCash; the state news agency reports the judicial police recorded cyber-fraud losses through those wallets throughout 2024.",
+  "cross_border_note": "Contact is mostly in Kirundi or French by call, SMS, WhatsApp or Facebook, often copying a Lumitel or Econet staff member or a Lumicash credit message.",
+  "scams": [
+    {
+      "id": "bi_fake_operator_reregistration_code",
+      "typology": "otp_theft",
+      "name": "Faux agent Lumitel ou Econet demandant un code",
+      "name_en": "Fake Lumitel or Econet agent asking for a code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "réenregistrement",
+        "code reçu",
+        "Lumicash",
+        "EcoCash"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "donnez-moi le code que vous venez de recevoir",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "nous refaisons l'enregistrement des numéros",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "envoyez le code pour confirmer votre ligne",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller says he works for Lumitel or Econet, claims numbers are being re-registered, and asks the subscriber to pass on a code that arrives by SMS; ARCT and the police say giving it leads to the wallet being emptied.",
+      "legit_en": "ARCT and the police cybercrime unit tell users never to give any secret code or ID number to someone who contacted them, and to call the operator's own free line at once if money leaves the wallet.",
+      "bait_tactics": [
+        "Ce téléphone Lumitel est celui du bureau et je n'ai pas le droit d'y lire les messages.",
+        "Le message est arrivé en kirundi et je ne vois pas de code dedans."
+      ],
+      "sources": [
+        "https://arct.gov.bi/2024/03/05/twibukanye-amwe-mumayeri-abasuma-bakoresha-mugushaka-kwiba-amafaranga-biciye-kumaterefone-ngendanwa/",
+        "https://arct.gov.bi/2022/11/16/communice-aux-utilisateurs-de-services-financiers-sur-telephone-mobile-lumicash-et-ecocash/"
+      ]
+    },
+    {
+      "id": "bi_fake_lumicash_credit_sms",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux SMS de crédit Lumicash suivi d'un renvoi demandé",
+      "name_en": "Fake Lumicash credit SMS followed by a send-back request",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "transfert reçu",
+        "renvoyer l'argent",
+        "message Lumicash",
+        "erreur de numéro"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "je vous ai envoyé l'argent par erreur",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "renvoyez une partie tout de suite",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An SMS styled like a Lumicash notice reports money received, then a caller asks the target to forward part of it; ARCT notes it is only a text, so the target sends real funds of their own.",
+      "legit_en": "ARCT asks users to confirm the number and transaction before sending, and to report errors to the provider's free line and then the judicial police within two days.",
+      "bait_tactics": [
+        "Le solde Lumicash affiché sur mon écran n'a pas bougé depuis ce matin."
+      ],
+      "sources": [
+        "https://arct.gov.bi/2024/03/05/twibukanye-amwe-mumayeri-abasuma-bakoresha-mugushaka-kwiba-amafaranga-biciye-kumaterefone-ngendanwa/",
+        "https://arct.gov.bi/2022/11/16/communice-aux-utilisateurs-de-services-financiers-sur-telephone-mobile-lumicash-et-ecocash/"
+      ]
+    },
+    {
+      "id": "bi_old_friend_urgent_transfer",
+      "typology": "guess_who",
+      "name": "Faux ami ou proche en urgence",
+      "name_en": "Supposed friend or relative in urgent need",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "on se connaît",
+        "problème urgent",
+        "WhatsApp",
+        "Facebook"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "tu ne me reconnais pas, on s'est déjà parlé",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "j'ai un souci urgent, envoie-moi de l'argent",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An unknown number writes or calls as a friend, boyfriend or senior official met before and asks for an urgent mobile-money transfer, sometimes framed as a job or favour.",
+      "legit_en": "ARCT advises sending money only to someone you truly know and checking calmly whenever an unknown number claims to need or offer help.",
+      "bait_tactics": [
+        "Je ne retrouve pas ce prénom dans mes contacts de Bujumbura."
+      ],
+      "sources": [
+        "https://arct.gov.bi/2024/03/05/twibukanye-amwe-mumayeri-abasuma-bakoresha-mugushaka-kwiba-amafaranga-biciye-kumaterefone-ngendanwa/"
+      ]
+    }
+  ]
+}

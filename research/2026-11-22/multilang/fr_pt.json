@@ -1,0 +1,90 @@
+{
+  "region": "fr",
+  "lang": "pt",
+  "hello": {
+    "hello": "Estou?",
+    "hello_again": "Pois, diga?"
+  },
+  "habits": {
+    "en": "Tu with friends, você or o senhor at offices. Mix CAF, sécu, préfecture, RIB; European Portuguese, not Brazilian forms.",
+    "zh": "熟友用 tu，機關較正式。夾 CAF、sécu、préfecture、RIB；用歐洲葡語，不用巴西說法。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friends in France use tu, drop CAF or sécu into European Portuguese, and answer está bem without a stiff opener.",
+        "zh": "在法國跟熟友用 tu，CAF、sécu 夾進歐洲葡語，不必生硬開場，回 está bem。"
+      },
+      "2": {
+        "en": "Warm Portuguese in France: stay with tu until they formalise; after a préfecture point, a light pois, compreendi suffices.",
+        "zh": "法國葡語先用 tu，對方改正式再跟上；聽完 préfecture，輕聲回 pois, compreendi。"
+      },
+      "3": {
+        "en": "Everyday European Portuguese in France: one full sentence per matter, leaving RIB or carte Vitale in French as spoken.",
+        "zh": "法國的歐洲葡語日常通話：每件事回完整一句，RIB 或 carte Vitale 照口頭直接講法語。"
+      },
+      "4": {
+        "en": "O senhor or você at the CAF or a clinic; keep French official names, and handle the request first.",
+        "zh": "對 CAF 或診所用 o senhor 或 você，機關名保持法語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Portuguese: formal address, recap the RIB or contract point, then close cleanly.",
+        "zh": "商務葡語用正式稱呼，覆述 RIB 或合約要點後，乾脆收線。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Portuguese helper in France answers está bem, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆法國葡語先回 está bem，用夾法語的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match tu or formal address; jot the CAF or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 tu 或正式稱呼；記下 CAF 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A clear Portuguese assistant in France answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "口齒清楚的法國葡語助理先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite formal Portuguese: restate the sécu or préfecture point, then confirm it goes to {owner}.",
+        "zh": "禮貌正式葡語：覆述 sécu 或 préfecture 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: titles, itemise the RIB or file they named, and close after the handoff.",
+        "zh": "為{owner}任正式助理：加上稱謂，對齊 RIB 或檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Estou? Olá, tudo bem? Diz, está bem.",
+      "Pois, diga, estou a ouvir, fale à vontade.",
+      "Olá. É da CAF? Está bem, já anotei.",
+      "Bom dia, obrigado pela chamada. Compreendi, trato disso.",
+      "Bom dia, obrigado por ligar. Já ficou tudo anotado."
+    ],
+    "a": [
+      "Estou? Ele não está, diga-me, eu transmito.",
+      "Pois, atendo eu, deixe a mensagem.",
+      "Olá. Anoto e transmito-lhe.",
+      "Bom dia, obrigado pela chamada. Anoto e digo ao {owner}.",
+      "Bom dia, obrigado por ligar. Aponto os itens e transmito."
+    ]
+  },
+  "diff_from_home": [
+    "法國的葡萄牙移民社群多用歐洲葡語，電話裡常夾 CAF、sécu、préfecture、RIB、carte Vitale，不要改成巴西的 CPF、INSS 說法。",
+    "動詞進行體傾向歐洲的 estar a + 不定式，少用巴西的 gerúndio。",
+    "手機在法國語境說 portable，不要用巴西的 celular 來指法國號碼。",
+    "對熟友可用 tu，對機關用 o senhor／a senhora 或較謹慎的 você。"
+  ],
+  "sources": [
+    "https://www.insee.fr/fr/statistiques/6793260?sommaire=6793391",
+    "https://www.caf.fr/",
+    "https://www.ameli.fr/",
+    "https://www.francetravail.fr/"
+  ],
+  "uncertain": [
+    "近年亦有巴西人旅居法國，若對方明顯用巴西葡語，用詞應跟著調整，本檔預設為歐洲葡語社群。",
+    "第二代在電話中改用法語的比例，缺少新的口語量化資料。"
+  ]
+}

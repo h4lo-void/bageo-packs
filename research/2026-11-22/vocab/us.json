@@ -1,0 +1,825 @@
+{
+  "region": "us",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "Zelle",
+          "en": "person-to-person bank transfer, widely used (Zelle)"
+        },
+        {
+          "term": "checking account",
+          "en": "everyday transaction account (checking account)"
+        },
+        {
+          "term": "debit card",
+          "en": "debit card, everyday US wording"
+        },
+        {
+          "term": "routing number",
+          "en": "ABA routing number, spoken as routing number, no long digits unless asked"
+        },
+        {
+          "term": "direct deposit",
+          "en": "payroll or benefit deposit (direct deposit)"
+        },
+        {
+          "term": "online banking",
+          "en": "online or app banking (online banking), the US usage"
+        },
+        {
+          "term": "wire",
+          "en": "wire transfer, usually for larger or official payments"
+        },
+        {
+          "term": "savings account",
+          "en": "savings account, the US usage"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "front porch",
+          "en": "front porch, very common leave-at spot"
+        },
+        {
+          "term": "mailroom",
+          "en": "mailroom"
+        },
+        {
+          "term": "package locker",
+          "en": "parcel locker, including Amazon Locker or building lockers (package locker)"
+        },
+        {
+          "term": "mailbox",
+          "en": "mailbox, not always used for larger parcels"
+        },
+        {
+          "term": "front desk",
+          "en": "front desk or doorman"
+        },
+        {
+          "term": "USPS",
+          "en": "United States Postal Service (USPS)"
+        },
+        {
+          "term": "UPS",
+          "en": "UPS"
+        },
+        {
+          "term": "FedEx",
+          "en": "FedEx"
+        }
+      ],
+      "government": [
+        {
+          "term": "Social Security",
+          "en": "Social Security, also SSA"
+        },
+        {
+          "term": "ITIN or SSN context",
+          "en": "Social Security number, do not read it out unless the owner asks (ITIN or SSN context)"
+        },
+        {
+          "term": "DMV",
+          "en": "driver and vehicle office, name varies by state (DMV)"
+        },
+        {
+          "term": "IRS",
+          "en": "federal tax agency (IRS)"
+        },
+        {
+          "term": "passport",
+          "en": "passport, the US usage"
+        },
+        {
+          "term": "green card",
+          "en": "permanent resident card, if relevant (green card)"
+        },
+        {
+          "term": "state ID",
+          "en": "state identity card (state ID)"
+        },
+        {
+          "term": "USCIS",
+          "en": "immigration services, if relevant (USCIS)"
+        }
+      ],
+      "health": [
+        {
+          "term": "insurance card",
+          "en": "health insurance card"
+        },
+        {
+          "term": "primary care",
+          "en": "primary-care doctor, also PCP (primary care)"
+        },
+        {
+          "term": "pharmacy",
+          "en": "pharmacy, also drugstore, the US usage"
+        },
+        {
+          "term": "ER",
+          "en": "emergency room (ER), the US usage"
+        },
+        {
+          "term": "urgent care",
+          "en": "urgent care clinic"
+        },
+        {
+          "term": "copay",
+          "en": "copay"
+        },
+        {
+          "term": "Medicare",
+          "en": "federal insurance for eligible older or disabled people (Medicare)"
+        },
+        {
+          "term": "Medicaid",
+          "en": "state-federal insurance for eligible lower-income people (Medicaid)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "cell phone",
+          "en": "mobile phone (cell phone)"
+        },
+        {
+          "term": "cell plan",
+          "en": "mobile plan (cell plan)"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid, the US usage"
+        },
+        {
+          "term": "phone number port",
+          "en": "number porting (phone number port)"
+        },
+        {
+          "term": "carrier",
+          "en": "mobile carrier"
+        },
+        {
+          "term": "Wi-Fi",
+          "en": "Wi-Fi"
+        },
+        {
+          "term": "SIM or eSIM",
+          "en": "SIM or eSIM"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Zelle",
+          "en": "Zelle"
+        },
+        {
+          "term": "Venmo",
+          "en": "Venmo, common person-to-person app"
+        },
+        {
+          "term": "PayPal",
+          "en": "PayPal"
+        },
+        {
+          "term": "Cash App",
+          "en": "Cash App"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card, the US usage"
+        },
+        {
+          "term": "debit card",
+          "en": "debit card, everyday US wording"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "Apple Pay"
+        }
+      ],
+      "transport": [
+        {
+          "term": "subway",
+          "en": "subway, in cities that have one"
+        },
+        {
+          "term": "bus",
+          "en": "bus, the US usage"
+        },
+        {
+          "term": "Uber",
+          "en": "Uber"
+        },
+        {
+          "term": "Lyft",
+          "en": "Lyft"
+        },
+        {
+          "term": "Amtrak",
+          "en": "intercity rail (Amtrak)"
+        },
+        {
+          "term": "metro card",
+          "en": "local transit card, name varies by city (metro card)"
+        },
+        {
+          "term": "rideshare",
+          "en": "rideshare"
+        },
+        {
+          "term": "parking garage",
+          "en": "parking garage"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartment",
+          "en": "apartment, the US usage"
+        },
+        {
+          "term": "doorman",
+          "en": "doorman, in some buildings"
+        },
+        {
+          "term": "front desk",
+          "en": "front desk, the US usage"
+        },
+        {
+          "term": "buzzer",
+          "en": "door buzzer / intercom"
+        },
+        {
+          "term": "mailbox",
+          "en": "mailbox, the US usage"
+        },
+        {
+          "term": "HOA",
+          "en": "homeowners association (HOA)"
+        },
+        {
+          "term": "building manager",
+          "en": "building or property manager (building manager)"
+        },
+        {
+          "term": "unit",
+          "en": "apartment unit"
+        }
+      ],
+      "school": [
+        {
+          "term": "daycare",
+          "en": "daycare or childcare"
+        },
+        {
+          "term": "elementary school",
+          "en": "elementary school, the US usage"
+        },
+        {
+          "term": "middle school",
+          "en": "middle school"
+        },
+        {
+          "term": "high school",
+          "en": "high school, the US usage"
+        },
+        {
+          "term": "homeroom",
+          "en": "homeroom"
+        },
+        {
+          "term": "homework",
+          "en": "homework, the US usage"
+        },
+        {
+          "term": "PTA",
+          "en": "parent-teacher association (PTA), the US usage"
+        }
+      ],
+      "money": [
+        {
+          "term": "dollar",
+          "en": "US dollar"
+        },
+        {
+          "term": "bucks",
+          "en": "informal dollars (bucks), the US usage"
+        },
+        {
+          "term": "grand",
+          "en": "informal thousand dollars (grand)"
+        },
+        {
+          "term": "Zelle",
+          "en": "send money (Zelle)"
+        },
+        {
+          "term": "cash",
+          "en": "cash, the US usage"
+        },
+        {
+          "term": "change",
+          "en": "change, the US usage"
+        },
+        {
+          "term": "wire",
+          "en": "wire transfer"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, with a.m. if a clock time is given"
+        },
+        {
+          "term": "this afternoon",
+          "en": "this afternoon, with p.m. if needed"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, the US usage"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, Monday to Friday"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, the US usage"
+        },
+        {
+          "term": "after work",
+          "en": "after the workday (after work)"
+        },
+        {
+          "term": "this week",
+          "en": "this week, the current calendar week in American English"
+        },
+        {
+          "term": "on the hour",
+          "en": "time often given with a.m. or p.m (on the hour)"
+        }
+      ],
+      "work": [
+        {
+          "term": "at the office",
+          "en": "at the office, the US usage"
+        },
+        {
+          "term": "off work",
+          "en": "off work, the US usage"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, also OT, the US usage"
+        },
+        {
+          "term": "PTO",
+          "en": "paid time off (PTO)"
+        },
+        {
+          "term": "sick day",
+          "en": "sick day, the US usage"
+        },
+        {
+          "term": "boss",
+          "en": "boss, also manager, the US usage"
+        },
+        {
+          "term": "business trip",
+          "en": "business trip, the US usage"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home, also remote (WFH)"
+        }
+      ]
+    },
+    "es": {
+      "bank": [
+        {
+          "term": "Zelle",
+          "en": "Zelle, se dice así"
+        },
+        {
+          "term": "cuenta de cheques",
+          "en": "checking account (cuenta de cheques)"
+        },
+        {
+          "term": "tarjeta de débito",
+          "en": "debit card, everyday US wording"
+        },
+        {
+          "term": "número de ruta",
+          "en": "routing number (número de ruta)"
+        },
+        {
+          "term": "depósito directo",
+          "en": "direct deposit (depósito directo)"
+        },
+        {
+          "term": "banca en línea",
+          "en": "online banking (banca en línea)"
+        },
+        {
+          "term": "transferencia",
+          "en": "transfer or wire, context matters (transferencia)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "porche",
+          "en": "front porch, also se dice porch en inglés (porche)"
+        },
+        {
+          "term": "sala de correo",
+          "en": "mailroom (sala de correo)"
+        },
+        {
+          "term": "casillero",
+          "en": "package locker (casillero)"
+        },
+        {
+          "term": "buzón",
+          "en": "mailbox (buzón) [the US]"
+        },
+        {
+          "term": "recepción",
+          "en": "front desk (recepción)"
+        },
+        {
+          "term": "correo",
+          "en": "USPS, also el correo"
+        },
+        {
+          "term": "paquetería",
+          "en": "UPS or FedEx, often named in English (paquetería)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Seguro Social",
+          "en": "Social Security (Seguro Social)"
+        },
+        {
+          "term": "IRS",
+          "en": "impuestos federales (IRS)"
+        },
+        {
+          "term": "DMV",
+          "en": "oficina de licencias, el nombre varía (DMV)"
+        },
+        {
+          "term": "pasaporte",
+          "en": "passport (pasaporte)"
+        },
+        {
+          "term": "residencia",
+          "en": "green card / residencia permanente"
+        },
+        {
+          "term": "identificación del estado",
+          "en": "state ID (identificación del estado)"
+        },
+        {
+          "term": "USCIS",
+          "en": "inmigración (USCIS)"
+        }
+      ],
+      "health": [
+        {
+          "term": "tarjeta de seguro",
+          "en": "insurance card (tarjeta de seguro)"
+        },
+        {
+          "term": "médico de cabecera",
+          "en": "primary care / PCP (médico de cabecera)"
+        },
+        {
+          "term": "farmacia",
+          "en": "pharmacy (farmacia) [the US]"
+        },
+        {
+          "term": "sala de emergencia",
+          "en": "ER (sala de emergencia)"
+        },
+        {
+          "term": "urgent care",
+          "en": "urgent care, often said in English"
+        },
+        {
+          "term": "copago",
+          "en": "copay (copago)"
+        },
+        {
+          "term": "Medicaid",
+          "en": "Medicaid, also Medi-Cal in California"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "celular",
+          "en": "cell phone (celular)"
+        },
+        {
+          "term": "plan de celular",
+          "en": "mobile plan (plan de celular)"
+        },
+        {
+          "term": "prepago",
+          "en": "prepaid (prepago) [the US]"
+        },
+        {
+          "term": "compañía",
+          "en": "carrier (compañía)"
+        },
+        {
+          "term": "pasar el número",
+          "en": "port the number (pasar el número)"
+        },
+        {
+          "term": "Wi-Fi",
+          "en": "Wi-Fi"
+        },
+        {
+          "term": "chip",
+          "en": "SIM, also SIM (chip)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Zelle",
+          "en": "Zelle"
+        },
+        {
+          "term": "Venmo",
+          "en": "Venmo"
+        },
+        {
+          "term": "PayPal",
+          "en": "PayPal"
+        },
+        {
+          "term": "Cash App",
+          "en": "Cash App"
+        },
+        {
+          "term": "tarjeta de crédito",
+          "en": "credit card (tarjeta de crédito)"
+        },
+        {
+          "term": "tarjeta de débito",
+          "en": "debit card, everyday US wording"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "Apple Pay"
+        }
+      ],
+      "transport": [
+        {
+          "term": "metro",
+          "en": "subway / metro"
+        },
+        {
+          "term": "camión",
+          "en": "bus, in Mexican-influenced US Spanish; autobús also used (camión)"
+        },
+        {
+          "term": "Uber",
+          "en": "Uber"
+        },
+        {
+          "term": "Lyft",
+          "en": "Lyft"
+        },
+        {
+          "term": "tren",
+          "en": "train / Amtrak (tren)"
+        },
+        {
+          "term": "tarjeta del metro",
+          "en": "transit card (tarjeta del metro)"
+        },
+        {
+          "term": "rideshare",
+          "en": "rideshare"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartamento",
+          "en": "apartment (apartamento) [the US]"
+        },
+        {
+          "term": "portero",
+          "en": "doorman (portero)"
+        },
+        {
+          "term": "recepción",
+          "en": "front desk (recepción)"
+        },
+        {
+          "term": "intercomunicador",
+          "en": "buzzer / intercom (intercomunicador)"
+        },
+        {
+          "term": "buzón",
+          "en": "mailbox (buzón) [the US]"
+        },
+        {
+          "term": "administrador",
+          "en": "building manager (administrador)"
+        },
+        {
+          "term": "unidad",
+          "en": "unit (unidad)"
+        }
+      ],
+      "school": [
+        {
+          "term": "guardería",
+          "en": "daycare (guardería)"
+        },
+        {
+          "term": "escuela primaria",
+          "en": "elementary school (escuela primaria)"
+        },
+        {
+          "term": "middle school",
+          "en": "middle school, often in English"
+        },
+        {
+          "term": "high school",
+          "en": "high school, often in English"
+        },
+        {
+          "term": "tarea",
+          "en": "homework (tarea)"
+        },
+        {
+          "term": "maestra",
+          "en": "teacher (maestra)"
+        },
+        {
+          "term": "PTA",
+          "en": "PTA"
+        }
+      ],
+      "money": [
+        {
+          "term": "dólar",
+          "en": "US dollar (dólar)"
+        },
+        {
+          "term": "plata",
+          "en": "informal money, in some communities (plata)"
+        },
+        {
+          "term": "mil",
+          "en": "thousand (mil)"
+        },
+        {
+          "term": "Zelle",
+          "en": "enviar dinero (Zelle)"
+        },
+        {
+          "term": "efectivo",
+          "en": "cash (efectivo) [the US]"
+        },
+        {
+          "term": "cambio",
+          "en": "change (cambio) [the US]"
+        },
+        {
+          "term": "transferencia",
+          "en": "transfer (transferencia) [the US]"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "esta mañana",
+          "en": "this morning, with a.m. if a clock time is given"
+        },
+        {
+          "term": "esta tarde",
+          "en": "this afternoon, with p.m. if needed"
+        },
+        {
+          "term": "esta noche",
+          "en": "tonight (esta noche, the US)"
+        },
+        {
+          "term": "entre semana",
+          "en": "a weekday, Monday to Friday"
+        },
+        {
+          "term": "fin de semana",
+          "en": "the weekend (fin de semana, the US)"
+        },
+        {
+          "term": "después del trabajo",
+          "en": "after the workday"
+        },
+        {
+          "term": "esta semana",
+          "en": "esta semana, the current week in US Spanish"
+        }
+      ],
+      "work": [
+        {
+          "term": "en el trabajo",
+          "en": "at work (en el trabajo)"
+        },
+        {
+          "term": "salir del trabajo",
+          "en": "get off work (salir del trabajo)"
+        },
+        {
+          "term": "tiempo extra",
+          "en": "overtime, also overtime in English (tiempo extra)"
+        },
+        {
+          "term": "PTO",
+          "en": "PTO, often said in English"
+        },
+        {
+          "term": "jefe",
+          "en": "boss (jefe) [the US]"
+        },
+        {
+          "term": "compañía",
+          "en": "company (compañía)"
+        },
+        {
+          "term": "desde la casa",
+          "en": "work from home, also WFH (desde la casa)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "current account",
+      "use_instead": "checking account",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "sort code",
+      "use_instead": "routing number",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "Interac e-Transfer",
+      "use_instead": "Zelle, Venmo, bank transfer",
+      "where_it_is_from": "CA"
+    },
+    {
+      "word": "PayID",
+      "use_instead": "Zelle, Venmo, ACH, wire",
+      "where_it_is_from": "AU"
+    },
+    {
+      "word": "chemist",
+      "use_instead": "pharmacy, drugstore",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "letterbox",
+      "use_instead": "mailbox",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "mobile 當唯一說法",
+      "use_instead": "cell phone 更常用，mobile 也聽得到",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "Gestionar 用墨西哥特有詞當全美預設，例如 desmadre 或 camión 當唯一公車詞",
+      "use_instead": "視對方口音：autobús、bus、metro；不要假設全美都用墨西哥口語",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "NHS",
+      "use_instead": "insurance, ER, urgent care, primary care",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "postcode 當唯一詞",
+      "use_instead": "ZIP code",
+      "where_it_is_from": "GB"
+    }
+  ],
+  "sources": [
+    "https://www.zellepay.com/",
+    "https://www.usps.com/",
+    "https://www.irs.gov/",
+    "https://www.ssa.gov/",
+    "https://www.medicare.gov/",
+    "https://www.medicaid.gov/"
+  ],
+  "uncertain": [
+    "美國西語口語因來源國（墨西哥、中美洲、加勒比、南美）差別大，「camión」當公車並非全國通用。",
+    "各城交通卡名稱不同（OMNY、Charlie Card 等），不能用一張全國卡名。"
+  ]
+}

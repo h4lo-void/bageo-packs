@@ -1,0 +1,81 @@
+{
+  "country": "cr",
+  "parent": "latam",
+  "name": {
+    "en": "Costa Rica",
+    "native": "Costa Rica",
+    "zh": "哥斯大黎加"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portón, conserjería, a neighbour, or Correos de Costa Rica",
+    "zh": "包裹交到 portón、conserjería、鄰居或郵局"
+  },
+  "readback": {
+    "en": "8-digit numbers often go 4-4; 0 as cero; day-month dates; colones (USD also appears)",
+    "zh": "八位號碼常照 4-4 唸，0 唸 cero；日期先日後月；用科朗，也可能聽到美元"
+  },
+  "fraud": {
+    "en": "A fake bank or SINPE Móvil call asking for codes or a transfer is a scam",
+    "zh": "假冒銀行或 SINPE Móvil 要驗證碼或轉帳的都是詐騙"
+  },
+  "habits": {
+    "en": "Usted is the everyday default, even with many friends. Vos with close intimates; tú can sound foreign. Use SINPE.",
+    "zh": "日常預設 usted，連許多朋友也這樣說。很熟才用 vos；tú 可能聽來不像本地。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a slow SINPE transfer, a closed portón, or heavy rain.",
+    "zh": "卡在 SINPE 轉帳遲遲未到、大門 portón 沒開，或正下大雨。"
+  },
+  "vocab": {
+    "bank": [
+      "SINPE Móvil",
+      "token",
+      "transferencia",
+      "tarjeta",
+      "cuenta"
+    ],
+    "delivery": [
+      "portón",
+      "conserjería",
+      "portería",
+      "Correos de Costa Rica",
+      "vecino"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "預設 tú",
+      "reason": {
+        "zh": "哥斯大黎加日常更常用 usted，tú 可能聽來不像當地人。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift levels 1–3 toward usted, not the parent's tú default; vos only with clearly close callers. Levels 4–5 stay formal usted. Mention SINPE, not Nequi.",
+    "zh": "1～3 格改以 usted 為主，不要照所屬地區預設 tú；只對明顯很熟的人用 vos。4～5 格維持正式 usted。改口說 SINPE，不要說 Nequi。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "此次未找到哥斯大黎加銀行公會的最新電話詐騙專頁，詐騙欄依 SINPE／銀行驗證碼常見手法，把握中等。",
+    "八位 4-4 唸法依常見書寫，未找到電信官方規範。",
+    "美元在日常報價中有多常用，未量化。"
+  ]
+}

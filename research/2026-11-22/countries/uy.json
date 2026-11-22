@@ -1,0 +1,88 @@
+{
+  "country": "uy",
+  "parent": "ar-uy",
+  "name": {
+    "en": "Uruguay",
+    "native": "Uruguay",
+    "zh": "烏拉圭"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Hola?",
+    "hello_again": "¿Hola, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portería, encargado, or a Correo Uruguayo branch",
+    "zh": "包裹交給 portería、encargado，或到 Correo Uruguayo 領"
+  },
+  "readback": {
+    "en": "Mobiles often 09X then 3-3; 0 as cero; day-month dates; pesos uruguayos",
+    "zh": "手機常唸 09X 再 3-3，0 唸 cero；日期先日後月；用烏拉圭比索"
+  },
+  "fraud": {
+    "en": "A fake BROU or Midinero call asking for keys, accounts or codes is a scam",
+    "zh": "假冒 BROU 或 Midinero 要金鑰、帳號或驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Vos (decime, tenés); usted for elders. Prefer bo, ta over che. Say auto, not carro. Accounts: número de cuenta, not CBU.",
+    "zh": "用 vos，長輩 usted。多用 bo、ta，少用 che。說 auto。帳號不說 CBU。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Midinero or the BROU app spinning on weak Wi-Fi, or glasses left in the kitchen.",
+    "zh": "卡在 Midinero 或 BROU App 因 Wi-Fi 差一直轉，或眼鏡忘在廚房。"
+  },
+  "vocab": {
+    "bank": [
+      "BROU",
+      "Midinero",
+      "número de cuenta",
+      "llave digital",
+      "homebanking"
+    ],
+    "delivery": [
+      "portería",
+      "encargado",
+      "Correo Uruguayo",
+      "sucursal",
+      "aviso de visita"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CBU",
+      "reason": {
+        "zh": "這是阿根廷帳戶識別碼；烏拉圭銀行與 Midinero 都說 número de cuenta。"
+      }
+    },
+    {
+      "word": "che",
+      "reason": {
+        "zh": "更像阿根廷口頭禪；烏拉圭更常說 bo、ta。"
+      }
+    },
+    {
+      "word": "carro",
+      "reason": {
+        "zh": "烏拉圭與阿根廷一樣說 auto，不說 carro。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Close to the parent: vos at levels 1–3, usted for elders or strangers at 4–5. A touch softer than porteño speech; use bo and ta rather than che, joya or de una as the default fillers.",
+    "zh": "整體接近所屬地區：1～3 格用 vos，4～5 格對長輩或陌生人用 usted。語氣可略柔、少港城腔；口頭禪優先 bo、ta，不要預設 che、joya、de una。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/publicaciones/recomendaciones-usuarios-del-sistema-financiero-para-evitar-estafas",
+    "https://www.subrayado.com.uy/una-venta-internet-y-una-llamada-horas-un-supuesto-numero-del-brou-los-estafaron-200-mil-pesos-n941836",
+    "https://www.midinero.com.uy/preguntas-frecuentes/",
+    "https://www.correo.com.uy/paquetes-nacionales"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "未找到官方文件寫明烏拉圭完全不用 CBU；但 BROU／Midinero 公開說明都稱 número de cuenta。",
+    "手機號碼 09X 後再 3-3 的唸法未找到電信官方規範，僅依常見書寫。"
+  ]
+}

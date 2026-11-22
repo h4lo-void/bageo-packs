@@ -1,0 +1,260 @@
+{
+  "lang": "my",
+  "backchannels": {
+    "direction": "ဟုတ်ကဲ့ shows polite listening; အင်း is casual; quick ဟုတ်ပြီ ဟုတ်ပြီ can sound dismissive.",
+    "examples": [
+      {
+        "text": "ဟုတ်ကဲ့။",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ဟုတ်ကဲ့ ခင်ဗျာ။",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "အင်း။",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ဟုတ်တယ်။",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ဟုတ်ပြီ ဟုတ်ပြီ။",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "ဟုတ်လား? for surprise; စိတ်မကောင်းပါဘူး for sympathy; ဝမ်းသာပါတယ် for good news.",
+    "examples": [
+      {
+        "text": "ဟုတ်လား။",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "တကယ်လား။",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "စိတ်မကောင်းပါဘူး ရှင်။",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ဝမ်းသာပါတယ်။",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "နည်းနည်း ခက်ပါတယ်။",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (မကြားရဘူး) or the line is weak; request a louder ကျယ်ကျယ် voice.",
+    "examples": [
+      {
+        "text": "အသံ သိပ်မကြားရပါဘူး။",
+        "style": "polite"
+      },
+      {
+        "text": "လိုင်း မကောင်းဘူး။",
+        "style": "casual"
+      },
+      {
+        "text": "အသံ ပြတ်နေတယ်။",
+        "style": "casual"
+      },
+      {
+        "text": "နည်းနည်း ကျယ်ကျယ် ပြောပေးပါ။",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "ဘာပြောလိုက်တာလဲ asks for a replay; ask names spelled and read digits back.",
+    "examples": [
+      {
+        "text": "ဘာပြောလိုက်တာလဲ ခင်ဗျာ။",
+        "style": "polite"
+      },
+      {
+        "text": "ထပ်ပြောပေးပါဦး။",
+        "style": "polite"
+      },
+      {
+        "text": "နာမည် စာလုံးပေါင်း ပြောပေးပါ။",
+        "style": "polite"
+      },
+      {
+        "text": "နံပါတ် 12345678 ဟုတ်လား။",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ဘယ်သူ ပြောနေတာလဲ with a polite particle; you may say the phone is {owner}'s.",
+    "examples": [
+      {
+        "text": "ဘယ်သူ ပြောနေတာလဲ ခင်ဗျာ။",
+        "style": "polite"
+      },
+      {
+        "text": "ဘယ်ကနေ ဆက်တာလဲ ရှင်။",
+        "style": "polite"
+      },
+      {
+        "text": "ဒါ {owner} ရဲ့ ဖုန်းပါ၊ ဘယ်သူလဲ။",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say it's a wrong number (နံပါတ်မှားနေတယ်) and nobody of that name is here.",
+    "examples": [
+      {
+        "text": "နံပါတ် မှားနေပါတယ်။",
+        "style": "polite"
+      },
+      {
+        "text": "ဒီမှာ အဲ့နာမည်နဲ့ လူ မရှိပါဘူး။",
+        "style": "polite"
+      },
+      {
+        "text": "ဖုန်းမှားတယ်။",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "ပြောပေးပါ့မယ် says {owner} will get it; no call-back time.",
+    "examples": [
+      {
+        "text": "{owner} ကို ပြောပေးပါ့မယ်။",
+        "style": "polite"
+      },
+      {
+        "text": "ပြောလိုက်မယ်။",
+        "style": "casual"
+      },
+      {
+        "text": "သတင်းပါးပေးပါ့မယ်။",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ကျေးဇူးပါ then မလိုပါဘူး; soft and short.",
+    "examples": [
+      {
+        "text": "ကျေးဇူးပါ၊ မလိုအပ်ပါဘူး။",
+        "style": "polite"
+      },
+      {
+        "text": "စိတ်မဝင်စားပါဘူး ခင်ဗျာ။",
+        "style": "polite"
+      },
+      {
+        "text": "မလိုဘူး။",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Pushed again, recall the earlier refusal and ask for no more ဖုန်း to this line.",
+    "examples": [
+      {
+        "text": "အရင်ကတည်းက မလိုဘူးလို့ ပြောပြီးပါပြီ။",
+        "style": "polite"
+      },
+      {
+        "text": "ဒီနံပါတ်ကို ထပ်မဆက်ပါနဲ့။",
+        "style": "polite"
+      },
+      {
+        "text": "စာရင်းထဲက ဒီနံပါတ်ကို ဖယ်ပေးပါ။",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ဦး for older men, ဒေါ်/အန်တီ for women, ကို/မ for peers, ဆရာ for respect.",
+    "examples": [
+      {
+        "text": "ဦးဦး",
+        "style": "polite"
+      },
+      {
+        "text": "အန်တီ",
+        "style": "polite"
+      },
+      {
+        "text": "ကိုကို",
+        "style": "casual"
+      },
+      {
+        "text": "မမ",
+        "style": "casual"
+      },
+      {
+        "text": "ဆရာ",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like ဝန်ဆောင်မှုပေးရတာ ဝမ်းသာပါတယ် sound like a telecom recording.",
+    "examples": [
+      {
+        "text": "ဝန်ဆောင်မှုပေးရတာ ဝမ်းသာပါတယ်။",
+        "style": "polite"
+      },
+      {
+        "text": "သင့်ဖုန်းခေါ်ဆိုမှုသည် ကျွန်ုပ်တို့အတွက် အရေးကြီးပါသည်။",
+        "style": "polite"
+      },
+      {
+        "text": "ဘာကူညီပေးရမလဲ။",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using မင်း/နင် with elders, or asking income, ethnicity or politics early, is rude.",
+    "examples": [
+      {
+        "text": "နင် ဘယ်သူလဲ။",
+        "style": "casual"
+      },
+      {
+        "text": "လစာ ဘယ်လောက်လဲ။",
+        "style": "casual"
+      },
+      {
+        "text": "ဘယ်ပါတီလဲ။",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E1%80%9F%E1%80%AF%E1%80%90%E1%80%BA%E1%80%80%E1%80%B2%E1%80%B7",
+    "https://en.wikipedia.org/wiki/Burmese_language",
+    "https://en.wikipedia.org/wiki/Burmese_names"
+  ],
+  "uncertain": [
+    "Sentence-final politeness differs by speaker gender (ခင်ဗျာ male, ရှင် female); Bageo voice gender not known",
+    "Backchannels (ဟုတ်ကဲ့, အင်း, ဟုတ်တယ်) from dictionaries and usage, no call corpus",
+    "Burmese text rendering requires Unicode (not Zawgyi); examples are Unicode"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "country": "ag",
+  "parent": "us",
+  "name": {
+    "en": "Antigua and Barbuda",
+    "native": "Antigua and Barbuda",
+    "zh": "安地卡及巴布達"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good afternoon",
+    "hello_again": "Hello, good afternoon"
+  },
+  "delivery": {
+    "en": "Collect at the post office or arrange a courier drop; no detailed official doorstep guide was found",
+    "zh": "可到郵局領或請快遞約定投放；官方上門投遞細則此次沒找到"
+  },
+  "readback": {
+    "en": "Area code 268, then 3-3-4; 0 as zero; East Caribbean dollars; 12-hour time; day before month",
+    "zh": "區碼 268 再唸 3-3-4，0 唸 zero；東加勒比元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A caller pretending to be from Flow, Digicel or APUA, or asking details for a prize, is a scam",
+    "zh": "來電假冒 Flow、Digicel 或 APUA，或為了領獎向你要資料，都是詐騙"
+  },
+  "habits": {
+    "en": "With strangers, start Good afternoon and say mobile, not cell. Amounts are in East Caribbean dollars. Day first.",
+    "zh": "對生人先說 Good afternoon，並說 mobile 不說 cell。金額用東加勒比元。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "The Flow or Digicel app wants a new password, and I cannot reach the post office before closing.",
+    "zh": "Flow 或 Digicel App 要設新密碼，而且在關門前趕不到郵局。"
+  },
+  "vocab": {
+    "bank": [
+      "East Caribbean dollars",
+      "debit card",
+      "transfer",
+      "account"
+    ],
+    "delivery": [
+      "post office",
+      "courier",
+      "collection",
+      "St. John's"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是安地卡電信或銀行的慣用說法"
+      }
+    },
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局；本地警示主寫假冒電信人員"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國健保，不宜套用"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Polite and a little formal with unknown callers. Use APUA, Flow or Digicel names only to refuse impostors, and East Caribbean dollars, not US tax language.",
+    "zh": "對陌生來電客氣、稍正式。提到 APUA、Flow、Digicel 是為了識破假冒，金額用東加勒比元，不用美國稅務詞。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://antigua.news/2025/10/11/apua-warns-public-to-beware-of-imposters-and-scammers-targeting-telecom-customers-and-local-businesses",
+    "https://www.eccb-centralbank.org/news/eccb-advises-citizens-and-residents-to-protect-themselves-against-financial-scams"
+  ],
+  "uncertain": [
+    "安地卡郵政的上門投遞規則此次沒找到官方細頁，delivery 只寫郵局或快遞。",
+    "habits 裡 Good afternoon 是英式加勒比習慣，不是通話錄音統計。"
+  ]
+}

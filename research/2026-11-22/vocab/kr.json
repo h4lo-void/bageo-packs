@@ -1,0 +1,476 @@
+{
+  "region": "kr",
+  "vocab": {
+    "ko-KR": {
+      "bank": [
+        {
+          "term": "계좌이체",
+          "en": "bank transfer (계좌이체)"
+        },
+        {
+          "term": "입금",
+          "en": "deposit / incoming transfer (입금)"
+        },
+        {
+          "term": "출금",
+          "en": "withdrawal (출금)"
+        },
+        {
+          "term": "통장",
+          "en": "bank book / account (통장)"
+        },
+        {
+          "term": "체크카드",
+          "en": "debit card (체크카드)"
+        },
+        {
+          "term": "공동인증서",
+          "en": "joint digital certificate, formerly 공인인증서 (공동인증서)"
+        },
+        {
+          "term": "간편인증",
+          "en": "simplified login / authentication (간편인증)"
+        },
+        {
+          "term": "잔액",
+          "en": "account balance (잔액)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "택배",
+          "en": "parcel delivery (택배)"
+        },
+        {
+          "term": "무인택배함",
+          "en": "unmanned parcel locker (무인택배함)"
+        },
+        {
+          "term": "경비실",
+          "en": "apartment security desk, common drop-off (경비실)"
+        },
+        {
+          "term": "문 앞",
+          "en": "leave at the door (문 앞)"
+        },
+        {
+          "term": "편의점 택배",
+          "en": "send or pick up a parcel at a convenience store (편의점 택배)"
+        },
+        {
+          "term": "방문택배",
+          "en": "courier pickup at home (방문택배)"
+        },
+        {
+          "term": "송장번호",
+          "en": "tracking number (송장번호)"
+        },
+        {
+          "term": "반품",
+          "en": "return a shipment (반품)"
+        }
+      ],
+      "government": [
+        {
+          "term": "주민등록증",
+          "en": "national ID card (주민등록증)"
+        },
+        {
+          "term": "정부24",
+          "en": "Government24 portal (정부24)"
+        },
+        {
+          "term": "주민센터",
+          "en": "community centre / 행정복지센터 (주민센터)"
+        },
+        {
+          "term": "모바일 주민등록증",
+          "en": "mobile ID card (모바일 주민등록증)"
+        },
+        {
+          "term": "외국인등록증",
+          "en": "alien registration card (외국인등록증)"
+        },
+        {
+          "term": "주민등록등본",
+          "en": "certified copy of resident registration (주민등록등본)"
+        },
+        {
+          "term": "민원",
+          "en": "civil affairs / government request (민원)"
+        },
+        {
+          "term": "공인인증서",
+          "en": "older term still heard; official shift is 공동인증서 (공인인증서)"
+        }
+      ],
+      "health": [
+        {
+          "term": "건강보험",
+          "en": "National Health Insurance (건강보험)"
+        },
+        {
+          "term": "병원",
+          "en": "hospital (병원)"
+        },
+        {
+          "term": "약국",
+          "en": "pharmacy (약국)"
+        },
+        {
+          "term": "진료",
+          "en": "medical consultation (진료)"
+        },
+        {
+          "term": "접수",
+          "en": "check in at a clinic (접수)"
+        },
+        {
+          "term": "처방전",
+          "en": "prescription (처방전)"
+        },
+        {
+          "term": "실손보험",
+          "en": "private top-up health insurance, often shortened 실손 (실손보험)"
+        },
+        {
+          "term": "건강검진",
+          "en": "health checkup (건강검진)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "요금제",
+          "en": "mobile plan (요금제)"
+        },
+        {
+          "term": "알뜰폰",
+          "en": "budget MVNO (알뜰폰)"
+        },
+        {
+          "term": "번호이동",
+          "en": "number portability (번호이동)"
+        },
+        {
+          "term": "휴대폰",
+          "en": "mobile phone (휴대폰)"
+        },
+        {
+          "term": "데이터",
+          "en": "mobile data (데이터)"
+        },
+        {
+          "term": "통신사",
+          "en": "mobile carrier (통신사)"
+        },
+        {
+          "term": "약정",
+          "en": "contract period (약정)"
+        },
+        {
+          "term": "유심",
+          "en": "USIM / SIM card (유심)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "카카오페이",
+          "en": "Kakao Pay (카카오페이)"
+        },
+        {
+          "term": "네이버페이",
+          "en": "Naver Pay (네이버페이)"
+        },
+        {
+          "term": "토스",
+          "en": "Toss payments and banking app (토스)"
+        },
+        {
+          "term": "삼성페이",
+          "en": "Samsung Pay (삼성페이)"
+        },
+        {
+          "term": "계좌이체",
+          "en": "account transfer (계좌이체)"
+        },
+        {
+          "term": "체크카드",
+          "en": "debit card (체크카드)"
+        },
+        {
+          "term": "제로페이",
+          "en": "Zero Pay QR, often at smaller shops (제로페이)"
+        },
+        {
+          "term": "페이머니",
+          "en": "Kakao Pay Money balance (페이머니)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "지하철",
+          "en": "subway (지하철)"
+        },
+        {
+          "term": "버스",
+          "en": "bus (버스)"
+        },
+        {
+          "term": "티머니",
+          "en": "T-money transit card (티머니)"
+        },
+        {
+          "term": "카카오T",
+          "en": "Kakao T taxi and mobility app (카카오T)"
+        },
+        {
+          "term": "KTX",
+          "en": "high-speed rail (KTX)"
+        },
+        {
+          "term": "따릉이",
+          "en": "Seoul public bike, used as a generic idea in the capital (따릉이)"
+        },
+        {
+          "term": "환승",
+          "en": "transfer between bus and subway (환승)"
+        },
+        {
+          "term": "택시",
+          "en": "taxi (택시)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "아파트",
+          "en": "apartment complex, the usual housing form (아파트)"
+        },
+        {
+          "term": "경비실",
+          "en": "security office (경비실)"
+        },
+        {
+          "term": "관리사무소",
+          "en": "building management office (관리사무소)"
+        },
+        {
+          "term": "비밀번호",
+          "en": "door or lobby passcode (비밀번호)"
+        },
+        {
+          "term": "택배함",
+          "en": "parcel locker (택배함)"
+        },
+        {
+          "term": "오피스텔",
+          "en": "studio / officetel (오피스텔)"
+        },
+        {
+          "term": "인터폰",
+          "en": "intercom (인터폰)"
+        },
+        {
+          "term": "단지",
+          "en": "housing complex (단지)"
+        }
+      ],
+      "school": [
+        {
+          "term": "학원",
+          "en": "private academy / cram school (학원)"
+        },
+        {
+          "term": "초등학교",
+          "en": "elementary school (초등학교)"
+        },
+        {
+          "term": "유치원",
+          "en": "kindergarten (유치원)"
+        },
+        {
+          "term": "담임",
+          "en": "homeroom teacher (담임)"
+        },
+        {
+          "term": "하원",
+          "en": "leaving preschool or after-school care (하원)"
+        },
+        {
+          "term": "숙제",
+          "en": "homework (숙제)"
+        },
+        {
+          "term": "방학",
+          "en": "school vacation (방학)"
+        },
+        {
+          "term": "등원",
+          "en": "arriving at kindergarten or academy (등원)"
+        }
+      ],
+      "money": [
+        {
+          "term": "원",
+          "en": "won (원)"
+        },
+        {
+          "term": "만 원",
+          "en": "ten thousand won, usual unit for larger amounts (만 원)"
+        },
+        {
+          "term": "계좌이체",
+          "en": "transfer money (계좌이체)"
+        },
+        {
+          "term": "거스름돈",
+          "en": "change (거스름돈)"
+        },
+        {
+          "term": "현금",
+          "en": "cash (현금)"
+        },
+        {
+          "term": "수수료",
+          "en": "fee (수수료)"
+        },
+        {
+          "term": "송금",
+          "en": "remittance / send money (송금)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "오전",
+          "en": "morning (오전)"
+        },
+        {
+          "term": "오후",
+          "en": "afternoon (오후)"
+        },
+        {
+          "term": "저녁",
+          "en": "evening (저녁)"
+        },
+        {
+          "term": "평일",
+          "en": "weekday (평일)"
+        },
+        {
+          "term": "주말",
+          "en": "weekend (주말)"
+        },
+        {
+          "term": "이번 주",
+          "en": "this week (이번 주)"
+        },
+        {
+          "term": "다음 주",
+          "en": "next week (다음 주)"
+        },
+        {
+          "term": "퇴근 후",
+          "en": "after work (퇴근 후)"
+        }
+      ],
+      "work": [
+        {
+          "term": "출근",
+          "en": "go to work (출근)"
+        },
+        {
+          "term": "퇴근",
+          "en": "leave work (퇴근)"
+        },
+        {
+          "term": "야근",
+          "en": "late overtime into the night (야근)"
+        },
+        {
+          "term": "휴가",
+          "en": "leave / vacation (휴가)"
+        },
+        {
+          "term": "출장",
+          "en": "business trip (출장)"
+        },
+        {
+          "term": "회사",
+          "en": "company (회사)"
+        },
+        {
+          "term": "팀장",
+          "en": "team leader (팀장)"
+        },
+        {
+          "term": "재택",
+          "en": "work from home (재택)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "置き配",
+      "use_instead": "문 앞 배송, 무인택배함, 경비실 보관",
+      "where_it_is_from": "JP"
+    },
+    {
+      "word": "PayPay",
+      "use_instead": "카카오페이, 네이버페이, 토스",
+      "where_it_is_from": "JP"
+    },
+    {
+      "word": "Suica",
+      "use_instead": "티머니, 교통카드",
+      "where_it_is_from": "JP"
+    },
+    {
+      "word": "マイナンバー",
+      "use_instead": "주민등록증, 주민등록번호는 함부로 묻지 않기",
+      "where_it_is_from": "JP"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "카카오페이, 삼성페이",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "계좌이체, 토스, 카카오페이 송금",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "マンション",
+      "use_instead": "아파트, 오피스텔",
+      "where_it_is_from": "JP"
+    },
+    {
+      "word": "current account",
+      "use_instead": "입출금 계좌, 통장",
+      "where_it_is_from": "GB"
+    },
+    {
+      "word": "front porch",
+      "use_instead": "문 앞, 경비실",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "身份證",
+      "use_instead": "주민등록증, 외국인등록증",
+      "where_it_is_from": "TW"
+    }
+  ],
+  "sources": [
+    "https://www.korea.kr/news/policyNewsView.do?newsId=148967864",
+    "https://www.gov.kr/",
+    "https://support.kakaopay.com/web/faq-list/all?device=m&qna=all",
+    "https://www.kakaopay.com/",
+    "https://www.epost.go.kr/",
+    "https://www.t-money.co.kr/",
+    "https://www.nhis.or.kr/"
+  ],
+  "uncertain": [
+    "「공인인증서」在制度上已改稱「공동인증서」，但電話裡仍有人用舊名。",
+    "「따릉이」是首爾公營公共自行車品牌，其他城市會用當地名稱。"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "region": "sr",
+  "lang": "hi",
+  "why_added": "蘇利南 2012 普查：Sarnami 為 14.1% 家庭最常用語、另 7.7% 作為第二語言；它是印度斯坦語在地變體，區包預設為荷語。",
+  "hello": {
+    "hello": "हैलो?",
+    "hello_again": "हाँ, बोलो न।"
+  },
+  "habits": {
+    "en": "Āp with strangers, tum once close. This is Sarnami, not mainland Hindi. Money is the Surinamese dollar.",
+    "zh": "對生人用 आप，熟了用 तुम。這是 Sarnami，不是印度大陸印地語。錢是蘇利南元。荷語或湯加詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Paramaribo friend: tum, short warm Sarnami. Leave erf or hek; cash is Surinamese dollars, not rupees.",
+        "zh": "巴拉馬利波熟友用 तुम，短而熱絡。erf、hek 照留；錢是蘇利南元，不是盧比。"
+      },
+      "2": {
+        "en": "Easy familiar tone. A Dutch office name or a Sranan word they used stays; do not Indianise it.",
+        "zh": "半熟口氣。對方用的荷語機關名或蘇里南湯加詞照留，不要改成印度用法。"
+      },
+      "3": {
+        "en": "Everyday Sarnami. Finish each point; say Surinamese dollars, and keep local Dutch paperwork names.",
+        "zh": "日常 Sarnami。把話說完；要說蘇利南元，本地荷語文件名照留。"
+      },
+      "4": {
+        "en": "Polite āp for offices. Formal calls often move toward Dutch; confirm SRD amounts if they stay in Sarnami.",
+        "zh": "對機關用 आप。正式電話常會轉荷語；若仍用 Sarnami，金額要確認是蘇利南元。"
+      },
+      "5": {
+        "en": "Formal āp. This is not Hindi as spoken in India; avoid mainland bureaucratic stock phrases and rupee talk.",
+        "zh": "正式 आप。這不是印度本國印地語，不套用印度公文套句，也不要談盧比。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on tum only if they used it, then you will carry the word.",
+        "zh": "{owner}熟人代接：對方先用 तुम 才用 तुम，再說會把話帶過去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tum or āp, leave SRD or erf as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 तुम 或 आप，蘇利南元或 erf 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Surinamese-dollar point in one full sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句話重述蘇利南元的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on āp: note why they called, keep Dutch titles, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 आप：記下來電原因，荷語職銜照留，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy on āp: exact on SRD and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 आप：蘇利南元與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हैलो! तुम अभी परामारिबो में हो?",
+      "हाँ, सुन रहा हूँ, बोलो न।",
+      "हैलो, नमस्ते। क्या बात SRD की है?",
+      "नमस्ते, फोन करने के लिए शुक्रिया। रकम साफ है।",
+      "नमस्ते, शुक्रिया। दफ्तर वाली बात नोट हो गई।"
+    ],
+    "a": [
+      "हैलो! {owner} नहीं हैं, मुझे बताओ, मैं कह दूँगा।",
+      "हैलो, नमस्ते। मैं लाइन पर हूँ, क्या कहूँ?",
+      "हैलो, नमस्ते। तुम्हारी बात {owner} को पहुँचा दूँगा।",
+      "नमस्ते, शुक्रिया। SRD वाली बात {owner} को बताऊँगा।",
+      "नमस्ते, शुक्रिया। विवरण लिखकर दे दूँगा।"
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是蘇利南元（SRD），不是印度盧比。",
+    "Sarnami 是蘇利南的印度斯坦語變體，常夾荷語或蘇里南湯加語詞（如 erf、hek）。",
+    "正式與機關電話仍常轉用荷語；Sarnami 多見於社群內部。",
+    "AI 輸出的是支援清單中的印地語，無法保證呈現 Sarnami 全部在地說法。"
+  ],
+  "sources": [
+    "https://unstats.un.org/unsd/demographic-social/census/documents/Suriname/SUR-Census2012-vol3.pdf",
+    "https://statistics-suriname.org/wp-content/uploads/2025/01/Statistisch-Jaarboek-Statistical-Yearbook-2020-2021-2022-dec-2023-corr-jan-2025.pdf",
+    "https://www.cia.gov/the-world-factbook/countries/suriname/"
+  ],
+  "uncertain": [
+    "最新完整語言普查仍是 2012 年；之後家庭用語比重可能變化。",
+    "Sarnami 與標準印地語差異不小，公開電話語料很少，不能規定固定開場白。"
+  ]
+}

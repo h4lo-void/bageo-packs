@@ -1,0 +1,333 @@
+{
+  "lang": "it",
+  "backchannels": {
+    "direction": "Both sides open with Pronto, not ciao; sì and ah show the line is live, while a clipped sì, sì can feel impatient.",
+    "examples": [
+      {
+        "text": "Sì.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Oh.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Capito.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Esatto.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "D'accordo.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ah sì.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Sì, sì.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Davvero? marks surprise and Che peccato sympathy; Che bello answers welcome news before the talk moves on.",
+    "examples": [
+      {
+        "text": "Davvero?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Sul serio?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Mi dispiace molto.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Che peccato.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Che bello!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Complimenti.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "È un po' complicato.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "When audio fails, La sento male or La linea è cattiva is typical; RAI teaching also uses La linea è disturbata.",
+    "examples": [
+      {
+        "text": "La sento male.",
+        "style": "polite"
+      },
+      {
+        "text": "La linea è cattiva.",
+        "style": "polite"
+      },
+      {
+        "text": "Si interrompe un po'.",
+        "style": "casual"
+      },
+      {
+        "text": "Può parlare un po' più forte?",
+        "style": "polite"
+      },
+      {
+        "text": "Non ho sentito l'ultima parte.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Può ripetere, per favore is the Lei repair; a surname may be requested lettera per lettera, and a number said again.",
+    "examples": [
+      {
+        "text": "Può ripetere, per favore?",
+        "style": "polite"
+      },
+      {
+        "text": "Come? Non ho capito.",
+        "style": "casual"
+      },
+      {
+        "text": "Può compitare il nome?",
+        "style": "polite"
+      },
+      {
+        "text": "Può ridirmi il numero? È lo 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Cosa ha detto?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Chi parla is the usual ask after Pronto; Con chi parlo sounds more formal. On {owner}'s line, say so before asking.",
+    "examples": [
+      {
+        "text": "Con chi parlo?",
+        "style": "polite"
+      },
+      {
+        "text": "Chi parla, prego?",
+        "style": "polite"
+      },
+      {
+        "text": "Sono il telefono di {owner}. Chi chiama?",
+        "style": "polite"
+      },
+      {
+        "text": "Chi sei?",
+        "style": "casual"
+      },
+      {
+        "text": "Mi dice il suo nome?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Ha sbagliato numero, often with mi dispiace, flags a misdial; hanging up with no word is treated as rude.",
+    "examples": [
+      {
+        "text": "Mi dispiace, ha sbagliato numero.",
+        "style": "polite"
+      },
+      {
+        "text": "Numero sbagliato.",
+        "style": "casual"
+      },
+      {
+        "text": "Qui non c'è nessuno con quel nome.",
+        "style": "polite"
+      },
+      {
+        "text": "Credo che si sia sbagliato di telefono.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Glielo riferisco or a message for {owner} can be offered, without fixing a time when they will ring back.",
+    "examples": [
+      {
+        "text": "Glielo riferisco.",
+        "style": "polite"
+      },
+      {
+        "text": "Passo il messaggio a {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Glielo dico io.",
+        "style": "casual"
+      },
+      {
+        "text": "Le farò avere il messaggio.",
+        "style": "polite"
+      },
+      {
+        "text": "Lo avviso io.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "No grazie, non mi interessa turns a sales pitch down; inventing an excuse just to end the call is not required.",
+    "examples": [
+      {
+        "text": "No grazie, non mi interessa.",
+        "style": "polite"
+      },
+      {
+        "text": "Non siamo interessati, grazie.",
+        "style": "polite"
+      },
+      {
+        "text": "Non ci serve, grazie.",
+        "style": "polite"
+      },
+      {
+        "text": "No, non fa per noi.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second no often adds La prego di non richiamare questo numero, still in Lei, or asks to leave the lista.",
+    "examples": [
+      {
+        "text": "Ho già detto di no. La prego di non richiamare questo numero.",
+        "style": "polite"
+      },
+      {
+        "text": "La prego di togliere questo numero dalla vostra lista.",
+        "style": "polite"
+      },
+      {
+        "text": "Non chiamate più, grazie.",
+        "style": "casual"
+      },
+      {
+        "text": "È un no definitivo; non contattateci più.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "With strangers, Lei plus Signore or Signora and a surname is default; tu waits until you are invited to switch.",
+    "examples": [
+      {
+        "text": "Signor Rossi.",
+        "style": "polite"
+      },
+      {
+        "text": "Signora Bianchi.",
+        "style": "polite"
+      },
+      {
+        "text": "Dottoressa Conti.",
+        "style": "polite"
+      },
+      {
+        "text": "Buongiorno, signore.",
+        "style": "polite"
+      },
+      {
+        "text": "Ciao, Luca.",
+        "style": "casual"
+      },
+      {
+        "text": "Prego, signora.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "La sua chiamata è molto importante per noi belongs in a centro assistenza, not on a private Italian handset at home.",
+    "examples": [
+      {
+        "text": "La sua chiamata è molto importante per noi.",
+        "style": "polite"
+      },
+      {
+        "text": "Come posso esserle utile?",
+        "style": "polite"
+      },
+      {
+        "text": "È un piacere servirla.",
+        "style": "polite"
+      },
+      {
+        "text": "Grazie per aver chiamato, la sua soddisfazione è la nostra priorità.",
+        "style": "polite"
+      },
+      {
+        "text": "Posso fare altro per lei?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using tu too soon, ringing late without a reason, or demanding a documento number before naming yourself all jar.",
+    "examples": [
+      {
+        "text": "Sei sposato? Quanto guadagni?",
+        "style": "casual"
+      },
+      {
+        "text": "Chi sei tu? Dimmi subito.",
+        "style": "casual"
+      },
+      {
+        "text": "Prima mi dia il suo indirizzo e il numero del documento.",
+        "style": "polite"
+      },
+      {
+        "text": "Sto già registrando questa chiamata.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.raiscuola.rai.it/italianoperstranieri/articoli/2021/06/Le-parole-dellitaliano-professioni-al-femminile-al-telefono-f16d0001-2719-48b7-ad73-4f95be14f338.html",
+    "https://www.langmedia.fivecolleges.edu/resources/italy/basic-communications/using-telephone",
+    "https://en.wiktionary.org/wiki/pronto",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "Lei（單數尊稱，動詞用第三人稱）仍是對陌生人或公務的常態；Loro 作複數尊稱已少用，本檔不採用。",
+    "南部或年長使用者有時仍用 Voi 作尊稱，未當成全國預設。",
+    "Pronto、linea disturbata、ha sbagliato numero 等取自 RAI Scuola 與詞典，不是私人電話語料庫排序。"
+  ]
+}

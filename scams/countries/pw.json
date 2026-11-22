@@ -1,0 +1,59 @@
+{
+  "name": "Palau",
+  "name_local": "Belau",
+  "iso": "pw",
+  "calling_code": "+680",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "On 2026-04-27 the Palau Financial Intelligence Unit issued a press release warning that friendship or romance scams on social media and messaging apps are growing, and that they mainly target older people in Palau. The FIU says the operators are usually overseas, build trust over weeks or months, then invent an emergency, a business idea, a healing offer, or a promise of money or a prize, and ask for funds to be sent out of the country.",
+  "cross_border_note": "Palau's public calling code is +680. The FIU states that once money has left through a bank transfer, a remittance firm or another outbound channel, the chance of getting it back or of a successful prosecution is low, even if the person reports the case, because the scheme is international.",
+  "scams": [
+    {
+      "id": "pw_fiu_romance_messaging",
+      "typology": "romance_scam",
+      "name": "Social-media or messaging 'friendship' or romance scam",
+      "name_en": "Palau FIU press release: overseas operators use Facebook, Instagram, Snapchat, WhatsApp or similar apps to befriend residents, then ask for money after a story about an emergency, a business idea, healing, or a prize",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Palau Financial Intelligence Unit",
+        "friend request from a stranger",
+        "move the chat to a private app",
+        "money to be sent outside Palau"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "send money for my emergency",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "pay a fee so the prize can be released",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "we should move to WhatsApp",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "I cannot do a video call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The official release says contact often starts with a friend request and frequent messages, that the person may refuse to meet or to do a video call, and that the request for money comes only after trust has been built. Families are asked to watch for unusual transfers or changes in an older relative's behaviour.",
+      "legit_en": "The FIU tells people not to accept friend requests from strangers, not to share personal or money information online, and not to send funds to someone they know only through a network. A genuine concern can be raised with family or reported to the Bureau of Public Safety or the Office of the Special Prosecutor through those offices' own published channels.",
+      "bait_tactics": [
+        "Do not send money, a remittance or account details to someone known only through a messaging app, and say no transfer will be made until the story has been checked with family or an official office in Palau.",
+        "Ask why a video call or an in-person meeting is being refused, and offer to continue only after that check.",
+        "Suggest that the conversation be taken to the Bureau of Public Safety or the Office of the Special Prosecutor through their published route, rather than to a new private chat."
+      ],
+      "sources": [
+        "https://palaufiu.org/wp-content/uploads/2026/04/2026-4-27-press-release-friendship-and-romance-scams-final.pdf"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "region": "id",
+  "vocab": {
+    "id-ID": {
+      "bank": [
+        {
+          "term": "QRIS",
+          "en": "national QR payment standard, said 'kris' (QRIS)"
+        },
+        {
+          "term": "BRImo",
+          "en": "widely used BRI bank app, often named on calls (BRImo)"
+        },
+        {
+          "term": "transfer",
+          "en": "bank transfer, also transfer bank"
+        },
+        {
+          "term": "rekening",
+          "en": "bank account (rekening) [Indonesia]"
+        },
+        {
+          "term": "saldo",
+          "en": "balance (saldo) [Indonesia]"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        },
+        {
+          "term": "tabungan",
+          "en": "savings account (tabungan)"
+        },
+        {
+          "term": "ATM",
+          "en": "ATM or debit card, also kartu ATM"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "teras",
+          "en": "front terrace, common place to leave a parcel (teras)"
+        },
+        {
+          "term": "pos satpam",
+          "en": "security-guard post (pos satpam)"
+        },
+        {
+          "term": "lobi",
+          "en": "lobby (lobi)"
+        },
+        {
+          "term": "di depan pintu",
+          "en": "at the door (di depan pintu)"
+        },
+        {
+          "term": "Pos Indonesia",
+          "en": "national post (Pos Indonesia)"
+        },
+        {
+          "term": "resi",
+          "en": "tracking number / receipt (resi)"
+        },
+        {
+          "term": "JNE",
+          "en": "widely used courier (JNE)"
+        },
+        {
+          "term": "GoSend",
+          "en": "same-day courier via Gojek (GoSend)"
+        }
+      ],
+      "government": [
+        {
+          "term": "KTP",
+          "en": "national ID card, also e-KTP"
+        },
+        {
+          "term": "NIK",
+          "en": "ID number, spoken as NIK, do not read out long digits on a call unless the owner asks"
+        },
+        {
+          "term": "KK",
+          "en": "kartu keluarga / family card (KK)"
+        },
+        {
+          "term": "NPWP",
+          "en": "tax ID (NPWP)"
+        },
+        {
+          "term": "Dukcapil",
+          "en": "civil-registration office (Dukcapil)"
+        },
+        {
+          "term": "kelurahan",
+          "en": "urban ward office (kelurahan)"
+        },
+        {
+          "term": "paspor",
+          "en": "passport (paspor)"
+        }
+      ],
+      "health": [
+        {
+          "term": "BPJS",
+          "en": "public health insurance, often BPJS Kesehatan"
+        },
+        {
+          "term": "rumah sakit",
+          "en": "hospital (rumah sakit)"
+        },
+        {
+          "term": "puskesmas",
+          "en": "community health centre (puskesmas)"
+        },
+        {
+          "term": "apotek",
+          "en": "pharmacy (apotek)"
+        },
+        {
+          "term": "klinik",
+          "en": "clinic (klinik)"
+        },
+        {
+          "term": "IGD",
+          "en": "emergency unit (IGD)"
+        },
+        {
+          "term": "obat",
+          "en": "medicine (obat)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pulsa",
+          "en": "prepaid credit (pulsa)"
+        },
+        {
+          "term": "paket data",
+          "en": "mobile data plan (paket data)"
+        },
+        {
+          "term": "prabayar",
+          "en": "prepaid (prabayar) [Indonesia]"
+        },
+        {
+          "term": "pascabayar",
+          "en": "postpaid (pascabayar)"
+        },
+        {
+          "term": "pindah operator",
+          "en": "number portability (pindah operator)"
+        },
+        {
+          "term": "kartu SIM",
+          "en": "SIM card (kartu SIM)"
+        },
+        {
+          "term": "provider",
+          "en": "mobile operator (provider)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "QRIS",
+          "en": "scan-to-pay QR (QRIS)"
+        },
+        {
+          "term": "GoPay",
+          "en": "Gojek wallet (GoPay)"
+        },
+        {
+          "term": "OVO",
+          "en": "OVO wallet"
+        },
+        {
+          "term": "DANA",
+          "en": "DANA wallet"
+        },
+        {
+          "term": "ShopeePay",
+          "en": "Shopee wallet (ShopeePay)"
+        },
+        {
+          "term": "transfer bank",
+          "en": "bank transfer (transfer bank)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai) [Indonesia]"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Gojek",
+          "en": "ride-hailing and motorbike taxi (Gojek)"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab) [Indonesia]"
+        },
+        {
+          "term": "ojek",
+          "en": "motorbike taxi (ojek)"
+        },
+        {
+          "term": "angkot",
+          "en": "minibus (angkot)"
+        },
+        {
+          "term": "KRL",
+          "en": "commuter rail in Greater Jakarta (KRL)"
+        },
+        {
+          "term": "TransJakarta",
+          "en": "Jakarta BRT, also used loosely (TransJakarta)"
+        },
+        {
+          "term": "ojol",
+          "en": "app motorbike taxi, short for ojek online (ojol)"
+        },
+        {
+          "term": "tol",
+          "en": "expressway toll [Indonesia]"
+        }
+      ],
+      "housing": [
+        {
+          "term": "perumahan",
+          "en": "housing complex (perumahan)"
+        },
+        {
+          "term": "apartemen",
+          "en": "apartment (apartemen)"
+        },
+        {
+          "term": "satpam",
+          "en": "security guard (satpam)"
+        },
+        {
+          "term": "lobi",
+          "en": "lobby (lobi)"
+        },
+        {
+          "term": "kartu akses",
+          "en": "access card (kartu akses)"
+        },
+        {
+          "term": "RT",
+          "en": "neighbourhood unit, used in addresses (RT)"
+        },
+        {
+          "term": "RW",
+          "en": "community unit above RT (RW)"
+        },
+        {
+          "term": "kos",
+          "en": "rented room / boarding (kos)"
+        }
+      ],
+      "school": [
+        {
+          "term": "les",
+          "en": "private tutoring (les)"
+        },
+        {
+          "term": "SD",
+          "en": "elementary school (SD)"
+        },
+        {
+          "term": "SMP",
+          "en": "junior high (SMP)"
+        },
+        {
+          "term": "SMA",
+          "en": "senior high (SMA)"
+        },
+        {
+          "term": "wali kelas",
+          "en": "homeroom teacher (wali kelas)"
+        },
+        {
+          "term": "PR",
+          "en": "homework (PR)"
+        },
+        {
+          "term": "anak sekolah",
+          "en": "schoolchild, used when arranging pickup (anak sekolah)"
+        }
+      ],
+      "money": [
+        {
+          "term": "rupiah",
+          "en": "rupiah"
+        },
+        {
+          "term": "ribu",
+          "en": "thousand (ribu) [Indonesia]"
+        },
+        {
+          "term": "juta",
+          "en": "million, usual large-amount unit (juta)"
+        },
+        {
+          "term": "transfer",
+          "en": "send money (transfer)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai) [Indonesia]"
+        },
+        {
+          "term": "kembalian",
+          "en": "change (kembalian)"
+        },
+        {
+          "term": "saldo",
+          "en": "wallet or account balance (saldo)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "pagi",
+          "en": "morning (pagi)"
+        },
+        {
+          "term": "siang",
+          "en": "late morning to early afternoon (siang)"
+        },
+        {
+          "term": "sore",
+          "en": "late afternoon (sore)"
+        },
+        {
+          "term": "malam",
+          "en": "evening / night (malam)"
+        },
+        {
+          "term": "hari kerja",
+          "en": "weekday (hari kerja)"
+        },
+        {
+          "term": "akhir pekan",
+          "en": "weekend (akhir pekan)"
+        },
+        {
+          "term": "minggu ini",
+          "en": "this week (minggu ini)"
+        },
+        {
+          "term": "habis kerja",
+          "en": "after work (habis kerja)"
+        }
+      ],
+      "work": [
+        {
+          "term": "masuk kerja",
+          "en": "go to work (masuk kerja)"
+        },
+        {
+          "term": "pulang kerja",
+          "en": "leave work (pulang kerja)"
+        },
+        {
+          "term": "lembur",
+          "en": "overtime (lembur)"
+        },
+        {
+          "term": "cuti",
+          "en": "leave (cuti) [Indonesia]"
+        },
+        {
+          "term": "kantor",
+          "en": "office (kantor)"
+        },
+        {
+          "term": "atasan",
+          "en": "supervisor (atasan)"
+        },
+        {
+          "term": "dinas luar",
+          "en": "work trip (dinas luar)"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home, common loan (WFH)"
+        }
+      ]
+    },
+    "jv": {
+      "bank": [
+        {
+          "term": "QRIS",
+          "en": "standar QR nasional, tetep diarani QRIS"
+        },
+        {
+          "term": "rekening",
+          "en": "rekening bank"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer bank"
+        },
+        {
+          "term": "saldo",
+          "en": "saldo"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        },
+        {
+          "term": "BRImo",
+          "en": "aplikasi bank sing kerep disebut (BRImo)"
+        },
+        {
+          "term": "kartu ATM",
+          "en": "kartu ATM"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "teras",
+          "en": "teras ngarep omah"
+        },
+        {
+          "term": "pos satpam",
+          "en": "pos satpam"
+        },
+        {
+          "term": "lobi",
+          "en": "lobi"
+        },
+        {
+          "term": "ngarep lawang",
+          "en": "in front of the door (ngarep lawang)"
+        },
+        {
+          "term": "Pos Indonesia",
+          "en": "kantor pos (Pos Indonesia)"
+        },
+        {
+          "term": "resi",
+          "en": "nomor resi"
+        },
+        {
+          "term": "paket",
+          "en": "parcel (paket)"
+        }
+      ],
+      "government": [
+        {
+          "term": "KTP",
+          "en": "KTP / e-KTP"
+        },
+        {
+          "term": "NIK",
+          "en": "NIK"
+        },
+        {
+          "term": "KK",
+          "en": "kartu keluarga (KK)"
+        },
+        {
+          "term": "NPWP",
+          "en": "NPWP"
+        },
+        {
+          "term": "kelurahan",
+          "en": "kantor kelurahan"
+        },
+        {
+          "term": "Dukcapil",
+          "en": "Dukcapil"
+        },
+        {
+          "term": "paspor",
+          "en": "paspor"
+        }
+      ],
+      "health": [
+        {
+          "term": "BPJS",
+          "en": "BPJS Kesehatan"
+        },
+        {
+          "term": "rumah sakit",
+          "en": "rumah sakit, also griya sakit in careful speech"
+        },
+        {
+          "term": "puskesmas",
+          "en": "puskesmas"
+        },
+        {
+          "term": "apotik",
+          "en": "pharmacy (apotik)"
+        },
+        {
+          "term": "klinik",
+          "en": "klinik"
+        },
+        {
+          "term": "IGD",
+          "en": "IGD"
+        },
+        {
+          "term": "obat",
+          "en": "obat"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pulsa",
+          "en": "pulsa"
+        },
+        {
+          "term": "paket data",
+          "en": "paket data"
+        },
+        {
+          "term": "prabayar",
+          "en": "prabayar"
+        },
+        {
+          "term": "pascabayar",
+          "en": "pascabayar"
+        },
+        {
+          "term": "kartu SIM",
+          "en": "SIM (kartu SIM)"
+        },
+        {
+          "term": "provider",
+          "en": "operator (provider) [Indonesia]"
+        },
+        {
+          "term": "pindah operator",
+          "en": "pindah operator"
+        }
+      ],
+      "payment": [
+        {
+          "term": "QRIS",
+          "en": "QRIS"
+        },
+        {
+          "term": "GoPay",
+          "en": "GoPay"
+        },
+        {
+          "term": "OVO",
+          "en": "OVO"
+        },
+        {
+          "term": "DANA",
+          "en": "DANA"
+        },
+        {
+          "term": "transfer bank",
+          "en": "transfer bank"
+        },
+        {
+          "term": "awis",
+          "en": "cash, Javanese word, Indonesian tunai also used (awis)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash, often used even in Javanese speech (tunai)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Gojek",
+          "en": "Gojek"
+        },
+        {
+          "term": "Grab",
+          "en": "Grab [Indonesia]"
+        },
+        {
+          "term": "ojek",
+          "en": "ojek"
+        },
+        {
+          "term": "ojol",
+          "en": "ojek online (ojol)"
+        },
+        {
+          "term": "angkot",
+          "en": "angkot"
+        },
+        {
+          "term": "bis",
+          "en": "bus (bis)"
+        },
+        {
+          "term": "sepur",
+          "en": "train, Javanese; KRL also used in Jakarta (sepur)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "omah",
+          "en": "house (omah)"
+        },
+        {
+          "term": "perumahan",
+          "en": "perumahan"
+        },
+        {
+          "term": "apartemen",
+          "en": "apartemen"
+        },
+        {
+          "term": "satpam",
+          "en": "satpam"
+        },
+        {
+          "term": "lobi",
+          "en": "lobi"
+        },
+        {
+          "term": "RT",
+          "en": "RT"
+        },
+        {
+          "term": "kos",
+          "en": "kos"
+        }
+      ],
+      "school": [
+        {
+          "term": "les",
+          "en": "les privat"
+        },
+        {
+          "term": "SD",
+          "en": "SD"
+        },
+        {
+          "term": "SMP",
+          "en": "SMP"
+        },
+        {
+          "term": "SMA",
+          "en": "SMA"
+        },
+        {
+          "term": "guru kelas",
+          "en": "homeroom teacher (guru kelas)"
+        },
+        {
+          "term": "PR",
+          "en": "PR / PR sekolah"
+        },
+        {
+          "term": "sekolah",
+          "en": "sekolah"
+        }
+      ],
+      "money": [
+        {
+          "term": "rupiah",
+          "en": "rupiah"
+        },
+        {
+          "term": "ewu",
+          "en": "thousand, Javanese; ribu also used (ewu)"
+        },
+        {
+          "term": "yuta",
+          "en": "million; juta also used (yuta)"
+        },
+        {
+          "term": "transfer",
+          "en": "transfer [Indonesia]"
+        },
+        {
+          "term": "awis",
+          "en": "cash (awis)"
+        },
+        {
+          "term": "duwit",
+          "en": "money (duwit)"
+        },
+        {
+          "term": "saldo",
+          "en": "saldo"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "esuk",
+          "en": "morning (esuk)"
+        },
+        {
+          "term": "awan",
+          "en": "midday (awan)"
+        },
+        {
+          "term": "sore",
+          "en": "late afternoon (sore)"
+        },
+        {
+          "term": "bengi",
+          "en": "evening / night (bengi)"
+        },
+        {
+          "term": "dina kerja",
+          "en": "weekday (dina kerja)"
+        },
+        {
+          "term": "akhir minggu",
+          "en": "weekend (akhir minggu)"
+        },
+        {
+          "term": "minggu iki",
+          "en": "this week (minggu iki)"
+        }
+      ],
+      "work": [
+        {
+          "term": "budhal kerja",
+          "en": "go to work (budhal kerja)"
+        },
+        {
+          "term": "mulih kerja",
+          "en": "leave work (mulih kerja)"
+        },
+        {
+          "term": "lembur",
+          "en": "overtime (lembur)"
+        },
+        {
+          "term": "cuti",
+          "en": "cuti"
+        },
+        {
+          "term": "kantor",
+          "en": "kantor"
+        },
+        {
+          "term": "atasan",
+          "en": "atasan"
+        },
+        {
+          "term": "WFH",
+          "en": "WFH [Indonesia]"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "QRIS, transfer, GoPay, DANA",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "DuitNow",
+      "use_instead": "QRIS, DANA, GoPay",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "PromptPay",
+      "use_instead": "QRIS",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "ringgit",
+      "use_instead": "rupiah",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "MyKad",
+      "use_instead": "KTP, e-KTP",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "QRIS, transfer bank",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "baht",
+      "use_instead": "rupiah",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "perumahan, apartemen, kos",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "Grab 當唯一叫車詞",
+      "use_instead": "Gojek 與 ojol 在許多地區更常用，Grab 也有",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "QRIS, GoPay, OVO, DANA",
+      "where_it_is_from": "CN"
+    }
+  ],
+  "sources": [
+    "https://www.bi.go.id/id/fungsi-utama/sistem-pembayaran/ritel/kanal-layanan/qris/default.aspx",
+    "https://www.bi.go.id/id/publikasi/ruang-media/cerita-bi/Pages/cara-membuat-QRIS.aspx",
+    "https://gopay.co.id/bantuan-merchant/qris-merchant/syarat-mendaftar-qris",
+    "https://www.posindonesia.co.id/",
+    "https://www.djp.go.id/",
+    "https://www.bpjs-kesehatan.go.id/"
+  ],
+  "uncertain": [
+    "爪哇語電話常大量夾印尼語專有名詞（QRIS、KTP、BPJS）；純爪哇口語詞的出典有限，本組以日常會說的詞為主。",
+    "KRL、TransJakarta 主要適用大雅加達，外島更常說 ojek、angkot、pesawat、kapal。"
+  ]
+}

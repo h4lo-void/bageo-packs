@@ -1,0 +1,79 @@
+{
+  "name": "Cayman Islands",
+  "name_local": "Cayman Islands",
+  "iso": "ky",
+  "calling_code": "+1-345",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Royal Cayman Islands Police Service, together with the Cayman Government, has issued repeated public advisories about SMS phishing posing as the Postal Service and demanding customs fees.",
+  "cross_border_note": "Cayman (+1-345) is in the NANP, so +1 smishing waves from North America and the wider Caribbean blend in with local numbers.",
+  "scams": [
+    {
+      "id": "ky_postal_customs_smishing",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Cayman Postal Service customs text",
+      "name_en": "SMS posing as Cayman Islands Postal Service demanding customs fees via a link",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "Cayman Islands Postal Service",
+        "customs fees",
+        "parcel held"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay customs via link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "parcel will be destroyed",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A text claims the Cayman Islands Postal Service is holding a parcel until customs fees are paid online.",
+      "legit_en": "RCIPS and the Cayman Government say the Postal Service does not collect customs by text-message link.",
+      "bait_tactics": [
+        "Ask which post office on Grand Cayman holds it and the customs form number",
+        "Say customs is always paid at the counter with the slip in hand"
+      ],
+      "sources": [
+        "https://gov.ky/w/public-advisory-rcips-and-cayman-government-warn-of-text-message-scam?refererPlid=3611"
+      ]
+    },
+    {
+      "id": "ky_local_bank_unusual_activity",
+      "typology": "fake_bank_account_alert",
+      "name": "Fake local bank alert by SMS or audio call",
+      "name_en": "SMS or audio-only call posing as a Cayman financial institution or police asking for banking details",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "unusual activity",
+        "verify recent transactions",
+        "Google Meet call"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "verify your transactions via this link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "provide your banking details",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A text flags unusual activity on a local bank account and links to a fake verification page, or an audio-only call claims to be the bank or local police and asks for banking data.",
+      "legit_en": "RCIPS tells the public to ignore such messages and contact their financial institution directly through known channels.",
+      "bait_tactics": [
+        "Ask which branch on Grand Cayman flagged the account and the name of the officer",
+        "Say the bank will be phoned on the number printed on the debit card"
+      ],
+      "sources": []
+    }
+  ]
+}

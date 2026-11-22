@@ -1,0 +1,387 @@
+{
+  "region": "ir",
+  "vocab": {
+    "fa": {
+      "bank": [
+        {
+          "term": "کارت به کارت",
+          "en": "card-to-card transfer, the everyday way to send money (کارت به کارت)"
+        },
+        {
+          "term": "رمز پویا",
+          "en": "one-time dynamic PIN for online card payments (رمز پویا)"
+        },
+        {
+          "term": "همراه بانک",
+          "en": "bank's mobile app (همراه بانک)"
+        },
+        {
+          "term": "شبا",
+          "en": "Iranian IBAN number (شبا)"
+        },
+        {
+          "term": "خودپرداز",
+          "en": "ATM (خودپرداز)"
+        },
+        {
+          "term": "حساب",
+          "en": "bank account, Iran (حساب)"
+        },
+        {
+          "term": "موجودی",
+          "en": "account balance (موجودی)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "پیک",
+          "en": "courier or delivery rider (پیک)"
+        },
+        {
+          "term": "نگهبانی",
+          "en": "building guard post where parcels are left (نگهبانی)"
+        },
+        {
+          "term": "پست پیشتاز",
+          "en": "express post service of Iran Post (پست پیشتاز)"
+        },
+        {
+          "term": "کد پستی",
+          "en": "ten-digit postal code (کد پستی)"
+        },
+        {
+          "term": "اسنپ‌فود",
+          "en": "Snappfood food delivery app (اسنپ‌فود)"
+        },
+        {
+          "term": "بسته",
+          "en": "parcel (بسته)"
+        }
+      ],
+      "government": [
+        {
+          "term": "کارت ملی",
+          "en": "national ID card (کارت ملی)"
+        },
+        {
+          "term": "کد ملی",
+          "en": "national ID number (کد ملی)"
+        },
+        {
+          "term": "دفاتر پیشخوان",
+          "en": "government service counters (دفاتر پیشخوان)"
+        },
+        {
+          "term": "شناسنامه",
+          "en": "birth certificate booklet (شناسنامه)"
+        },
+        {
+          "term": "ثنا",
+          "en": "judiciary e-services account (ثنا)"
+        },
+        {
+          "term": "گذرنامه",
+          "en": "passport (گذرنامه)"
+        }
+      ],
+      "health": [
+        {
+          "term": "داروخانه",
+          "en": "pharmacy (داروخانه)"
+        },
+        {
+          "term": "نسخه",
+          "en": "prescription (نسخه)"
+        },
+        {
+          "term": "بیمه تأمین اجتماعی",
+          "en": "Social Security insurance (بیمه تأمین اجتماعی)"
+        },
+        {
+          "term": "درمانگاه",
+          "en": "outpatient clinic (درمانگاه)"
+        },
+        {
+          "term": "نوبت",
+          "en": "appointment slot (نوبت)"
+        },
+        {
+          "term": "دفترچه بیمه",
+          "en": "insurance booklet, now mostly electronic (دفترچه بیمه)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "همراه اول",
+          "en": "MCI mobile operator (همراه اول)"
+        },
+        {
+          "term": "ایرانسل",
+          "en": "Irancell operator (ایرانسل)"
+        },
+        {
+          "term": "شارژ",
+          "en": "prepaid credit (شارژ)"
+        },
+        {
+          "term": "بسته اینترنت",
+          "en": "data bundle (بسته اینترنت)"
+        },
+        {
+          "term": "سیم‌کارت",
+          "en": "SIM card (سیم‌کارت)"
+        },
+        {
+          "term": "آنتن",
+          "en": "signal (آنتن)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "کارتخوان",
+          "en": "card reader, POS (کارتخوان)"
+        },
+        {
+          "term": "نقد",
+          "en": "cash (نقد)"
+        },
+        {
+          "term": "قسطی",
+          "en": "in instalments (قسطی)"
+        },
+        {
+          "term": "چک",
+          "en": "cheque, still common for rent and business (چک)"
+        },
+        {
+          "term": "درگاه پرداخت",
+          "en": "online payment gateway (درگاه پرداخت)"
+        },
+        {
+          "term": "فیش",
+          "en": "payment slip or receipt (فیش)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "اسنپ",
+          "en": "Snapp ride-hailing app (اسنپ)"
+        },
+        {
+          "term": "تپسی",
+          "en": "Tapsi ride-hailing app (تپسی)"
+        },
+        {
+          "term": "مترو",
+          "en": "metro (مترو)"
+        },
+        {
+          "term": "تاکسی خطی",
+          "en": "shared fixed-route taxi (تاکسی خطی)"
+        },
+        {
+          "term": "آژانس",
+          "en": "phone-booked car service (آژانس)"
+        },
+        {
+          "term": "ترافیک",
+          "en": "traffic (ترافیک)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "آپارتمان",
+          "en": "flat (آپارتمان)"
+        },
+        {
+          "term": "مدیر ساختمان",
+          "en": "building manager (مدیر ساختمان)"
+        },
+        {
+          "term": "شارژ ساختمان",
+          "en": "monthly building service fee (شارژ ساختمان)"
+        },
+        {
+          "term": "رهن و اجاره",
+          "en": "deposit-plus-rent lease (رهن و اجاره)"
+        },
+        {
+          "term": "صاحبخانه",
+          "en": "landlord (صاحبخانه)"
+        },
+        {
+          "term": "آیفون",
+          "en": "door intercom (آیفون)"
+        }
+      ],
+      "school": [
+        {
+          "term": "مدرسه",
+          "en": "school (مدرسه)"
+        },
+        {
+          "term": "کنکور",
+          "en": "university entrance exam (کنکور)"
+        },
+        {
+          "term": "آموزشگاه",
+          "en": "private tutoring institute (آموزشگاه)"
+        },
+        {
+          "term": "کلاس خصوصی",
+          "en": "private lesson (کلاس خصوصی)"
+        },
+        {
+          "term": "دبیرستان",
+          "en": "secondary school (دبیرستان)"
+        },
+        {
+          "term": "معلم",
+          "en": "teacher (معلم)"
+        }
+      ],
+      "money": [
+        {
+          "term": "تومان",
+          "en": "toman, spoken unit equal to ten rials (تومان)"
+        },
+        {
+          "term": "ریال",
+          "en": "official currency unit (ریال)"
+        },
+        {
+          "term": "تک‌تومنی",
+          "en": "small change, colloquial (تک‌تومنی)"
+        },
+        {
+          "term": "میلیون",
+          "en": "million (میلیون)"
+        },
+        {
+          "term": "میلیارد",
+          "en": "billion (میلیارد)"
+        },
+        {
+          "term": "هزار تومن",
+          "en": "a thousand toman, spoken form (هزار تومن)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "امروز",
+          "en": "today (امروز)"
+        },
+        {
+          "term": "فردا",
+          "en": "tomorrow (فردا)"
+        },
+        {
+          "term": "پس‌فردا",
+          "en": "day after tomorrow (پس‌فردا)"
+        },
+        {
+          "term": "ظهر",
+          "en": "around noon (ظهر)"
+        },
+        {
+          "term": "عصر",
+          "en": "late afternoon (عصر)"
+        },
+        {
+          "term": "آخر هفته",
+          "en": "weekend, Thursday and Friday (آخر هفته)"
+        }
+      ],
+      "work": [
+        {
+          "term": "اداره",
+          "en": "government office or workplace (اداره)"
+        },
+        {
+          "term": "حقوق",
+          "en": "salary (حقوق)"
+        },
+        {
+          "term": "مرخصی",
+          "en": "leave (مرخصی)"
+        },
+        {
+          "term": "رئیس",
+          "en": "boss (رئیس)"
+        },
+        {
+          "term": "اضافه‌کار",
+          "en": "overtime (اضافه‌کار)"
+        },
+        {
+          "term": "بیمه",
+          "en": "employment insurance (بیمه)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "موتر",
+      "use_instead": "ماشین",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "پوهنتون",
+      "use_instead": "دانشگاه",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "شفاخانه",
+      "use_instead": "بیمارستان",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "تذکره",
+      "use_instead": "کارت ملی",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "سرک",
+      "use_instead": "خیابان",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "معاش",
+      "use_instead": "حقوق",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "بایسکل",
+      "use_instead": "دوچرخه",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "افغانی",
+      "use_instead": "تومان یا ریال",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "درهم",
+      "use_instead": "تومان",
+      "where_it_is_from": "AE"
+    }
+  ],
+  "sources": [
+    "https://www.cbi.ir/",
+    "https://www.mci.ir/",
+    "https://irancell.ir/",
+    "https://snapp.ir/",
+    "https://www.post.ir/",
+    "https://www.tamin.ir/",
+    "https://www.shaparak.ir/",
+    "https://my.gov.ir/",
+    "https://www.vajehyab.com/"
+  ],
+  "uncertain": [
+    "伊朗日常講價與報價多用 تومان，官方與帳單用 ریال，相差十倍，談金額要確認單位。",
+    "部分伊朗網站（shaparak.ir、my.gov.ir）從境外連線常打不開，無法逐頁核對。",
+    "達利語（阿富汗）與伊朗波斯語用詞差異列在 avoid，但個別詞在伊朗東部也有人用。",
+    "週末為週四下午與週五，部分機構週四休，習慣各異。"
+  ]
+}

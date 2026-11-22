@@ -1,0 +1,107 @@
+{
+  "name": "Cook Islands",
+  "name_local": "Kūki 'Āirani / Cook Islands",
+  "iso": "ck",
+  "calling_code": "+682",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Cook Islands Financial Intelligence Unit publishes a live scams page and a specific warning that people posing as Bank of South Pacific staff have been contacting BSP customers over WhatsApp and Google Meet. Together with BSP Cook Islands, CIFIU has also described advance-fee fraud sold through Facebook ads that promise a large return within a day after a small deposit into a local 'agent' account.",
+  "cross_border_note": "CIFIU notes that some of the bogus BSP callers appear to use Gmail accounts and that some calls seem to come from Pakistan or India, and that a BSP logo on a profile is not proof of a real banker. The islands are reached on +682; digits that merely resemble a Rarotonga line, or a familiar logo on a calling app, are not enough.",
+  "scams": [
+    {
+      "id": "ck_bsp_whatsapp_google_meet",
+      "typology": "fake_bank_account_alert",
+      "name": "Fake BSP staff on WhatsApp or Google Meet",
+      "name_en": "CIFIU warning: callers on WhatsApp or Google Meet impersonating Bank of South Pacific and seeking PINs, passwords, one-time codes or card data",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "BSP Cook Islands",
+        "WhatsApp bank representative",
+        "Google Meet payments check",
+        "profile photo with a bank logo"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "give your BSP PIN on WhatsApp",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "read the one-time passcode aloud",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "full card number and security code",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "join this Google Meet with the bank",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "CIFIU says scammers have been contacting BSP customers through WhatsApp and Google Meet, sometimes showing a bank logo, and may try other calling apps. The official advice is to end the session at once, because the voice could be recorded and later imitated, and never to hand over a password, PIN, one-time passcode or full card details. BSP does not use those apps to reach customers.",
+      "legit_en": "Bank of South Pacific in the Cook Islands does not contact customers on WhatsApp or calling apps. A genuine payments or fraud query goes through the bank's published support channels, and the bank will not ask for a password, PIN, one-time passcode or full card details in a chat.",
+      "bait_tactics": [
+        "End the WhatsApp or Google Meet session and say any bank query will be raised only through the official BSP Cook Islands channel, not through a calling app.",
+        "Refuse to speak a PIN, a one-time passcode or a card number, and say the voice will not be recorded for a 'verification'.",
+        "Tell the caller the incident will be reported to CIFIU and to Police in Rarotonga, and that the chat will not continue."
+      ],
+      "sources": [
+        "https://cifiu.gov.ck/bsp-caller-scam/",
+        "https://cifiu.gov.ck/scams/"
+      ]
+    },
+    {
+      "id": "ck_advance_fee_facebook_agent",
+      "typology": "loan_advance_fee",
+      "name": "Facebook advance-fee 'agent' deposit for a same-day windfall",
+      "name_en": "CIFIU and BSP Cook Islands warning: advance-fee fraud via Facebook ads that ask for a small deposit into a local agent account in return for a much larger same-day payout",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Facebook high-return advertisement",
+        "local agent account in the Cook Islands",
+        "loan or grant released after a fee",
+        "scripted video testimonial"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay a fee before the prize is released",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "deposit into the agent's personal account",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "guaranteed profit within 24 hours",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "send crypto or a gift card instead",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "BSP Cook Islands, with CIFIU, describes advance-fee fraud in which a person pays up front for a loan, investment, gift or community grant that never arrives. One published example is a Facebook advertisement promising that a small Cook Islands dollar deposit into a local 'agent' account will come back many times larger within a day, sometimes dressed up with scripted 'local' videos, altered bank-balance images, or names of well-known people.",
+      "legit_en": "A genuine Cook Islands bank or licensed lender does not ask for an upfront fee into a private 'agent' account before releasing a loan, prize or investment return, and has no need of crypto or gift cards. CIFIU tells the public to pause, verify independently, and report to the Police and the Unit.",
+      "bait_tactics": [
+        "Say the supposed return will be checked with CIFIU or the bank before any deposit is made into an agent account.",
+        "Ask why a lawful payment would have to travel by crypto, a gift card or a personal 'agent' account rather than a published bank channel.",
+        "Offer to telephone the friend who appears in the testimonial on a known number, to see whether that person really made the video."
+      ],
+      "sources": [
+        "https://www.bsp.co.ck/about/news-and-media/awareness-advanced-fee-fraud/",
+        "https://cifiu.gov.ck/scams/"
+      ]
+    }
+  ]
+}

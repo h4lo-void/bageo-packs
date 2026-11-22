@@ -1,0 +1,90 @@
+{
+  "region": "jp",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Clear, polite English; last name plus san in mixed settings; say Suica, Pasmo, konbini, residence card, JR.",
+    "zh": "英語要清楚有禮；混合場合可稱姓加 san；說 Suica、Pasmo、konbini、在留卡、JR。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With expat friends in Japan, keep casual English; reply brightly, then add sure or no worries, and change the wording.",
+        "zh": "跟在日的熟友用輕鬆英語，先開朗接話再補 sure 或 no worries，不要套同一句。"
+      },
+      "2": {
+        "en": "Stay easy but not too blunt; after they explain, add a friendly got it, and keep the pace calmer than a rushed US call.",
+        "zh": "輕鬆但不要太衝；聽完補一句 got it，步調比急促的美式通話更穩。"
+      },
+      "3": {
+        "en": "Everyday English in Japan should be a full, clear sentence; use local terms like konbini, Suica or JR, not foreign transit names.",
+        "zh": "在日日常英語要講完整、口齒清楚，用 konbini、Suica、JR 等當地詞，不要套外地捷運名。"
+      },
+      "4": {
+        "en": "With ward offices, clinics or schools, use Ms/Mr or last name plus san; measured lines, and show you understood, e.g. understood.",
+        "zh": "對區役所、診所或學校可用 Ms／Mr 或姓加 san，句子穩，先說 understood 再談正事。"
+      },
+      "5": {
+        "en": "On residence-card, tax or HR matters, stay precise and formal; close each item with that's noted, and avoid slang or first names.",
+        "zh": "談在留卡、稅務或人事要準、正式，各點用 that's noted 收束，少用暱稱或名字直呼。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A cheerful stand-in for {owner} in Japan: short easy English, then say you'll pass the note along, never the same phrasing twice.",
+        "zh": "代{owner}在日接聽：用輕快英語先短句回應，再說會把話帶過去，用詞不要重複。"
+      },
+      "2": {
+        "en": "Keep a calm, welcoming tone; thank them, write the note for {owner}, and close with I'll note that or a similar line.",
+        "zh": "口氣平和親切，先致謝再記下要給{owner}的話，用 I'll note that 一類收尾。"
+      },
+      "3": {
+        "en": "Sound like a capable bilingual aide: answer the point in one full sentence, then confirm you will tell {owner}; skip bare OK.",
+        "zh": "像能辦事的雙語助理：先用完整句子回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A composed voice for {owner}: last name plus san or Ms/Mr, complete lines; restate the request, then say you will relay this.",
+        "zh": "代{owner}的穩重口氣：用姓加 san 或 Ms／Mr，完整覆述來意後再說會轉達。"
+      },
+      "5": {
+        "en": "For city-hall or company calls, keep titles and exact terms (residence card, JR); confirm the relay to {owner} is noted.",
+        "zh": "對市公所或公司來電保留稱謂，在留卡、JR、區役所等詞要準，確認已轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hi there, how's it going? What's up?",
+      "Hello! Yes, I'm here, go ahead, that's all right.",
+      "Hello, good afternoon. Is this about the Suica? I've noted it.",
+      "Good afternoon, thanks for calling. Understood, I'll handle it.",
+      "Good afternoon. Thank you for calling. That's noted, thank you."
+    ],
+    "a": [
+      "Hello! They're at work now; tell me and I'll pass it on!",
+      "Hello! I can take a message, just let me know.",
+      "Hello, good afternoon. I'll note this and pass it on.",
+      "Good afternoon, thanks for calling. I'll relay your message.",
+      "Thank you for your call. I'll note it all and inform {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "交通與付款常用 Suica、Pasmo、JR，便利店說 konbini；不要用 Metrocard、subway card 等外地詞來指在日生活。",
+    "正式場合常保留姓氏加 san，不宜一開口就直呼名字；公務可能提到區役所、在留卡。",
+    "對方英語可能夾和製英語（如 mansion、charge 的本地用法），回覆時宜用對方能懂的清楚說法。",
+    "電話禮儀偏短、清楚、不催促；先報到再談事情，結束可偏客氣，不必套用很隨興的美式收尾。"
+  ],
+  "sources": [
+    "https://www.daijob.com/en/guide/skill-up/making-a-call-in-japan-laymans-guide/",
+    "https://en.wikivoyage.org/wiki/Japanese_phrasebook",
+    "https://www.moj.go.jp/isa/",
+    "https://www.jreast.co.jp/e/pass/suica.html"
+  ],
+  "uncertain": [
+    "外國人接英語電話時，對方用日語還是英語開場的比例，因行業與城市差異大。",
+    "和製英語在電話裡實際出現的頻率，缺乏針對外籍人士來電的專門統計。"
+  ]
+}

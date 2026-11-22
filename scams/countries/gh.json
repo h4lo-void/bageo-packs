@@ -1,0 +1,138 @@
+{
+  "name": "Ghana",
+  "name_local": "Ghana",
+  "iso": "gh",
+  "calling_code": "+233",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Bank of Ghana fraud reports and a 2026 consumer notice flag SIM-swap takeovers of bank and MoMo accounts, and tell the public that no bank or e-money issuer will ask for a PIN, password or OTP by phone, SMS or social media. The Cyber Security Authority also warns about prize-style MoMo calls.",
+  "cross_border_note": "Calls are usually in English or a Ghanaian language and may spoof local mobile numbers or look like an operator care line.",
+  "scams": [
+    {
+      "id": "gh_sim_swap_account_takeover",
+      "typology": "otp_theft",
+      "name": "SIM-swap takeover of a bank or MoMo account",
+      "name_en": "SIM-swap takeover of a bank or MoMo account",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "SIM swap",
+        "replace your SIM",
+        "Ghana Card",
+        "linked wallet"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presses for a same-day SIM replacement on a cold call",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "solicits the one-time password tied to a new SIM",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for an image of the national identity card",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Criminals social-engineer a SIM replacement for a number that is tied to a bank app or mobile-money wallet, then use the taken-over line to approve withdrawals or reset access.",
+      "legit_en": "Bank of Ghana's industry fraud report describes SIM-swap as a route into bank and e-money accounts and notes that issuers must freeze an e-money account after a SIM change until valid ID is presented. NCA rules also treat unauthorised SIM activity as fraud.",
+      "bait_tactics": [
+        "I have not been to an official shop to request a new SIM, and I am not approving a swap over a cold call.",
+        "The NCA registration guide on this phone will not open, and I am not sending Ghana Card images in this chat.",
+        "My MTN line is still receiving ordinary SMS, so I have no reason to treat this as an emergency replacement."
+      ],
+      "sources": [
+        "https://www.bog.gov.gh/wp-content/uploads/2024/09/BANKS-SDIs-PSPs-2023-FRAUD-REPORT.pdf",
+        "https://nca.org.gh/wp-content/uploads/2026/03/SIM-Reg-FAQs-2026.pdf"
+      ]
+    },
+    {
+      "id": "gh_momo_pin_otp_vishing",
+      "typology": "otp_theft",
+      "name": "MoMo PIN, OTP or Ghana Card vishing",
+      "name_en": "MoMo PIN, OTP or Ghana Card vishing",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "MoMo PIN",
+        "OTP",
+        "Ghana Card number",
+        "customer care"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the MoMo PIN from a claimed help-desk caller",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to read a one-time password from an SMS",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for Ghana Card particulars on the call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Unsolicited calls, texts or social-media messages claim to come from a bank, MoMo issuer or network and press the customer to reveal a PIN, password, OTP or Ghana Card particulars.",
+      "legit_en": "A Bank of Ghana notice dated 7 October 2026 states that no legitimate bank, mobile-money operator or payment service provider will request a PIN, password or OTP by phone, text, email or social media, and Ghana Card details should not be given to strangers.",
+      "bait_tactics": [
+        "The MoMo app on this handset is still on the splash screen, and I am not reciting a PIN to someone who rang me.",
+        "No verification SMS has arrived on this Vodafone line, so I have no OTP to read.",
+        "My Ghana Card is in a drawer in the other room, and I am not describing it to an unknown caller."
+      ],
+      "sources": [
+        "https://www.bog.gov.gh/wp-content/uploads/2026/10/PRESS-RELEASE-DIGITAL-FRAUD-AND-THE-COST-OF-IGNORANCE-071026.pdf",
+        "https://www.csa.gov.gh/mobile_money_fraud.php"
+      ]
+    },
+    {
+      "id": "gh_momo_prize_call",
+      "typology": "prize_lottery",
+      "name": "Fake MoMo prize or cash-award call",
+      "name_en": "Fake MoMo prize or cash-award call",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "you have won",
+        "cash prize",
+        "MoMo bonus",
+        "send to claim"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks for a MoMo transfer as a condition of collecting a prize",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for the wallet number so a supposed award can be paid",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "requires a processing charge before any prize is released",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller or odd-looking SMS says the person has won a cash prize or MoMo bonus and then asks for a wallet transfer, account details, or a fee before the 'winnings' can be released.",
+      "legit_en": "Ghana's Cyber Security Authority warns the public to beware of scam calls that ask someone to send mobile money in order to receive a cash prize, or that request account details, and to use the official customer-service number when in doubt.",
+      "bait_tactics": [
+        "I have not joined any MoMo raffle on this number, so I am not sending money to collect a prize.",
+        "The alleged winning notice came from an ordinary phone number, not from a short code I already know.",
+        "There is no spare e-cedi in this wallet for a processing charge, and I do not pay in advance for a gift."
+      ],
+      "sources": [
+        "https://www.csa.gov.gh/mobile_money_fraud.php"
+      ]
+    }
+  ]
+}

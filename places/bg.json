@@ -1,0 +1,720 @@
+{
+  "region": "bg",
+  "countries": [
+    "bg"
+  ],
+  "region_name_zh": "保加利亞",
+  "region_name": "Bulgaria",
+  "languages": [
+    {
+      "code": "bg",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Bulgarian (bg, Cyrillic); Russian is understood by many older people but avoid it as a default; English works in Sofia, Plovdiv, Varna and Black Sea / ski resorts, much less in small towns and state offices.",
+  "english_ok": "sometimes — Common in Sofia centre, resorts and international hotels and among younger staff; scarce at state clinics, municipal offices, village guesthouses and garages.",
+  "politeness": "Formal 'Вие' with strangers; open with 'Добър ден' + who you are calling for ('обаждам се от името на...'); close with 'Благодаря, довиждане'. Tone is warm but direct.",
+  "name_tip": "Surname first in bookings ('на името на Иванов'); Bulgarian surnames change by gender (Иванов / Иванова), so give the exact form; spell foreign names letter by letter in Latin and expect them to be written in Cyrillic.",
+  "phone_tip": "Mobile 08x + 7 digits (e.g. 088 123 4567, 10 digits with 0), Sofia landline 02 + 7 digits; read in groups; Viber on the same mobile number is very common for confirmations.",
+  "time_tip": "24-hour clock is standard in writing ('19:30 ч.'); spoken 'седем и половина' = 7:30 (no German-style trap) and 'без петнайсет осем' = 7:45; always read back in 24h.",
+  "number_tip": "Digits are usually read in groups of 2–3; 'две' vs 'двама/двете' change with gender and counting people ('двама души'); read prices clearly in euro (Bulgaria uses the euro since 2026; older people may still mention leva).",
+  "avoid_calling": "Avoid lunch 12:00–13:30 at small offices and practices, restaurant peaks around 13:00 and 19:30–21:00, calls after 20:00, and Sundays for non-hospitality businesses.",
+  "closed_days": "Most shops and malls open on Sunday (shorter hours); many state offices and private practices close weekends; long national holidays (3 March, Orthodox Easter which moves each year, 24 May, 6 and 22 September, Christmas/New Year) shut offices.",
+  "booking_channels": "Superdoc.bg for private doctors and dentists; Booky.bg, Dineout.bg and Rezzo.bg for restaurants (mostly Sofia, Plovdiv, Varna, Bansko); Glovo and Wolt for delivery; phone and Viber/Facebook Messenger still dominant for salons, garages and small hotels.",
+  "voice_menu": "Mobile operators (A1, Yettel, Vivacom), banks, utilities and the public health fund (НЗОК) use keypad IVR; small businesses answer directly, often on a personal mobile.",
+  "callback_habits": "Small businesses often reply by Viber or call back from a mobile; platforms send SMS/email confirmation; many owners expect a short confirmation call the day before.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "滑雪學校、山屋、潛水與導覽多可電話預約；熱門景點與活動常走官網購票。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Standard tickets only online"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requires prepayment to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date, start time and duration",
+        "Number of people",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲與美容院普遍電話或 Instagram/Viber 預約，熟客常指定師傅；週末與節日前很滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment requested for long procedures"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash only or card fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands bank transfer deposit to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Exact service (подстригване, боядисване, маникюр, масаж)",
+        "Hair length or removal of old gel",
+        "Preferred day, hour and master (майстор)",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消宜盡早；私人診所與美容院對臨時取消可能收費或要求預付，口頭確認即可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation fee or lost deposit"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks ЕГН to find the booking"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original date and time",
+        "New preferred time or cancellation",
+        "Party size if restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立就醫須先有家庭醫師（личен лекар）並取得轉診單（направление）；私人診所與牙醫多可電話或 Superdoc 預約，自費價格通常事先告知。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "No referral, so offers paid visit instead of НЗОК-covered"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Superdoc online calendar"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ЕГН (personal number) or health-insurance status"
+        }
+      ],
+      "usually_asked": [
+        "НЗОК-covered with referral (направление) or paid (платен преглед)",
+        "First visit or follow-up",
+        "Symptoms or type of examination",
+        "Patient full name",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、電力自來水客服皆有語音選單，並依 GDPR 要求本人核身，代打通常無法處理帳戶事項。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Refuses third party without the account holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ЕГН, card details, client number or one-time codes"
+        }
+      ],
+      "usually_asked": [
+        "Keypad IVR routing",
+        "Account holder verification",
+        "Client or contract number",
+        "Description of the issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "市政辦事多走線上或臨櫃排隊，部分可電話預約；學校與幼兒園報名多為線上系統，電話可問流程。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Appointment or application only online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ЕГН or child's birth certificate data"
+        }
+      ],
+      "usually_asked": [
+        "General procedure question",
+        "Child age and district for kindergarten",
+        "Documents needed",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "住宅多為公寓大樓，需告知區（ж.к.）、樓號（бл.）、入口（вх.）、樓層與門牌；水電工常以時段約定。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Callout fee plus hourly rate quoted"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Asks whether building has a working lift for heavy items"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands advance payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Trade needed (водопроводчик, електротехник, ключар, почистване)",
+        "Address with district, block, entrance, floor and flat (ж.к., бл., вх., ет., ап.)",
+        "Owner or tenant",
+        "Preferred time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "家庭旅館（къща за гости）與小飯店習慣電話、Viber 與 Email 訂房，旺季常要求訂金；連鎖飯店多導向官網或訂房平台。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tourist tax (туристически данък) charged per night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit by bank transfer required to confirm"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests card number or ID/passport number"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Adults, children and room type (двойна стая, апартамент)",
+        "Breakfast, parking, late arrival",
+        "Full name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、可否刷卡、是否有貨、是否可帶寵物等通常電話直接回答；小店老闆常以手機接聽。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Kitchen closes earlier than the venue"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (работно време, плащане с карта, наличност, домашни любимци)",
+        "Intended visit day and time",
+        "Group size",
+        "Whether caller wants to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫診所與寵物美容可電話預約；出國旅遊需歐盟寵物護照（паспорт за домашен любимец）與疫苗紀錄。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Emergency or weekend visit costs more"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel requires transfer deposit"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or boarding",
+        "Species, breed, weight and age",
+        "Vaccination and microchip status",
+        "Preferred date and time",
+        "Name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 imot.bg 等網站與房仲，房仲常接電話安排看房；仲介費與押金規則需問清楚。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks to send listing number first"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing number or address",
+        "Household size, pets and move-in date",
+        "Budget and lease length",
+        "Viewing appointment",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車廠（автосервиз）、年度車檢（ГТП）、換胎季（春秋）可電話預約；家電與手機維修常先口頭估價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Paid diagnostic if repair declined"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Asks VIN from the registration certificate (талон) for parts"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks phone unlock code"
+        },
+        {
+          "handle": "decline",
+          "what": "Demands prepayment to order a part"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model, year and plate number",
+        "Work needed (ГТП, смяна на гуми, ремонт, диагностика)",
+        "Drop-off day and hour",
+        "Device model and fault for electronics",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "保加利亞晚餐多在 19:00～21:00，週末與夏季海濱、冬季滑雪勝地熱門餐廳建議預約；小餐館（механа）多接電話或 Viber 訂位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Large groups or holidays need a set menu or deposit"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Terrace (градина/тераса) tables seasonal or not reservable"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks for card number or bank transfer to hold an ordinary table"
+        }
+      ],
+      "usually_asked": [
+        "Date and time in 24h",
+        "Number of people and children (детско столче)",
+        "Inside or garden/terrace, smoking area in some venues",
+        "Name and mobile number (often Viber)",
+        "Occasion such as birthday or name day (имен ден)"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（аптека）、麵包店、蛋糕店與書店常可電話預留或預訂；節日（復活節、聖誕）蛋糕需提早數天訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pharmacy orders item for next-day pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests upfront transfer for a custom cake"
+        }
+      ],
+      "usually_asked": [
+        "Product name, size or weight",
+        "Quantity and stock check",
+        "Pickup day and hour",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩、烤肉（скара）與速食店常接受電話訂餐自取或外送，現付為主；多數外送則走 Glovo/Wolt。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cash only on pickup"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only via Glovo or Wolt"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests card number before cooking"
+        }
+      ],
+      "usually_asked": [
+        "Pickup (за вземане) or delivery (доставка)",
+        "Items, sizes and extras",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Econt（Еконт）與 Speedy 為主要快遞，追蹤多用網站或 App、客服有語音選單；可改用官網或 App 查詢、或到辦公室（офис）詢問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier hotline handled by keypad IVR; suggests tracking online"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks pickup code sent by SMS"
+        }
+      ],
+      "usually_asked": [
+        "Shipment number (номер на пратка)",
+        "Recipient name and phone",
+        "Office or address delivery",
+        "Cash-on-delivery amount (наложен платеж)"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車行（такси）普遍可電話叫車，也常用 App；機場接送與包車可預約，費率依車行。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives car number and arrival time"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for airport or intercity transfer"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or driving licence number"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers, luggage, child seat",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "bg": {
+      "appointment_words": [
+        "записване на час",
+        "час при лекар",
+        "час за фризьор",
+        "преглед при зъболекар",
+        "годишен технически преглед"
+      ],
+      "booking_words": [
+        "резервация на маса",
+        "запазване на маса",
+        "резервирам стая",
+        "нощувка със закуска",
+        "запази място"
+      ],
+      "change_words": [
+        "преместване на часа",
+        "отмяна на резервация",
+        "половин час по-късно",
+        "за петък вместо четвъртък",
+        "откажи часа"
+      ],
+      "date": [
+        "утре",
+        "вдругиден",
+        "този петък",
+        "следващия вторник",
+        "на 25.11.",
+        "25 ноември"
+      ],
+      "false_friends": [
+        "ет. 3, ап. 12",
+        "вх. Б",
+        "бл. 215",
+        "меню № 4",
+        "масаж 60 мин",
+        "трамвай 5"
+      ],
+      "inquiry_words": [
+        "до колко часа работи кухнята",
+        "може ли с карта",
+        "допускат ли се кучета",
+        "имате ли в наличност",
+        "какво е работното време"
+      ],
+      "name": [
+        "на името на Иванов",
+        "Иван Петров",
+        "Мария Георгиева",
+        "семейство Димитрови",
+        "г-н Стоянов"
+      ],
+      "order_words": [
+        "поръчка за вкъщи",
+        "за вземане",
+        "за доставка",
+        "да ми го запазите",
+        "предварителна поръчка"
+      ],
+      "party": [
+        "маса за 4",
+        "2 възрастни и 1 дете",
+        "ние сме трима",
+        "за 2 души",
+        "4 човека",
+        "5 души + детско столче"
+      ],
+      "phone": [
+        "088 123 4567",
+        "0891 234 567",
+        "за обратна връзка: 087 123 4567",
+        "02 123 4567"
+      ],
+      "time": [
+        "в седем и половина вечерта",
+        "19:30 ч.",
+        "в шест и петнайсет",
+        "без петнайсет осем",
+        "на обяд в 12:30",
+        "утре в 9 сутринта"
+      ]
+    }
+  }
+}

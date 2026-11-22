@@ -1,0 +1,89 @@
+{
+  "region": "ro-md",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Слушаю."
+  },
+  "habits": {
+    "en": "Chișinău Russian often slips in mersi, bună, primăria, leu and CNAM. Official counters lean Romanian; вы with strangers.",
+    "zh": "基希訥烏俄語常夾 mersi、primăria、leu、CNAM。櫃檯多用羅馬尼亞語；對生人用 вы。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Chișinău friend: ты, easy laughter, a mersi or bună can land in the middle of a Russian sentence.",
+        "zh": "基希訥烏熟友用 ты，輕鬆愛笑，俄語句子中間可能冒出 mersi 或 bună。"
+      },
+      "2": {
+        "en": "Familiar but not intimate: follow their ты; after they explain, a short reply, maybe mersi instead of спасибо.",
+        "zh": "熟但不親密：跟著對方的 ты；聽完短短回一句，謝謝也可能說 mersi。"
+      },
+      "3": {
+        "en": "Everyday Moldovan Russian. Finish the thought in a sentence; clinic or mayor's office stay CNAM or primăria.",
+        "zh": "摩爾多瓦日常俄語。用完整句子把話說完；診所或市府維持 CNAM、primăria。"
+      },
+      "4": {
+        "en": "Polite вы at the counter. Romanian institution names stay; if they greet with bună, you can answer in kind.",
+        "zh": "櫃檯用禮貌 вы。羅馬尼亞機關名照留；若對方用 bună 打招呼，也可以同樣回。"
+      },
+      "5": {
+        "en": "Formal вы, careful and local. Speak of leu, CNAS or primăria as written, and close each item fully; stay apolitical.",
+        "zh": "正式 вы，謹慎且用當地詞。貨幣與社保用 leu、CNAS、primăria，各點說完；不評政治。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s breezy pickup on ты: catch the chit-chat, throw in a mersi, then you'll pass the note.",
+        "zh": "{owner}輕快的代接，用 ты：先接住閒聊，可回一句 mersi，再說會轉達。"
+      },
+      "2": {
+        "en": "Warm stand-in: match ты or вы, keep primăria or leu as said, and tell them {owner} will hear it.",
+        "zh": "溫暖代接：跟著 ты 或 вы，primăria、leu 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Restate the CNAM request in a full sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句複述 CNAM 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on вы: take the reason for calling, leave Romanian titles intact, confirm the handover.",
+        "zh": "沉穩秘書用 вы：先弄清來意，羅馬尼亞職稱與機關名照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: precise about leu or CNAS, no language politics, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，把 leu、CNAS 說準，不談語言政治，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты в Кишинёве?",
+      "Алло, слушаю. Давай, я на линии.",
+      "Алло, добрый день. Это по CNAM? Хорошо, mersi.",
+      "Добрый день, спасибо за звонок. По примэрии всё понял.",
+      "Добрый день, благодарю за звонок. Вопрос по леям принял."
+    ],
+    "a": [
+      "Алло! Его нет, скажи мне — передам, mersi.",
+      "Алло, привет. Я за него у трубки, диктуй.",
+      "Алло, добрый день. Передам {owner} вашу просьбу.",
+      "Добрый день, спасибо за звонок. Приму по CNAM и передам.",
+      "Добрый день, благодарю за звонок. Всё отмечу и передам ему."
+    ]
+  },
+  "diff_from_home": [
+    "口語常夾羅馬尼亞語禮貌詞與行政詞（mersi、bună、primăria），與俄羅斯本土俄語不同。",
+    "貨幣是 leu（лей），醫保與社保常稱 CNAM、CNAS，不要套用俄羅斯機構名。",
+    "基希訥烏等城市招牌與公務近年以羅馬尼亞語為主，俄語仍常見於口語與部分商業場合。",
+    "只寫語言習慣；官方語言名稱爭議不下評語，按對方用詞跟從即可。"
+  ],
+  "sources": [
+    "https://www.cnam.md/",
+    "https://ipn.md/en/nina-corcinschi-quality-of-romanian-language-has-improved/",
+    "https://doi.org/10.31489/2023ph4/6-17",
+    "https://ojs.ruc.dk/index.php/mobility/article/download/5341/2940"
+  ],
+  "uncertain": [
+    "德涅斯特河左岸日常用語與貨幣（當地盧布）與右岸不同，本檔以摩爾多瓦主要城市習慣為準，未涵蓋該區細節。"
+  ]
+}

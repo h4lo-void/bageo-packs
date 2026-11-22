@@ -1,0 +1,448 @@
+{
+  "region": "cz",
+  "vocab": {
+    "cs": {
+      "bank": [
+        {
+          "term": "George",
+          "en": "Česká spořitelna's banking app, the name people often use on the phone"
+        },
+        {
+          "term": "Bank iD",
+          "en": "bankovní identita used to log into state and private services"
+        },
+        {
+          "term": "převod",
+          "en": "a bank transfer, also platba or odchozí platba"
+        },
+        {
+          "term": "účet",
+          "en": "a bank účet, reached in George or another Czech internetové bankovnictví"
+        },
+        {
+          "term": "karta",
+          "en": "a payment karta, often tapped at a Czech terminal"
+        },
+        {
+          "term": "internetové bankovnictví",
+          "en": "online banking, also mobilní bankovnictví"
+        },
+        {
+          "term": "zůstatek",
+          "en": "the zůstatek shown in the Czech bank app"
+        },
+        {
+          "term": "instantní platba",
+          "en": "an instant transfer, now common between Czech banks"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Zásilkovna",
+          "en": "the main pickup-point network, often just zásilkovna"
+        },
+        {
+          "term": "Z-BOX",
+          "en": "Zásilkovna's outdoor locker"
+        },
+        {
+          "term": "AlzaBox",
+          "en": "Alza's locker, widely used even for non-Alza orders in some cases"
+        },
+        {
+          "term": "Balíkovna",
+          "en": "Česká pošta's pickup brand"
+        },
+        {
+          "term": "výdejní místo",
+          "en": "a pickup point in a shop"
+        },
+        {
+          "term": "soused",
+          "en": "the soused, a common fallback if a Zásilkovna or Z-BOX drop fails"
+        },
+        {
+          "term": "schránka",
+          "en": "the letterbox, or a parcel box if they say poštovní schránka"
+        }
+      ],
+      "government": [
+        {
+          "term": "datová schránka",
+          "en": "the official electronic mailbox for dealings with the state"
+        },
+        {
+          "term": "Portál občana",
+          "en": "the citizen portal, often entered with Bank iD"
+        },
+        {
+          "term": "občanka",
+          "en": "the national ID card, short for občanský průkaz"
+        },
+        {
+          "term": "rodné číslo",
+          "en": "the birth number; do not recite it on a call unless the owner has asked"
+        },
+        {
+          "term": "úřad práce",
+          "en": "the labour office"
+        },
+        {
+          "term": "finanční úřad",
+          "en": "the tax office"
+        },
+        {
+          "term": "Czech POINT",
+          "en": "a one-stop counter for extracts and official filings"
+        }
+      ],
+      "health": [
+        {
+          "term": "eRecept",
+          "en": "an electronic prescription, usually a QR or a short code from the doctor"
+        },
+        {
+          "term": "lékárna",
+          "en": "a lékárna, where an eRecept is usually filled"
+        },
+        {
+          "term": "praktický lékař",
+          "en": "the GP, also obvodní lékař in older speech"
+        },
+        {
+          "term": "pohotovost",
+          "en": "urgent care or the after-hours clinic"
+        },
+        {
+          "term": "zdravotní pojišťovna",
+          "en": "the health insurer, often VZP, OZP or another fund named by initials"
+        },
+        {
+          "term": "kartička pojištěnce",
+          "en": "the kartička pojištěnce from VZP, OZP or another zdravotní pojišťovna"
+        },
+        {
+          "term": "pohotovostní příjem",
+          "en": "the hospital emergency intake, also urgentní příjem"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "tarif",
+          "en": "a mobile tarif with T-Mobile, O2 or Vodafone in Czechia"
+        },
+        {
+          "term": "kredit",
+          "en": "prepaid credit"
+        },
+        {
+          "term": "přenesení čísla",
+          "en": "number portability"
+        },
+        {
+          "term": "SIM karta",
+          "en": "a Czech SIM karta"
+        },
+        {
+          "term": "operátor",
+          "en": "the operator, often T-Mobile, O2 or Vodafone"
+        },
+        {
+          "term": "data",
+          "en": "mobile data on a Czech tarif"
+        },
+        {
+          "term": "internet",
+          "en": "home or mobile internet"
+        }
+      ],
+      "payment": [
+        {
+          "term": "karta",
+          "en": "card payment at a terminal"
+        },
+        {
+          "term": "hotovost",
+          "en": "hotovost in koruny, still used for dobírka and small shops"
+        },
+        {
+          "term": "převod",
+          "en": "a převod between Czech accounts, often an instantní platba or a QR platba"
+        },
+        {
+          "term": "QR platba",
+          "en": "a payment from a QR, very common on Czech invoices"
+        },
+        {
+          "term": "dobírka",
+          "en": "cash on delivery, still used in e-shops"
+        },
+        {
+          "term": "Apple Pay",
+          "en": "paying with Apple Pay at a Czech till, or with Google Pay"
+        },
+        {
+          "term": "stravenka",
+          "en": "a meal voucher, also Gastrom or Edenred in some workplaces"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Lítačka",
+          "en": "Prague's travel card and app, PID Lítačka"
+        },
+        {
+          "term": "MHD",
+          "en": "city public transport"
+        },
+        {
+          "term": "vlak",
+          "en": "a train, often ČD"
+        },
+        {
+          "term": "autobus",
+          "en": "a bus, also dálkový autobus"
+        },
+        {
+          "term": "tramvaj",
+          "en": "a tram, especially in Prague, Brno or Ostrava"
+        },
+        {
+          "term": "taxi",
+          "en": "a taxi, also Bolt in many cities"
+        },
+        {
+          "term": "jízdenka",
+          "en": "a jízdenka for MHD, a tramvaj, or a ČD vlak"
+        },
+        {
+          "term": "nádraží",
+          "en": "the railway station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "byt",
+          "en": "a byt in a Czech panelák or older house"
+        },
+        {
+          "term": "vchod",
+          "en": "the vchod, the numbered entrance of a Czech block"
+        },
+        {
+          "term": "zvonek",
+          "en": "the zvonek at the vchod"
+        },
+        {
+          "term": "schránka",
+          "en": "the letterbox in the hallway"
+        },
+        {
+          "term": "nájemné",
+          "en": "the nájemné, plus any SVJ charges"
+        },
+        {
+          "term": "SVJ",
+          "en": "the unit-owners' association, společenství vlastníků"
+        },
+        {
+          "term": "správce",
+          "en": "the správce who manages the building for the SVJ"
+        },
+        {
+          "term": "družstvo",
+          "en": "a housing cooperative"
+        }
+      ],
+      "school": [
+        {
+          "term": "školka",
+          "en": "kindergarten, also mateřská škola"
+        },
+        {
+          "term": "základní škola",
+          "en": "primary school, also základoška"
+        },
+        {
+          "term": "družina",
+          "en": "after-school club"
+        },
+        {
+          "term": "střední škola",
+          "en": "střední škola, after základní škola, including a gymnázium"
+        },
+        {
+          "term": "gymnázium",
+          "en": "a grammar-style secondary school"
+        },
+        {
+          "term": "úkoly",
+          "en": "úkoly sent home from a základní škola or střední škola"
+        },
+        {
+          "term": "třídní",
+          "en": "the class teacher, třídní učitel"
+        }
+      ],
+      "money": [
+        {
+          "term": "koruny",
+          "en": "Czech koruny, also Kč"
+        },
+        {
+          "term": "tisíc",
+          "en": "a thousand koruny"
+        },
+        {
+          "term": "hotovost",
+          "en": "hotovost in koruny, still used for dobírka and small shops"
+        },
+        {
+          "term": "vrácení",
+          "en": "the change, also drobné"
+        },
+        {
+          "term": "částka",
+          "en": "the částka in Czech koruny"
+        },
+        {
+          "term": "haléře",
+          "en": "haléře, almost only on receipts now"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "dopoledne",
+          "en": "in the morning, before midday"
+        },
+        {
+          "term": "odpoledne",
+          "en": "odpoledne, after midday"
+        },
+        {
+          "term": "večer",
+          "en": "večer, later in the day"
+        },
+        {
+          "term": "všední den",
+          "en": "a weekday, also pracovní den"
+        },
+        {
+          "term": "víkend",
+          "en": "víkend, Saturday and Sunday"
+        },
+        {
+          "term": "po práci",
+          "en": "po práci, once the shift or office day ends"
+        },
+        {
+          "term": "tento týden",
+          "en": "tento týden, the current week"
+        },
+        {
+          "term": "zítra ráno",
+          "en": "zítra ráno, the next morning"
+        }
+      ],
+      "work": [
+        {
+          "term": "práce",
+          "en": "práce, the everyday Czech word for a job"
+        },
+        {
+          "term": "přesčas",
+          "en": "přesčas, extra hours beyond the agreed výplata period"
+        },
+        {
+          "term": "dovolená",
+          "en": "dovolená, the yearly leave"
+        },
+        {
+          "term": "neschopenka",
+          "en": "a sick note, also eNeschopenka"
+        },
+        {
+          "term": "šéf",
+          "en": "the boss, also vedoucí"
+        },
+        {
+          "term": "home office",
+          "en": "working from home, also práce z domova"
+        },
+        {
+          "term": "služební cesta",
+          "en": "a služební cesta, a work trip paid by the employer"
+        },
+        {
+          "term": "výplata",
+          "en": "the salary payment"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "MitID",
+      "use_instead": "Bank iD, bankovní identita",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "Z-BOX, AlzaBox, Zásilkovna",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "InPost paczkomat 當捷克用法",
+      "use_instead": "Z-BOX, AlzaBox, Balíkovna",
+      "where_it_is_from": "PL"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "převod, QR platba",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "převod, instantní platba",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "občiansky preukaz",
+      "use_instead": "občanka, občanský průkaz",
+      "where_it_is_from": "SK"
+    },
+    {
+      "word": "rodné číslo 讀成捷克號碼卻用斯洛伐克拼寫",
+      "use_instead": "rodné číslo（捷克寫法）",
+      "where_it_is_from": "SK"
+    },
+    {
+      "word": "ČSOB Smart 以外硬套斯洛伐克銀行 App 名",
+      "use_instead": "George（Česká spořitelna）或來電者自己的銀行 App",
+      "where_it_is_from": "SK"
+    },
+    {
+      "word": "datová schránka ID 朗讀一長串識別碼",
+      "use_instead": "只在主人要求時核對，不要主動唸識別碼",
+      "where_it_is_from": "CZ"
+    },
+    {
+      "word": "MobilePay",
+      "use_instead": "převod, karta, QR platba",
+      "where_it_is_from": "DK"
+    }
+  ],
+  "sources": [
+    "https://www.zasilkovna.cz/",
+    "https://www.zasilkovna.cz/kontakty",
+    "https://bankid.cz/lide/caste-dotazy/",
+    "https://bankid.cz/lide/vyuziti/",
+    "https://www.mojedatovaschranka.cz/",
+    "https://www.ceskaposta.cz/",
+    "https://www.alza.cz/alzabox"
+  ],
+  "uncertain": [
+    "Lítačka 主要是布拉格／PID 交通卡，其他城市會改叫自己的卡名（例如 Ostrava、Brno）。",
+    "AlzaBox 是否接受非 Alza 訂單，依當時合作而定，電話裡不要說成全國統一規則。"
+  ]
+}

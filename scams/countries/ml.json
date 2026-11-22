@@ -1,0 +1,137 @@
+{
+  "name": "Mali",
+  "name_local": "Mali",
+  "iso": "ml",
+  "calling_code": "+223",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Orange Mali tells customers never to type a code dictated in a prize-style message, never to give the Orange Money secret code even to someone claiming to work for Orange, and never to say a withdrawal number out loud. Orange Money Mali has also warned the public to ignore deposit or transfer SMS that do not come from the official OrangeMoney sender.",
+  "cross_border_note": "Calls and SMS are usually in French or Bambara and may use Malian mobiles; some lures also misuse the name of the regional central bank that covers Mali.",
+  "scams": [
+    {
+      "id": "ml_prize_dictated_code",
+      "typology": "prize_lottery",
+      "name": "Annonce de gain et code à taper",
+      "name_en": "Prize announcement with a dictated code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "vous avez gagné",
+        "code à taper",
+        "lot Orange Money",
+        "annonce de gain"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks the user to type a sequence presented as the way to collect a prize",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "announces a win and asks the customer to confirm a dictated sequence",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims the prize will lapse unless a code is entered at once",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A call, SMS or email framed as a prize or jackpot tells the customer in Bamako or elsewhere in Mali to type a code the caller is dictating, which can empty the Orange Money wallet.",
+      "legit_en": "Orange Mali's official protection page says never to type a code dictated by someone on the phone, by SMS or by email, including when the request is presented as a prize announcement.",
+      "bait_tactics": [
+        "Je n'ai pas pris part à un jeu Orange Mali, donc je ne tape aucune séquence pour un prétendu lot.",
+        "Aucun avis de gain n'apparaît dans le menu officiel de ce compte à Bamako.",
+        "Je refuse de saisir un code annoncé par un appel, même présenté comme un cadeau."
+      ],
+      "sources": [
+        "https://www.orangemali.com/fr/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html"
+      ]
+    },
+    {
+      "id": "ml_secret_code_request",
+      "typology": "otp_theft",
+      "name": "Demande du code secret Orange Money",
+      "name_en": "Request for the Orange Money secret code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "code secret",
+        "service client Orange",
+        "débloquer le compte",
+        "numéro de retrait"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "solicits the Orange Money secret code while claiming to represent Orange Mali",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to dictate the secret code to a supposed staff member",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the cash-out reference to be spoken on the call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Someone posing as Orange staff asks the customer to say the wallet secret code or to read a withdrawal number aloud, sometimes at a kiosk or during an unsolicited call.",
+      "legit_en": "Orange Mali states that the secret code must never be given to a third party, including a person claiming to be from Orange, and that Orange will never ask for it. It also tells customers not to say a withdrawal number out loud.",
+      "bait_tactics": [
+        "Le code secret de ce portefeuille ne sera pas dicté, Orange Mali ne le réclame pas au téléphone.",
+        "Je n'énonce pas un numéro de retrait dans cette pièce, trop de monde peut l'entendre.",
+        "Je n'ai demandé aucun déblocage de compte, cette conversation s'arrête là sur ce point."
+      ],
+      "sources": [
+        "https://www.orangemali.com/fr/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html"
+      ]
+    },
+    {
+      "id": "ml_fake_deposit_sms",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux SMS de dépôt n'venant pas d'OrangeMoney",
+      "name_en": "Fake deposit SMS not sent as OrangeMoney",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "SMS de dépôt",
+        "transfert reçu",
+        "renvoyez l'argent",
+        "expéditeur OrangeMoney"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "treats an unofficial deposit SMS as proof of a credit and demands a refund",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "insists a message is valid even though the sender is not the official name",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "demands an immediate repayment of a transfer that does not appear in the wallet",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An SMS that looks like a deposit or transfer notice arrives from a sender that is not the official OrangeMoney name, then a caller asks the customer to forward the apparent credit.",
+      "legit_en": "Orange Money Mali has told the public not to treat any deposit or transfer message as genuine unless the sender is OrangeMoney, and to report such messages promptly.",
+      "bait_tactics": [
+        "Ce SMS de dépôt n'affiche pas l'expéditeur officiel OrangeMoney, je ne m'en sers pas pour un renvoi.",
+        "Le solde réel de ce compte n'a pas bougé après ce message.",
+        "Je signale ce type de SMS plutôt que de transférer mon propre argent."
+      ],
+      "sources": [
+        "https://fr.linkedin.com/posts/orange-money-mali_stoparnaques-ngaorangemoney-activity-7443001556263669760-OEBF",
+        "https://www.orangemali.com/fr/je-souhaite-proteger-mon-compte-orange-money-des-arnaques-que-faire.html"
+      ]
+    }
+  ]
+}

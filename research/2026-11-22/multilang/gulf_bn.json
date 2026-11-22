@@ -1,0 +1,88 @@
+{
+  "region": "gulf",
+  "lang": "bn",
+  "hello": {
+    "hello": "হ্যালো?",
+    "hello_again": "জি, বলুন।"
+  },
+  "habits": {
+    "en": "Gulf Bengali stays on আপনি with strangers. Work words remain mixed: iqama, visa, company, duty, camp, dirham.",
+    "zh": "海灣孟加拉語對生人用 আপনি。工作詞常留 iqama、visa、company、duty、camp。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Bangladeshi friend: তুমি among close peers, otherwise আপনি; company or duty sit in the Bengali sentence unchanged.",
+        "zh": "孟加拉熟友平輩可用 তুমি，否則用 আপনি；company、duty 原樣進孟加拉語句。"
+      },
+      "2": {
+        "en": "Easygoing: keep আপনি if unsure; after they speak, a short জি ঠিক আছে, Arabic ID terms left as-is.",
+        "zh": "沒把握時用 আপনি；聽完短短說 জি ঠিক আছে，阿拉伯語證件詞照留。"
+      },
+      "3": {
+        "en": "Everyday Gulf Bengali. Finish the point fully; papers and work are visa, iqama or camp, not only Bangladesh official Bengali.",
+        "zh": "海灣日常孟加拉語。把重點說完整；證件與工作常說 visa、iqama、camp，不必只用孟加拉本國公文腔。"
+      },
+      "4": {
+        "en": "Polite আপনি and জি with offices. Keep sponsor or company as said, sentences fuller and respectful.",
+        "zh": "對機關用禮貌 আপনি 加 জি。sponsor、company 照叫，句子較完整、有敬意。"
+      },
+      "5": {
+        "en": "Formal আপনি, careful. Quote dirham or riyal and iqama exactly, close each item, no overly casual slang.",
+        "zh": "正式 আপনি，謹慎。dirham 或 riyal、iqama 要說準，各項收住，不要太俗。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: short warmth and জি, then you'll pass the message, work words left as said.",
+        "zh": "{owner}隨興代接：短而熱，帶 জি，再把話帶去，工作詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep আপনি, leave camp or visa untouched, and tell them {owner} will hear it.",
+        "zh": "客氣代接：維持 আপনি，camp、visa 不改寫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the company or iqama point in one full Bengali sentence, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用整句孟加拉語重述 company 或 iqama 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on আপনি: note the purpose, keep Gulf official words, confirm the handover with জি.",
+        "zh": "沉穩秘書用 আপনি：記下目的，海灣官方用詞照留，再用 জি 確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on আপনি: exact about iqama and dirham, then confirm the note for {owner}.",
+        "zh": "正式代表用 আপনি，把 iqama 與 dirham 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "হ্যালো! কেমন আছো? বলো, কী হয়েছে?",
+      "হ্যালো, জি। বলুন, আমি শুনছি।",
+      "হ্যালো, আসসালামু আলাইকুম। iqama-র বিষয়? ঠিক আছে, বুঝেছি।",
+      "আসসালামু আলাইকুম, কলের জন্য ধন্যবাদ। visa-র বিষয় পরিষ্কার।",
+      "আসসালামু আলাইকুম, ধন্যবাদ। dirham-এর কথা নোট করেছি।"
+    ],
+    "a": [
+      "হ্যালো! তিনি নেই, আমাকে বলুন, আমি বলে দেব।",
+      "হ্যালো, জি। আমি তাঁর ফোন ধরেছি, মেসেজ বলুন।",
+      "হ্যালো, সালাম। {owner}-কে আমি বলে দেব।",
+      "আসসালামু আলাইকুম, ধন্যবাদ। মেসেজ নিয়ে পৌঁছে দেব।",
+      "আসসালামু আলাইকুম, ধন্যবাদ। সব লিখে তাঁকে জানাব।"
+    ]
+  },
+  "diff_from_home": [
+    "對生人與長輩維持 আপনি、জি，比在孟加拉某些平輩場合更常保持敬語。",
+    "工作與居留詞幾乎不翻譯：iqama、visa、company、duty、camp 直接夾進孟加拉語。",
+    "開場有人會先道 আসসালামু আলাইকুম，尤其較正式或年長的來電。",
+    "不要套用孟加拉本國機構名；貨幣依所在國說 dirham、riyal 或 dinar。"
+  ],
+  "sources": [
+    "https://doi.org/10.7302/4562",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "http://pops.uclan.ac.uk/index.php/jsltr/article/view/445"
+  ],
+  "uncertain": [
+    "孟加拉僑民在營建與服務業的口語可能比公司職員更夾阿拉伯語或海灣皮欽，分層資料不多。"
+  ]
+}

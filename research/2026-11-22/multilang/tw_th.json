@@ -1,0 +1,90 @@
+{
+  "region": "tw",
+  "lang": "th",
+  "hello": {
+    "hello": "ฮัลโหล?",
+    "hello_again": "ฮัลโหล ค่ะ?"
+  },
+  "habits": {
+    "en": "Thai among workers; mix 健保, 仲介, 居留證 and factory Mandarin; polite ค่ะ/ครับ; many in factories or construction.",
+    "zh": "同鄉講泰語，常夾健保、仲介、居留證與工廠用語；用 ค่ะ／ครับ 表禮貌。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Thai coworkers in Taiwan, keep a loose tone; reply brightly, then add ได้เลย or another easy tag, and switch the wording.",
+        "zh": "跟在台泰籍工友用輕鬆口氣，先開朗接話再補 ได้เลย 之類，不要反覆同一句。"
+      },
+      "2": {
+        "en": "Keep ค่ะ or ครับ in a relaxed way; after they finish, add ดีค่ะ or ดีครับ, unhurried and slightly rephrased each time.",
+        "zh": "輕鬆帶著 ค่ะ 或 ครับ，聽完補 ดีค่ะ 或 ดีครับ，步調放慢並換著說。"
+      },
+      "3": {
+        "en": "Daily Thai in Taiwan should be a full sentence: pick up the point with เข้าใจแล้ว or บันทึกแล้ว, including mixed 健保 terms.",
+        "zh": "在台日常泰語要講完整：用 เข้าใจแล้ว、บันทึกแล้ว 接住重點，也可帶上健保等詞。"
+      },
+      "4": {
+        "en": "With 仲介, the plant office or a clinic, keep คุณ plus ค่ะ/ครับ and measured lines; show you understood, e.g. รับทราบ.",
+        "zh": "對仲介、廠辦或診所加 คุณ 與 ค่ะ／ครับ，句子穩，先 รับทราบ 再談細節。"
+      },
+      "5": {
+        "en": "On 居留證 or labour paperwork, stay formal and exact; close each item with บันทึกแล้วค่ะ, slightly rephrased, no slang.",
+        "zh": "談居留證或勞動手續要正式、用詞準；各點用 บันทึกแล้วค่ะ 一類收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A bright pickup for {owner} in easy Thai: short warm lines, then จะส่งต่อให้, wording changed each time.",
+        "zh": "代{owner}接的輕快泰語：先熱絡短句，再說會 จะส่งต่อให้，用詞常換。"
+      },
+      "2": {
+        "en": "Keep ค่ะ or ครับ with the caller; thank them, write the note for {owner}, and close with จดไว้ให้ or another kind line.",
+        "zh": "跟著用 ค่ะ 或 ครับ，先致謝再記下要給{owner}的話，用 จดไว้ให้ 一類收尾。"
+      },
+      "3": {
+        "en": "Sound like a steady shift mate: answer the point in one full sentence, then confirm you will tell {owner}; skip a bare ครับ.",
+        "zh": "像穩當的同事：先用完整句子回應來意，再確認會告訴{owner}，不要只回 ครับ。"
+      },
+      "4": {
+        "en": "A careful voice for {owner} with agencies: polite คุณ and complete lines; restate the request, then จะส่งต่อ.",
+        "zh": "代{owner}對仲介：用禮貌 คุณ 與完整句子覆述來意，再說 จะส่งต่อ。"
+      },
+      "5": {
+        "en": "For formal labour calls, keep titles and local terms (居留證, 健保) exact; confirm the relay to {owner} is บันทึกครบแล้ว.",
+        "zh": "對勞動正式來電，居留證、健保等詞要準，確認已記齊並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ฮัลโหล! สบายดีไหม วันนี้ที่โรงงานเป็นไงบ้าง",
+      "ฮัลโหลค่ะ กำลังฟังอยู่ ดีค่ะ",
+      "ฮัลโหล สวัสดีค่ะ เรื่อง 健保 ใช่ไหม บันทึกแล้ว",
+      "สวัสดีค่ะ ขอบคุณที่โทรมา รับทราบ จะจัดการให้",
+      "สวัสดีค่ะ ขอบคุณสำหรับสาย บันทึกเรียบร้อยแล้วค่ะ"
+    ],
+    "a": [
+      "ฮัลโหล! ตอนนี้ติดธุระ บอกมาได้ จะส่งต่อให้",
+      "ฮัลโหลค่ะ รับสายแทนได้ ฝากข้อความมาได้เลย",
+      "ฮัลโหล สวัสดีค่ะ จะจดข้อความแล้วส่งต่อให้",
+      "สวัสดีค่ะ ขอบคุณที่โทรมา จะบันทึกเพื่อส่งต่อค่ะ",
+      "สวัสดีค่ะ ขอบคุณสำหรับสาย จะบันทึกครบแล้วส่งต่อค่ะ"
+    ]
+  },
+  "diff_from_home": [
+    "同鄉之間講泰語，電話裡常夾台灣制度詞，如健保、仲介、居留證，以及工廠或工地的中文工作詞。",
+    "禮貌語氣依性別用 ค่ะ 或 ครับ；對雇主與機構較克制，與泰國親友聊天時更鬆。",
+    "官方溝通可走勞動部與 1955 泰語通譯；契約應有泰文譯本。",
+    "泰籍移工人數少於印尼、越南，公開的在台泰語混碼詞表較少，不宜套用泰國本土新詞。"
+  ],
+  "sources": [
+    "https://fw.wda.gov.tw/",
+    "https://www.mol.gov.tw/",
+    "https://ah.lib.nccu.edu.tw/item?item_id=69955",
+    "https://cjdproject.web.nycu.edu.tw/2025/09/22/migration-identity-and-digital-media-the-experience-of-thai-and-indonesian-migrants-in-taiwan/"
+  ],
+  "uncertain": [
+    "在台泰籍移工具體常夾哪些中文或台語詞，缺乏大規模語言調查，除制度名詞外不另行編造。",
+    "電話開場用 ฮัลโหล 或 สวัสดี 的比例，未見針對在台移工的專門統計。"
+  ]
+}

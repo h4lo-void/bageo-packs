@@ -1,0 +1,71 @@
+{
+  "name": "Martinique",
+  "name_local": "Martinique",
+  "iso": "mq",
+  "calling_code": "+596",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "Martinique's economy and labour directorate (DEETS) warns about \"Ping Call\" callback scams, and French national guidance covers fake parcel SMS reported on the island.",
+  "cross_border_note": "Martinique (+596) receives mainland French (+33) calls and calls from foreign premium numbers used in ping-call scams.",
+  "scams": [
+    {
+      "id": "mq_ping_call_rappel",
+      "typology": "fake_telecom",
+      "name": "Ping Call : appel manqué surtaxé",
+      "name_en": "Ping-call scam: a one-ring missed call baiting a costly callback",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "appel manqué",
+        "numéro inconnu",
+        "rappel"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "rappeler ce numéro",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A single ring from an unknown, often foreign number leaves a missed call meant to make the owner call back at a premium rate.",
+      "legit_en": "DEETS Martinique advises not calling back unknown numbers after a one-ring missed call.",
+      "bait_tactics": [
+        "Ne pas rappeler et noter l'heure de l'appel manqué",
+        "Signaler le numéro à l'opérateur mobile local"
+      ],
+      "sources": [
+        "https://martinique.deets.gouv.fr/Le-Ping-Call-les-arnaques-telephoniques"
+      ]
+    },
+    {
+      "id": "mq_sms_colis_point_relais",
+      "typology": "fake_customs_parcel",
+      "name": "SMS piège colis non livré",
+      "name_en": "Fake undelivered-parcel SMS with a relay-point link in Martinique",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "colis non livré",
+        "point relais",
+        "frais"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "régler les frais via le lien",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "An SMS reports a parcel that could not be delivered and asks for a fee or a relay-point choice through a link.",
+      "legit_en": "French cyber-assistance guidance says to ignore such links and check delivery only on the carrier's official site.",
+      "bait_tactics": [
+        "Demander quel relais de Fort-de-France est concerné",
+        "Dire qu'on ira au guichet de La Poste avec l'avis papier"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+      ]
+    }
+  ]
+}

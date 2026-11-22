@@ -1,0 +1,275 @@
+{
+  "lang": "lo",
+  "backchannels": {
+    "direction": "ເຈົ້າ or ໂດຍ is the polite yes; ອືມ shows you follow; a curt ແມ່ນ ແມ່ນ can sound careless with elders.",
+    "examples": [
+      {
+        "text": "ເຈົ້າ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ໂດຍ.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ແມ່ນແລ້ວ.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ອືມ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ໂອ້, ແມ່ນບໍ?",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ແມ່ນ ແມ່ນ.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Lao reactions are soft; ແທ້ບໍ? for surprise, ເສຍໃຈນຳ for sympathy, ດີໃຈນຳ to share good news.",
+    "examples": [
+      {
+        "text": "ແທ້ບໍ?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ໂອ້ຍ!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ເສຍໃຈນຳເດີ້.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ໜ້າເສຍດາຍ.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ດີໃຈນຳ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ຍາກແທ້.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear clearly or the signal (ສັນຍານ) is poor; add ແດ່ or ເຈົ້າ to soften requests.",
+    "examples": [
+      {
+        "text": "ໄດ້ຍິນບໍ່ຊັດ.",
+        "style": "polite"
+      },
+      {
+        "text": "ສັນຍານບໍ່ດີ.",
+        "style": "casual"
+      },
+      {
+        "text": "ສຽງຂາດໆ.",
+        "style": "casual"
+      },
+      {
+        "text": "ເວົ້າດັງໆແດ່ໄດ້ບໍ່?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Ask with ...ໄດ້ບໍ່? (can you…?) and end with ເຈົ້າ for courtesy; names may be spelled letter by letter.",
+    "examples": [
+      {
+        "text": "ເວົ້າອີກເທື່ອໜຶ່ງໄດ້ບໍ່?",
+        "style": "polite"
+      },
+      {
+        "text": "ຫຍັງເດີ້?",
+        "style": "casual"
+      },
+      {
+        "text": "ສະກົດຊື່ໃຫ້ແດ່ໄດ້ບໍ່?",
+        "style": "polite"
+      },
+      {
+        "text": "ເບີໂທແມ່ນ 12345678 ບໍ່?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Open with ຂໍໂທດ before asking who is speaking; ແມ່ນໃຜ alone sounds abrupt to strangers.",
+    "examples": [
+      {
+        "text": "ແມ່ນໃຜໂທມາ?",
+        "style": "casual"
+      },
+      {
+        "text": "ຂໍໂທດ, ແມ່ນໃຜເວົ້າເຈົ້າ?",
+        "style": "polite"
+      },
+      {
+        "text": "ໂທມາແຕ່ໃສເຈົ້າ?",
+        "style": "polite"
+      },
+      {
+        "text": "ນີ້ແມ່ນໂທລະສັບຂອງ {owner}. ແມ່ນໃຜເຈົ້າ?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "ໂທຜິດເບີ means dialled the wrong number; keep it brief and polite.",
+    "examples": [
+      {
+        "text": "ໂທຜິດເບີແລ້ວເຈົ້າ.",
+        "style": "polite"
+      },
+      {
+        "text": "ບໍ່ມີຄົນຊື່ນີ້ຢູ່ນີ້.",
+        "style": "polite"
+      },
+      {
+        "text": "ຜິດເບີ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "ຈະບອກ...ໃຫ້ (I'll tell them) is natural; ຝາກຄວາມ means taking a message for someone.",
+    "examples": [
+      {
+        "text": "ຂ້ອຍຈະບອກລາວໃຫ້.",
+        "style": "polite"
+      },
+      {
+        "text": "ຈະບອກ {owner} ໃຫ້ເດີ້.",
+        "style": "casual"
+      },
+      {
+        "text": "ຈະຝາກຄວາມໃຫ້ເຈົ້າ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ບໍ່ສົນໃຈ (not interested) with ເຈົ້າ is polite; ບໍ່ເອົາ alone is casual and can sound curt.",
+    "examples": [
+      {
+        "text": "ບໍ່ເອົາ, ຂອບໃຈ.",
+        "style": "casual"
+      },
+      {
+        "text": "ຂ້ອຍບໍ່ສົນໃຈເຈົ້າ.",
+        "style": "polite"
+      },
+      {
+        "text": "ຕອນນີ້ບໍ່ຕ້ອງການເຈົ້າ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Lao avoids open confrontation; say you already refused and use ກະລຸນາຢ່າ… to ask them to stop.",
+    "examples": [
+      {
+        "text": "ບອກແລ້ວວ່າບໍ່ເອົາ, ກະລຸນາຢ່າໂທມາອີກ.",
+        "style": "polite"
+      },
+      {
+        "text": "ກະລຸນາລຶບເບີນີ້ອອກຈາກລາຍຊື່.",
+        "style": "polite"
+      },
+      {
+        "text": "ບໍ່ເອົາແທ້ໆ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "ເຈົ້າ is the polite you; kin terms ອ້າຍ, ເອື້ອຍ, ລຸງ, ປ້າ by age; ທ່ານ for officials and formal calls.",
+    "examples": [
+      {
+        "text": "ອ້າຍ,",
+        "style": "casual"
+      },
+      {
+        "text": "ເອື້ອຍ,",
+        "style": "casual"
+      },
+      {
+        "text": "ລຸງ,",
+        "style": "polite"
+      },
+      {
+        "text": "ປ້າ,",
+        "style": "polite"
+      },
+      {
+        "text": "ທ່ານ,",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Formal ບໍລິການ (service) phrasing is typical of operators and banks, odd on a private Lao call.",
+    "examples": [
+      {
+        "text": "ການໂທຂອງທ່ານມີຄວາມສຳຄັນສຳລັບພວກເຮົາ.",
+        "style": "polite"
+      },
+      {
+        "text": "ຍິນດີໃຫ້ບໍລິການ.",
+        "style": "polite"
+      },
+      {
+        "text": "ຂອບໃຈທີ່ໃຊ້ບໍລິການຂອງພວກເຮົາ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid rude pronouns like ມຶງ, early pay questions, and asking for ID card numbers.",
+    "examples": [
+      {
+        "text": "ເງິນເດືອນເທົ່າໃດ?",
+        "style": "casual"
+      },
+      {
+        "text": "ມຶງແມ່ນໃຜ?",
+        "style": "casual"
+      },
+      {
+        "text": "ບອກເລກບັດປະຈຳຕົວມາກ່ອນ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Lao_phrasebook",
+    "https://en.wiktionary.org/wiki/%E0%BA%82%E0%BB%8D%E0%BB%82%E0%BA%97%E0%BA%94",
+    "https://en.wikipedia.org/wiki/Lao_grammar",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "寮語電話附和聲沒有語料；「ໂດຍ」作禮貌的「是」只見於 Wikivoyage 片語集，未找到第二來源。",
+    "寮語拼寫在 1975 年前後有改革，部分詞的舊拼法仍見於海外社群，本檔用現行拼法但未逐詞核對官方詞典。",
+    "寮語與泰語相近，對方夾泰語詞時如何回應未查到依據；本檔只用寮語。"
+  ]
+}

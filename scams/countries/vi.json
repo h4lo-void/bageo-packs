@@ -1,0 +1,48 @@
+{
+  "name": "U.S. Virgin Islands",
+  "name_local": "U.S. Virgin Islands",
+  "iso": "vi",
+  "calling_code": "+1-340",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Virgin Islands Police Department has warned of a phone scam targeting senior citizens territorially, and US postal inspectors warn against fake USPS calls.",
+  "cross_border_note": "The USVI (+1-340) are in the NANP, so mainland and spoofed +1 numbers look domestic.",
+  "scams": [
+    {
+      "id": "vi_senior_phone_scam",
+      "typology": "fake_official",
+      "name": "Phone scam targeting seniors",
+      "name_en": "Unsolicited official-sounding calls targeting USVI seniors, flagged by VIPD",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "senior",
+        "official call",
+        "urgent matter"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "do not tell anyone",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "pay right away",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "Official-sounding callers target older residents with an urgent story that ends in a request for money or personal data.",
+      "legit_en": "VIPD has issued a territorial warning; check with police or family through a known number before acting.",
+      "bait_tactics": [
+        "Ask which VIPD station is calling, St Thomas or St Croix, and the officer's badge number",
+        "Say a grandchild handles all calls about money"
+      ],
+      "sources": [
+        "https://vipd.vi.gov/news/warning-issued-about-phone-scam-targeting-senior-citizens-territorially/",
+        "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls"
+      ]
+    }
+  ]
+}

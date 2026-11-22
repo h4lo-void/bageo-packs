@@ -1,0 +1,78 @@
+{
+  "country": "ve",
+  "parent": "latam",
+  "name": {
+    "en": "Venezuela",
+    "native": "Venezuela",
+    "zh": "委內瑞拉"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, me oye?"
+  },
+  "delivery": {
+    "en": "Parcels: often collected at an MRW, Zoom or Tealca office; or the door or porter",
+    "zh": "包裹常到 MRW、Zoom 或 Tealca 營業處取，或交門口、門房"
+  },
+  "readback": {
+    "en": "04 mobiles go in short groups; 0 as cero; confirm dollars or bolívares",
+    "zh": "手機常以 04 開頭、分短組唸，0 唸 cero；金額可能是美元或玻利瓦，要確認"
+  },
+  "fraud": {
+    "en": "A retained encomienda fee for MRW, Zoom, Tealca or IPOSTEL, or a bank OTP ask, are scams",
+    "zh": "假 MRW、Zoom 或 IPOSTEL 要補繳扣件費，或要銀行驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Tú is everyday; usted with strangers and elders. Say encomienda, agencia, pago móvil; not Nequi.",
+    "zh": "日常用 tú，陌生人與長輩用 usted。用 encomienda、agencia、pago móvil。"
+  },
+  "stall_local": {
+    "en": "Get stuck on pago móvil failing, a spinning bank app, a power cut, or misplaced glasses.",
+    "zh": "卡在 pago móvil 轉不出、銀行 App 一直轉、停電，或眼鏡放錯地方。"
+  },
+  "vocab": {
+    "bank": [
+      "pago móvil",
+      "bolívares",
+      "transferencia",
+      "clave"
+    ],
+    "delivery": [
+      "encomienda",
+      "agencia",
+      "retiro",
+      "portero"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "en": "Colombian wallet; Venezuela uses pago móvil and local banks",
+        "zh": "哥倫比亞錢包，委內瑞拉用 pago móvil 與本地銀行"
+      }
+    },
+    {
+      "word": "portería",
+      "reason": {
+        "en": "Less typical than agencia pickup or portero",
+        "zh": "所屬地區偏門房用語，當地更常到貨運營業處取件"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Warmer and more tuteante than a generic latam blend; keep usted for strangers. Everyday talk may mix dollar and bolívar amounts; stay concrete and unhurried.",
+    "zh": "比籠統的拉美口氣更常 tú、更熱絡，對陌生人仍用 usted。金額可能夾美元與玻利瓦，語氣具體、不要催。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://2001online.com/servicios/mrw-alerta-el-incremento-de-estafas-con-el-uso-de-su-marca-recomendaciones-202510159390",
+    "https://nocall.io/ve/blog/falsa-encomienda-sms-estafa-venezuela",
+    "https://nocall.io/ve/situaciones/estafas-de-paqueteria-correos-sms-falso"
+  ],
+  "uncertain": [
+    "門房與「到營業處取件」哪個更常見，會依都市公寓與一般住家而異。",
+    "口頭報價時美元與玻利瓦混用很常見，但何種場合用哪一種，來源並未統一。"
+  ]
+}

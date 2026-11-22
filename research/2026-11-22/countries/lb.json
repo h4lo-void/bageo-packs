@@ -1,0 +1,76 @@
+{
+  "country": "lb",
+  "parent": "levant",
+  "name": {
+    "en": "Lebanon",
+    "native": "لبنان",
+    "zh": "黎巴嫩"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the concierge or doorman, the door, or a LibanPost office",
+    "zh": "包裹交給門房、放門口，或到 LibanPost 領取"
+  },
+  "readback": {
+    "en": "Numbers go in short groups; 12-hour times; amounts may be in lira or dollars, so confirm",
+    "zh": "電話分短組唸；時間用 12 小時制；金額常夾里拉與美元，要確認"
+  },
+  "fraud": {
+    "en": "A fake LibanPost or courier fee, or a Whish or bank-code request, is a scam",
+    "zh": "假 LibanPost 或快遞要補費，或要 Whish、銀行驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Lebanese Arabic mixes French and English; follow the caller. Do not lead with CliQ or Qi Card.",
+    "zh": "黎巴嫩方言常夾法語、英語，跟對方語言回。不要先用約旦 CliQ 或伊拉克 Qi Card。"
+  },
+  "stall_local": {
+    "en": "Get stuck on Whish or a wallet app frozen by a power cut, no SMS code, or missing glasses.",
+    "zh": "卡在停電讓 Whish 或錢包 App 卡住、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "Whish Money",
+      "dollar",
+      "carte"
+    ],
+    "delivery": [
+      "concierge",
+      "البواب",
+      "LibanPost"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CliQ",
+      "reason": {
+        "en": "Jordanian instant payments",
+        "zh": "約旦即時付款"
+      }
+    },
+    {
+      "word": "Qi Card",
+      "reason": {
+        "en": "Iraqi payment card",
+        "zh": "伊拉克支付卡"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Looser and more mixed than a generic Levant tone: follow French or English mid-call. Keep titles when the call is formal.",
+    "zh": "比籠統黎凡特口氣更鬆、更常夾法語或英語，跟對方切換。正式場合仍用稱謂。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.nna-leb.gov.lb/ar/news/376118/%D9%85%D8%B5%D8%B1%D9%81-%D9%84%D8%A8%D9%86%D8%A7%D9%86-%D9%8A%D8%AD%D8%B0%D8%B1-%D9%85%D9%86-%D8%B1%D8%A7%D8%A8%D8%B7-%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A-%D9%88%D9%87%D9%85%D9%8A-%D9%8A%D8%AF-%D8%B9%D9%8A-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7",
+    "https://www.thisislebanon.com/exclusive/557599/"
+  ],
+  "uncertain": [
+    "LibanPost 官方防詐專頁此次未單獨打開；包裹類詐騙主要依當地媒體與央行對假連結的警告交叉整理。",
+    "接聽常夾法語 Allô，與 ألو 的使用比例未找到官方統計。",
+    "口頭金額用里拉或美元的場合沒有統一規則，需要當場確認。"
+  ]
+}

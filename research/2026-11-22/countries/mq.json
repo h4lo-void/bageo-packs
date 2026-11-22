@@ -1,0 +1,90 @@
+{
+  "country": "mq",
+  "parent": "fr",
+  "name": {
+    "en": "Martinique",
+    "native": "Martinique",
+    "zh": "馬提尼克"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "Collect at a La Poste counter, or use a point relais; a neighbour can take the parcel too.",
+    "zh": "到 La Poste 窗口領，或放 point relais；也可以交給鄰居。"
+  },
+  "readback": {
+    "en": "Landlines start 0596 and mobiles 0696 or 0697; ten digits, read in pairs; 0 as zéro; euros.",
+    "zh": "市話 0596，手機 0696 或 0697；十位兩位一組唸，0 唸 zéro；用歐元。"
+  },
+  "fraud": {
+    "en": "A fake courier SMS about an undelivered parcel, a fee or a point relais link is a scam",
+    "zh": "假冒快遞簡訊說包裹未送到、要補費或點選 point relais 的都是詐騙"
+  },
+  "habits": {
+    "en": "Martinican Creole may slip in; answer only in French. Start with vous. Amounts in euros, not CFP francs.",
+    "zh": "或夾馬提尼克克里奧爾語，只用法語回。先用 vous。金額用歐元，不是太平洋法郎。"
+  },
+  "stall_local": {
+    "en": "I cannot get to the point relais before it closes, and the home connection just dropped.",
+    "zh": "關門前趕不到 point relais，而且家裡網路剛好斷了。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "appli bancaire",
+      "virement",
+      "code secret"
+    ],
+    "delivery": [
+      "point relais",
+      "La Poste",
+      "boîte aux lettres",
+      "voisin",
+      "bureau de poste"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "ht／海地克里奧爾語",
+      "reason": {
+        "zh": "安地列斯克里奧爾語不在支援清單，且與海地克里奧爾語不同，不能當成 AI 用語。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Like Guadeloupe: levels 1–3 can be warmer and switch to tu sooner with peers than stiff métropole formal; strangers still get vous first. Levels 4–5 stay polished vous. Do not speak Creole.",
+    "zh": "馬提尼克 1～3 格可比本土法國腔熱絡些，同輩確認後才改 tu；4～5 格維持 vous。不要改講克里奧爾語。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.martinique.franceantilles.fr/actualite/faitsdivers/attention-aux-sms-piegeux-989288.php",
+    "https://martinique.deets.gouv.fr/Le-Ping-Call-les-arnaques-telephoniques",
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste",
+    "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000860005PDFF.pdf",
+    "https://www.arcep.fr/uploads/tx_gspublication/consultation-plan-de-numerotation-2025_Annexe-1-modifiee-diff-officiel.pdf",
+    "https://www.laposte.fr/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "號碼兩位一組是沿用法國唸法，未找到當地電信專文。",
+    "與瓜德羅普在語氣上的細微差別，缺少可引用的對照研究。",
+    "十位號碼、兩位一組與 0 唸 zéro、日期先日後月、用歐元，與法國本土及其他海外省是同一套號碼制度；此檔已改寫並寫出 0596／0696／0697 等馬提尼克字頭。",
+    "投遞走法國 La Poste 與 point relais，與留尼旺屬同一套制度；句子已改寫，避免套模板。"
+  ]
+}

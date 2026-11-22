@@ -1,0 +1,83 @@
+{
+  "country": "bh",
+  "parent": "gulf",
+  "name": {
+    "en": "Bahrain",
+    "native": "البحرين",
+    "zh": "巴林"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو؟ ألو؟"
+  },
+  "delivery": {
+    "en": "Leave the parcel at the door or with reception; otherwise collect it from the post",
+    "zh": "包裹可放門口或交櫃台，否則到郵局領取"
+  },
+  "readback": {
+    "en": "Eight-digit numbers go 4-4; 0 as صفر; amounts in dinars; 12-hour clock; day before month",
+    "zh": "本地號碼八位、照 4-4 唸，0 唸 صفر；金額用第納爾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A Benefit Pay text, or a bank SMS with a login link or an OTP request, is a scam",
+    "zh": "冒充 Benefit Pay 的簡訊，或銀行來訊要登入連結、OTP，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم. شلونك to a man, شلونج to a woman. أستاذ with strangers. Say dinars, not riyals.",
+    "zh": "要回禮 السلام عليكم。男性 شلونك、女性 شلونج。對生人稱 أستاذ。只說第納爾。"
+  },
+  "stall_local": {
+    "en": "Benefit Pay will not accept the fingerprint, and the reading glasses are not in the usual drawer.",
+    "zh": "卡在 Benefit Pay 指紋對不上，而且老花眼鏡不在常放的抽屜裡。"
+  },
+  "vocab": {
+    "bank": [
+      "Benefit Pay",
+      "دينار",
+      "تحويل",
+      "بطاقة",
+      "OTP"
+    ],
+    "delivery": [
+      "الباب",
+      "الاستقبال",
+      "البريد",
+      "مندوب"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "沙烏地政府服務，巴林沒有同名平台"
+      }
+    },
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋數位身分，不能當成巴林用語"
+      }
+    },
+    {
+      "word": "ريال",
+      "reason": {
+        "zh": "巴林貨幣是 دينار，不是里亞爾"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Stay on the same five steps, but use Bahraini شلونك/شلونج and dinar or Benefit Pay wording. Avoid Saudi official terms and Emirati شحالك.",
+    "zh": "五級語氣可沿用，但改用巴林的 شلونك／شلونج，以及第納爾、Benefit Pay。避開沙烏地公文詞與阿聯酋的 شحالك。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.cbb.gov.bh/media-center/warning-benefitpay-sms/",
+    "https://openarabic.org/gulf-arabic-resources/",
+    "https://www.itu.int/dms_pub/itu-t/oth/02/02/T02020000110008PDFE.pdf"
+  ],
+  "uncertain": [
+    "門口代收、櫃台與郵局領件哪個最常見，未找到巴林郵政的全國說明。",
+    "八位號碼口頭是否一律 4-4，未見電信官方口誦規範。"
+  ]
+}

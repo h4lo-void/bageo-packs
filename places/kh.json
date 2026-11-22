@@ -1,0 +1,619 @@
+{
+  "region": "kh",
+  "countries": [
+    "kh"
+  ],
+  "region_name_zh": "柬埔寨",
+  "region_name": "Cambodia",
+  "languages": [
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Khmer (km) is what staff speak, but Bageo's list lacks it; open in plain English and keep sentences short. Phnom Penh and Siem Reap hotels, clinics and banks handle English best.",
+  "english_ok": "sometimes — Fine at hotels, international clinics, banks and tour desks; thin at markets, garages and small salons.",
+  "politeness": "Soft voice and patience; staff may greet with joom reap suor; thank them by name; never press or sound impatient.",
+  "name_tip": "Khmer names put the family name first and people are called by the given name with Lok (Mr) or Lok Srey (Ms); spell foreign names letter by letter.",
+  "phone_tip": "Mobile numbers start 0 then a 2-digit operator code, 8–9 digits after the 0 (012 345 678); same number is usually on Telegram.",
+  "time_tip": "Clock times are 12-hour with morning/afternoon/evening words in speech; confirm 'evening 7' versus 19:00 for dinner bookings.",
+  "number_tip": "Prices come in US dollars and riel side by side (about 4,000 riel to the dollar is a common shorthand); always say which currency before a sum.",
+  "avoid_calling": "Avoid 11:30–14:00 (long lunch and rest), after 20:00, and Khmer New Year in mid-April and Pchum Ben when many shops shut.",
+  "closed_days": "Government offices close Sat–Sun; markets and shops open daily; Khmer New Year, Pchum Ben and the Water Festival close many family businesses for days.",
+  "booking_channels": "Telegram is the everyday business chat; Facebook pages take bookings; payment by KHQR/Bakong, ABA or Wing; rides by Grab or PassApp; food via foodpanda or local apps.",
+  "voice_menu": "Banks (ABA, ACLEDA) and telcos (Smart, Cellcard, Metfone) run Khmer/English IVR; small shops answer in person or reply on Telegram.",
+  "callback_habits": "Shops and clinics confirm by Telegram message or a voice note rather than calling back; tour desks send a PDF ticket on Telegram.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "吳哥窟門票須在官方售票處或線上買；導覽、遊船與烹飪課多經旅行社或 Telegram 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Angkor passes are sold only by the official ticket office"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Guide wants the whole fee wired before meeting"
+        }
+      ],
+      "usually_asked": [
+        "Tour or class and start time",
+        "Number of people",
+        "Hotel pickup point",
+        "Lead guest name"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲與按摩多以 Telegram 傳照片預約；觀光區按摩店多接現場客，價格常以美元計。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Salon asks for a dollar deposit for extensions or keratin"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Insists on full transfer to a private Wing wallet first"
+        }
+      ],
+      "usually_asked": [
+        "Treatment and hair length or nail style",
+        "Which therapist they prefer",
+        "Slot and duration",
+        "Name and the Telegram number"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消多一通電話或 Telegram 訊息即可；節日訂金常不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Holiday deposit is kept if cancelled the same day"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID card number to locate the booking"
+        }
+      ],
+      "usually_asked": [
+        "Booking name and number used",
+        "Old slot",
+        "New slot or cancel",
+        "Party size change"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立與國際診所可電話或 Telegram 預約並講英語；公立醫院多現場掛號，較複雜病例常被建議轉往曼谷或胡志明市。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "International clinic quotes the consultation fee in dollars"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Doctor available only in the afternoon shift"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests passport number or Khmer ID card details"
+        }
+      ],
+      "usually_asked": [
+        "Patient name as on passport or ID",
+        "New or returning patient",
+        "Which complaint or specialist",
+        "Paying cash, card or via insurer"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行與電信客服有高棉語／英語語音選單，帳戶事項須本人。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank will not discuss the account with a third party"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks account PIN, OTP or ID number"
+        }
+      ],
+      "usually_asked": [
+        "Menu option for English",
+        "Account holder",
+        "Phone number on the account",
+        "What went wrong with the service"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多須本人到場；國際學校可電話或電郵洽詢，週末不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Procedure needs the applicant in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's or parent's ID details"
+        }
+      ],
+      "usually_asked": [
+        "Which procedure or school",
+        "Child's age or grade",
+        "District (khan)",
+        "Parent contact"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣、水電與清潔多打電話叫；地址常以街號加地標描述，公寓需先告知警衛。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Technician charges a call-out fee in dollars"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Building guard needs the worker's name"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks money before seeing the job"
+        }
+      ],
+      "usually_asked": [
+        "Aircon cleaning, wiring or plumbing",
+        "Street number plus a nearby landmark",
+        "Morning or afternoon visit",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與民宿多經 Booking.com、Agoda 或 Telegram；入住須出示護照，旅館會依規定登記外國旅客。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport copy taken at check-in for police registration"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Airport pickup quoted in dollars"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Wants passport scan and card number sent by chat"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out days in Cambodia",
+        "Guests and bed set-up",
+        "Airport or bus-station pickup",
+        "Name as on passport"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "問營業時間、節日是否開門、能否掃 KHQR 或刷卡，店家多直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Confirms they accept KHQR from any Cambodian bank app"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Closed for several days over Pchum Ben"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Hours during public holidays",
+        "KHQR, card or cash",
+        "Parking for cars or motos",
+        "Whether an item is in stock"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與美容多集中在金邊，可電話或 Telegram 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination booklet needed for boarding"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding asks full prepayment to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Vet visit, grooming or boarding",
+        "Dog or cat, breed, kilos",
+        "Vaccines up to date",
+        "Preferred day"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 Facebook 社團與仲介，房東習慣 Telegram 約看；租金以美元計、押金常一至兩個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent sends videos of the unit on Telegram"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and first month in dollars"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Fee demanded to reserve before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which listing or street",
+        "Move-in month and lease length",
+        "Occupants",
+        "Viewing slot"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車與汽車修理多直接到店，手機維修集中在市場攤位；零件價常以美元報。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Mechanic asks for a short video of the noise on Telegram"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Original parts cost more than local copies"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Wants parts paid in advance to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Motorbike or car model and plate",
+        "Symptom in a few words",
+        "Morning drop-off or pick-up",
+        "Owner name and Khmer mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "金邊餐廳多用 Telegram 或 Facebook 粉專訂位，熱門河岸餐廳週末要早訂；金額常同時標美元與瑞爾。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Group booking for Khmer New Year wants a KHQR deposit"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Manager offers to finish the booking on Telegram"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Wants ABA account login or card digits to keep a table"
+        }
+      ],
+      "usually_asked": [
+        "Evening or lunch seating and the hour",
+        "Headcount incl. children",
+        "Air-con room or riverside terrace",
+        "Booking name plus Telegram-linked mobile"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花束與節慶禮籃多以 Telegram 傳樣式下單並先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit via KHQR before the cake is made"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Full payment to a stranger's account before any photo"
+        }
+      ],
+      "usually_asked": [
+        "Design photo and size",
+        "Writing on the cake or card",
+        "Collection or delivery day",
+        "Contact name"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃與咖啡可打電話或 Telegram 點後自取；外送多經 foodpanda 等 App，現金與 KHQR 都常見。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Says delivery runs only through the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Riel change may be short for big dollar notes"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks prepayment to an unknown wallet for a small order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes, sizes and sugar or ice level",
+        "Pickup hour",
+        "Riel or dollar payment",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "本地快遞多由騎手打電話或 Telegram 聯絡收件人；國際包裹以追蹤號查詢。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Rider will call when near the gate"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the pickup code from the SMS"
+        }
+      ],
+      "usually_asked": [
+        "Tracking code",
+        "Who receives it and their number",
+        "Landmark near the address",
+        "What was sent"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "金邊與暹粒叫車多用 Grab 或 PassApp；長途巴士與包車可電話或 Telegram 訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Driver prefers the booking through the app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Province trip priced per car, not per seat"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car hire asks passport and licence copy"
+        }
+      ],
+      "usually_asked": [
+        "Pickup point and hour",
+        "Destination town or airport",
+        "People and bags",
+        "Passenger name"
+      ]
+    }
+  },
+  "how_owners_write": {}
+}

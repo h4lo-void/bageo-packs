@@ -1,0 +1,92 @@
+{
+  "region": "np",
+  "lang": "hi",
+  "hello": {
+    "hello": "हेलो, हजुर?",
+    "hello_again": "हाँ, बोलिए हजुर?"
+  },
+  "habits": {
+    "en": "Use आप or हजुर with elders. Mix नागरिकता, eSewa, Khalti, Nepali rupees; not Aadhaar or UPI.",
+    "zh": "對長輩用 आप 或 हजुर。夾 नागरिकता、eSewa、尼泊爾盧比；勿用 Aadhaar 或 UPI。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Bazaar friends in Birgunj or Biratnagar: तुम, Bhojpuri-tinged Hindi, a quick अरे यार, Nepali words like दाइ dropped in.",
+        "zh": "比爾甘吉或比拉德訥格爾市場熟友：用तुम，帶博傑普爾腔的印地語，夾दाइ等尼泊爾詞。"
+      },
+      "2": {
+        "en": "Neighbourly warmth: आप for older shopkeepers, हजुर as a Nepali-style softener, small talk about cross-border buying.",
+        "zh": "鄰里口吻：對年長店主用आप，以हजुर軟化語氣，聊跨境採買。"
+      },
+      "3": {
+        "en": "Plain Terai Hindi: one full sentence per matter; say नेपाली रुपैयाँ outright so it is not taken for Indian rupees.",
+        "zh": "特萊平實印地語：每件事一句完整話，明說नेपाली रुपैयाँ，免得被當成印度盧比。"
+      },
+      "4": {
+        "en": "With a Nepali bank or ward office the clerk may switch to Nepali; follow politely with आप/हजुर and key terms in Nepali.",
+        "zh": "對尼泊爾銀行或區公所，對方常改說尼泊爾語；以आप、हजुर跟上，關鍵詞用尼語。"
+      },
+      "5": {
+        "en": "Formal trade Hindi: invoice, customs or remittance details stated precisely, Khalti or eSewa named as is, a clean close.",
+        "zh": "正式商貿印地語：發票、海關或匯款細節講準，Khalti、eSewa照名，俐落收尾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easy helper for market friends: brief Hindi, दाइ or भैया fits; say {owner} is out and the word will reach.",
+        "zh": "替{owner}接市場朋友：簡短印地語，可稱दाइ或भैया，說他不在、話會帶到。"
+      },
+      "2": {
+        "en": "Gentle helper: हजुर to elders, ask the caller's name and village or ward, jot it down for {owner}.",
+        "zh": "溫和助理：對長輩用हजुर，問姓名與村或選區，記給{owner}。"
+      },
+      "3": {
+        "en": "Straight assistant: sum up the customs, rupee or नागरिकता matter in a sentence and say {owner} will learn of it.",
+        "zh": "直接的助理：一句歸納海關、盧比或公民證的事，說{owner}會知道。"
+      },
+      "4": {
+        "en": "Office-facing helper: if the clerk speaks Nepali, reply in simple Hindi with Nepali terms and confirm the file number.",
+        "zh": "面對機關：對方說尼泊爾語時，以簡單印地語夾尼語詞回應，核對案號。"
+      },
+      "5": {
+        "en": "Business assistant: आप throughout, itemise the consignment or payment, repeat sums in Nepali rupees, end crisply.",
+        "zh": "商務助理：全程用आप，逐項核對貨物或款項，以尼泊爾盧比複述金額，俐落結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "अरे यार, बोल ना, मैं बजार में हूँ।",
+      "हजुर, नमस्ते! घर में सब ठीक-ठाक है ना?",
+      "नागरिकता का काम? हाँ, कल वडा ऑफिस जाऊँगा।",
+      "जी, रकम नेपाली रुपैयाँ में है न, भारतीय नहीं?",
+      "नमस्ते सर, Khalti से भुगतान हो गया, धन्यवाद।"
+    ],
+    "a": [
+      "अरे भैया, {owner} अभी बाहर हैं, बोलिए क्या कहना है?",
+      "हजुर नमस्ते, मैं {owner} का फोन उठा रहा हूँ, आप कौन?",
+      "ठीक है, कस्टम वाली बात {owner} तक पहुँच जाएगी।",
+      "मैं {owner} की ओर से हूँ, वडा का काम नोट कर लिया।",
+      "माल और भुगतान का पूरा ब्योरा {owner} को भेज दूँगा।"
+    ]
+  },
+  "diff_from_home": [
+    "聯邦官方語言是尼泊爾語；印地語在人口普查裡母語人口很少，更多是第二語言或與印度往來時使用，不要把它當成尼泊爾公務預設語。",
+    "身分證件說 नागरिकता（公民證），支付常直接說 eSewa 或 Khalti，不要用印度的 Aadhaar、UPI 來指本地制度。",
+    "金額用尼泊爾盧比，不是印度盧比。",
+    "口語常夾尼泊爾語敬語 हजुर，以及 दाइ、दिदी 等稱呼，這是在尼泊爾講印地語時的接觸現象，不是德里日常腔。"
+  ],
+  "sources": [
+    "https://censusresults.nsonepal.gov.np/files/result-folder/Language%20in%20Nepal.pdf",
+    "https://esewa.com.np/",
+    "https://khalti.com/",
+    "https://khalti.com/info/support/kyc/",
+    "https://en.wikipedia.org/wiki/Languages_of_Nepal"
+  ],
+  "uncertain": [
+    "印地語在特萊作為通用語、與作為家庭母語，使用場合差很多；普查顯示母語人口遠小於第二語言人口。",
+    "हजुर 夾進印地語的頻率缺少專門的電話口語調查，此處依常見接觸現象來寫。",
+    "2021 年普查（維基 Languages of Nepal 引）印地語母語約 9.8 萬人、第二語言約 22 萬人；特萊城鎮實際用印地語通話的比例與博傑普爾腔程度沒有電話語料。"
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "lang": "mg",
+  "script": "latin",
+  "common_words": [
+    "aho",
+    "ianao",
+    "izy",
+    "isika",
+    "izahay",
+    "ianareo",
+    "tsy",
+    "eny",
+    "tsia",
+    "misaotra",
+    "azafady",
+    "salama",
+    "veloma",
+    "anio",
+    "rahampitso",
+    "omaly",
+    "maraina",
+    "hariva",
+    "nahoana",
+    "ahoana",
+    "aiza",
+    "oviana",
+    "ny",
+    "amin",
+    "sy",
+    "fa",
+    "no",
+    "izay",
+    "izany",
+    "raha",
+    "mba",
+    "hoe",
+    "koa",
+    "ihany",
+    "tena",
+    "olona",
+    "ao",
+    "avy",
+    "iray",
+    "na",
+    "any",
+    "ity",
+    "ilay",
+    "rehetra",
+    "tsara",
+    "afaka",
+    "mila",
+    "lahatsoratra",
+    "nomerao",
+    "adiresy"
+  ],
+  "frequency_source": "OPUS GlobalVoices v2018q4 Malagasy word frequencies https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/freq/mg.freq.gz (FrequencyWords 2018 has no mg file; this is a news and blog corpus rather than subtitles).",
+  "shared_words": [
+    {
+      "word": "fa",
+      "also_in": [
+        "pt",
+        "ca"
+      ]
+    },
+    {
+      "word": "no",
+      "also_in": [
+        "es",
+        "pt",
+        "it"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "fr",
+    "id"
+  ],
+  "how_to_tell_apart": "Malagasy is typologically Austronesian, but everyday words do not match Indonesian or Malay: aho, ianao, tsy, misaotra, azafady, salama, veloma, rahampitso, nahoana and izy are the practical cues. French loans occur (especially in official calls) and must not be read as a switch to French unless the grammar is also French. The frequent article ny and the particles fa and no also exist as short words in Romance languages, so they are unreliable on their own. There is no exclusive letter.",
+  "test_said": [
+    "Any amin'ny paositra dia mila taratasy fanamarinana mba hampiasaina any am-piasana.",
+    "Ny fanafody nasaina nalaina omaly dia tsy mbola vonona ary manontany aho raha vita anio.",
+    "Ny entana nalefa tamin'ny fiara fitaterana tokony tonga omaly fa tsy mbola nahazo vaovao aho.",
+    "Ny seza vaovao dia vaky ny iray tongotra ka mitady fanoloana aho.",
+    "Any amin'ny hopitaly dia mila fotoana satria nisy tazo nandritra ny telo andro.",
+    "Ny dokotera nify nanoro hevitra ahy hiantso raha miverina ny fanaintainana alina.",
+    "Tsy mila fiantohana vaovao aho ary tsy hanome antontan-taratasy manokana amin'ity antso ity.",
+    "Ny tolotra finday vaovao tsy ilaina satria vao novaina ny planina tamin'ny volana lasa."
+  ],
+  "test_not_enough": [
+    "Rina",
+    "ok",
+    "efatra",
+    "photo"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/freq/mg.freq.gz",
+    "https://opus.nlpl.eu/",
+    "https://en.wikipedia.org/wiki/Malagasy_language"
+  ],
+  "uncertain": [
+    "GlobalVoices is written news and blogs, not telephone speech, so some oral particles may be under-represented; greetings such as salama and veloma were still included because they are standard and appear in the list.",
+    "lahatsoratra (‘article’) is frequent in this news corpus and is weaker as a telephone cue than the pronouns and negation; it was kept only as a high-frequency item from the actual source.",
+    "Official calls in Madagascar often mix French; a turn with only merci or bonjour is not enough to choose the language."
+  ]
+}

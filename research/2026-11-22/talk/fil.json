@@ -1,0 +1,268 @@
+{
+  "lang": "fil",
+  "backchannels": {
+    "direction": "Opo and oo po show respectful listening; oo is casual; oo na, oo na can sound dismissive.",
+    "examples": [
+      {
+        "text": "Opo.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Oo po, tama.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ah, okay.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Sige, gets ko.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Oo na, oo na.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Talaga? or Ay! for surprise; nakakalungkot naman for sympathy; congrats po for good news.",
+    "examples": [
+      {
+        "text": "Talaga po?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Ay, totoo ba 'yan?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Nakakalungkot naman po.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Congrats po!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Medyo mahirap po iyan.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear (hindi ko po kayo marinig) or the signal is choppy, then ask them to lakasan.",
+    "examples": [
+      {
+        "text": "Hindi ko po kayo marinig nang maayos.",
+        "style": "polite"
+      },
+      {
+        "text": "Choppy po ang signal.",
+        "style": "polite"
+      },
+      {
+        "text": "Nawawala ang boses mo.",
+        "style": "casual"
+      },
+      {
+        "text": "Pakilakasan po ng kaunti.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Ano po? or Pakiulit po asks for a replay; ask names spelled; echo the number.",
+    "examples": [
+      {
+        "text": "Ano po ulit?",
+        "style": "polite"
+      },
+      {
+        "text": "Pakiulit po.",
+        "style": "polite"
+      },
+      {
+        "text": "Paano po ini-spell ang pangalan?",
+        "style": "polite"
+      },
+      {
+        "text": "12345678 po ba ang numero?",
+        "style": "polite"
+      },
+      {
+        "text": "Ha? Ano 'yon?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Sino po sila? (plural for respect) is standard; Sino 'to? is casual.",
+    "examples": [
+      {
+        "text": "Sino po sila?",
+        "style": "polite"
+      },
+      {
+        "text": "Saan po kayo tumatawag?",
+        "style": "polite"
+      },
+      {
+        "text": "Numero po ito ni {owner}, sino po sila?",
+        "style": "polite"
+      },
+      {
+        "text": "Sino 'to?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say wrong number po and nobody of that name is here.",
+    "examples": [
+      {
+        "text": "Wrong number po yata kayo.",
+        "style": "polite"
+      },
+      {
+        "text": "Wala pong ganyang pangalan dito.",
+        "style": "polite"
+      },
+      {
+        "text": "Mali ka ng numero.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Sasabihin ko po kay {owner} promises to pass it on; no reply time.",
+    "examples": [
+      {
+        "text": "Sasabihin ko po kay {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ipaparating ko po ang mensahe.",
+        "style": "polite"
+      },
+      {
+        "text": "Sige, sasabihan ko.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Salamat po, hindi po kami interesado is polite; Filipinos soften with po.",
+    "examples": [
+      {
+        "text": "Salamat po, pero hindi po kami interesado.",
+        "style": "polite"
+      },
+      {
+        "text": "Hindi na po, salamat.",
+        "style": "polite"
+      },
+      {
+        "text": "Pass muna ako.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they keep at it, cite the earlier no and ask them to tanggalin ang numero.",
+    "examples": [
+      {
+        "text": "Sinabi ko na po, hindi kami interesado.",
+        "style": "polite"
+      },
+      {
+        "text": "Huwag na po kayong tumawag ulit dito.",
+        "style": "polite"
+      },
+      {
+        "text": "Pakitanggal na po ang numerong ito sa listahan.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Sir/Ma'am for strangers; Kuya, Ate for slightly older; Tito/Tita, Lolo/Lola for elders.",
+    "examples": [
+      {
+        "text": "Ma'am",
+        "style": "polite"
+      },
+      {
+        "text": "Sir",
+        "style": "polite"
+      },
+      {
+        "text": "Kuya",
+        "style": "casual"
+      },
+      {
+        "text": "Ate",
+        "style": "casual"
+      },
+      {
+        "text": "Tita",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Thank you for calling, how may I help you sound like a BPO call centre.",
+    "examples": [
+      {
+        "text": "Maraming salamat po sa pagtawag sa aming hotline.",
+        "style": "polite"
+      },
+      {
+        "text": "Paano po kita matutulungan ngayong araw?",
+        "style": "polite"
+      },
+      {
+        "text": "Mahalaga po sa amin ang inyong tawag.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Dropping po with elders, or asking salary, weight or marital status early, is rude.",
+    "examples": [
+      {
+        "text": "Magkano sweldo mo?",
+        "style": "casual"
+      },
+      {
+        "text": "Bakit wala ka pang asawa?",
+        "style": "casual"
+      },
+      {
+        "text": "Ikaw, sino ka ba?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/po",
+    "https://en.wikipedia.org/wiki/Filipino_language",
+    "https://en.wiktionary.org/wiki/opo"
+  ],
+  "uncertain": [
+    "Taglish (Tagalog-English mixing) is normal in calls; examples keep some English",
+    "Backchannels (oo, opo, ah okay, talaga) from usage, no call corpus",
+    "Use of po/opo with younger callers varies; default is to include po"
+  ]
+}

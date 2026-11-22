@@ -1,0 +1,735 @@
+{
+  "region": "th",
+  "countries": [
+    "th"
+  ],
+  "region_name_zh": "泰國",
+  "region_name": "Thailand",
+  "languages": [
+    {
+      "code": "th",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak polite Central Thai (th) and end sentences with the polite particle matching the caller's gender (khrap/kha); English works at hotels, international hospitals and tourist venues in Bangkok, Phuket and Chiang Mai.",
+  "english_ok": "sometimes — Good at hotels, international hospitals and tourist areas; limited at local eateries, garages, markets and government offices.",
+  "politeness": "Soft and polite: greet with sawasdee plus khrap/kha, use khun + first name, avoid raising the voice; thank with khop khun khrap/kha.",
+  "name_tip": "Thais use the given name with khun ('คุณ' + first name), not the surname; many also use a short nickname; bookings usually go under first name or nickname + phone.",
+  "phone_tip": "Mobile 10 digits (08-1234-5678, also 06x/09x); Bangkok landline 02-123-4567; LINE ID is often linked to the same mobile; read back in 3-3-4 groups.",
+  "time_tip": "CRITICAL: everyday Thai uses a six-hour clock: 'สองทุ่ม' = 20:00, 'บ่ายสอง' = 14:00, 'ตีสอง' = 02:00; official/booking texts use 24-hour 'น.' (19.30 น.); always read back in 24-hour.",
+  "number_tip": "Read digits singly in Thai or English; prices in baht; the Buddhist year (พ.ศ. = AD + 543) appears on documents and some dates.",
+  "avoid_calling": "Avoid lunch rush 11:30–13:00 and dinner 18:00–20:00 at eateries, calls after 21:00, and the Songkran (13–15 April) and New Year periods when many family shops close.",
+  "closed_days": "Office weekend is Sat–Sun; many family eateries close one weekday; Songkran and some Buddhist holidays close small shops; alcohol sales are banned on major Buddhist holidays and election days.",
+  "booking_channels": "LINE (shop LINE Official Account) is the default for restaurants, salons, clinics and tradesmen; Wongnai/Chope/Hungry Hub for dining, Grab/LINE MAN for delivery, Grab/Bolt for rides, hospital apps for doctors.",
+  "voice_menu": "Telcos (AIS, True-dtac), banks, hospitals' call centres and Thailand Post use IVR with Thai/English options; small shops answer directly or reply on LINE.",
+  "callback_habits": "Shops usually confirm in the LINE chat or by SMS; platform bookings send SMS or e-mail with a booking number; hospitals send LINE or SMS reminders the day before.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "潛水、一日遊、泰拳課與高爾夫多可 LINE 或電話預約；國家公園與熱門景點多要線上購票或登記。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Some national parks require online pre-registration"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Island tour price includes hotel pickup or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport numbers for boat or park permits"
+        }
+      ],
+      "usually_asked": [
+        "Which tour, class or tee time",
+        "Date and pickup time",
+        "Number of adults and children",
+        "Hotel name for pickup"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲、按摩多在 LINE 對話預約，熱門店要先轉帳訂金；觀光區泰式按摩店多接現場客，不一定接電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Nail or lash shops ask a transfer deposit before keeping the slot"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Tourist-area massage shops say walk-ins are fine, no booking needed"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "visit_type"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests ID card photo before a beauty booking"
+        }
+      ],
+      "usually_asked": [
+        "Service and length: Thai massage 1 or 2 hours, gel nails, hair colour",
+        "Preferred therapist or stylist",
+        "Date and time slot",
+        "Nickname and LINE contact"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多在原本的 LINE 對話處理；Wongnai 訂位可從確認信的連結自行取消，醫院預約可在 LINE 官方帳號改期。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hospital LINE account lets the patient reschedule or cancel by themselves"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for a package booking may not be refunded"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the booking number from the confirmation e-mail"
+        }
+      ],
+      "usually_asked": [
+        "Name and mobile on the original booking",
+        "Original date and time",
+        "New date/time or cancel",
+        "Booking number from Wongnai or Hungry Hub if any"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫院多用衛生部「หมอพร้อม」LINE 或 App 取號預約，須以 13 位身分證號註冊；私立醫院也用自家 LINE 官方帳號預約，回診要報病歷號（HN）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public hospitals point callers to the Mor Prom LINE account for an online queue number"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private hospital needs an HN (hospital number) for returning patients"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the 13-digit Thai ID number to register or verify the patient"
+        }
+      ],
+      "usually_asked": [
+        "New patient or has an HN already",
+        "Which department or doctor",
+        "Patient's full Thai name and date of birth",
+        "Insurance, company cover or self-pay",
+        "Mobile for LINE or SMS reminders"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（AIS、True）、銀行與電力公司客服有泰語／英語語音選單，帳戶事項須本人以身分證號驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telco says account changes need the SIM owner"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks Thai ID number or bank OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR option for Thai or English",
+        "Account owner's name",
+        "ID or account number",
+        "What the problem is"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府手續多需本人到場或走各機關網站與 App；學校可電話詢問，週末與佛教節日不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "District office (อำเภอ/เขต) handles ID and house registration in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the house registration (ทะเบียนบ้าน) details"
+        }
+      ],
+      "usually_asked": [
+        "Which office or document",
+        "Applicant's age or child's grade",
+        "District (เขต/อำเภอ)",
+        "Contact mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣清洗、水電與清潔多電話或 LINE 叫；住公寓（คอนโด）時常要先向管理處（นิติบุคคล）報備師傅進出。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Aircon cleaning priced per unit and BTU size"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Condo juristic office may require advance notice for contractors"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks payment before the technician arrives"
+        }
+      ],
+      "usually_asked": [
+        "Job type and number of aircon units (BTU)",
+        "Condo name, building, floor and room or soi/house number",
+        "Preferred day and time",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "連鎖飯店多經 Agoda、Booking.com 或官網，小旅館與民宿常用 LINE 或電話；依《旅館法》入住須登記身分證或護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Guest must show a passport or Thai ID at check-in for the hotel register"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Long-weekend rooms need a transfer deposit"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to send a passport photo by LINE before arrival"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults and children, extra bed",
+        "Breakfast or airport pickup",
+        "Guest name as on passport or ID"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、潑水節是否營業、可否刷卡或掃 PromptPay、有無停車位；佛教節日與選舉日禁止賣酒，餐廳酒類供應會受影響。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Says no alcohol is sold on Buddhist holy days or election days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Explains Songkran opening days"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and Songkran days",
+        "PromptPay, card or cash only",
+        "Parking or nearest BTS/MRT",
+        "Whether alcohol is served that day"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "動物醫院與寵物美容多可電話或 LINE 預約，回診會問寵物病歷號；寵物旅館要看疫苗本。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Grooming price depends on breed and weight"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Vet asks to bring the vaccine book"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel wants full prepayment to an individual's account"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or pet hotel",
+        "Dog or cat, breed, weight",
+        "Vaccine book up to date",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多看 DDproperty、Livinginsider 與 Facebook 社團，房東與仲介習慣用 LINE 約看房；一般收押金加預付租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks to continue on LINE"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Typical deposit is two months plus one month advance"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks a viewing fee before showing the condo"
+        }
+      ],
+      "usually_asked": [
+        "Condo or house name and listing",
+        "Move-in date and lease length (often 1 year)",
+        "Number of occupants and pets",
+        "Viewing time"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車保養（เช็คระยะ）多照里程數到原廠預約；機車與冷氣維修多直接電話或 LINE 傳照片詢價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dealer service centre books the check by mileage interval (เช็คระยะ)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Garage gives a price only after seeing photos sent on LINE"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Dealer asks the car registration book (เล่มทะเบียน) details"
+        }
+      ],
+      "usually_asked": [
+        "Car or motorbike model, year and Thai plate with province",
+        "Mileage for the scheduled check",
+        "What is wrong or which part",
+        "Drop-off day or same-day service",
+        "Contact mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "泰國餐廳多用 LINE 官方帳號或電話訂位；用 Wongnai 網頁訂位最多可提前 30 天，設有套餐的店要先付訂金；Hungry Hub 多為自助餐套餐，30 人以上要填團體表單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Wongnai package bookings need a deposit paid on the booking page before confirmation"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Bib Gourmand-type shophouses take bookings only by LINE or phone, often cash only"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Hungry Hub buffet package price is per head and fixed per package"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to pay the PromptPay deposit from the caller's own account"
+        }
+      ],
+      "usually_asked": [
+        "Date and time, said in 24-hour (น.) or the six-hour clock",
+        "How many people (ท่าน)",
+        "Air-con room or outdoor table",
+        "Name or nickname plus a Thai mobile for the SMS/LINE confirmation",
+        "Special occasion note such as a birthday"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花束與節慶禮籃常在 LINE 下單並先付 PromptPay 訂金；母親節、情人節前要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Custom cake needs a deposit by PromptPay and a design picture on LINE"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests full payment to an unrelated individual's account"
+        }
+      ],
+      "usually_asked": [
+        "Cake size in pounds (ปอนด์) or flower count",
+        "Message on the cake",
+        "Pickup or Lalamove/Grab delivery time",
+        "Name and LINE"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃店可電話或 LINE 點餐自取，外送主要走 Grab Food 與 LINE MAN；常問辣度、要不要加蛋或少甜。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Shop says delivery is only through LINE MAN or Grab Food"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay by PromptPay QR when collecting"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks to transfer to a personal PromptPay number before cooking a small order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and number of boxes",
+        "Spice level (เผ็ดน้อย/เผ็ดมาก) and extras",
+        "Pickup time",
+        "Name and mobile"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Thailand Post、Flash、J&T、Kerry（KEX）多用官網、App 或 LINE 官方帳號以追蹤號查件，客服電話多為語音選單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier LINE account answers tracking by number"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the OTP sent to the receiver's phone"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number from Thailand Post, Flash, J&T or KEX",
+        "Receiver name and mobile",
+        "Address with subdistrict and postcode",
+        "Parcel contents"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Grab、Bolt 為主；機場接送與包車可 LINE 或電話預約；雙條車（songthaew）多路邊叫。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests Grab or Bolt for city rides"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Airport transfer quotes a fixed price including tolls or not"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks driving licence and passport copy"
+        }
+      ],
+      "usually_asked": [
+        "Pickup point (hotel, condo, BTS station)",
+        "Destination or airport (BKK/DMK)",
+        "Passengers and suitcases",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "th": {
+      "appointment_words": [
+        "นัดหมอ",
+        "จองคิวตัดผม",
+        "นัดทำฟัน",
+        "เช็คระยะรถ",
+        "จองคิวนวด"
+      ],
+      "booking_words": [
+        "จองโต๊ะ",
+        "จองห้อง",
+        "สำรองที่นั่ง",
+        "จองห้องพัก",
+        "จองล่วงหน้า"
+      ],
+      "change_words": [
+        "เลื่อนนัด",
+        "ขอเลื่อนเป็นวันศุกร์",
+        "ยกเลิกการจอง",
+        "ขอเปลี่ยนเวลา",
+        "มาช้าครึ่งชั่วโมง"
+      ],
+      "date": [
+        "พรุ่งนี้",
+        "มะรืนนี้",
+        "เสาร์นี้",
+        "วันจันทร์หน้า",
+        "25/11",
+        "คืนวันอาทิตย์"
+      ],
+      "false_friends": [
+        "ชั้น 3",
+        "ซอย 12",
+        "โต๊ะ 5",
+        "นวด 2 ชั่วโมง",
+        "เซต 4",
+        "บ้านเลขที่ 99/1"
+      ],
+      "inquiry_words": [
+        "ร้านเปิดกี่โมง",
+        "มีที่จอดรถไหม",
+        "รับบัตรไหม",
+        "ยังมีของไหม",
+        "สแกนจ่ายได้ไหม"
+      ],
+      "name": [
+        "ชื่อคุณสมชาย",
+        "จองในชื่อ ต้น",
+        "คุณแม่",
+        "บริษัท"
+      ],
+      "order_words": [
+        "สั่งกลับบ้าน",
+        "สั่งล่วงหน้า",
+        "สั่งเค้ก",
+        "มารับเองที่ร้าน",
+        "ส่งเดลิเวอรี"
+      ],
+      "party": [
+        "4 ท่าน",
+        "2 ผู้ใหญ่ 1 เด็ก",
+        "มากัน 6 คน",
+        "มาคนเดียว",
+        "กลุ่ม 10 คน"
+      ],
+      "phone": [
+        "08-1234-5678",
+        "โทร 09-1234-5678",
+        "02-123-4567",
+        "ไลน์ไอดี"
+      ],
+      "time": [
+        "หนึ่งทุ่ม",
+        "บ่ายสอง",
+        "19.30 น.",
+        "หกโมงเย็น",
+        "เที่ยงครึ่ง",
+        "ทุ่มครึ่ง"
+      ]
+    }
+  }
+}

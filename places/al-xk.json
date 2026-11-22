@@ -1,0 +1,793 @@
+{
+  "region": "al-xk",
+  "countries": [
+    "al",
+    "xk"
+  ],
+  "region_name_zh": "阿爾巴尼亞、科索沃",
+  "region_name": "Albania and Kosovo",
+  "languages": [
+    {
+      "code": "sq",
+      "use": "main"
+    },
+    {
+      "code": "sr",
+      "use": "secondary (xk, Serb-majority municipalities)"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Albanian (sq, Gheg-accented in Kosovo and northern Albania, Tosk in the south); Serbian (sr) is used in Serb-majority municipalities of Kosovo; Italian is understood by many in Albania; English is good among younger staff and in Tirana, Pristina and resorts.",
+  "english_ok": "sometimes — Common among younger staff in Tirana, Pristina and tourist areas; limited at public clinics and offices and in villages.",
+  "politeness": "Formal 'ju', 'zotëri/zonjë'; open with 'Mirëdita' and say for whom you call; close with 'Faleminderit, mirupafshim'. Warm, relationship-based tone.",
+  "name_tip": "Give first name and surname; Albanian surnames do not change by gender but nouns take definite endings (Hoxha / Hoxhaj spellings vary), so spell the name letter by letter.",
+  "phone_tip": "al mobile 06x xxx xxxx (10 digits with 0), +355; xk mobile 04x xxx xxx (9 digits with 0), +383; WhatsApp/Viber on the same number common.",
+  "time_tip": "'shtatë e gjysmë' = 7:30, 'tetë pa një çerek' = 7:45 (no half-before trap); Serbian 'pola osam' = 7:30 is a trap; read back in 24h.",
+  "number_tip": "Albanian uses vigesimal-free decimal counting; 'njëzet' = 20, 'tridhjetë' = 30; prices in lek (al) or euro (xk) — older Albanians may quote 'old lek' (×10), so confirm the amount.",
+  "avoid_calling": "Avoid lunch 13:00–15:00, dinner peak 20:00–22:30, calls after 21:00 and Sundays for offices; coffee culture means mornings are busy at cafés.",
+  "closed_days": "Shops open on Sundays; holidays: al — 1–2 January, 14 March, 22 March (Nevruz), Easter (Catholic and Orthodox), Eid al-Fitr and Eid al-Adha, 1 May, 28–29 November, 8 and 25 December; xk — 1 January, 17 February, 9 April, 1 and 9 May, Eid holidays, Christmas.",
+  "booking_channels": "Phone, WhatsApp, Viber and Instagram dominate for restaurants, salons and guesthouses; Wolt and Baboon for delivery (Tirana, Pristina and other cities); e-Albania for public services; walk-in common for small shops.",
+  "voice_menu": "Operators (One, Vodafone Albania; Vala, IPKO), banks and public utilities use IVR; small venues answer directly on a mobile.",
+  "callback_habits": "WhatsApp and Viber are the usual confirmation channels; owners often call back from a personal mobile; formal SMS reminders are uncommon outside private clinics.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "山區健行嚮導、Koman 湖渡輪、漂流與導覽多電話或 WhatsApp 預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Koman lake ferry runs on a seasonal timetable"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Guide asks prepayment to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲多電話、WhatsApp 或 Instagram 預約；婚禮季週末需提早。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Wedding-season Saturday needs a deposit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks transfer to a personal account before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (prerje, ngjyrosje, thonj)",
+        "Hair length",
+        "Day, time and stylist",
+        "Name and WhatsApp"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早，多以電話或 WhatsApp 訊息通知即可。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Paradhënie kept on late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Klinikë asks the personal ID number to find the termin"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original termin",
+        "New time or cancellation",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫療需家醫（mjeku i familjes）轉診、排隊長；私人診所與牙醫多電話或 WhatsApp 預約，價格多可直接問；可能問身分號碼。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Private klinikë quotes the consultation price on the phone"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Public QSUT or QKUK specialist slot needs a referral"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks personal ID number (NID in al, numri personal in xk)"
+        }
+      ],
+      "usually_asked": [
+        "Public (with referral) or private klinikë",
+        "First or control visit",
+        "Reason or specialist",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、公用事業（如 OSHEE、KEDS）客服有語音選單並須本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Vodafone Albania or IPKO line refuses caller without autorizim"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the NID or one-time codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Contract number",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "阿國公共服務多經 e-Albania 線上；科國經 eKosova；學校報名有固定期。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "e-Albania issues the document online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's personal number"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and zone",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "地址常以街名加地標描述，需說明大樓、入口（hyrja）、樓層（kati）與門號；師傅常以 WhatsApp 傳照片估價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Usta asks WhatsApp photos first"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pallat without working lift for heavy items"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Trade (hidraulik, elektricist, bravandreqës)",
+        "Street, landmark, hyrja, kati and apartament",
+        "Time window",
+        "Name and WhatsApp"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "家庭旅館（guesthouse）、Theth 與 Valbona 山區民宿及海岸小飯店常電話、WhatsApp 訂房，可能收訂金；連鎖導向官網或平台。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Theth guesthouses often include dinner in the price"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for July–August on the Riviera"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or ID number for registration"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room type",
+        "Meals, parking and arrival time",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、庫存等問題通常直接回答；阿國報價有時用舊列克（×10），需確認金額。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Price quoted in old lek, ten times the new amount"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (orari, kartë, gjendje)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veteriner）與寵物美容可電話預約；出境需晶片與狂犬抗體證明。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Night visit surcharge"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Boarding deposit to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Libreza e vaksinave and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經 Facebook 社團、網站與房仲，電話或 WhatsApp 約看房；常只收現金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks for the post link"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（servis makinash）、洗車與換胎（gomist）多直接上門或電話約；科國車檢（kontrolla teknike）需預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Parts ordered from abroad add days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Gomisteri serves walk-ins without booking"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN from the leje qarkullimi"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and targa (plate)",
+        "Repair, tyres or kontrolla teknike",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "阿、科兩地餐廳多電話、WhatsApp 或 Instagram 訂位；夏季海岸（Sarandë、Durrës）與週末晚餐很晚且熱門，婚禮季大型宴會廳常被包場。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Coastal restaurants open late into the night in summer"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Paradhënie (deposit) for a wedding hall or large family party"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to hold a Tirana Blloku table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Sa veta (party size)",
+        "Name and WhatsApp number",
+        "Inside or veranda"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（farmaci）、麵包店（furrë）與甜點店（pastiçeri）可電話預訂；婚禮與節日蛋糕要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Farmaci brings the item from a partner by tomorrow"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pastiçeri asks prepayment for a wedding torta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Torta size and inscription",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "烤肉（qofte）、byrek、披薩與速食店常接電話外帶外送；App 以 Wolt、Baboon 為主，部分城市只能電話訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Wolt and Baboon cover Tirana and Prishtina but not every town"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Cash (para në dorë) on delivery for phone orders"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Me vete or me dërgesë",
+        "Items and portion size",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Posta Shqiptare、Posta e Kosovës 與快遞公司追蹤以網站或電話為主；郵遞地址常不完整，快遞員多先打電話。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Courier calls ahead to find the address by landmark"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the recipient's ID at the post-office pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name and phone",
+        "Address with landmark",
+        "COD (pagesë në dorëzim) amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車以電話叫車與車行 App 為主；地拉那—普里什蒂納等跨境接駁與機場接送可預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives the car and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price Tirana airport to the city or to Prishtina"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or patentë"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "sq": {
+      "appointment_words": [
+        "termin te mjeku",
+        "rezervim te parukieri",
+        "kontroll teknik i makinës",
+        "vizitë kontrolli",
+        "termin te dentisti"
+      ],
+      "booking_words": [
+        "rezervim tavoline",
+        "rezervoj një tavolinë",
+        "rezervim dhome",
+        "fjetje me mëngjes",
+        "rezervoj vend"
+      ],
+      "change_words": [
+        "ndryshoj terminin",
+        "anuloj rezervimin",
+        "gjysmë ore më vonë",
+        "e kalojmë të premten",
+        "shtyj terminin"
+      ],
+      "date": [
+        "nesër",
+        "pasnesër",
+        "këtë të premte",
+        "të martën e ardhshme",
+        "25.11",
+        "të shtunën në mbrëmje"
+      ],
+      "false_friends": [
+        "kati 3",
+        "apartamenti 12",
+        "shkalla B",
+        "menuja nr. 4",
+        "masazh 60 min",
+        "linja 11"
+      ],
+      "inquiry_words": [
+        "deri në sa punon kuzhina",
+        "a pranoni kartë",
+        "a lejohen qentë",
+        "a e keni gjendje",
+        "orari i punës"
+      ],
+      "name": [
+        "në emër të Hoxha",
+        "Arben Krasniqi",
+        "Elira Shala",
+        "familja Berisha",
+        "zoti Gashi"
+      ],
+      "order_words": [
+        "për ta marrë me vete",
+        "marrje në lokal",
+        "me dërgesë",
+        "ma ruani",
+        "porosi paraprake"
+      ],
+      "party": [
+        "tavolinë për 4",
+        "2 të rritur dhe 1 fëmijë",
+        "jemi tre veta",
+        "për 2 persona",
+        "6 veta + karrige për fëmijë"
+      ],
+      "phone": [
+        "069 123 4567",
+        "+355 69 123 4567",
+        "+383 44 123 456",
+        "më telefononi në 069 123 4567"
+      ],
+      "time": [
+        "në shtatë e gjysmë të mbrëmjes",
+        "në 19:30",
+        "në gjashtë e një çerek",
+        "në tetë pa një çerek",
+        "në drekë",
+        "rreth orës 20"
+      ]
+    },
+    "sr": {
+      "appointment_words": [
+        "zakazati pregled",
+        "termin kod frizera",
+        "tehnički pregled",
+        "kontrola kod lekara",
+        "заказати термин"
+      ],
+      "booking_words": [
+        "rezervacija stola",
+        "rezervisati sto",
+        "rezervacija sobe",
+        "smeštaj sa doručkom",
+        "резервација"
+      ],
+      "change_words": [
+        "pomeriti termin",
+        "otkazati rezervaciju",
+        "pola sata kasnije",
+        "prebaciti za petak",
+        "промена термина"
+      ],
+      "date": [
+        "sutra",
+        "prekosutra",
+        "ovog petka",
+        "sledećeg utorka",
+        "25. 11.",
+        "у суботу увече"
+      ],
+      "false_friends": [
+        "3. sprat",
+        "stan 12",
+        "ulaz 2",
+        "meni br. 4",
+        "masaža 60 min",
+        "autobus 4"
+      ],
+      "inquiry_words": [
+        "do kad radi kuhinja",
+        "može li karticom",
+        "da li može sa psom",
+        "imate li na stanju",
+        "радно време"
+      ],
+      "name": [
+        "na ime Petrović",
+        "Marko Jovanović",
+        "Jelena Nikolić",
+        "porodica Ilić",
+        "gospodin Popović"
+      ],
+      "order_words": [
+        "za poneti",
+        "lično preuzimanje",
+        "dostava",
+        "ostavite mi",
+        "poručiti unapred"
+      ],
+      "party": [
+        "sto za 4",
+        "2 odrasla i 1 dete",
+        "biće nas troje",
+        "za 2 osobe",
+        "6 osoba + stolica za bebu"
+      ],
+      "phone": [
+        "+383 44 123 456",
+        "044 123 456",
+        "pozovite na 049 123 456",
+        "Viber na 044 123 456"
+      ],
+      "time": [
+        "u pola osam uveče",
+        "u 19:30",
+        "u sedam i po",
+        "u petnaest do osam",
+        "u podne",
+        "oko 20h"
+      ]
+    }
+  }
+}

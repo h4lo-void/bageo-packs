@@ -1,0 +1,86 @@
+{
+  "country": "ba",
+  "parent": "rs",
+  "name": {
+    "en": "Bosnia and Herzegovina",
+    "native": "Bosna i Hercegovina",
+    "zh": "波士尼亞與赫塞哥維納"
+  },
+  "lang": "hr",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo opet?"
+  },
+  "delivery": {
+    "en": "Parcels: BH Pošta, Pošte Srpske or HP Mostar, a neighbour, or the post office",
+    "zh": "包裹交給三家郵政之一、鄰居，或到郵局領"
+  },
+  "readback": {
+    "en": "After the 0 prefix, read mobiles in short groups; 0 as nula; day-month dates; KM, not dinar",
+    "zh": "區碼後分短組唸，0 唸 nula；日期先日後月；貨幣是可兌換馬克 KM，不是第納爾"
+  },
+  "fraud": {
+    "en": "A fake BH Pošta link to update an address or pay, or a relative needing surgery money, is a scam",
+    "zh": "假冒 BH Pošta 要點連結改地址或付費，或說親人要手術費，都是詐騙"
+  },
+  "habits": {
+    "en": "Ti with friends, Vi otherwise. Latin script. Both hiljada and tisuća occur; do not force only Serbian or Croatian words.",
+    "zh": "朋友 ti、其餘 Vi，用拉丁字母。hiljada 與 tisuća 都有人說，勿只套塞或克詞。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the banking app logged out, weak hallway signal, or glasses left in another room.",
+    "zh": "卡在銀行 App 被登出、走廊訊號差，或眼鏡放在另一個房間。"
+  },
+  "vocab": {
+    "bank": [
+      "bankomat",
+      "kartica",
+      "uplata",
+      "e-banking",
+      "račun"
+    ],
+    "delivery": [
+      "BH Pošta",
+      "pošta",
+      "komšija",
+      "paket",
+      "pošiljka"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "dinar",
+      "reason": {
+        "zh": "這是塞爾維亞貨幣；波士尼亞用可兌換馬克（KM、konvertibilna marka）。"
+      }
+    },
+    {
+      "word": "只用 hiljada、禁用 tisuća",
+      "reason": {
+        "zh": "所屬地區寫法偏塞爾維亞；在波士尼亞兩種說法都常見。"
+      }
+    },
+    {
+      "word": "Post Express 當預設",
+      "reason": {
+        "zh": "國內主要是三家郵政，不能預設塞爾維亞的 Post Express。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the parent's ti/Vi scale, a little softer, no default Belgrade fillers or dinar. Stay lexically neutral; do not lecture on language names.",
+    "zh": "仍照 ti／Vi 分檔，語氣略柔，勿預設貝爾格勒口頭禪或第納爾。用詞保持中性，不評論語言名稱。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.posta.ba/obavjestenje-korisnicima-oprez-zbog-laznih-sms-poruka-u-ime-bh-poste/",
+    "https://en.wikivoyage.org/wiki/Bosnia_and_Herzegovina",
+    "https://en.wikivoyage.org/wiki/Bosnian_phrasebook",
+    "https://www.omniglot.com/language/phrases/bosnian.php"
+  ],
+  "uncertain": [
+    "官方語言含波士尼亞語（bs），但不在支援清單；本檔 lang 用 hr（拉丁字母、伊耶卡維發音，與當地書面語接近）。塞爾維亞語 sr 也通，選哪一種沒有唯一標準。",
+    "三個郵政與 paketomat 在各地覆蓋程度未逐一核對。",
+    "「親人要手術費」沿用所屬地區常見手法，未找到只針對波士尼亞的新官方統計。"
+  ]
+}

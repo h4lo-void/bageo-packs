@@ -1,0 +1,48 @@
+{
+  "name": "Mayotte",
+  "name_local": "Mayotte",
+  "iso": "yt",
+  "calling_code": "+262",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "La Poste in Mayotte has reported attempted scams through local media, and national French guidance documents fake parcel, contest and code requests.",
+  "cross_border_note": "Mayotte shares +262 with Réunion, and receives calls from the Comoros (+269) and mainland France (+33).",
+  "scams": [
+    {
+      "id": "yt_la_poste_concours_code",
+      "typology": "prize_lottery",
+      "name": "Faux concours ou colis La Poste",
+      "name_en": "Fake La Poste contest or parcel message asking for a code in Mayotte",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "La Poste",
+        "concours",
+        "colis"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "vous avez gagné un concours",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "transmettre le code reçu",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message claims a La Poste contest win or parcel fee and asks for card data or a code received by text.",
+      "legit_en": "French national cyber-assistance guidance advises ignoring such links and never passing on a code received by SMS.",
+      "bait_tactics": [
+        "Demander quel bureau de Mamoudzou organise le concours",
+        "Dire que la carte bancaire est chez un proche à Petite-Terre"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+        "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste"
+      ]
+    }
+  ]
+}

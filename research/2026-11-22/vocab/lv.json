@@ -1,0 +1,475 @@
+{
+  "region": "lv",
+  "vocab": {
+    "lv": {
+      "bank": [
+        {
+          "term": "konts",
+          "en": "bank account (konts)"
+        },
+        {
+          "term": "pārskaitījums",
+          "en": "credit transfer (pārskaitījums)"
+        },
+        {
+          "term": "internetbanka",
+          "en": "online banking (internetbanka)"
+        },
+        {
+          "term": "maksājumu karte",
+          "en": "payment card (maksājumu karte)"
+        },
+        {
+          "term": "Smart-ID",
+          "en": "app login used by Latvian banks (Smart-ID)"
+        },
+        {
+          "term": "eParaksts",
+          "en": "Latvian e-signature (eParaksts)"
+        },
+        {
+          "term": "Swedbank",
+          "en": "largest bank in Latvia (Swedbank)"
+        },
+        {
+          "term": "Citadele",
+          "en": "Latvian-owned bank (Citadele)"
+        },
+        {
+          "term": "konta numurs",
+          "en": "account number, IBAN form (konta numurs)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "pakomāts",
+          "en": "parcel locker (pakomāts)"
+        },
+        {
+          "term": "Latvijas Pasts",
+          "en": "national post (Latvijas Pasts)"
+        },
+        {
+          "term": "Omniva",
+          "en": "locker network also used in Latvia (Omniva)"
+        },
+        {
+          "term": "DPD Pickup",
+          "en": "DPD pickup points (DPD Pickup)"
+        },
+        {
+          "term": "sūtījums",
+          "en": "shipment / parcel (sūtījums)"
+        },
+        {
+          "term": "kurjers",
+          "en": "courier (kurjers)"
+        },
+        {
+          "term": "izsekošanas kods",
+          "en": "tracking code (izsekošanas kods)"
+        },
+        {
+          "term": "pie durvīm",
+          "en": "at the door (pie durvīm)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Latvija.lv",
+          "en": "state e-services portal (Latvija.lv)"
+        },
+        {
+          "term": "VID",
+          "en": "State Revenue Service (VID)"
+        },
+        {
+          "term": "EDS",
+          "en": "VID online declaration system (EDS)"
+        },
+        {
+          "term": "personas kods",
+          "en": "personal code; never read it out (personas kods)"
+        },
+        {
+          "term": "eID karte",
+          "en": "Latvian ID card (eID karte)"
+        },
+        {
+          "term": "PMLP",
+          "en": "citizenship and migration office, passports (PMLP)"
+        },
+        {
+          "term": "pašvaldība",
+          "en": "local municipality (pašvaldība)"
+        },
+        {
+          "term": "deklarētā dzīvesvieta",
+          "en": "declared residence address (deklarētā dzīvesvieta)"
+        }
+      ],
+      "health": [
+        {
+          "term": "ģimenes ārsts",
+          "en": "family doctor (ģimenes ārsts)"
+        },
+        {
+          "term": "nosūtījums",
+          "en": "referral to a specialist (nosūtījums)"
+        },
+        {
+          "term": "e-veselība",
+          "en": "state e-health portal (e-veselība)"
+        },
+        {
+          "term": "e-recepte",
+          "en": "electronic prescription (e-recepte)"
+        },
+        {
+          "term": "aptieka",
+          "en": "pharmacy (aptieka)"
+        },
+        {
+          "term": "pacienta iemaksa",
+          "en": "patient co-payment (pacienta iemaksa)"
+        },
+        {
+          "term": "poliklīnika",
+          "en": "outpatient clinic (poliklīnika)"
+        },
+        {
+          "term": "NMPD",
+          "en": "state ambulance service (NMPD)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "LMT",
+          "en": "largest operator (LMT)"
+        },
+        {
+          "term": "Tele2",
+          "en": "operator (Tele2)"
+        },
+        {
+          "term": "Bite",
+          "en": "operator (Bite)"
+        },
+        {
+          "term": "Zelta Zivtiņa",
+          "en": "Tele2 prepaid brand (Zelta Zivtiņa)"
+        },
+        {
+          "term": "priekšapmaksas karte",
+          "en": "prepaid SIM (priekšapmaksas karte)"
+        },
+        {
+          "term": "līgums",
+          "en": "postpaid contract (līgums)"
+        },
+        {
+          "term": "mobilie dati",
+          "en": "mobile data, Latvian phrasing (mobilie dati)"
+        },
+        {
+          "term": "papildināt",
+          "en": "top up credit (papildināt)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "ar karti",
+          "en": "by card (ar karti)"
+        },
+        {
+          "term": "skaidrā naudā",
+          "en": "in cash (skaidrā naudā)"
+        },
+        {
+          "term": "rēķins",
+          "en": "invoice / bill (rēķins)"
+        },
+        {
+          "term": "e-rēķins",
+          "en": "e-invoice in the internet bank (e-rēķins)"
+        },
+        {
+          "term": "nomaksa",
+          "en": "buying on instalments (nomaksa)"
+        },
+        {
+          "term": "maksāt ar telefonu",
+          "en": "pay with the phone (maksāt ar telefonu)"
+        },
+        {
+          "term": "čeks",
+          "en": "till receipt (čeks)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Rīgas Satiksme",
+          "en": "Riga public transport company (Rīgas Satiksme)"
+        },
+        {
+          "term": "e-talons",
+          "en": "Riga contactless ticket card (e-talons)"
+        },
+        {
+          "term": "tramvajs",
+          "en": "tram (tramvajs)"
+        },
+        {
+          "term": "trolejbuss",
+          "en": "trolleybus (trolejbuss)"
+        },
+        {
+          "term": "Pasažieru vilciens",
+          "en": "national passenger trains (Pasažieru vilciens)"
+        },
+        {
+          "term": "autoosta",
+          "en": "bus station (autoosta)"
+        },
+        {
+          "term": "pietura",
+          "en": "stop (pietura)"
+        },
+        {
+          "term": "Bolt",
+          "en": "ride-hailing app widely used in Riga (Bolt)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "dzīvoklis",
+          "en": "apartment (dzīvoklis)"
+        },
+        {
+          "term": "kāpņu telpa",
+          "en": "stairwell (kāpņu telpa)"
+        },
+        {
+          "term": "apsaimniekotājs",
+          "en": "building management company (apsaimniekotājs)"
+        },
+        {
+          "term": "īres maksa",
+          "en": "rent (īres maksa)"
+        },
+        {
+          "term": "komunālie maksājumi",
+          "en": "utility bills (komunālie maksājumi)"
+        },
+        {
+          "term": "domofons",
+          "en": "door intercom (domofons)"
+        },
+        {
+          "term": "pastkastīte",
+          "en": "mailbox (pastkastīte)"
+        },
+        {
+          "term": "pagalms",
+          "en": "courtyard (pagalms)"
+        }
+      ],
+      "school": [
+        {
+          "term": "bērnudārzs",
+          "en": "kindergarten (bērnudārzs)"
+        },
+        {
+          "term": "pamatskola",
+          "en": "basic school, grades 1-9 (pamatskola)"
+        },
+        {
+          "term": "vidusskola",
+          "en": "secondary school (vidusskola)"
+        },
+        {
+          "term": "klases audzinātājs",
+          "en": "homeroom teacher (klases audzinātājs)"
+        },
+        {
+          "term": "E-klase",
+          "en": "digital school diary (E-klase)"
+        },
+        {
+          "term": "vecāku sapulce",
+          "en": "parents' meeting (vecāku sapulce)"
+        },
+        {
+          "term": "centralizētais eksāmens",
+          "en": "state exam (centralizētais eksāmens)"
+        },
+        {
+          "term": "pulciņš",
+          "en": "after-school club (pulciņš)"
+        }
+      ],
+      "money": [
+        {
+          "term": "eiro",
+          "en": "euro; noun does not decline (eiro)"
+        },
+        {
+          "term": "centi",
+          "en": "cents (centi)"
+        },
+        {
+          "term": "tūkstotis",
+          "en": "thousand (tūkstotis)"
+        },
+        {
+          "term": "miljons",
+          "en": "million (miljons)"
+        },
+        {
+          "term": "alga",
+          "en": "wage / salary (alga)"
+        },
+        {
+          "term": "lati",
+          "en": "pre-2014 currency, older people may still compare in it (lati)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "šodien",
+          "en": "today (šodien)"
+        },
+        {
+          "term": "rīt",
+          "en": "tomorrow (rīt)"
+        },
+        {
+          "term": "parīt",
+          "en": "day after tomorrow (parīt)"
+        },
+        {
+          "term": "vakar",
+          "en": "yesterday (vakar)"
+        },
+        {
+          "term": "aizvakar",
+          "en": "day before yesterday (aizvakar)"
+        },
+        {
+          "term": "pēcpusdienā",
+          "en": "in the afternoon (pēcpusdienā)"
+        },
+        {
+          "term": "nedēļas nogalē",
+          "en": "at the weekend (nedēļas nogalē)"
+        },
+        {
+          "term": "Jāņi",
+          "en": "midsummer holidays, much of Latvia stops (Jāņi)"
+        }
+      ],
+      "work": [
+        {
+          "term": "darbs",
+          "en": "work / job (darbs)"
+        },
+        {
+          "term": "priekšnieks",
+          "en": "boss (priekšnieks)"
+        },
+        {
+          "term": "birojs",
+          "en": "office (birojs)"
+        },
+        {
+          "term": "atvaļinājums",
+          "en": "leave / vacation (atvaļinājums)"
+        },
+        {
+          "term": "slimības lapa",
+          "en": "sick-leave certificate (slimības lapa)"
+        },
+        {
+          "term": "virsstundas",
+          "en": "overtime hours (virsstundas)"
+        },
+        {
+          "term": "sapulce",
+          "en": "meeting (sapulce)"
+        },
+        {
+          "term": "attālināti",
+          "en": "remotely (attālināti)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "paštomatas",
+      "use_instead": "pakomāts",
+      "where_it_is_from": "LT"
+    },
+    {
+      "word": "Sodra",
+      "use_instead": "VSAA",
+      "where_it_is_from": "LT"
+    },
+    {
+      "word": "VMI",
+      "use_instead": "VID",
+      "where_it_is_from": "LT"
+    },
+    {
+      "word": "eurai",
+      "use_instead": "eiro",
+      "where_it_is_from": "LT"
+    },
+    {
+      "word": "pakiautomaat",
+      "use_instead": "pakomāts",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "isikukood",
+      "use_instead": "personas kods",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "Ühiskaart",
+      "use_instead": "e-talons",
+      "where_it_is_from": "EE"
+    },
+    {
+      "word": "квартплата",
+      "use_instead": "komunālie maksājumi",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "Госуслуги",
+      "use_instead": "Latvija.lv",
+      "where_it_is_from": "RU"
+    }
+  ],
+  "sources": [
+    "https://www.rigassatiksme.lv/files/e-talons_buklets_web.pdf",
+    "https://www.tele2.lv/palidziba/par-tarifu-planiem/velos-pievienoties-tele2/lietoju-zelta-zivtinas-prieksapmaksas-ka/",
+    "https://seedit.lv/prieksapmaksas-mobila-interneta-piedavajumi-latvija/",
+    "https://www.latvija.lv/",
+    "https://www.vid.gov.lv/",
+    "https://www.pmlp.gov.lv/",
+    "https://www.eveseliba.gov.lv/",
+    "https://www.pasts.lv/",
+    "https://www.e-klase.lv/",
+    "https://www.vsaa.gov.lv/",
+    "https://www.vivi.lv/",
+    "https://www.eparaksts.lv/",
+    "https://www.lmt.lv/"
+  ],
+  "uncertain": [
+    "里加有不少人以俄語為日常語言；本檔只寫拉脫維亞語，若來電者講俄語，AI 可改用俄語，但俄語用詞未在此查證。",
+    "「slimības lapa」口語常說「B lapa」或「darbnespējas lapa」，正式名稱與口語哪個較常在電話裡出現查不到語料庫數據。",
+    "e-talons 與 Rīgas Satiksme 只限里加；其他城市交通卡名稱未逐一查。",
+    "Latvijas Pasts 與 Omniva、DPD 等包裹櫃品牌的市佔順序查不到可靠官方統計。"
+  ]
+}

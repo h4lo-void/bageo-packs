@@ -1,0 +1,96 @@
+{
+  "country": "dz",
+  "parent": "maghreb",
+  "name": {
+    "en": "Algeria",
+    "native": "الجزائر",
+    "zh": "阿爾及利亞"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien or an Algérie Poste office",
+    "zh": "包裹交給 gardien 門房，或到阿爾及利亞郵局領取"
+  },
+  "readback": {
+    "en": "Phone numbers go in pairs; 0 as zéro or صفر; amounts in dinars",
+    "zh": "電話兩位一組唸，0 可唸 zéro 或 صفر；金額用第納爾"
+  },
+  "fraud": {
+    "en": "An Algérie Poste or BaridiMob request for an OTP or card details is a scam",
+    "zh": "冒充 Algérie Poste 或 BaridiMob 要 OTP、卡號的都是詐騙"
+  },
+  "habits": {
+    "en": "Callers mix Algerian Arabic and French; follow the language in use. Skip Moroccan bank and Amana terms.",
+    "zh": "阿爾及利亞方言常夾法語，跟對方當下語言回。不要套用摩洛哥的銀行或 Amana。"
+  },
+  "stall_local": {
+    "en": "Get stuck on BaridiMob or the bank app failing, no SMS code, or the card in another jacket.",
+    "zh": "卡在 BaridiMob 或銀行 App 打不開、簡訊碼沒到、卡在另一件外套。"
+  },
+  "vocab": {
+    "bank": [
+      "BaridiMob",
+      "CCP",
+      "OTP"
+    ],
+    "delivery": [
+      "gardien",
+      "Algérie Poste",
+      "concierge"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Amana",
+      "reason": {
+        "en": "Moroccan postal brand, not Algeria's",
+        "zh": "摩洛哥郵政品牌，不是阿爾及利亞的"
+      }
+    },
+    {
+      "word": "CIH",
+      "reason": {
+        "en": "Moroccan bank",
+        "zh": "摩洛哥銀行"
+      }
+    },
+    {
+      "word": "Attijariwafa",
+      "reason": {
+        "en": "Moroccan bank group",
+        "zh": "摩洛哥銀行集團"
+      }
+    },
+    {
+      "word": "D17",
+      "reason": {
+        "en": "Moroccan payment service",
+        "zh": "摩洛哥支付服務"
+      }
+    },
+    {
+      "word": "CNSS",
+      "reason": {
+        "en": "Often cited in Moroccan grant scams; not the local Algeria term to lead with",
+        "zh": "常出現在摩洛哥補助詐騙，不是阿爾及利亞應先用的詞"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Use Algerian Darija and French, not Moroccan wording. Keep blessings brief; stay formal until the caller loosens.",
+    "zh": "用阿爾及利亞方言和法語，不用摩洛哥用詞。祝福要短；對方放鬆前保持正式。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.algerie360.com/algerie-poste-met-en-garde-contre-une-nouvelle-vague-darnaques-visant-les-clients-de-baridimob/",
+    "https://www.algerie360.com/vous-pensez-recevoir-un-appel-dalgerie-poste-voici-ce-quil-faut-savoir-pour-eviter-les-escroqueries/"
+  ],
+  "uncertain": [
+    "未在此次查到 Algérie Poste 官網上同一則警告的原文頁，主要依據當地媒體轉述官方通告。",
+    "Yalidine 等民營快遞很常見，但此次未把它寫進主要投遞點，以免未經來源確認。"
+  ]
+}

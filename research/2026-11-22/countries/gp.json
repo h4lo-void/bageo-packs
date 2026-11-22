@@ -1,0 +1,88 @@
+{
+  "country": "gp",
+  "parent": "fr",
+  "name": {
+    "en": "Guadeloupe",
+    "native": "Guadeloupe",
+    "zh": "瓜德羅普"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "Parcels: a point relais, a neighbour, the letterbox, or a post office",
+    "zh": "包裹放 point relais、信箱，或交給鄰居、郵局"
+  },
+  "readback": {
+    "en": "Landlines start 0590 and mobiles 0690 or 0691; ten digits, read in pairs; 0 as zéro; euros.",
+    "zh": "市話 0590，手機 0690 或 0691；十位兩位一組唸，0 唸 zéro；用歐元。"
+  },
+  "fraud": {
+    "en": "A fake courier or La Poste SMS asking for a fee, a point relais choice or a code is a scam",
+    "zh": "假冒快遞或 La Poste 要補費、選點 relais 或要驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Vous by default; tu more readily with peers. Locals may mix Antillean Creole; AI speaks French only. Not septante.",
+    "zh": "先用 vous，同輩才改 tu。或夾瓜德羅普克里奧爾語，只用法語回。金額用歐元。"
+  },
+  "stall_local": {
+    "en": "A heavy shower just dropped the line, and the bank app will not load.",
+    "zh": "卡在停電、大雨、Wi-Fi 差，或銀行 App 一直轉。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "appli bancaire",
+      "virement",
+      "code secret"
+    ],
+    "delivery": [
+      "point relais",
+      "La Poste",
+      "boîte aux lettres",
+      "voisin",
+      "bureau de poste"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "ht／海地克里奧爾語",
+      "reason": {
+        "zh": "安地列斯克里奧爾語不在支援清單，且與海地克里奧爾語不同，不能當成 AI 用語。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Levels 1–3 can be warmer and switch to tu sooner with peers than stiff métropole formal, while still starting with vous for strangers. Levels 4–5 stay polished vous. Do not speak Creole.",
+    "zh": "瓜德羅普 1～3 格可比本土法國腔熱絡些，開頭維持 vous，熟識後才改 tu；4～5 格不要改用克里奧爾語。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+    "https://www.mondialrelay.fr/phishing-mondial-relay/arnaques-en-cours/",
+    "https://www.cart-in.gp/relay-point",
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste",
+    "https://www.arcep.fr/uploads/tx_gspublication/consultation-plan-de-numerotation-2025_Annexe-1-modifiee-diff-officiel.pdf"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "號碼兩位一組是沿用法國唸法，未找到當地電信專文。",
+    "克里奧爾語在電話裡的夾雜程度因人而異，沒有量化資料。",
+    "十位號碼、兩位一組與 0 唸 zéro、用歐元，與法國本土及其他海外省是同一套號碼制度；此檔已改寫並寫出 0590／0690／0691 等瓜德羅普字頭。",
+    "vous／tu 與法語禮貌層級與法國本土相同。"
+  ]
+}

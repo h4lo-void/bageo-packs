@@ -1,0 +1,292 @@
+{
+  "lang": "am",
+  "backchannels": {
+    "direction": "No Amharic call-corpus ranking was found; አዎ and እሺ keep a line moving. A clipped አዎ፣ አዎ can sound hurried.",
+    "examples": [
+      {
+        "text": "አዎ።",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "እሺ።",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "እሺ፣ እያዳመጥኩ ነው።",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ገባኝ።",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "አዎ፣ አዎ።",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "እውነት? marks surprise; ያዝናል covers sympathy, and እንኳን ደስ አለዎ fits good news, then the floor returns.",
+    "examples": [
+      {
+        "text": "እውነት?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "በእውነት?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "ያዝናል።",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "አዝኛለሁ።",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "እንኳን ደስ አለዎ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ጥሩ ነው!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "ይህ ከባድ ይሆናል።",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "When the line fades, speakers say the voice is not clear and ask the other person to speak a little louder.",
+    "examples": [
+      {
+        "text": "ድምጽ ግልጽ አይደለም።",
+        "style": "polite"
+      },
+      {
+        "text": "መስመሩ ደካማ ነው።",
+        "style": "casual"
+      },
+      {
+        "text": "ደህና አልሰማሁዎትም።",
+        "style": "polite"
+      },
+      {
+        "text": "እባክዎ ትንሽ በማጉላት ይናገሩ።",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives አልገባኝም; a careful replay is እባክዎ እንደገና ይበሉ, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "አልገባኝም።",
+        "style": "casual"
+      },
+      {
+        "text": "ይቅርታ፣ አልገባኝም።",
+        "style": "polite"
+      },
+      {
+        "text": "እባክዎ እንደገና ይበሉ።",
+        "style": "polite"
+      },
+      {
+        "text": "ቁጥሩን እንደገና፣ 12345678 ነው?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "BBC's Amharic gloss for who's speaking is እርስዎን ማን ልበል?; on a shared handset, first name the phone of {owner}.",
+    "examples": [
+      {
+        "text": "እርስዎን ማን ልበል?",
+        "style": "polite"
+      },
+      {
+        "text": "ማን ነው የሚናገረው?",
+        "style": "casual"
+      },
+      {
+        "text": "የ{owner} ስልክ ነው። እርስዎን ማን ልበል?",
+        "style": "polite"
+      },
+      {
+        "text": "ከማን ጋር እየተነጋገርኩ ነው?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "The BBC lesson does not drill a wrong-number line; a short apology and close is used here, flagged as uncertain.",
+    "examples": [
+      {
+        "text": "ይቅርታ፣ ቁጥሩ ተሳስቷል።",
+        "style": "polite"
+      },
+      {
+        "text": "ይህ ቁጥር የተሳሳተ ነው።",
+        "style": "polite"
+      },
+      {
+        "text": "በዚህ ስም የሚጠራ ሰው እዚህ የለም።",
+        "style": "polite"
+      },
+      {
+        "text": "ተሳስተዋል፣ ይቅርታ።",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "BBC glosses መልዕክት መቀበል እችላለሁ as taking a message; passing news to {owner} does not, alone, fix a time.",
+    "examples": [
+      {
+        "text": "መልዕክት መቀበል እችላለሁ?",
+        "style": "polite"
+      },
+      {
+        "text": "መልዕክቱን ለ{owner} እተላልፋለሁ።",
+        "style": "polite"
+      },
+      {
+        "text": "እንደደወሉ እነግራለሁ።",
+        "style": "polite"
+      },
+      {
+        "text": "እነግረዋለሁ።",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "አይ፣ አመሰግናለሁ፣ ፍላጎት የለኝም closes a sales pitch; extra reasons can sound like bargaining.",
+    "examples": [
+      {
+        "text": "አይ፣ አመሰግናለሁ፣ ፍላጎት የለኝም።",
+        "style": "polite"
+      },
+      {
+        "text": "አመሰግናለሁ፣ አያስፈልገንም።",
+        "style": "polite"
+      },
+      {
+        "text": "ፍላጎት የለኝም፣ አመሰግናለሁ።",
+        "style": "casual"
+      },
+      {
+        "text": "እባክዎ ከዝርዝራችሁ አውጡን።",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second አይ often adds እባክዎ ወደዚህ ቁጥር እንደገና አይደውሉ, still without abuse.",
+    "examples": [
+      {
+        "text": "አስቀድሜ አይ አልኩ። እባክዎ ወደዚህ ቁጥር እንደገና አይደውሉ።",
+        "style": "polite"
+      },
+      {
+        "text": "ፍላጎት የለኝም፣ እባክዎ መደወል ያቁሙ።",
+        "style": "polite"
+      },
+      {
+        "text": "እንደገና አይደውሉ፣ እባክዎ።",
+        "style": "casual"
+      },
+      {
+        "text": "ይህ የመጨረሻ እምቢታ ነው፤ እንደገና አትገናኙ።",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "እርስዎ is safer with strangers; አንተ or አንቺ waits for familiars. አቶ／ወይዘሮ plus a name stays careful.",
+    "examples": [
+      {
+        "text": "አቶ።",
+        "style": "polite"
+      },
+      {
+        "text": "ወይዘሮ።",
+        "style": "polite"
+      },
+      {
+        "text": "ዶክተር።",
+        "style": "polite"
+      },
+      {
+        "text": "እርስዎ።",
+        "style": "polite"
+      },
+      {
+        "text": "አንተ እንዴት ነህ?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A centre calque like ጥሪዎ ለእኛ አስፈላጊ ነው sounds odd on a private ሞባይል.",
+    "examples": [
+      {
+        "text": "ጥሪዎ ለእኛ አስፈላጊ ነው።",
+        "style": "polite"
+      },
+      {
+        "text": "ዛሬ እንዴት ልርዳዎት እችላለሁ?",
+        "style": "polite"
+      },
+      {
+        "text": "እንዲያገለግልዎ ደስ ይለናል።",
+        "style": "polite"
+      },
+      {
+        "text": "የ{owner} ቢሮ ስለደወሉ እናመሰግናለን።",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Opening with marriage, wages or an ID number, or demanding {owner}'s exact whereabouts, feels intrusive in Amharic too.",
+    "examples": [
+      {
+        "text": "አገብተሃል? ደመወዝህ ስንት ነው?",
+        "style": "casual"
+      },
+      {
+        "text": "{owner} ለምን አልተመለሰም? አሁን የት እንዳለ ንገረኝ።",
+        "style": "casual"
+      },
+      {
+        "text": "መጀመሪያ የመታወቂያ ቁጥርና አድራሻ ይስጡ።",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.bbc.co.uk/learningenglish/amharic/course/how-do-i-amharic/unit-1/session-9",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "BBC How do I Amharic 第 9 課是用英語電話套語搭配阿姆哈拉語對譯，不是阿姆哈拉語通話語料庫；相槌頻率未見統計。",
+    "該課沒有「打錯電話」的對譯，本檔相關例句依普通禮貌道歉寫法，並列入不確定。",
+    "推銷拒絕與客服腔沒有找到阿姆哈拉語官方稿，本檔只寫普通禮貌拒絕。"
+  ]
+}

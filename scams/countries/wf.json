@@ -1,0 +1,42 @@
+{
+  "name": "Wallis and Futuna",
+  "name_local": "Wallis-et-Futuna",
+  "iso": "wf",
+  "calling_code": "+681",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "No territory-specific official scam notice was found; French national cyber-assistance guidance on fake administration and parcel messages is the only applicable official reference.",
+  "cross_border_note": "Wallis and Futuna (+681) has few local numbers, so most unsolicited messages come from abroad, including mainland France (+33) and New Caledonia (+687).",
+  "scams": [
+    {
+      "id": "wf_faux_message_administration",
+      "typology": "fake_customs_parcel",
+      "name": "Faux message d'administration ou de colis",
+      "name_en": "Fake administration or parcel message asking for a fee or code in Wallis and Futuna",
+      "prevalence": "medium",
+      "lang": "fr",
+      "context_keywords": [
+        "administration",
+        "colis",
+        "paiement en ligne"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "payer en ligne pour débloquer",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A message styled as an administration or carrier asks for a fee or code to release a parcel or settle a file.",
+      "legit_en": "National French guidance advises verifying on the official site and never paying via an unsolicited link.",
+      "bait_tactics": [
+        "Demander quel service de Mata-Utu a envoyé le message",
+        "Dire que le bateau n'est pas arrivé et qu'aucun colis n'est attendu"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+      ]
+    }
+  ]
+}

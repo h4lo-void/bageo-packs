@@ -1,0 +1,88 @@
+{
+  "country": "pr",
+  "parent": "latam",
+  "name": {
+    "en": "Puerto Rico",
+    "native": "Puerto Rico",
+    "zh": "波多黎各"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the building office, a conserje, USPS, or a parcel locker",
+    "zh": "包裹交給大樓管理處、conserje、USPS，或放進寄存櫃"
+  },
+  "readback": {
+    "en": "Numbers often go 3-3-4; 0 as cero or zero; day-month or US dates; US dollars",
+    "zh": "號碼常照 3-3-4 北美分段唸，0 可唸 cero 或 zero；日期兩種都有；用美元"
+  },
+  "fraud": {
+    "en": "A fake Banco Popular, ATH Móvil, tax or benefits call asking for codes is a scam",
+    "zh": "假冒 Banco Popular、ATH Móvil、稅務或福利單位要驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Tú with peers, usted with elders or offices. Personal calls are usually Spanish, often mixed with English.",
+    "zh": "同輩 tú，長輩或機關 usted。私人電話多用西語，常夾雜英語。金額用美元。"
+  },
+  "stall_local": {
+    "en": "Get stuck on ATH Móvil spinning, a storm, or the building office being closed.",
+    "zh": "卡在 ATH Móvil 一直轉、天氣不好，或大樓管理處已關門。"
+  },
+  "vocab": {
+    "bank": [
+      "ATH Móvil",
+      "Banco Popular",
+      "cuenta",
+      "tarjeta",
+      "routing"
+    ],
+    "delivery": [
+      "conserje",
+      "administración",
+      "USPS",
+      "mailbox",
+      "locker"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "禁用 zip code／mailbox",
+      "reason": {
+        "zh": "所屬地區其他國家常避開美式詞，但波多黎各日常就用這些說法。"
+      }
+    },
+    {
+      "word": "peso 當貨幣",
+      "reason": {
+        "zh": "使用美元，不是比索。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Tú/usted is close to the parent, but English and US delivery terms are normal. Levels 1–3 may mix languages; AI replies in Spanish unless the caller is clearly in English. Lang stays es.",
+    "zh": "tú／usted 分檔接近所屬地區，但夾雜英語和美式取件詞很平常。1～3 格可能中英夾雜，AI 仍以西語回應，除非對方明顯說英語。4～5 格維持有禮。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.popular.com/seguridad/",
+    "https://www.popular.com/servicios/telebanco/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。英語也常用，但不另設 lang。",
+    "有資料寫波多黎各也說 hello／haló；hello 用 aló，實際比例不明。",
+    "日期用先日後月還是美式月日，電話裡兩種都可能出現，沒有唯一規範。",
+    "routing 一類銀行詞有多口語，未量化。"
+  ]
+}

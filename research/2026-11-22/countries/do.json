@@ -1,0 +1,80 @@
+{
+  "country": "do",
+  "parent": "latam",
+  "name": {
+    "en": "Dominican Republic",
+    "native": "República Dominicana",
+    "zh": "多明尼加"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: reception, a portero, a shop, or a courier office",
+    "zh": "包裹交給接待處、門房、店家，或到快遞點領"
+  },
+  "readback": {
+    "en": "Numbers often follow a 3-3-4 North American pattern; 0 as cero; day-month dates; pesos dominicanos",
+    "zh": "號碼常照 3-3-4 北美分段唸，0 唸 cero；日期先日後月；用多明尼加比索"
+  },
+  "fraud": {
+    "en": "A fake Banco Popular, remittance or customs-fee call asking for codes is a scam",
+    "zh": "假冒 Banco Popular、匯款或補海關費要驗證碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Tú with peers, usted with elders or offices. Caribbean Spanish, often informal and fast. Amounts in pesos dominicanos.",
+    "zh": "同輩 tú，長輩或機關 usted。加勒比西語較隨興、節奏快。金額用多明尼加比索。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, a slow bank app, or weak indoor signal.",
+    "zh": "卡在停電、銀行 App 很慢，或室內收訊差。"
+  },
+  "vocab": {
+    "bank": [
+      "Banco Popular",
+      "transferencia",
+      "tarjeta",
+      "clave",
+      "remesa"
+    ],
+    "delivery": [
+      "recepción",
+      "portero",
+      "tienda",
+      "paquetería",
+      "vecino"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "vosotros / vale / ordenador",
+      "reason": {
+        "zh": "這是西班牙說法，本國與所屬地區一樣不用。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Levels 1–3 can be quicker and more informal than generic latam, still matching tú/usted to the caller. Levels 4–5 stay polite usted. Avoid Colombian app names.",
+    "zh": "1～3 格可比通用拉美口氣更快、更隨興，但仍依對方用 tú 或 usted。4～5 格維持有禮 usted。不要用哥倫比亞錢包名，也不要把墨西哥式 bueno 當預設。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.rae.es/dpd/computador"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "此次未找到多明尼加銀行或電信的官方詐騙專頁，詐騙欄依地區常見的假銀行／匯款／海關費手法，把握中等。",
+    "3-3-4 分段依北美號段常見唸法，未找到當地電信官方規範。"
+  ]
+}

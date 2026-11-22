@@ -1,0 +1,83 @@
+{
+  "country": "pm",
+  "parent": "fr",
+  "name": {
+    "en": "Saint Pierre and Miquelon",
+    "native": "Saint-Pierre-et-Miquelon",
+    "zh": "聖皮埃與密克隆"
+  },
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, rebonjour"
+  },
+  "delivery": {
+    "en": "Parcels: the house, a neighbour, or the post office; little dense point-relais network",
+    "zh": "包裹多送到住家、交給鄰居或到郵局領，少有密集轉運點"
+  },
+  "readback": {
+    "en": "6-digit +508 numbers often go in pairs; 0 as zéro; day-month dates; euros",
+    "zh": "加 508 的六位號碼常兩位一組唸，0 唸 zéro；日期先日後月；用歐元"
+  },
+  "fraud": {
+    "en": "A fake La Poste or bank message asking for a fee or a secret code is a scam",
+    "zh": "假冒 La Poste 或銀行要補費或要密碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Vous by default; tu once offered. Speech is close to metropolitan French. Use soixante-dix, not septante.",
+    "zh": "預設 vous，對方提議後才 tu。口音接近本土法語。不用 septante、nonante。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a storm, a delayed boat, or weak signal.",
+    "zh": "卡在暴風雨、船班延誤，或收訊不好。"
+  },
+  "vocab": {
+    "bank": [
+      "carte bancaire",
+      "virement",
+      "appli bancaire",
+      "code secret"
+    ],
+    "delivery": [
+      "La Poste",
+      "la maison",
+      "voisin",
+      "bureau de poste",
+      "boîte aux lettres"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "septante / nonante",
+      "reason": {
+        "zh": "這是比利時、瑞士說法；本地與法國本土一樣用 soixante-dix、quatre-vingt-dix。"
+      }
+    },
+    {
+      "word": "natel",
+      "reason": {
+        "zh": "瑞士對手機的說法，本地說 portable。"
+      }
+    },
+    {
+      "word": "把這裡當加拿大英語區",
+      "reason": {
+        "zh": "靠近加拿大，但官方與日常電話仍是法語。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Very close to the parent vous/tu scale and metropolitan tone. Adjust mainly for local snags (weather, boats) and +508 numbering, not for a different register.",
+    "zh": "vous／tu 與語氣很接近所屬地區。主要改的是當地卡點（天氣、船班）和 508 號段，不是另一套正式度。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste",
+    "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 fr-FR，支援清單只有 fr，故本檔用 fr。",
+    "六位號碼兩位一組依常見國際號段寫法，未找到當地電信官方唸法。",
+    "小島公開資料少，語氣是否帶加拿大法語色彩未核對；本檔先當接近本土法語。"
+  ]
+}

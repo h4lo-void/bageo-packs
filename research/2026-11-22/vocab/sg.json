@@ -1,0 +1,1913 @@
+{
+  "region": "sg",
+  "vocab": {
+    "en-US": {
+      "bank": [
+        {
+          "term": "PayNow",
+          "en": "instant transfer by mobile number or NRIC (PayNow)"
+        },
+        {
+          "term": "Singpass",
+          "en": "government digital identity, used to open accounts (Singpass)"
+        },
+        {
+          "term": "digibank",
+          "en": "digital bank app, originally DBS, also used loosely (digibank)"
+        },
+        {
+          "term": "GIRO",
+          "en": "auto debit (GIRO)"
+        },
+        {
+          "term": "current account",
+          "en": "transaction account (current account)"
+        },
+        {
+          "term": "bank transfer",
+          "en": "transfer (bank transfer), Singapore usage"
+        },
+        {
+          "term": "savings account",
+          "en": "savings account, Singapore usage"
+        },
+        {
+          "term": "ATM card",
+          "en": "ATM / debit card (ATM card)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "HDB",
+          "en": "public housing block, often part of the address (HDB)"
+        },
+        {
+          "term": "shoe rack",
+          "en": "common place to leave a parcel at an HDB unit (shoe rack)"
+        },
+        {
+          "term": "guardhouse",
+          "en": "condo or cluster guard post (guardhouse)"
+        },
+        {
+          "term": "parcel locker",
+          "en": "SingPost or estate locker, including POPStation (parcel locker)"
+        },
+        {
+          "term": "void deck",
+          "en": "ground-floor open space of an HDB block (void deck)"
+        },
+        {
+          "term": "letterbox",
+          "en": "mailbox (letterbox), Singapore usage"
+        },
+        {
+          "term": "SingPost",
+          "en": "national post (SingPost)"
+        },
+        {
+          "term": "doorstep",
+          "en": "leave at the door (doorstep)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Singpass",
+          "en": "government login and digital ID (Singpass)"
+        },
+        {
+          "term": "NRIC",
+          "en": "national registration identity card (NRIC)"
+        },
+        {
+          "term": "CPF",
+          "en": "Central Provident Fund (CPF)"
+        },
+        {
+          "term": "IRAS",
+          "en": "tax authority (IRAS)"
+        },
+        {
+          "term": "ICA",
+          "en": "Immigration and Checkpoints Authority (ICA)"
+        },
+        {
+          "term": "work pass",
+          "en": "employment or work permit (work pass)"
+        },
+        {
+          "term": "MOM",
+          "en": "Ministry of Manpower (MOM)"
+        },
+        {
+          "term": "HDB",
+          "en": "Housing and Development Board (HDB)"
+        }
+      ],
+      "health": [
+        {
+          "term": "polyclinic",
+          "en": "public primary-care clinic (polyclinic)"
+        },
+        {
+          "term": "A&E",
+          "en": "accident and emergency (A&E), Singapore usage"
+        },
+        {
+          "term": "CHAS",
+          "en": "Community Health Assist Scheme, often at GP clinics (CHAS)"
+        },
+        {
+          "term": "GP clinic",
+          "en": "private general practitioner (GP clinic)"
+        },
+        {
+          "term": "pharmacy",
+          "en": "pharmacy, Singapore usage"
+        },
+        {
+          "term": "Medisave",
+          "en": "medical savings under CPF (Medisave)"
+        },
+        {
+          "term": "specialist",
+          "en": "specialist clinic"
+        },
+        {
+          "term": "MC",
+          "en": "medical certificate (MC)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile plan",
+          "en": "postpaid plan (mobile plan)"
+        },
+        {
+          "term": "prepaid",
+          "en": "prepaid line, Singapore usage"
+        },
+        {
+          "term": "number porting",
+          "en": "keep the number when changing telco (number porting)"
+        },
+        {
+          "term": "data plan",
+          "en": "mobile data (data plan), Singapore usage"
+        },
+        {
+          "term": "broadband",
+          "en": "home fibre (broadband)"
+        },
+        {
+          "term": "telco",
+          "en": "mobile operator (telco), Singapore usage"
+        },
+        {
+          "term": "SIM card",
+          "en": "SIM card"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayNow",
+          "en": "instant account-to-account payment (PayNow)"
+        },
+        {
+          "term": "NETS",
+          "en": "debit and QR network (NETS)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab wallet (GrabPay), Singapore usage"
+        },
+        {
+          "term": "PayLah",
+          "en": "DBS PayLah"
+        },
+        {
+          "term": "credit card",
+          "en": "credit card, Singapore usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, Singapore usage"
+        },
+        {
+          "term": "GIRO",
+          "en": "auto bill payment (GIRO)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "MRT",
+          "en": "metro (MRT), Singapore usage"
+        },
+        {
+          "term": "bus",
+          "en": "bus, Singapore usage"
+        },
+        {
+          "term": "EZ-Link",
+          "en": "stored-value transit card (EZ-Link)"
+        },
+        {
+          "term": "SimplyGo",
+          "en": "account-based public-transport fare system (SimplyGo)"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab), Singapore usage"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi, also called cab"
+        },
+        {
+          "term": "concession card",
+          "en": "student or senior transit card (concession card)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "HDB",
+          "en": "public flat (HDB)"
+        },
+        {
+          "term": "condo",
+          "en": "condominium, Singapore usage"
+        },
+        {
+          "term": "guardhouse",
+          "en": "security at the gate (guardhouse), Singapore usage"
+        },
+        {
+          "term": "letterbox",
+          "en": "mailbox (letterbox), Singapore usage"
+        },
+        {
+          "term": "void deck",
+          "en": "HDB ground floor (void deck)"
+        },
+        {
+          "term": "access card",
+          "en": "door or car-park card (access card), Singapore usage"
+        },
+        {
+          "term": "town council",
+          "en": "estate managing body for HDB (town council)"
+        },
+        {
+          "term": "unit",
+          "en": "flat number (unit)"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuition",
+          "en": "after-school tutoring (tuition), Singapore usage"
+        },
+        {
+          "term": "primary school",
+          "en": "primary school, Singapore usage"
+        },
+        {
+          "term": "secondary school",
+          "en": "secondary school, Singapore usage"
+        },
+        {
+          "term": "kindergarten",
+          "en": "kindergarten or preschool"
+        },
+        {
+          "term": "MOE",
+          "en": "Ministry of Education (MOE)"
+        },
+        {
+          "term": "PSLE",
+          "en": "Primary School Leaving Examination (PSLE)"
+        },
+        {
+          "term": "childcare",
+          "en": "childcare centre"
+        },
+        {
+          "term": "homework",
+          "en": "homework, Singapore usage"
+        }
+      ],
+      "money": [
+        {
+          "term": "dollar",
+          "en": "Singapore dollar, often just dollars"
+        },
+        {
+          "term": "Sing dollar",
+          "en": "SGD (Sing dollar)"
+        },
+        {
+          "term": "thousand",
+          "en": "common large-amount unit (thousand)"
+        },
+        {
+          "term": "PayNow",
+          "en": "send money (PayNow)"
+        },
+        {
+          "term": "change",
+          "en": "cash change, Singapore usage"
+        },
+        {
+          "term": "cash",
+          "en": "cash, Singapore usage"
+        },
+        {
+          "term": "CPF",
+          "en": "retirement and housing savings, often discussed as money (CPF)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, Singapore English"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, Singapore English"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, Singapore English"
+        },
+        {
+          "term": "weekend",
+          "en": "weekend, SG English"
+        },
+        {
+          "term": "after work",
+          "en": "after work, often kept in English even in mixed speech"
+        },
+        {
+          "term": "public holiday",
+          "en": "public holiday, often shortened PH"
+        },
+        {
+          "term": "this week",
+          "en": "this week, common in SG English"
+        },
+        {
+          "term": "lunchtime",
+          "en": "lunchtime"
+        }
+      ],
+      "work": [
+        {
+          "term": "office",
+          "en": "workplace / office"
+        },
+        {
+          "term": "off work",
+          "en": "finish work (off work), Singapore usage"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime, also OT, Singapore usage"
+        },
+        {
+          "term": "annual leave",
+          "en": "annual leave, also AL"
+        },
+        {
+          "term": "MC",
+          "en": "medical certificate / sick leave (MC), Singapore usage"
+        },
+        {
+          "term": "boss",
+          "en": "supervisor (boss)"
+        },
+        {
+          "term": "company",
+          "en": "company, Singapore usage"
+        },
+        {
+          "term": "WFH",
+          "en": "work from home (WFH), Singapore usage"
+        }
+      ]
+    },
+    "zh-TW": {
+      "bank": [
+        {
+          "term": "PayNow",
+          "en": "即時轉帳，常用電話或NRIC綁定 (PayNow)"
+        },
+        {
+          "term": "Singpass",
+          "en": "政府數位身分，開戶與公務常用 (Singpass)"
+        },
+        {
+          "term": "網上銀行",
+          "en": "online banking，也常直接說 digibank 等銀行App名 (網上銀行)"
+        },
+        {
+          "term": "轉帳",
+          "en": "bank transfer (轉帳), Singapore wording"
+        },
+        {
+          "term": "戶口",
+          "en": "bank account (戶口), Singapore wording"
+        },
+        {
+          "term": "GIRO",
+          "en": "定期自動扣款 (GIRO)"
+        },
+        {
+          "term": "存款戶口",
+          "en": "deposit / savings account (存款戶口)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "組屋",
+          "en": "HDB flat (組屋)"
+        },
+        {
+          "term": "鞋架",
+          "en": "shoe rack, a common place to leave parcels (鞋架)"
+        },
+        {
+          "term": "守衛室",
+          "en": "guardhouse (守衛室)"
+        },
+        {
+          "term": "智能信箱",
+          "en": "parcel locker (智能信箱)"
+        },
+        {
+          "term": "組屋樓下",
+          "en": "HDB void deck / downstairs (組屋樓下)"
+        },
+        {
+          "term": "信箱",
+          "en": "letterbox (信箱), Singapore wording"
+        },
+        {
+          "term": "郵政局",
+          "en": "SingPost (郵政局)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Singpass",
+          "en": "government digital ID (Singpass)"
+        },
+        {
+          "term": "身份證",
+          "en": "NRIC (身份證)"
+        },
+        {
+          "term": "公積金",
+          "en": "CPF (公積金)"
+        },
+        {
+          "term": "稅務局",
+          "en": "IRAS (稅務局)"
+        },
+        {
+          "term": "移民局",
+          "en": "ICA (移民局)"
+        },
+        {
+          "term": "工作準證",
+          "en": "work pass (工作準證)"
+        },
+        {
+          "term": "公署",
+          "en": "government office, also 政府部門 (公署)"
+        }
+      ],
+      "health": [
+        {
+          "term": "診療所",
+          "en": "polyclinic, public primary care (診療所)"
+        },
+        {
+          "term": "醫院",
+          "en": "hospital (醫院)"
+        },
+        {
+          "term": "藥局",
+          "en": "pharmacy (藥局)"
+        },
+        {
+          "term": "急症室",
+          "en": "A&E (急症室)"
+        },
+        {
+          "term": "家庭診所",
+          "en": "GP clinic (家庭診所)"
+        },
+        {
+          "term": "Medisave",
+          "en": "醫療儲蓄帳戶 (Medisave)"
+        },
+        {
+          "term": "專科",
+          "en": "specialist (專科)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "手機配套",
+          "en": "mobile plan (手機配套)"
+        },
+        {
+          "term": "預付卡",
+          "en": "prepaid (預付卡), Singapore wording"
+        },
+        {
+          "term": "攜號轉網",
+          "en": "number porting (攜號轉網), Singapore wording"
+        },
+        {
+          "term": "網絡",
+          "en": "mobile data / internet (網絡)"
+        },
+        {
+          "term": "寬頻",
+          "en": "broadband (寬頻), Singapore wording"
+        },
+        {
+          "term": "電話卡",
+          "en": "SIM (電話卡), Singapore wording"
+        },
+        {
+          "term": "電信公司",
+          "en": "telco (電信公司), Singapore wording"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayNow",
+          "en": "instant transfer (PayNow)"
+        },
+        {
+          "term": "NETS",
+          "en": "card or QR payment network (NETS)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab wallet (GrabPay), Singapore wording"
+        },
+        {
+          "term": "PayLah",
+          "en": "DBS PayLah"
+        },
+        {
+          "term": "信用卡",
+          "en": "credit card (信用卡), Singapore wording"
+        },
+        {
+          "term": "現金",
+          "en": "cash (現金), Singapore wording"
+        },
+        {
+          "term": "GIRO",
+          "en": "auto debit (GIRO)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "地鐵",
+          "en": "MRT (地鐵)"
+        },
+        {
+          "term": "巴士",
+          "en": "bus (巴士), Singapore wording"
+        },
+        {
+          "term": "EZ-Link",
+          "en": "stored-value transit card (EZ-Link)"
+        },
+        {
+          "term": "SimplyGo",
+          "en": "account-based transit fare system (SimplyGo)"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab), Singapore wording"
+        },
+        {
+          "term": "德士",
+          "en": "taxi (德士)"
+        },
+        {
+          "term": "車資卡",
+          "en": "concession or transit card, also EZ-Link (車資卡)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "組屋",
+          "en": "HDB flat (組屋)"
+        },
+        {
+          "term": "公寓",
+          "en": "condominium (公寓)"
+        },
+        {
+          "term": "守衛室",
+          "en": "guardhouse (守衛室)"
+        },
+        {
+          "term": "信箱",
+          "en": "letterbox (信箱), Singapore wording"
+        },
+        {
+          "term": "組屋樓下",
+          "en": "void deck (組屋樓下)"
+        },
+        {
+          "term": "門卡",
+          "en": "access card (門卡), Singapore wording"
+        },
+        {
+          "term": "市鎮理事會",
+          "en": "town council (市鎮理事會)"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習",
+          "en": "tuition (補習), Singapore wording"
+        },
+        {
+          "term": "小學",
+          "en": "primary school (小學), Singapore wording"
+        },
+        {
+          "term": "中學",
+          "en": "secondary school (中學), Singapore wording"
+        },
+        {
+          "term": "幼稚園",
+          "en": "kindergarten (幼稚園), Singapore wording"
+        },
+        {
+          "term": "放學",
+          "en": "dismissal (放學)"
+        },
+        {
+          "term": "作業",
+          "en": "homework (作業)"
+        },
+        {
+          "term": "教育部",
+          "en": "MOE (教育部)"
+        }
+      ],
+      "money": [
+        {
+          "term": "塊",
+          "en": "colloquial dollar (塊)"
+        },
+        {
+          "term": "新幣",
+          "en": "Singapore dollar (新幣)"
+        },
+        {
+          "term": "千",
+          "en": "thousand, common large-amount unit (千)"
+        },
+        {
+          "term": "萬",
+          "en": "ten thousand, also used (萬)"
+        },
+        {
+          "term": "PayNow",
+          "en": "send money via PayNow"
+        },
+        {
+          "term": "找錢",
+          "en": "give change (找錢), Singapore wording"
+        },
+        {
+          "term": "現金",
+          "en": "cash (現金), Singapore wording"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "今天早上",
+          "en": "this morning, Singapore English"
+        },
+        {
+          "term": "今晚",
+          "en": "tonight, Singapore English"
+        },
+        {
+          "term": "平日",
+          "en": "a weekday, Singapore English"
+        },
+        {
+          "term": "週末",
+          "en": "the weekend, Singapore English"
+        },
+        {
+          "term": "下班後",
+          "en": "after work, often kept in English even in mixed speech"
+        },
+        {
+          "term": "公共假期",
+          "en": "public holiday (公共假期), Singapore wording"
+        },
+        {
+          "term": "這個星期",
+          "en": "this week, Singapore English"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "go to work (上班), Singapore wording"
+        },
+        {
+          "term": "下班",
+          "en": "finish work (下班), Singapore wording"
+        },
+        {
+          "term": "加班",
+          "en": "OT or overtime, both heard in Singapore"
+        },
+        {
+          "term": "請假",
+          "en": "take leave (請假)"
+        },
+        {
+          "term": "病假單",
+          "en": "medical certificate, often just MC (病假單)"
+        },
+        {
+          "term": "公司",
+          "en": "company (公司), Singapore wording"
+        },
+        {
+          "term": "在家工作",
+          "en": "work from home (在家工作)"
+        }
+      ]
+    },
+    "zh-CN": {
+      "bank": [
+        {
+          "term": "PayNow",
+          "en": "即時轉帳，常用電話或NRIC綁定 (PayNow); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "Singpass",
+          "en": "政府數位身分，開戶與公務常用 (Singpass); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "網上銀行",
+          "en": "online banking，也常直接說 digibank 等銀行App名 (網上銀行); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "轉帳",
+          "en": "bank transfer (轉帳), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "戶口",
+          "en": "bank account (戶口), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "GIRO",
+          "en": "定期自動扣款 (GIRO); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "存款戶口",
+          "en": "deposit / savings account (存款戶口); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "組屋",
+          "en": "HDB flat (組屋); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "鞋架",
+          "en": "shoe rack, a common place to leave parcels (鞋架); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "守衛室",
+          "en": "guardhouse (守衛室); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "智能信箱",
+          "en": "parcel locker (智能信箱); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "組屋樓下",
+          "en": "HDB void deck / downstairs (組屋樓下); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "信箱",
+          "en": "letterbox (信箱), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "郵政局",
+          "en": "SingPost (郵政局); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "government": [
+        {
+          "term": "Singpass",
+          "en": "government digital ID (Singpass); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "身份證",
+          "en": "NRIC (身份證); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "公積金",
+          "en": "CPF (公積金); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "稅務局",
+          "en": "IRAS (稅務局); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "移民局",
+          "en": "ICA (移民局); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "工作準證",
+          "en": "work pass (工作準證); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "公署",
+          "en": "government office, also 政府部門 (公署); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "health": [
+        {
+          "term": "診療所",
+          "en": "polyclinic, public primary care (診療所); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "醫院",
+          "en": "hospital (醫院); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "藥局",
+          "en": "pharmacy (藥局); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "急症室",
+          "en": "A&E (急症室); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "家庭診所",
+          "en": "GP clinic (家庭診所); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "Medisave",
+          "en": "醫療儲蓄帳戶 (Medisave); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "專科",
+          "en": "specialist (專科); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "手機配套",
+          "en": "mobile plan (手機配套); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "預付卡",
+          "en": "prepaid (預付卡), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "攜號轉網",
+          "en": "number porting (攜號轉網), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "網絡",
+          "en": "mobile data / internet (網絡); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "寬頻",
+          "en": "broadband (寬頻), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "電話卡",
+          "en": "SIM (電話卡), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "電信公司",
+          "en": "telco (電信公司), Singapore wording; Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayNow",
+          "en": "instant transfer (PayNow); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "NETS",
+          "en": "card or QR payment network (NETS); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab wallet (GrabPay), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "PayLah",
+          "en": "DBS PayLah; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "信用卡",
+          "en": "credit card (信用卡), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "現金",
+          "en": "cash (現金), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "GIRO",
+          "en": "auto debit (GIRO); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "transport": [
+        {
+          "term": "地鐵",
+          "en": "MRT (地鐵); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "巴士",
+          "en": "bus (巴士), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "EZ-Link",
+          "en": "stored-value transit card (EZ-Link); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "SimplyGo",
+          "en": "account-based transit fare system (SimplyGo); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "德士",
+          "en": "taxi (德士); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "車資卡",
+          "en": "concession or transit card, also EZ-Link (車資卡); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "housing": [
+        {
+          "term": "組屋",
+          "en": "HDB flat (組屋); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "公寓",
+          "en": "condominium (公寓); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "守衛室",
+          "en": "guardhouse (守衛室); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "信箱",
+          "en": "letterbox (信箱), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "組屋樓下",
+          "en": "void deck (組屋樓下); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "門卡",
+          "en": "access card (門卡), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "市鎮理事會",
+          "en": "town council (市鎮理事會); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習",
+          "en": "tuition (補習), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "小學",
+          "en": "primary school (小學), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "中學",
+          "en": "secondary school (中學), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "幼稚園",
+          "en": "kindergarten (幼稚園), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "放學",
+          "en": "dismissal (放學); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "作業",
+          "en": "homework (作業); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "教育部",
+          "en": "MOE (教育部); Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "money": [
+        {
+          "term": "塊",
+          "en": "colloquial dollar (塊); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "新幣",
+          "en": "Singapore dollar (新幣); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "千",
+          "en": "thousand, common large-amount unit (千); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "萬",
+          "en": "ten thousand, also used (萬); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "PayNow",
+          "en": "send money via PayNow; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "找錢",
+          "en": "give change (找錢), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "現金",
+          "en": "cash (現金), Singapore wording; Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "今天早上",
+          "en": "this morning, Singapore English; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "今晚",
+          "en": "tonight, Singapore English; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "平日",
+          "en": "a weekday, Singapore English; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "週末",
+          "en": "the weekend, Singapore English; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "下班後",
+          "en": "after work, often kept in English even in mixed speech; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "公共假期",
+          "en": "public holiday (公共假期), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "這個星期",
+          "en": "this week, Singapore English; Singapore Chinese often types this in Simplified"
+        }
+      ],
+      "work": [
+        {
+          "term": "上班",
+          "en": "go to work (上班), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "下班",
+          "en": "finish work (下班), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "加班",
+          "en": "OT or overtime, both heard in Singapore; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "請假",
+          "en": "take leave (請假); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "病假單",
+          "en": "medical certificate, often just MC (病假單); Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "公司",
+          "en": "company (公司), Singapore wording; Singapore Chinese often types this in Simplified"
+        },
+        {
+          "term": "在家工作",
+          "en": "work from home (在家工作); Singapore Chinese often types this in Simplified"
+        }
+      ]
+    },
+    "ms": {
+      "bank": [
+        {
+          "term": "PayNow",
+          "en": "pindahan segera (PayNow)"
+        },
+        {
+          "term": "Singpass",
+          "en": "identiti digital kerajaan (Singpass)"
+        },
+        {
+          "term": "akaun bank",
+          "en": "bank account (akaun bank) [Singapore]"
+        },
+        {
+          "term": "pindahan wang",
+          "en": "bank transfer (pindahan wang)"
+        },
+        {
+          "term": "GIRO",
+          "en": "debit automatik (GIRO)"
+        },
+        {
+          "term": "kad ATM",
+          "en": "ATM card (kad ATM)"
+        },
+        {
+          "term": "baki",
+          "en": "balance (baki)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "HDB",
+          "en": "rumah pangsa awam (HDB)"
+        },
+        {
+          "term": "rak kasut",
+          "en": "shoe rack, tempat lazim letak bungkusan (rak kasut)"
+        },
+        {
+          "term": "pondok pengawal",
+          "en": "guardhouse (pondok pengawal) [Singapore]"
+        },
+        {
+          "term": "loker bungkusan",
+          "en": "parcel locker (loker bungkusan)"
+        },
+        {
+          "term": "void deck",
+          "en": "tingkat bawah blok HDB (void deck)"
+        },
+        {
+          "term": "peti surat",
+          "en": "letterbox (peti surat) [Singapore]"
+        },
+        {
+          "term": "pejabat pos",
+          "en": "SingPost (pejabat pos)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Singpass",
+          "en": "ID digital kerajaan (Singpass)"
+        },
+        {
+          "term": "kad pengenalan",
+          "en": "NRIC (kad pengenalan)"
+        },
+        {
+          "term": "CPF",
+          "en": "Kumpulan Wang Simpanan Pekerja (CPF)"
+        },
+        {
+          "term": "IRAS",
+          "en": "pihak berkuasa cukai (IRAS)"
+        },
+        {
+          "term": "ICA",
+          "en": "imigresen (ICA)"
+        },
+        {
+          "term": "pas kerja",
+          "en": "work pass (pas kerja)"
+        },
+        {
+          "term": "pejabat kerajaan",
+          "en": "government office (pejabat kerajaan)"
+        }
+      ],
+      "health": [
+        {
+          "term": "poliklinik",
+          "en": "polyclinic (poliklinik)"
+        },
+        {
+          "term": "hospital",
+          "en": "hospital [Singapore]"
+        },
+        {
+          "term": "farmasi",
+          "en": "pharmacy (farmasi) [Singapore]"
+        },
+        {
+          "term": "A&E",
+          "en": "kecemasan (A&E)"
+        },
+        {
+          "term": "klinik",
+          "en": "GP clinic (klinik)"
+        },
+        {
+          "term": "Medisave",
+          "en": "akaun perubatan CPF (Medisave)"
+        },
+        {
+          "term": "sijil sakit",
+          "en": "medical certificate, often MC (sijil sakit)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "pelan telefon",
+          "en": "mobile plan (pelan telefon)"
+        },
+        {
+          "term": "prabayar",
+          "en": "prepaid (prabayar) [Singapore]"
+        },
+        {
+          "term": "pindah nombor",
+          "en": "number porting (pindah nombor)"
+        },
+        {
+          "term": "data",
+          "en": "mobile data [Singapore]"
+        },
+        {
+          "term": "jalur lebar",
+          "en": "broadband (jalur lebar)"
+        },
+        {
+          "term": "syarikat telco",
+          "en": "telco (syarikat telco) [Singapore]"
+        },
+        {
+          "term": "kad SIM",
+          "en": "SIM card (kad SIM)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayNow",
+          "en": "pindahan segera (PayNow)"
+        },
+        {
+          "term": "NETS",
+          "en": "rangkaian bayaran (NETS)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "dompet Grab (GrabPay) [Singapore]"
+        },
+        {
+          "term": "kad kredit",
+          "en": "credit card (kad kredit) [Singapore]"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai) [Singapore]"
+        },
+        {
+          "term": "GIRO",
+          "en": "debit automatik (GIRO)"
+        },
+        {
+          "term": "kod QR",
+          "en": "QR payment (kod QR)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "MRT",
+          "en": "metro (MRT) [Singapore]"
+        },
+        {
+          "term": "bas",
+          "en": "bus (bas) [Singapore]"
+        },
+        {
+          "term": "EZ-Link",
+          "en": "kad transit (EZ-Link)"
+        },
+        {
+          "term": "SimplyGo",
+          "en": "sistem tambang akaun (SimplyGo)"
+        },
+        {
+          "term": "Grab",
+          "en": "e-hailing (Grab) [Singapore]"
+        },
+        {
+          "term": "teksi",
+          "en": "taxi (teksi) [Singapore]"
+        },
+        {
+          "term": "kad konsesi",
+          "en": "concession card (kad konsesi)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "rumah HDB",
+          "en": "HDB flat (rumah HDB)"
+        },
+        {
+          "term": "kondominium",
+          "en": "condo (kondominium) [Singapore]"
+        },
+        {
+          "term": "pondok pengawal",
+          "en": "guardhouse (pondok pengawal) [Singapore]"
+        },
+        {
+          "term": "peti surat",
+          "en": "letterbox (peti surat) [Singapore]"
+        },
+        {
+          "term": "void deck",
+          "en": "void deck"
+        },
+        {
+          "term": "kad akses",
+          "en": "access card (kad akses) [Singapore]"
+        },
+        {
+          "term": "majlis bandaran",
+          "en": "town council, often said in English (majlis bandaran)"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuisyen",
+          "en": "tuition (tuisyen) [Singapore]"
+        },
+        {
+          "term": "sekolah rendah",
+          "en": "primary school (sekolah rendah) [Singapore]"
+        },
+        {
+          "term": "sekolah menengah",
+          "en": "secondary school (sekolah menengah) [Singapore]"
+        },
+        {
+          "term": "tadika",
+          "en": "kindergarten (tadika) [Singapore]"
+        },
+        {
+          "term": "kerja rumah",
+          "en": "homework (kerja rumah) [Singapore]"
+        },
+        {
+          "term": "Kementerian Pendidikan",
+          "en": "MOE (Kementerian Pendidikan)"
+        },
+        {
+          "term": "pusat jagaan",
+          "en": "childcare (pusat jagaan)"
+        }
+      ],
+      "money": [
+        {
+          "term": "dolar",
+          "en": "Singapore dollar (dolar)"
+        },
+        {
+          "term": "ribu",
+          "en": "thousand (ribu) [Singapore]"
+        },
+        {
+          "term": "PayNow",
+          "en": "hantar wang (PayNow)"
+        },
+        {
+          "term": "baki",
+          "en": "change or balance, context needed (baki)"
+        },
+        {
+          "term": "tunai",
+          "en": "cash (tunai) [Singapore]"
+        },
+        {
+          "term": "wang",
+          "en": "money (wang)"
+        },
+        {
+          "term": "sen",
+          "en": "cents (sen) [Singapore]"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "pagi ini",
+          "en": "this morning, Singapore English"
+        },
+        {
+          "term": "malam ini",
+          "en": "tonight, Singapore English"
+        },
+        {
+          "term": "hari bekerja",
+          "en": "a weekday, Singapore English"
+        },
+        {
+          "term": "hujung minggu",
+          "en": "the weekend, Singapore English"
+        },
+        {
+          "term": "lepas kerja",
+          "en": "after work, often kept in English even in mixed speech"
+        },
+        {
+          "term": "cuti umum",
+          "en": "public holiday (cuti umum) [Singapore]"
+        },
+        {
+          "term": "minggu ini",
+          "en": "this week, Singapore English"
+        }
+      ],
+      "work": [
+        {
+          "term": "pergi kerja",
+          "en": "go to work (pergi kerja) [Singapore]"
+        },
+        {
+          "term": "habis kerja",
+          "en": "finish work (habis kerja) [Singapore]"
+        },
+        {
+          "term": "kerja lebih masa",
+          "en": "OT or overtime, both heard in Singapore"
+        },
+        {
+          "term": "cuti",
+          "en": "leave (cuti) [Singapore]"
+        },
+        {
+          "term": "MC",
+          "en": "sijil sakit (MC) [Singapore]"
+        },
+        {
+          "term": "syarikat",
+          "en": "company (syarikat) [Singapore]"
+        },
+        {
+          "term": "kerja dari rumah",
+          "en": "WFH (kerja dari rumah) [Singapore]"
+        }
+      ]
+    },
+    "ta": {
+      "bank": [
+        {
+          "term": "PayNow",
+          "en": "உடனடி பணப் பரிமாற்றம் (PayNow)"
+        },
+        {
+          "term": "Singpass",
+          "en": "அரசு அடையாளப் புகுபதிவு (Singpass)"
+        },
+        {
+          "term": "வங்கி கணக்கு",
+          "en": "bank account (வங்கி கணக்கு) [Singapore]"
+        },
+        {
+          "term": "பணம் அனுப்புதல்",
+          "en": "bank transfer (பணம் அனுப்புதல்)"
+        },
+        {
+          "term": "GIRO",
+          "en": "தானியங்கி பிடித்தம் (GIRO)"
+        },
+        {
+          "term": "ATM அட்டை",
+          "en": "ATM card (ATM அட்டை)"
+        },
+        {
+          "term": "இருப்பு",
+          "en": "balance (இருப்பு)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "HDB",
+          "en": "பொது வீட்டுவசதி (HDB)"
+        },
+        {
+          "term": "shoe rack",
+          "en": "பாதணி அடுக்கு, பொதுவான பொதி வைக்கும் இடம் (shoe rack)"
+        },
+        {
+          "term": "guardhouse",
+          "en": "காவல் அறை (guardhouse) [Singapore]"
+        },
+        {
+          "term": "parcel locker",
+          "en": "பொதி பெட்டி (parcel locker) [Singapore]"
+        },
+        {
+          "term": "void deck",
+          "en": "HDB கீழ்தளம் (void deck)"
+        },
+        {
+          "term": "letterbox",
+          "en": "கடிதப் பெட்டி (letterbox) [Singapore]"
+        },
+        {
+          "term": "SingPost",
+          "en": "அஞ்சல் அலுவலகம் (SingPost)"
+        }
+      ],
+      "government": [
+        {
+          "term": "Singpass",
+          "en": "அரசு டிஜிட்டல் அடையாளம் (Singpass)"
+        },
+        {
+          "term": "NRIC",
+          "en": "அடையாள அட்டை (NRIC)"
+        },
+        {
+          "term": "CPF",
+          "en": "மைய வருங்கால நிதி (CPF)"
+        },
+        {
+          "term": "IRAS",
+          "en": "வரித்துறை (IRAS)"
+        },
+        {
+          "term": "ICA",
+          "en": "குடியகல்வு (ICA)"
+        },
+        {
+          "term": "work pass",
+          "en": "வேலை அனுமதி (work pass)"
+        },
+        {
+          "term": "MOM",
+          "en": "மனிதவள அமைச்சு (MOM)"
+        }
+      ],
+      "health": [
+        {
+          "term": "polyclinic",
+          "en": "அரசு பொது மருத்துவமனை / பாலிக்ளினிக் (polyclinic)"
+        },
+        {
+          "term": "மருத்துவமனை",
+          "en": "hospital (மருத்துவமனை)"
+        },
+        {
+          "term": "மருந்தகம்",
+          "en": "pharmacy (மருந்தகம்) [Singapore]"
+        },
+        {
+          "term": "A&E",
+          "en": "அவசர சிகிச்சை (A&E)"
+        },
+        {
+          "term": "கிளினிக்",
+          "en": "clinic (கிளினிக்)"
+        },
+        {
+          "term": "Medisave",
+          "en": "மருத்துவ சேமிப்பு (Medisave)"
+        },
+        {
+          "term": "MC",
+          "en": "மருத்துவச் சான்றிதழ் (MC) [Singapore]"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile plan",
+          "en": "கைபேசி திட்டம் (mobile plan)"
+        },
+        {
+          "term": "prepaid",
+          "en": "முன்செலுத்து (prepaid) [Singapore]"
+        },
+        {
+          "term": "number porting",
+          "en": "எண் மாற்றுதல் (number porting) [Singapore]"
+        },
+        {
+          "term": "data",
+          "en": "தரவு (data) [Singapore]"
+        },
+        {
+          "term": "broadband",
+          "en": "அகலப்பட்டை (broadband)"
+        },
+        {
+          "term": "telco",
+          "en": "தொலைத்தொடர்பு நிறுவனம் (telco) [Singapore]"
+        },
+        {
+          "term": "SIM",
+          "en": "SIM"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayNow",
+          "en": "உடனடி செலுத்துதல் (PayNow)"
+        },
+        {
+          "term": "NETS",
+          "en": "கட்டண வலையமைப்பு (NETS)"
+        },
+        {
+          "term": "GrabPay",
+          "en": "Grab பணப்பை (GrabPay) [Singapore]"
+        },
+        {
+          "term": "கடன் அட்டை",
+          "en": "credit card (கடன் அட்டை) [Singapore]"
+        },
+        {
+          "term": "ரொக்கம்",
+          "en": "cash (ரொக்கம்) [Singapore]"
+        },
+        {
+          "term": "GIRO",
+          "en": "தானியங்கி கட்டணம் (GIRO)"
+        },
+        {
+          "term": "QR",
+          "en": "QR"
+        }
+      ],
+      "transport": [
+        {
+          "term": "MRT",
+          "en": "மெட்ரோ (MRT) [Singapore]"
+        },
+        {
+          "term": "பேருந்து",
+          "en": "bus (பேருந்து) [Singapore]"
+        },
+        {
+          "term": "EZ-Link",
+          "en": "போக்குவரத்து அட்டை (EZ-Link)"
+        },
+        {
+          "term": "SimplyGo",
+          "en": "கட்டணக் கணக்கு முறை (SimplyGo)"
+        },
+        {
+          "term": "Grab",
+          "en": "ஊர்தி அழைப்பு (Grab) [Singapore]"
+        },
+        {
+          "term": "டாக்சி",
+          "en": "taxi (டாக்சி)"
+        },
+        {
+          "term": "concession card",
+          "en": "சலுகை அட்டை (concession card)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "HDB",
+          "en": "HDB வீடு"
+        },
+        {
+          "term": "condo",
+          "en": "குடியிருப்புத் தொகுதி (condo)"
+        },
+        {
+          "term": "guardhouse",
+          "en": "காவல் அறை (guardhouse) [Singapore]"
+        },
+        {
+          "term": "letterbox",
+          "en": "கடிதப் பெட்டி (letterbox) [Singapore]"
+        },
+        {
+          "term": "void deck",
+          "en": "கீழ்தள வெளி (void deck)"
+        },
+        {
+          "term": "access card",
+          "en": "நுழைவு அட்டை (access card) [Singapore]"
+        },
+        {
+          "term": "town council",
+          "en": "நகர மன்றம் (town council)"
+        }
+      ],
+      "school": [
+        {
+          "term": "tuition",
+          "en": "கூடுதல் வகுப்பு (tuition) [Singapore]"
+        },
+        {
+          "term": "தொடக்கப் பள்ளி",
+          "en": "primary school (தொடக்கப் பள்ளி) [Singapore]"
+        },
+        {
+          "term": "உயர்நிலைப் பள்ளி",
+          "en": "secondary school (உயர்நிலைப் பள்ளி) [Singapore]"
+        },
+        {
+          "term": "மழலையர் பள்ளி",
+          "en": "kindergarten (மழலையர் பள்ளி)"
+        },
+        {
+          "term": "வீட்டுப்பாடம்",
+          "en": "homework (வீட்டுப்பாடம்) [Singapore]"
+        },
+        {
+          "term": "MOE",
+          "en": "கல்வி அமைச்சு (MOE)"
+        },
+        {
+          "term": "childcare",
+          "en": "குழந்தை பராமரிப்பு (childcare)"
+        }
+      ],
+      "money": [
+        {
+          "term": "டாலர்",
+          "en": "Singapore dollar (டாலர்)"
+        },
+        {
+          "term": "ஆயிரம்",
+          "en": "thousand (ஆயிரம்) [Singapore]"
+        },
+        {
+          "term": "PayNow",
+          "en": "பணம் அனுப்புதல் (PayNow)"
+        },
+        {
+          "term": "சில்லறை",
+          "en": "change (சில்லறை) [Singapore]"
+        },
+        {
+          "term": "ரொக்கம்",
+          "en": "cash (ரொக்கம்) [Singapore]"
+        },
+        {
+          "term": "பணம்",
+          "en": "money (பணம்)"
+        },
+        {
+          "term": "சதம்",
+          "en": "cents (சதம்)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "இன்று காலை",
+          "en": "this morning, Singapore English"
+        },
+        {
+          "term": "இன்று இரவு",
+          "en": "tonight, Singapore English"
+        },
+        {
+          "term": "வேலை நாள்",
+          "en": "a weekday, Singapore English"
+        },
+        {
+          "term": "வார இறுதி",
+          "en": "the weekend, Singapore English"
+        },
+        {
+          "term": "வேலைக்குப் பிறகு",
+          "en": "after work, often kept in English even in mixed speech"
+        },
+        {
+          "term": "பொது விடுமுறை",
+          "en": "public holiday (பொது விடுமுறை) [Singapore]"
+        },
+        {
+          "term": "இந்த வாரம்",
+          "en": "this week, Singapore English"
+        }
+      ],
+      "work": [
+        {
+          "term": "வேலைக்குச் செல்லுதல்",
+          "en": "go to work (வேலைக்குச் செல்லுதல்) [Singapore]"
+        },
+        {
+          "term": "வேலை முடிதல்",
+          "en": "finish work (வேலை முடிதல்) [Singapore]"
+        },
+        {
+          "term": "கூடுதல் நேரம்",
+          "en": "OT or overtime, both heard in Singapore"
+        },
+        {
+          "term": "விடுப்பு",
+          "en": "leave (விடுப்பு)"
+        },
+        {
+          "term": "MC",
+          "en": "மருத்துவச் சான்றிதழ் (MC) [Singapore]"
+        },
+        {
+          "term": "நிறுவனம்",
+          "en": "company (நிறுவனம்) [Singapore]"
+        },
+        {
+          "term": "வீட்டிலிருந்து வேலை",
+          "en": "WFH (வீட்டிலிருந்து வேலை) [Singapore]"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayID",
+      "use_instead": "PayNow",
+      "where_it_is_from": "AU"
+    },
+    {
+      "word": "Alipay 國內版",
+      "use_instead": "PayNow、GrabPay、PayLah（Alipay 在新加坡不是預設）",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "小區",
+      "use_instead": "組屋、公寓、condo",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "PayNow",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "DuitNow",
+      "use_instead": "PayNow",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "MyKad",
+      "use_instead": "NRIC、Singpass",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "Touch 'n Go",
+      "use_instead": "EZ-Link、SimplyGo",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "地下鐵 only as 地鐵 without MRT",
+      "use_instead": "MRT（口語幾乎都說 MRT）",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "PayNow",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "HDB 講成 council flat",
+      "use_instead": "HDB flat",
+      "where_it_is_from": "GB"
+    }
+  ],
+  "sources": [
+    "https://www.singpass.gov.sg/",
+    "https://www.singpost.com/support/managing-deliveries/collection-points",
+    "https://simplygo.com.sg/faqs/cards-and-charms/simplygo/simplygo-ez-link-cards-and-charms/",
+    "https://appsupport.simplygo.com.sg/help/topping-up-your-simplygo-ezlink-concession-card",
+    "https://www.hdb.gov.sg/",
+    "https://www.abs.org.sg/paynow",
+    "https://www.iras.gov.sg/"
+  ],
+  "uncertain": [
+    "新加坡華語書寫多數用簡體，但專案規定中文用繁體；zh-CN 與 zh-TW 兩組用詞相同，僅書寫系統在當地常是簡體。",
+    "淡米爾語電話裡常大量夾雜英語專有名詞（PayNow、HDB、MC），本地特有淡米爾口語查證仍有限。",
+    "「digibank」本是 DBS 產品名，有人口語也拿來泛稱銀行App。"
+  ]
+}

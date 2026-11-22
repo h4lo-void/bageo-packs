@@ -1,0 +1,289 @@
+{
+  "lang": "lv",
+  "backchannels": {
+    "direction": "Skaidrs and jā show you follow; tieši tā agrees; nu jā can sound reluctant or noncommittal.",
+    "examples": [
+      {
+        "text": "Jā.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Skaidrs.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Tieši tā.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Labi.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mhm, jā.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Nu jā.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Latvians keep reactions restrained; Tiešām? for surprise, Žēl for sympathy, Lieliski for good news.",
+    "examples": [
+      {
+        "text": "Tiešām?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Nevar būt!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Žēl.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Man ļoti žēl.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Lieliski!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Apsveicu!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Tas būs grūti.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Slikti dzirdu or slikts savienojums is the usual wording; ask with Vai varat… for politeness.",
+    "examples": [
+      {
+        "text": "Slikti dzirdu.",
+        "style": "polite"
+      },
+      {
+        "text": "Slikts savienojums.",
+        "style": "casual"
+      },
+      {
+        "text": "Pārtrūkst.",
+        "style": "casual"
+      },
+      {
+        "text": "Vai varat runāt skaļāk?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Vai varat atkārtot? is standard; ask for a surname pa burtiem (letter by letter).",
+    "examples": [
+      {
+        "text": "Vai varat atkārtot?",
+        "style": "polite"
+      },
+      {
+        "text": "Ko, lūdzu?",
+        "style": "polite"
+      },
+      {
+        "text": "Lūdzu, nosauciet uzvārdu pa burtiem.",
+        "style": "polite"
+      },
+      {
+        "text": "Atkārtojiet numuru, lūdzu: 12345678?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ar ko es runāju? is the polite ask; Kas zvana? is fine with people you know.",
+    "examples": [
+      {
+        "text": "Kas zvana?",
+        "style": "casual"
+      },
+      {
+        "text": "Ar ko es runāju?",
+        "style": "polite"
+      },
+      {
+        "text": "No kurienes jūs zvanāt?",
+        "style": "polite"
+      },
+      {
+        "text": "Šis ir {owner} telefons. Kas runā?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say they dialled the wrong number (kļūdījies numurā); no need to say who lives at the address.",
+    "examples": [
+      {
+        "text": "Jūs esat kļūdījies numurā.",
+        "style": "polite"
+      },
+      {
+        "text": "Nepareizs numurs.",
+        "style": "casual"
+      },
+      {
+        "text": "Te tāda cilvēka nav.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Nodošu (I'll pass it on) is the neutral offer; pateikšu is more casual.",
+    "examples": [
+      {
+        "text": "Es nodošu.",
+        "style": "polite"
+      },
+      {
+        "text": "Pateikšu {owner}.",
+        "style": "casual"
+      },
+      {
+        "text": "Es viņam pateikšu.",
+        "style": "casual"
+      },
+      {
+        "text": "Nodošu ziņu.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nē, paldies with mani tas neinteresē is a polite, complete answer; long excuses are unusual.",
+    "examples": [
+      {
+        "text": "Nē, paldies.",
+        "style": "polite"
+      },
+      {
+        "text": "Mani tas neinteresē.",
+        "style": "polite"
+      },
+      {
+        "text": "Mums to nevajag.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Restate the no and ask them to stop calling (vairs nezvaniet), keeping jūs forms.",
+    "examples": [
+      {
+        "text": "Es jau teicu nē. Lūdzu, vairs nezvaniet.",
+        "style": "polite"
+      },
+      {
+        "text": "Izņemiet šo numuru no sava saraksta.",
+        "style": "polite"
+      },
+      {
+        "text": "Nē, un viss.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "jūs with strangers; surname in genitive + kungs or kundze for formal address; tu and first names with friends.",
+    "examples": [
+      {
+        "text": "Bērziņa kungs,",
+        "style": "polite"
+      },
+      {
+        "text": "Ozolas kundze,",
+        "style": "polite"
+      },
+      {
+        "text": "Cienījamā kundze,",
+        "style": "polite"
+      },
+      {
+        "text": "Labdien, kungs.",
+        "style": "polite"
+      },
+      {
+        "text": "Sveiks, Jāni!",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Latvian company-support stock lines; on a private phone they sound scripted rather than personal.",
+    "examples": [
+      {
+        "text": "Jūsu zvans mums ir svarīgs.",
+        "style": "polite"
+      },
+      {
+        "text": "Kā varu jums palīdzēt?",
+        "style": "polite"
+      },
+      {
+        "text": "Paldies, ka izvēlējāties mūs.",
+        "style": "polite"
+      },
+      {
+        "text": "Novēlam jums jauku dienu!",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Don't jump to tu, ask about income early, or request a personas kods over the phone.",
+    "examples": [
+      {
+        "text": "Cik tu pelni?",
+        "style": "casual"
+      },
+      {
+        "text": "Kāpēc tev nav bērnu?",
+        "style": "casual"
+      },
+      {
+        "text": "Sakiet savu personas kodu.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wikivoyage.org/wiki/Latvian_phrasebook",
+    "https://en.wiktionary.org/wiki/kungs",
+    "https://en.wiktionary.org/wiki/kundze",
+    "https://en.wiktionary.org/wiki/labi",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "拉脫維亞語電話附和詞未找到語料研究；「skaidrs／nu jā」的語氣差異依詞典與常見用法描述。",
+    "姓（屬格）加 kungs／kundze 為正式稱呼，例中姓氏為常見姓氏示意，非特定人物。",
+    "拉脫維亞有不少俄語使用者，對方改講俄語時是否切換，未找到建議依據。"
+  ]
+}

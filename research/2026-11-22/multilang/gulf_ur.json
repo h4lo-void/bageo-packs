@@ -1,0 +1,90 @@
+{
+  "region": "gulf",
+  "lang": "ur",
+  "hello": {
+    "hello": "السلام علیکم؟",
+    "hello_again": "جی، بولیں؟"
+  },
+  "habits": {
+    "en": "Pakistani Gulf Urdu often starts with السلام علیکم and stays on aap. Work words: iqama, visa, sponsor, dirham.",
+    "zh": "巴基斯坦僑民烏爾都語常先道 سلام，對生人用 aap。工作詞是 iqama、visa、sponsor。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Pakistani friend: aap is still safer with elders; peers may relax; sponsor or duty sit naturally in the Urdu sentence.",
+        "zh": "巴基斯坦熟友對長輩仍以 aap 為妥，平輩可鬆一些；sponsor、duty 很自然地出現在烏爾都語句中。"
+      },
+      "2": {
+        "en": "Easygoing: keep aap if unsure; after they speak, a short جی ٹھیک ہے, Arabic ID terms left untouched.",
+        "zh": "沒把握時維持 aap；聽完短短說 جی ٹھیک ہے，阿拉伯語證件詞不要改寫。"
+      },
+      "3": {
+        "en": "Everyday Gulf Urdu. Finish the point fully; papers and pay are iqama, visa or salary, not only Pakistani bureaucratic Urdu.",
+        "zh": "海灣日常烏爾都語。把重點說完整；證件與薪水常說 iqama、visa、salary，不必只用巴基斯坦公文腔。"
+      },
+      "4": {
+        "en": "Polite aap and جی with offices. Keep Absher or Civil ID if named, sentences fuller and respectful.",
+        "zh": "對機關用禮貌 aap 加 جی。若對方說 Absher、Civil ID 就照留，句子較完整、有敬意。"
+      },
+      "5": {
+        "en": "Formal aap, measured. Quote riyal or dirham and iqama exactly, close each item, no overly casual slang.",
+        "zh": "正式 aap，節奏穩。riyal 或 dirham、iqama 要說準，各項收住，不要太俗。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: a brief السلام if they greeted that way, then you'll pass the message, still on aap.",
+        "zh": "{owner}隨興代接：若對方先道 سلام 就跟著回，再把話帶去，仍用 aap。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep aap and جی, leave iqama as said, and tell them {owner} will be informed.",
+        "zh": "客氣代接：維持 aap 與 جی，iqama 照叫，並告知會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the visa or sponsor point in one full Urdu sentence, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用整句烏爾都語重述 visa 或 sponsor 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on aap: note the purpose, keep Gulf official words, confirm the handover respectfully.",
+        "zh": "沉穩秘書用 aap：記下目的，海灣官方用詞照留，再恭謹確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on aap: exact about iqama and riyal, then confirm the note for {owner}.",
+        "zh": "正式代表用 aap，把 iqama 與 riyal 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "السلام علیکم! کیسے ہیں؟ بتائیں کیا ہوا۔",
+      "جی، بولیں؟ میں سن رہا ہوں۔",
+      "السلام علیکم، جی۔ iqama کی بات ہے؟ ٹھیک ہے، سمجھ گیا۔",
+      "السلام علیکم، کال کا شکریہ۔ visa والی بات واضح ہے۔",
+      "السلام علیکم، آپ کا شکریہ۔ dirham والی بات نوٹ کر لی۔"
+    ],
+    "a": [
+      "السلام علیکم! وہ موجود نہیں، مجھے بتائیں، میں کہہ دوں گا۔",
+      "جی، بولیں؟ میں ان کا فون لے رہا ہوں، پیغام بتائیے۔",
+      "السلام علیکم۔ {owner} کو میں بتا دوں گا۔",
+      "السلام علیکم، کال کا شکریہ۔ پیغام لے لیا، پہنچا دوں گا۔",
+      "السلام علیکم، آپ کا شکریہ۔ ساری بات لکھ کر انہیں بتاؤں گا۔"
+    ]
+  },
+  "diff_from_home": [
+    "開場比在巴基斯坦某些隨便場合更常先用 السلام علیکم，對生人與長輩維持 aap、جی。",
+    "居留與僱主相關詞同樣不翻譯：iqama、visa、sponsor、salary，直接進烏爾都語句。",
+    "這是巴基斯坦僑民在海灣的烏爾都語，與印度印地語接近但書寫與問候習慣不同。",
+    "官方入口在沙烏地常提 Absher，阿聯酋則是 Emirates ID，不要套用巴基斯坦本國機構名。"
+  ],
+  "sources": [
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "https://www.absher.sa/",
+    "https://doi.org/10.7302/4562",
+    "https://pakistanconsulatedubai.ae/pages/a-list-of-dos"
+  ],
+  "uncertain": [
+    "各海灣國家巴基斯坦社群的正式程度不同，開頭是否幾乎都用 سلام，缺少新的電話語料。",
+    "上述領事館頁面偏生活注意事項，語言習慣主要依接觸語料與居留證件官方名稱推寫。"
+  ]
+}

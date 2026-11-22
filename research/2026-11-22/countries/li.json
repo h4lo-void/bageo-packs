@@ -1,0 +1,98 @@
+{
+  "country": "li",
+  "parent": "ch",
+  "name": {
+    "en": "Liechtenstein",
+    "native": "Liechtenstein",
+    "zh": "列支敦斯登"
+  },
+  "lang": "de",
+  "hello": {
+    "hello": "Hallo?",
+    "hello_again": "Hallo, hören Sie?"
+  },
+  "delivery": {
+    "en": "Parcels: a neighbour or the Liechtensteinische Post office",
+    "zh": "包裹交給鄰居，或到列支敦斯登郵局領取"
+  },
+  "readback": {
+    "en": "Local numbers go in short groups; 0 as null; Swiss francs; halb acht is 7:30",
+    "zh": "本地號碼約七位、分短組唸，0 唸 null；金額用瑞士法郎；halb acht＝7:30"
+  },
+  "fraud": {
+    "en": "A Liechtensteinische Post fee or address link, or a fake officer asking for bank codes, are scams",
+    "zh": "冒充列支敦斯登郵局要補運費或改地址、假警察要銀行碼的都是詐騙"
+  },
+  "habits": {
+    "en": "Sie by default; du once offered. German only; write ss, not ß. Do not assume Swiss French or fedpol terms.",
+    "zh": "預設用 Sie，對方提議再改 du。只講德語，寫 ss 不用 ß。不要套用瑞士法語或 fedpol。"
+  },
+  "stall_local": {
+    "en": "Get stuck on e-banking failing in a cellar, a dead card reader, or reading glasses upstairs.",
+    "zh": "卡在網銀在地下室沒訊號、讀卡機沒電、老花眼鏡在樓上。"
+  },
+  "vocab": {
+    "bank": [
+      "e-Banking",
+      "PhotoTAN",
+      "Überweisung"
+    ],
+    "delivery": [
+      "Post",
+      "Nachbar",
+      "Postfach"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "PickPost",
+      "reason": {
+        "en": "Swiss Post locker brand; not confirmed for Liechtenstein",
+        "zh": "瑞士郵局櫃品牌，在列支敦斯登是否通用未證實"
+      }
+    },
+    {
+      "word": "MyPost24",
+      "reason": {
+        "en": "Swiss locker network; not confirmed locally",
+        "zh": "瑞士包裹櫃網路，當地是否使用未證實"
+      }
+    },
+    {
+      "word": "TWINT",
+      "reason": {
+        "en": "Swiss payment app; use in Liechtenstein was not confirmed",
+        "zh": "瑞士支付 App，在當地是否通用未證實"
+      }
+    },
+    {
+      "word": "fedpol",
+      "reason": {
+        "en": "Swiss federal police; Liechtenstein has Landespolizei",
+        "zh": "瑞士聯邦警察，當地是 Landespolizei"
+      }
+    },
+    {
+      "word": "huitante",
+      "reason": {
+        "en": "Swiss French for 80; Liechtenstein is German-speaking",
+        "zh": "瑞士法語「80」的說法，當地使用德語"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Same Sie/du courtesy as Switzerland, but German only: do not switch into French or Italian. Formal calls stay in standard German; dialect may appear with people who use it.",
+    "zh": "敬語仍是先 Sie 再 du，但只使用德語，不要切到法語或義大利語。正式場合用標準德語，對方用方言再跟。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://post.li/achtung-betruegerische-e-mails-und-sms-im-umlauf/",
+    "https://www.swissinfo.ch/ger/phishing-mails-im-namen-der-liechtensteinischen-post-im-umlauf/92377499",
+    "https://llb.li/en/llb/media/media-communiques/media-communiques/2020/betrugsmasche-ebanking",
+    "https://www.llv.li/de/landesverwaltung/amt-fuer-kommunikation/elektronische-kommunikation/nummerierung/nummerierungsplan-liechtenstein-itu-t-e.164-"
+  ],
+  "uncertain": [
+    "TWINT、PickPost、MyPost24、Natel 在列支敦斯登是否日常使用，此次未找到明確官方說明。",
+    "電話接聽用 Hallo 較符合德語習慣；面對面的 Grüezi 是否也常用於電話，未找到當地來源。"
+  ]
+}

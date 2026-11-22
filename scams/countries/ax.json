@@ -1,0 +1,63 @@
+{
+  "name": "Åland",
+  "name_local": "Åland",
+  "iso": "ax",
+  "calling_code": "+358",
+  "languages": [
+    "sv",
+    "fi"
+  ],
+  "prevalence_note": "The Åland police maintain a fraud page that describes how a fraudster seeks financial gain by misleading the victim, notes that much of this activity has moved onto e-mail and the internet, and expressly warns that offenders may try to pass themselves off as public authorities, including as police officers. The page does not publish an Åland-only case count.",
+  "cross_border_note": "Åland uses Finland's public calling code +358 (local numbering on the islands is commonly written with the 18 area code). Crime reports can be made to the police in Åland or through the Finnish police e-service; a number that looks Finnish is not, by itself, proof that the caller is the Mariehamn station.",
+  "scams": [
+    {
+      "id": "ax_polisen_falsk_myndighet",
+      "typology": "fake_official",
+      "name": "Bedragare som utger sig för att vara myndighet eller polis",
+      "name_en": "Polisen på Åland: fraudsters may pose as public authorities, including police, and try to obtain money, personal data, or account and card details",
+      "prevalence": "medium",
+      "lang": "sv",
+      "context_keywords": [
+        "Polisen på Åland",
+        "utger sig för att vara polis",
+        "konto- och kreditkortsuppgifter",
+        "brottsanmälan i Mariehamn"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "jag ringer från polisen, lämna dina koder",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "för över pengarna till detta konto nu",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "lämna kortuppgifter till myndigheten",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "detta är ett brådskande polisärende",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The Åland fraud page says a common thread is that the person is talked into handing over money, personal data, or account and card details, and gets nothing of the kind that was promised, or a product that does not match what was offered. It also states that offenders sometimes pretend to be officials, including police. The Finnish national police pages give the same general warning about impersonation and say that if bank codes have already been given, the bank should be contacted first.",
+      "legit_en": "The Åland police tell people who have already sent money to contact that bank at once and then file a crime report, which can be done in the police e-service or at the station. They do not ask anyone, on an unexpected call, to read out bank codes or to move funds to an account the caller dictates.",
+      "bait_tactics": [
+        "Avsluta samtalet och gör en ev. anmälan via polisens nättjänst eller genom att gå till polisstationen, inte via det nummer som just visades i displayen.",
+        "Säg att bankkoder, kortuppgifter eller en brådskande överföring aldrig lämnas till någon som ringer upp och säger sig vara myndighet.",
+        "Fråga vilken enhet i Mariehamn eller vilken myndighet personen påstår sig tillhöra, och erbjud att återkomma endast via en officiell kanal som redan är känd."
+      ],
+      "sources": [
+        "https://polisen.ax/brott/brottstyper/bedragerier",
+        "https://polisen.ax/brott/gor-en-brottsanmalan",
+        "https://poliisi.fi/petosrikokset",
+        "https://poliisi.fi/tee-rikosilmoitus"
+      ]
+    }
+  ]
+}

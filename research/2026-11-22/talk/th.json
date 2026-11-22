@@ -1,0 +1,265 @@
+{
+  "lang": "th",
+  "backchannels": {
+    "direction": "ครับ / ค่ะ repeated softly shows listening; อือ, อ๋อ are casual; ครับๆๆ said fast can sound hurried.",
+    "examples": [
+      {
+        "text": "ครับ",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ค่ะ ใช่ค่ะ",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "อ๋อ",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "อือ",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ครับๆๆ",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "จริงเหรอ for surprise; เสียใจด้วย for sympathy; ยินดีด้วย for congratulations; add particles for strangers.",
+    "examples": [
+      {
+        "text": "จริงเหรอครับ",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "ตายแล้ว",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "เสียใจด้วยนะคะ",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ยินดีด้วยครับ",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ลำบากนิดหน่อยค่ะ",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the signal is bad (สัญญาณไม่ดี) or the voice breaks (เสียงขาดๆ หายๆ), then ask to speak louder.",
+    "examples": [
+      {
+        "text": "ขอโทษค่ะ ได้ยินไม่ชัด",
+        "style": "polite"
+      },
+      {
+        "text": "สัญญาณไม่ค่อยดีครับ",
+        "style": "polite"
+      },
+      {
+        "text": "เสียงขาดๆ หายๆ",
+        "style": "casual"
+      },
+      {
+        "text": "พูดดังขึ้นอีกนิดได้ไหมคะ",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "อะไรนะครับ/คะ asks for a replay; for names ask สะกดยังไง; read the phone number back digit by digit.",
+    "examples": [
+      {
+        "text": "อะไรนะคะ",
+        "style": "polite"
+      },
+      {
+        "text": "รบกวนพูดอีกครั้งได้ไหมครับ",
+        "style": "polite"
+      },
+      {
+        "text": "ชื่อสะกดยังไงคะ",
+        "style": "polite"
+      },
+      {
+        "text": "เบอร์ 12345678 ใช่ไหมครับ",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "ขอทราบว่าใครโทรมาครับ/คะ or โทรจากที่ไหน is polite; bare ใครพูด sounds abrupt.",
+    "examples": [
+      {
+        "text": "ขอทราบชื่อหน่อยได้ไหมคะ",
+        "style": "polite"
+      },
+      {
+        "text": "โทรมาจากที่ไหนครับ",
+        "style": "polite"
+      },
+      {
+        "text": "นี่เบอร์ของ{owner}ค่ะ ไม่ทราบว่าใครโทรมาคะ",
+        "style": "polite"
+      },
+      {
+        "text": "ใครครับ",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "โทรผิดเบอร์ with a soft particle is enough; say nobody by that name is here.",
+    "examples": [
+      {
+        "text": "น่าจะโทรผิดเบอร์นะคะ",
+        "style": "polite"
+      },
+      {
+        "text": "ที่นี่ไม่มีคนชื่อนี้ครับ",
+        "style": "polite"
+      },
+      {
+        "text": "ผิดเบอร์ครับ",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "จะบอก{owner}ให้ / จะฝากข้อความให้ says the message will reach {owner}; no promised call-back time.",
+    "examples": [
+      {
+        "text": "จะแจ้ง{owner}ให้นะคะ",
+        "style": "polite"
+      },
+      {
+        "text": "ฝากข้อความไว้ให้ได้ครับ",
+        "style": "polite"
+      },
+      {
+        "text": "จะบอกให้ครับ",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Thank first (ขอบคุณ) then ไม่สนใจ; Thais avoid a harsh tone even when refusing.",
+    "examples": [
+      {
+        "text": "ขอบคุณค่ะ แต่ไม่สนใจค่ะ",
+        "style": "polite"
+      },
+      {
+        "text": "ตอนนี้ยังไม่ต้องการครับ ขอบคุณครับ",
+        "style": "polite"
+      },
+      {
+        "text": "ไม่เป็นไรครับ",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If pushed, say you already declined and ask them not to call again, keeping the polite particle.",
+    "examples": [
+      {
+        "text": "บอกไปแล้วว่าไม่สนใจค่ะ",
+        "style": "polite"
+      },
+      {
+        "text": "กรุณาอย่าโทรมาเบอร์นี้อีกนะครับ",
+        "style": "polite"
+      },
+      {
+        "text": "ช่วยลบเบอร์นี้ออกจากรายชื่อด้วยค่ะ",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "คุณ + first name for strangers; พี่/น้อง by relative age; ลุง/ป้า for elders; never the surname.",
+    "examples": [
+      {
+        "text": "คุณสมชาย",
+        "style": "polite"
+      },
+      {
+        "text": "พี่",
+        "style": "casual"
+      },
+      {
+        "text": "น้อง",
+        "style": "casual"
+      },
+      {
+        "text": "คุณลุง",
+        "style": "polite"
+      },
+      {
+        "text": "ท่าน",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "ยินดีให้บริการค่ะ and ขอบคุณที่ใช้บริการ are call-centre stock lines, odd on a home phone.",
+    "examples": [
+      {
+        "text": "ยินดีให้บริการค่ะ",
+        "style": "polite"
+      },
+      {
+        "text": "ขอบคุณที่ใช้บริการครับ",
+        "style": "polite"
+      },
+      {
+        "text": "สายของท่านมีความสำคัญกับเรา",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Dropping ครับ/ค่ะ with strangers, using มึง/กู, or asking age and income early feels rude.",
+    "examples": [
+      {
+        "text": "มึงเป็นใคร",
+        "style": "casual"
+      },
+      {
+        "text": "อายุเท่าไหร่ เงินเดือนเท่าไหร่",
+        "style": "casual"
+      },
+      {
+        "text": "ทำไมไม่รับสาย",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A",
+    "https://en.wiktionary.org/wiki/%E0%B8%84%E0%B9%88%E0%B8%B0",
+    "https://en.wikipedia.org/wiki/Thai_honorifics",
+    "https://en.wikipedia.org/wiki/Thai_six-hour_clock"
+  ],
+  "uncertain": [
+    "Polite particles must match the AI's chosen voice gender (ครับ male, ค่ะ/คะ female); Bageo setting not known",
+    "Backchannel set from dictionaries and usage descriptions, no Thai phone corpus checked",
+    "How blunt ไม่เอา sounds varies by tone; flagged as casual"
+  ]
+}

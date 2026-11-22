@@ -1,0 +1,89 @@
+{
+  "region": "gulf",
+  "lang": "hi",
+  "hello": {
+    "hello": "हैलो?",
+    "hello_again": "जी, बोलिए।"
+  },
+  "habits": {
+    "en": "Gulf Hindi uses aap with strangers. Work words stay mixed: iqama, visa, duty, camp, dirham. जी is common.",
+    "zh": "海灣印地語對生人用 aap。工作詞常留 iqama、duty、camp、dirham，口頭常接 जी。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend from the Indian community: tum is fine among close peers, otherwise aap; duty or camp drop in as everyday words.",
+        "zh": "印度社群熟友平輩可用 tum，否則用 aap；duty、camp 當日常詞直接夾進來。"
+      },
+      "2": {
+        "en": "Easygoing: stay on aap if unsure; after they speak, a short ठीक है जी, Arabic ID names left as-is.",
+        "zh": "沒把握時用 aap；聽完短短說 ठीक है जी，阿拉伯語證件名照留。"
+      },
+      "3": {
+        "en": "Everyday Gulf Hindi. Finish the point in a full line; salary and papers are company, visa or iqama, not only Hindi officialese.",
+        "zh": "海灣日常印地語。用完整句子把重點說完；薪水與證件常說 company、visa、iqama，不必硬譯成印地公文腔。"
+      },
+      "4": {
+        "en": "Polite aap and जी with offices. Keep sponsor or Emirates ID as said, sentences fuller, no rushed slang.",
+        "zh": "對機關用禮貌 aap 加 जी。sponsor、Emirates ID 照叫，句子較完整，不急著用俚語。"
+      },
+      "5": {
+        "en": "Formal aap, tidy. Quote dirham or riyal and iqama exactly, close each item fully, no tum.",
+        "zh": "正式 aap，整齊。dirham 或 riyal、iqama 要說準，各項收完整，不用 tum。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on familiar जी: short and warm, then you'll pass the message, without over-using sir.",
+        "zh": "{owner}隨興代接，可用親熱的 जी：短而熱，再把話帶去，不必一直叫 sir。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep aap, leave duty or iqama as said, and tell them {owner} will be informed.",
+        "zh": "客氣代接：維持 aap，duty、iqama 照叫，並告知會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the visa or company point in one full Hindi sentence, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用整句印地語重述 visa 或 company 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on aap: note the purpose, keep Gulf official words, confirm the handover with जी.",
+        "zh": "沉穩秘書用 aap：記下目的，海灣官方用詞照留，再用 जी 確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on aap: exact about iqama and dirham, then confirm the note for {owner}.",
+        "zh": "正式代表用 aap，把 iqama 與 dirham 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "हैलो! अरे, कैसे हो? बताओ क्या हुआ।",
+      "हैलो, जी। बोलिए, मैं सुन रहा हूँ।",
+      "हैलो, नमस्ते। iqama की बात है? ठीक है, समझ गया।",
+      "नमस्ते, कॉल के लिए धन्यवाद। visa वाली बात साफ़ है।",
+      "नमस्ते, आपका धन्यवाद। dirham वाली बात नोट कर ली।"
+    ],
+    "a": [
+      "हैलो! वो अभी नहीं हैं, मुझे बताइए, मैं कह दूँगा।",
+      "हैलो, जी। मैं उनका फोन ले रहा हूँ, मैसेज बताइए।",
+      "हैलो, नमस्ते। {owner} को मैं बता दूँगा।",
+      "नमस्ते, कॉल के लिए धन्यवाद। मैसेज ले लिया, पहुँचा दूँगा।",
+      "नमस्ते, आपका धन्यवाद। सारी बात लिखकर उन्हें बताऊँगा।"
+    ]
+  },
+  "diff_from_home": [
+    "對生人與長輩用 aap，句末常加 जी，比在印度某些平輩場合更常保持敬語。",
+    "工作與居留詞幾乎不翻譯：iqama、visa、duty、camp、company、sponsor 直接夾進印地語。",
+    "貨幣依所在國說 dirham、riyal 或 dinar，不要預設用印度盧比。",
+    "職場上很多人改講英語，印地語多用於同鄉之間；對方若切英語，跟著切即可。"
+  ],
+  "sources": [
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "https://doi.org/10.7302/4562",
+    "https://www.gov.uk/guidance/living-in-the-united-arab-emirates"
+  ],
+  "uncertain": [
+    "海灣印地語與烏爾都語口語高度接近，個別用詞界線在語料裡並不總是清楚。",
+    "camp、duty 等詞在不同行業（營建、家政、公司職員）的使用比重缺少分層調查。"
+  ]
+}

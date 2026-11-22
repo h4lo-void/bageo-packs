@@ -1,0 +1,598 @@
+{
+  "region": "it",
+  "countries": [
+    "it",
+    "sm",
+    "va"
+  ],
+  "region_name_zh": "義大利（含聖馬利諾、梵蒂岡）",
+  "region_name": "Italy (incl. San Marino and Vatican City)",
+  "languages": [
+    {
+      "code": "it",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite standard Italian (it) with 'Lei'; English works in major tourist areas and hotels but much less at clinics, trades and small towns; regional accents are strong but everyone understands standard Italian.",
+  "english_ok": "sometimes — Good in hotels and tourist restaurants in Rome, Florence, Venice, Milan; limited in clinics, garages, CUP lines and small towns.",
+  "politeness": "Formal 'Lei'; open with 'Buongiorno' (until mid-afternoon) or 'Buonasera'; titles matter ('Dottore/Dottoressa' for doctors and graduates, 'Signor/Signora'); close with 'Grazie, arrivederci'.",
+  "name_tip": "Bookings 'a nome di …' (surname); spell with the Italian city-name alphabet ('A come Ancona, B come Bologna'); foreign names should be spelled letter by letter.",
+  "phone_tip": "Mobile 3XX then 6–7 digits (e.g. 333 12345678), landlines start with 0 which must always be dialled (Rome 06, Milan 02); international +39 (San Marino +378, Vatican numbers sit inside the Rome 06 range); WhatsApp is very common.",
+  "time_tip": "24h used in writing and often in speech ('alle 20'); 'le sette e mezza' = 7:30 (half past, no trap); 'otto meno un quarto' = 7:45; confirm 'di sera' or 'di mattina' when 12h is used.",
+  "number_tip": "Mobile numbers are read 3-3-4 or in pairs; numbers are often said digit by digit; prices said as 'euro e centesimi'.",
+  "avoid_calling": "Avoid lunch break about 13:00–15:30 (many shops and offices close), restaurant service 12:30–14:30 and 20:00–22:00, and Sunday; August (especially around Ferragosto, 15 August) many small businesses close for holidays.",
+  "closed_days": "Many restaurants have a weekly closing day (giorno di chiusura, often Monday); many shops close Sunday and some on Monday morning; holidays include 6 January, Easter Monday, 25 April, 1 May, 2 June, 15 August, 1 November, 8, 25 and 26 December, plus local patron-saint days.",
+  "booking_channels": "TheFork and phone for restaurants (WhatsApp increasingly); CUP regional booking centres (phone, web, pharmacies) for public specialist visits with the GP's electronic prescription; private clinics by phone or MioDottore; Treatwell/Uala-type apps or phone for salons; Glovo, Deliveroo and Just Eat for delivery.",
+  "voice_menu": "CUP regional numbers, ASL/hospitals, banks, telecoms (TIM, Vodafone, WindTre, Iliad), Poste Italiane and utilities use IVR; restaurants and small shops answer directly.",
+  "callback_habits": "CUP sends SMS reminders; restaurants may confirm by call or WhatsApp; small businesses commonly reply on WhatsApp.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "義大利餐廳電話訂位仍最普遍，TheFork 亦常見；注意每週公休日與午晚兩段營業，晚餐多 19:30 後。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Closed on weekly rest day"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Table needed back after a set time"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card for guarantee"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (pranzo or cena)",
+        "Number of people",
+        "Inside or outside (dehors)",
+        "Name and phone"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立專科須家庭醫師開電子處方（ricetta/impegnativa NRE）後經 CUP 電話或線上預約；私人診所與牙醫可直接電話。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to regional CUP"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private paid visit (intramoenia) sooner"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks codice fiscale or exemption code"
+        }
+      ],
+      "usually_asked": [
+        "NRE prescription number and priority class",
+        "Tessera sanitaria / fiscal code",
+        "Specialist or exam",
+        "Patient name",
+        "Phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲電話預約最常見，也有 WhatsApp 與 App；週一常休。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Stylist",
+        "Day and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車（officina）、車檢（revisione）與換胎電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car model and plate",
+        "Job",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩店電話訂外帶（da asporto）極普遍，晚上 19:00 後最忙。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pickup time slot given by the shop"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pizzas or dishes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "麵包、甜點、肉鋪、藥局可電話預留。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "電話改期常見，CUP 取消也要電話或線上。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Penalty for missed CUP appointment"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original date and time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "直接電話詢問普遍。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly to ask",
+        "Date if relevant",
+        "Number of people if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店電話或 Email 訂房，入住要證件登記並收城市稅。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "City tax (tassa di soggiorno) paid on site"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card and ID details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "導覽、酒莊品酒可電話或 Email 訂；大型博物館須線上購票。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電工、清潔電話叫，問地址、樓層與電梯。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee (uscita)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Address and intercom name",
+        "Floor and lift",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed",
+        "Service",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Poste Italiane、BRT、GLS 查件以網站、App 為主，客服有語音選單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to tracking page"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks pickup code or ID"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Name",
+        "Address",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行、電信客服須本人以 SPID 或客戶碼核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Holder must verify"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks codice fiscale or PIN"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Customer number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車電話叫車（radio taxi）或 App，NCC 包車電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 Idealista、Immobiliare.it 刊登，電話打給仲介約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agency fee and deposit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks payslips or codice fiscale"
+        }
+      ],
+      "usually_asked": [
+        "Listing",
+        "Viewing time",
+        "Tenants and contract type",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "市政府（Comune）服務多需線上預約並以 SPID 登入，電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online booking"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks codice fiscale"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Who it is for",
+        "Case number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "it": {
+      "appointment_words": [
+        "prendere appuntamento",
+        "prenotare una visita",
+        "appuntamento dal parrucchiere",
+        "revisione auto",
+        "visita di controllo"
+      ],
+      "booking_words": [
+        "prenotare un tavolo",
+        "prenotazione",
+        "prenotare una camera",
+        "tavolo per 4"
+      ],
+      "change_words": [
+        "spostare l'appuntamento",
+        "disdire la prenotazione",
+        "mezz'ora più tardi",
+        "spostare a venerdì"
+      ],
+      "date": [
+        "domani",
+        "dopodomani",
+        "questo venerdì",
+        "martedì prossimo",
+        "25/11",
+        "25 novembre"
+      ],
+      "false_friends": [
+        "3° piano",
+        "interno 12",
+        "menu n. 4",
+        "massaggio 60 min",
+        "linea 8",
+        "civico 45"
+      ],
+      "inquiry_words": [
+        "quanto costa",
+        "ce l'avete",
+        "fino a che ora siete aperti",
+        "si può portare il cane",
+        "si può pagare con carta"
+      ],
+      "name": [
+        "a nome Rossi",
+        "Bianchi",
+        "famiglia Esposito",
+        "signora Romano"
+      ],
+      "order_words": [
+        "da asporto",
+        "ordinare",
+        "consegna a domicilio",
+        "mettere da parte"
+      ],
+      "party": [
+        "tavolo per 4",
+        "siamo in tre",
+        "per due",
+        "2 adulti e 1 bambino",
+        "5 persone"
+      ],
+      "phone": [
+        "333 12345678",
+        "+39 333 12345678",
+        "06 12345678"
+      ],
+      "time": [
+        "alle 19:30",
+        "le sette e mezza",
+        "alle otto meno un quarto",
+        "alle 20",
+        "a pranzo"
+      ]
+    }
+  }
+}

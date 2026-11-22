@@ -1,0 +1,88 @@
+{
+  "name": "Benin",
+  "name_local": "Bénin",
+  "iso": "bj",
+  "calling_code": "+229",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "In Benin, the government's PARE awareness portal describes fake Mobile Money transfer messages followed by a panicked send-back call, and the national cyber centre CNIN has warned about callers posing as operator agents who ask for SMS validation codes to take over MoMo wallets.",
+  "cross_border_note": "Calls and SMS are usually in French, sometimes Fon, and imitate MTN MoMo or Moov Money notices or an operator agency.",
+  "scams": [
+    {
+      "id": "bj_fake_agent_momo_update_code",
+      "typology": "otp_theft",
+      "name": "Faux agent opérateur et « mise à jour » MoMo",
+      "name_en": "Fake operator agent and MoMo update code",
+      "prevalence": "very_high",
+      "lang": "fr",
+      "context_keywords": [
+        "mise à jour du compte",
+        "dernier délai",
+        "code de validation",
+        "agence opérateur"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "votre numéro sera coupé dans vingt-quatre heures",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "communiquez le code de validation reçu par SMS",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "c'est aujourd'hui le dernier délai pour la mise à jour",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller claiming to be from a mobile operator agency announces a mandatory MoMo or number update with a deadline, starts a password-reset remotely and asks for the SMS code, then empties the wallet and changes the PIN.",
+      "legit_en": "CNIN reminds users that no genuine operator agent asks for a secret code or SMS validation code and that no official procedure requires it; the operator is reached through its own agencies.",
+      "bait_tactics": [
+        "Le SMS reçu parle d'un changement de mot de passe, pas d'une mise à jour, alors je ne le transmets pas.",
+        "Mon compte MoMo est au nom de ma sœur à Cotonou, elle seule gère ces messages."
+      ],
+      "sources": [
+        "https://www.les4verites.bj/le-cnin-alerte-sur-une-arnaque-au-mobile-money-et-appelle-a-la-vigilance/"
+      ]
+    },
+    {
+      "id": "bj_fake_transfer_send_back",
+      "typology": "fake_bank_account_alert",
+      "name": "Faux transfert Mobile Money à renvoyer",
+      "name_en": "Fake Mobile Money transfer to send back",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "transfert par erreur",
+        "renvoyer mon argent",
+        "message de dépôt",
+        "valider un retrait"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "j'ai transféré sur votre numéro par erreur",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "validez le retrait que je viens d'envoyer",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "An SMS from an ordinary number mimics a Mobile Money deposit close to the target's balance, then a distressed caller begs for the sum back or asks the target to approve a withdrawal prompt.",
+      "legit_en": "PARE advises checking the sender of the deposit message: a genuine notice comes from the Mobile Money service name, not a personal number. OCRC warned against any transfer ordered by a third party.",
+      "bait_tactics": [
+        "L'expéditeur de ce SMS est un simple numéro, pas le nom du service, donc je ne renvoie rien."
+      ],
+      "sources": [
+        "https://www.pare.gouv.bj/pages/13/les-transferts-frauduleux",
+        "https://archives.beninwebtv.bj/2019/12/benin-locrc-lance-une-alerte-contre-larnaque-via-les-services-mobile-money/"
+      ]
+    }
+  ]
+}

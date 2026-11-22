@@ -1,0 +1,90 @@
+{
+  "region": "eg",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, aywa?",
+    "hello_again": "Yes, I'm here."
+  },
+  "habits": {
+    "en": "Egyptian work English mixes Arabic: inshallah, khalas, yalla. Titles: Doctor, Bashmohandes, Madam. Keep Fawry, InstaPay.",
+    "zh": "埃及商務英語常夾 inshallah、khalas。職稱用 Doctor、Bashmohandes。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Cairo friend: informal, humorous; inshallah or khalas can land in English, titles drop only when you are truly close.",
+        "zh": "開羅熟友非正式、愛開玩笑；英語裡可夾 inshallah、khalas，真正很熟才省掉職稱。"
+      },
+      "2": {
+        "en": "Easygoing colleague: after they speak, a short aywa or alright; Doctor or Ustaz stays if they use it.",
+        "zh": "隨和同事：聽完短短接 aywa 或 alright；對方若稱 Doctor、Ustaz 就跟著用。"
+      },
+      "3": {
+        "en": "Everyday Egyptian business English. Finish the point fully; payments may be Fawry or InstaPay, money is the pound.",
+        "zh": "埃及日常商務英語。把重點說完整；付款可能是 Fawry、InstaPay，貨幣是鎊。"
+      },
+      "4": {
+        "en": "Polite Madam, Doctor or Bashmohandes with offices and clients. Sentences fuller; keep Vodafone or e& as branded.",
+        "zh": "對機關與客戶用 Madam、Doctor 或 Bashmohandes。句子較完整；Vodafone、e& 用品牌名。"
+      },
+      "5": {
+        "en": "Formal and respectful. Little slang; quote the pound or Fawry exactly, and close each item in a complete line.",
+        "zh": "正式且有敬意，少俚語。鎊與 Fawry 要說準，各項用完整句子收住。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: short and warm, a light aywa if they used it, then you'll pass the message.",
+        "zh": "{owner}隨興代接：短而熱，若對方用了 aywa 可跟著，再把話帶去。"
+      },
+      "2": {
+        "en": "Kind stand-in: keep Madam or Doctor if they did, leave Fawry as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：對方用了 Madam、Doctor 就跟著，Fawry 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the InstaPay or appointment point in one full English sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句英語重述 InstaPay 或約會的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: respectful titles, note the purpose, keep Egyptian brand names, confirm the handover.",
+        "zh": "沉穩秘書：職稱要敬，記下來意，埃及品牌名照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about the pound or Fawry, no slang, then confirm the note for {owner}.",
+        "zh": "正式代表：把鎊或 Fawry 說準，不用俚語，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, aywa! How are you? Tell me the story.",
+      "Yes, I'm here, go ahead.",
+      "Hello, good afternoon. Is this about Fawry? Understood.",
+      "Good afternoon, thanks for calling. The InstaPay point is clear.",
+      "Good afternoon, thank you. I've noted the pound amount."
+    ],
+    "a": [
+      "Hello, aywa! They're out, tell me and I'll pass it.",
+      "Yes, I'm here. I'm taking their calls, share the message.",
+      "Hello, good afternoon. I'll tell {owner} for you.",
+      "Good afternoon, thanks for calling. I'll pass the message along.",
+      "Good afternoon, thank you. I'll write the details and tell them."
+    ]
+  },
+  "diff_from_home": [
+    "埃及商務英語常夾 inshallah、khalas、yalla、aywa，但對客戶仍比熟友更講職稱。",
+    "工程師與醫師等場合常用 Bashmohandes、Doctor、Ustaz、Madam，比一般美國職場更愛加頭銜。",
+    "支付與電信用當地品牌：Fawry、InstaPay、Vodafone、Orange、e&，貨幣是埃及鎊。",
+    "這與海灣或黎凡特英語不同：沒有 iqama 那套用語，開羅、亞歷山卓商務場合英語較常見。"
+  ],
+  "sources": [
+    "https://fawry.com/",
+    "https://www.instapay.eg/",
+    "https://www.vodafone.com.eg/",
+    "https://www.getyallamasry.com/say/hello-on-the-phone"
+  ],
+  "uncertain": [
+    "getyallamasry 主要談埃及阿拉伯語電話開場，英語場合是否也常用 aywa 開頭，缺少專門調查。",
+    "Bashmohandes 在電話英語中的實際出現頻率因行業而異。"
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "lang": "ht",
+  "script": "latin",
+  "common_words": [
+    "mwen",
+    "ou",
+    "li",
+    "nou",
+    "yo",
+    "pa",
+    "se",
+    "gen",
+    "pou",
+    "yon",
+    "sa",
+    "te",
+    "nan",
+    "ak",
+    "ki",
+    "la",
+    "ap",
+    "fè",
+    "ka",
+    "tout",
+    "di",
+    "menm",
+    "si",
+    "vle",
+    "konnen",
+    "mèsi",
+    "souple",
+    "bonjou",
+    "orevwa",
+    "jodi a",
+    "demen",
+    "yè",
+    "maten",
+    "aswè",
+    "poukisa",
+    "kijan",
+    "kote",
+    "lè",
+    "wi",
+    "non",
+    "nimewo",
+    "adrès",
+    "doktè",
+    "kòmann",
+    "bezwen",
+    "kapab",
+    "ankò",
+    "deja",
+    "lòt",
+    "bagay"
+  ],
+  "frequency_source": "OPUS TED2020 Haitian Creole frequencies https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/ht.freq.gz , supplemented by the larger OPUS NLLB v1 list https://object.pouta.csc.fi/OPUS-NLLB/v1/freq/ht.freq.gz (FrequencyWords 2018 and Leipzig hat_wikipedia_2021_100K were not available).",
+  "shared_words": [
+    {
+      "word": "la",
+      "also_in": [
+        "fr",
+        "es"
+      ]
+    },
+    {
+      "word": "ou",
+      "also_in": [
+        "fr"
+      ]
+    },
+    {
+      "word": "li",
+      "also_in": [
+        "fr"
+      ]
+    },
+    {
+      "word": "an",
+      "also_in": [
+        "fr"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "fr",
+    "ca"
+  ],
+  "how_to_tell_apart": "Haitian Creole is written in Latin letters like French, but the grammar is not French: look for mwen, nou, yo, pa (negation), gen, yon, souple, mèsi, bonjou, orevwa, jodi a, demen, kijan and poukisa. French would have je, nous, ils, pas, il y a, un/une, s'il vous plaît, merci and demain. Short items such as la, ou, li and an also exist in French with different functions, so they are unreliable. There is no exclusive letter.",
+  "test_said": [
+    "Nan meri a mwen bezwen yon papye nesans pou timoun nan pou lekòl la.",
+    "Nan famasi a mwen mande si siwo touse mwen te kòmande a rive deja.",
+    "Kouran an koupe nan tout kay la depi maten epi mwen vle rapòte sa.",
+    "Pakè a te sipoze rive bò lakay mwen e mwen poko jwenn okenn mesaj.",
+    "Nan klinik la mwen chèche yon randevou paske touse sa a pa sispann.",
+    "Dantis la te di m pou m tounen si doulè a tounen nan mitan lannwit.",
+    "Mwen pa vle pran asirans sou telefon nan e mwen pap bay enfòmasyon pèsonèl.",
+    "Plan telefòn mwen an fèk chanje mwa pase a kidonk mwen pa bezwen yon lòt òf."
+  ],
+  "test_not_enough": [
+    "Yole",
+    "ok",
+    "uit",
+    "laptop"
+  ],
+  "sources": [
+    "https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/ht.freq.gz",
+    "https://object.pouta.csc.fi/OPUS-NLLB/v1/freq/ht.freq.gz",
+    "https://opus.nlpl.eu/",
+    "https://en.wikipedia.org/wiki/Haitian_Creole"
+  ],
+  "uncertain": [
+    "NLLB is a mined and machine-aligned corpus, so it was used only to confirm function words already visible in the smaller TED2020 spoken list, not to invent extra items.",
+    "The official FrequencyWords 2018 set and the Leipzig hat_wikipedia_2021_100K dump were missing or returned 404, which is why those sources are not cited as the primary frequency list.",
+    "French and Creole are often mixed in the same call; a turn with only merci or oui is not enough to choose."
+  ]
+}

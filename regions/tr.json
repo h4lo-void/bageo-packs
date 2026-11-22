@@ -82,15 +82,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "kapıcı",
-      "site güvenliği",
-      "danışma"
-    ],
     "bank": [
       "EFT",
       "FAST",
-      "mobil bankacılık"
+      "mobil bankacılık",
+      "havale",
+      "IBAN",
+      "hesap"
+    ],
+    "delivery": [
+      "kapıcı",
+      "site güvenliği",
+      "danışma",
+      "kargo",
+      "kargo takip numarası",
+      "komşuya bırakmak"
+    ],
+    "government": [
+      "e-Devlet",
+      "kimlik",
+      "TC kimlik numarası",
+      "nüfus müdürlüğü",
+      "ikametgah",
+      "vergi dairesi"
+    ],
+    "health": [
+      "MHRS",
+      "aile hekimi",
+      "eczane",
+      "nöbetçi eczane",
+      "reçete",
+      "acil"
+    ],
+    "telecom": [
+      "Turkcell",
+      "Vodafone",
+      "Türk Telekom",
+      "hat",
+      "faturalı",
+      "faturasız"
+    ],
+    "payment": [
+      "kredi kartı",
+      "taksit",
+      "nakit",
+      "temassız",
+      "Troy",
+      "Papara"
+    ],
+    "transport": [
+      "dolmuş",
+      "İstanbulkart",
+      "metrobüs",
+      "vapur",
+      "taksi",
+      "otogar"
+    ],
+    "housing": [
+      "apartman",
+      "daire",
+      "site",
+      "aidat",
+      "yönetici",
+      "diafon"
     ]
   },
   "status": "draft"

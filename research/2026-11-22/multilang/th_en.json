@@ -1,0 +1,89 @@
+{
+  "region": "th",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, khrap?"
+  },
+  "habits": {
+    "en": "Polite, unhurried English; Khun plus first name; say BTS, MRT, PromptPay, baht, Grab; avoid blunt confrontation.",
+    "zh": "英語客氣、不催促；稱 Khun 加名字；說 BTS、MRT、PromptPay、baht、Grab。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Thailand, keep light English; reply warmly, then add sure or no problem, and switch the wording.",
+        "zh": "跟在泰的熟友用輕鬆英語，先熱絡接話再補 sure 或 no problem，說法要換。"
+      },
+      "2": {
+        "en": "Stay soft and unhurried; after they explain, add a friendly got it, and avoid a sharp no that sounds like a public clash.",
+        "zh": "口氣柔、不催；聽完補一句 got it，避免聽起來像當面頂撞的生硬 no。"
+      },
+      "3": {
+        "en": "Daily English in Thailand should be a full clear sentence; use BTS, MRT, PromptPay or Grab, not foreign transit or wallet names.",
+        "zh": "在泰日常英語要講完整、清楚，用 BTS、MRT、PromptPay、Grab，不要套外地交通或支付名。"
+      },
+      "4": {
+        "en": "With offices or hotels, use Khun plus the first name, measured lines; show you understood first, e.g. I understand.",
+        "zh": "對機關或飯店用 Khun 加名字，句子穩，先說 I understand 再談正事。"
+      },
+      "5": {
+        "en": "On bank, PromptPay or work-permit matters, stay precise and calm; close each item with that's noted, with no confrontational tone.",
+        "zh": "談銀行、PromptPay 或工準要準、語氣平，各點用 that's noted 收束，避免對立口氣。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A warm stand-in for {owner} in Thailand: short easy English, then say you'll pass it along, phrasing changed each time.",
+        "zh": "代{owner}在泰接聽：用輕快英語短句，再說會把話帶過去，用詞常換。"
+      },
+      "2": {
+        "en": "Keep a soft welcoming tone, maybe with Khun; thank them, write the note for {owner}, and close with I'll note that down.",
+        "zh": "口氣柔、可稱 Khun，先致謝再記下要給{owner}的話，用 I'll note that down 收尾。"
+      },
+      "3": {
+        "en": "Like a calm bilingual aide in Bangkok: answer the point in one full sentence, then confirm you will tell {owner}; skip bare OK.",
+        "zh": "像曼谷沉穩的雙語助理：先完整回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A courteous voice for {owner}: Khun and complete lines; restate why they called, then say you will pass the message on.",
+        "zh": "代{owner}的客氣口氣：用 Khun 與完整句子覆述來意，再說會把訊息轉過去。"
+      },
+      "5": {
+        "en": "For bank or official calls, keep Khun and exact terms (PromptPay, BTS, work permit); confirm the relay to {owner} is noted.",
+        "zh": "對銀行或公務來電保留 Khun 與稱謂，PromptPay、工準等詞要準，確認已轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hi, good to hear from you. How are you?",
+      "Hello! I'm listening, no problem.",
+      "Hello, good afternoon. Is this about PromptPay? I've noted it.",
+      "Good afternoon. I understand, I'll take care of it. Thank you.",
+      "Good afternoon. That's noted, khrap. Thank you."
+    ],
+    "a": [
+      "Hello! They're not free now; tell me and I'll pass it along!",
+      "Hello! I can take the message, please go ahead.",
+      "Hello, good afternoon. I'll note this and pass it to them.",
+      "Good afternoon, thanks for calling. I'll pass your message on.",
+      "Thank you for calling. I'll note it all and inform {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "較正式場合常用 Khun 加名字，而不是只稱 Mr／Ms 加姓；語氣宜平、避免當面頂撞。",
+    "曼谷交通要分 BTS（高架）與 MRT（地下），支付常提 PromptPay，叫車常說 Grab。",
+    "貨幣用 baht；商務英語宜慢、清楚，必要時把重點再確認一次。",
+    "電話裡偶爾會聽到 khrap／kha 夾在英語裡，回覆可順著客氣語氣，不必硬改成完全西式。"
+  ],
+  "sources": [
+    "https://www.trade.gov/country-commercial-guides/thailand-business-travel",
+    "https://en.wikivoyage.org/wiki/Thai_phrasebook",
+    "https://www.bts.co.th/eng/"
+  ],
+  "uncertain": [
+    "Hello 後是否常加 khrap／kha，因說話者性別與場合而異，不宜規定每次都加。",
+    "曼谷以外城市英語電話的流利程度與用詞，公開對照資料較少。"
+  ]
+}

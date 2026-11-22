@@ -1,0 +1,720 @@
+{
+  "region": "vn",
+  "countries": [
+    "vn"
+  ],
+  "region_name_zh": "越南",
+  "region_name": "Vietnam",
+  "languages": [
+    {
+      "code": "vi",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak standard Vietnamese (vi); northern (Hà Nội) and southern (Sài Gòn) accents are both understood; use 'anh/chị/em' pronouns, not 'bạn', with shop staff; English only at hotels and tourist venues.",
+  "english_ok": "sometimes — Common at hotels, international clinics and tourist areas of Hà Nội, HCMC, Đà Nẵng; rare at local eateries, garages, markets and government offices.",
+  "politeness": "Friendly-polite: open 'Alô, chào anh/chị', use 'dạ' to acknowledge and 'ạ' at sentence end for politeness; avoid overly blunt phrasing; close with 'cảm ơn anh/chị'.",
+  "name_tip": "Full names are family-middle-given (Nguyễn Văn An); people are addressed by the last word (given name) with anh/chị: 'anh An', 'chị Lan'; bookings usually go under given name + phone.",
+  "phone_tip": "Mobile 10 digits like 09X 123 4567 or 03X 123 4567; Hà Nội landline 024 1234 5678, HCMC 028 1234 5678; the same mobile is usually the Zalo ID; read back in 3-3-4 groups.",
+  "time_tip": "CRITICAL: '8 giờ kém 15' = 7:45 (kém = minus)! 'rưỡi' = half past ('7 rưỡi' = 7:30); add sáng/trưa/chiều/tối ('7 giờ tối' = 19:00); dates are day/month ('5/12' = 5 December).",
+  "number_tip": "Say digits singly; 'lẻ' or 'linh' means zero inside numbers (105 = một trăm lẻ năm); 'mốt' = 1 after tens (21 = hai mốt); money in nghìn/k ('50k' = 50.000 đồng).",
+  "avoid_calling": "Avoid the 11:30–13:30 lunch and nap break at offices and clinics, restaurant rush 11:00–12:30 and 18:00–20:00, calls after 21:00, and the week around Tết when most shops are shut.",
+  "closed_days": "Government offices work Monday to Friday; many private companies also work Saturday morning (the labour code allows up to 48 hours a week); most shops and eateries open 7 days; nearly everything closes for several days around Tết and around 30/4–1/5 and 2/9.",
+  "booking_channels": "Zalo messages dominate bookings with restaurants, salons, clinics and landlords; PasGo for dining, ShopeeFood/GrabFood for delivery, Grab/Xanh SM/Be for rides, Batdongsan.com.vn and Chợ Tốt for property.",
+  "voice_menu": "Telcos (Viettel, Vinaphone, Mobifone), banks, EVN electricity and delivery firms use IVR menus; private hospitals have call centers ('tổng đài'); small shops answer directly.",
+  "callback_habits": "Businesses usually reply and confirm through Zalo (same number as the phone); clinics and spas send Zalo or SMS reminders; tradesmen call back directly from a mobile.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "導覽、球場與密室多可 Zalo 或電話預約；熱門景點門票多上網買。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tickets sold online only"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requires transfer to personal account to secure the slot"
+        }
+      ],
+      "usually_asked": [
+        "Activity or court",
+        "Date and start time",
+        "Headcount",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲與 spa 多用 Zalo 或 Facebook 粉專訊息預約，電話也可；熱門 spa 週末需提前。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for long nail or hair treatments"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks full prepayment to personal account before booking"
+        }
+      ],
+      "usually_asked": [
+        "Service (cắt, nhuộm, uốn, nail, gội đầu dưỡng sinh)",
+        "Preferred staff",
+        "Date and time",
+        "Name and phone/Zalo"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消多用 Zalo 即可；訂金在臨時取消時通常不退。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refunded for late cancellation"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks CCCD number to find booking"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone of booking",
+        "Original date and time",
+        "New time or cancel",
+        "Party size if restaurant"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立醫院與診所（Vinmec、FV 等）有客服總機可預約；公立醫院多現場掛號排隊，部分可用 App 或 Zalo 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Public hospital is first-come queue; book via app or arrive early"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private clinic asks to pay consultation fee in advance online"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CCCD (citizen ID) number, date of birth or health insurance number"
+        }
+      ],
+      "usually_asked": [
+        "Patient full name and year of birth",
+        "First visit or follow-up",
+        "Symptoms or specialty",
+        "Health insurance (BHYT) or self-pay",
+        "Phone number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行與電力客服有語音選單，帳戶事項須本人以 CCCD 驗證。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Third party cannot handle account without holder"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CCCD number, account number or OTP"
+        }
+      ],
+      "usually_asked": [
+        "IVR menu choice",
+        "Account holder name",
+        "CCCD or account number",
+        "Issue description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "行政手續多走國家公共服務入口網（dịch vụ công）；學校與幼兒園可電話詢問，週六下午與週日不接。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Procedure must be filed online or in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CCCD or child's personal ID number"
+        }
+      ],
+      "usually_asked": [
+        "Which procedure or enquiry",
+        "Child age and grade",
+        "Area/ward",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣清洗、水電、清潔多電話或 Zalo 叫；公寓社區需先向管理處登記，巷弄地址（hẻm）要說清楚。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Travel fee and per-unit price quoted"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Building management requires worker registration"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands payment before visit"
+        }
+      ],
+      "usually_asked": [
+        "Service type",
+        "Full address with hẻm/alley, building, floor, room",
+        "Preferred time",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "連鎖飯店多經 Booking.com/Agoda，民宿與小旅館常用 Zalo 或電話；入住須出示護照或 CCCD 做住宿登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Passport or ID needed at check-in for residence registration"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit by transfer to secure the room on holidays"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or ID number in advance"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Adults, children, bed type",
+        "Breakfast or airport pickup",
+        "Guest name and phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、春節（Tết）營業安排、能否刷卡或轉帳、有無汽車停車位，店家通常電話或 Zalo 直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gives hours and says closed during Tết days"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Car parking unavailable; motorbike parking only"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Opening hours and Tết schedule",
+        "Card or transfer payment",
+        "Parking for car or motorbike",
+        "Stock or menu"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容多可電話或 Zalo 預約，週末較滿。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Extra fee for large dog or matted coat"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pet hotel asks full prepayment to personal account"
+        }
+      ],
+      "usually_asked": [
+        "Vet, grooming or boarding",
+        "Species, breed, weight, age",
+        "Vaccination status",
+        "Date and time",
+        "Owner name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋與買房多看 Batdongsan.com.vn、Chợ Tốt，仲介與房東習慣 Zalo 約看房。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks to continue on Zalo"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Requires 1–2 months deposit to reserve the apartment"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks viewing or holding fee before seeing the unit"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Move-in date and lease length",
+        "Number of occupants",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "機車與汽車修理行、家電維修多直接打電話；原廠保養（Toyota、VinFast 等）可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Quotes a check fee before repair"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks photos via Zalo"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands transfer before parts ordered"
+        }
+      ],
+      "usually_asked": [
+        "Vehicle or device model and plate number",
+        "Problem",
+        "Drop-off time",
+        "Name and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "越南人訂位常用 Zalo 或電話，週末與節日（聖誕、跨年、婦女節）熱門店需提早訂，大桌或包廂可能收訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for private room or large party via bank transfer QR"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Asks to send details via Zalo"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table held only 15–30 minutes"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks bank account details for deposit refund"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (tối/trưa)",
+        "Number of people and children",
+        "Indoor air-con, outdoor or private room (phòng riêng)",
+        "Name and Zalo/phone number",
+        "Car parking needed"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕店、花店與電器行常接受 Zalo 預訂；中秋月餅與節日花籃須提早訂並付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit required for custom cake or flower basket"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests full payment to unknown personal account"
+        }
+      ],
+      "usually_asked": [
+        "Item, size or quantity",
+        "Message or design",
+        "Pickup date and time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "小吃與餐廳常可電話或 Zalo 點餐自取，外送多走 ShopeeFood、GrabFood、Be。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery only through ShopeeFood/GrabFood"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Pay by bank transfer QR at pickup"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Requests prepayment to personal account for small order"
+        }
+      ],
+      "usually_asked": [
+        "Dishes and portions",
+        "Spice, less sugar, less ice",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Viettel Post、GHN、GHTK、VNPost 多為總機語音選單或 App 追蹤；建議用官網、App 或 Zalo OA 查件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hotline routes to online tracking or Zalo official account"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks OTP code to change delivery"
+        }
+      ],
+      "usually_asked": [
+        "Tracking code (mã vận đơn)",
+        "Recipient name and phone",
+        "Address",
+        "Item"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車以 Grab、Xanh SM、Be 為主；機場接送與包車可 Zalo 或電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Suggests booking through app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Extra charge for night, tolls or extra stops"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks ID or driving licence"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination or airport",
+        "Passengers and luggage, 4 or 7 seats",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "vi": {
+      "appointment_words": [
+        "đặt lịch khám",
+        "đặt hẹn bác sĩ",
+        "lấy cao răng",
+        "bảo dưỡng xe",
+        "đặt lịch cắt tóc"
+      ],
+      "booking_words": [
+        "đặt bàn",
+        "giữ chỗ",
+        "đặt phòng khách sạn",
+        "đặt tiệc",
+        "book bàn"
+      ],
+      "change_words": [
+        "dời lịch",
+        "lùi lại 30 phút",
+        "hủy đặt bàn",
+        "đổi sang thứ Sáu",
+        "đến sớm hơn"
+      ],
+      "date": [
+        "mai",
+        "ngày mốt",
+        "thứ Bảy này",
+        "thứ Hai tuần sau",
+        "25/11",
+        "tối Chủ nhật"
+      ],
+      "false_friends": [
+        "hẻm 12/3",
+        "phòng 302",
+        "tầng 5",
+        "combo số 2",
+        "xe số 7",
+        "Quận 3"
+      ],
+      "inquiry_words": [
+        "hỏi mấy giờ đóng cửa",
+        "có chỗ đậu xe hơi không",
+        "có quẹt thẻ được không",
+        "còn hàng không",
+        "có phòng riêng không"
+      ],
+      "name": [
+        "tên anh Minh",
+        "chị Lan",
+        "Nguyễn Văn An",
+        "đặt tên chị Hoa"
+      ],
+      "order_words": [
+        "đặt mang về",
+        "gọi món lấy tại quán",
+        "đặt bánh sinh nhật",
+        "đặt trước",
+        "ship tận nơi"
+      ],
+      "party": [
+        "bàn 4 người",
+        "2 người lớn 1 trẻ em",
+        "nhóm 6 người",
+        "10 khách",
+        "đi 2 người"
+      ],
+      "phone": [
+        "09X 123 4567",
+        "Zalo 03X 123 4567",
+        "028 1234 5678",
+        "số 09X 1234 567"
+      ],
+      "time": [
+        "7 giờ tối",
+        "7 rưỡi tối",
+        "8 giờ kém 15",
+        "19h30",
+        "trưa 12 giờ",
+        "khoảng 6 giờ chiều"
+      ]
+    }
+  }
+}

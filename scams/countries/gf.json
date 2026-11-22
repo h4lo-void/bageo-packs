@@ -1,0 +1,48 @@
+{
+  "name": "French Guiana",
+  "name_local": "Guyane",
+  "iso": "gf",
+  "calling_code": "+594",
+  "languages": [
+    "fr"
+  ],
+  "prevalence_note": "No Guiana-specific official scam bulletin was located; French national cyber-assistance guidance on fake parcel and delivery messages is the main applicable reference.",
+  "cross_border_note": "French Guiana (+594) borders Brazil and Suriname, so residents may also get calls or messages from +55 and +597 numbers alongside mainland French (+33) ones.",
+  "scams": [
+    {
+      "id": "gf_colis_la_poste_code",
+      "typology": "fake_customs_parcel",
+      "name": "Faux message La Poste ou transporteur",
+      "name_en": "Fake La Poste or courier parcel message in French Guiana asking for a fee or secret code",
+      "prevalence": "high",
+      "lang": "fr",
+      "context_keywords": [
+        "avis de passage",
+        "colis bloqué",
+        "régler les frais"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "saisir le code secret",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "frais de douane en ligne",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message impersonating La Poste or a courier claims an undelivered parcel and requests a small payment or a confirmation code.",
+      "legit_en": "French national guidance says delivery firms never ask for bank codes by message; check only on the carrier's own site.",
+      "bait_tactics": [
+        "Demander de quel bureau de Cayenne ou de Kourou vient l'avis",
+        "Dire que la carte bancaire est restée chez soi et demander de rappeler plus tard"
+      ],
+      "sources": [
+        "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/escroqueries-livraison-colis",
+        "https://aide.laposte.fr/kb/fr/page/nous-contacter/un-sujet-qui-n-est-pas-dans-la-liste"
+      ]
+    }
+  ]
+}

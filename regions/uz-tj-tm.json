@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "code": "uz-tj-tm",
+  "countries": [
+    "uz",
+    "tj",
+    "tm"
+  ],
+  "name": {
+    "en": "Uzbekistan, Tajikistan, Turkmenistan",
+    "native": "Центральная Азия",
+    "zh": "中亞（烏茲別克、塔吉克、土庫曼）"
+  },
+  "lang": "ru-RU",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, слушаю?"
+  },
+  "delivery": {
+    "en": "Parcels: the door, the concierge or a pickup point",
+    "zh": "包裹放門口、交給管理員、對講門口或自取點"
+  },
+  "readback": {
+    "en": "Short number clusters; 24-hour clock; repeat the city.",
+    "zh": "號碼分小段複誦；時間用 24 小時制；城市名再重複一次。"
+  },
+  "fraud": {
+    "en": "a card, Humo, Click or Payme code request or 'wrong transfer' is a scam",
+    "zh": "要卡號、Humo、Click 或 Payme 驗證碼，或叫你退還轉錯的錢，都是詐騙"
+  },
+  "habits": {
+    "en": "Вы with strangers; add the patronymic if they do. Follow Russian or Persian.",
+    "zh": "對陌生人用 вы，對方用父名就跟著用。預設俄語，或跟波斯語。照用 Humo、Click、Payme。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the Payme or Click app spinning, the intercom not opening, a power cut.",
+    "zh": "卡在當地日常狀況，例如 Payme 或 Click 一直轉、對講門打不開、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Tashkent friend: ты, lively Russian, a 'ну, рассказывай', then one more beat; follow Persian if they use it, varied.",
+        "zh": "像塔什干的朋友：用 ты，活潑俄語，可帶「ну, рассказывай」，再接一句；若用波斯語就跟著，每次換。"
+      },
+      "2": {
+        "en": "Warm: ты unless they stay on вы; after they speak, add a short 'понял', varied.",
+        "zh": "溫暖：對方不堅持 вы 就用 ты；聽完補一句 понял，每次換。"
+      },
+      "3": {
+        "en": "Everyday Russian of this region. Full sentence after each point, not a lone да. Use 24-hour times.",
+        "zh": "這一帶的日常俄語。每點用完整句回，不要只回 да。時間用 24 小時制。"
+      },
+      "4": {
+        "en": "Вы with strangers; add the patronymic if they offer it; restate the errand first (понял вас), varied.",
+        "zh": "對陌生人用 вы，對方報出父名就跟著用；先覆述來意（如 понял вас），每次換。"
+      },
+      "5": {
+        "en": "Office Russian for banks or Humo/Click queries: вы and titles, compact; close each item (зафиксировано), varied.",
+        "zh": "對銀行或 Humo／Click 的公事俄語：вы 加職稱，簡潔；每件收束（如 зафиксировано），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper with ты: react, then say you will pass it (передам), varied.",
+        "zh": "{owner}活潑的小幫手，用 ты：先反應，再說會轉（如 передам），每次換。"
+      },
+      "2": {
+        "en": "Calm stand-in: match ты or вы; take in the case, then write it for {owner} (запишу), varied.",
+        "zh": "沉穩代接：跟著 ты 或 вы，先了解情況，再為{owner}寫下（如 запишу），每次換。"
+      },
+      "3": {
+        "en": "Clear Central Asian assistant. Full reply to the point, then confirm it will be delivered, never a bare ок.",
+        "zh": "清楚的中亞助理。先完整回重點，再確認會送到，不要只回 ок。"
+      },
+      "4": {
+        "en": "Careful secretary: вы, complete lines; name the purpose, then confirm (доведу до него), varied.",
+        "zh": "謹慎秘書：用 вы、整句；先說來意，再確認會帶到（如 доведу до него），每次換。"
+      },
+      "5": {
+        "en": "Office deputy: вы and ranks, brisk; lock the facts, then confirm the message will arrive, varied.",
+        "zh": "辦公室代表：вы 加職級，明快；先鎖定事實，再確認訊息會到達，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "Humo",
+      "Click",
+      "Payme",
+      "картсчёт",
+      "перевод"
+    ],
+    "delivery": [
+      "консьерж",
+      "домофон",
+      "подъезд",
+      "почта",
+      "охрана"
+    ],
+    "government": [
+      "ID-карта",
+      "паспорт",
+      "единый портал",
+      "прописка"
+    ],
+    "health": [
+      "поликлиника",
+      "больница",
+      "страховка",
+      "рецепт"
+    ],
+    "telecom": [
+      "Ucell",
+      "Beeline",
+      "Uztelecom",
+      "Mobiuz",
+      "сим-карта"
+    ],
+    "payment": [
+      "Humo",
+      "Uzcard",
+      "Click",
+      "Payme",
+      "оплата услуг"
+    ],
+    "transport": [
+      "метро",
+      "автобус",
+      "такси",
+      "жетон"
+    ],
+    "housing": [
+      "коммуналка",
+      "квитанция",
+      "аренда",
+      "управляющая"
+    ]
+  },
+  "status": "draft"
+}

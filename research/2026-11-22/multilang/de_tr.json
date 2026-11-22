@@ -1,0 +1,92 @@
+{
+  "region": "de",
+  "lang": "tr",
+  "hello": {
+    "hello": "Alo, efendim?",
+    "hello_again": "Alo, buyurun?"
+  },
+  "habits": {
+    "en": "Sen with peers, siz with elders. Mix Anmeldung, Jobcenter, Krankenkasse, Handy; not Turkish office names.",
+    "zh": "平輩用 sen，長輩用 siz。夾 Anmeldung、Jobcenter、Handy，不用土耳其機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close friends in Berlin or Duisburg use sen, drop Handy or Jobcenter into Turkish, and answer tamam without a stiff opener.",
+        "zh": "在柏林或杜伊斯堡跟熟友用 sen，Handy、Jobcenter 直接夾進土耳其語，不必生硬開場，回 tamam。"
+      },
+      "2": {
+        "en": "Neighbourly German Turkish: stay with sen until they switch to siz; after an Anmeldung point, a light olur suffices.",
+        "zh": "德國土耳其語鄰里口氣先用 sen，對方改 siz 再跟上；聽完 Anmeldung 的事，輕聲回 olur。"
+      },
+      "3": {
+        "en": "Everyday Turkish in Germany: one full sentence per matter, leaving Krankenkasse or Packstation in German as spoken.",
+        "zh": "德國日常土耳其語：每件事回完整一句，Krankenkasse、Packstation 照口頭直接講德語。"
+      },
+      "4": {
+        "en": "Siz at the Bürgeramt or a clinic; keep German official names, and handle the request before extra courtesy.",
+        "zh": "在 Bürgeramt 或診所用 siz，機關名保持德語，先處理來意再補禮數。"
+      },
+      "5": {
+        "en": "Business Turkish: siz throughout, recap the Überweisung or lease point, then close without filler.",
+        "zh": "商務土耳其語全程用 siz，覆述 Überweisung 或租約要點後，不再墊話。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Turkish helper answers tamam, takes the mixed note, and says it will be passed on.",
+        "zh": "替{owner}代接的輕鬆土耳其語先回 tamam，用德土夾雜的句子記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match sen or siz; jot the Jobcenter or callback detail, and tell them {owner} will be informed.",
+        "zh": "跟隨 sen 或 siz；記下 Jobcenter 或回撥細節，並告知會通知{owner}。"
+      },
+      "3": {
+        "en": "A clear Turkish assistant in Germany answers the reason for calling in one complete sentence, then briefs {owner}.",
+        "zh": "口齒清楚的德國土耳其語助理先用完整一句回應來電原因，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite siz: restate the Anmeldung or Krankenkasse point accurately, then confirm it goes to {owner}.",
+        "zh": "禮貌使用 siz：準確覆述 Anmeldung 或 Krankenkasse 要點後，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide for {owner}: siz and a title, itemise the Bürgeramt matter, and close after the handoff.",
+        "zh": "為{owner}任正式助理：siz 加稱謂，對齊 Bürgeramt 事宜，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo, selam! Ne var, söyle, tamam.",
+      "Alo, buyurun, dinliyorum, rahatça konuşun.",
+      "Alo, merhaba. Jobcenter işi mi? Peki, not ettim.",
+      "Merhaba, aradığınız için teşekkürler. Anladım, hallederim.",
+      "İyi günler, aramanız için teşekkürler. Her şeyi yazdım."
+    ],
+    "a": [
+      "Alo! Kendisi meşgul, söyleyin, ileteceğim!",
+      "Alo, merhaba. Aramaları ben alıyorum, mesajınızı bırakın.",
+      "Alo, merhaba. Not alıp kendisine ileteceğim.",
+      "Merhaba, teşekkürler. Not alıp {owner} ileteceğim.",
+      "İyi günler, teşekkürler. Maddeleri yazıp ileteceğim."
+    ]
+  },
+  "diff_from_home": [
+    "行政與醫療口語常直接插入德語專名，如 Anmeldung、Jobcenter、Krankenkasse、Bürgeramt、Packstation，不用土耳其的國家機關名指德國制度。",
+    "手機多說 Handy，較少說 cep telefonu；包裹常提 Packstation，與在土耳其的用法不同。",
+    "對長輩仍多用 siz，年輕人之間用 sen，且德語詞常加上土耳其語詞尾來變化。",
+    "聯邦統計局顯示，土耳其語是德國移民家庭中最常見的非德語家庭用語之一，但各地與世代的夾雜程度並不相同。"
+  ],
+  "sources": [
+    "https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/04/PD22_162_125.html",
+    "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Migration-Integration/Tabellen/migrationshintergrund-staatsangehoerigkeit-staaten.html",
+    "https://www.arbeitsagentur.de/",
+    "https://www.dhl.de/de/privatkunden/pakete-empfangen/an-einem-abholort-empfangen/packstation.html",
+    "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung.html",
+    "https://arxiv.org/abs/2205.00868"
+  ],
+  "uncertain": [
+    "個別德語借詞在電話中的出現頻率，現有語碼轉換語料多偏青年口語，不能直接當成所有世代的電話習慣。",
+    "「Kanak Sprak」一類青年變體不宜當作代接的預設口氣，本檔只描述一般夾用德語專名的做法。"
+  ]
+}

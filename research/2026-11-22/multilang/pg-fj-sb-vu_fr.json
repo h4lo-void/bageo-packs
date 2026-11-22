@@ -1,0 +1,89 @@
+{
+  "region": "pg-fj-sb-vu",
+  "lang": "fr",
+  "why_added": "萬那杜憲法以英語、法語、比斯拉馬語為官方語言；此組合以萬那杜為主，不是美拉尼西亞四國同樣常用。",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, oui ?"
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Strongest in Vanuatu. Money is the vatu. Bislama or English words may stay.",
+    "zh": "對生人用 vous，對方改 tu 再轉。主要在萬那杜。貨幣是 vatu。比斯拉馬或英語詞可留，不用巴黎俚語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Port Vila friend: tu once close, short lines. Leave wantok or Bislama words; cash is vatu, not CFP or Australian dollars.",
+        "zh": "維拉港熟友可用 tu，句子短。wantok 或比斯拉馬詞照留；錢是 vatu，不是太平洋法郎或澳幣。"
+      },
+      "2": {
+        "en": "Warm, easy French. An English or Bislama street name does not need a French rewrite.",
+        "zh": "溫和輕鬆的法語。英語或比斯拉馬街名不必改寫成法語。"
+      },
+      "3": {
+        "en": "Everyday Vanuatu French. Finish each point; Bislama is the common creole and is not on the support list.",
+        "zh": "萬那杜日常法語。把話說完；比斯拉馬是常用克里奧爾語，但不在支援清單。"
+      },
+      "4": {
+        "en": "Polite vous for offices. Confirm vatu amounts; keep English document titles if that is how they appeared.",
+        "zh": "對機關用 vous。金額用 vatu；文件若是英語標題就照用。"
+      },
+      "5": {
+        "en": "Formal vous and Monsieur or Madame. This French is official in Vanuatu, not in Fiji, Solomon Islands or Papua New Guinea.",
+        "zh": "正式 vous 加 Monsieur、Madame。法語是萬那杜官方語言，不是斐濟、索羅門或巴布亞紐幾內亞的官方語言。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on tu if they used it, then you will pass the message along.",
+        "zh": "{owner}熟人代接：對方先用了 tu，才用 tu 回話，並說會轉達。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tu or vous, leave vatu or wantok as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 tu 或 vous，vatu、wantok 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the vatu point in one full French sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句法語重述 vatu 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on vous: note why they called, keep Bislama terms, then confirm the handover.",
+        "zh": "穩重秘書用 vous：記下來電原因，比斯拉馬詞照留，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on vous: exact on vatu and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 vous：vatu 與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Allô ! Tu es encore à Port-Vila ?",
+      "Allô, oui, je t'écoute.",
+      "Allô, bonjour. C'est pour le paiement en vatu ?",
+      "Bonjour, merci d'avoir appelé. Le montant en vatu est clair.",
+      "Bonjour, je vous remercie. J'ai bien noté le dossier."
+    ],
+    "a": [
+      "Allô ! {owner} n'est pas là, dis-moi, je transmets.",
+      "Allô, salut. Je suis au téléphone, quel est le message ?",
+      "Allô, bonjour. Je transmettrai à {owner} tes propres mots.",
+      "Merci d'avoir appelé. Je note le point vatu pour {owner}.",
+      "Bonjour, merci. Je consigne les détails et je transmets."
+    ]
+  },
+  "diff_from_home": [
+    "此組合以萬那杜為主：法語是官方語言之一，貨幣是 vatu，不是歐元或太平洋法郎。",
+    "比斯拉馬語不在支援清單，但電話裡常出現 wantok 等詞，照留並用法語回應。",
+    "不要把法國本國的 métro、CAF 一類用詞套到萬那杜。",
+    "巴布亞紐幾內亞、斐濟、索羅門群島並非法語官方區，不能把萬那杜習慣套到四國。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/vanuatu/",
+    "https://www.constituteproject.org/constitution/Vanuatu_2013"
+  ],
+  "uncertain": [
+    "《世界概況》對萬那杜「第一語言」的估計中，法語比例很低，多數人先說當地語言或比斯拉馬；法語電話多見於官方或法語教育背景。",
+    "四國合併只為資料包，不代表法語在美拉尼西亞各地同樣常用。"
+  ]
+}

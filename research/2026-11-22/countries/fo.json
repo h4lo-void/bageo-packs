@@ -1,0 +1,48 @@
+{
+  "country": "fo",
+  "parent": "dk",
+  "name": {
+    "en": "Faroe Islands",
+    "native": "Faroe Islands",
+    "zh": "法羅群島"
+  },
+  "lang": "da",
+  "differs_from_parent": {
+    "calling_code": "+298",
+    "currency": "法羅克朗，與丹麥克朗 1:1，丹麥紙鈔也通用",
+    "time_zone": "UTC+0（夏令 UTC+1），比丹麥慢 1 小時",
+    "language": "法羅語為主要語言，丹麥語為第二官方語；電話對陌生人多先用法羅語",
+    "eu": "不屬於歐盟，與丹麥本土規定不全相同"
+  },
+  "habits": {
+    "en": "Follow Faroese callers first, Danish second. Times are an hour behind Copenhagen. Krónur and Danish kroner are both accepted.",
+    "zh": "對方說法羅語就跟著說，其次才是丹麥語。時間比哥本哈根慢一小時。法羅克朗與丹麥克朗都收。"
+  },
+  "vocab": {
+    "bank": [
+      "króna",
+      "Danish kroner"
+    ],
+    "delivery": [
+      "post office"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "CET 換算",
+      "reason": {
+        "zh": "法羅群島與丹麥有一小時時差，約時間不能照哥本哈根算"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://en.wikipedia.org/wiki/Faroese_kr%C3%B3na",
+    "https://en.wikipedia.org/wiki/Time_in_the_Faroe_Islands",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_the_Faroe_Islands"
+  ],
+  "uncertain": [
+    "法羅語不在 Bageo 支援語言清單時，是否以丹麥語 da 作 lang 需主程式決定。",
+    "郵政 posta.fo 從 box 無法連上；常用銀行與付款 App 未查。"
+  ]
+}

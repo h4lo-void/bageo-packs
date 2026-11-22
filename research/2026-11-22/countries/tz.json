@@ -1,0 +1,83 @@
+{
+  "country": "tz",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Tanzania",
+    "native": "Tanzania",
+    "zh": "坦尚尼亞"
+  },
+  "lang": "sw",
+  "hello": {
+    "hello": "Habari?",
+    "hello_again": "Habari, nasikika?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate askari, the door, or a post office",
+    "zh": "包裹交給門衛 askari，或放門口、到郵局領取"
+  },
+  "readback": {
+    "en": "07 mobiles go in short groups; amounts in shillings; confirm if Swahili-hour time is used",
+    "zh": "07 手機分短組唸；金額用先令。若用斯瓦希里語鐘點要確認。"
+  },
+  "fraud": {
+    "en": "A request to share an M-Pesa PIN, or a fake parcel fee message, is a scam",
+    "zh": "要你分享 M-Pesa PIN，或假包裹簡訊要補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Swahili first; English only if they switch. Use M-Pesa. Not Telebirr or MVola.",
+    "zh": "以斯瓦希里語為主，對方改英語再跟。用 M-Pesa，不用 Telebirr、MVola。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a USSD menu timing out, a mobile-money app spinning, or a power cut.",
+    "zh": "卡在 USSD 選單逾時、行動錢包一直轉、或停電。"
+  },
+  "vocab": {
+    "bank": [
+      "M-Pesa",
+      "PIN",
+      "simu"
+    ],
+    "delivery": [
+      "askari",
+      "POSTA",
+      "mlango"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Telebirr",
+      "reason": {
+        "en": "Ethiopian mobile money",
+        "zh": "衣索比亞行動錢包"
+      }
+    },
+    {
+      "word": "MVola",
+      "reason": {
+        "en": "Madagascar mobile money",
+        "zh": "馬達加斯加行動錢包"
+      }
+    },
+    {
+      "word": "gardien",
+      "reason": {
+        "en": "French door-staff term from the mixed parent",
+        "zh": "所屬地區混用的法語門房詞"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More Swahili-forward than the Kenya-coloured parent; less English slang. Keep titles in business and short, clear replies.",
+    "zh": "比偏肯亞的所屬地區更常先用斯瓦希里語，少用英語俚語。公事用稱謂，回覆短而清楚。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://vodacom.co.tz/M-Pesa-faqs",
+    "https://www.vodacom.co.tz/mpesa"
+  ],
+  "uncertain": [
+    "接聽用 Habari 或 Hello 都有；此次以斯瓦希里語 Habari 為主，實際比例未找到官方統計。",
+    "Tigo／Mixx 等其他錢包也很常見，但此次主要來源是 Vodacom M-Pesa，故未寫進主詞彙。",
+    "假包裹簡訊的當地個案，公開來源不如肯亞完整。"
+  ]
+}

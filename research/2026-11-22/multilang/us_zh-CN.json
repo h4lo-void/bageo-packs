@@ -1,0 +1,90 @@
+{
+  "region": "us",
+  "lang": "zh-CN",
+  "hello": {
+    "hello": "喂，在吗？",
+    "hello_again": "喂，说吧？"
+  },
+  "habits": {
+    "en": "Use simplified script. Mix Social Security, green card, IRS, DMV, Medicare; not hukou or a mainland ID for US systems.",
+    "zh": "用簡體。夾社安號、綠卡、IRS、DMV、Medicare；勿用戶口或大陸身份證指美國制度。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Mainland-background friends in Flushing or San Gabriel may use 你, drop in green card or DMV, and answer 行 or 好的.",
+        "zh": "法拉盛或聖蓋博的大陸背景熟友用「你」，隨口夾綠卡、DMV，回「行」或「好的」。"
+      },
+      "2": {
+        "en": "Warm but practical: 你 is fine with peers, 您 if they sound older; keep IRS or appointment in the Mandarin line.",
+        "zh": "親切務實：平輩用「你」，對方顯年長就用「您」；IRS、appointment 可留在普通話裡。"
+      },
+      "3": {
+        "en": "Everyday US Mandarin in simplified script. Restate the Social Security or tax point in a full line, not a bare 嗯.",
+        "zh": "美國日常普通話、用簡體。用整句複述社安號或報稅重點，不要只回一個「嗯」。"
+      },
+      "4": {
+        "en": "Courteous with a government or clinic caller: 您, unhurried, take the green-card or Medicare point first.",
+        "zh": "對公家或診所較客氣：用「您」，不催，先接住綠卡或 Medicare 那一點。"
+      },
+      "5": {
+        "en": "Formal: complete sentences, amounts in dollars, and official English names such as IRS or Social Security kept as is.",
+        "zh": "正式場合句子完整，金額用美元，IRS、Social Security 等正式英文名照用。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual helper uses short simplified Mandarin, then says the message will be passed on, perhaps with 行.",
+        "zh": "{owner}隨和的幫手：簡體普通話簡短，或應一句「行」，再說會轉達。"
+      },
+      "2": {
+        "en": "Friendly relay: match 你 or 您, then note the IRS or DMV point for {owner}.",
+        "zh": "親切代接：跟著用「你」或「您」，再把 IRS 或 DMV 的事記給{owner}。"
+      },
+      "3": {
+        "en": "Clear assistant: one full sentence on the green-card or Social Security issue, then confirm you will tell {owner}.",
+        "zh": "清楚的助理：先整句說明綠卡或社安號的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet: 您, composed; confirm you will give {owner} the tax or immigration-paper message.",
+        "zh": "穩重：用「您」，說明會把報稅或移民文件的話交給{owner}。"
+      },
+      "5": {
+        "en": "Formal: structured Mandarin, exact on dollar amounts and IRS wording, then confirm the relay to {owner}.",
+        "zh": "正式、有條理，美元金額與 IRS 用詞要準，再確認轉達給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "喂，怎么了，你直接说就行。",
+      "喂，我听着，你讲重点就好。",
+      "喂，你好。是社安号还是驾照？行，记下了。",
+      "您好，谢谢打电话过来。绿卡这事我清楚了。",
+      "您好，感谢来电。IRS报税这摊我记下了。"
+    ],
+    "a": [
+      "喂！他这会儿没空，你说，我给带过去！",
+      "喂，你好！我先替他接，你把事儿告诉我。",
+      "喂，你好，这事我记下，回头转告{owner}。",
+      "您好，谢谢来电。我先记下绿卡的事，再转达。",
+      "您好，感谢来电。社安号和报税要点我会转给{owner}。"
+    ]
+  },
+  "diff_from_home": [
+    "機關與稅務用美國專名：Social Security／社安號、IRS 報稅、綠卡、DMV 駕照，不要用戶口、身份證或大陸社保卡來指本地制度。",
+    "醫療常說 Medicare、Medicaid，加州口語也可能提到 Medi-Cal，不是中國大陸的醫保體系。",
+    "近年大陸移民多用簡體與普通話，電話常中英夾雜 green card、appointment、tax return；通訊工具常見微信，不要假設都用台灣常見的 LINE。",
+    "居留說綠卡、工卡（EAD）或入籍，不要用「遷戶口」一類說法來指美國身分變動。"
+  ],
+  "sources": [
+    "https://www.ssa.gov/multilanguage/chinese-simplified.html",
+    "https://www.irs.gov/newsroom/irs-information-in-asian-languages",
+    "https://www.uscis.gov/citizenship/find-study-materials-and-resources/citizenship-multilingual-resources",
+    "https://www.census.gov/content/dam/Census/library/publications/2022/acs/acs-50.pdf"
+  ],
+  "uncertain": [
+    "簡體使用者裡，新移民與較早到美的家庭用詞並不完全相同；微信在電話裡被提到的頻率缺少系統口語調查。",
+    "Medi-Cal 主要是加州醫療補助的口語，其他州不一定這樣說。"
+  ]
+}

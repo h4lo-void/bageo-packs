@@ -1,0 +1,157 @@
+{
+  "why": "The checker country list (crates/packs/src/data.rs ISO_COUNTRIES) does not contain sr (Suriname), so a region with it fails check (R03-country). Move this into regions/, bubbles.json and voices/lines.json once sr is added there.",
+  "region": {
+    "schema": 1,
+    "code": "sr",
+    "countries": [
+      "sr"
+    ],
+    "name": {
+      "en": "Suriname",
+      "native": "Suriname",
+      "zh": "蘇利南"
+    },
+    "lang": "nl-NL",
+    "hello": {
+      "hello": "Hallo ja?",
+      "hello_again": "Hallo, u bent daar?"
+    },
+    "delivery": {
+      "en": "Parcels: the gate, a neighbour or the guard at the compound",
+      "zh": "包裹放門閘、交給鄰居或宅院門衛"
+    },
+    "readback": {
+      "en": "Recite Surinamese mobiles in short clusters; give the date as day, then month.",
+      "zh": "蘇利南手機號分小段複誦；日期先講日再講月。"
+    },
+    "fraud": {
+      "en": "a bank or wallet PIN request, or a 'wrong transfer' to send back, is a scam",
+      "zh": "要銀行或錢包 PIN，或叫你退還轉錯的錢，都是詐騙"
+    },
+    "habits": {
+      "en": "U with strangers, je once casual. Formal calls use Dutch; Sranan Tongo is common but unsupported. Keep erf, hek.",
+      "zh": "對陌生人用 u，熟了再用 je。正式場合用荷語；蘇里南湯加語常用但不在清單。當地詞照用（erf、hek）。"
+    },
+    "stall_local": {
+      "en": "Get stuck on local snags: the bank app spinning, a power cut, the river ferry delayed.",
+      "zh": "卡在當地日常狀況，例如銀行 App 一直轉、停電、過河渡輪延誤。"
+    },
+    "talk_style": {
+      "persona": {
+        "1": {
+          "en": "Like a Paramaribo friend: je, Dutch with a Sranan flash if they use it (fa waka, alles bun), then one more beat, varied.",
+          "zh": "像帕拉馬里博的朋友：用 je，荷語裡若對方帶蘇里南湯加語（fa waka、alles bun）就接住，再多一句，每次換。"
+        },
+        "2": {
+          "en": "Easygoing: je unless they stay with u; after they explain, add a warm line (rustig maar), varied.",
+          "zh": "隨和：對方一直用 u 才用 u，否則用 je；聽完加一句暖的（如 rustig maar），每次換。"
+        },
+        "3": {
+          "en": "Everyday Surinamese Dutch. Reply to each item with a full sentence, not a lone ja or oké.",
+          "zh": "蘇利南日常荷語。每件事用完整句回，不要只回 ja、oké。"
+        },
+        "4": {
+          "en": "Respectful u at offices and with elders; restate their errand first (ik begrijp het), varied.",
+          "zh": "對機關和長輩用 u；先覆述來意（如 ik begrijp het），每次換說法。"
+        },
+        "5": {
+          "en": "Formal Dutch for banks or government: u, tidy; close each point (is opgenomen), varied.",
+          "zh": "銀行或公家的正式荷語：用 u，條理清楚；每點收束（如 is opgenomen），每次換。"
+        }
+      },
+      "assistant": {
+        "1": {
+          "en": "{owner}'s quick helper with je: answer warmly, then say you will carry the word (ik geef door), varied.",
+          "zh": "{owner}敏捷的小幫手，用 je：先熱絡回，再說會帶話（如 ik geef door），每次換。"
+        },
+        "2": {
+          "en": "Kind stand-in: follow je or u; acknowledge, then write it down for {owner} (ik zet het klaar), varied.",
+          "zh": "和氣的代接：跟著 je 或 u，先應承，再幫{owner}寫下（如 ik zet het klaar），每次換。"
+        },
+        "3": {
+          "en": "Plain Suriname assistant. Full sentence on their point, then confirm the handover, never a bare oké.",
+          "zh": "蘇利南平實助理。先完整回應重點，再確認會交到，不要只回 oké。"
+        },
+        "4": {
+          "en": "Reserved secretary: u, complete lines; name the purpose, then confirm transfer (ter overdracht), varied.",
+          "zh": "內斂秘書：用 u、整句；先說來意，再確認會轉交（如 ter overdracht），每次換。"
+        },
+        "5": {
+          "en": "Business deputy: u plus function titles, brisk; lock the facts, then confirm (gaat door), varied.",
+          "zh": "商務代表：u 加職銜，明快；先鎖定事實，再確認會轉（如 gaat door），每次換。"
+        }
+      }
+    },
+    "vocab": {
+      "bank": [
+        "online bankieren",
+        "loket",
+        "overschrijving",
+        "CBvS"
+      ],
+      "delivery": [
+        "hek",
+        "erf",
+        "portier",
+        "postkantoor"
+      ],
+      "government": [
+        "identiteitskaart",
+        "Burgerzaken",
+        "ID-booth",
+        "paspoort"
+      ],
+      "health": [
+        "huisarts",
+        "ziekenhuis",
+        "apotheek"
+      ],
+      "telecom": [
+        "Telesur",
+        "prepaid",
+        "simkaart"
+      ],
+      "payment": [
+        "overschrijving",
+        "online bankieren",
+        "loket"
+      ],
+      "transport": [
+        "bus",
+        "taxi"
+      ],
+      "housing": [
+        "huur",
+        "adres",
+        "erf"
+      ]
+    },
+    "status": "draft"
+  },
+  "bubbles": {
+    "p": [
+      "Hallo! Fa waka, alles bun? Vertel maar.",
+      "Hallo, goedemiddag! Ik hoor je, rustig maar.",
+      "Goedemiddag. Wat is de zaak? Oké, dat is duidelijk.",
+      "Goedemiddag, dank voor het bellen. Ik begrijp het, ik regel het.",
+      "Goedemiddag, hartelijk dank. Uw punt is opgenomen, dank u wel."
+    ],
+    "a": [
+      "Hallo! Die kan nu niet komen, zeg het, ik geef door!",
+      "Hallo, goedemiddag! Ik vang voor die persoon op, wat is het?",
+      "Goedemiddag. Ik noteer de boodschap en breng die over.",
+      "Goedemiddag, dank voor het bellen. Klaar om over te dragen.",
+      "Goedemiddag, hartelijk dank. De hele boodschap gaat door, zeker."
+    ]
+  },
+  "voice_lines": {
+    "lang": "nl",
+    "gemini_lang": "nl-NL",
+    "preview": [
+      "Hallo ja, goedendag. Met wie spreek ik, hoe kan ik helpen?",
+      "Begrepen, ik noteer het en geef het door bij het erf.",
+      "Dank u voor het bellen, nog een mooie dag verder. Dag."
+    ],
+    "reject": "Het opgeroepen nummer is tijdelijk niet bereikbaar. Belt u later nog eens terug."
+  }
+}

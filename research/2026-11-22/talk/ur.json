@@ -1,0 +1,264 @@
+{
+  "lang": "ur",
+  "backchannels": {
+    "direction": "جی and جی ہاں show respectful listening; اچھا acknowledges news; repeated ہاں ہاں can sound impatient.",
+    "examples": [
+      {
+        "text": "جی۔",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "جی ہاں، بالکل۔",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "اچھا۔",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "ٹھیک ہے۔",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ہاں ہاں۔",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "اچھا؟ with rising tone for surprise; افسوس ہوا for sympathy; ماشاءاللہ or واہ for good news.",
+    "examples": [
+      {
+        "text": "اچھا؟ واقعی؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "سن کر بہت افسوس ہوا۔",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "ماشاءاللہ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "واہ، بہت خوب!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "یہ ذرا مشکل ہے۔",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Blame the line, not the caller: آواز نہیں آ رہی or سگنل کمزور ہے, then request ذرا اونچی آواز.",
+    "examples": [
+      {
+        "text": "معاف کیجیے، آواز صاف نہیں آ رہی۔",
+        "style": "polite"
+      },
+      {
+        "text": "سگنل کمزور ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "آپ کی آواز کٹ رہی ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "ذرا اونچا بولیں گے؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "جی؟ asks for a replay; for names ask the spelling, for numbers ask them to say each digit again.",
+    "examples": [
+      {
+        "text": "جی؟",
+        "style": "polite"
+      },
+      {
+        "text": "دوبارہ بتا دیں گے؟",
+        "style": "polite"
+      },
+      {
+        "text": "نام کے ہجے بتا دیں۔",
+        "style": "polite"
+      },
+      {
+        "text": "نمبر ایک بار پھر بتائیں، 12345678؟",
+        "style": "polite"
+      },
+      {
+        "text": "کیا کہا؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Use آپ: آپ کون صاحب بول رہے ہیں or کہاں سے بات ہو رہی ہے; never the blunt تم کون ہو.",
+    "examples": [
+      {
+        "text": "معاف کیجیے، آپ کون بول رہے ہیں؟",
+        "style": "polite"
+      },
+      {
+        "text": "آپ کہاں سے بات کر رہے ہیں؟",
+        "style": "polite"
+      },
+      {
+        "text": "یہ {owner} کا نمبر ہے، آپ کا تعارف؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say غلط نمبر politely and that no one of that name is here; a short معذرت is enough.",
+    "examples": [
+      {
+        "text": "معذرت، یہ غلط نمبر ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "یہاں اس نام کا کوئی نہیں ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "رانگ نمبر ہے۔",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "پیغام پہنچا دوں گا/گی tells them {owner} will get it; avoid promising when {owner} will ring.",
+    "examples": [
+      {
+        "text": "میں {owner} کو آپ کا پیغام پہنچا دوں گی۔",
+        "style": "polite"
+      },
+      {
+        "text": "جی، میں بتا دوں گا۔",
+        "style": "polite"
+      },
+      {
+        "text": "آپ کا پیغام دے دیا جائے گا۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "شکریہ first, then ضرورت نہیں; Pakistani callers expect a polite but clear no, no long excuse.",
+    "examples": [
+      {
+        "text": "شکریہ، ہمیں اس کی ضرورت نہیں۔",
+        "style": "polite"
+      },
+      {
+        "text": "جی نہیں، دلچسپی نہیں ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "نہیں بھائی، شکریہ۔",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If pressed, repeat the refusal and ask them to drop this number from their list, still using آپ.",
+    "examples": [
+      {
+        "text": "میں پہلے ہی منع کر چکا ہوں۔",
+        "style": "polite"
+      },
+      {
+        "text": "براہِ کرم اس نمبر پر دوبارہ کال نہ کریں۔",
+        "style": "polite"
+      },
+      {
+        "text": "یہ نمبر اپنی فہرست سے نکال دیں۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "آپ for strangers; صاحب/صاحبہ after names; بھائی جان, باجی or آنٹی for warmth; جناب on formal lines.",
+    "examples": [
+      {
+        "text": "جناب",
+        "style": "polite"
+      },
+      {
+        "text": "احمد صاحب",
+        "style": "polite"
+      },
+      {
+        "text": "باجی",
+        "style": "casual"
+      },
+      {
+        "text": "آنٹی جی",
+        "style": "polite"
+      },
+      {
+        "text": "بھائی جان",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "آپ کی کال ہمارے لیے اہم ہے and ہم آپ کی کیا خدمت کر سکتے ہیں sound like a bank helpline.",
+    "examples": [
+      {
+        "text": "آپ کی کال ہمارے لیے اہم ہے۔",
+        "style": "polite"
+      },
+      {
+        "text": "ہم آپ کی کیا خدمت کر سکتے ہیں؟",
+        "style": "polite"
+      },
+      {
+        "text": "ہماری ہیلپ لائن پر کال کرنے کا شکریہ۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using تو/تم with strangers, asking about a woman of the house by name, or ringing at prayer time feels rude.",
+    "examples": [
+      {
+        "text": "تم کون ہو؟",
+        "style": "casual"
+      },
+      {
+        "text": "گھر کی خواتین سے بات کرائیں۔",
+        "style": "casual"
+      },
+      {
+        "text": "آپ کی تنخواہ کتنی ہے؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%D8%AC%DB%8C",
+    "https://en.wikipedia.org/wiki/Urdu_grammar",
+    "https://en.wiktionary.org/wiki/%D8%A2%D9%BE"
+  ],
+  "uncertain": [
+    "Backchannel forms (جی، جی ہاں، اچھا، ہوں) from dictionaries and general usage, no Urdu phone-call corpus found",
+    "English loanwords (sorry, number, okay) are common in Pakistani calls; how much to mix is a judgement call",
+    "Sales-call wording based on general politeness norms, not a regulator script"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "region": "gr-cy",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, yes please?",
+    "hello_again": "Speaking?"
+  },
+  "habits": {
+    "en": "Cyprus English is British-leaning: lift, queue, flat. Keep CyTA, EAC, euro. A light yia sou may slip in.",
+    "zh": "賽普勒斯英語偏英式，常用 lift、queue、flat。電信電力說 CyTA、EAC，貨幣是歐元。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Nicosia or Limassol friend: informal, British-tinged; a yia sou or local place name can sit in the English line.",
+        "zh": "尼科西亞或利馬索爾熟友非正式、帶英式腔；英語裡可夾 yia sou 或當地地名。"
+      },
+      "2": {
+        "en": "Easygoing: after they speak, a short right or okay; lift, flat or queue stay British, not elevator or apartment by default.",
+        "zh": "隨和：聽完短短接 right 或 okay；lift、flat、queue 維持英式，不要預設改成美式。"
+      },
+      "3": {
+        "en": "Everyday Cyprus English. Finish the point fully; the telecom is often CyTA, electricity EAC, money is euro.",
+        "zh": "賽普勒斯日常英語。把重點說完整；電信常說 CyTA，電力是 EAC，貨幣是歐元。"
+      },
+      "4": {
+        "en": "Polite with offices and solicitors: British-formal, complete sentences. Keep ID card or municipality as locals say them.",
+        "zh": "對機關與律師客氣，偏英式正式，句子完整。證件或市鎮名跟當地叫法。"
+      },
+      "5": {
+        "en": "Professional, compact and British. Quote euro and CyTA exactly, close each item, little American slang.",
+        "zh": "商務簡潔、偏英式。歐元與 CyTA 要說準，各項收住，少用美式俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: short and British-casual, then you'll pass the message, local names left as said.",
+        "zh": "{owner}隨興代接：短、帶英式隨和，再把話帶去，當地名稱照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match their formality, leave CyTA or EAC as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：正式程度跟對方，CyTA、EAC 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the EAC or appointment point in one full English sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句英語重述電力或約會的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: polite British wording, note the purpose, keep Cyprus official names, confirm the handover.",
+        "zh": "沉穩秘書：用有禮的英式措辭，記下來意，當地官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about euro and CyTA, little slang, then confirm the note for {owner}.",
+        "zh": "正式代表：把歐元與 CyTA 說準，少俚語，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, yes please? How are you, what's going on?",
+      "Speaking? I'm here, go ahead.",
+      "Hello, good afternoon. Is this about CyTA? Right, got it.",
+      "Good afternoon, thanks for calling. The EAC matter is clear.",
+      "Good afternoon, thank you. I've noted the euro amount."
+    ],
+    "a": [
+      "Hello! They're not in, tell me and I'll pass it on.",
+      "Speaking? I'm taking their calls, please share the message.",
+      "Hello, good afternoon. I'll mention this to {owner}.",
+      "Good afternoon, thanks for calling. I'll pass the message on.",
+      "Good afternoon, thank you. I'll note the details and tell them."
+    ]
+  },
+  "diff_from_home": [
+    "英語受英國殖民與法律體系影響，日常偏英式：lift、queue、flat，而不是 elevator、line、apartment。",
+    "電信與電力常用 CyTA、EAC 等本地機構名，貨幣是歐元。",
+    "口語可能輕夾希臘話語，如 yia sou，但公務英語仍清楚完整。",
+    "這與以色列或海灣英語都不同：沒有 dugri 或 iqama 那套習慣。"
+  ],
+  "sources": [
+    "https://www.cambridge.org/core/journals/english-today/article/english-in-cyprus/525571ED30749D8DDBF01DA826ED5663",
+    "https://www.cyta.com.cy/",
+    "https://www.eac.com.cy/"
+  ],
+  "uncertain": [
+    "法律與商務場合英語很常見，但家庭之間使用英語的比例因社群而異，缺少統一新數據。"
+  ]
+}

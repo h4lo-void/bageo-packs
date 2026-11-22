@@ -1,0 +1,294 @@
+{
+  "lang": "el",
+  "backchannels": {
+    "direction": "No ranked Greek call corpus was found; ναι and μμ keep the line open, and Wiktionary lists αχά as a realisation.",
+    "examples": [
+      {
+        "text": "Ναι.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Μμ.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Αχά.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Κατάλαβα.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Ναι, ναι.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Αλήθεια; marks surprise; κρίμα is everyday sympathy, shorter than λυπάμαι, and συγχαρητήρια fits good news.",
+    "examples": [
+      {
+        "text": "Αλήθεια;",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Σοβαρά;",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Κρίμα.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Λυπάμαι που το ακούω.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Τέλεια!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Συγχαρητήρια.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Αυτό θα είναι δύσκολο.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Lesson lists give δεν σας ακούω καλά and η γραμμή κόβεται; ask them to speak up, without stalling the call.",
+    "examples": [
+      {
+        "text": "Δεν σας ακούω καλά.",
+        "style": "polite"
+      },
+      {
+        "text": "Η γραμμή κόβεται.",
+        "style": "casual"
+      },
+      {
+        "text": "Δεν μπορώ να σας ακούσω καθαρά.",
+        "style": "polite"
+      },
+      {
+        "text": "Μιλήστε λίγο πιο δυνατά, παρακαλώ.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary gives δεν καταλαβαίνω; μπορείτε να το επαναλάβετε asks a replay, and 12345678 is read back once.",
+    "examples": [
+      {
+        "text": "Δεν καταλαβαίνω.",
+        "style": "casual"
+      },
+      {
+        "text": "Μπορείτε να το επαναλάβετε, παρακαλώ;",
+        "style": "polite"
+      },
+      {
+        "text": "Συγγνώμη, δεν το έπιασα.",
+        "style": "polite"
+      },
+      {
+        "text": "Ο αριθμός ξανά: είναι το 12345678;",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ποιος είναι, παρακαλώ; is a usual probe; ποιος μιλάει; is blunter. On a shared phone, name {owner} first.",
+    "examples": [
+      {
+        "text": "Ποιος είναι, παρακαλώ;",
+        "style": "polite"
+      },
+      {
+        "text": "Ποιος μιλάει;",
+        "style": "casual"
+      },
+      {
+        "text": "Είναι το τηλέφωνο του {owner}. Ποιος είναι;",
+        "style": "polite"
+      },
+      {
+        "text": "Με ποιον μιλάω;",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Teaching lists model συγγνώμη, λάθος αριθμός, then a short close, without asking how the number was found.",
+    "examples": [
+      {
+        "text": "Συγγνώμη, λάθος αριθμός.",
+        "style": "polite"
+      },
+      {
+        "text": "Λάθος αριθμός.",
+        "style": "casual"
+      },
+      {
+        "text": "Δεν υπάρχει κανείς με αυτό το όνομα εδώ.",
+        "style": "polite"
+      },
+      {
+        "text": "Νομίζω ότι έχετε πάρει λάθος αριθμό.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Θα το πω στον {owner} or θα του πω ότι καλέσατε passes the news; that wording alone fixes no hour to call back.",
+    "examples": [
+      {
+        "text": "Θα το πω στον {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Θα του πω ότι καλέσατε.",
+        "style": "polite"
+      },
+      {
+        "text": "Θα περάσω το μήνυμα.",
+        "style": "polite"
+      },
+      {
+        "text": "Θα της το πω.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Όχι, ευχαριστώ, δεν με ενδιαφέρει closes a pitch; adding a reason can sound as if the offer is still open.",
+    "examples": [
+      {
+        "text": "Όχι, ευχαριστώ, δεν με ενδιαφέρει.",
+        "style": "polite"
+      },
+      {
+        "text": "Ευχαριστώ, δεν το χρειαζόμαστε.",
+        "style": "polite"
+      },
+      {
+        "text": "Δεν με ενδιαφέρει, ευχαριστώ.",
+        "style": "casual"
+      },
+      {
+        "text": "Παρακαλώ βγάλτε μας από τη λίστα.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second όχι often adds παρακαλώ μην ξανακαλέσετε σε αυτόν τον αριθμό, still with σας.",
+    "examples": [
+      {
+        "text": "Το είπα ήδη. Παρακαλώ μην ξανακαλέσετε σε αυτόν τον αριθμό.",
+        "style": "polite"
+      },
+      {
+        "text": "Δεν με ενδιαφέρει και σας ζητώ να σταματήσετε τις κλήσεις.",
+        "style": "polite"
+      },
+      {
+        "text": "Μην ξαναπάρετε, παρακαλώ.",
+        "style": "casual"
+      },
+      {
+        "text": "Αυτό είναι οριστικό όχι· μην επικοινωνήσετε ξανά.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "εσείς and κύριε／κυρία are safer with strangers; εσύ waits for familiars and can sound sharp if used too soon.",
+    "examples": [
+      {
+        "text": "Κύριε.",
+        "style": "polite"
+      },
+      {
+        "text": "Κυρία.",
+        "style": "polite"
+      },
+      {
+        "text": "Δόκτωρ.",
+        "style": "polite"
+      },
+      {
+        "text": "Εσείς.",
+        "style": "polite"
+      },
+      {
+        "text": "Εσύ, τι κάνεις;",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Helpline calques like η κλήση σας είναι σημαντική για εμάς sound corporate on a private κινητό.",
+    "examples": [
+      {
+        "text": "Η κλήση σας είναι σημαντική για εμάς.",
+        "style": "polite"
+      },
+      {
+        "text": "Πώς μπορώ να σας βοηθήσω σήμερα;",
+        "style": "polite"
+      },
+      {
+        "text": "Είναι χαρά μας να σας εξυπηρετήσουμε.",
+        "style": "polite"
+      },
+      {
+        "text": "Ευχαριστούμε που καλέσατε το γραφείο του {owner}.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Asking about marriage, pay, or an identity number at the start, or pressing for {owner}'s exact place, feels intrusive.",
+    "examples": [
+      {
+        "text": "Είσαι παντρεμένος; Τι μισθό έχεις;",
+        "style": "casual"
+      },
+      {
+        "text": "Γιατί δεν πήρε {owner}; Πες μου πού είναι τώρα.",
+        "style": "casual"
+      },
+      {
+        "text": "Πρώτα τον αριθμό ταυτότητας και τη διεύθυνση.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/aha",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://greeklessons.online/greek-phone-sim"
+  ],
+  "uncertain": [
+    "未找到希臘語私人電話相槌頻率表；ναι／μμ／αχά 依詞典與教材，不是語料庫排序。",
+    "接聽常用 Παρακαλώ；或 Λέγετε；本檔不另行規定開場白。",
+    "拒推銷用語沒有官方稿，例句依普通禮貌拒絕。greeklessons.online 是教學頁，不是電信語料。"
+  ]
+}

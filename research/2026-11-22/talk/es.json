@@ -1,0 +1,335 @@
+{
+  "lang": "es",
+  "backchannels": {
+    "direction": "Liesenfeld lists sí, mmm and vale; Ward's Mexican set adds ajá. Vale is Peninsular; Latin America often prefers ya.",
+    "examples": [
+      {
+        "text": "Sí.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ajá.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Vale.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ya.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Claro.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Mm, vale.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Sí, sí.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "¿En serio? and ¿De verdad? take surprise; Qué pena is everyday sympathy, lighter than Lo siento mucho.",
+    "examples": [
+      {
+        "text": "¿En serio?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "¿De verdad?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Ay, qué pena.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Lo siento mucho.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "¡Qué bien!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Felicidades.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Eso va a estar difícil.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "No le oigo bien is the careful complaint; Se corta la llamada and mala cobertura describe a dropping mobile link.",
+    "examples": [
+      {
+        "text": "No le oigo bien.",
+        "style": "polite"
+      },
+      {
+        "text": "Se corta un poco la llamada.",
+        "style": "casual"
+      },
+      {
+        "text": "Hay mala cobertura aquí.",
+        "style": "casual"
+      },
+      {
+        "text": "¿Puede hablar un poco más alto?",
+        "style": "polite"
+      },
+      {
+        "text": "No alcancé a oír lo último.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "¿Puede repetir, por favor? is the unmarked replay; deletrear is used for names, decir el número otra vez for digits.",
+    "examples": [
+      {
+        "text": "¿Puede repetir, por favor?",
+        "style": "polite"
+      },
+      {
+        "text": "¿Cómo? No te oí.",
+        "style": "casual"
+      },
+      {
+        "text": "¿Me lo puede deletrear?",
+        "style": "polite"
+      },
+      {
+        "text": "¿Me dice el número otra vez? ¿Es el 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "¿Qué ha dicho?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "¿De parte de quién? is the everyday probe; ¿Con quién hablo? is slightly more formal. Say if the phone is {owner}'s.",
+    "examples": [
+      {
+        "text": "¿De parte de quién?",
+        "style": "polite"
+      },
+      {
+        "text": "¿Con quién hablo?",
+        "style": "polite"
+      },
+      {
+        "text": "Es el teléfono de {owner}. ¿Quién llama?",
+        "style": "polite"
+      },
+      {
+        "text": "¿Quién eres?",
+        "style": "casual"
+      },
+      {
+        "text": "¿Me dice su nombre, por favor?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Número equivocado and Se ha equivocado de número close the matter; asking how the number was found is not customary.",
+    "examples": [
+      {
+        "text": "Lo siento, se ha equivocado de número.",
+        "style": "polite"
+      },
+      {
+        "text": "Número equivocado.",
+        "style": "casual"
+      },
+      {
+        "text": "Aquí no vive nadie con ese nombre.",
+        "style": "polite"
+      },
+      {
+        "text": "Creo que se ha confundido de teléfono.",
+        "style": "polite"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Se lo comunico and Le doy el recado a {owner} pass the news along; neither phrase books an hour to ring back.",
+    "examples": [
+      {
+        "text": "Se lo comunico.",
+        "style": "polite"
+      },
+      {
+        "text": "Le doy el recado a {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Yo le aviso.",
+        "style": "casual"
+      },
+      {
+        "text": "Le paso el mensaje.",
+        "style": "polite"
+      },
+      {
+        "text": "Se lo digo yo.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "No, gracias, no me interesa is the stock close; No lo necesitamos is a household variant, still without a long story.",
+    "examples": [
+      {
+        "text": "No, gracias, no me interesa.",
+        "style": "polite"
+      },
+      {
+        "text": "No estamos interesados, gracias.",
+        "style": "polite"
+      },
+      {
+        "text": "No lo necesitamos, gracias.",
+        "style": "polite"
+      },
+      {
+        "text": "No, gracias, no es para nosotros.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If the pitch continues, Spanish often adds no vuelvan a llamar a este número, or asks that the lista drop the number.",
+    "examples": [
+      {
+        "text": "Ya he dicho que no. Por favor, no vuelvan a llamar a este número.",
+        "style": "polite"
+      },
+      {
+        "text": "Por favor, borren este número de su lista.",
+        "style": "polite"
+      },
+      {
+        "text": "No llamen más, por favor.",
+        "style": "casual"
+      },
+      {
+        "text": "Es un no definitivo; no nos contacten otra vez.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Unless the region clearly uses tú or vos, start with usted plus señor or señora; first names wait for closeness.",
+    "examples": [
+      {
+        "text": "Señor García.",
+        "style": "polite"
+      },
+      {
+        "text": "Señora López.",
+        "style": "polite"
+      },
+      {
+        "text": "Doctora Ruiz.",
+        "style": "polite"
+      },
+      {
+        "text": "Buenos días, señor.",
+        "style": "polite"
+      },
+      {
+        "text": "Hola, Lucía.",
+        "style": "casual"
+      },
+      {
+        "text": "Don Pedro.",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Su llamada es muy importante para nosotros and ¿En qué puedo servirle? are centre scripts, canned on a home line.",
+    "examples": [
+      {
+        "text": "Su llamada es muy importante para nosotros.",
+        "style": "polite"
+      },
+      {
+        "text": "¿En qué puedo servirle?",
+        "style": "polite"
+      },
+      {
+        "text": "Es un placer atenderle.",
+        "style": "polite"
+      },
+      {
+        "text": "Gracias por su llamada, su satisfacción es nuestra prioridad.",
+        "style": "polite"
+      },
+      {
+        "text": "¿Hay algo más en lo que pueda ayudarle?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Uninvited tú in a formal region, a late call without cause, or asking for a documento number at once all feel pushy.",
+    "examples": [
+      {
+        "text": "¿Estás casado? ¿Cuánto ganas?",
+        "style": "casual"
+      },
+      {
+        "text": "¿Quién eres tú? Dime ya.",
+        "style": "casual"
+      },
+      {
+        "text": "Primero déme su dirección y su número de documento.",
+        "style": "polite"
+      },
+      {
+        "text": "Ya estoy grabando esta llamada.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh"
+  ],
+  "uncertain": [
+    "vale 在西班牙極常見，拉丁美洲更常 ya／listo／ok；本檔兩者都列，不指定單一國家為預設。",
+    "tú／usted／vos 地區差異大（西班牙、南錐、中美）；代接時若不知對方地區，較穩妥用 usted。",
+    "mexican Spanish 語料中的 ajá／sí sí 是否同樣適用於西班牙或南美，未另做分區統計。"
+  ]
+}

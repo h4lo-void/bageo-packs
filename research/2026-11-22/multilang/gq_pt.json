@@ -1,0 +1,89 @@
+{
+  "region": "gq",
+  "lang": "pt",
+  "why_added": "赤道幾內亞自 2010 年起亦以葡萄牙語為官方語言，並為葡語國家共同體成員；區包預設為西班牙語。",
+  "hello": {
+    "hello": "Estou?",
+    "hello_again": "Estou, sim?"
+  },
+  "habits": {
+    "en": "O senhor or a senhora with strangers, você once casual. Money is CFA. Spanish names stay; this is not Brazilian slang.",
+    "zh": "對生人用 o senhor、a senhora，熟了用 você。貨幣是 CFA。西語名稱照留，不用巴西俚語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend in Malabo or Bata: você, short lines. Leave Spanish streets; cash is CFA, not reais or euros.",
+        "zh": "馬拉博或巴塔的熟友用 você，句子短。西語街名照留；錢是 CFA，不是里亞爾或歐元。"
+      },
+      "2": {
+        "en": "Easy Portuguese. A Spanish title they used stays; no need to force Lisbon slang either.",
+        "zh": "輕鬆葡語。對方的西語職銜照留；也不必硬套里斯本口頭禪。"
+      },
+      "3": {
+        "en": "Everyday Portuguese here is a formal official language. Finish each point; the franc is CFA, and a bank may be Bange.",
+        "zh": "這裡的葡語多見於正式場合。把話說完；法郎是 CFA，銀行可見 Bange。"
+      },
+      "4": {
+        "en": "Polite o senhor or a senhora for offices. Confirm CFA amounts; keep Spanish document titles if shown.",
+        "zh": "對機關用 o senhor、a senhora。金額用 CFA；文件若是西語標題就照用。"
+      },
+      "5": {
+        "en": "Formal forms of address. Annobón’s Fá d’Ambô is not Portuguese; do not mix it in. No Brazilian set phrases.",
+        "zh": "正式稱謂。安諾本的 Fá d’Ambô 不是葡萄牙語，不要混用；也不套用巴西套句。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on você if they used it, then you will take the message across.",
+        "zh": "{owner}熟人代接：對方用 você 才用 você，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match você or o senhor, leave CFA as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 você 或 o senhor，CFA 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the CFA or Bange point in one full Portuguese sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句葡語重述 CFA 或 Bange 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary with o senhor or a senhora: note why they called, then confirm the handover.",
+        "zh": "穩重秘書用 o senhor 或 a senhora：記下來電原因，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on CFA francs and office names, without extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：CFA 法郎與機關名要準確，不額外親熱，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Estou? Ainda estás em Bata?",
+      "Estou, sim, oiço-te, diz.",
+      "Estou, boa tarde. É sobre o Bange?",
+      "Boa tarde, obrigado pela chamada. O valor em CFA está claro.",
+      "Boa tarde, agradeço. Fiquei com o assunto anotado."
+    ],
+    "a": [
+      "Estou? {owner} não está, diga-me e eu transmito.",
+      "Estou, olá. Estou ao telefone, qual é o recado?",
+      "Estou, boa tarde. Vou transmitir a {owner} as suas palavras.",
+      "Boa tarde, obrigado pela chamada. Anoto o ponto CFA para {owner}.",
+      "Boa tarde, obrigado. Registo os detalhes e transmito."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是 CFA，不是歐元，也不是巴西里亞爾。",
+    "葡語是後來追加的官方語言，日常仍以西班牙語為主；地名與許多機關名常是西語形式。",
+    "口音與用詞不宜預設為巴西葡語；開場可用 Estou，避免大量巴西口語。",
+    "安諾本島的 Fá d’Ambô 是另一種語言，不要當成葡萄牙語來接聽。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/",
+    "https://www.constituteproject.org/constitution/Equatorial_Guinea_2012"
+  ],
+  "uncertain": [
+    "葡語作為官方語言的實際日常使用比重，公開量化資料很少，可能遠低於西班牙語。",
+    "開場用 Estou 是依歐洲葡語電話習慣；當地是否更常用 Alô，缺少語料，已列入不確定。"
+  ]
+}

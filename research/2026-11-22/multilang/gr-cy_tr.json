@@ -1,0 +1,89 @@
+{
+  "region": "gr-cy",
+  "lang": "tr",
+  "hello": {
+    "hello": "Alo, nasılsınız?",
+    "hello_again": "Evet, dinliyorum."
+  },
+  "habits": {
+    "en": "Cypriot Turkish has Greek and English loans and some older words. Formal siz. Keep a neutral tone.",
+    "zh": "賽普勒斯土耳其語帶希臘語、英語借詞與較老用詞。對生人用 siz。口吻中性。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend: sen, island-casual; a Greek or English loan can sit in the sentence, no need to 'correct' it to Turkey usage.",
+        "zh": "熟友用 sen，島上隨和口氣；希臘語或英語借詞可留在句中，不必改成土耳其本國說法。"
+      },
+      "2": {
+        "en": "Easygoing: sen unless they stay on siz; after they speak, a short tamam, local loans left as-is.",
+        "zh": "隨和：除非對方用 siz，否則用 sen；聽完短短說 tamam，當地借詞照留。"
+      },
+      "3": {
+        "en": "Everyday Cypriot Turkish. Finish the point fully; some everyday words differ from Turkey, including older or Greek-origin items.",
+        "zh": "賽普勒斯日常土耳其語。把重點說完整；部分日常詞與土耳其本國不同，含較老或來自希臘語的詞。"
+      },
+      "4": {
+        "en": "Polite siz at an office. Keep local institution names as said, sentences fuller, wording stays neutral.",
+        "zh": "在機關用禮貌 siz。當地機構名照對方所說，句子較完整，措辭保持中性。"
+      },
+      "5": {
+        "en": "Formal siz, careful and neutral. Close each item fully, no political asides, no forcing mainland slang.",
+        "zh": "正式 siz，謹慎中性。各項收完整，不旁及政治，也不硬套土耳其本國俚語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on sen: short and local, then you'll pass the message, loans left as said.",
+        "zh": "{owner}隨興代接，用 sen：短而用當地習慣，再把話帶去，借詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: match sen or siz, leave local terms untouched, and tell them {owner} will hear it, stay neutral.",
+        "zh": "客氣代接：跟著 sen 或 siz，當地詞不改寫，並說會讓{owner}知道，口吻中性。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the request in one full Cypriot-style Turkish sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句、帶當地習慣的土耳其語重述來意，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on siz: note the purpose, keep local official names, confirm the handover, stay neutral.",
+        "zh": "沉穩秘書用 siz：記下目的，當地官方名稱照留，再確認轉交，口吻中性。"
+      },
+      "5": {
+        "en": "Formal deputy on siz: exact and even, no political asides, then confirm the note for {owner}.",
+        "zh": "正式代表用 siz，用詞精確平穩，不旁及政治，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Alo, nasılsınız? Naber, anlat.",
+      "Evet, dinliyorum, söyleyin.",
+      "Alo, günaydın. Bu iş için mi aradınız? Anladım.",
+      "Günaydın, aradığınız için teşekkürler. Konu net.",
+      "İyi günler, teşekkür ederim. Not ettim."
+    ],
+    "a": [
+      "Alo! Şu an yok, bana söyleyin, iletirim.",
+      "Evet, dinliyorum. Ben bakıyorum telefonuna, mesajı söyleyin.",
+      "Alo, günaydın. {owner}'a ileteceğim.",
+      "Günaydın, aradığınız için teşekkürler. Mesajı iletirim.",
+      "İyi günler, teşekkürler. Hepsini yazıp kendisine söylerim."
+    ]
+  },
+  "diff_from_home": [
+    "賽普勒斯土耳其語有獨特詞彙與語音習慣，並常帶希臘語、英語借詞，與土耳其本國口語不完全相同。",
+    "英國統治時期留下的英語技術詞仍可能出現在日常裡。",
+    "只談語言與生活習慣，口吻保持中性，不評政治立場，地名跟對方的用法。",
+    "對生人用 siz，熟友才用 sen。"
+  ],
+  "sources": [
+    "https://elon.io/grammar/turkish/regional/cyprus",
+    "https://en.wikipedia.org/wiki/Cypriot_Turkish",
+    "https://www.cambridge.org/core/journals/english-today/article/english-in-cyprus/525571ED30749D8DDBF01DA826ED5663"
+  ],
+  "uncertain": [
+    "個別借詞（如部分交通用語）的今日常用程度，專書與口語報告不完全一致，電話中宜跟從對方。",
+    "維基百科僅作方言特徵補充，已另以語法說明與英語接觸研究佐證。"
+  ]
+}

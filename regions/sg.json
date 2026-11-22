@@ -78,15 +78,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "HDB",
-      "shoe rack",
-      "guardhouse"
-    ],
     "bank": [
       "PayNow",
       "Singpass",
-      "digibank"
+      "digibank",
+      "GIRO",
+      "current account",
+      "bank transfer"
+    ],
+    "delivery": [
+      "HDB",
+      "shoe rack",
+      "guardhouse",
+      "parcel locker",
+      "void deck",
+      "letterbox"
+    ],
+    "government": [
+      "Singpass",
+      "NRIC",
+      "CPF",
+      "IRAS",
+      "ICA",
+      "work pass"
+    ],
+    "health": [
+      "polyclinic",
+      "CHAS",
+      "GP clinic",
+      "pharmacy",
+      "Medisave",
+      "specialist"
+    ],
+    "telecom": [
+      "mobile plan",
+      "prepaid",
+      "number porting",
+      "data plan",
+      "broadband",
+      "telco"
+    ],
+    "payment": [
+      "PayNow",
+      "NETS",
+      "GrabPay",
+      "PayLah",
+      "credit card",
+      "cash"
+    ],
+    "transport": [
+      "MRT",
+      "bus",
+      "EZ-Link",
+      "SimplyGo",
+      "Grab",
+      "taxi"
+    ],
+    "housing": [
+      "HDB",
+      "condo",
+      "guardhouse",
+      "letterbox",
+      "void deck",
+      "access card"
     ]
   },
   "status": "draft"

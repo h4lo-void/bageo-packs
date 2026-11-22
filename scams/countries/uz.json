@@ -1,0 +1,136 @@
+{
+  "name": "Uzbekistan",
+  "name_local": "Oʻzbekiston",
+  "iso": "uz",
+  "calling_code": "+998",
+  "languages": [
+    "ru"
+  ],
+  "prevalence_note": "The Central Bank of Uzbekistan's 2026 Cardblock analysis highlights losses from malicious phone apps, people following instructions given on a call, Telegram-account takeovers, fake trading platforms, and money-multiplication schemes. It tells the public not to share card data or verification codes with anyone claiming to be a bank or law-enforcement officer.",
+  "cross_border_note": "Calls may be in Uzbek or Russian and can include follow-up pressure through Telegram after an initial phone contact.",
+  "scams": [
+    {
+      "id": "uz_phone_otp_impersonation",
+      "typology": "otp_theft",
+      "name": "Telefon orqali tasdiqlash kodi so'rash",
+      "name_en": "Phone request for a card or SMS verification code",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "код из СМС",
+        "служба безопасности банка",
+        "карта Uzcard",
+        "подтвердите перевод"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "asks the customer to read out an SMS confirmation code",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "claims to be calling from a bank security unit",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks for card details to be dictated on the call",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A caller claims to be from a bank security desk or a law-enforcement unit and tells the person to read out an SMS code, card number or wallet password, sometimes after describing a supposed unauthorised payment.",
+      "legit_en": "The Central Bank tells the public not to share bank-card details or verification codes with anyone claiming to represent a bank or a law-enforcement agency, and to contact the bank or payment provider through a channel the customer already uses.",
+      "bait_tactics": [
+        "В приложении Humo сейчас крутится загрузка и история операций не открывается, так что я не вижу того списания, о котором вы говорите.",
+        "На эту SIM не приходило новое СМС с кодом, и я не буду диктовать данные карты.",
+        "Очки для чтения в другой комнате, мелкий текст на экране я сейчас вслух не читаю."
+      ],
+      "sources": [
+        "https://cbu.uz/en/press_center/releases/4911207/"
+      ]
+    },
+    {
+      "id": "uz_malicious_apk_call",
+      "typology": "tech_support_remote",
+      "name": "Zararli ilovani o'rnatishga undash",
+      "name_en": "Pressure to install a malicious phone app",
+      "prevalence": "very_high",
+      "lang": "ru",
+      "context_keywords": [
+        "установить приложение",
+        "файл APK",
+        "удалённый доступ",
+        "обновить банк"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "presses the customer to install an APK file sent in a chat",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "directs the user to download a program from a messaging app",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "asks the customer to grant remote access to the phone",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "The caller or a chat message tells the person to install an APK or a 'bank update' sent through a messaging app, which the central bank links to a large share of reported fraud losses.",
+      "legit_en": "CBU advice is not to download malicious APK files from messaging apps or unknown sources. Official bank or payment apps are obtained from the store or channel the customer already uses, not from a file sent during a call.",
+      "bait_tactics": [
+        "Я не устанавливаю APK из переписки или по просьбе незнакомого звонящего.",
+        "Магазин приложений на этом телефоне сейчас не открывается, и я не буду ставить файл из Telegram.",
+        "Антивирус на устройстве уже ругается на неизвестные загрузки, так что этот файл я открывать не буду."
+      ],
+      "sources": [
+        "https://cbu.uz/en/press_center/releases/4911207/"
+      ]
+    },
+    {
+      "id": "uz_fake_trading_pyramid",
+      "typology": "investment_group_scam",
+      "name": "Soxta savdo maydonchasi yoki pulni ko'paytirish",
+      "name_en": "Fake trading platform or money-multiplication scheme",
+      "prevalence": "high",
+      "lang": "ru",
+      "context_keywords": [
+        "торговая платформа",
+        "высокая доходность",
+        "умножить деньги",
+        "вступительный взнос"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "promises high trading profit within a very short period",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "urges a starter deposit onto an unverified platform",
+          "weight": 2,
+          "hard": false
+        },
+        {
+          "text": "describes a scheme that supposedly multiplies the stake",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "Calls, chats or ads promise trading profits or a scheme that multiplies money, then push a starter transfer onto a platform the customer cannot independently verify.",
+      "legit_en": "The Central Bank reports substantial losses from fraudulent trading offers and from payments into schemes with pyramid features, and it tells the public to be wary of suspicious high-return or money-multiplication pitches.",
+      "bait_tactics": [
+        "Я не перевожу деньги на незнакомую торговую площадку, которую не могу проверить через свой банк.",
+        "Ссылка на эту платформу не открывается в обычном браузере, и я не ставлю их приложение.",
+        "На этой карте нет свободных средств для вступительного взноса по чужой схеме."
+      ],
+      "sources": [
+        "https://cbu.uz/en/press_center/releases/4911207/"
+      ]
+    }
+  ]
+}

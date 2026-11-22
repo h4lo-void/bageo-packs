@@ -1,0 +1,335 @@
+{
+  "lang": "de",
+  "backchannels": {
+    "direction": "Liesenfeld lists ja, mhm and aha; Ward also notes ach and okay. Stacked ja, ja can hurry the speaker.",
+    "examples": [
+      {
+        "text": "Mhm, ja.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ja.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Aha, so.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ach so.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Genau.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Alles klar.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ja, ja.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Echt? and Wirklich? take surprise; Das tut mir leid is sympathetic, usually cooler than I'm so sorry.",
+    "examples": [
+      {
+        "text": "Echt?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Wirklich?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Das tut mir leid.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Wie schade.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Toll!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Herzlichen Glückwunsch.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Das wird schwierig.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Ich verstehe Sie schlecht or Die Verbindung ist schlecht names the line; abgehackt means the voice keeps dropping.",
+    "examples": [
+      {
+        "text": "Ich verstehe Sie schlecht.",
+        "style": "polite"
+      },
+      {
+        "text": "Die Verbindung ist schlecht.",
+        "style": "polite"
+      },
+      {
+        "text": "Sie sind oft abgehackt.",
+        "style": "casual"
+      },
+      {
+        "text": "Können Sie etwas lauter sprechen?",
+        "style": "polite"
+      },
+      {
+        "text": "Das Letzte habe ich nicht verstanden.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wie bitte? is the short replay; Können Sie das bitte wiederholen is fuller. Spell names; say numbers again.",
+    "examples": [
+      {
+        "text": "Können Sie das bitte wiederholen?",
+        "style": "polite"
+      },
+      {
+        "text": "Wie bitte?",
+        "style": "polite"
+      },
+      {
+        "text": "Könnten Sie den Namen buchstabieren?",
+        "style": "polite"
+      },
+      {
+        "text": "Sagen Sie die Nummer bitte noch einmal. 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Was hast du gerade gesagt?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Darf ich fragen, wer spricht is careful; some homes still answer with the surname, as older DLI drills show.",
+    "examples": [
+      {
+        "text": "Darf ich fragen, wer spricht?",
+        "style": "polite"
+      },
+      {
+        "text": "Wer ist am Apparat?",
+        "style": "polite"
+      },
+      {
+        "text": "Hier ist das Telefon von {owner}. Wer spricht bitte?",
+        "style": "polite"
+      },
+      {
+        "text": "Mit wem spreche ich?",
+        "style": "polite"
+      },
+      {
+        "text": "Wer ist da?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "DLI drills Sie sind falsch verbunden; Sie haben die falsche Nummer is the everyday mobile form, then a short apology.",
+    "examples": [
+      {
+        "text": "Tut mir leid, Sie sind falsch verbunden.",
+        "style": "polite"
+      },
+      {
+        "text": "Sie haben die falsche Nummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Hier wohnt niemand dieses Namens.",
+        "style": "polite"
+      },
+      {
+        "text": "Falsche Nummer, sorry.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ich richte es aus is the textbook way to tell {owner}; Ich gebe die Nachricht weiter is plainer and sets no return hour.",
+    "examples": [
+      {
+        "text": "Ich richte es aus.",
+        "style": "polite"
+      },
+      {
+        "text": "Ich sage es {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ich gebe die Nachricht weiter.",
+        "style": "polite"
+      },
+      {
+        "text": "Ich sag's ihr.",
+        "style": "casual"
+      },
+      {
+        "text": "Ich kann ihm Bescheid geben.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Kein Interesse, danke shuts a solicitation without a story; Ich bin nicht interessiert is a slightly fuller variant.",
+    "examples": [
+      {
+        "text": "Kein Interesse, danke.",
+        "style": "polite"
+      },
+      {
+        "text": "Wir brauchen das nicht, danke.",
+        "style": "polite"
+      },
+      {
+        "text": "Ich bin nicht interessiert.",
+        "style": "polite"
+      },
+      {
+        "text": "Nein danke, das kommt für uns nicht infrage.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Once refused, German often adds Bitte rufen Sie nicht noch einmal an, or asks that the number be struck, still with Sie.",
+    "examples": [
+      {
+        "text": "Ich habe bereits abgelehnt. Bitte rufen Sie nicht noch einmal an.",
+        "style": "polite"
+      },
+      {
+        "text": "Bitte streichen Sie diese Nummer von Ihrer Liste.",
+        "style": "polite"
+      },
+      {
+        "text": "Rufen Sie nicht wieder an.",
+        "style": "casual"
+      },
+      {
+        "text": "Das ist eine endgültige Absage. Bitte keine weiteren Anrufe.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Sie plus Herr or Frau and the surname with strangers; du and a first name only after an offer or among familiars.",
+    "examples": [
+      {
+        "text": "Herr Schmidt.",
+        "style": "polite"
+      },
+      {
+        "text": "Frau Müller.",
+        "style": "polite"
+      },
+      {
+        "text": "Dr. Weber.",
+        "style": "polite"
+      },
+      {
+        "text": "Guten Tag, Herr Meier.",
+        "style": "polite"
+      },
+      {
+        "text": "Hi, Anna.",
+        "style": "casual"
+      },
+      {
+        "text": "Entschuldigung, Sie …",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Ihr Anruf ist uns wichtig and Wie kann ich Ihnen behilflich sein belong in a Servicecenter, not a private handset.",
+    "examples": [
+      {
+        "text": "Ihr Anruf ist uns wichtig.",
+        "style": "polite"
+      },
+      {
+        "text": "Wie kann ich Ihnen behilflich sein?",
+        "style": "polite"
+      },
+      {
+        "text": "Vielen Dank für Ihren Anruf, wir sind gerne für Sie da.",
+        "style": "polite"
+      },
+      {
+        "text": "Ihre Zufriedenheit hat für uns oberste Priorität.",
+        "style": "polite"
+      },
+      {
+        "text": "Kann ich sonst noch etwas für Sie tun?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using du too early, ringing late without a reason, or demanding an Ausweisnummer at the outset all overstep.",
+    "examples": [
+      {
+        "text": "Du, wie viel verdienst du, und bist du verheiratet?",
+        "style": "casual"
+      },
+      {
+        "text": "Hallo? Wer bist'n du?",
+        "style": "casual"
+      },
+      {
+        "text": "Nennen Sie zuerst Ihre Anschrift und Ausweisnummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Ich zeichne dieses Gespräch bereits auf.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.livelingua.com/dli/German/german-SOLT/modules%201-3/DLI-German-SOLT-%20Student-%20M3L5.pdf",
+    "https://www.cs.utep.edu/nigel/bc/",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand"
+  ],
+  "uncertain": [
+    "教材仍寫家裡接電話報姓氏、少用 Hallo；當代年輕人用 Hallo 已較常見，世代差異未找到新的全國統計。",
+    "「Sie sind falsch verbunden」偏傳統交換機用語，手機時代也常用「Sie haben die falsche Nummer」。",
+    "德語區（德、奧、瑞士）在稱呼與結尾用語上有差異，本檔以德國標準德語為主。"
+  ]
+}

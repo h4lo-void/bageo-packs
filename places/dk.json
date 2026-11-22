@@ -1,0 +1,709 @@
+{
+  "region": "dk",
+  "countries": [
+    "dk",
+    "fo",
+    "gl"
+  ],
+  "region_name_zh": "丹麥",
+  "region_name": "Denmark",
+  "languages": [
+    {
+      "code": "da",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite Danish (da); English is excellent and widely accepted, especially in Copenhagen and Aarhus; Danish speech is fast with soft consonants, so ask for numbers to be repeated; German helps a little in southern Jutland.",
+  "english_ok": "yes — Very high English nationwide; formal authority letters and GP lines still prefer Danish.",
+  "politeness": "Informal 'du' is standard; open with 'Hej' or 'Goddag' and say whom you call for; close with 'Tak, hej hej'. Brief, relaxed tone.",
+  "name_tip": "First name + surname, informal; surname alone is fine for a booking ('i navnet Jensen'); many share the same -sen surnames, so add first name; spell foreign names letter by letter.",
+  "phone_tip": "All numbers are 8 digits with no trunk 0, written in pairs (12 34 56 78), +45; MobilePay is tied to the mobile number.",
+  "time_tip": "TRAP: 'halv otte' = 7:30; 'kvart i otte' = 7:45; '2. th.' in addresses means 2nd floor, right door; read back in 24h.",
+  "number_tip": "TRAP: tens from 50 up are vigesimal ('halvtreds' = 50, 'tres' = 60, 'halvfjerds' = 70, 'firs' = 80, 'halvfems' = 90) and units come first ('femogtyve' = 25); read phone numbers in pairs.",
+  "avoid_calling": "Avoid lunch 11:30–12:30, dinner peak 18:00–20:00, calls after 19:00, and weekends for offices; GPs (egen læge) take phone consultations in a fixed morning telefontid.",
+  "closed_days": "Shops may open on Sundays but close on public holidays (e.g. Maundy Thursday, Good Friday, Easter Monday, Ascension, Whit Monday, 24–26 December, 1 January); Store Bededag was abolished from 2024; July summer holiday closes many small firms.",
+  "booking_channels": "Egen læge via the practice's telefontid, Min Læge app or sundhed.dk; restaurant web booking (DinnerBooking and own sites) and phone; online booking pages for salons; Wolt and Just Eat for delivery; MitID and MobilePay are everyday tools.",
+  "voice_menu": "Egen læge telefontid, regional emergency line, Borger.dk/Skat, banks and operators (TDC/Nuuday, Telenor, Telia, 3) use IVR, often with callback.",
+  "callback_habits": "Practices use call-back lists and Min Læge messages; booking systems send SMS/email reminders; small businesses reply by SMS.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "運動場、密室、導覽與遊船可電話或線上預約；Tivoli 等熱門景點走官網購票。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tivoli tickets bought online with entry date"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks MobilePay prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Activity",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "丹麥髮廊多用線上預約頁也接電話；晚取消常收費。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late-cancel fee paid by MobilePay"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks MobilePay prepayment to a private number"
+        }
+      ],
+      "usually_asked": [
+        "Service (klip, farve, negle)",
+        "Hair length",
+        "Day, time and frisør",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；部分診所與美容對未到收費（udeblivelsesgebyr）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Udeblivelsesgebyr for a missed time"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Practice asks CPR to find the tid"
+        }
+      ],
+      "usually_asked": [
+        "Name and phone",
+        "Original tid",
+        "New time or aflysning",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "每人登記一位家醫（egen læge），早上電話時段（telefontid）預約或經 Min Læge App；專科需轉診（henvisning）；需 CPR 號。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Practice offers an e-konsultation via Min Læge"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Specialist needs a henvisning from egen læge"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CPR-nummer of the patient"
+        }
+      ],
+      "usually_asked": [
+        "Reason and urgency",
+        "Registered with this læge or not",
+        "Patient CPR-nummer",
+        "Callback mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、政府客服有語音選單並以 MitID 核身，第三人代打通常無法處理帳戶。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Bank line requires the holder's MitID"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks CPR-nummer or MitID approval"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "MitID holder check",
+        "Kundenummer",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務經 borger.dk 並以 MitID 登入；學校與托育（institution）報名經市政府網站。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Borger.dk self-service replaces the call"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's CPR-nummer"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and kommune",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓地址含樓層與左右門（如 2. th.）；工資可申請 håndværkerfradrag 稅扣。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Håndværkerfradrag applied on the invoice"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parking for the van in Copenhagen"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands prepayment before the job"
+        }
+      ],
+      "usually_asked": [
+        "Trade (VVS, elektriker, låsesmed, rengøring)",
+        "Address with floor and side (th./tv.)",
+        "Time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "度假小屋（sommerhus）、B&B 與小旅館常電話或 Email 訂房；小屋多週六交接並另付水電與清潔。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Sommerhus changeover day is Saturday"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Electricity and slutrengøring billed on top"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee the stay"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room or sommerhus",
+        "Linen, cleaning and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、MobilePay、庫存、可否帶狗等問題通常直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Card and MobilePay preferred over cash"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (åbningstider, kort, MobilePay, hund)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（dyrlæge）與寵物美容可電話或線上預約；狗須在 Dansk Hunderegister 登記。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dyrlægevagt (emergency) fee at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Hundepension asks MobilePay deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Vaccination and chip",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經 BoligPortal 與住房協會排隊（ventelister）；押金（depositum）最多三個月加預付租金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Landlord asks for a BoligPortal message first"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Depositum demanded before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（autoværksted）、換胎（dækskifte）與定期車檢（syn）多線上或電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fejlfinding billed per hour"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Dækhotel customers get a slot by SMS"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks nummerplade and owner CPR"
+        }
+      ],
+      "usually_asked": [
+        "Nummerplade (plate)",
+        "Service, dækskifte or syn",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "丹麥餐廳多官網或 DinnerBooking 線上訂位也接電話；聖誕午宴（julefrokost）11–12 月很滿，需提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Julefrokost season books out weeks ahead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Table limited to a set number of hours"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number for a no-show fee"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (kl. 18.30)",
+        "Antal personer (party size)",
+        "Name and mobile",
+        "Allergier noted at booking"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（apotek）、麵包店（bager）與蛋糕店可電話預訂；週日早晨麵包店很忙，生日蛋糕（lagkage）要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Apotek orders the medicine for tomorrow"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Bager asks MobilePay prepayment for a lagkage"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Lagkage size (personer)",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與外帶店接電話自取（afhentning）；外送多走 Wolt、Just Eat；付款常用 MobilePay。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "MobilePay or card accepted on pickup"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery only inside the pizzeria's own zone"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Afhentning or levering",
+        "Items and sizes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "PostNord、GLS、DAO、Bring 追蹤以 App 為主；包裹多送到代收點（pakkeshop）或包裹櫃。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "PostNord line points to the app and pakkeshop"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the pickup code or MitID check"
+        }
+      ],
+      "usually_asked": [
+        "Pakkenummer",
+        "Recipient name and phone",
+        "Pakkeshop, boks or home",
+        "Pickup deadline"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 App（Dantaxi、Uber 等）也可電話訂；機場接送可預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives car number and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Kastrup airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or kørekort"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "da": {
+      "appointment_words": [
+        "bestille tid",
+        "tid hos lægen",
+        "frisørtid",
+        "syn af bilen",
+        "kontroltid"
+      ],
+      "booking_words": [
+        "bestille bord",
+        "bordbestilling",
+        "booke værelse",
+        "overnatning med morgenmad",
+        "reservere plads"
+      ],
+      "change_words": [
+        "flytte tiden",
+        "aflyse bordet",
+        "en halv time senere",
+        "rykke til fredag",
+        "ændre bookingen"
+      ],
+      "date": [
+        "i morgen",
+        "i overmorgen",
+        "på fredag",
+        "næste tirsdag",
+        "25.11.",
+        "lørdag aften"
+      ],
+      "false_friends": [
+        "3. sal",
+        "2. th.",
+        "opgang B",
+        "ret nr. 4",
+        "massage 60 min",
+        "bus 5C"
+      ],
+      "inquiry_words": [
+        "hvor længe har køkkenet åbent",
+        "tager I kort",
+        "må man have hund med",
+        "har I på lager",
+        "åbningstider"
+      ],
+      "name": [
+        "i navnet Jensen",
+        "Lars Nielsen",
+        "Mette Hansen",
+        "familien Pedersen",
+        "Andersen"
+      ],
+      "order_words": [
+        "tag med",
+        "afhentning",
+        "levering",
+        "lægge til side",
+        "forudbestille"
+      ],
+      "party": [
+        "bord til 4",
+        "2 voksne og 1 barn",
+        "vi er tre",
+        "til 2 personer",
+        "6 personer + barnestol"
+      ],
+      "phone": [
+        "12 34 56 78",
+        "+45 12 34 56 78",
+        "ring tilbage på 12 34 56 78",
+        "MobilePay 12 34 56 78"
+      ],
+      "time": [
+        "halv otte i aften",
+        "kl. 19.30",
+        "kvart over seks",
+        "kvart i otte",
+        "til frokost",
+        "omkring kl. 20"
+      ]
+    }
+  }
+}

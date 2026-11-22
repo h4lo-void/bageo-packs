@@ -1,0 +1,90 @@
+{
+  "region": "so-er-dj",
+  "lang": "en",
+  "why_added": "厄利垂亞公務與教育常用英語；索馬利亞對外商務亦常見英語。區包預設為阿拉伯語。",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Yes, I’m here."
+  },
+  "habits": {
+    "en": "Sir or Madam with strangers. Useful in Eritrea and Somali business calls. Keep nakfa, shilling or Djibouti franc clear.",
+    "zh": "對生人用 Sir、Madam。較見於厄利垂亞與索馬利亞商務電話。納克法、先令與吉布地法郎不要混用。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend in Asmara or Hargeisa: first names, short lines. Leave Arabic or Tigrinya words; name the local currency correctly.",
+        "zh": "阿斯馬拉或哈爾格薩的熟友可叫名字，句子短。對方用的阿語或蒂格利尼亞詞照留；貨幣名稱要正確。"
+      },
+      "2": {
+        "en": "Easy, unhurried English. A Somali or Tigrinya place name does not need an English rewrite.",
+        "zh": "不趕的英語。索馬利亞語或蒂格利尼亞語地名不必改寫。"
+      },
+      "3": {
+        "en": "Everyday working English. Finish each point; EVC Plus or ZAAD belongs in Somalia, not automatically in Eritrea or Djibouti.",
+        "zh": "日常工作英語。把話說完；EVC Plus、ZAAD 屬索馬利亞，不要自動用到厄利垂亞或吉布地。"
+      },
+      "4": {
+        "en": "Polite Sir or Madam for offices. Confirm whether they mean nakfa, shilling or the Djibouti franc.",
+        "zh": "對機關用 Sir、Madam。先確認是納克法、先令，還是吉布地法郎。"
+      },
+      "5": {
+        "en": "Formal office English. In Djibouti, French may still be the administrative default; do not assume English first.",
+        "zh": "正式公務英語。吉布地行政場合仍可能先用法語，不要預設英語第一。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup, first names only if they did, then you will take the note across.",
+        "zh": "{owner}較熟的代接：對方先叫名字才跟著叫，再說明會轉達。"
+      },
+      "2": {
+        "en": "Calm stand-in. Leave EVC Plus or nakfa as said, and let them know {owner} will hear it.",
+        "zh": "平穩代接。EVC Plus 或納克法照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Regional assistant. Restate the currency item in one complete sentence, then confirm you will tell {owner}.",
+        "zh": "區內代接。先用完整句子重述貨幣的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet secretary: Sir or Madam, write down the country and the reason, then confirm it will reach {owner}.",
+        "zh": "謹慎秘書用 Sir 或 Madam：寫下是哪一國、為何來電，再確認會送到{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: precise on nakfa, shilling or franc, then confirm the note for {owner}.",
+        "zh": "正式代表：納克法、先令或法郎要精確，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello, are you still in Asmara?",
+      "Yes, I'm here, go on.",
+      "Hello, good afternoon — is this about the nakfa?",
+      "Good afternoon, thanks. The shilling figure is understood.",
+      "Good afternoon, thank you. The ministry matter is noted."
+    ],
+    "a": [
+      "Hello, {owner} is away; give me the message to pass on.",
+      "Hello there. I have the line, what should be relayed?",
+      "Good afternoon. I will repeat this to {owner}, in your wording.",
+      "Thanks for the call. I will raise the nakfa point with {owner}.",
+      "Thank you. I will set the details down in writing for {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "三國貨幣不同：厄利垂亞用納克法，索馬利亞用先令，吉布地用法郎，不要混用。",
+    "EVC Plus、ZAAD 主要見於索馬利亞一帶，不要自動套到另外兩國。",
+    "索馬利亞語、蒂格利尼亞語、阿法爾語都不在支援清單，對方夾了詞就照留。",
+    "吉布地行政場合法語很強，英語不是該國預設公務語言。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/eritrea/",
+    "https://www.cia.gov/the-world-factbook/countries/somalia/",
+    "https://www.cia.gov/the-world-factbook/countries/djibouti/"
+  ],
+  "uncertain": [
+    "厄利垂亞英語在公務與教育的實際電話比重，缺少新的量化調查。",
+    "索馬利亞各地安全與電信情況差異大，商務英語的使用場合不能寫成全國一致。"
+  ]
+}

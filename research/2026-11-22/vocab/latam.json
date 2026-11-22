@@ -1,0 +1,488 @@
+{
+  "region": "latam",
+  "vocab": {
+    "es": {
+      "bank": [
+        {
+          "term": "cuenta de ahorros",
+          "en": "savings account, the usual personal account in CO/PE/EC (cuenta de ahorros)"
+        },
+        {
+          "term": "CuentaRUT",
+          "en": "BancoEstado basic account almost every Chilean has (CuentaRUT)"
+        },
+        {
+          "term": "consignación",
+          "en": "deposit into an account, Colombian usage (consignación)"
+        },
+        {
+          "term": "clave dinámica",
+          "en": "one-time bank code in Colombian banks (clave dinámica)"
+        },
+        {
+          "term": "SINPE Móvil",
+          "en": "Costa Rican phone-number transfers (SINPE Móvil)"
+        },
+        {
+          "term": "transferencia",
+          "en": "bank transfer, Latin American usage (transferencia)"
+        },
+        {
+          "term": "tarjeta débito",
+          "en": "debit card, Andean phrasing without de (tarjeta débito)"
+        },
+        {
+          "term": "cajero",
+          "en": "ATM, short for cajero automático (cajero)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "domicilio",
+          "en": "home delivery, Colombian word (domicilio)"
+        },
+        {
+          "term": "domiciliario",
+          "en": "delivery rider in Colombia (domiciliario)"
+        },
+        {
+          "term": "Rappi",
+          "en": "delivery app across CO, PE, CL, EC, CR (Rappi)"
+        },
+        {
+          "term": "PedidosYa",
+          "en": "delivery app in CL, BO, PY and Central America (PedidosYa)"
+        },
+        {
+          "term": "encomienda",
+          "en": "parcel sent by courier or bus, CL/PE (encomienda)"
+        },
+        {
+          "term": "Servientrega",
+          "en": "courier in Colombia and Ecuador (Servientrega)"
+        },
+        {
+          "term": "Chilexpress",
+          "en": "Chilean courier (Chilexpress)"
+        },
+        {
+          "term": "portería",
+          "en": "building front desk in Colombia (portería)"
+        }
+      ],
+      "government": [
+        {
+          "term": "cédula",
+          "en": "national ID card in CO, EC, VE, CR and more (cédula)"
+        },
+        {
+          "term": "RUT",
+          "en": "Chilean tax and ID number; never read it out (RUT)"
+        },
+        {
+          "term": "DNI",
+          "en": "Peruvian ID (DNI)"
+        },
+        {
+          "term": "Registraduría",
+          "en": "Colombian civil registry (Registraduría)"
+        },
+        {
+          "term": "Clave Única",
+          "en": "Chilean state login (Clave Única)"
+        },
+        {
+          "term": "SUNAT",
+          "en": "Peruvian tax agency (SUNAT)"
+        },
+        {
+          "term": "DIAN",
+          "en": "Colombian tax agency (DIAN)"
+        },
+        {
+          "term": "alcaldía",
+          "en": "city hall in CO and Central America (alcaldía)"
+        }
+      ],
+      "health": [
+        {
+          "term": "EPS",
+          "en": "Colombian health insurer (EPS)"
+        },
+        {
+          "term": "droguería",
+          "en": "pharmacy in Colombia (droguería)"
+        },
+        {
+          "term": "fórmula médica",
+          "en": "prescription in Colombia (fórmula médica)"
+        },
+        {
+          "term": "Fonasa",
+          "en": "Chilean public health fund (Fonasa)"
+        },
+        {
+          "term": "Isapre",
+          "en": "Chilean private health insurer (Isapre)"
+        },
+        {
+          "term": "EsSalud",
+          "en": "Peruvian social health insurance (EsSalud)"
+        },
+        {
+          "term": "la Caja",
+          "en": "Costa Rican CCSS public health system (la Caja)"
+        },
+        {
+          "term": "cita médica",
+          "en": "doctor's appointment (cita médica)"
+        },
+        {
+          "term": "urgencias",
+          "en": "emergency room (urgencias)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Claro",
+          "en": "operator across the region (Claro)"
+        },
+        {
+          "term": "Movistar",
+          "en": "operator in many Latin American countries (Movistar)"
+        },
+        {
+          "term": "Tigo",
+          "en": "operator in CO, PY, BO and Central America (Tigo)"
+        },
+        {
+          "term": "Entel",
+          "en": "operator in CL, PE, BO (Entel)"
+        },
+        {
+          "term": "recarga",
+          "en": "prepaid top-up (recarga)"
+        },
+        {
+          "term": "prepago",
+          "en": "prepaid plan (prepago)"
+        },
+        {
+          "term": "pospago",
+          "en": "postpaid plan, often spelled pospago (pospago)"
+        },
+        {
+          "term": "chip",
+          "en": "SIM card, everyday word (chip)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Nequi",
+          "en": "Colombian mobile wallet (Nequi)"
+        },
+        {
+          "term": "Daviplata",
+          "en": "Colombian mobile wallet (Daviplata)"
+        },
+        {
+          "term": "Yape",
+          "en": "Peruvian payment app (Yape)"
+        },
+        {
+          "term": "Plin",
+          "en": "Peruvian bank-to-bank phone payments (Plin)"
+        },
+        {
+          "term": "efectivo",
+          "en": "cash, Latin American usage (efectivo)"
+        },
+        {
+          "term": "en cuotas",
+          "en": "in instalments (en cuotas)"
+        },
+        {
+          "term": "boleta",
+          "en": "sales receipt in CL and PE (boleta)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "TransMilenio",
+          "en": "Bogotá bus rapid transit (TransMilenio)"
+        },
+        {
+          "term": "tarjeta bip!",
+          "en": "Santiago transit card (tarjeta bip!)"
+        },
+        {
+          "term": "micro",
+          "en": "city bus in Chile (micro)"
+        },
+        {
+          "term": "buseta",
+          "en": "small city bus in Colombia (buseta)"
+        },
+        {
+          "term": "combi",
+          "en": "minibus in Peru (combi)"
+        },
+        {
+          "term": "guagua",
+          "en": "bus in Cuba, the Dominican Republic and Puerto Rico (guagua)"
+        },
+        {
+          "term": "trancón",
+          "en": "traffic jam in Colombia (trancón)"
+        },
+        {
+          "term": "taco",
+          "en": "traffic jam in Chile (taco)"
+        },
+        {
+          "term": "InDrive",
+          "en": "ride app widely used in the region (InDrive)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "apartamento",
+          "en": "flat in CO, VE, Central America (apartamento)"
+        },
+        {
+          "term": "departamento",
+          "en": "flat in Chile and Peru (departamento)"
+        },
+        {
+          "term": "conjunto",
+          "en": "gated residential complex, Colombia (conjunto)"
+        },
+        {
+          "term": "conserjería",
+          "en": "building front desk in Chile (conserjería)"
+        },
+        {
+          "term": "la administración",
+          "en": "monthly building fee in Colombia (la administración)"
+        },
+        {
+          "term": "arriendo",
+          "en": "rent in CO and CL (arriendo)"
+        },
+        {
+          "term": "citófono",
+          "en": "door intercom (citófono)"
+        },
+        {
+          "term": "estrato",
+          "en": "Colombian socioeconomic stratum for utility pricing (estrato)"
+        }
+      ],
+      "school": [
+        {
+          "term": "colegio",
+          "en": "school at any level (colegio)"
+        },
+        {
+          "term": "jardín infantil",
+          "en": "kindergarten (jardín infantil)"
+        },
+        {
+          "term": "apoderado",
+          "en": "parent or guardian registered with a Chilean school (apoderado)"
+        },
+        {
+          "term": "preu",
+          "en": "Chilean exam-prep course (preu)"
+        },
+        {
+          "term": "ICFES",
+          "en": "Colombian school-leaving test, Saber 11 (ICFES)"
+        },
+        {
+          "term": "PAES",
+          "en": "Chilean university admission test (PAES)"
+        },
+        {
+          "term": "clases particulares",
+          "en": "private tutoring (clases particulares)"
+        },
+        {
+          "term": "profe",
+          "en": "teacher, everyday (profe)"
+        }
+      ],
+      "money": [
+        {
+          "term": "plata",
+          "en": "money, the everyday word across the region (plata)"
+        },
+        {
+          "term": "lucas",
+          "en": "thousands of pesos in CL and CO (lucas)"
+        },
+        {
+          "term": "palo",
+          "en": "one million pesos in CO and CL slang (palo)"
+        },
+        {
+          "term": "soles",
+          "en": "Peruvian currency (soles)"
+        },
+        {
+          "term": "colones",
+          "en": "Costa Rican currency (colones)"
+        },
+        {
+          "term": "dólares",
+          "en": "official money in EC, SV and PA (dólares)"
+        },
+        {
+          "term": "quetzales",
+          "en": "Guatemalan currency (quetzales)"
+        },
+        {
+          "term": "guaraníes",
+          "en": "Paraguayan currency (guaraníes)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "ahorita",
+          "en": "right now or in a while; meaning varies by country (ahorita)"
+        },
+        {
+          "term": "en la tarde",
+          "en": "in the afternoon, Latin American phrasing (en la tarde)"
+        },
+        {
+          "term": "pasado mañana",
+          "en": "day after tomorrow, Latin American (pasado mañana)"
+        },
+        {
+          "term": "al mediodía",
+          "en": "around noon (al mediodía)"
+        },
+        {
+          "term": "quincena",
+          "en": "half-month pay period (quincena)"
+        },
+        {
+          "term": "puente festivo",
+          "en": "long weekend with a Monday holiday, Colombia (puente festivo)"
+        }
+      ],
+      "work": [
+        {
+          "term": "pega",
+          "en": "job in Chile (pega)"
+        },
+        {
+          "term": "camello",
+          "en": "job / work in Colombia and Ecuador (camello)"
+        },
+        {
+          "term": "chamba",
+          "en": "job in Peru and Central America (chamba)"
+        },
+        {
+          "term": "jefe",
+          "en": "boss, Latin American usage (jefe)"
+        },
+        {
+          "term": "horas extras",
+          "en": "overtime (horas extras)"
+        },
+        {
+          "term": "turno",
+          "en": "shift (turno)"
+        },
+        {
+          "term": "liquidación",
+          "en": "final settlement pay (liquidación)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "vale",
+      "use_instead": "listo / dale",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "vosotros",
+      "use_instead": "ustedes",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "ordenador",
+      "use_instead": "computador / computadora",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "móvil",
+      "use_instead": "celular",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "piso",
+      "use_instead": "apartamento / departamento",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "Bizum",
+      "use_instead": "Nequi / Yape / SINPE Móvil",
+      "where_it_is_from": "ES"
+    },
+    {
+      "word": "camión (bus)",
+      "use_instead": "bus / micro / buseta",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "lana (money)",
+      "use_instead": "plata",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "CURP",
+      "use_instead": "cédula / RUT / DNI",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "güey",
+      "use_instead": "no slang address",
+      "where_it_is_from": "MX"
+    },
+    {
+      "word": "che",
+      "use_instead": "no slang address",
+      "where_it_is_from": "AR"
+    }
+  ],
+  "sources": [
+    "https://www.nequi.com.co/",
+    "https://www.yape.com.pe/",
+    "https://www.bancoestado.cl/",
+    "https://www.bccr.fi.cr/",
+    "https://claveunica.gob.cl/",
+    "https://www.registraduria.gov.co/",
+    "https://www.sunat.gob.pe/",
+    "https://www.dian.gov.co/",
+    "https://www.fonasa.cl/",
+    "https://www.essalud.gob.pe/",
+    "https://www.ccss.sa.cr/",
+    "https://www.transmilenio.gov.co/",
+    "https://www.red.cl/",
+    "https://www.rappi.com/",
+    "https://www.icfes.gov.co/"
+  ],
+  "uncertain": [
+    "本區涵蓋 16 國，用詞差很大；本檔只列已知屬於哪國的說法，AI 不應把某國詞（例如 trancón、taco、guagua）用在別國。",
+    "「ahorita」在哥倫比亞、中美洲與加勒比海意思可以是「現在」或「待會」，約時間時應用具體鐘點確認。",
+    "委內瑞拉、古巴的支付與銀行習慣（多幣別、Pago Móvil 等）未逐一查證，本檔幾乎未列。",
+    "「palo」等金額俚語各國指的數額可能不同，只在對方先用時跟著理解，不主動使用。",
+    "附件把本區語言標成 es-US，本檔用 es 分組，因內容是拉美各國西語而非美國西語。"
+  ]
+}

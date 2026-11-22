@@ -1,0 +1,89 @@
+{
+  "region": "gq",
+  "lang": "fr",
+  "why_added": "赤道幾內亞官方語言包括西班牙語、法語與葡萄牙語；區包預設為西班牙語。",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, oui ?"
+  },
+  "habits": {
+    "en": "Vous with strangers, tu once offered. Money is CFA (XAF). Spanish place names stay; avoid Paris slang and métro talk.",
+    "zh": "對生人用 vous，對方改 tu 再轉。貨幣是 CFA（XAF）。西語地名照留，不用巴黎俚語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Malabo friend: tu once close, short lines. Leave Spanish street names; cash is CFA, not euros.",
+        "zh": "馬拉博熟友可用 tu，句子短。西語街名照留；現金是 CFA，不是歐元。"
+      },
+      "2": {
+        "en": "Warm, easy French. A Spanish official title they used should stay; no need to Gallicise it.",
+        "zh": "溫和輕鬆的法語。對方用了西語職銜就照留，不必改成法語習慣譯名。"
+      },
+      "3": {
+        "en": "Everyday French in Equatorial Guinea. Finish each point; banks may be Bange, and the franc is CFA.",
+        "zh": "赤道幾內亞日常法語。把話說完；銀行可見 Bange，法郎是 CFA。"
+      },
+      "4": {
+        "en": "Polite vous for offices. Confirm CFA amounts and keep Spanish document titles if that is how they appeared.",
+        "zh": "對機關用 vous。金額用 CFA，文件若是西語標題就照用。"
+      },
+      "5": {
+        "en": "Formal vous and Monsieur or Madame. No metropolitan set phrases; Spanish or Portuguese names stay as given.",
+        "zh": "正式 vous 加 Monsieur、Madame。不套用法國本國套句，西語或葡語名稱照留。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s easier pickup on tu only if they used it, then you will pass the word along.",
+        "zh": "{owner}較熟的代接：只有對方用 tu 才用 tu，再說會轉告。"
+      },
+      "2": {
+        "en": "Warm stand-in: match tu or vous, leave Bange or CFA as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 tu 或 vous，Bange、CFA 照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the CFA point in one full French sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句法語重述 CFA 的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on vous: note why they called, keep Spanish names, then confirm the handover.",
+        "zh": "穩重秘書用 vous：記下來電原因，西語名稱照留，再確認會轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on vous: exact on CFA and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 vous：CFA 與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Allô ! Tu es encore à Malabo ?",
+      "Allô, oui, je t'entends bien.",
+      "Allô, bonjour. C'est pour la banque Bange ?",
+      "Bonjour, merci d'avoir appelé. Le montant en CFA est clair.",
+      "Bonjour, je vous remercie. Le dossier est bien noté."
+    ],
+    "a": [
+      "Allô ! {owner} est absent, dis-moi, je ferai suivre.",
+      "Allô, salut. Je prends l'appel, quel est le message ?",
+      "Allô, bonjour. Je rapporterai à {owner} tes propres mots.",
+      "Bonjour, merci d'avoir appelé. Je note le point CFA pour {owner}.",
+      "Bonjour, merci. Je mets les détails par écrit et je transmets."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是中非法郎 CFA（XAF），不要說成歐元。",
+    "法語是官方語言之一，但多數場合西班牙語更常用；地名、機關名常保留西語形式。",
+    "銀行可見 Bange 等本地名稱，不要套用法國本國銀行或 métro、carte Vitale 一類用詞。",
+    "民間還常說芳語等，那些語言不在支援清單，對方夾了當地詞就照留。"
+  ],
+  "sources": [
+    "https://www.cia.gov/the-world-factbook/countries/equatorial-guinea/",
+    "https://www.constituteproject.org/constitution/Equatorial_Guinea_2012"
+  ],
+  "uncertain": [
+    "法語雖為官方語言，實際電話使用比重缺少較新的普查數字，不能寫成已超過西班牙語。",
+    "Bange 為當地主要銀行之一；若對方用其他機構名，應跟隨，不要當成唯一銀行。"
+  ]
+}

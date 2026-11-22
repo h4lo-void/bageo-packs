@@ -1,0 +1,847 @@
+{
+  "region": "hk-mo",
+  "vocab": {
+    "cmn": {
+      "bank": [
+        {
+          "term": "轉數快",
+          "en": "Faster Payment System, also called FPS (轉數快)"
+        },
+        {
+          "term": "FPS",
+          "en": "same system as 轉數快 (FPS)"
+        },
+        {
+          "term": "保安編碼器",
+          "en": "security token / OTP device (保安編碼器)"
+        },
+        {
+          "term": "網上銀行",
+          "en": "online banking (網上銀行)"
+        },
+        {
+          "term": "過數",
+          "en": "transfer money (HK colloquial) (過數)"
+        },
+        {
+          "term": "戶口",
+          "en": "bank account (戶口), Hong Kong or Macau wording"
+        },
+        {
+          "term": "提款卡",
+          "en": "ATM card (提款卡)"
+        },
+        {
+          "term": "櫃位",
+          "en": "bank counter (櫃位)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "大廈管理處",
+          "en": "building management office (大廈管理處)"
+        },
+        {
+          "term": "座頭保安",
+          "en": "lobby / block-entrance security guard (座頭保安)"
+        },
+        {
+          "term": "智能櫃",
+          "en": "parcel locker (智能櫃), Hong Kong or Macau wording"
+        },
+        {
+          "term": "門口",
+          "en": "at the door (門口), Hong Kong or Macau wording"
+        },
+        {
+          "term": "櫃檯",
+          "en": "reception / concierge desk (櫃檯)"
+        },
+        {
+          "term": "郵局",
+          "en": "post office (郵局), Hong Kong or Macau wording"
+        },
+        {
+          "term": "速遞",
+          "en": "courier delivery (速遞)"
+        },
+        {
+          "term": "管理員",
+          "en": "building attendant (管理員)"
+        }
+      ],
+      "government": [
+        {
+          "term": "身份證",
+          "en": "Hong Kong or Macau identity card (身份證)"
+        },
+        {
+          "term": "入境事務處",
+          "en": "Hong Kong Immigration Department (入境事務處)"
+        },
+        {
+          "term": "智方便",
+          "en": "iAM Smart government app (智方便)"
+        },
+        {
+          "term": "一戶通",
+          "en": "Macau One Account government portal (一戶通)"
+        },
+        {
+          "term": "商業登記",
+          "en": "business registration (商業登記)"
+        },
+        {
+          "term": "差餉",
+          "en": "HK rates / property tax-like charge (差餉)"
+        },
+        {
+          "term": "稅務局",
+          "en": "tax office (稅務局)"
+        },
+        {
+          "term": "證件",
+          "en": "ID documents (證件)"
+        }
+      ],
+      "health": [
+        {
+          "term": "醫管局",
+          "en": "Hospital Authority (Hong Kong) (醫管局)"
+        },
+        {
+          "term": "普通科門診",
+          "en": "general outpatient clinic (普通科門診)"
+        },
+        {
+          "term": "私家醫生",
+          "en": "private doctor (私家醫生)"
+        },
+        {
+          "term": "藥房",
+          "en": "pharmacy (藥房), Hong Kong or Macau wording"
+        },
+        {
+          "term": "急症室",
+          "en": "accident and emergency (急症室)"
+        },
+        {
+          "term": "預約",
+          "en": "make a medical appointment (預約)"
+        },
+        {
+          "term": "衛生局",
+          "en": "Macau Health Bureau (衛生局)"
+        },
+        {
+          "term": "診所",
+          "en": "clinic (診所), Hong Kong or Macau wording"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "手提電話",
+          "en": "mobile phone (手提電話)"
+        },
+        {
+          "term": "儲值卡",
+          "en": "prepaid SIM / stored-value SIM (儲值卡)"
+        },
+        {
+          "term": "月費計劃",
+          "en": "monthly mobile plan (月費計劃)"
+        },
+        {
+          "term": "轉台",
+          "en": "change mobile operator / port the number (轉台)"
+        },
+        {
+          "term": "數據",
+          "en": "mobile data (數據)"
+        },
+        {
+          "term": "寬頻",
+          "en": "broadband (寬頻), Hong Kong or Macau wording"
+        },
+        {
+          "term": "電話卡",
+          "en": "SIM card (電話卡)"
+        },
+        {
+          "term": "上網",
+          "en": "use mobile data / go online (上網)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "八達通",
+          "en": "Octopus card (八達通)"
+        },
+        {
+          "term": "轉數快",
+          "en": "FPS instant payment (轉數快)"
+        },
+        {
+          "term": "PayMe",
+          "en": "HSBC PayMe wallet, common in Hong Kong"
+        },
+        {
+          "term": "支付寶香港",
+          "en": "AlipayHK (支付寶香港)"
+        },
+        {
+          "term": "繳費靈",
+          "en": "PPS bill payment (繳費靈)"
+        },
+        {
+          "term": "拍卡",
+          "en": "tap a card to pay (拍卡)"
+        },
+        {
+          "term": "澳門通",
+          "en": "Macau Pass stored-value card (澳門通)"
+        },
+        {
+          "term": "找贖",
+          "en": "give change (找贖)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "港鐵",
+          "en": "MTR (港鐵)"
+        },
+        {
+          "term": "巴士",
+          "en": "bus (巴士), Hong Kong or Macau wording"
+        },
+        {
+          "term": "的士",
+          "en": "taxi (的士)"
+        },
+        {
+          "term": "小巴",
+          "en": "minibus (小巴)"
+        },
+        {
+          "term": "渡輪",
+          "en": "ferry (渡輪)"
+        },
+        {
+          "term": "澳門通",
+          "en": "Macau Pass, also used on local buses (澳門通)"
+        },
+        {
+          "term": "巴士站",
+          "en": "bus stop (巴士站)"
+        },
+        {
+          "term": "充值",
+          "en": "top up a transit card (充值)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "屋苑",
+          "en": "housing estate (屋苑)"
+        },
+        {
+          "term": "管理處",
+          "en": "management office (管理處)"
+        },
+        {
+          "term": "保安",
+          "en": "security guard (保安), Hong Kong or Macau wording"
+        },
+        {
+          "term": "門禁",
+          "en": "access control (門禁), Hong Kong or Macau wording"
+        },
+        {
+          "term": "信箱",
+          "en": "mailbox (信箱), Hong Kong or Macau wording"
+        },
+        {
+          "term": "大廈",
+          "en": "building / block (大廈)"
+        },
+        {
+          "term": "座",
+          "en": "block of a housing estate (座)"
+        },
+        {
+          "term": "對講機",
+          "en": "door phone / intercom (對講機)"
+        }
+      ],
+      "school": [
+        {
+          "term": "補習社",
+          "en": "tutorial centre (補習社)"
+        },
+        {
+          "term": "幼稚園",
+          "en": "kindergarten (幼稚園), Hong Kong or Macau wording"
+        },
+        {
+          "term": "小學",
+          "en": "primary school (小學), Hong Kong or Macau wording"
+        },
+        {
+          "term": "中學",
+          "en": "secondary school (中學), Hong Kong or Macau wording"
+        },
+        {
+          "term": "班主任",
+          "en": "class teacher (班主任)"
+        },
+        {
+          "term": "放學",
+          "en": "school dismissal (放學), Hong Kong or Macau wording"
+        },
+        {
+          "term": "功課",
+          "en": "homework (功課), Hong Kong or Macau wording"
+        },
+        {
+          "term": "家長日",
+          "en": "parents' day (家長日)"
+        }
+      ],
+      "money": [
+        {
+          "term": "蚊",
+          "en": "colloquial Hong Kong dollar, e.g. 五十蚊"
+        },
+        {
+          "term": "港幣",
+          "en": "Hong Kong dollar (港幣)"
+        },
+        {
+          "term": "澳門幣",
+          "en": "Macau pataca (MOP) (澳門幣)"
+        },
+        {
+          "term": "萬",
+          "en": "ten thousand (萬)"
+        },
+        {
+          "term": "過數",
+          "en": "transfer money (過數)"
+        },
+        {
+          "term": "找贖",
+          "en": "change given after a payment (找贖)"
+        },
+        {
+          "term": "銀包",
+          "en": "wallet, also Octopus Wallet (銀包)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "今朝",
+          "en": "this morning (local speech, often mixed into Mandarin) (今朝)"
+        },
+        {
+          "term": "今晚",
+          "en": "tonight, Hong Kong English"
+        },
+        {
+          "term": "禮拜",
+          "en": "week / weekday, e.g. 禮拜一"
+        },
+        {
+          "term": "週末",
+          "en": "the weekend, Hong Kong English"
+        },
+        {
+          "term": "放工後",
+          "en": "after getting off work (放工後)"
+        },
+        {
+          "term": "下班以後",
+          "en": "after work (Mandarin wording also heard) (下班以後)"
+        },
+        {
+          "term": "公眾假期",
+          "en": "public holiday (公眾假期)"
+        },
+        {
+          "term": "呢排",
+          "en": "recently (Cantonese mixed in; AI should keep Mandarin around it) (呢排)"
+        }
+      ],
+      "work": [
+        {
+          "term": "返工",
+          "en": "go to work (local wording) (返工)"
+        },
+        {
+          "term": "放工",
+          "en": "get off work (放工)"
+        },
+        {
+          "term": "加班",
+          "en": "overtime or OT in Hong Kong English"
+        },
+        {
+          "term": "請假",
+          "en": "request leave (請假), Hong Kong or Macau wording"
+        },
+        {
+          "term": "上司",
+          "en": "supervisor (上司), Hong Kong or Macau wording"
+        },
+        {
+          "term": "公司",
+          "en": "company (公司), Hong Kong or Macau wording"
+        },
+        {
+          "term": "出差",
+          "en": "business trip (出差), Hong Kong or Macau wording"
+        },
+        {
+          "term": "打卡",
+          "en": "clock in / out (打卡), Hong Kong or Macau wording"
+        }
+      ]
+    },
+    "en": {
+      "bank": [
+        {
+          "term": "FPS",
+          "en": "Faster Payment System / 轉數快 (FPS)"
+        },
+        {
+          "term": "online banking",
+          "en": "internet banking (online banking)"
+        },
+        {
+          "term": "bank account",
+          "en": "account (bank account)"
+        },
+        {
+          "term": "ATM card",
+          "en": "debit / cash card (ATM card)"
+        },
+        {
+          "term": "security token",
+          "en": "device or app code for login (security token)"
+        },
+        {
+          "term": "transfer",
+          "en": "send money, often via FPS (transfer)"
+        },
+        {
+          "term": "branch counter",
+          "en": "in-branch service (branch counter)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "management office",
+          "en": "building management office for parcel drop-off"
+        },
+        {
+          "term": "guardhouse",
+          "en": "lobby or block-entrance security (guardhouse)"
+        },
+        {
+          "term": "parcel locker",
+          "en": "smart locker (parcel locker)"
+        },
+        {
+          "term": "concierge",
+          "en": "reception desk in a building (concierge)"
+        },
+        {
+          "term": "at the door",
+          "en": "leave at the entrance (at the door)"
+        },
+        {
+          "term": "courier",
+          "en": "express delivery (courier)"
+        },
+        {
+          "term": "post office",
+          "en": "Hongkong Post or CTT Macau (post office)"
+        }
+      ],
+      "government": [
+        {
+          "term": "HKID",
+          "en": "Hong Kong Identity Card (HKID)"
+        },
+        {
+          "term": "iAM Smart",
+          "en": "Hong Kong government app (iAM Smart)"
+        },
+        {
+          "term": "Immigration Department",
+          "en": "Hong Kong Immigration (Immigration Department)"
+        },
+        {
+          "term": "One Account",
+          "en": "Macau government one-stop account (One Account)"
+        },
+        {
+          "term": "business registration",
+          "en": "company registration (business registration)"
+        },
+        {
+          "term": "rates",
+          "en": "Hong Kong rates"
+        },
+        {
+          "term": "IRD",
+          "en": "Inland Revenue Department (IRD)"
+        }
+      ],
+      "health": [
+        {
+          "term": "Hospital Authority",
+          "en": "public hospitals in Hong Kong (Hospital Authority)"
+        },
+        {
+          "term": "GOPC",
+          "en": "general outpatient clinic (GOPC)"
+        },
+        {
+          "term": "A&E",
+          "en": "accident and emergency (A&E), Hong Kong or Macau usage"
+        },
+        {
+          "term": "private doctor",
+          "en": "GP in private practice (private doctor)"
+        },
+        {
+          "term": "pharmacy",
+          "en": "chemist / dispensary (pharmacy)"
+        },
+        {
+          "term": "appointment",
+          "en": "clinic booking (appointment)"
+        },
+        {
+          "term": "Health Bureau",
+          "en": "Macau Health Bureau"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobile plan",
+          "en": "monthly contract (mobile plan)"
+        },
+        {
+          "term": "prepaid SIM",
+          "en": "stored-value SIM (prepaid SIM)"
+        },
+        {
+          "term": "number porting",
+          "en": "change operator, keep the number (number porting)"
+        },
+        {
+          "term": "data plan",
+          "en": "mobile data (data plan), Hong Kong or Macau usage"
+        },
+        {
+          "term": "broadband",
+          "en": "home internet (broadband)"
+        },
+        {
+          "term": "top up",
+          "en": "add credit (top up)"
+        },
+        {
+          "term": "PCCW / HKT",
+          "en": "major fixed-line and mobile group in Hong Kong (PCCW / HKT)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Octopus",
+          "en": "stored-value card used across Hong Kong (Octopus)"
+        },
+        {
+          "term": "FPS",
+          "en": "instant bank or e-wallet payment (FPS)"
+        },
+        {
+          "term": "PayMe",
+          "en": "HSBC PayMe"
+        },
+        {
+          "term": "AlipayHK",
+          "en": "Alipay Hong Kong wallet (AlipayHK)"
+        },
+        {
+          "term": "PPS",
+          "en": "Public Payment Service / 繳費靈 (PPS)"
+        },
+        {
+          "term": "Macau Pass",
+          "en": "Macau stored-value card (Macau Pass)"
+        },
+        {
+          "term": "tap to pay",
+          "en": "contactless card or phone payment (tap to pay)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "MTR",
+          "en": "Hong Kong metro (MTR)"
+        },
+        {
+          "term": "bus",
+          "en": "franchised bus"
+        },
+        {
+          "term": "taxi",
+          "en": "taxi / 的士"
+        },
+        {
+          "term": "minibus",
+          "en": "public light bus (minibus)"
+        },
+        {
+          "term": "ferry",
+          "en": "harbour or outlying island ferry"
+        },
+        {
+          "term": "Octopus",
+          "en": "transit card (Octopus)"
+        },
+        {
+          "term": "bus stop",
+          "en": "bus stop"
+        }
+      ],
+      "housing": [
+        {
+          "term": "housing estate",
+          "en": "private or public estate / 屋苑 (housing estate)"
+        },
+        {
+          "term": "management office",
+          "en": "estate or building office (management office)"
+        },
+        {
+          "term": "security guard",
+          "en": "lobby or gate guard (security guard)"
+        },
+        {
+          "term": "access card",
+          "en": "door or lift access, often Octopus (access card)"
+        },
+        {
+          "term": "mailbox",
+          "en": "letter box (mailbox)"
+        },
+        {
+          "term": "block",
+          "en": "a block / 座 in an estate"
+        },
+        {
+          "term": "intercom",
+          "en": "door phone (intercom)"
+        }
+      ],
+      "school": [
+        {
+          "term": "tutorial centre",
+          "en": "after-school tutoring / 補習社 (tutorial centre)"
+        },
+        {
+          "term": "kindergarten",
+          "en": "kindergarten, Hong Kong or Macau usage"
+        },
+        {
+          "term": "primary school",
+          "en": "primary school, Hong Kong or Macau usage"
+        },
+        {
+          "term": "secondary school",
+          "en": "secondary school, Hong Kong or Macau usage"
+        },
+        {
+          "term": "class teacher",
+          "en": "homeroom teacher (class teacher)"
+        },
+        {
+          "term": "homework",
+          "en": "homework, Hong Kong or Macau usage"
+        },
+        {
+          "term": "parents' day",
+          "en": "school meeting for parents (parents' day)"
+        }
+      ],
+      "money": [
+        {
+          "term": "Hong Kong dollar",
+          "en": "HKD (Hong Kong dollar)"
+        },
+        {
+          "term": "pataca",
+          "en": "Macau pataca / MOP"
+        },
+        {
+          "term": "bucks",
+          "en": "casual English for dollars; locals also say 蚊 in Cantonese (bucks)"
+        },
+        {
+          "term": "ten thousand",
+          "en": "common large-amount unit (ten thousand)"
+        },
+        {
+          "term": "transfer",
+          "en": "send money, often FPS (transfer)"
+        },
+        {
+          "term": "change",
+          "en": "cash change, Hong Kong or Macau usage"
+        },
+        {
+          "term": "Octopus Wallet",
+          "en": "in-app Octopus balance (Octopus Wallet)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "this morning",
+          "en": "this morning, Hong Kong English"
+        },
+        {
+          "term": "tonight",
+          "en": "tonight, Hong Kong English"
+        },
+        {
+          "term": "weekday",
+          "en": "a weekday, Hong Kong English"
+        },
+        {
+          "term": "weekend",
+          "en": "the weekend, HK English"
+        },
+        {
+          "term": "after work",
+          "en": "after work, also after office hours"
+        },
+        {
+          "term": "public holiday",
+          "en": "public holiday, Hong Kong or Macau usage"
+        },
+        {
+          "term": "this week",
+          "en": "this week, HK English"
+        },
+        {
+          "term": "lunchtime",
+          "en": "midday break (lunchtime)"
+        }
+      ],
+      "work": [
+        {
+          "term": "go to work",
+          "en": "go to the office or workplace (go to work)"
+        },
+        {
+          "term": "off work",
+          "en": "finish work for the day (off work)"
+        },
+        {
+          "term": "overtime",
+          "en": "overtime or OT"
+        },
+        {
+          "term": "take leave",
+          "en": "request leave (take leave)"
+        },
+        {
+          "term": "boss",
+          "en": "supervisor, also sir/madam in some offices (boss)"
+        },
+        {
+          "term": "company",
+          "en": "company, Hong Kong or Macau usage"
+        },
+        {
+          "term": "business trip",
+          "en": "business trip, Hong Kong or Macau usage"
+        },
+        {
+          "term": "clock in",
+          "en": "attendance tap, sometimes with Octopus (clock in)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "地鐵",
+      "use_instead": "港鐵（香港）、巴士或輕軌（澳門視路線而定）",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "轉數快、PayMe、八達通、支付寶香港",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "小區",
+      "use_instead": "屋苑、屋邨、大廈",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "捷運",
+      "use_instead": "港鐵",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "悠遊卡",
+      "use_instead": "八達通、澳門通",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "計程車",
+      "use_instead": "的士",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "超商取貨",
+      "use_instead": "智能櫃、管理處、速遞站",
+      "where_it_is_from": "TW"
+    },
+    {
+      "word": "公交車",
+      "use_instead": "巴士",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "醫保",
+      "use_instead": "醫療、公營門診、醫保只在特定內地背景才用",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "物業費",
+      "use_instead": "管理費",
+      "where_it_is_from": "CN"
+    }
+  ],
+  "sources": [
+    "https://fps.hkicl.com.hk/chi/fps/index.php",
+    "https://www.iamsmart.gov.hk/",
+    "https://www.octopus.com.hk/",
+    "https://www.mtr.com.hk/ch/corporate/properties/octopus_index.html",
+    "https://www.pmsa.org.hk/",
+    "https://www.gov.mo/zh-hant/",
+    "https://www.macaupass.com/"
+  ],
+  "uncertain": [
+    "粵語才是香港、澳門電話裡最常用的口語，但不在支援語言清單；此檔以普通話（繁體）和英語寫當地用詞，並標出常夾雜的粵語詞。",
+    "「蚊」是粵語口語，用普通話講電話時有人會改說「港幣」「塊」，使用頻率因人而異。",
+    "澳門「一戶通」與香港「智方便」並非同一系統，跨城來電時對方可能只熟自己那邊的名稱。"
+  ]
+}

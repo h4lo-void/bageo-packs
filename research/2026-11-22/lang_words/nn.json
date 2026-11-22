@@ -1,0 +1,190 @@
+{
+  "lang": "nn",
+  "script": "latin",
+  "common_words": [
+    "eg",
+    "ikkje",
+    "eit",
+    "ein",
+    "ei",
+    "kva",
+    "noko",
+    "korleis",
+    "dei",
+    "ho",
+    "frå",
+    "òg",
+    "me",
+    "dykk",
+    "kven",
+    "kvifor",
+    "heiter",
+    "gjerne",
+    "allereie",
+    "framleis",
+    "berre",
+    "alltid",
+    "deira",
+    "denne",
+    "treng",
+    "i dag",
+    "i morgon",
+    "i går",
+    "kveld",
+    "morgon",
+    "neste",
+    "opnar",
+    "hyggeleg",
+    "velkommen",
+    "no",
+    "sjølv",
+    "litt",
+    "mykje",
+    "mellom",
+    "utan",
+    "her",
+    "der",
+    "vart",
+    "fekk",
+    "gjekk",
+    "vert",
+    "meir",
+    "sjå",
+    "vere",
+    "hjå"
+  ],
+  "frequency_source": "Leipzig Nynorsk Wikipedia 2021 100K https://downloads.wortschatz-leipzig.de/corpora/nno_wikipedia_2021_100K.tar.gz , with spoken/subtitle support from OPUS TED2020 and Tatoeba https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/nn.freq.gz and https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/nn.freq.gz",
+  "shared_words": [
+    {
+      "word": "og",
+      "also_in": [
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "er",
+      "also_in": [
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "det",
+      "also_in": [
+        "sv",
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "du",
+      "also_in": [
+        "sv",
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "vi",
+      "also_in": [
+        "sv",
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "har",
+      "also_in": [
+        "sv",
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "på",
+      "also_in": [
+        "sv",
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "skal",
+      "also_in": [
+        "da",
+        "nb"
+      ]
+    },
+    {
+      "word": "meg",
+      "also_in": [
+        "nb"
+      ]
+    },
+    {
+      "word": "deg",
+      "also_in": [
+        "nb"
+      ]
+    },
+    {
+      "word": "takk",
+      "also_in": [
+        "nb"
+      ]
+    },
+    {
+      "word": "hei",
+      "also_in": [
+        "nb"
+      ]
+    },
+    {
+      "word": "av",
+      "also_in": [
+        "nb"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "æ",
+    "ø",
+    "ò"
+  ],
+  "confusable_with": [
+    "nb",
+    "da",
+    "sv"
+  ],
+  "how_to_tell_apart": "Standard Nynorsk is usually obvious once eg, ikkje, eit or ein, kva, noko, korleis, dei, ho, frå or òg appear. Those are not Bokmål or Danish dictionary forms, and they are certainly not Swedish jag/är/inte/och. Shared short items such as og, er, det, takk and hei should be ignored when scoring. A file in OPUS OpenSubtitles v2024 labelled nn was inspected and then dropped, because the top tokens look like Bokmål (jeg, ikke, Hva) rather than Nynorsk.",
+  "test_said": [
+    "Ferja i kveld er innstilt så eg treng billett på bussen i staden.",
+    "Kan kommunen gje parkeringløyve til gjestane som kjem på laurdag?",
+    "Hentepakka stå framleis i butikken og eg kjem innom etter jobb.",
+    "Eit glas i kjøkkensettet var sprukke då kassa vart opna her heime.",
+    "Eg vil ha influensavaksine hjå fastlegen før skuleåret tek til.",
+    "Tilvisinga til spesialisten i nabokommunen har ikkje kome fram enno.",
+    "Tilbodet om solcellepanel på taket er ikkje aktuelt for oss no.",
+    "Eg ønskjer ikkje fleire telefonar om gevinstar eller konkurransar."
+  ],
+  "test_not_enough": [
+    "Ola",
+    "ok",
+    "åtte",
+    "online"
+  ],
+  "sources": [
+    "https://downloads.wortschatz-leipzig.de/corpora/nno_wikipedia_2021_100K.tar.gz",
+    "https://wortschatz.uni-leipzig.de/",
+    "https://object.pouta.csc.fi/OPUS-TED2020/v1/freq/nn.freq.gz",
+    "https://object.pouta.csc.fi/OPUS-Tatoeba/v2023-04-12/freq/nn.freq.gz",
+    "https://en.wikipedia.org/wiki/Nynorsk",
+    "https://www.sprakradet.no/"
+  ],
+  "uncertain": [
+    "OpenSubtitles v2024 nn was not used, because its highest-frequency pronouns and negation match Bokmål, not Nynorsk.",
+    "Dialect writing varies (me versus vi, de versus dykk or dokker); the list follows written Nynorsk as seen in TED2020, Tatoeba and the Leipzig Wikipedia list.",
+    "òg is a useful cue when present, but many writers simply use og for ‘also’."
+  ]
+}

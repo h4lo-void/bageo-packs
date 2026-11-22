@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "code": "ao-mz-gw-cv-st",
+  "countries": [
+    "ao",
+    "mz",
+    "gw",
+    "cv",
+    "st"
+  ],
+  "name": {
+    "en": "Lusophone Africa",
+    "native": "África lusófona",
+    "zh": "非洲葡語國家"
+  },
+  "lang": "pt-BR",
+  "hello": {
+    "hello": "Alô?",
+    "hello_again": "Alô, pois é, está?"
+  },
+  "delivery": {
+    "en": "Parcels: the gate (portão), a guard or neighbour",
+    "zh": "包裹交給門閘（portão）、保全或鄰居"
+  },
+  "readback": {
+    "en": "Short number clusters; dates day-month; confirm Luanda or Maputo.",
+    "zh": "號碼分小段唸；日期先日後月；確認羅安達或馬普托"
+  },
+  "fraud": {
+    "en": "a Multicaixa, M-Pesa or wallet PIN request or 'wrong transfer' is a scam",
+    "zh": "要 Multicaixa、M-Pesa 或錢包 PIN，或叫你退還轉錯的錢，都是詐騙"
+  },
+  "habits": {
+    "en": "O senhor/a senhora with strangers, você once casual. Follow Portuguese.",
+    "zh": "對陌生人用 o senhor／a senhora，熟了用 você。用葡語。照用 portão。"
+  },
+  "stall_local": {
+    "en": "Get stuck on local snags: the USSD menu timing out, the wallet app spinning, a power cut.",
+    "zh": "卡在當地日常狀況，例如 USSD 選單逾時、錢包 App 一直轉、停電。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like a Luanda or Maputo friend: você, lively Portuguese, one warm follow-up, varied.",
+        "zh": "像羅安達或馬普托的朋友：用 você，活潑葡語，再接一句，每次換。"
+      },
+      "2": {
+        "en": "Warm: você unless they use tu; after they speak, add a friendly 'percebi', varied.",
+        "zh": "溫暖：對方不用 tu 就用 você；聽完加一句 percebi，每次換。"
+      },
+      "3": {
+        "en": "Everyday Portuguese of this coast. Full sentence after each point, not a lone sim. Keep portão if they name it.",
+        "zh": "這一帶的日常葡語。每點用完整句回，不要只回 sim。對方說 portão 就照用。"
+      },
+      "4": {
+        "en": "O senhor or a senhora with offices and strangers; restate the errand first (entendido), varied.",
+        "zh": "對機關與陌生人用 o senhor 或 a senhora；先覆述來意（如 entendido），每次換。"
+      },
+      "5": {
+        "en": "Office Portuguese for Multicaixa or ministries: titles, compact; close each item (ficou registado), varied.",
+        "zh": "對 Multicaixa 或部會的公事葡語：用職稱，簡潔；每件收束（如 ficou registado），每次換。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s lively helper, informal: react, then say you will pass the recado (eu passo o recado), varied.",
+        "zh": "{owner}活潑的小幫手，口吻輕鬆：先反應，再說會把 recado 帶到，每次換。"
+      },
+      "2": {
+        "en": "Kind stand-in: match você or tu; take in the case, then write it for {owner} (já registrei), varied.",
+        "zh": "和氣代接：跟著 você 或 tu，先了解情況，再為{owner}寫下（如 já registrei），每次換。"
+      },
+      "3": {
+        "en": "Clear Lusophone African assistant. Full reply to the point, then confirm the recado will go, never a bare ok.",
+        "zh": "清楚的非洲葡語助理。先完整回重點，再確認 recado 會送出，不要只回 ok。"
+      },
+      "4": {
+        "en": "Careful secretary: o senhor/a senhora, complete lines; name the purpose, then confirm (pronto a passar), varied.",
+        "zh": "謹慎秘書：用 o senhor／a senhora、整句；先說來意，再確認已備好轉，每次換。"
+      },
+      "5": {
+        "en": "Office deputy: formal titles, brisk; lock the facts, then confirm the message will be given, varied.",
+        "zh": "辦公室代表：正式職稱，明快；先鎖定事實，再確認訊息會交到，每次換。"
+      }
+    }
+  },
+  "vocab": {
+    "bank": [
+      "Multicaixa",
+      "M-Pesa",
+      "transferência",
+      "MULTICAIXA Express"
+    ],
+    "delivery": [
+      "portão",
+      "segurança",
+      "vizinho",
+      "correios",
+      "EMS"
+    ],
+    "government": [
+      "Bilhete de Identidade",
+      "NUIT",
+      "passaporte"
+    ],
+    "health": [
+      "INSS",
+      "hospital",
+      "clínica",
+      "receita"
+    ],
+    "telecom": [
+      "Vodacom",
+      "pré-pago",
+      "carregamento",
+      "SIM"
+    ],
+    "payment": [
+      "Multicaixa",
+      "M-Pesa",
+      "levantamento",
+      "agente"
+    ],
+    "transport": [
+      "candongueiro",
+      "chapa",
+      "táxi",
+      "autocarro"
+    ],
+    "housing": [
+      "renda",
+      "portão",
+      "energia",
+      "senhorio"
+    ]
+  },
+  "status": "draft"
+}

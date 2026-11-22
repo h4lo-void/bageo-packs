@@ -1,0 +1,260 @@
+{
+  "lang": "sd",
+  "backchannels": {
+    "direction": "جي and جي سائين show respectful listening; ها is casual; quick ها ها can sound impatient.",
+    "examples": [
+      {
+        "text": "جي سائين۔",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "جي۔",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ٺيڪ آهي۔",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "بلڪل۔",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "ها ها۔",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "اڇا؟ or سچ؟ for surprise; ڏاڍو ڏک ٿيو for sympathy; مبارڪ for good news.",
+    "examples": [
+      {
+        "text": "سچ پچ؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "اڇا، ائين؟",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "ٻڌي ڏاڍو ڏک ٿيو۔",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "مبارڪ هجيوَ!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "اهو ٿورو ڏکيو آهي۔",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't coming (آواز نٿو اچي) or the signal is weak; request زور سان speech.",
+    "examples": [
+      {
+        "text": "سائين، آواز صاف نٿو اچي۔",
+        "style": "polite"
+      },
+      {
+        "text": "سگنل ڪمزور آهي۔",
+        "style": "casual"
+      },
+      {
+        "text": "توهان جو آواز ڪٽجي رهيو آهي۔",
+        "style": "polite"
+      },
+      {
+        "text": "ٿورو زور سان ڳالهايو۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "جي؟ asks for a replay; get اکر for names, echo digits back.",
+    "examples": [
+      {
+        "text": "جي، ڇا چيو؟",
+        "style": "polite"
+      },
+      {
+        "text": "وري ٻڌايو سائين۔",
+        "style": "polite"
+      },
+      {
+        "text": "نالي جا اکر ٻڌايو۔",
+        "style": "polite"
+      },
+      {
+        "text": "نمبر 12345678 آهي نه؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Ask ڪير ڳالهائي رهيو آهي with توهان; mention it's {owner}'s phone if needed.",
+    "examples": [
+      {
+        "text": "معاف ڪجو، توهان ڪير ڳالهايو پيا؟",
+        "style": "polite"
+      },
+      {
+        "text": "ڪٿان فون ڪيو اٿوَ؟",
+        "style": "polite"
+      },
+      {
+        "text": "هي {owner} جو نمبر آهي، توهان ڪير؟",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say غلط نمبر and that nobody of that name is here; brief.",
+    "examples": [
+      {
+        "text": "معاف ڪجو، نمبر غلط آهي۔",
+        "style": "polite"
+      },
+      {
+        "text": "هتي ان نالي جو ڪو ناهي۔",
+        "style": "polite"
+      },
+      {
+        "text": "رانگ نمبر۔",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "ٻڌائيندس says you'll pass it to {owner}; avoid any call-back time.",
+    "examples": [
+      {
+        "text": "{owner} کي توهان جو نياپو ڏيندس۔",
+        "style": "polite"
+      },
+      {
+        "text": "ٻڌائي ڇڏيندس۔",
+        "style": "casual"
+      },
+      {
+        "text": "نياپو پهچي ويندو۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "مهرباني then ضرورت ناهي; polite and short.",
+    "examples": [
+      {
+        "text": "مهرباني، اسان کي ضرورت ناهي۔",
+        "style": "polite"
+      },
+      {
+        "text": "دلچسپي ناهي سائين۔",
+        "style": "polite"
+      },
+      {
+        "text": "نه ادا، مهرباني۔",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On a second push, restate انڪار and ask that this نمبر be dropped.",
+    "examples": [
+      {
+        "text": "مان اڳ ئي انڪار ڪري چڪو آهيان۔",
+        "style": "polite"
+      },
+      {
+        "text": "مهرباني ڪري هن نمبر تي وري فون نه ڪجو۔",
+        "style": "polite"
+      },
+      {
+        "text": "هي نمبر پنهنجي لسٽ مان ڪڍي ڇڏيو۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "سائين for men, امڙ/ادي for women, ادا for peers; توهان for strangers.",
+    "examples": [
+      {
+        "text": "سائين",
+        "style": "polite"
+      },
+      {
+        "text": "ادا",
+        "style": "casual"
+      },
+      {
+        "text": "ادي",
+        "style": "casual"
+      },
+      {
+        "text": "امڙ",
+        "style": "polite"
+      },
+      {
+        "text": "چاچا",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like توهان جي ڪال اسان لاءِ اهم آهي sound like a bank helpline.",
+    "examples": [
+      {
+        "text": "توهان جي ڪال اسان لاءِ اهم آهي۔",
+        "style": "polite"
+      },
+      {
+        "text": "اسان توهان جي ڪهڙي خدمت ڪريون؟",
+        "style": "polite"
+      },
+      {
+        "text": "هيلپ لائين تي فون ڪرڻ جي مهرباني۔",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using تون with elders, asking for women of the house, or asking caste and income early is rude.",
+    "examples": [
+      {
+        "text": "تون ڪير آهين؟",
+        "style": "casual"
+      },
+      {
+        "text": "ڪهڙي ذات آهي؟",
+        "style": "casual"
+      },
+      {
+        "text": "ڪيتري پگهار آهي؟",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%D8%B3%D8%A7%D8%A6%D9%8A%D9%86",
+    "https://en.wikipedia.org/wiki/Sindhi_language",
+    "https://en.wikipedia.org/wiki/Sindhi_script"
+  ],
+  "uncertain": [
+    "Sindhi written in Perso-Arabic (Pakistan) and Devanagari (India); examples in Perso-Arabic only",
+    "Backchannels (ها، جي، سائين، ٺيڪ) from dictionaries and general usage, no call corpus",
+    "Urdu/English loans are common on calls in Karachi and Hyderabad; extent unknown"
+  ]
+}

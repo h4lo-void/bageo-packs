@@ -1,0 +1,456 @@
+{
+  "region": "dk",
+  "vocab": {
+    "da": {
+      "bank": [
+        {
+          "term": "MitID",
+          "en": "Denmark's national login, used for banks and almost every official service"
+        },
+        {
+          "term": "MobilePay",
+          "en": "the everyday way Danes send money to a phone number or a shop"
+        },
+        {
+          "term": "kodeviser",
+          "en": "a hardware or app code device some banks still issue"
+        },
+        {
+          "term": "overførsel",
+          "en": "an overførsel between Danish accounts, often confirmed with MitID"
+        },
+        {
+          "term": "konto",
+          "en": "a bank account, also lønkonto for the everyday account"
+        },
+        {
+          "term": "Dankort",
+          "en": "the national debit card, still named even when it sits on a Visa"
+        },
+        {
+          "term": "netbank",
+          "en": "the netbank, usually opened with MitID"
+        },
+        {
+          "term": "saldo",
+          "en": "the saldo in a Danish netbank or in MobilePay"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "pakkeshop",
+          "en": "a PostNord or GLS shop where you collect a parcel, showing a hentekode"
+        },
+        {
+          "term": "pakkeboks",
+          "en": "a parcel locker, opened from the PostNord app"
+        },
+        {
+          "term": "hentekode",
+          "en": "the pickup code or QR, sent by SMS, email or the app"
+        },
+        {
+          "term": "Modtagerflex",
+          "en": "leave-at-an-agreed-spot delivery when you are not home"
+        },
+        {
+          "term": "foran døren",
+          "en": "in front of the door"
+        },
+        {
+          "term": "nabo",
+          "en": "the neighbour, a common fallback drop-off"
+        },
+        {
+          "term": "PostNord",
+          "en": "the main parcel carrier people name, also Dao or GLS"
+        }
+      ],
+      "government": [
+        {
+          "term": "MitID",
+          "en": "also the login for tax, health and the municipality"
+        },
+        {
+          "term": "CPR-nummer",
+          "en": "the civil-registration number; do not read it out on a call unless the owner has asked"
+        },
+        {
+          "term": "borgerservice",
+          "en": "the municipal citizens' service desk"
+        },
+        {
+          "term": "skat",
+          "en": "the tax authority, also skat.dk"
+        },
+        {
+          "term": "sundhedskort",
+          "en": "the yellow health card, also sygesikringskort"
+        },
+        {
+          "term": "kørekort",
+          "en": "a Danish kørekort"
+        },
+        {
+          "term": "pas",
+          "en": "a Danish pas"
+        },
+        {
+          "term": "e-Boks",
+          "en": "the official digital mailbox, still widely named"
+        }
+      ],
+      "health": [
+        {
+          "term": "læge",
+          "en": "the GP, also egen læge"
+        },
+        {
+          "term": "apotek",
+          "en": "an apotek, where an e-recept is filled"
+        },
+        {
+          "term": "skadestue",
+          "en": "the emergency department, also akutmodtagelse"
+        },
+        {
+          "term": "recept",
+          "en": "a recept, usually the electronic e-recept used at a Danish apotek"
+        },
+        {
+          "term": "sundhedskort",
+          "en": "shown at almost every clinic"
+        },
+        {
+          "term": "sygesikring",
+          "en": "public health cover, often just the card"
+        },
+        {
+          "term": "tandlæge",
+          "en": "a dentist, frequently mentioned because dental care is arranged separately"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "abonnement",
+          "en": "a mobile abonnement with Yousee, Telenor, Telia or 3"
+        },
+        {
+          "term": "talletid or prepaid",
+          "en": "prepaid credit, less common than a plan but still said"
+        },
+        {
+          "term": "nummerflytning",
+          "en": "nummerflytning, taking the Danish number to a new teleselskab"
+        },
+        {
+          "term": "SIM-kort",
+          "en": "a Danish SIM-kort"
+        },
+        {
+          "term": "teleselskab",
+          "en": "the operator, often TDC, Telia, Yousee or 3"
+        },
+        {
+          "term": "data",
+          "en": "mobile data on a Danish abonnement"
+        },
+        {
+          "term": "bredbånd",
+          "en": "home bredbånd, a Danish fixed line"
+        }
+      ],
+      "payment": [
+        {
+          "term": "MobilePay",
+          "en": "the default person-to-person and shop payment"
+        },
+        {
+          "term": "Dankort",
+          "en": "debit at the terminal"
+        },
+        {
+          "term": "kort",
+          "en": "a payment kort, often a Dankort at the terminal"
+        },
+        {
+          "term": "kontant",
+          "en": "cash, less central than MobilePay"
+        },
+        {
+          "term": "overførsel",
+          "en": "an overførsel between Danish accounts, often confirmed with MitID"
+        },
+        {
+          "term": "Betalingsservice",
+          "en": "automatic bill payment, a very Danish word"
+        },
+        {
+          "term": "kontaktløs",
+          "en": "contactless, also just sætte kortet til"
+        }
+      ],
+      "transport": [
+        {
+          "term": "Rejsekort",
+          "en": "the national travel card, also the Rejsekort app"
+        },
+        {
+          "term": "S-tog",
+          "en": "Copenhagen suburban rail"
+        },
+        {
+          "term": "metro",
+          "en": "the Copenhagen metro"
+        },
+        {
+          "term": "bus",
+          "en": "a bus, in Copenhagen often paid with a Rejsekort"
+        },
+        {
+          "term": "DSB",
+          "en": "national rail, named for regional and InterCity trains"
+        },
+        {
+          "term": "taxa",
+          "en": "a taxi, the Danish word rather than taxi alone"
+        },
+        {
+          "term": "cykel",
+          "en": "a bike, often part of everyday transport talk"
+        },
+        {
+          "term": "station",
+          "en": "a station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "lejlighed",
+          "en": "a lejlighed, including an andelsbolig"
+        },
+        {
+          "term": "opgang",
+          "en": "the stairwell or building entrance"
+        },
+        {
+          "term": "postkasse",
+          "en": "the postkasse at the opgang, not a pakkeboks locker"
+        },
+        {
+          "term": "dørtelefon",
+          "en": "the dørtelefon at the opgang"
+        },
+        {
+          "term": "husleje",
+          "en": "the husleje for a lejlighed or andelsbolig"
+        },
+        {
+          "term": "vicevært",
+          "en": "the caretaker, in some older buildings"
+        },
+        {
+          "term": "ejerforening",
+          "en": "the owners' association"
+        },
+        {
+          "term": "andelsbolig",
+          "en": "a housing cooperative, a common tenure people name"
+        }
+      ],
+      "school": [
+        {
+          "term": "vuggestue",
+          "en": "nursery for the youngest children"
+        },
+        {
+          "term": "børnehave",
+          "en": "børnehave, after vuggestue and before folkeskole"
+        },
+        {
+          "term": "folkeskole",
+          "en": "the municipal primary and lower-secondary school"
+        },
+        {
+          "term": "SFO",
+          "en": "after-school care at the folkeskole"
+        },
+        {
+          "term": "gymnasium",
+          "en": "upper secondary, also HTX or HHX in some speech"
+        },
+        {
+          "term": "lektier",
+          "en": "lektier from the folkeskole or gymnasium"
+        },
+        {
+          "term": "lærer",
+          "en": "a teacher, also klasselærer"
+        }
+      ],
+      "money": [
+        {
+          "term": "kroner",
+          "en": "Danish kroner, also kr."
+        },
+        {
+          "term": "tusind",
+          "en": "a thousand kroner, the usual large unit in speech"
+        },
+        {
+          "term": "MobilePay",
+          "en": "send the money on MobilePay"
+        },
+        {
+          "term": "kontanter",
+          "en": "kontanter in Danish kroner, now secondary to MobilePay"
+        },
+        {
+          "term": "byttepenge",
+          "en": "byttepenge in kroner, with øre only on the receipt"
+        },
+        {
+          "term": "beløb",
+          "en": "the beløb in Danish kroner"
+        },
+        {
+          "term": "øre",
+          "en": "øre, the subunit, rarely used except on receipts"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "i formiddag",
+          "en": "this morning, later morning included"
+        },
+        {
+          "term": "i eftermiddag",
+          "en": "i eftermiddag, later today after midday"
+        },
+        {
+          "term": "i aften",
+          "en": "i aften, later today in the evening"
+        },
+        {
+          "term": "hverdag",
+          "en": "a hverdag, a Danish working weekday"
+        },
+        {
+          "term": "weekend",
+          "en": "weekend, Saturday and Sunday in Danish speech"
+        },
+        {
+          "term": "efter arbejde",
+          "en": "after work, also efter fyraften"
+        },
+        {
+          "term": "i denne uge",
+          "en": "i denne uge, the current week"
+        },
+        {
+          "term": "i morgen tidlig",
+          "en": "tomorrow morning, a common slot"
+        }
+      ],
+      "work": [
+        {
+          "term": "arbejde",
+          "en": "arbejde, the everyday Danish word for a job"
+        },
+        {
+          "term": "fyraften",
+          "en": "the end of the working day, a very Danish word"
+        },
+        {
+          "term": "overarbejde",
+          "en": "overarbejde, extra hours after fyraften"
+        },
+        {
+          "term": "ferie",
+          "en": "annual leave, also feriepenge in payroll talk"
+        },
+        {
+          "term": "sygemelding",
+          "en": "calling in sick"
+        },
+        {
+          "term": "chef",
+          "en": "the manager, also leder"
+        },
+        {
+          "term": "hjemmearbejde",
+          "en": "hjemmearbejde, a day working from the lejlighed rather than the office"
+        },
+        {
+          "term": "tjenesterejse",
+          "en": "a tjenesterejse, a work trip booked through the workplace"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "BankID",
+      "use_instead": "MitID",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Swish",
+      "use_instead": "MobilePay",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "Vipps",
+      "use_instead": "MobilePay；丹麥口語仍說 MobilePay，即使集團已合併",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "personnummer 當丹麥說法",
+      "use_instead": "CPR-nummer",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "BankID med kodebrik 挪威用法",
+      "use_instead": "MitID, kodeviser",
+      "where_it_is_from": "NO"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "MobilePay, overførsel",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Apotheke",
+      "use_instead": "apotek",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "pakkeboks, pakkeshop",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "Swish 以外的瑞典付款名",
+      "use_instead": "MobilePay, Dankort, Betalingsservice",
+      "where_it_is_from": "SE"
+    },
+    {
+      "word": "nemID",
+      "use_instead": "MitID（NemID 已停用，仍有人脫口說出舊名）",
+      "where_it_is_from": "DK"
+    }
+  ],
+  "sources": [
+    "https://www.postnord.dk/privat/send-og-modtag/modtag/sadan-henter-du-din-pakke2/sadan-henter-du-din-pakke-med-hentekode/",
+    "https://www.postnord.dk/varktojer/app-postnord/",
+    "https://www.postnord.dk/privat/modtag/fleksibel-levering/",
+    "https://www.mitid.dk/",
+    "https://www.mobilepay.dk/",
+    "https://www.sundhed.dk/",
+    "https://www.skat.dk/"
+  ],
+  "uncertain": [
+    "MobilePay 已與挪威 Vipps 同屬一個集團，但丹麥電話裡幾乎仍只說 MobilePay。",
+    "NemID 已由 MitID 取代，年長來電者偶爾還會用舊名。"
+  ]
+}

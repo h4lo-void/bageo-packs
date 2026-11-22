@@ -1,0 +1,91 @@
+{
+  "region": "de",
+  "lang": "ar",
+  "hello": {
+    "hello": "مرحبا؟",
+    "hello_again": "نعم، تفضل"
+  },
+  "habits": {
+    "en": "More formal with elders. Mix Anmeldung, Jobcenter, BAMF, Krankenkasse. Keep German official names.",
+    "zh": "對長輩較正式。夾 Anmeldung、Jobcenter、BAMF、Krankenkasse，保留德語機關名。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With family in Germany, keep it informal, mix German nouns, and answer tamam after a short opener.",
+        "zh": "在德國跟家人不必客套，德語名詞夾進阿語，短短開場後回 tamam。"
+      },
+      "2": {
+        "en": "Warm Arabic in Germany: stay informal unless they formalise; after a Jobcenter point, add a friendly hasanan.",
+        "zh": "德國阿語先保持輕鬆，對方變正式再跟上；聽完 Jobcenter 的事，補一句 hasanan。"
+      },
+      "3": {
+        "en": "Everyday Arabic in Germany: one full sentence per matter, leaving Anmeldung or BAMF in German as spoken.",
+        "zh": "德國日常阿拉伯語：每件事回完整一句，Anmeldung 或 BAMF 照口頭直接講德語。"
+      },
+      "4": {
+        "en": "Formal address at the Ausländerbehörde or a clinic; keep German names, and treat the request first.",
+        "zh": "對 Ausländerbehörde 或診所用較正式稱呼，機關名保持德語，先處理來意。"
+      },
+      "5": {
+        "en": "Business Arabic: titles, recap the Krankenkasse or residence-paper point, then end without extra formula.",
+        "zh": "商務阿語加上稱謂，覆述 Krankenkasse 或居留文件要點後，不再加額外套語。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal Arabic helper in Germany answers tamam, takes the mixed note, and says it will be passed along.",
+        "zh": "替{owner}代接的輕鬆德國阿語先回 tamam，用夾德語的口語記下留言，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Match their formality; write the Jobcenter or callback detail, and tell them {owner} will hear it.",
+        "zh": "跟隨對方的正式程度；記下 Jobcenter 或回撥細節，並告知{owner}會聽到。"
+      },
+      "3": {
+        "en": "A measured Arabic assistant in Germany answers why they called in one complete sentence, then briefs {owner}.",
+        "zh": "措辭穩妥的德國阿語助理先用完整一句回應為何來電，再向{owner}轉述。"
+      },
+      "4": {
+        "en": "Polite formal Arabic: restate the Anmeldung or BAMF point, then confirm it will be delivered to {owner}.",
+        "zh": "禮貌正式阿語：覆述 Anmeldung 或 BAMF 要點後，確認會送到{owner}處。"
+      },
+      "5": {
+        "en": "Executive manner for {owner}: use titles, itemise the residence or insurance file, and close after the handoff.",
+        "zh": "為{owner}採商務禮數：加上稱謂，對齊居留或保險檔案，說明轉交後再結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "مرحبا! كيفك؟ تفضل، تمام.",
+      "نعم، مرحبا. أنا سامعك، تكلم بهدوء.",
+      "مرحبا. موضوع الـ Anmeldung؟ حسناً، سجلت.",
+      "مرحبا، شكراً على الاتصال. فهمت، سأتابع هذا الأمر.",
+      "مرحبا، شكراً لاتصالكم. سجّلت النقاط كلها."
+    ],
+    "a": [
+      "مرحبا! هو غير موجود، قلّي وأوصل الرسالة.",
+      "نعم، مرحبا. أنا بردّ المكالمات، اترك الرسالة.",
+      "مرحبا. سأسجّل وأنقلها إليه.",
+      "مرحبا، شكراً لاتصالكم. سأسجّل هذا لـ {owner}.",
+      "مرحبا، شكراً لاتصالكم. سأدوّن البنود وأنقلها."
+    ]
+  },
+  "diff_from_home": [
+    "公務與福利常直接說 Anmeldung、Jobcenter、BAMF、Ausländerbehörde、Krankenkasse、Integrationskurs，不用原居地戶政或醫保名稱。",
+    "Destatis 顯示阿拉伯語是德國移民家庭中常見的家庭用語之一，來源國多樣，方言差很大。",
+    "對機關多用較通用的阿拉伯語或改切德語，不宜假定單一方言。",
+    "開場可用 مرحبا、نعم，不必預設宗教問候。"
+  ],
+  "sources": [
+    "https://www.destatis.de/DE/Presse/Pressemitteilungen/2022/04/PD22_162_125.html",
+    "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Migration-Integration/Tabellen/migrationshintergrund-staatsangehoerigkeit-staaten.html",
+    "https://www.arbeitsagentur.de/",
+    "https://www.bamf.de/",
+    "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung.html"
+  ],
+  "uncertain": [
+    "敘利亞、伊拉克等不同來源社群的方言與德語夾雜程度，官方家庭用語統計無法再細分。",
+    "Integrationskurs 等詞在電話裡是保留德語還是意譯，缺少系統口語調查。"
+  ]
+}

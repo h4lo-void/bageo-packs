@@ -1,0 +1,7 @@
+# Research data, 2026-11-22
+
+Research results gathered on 2026-11-22. Bageo does not read this folder and the checker skips it. Already used in the real files: store phone habits (`places/`), the new regions and region word lists (`regions/`), second-language combinations (`regions_multilang.json`, as many as fit its size limit), bubble and voice lines of the new regions (`bubbles.json`, `voices/lines.json`) and scam data for more countries (`scams/`). Not read by Bageo yet: `lang_words/` (38 words that tell same-script languages apart), `talk/` (80 languages of small talk on calls), `countries/` (119 country-level differences inside a region), `vocab/` (74 regions with 12 word groups and words to avoid), `multilang/` (111 second-language combinations that did not fit `regions_multilang.json`), `blocked/` (the Suriname region, waiting until the checker knows country code sr), `unmapped_countries.json` (where each unlisted country belongs) and `sources.json` (sources and notes taken out of the real files, listed by the file they belong to).
+
+# 研究資料（2026-11-22）
+
+2026-11-22 整理的研究結果。Bageo 不讀這個資料夾，檢查程式也會略過。已用在正式檔的有：店家電話習慣（`places/`）、新地區與地區用詞（`regions/`）、第二語言組合（`regions_multilang.json`，只放得下檔案大小上限內的部分）、新地區的氣泡與語音台詞（`bubbles.json`、`voices/lines.json`）與更多國家的詐騙資料（`scams/`）。Bageo 還沒讀的有：`lang_words/`（38 種同文字語言的分辨詞）、`talk/`（80 種語言的通話小動作）、`countries/`（119 國的國別差異）、`vocab/`（74 區各 12 類詞彙與避用詞）、`multilang/`（111 組放不進 `regions_multilang.json` 的第二語言組合）、`blocked/`（蘇利南地區，等檢查程式認得國碼 sr）、`unmapped_countries.json`（未列入地區的國家該歸哪裡）與 `sources.json`（從正式檔拿出來的來源與備註，依所屬檔案列出）。

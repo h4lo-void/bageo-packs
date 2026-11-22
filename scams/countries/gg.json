@@ -1,0 +1,81 @@
+{
+  "name": "Guernsey",
+  "name_local": "Guernsey",
+  "iso": "gg",
+  "calling_code": "+44",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "Guernsey Post runs a dedicated scam-text page warning about fake parcel messages, and the States of Guernsey revenue service publishes tax guidance relevant to fake tax approaches.",
+  "cross_border_note": "Guernsey uses UK numbering (+44, area code 01481), so UK-origin scam calls and texts reach islanders exactly like mainland UK numbers.",
+  "scams": [
+    {
+      "id": "gg_guernsey_post_scam_text",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Guernsey Post text",
+      "name_en": "Text impersonating Guernsey Post asking for a fee or details",
+      "prevalence": "very_high",
+      "lang": "en",
+      "context_keywords": [
+        "Guernsey Post",
+        "missed delivery",
+        "small fee"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay the shipping fee online",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "confirm your card details",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "A text claiming to be Guernsey Post says a parcel needs a fee or redelivery details and links to a lookalike page.",
+      "legit_en": "Guernsey Post's scam-text page warns about these fake texts; parcels should be checked only on Guernsey Post's own site.",
+      "bait_tactics": [
+        "Ask whether the parcel is at Envoy House or a myEBOX point, then ask again",
+        "Say the card is in a drawer upstairs and ask for a reference to quote at the counter"
+      ],
+      "sources": [
+        "https://www.guernseypost.com/scam-text"
+      ]
+    },
+    {
+      "id": "gg_revenue_service_data",
+      "typology": "tax_refund_scam",
+      "name": "Fake Revenue Service request",
+      "name_en": "Fake Guernsey tax or social-security request for data or payment",
+      "prevalence": "medium",
+      "lang": "en",
+      "context_keywords": [
+        "Revenue Service",
+        "tax refund",
+        "social security contributions"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "tax refund needs bank details",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "immediate payment or penalty",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A message or call presents itself as Guernsey's tax office and asks for bank details to issue a refund or pay arrears.",
+      "legit_en": "Tax matters are handled through the States of Guernsey's official tax portal, not by unsolicited calls asking for bank data.",
+      "bait_tactics": [
+        "Ask for the tax reference and which year it relates to, slowly",
+        "Say the tax adviser in St Peter Port deals with every revenue letter"
+      ],
+      "sources": [
+        "https://www.gov.gg/tax"
+      ]
+    }
+  ]
+}

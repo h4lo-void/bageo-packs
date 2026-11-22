@@ -1,0 +1,84 @@
+{
+  "country": "kw",
+  "parent": "gulf",
+  "name": {
+    "en": "Kuwait",
+    "native": "الكويت",
+    "zh": "科威特"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، معي؟"
+  },
+  "delivery": {
+    "en": "Give it to the building guard or reception, leave it at the door, or collect from the post",
+    "zh": "交給大樓警衛或櫃台、放門口，或到郵局領"
+  },
+  "readback": {
+    "en": "Eight digits, no leading zero, read 4-4; 0 as صفر; dinars; 12-hour time; day before month",
+    "zh": "科威特號碼八位、開頭沒有 0，照 4-4 唸；0 唸 صفر；第納爾；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A Civil ID or Sahel 'renewal', or any message demanding an OTP or a login link, is a scam",
+    "zh": "要你「更新」民政證或 Sahel，或要 OTP、登入連結，都是詐騙"
+  },
+  "habits": {
+    "en": "Return السلام عليكم. شلونك to a man, شلونج to a woman. أستاذ with strangers. Use dinars, not Egyptian fillers.",
+    "zh": "先回 السلام عليكم。男用 شلونك、女用 شلونج。生客稱 أستاذ。用第納爾，別帶埃及腔。"
+  },
+  "stall_local": {
+    "en": "Sahel is stuck on the Civil ID screen, and the diwaniya is too noisy to hear clearly.",
+    "zh": "卡在 Sahel 停在民政證畫面，而且 diwaniya 聚會太吵、聽不清楚。"
+  },
+  "vocab": {
+    "bank": [
+      "البطاقة المدنية",
+      "Sahel",
+      "دينار",
+      "تحويل",
+      "OTP"
+    ],
+    "delivery": [
+      "الباب",
+      "حارس العمارة",
+      "الاستقبال",
+      "البريد"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "أبشر",
+      "reason": {
+        "zh": "沙烏地平台；科威特居民較常處理的是民政證與 Sahel"
+      }
+    },
+    {
+      "word": "UAE Pass",
+      "reason": {
+        "zh": "阿聯酋平台，不是科威特的叫法"
+      }
+    },
+    {
+      "word": "ريال",
+      "reason": {
+        "zh": "科威特用 دينار，不是里亞爾"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Keep the five steps. Lean on Kuwaiti شلونك/شلونج and Civil ID or Sahel terms; do not borrow Absher, UAE Pass, or Emirati شحالك.",
+    "zh": "五級不變。用科威特的 شلونك／شلونج，以及民政證、Sahel；不要借用 أبشر、UAE Pass 或 شحالك。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://civilidstatus.org/kuwait-civil-id-scams/",
+    "https://openarabic.org/gulf-arabic-resources/",
+    "https://www.citra.gov.kw/sites/en/LegalReferences/National_numbering_plan.pdf"
+  ],
+  "uncertain": [
+    "Civil ID 詐騙說明頁不是政府網域，細節宜再對官方警示。",
+    "diwaniya 太吵只是常見生活場景，不是調查數據。",
+    "科威特八碼、開頭沒有 0 的號碼要怎麼切著唸，CITRA 編號計畫裡沒有寫口誦方式。"
+  ]
+}

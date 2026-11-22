@@ -1,0 +1,79 @@
+{
+  "country": "sv",
+  "parent": "latam",
+  "name": {
+    "en": "El Salvador",
+    "native": "El Salvador",
+    "zh": "薩爾瓦多"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, me escucha?"
+  },
+  "delivery": {
+    "en": "Parcels: the door, a neighbour, or a courier or cargo agency",
+    "zh": "包裹放門口、交給鄰居，或到貨運、快遞代收處"
+  },
+  "readback": {
+    "en": "8-digit mobiles go 4-4, 0 as cero; amounts in US dollars",
+    "zh": "手機八位常按 4-4 唸，0 唸 cero；金額用美元"
+  },
+  "fraud": {
+    "en": "A fake bank OTP, or Correos asking to confirm an address or pay a fee, are scams",
+    "zh": "冒充銀行要驗證碼，或假 Correos 要補地址、補繳包裹費的都是詐騙"
+  },
+  "habits": {
+    "en": "Start with usted; switch to vos only after the caller does. Tú sounds foreign. Say dinero or pisto, not plata.",
+    "zh": "先用 usted，對方改 vos 再跟。tú 像外地說法。錢說 dinero 或 pisto。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the bank app or Chivo spinning, misplaced reading glasses, weak indoor signal.",
+    "zh": "卡在銀行 App 或 Chivo 一直轉、眼鏡放錯地方、室內收訊差。"
+  },
+  "vocab": {
+    "bank": [
+      "Chivo",
+      "tarjeta",
+      "transferencia",
+      "remesa"
+    ],
+    "delivery": [
+      "el portón",
+      "el vecino",
+      "la agencia",
+      "casillero"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "en": "Colombian wallet; not used in El Salvador",
+        "zh": "哥倫比亞錢包，薩爾瓦多不用"
+      }
+    },
+    {
+      "word": "plata",
+      "reason": {
+        "en": "Common elsewhere in LatAm; locals usually say dinero or pisto",
+        "zh": "在別的西語國常用，當地較常說 dinero 或 pisto"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More voseo than the blended latam tone: start formal with usted, move to vos only if they do. Keep short, warm replies; tú and Colombian casualisms sound off.",
+    "zh": "比所屬地區更常用 vos：先 usted，對方改 vos 再跟。語氣短而熱絡；tú 和哥倫比亞口語聽起來不像當地。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.correos.gob.sv/984-2/",
+    "https://lavozsv.com/nacionales/correos-de-el-salvador-alerta-sobre-nueva-modalidad-de-estafa-por-mensajes-de-texto/",
+    "https://www.elsalvador.com/dinero-y-negocios/finanzas-personales/estafas-el-salvador-delitos/1258084/2026/",
+    "https://www.laprensagrafica.com/elsalvador/Alertan-sobre-continuidad-de-estafas-digitales-en-El-Salvador-20250701-0055.html"
+  ],
+  "uncertain": [
+    "接聽常用 ¿Aló?、以及 vos／usted 的切換，是依中美洲西語習慣整理，未找到官方通話禮儀文件。",
+    "門口、鄰居或貨運代收處為常見做法；各社區是否都有 portería 無法一概而論。"
+  ]
+}

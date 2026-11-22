@@ -1,0 +1,44 @@
+{
+  "name": "Sint Maarten",
+  "name_local": "Sint Maarten",
+  "iso": "sx",
+  "calling_code": "+1-721",
+  "languages": [
+    "en",
+    "nl"
+  ],
+  "prevalence_note": "No Sint Maarten police bulletin was located; the postal operator PSSNV and courier fraud pages are the available references for delivery-fee texts.",
+  "cross_border_note": "Sint Maarten (+1-721) shares the island with French Saint-Martin (+590), so calls from both numbering plans and from the US are routine.",
+  "scams": [
+    {
+      "id": "sx_courier_fee_text",
+      "typology": "fake_customs_parcel",
+      "name": "Courier delivery-fee text",
+      "name_en": "Unexpected courier text demanding a delivery fee or card details in Sint Maarten",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "delivery fee",
+        "courier",
+        "card details"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay delivery fee by card",
+          "weight": 2,
+          "hard": true
+        }
+      ],
+      "signals_en": "An unexpected text claiming a courier or the post needs a small fee or card details before delivering a parcel to Sint Maarten.",
+      "legit_en": "Couriers' fraud pages and PSSNV direct customers to official channels only; unsolicited payment links are not genuine.",
+      "bait_tactics": [
+        "Ask whether PSSNV in Philipsburg or the courier's own desk holds the item",
+        "Say parcels are only paid for at the courier counter"
+      ],
+      "sources": [
+        "https://pssnv.sx/",
+        "https://www.fedex.com/en-sx/trust-center/report-fraud.html"
+      ]
+    }
+  ]
+}

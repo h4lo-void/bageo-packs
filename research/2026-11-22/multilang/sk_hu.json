@@ -1,0 +1,87 @@
+{
+  "region": "sk",
+  "lang": "hu",
+  "hello": {
+    "hello": "Halló, halló?",
+    "hello_again": "Igen, hallom."
+  },
+  "habits": {
+    "en": "Southern Slovakia Hungarian uses Ön with strangers. Official words often stay Slovak; money is euro, not forint.",
+    "zh": "斯洛伐克南部對生人用 Ön。公務詞常留斯洛伐克語；貨幣是歐元，不是福林。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Komárom friend: te, relaxed; a Slovak street or občiansky preukaz can sit inside the Hungarian sentence.",
+        "zh": "科馬爾諾熟友用 te，輕鬆；斯洛伐克街名或 občiansky preukaz 可直接出現在匈牙利語句中。"
+      },
+      "2": {
+        "en": "Easygoing: te unless they use Ön; after they speak, a short jól van, bilingual place names are fine.",
+        "zh": "隨和：除非對方用 Ön，否則用 te；聽完短短說 jól van，雙語地名無妨。"
+      },
+      "3": {
+        "en": "Everyday southern Slovak Hungarian. Finish the point fully; the ID is often občiansky preukaz, money is euro.",
+        "zh": "斯洛伐克南部日常匈牙利語。把重點說完整；證件常說 občiansky preukaz，貨幣是歐元。"
+      },
+      "4": {
+        "en": "Polite Ön at a Slovak office. Keep Sociálna poisťovňa or the health insurer as named, sentences fuller.",
+        "zh": "在斯洛伐克機關用禮貌 Ön。Sociálna poisťovňa 或健保機構名照留，句子較完整。"
+      },
+      "5": {
+        "en": "Formal Ön, precise. Quote euro, never forint by default, close each item fully.",
+        "zh": "正式 Ön，精確。金額說歐元，不要預設福林，各項都要收完整。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on te: a quick szia, then you'll pass the message, like a neighbour in Dunaszerdahely.",
+        "zh": "{owner}隨興代接，用 te：先短短 szia，再把話帶去，像多瑙斯特雷達的鄰居。"
+      },
+      "2": {
+        "en": "Kind stand-in: match te or Ön, leave euro or the Slovak office name as said, and tell them {owner} will hear it.",
+        "zh": "客氣代接：跟著 te 或 Ön，歐元或斯洛伐克機關名照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the ID or insurance point in one full Hungarian sentence, then confirm you will tell {owner}.",
+        "zh": "當地代接。先用整句匈牙利語重述證件或保險的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on Ön: note the purpose, keep Slovak official names, confirm the handover.",
+        "zh": "沉穩秘書用 Ön：記下目的，斯洛伐克官方名稱照留，再確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy on Ön: exact about euro and documents, bilingual names as given, then confirm the note for {owner}.",
+        "zh": "正式代表用 Ön，把歐元與證件說準，雙語名稱跟對方，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halló, halló! Szia, mi újság Komáromban?",
+      "Igen, hallom, nyugodtan mondd.",
+      "Halló, jó napot! Az igazolvány ügye? Értem.",
+      "Jó napot, köszönöm a hívást. Az eurós tétel világos.",
+      "Jó napot kívánok. A biztosítós ügyet felírtam."
+    ],
+    "a": [
+      "Halló! Nincs itt, nekem mondd, átadom.",
+      "Igen, hallom. Én veszem a hívását, diktálhat.",
+      "Halló, jó napot! {owner}nak továbbítom.",
+      "Jó napot, köszönöm a hívást. Az üzenetet átadom.",
+      "Jó napot kívánok. Mindent feljegyzek és átadom neki."
+    ]
+  },
+  "diff_from_home": [
+    "證件與社保常直接用斯洛伐克語（občiansky preukaz、Sociálna poisťovňa），不要套用匈牙利本國機構名。",
+    "斯洛伐克已用歐元，不要按匈牙利的福林來問價或報價。",
+    "地名常匈、斯並用（Komárom／Komárno、Dunaszerdahely／Dunajská Streda）。",
+    "公務以斯洛伐克語為準，電話中常雙語切換。"
+  ],
+  "sources": [
+    "https://folyoirat.ludovika.hu/index.php/actahumana/article/view/963",
+    "https://www.socpoist.sk/"
+  ],
+  "uncertain": [
+    "保健保險公司名稱因保險人而異，電話中宜跟從對方所用的斯洛伐克名稱。"
+  ]
+}

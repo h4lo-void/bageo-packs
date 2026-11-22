@@ -14,7 +14,8 @@
     "pm",
     "nc",
     "pf",
-    "wf"
+    "wf",
+    "tf"
   ],
   "name": {
     "en": "France",
@@ -22,6 +23,10 @@
     "zh": "法國"
   },
   "lang": "fr-FR",
+  "hello": {
+    "hello": "Allô ?",
+    "hello_again": "Allô, vous m'entendez ?"
+  },
   "delivery": {
     "en": "Parcels: a point relais, the gardien or a neighbour",
     "zh": "包裹放 point relais、交給管理員或鄰居"
@@ -89,15 +94,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "point relais",
-      "gardien",
-      "boîte aux lettres"
-    ],
     "bank": [
       "appli bancaire",
       "carte bancaire",
-      "virement"
+      "virement",
+      "RIB",
+      "Livret A",
+      "prélèvement"
+    ],
+    "delivery": [
+      "point relais",
+      "gardien",
+      "boîte aux lettres",
+      "consigne",
+      "La Poste",
+      "Colissimo"
+    ],
+    "government": [
+      "carte d'identité",
+      "FranceConnect",
+      "impôts",
+      "CAF",
+      "préfecture",
+      "passeport"
+    ],
+    "health": [
+      "carte Vitale",
+      "Ameli",
+      "médecin traitant",
+      "pharmacie",
+      "urgences",
+      "ordonnance"
+    ],
+    "telecom": [
+      "forfait",
+      "prépayé",
+      "portabilité",
+      "carte SIM",
+      "opérateur",
+      "data"
+    ],
+    "payment": [
+      "virement",
+      "carte bancaire",
+      "PayPal",
+      "espèces",
+      "prélèvement",
+      "chèque"
+    ],
+    "transport": [
+      "métro",
+      "RER",
+      "bus",
+      "SNCF",
+      "Navigo",
+      "taxi"
+    ],
+    "housing": [
+      "appartement",
+      "gardien",
+      "boîte aux lettres",
+      "interphone",
+      "charges",
+      "syndic"
     ]
   },
   "status": "draft"

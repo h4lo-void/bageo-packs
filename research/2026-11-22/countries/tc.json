@@ -1,0 +1,87 @@
+{
+  "country": "tc",
+  "parent": "us",
+  "name": {
+    "en": "Turks and Caicos Islands",
+    "native": "Turks and Caicos Islands",
+    "zh": "特克斯及凱科斯群島"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Good day",
+    "hello_again": "Good day, hello?"
+  },
+  "delivery": {
+    "en": "Parcels go through the local post or a courier; no official collection guide was found this pass",
+    "zh": "包裹走當地郵局或快遞；官方領件指南此次沒找到"
+  },
+  "readback": {
+    "en": "After 649, numbers go 3-3-4; 0 as zero; US dollars; 12-hour time; day before month",
+    "zh": "649 區碼後照 3-3-4 唸，0 唸 zero；美元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A call spoofing the police or the FSC and asking for bank details or a transfer is a scam",
+    "zh": "偽裝警察或金融服務委員會、要銀行資料或轉帳的電話，都是詐騙"
+  },
+  "habits": {
+    "en": "Polite British-Caribbean English, with amounts in US dollars. Say mobile, not cell. Day first.",
+    "zh": "客氣的英式加勒比英語，金額用美元。說 mobile 不說 cell。日期先日後月。"
+  },
+  "stall_local": {
+    "en": "I would only confirm a government or FSC matter officially, and the bank app just signed me out.",
+    "zh": "政府或金管單位的事只想走正式管道確認，而且銀行 App 剛把我登出。"
+  },
+  "vocab": {
+    "bank": [
+      "US dollars",
+      "debit card",
+      "transfer",
+      "FSC"
+    ],
+    "delivery": [
+      "post office",
+      "courier",
+      "collection",
+      "customs"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "IRS",
+      "reason": {
+        "zh": "美國稅局；本地警示寫的是假冒警察或金融服務委員會"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳工具，不是特克斯及凱科斯官方付款名稱"
+      }
+    },
+    {
+      "word": "East Caribbean dollars",
+      "reason": {
+        "zh": "不是本地貨幣，這裡用美元"
+      }
+    },
+    {
+      "word": "cell",
+      "reason": {
+        "zh": "美式用語，當地較常說 mobile"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Calm and formal. Never treat a caller claiming to be police or the FSC as a reason to move money. Use US dollars, not EC dollars or IRS talk.",
+    "zh": "沉穩、正式。自稱警察或金管會不能成為立刻轉錢的理由。金額用美元，不要說東加勒比元或 IRS。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.tcifsc.tc/assets/documents/FSC-URGES-TCI-TO-REMAIN-VIGILANT-AGAINST-SCAM-CALLS--20260722005749.pdf",
+    "https://www.tcifsc.tc/"
+  ],
+  "uncertain": [
+    "郵政投遞細節此次沒找到官方指南。",
+    "FSC 公示是 PDF 警示，電話裡實際用詞可能比摘述更廣。"
+  ]
+}

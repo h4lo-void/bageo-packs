@@ -1,0 +1,296 @@
+{
+  "lang": "lb",
+  "backchannels": {
+    "direction": "No ranked Lëtzebuergesch call corpus was found; jo keeps a line open. A clipped jo, jo can sound hurried.",
+    "examples": [
+      {
+        "text": "Jo, ech héieren.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Jo, an ech sinn nach do.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Genau esou.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Verstan.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Jo, jo.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Eescht? marks surprise; dat ass schued is everyday sympathy, and vill Gléck a congratulation.",
+    "examples": [
+      {
+        "text": "Eescht?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Würklech?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Dat ass schued.",
+        "style": "casual",
+        "function": "sympathy"
+      },
+      {
+        "text": "Et deet mer leed, dat ze héieren.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Super, gudde Message!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Vill Gléck.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Dat gëtt schwéier.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "A teaching list gives ech kann Iech net gutt héieren; ask them to speak up, rather than pausing the call.",
+    "examples": [
+      {
+        "text": "Ech kann Iech net gutt héieren.",
+        "style": "polite"
+      },
+      {
+        "text": "Ech héieren Iech schlecht.",
+        "style": "polite"
+      },
+      {
+        "text": "D'Verbindung ass schlecht.",
+        "style": "casual"
+      },
+      {
+        "text": "Kënnt Dir e bësse méi laut schwätzen?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Wiktionary has ech verstinn net; kënnt Dir dat widderhuelen, w.e.g.? asks a replay, and 12345678 may be said once more.",
+    "examples": [
+      {
+        "text": "Ech verstinn net.",
+        "style": "casual"
+      },
+      {
+        "text": "Dat hunn ech net verstanen.",
+        "style": "polite"
+      },
+      {
+        "text": "Kënnt Dir dat widderhuelen, w.e.g.?",
+        "style": "polite"
+      },
+      {
+        "text": "D'Nummer nach eng Kéier: ass et 12345678?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Wien ass um Apparat? is the usual probe after an unnamed request; on a shared handset, name {owner} first.",
+    "examples": [
+      {
+        "text": "Wien ass um Apparat?",
+        "style": "polite"
+      },
+      {
+        "text": "Mat wiem schwätzen ech, w.e.g.?",
+        "style": "polite"
+      },
+      {
+        "text": "Dat ass {owner} säin Telefon. Wien ass um Apparat?",
+        "style": "polite"
+      },
+      {
+        "text": "Wien ass dat?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "LOD models entschëllegt, ech hunn dee falschen Nummero gewielt, then a short close.",
+    "examples": [
+      {
+        "text": "Entschëllegt, ech hunn dee falschen Nummero gewielt!",
+        "style": "polite"
+      },
+      {
+        "text": "Dir hutt déi falsch Nummer.",
+        "style": "polite"
+      },
+      {
+        "text": "Hei ass kee mat deem Numm.",
+        "style": "polite"
+      },
+      {
+        "text": "Falsch Nummer, entschëllegt.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Soll ech him e Message hannerloossen, or soen {owner}, passes the news; that alone sets no time to ring back.",
+    "examples": [
+      {
+        "text": "Soll ech him e Message hannerloossen?",
+        "style": "polite"
+      },
+      {
+        "text": "Ech soen et dem {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ech soen, datt Dir ugeruff hutt.",
+        "style": "polite"
+      },
+      {
+        "text": "Ech ginn et weider.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nee, merci, ech sinn net interesséiert closes a pitch; extra reasons can sound like bargaining.",
+    "examples": [
+      {
+        "text": "Nee, merci, ech sinn net interesséiert.",
+        "style": "polite"
+      },
+      {
+        "text": "Merci, mir brauchen dat net.",
+        "style": "polite"
+      },
+      {
+        "text": "Ech sinn net interesséiert, merci.",
+        "style": "casual"
+      },
+      {
+        "text": "Huel mer w.e.g. vun der Lëscht erof.",
+        "style": "polite"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "A second nee often adds rufft w.e.g. dës Nummer net méi un, still with Dir.",
+    "examples": [
+      {
+        "text": "Ech hunn schonn nee gesot. Rufft w.e.g. dës Nummer net méi un.",
+        "style": "polite"
+      },
+      {
+        "text": "Ech sinn net interesséiert, an ech bieden Iech, opzehalen ze ruffen.",
+        "style": "polite"
+      },
+      {
+        "text": "Ruff w.e.g. net méi un.",
+        "style": "casual"
+      },
+      {
+        "text": "Dat ass e leschten Nee. Kontaktéiert eis net méi.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Dir is safer with strangers; du waits for familiars. Här or Madamm plus a surname stays careful.",
+    "examples": [
+      {
+        "text": "Här.",
+        "style": "polite"
+      },
+      {
+        "text": "Madamm.",
+        "style": "polite"
+      },
+      {
+        "text": "Här Dokter.",
+        "style": "polite"
+      },
+      {
+        "text": "Dir.",
+        "style": "polite"
+      },
+      {
+        "text": "Du, wéi geet et?",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "A line like wat kann ech fir Iech maachen, or merci fir Ären Uruff, sounds like a Firma desk on a private Handy.",
+    "examples": [
+      {
+        "text": "Wat kann ech fir Iech maachen?",
+        "style": "polite"
+      },
+      {
+        "text": "Merci fir Ären Uruff.",
+        "style": "polite"
+      },
+      {
+        "text": "Ären Uruff ass eis wichteg.",
+        "style": "polite"
+      },
+      {
+        "text": "Merci, datt Dir beim Büro vum {owner} urufft.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to du too soon, or asking for a Sozialversicherungsnummer or pay at the start, feels intrusive.",
+    "examples": [
+      {
+        "text": "Bass du bestuet? Wat verdéngs du?",
+        "style": "casual"
+      },
+      {
+        "text": "Firwat huet {owner} net zeréckgeruff? So mer, wou e elo ass.",
+        "style": "casual"
+      },
+      {
+        "text": "Gitt mer éischt Är Sozialversicherungsnummer an d'Adress.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://lod.lu/artikel/NUMMERO1",
+    "https://lod.lu/artikel/TELEFON1",
+    "https://lod.lu/artikel/URUFFEN1",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://luxembourgishwithanne.lu/conversation/how-to-answer-the-phone-in-luxembourgish/",
+    "https://luxembourgishwithanne.lu/a2/15-sentences-and-1-conversation-for-making-formal-phone-calls-in-luxembourgish/"
+  ],
+  "uncertain": [
+    "未找到盧森堡語私人電話相槌頻率表；jo 依會話習慣，不是語料庫排序。",
+    "部分電話套語引自教學網站 Luxembourgish With Anne，不是官方電信稿；其中請人在線上短暫停留或說自己去查的句子，本檔完全不用。",
+    "拒推銷用語沒有監管機構腳本，例句依普通禮貌拒絕。"
+  ]
+}

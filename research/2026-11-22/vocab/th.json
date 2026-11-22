@@ -1,0 +1,455 @@
+{
+  "region": "th",
+  "vocab": {
+    "th-TH": {
+      "bank": [
+        {
+          "term": "พร้อมเพย์",
+          "en": "PromptPay instant transfer by mobile number or ID (พร้อมเพย์)"
+        },
+        {
+          "term": "แอปธนาคาร",
+          "en": "bank app (แอปธนาคาร)"
+        },
+        {
+          "term": "โอนเงิน",
+          "en": "bank transfer (โอนเงิน)"
+        },
+        {
+          "term": "บัญชี",
+          "en": "bank account (บัญชี)"
+        },
+        {
+          "term": "สมุดบัญชี",
+          "en": "passbook (สมุดบัญชี)"
+        },
+        {
+          "term": "บัตรเดบิต",
+          "en": "debit card (บัตรเดบิต)"
+        },
+        {
+          "term": "OTP",
+          "en": "OTP"
+        },
+        {
+          "term": "ยอดเงิน",
+          "en": "account balance (ยอดเงิน)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "นิติบุคคล",
+          "en": "condo juristic-person office, common parcel drop-off (นิติบุคคล)"
+        },
+        {
+          "term": "ป้อม รปภ.",
+          "en": "security-guard booth (ป้อม รปภ.)"
+        },
+        {
+          "term": "หน้าประตู",
+          "en": "at the door (หน้าประตู)"
+        },
+        {
+          "term": "ไปรษณีย์",
+          "en": "Thailand Post (ไปรษณีย์)"
+        },
+        {
+          "term": "ล็อกเกอร์",
+          "en": "parcel locker (ล็อกเกอร์)"
+        },
+        {
+          "term": "Kerry",
+          "en": "widely used courier brand (Kerry)"
+        },
+        {
+          "term": "Flash Express",
+          "en": "widely used courier brand (Flash Express)"
+        },
+        {
+          "term": "เลขพัสดุ",
+          "en": "tracking number (เลขพัสดุ)"
+        }
+      ],
+      "government": [
+        {
+          "term": "บัตรประชาชน",
+          "en": "national ID card (บัตรประชาชน)"
+        },
+        {
+          "term": "ทะเบียนบ้าน",
+          "en": "house registration book (ทะเบียนบ้าน)"
+        },
+        {
+          "term": "สำนักงานเขต",
+          "en": "district office, in Bangkok (สำนักงานเขต)"
+        },
+        {
+          "term": "ที่ว่าการอำเภอ",
+          "en": "district office outside Bangkok (ที่ว่าการอำเภอ)"
+        },
+        {
+          "term": "พาสปอร์ต",
+          "en": "passport (พาสปอร์ต)"
+        },
+        {
+          "term": "ภาษี",
+          "en": "tax (ภาษี)"
+        },
+        {
+          "term": "กรมการขนส่ง",
+          "en": "Department of Land Transport, for vehicle papers (กรมการขนส่ง)"
+        }
+      ],
+      "health": [
+        {
+          "term": "บัตรทอง",
+          "en": "universal coverage / 30-baht scheme card, also สิทธิ 30 บาท (บัตรทอง)"
+        },
+        {
+          "term": "โรงพยาบาล",
+          "en": "hospital (โรงพยาบาล)"
+        },
+        {
+          "term": "คลินิก",
+          "en": "clinic (คลินิก)"
+        },
+        {
+          "term": "ร้านยา",
+          "en": "pharmacy (ร้านยา)"
+        },
+        {
+          "term": "ห้องฉุกเฉิน",
+          "en": "emergency room (ห้องฉุกเฉิน)"
+        },
+        {
+          "term": "นัดหมอ",
+          "en": "doctor appointment (นัดหมอ)"
+        },
+        {
+          "term": "ประกันสังคม",
+          "en": "social security medical entitlement (ประกันสังคม)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "เติมเงิน",
+          "en": "top up prepaid credit (เติมเงิน)"
+        },
+        {
+          "term": "รายเดือน",
+          "en": "postpaid plan (รายเดือน)"
+        },
+        {
+          "term": "ย้ายค่าย",
+          "en": "number portability (ย้ายค่าย)"
+        },
+        {
+          "term": "ซิม",
+          "en": "SIM card (ซิม)"
+        },
+        {
+          "term": "เน็ต",
+          "en": "mobile data (เน็ต)"
+        },
+        {
+          "term": "แพ็กเกจ",
+          "en": "mobile package (แพ็กเกจ)"
+        },
+        {
+          "term": "ค่ายมือถือ",
+          "en": "mobile operator (ค่ายมือถือ)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "พร้อมเพย์",
+          "en": "PromptPay (พร้อมเพย์)"
+        },
+        {
+          "term": "สแกน QR",
+          "en": "pay by QR code (สแกน QR)"
+        },
+        {
+          "term": "TrueMoney",
+          "en": "TrueMoney wallet"
+        },
+        {
+          "term": "Rabbit LINE Pay",
+          "en": "Rabbit LINE Pay wallet"
+        },
+        {
+          "term": "โอนเงิน",
+          "en": "transfer (โอนเงิน)"
+        },
+        {
+          "term": "เงินสด",
+          "en": "cash (เงินสด)"
+        },
+        {
+          "term": "บัตรเครดิต",
+          "en": "credit card (บัตรเครดิต)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "BTS",
+          "en": "Bangkok skytrain (BTS)"
+        },
+        {
+          "term": "MRT",
+          "en": "Bangkok metro (MRT)"
+        },
+        {
+          "term": "รถเมล์",
+          "en": "city bus (รถเมล์)"
+        },
+        {
+          "term": "Grab",
+          "en": "ride-hailing (Grab) [Thailand]"
+        },
+        {
+          "term": "แท็กซี่",
+          "en": "taxi (แท็กซี่)"
+        },
+        {
+          "term": "มอเตอร์ไซค์รับจ้าง",
+          "en": "motorcycle taxi (มอเตอร์ไซค์รับจ้าง)"
+        },
+        {
+          "term": "Rabbit Card",
+          "en": "BTS stored-value card (Rabbit Card)"
+        },
+        {
+          "term": "รถไฟ",
+          "en": "train (รถไฟ)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "คอนโด",
+          "en": "condominium (คอนโด)"
+        },
+        {
+          "term": "นิติบุคคล",
+          "en": "juristic office of the building (นิติบุคคล)"
+        },
+        {
+          "term": "รปภ.",
+          "en": "security guard (รปภ.)"
+        },
+        {
+          "term": "คีย์การ์ด",
+          "en": "access card (คีย์การ์ด)"
+        },
+        {
+          "term": "ตู้จดหมาย",
+          "en": "mailbox (ตู้จดหมาย)"
+        },
+        {
+          "term": "หมู่บ้าน",
+          "en": "gated housing estate (หมู่บ้าน)"
+        },
+        {
+          "term": "บ้าน",
+          "en": "house (บ้าน)"
+        },
+        {
+          "term": "อินเตอร์คอม",
+          "en": "intercom (อินเตอร์คอม)"
+        }
+      ],
+      "school": [
+        {
+          "term": "กวดวิชา",
+          "en": "cram school / tutoring (กวดวิชา)"
+        },
+        {
+          "term": "ประถม",
+          "en": "primary school (ประถม)"
+        },
+        {
+          "term": "มัธยม",
+          "en": "secondary school (มัธยม)"
+        },
+        {
+          "term": "อนุบาล",
+          "en": "kindergarten (อนุบาล)"
+        },
+        {
+          "term": "ครูประจำชั้น",
+          "en": "homeroom teacher (ครูประจำชั้น)"
+        },
+        {
+          "term": "การบ้าน",
+          "en": "homework (การบ้าน)"
+        },
+        {
+          "term": "รับน้อง",
+          "en": "after-school pickup, also รับเด็ก (รับน้อง)"
+        }
+      ],
+      "money": [
+        {
+          "term": "บาท",
+          "en": "baht (บาท)"
+        },
+        {
+          "term": "หมื่น",
+          "en": "ten thousand, common large-amount unit (หมื่น)"
+        },
+        {
+          "term": "แสน",
+          "en": "hundred thousand (แสน)"
+        },
+        {
+          "term": "ล้าน",
+          "en": "million (ล้าน)"
+        },
+        {
+          "term": "โอน",
+          "en": "transfer money (โอน)"
+        },
+        {
+          "term": "เงินทอน",
+          "en": "change (เงินทอน)"
+        },
+        {
+          "term": "เงินสด",
+          "en": "cash (เงินสด)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "เช้า",
+          "en": "morning (เช้า)"
+        },
+        {
+          "term": "บ่าย",
+          "en": "afternoon (บ่าย)"
+        },
+        {
+          "term": "เย็น",
+          "en": "early evening (เย็น)"
+        },
+        {
+          "term": "วันธรรมดา",
+          "en": "weekday (วันธรรมดา)"
+        },
+        {
+          "term": "เสาร์อาทิตย์",
+          "en": "weekend (เสาร์อาทิตย์)"
+        },
+        {
+          "term": "สัปดาห์นี้",
+          "en": "this week (สัปดาห์นี้)"
+        },
+        {
+          "term": "หลังเลิกงาน",
+          "en": "after work (หลังเลิกงาน)"
+        },
+        {
+          "term": "เย็นนี้",
+          "en": "this evening (เย็นนี้)"
+        }
+      ],
+      "work": [
+        {
+          "term": "ไปทำงาน",
+          "en": "go to work (ไปทำงาน)"
+        },
+        {
+          "term": "เลิกงาน",
+          "en": "finish work (เลิกงาน)"
+        },
+        {
+          "term": "โอที",
+          "en": "overtime (โอที)"
+        },
+        {
+          "term": "ลางาน",
+          "en": "request leave (ลางาน)"
+        },
+        {
+          "term": "บริษัท",
+          "en": "company (บริษัท)"
+        },
+        {
+          "term": "หัวหน้า",
+          "en": "supervisor (หัวหน้า)"
+        },
+        {
+          "term": "ออกต่างจังหวัด",
+          "en": "work trip upcountry (ออกต่างจังหวัด)"
+        },
+        {
+          "term": "ทำงานที่บ้าน",
+          "en": "work from home (ทำงานที่บ้าน)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "PayNow",
+      "use_instead": "พร้อมเพย์",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "DuitNow",
+      "use_instead": "พร้อมเพย์",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "UPI",
+      "use_instead": "พร้อมเพย์",
+      "where_it_is_from": "IN"
+    },
+    {
+      "word": "นิติบุคคล 當公司稅號來喊貨",
+      "use_instead": "送貨到公寓時，นิติบุคคล 多半指管委會辦公室",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "微信支付",
+      "use_instead": "พร้อมเพย์、TrueMoney",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "ringgit",
+      "use_instead": "บาท",
+      "where_it_is_from": "MY"
+    },
+    {
+      "word": "HDB",
+      "use_instead": "คอนโด、หมู่บ้าน、อพาร์ตเมนต์",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "Grab 以外只說 Uber",
+      "use_instead": "Grab、แท็กซี่、มอเตอร์ไซค์รับจ้าง",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "MRT 當成新加坡或台灣捷運系統名",
+      "use_instead": "在曼谷可說 MRT 或 รถไฟฟ้าใต้ดิน，外府常是 รถเมล์、รถไฟ",
+      "where_it_is_from": "SG"
+    },
+    {
+      "word": "Yen",
+      "use_instead": "บาท",
+      "where_it_is_from": "JP"
+    }
+  ],
+  "sources": [
+    "https://www.bot.or.th/th/financial-innovation/digital-finance/digital-payment/promptpay.html",
+    "https://www.bot.or.th/content/dam/bot/documents/th/financial-innovation/digital-finance-and-payment/promptpay/PromptPay-For-Corporate.pdf",
+    "https://www.rabbit.co.th/rabbit-user-guide",
+    "https://www.thailandpost.co.th/",
+    "https://www.dopa.go.th/",
+    "https://www.scb.co.th/th/sme-banking/services/business-collection/scb-business-promptpay"
+  ],
+  "uncertain": [
+    "「บัตรทอง」與「สิทธิ 30 บาท」並用，不同年齡層口語不一致。",
+    "外府很少說 BTS/MRT，這組交通詞以曼谷為主。"
+  ]
+}

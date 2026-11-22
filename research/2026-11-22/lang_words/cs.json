@@ -1,0 +1,251 @@
+{
+  "lang": "cs",
+  "script": "latin",
+  "common_words": [
+    "jsem",
+    "jsi",
+    "jsme",
+    "jste",
+    "co",
+    "když",
+    "jen",
+    "tady",
+    "teď",
+    "tohle",
+    "proč",
+    "ještě",
+    "protože",
+    "můžu",
+    "děkuji",
+    "nashledanou",
+    "zítra",
+    "já",
+    "mě",
+    "mně",
+    "který",
+    "tato",
+    "potřebuji",
+    "chtěl",
+    "lékař",
+    "už ne",
+    "dobře",
+    "ano",
+    "ne",
+    "jak",
+    "česky",
+    "paní",
+    "pane",
+    "řekněte",
+    "něco",
+    "není",
+    "nebo",
+    "kdo",
+    "díky",
+    "jako",
+    "nic",
+    "můj",
+    "pro",
+    "tě"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/cs/cs_50k.txt",
+  "shared_words": [
+    {
+      "word": "to",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "je",
+      "also_in": [
+        "sk",
+        "sl",
+        "hr"
+      ]
+    },
+    {
+      "word": "a",
+      "also_in": [
+        "sk",
+        "sl",
+        "hr"
+      ]
+    },
+    {
+      "word": "na",
+      "also_in": [
+        "sk",
+        "sl",
+        "hr"
+      ]
+    },
+    {
+      "word": "se",
+      "also_in": [
+        "sk",
+        "sl"
+      ]
+    },
+    {
+      "word": "už",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "dobře",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "ano",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "ne",
+      "also_in": [
+        "sk",
+        "sl",
+        "hr",
+        "sr"
+      ]
+    },
+    {
+      "word": "prosím",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "ahoj",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "dnes",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "včera",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "ráno",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "večer",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "nikdy",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "vždy",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "vy",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "vás",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "objednávka",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "balík",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "kde",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "kam",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "číslo",
+      "also_in": [
+        "sk"
+      ]
+    },
+    {
+      "word": "adresa",
+      "also_in": [
+        "sk"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "ě",
+    "ř",
+    "ů"
+  ],
+  "confusable_with": [
+    "sk",
+    "sl",
+    "hr",
+    "pl"
+  ],
+  "how_to_tell_apart": "Czech shows itself with jsem/jsi rather than Slovak som/si, co rather than čo, když rather than keď, jen rather than len, tady/teď/tohle rather than tu/teraz/toto, and the letters ě, ř and ů, which standard Slovak does not use. Shared short items such as to, je, na, už and ne are not decisive. Polish (already in the reference lists) also shares some Slavic function words but not ě/ř/ů or the forms above.",
+  "test_said": [
+    "Klíče mi vypadly v tramvaji a chtěl bych vědět kam je odevzdat.",
+    "Máte ještě volné vstupenky na zítřejší odpolední představení?",
+    "Opravář pračky měl přijet mezi desátou a polednem a ještě tu nebyl.",
+    "Knihy z toho eshopu dorazily s utrženou obálkou a pomačkanými deskami.",
+    "Na ORL potřebuji vyšetření protože mě už týden bolí ucho.",
+    "Chci se objednat na alergologické očkování začátkem příštího měsíce.",
+    "Kreditní kartu si zakládat nebudu a o další nabídky nestojím.",
+    "Změnu dodavatele elektřiny jsem nechtěl a tu smlouvu nepodepíšu."
+  ],
+  "test_not_enough": [
+    "Jana",
+    "ok",
+    "osm",
+    "taxi"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/cs/cs_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Czech_orthography",
+    "https://en.wikipedia.org/wiki/Comparison_of_Czech_and_Slovak"
+  ],
+  "uncertain": [
+    "OpenSubtitles Czech includes many film interjections (jo, no) that also occur in Slovak speech, so they were kept out of common_words.",
+    "Border dialects mix Czech and Slovak forms; the cues above follow the standard written varieties."
+  ]
+}

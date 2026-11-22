@@ -1,0 +1,116 @@
+{
+  "lang": "et",
+  "script": "latin",
+  "common_words": [
+    "ma",
+    "sa",
+    "olen",
+    "oled",
+    "ei",
+    "pole",
+    "mis",
+    "mida",
+    "et",
+    "kui",
+    "kas",
+    "me",
+    "te",
+    "tänan",
+    "palun",
+    "tere",
+    "vabandust",
+    "aitäh",
+    "miks",
+    "kuidas",
+    "siin",
+    "mina",
+    "sina",
+    "teie",
+    "täna",
+    "homme",
+    "eile",
+    "hommikul",
+    "õhtul",
+    "sest",
+    "ilma",
+    "alati",
+    "mitte kunagi",
+    "number",
+    "aadress",
+    "arst",
+    "pakk",
+    "tellimus",
+    "vajan",
+    "võin",
+    "jah",
+    "ei ole",
+    "see",
+    "siis",
+    "aga",
+    "oma",
+    "kõik",
+    "nüüd",
+    "kus",
+    "kellele"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/et/et_50k.txt",
+  "shared_words": [
+    {
+      "word": "ja",
+      "also_in": [
+        "fi"
+      ]
+    },
+    {
+      "word": "on",
+      "also_in": [
+        "fi"
+      ]
+    },
+    {
+      "word": "ei",
+      "also_in": [
+        "fi"
+      ]
+    },
+    {
+      "word": "olen",
+      "also_in": [
+        "fi"
+      ]
+    }
+  ],
+  "unique_letters": [
+    "õ"
+  ],
+  "confusable_with": [
+    "fi"
+  ],
+  "how_to_tell_apart": "The letter õ is the fastest written test against Finnish, which has ä and ö but not õ (Estonian uses all three, plus ü). In the function words, prefer ma/sa, kas, pole, mis, tänan or aitäh, palun, tere, homme and õhtul over Finnish minä/sinä, mitä, kiitos and huomenna. ja, on, ei and even olen occur in both and should be ignored when scoring.",
+  "test_said": [
+    "Kas homseks on linnasaunas veel mõni vaba aeg pärast kella kuut?",
+    "Korteriühistule teatan et trepikojas tilgub vett laest juba teisest päevast.",
+    "Pakiautomaat jättis ukse lukku kuigi teate kood oli ekraanil näha.",
+    "Kasutatud diivani peaksite peale võtma õuest sest treppi see ei mahu.",
+    "Hambaarstile vajan rutulist aega sest hammas on paisunud ja valutab.",
+    "Kooli jaoks on tarvis vaktsineerimistõendit ja küsin kas saate selle saata.",
+    "Ajakirja püsitellimust ma ei soovi ja seda numbrit palun mitte kasutada müügiks.",
+    "Jõusaalilepingut ma ei pikenda seega kampaaniakõnesid enam vaja ei ole."
+  ],
+  "test_not_enough": [
+    "Kati",
+    "ok",
+    "kolm",
+    "internet"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/et/et_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Estonian_orthography",
+    "https://en.wikipedia.org/wiki/Estonian_language"
+  ],
+  "uncertain": [
+    "ü, ä and ö also appear in German and Finnish, so only õ is listed under unique_letters.",
+    "aitäh and tänan both appear in the subtitle list for thanks; spoken calls may use either, or palun in some polite replies."
+  ]
+}

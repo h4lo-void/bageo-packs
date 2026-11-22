@@ -1,0 +1,88 @@
+{
+  "country": "bm",
+  "parent": "us",
+  "name": {
+    "en": "Bermuda",
+    "native": "Bermuda",
+    "zh": "百慕達"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello, good afternoon",
+    "hello_again": "Hello, can you hear me?"
+  },
+  "delivery": {
+    "en": "Official parcel notices come via the Bermuda Post Office, not a WhatsApp duty demand",
+    "zh": "正式包裹通知走百慕達郵政；WhatsApp 要你付關稅的不是投遞通知"
+  },
+  "readback": {
+    "en": "After 441, numbers go 3-3-4; 0 as zero; Bermuda dollars; 12-hour time; day before month",
+    "zh": "441 區碼後照 3-3-4 唸，0 唸 zero；百慕達元；12 時制；先日後月"
+  },
+  "fraud": {
+    "en": "A WhatsApp or text claiming the Bermuda Post Office needs customs duties through a link is a scam",
+    "zh": "WhatsApp 或簡訊自稱百慕達郵政，要你點連結付關稅，都是詐騙"
+  },
+  "habits": {
+    "en": "Quite formal: Good afternoon with strangers. British-leaning English. Money is in Bermuda dollars, not US dollars.",
+    "zh": "相當正式，對不熟的人說 Good afternoon。英語偏英式。貨幣是百慕達元，不是美元。"
+  },
+  "stall_local": {
+    "en": "The bank sign-in will not finish, and a parcel can only be confirmed at the Bermuda Post Office.",
+    "zh": "卡在銀行登入一直完不成，而且包裹只能透過百慕達郵政正式管道確認。"
+  },
+  "vocab": {
+    "bank": [
+      "Bermuda dollars",
+      "debit card",
+      "online banking",
+      "transfer"
+    ],
+    "delivery": [
+      "Bermuda Post Office",
+      "customs",
+      "collection",
+      "official notice"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "front porch",
+      "reason": {
+        "zh": "美國門廊交件；百慕達官方包裹通知是走郵政管道，不是門廊櫃"
+      }
+    },
+    {
+      "word": "Zelle",
+      "reason": {
+        "zh": "美國轉帳品牌，不是百慕達銀行的慣用說法"
+      }
+    },
+    {
+      "word": "Medicare",
+      "reason": {
+        "zh": "美國聯邦健保，不宜套進百慕達電話"
+      }
+    },
+    {
+      "word": "zip code",
+      "reason": {
+        "zh": "美式郵遞區號；當地較常說地址或郵政局"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Sit up a register from casual US English. Titles and Good afternoon come more naturally. Speak of Bermuda dollars and the Bermuda Post Office, not IRS refunds or porch lockers.",
+    "zh": "比隨興的美國英語再正經一檔。頭銜與 Good afternoon 更自然。說百慕達元和百慕達郵政，不要講 IRS 退稅或門廊包裹櫃。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gov.bm/news/public-advisory-beware-fraudulent-whatsapp-message-claiming-be-bermuda-post-office",
+    "https://www.gov.bm/articles/how-avoid-and-report-scams",
+    "https://www.gov.bm/news/bermuda-police-service-bermuda-bankers-association-and-ageing-and-disability-services"
+  ],
+  "uncertain": [
+    "包裹是送到府還是多半到郵局領，官方防詐文沒有細寫投遞比例。",
+    "日期口頭順序是依百慕達偏英式習慣推得，不是電信規範。"
+  ]
+}

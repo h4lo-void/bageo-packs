@@ -1,0 +1,94 @@
+{
+  "country": "gt",
+  "parent": "latam",
+  "name": {
+    "en": "Guatemala",
+    "native": "Guatemala",
+    "zh": "瓜地馬拉"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Collect at a Correos de Guatemala agency, or leave it with the portero or a neighbour",
+    "zh": "到 Correos de Guatemala 支局領，或交給門房、鄰居"
+  },
+  "readback": {
+    "en": "After 502, local numbers are eight digits, often read 4-4; 0 as cero; amounts in quetzales",
+    "zh": "502 之後是八位號碼，口頭常 4-4 唸，0 唸 cero；金額用格查爾"
+  },
+  "fraud": {
+    "en": "A call about Bono 14 or another official payout that asks for codes or a transfer is a scam",
+    "zh": "打來談 Bono 14 或其他官方給付、卻要驗證碼或轉帳的，都是詐騙"
+  },
+  "habits": {
+    "en": "Vos with family and friends; usted with strangers and elders. Pay and talk in quetzales, not lempiras or Nequi.",
+    "zh": "親友用 vos，陌生人與長輩用 usted。金額說格查爾，不要說倫皮拉或 Nequi。"
+  },
+  "stall_local": {
+    "en": "The portón is shut, and I cannot get my bank app to open on weak data.",
+    "zh": "大門 portón 關著，而且收訊差，銀行 App 打不開。"
+  },
+  "vocab": {
+    "bank": [
+      "transferencia",
+      "tarjeta",
+      "clave",
+      "cuenta",
+      "remesa"
+    ],
+    "delivery": [
+      "portero",
+      "portería",
+      "tienda",
+      "vecino",
+      "agencia"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "預設 tú",
+      "reason": {
+        "zh": "本國熟人更常用 vos，tú 可能聽來不像當地人。"
+      }
+    },
+    {
+      "word": "vosotros / vale / ordenador",
+      "reason": {
+        "zh": "這是西班牙說法，本國與所屬地區一樣不用。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift levels 1–3 to vos with peers, not the parent's tú default; usted for strangers stays at 4–5. Do not use tú unless the caller already does.",
+    "zh": "1～3 格對同輩改用 vos，不要照所屬地區預設 tú；陌生人與 4～5 格用 usted。除非對方已在用 tú，否則不要改 tú。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.nuestrodiario.com/guatemala/20260709/65604233/pnc-alerta-por-aumento-de-estafas-durante-pago-del-bono-14",
+    "https://correos.gob.gt/",
+    "https://correos.gob.gt/seguimiento-de-envios/",
+    "https://www.banguat.gob.gt/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "RAE 未特別寫瓜地馬拉接電話用語；hello 用 aló，是否也說 bueno 缺少統計。",
+    "此次未找到瓜地馬拉銀行公會最新電話詐騙專頁，詐騙欄依地區常見的假銀行／匯款／中獎手法。",
+    "原民語言常有人說，但不在支援清單，本檔未列個別詞彙。",
+    "Bono 14 相關電話詐騙依當地媒體轉述的國家民警警示；官方原文頁此次未另開到。",
+    "八位號碼與口頭 4-4 分組，是依 Banco de Guatemala 官網把對外電話寫成（502）後接八位、中間分組的方式推得，不是獨立的電信規範頁。",
+    "portero 交件未在 Correos de Guatemala 頁寫明，只作為常見說法保留。",
+    "親友用 vos、對生人用 usted，與宏都拉斯、尼加拉瓜同屬中美洲 voseo 習慣；此檔句子已改寫並補上格查爾細節。"
+  ]
+}

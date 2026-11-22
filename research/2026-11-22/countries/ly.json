@@ -1,0 +1,98 @@
+{
+  "country": "ly",
+  "parent": "maghreb",
+  "name": {
+    "en": "Libya",
+    "native": "ليبيا",
+    "zh": "利比亞"
+  },
+  "lang": "ar",
+  "hello": {
+    "hello": "ألو؟",
+    "hello_again": "ألو، تسمعني؟"
+  },
+  "delivery": {
+    "en": "Parcels: the door, a neighbour, or a Libya Post office",
+    "zh": "包裹交門口、鄰居，或到利比亞郵局領取"
+  },
+  "readback": {
+    "en": "Phone numbers go in short groups; 0 as صفر; amounts in dinars",
+    "zh": "電話分短組唸，0 唸 صفر；金額用第納爾"
+  },
+  "fraud": {
+    "en": "A Libya Post delivery fee, or a bank asking for an OTP or card data, is a scam",
+    "zh": "冒充利比亞郵局要補運費，或銀行要 OTP、卡號的都是詐騙"
+  },
+  "habits": {
+    "en": "Use Libyan Arabic; less French than other Maghreb countries. Stay formal with strangers. Skip Amana and D17.",
+    "zh": "用利比亞阿拉伯語，法語夾雜較少。對陌生人保持敬語。不用 Amana、D17。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a weak-data bank app, an SMS code that never arrives, or missing glasses.",
+    "zh": "卡在網路差銀行 App 打不開、簡訊碼沒到、找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "بطاقة",
+      "OTP",
+      "تحويل"
+    ],
+    "delivery": [
+      "الباب",
+      "الجيران",
+      "بريد ليبيا"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Amana",
+      "reason": {
+        "en": "Moroccan postal brand",
+        "zh": "摩洛哥郵政品牌"
+      }
+    },
+    {
+      "word": "D17",
+      "reason": {
+        "en": "Moroccan payment service",
+        "zh": "摩洛哥支付服務"
+      }
+    },
+    {
+      "word": "CIH",
+      "reason": {
+        "en": "Moroccan bank",
+        "zh": "摩洛哥銀行"
+      }
+    },
+    {
+      "word": "Attijariwafa",
+      "reason": {
+        "en": "Moroccan bank group",
+        "zh": "摩洛哥銀行集團"
+      }
+    },
+    {
+      "word": "gardien",
+      "reason": {
+        "en": "French door-staff term more typical of other Maghreb cities",
+        "zh": "法語門房用語，較常見於其他馬格里布城市"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "More Arabic-forward and less French-mixed than the Morocco-centred parent. Keep courtesy brief and formal with strangers.",
+    "zh": "比以摩洛哥為主的所屬地區更常純用阿拉伯語、少夾法語。客套要短，對陌生人保持正式。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://libyapost.ly/",
+    "https://www.ncb.ly/en/help-and-support/digital-safety",
+    "https://libyaobserver.ly/crimes/financial-crimes-authority-warns-surge-bank-fraud-attempts",
+    "https://www.group-ib.com/blog/mea-shipment-tracking-scam/"
+  ],
+  "uncertain": [
+    "利比亞日常取件點與電話問候細節的公開資料較少；門房制度是否普遍無法確認。",
+    "常用行動錢包名稱此次未找到足夠穩妥的單一官方來源，故銀行詞彙只用通用說法。"
+  ]
+}

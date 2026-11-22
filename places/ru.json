@@ -1,0 +1,661 @@
+{
+  "region": "ru",
+  "countries": [
+    "ru",
+    "kz",
+    "kg"
+  ],
+  "region_name_zh": "俄羅斯（含哈薩克、吉爾吉斯俄語通話）",
+  "region_name": "Russia (incl. Russian-language calls in Kazakhstan and Kyrgyzstan)",
+  "languages": [
+    {
+      "code": "ru",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite standard Russian (ru) everywhere in the region; in Kazakhstan and Kyrgyzstan Russian is the default business language in cities, while Kazakh/Kyrgyz may be preferred in some villages and state offices (kz, kg).",
+  "english_ok": "rarely — Workable at large international hotels and some upscale Moscow/St Petersburg restaurants; very limited at clinics, garages, taxis and state offices.",
+  "politeness": "Formal 'Вы' with strangers; open with 'Здравствуйте' and say on whose behalf you call; first name + patronymic is the respectful address for older staff; close with 'Спасибо, до свидания'. Tone is brisk and businesslike.",
+  "name_tip": "Bookings go 'на фамилию …' (surname); surnames change by gender (-ов/-ова, -ин/-ина), so give the exact form; spell Latin names letter by letter and expect Cyrillic transcription.",
+  "phone_tip": "Russia/Kazakhstan mobile +7 9xx / +7 7xx, domestically dialled with 8 (e.g. 8 9XX 12345678); Kyrgyzstan +996 then 9 digits; confirmations by SMS, MAX or Telegram in Russia, WhatsApp in kz and kg.",
+  "time_tip": "24-hour clock is standard in writing; speech often uses 'в половине восьмого' = 7:30 (half OF the eighth hour, like German) and 'без пятнадцати восемь' = 7:45; always read back as 24h ('в девятнадцать тридцать').",
+  "number_tip": "Phone digits are read in 3-3-2-2 groups as whole numbers (hundreds, then tens), so read back group by group; party size often uses collective numerals ('нас трое', 'на двоих').",
+  "avoid_calling": "Avoid lunch 13:00–14:00 at clinics and offices, restaurant peaks 13:00 and 19:00–21:00, and calls after 21:00; long New Year holidays (1–8 January) slow everything.",
+  "closed_days": "Shops, salons and restaurants usually open 7 days; state offices and many private clinics close Sunday or work short Saturday; national holidays 1–8 January, 23 February, 8 March, 1 and 9 May, 12 June, 4 November (ru); kz and kg have their own holiday calendars incl. Nauryz in March.",
+  "booking_channels": "Yandex Maps online table booking and Restoclub for restaurants; Gosuslugi/EMIAS (Moscow) for public polyclinics and ProDoctorov or SberHealth for private doctors; YCLIENTS-style online booking for salons; Yandex Eda and marketplace apps for delivery (Delivery Club closed in 2023); phone still common for small businesses; in kz Kaspi and 2GIS are widely used.",
+  "voice_menu": "Public polyclinics, Moscow 122 health line, banks, mobile operators (MTS, Beeline, MegaFon, T2 (ex-Tele2)) and Russian Post use IVR or voice robots; small restaurants and salons answer directly.",
+  "callback_habits": "Platforms send SMS confirmation; Yandex 'по заявке' bookings need a confirming call from the restaurant; clinics send SMS reminders; small businesses confirm by SMS, Telegram or the domestic MAX messenger in Russia (WhatsApp blocked in Russia since February 2026, Telegram throttled), and by WhatsApp in kz and kg.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "俄羅斯中大型城市餐廳習慣電話或 Yandex 地圖訂位；週五週六晚間熱門店常要求提前訂，大團體可能收訂金（депозит）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit or minimum spend (депозит) for large tables"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Table held only 15–20 minutes after booking time"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks bank card number for deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (24h)",
+        "Number of guests",
+        "Hall or terrace / smoking area preference",
+        "Surname and mobile for SMS",
+        "Deposit for groups or banquets"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立門診（поликлиника）依戶籍綁定，多經 Gosuslugi 或 EMIAS／122 預約並需強制醫保（ОМС）號；私人診所電話預約普遍，先問付費方式。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Paid visit instead of OMS-covered"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Redirect to Gosuslugi/EMIAS online slot"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks SNILS or passport data"
+        }
+      ],
+      "usually_asked": [
+        "OMS policy (полис ОМС) or paid visit",
+        "First visit or follow-up",
+        "Specialist and symptoms",
+        "Patient full name and date of birth",
+        "Callback mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "髮廊、美甲多用線上預約連結（類 YCLIENTS），但電話與 Telegram／MAX（哈薩克、吉爾吉斯多用 WhatsApp） 仍很普遍，常指定技師（мастер）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for long colouring sessions"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service (haircut, manicure, colouring)",
+        "Preferred master",
+        "Date and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車（автосервис）、輪胎季（春秋換胎 шиномонтаж）非常忙，電話預約普遍；家電維修常先問型號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Diagnostics fee before quote"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN or full plate for parts"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model and year or appliance model",
+        "Problem description",
+        "Preferred day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "餐廳接電話自取（самовывоз）很常見，外送多走 Yandex Eda 等 App。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pickup discount (скидка на самовывоз)"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and quantity",
+        "Pickup time",
+        "Name and phone",
+        "Pay on pickup by card or cash"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "花店、蛋糕店、藥局可電話預訂留貨；大型零售偏好線上或 App 下單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment (предоплата) required"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and quantity",
+        "Pickup date",
+        "Name and phone",
+        "Prepayment for custom cakes or bouquets"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消建議至少提前一天；診所與美容常會再發簡訊確認。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation fee or lost deposit"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original date and time",
+        "Name the booking is under",
+        "New preferred time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間、價格、是否有貨多半可直接電話，小店常改叫你加 Telegram／MAX（哈薩克、吉爾吉斯多用 WhatsApp） 傳照片。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Moves the question to a messenger chat"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly you want to know",
+        "Date if about availability",
+        "Number of people if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "小型旅館與民宿接電話與通訊軟體訂房；外國旅客入住需辦理登記，櫃台會要護照。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment or non-refundable rate"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of guests",
+        "Room type",
+        "Guest names and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "浴場（баня）、保齡球、密室、導覽多可電話訂，熱門時段要預付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for weekend slots"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Activity or package",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電工、清潔、搬家常電話叫，必問地址、樓層、電梯與門禁（домофон）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee (выезд мастера)"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks intercom or door code"
+        }
+      ],
+      "usually_asked": [
+        "Address with entrance (подъезд), floor and flat",
+        "Intercom code",
+        "Problem or scope",
+        "Preferred time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與寵物美容可電話預約，美容需告知品種與體型。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record required for grooming"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet type, breed, weight",
+        "Service or symptoms",
+        "Date and time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Почта России、CDEK、Ozon、Wildberries 查件以網站、App 與語音機器人為主，真人客服難接通。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to app or website tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks SMS pickup code"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "Pickup point or address",
+        "Phone linked to the order"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、公用事業客服有語音選單並需本人核身，代打多半只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only account holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport data, codeword or SMS code"
+        }
+      ],
+      "usually_asked": [
+        "Account or contract holder",
+        "Nature of the problem",
+        "Contract or order number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多用 Yandex Go App，地方車行仍接電話；機場接送與城際包車可電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Driver calls on arrival"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed fare vs meter"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage, child seat",
+        "Phone for driver"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經 Avito、Cian 刊登，可直接打電話給房東或仲介約看房；仲介常收一個月佣金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agent commission and deposit"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Registration (регистрация) possible or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and income"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "Viewing time",
+        "Who will live there, pets, children",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "公家機關與 МФЦ（多功能中心）多經 Gosuslugi 線上取號；學校與幼兒園報名也走 Gosuslugi，電話多只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Gosuslugi online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks SNILS, passport or birth certificate data"
+        }
+      ],
+      "usually_asked": [
+        "Which service or document",
+        "Who it is for",
+        "Reference or application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ru": {
+      "appointment_words": [
+        "записаться на приём",
+        "запись к врачу",
+        "записаться на стрижку",
+        "запись на ТО",
+        "на консультацию"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "резерв",
+        "забронировать номер",
+        "столик на вечер"
+      ],
+      "change_words": [
+        "перенести запись",
+        "отменить бронь",
+        "на полчаса позже",
+        "перенести на пятницу",
+        "изменить время"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в эту пятницу",
+        "в следующий вторник",
+        "25.11",
+        "25 ноября"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "подъезд 2",
+        "кв. 45",
+        "комплекс №4",
+        "массаж 60 мин",
+        "маршрутка 8"
+      ],
+      "inquiry_words": [
+        "узнать цену",
+        "есть ли в наличии",
+        "до скольки работаете",
+        "можно ли с собакой",
+        "оплата картой?"
+      ],
+      "name": [
+        "на фамилию Иванов",
+        "на имя Анна",
+        "Петрова",
+        "семья Смирновых",
+        "господин Кузнецов"
+      ],
+      "order_words": [
+        "заказ на самовывоз",
+        "с собой",
+        "отложить товар",
+        "предзаказ",
+        "доставка на дом"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих",
+        "2 взрослых и 1 ребёнок",
+        "5 чел.",
+        "компания 8 человек"
+      ],
+      "phone": [
+        "+7 9XX 12345678",
+        "8 9XX 12345678",
+        "+7 7XX 12345678 (kz)",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "без пятнадцати восемь",
+        "к семи вечера",
+        "в 12:00",
+        "утром в 9"
+      ]
+    }
+  }
+}

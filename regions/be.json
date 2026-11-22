@@ -81,15 +81,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "point relais",
-      "boîte aux lettres",
-      "voisin"
-    ],
     "bank": [
       "itsme",
       "digipass",
-      "virement"
+      "virement",
+      "compte",
+      "Bancontact",
+      "IBAN"
+    ],
+    "delivery": [
+      "point relais",
+      "boîte aux lettres",
+      "voisin",
+      "bpost",
+      "consigne",
+      "réception"
+    ],
+    "government": [
+      "itsme",
+      "carte d'identité",
+      "commune",
+      "SPF Finances",
+      "numéro national",
+      "passeport"
+    ],
+    "health": [
+      "mutuelle",
+      "carte SIS",
+      "médecin généraliste",
+      "pharmacie",
+      "urgences",
+      "prescription"
+    ],
+    "telecom": [
+      "GSM",
+      "abonnement",
+      "prépayé",
+      "portabilité",
+      "carte SIM",
+      "opérateur"
+    ],
+    "payment": [
+      "Bancontact",
+      "virement",
+      "Payconiq",
+      "espèces",
+      "itsme",
+      "carte de crédit"
+    ],
+    "transport": [
+      "SNCB",
+      "STIB",
+      "TEC",
+      "métro",
+      "tram",
+      "bus"
+    ],
+    "housing": [
+      "appartement",
+      "gardien",
+      "boîte aux lettres",
+      "interphone",
+      "syndic",
+      "loyer"
     ]
   },
   "status": "draft"

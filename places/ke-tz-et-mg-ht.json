@@ -1,0 +1,916 @@
+{
+  "region": "ke-tz-et-mg-ht",
+  "countries": [
+    "ke",
+    "tz",
+    "et",
+    "mg",
+    "ht",
+    "rw",
+    "ss",
+    "ug"
+  ],
+  "region_name_zh": "其他非美地區補充（肯亞、坦尚尼亞、衣索比亞、馬達加斯加、海地）",
+  "region_name": "Kenya, Tanzania, Ethiopia, Madagascar and Haiti",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main (ke), business (tz, et)"
+    },
+    {
+      "code": "sw",
+      "use": "main (tz, ke)"
+    },
+    {
+      "code": "am",
+      "use": "main (et)"
+    },
+    {
+      "code": "fr",
+      "use": "main for business (mg, ht)"
+    },
+    {
+      "code": "mg",
+      "use": "main (mg)"
+    },
+    {
+      "code": "ht",
+      "use": "main (ht)"
+    }
+  ],
+  "ai_language_tip": "Start in English in Kenya; Swahili (sw) in Tanzania and with many Kenyan small businesses; Amharic (am) in Addis Ababa (English in hotels and larger firms); French in Madagascar (Malagasy for small businesses) and in Haiti for formal businesses, Haitian Creole (ht) for most everyday calls.",
+  "english_ok": "sometimes — Good in Kenya and in hotels/tour firms in Tanzania and Ethiopia; rare in Madagascar and Haiti, where French or the local language is expected.",
+  "politeness": "Greetings come first and can be long (ke/tz: 'Habari'/'Shikamoo' to elders; et: 'Selam' with polite 'እርስዎ'; mg: 'Manao ahoana'; ht: 'Bonjou'/'Bonswa'); use 'Sir/Madam', 'Monsieur/Madame'; close with thanks.",
+  "name_tip": "Bookings often under first name; many Ethiopians have no family surname (given name + father's name), and Malagasy names can be very long — spell slowly or send by WhatsApp/SMS.",
+  "phone_tip": "ke 07XX XXX XXX or 01XX XXX XXX (+254); tz 07XX XXX XXX or 06XX (+255); et 09XX XX XX XX (+251); mg 03X XX XXX XX (+261); ht 8 digits XXXX XXXX (+509); WhatsApp and SMS are the usual confirmation channels.",
+  "time_tip": "CRITICAL: Swahili time (tz, ke) and Ethiopian time (et) count from about 6:00 am — 'saa mbili asubuhi' = 8:00 and Ethiopian '2 ሰዓት' in the morning = 8:00; always confirm in 24h international time. Ethiopia also uses its own calendar (about 7–8 years behind, 13 months).",
+  "number_tip": "Numbers usually given in English or French digits; M-Pesa and mobile-money codes are long — never read them aloud, send by message; in Malagasy numbers are traditionally said from units upward.",
+  "avoid_calling": "Avoid calls after 20:00, Friday midday prayer in Muslim-majority areas (Zanzibar, coast), Sunday mornings (church) in ke/et/mg/ht, and Ramadan iftar hour on the Swahili coast.",
+  "closed_days": "Weekend Saturday–Sunday in all five, many shops open Saturday and some Sunday; holidays differ widely (e.g. ke 1 June and 20 October, tz 7 July/Saba Saba, et Ethiopian Christmas 7 January and Enkutatash in September, mg 26 June, ht 1 January and Carnival).",
+  "booking_channels": "Phone, WhatsApp and walk-in dominate; M-Pesa (ke, tz) and Telebirr (et) for deposits; Glovo, Uber Eats or Bolt Food in Nairobi and some other cities; Uber and Bolt in Nairobi, Dar es Salaam; few online booking platforms in mg and ht.",
+  "voice_menu": "Telecoms (Safaricom, Airtel, Vodacom, Ethio telecom, Telma, Digicel, Natcom), banks and utilities use IVR; small businesses answer directly on mobiles.",
+  "callback_habits": "Confirmations are by WhatsApp or SMS, often with a mobile-money payment request; hotels and tour operators e-mail vouchers.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "奈洛比等大城市餐廳可電話或 WhatsApp 訂位，週末早午餐熱門；小館多直接上門。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit via M-Pesa for groups"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks M-Pesa PIN or card"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (confirm Swahili/Ethiopian vs 24h)",
+        "Number of people",
+        "Inside or garden",
+        "Name and phone"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人診所與醫院電話預約或排號，醫療保險（ke 的 SHA 等）或自費需先說明。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pay deposit before visit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID or insurance number"
+        }
+      ],
+      "usually_asked": [
+        "Doctor/department",
+        "Patient name and age",
+        "Insurance or cash",
+        "Phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮編髮多電話或 WhatsApp 預約，長時間編髮需訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for long braiding sessions"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Style/service",
+        "Day and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車與手機維修電話或直接上門。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Vehicle or device",
+        "Problem",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話或 WhatsApp 訂外帶外送，常用行動支付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pay by mobile money on delivery"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes",
+        "Time",
+        "Location pin",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、肉鋪、雜貨可電話或 WhatsApp 預訂並先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment by mobile money"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "電話或 WhatsApp 改期即可。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "直接電話問；常以 WhatsApp 回覆。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly to ask",
+        "Day if relevant",
+        "Quantity if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與小旅館電話、Email 或 WhatsApp 訂房，常要訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit by bank transfer or mobile money"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "遊獵（safari）、導覽、潛水多電話或 Email 訂，需先付訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Park fees paid separately"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔電話叫，地址多靠地標與定位。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Transport fee for technician"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Area and landmark or pin",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "都市才有小動物獸醫電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal kind",
+        "Problem",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "郵政與快遞查件有限，多需打給分店或用 WhatsApp。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Collect in person at branch"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Name",
+        "Town",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、行動支付、銀行客服語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Holder must verify"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks PIN or ID number"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Line or account number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "奈洛比、達市可用 Uber、Bolt；其他地方電話叫車或包車，機場接送常預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed fare agreed in advance"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多經仲介或社群刊登，電話約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agent fee and months of deposit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID"
+        }
+      ],
+      "usually_asked": [
+        "Listing",
+        "Viewing time",
+        "Tenants",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府機關多需親臨或用線上入口（ke 的 eCitizen），電話只問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online portal (ke)"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID number"
+        }
+      ],
+      "usually_asked": [
+        "Office",
+        "Question",
+        "Who it is for"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "see the doctor",
+        "hair appointment",
+        "service booking"
+      ],
+      "booking_words": [
+        "book a table",
+        "reservation",
+        "book a room",
+        "safari booking"
+      ],
+      "change_words": [
+        "reschedule",
+        "cancel the booking",
+        "push to Friday",
+        "an hour later"
+      ],
+      "date": [
+        "tomorrow",
+        "this Friday",
+        "next Tuesday",
+        "25/11"
+      ],
+      "false_friends": [
+        "2nd floor",
+        "plot 12",
+        "till number",
+        "house no. 4",
+        "60 min massage"
+      ],
+      "inquiry_words": [
+        "how much is",
+        "do you have",
+        "what time do you close",
+        "do you deliver"
+      ],
+      "name": [
+        "under Wanjiru",
+        "booking for Otieno",
+        "Mr Kamau"
+      ],
+      "order_words": [
+        "takeaway",
+        "delivery",
+        "pick up",
+        "order"
+      ],
+      "party": [
+        "table for 4",
+        "we are 3",
+        "2 adults and 1 child"
+      ],
+      "phone": [
+        "07XX 12345678",
+        "+254 7XX 12345678",
+        "12345678"
+      ],
+      "time": [
+        "7:30 pm",
+        "8 am",
+        "saa mbili (= 8 am)",
+        "in the evening"
+      ]
+    },
+    "sw": {
+      "appointment_words": [
+        "kuweka miadi",
+        "miadi ya daktari",
+        "miadi saluni"
+      ],
+      "booking_words": [
+        "kuhifadhi meza",
+        "kuweka oda ya chumba",
+        "booking"
+      ],
+      "change_words": [
+        "kubadilisha muda",
+        "kughairi",
+        "baadaye kidogo"
+      ],
+      "date": [
+        "kesho",
+        "keshokutwa",
+        "Ijumaa hii",
+        "Jumanne ijayo",
+        "25/11"
+      ],
+      "false_friends": [
+        "ghorofa ya 2",
+        "nyumba namba 4",
+        "saa mbili (= 8:00)",
+        "dakika 60"
+      ],
+      "inquiry_words": [
+        "bei gani",
+        "mnayo",
+        "mnafunga saa ngapi",
+        "mnaleta nyumbani"
+      ],
+      "name": [
+        "kwa jina la Juma",
+        "kwa jina la Amina",
+        "familia ya Mwita"
+      ],
+      "order_words": [
+        "chakula cha kubeba",
+        "oda",
+        "kuletewa nyumbani"
+      ],
+      "party": [
+        "watu wanne",
+        "tuko watatu",
+        "watu wawili",
+        "watu wazima 2 na mtoto 1"
+      ],
+      "phone": [
+        "07XX 12345678",
+        "+255 7XX 12345678",
+        "12345678"
+      ],
+      "time": [
+        "saa moja na nusu usiku (19:30)",
+        "saa mbili asubuhi (8:00)",
+        "mchana",
+        "jioni"
+      ]
+    },
+    "am": {
+      "appointment_words": [
+        "ቀጠሮ መያዝ",
+        "የሐኪም ቀጠሮ",
+        "የፀጉር ቤት ቀጠሮ"
+      ],
+      "booking_words": [
+        "ጠረጴዛ ማስያዝ",
+        "ክፍል መያዝ",
+        "ቦታ ማስያዝ"
+      ],
+      "change_words": [
+        "ቀጠሮ መቀየር",
+        "መሰረዝ",
+        "ወደ አርብ ማዞር"
+      ],
+      "date": [
+        "ነገ",
+        "ከነገ ወዲያ",
+        "በዚህ አርብ",
+        "25/11"
+      ],
+      "false_friends": [
+        "2ኛ ፎቅ",
+        "የቤት ቁጥር 4",
+        "ከጠዋቱ 2 ሰዓት (= 8:00)",
+        "60 ደቂቃ"
+      ],
+      "inquiry_words": [
+        "ስንት ነው",
+        "አላችሁ",
+        "እስከ ስንት ሰዓት ክፍት ናችሁ"
+      ],
+      "name": [
+        "በአበበ ስም",
+        "በሰላማዊት ስም",
+        "አቶ ከበደ"
+      ],
+      "order_words": [
+        "ለመውሰድ",
+        "ትዕዛዝ",
+        "ቤት ድረስ ማድረስ"
+      ],
+      "party": [
+        "አራት ሰው",
+        "ሦስት ነን",
+        "ሁለት ሰው"
+      ],
+      "phone": [
+        "09XX 12345678",
+        "+251 9XX 12345678",
+        "12345678"
+      ],
+      "time": [
+        "ከምሽቱ 1:30 (= 19:30)",
+        "ከጠዋቱ 2 ሰዓት (= 8:00)",
+        "ቀን 6 ሰዓት (= 12:00)"
+      ]
+    },
+    "fr": {
+      "appointment_words": [
+        "prendre rendez-vous",
+        "rdv chez le médecin",
+        "rendez-vous coiffure"
+      ],
+      "booking_words": [
+        "réserver une table",
+        "réservation",
+        "réserver une chambre"
+      ],
+      "change_words": [
+        "décaler le rendez-vous",
+        "annuler",
+        "reporter à vendredi"
+      ],
+      "date": [
+        "demain",
+        "ce vendredi",
+        "mardi prochain",
+        "25/11"
+      ],
+      "false_friends": [
+        "2e étage",
+        "lot n° 12",
+        "menu n° 4",
+        "massage 60 min"
+      ],
+      "inquiry_words": [
+        "c'est combien",
+        "vous avez",
+        "vous fermez à quelle heure"
+      ],
+      "name": [
+        "au nom de Rakoto",
+        "pour Jean-Baptiste",
+        "famille Pierre"
+      ],
+      "order_words": [
+        "à emporter",
+        "livraison",
+        "commande"
+      ],
+      "party": [
+        "table pour 4",
+        "nous sommes trois",
+        "2 adultes et 1 enfant"
+      ],
+      "phone": [
+        "034 12345678",
+        "+509 12345678",
+        "12345678"
+      ],
+      "time": [
+        "à 19h30",
+        "sept heures et demie",
+        "vers midi"
+      ]
+    },
+    "mg": {
+      "appointment_words": [
+        "fotoana amin'ny dokotera",
+        "mangataka fotoana",
+        "fotoana any amin'ny mpanety"
+      ],
+      "booking_words": [
+        "famandrihana latabatra",
+        "mamandrika efitrano",
+        "famandrihana"
+      ],
+      "change_words": [
+        "manova ny fotoana",
+        "manafoana ny famandrihana",
+        "ahemotra amin'ny zoma"
+      ],
+      "date": [
+        "rahampitso",
+        "afaka ampitso",
+        "amin'ity zoma ity",
+        "25/11"
+      ],
+      "false_friends": [
+        "rihana faha-2",
+        "lot 12",
+        "minitra 60"
+      ],
+      "inquiry_words": [
+        "ohatrinona",
+        "misy ve",
+        "mihidy amin'ny firy ianareo"
+      ],
+      "name": [
+        "amin'ny anaran'i Rakoto",
+        "ho an'i Rasoa",
+        "fianakaviana Randria"
+      ],
+      "order_words": [
+        "entina",
+        "kaomandy",
+        "aterina any an-trano"
+      ],
+      "party": [
+        "olona efatra",
+        "telo izahay",
+        "olona roa"
+      ],
+      "phone": [
+        "034 12345678",
+        "+261 34 12345678",
+        "12345678"
+      ],
+      "time": [
+        "amin'ny 7 ora sy sasany hariva",
+        "amin'ny 8 ora maraina",
+        "atoandro"
+      ]
+    },
+    "ht": {
+      "appointment_words": [
+        "pran randevou",
+        "randevou kay doktè",
+        "randevou kay kwafè"
+      ],
+      "booking_words": [
+        "rezève yon tab",
+        "rezèvasyon",
+        "rezève yon chanm"
+      ],
+      "change_words": [
+        "chanje randevou a",
+        "anile rezèvasyon an",
+        "remete l pou vandredi"
+      ],
+      "date": [
+        "demen",
+        "apre demen",
+        "vandredi sa a",
+        "25/11"
+      ],
+      "false_friends": [
+        "2yèm etaj",
+        "kay nimewo 4",
+        "60 minit masaj"
+      ],
+      "inquiry_words": [
+        "konbyen li koute",
+        "èske nou genyen",
+        "a ki lè nou fèmen"
+      ],
+      "name": [
+        "sou non Jean",
+        "pou Marie",
+        "fanmi Pierre"
+      ],
+      "order_words": [
+        "pou pote ale",
+        "kòmand",
+        "livrezon"
+      ],
+      "party": [
+        "kat moun",
+        "nou twa",
+        "de moun"
+      ],
+      "phone": [
+        "12345678",
+        "+509 12345678",
+        "WhatsApp +509 12345678"
+      ],
+      "time": [
+        "a 7è edmi diswa",
+        "a 8è dimaten",
+        "a midi"
+      ]
+    }
+  }
+}

@@ -2,7 +2,9 @@
   "schema": 1,
   "code": "dk",
   "countries": [
-    "dk"
+    "dk",
+    "fo",
+    "gl"
   ],
   "name": {
     "en": "Denmark",
@@ -81,15 +83,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "pakkeshop",
-      "pakkeboks",
-      "foran døren"
-    ],
     "bank": [
       "MitID",
       "MobilePay",
-      "kodeviser"
+      "kodeviser",
+      "overførsel",
+      "konto",
+      "Dankort"
+    ],
+    "delivery": [
+      "pakkeshop",
+      "pakkeboks",
+      "foran døren",
+      "hentekode",
+      "Modtagerflex",
+      "nabo"
+    ],
+    "government": [
+      "MitID",
+      "CPR-nummer",
+      "borgerservice",
+      "skat",
+      "sundhedskort",
+      "kørekort"
+    ],
+    "health": [
+      "læge",
+      "apotek",
+      "skadestue",
+      "recept",
+      "sundhedskort",
+      "sygesikring"
+    ],
+    "telecom": [
+      "abonnement",
+      "talletid or prepaid",
+      "nummerflytning",
+      "SIM-kort",
+      "teleselskab",
+      "data"
+    ],
+    "payment": [
+      "MobilePay",
+      "Dankort",
+      "kort",
+      "kontant",
+      "overførsel",
+      "Betalingsservice"
+    ],
+    "transport": [
+      "Rejsekort",
+      "S-tog",
+      "metro",
+      "bus",
+      "DSB",
+      "taxa"
+    ],
+    "housing": [
+      "lejlighed",
+      "opgang",
+      "postkasse",
+      "dørtelefon",
+      "husleje",
+      "vicevært"
     ]
   },
   "status": "draft"

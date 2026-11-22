@@ -1,0 +1,183 @@
+{
+  "lang": "ms",
+  "script": "latin",
+  "common_words": [
+    "awak",
+    "anda",
+    "boleh",
+    "mahu",
+    "nak",
+    "sila",
+    "pukul",
+    "telefon",
+    "kereta",
+    "wang",
+    "emel",
+    "bas",
+    "universiti",
+    "encik",
+    "puan",
+    "tuan",
+    "macam mana",
+    "sahaja",
+    "di mana",
+    "tak",
+    "tidak",
+    "saya",
+    "kami",
+    "kita",
+    "mereka",
+    "belum",
+    "sudah",
+    "jangan",
+    "kenapa",
+    "selamat",
+    "terima kasih",
+    "sama-sama",
+    "selamat pagi",
+    "selamat petang",
+    "hari ini",
+    "esok",
+    "semalam",
+    "minggu",
+    "temujanji",
+    "klinik",
+    "bungkusan",
+    "alamat",
+    "bolehlah",
+    "nombor",
+    "doktor",
+    "pesanan",
+    "mahukah",
+    "adakah",
+    "sila datang",
+    "tolong"
+  ],
+  "frequency_source": "hermitdave FrequencyWords (OpenSubtitles 2018) https://github.com/hermitdave/FrequencyWords — https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ms/ms_50k.txt ; Indonesian comparison list https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/id/id_50k.txt",
+  "shared_words": [
+    {
+      "word": "saya",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "yang",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "tidak",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "dan",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "ini",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "itu",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "untuk",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "kita",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "kami",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "ada",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "akan",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "apa",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "sudah",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "jangan",
+      "also_in": [
+        "id"
+      ]
+    },
+    {
+      "word": "terima kasih",
+      "also_in": [
+        "id"
+      ]
+    }
+  ],
+  "unique_letters": [],
+  "confusable_with": [
+    "id",
+    "jv"
+  ],
+  "how_to_tell_apart": "The bundle has no ready lang_words_id.json, so contrasts were taken from the Indonesian FrequencyWords list and standard Malay–Indonesian lexical differences. Prefer Malay-leaning items: boleh (Indonesian often bisa), awak or anda (versus kamu), mahu or nak (versus mau), pukul for clock time (versus jam), kereta for a car (in Indonesian kereta is usually a train and a car is mobil), telefon, wang, emel, and titles encik, puan and tuan. Saya, tidak, yang and terima kasih are shared and should not swing the decision. Colloquial tak is common in Malaysia but also turns up in informal Indonesian, so it is only a weak hint.",
+  "test_said": [
+    "Saya nak tanya pejabat pos buka atau tutup esok pagi.",
+    "Boleh ke tarikh servis kereta ditukar kepada hari Khamis?",
+    "Pesanan makanan tadi tak lengkap kerana nasi goreng tertinggal.",
+    "Kurier nampak keliru nak cari blok dan unit rumah saya.",
+    "Klinik kesihatan masih terima pesakit demam petang ini ke?",
+    "Saya datang untuk semak gula dalam darah seperti yang doktor arahkan.",
+    "Terima kasih saya tidak berhasrat membeli polisi insurans baru.",
+    "Saya sudah pelanggan syarikat ini dan tidak perlukan tawaran kad SIM lain."
+  ],
+  "test_not_enough": [
+    "Farid",
+    "ok",
+    "dua",
+    "wifi"
+  ],
+  "sources": [
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/ms/ms_50k.txt",
+    "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/id/id_50k.txt",
+    "https://github.com/hermitdave/FrequencyWords",
+    "https://en.wikipedia.org/wiki/Comparison_of_Indonesian_and_Standard_Malay",
+    "https://lamanweb.dbp.gov.my/"
+  ],
+  "uncertain": [
+    "id is in latin_have_lists, but the input zip did not include an existing Indonesian word-list file; comparison used /workspace/bageo/freq/id.txt.",
+    "Malay usage in Malaysia, Brunei and Singapore is not identical (awak versus kamu, and how often tak replaces tidak); the list follows forms that rank high in the ms OpenSubtitles list plus standard Malaysian courtesy titles.",
+    "tak by itself is too weak to claim the language is Malay rather than informal Indonesian."
+  ]
+}

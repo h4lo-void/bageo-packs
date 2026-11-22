@@ -78,15 +78,69 @@
     }
   },
   "vocab": {
-    "delivery": [
-      "encargado",
-      "portería",
-      "recepción"
-    ],
     "bank": [
       "Mercado Pago",
       "CBU",
-      "homebanking"
+      "homebanking",
+      "CVU",
+      "alias",
+      "transferencia"
+    ],
+    "delivery": [
+      "encargado",
+      "portería",
+      "recepción",
+      "Correo Argentino",
+      "Correo Uruguayo",
+      "Andreani"
+    ],
+    "government": [
+      "DNI",
+      "cédula",
+      "ANSES",
+      "AFIP or ARCA",
+      "DGI",
+      "pasaporte"
+    ],
+    "health": [
+      "obra social",
+      "prepaga",
+      "mutualista",
+      "farmacia",
+      "receta",
+      "guardia"
+    ],
+    "telecom": [
+      "abono",
+      "prepago",
+      "portabilidad",
+      "chip or SIM",
+      "compañía",
+      "datos"
+    ],
+    "payment": [
+      "Mercado Pago",
+      "transferencia",
+      "efectivo",
+      "tarjeta",
+      "Abitab",
+      "rapipago or pago fácil"
+    ],
+    "transport": [
+      "SUBE",
+      "colectivo",
+      "ómnibus",
+      "subte",
+      "remis",
+      "taxi"
+    ],
+    "housing": [
+      "departamento",
+      "encargado",
+      "portero",
+      "timbre",
+      "buzón",
+      "alquiler"
     ]
   },
   "status": "draft"

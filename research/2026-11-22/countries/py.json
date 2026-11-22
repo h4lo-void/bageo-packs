@@ -1,0 +1,87 @@
+{
+  "country": "py",
+  "parent": "latam",
+  "name": {
+    "en": "Paraguay",
+    "native": "Paraguay",
+    "zh": "巴拉圭"
+  },
+  "lang": "es",
+  "hello": {
+    "hello": "¿Aló?",
+    "hello_again": "¿Aló, de nuevo?"
+  },
+  "delivery": {
+    "en": "Parcels: the portería, a shop, a neighbour, or a courier office",
+    "zh": "包裹交給 portería、店家、鄰居，或到快遞點領"
+  },
+  "readback": {
+    "en": "Mobiles often start with 09, in short groups; 0 as cero; day-month dates; guaraníes",
+    "zh": "手機常以 09 開頭再分短組唸，0 唸 cero；日期先日後月；用瓜拉尼"
+  },
+  "fraud": {
+    "en": "A fake bank, Bancard or parcel call asking for codes or a payment link is a scam",
+    "zh": "假冒銀行、Bancard 或包裹通知要驗證碼、付款連結的都是詐騙"
+  },
+  "habits": {
+    "en": "Vos is the usual familiar form, as in Argentina. Usted for elders or offices. Locals may mix Guaraní; AI uses Spanish.",
+    "zh": "熟人預設 vos，與阿根廷相近；長輩或機關用 usted。當地常夾雜瓜拉尼語，AI 只講西語。金額用瓜拉尼。"
+  },
+  "stall_local": {
+    "en": "Get stuck on a power cut, a slow Bancard or transfer app, or weak Wi-Fi.",
+    "zh": "卡在停電、Bancard 或轉帳 App 很慢，或 Wi-Fi 差。"
+  },
+  "vocab": {
+    "bank": [
+      "Bancard",
+      "transferencia",
+      "tarjeta",
+      "clave",
+      "cuenta"
+    ],
+    "delivery": [
+      "portería",
+      "encomienda",
+      "agencia",
+      "vecino",
+      "correo"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "Nequi",
+      "reason": {
+        "zh": "Nequi 是哥倫比亞錢包，不是本國通用說法。"
+      }
+    },
+    {
+      "word": "預設 tú",
+      "reason": {
+        "zh": "巴拉圭熟人普遍用 vos，不是所屬地區預設的 tú。"
+      }
+    },
+    {
+      "word": "把瓜拉尼語當AI用語",
+      "reason": {
+        "zh": "瓜拉尼語不在支援清單，只能當當地夾雜詞，AI 講西語。"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Shift levels 1–3 to vos, closer to River Plate than to generic latam tú. Callers may mix Guaraní words; reply in Spanish. Levels 4–5 stay formal usted. Mention guaraníes, not pesos or Nequi.",
+    "zh": "1～3 格改用 vos，較接近拉普拉塔河流域，而不是通用拉美的 tú。對方可能夾雜瓜拉尼語詞，仍以西語回應。4～5 格維持正式 usted。金額說瓜拉尼，不要說比索或 Nequi。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.rae.es/gram%C3%A1tica/sintaxis/interjecciones-apelativas",
+    "https://www.rae.es/dpd/voseo",
+    "https://www.rae.es/dpd/al%C3%B3",
+    "https://www.abc.com.py/nacionales/2026/11/20/advierten-modalidad-de-fraude-desde-whatsapp-y-billeteras-digitales/"
+  ],
+  "uncertain": [
+    "所屬地區 lang 寫 es-US，支援清單只有 es，故本檔用 es。",
+    "瓜拉尼語在電話裡的夾雜程度很高，但沒有可引用的量化資料；AI 不能改講瓜拉尼語。",
+    "Bancard 以外還有哪些錢包最常被口頭提到，未完整核對。",
+    "09 開頭分組唸法未找到電信官方規範。"
+  ]
+}

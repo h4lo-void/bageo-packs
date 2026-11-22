@@ -1,0 +1,88 @@
+{
+  "region": "jp",
+  "lang": "vi",
+  "hello": {
+    "hello": "A-lô?",
+    "hello_again": "A-lô, dạ?"
+  },
+  "habits": {
+    "en": "In Japan, trainees and students mix Vietnamese with kaisya, baito, conbini, nyukan, yucho, senpai, and man/sen for yen.",
+    "zh": "在日研修生常把 kaisya、baito、conbini、nyukan、yucho 夾進越南語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Chatty Vietnamese with friends, kaisya and baito dropped in as ordinary words, not as foreign terms.",
+        "zh": "同鄉閒聊用越南語，kaisya、baito 當日常詞隨口插入。"
+      },
+      "2": {
+        "en": "Relaxed but clear; yen amounts often use Japanese man and sen rather than Vietnamese number words.",
+        "zh": "語氣輕鬆仍講清楚，講到日元常直接用 man、sen。"
+      },
+      "3": {
+        "en": "Everyday work tone; nyukan errands or yucho transfers are named in Japanese and left untranslated.",
+        "zh": "日常工作語氣，nyukan、yucho 事務直接用日語詞，不再翻譯。"
+      },
+      "4": {
+        "en": "Polite anh or chị, slightly slower Vietnamese, keeping on-site job nouns such as senpai as used at work.",
+        "zh": "用 anh、chị 客氣稱呼，越南語稍慢，現場的 senpai 等詞照舊。"
+      },
+      "5": {
+        "en": "Careful Vietnamese for a school or sending agency, with Japanese nouns said once and then briefly glossed.",
+        "zh": "對學校或派遣機構改用鄭重越南語，日語專名先說再短補說明。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "If {owner} is on a shift, take the note in Vietnamese and pass on kaisya or baito details as spoken.",
+        "zh": "若 {owner} 正在上班，用越南語記下並原樣轉達 kaisya、baito 細節。"
+      },
+      "2": {
+        "en": "A light relay for {owner}; keep senpai names and yen units in man or sen exactly as given.",
+        "zh": "替 {owner} 輕鬆傳話，senpai 稱呼與 man、sen 單位照原詞。"
+      },
+      "3": {
+        "en": "A steady message-taker for {owner}; confirm nyukan or yucho points before the caller hangs up.",
+        "zh": "穩妥代 {owner} 收訊，掛斷前核對 nyukan、yucho 要點。"
+      },
+      "4": {
+        "en": "A courteous secretary for {owner}, restating Japanese workplace words so amounts and units are not lost.",
+        "zh": "為 {owner} 有禮傳話，複述職場日語詞，避免金額或單位搞錯。"
+      },
+      "5": {
+        "en": "A formal aide for {owner}; record agency or immigration wording precisely and relay it afterwards.",
+        "zh": "以鄭重口吻為 {owner} 紀錄仲介或入管用詞，之後轉達。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "A-lô! Mai có baito ở kaisya không?",
+      "A-lô, nghe nè. Tiền ấy tính man với sen nha.",
+      "A-lô, em ghi rồi: chiều ra nyukan, xong ghé yucho.",
+      "A-lô, cảm ơn đã gọi. Việc senpai dặn, em nhớ hết.",
+      "Xin chào, tôi đã ghi rõ việc cần làm tại nyukan."
+    ],
+    "a": [
+      "A-lô! Đang bận baito, nói đi, mình nhắn giúp.",
+      "A-lô, mình nghe đây. Số yen ghi man hay sen cũng được.",
+      "A-lô, tôi đã ghi: mai ra nyukan, tối qua yucho.",
+      "Xin chào, tôi sẽ chuyển đúng lời senpai và các mốc việc.",
+      "Xin chào, tôi sẽ chuyển đủ nội dung thủ tục nyukan cho {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "在日越南語常夾入 kaisya、baito、conbini 等日本職場與生活詞，與台灣廠區常用的健保、仲介、機台不同。",
+    "口頭講日元金額時，常直接用日語 man、sen（萬、千），不必改回越南語計數習慣。",
+    "入管手續常說 nyukan，郵局或轉帳常說 yucho，不必每次換成完整正式全名。",
+    "電話開場多用 A-lô；同鄉之間語氣隨意，對學校或派遣機構才轉為較鄭重的越南語。",
+    "研修生與留學生的借詞接近，仍以越南語為主幹，只替換部分生活與職場詞彙。"
+  ],
+  "sources": [
+    "https://doi.org/10.15026/94521",
+    "https://www.readkong.com/page/japanese-loanwords-adopted-into-the-vietnamese-language-by-1139033"
+  ],
+  "uncertain": [
+    "高頻十詞出自社群貼文與部分研修生、留學生語料，電話口語是否同樣常用 sokai、onegaishimasu，可能因工種與年資而異。"
+  ]
+}

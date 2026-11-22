@@ -1,0 +1,707 @@
+{
+  "region": "si",
+  "countries": [
+    "si"
+  ],
+  "region_name_zh": "斯洛維尼亞",
+  "region_name": "Slovenia",
+  "languages": [
+    {
+      "code": "sl",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Speak clear, polite standard Slovenian (sl); Croatian/Serbian are understood by many but use Slovenian; English is widely spoken by younger staff and in Ljubljana, Bled and the coast; Italian near the coast, Hungarian in Prekmurje.",
+  "english_ok": "often — High English proficiency, especially under 50 and in tourism; still use Slovenian first at public offices and clinics.",
+  "politeness": "Formal 'vikanje' (Vi), 'gospod/gospa'; open with 'Dober dan' and say whom you represent; close with 'Hvala, nasvidenje'.",
+  "name_tip": "Surname first in bookings ('na ime Novak'); spell foreign names letter by letter; dual forms exist for two people ('za dve osebi').",
+  "phone_tip": "Mobile 0xx xxx xxx (9 digits with 0, e.g. 041/031/051/070), Ljubljana landline 01 + 7 digits, +386; SMS confirmation is common.",
+  "time_tip": "TRAP: 'pol osmih' = 7:30, 'četrt na osem' = 7:15, 'tri četrt na osem' = 7:45; numbers read units first (25 = petindvajset); read back in 24h.",
+  "number_tip": "Slovenian has dual forms ('dva', 'dve osebi'); numbers 21+ are read units first ('enaindvajset' = one-and-twenty), like German.",
+  "avoid_calling": "Avoid lunch 12:00–14:00 at offices, dinner peak 19:00–21:00, calls after 20:00 and Sundays for offices; GP practices take calls in set hours.",
+  "closed_days": "Since 2020 shops are closed on Sundays and public holidays (Trade Act ZT-1), except small shops at petrol stations, stations, airports, hospitals or owner-run small shops; holidays include 8 February, Easter Monday, 27 April, 1–2 May, 25 June, 15 August, 31 October, 1 November, 25–26 December.",
+  "booking_channels": "zVem / eNaročanje for public health referrals; phone and web for private clinics; online booking pages and phone for salons; phone and email for restaurants; Wolt and Glovo for delivery.",
+  "voice_menu": "Operators (Telekom Slovenije, A1, Telemach), banks, Pošta Slovenije and ZZZS use keypad IVR.",
+  "callback_habits": "Clinics and salons send SMS reminders; small businesses confirm by SMS or call back; tourist farms (turistične kmetije) confirm by email.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "漂流（Soča 河）、洞穴導覽、滑雪學校可電話預約；Postojna 洞窟等熱門景點走官網購時段票。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Cave tours leave at fixed hourly departures"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Soča rafting operator asks prepayment to a private account"
+        }
+      ],
+      "usually_asked": [
+        "Activity and level",
+        "Date and time",
+        "People",
+        "Name and mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "斯國髮廊美容多電話或線上預約頁，簡訊提醒常見。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation charged by some salons"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks avans (deposit) by bank transfer"
+        }
+      ],
+      "usually_asked": [
+        "Service (striženje, barvanje, manikura)",
+        "Hair length",
+        "Day, time and frizerka",
+        "Name and mobile"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消宜提早；zVem 預約可線上取消，未到診可能被記錄。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Avans kept on late odpoved"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Clinic asks ZZZS card number to find the termin"
+        }
+      ],
+      "usually_asked": [
+        "Surname and phone",
+        "Original termin",
+        "New time or odpoved",
+        "Party size"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立需家醫（osebni zdravnik）與 napotnica，napotnica 上的急迫程度決定等候期，可經 zVem 線上預約；私人診所電話預約，常問健保卡（kartica ZZZS）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Clinic points to zVem eNaročanje for the specialist slot"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Samoplačnik (self-pay) visit offered when the queue is long"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ZZZS card number or EMŠO"
+        }
+      ],
+      "usually_asked": [
+        "ZZZS with napotnica or samoplačnik",
+        "First or kontrolni pregled",
+        "Stopnja nujnosti on the napotnica",
+        "Patient name and mobile"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、ZZZS 客服有語音選單並須本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Telekom Slovenije line refuses caller without pooblastilo"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks EMŠO, davčna številka or codes"
+        }
+      ],
+      "usually_asked": [
+        "IVR routing",
+        "Holder check",
+        "Številka naročnika",
+        "Issue"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多走 eUprava 線上或臨櫃預約（upravna enota）；學校報名（vpis）有固定期。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Upravna enota slots booked online"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the child's EMŠO"
+        }
+      ],
+      "usually_asked": [
+        "Procedure question",
+        "Child age and šolski okoliš",
+        "Documents",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "公寓需告知街道、門牌、樓層（nadstropje）、門號與門鈴名。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prihod (callout) fee plus hourly rate"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Blok without dvigalo for heavy items"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Advance payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Trade (vodovodar, električar, ključavničar)",
+        "Address, nadstropje and doorbell",
+        "Time window",
+        "Name and mobile"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "民宿、觀光農場（turistična kmetija）與山屋（koča）常電話或 Email 訂房；山屋夏季週末要早訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Turistična taksa charged per person per night"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Planinska koča requires booking for summer weekends"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport number for guest registration"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Guests and room or bunk type",
+        "Half board and parking",
+        "Name, phone and email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間、刷卡、庫存、可否帶狗等問題通常直接回答。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gostilna closed on its rest day (zaprto ob ponedeljkih)"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The question (delovni čas, kartica, pes)",
+        "Planned day",
+        "Group size",
+        "Whether to reserve"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫（veterinar）與寵物美容可電話預約；狗需晶片與狂犬疫苗登記。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Dežurna služba surcharge at night"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Pasji hotel asks transfer deposit"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Species, breed and weight",
+        "Cepljenje and chip",
+        "Time",
+        "Name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋經 Nepremicnine.net 與房仲，電話約看房；押金（varščina）通常一至三個月。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Agent asks the nepremicnine.net oglas ID"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Varščina before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or address",
+        "Household and move-in",
+        "Budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車修理（avtoservis）、冬胎更換（menjava gum，冬季有法定期間）與車檢（tehnični pregled）多電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Diagnostika charged separately"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Winter-tyre period mid-November to mid-March fills tyre shops"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN from the prometno dovoljenje"
+        }
+      ],
+      "usually_asked": [
+        "Make, model and registrska številka",
+        "Servis, gume or tehnični",
+        "Drop-off day",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "斯國餐廳（gostilna、restavracija）與觀光農場多電話或 Email 訂位；週日午餐是家庭聚餐高峰，要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Gostilna serves a set nedeljsko kosilo (Sunday lunch)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for a wedding or company party"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card number to hold a Bled lakeside table"
+        }
+      ],
+      "usually_asked": [
+        "Date and 24h time",
+        "Število oseb (party size)",
+        "Surname (na ime) and mobile",
+        "Inside or vrt (garden)"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "藥局（lekarna）、麵包店與甜點店（slaščičarna）可電話預訂；週日與國定假日商店依法關門，需提早取貨。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Lekarna orders the product for tomorrow"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Slaščičarna asks prepayment for a torta"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Torta size",
+        "Pickup before Sunday closure",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "披薩與烤肉店接電話外帶（za s seboj）；外送多走 Wolt、Glovo；學生餐券（študentski boni）也常見。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dostava only via Wolt or Glovo"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Študentski boni accepted at lunch"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Za s seboj or dostava",
+        "Items and pizza size",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Pošta Slovenije、GLS、DPD 追蹤以網站 App 為主，客服有語音選單；包裹櫃（paketomat）用碼取件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pošta Slovenije line points to online sledenje"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks the paketomat code from SMS"
+        }
+      ],
+      "usually_asked": [
+        "Številka pošiljke",
+        "Recipient name and phone",
+        "Paketomat or address",
+        "Odkupnina (COD) amount"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車多為電話叫車與車行 App；機場接駁（Jože Pučnik）可預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Dispatcher gives the car number and ETA"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price to Ljubljana airport"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Car rental asks card or vozniško dovoljenje"
+        }
+      ],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "sl": {
+      "appointment_words": [
+        "naročiti se pri zdravniku",
+        "termin pri frizerju",
+        "tehnični pregled",
+        "kontrolni pregled",
+        "termin v servisu"
+      ],
+      "booking_words": [
+        "rezervacija mize",
+        "rezervirati mizo",
+        "rezervacija sobe",
+        "nočitev z zajtrkom",
+        "rezervirati mesto"
+      ],
+      "change_words": [
+        "prestaviti termin",
+        "odpovedati rezervacijo",
+        "pol ure kasneje",
+        "prestaviti na petek",
+        "spremeniti termin"
+      ],
+      "date": [
+        "jutri",
+        "pojutrišnjem",
+        "ta petek",
+        "naslednji torek",
+        "25. 11.",
+        "v soboto zvečer"
+      ],
+      "false_friends": [
+        "3. nadstropje",
+        "stanovanje 12",
+        "vhod B",
+        "meni št. 4",
+        "masaža 60 min",
+        "avtobus 6"
+      ],
+      "inquiry_words": [
+        "do kdaj je odprta kuhinja",
+        "ali lahko plačam s kartico",
+        "ali smemo s psom",
+        "imate na zalogi",
+        "delovni čas"
+      ],
+      "name": [
+        "na ime Novak",
+        "Janez Novak",
+        "Maja Horvat",
+        "družina Kranjc",
+        "gospod Zupan"
+      ],
+      "order_words": [
+        "za s seboj",
+        "osebni prevzem",
+        "dostava",
+        "odložite mi",
+        "naročiti vnaprej"
+      ],
+      "party": [
+        "miza za 4",
+        "2 odrasla in 1 otrok",
+        "dva bova",
+        "za 2 osebi",
+        "6 oseb + otroški stolček"
+      ],
+      "phone": [
+        "041 234 567",
+        "+386 41 234 567",
+        "pokličite na 031 234 567",
+        "01 123 45 67"
+      ],
+      "time": [
+        "ob pol osmih zvečer",
+        "ob 19:30",
+        "ob četrt na sedem",
+        "ob tri četrt na osem",
+        "opoldne",
+        "okoli 20. ure"
+      ]
+    }
+  }
+}

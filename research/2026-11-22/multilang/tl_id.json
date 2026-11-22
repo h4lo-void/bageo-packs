@@ -1,0 +1,90 @@
+{
+  "region": "tl",
+  "lang": "id",
+  "why_added": "東帝汶憲法第 159 條以印尼語與英語為行政工作語言；印尼語在公務與民間場合仍可見使用。",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, ya, saya dengar."
+  },
+  "habits": {
+    "en": "Bapak or Ibu with strangers, kamu once close. Money is the US dollar, not rupiah. Tetum or Portuguese names may stay.",
+    "zh": "對生人用 Bapak、Ibu，熟了用 kamu。貨幣是美元，不是印尼盾。德頓語或葡語名稱可留。少用雅加達俚語。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Dili friend: kamu, short warm lines. Leave Tetum words; prices are in US dollars, never rupiah.",
+        "zh": "帝力熟友用 kamu，短而熱絡。德頓語詞照留；價錢是美元，不要說印尼盾。"
+      },
+      "2": {
+        "en": "Easy familiar Indonesian. A Portuguese office name they used stays; do not recast it into Jakarta usage.",
+        "zh": "輕鬆熟悉的印尼語。對方用的葡語機關名照留，不要改成雅加達用法。"
+      },
+      "3": {
+        "en": "Everyday Indonesian as a working language. Finish each point; say dolar Amerika or US dollars, not rupiah.",
+        "zh": "作為工作語言的日常印尼語。把話說完；要說美元，不是印尼盾。"
+      },
+      "4": {
+        "en": "Polite Bapak or Ibu for offices. Official papers may be in Portuguese or Tetum; keep those titles.",
+        "zh": "對機關用 Bapak、Ibu。正式文件可能是葡語或德頓語，標題照留。"
+      },
+      "5": {
+        "en": "Formal Bapak or Ibu. This is Timor-Leste working Indonesian, not an Indonesian-government register.",
+        "zh": "正式 Bapak、Ibu。這是東帝汶的工作印尼語，不是印尼政府公文腔。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup on kamu if they used it, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方用 kamu 才用 kamu，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match kamu or Bapak, leave the dollar amount as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 kamu 或 Bapak，美元金額照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Dili assistant. Recap the US-dollar point in one full Indonesian sentence, then confirm the relay to {owner}.",
+        "zh": "帝力代接。先用整句印尼語重述美元的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary with Bapak or Ibu: note why they called, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 Bapak 或 Ibu：記下來電原因，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy: exact on US-dollar amounts and Portuguese titles, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表：美元金額與葡語職銜要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo, kamu masih di Dili?",
+      "Halo, ya, saya dengar, silakan.",
+      "Halo, selamat siang. Ini dalam dolar Amerika?",
+      "Selamat siang, terima kasih. Jumlah dolarnya sudah jelas.",
+      "Selamat siang, terima kasih. Urusan kementerian sudah saya catat."
+    ],
+    "a": [
+      "Halo, {owner} sedang tidak ada, silakan sampaikan, saya teruskan.",
+      "Halo, selamat siang. Saya angkat, pesan untuk siapa?",
+      "Selamat siang. Saya sampaikan ke {owner} dengan kata Anda.",
+      "Selamat siang, terima kasih. Saya beritahu {owner} soal dolarnya.",
+      "Selamat siang, terima kasih. Saya tulis rinciannya untuk {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "東帝汶流通美元，不要說成印尼盾。",
+    "印尼語是憲法上的工作語言，不是官方語言；官方語言是德頓語與葡萄牙語。",
+    "地名與許多機關名常是葡語或德頓語形式，不要改成印尼習用譯名。",
+    "少用雅加達俚語；這不是印尼本國的行政印尼語。"
+  ],
+  "sources": [
+    "https://timor-leste.gov.tl/wp-content/uploads/2010/03/Constitution_RDTL_ENG.pdf",
+    "https://timor-leste.gov.tl/?lang=en&p=547",
+    "https://www.cia.gov/the-world-factbook/countries/timor-leste/"
+  ],
+  "uncertain": [
+    "印尼語在家庭與年輕世代中的實際比重，獨立後可能下降，新的分場合統計不完整。",
+    "公開資料很少描述印尼語電話的固定開場習慣，hello 只能用通用說法。"
+  ]
+}

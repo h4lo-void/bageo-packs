@@ -1,0 +1,475 @@
+{
+  "region": "jp",
+  "vocab": {
+    "ja-JP": {
+      "bank": [
+        {
+          "term": "振込",
+          "en": "bank transfer (振込)"
+        },
+        {
+          "term": "口座",
+          "en": "bank account (口座)"
+        },
+        {
+          "term": "通帳",
+          "en": "passbook (通帳)"
+        },
+        {
+          "term": "キャッシュカード",
+          "en": "ATM / cash card (キャッシュカード)"
+        },
+        {
+          "term": "暗証番号",
+          "en": "PIN (暗証番号)"
+        },
+        {
+          "term": "ネットバンキング",
+          "en": "online banking (ネットバンキング)"
+        },
+        {
+          "term": "口座振替",
+          "en": "direct debit (口座振替)"
+        },
+        {
+          "term": "残高",
+          "en": "account balance (残高)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "置き配",
+          "en": "leave the parcel in a designated spot, no handover (置き配)"
+        },
+        {
+          "term": "宅配ボックス",
+          "en": "parcel locker / delivery box (宅配ボックス)"
+        },
+        {
+          "term": "宅配便",
+          "en": "courier parcel service (宅配便)"
+        },
+        {
+          "term": "不在票",
+          "en": "missed-delivery notice (不在票)"
+        },
+        {
+          "term": "再配達",
+          "en": "redelivery (再配達)"
+        },
+        {
+          "term": "玄関前",
+          "en": "at the front door (玄関前)"
+        },
+        {
+          "term": "管理人預け",
+          "en": "leave with the building caretaker (管理人預け)"
+        },
+        {
+          "term": "ゆうパック",
+          "en": "Japan Post parcel service (ゆうパック)"
+        }
+      ],
+      "government": [
+        {
+          "term": "マイナンバー",
+          "en": "My Number personal ID (マイナンバー)"
+        },
+        {
+          "term": "マイナンバーカード",
+          "en": "My Number card (マイナンバーカード)"
+        },
+        {
+          "term": "住民票",
+          "en": "residence record (住民票)"
+        },
+        {
+          "term": "役所",
+          "en": "city or ward office (役所)"
+        },
+        {
+          "term": "印鑑",
+          "en": "personal seal, still used in some procedures (印鑑)"
+        },
+        {
+          "term": "健康保険証",
+          "en": "health insurance card (健康保険証)"
+        },
+        {
+          "term": "マイナ保険証",
+          "en": "My Number card used as insurance card (マイナ保険証)"
+        },
+        {
+          "term": "在留カード",
+          "en": "residence card for foreign residents (在留カード)"
+        }
+      ],
+      "health": [
+        {
+          "term": "病院",
+          "en": "hospital (病院)"
+        },
+        {
+          "term": "診療所",
+          "en": "clinic (診療所)"
+        },
+        {
+          "term": "処方箋",
+          "en": "prescription (処方箋)"
+        },
+        {
+          "term": "薬局",
+          "en": "pharmacy / drugstore for dispensing (薬局)"
+        },
+        {
+          "term": "保険証",
+          "en": "insurance card, often now マイナ保険証"
+        },
+        {
+          "term": "受診",
+          "en": "see a doctor (受診)"
+        },
+        {
+          "term": "初診",
+          "en": "first visit as a new patient (初診)"
+        },
+        {
+          "term": "健康診断",
+          "en": "health checkup (健康診断)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "携帯",
+          "en": "mobile phone (携帯)"
+        },
+        {
+          "term": "格安SIM",
+          "en": "low-cost SIM / MVNO (格安SIM)"
+        },
+        {
+          "term": "キャリア",
+          "en": "mobile carrier (キャリア)"
+        },
+        {
+          "term": "乗り換え",
+          "en": "change carrier, often with number portability (乗り換え)"
+        },
+        {
+          "term": "スマホ",
+          "en": "smartphone (スマホ)"
+        },
+        {
+          "term": "通信制限",
+          "en": "data throttling (通信制限)"
+        },
+        {
+          "term": "かけ放題",
+          "en": "unlimited calls plan (かけ放題)"
+        },
+        {
+          "term": "回線",
+          "en": "phone or internet line (回線)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "PayPay",
+          "en": "widely used QR wallet (PayPay)"
+        },
+        {
+          "term": "楽天ペイ",
+          "en": "Rakuten Pay (楽天ペイ)"
+        },
+        {
+          "term": "Suica",
+          "en": "JR East IC fare and e-money card (Suica)"
+        },
+        {
+          "term": "電子マネー",
+          "en": "stored-value e-money such as Suica or PASMO (電子マネー)"
+        },
+        {
+          "term": "口座振替",
+          "en": "direct debit (口座振替)"
+        },
+        {
+          "term": "代金引換",
+          "en": "cash on delivery (代金引換)"
+        },
+        {
+          "term": "後払い",
+          "en": "pay later / invoice payment (後払い)"
+        },
+        {
+          "term": "d払い",
+          "en": "NTT docomo payment app (d払い)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "電車",
+          "en": "train, everyday word for rail (電車)"
+        },
+        {
+          "term": "地下鉄",
+          "en": "subway (地下鉄)"
+        },
+        {
+          "term": "定期券",
+          "en": "commuter pass (定期券)"
+        },
+        {
+          "term": "ICカード",
+          "en": "transit IC card (ICカード)"
+        },
+        {
+          "term": "新幹線",
+          "en": "shinkansen (新幹線)"
+        },
+        {
+          "term": "バス",
+          "en": "bus (バス)"
+        },
+        {
+          "term": "タクシー",
+          "en": "taxi (タクシー)"
+        },
+        {
+          "term": "駅",
+          "en": "station (駅)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "マンション",
+          "en": "condominium or apartment building, usually steel/RC (マンション)"
+        },
+        {
+          "term": "アパート",
+          "en": "typically a smaller wooden or light apartment building (アパート)"
+        },
+        {
+          "term": "オートロック",
+          "en": "auto-lock entrance (オートロック)"
+        },
+        {
+          "term": "管理人",
+          "en": "building caretaker (管理人)"
+        },
+        {
+          "term": "宅配ボックス",
+          "en": "delivery box (宅配ボックス)"
+        },
+        {
+          "term": "ポスト",
+          "en": "mailbox (ポスト)"
+        },
+        {
+          "term": "インターホン",
+          "en": "door intercom (インターホン)"
+        },
+        {
+          "term": "集合住宅",
+          "en": "collective housing (集合住宅)"
+        }
+      ],
+      "school": [
+        {
+          "term": "塾",
+          "en": "cram school (塾)"
+        },
+        {
+          "term": "小学校",
+          "en": "elementary school (小学校)"
+        },
+        {
+          "term": "中学校",
+          "en": "junior high school (中学校)"
+        },
+        {
+          "term": "保護者",
+          "en": "parent or guardian (保護者)"
+        },
+        {
+          "term": "学童",
+          "en": "after-school care (学童)"
+        },
+        {
+          "term": "宿題",
+          "en": "homework (宿題)"
+        },
+        {
+          "term": "PTA",
+          "en": "parent-teacher association (PTA) [Japan]"
+        },
+        {
+          "term": "登校",
+          "en": "going to school (登校)"
+        }
+      ],
+      "money": [
+        {
+          "term": "円",
+          "en": "yen (円)"
+        },
+        {
+          "term": "万円",
+          "en": "ten thousand yen, usual large-amount unit (万円)"
+        },
+        {
+          "term": "振り込み",
+          "en": "bank transfer of money (振り込み)"
+        },
+        {
+          "term": "お釣り",
+          "en": "change (お釣り)"
+        },
+        {
+          "term": "現金",
+          "en": "cash (現金) [Japan]"
+        },
+        {
+          "term": "手数料",
+          "en": "fee / charge (手数料)"
+        },
+        {
+          "term": "税込",
+          "en": "tax included (税込)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "午前中",
+          "en": "in the morning (午前中)"
+        },
+        {
+          "term": "午後",
+          "en": "afternoon (午後)"
+        },
+        {
+          "term": "夕方",
+          "en": "early evening (夕方)"
+        },
+        {
+          "term": "平日",
+          "en": "weekday (平日)"
+        },
+        {
+          "term": "週末",
+          "en": "weekend (週末) [Japan]"
+        },
+        {
+          "term": "来週",
+          "en": "next week (来週)"
+        },
+        {
+          "term": "本日中",
+          "en": "within today (本日中)"
+        },
+        {
+          "term": "始業前",
+          "en": "before the start of the working day (始業前)"
+        }
+      ],
+      "work": [
+        {
+          "term": "出勤",
+          "en": "go to work / clock in (出勤)"
+        },
+        {
+          "term": "退勤",
+          "en": "leave work (退勤)"
+        },
+        {
+          "term": "残業",
+          "en": "overtime (残業)"
+        },
+        {
+          "term": "有給",
+          "en": "paid leave (有給)"
+        },
+        {
+          "term": "出張",
+          "en": "business trip (出張)"
+        },
+        {
+          "term": "会社",
+          "en": "company (会社)"
+        },
+        {
+          "term": "上司",
+          "en": "supervisor (上司) [Japan]"
+        },
+        {
+          "term": "在宅",
+          "en": "work from home (在宅)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "支付寶",
+      "use_instead": "PayPay、楽天ペイ、電子マネー",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "快遞櫃",
+      "use_instead": "宅配ボックス",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "택배함",
+      "use_instead": "宅配ボックス",
+      "where_it_is_from": "KR"
+    },
+    {
+      "word": "checking account",
+      "use_instead": "普通預金口座",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "아파트 경비실",
+      "use_instead": "管理人、オートロックの受付",
+      "where_it_is_from": "KR"
+    },
+    {
+      "word": "小區",
+      "use_instead": "マンション、アパート、団地",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "subway だけを使う",
+      "use_instead": "日常は電車、地下鉄は路線による",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "front porch",
+      "use_instead": "玄関前、置き配",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "WeChat Pay",
+      "use_instead": "PayPay、交通系IC",
+      "where_it_is_from": "CN"
+    },
+    {
+      "word": "身分證",
+      "use_instead": "マイナンバーカード、在留カード、運転免許証",
+      "where_it_is_from": "CN"
+    }
+  ],
+  "sources": [
+    "https://www.post.japanpost.jp/service/receive/absence/package-drop.html",
+    "https://www.digital.go.jp/",
+    "https://www.paypay.ne.jp/",
+    "https://www.jreast.co.jp/suica/",
+    "https://faq.uniqlo.com/articles/FAQ/100006712",
+    "https://www.mhlw.go.jp/"
+  ],
+  "uncertain": [
+    "「マイナ保険証」への移行が進んでおり、電話ではまだ「保険証」だけと言う人も多い。",
+    "PayPay 以外のQR決済（楽天ペイ、d払い、メルペイ）の使用頻度は世代と地域で差がある。"
+  ]
+}

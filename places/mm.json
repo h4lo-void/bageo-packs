@@ -1,0 +1,674 @@
+{
+  "region": "mm",
+  "countries": [
+    "mm"
+  ],
+  "region_name_zh": "緬甸",
+  "region_name": "Myanmar",
+  "languages": [
+    {
+      "code": "my",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "Use polite Burmese (my) with the polite particle (khin-bya/shin); English works at international hotels, larger private hospitals and some upscale Yangon businesses; ethnic-language areas still understand Burmese for business.",
+  "english_ok": "sometimes — Fine at international hotels, big private hospitals and some Yangon offices; rare at local shops, clinics and outside Yangon/Mandalay.",
+  "politeness": "Gentle and respectful: 'Mingalaba', address men as 'U'/'Ko' and women as 'Daw'/'Ma' by age, say you call on behalf of someone; end with 'kyay-zu-tin-ba-deh'. Avoid political topics entirely.",
+  "name_tip": "Burmese names have no family surname; bookings go under the full given name, often with an honorific (Ko, Ma, U, Daw) — give the full name and spell if needed.",
+  "phone_tip": "Mobile numbers start 09 (e.g. 09 1234 5678; +95 drops the 0) with lengths varying by operator; Viber on the same number is the default follow-up channel; landlines are rarely used by small businesses.",
+  "time_tip": "12-hour clock with day-part words (မနက် morning, နေ့လည် midday, ညနေ evening, ည night); 'ခွဲ' after the hour = :30 — always read back with the day part.",
+  "number_tip": "Burmese digits (၀–၉) appear alongside Western digits; numbers are read digit by digit or in small groups; prices in kyat.",
+  "avoid_calling": "Avoid lunch (about 12:00–13:00), calls after 21:00, the Thingyan water festival in April (about a week of closures), and Buddhist full-moon holidays when some businesses close; power cuts can make lines unreachable.",
+  "closed_days": "Saturday–Sunday for government and banks; shops and restaurants mostly open daily; Thingyan (mid-April, about 5–9 days of public holidays) and full-moon days (e.g. Thadingyut, Tazaungdaing) bring closures.",
+  "booking_channels": "Phone and Viber dominate for clinics, salons and restaurants; Facebook pages and Messenger for shops and food; delivery apps (foodpanda, GrabFood) with changing coverage; payments by KBZPay, WavePay, AYA Pay or cash.",
+  "voice_menu": "Telecoms and banks use Burmese/English IVR; hospitals have booking lines answered by staff; small businesses answer in person.",
+  "callback_habits": "Businesses confirm or call back on Viber or by phone; clinics may call the day before; delivery riders call on arrival.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "旅遊活動多經旅行社；部分地區有安全與交通限制，行程常變動。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Area currently accessible or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "pickup_place",
+        "budget"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport details"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "Number of people",
+        "Pickup point",
+        "Name and phone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美容院、理髮與 spa 多以電話、Viber 或 Facebook 預約；婚禮與節日前很滿。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for bridal makeup"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Preferred staff",
+        "Day and time",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期取消回原管道（電話、Viber、Messenger）即可，診所改期會重新給號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit not refundable"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name used",
+        "New time wanted",
+        "Phone number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私立診所與醫院門診多要事先「booking」掛醫師時段，常用電話或 Viber 預約；醫師看診日固定，名額有限。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Doctor sees patients only on set days; booking gives a queue number"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Consultation fee and payment method"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NRC (national registration card) number"
+        }
+      ],
+      "usually_asked": [
+        "Which doctor or specialty",
+        "New or follow-up patient",
+        "Patient name and age",
+        "Day (doctor's clinic days)",
+        "Phone number (Viber)"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（MPT、ATOM、Ooredoo、Mytel）與銀行熱線有緬甸語／英語語音選單，需身分驗證。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "IVR in Burmese or English"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NRC number, PIN or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Account or line number",
+        "Identity check",
+        "Problem description"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務多需本人到場，電話詢問有限；涉及證件的事一律由本人處理。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Requires visiting the office in person"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NRC number"
+        }
+      ],
+      "usually_asked": [
+        "Which service or school question",
+        "Applicant or student details",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、冷氣、清潔多靠熟人介紹或 Facebook；地址要講鎮區（မြို့နယ်）、區（ရပ်ကွက်）、街名、門牌與樓層，很多公寓沒有電梯。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Materials bought separately"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands payment before coming"
+        }
+      ],
+      "usually_asked": [
+        "Service needed",
+        "Township, ward, street, house number, floor",
+        "Day and time",
+        "Name and phone"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "仰光、曼德勒大型飯店英語可通，入住需護照或國民身分證（NRC），外國人入住規定較嚴。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Foreigner-licensed hotel required"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Payment in kyat or US dollars"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or NRC number"
+        }
+      ],
+      "usually_asked": [
+        "Dates",
+        "Number of guests",
+        "Room type",
+        "Guest name",
+        "Phone or email"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "營業時間可能受停電、宵禁或節日影響變動，很多店把公告放在 Facebook 粉專。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hours posted on the Facebook page; may change with power cuts"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What you want to know",
+        "Which branch or township",
+        "When you plan to come"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所集中在仰光、曼德勒，電話或 Facebook 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Animal type, breed, age",
+        "Service needed",
+        "Day and time",
+        "Owner name and phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過仲介、Facebook 群組與分類網站，看房要約，常要預付數月或一年租金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Months of rent in advance and broker fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks NRC or passport copy"
+        },
+        {
+          "handle": "decline",
+          "what": "Asks deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "Township, size, budget",
+        "Viewing time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "汽車、手機與家電維修多直接到店；電話問價常要先看實物，零件供應不穩。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Price only after inspection"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Parts hard to get, takes time"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "address",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave phone passcode"
+        }
+      ],
+      "usually_asked": [
+        "Car or device model",
+        "Problem description",
+        "When to bring it",
+        "Name and phone"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "仰光、曼德勒一般餐館多現場入座，高級餐廳與包廂可電話或 Viber、Facebook Messenger 訂位；潑水節（Thingyan）期間很多店休息。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Walk-in only, no booking"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Private room minimum spend or deposit"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Generator/power cut may change service hours"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks prepayment via KBZPay or WavePay to secure a room"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Hall or private room",
+        "Name and phone (Viber)",
+        "Set menu or à la carte"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店與網路店家多以 Facebook、Viber 接單，貨到付款或 KBZPay、WavePay 等行動支付。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment by mobile wallet"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Out of stock, offer alternative"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests transfer to a personal wallet"
+        }
+      ],
+      "usually_asked": [
+        "Product and quantity",
+        "Pickup or delivery day",
+        "Name and phone",
+        "Payment method"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送平台（foodpanda、GrabFood 等）服務範圍與穩定度近年有變；很多餐館透過 Facebook 粉專、Viber 或電話接外送與自取。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Order via the Facebook page or delivery app"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Delivery area and fee"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "customization"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantities",
+        "Pickup time or address (township, ward, street, building, floor)",
+        "Name and phone",
+        "Cash on delivery or mobile pay"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "國內快遞多以 Facebook、Viber 或電話查件，國際快遞以網站查件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Track on the courier website"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name and phone",
+        "Address"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車 App（Grab 等）服務有限，計程車常要先談價；包車可電話或 Viber 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agree price in advance"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup place and time",
+        "Destination",
+        "Passengers and luggage",
+        "Name and phone"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "my": {
+      "appointment_words": [
+        "ဆရာဝန်နဲ့ ဘိုကင်ယူ",
+        "ဆေးခန်း ချိန်းဆို",
+        "ဆံပင်ညှပ်ဆိုင် ဘိုကင်",
+        "ကားပြင်ဖို့ ချိန်း",
+        "တိုင်ပင်ဖို့ ချိန်း"
+      ],
+      "booking_words": [
+        "စားပွဲ ကြိုတင်မှာ",
+        "အခန်း ဘိုကင်",
+        "ဟိုတယ်အခန်း ယူ",
+        "ဘိုကင် အတည်ပြု",
+        "ကြိုတင်စာရင်းပေး"
+      ],
+      "change_words": [
+        "ရက်ရွှေ့",
+        "ဘိုကင် ဖျက်",
+        "အချိန်ပြောင်း",
+        "မနက်ဖြန် ပြောင်း",
+        "နာရီဝက် နောက်ကျ"
+      ],
+      "date": [
+        "ဒီနေ့",
+        "မနက်ဖြန်",
+        "သန်ဘက်ခါ",
+        "ဒီသောကြာနေ့",
+        "နိုဝင်ဘာ ၂၅",
+        "၂၅.၁၁"
+      ],
+      "false_friends": [
+        "၃ လွှာ",
+        "အမှတ် ၁၂",
+        "၁၄ လမ်း",
+        "ရပ်ကွက် ၅",
+        "ဆက်ဒ် ၂",
+        "၁ နာရီ နှိပ်"
+      ],
+      "inquiry_words": [
+        "ဘယ်နှနာရီ ဖွင့်လဲ",
+        "ဈေးဘယ်လောက်လဲ",
+        "ပို့ပေးလား",
+        "KBZPay နဲ့ ရလား",
+        "တနင်္ဂနွေ ဖွင့်လား"
+      ],
+      "name": [
+        "ကိုအောင် နာမည်နဲ့",
+        "မမ နာမည်နဲ့",
+        "လူနာ နာမည်",
+        "ကုမ္ပဏီ နာမည်နဲ့",
+        "အမည်အပြည့်အစုံ"
+      ],
+      "order_words": [
+        "အော်ဒါမှာ",
+        "အိမ်အရောက်ပို့",
+        "လာယူမယ်",
+        "ကြိုမှာ",
+        "ကိတ်မုန့် မှာ"
+      ],
+      "party": [
+        "၄ ယောက်",
+        "ကျွန်တော်တို့ ၅ ယောက်",
+        "လူကြီး ၂ ကလေး ၁",
+        "၂ ယောက်",
+        "၁၀ ယောက်စာ"
+      ],
+      "phone": [
+        "09 1234 5678",
+        "09-123-45678",
+        "+95 9 1234 5678",
+        "ဖုန်း 12345678"
+      ],
+      "time": [
+        "ည ၇ နာရီခွဲ",
+        "ညနေ ၆ နာရီ",
+        "၈ နာရီ ၁၅ မိနစ်",
+        "နေ့လည် ၁၂ နာရီ",
+        "မနက် ၁၀ နာရီ",
+        "19:30"
+      ]
+    }
+  }
+}

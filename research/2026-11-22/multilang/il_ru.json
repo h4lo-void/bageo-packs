@@ -1,0 +1,89 @@
+{
+  "region": "il",
+  "lang": "ru",
+  "hello": {
+    "hello": "Алло?",
+    "hello_again": "Алло, да, слушаю."
+  },
+  "habits": {
+    "en": "Israeli Russian keeps Hebrew words: купат холим, битуах леуми, ульпан, шекель. вы with strangers; stay neutral.",
+    "zh": "以色列俄語常夾 купат холим、битуах、ульпан、шекель。對生人用 вы，口吻中性。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Friend from the aliyah community: ты, lively; купат холим or шекель drop in as ordinary nouns, no translation needed.",
+        "zh": "移民社群熟友用 ты，語氣活；купат холим、шекель 當普通名詞用，不必翻譯。"
+      },
+      "2": {
+        "en": "Easygoing: follow ты; after they explain, a short яснo or beseder, Hebrew office names left as-is.",
+        "zh": "隨和：跟著 ты；聽完可短短回 ясно 或 beseder，希伯來機關名照留。"
+      },
+      "3": {
+        "en": "Everyday Israeli Russian. Finish the point in a sentence; National Insurance is битуах леуми, not a Russian собес calque only.",
+        "zh": "以色列日常俄語。用完整句子說完；國民保險叫 битуах леуми，不要只套用俄羅斯的福利詞。"
+      },
+      "4": {
+        "en": "Polite вы at a clinic or ministry. Keep теудат зеут and ульпан, speak evenly, no political detours.",
+        "zh": "在診所或部會用禮貌 вы。теудат зеут、ульпан 照留，語氣平穩，不繞到政治。"
+      },
+      "5": {
+        "en": "Formal вы, exact about шекель and битуах, each item closed fully, wording remains neutral.",
+        "zh": "正式 вы，把 шекель、битуах 說準，各項收完整，措辭保持中性。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup on ты: catch the news, then you'll pass it, with Hebrew terms left untouched.",
+        "zh": "{owner}隨興代接，用 ты：先接住要說的事，再轉達，希伯來詞不要擅自改寫。"
+      },
+      "2": {
+        "en": "Warm stand-in: match ты or вы, leave купат холим as said, and tell them {owner} will hear it.",
+        "zh": "溫暖代接：跟著 ты 或 вы，купат холим 照叫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the битуах or clinic point in full Russian, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用完整俄語重述保險或診所的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary on вы: note the purpose, keep Hebrew official names, confirm the handover, stay neutral.",
+        "zh": "沉穩秘書用 вы：記下目的，希伯來官方名稱照留，再確認轉交，口吻中性。"
+      },
+      "5": {
+        "en": "Formal deputy on вы: precise about шекель and теудат зеут, no political asides, then confirm the note for {owner}.",
+        "zh": "正式代表用 вы，把 шекель、теудат зеут 說準，不旁及政治，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Алло! Привет, как ты? Ну, рассказывай.",
+      "Алло, да, слушаю. Я на линии.",
+      "Алло, добрый день. Это в купат холим? Понял.",
+      "Добрый день, спасибо за звонок. По битуаху всё ясно.",
+      "Добрый день, благодарю за звонок. Вопрос по шекелям принял."
+    ],
+    "a": [
+      "Алло! Его нет, скажи — я передам.",
+      "Алло, привет. Я на его телефоне, диктуй.",
+      "Алло, добрый день. Передам {owner}, как сказано.",
+      "Добрый день, спасибо за звонок. Запись в купат холим возьму.",
+      "Добрый день, благодарю за звонок. Всё по битуаху отмечу, передам."
+    ]
+  },
+  "diff_from_home": [
+    "醫療與保險常直接說 купат холим、битуах леуми，不必譯成俄羅斯診所或社保叫法。",
+    "證件、希伯來課與稅常見 теудат зеут、ульпан、арнона 等詞，已進入當地俄語。",
+    "貨幣是 шекель；口語也可能夾 beseder、yalla 等希伯來話語標記。",
+    "這是以色列俄語社群的習慣，口吻保持中性，不評政治立場。"
+  ],
+  "sources": [
+    "https://www.nbn.org.il/making-aliyah/the-aliyah-process/your-first-steps/oleh-glossary/",
+    "https://wsa.ub.uni-muenchen.de/wsa-rb/article/download/745/410/706",
+    "https://www.btl.gov.il/",
+    "https://www.clalit.co.il/he"
+  ],
+  "uncertain": [
+    "不同移民波次（1990 年代與較晚抵境者）夾用希伯來語的程度不同，不宜寫成單一口音。"
+  ]
+}

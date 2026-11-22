@@ -1,0 +1,427 @@
+{
+  "region": "az",
+  "vocab": {
+    "az": {
+      "bank": [
+        {
+          "term": "Birbank",
+          "en": "Kapital Bank's super-app, the name many people use for everyday banking and bill pay"
+        },
+        {
+          "term": "Kapital Bank",
+          "en": "the bank behind Birbank, still named on its own"
+        },
+        {
+          "term": "SMS kod",
+          "en": "the confirmation code the bank sends"
+        },
+        {
+          "term": "köçürmə",
+          "en": "a bank transfer (köçürmə)"
+        },
+        {
+          "term": "hesab",
+          "en": "an account"
+        },
+        {
+          "term": "balans",
+          "en": "the balance (balans)"
+        },
+        {
+          "term": "internet bankçılıq",
+          "en": "online banking, often just the Birbank app"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "mühafizə",
+          "en": "building security, the people a courier usually calls"
+        },
+        {
+          "term": "komendant",
+          "en": "the building superintendent"
+        },
+        {
+          "term": "Kargomat",
+          "en": "a parcel locker some shops use"
+        },
+        {
+          "term": "Azərpoçt",
+          "en": "the national post (Azərpoçt)"
+        },
+        {
+          "term": "kuryer",
+          "en": "the courier (kuryer)"
+        },
+        {
+          "term": "qonşu",
+          "en": "the neighbour (qonşu)"
+        },
+        {
+          "term": "qapının önü",
+          "en": "at the door (qapının önü)"
+        }
+      ],
+      "government": [
+        {
+          "term": "ASAN xidmət",
+          "en": "the one-stop government service centre, also the ASAN payment and queue tools"
+        },
+        {
+          "term": "şəxsiyyət vəsiqəsi",
+          "en": "the ID card (şəxsiyyət vəsiqəsi)"
+        },
+        {
+          "term": "pasport",
+          "en": "a passport (pasport)"
+        },
+        {
+          "term": "sürücülük vəsiqəsi",
+          "en": "a driving licence, often renewed at ASAN"
+        },
+        {
+          "term": "VÖEN",
+          "en": "a taxpayer number, mainly for business; do not recite it unless {owner} asks"
+        },
+        {
+          "term": "ASAN ödəniş",
+          "en": "paying a government fee through the ASAN or Birbank flow"
+        }
+      ],
+      "health": [
+        {
+          "term": "poliklinika",
+          "en": "the local clinic (poliklinika)"
+        },
+        {
+          "term": "aptek",
+          "en": "a pharmacy (aptek)"
+        },
+        {
+          "term": "resept",
+          "en": "a prescription (resept)"
+        },
+        {
+          "term": "təcili yardım",
+          "en": "emergency care (təcili yardım)"
+        },
+        {
+          "term": "həkim",
+          "en": "a doctor, also ailə həkimi"
+        },
+        {
+          "term": "icbari tibbi sığorta",
+          "en": "compulsory medical insurance, also İTS"
+        },
+        {
+          "term": "xəstəxana",
+          "en": "a hospital (xəstəxana)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "SIM kart",
+          "en": "a SIM (SIM kart)"
+        },
+        {
+          "term": "paket",
+          "en": "a mobile plan (paket)"
+        },
+        {
+          "term": "balans",
+          "en": "prepaid credit (balans)"
+        },
+        {
+          "term": "operator",
+          "en": "the operator, often Azercell, Bakcell or Nar"
+        },
+        {
+          "term": "mobil internet",
+          "en": "mobile data (mobil internet)"
+        },
+        {
+          "term": "ev interneti",
+          "en": "home broadband (ev interneti)"
+        },
+        {
+          "term": "nömrənin köçürülməsi",
+          "en": "keeping the number (nömrənin köçürülməsi)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "Birbank",
+          "en": "the default in-app payment for many bills and QR checkouts"
+        },
+        {
+          "term": "kart",
+          "en": "a payment card (kart)"
+        },
+        {
+          "term": "nağd",
+          "en": "cash (nağd)"
+        },
+        {
+          "term": "köçürmə",
+          "en": "a transfer (köçürmə)"
+        },
+        {
+          "term": "QR ödəniş",
+          "en": "paying by QR, including at some ASAN counters"
+        },
+        {
+          "term": "kommunal",
+          "en": "utility bills, electricity, gas and water paid in the app"
+        },
+        {
+          "term": "ƏDV geri",
+          "en": "the VAT-refund flow some shoppers do in Birbank after a receipt"
+        }
+      ],
+      "transport": [
+        {
+          "term": "metro",
+          "en": "the Baku metro; do not assume it in other cities"
+        },
+        {
+          "term": "BakıKART",
+          "en": "the capital's transit card"
+        },
+        {
+          "term": "avtobus",
+          "en": "a bus (avtobus)"
+        },
+        {
+          "term": "taksi",
+          "en": "a taxi, also Bolt in Baku"
+        },
+        {
+          "term": "marşrut",
+          "en": "a minibus"
+        },
+        {
+          "term": "bilet",
+          "en": "a ticket (bilet)"
+        },
+        {
+          "term": "vağzal",
+          "en": "the railway or bus station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "mənzil",
+          "en": "a flat (mənzil)"
+        },
+        {
+          "term": "giriş",
+          "en": "the entrance of a block"
+        },
+        {
+          "term": "domofon",
+          "en": "the door phone (domofon)"
+        },
+        {
+          "term": "poçt qutusu",
+          "en": "the letterbox (poçt qutusu)"
+        },
+        {
+          "term": "kirayə",
+          "en": "the rent (kirayə)"
+        },
+        {
+          "term": "komendant",
+          "en": "the building superintendent"
+        },
+        {
+          "term": "mərtəbə",
+          "en": "the floor (mərtəbə)"
+        }
+      ],
+      "school": [
+        {
+          "term": "uşaq bağçası",
+          "en": "kindergarten (uşaq bağçası)"
+        },
+        {
+          "term": "məktəb",
+          "en": "school (məktəb)"
+        },
+        {
+          "term": "lisey",
+          "en": "a lyceum or selective secondary school"
+        },
+        {
+          "term": "ev tapşırığı",
+          "en": "homework (ev tapşırığı)"
+        },
+        {
+          "term": "müəllim",
+          "en": "a teacher, also sinif rəhbəri"
+        },
+        {
+          "term": "universitet",
+          "en": "university (universitet)"
+        }
+      ],
+      "money": [
+        {
+          "term": "manat",
+          "en": "Azerbaijani manat, also AZN"
+        },
+        {
+          "term": "qəpik",
+          "en": "qəpik, the subunit"
+        },
+        {
+          "term": "nağd",
+          "en": "cash (nağd)"
+        },
+        {
+          "term": "xırda",
+          "en": "the change (xırda)"
+        },
+        {
+          "term": "məbləğ",
+          "en": "the amount (məbləğ)"
+        },
+        {
+          "term": "min",
+          "en": "a thousand manat, used for larger sums"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "səhər",
+          "en": "in the morning (səhər)"
+        },
+        {
+          "term": "gündüz",
+          "en": "in the afternoon, also günorta"
+        },
+        {
+          "term": "axşam",
+          "en": "in the evening (axşam)"
+        },
+        {
+          "term": "iş günü",
+          "en": "a weekday (iş günü)"
+        },
+        {
+          "term": "həftəsonu",
+          "en": "the weekend (həftəsonu)"
+        },
+        {
+          "term": "işdən sonra",
+          "en": "after work (işdən sonra)"
+        },
+        {
+          "term": "bu həftə",
+          "en": "this week (bu həftə)"
+        },
+        {
+          "term": "sabah səhər",
+          "en": "tomorrow morning (sabah səhər)"
+        }
+      ],
+      "work": [
+        {
+          "term": "iş",
+          "en": "work (iş)"
+        },
+        {
+          "term": "əlavə saat",
+          "en": "overtime (əlavə saat)"
+        },
+        {
+          "term": "məzuniyyət",
+          "en": "annual leave (məzuniyyət)"
+        },
+        {
+          "term": "xəstəlik vərəqəsi",
+          "en": "a sick note (xəstəlik vərəqəsi)"
+        },
+        {
+          "term": "rəis",
+          "en": "the boss, also müdir"
+        },
+        {
+          "term": "evdən iş",
+          "en": "working from home (evdən iş)"
+        },
+        {
+          "term": "ezamiyyət",
+          "en": "a business trip (ezamiyyət)"
+        },
+        {
+          "term": "maaş",
+          "en": "the salary (maaş)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "Idram",
+      "use_instead": "Birbank, köçürmə",
+      "where_it_is_from": "AM"
+    },
+    {
+      "word": "dram 當亞塞拜然貨幣",
+      "use_instead": "manat",
+      "where_it_is_from": "AM"
+    },
+    {
+      "word": "HayPost",
+      "use_instead": "Azərpoçt, Kargomat",
+      "where_it_is_from": "AM"
+    },
+    {
+      "word": "Zelle",
+      "use_instead": "Birbank, köçürmə",
+      "where_it_is_from": "US"
+    },
+    {
+      "word": "Госуслуги",
+      "use_instead": "ASAN xidmət",
+      "where_it_is_from": "RU"
+    },
+    {
+      "word": "metro 套用到巴庫以外",
+      "use_instead": "地鐵只在巴庫；外縣市用 avtobus 或 taksi",
+      "where_it_is_from": "AZ"
+    },
+    {
+      "word": "MitID",
+      "use_instead": "ASAN xidmət, SMS kod, Birbank",
+      "where_it_is_from": "DK"
+    },
+    {
+      "word": "Tazkira",
+      "use_instead": "şəxsiyyət vəsiqəsi, pasport",
+      "where_it_is_from": "AF"
+    },
+    {
+      "word": "Packstation",
+      "use_instead": "Kargomat, Azərpoçt",
+      "where_it_is_from": "DE"
+    },
+    {
+      "word": "不要朗讀 VÖEN 全號",
+      "use_instead": "只在主人要求核對時使用",
+      "where_it_is_from": "AZ"
+    }
+  ],
+  "sources": [
+    "https://birbank.az/en/birbank-tetbiqi",
+    "https://www.asan.gov.az/",
+    "https://asan.gov.az/az/media/press-releases/asan-xidmet-de-oedenisleri-qr-kodla-oedemek-imkani-temin-edilib",
+    "https://www.azerpost.az/az/sirket",
+    "https://www.kapitalbank.az/"
+  ],
+  "uncertain": [
+    "Kargomat 是來電與既有詞庫常見的櫃機名，不同電商也可能用自己的取件點名稱。",
+    "Birbank 幾乎等於日常銀行 App，但不是唯一銀行，來電者也可能用其他行的應用。",
+    "BakıKART 與 metro 只覆蓋巴庫。"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "region": "sr",
+  "lang": "jv",
+  "why_added": "蘇利南 2012 普查：爪哇語為 3.9% 家庭最常用語、另 5.3% 作為第二語言；區包預設為荷語。",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, nggih?"
+  },
+  "habits": {
+    "en": "Krama with strangers, ngoko once close. This is Surinamese Javanese. Money is the Surinamese dollar.",
+    "zh": "對生人用較敬的 krama，熟了才用 ngoko。這是蘇利南爪哇語。貨幣是蘇利南元。荷語詞可留。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Javanese-Surinamese friend: ngoko, short warm lines. Leave erf or hek; cash is Surinamese dollars, not rupiah.",
+        "zh": "蘇利南爪哇裔熟友用 ngoko，短而熱絡。erf、hek 照留；錢是蘇利南元，不是印尼盾。"
+      },
+      "2": {
+        "en": "Easy familiar tone. A Dutch office name they used stays; do not switch into Indonesian slang.",
+        "zh": "半熟口氣。對方用的荷語機關名照留；不要改口說印尼俚語。"
+      },
+      "3": {
+        "en": "Everyday Surinamese Javanese. Finish each point; say Surinamese dollars, and keep local Dutch paperwork names.",
+        "zh": "日常蘇利南爪哇語。把話說完；要說蘇利南元，本地荷語文件名照留。"
+      },
+      "4": {
+        "en": "Polite krama for offices. Formal calls may move toward Dutch; confirm SRD amounts if they stay in Javanese.",
+        "zh": "對機關用 krama。正式電話可能轉荷語；若仍用爪哇語，金額要確認是蘇利南元。"
+      },
+      "5": {
+        "en": "Formal krama. This variety has drifted from Java; avoid Indonesian bureaucratic set phrases and rupiah talk.",
+        "zh": "正式 krama。此變體已與爪哇島有別，不套用印尼公文套句，也不要談印尼盾。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s familiar pickup in ngoko if they used it, then you will carry the message.",
+        "zh": "{owner}熟人代接：對方用 ngoko 才用 ngoko，再說會把話帶去。"
+      },
+      "2": {
+        "en": "Warm stand-in: match ngoko or krama, leave SRD as said, and let them know {owner} will be told.",
+        "zh": "溫和代接：跟著 ngoko 或 krama，蘇利南元照說，並讓對方知道會告知{owner}。"
+      },
+      "3": {
+        "en": "Local assistant. Recap the Surinamese-dollar point in one full Javanese sentence, then confirm the relay to {owner}.",
+        "zh": "當地代接。先用整句爪哇語重述蘇利南元的事，再確認會轉告{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary in krama: note why they called, keep Dutch titles, then confirm the handover to {owner}.",
+        "zh": "穩重秘書用 krama：記下來電原因，荷語職銜照留，再確認會轉交{owner}。"
+      },
+      "5": {
+        "en": "Formal deputy in krama: exact on SRD and office names, no extra intimacy, then confirm the note for {owner}.",
+        "zh": "正式代表用 krama：蘇利南元與機關名要準，不套近乎，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo! Kowe isih ing Paramaribo?",
+      "Halo, nggih, aku krungu, kandhaa.",
+      "Halo, sugeng. Bab SRD ta?",
+      "Sugeng enjing, matur nuwun nelpon. Jumlahe wus cetha.",
+      "Sugeng, matur nuwun. Urusan kantor wus kacathet."
+    ],
+    "a": [
+      "Halo! {owner} ora ana, kandhaa, takaturake.",
+      "Halo, sugeng. Aku ana ing telpon, pesene apa?",
+      "Halo, sugeng. Omonganmu takaturake {owner}.",
+      "Sugeng, matur nuwun. Bab SRD takandhakake {owner}.",
+      "Sugeng, matur nuwun. Rincine taktulis banjur takaturake."
+    ]
+  },
+  "diff_from_home": [
+    "貨幣是蘇利南元，不是印尼盾。",
+    "蘇利南爪哇語已與爪哇島用法有別，常夾荷語詞（erf、hek）或蘇里南湯加語。",
+    "正式場合仍常轉用荷語；爪哇語多見於社群內部。",
+    "避免套用印尼語口語或印尼機關名稱。"
+  ],
+  "sources": [
+    "https://unstats.un.org/unsd/demographic-social/census/documents/Suriname/SUR-Census2012-vol3.pdf",
+    "https://statistics-suriname.org/wp-content/uploads/2025/01/Statistisch-Jaarboek-Statistical-Yearbook-2020-2021-2022-dec-2023-corr-jan-2025.pdf",
+    "https://www.cia.gov/the-world-factbook/countries/suriname/"
+  ],
+  "uncertain": [
+    "2012 普查之後，年輕世代改用荷語的程度可能上升，新的語言比重資料不完整。",
+    "蘇利南爪哇語與標準爪哇語的差異缺少新的電話語料，AI 無法保證呈現在地變體。",
+    "Javanese 問候與敬語層級在蘇利南的實際使用，可能比爪哇島簡化，不能寫成完整九層禮儀。"
+  ]
+}

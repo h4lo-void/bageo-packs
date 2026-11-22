@@ -1,0 +1,469 @@
+{
+  "region": "rs",
+  "vocab": {
+    "sr": {
+      "bank": [
+        {
+          "term": "tekući račun",
+          "en": "Serbian current account"
+        },
+        {
+          "term": "uplata",
+          "en": "payment in/deposit, Serbian"
+        },
+        {
+          "term": "IPS plaćanje",
+          "en": "Serbian instant payment system (NBS)"
+        },
+        {
+          "term": "m-banking",
+          "en": "Serbian mobile banking, also 'mBanking'"
+        },
+        {
+          "term": "Dina kartica",
+          "en": "Serbian national card scheme"
+        },
+        {
+          "term": "uplatnica",
+          "en": "Serbian paper payment slip"
+        },
+        {
+          "term": "broj računa",
+          "en": "Serbian domestic account number (not IBAN)"
+        },
+        {
+          "term": "prenos novca",
+          "en": "money transfer, Serbian"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "Post Express",
+          "en": "Serbian Post's express courier"
+        },
+        {
+          "term": "Pošta Srbije",
+          "en": "Serbian national post"
+        },
+        {
+          "term": "kurirska služba",
+          "en": "courier company, Serbian"
+        },
+        {
+          "term": "pouzećem",
+          "en": "Serbian cash on delivery"
+        },
+        {
+          "term": "kod komšije",
+          "en": "left with the neighbour (Serbian)"
+        },
+        {
+          "term": "paketomat",
+          "en": "parcel locker in Serbia"
+        },
+        {
+          "term": "broj pošiljke",
+          "en": "Serbian shipment number"
+        },
+        {
+          "term": "kurir",
+          "en": "courier/driver, Serbian"
+        }
+      ],
+      "government": [
+        {
+          "term": "lična karta",
+          "en": "Serbian ID card"
+        },
+        {
+          "term": "JMBG",
+          "en": "Serbian personal ID number; never read aloud unasked"
+        },
+        {
+          "term": "MUP",
+          "en": "Serbian interior ministry office for IDs"
+        },
+        {
+          "term": "opština",
+          "en": "Serbian municipality office"
+        },
+        {
+          "term": "eUprava",
+          "en": "Serbian e-government portal"
+        },
+        {
+          "term": "Poreska uprava",
+          "en": "Serbian tax administration"
+        },
+        {
+          "term": "vozačka",
+          "en": "Serbian driving licence, colloquial"
+        },
+        {
+          "term": "prijava prebivališta",
+          "en": "Serbian residence registration"
+        }
+      ],
+      "health": [
+        {
+          "term": "zdravstvena knjižica",
+          "en": "Serbian health insurance booklet/card"
+        },
+        {
+          "term": "dom zdravlja",
+          "en": "Serbian public health centre"
+        },
+        {
+          "term": "izabrani lekar",
+          "en": "Serbian chosen GP"
+        },
+        {
+          "term": "apoteka",
+          "en": "pharmacy, Serbian"
+        },
+        {
+          "term": "Hitna pomoć",
+          "en": "Serbian emergency service"
+        },
+        {
+          "term": "uput",
+          "en": "Serbian referral"
+        },
+        {
+          "term": "bolovanje",
+          "en": "Serbian sick leave"
+        },
+        {
+          "term": "eRecept",
+          "en": "Serbian e-prescription"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "mobilni",
+          "en": "mobile phone, Serbian"
+        },
+        {
+          "term": "Yettel",
+          "en": "Serbian operator, formerly Telenor"
+        },
+        {
+          "term": "mts",
+          "en": "Telekom Srbija's mobile brand"
+        },
+        {
+          "term": "A1",
+          "en": "operator in Serbia (A1 Srbija)"
+        },
+        {
+          "term": "dopuna",
+          "en": "Serbian prepaid top-up"
+        },
+        {
+          "term": "pretplata",
+          "en": "Serbian postpaid plan"
+        },
+        {
+          "term": "prenos broja",
+          "en": "Serbian number porting"
+        },
+        {
+          "term": "paket interneta",
+          "en": "Serbian data pack"
+        }
+      ],
+      "payment": [
+        {
+          "term": "plaćanje karticom",
+          "en": "card payment, Serbian"
+        },
+        {
+          "term": "keš",
+          "en": "Serbian colloquial cash"
+        },
+        {
+          "term": "IPS skeniraj",
+          "en": "Serbian QR 'scan to pay'"
+        },
+        {
+          "term": "na rate",
+          "en": "Serbian instalment purchase"
+        },
+        {
+          "term": "račun",
+          "en": "Serbian bill/receipt (also account)"
+        },
+        {
+          "term": "fiskalni račun",
+          "en": "Serbian fiscal receipt"
+        },
+        {
+          "term": "gotovina",
+          "en": "cash, Serbian formal"
+        }
+      ],
+      "transport": [
+        {
+          "term": "gradski prevoz",
+          "en": "Serbian city public transport"
+        },
+        {
+          "term": "BusPlus",
+          "en": "Belgrade transit card system"
+        },
+        {
+          "term": "tramvaj",
+          "en": "tram in Belgrade"
+        },
+        {
+          "term": "Srbija voz",
+          "en": "Serbian passenger rail"
+        },
+        {
+          "term": "taksi",
+          "en": "taxi in Serbia"
+        },
+        {
+          "term": "CarGo",
+          "en": "Serbian ride-hailing app"
+        },
+        {
+          "term": "stanica",
+          "en": "Serbian stop or station"
+        },
+        {
+          "term": "autobuska stanica",
+          "en": "Serbian intercity bus station"
+        }
+      ],
+      "housing": [
+        {
+          "term": "stan",
+          "en": "flat, Serbian"
+        },
+        {
+          "term": "zgrada",
+          "en": "Serbian building"
+        },
+        {
+          "term": "ulaz",
+          "en": "entrance of a Serbian building"
+        },
+        {
+          "term": "interfon",
+          "en": "Serbian intercom"
+        },
+        {
+          "term": "upravnik zgrade",
+          "en": "Serbian building manager"
+        },
+        {
+          "term": "Infostan",
+          "en": "Belgrade utility billing"
+        },
+        {
+          "term": "kirija",
+          "en": "Serbian colloquial rent"
+        },
+        {
+          "term": "sprat",
+          "en": "Serbian floor"
+        }
+      ],
+      "school": [
+        {
+          "term": "vrtić",
+          "en": "Serbian kindergarten"
+        },
+        {
+          "term": "osnovna škola",
+          "en": "Serbian eight-year primary school"
+        },
+        {
+          "term": "gimnazija",
+          "en": "Serbian academic high school"
+        },
+        {
+          "term": "mala matura",
+          "en": "Serbian end-of-primary exam"
+        },
+        {
+          "term": "roditeljski sastanak",
+          "en": "Serbian parents' meeting"
+        },
+        {
+          "term": "privatni časovi",
+          "en": "Serbian private lessons"
+        },
+        {
+          "term": "produženi boravak",
+          "en": "Serbian after-school care"
+        },
+        {
+          "term": "upis",
+          "en": "Serbian school enrolment"
+        }
+      ],
+      "money": [
+        {
+          "term": "dinar",
+          "en": "Serbian currency"
+        },
+        {
+          "term": "hiljada",
+          "en": "thousand, Serbian"
+        },
+        {
+          "term": "soma",
+          "en": "Serbian slang for a thousand"
+        },
+        {
+          "term": "milion",
+          "en": "million, Serbian"
+        },
+        {
+          "term": "kusur",
+          "en": "change given back, Serbian"
+        },
+        {
+          "term": "sitno",
+          "en": "small change, Serbian"
+        },
+        {
+          "term": "KM",
+          "en": "convertible mark in Bosnia and Herzegovina"
+        },
+        {
+          "term": "evro",
+          "en": "euro, used in Montenegro and for rents in Serbia"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "sutra",
+          "en": "tomorrow, Serbian"
+        },
+        {
+          "term": "prekosutra",
+          "en": "day after tomorrow, Serbian"
+        },
+        {
+          "term": "pola tri",
+          "en": "2:30 in Serbian"
+        },
+        {
+          "term": "petnaest do tri",
+          "en": "2:45 in Serbian"
+        },
+        {
+          "term": "popodne",
+          "en": "afternoon, Serbian"
+        },
+        {
+          "term": "vikend",
+          "en": "weekend, Serbian"
+        },
+        {
+          "term": "sledeće nedelje",
+          "en": "next week (Serbian ekavian)"
+        }
+      ],
+      "work": [
+        {
+          "term": "posao",
+          "en": "job, Serbian"
+        },
+        {
+          "term": "godišnji odmor",
+          "en": "Serbian annual leave, 'godišnji'"
+        },
+        {
+          "term": "plata",
+          "en": "Serbian salary"
+        },
+        {
+          "term": "prekovremeni",
+          "en": "Serbian overtime"
+        },
+        {
+          "term": "preduzetnik",
+          "en": "Serbian sole trader"
+        },
+        {
+          "term": "rad od kuće",
+          "en": "work from home, Serbian"
+        },
+        {
+          "term": "smena",
+          "en": "Serbian shift"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "tisuća",
+      "use_instead": "hiljada",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "točka",
+      "use_instead": "tačka",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "veljača",
+      "use_instead": "februar",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "zrakoplov",
+      "use_instead": "avion",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "kolodvor",
+      "use_instead": "stanica",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "OIB",
+      "use_instead": "JMBG",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "ljekarna",
+      "use_instead": "apoteka",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "mobitel",
+      "use_instead": "mobilni",
+      "where_it_is_from": "HR"
+    },
+    {
+      "word": "kuna",
+      "use_instead": "dinar, KM, evro",
+      "where_it_is_from": "HR"
+    }
+  ],
+  "sources": [
+    "https://euprava.gov.rs/",
+    "https://www.posta.rs/",
+    "https://www.nbs.rs/",
+    "https://ips.nbs.rs/",
+    "https://www.rfzo.rs/",
+    "https://www.ratel.rs/",
+    "https://prosveta.gov.rs/",
+    "https://www.srbijavoz.rs/",
+    "https://www.purs.gov.rs/",
+    "https://www.gsp.co.rs/",
+    "https://www.posta.ba/",
+    "https://www.postacg.me/"
+  ],
+  "uncertain": [
+    "本區含塞爾維亞、波士尼亞、蒙特內哥羅，但只寫塞爾維亞語（拉丁字母、ekavian）；波黑與蒙特內哥羅多用 ijekavian（sljedeće、hljeb）和 sedmica，本檔未逐區分組。",
+    "波黑、蒙特內哥羅的電信、郵政、交通品牌只查了郵政官網，其餘沿用塞爾維亞例子，需再補。",
+    "波黑的克羅埃西亞語使用者也說 kruh、tjedan，所以沒列入避用。「soma」「keš」屬口語，正式電話宜用 hiljada、gotovina。"
+  ]
+}

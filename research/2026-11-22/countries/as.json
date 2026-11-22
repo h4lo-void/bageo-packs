@@ -1,0 +1,82 @@
+{
+  "country": "as",
+  "parent": "us",
+  "name": {
+    "en": "American Samoa",
+    "native": "Amerika Sāmoa",
+    "zh": "美屬薩摩亞"
+  },
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, you still there?"
+  },
+  "delivery": {
+    "en": "USPS serves American Samoa, but mainland Priority Mail often takes several days, Ground longer",
+    "zh": "USPS 可送到美屬薩摩亞，但從本土寄的 Priority 常要好幾天，Ground 更久"
+  },
+  "readback": {
+    "en": "After 684, numbers go 3-3-4; 0 as zero or oh; US dollars; month before day; 12-hour a.m. or p.m.",
+    "zh": "684 區碼後照 3-3-4 唸，0 可唸 zero 或 oh；美元；先月後日；12 時制"
+  },
+  "fraud": {
+    "en": "A message claiming a USPS delivery problem and asking for a link-click or personal data is a scam",
+    "zh": "自稱 USPS 投遞出問題，要你點連結或提供個資，都是詐騙"
+  },
+  "habits": {
+    "en": "Reply in English. People may say Talofa in person, but it is unsupported. Month first, zip codes, US dollars.",
+    "zh": "用英語回。見面或說 Talofa，但不在支援清單。日期先月後日，有 zip code，用美元。"
+  },
+  "stall_local": {
+    "en": "A mainland Priority parcel can still be in transit for days, and the bank app will not load.",
+    "zh": "從本土寄來的 Priority 包裹可能還在路上好幾天，而且這條連線載不動銀行 App。"
+  },
+  "vocab": {
+    "bank": [
+      "checking account",
+      "debit card",
+      "direct deposit",
+      "routing number"
+    ],
+    "delivery": [
+      "USPS",
+      "Priority Mail",
+      "customs",
+      "tracking"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "postcode",
+      "reason": {
+        "zh": "英式說法；美屬薩摩亞用 zip code"
+      }
+    },
+    {
+      "word": "East Caribbean dollars",
+      "reason": {
+        "zh": "加勒比貨幣，這裡用美元"
+      }
+    },
+    {
+      "word": "Talofa",
+      "reason": {
+        "zh": "薩摩亞語見面問候，不在支援語言清單，AI 不應用它當接聽語"
+      }
+    }
+  ],
+  "talk_style_diff": {
+    "en": "Mostly US English. Do not pretend to speak Samoan; Talofa may be heard but reply in English. Allow slower island USPS times; refuse fake tracking links.",
+    "zh": "大致是美式英語。不要假裝會講薩摩亞語；聽到 Talofa 也用英語回。接受島嶼郵務較慢，但拒絕假查件連結。"
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://faq.usps.com/articles/FAQ/Delayed-Mail-and-Packages",
+    "https://www.uspis.gov/news/scam-article/smishing-package-tracking-text-scams",
+    "https://www.uspis.gov/news/scam-article/fake-usps-phone-calls"
+  ],
+  "uncertain": [
+    "沒找到美屬薩摩亞本地政府自己發布的電話詐騙專文，fraud 依 USPS 在轄區也適用的防詐說明。",
+    "Talofa 是否用來接電話，還是多半見面用，沒有調查。"
+  ]
+}

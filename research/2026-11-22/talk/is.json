@@ -1,0 +1,260 @@
+{
+  "lang": "is",
+  "backchannels": {
+    "direction": "Já and einmitt show listening, often said on an in-breath; jájá said flatly can sound like brushing off.",
+    "examples": [
+      {
+        "text": "Já, já.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Einmitt.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Akkúrat.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Já, ég skil.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Jájá.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Í alvöru? or Nei, er það? for surprise; leiðinlegt að heyra for sympathy; frábært for good news.",
+    "examples": [
+      {
+        "text": "Nei, er það?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Í alvöru?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Leiðinlegt að heyra það.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Frábært að heyra!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Það verður snúið.",
+        "style": "casual",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you hear badly (ég heyri illa í þér) or the line breaks up, then ask them to talk louder.",
+    "examples": [
+      {
+        "text": "Ég heyri illa í þér.",
+        "style": "polite"
+      },
+      {
+        "text": "Sambandið er slæmt.",
+        "style": "casual"
+      },
+      {
+        "text": "Þú ert að detta út.",
+        "style": "casual"
+      },
+      {
+        "text": "Geturðu talað aðeins hærra?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Ha? is casual, Fyrirgefðu? politer; ask names letter by letter and echo phone digits.",
+    "examples": [
+      {
+        "text": "Fyrirgefðu, hvað sagðirðu?",
+        "style": "polite"
+      },
+      {
+        "text": "Ha?",
+        "style": "casual"
+      },
+      {
+        "text": "Geturðu stafað nafnið?",
+        "style": "polite"
+      },
+      {
+        "text": "Númerið er 12345678, er það rétt?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Hver er þetta? or Við hvern tala ég? is normal; Icelanders expect the caller to give a name.",
+    "examples": [
+      {
+        "text": "Við hvern tala ég?",
+        "style": "polite"
+      },
+      {
+        "text": "Hver er þetta?",
+        "style": "casual"
+      },
+      {
+        "text": "Þetta er sími hjá {owner}, hver hringir?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Þú hefur valið vitlaust númer, nobody so named lives there; short and friendly.",
+    "examples": [
+      {
+        "text": "Ég held þú hafir hringt í vitlaust númer.",
+        "style": "polite"
+      },
+      {
+        "text": "Hér býr enginn með því nafni.",
+        "style": "polite"
+      },
+      {
+        "text": "Vitlaust númer.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Ég skila því says {owner} will be told; no promise of a ring-back hour.",
+    "examples": [
+      {
+        "text": "Ég skila skilaboðunum til {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Ég læt vita.",
+        "style": "casual"
+      },
+      {
+        "text": "Skilaboðin komast til skila.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nei takk, ég hef ekki áhuga is direct and normal in Iceland; reasons are not expected.",
+    "examples": [
+      {
+        "text": "Nei takk, ég hef ekki áhuga.",
+        "style": "polite"
+      },
+      {
+        "text": "Við þurfum þetta ekki, takk.",
+        "style": "polite"
+      },
+      {
+        "text": "Nei, takk samt.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Second push: recall the earlier nei and ask to be taken off the list (bannmerking in Þjóðskrá).",
+    "examples": [
+      {
+        "text": "Ég sagði nei áðan.",
+        "style": "polite"
+      },
+      {
+        "text": "Vinsamlegast hringið ekki aftur í þetta númer.",
+        "style": "polite"
+      },
+      {
+        "text": "Takið númerið af listanum ykkar.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "First name with þú is normal for almost everyone, including officials; titles are rare.",
+    "examples": [
+      {
+        "text": "Sæll Jón",
+        "style": "polite"
+      },
+      {
+        "text": "Sæl Guðrún",
+        "style": "polite"
+      },
+      {
+        "text": "Komdu sæll",
+        "style": "casual"
+      },
+      {
+        "text": "Elskan",
+        "style": "casual"
+      },
+      {
+        "text": "Vinur",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Takk fyrir að hringja í þjónustuver and Hvernig get ég aðstoðað? sound like a phone centre.",
+    "examples": [
+      {
+        "text": "Takk fyrir að hringja í þjónustuverið.",
+        "style": "polite"
+      },
+      {
+        "text": "Hvernig get ég aðstoðað þig í dag?",
+        "style": "polite"
+      },
+      {
+        "text": "Símtalið þitt skiptir okkur máli.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Over-formal þér can sound sarcastic; asking pay or politics of a stranger is out of place.",
+    "examples": [
+      {
+        "text": "Hvað ertu með í laun?",
+        "style": "casual"
+      },
+      {
+        "text": "Hvaða flokk kýstu?",
+        "style": "casual"
+      },
+      {
+        "text": "Hvað viljið þér, herra minn?",
+        "style": "polite"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/j%C3%A1",
+    "https://en.wikipedia.org/wiki/Icelandic_language",
+    "https://en.wiktionary.org/wiki/takk_fyrir"
+  ],
+  "uncertain": [
+    "Icelanders mostly use first names and þú even with strangers; formal þér is now rare, so casual vs polite overlap",
+    "Backchannels (já, jájá, einmitt, já já) from dictionaries and usage, no call corpus",
+    "Inhaled 'já' (ingressive) is common in speech but cannot be shown in text"
+  ]
+}

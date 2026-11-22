@@ -1,0 +1,679 @@
+{
+  "region": "za",
+  "countries": [
+    "za",
+    "bw",
+    "ls",
+    "na",
+    "sz"
+  ],
+  "region_name_zh": "南非",
+  "region_name": "South Africa",
+  "languages": [
+    {
+      "code": "en",
+      "use": "main"
+    },
+    {
+      "code": "af",
+      "use": "common (Western and Northern Cape, rural areas)"
+    }
+  ],
+  "ai_language_tip": "English (en) works for almost all business calls; Afrikaans (af) is common in the Western/Northern Cape and farm towns, isiZulu (zu) and other African languages in many areas — reply in them only if the other side switches.",
+  "english_ok": "yes — English is the main business language nationwide; accents vary, and some rural staff prefer Afrikaans or an African language.",
+  "politeness": "Friendly and informal-polite; open with 'Good morning/afternoon, how are you?' and hear the reply before business — skipping the greeting feels rude; 'Sir/Ma'am' common; close with 'Thank you, have a good day'.",
+  "name_tip": "Bookings under surname or first name; Afrikaans surnames with prefixes (van der, du, de) and Nguni names may need spelling; use the NATO alphabet for spelling.",
+  "phone_tip": "All numbers 10 digits with 0: mobile 06/07/08 (e.g. 082 12345678), Johannesburg 011, Cape Town 021; international +27; WhatsApp is the default for confirmations.",
+  "time_tip": "24h in writing ('19:30'); speech mostly 12h with am/pm. Afrikaans 'halfagt' = 7:30 (half to eight)! Treat 'just now' as vague; always confirm an exact clock time.",
+  "number_tip": "Numbers read digit by digit in groups 3-3-4; 'double' and 'triple' common ('double five'); beware 'now now' (soon) and 'just now' (later, could be hours) for time promises.",
+  "avoid_calling": "Avoid calls after 19:00 for trades and offices, restaurant peaks 12:30–14:00 and 18:30–20:30, Sunday for offices, and the December–early January holiday shutdown.",
+  "closed_days": "Shops and malls open daily; many offices and practices close weekends or Saturday afternoon; holidays include 1 January, 21 March, Good Friday, Family Day (Easter Monday), 27 April, 1 May, 16 June, 9 August, 24 September, 16, 25 and 26 December; a holiday on Sunday moves to Monday.",
+  "booking_channels": "Dineplan and venue websites for restaurants; phone and WhatsApp very common for doctors, salons and trades; practice booking pages; Mr D and Uber Eats for delivery; Uber and Bolt for rides.",
+  "voice_menu": "Medical aids, banks, Vodacom/MTN/Cell C/Telkom, municipalities and couriers use IVR; GP and dentist receptionists answer directly.",
+  "callback_habits": "Dineplan and practices send SMS/e-mail confirmations; small businesses confirm by WhatsApp; restaurants may call to confirm large bookings.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "南非餐廳電話、WhatsApp 或 Dineplan 訂位普遍；週末早午餐和節日熱門，大團常收訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for large groups"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Service charge added for big tables"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of people",
+        "Inside, outside or kids area",
+        "Name and cellphone"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人家醫（GP）與牙醫電話預約，櫃台會問醫療保險（medical aid）或自費；公立診所多為排隊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cash rate vs medical aid"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number or medical aid number"
+        }
+      ],
+      "usually_asked": [
+        "Medical aid name and membership or cash",
+        "First or returning patient",
+        "Reason for visit",
+        "Patient name",
+        "Cellphone"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮美甲電話、WhatsApp 或線上預約皆普遍。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Stylist",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車與家電維修電話先約；保險相關要報案號。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Quote before work"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Vehicle make, model, registration",
+        "Problem",
+        "Day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂外帶常見，外送 App 以 Mr D、Uber Eats 為主。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes",
+        "Pickup time",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、肉鋪（butchery）可電話或 WhatsApp 預訂。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "EFT deposit"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item",
+        "Pickup day",
+        "Name and phone"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "電話或 WhatsApp 改期，診所常有取消費。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation fee"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "直接電話問；常被要求 WhatsApp 傳照片。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly to ask",
+        "Date if relevant",
+        "Quantity if relevant"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店與民宿（B&B、guesthouse）電話或 Email 訂房，常需 EFT 訂金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "EFT deposit to secure booking"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card or ID/passport"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "遊獵（game drive）、品酒與導覽可電話或 Email 訂。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電工、清潔電話叫，常問社區門禁（estate／complex）進入方式。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks gate code"
+        }
+      ],
+      "usually_asked": [
+        "Address and estate/complex name",
+        "Gate access",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與美容電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed",
+        "Service",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "快遞（The Courier Guy 等）查件以網站與 WhatsApp 機器人為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to tracking page"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks OTP for delivery"
+        }
+      ],
+      "usually_asked": [
+        "Waybill number",
+        "Name",
+        "Address",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "銀行、電信、醫療保險客服語音選單並需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Holder must verify"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number or OTP"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Account number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車多用 Uber、Bolt，機場接送與包車電話預約。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 Property24、Private Property 刊登，電話找仲介約看。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and credit check"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID and payslips"
+        }
+      ],
+      "usually_asked": [
+        "Listing",
+        "Viewing time",
+        "Tenants and income",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "內政部（Home Affairs）等服務多需線上預約或排隊，電話只答一般問題；學校報名有申請期。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online booking"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number"
+        }
+      ],
+      "usually_asked": [
+        "Service",
+        "Who it is for",
+        "Reference number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "en": {
+      "appointment_words": [
+        "make an appointment",
+        "book with the GP",
+        "hair appointment",
+        "car service booking",
+        "consultation"
+      ],
+      "booking_words": [
+        "book a table",
+        "reservation",
+        "booking for tonight",
+        "book a room"
+      ],
+      "change_words": [
+        "reschedule",
+        "cancel the booking",
+        "half an hour later",
+        "move to Friday"
+      ],
+      "date": [
+        "tomorrow",
+        "day after tomorrow",
+        "this Friday",
+        "next Tuesday",
+        "25/11",
+        "25 Nov"
+      ],
+      "false_friends": [
+        "unit 12",
+        "3rd floor",
+        "combo no. 4",
+        "60 min massage",
+        "2 for 1",
+        "now now"
+      ],
+      "inquiry_words": [
+        "how much is",
+        "do you have stock",
+        "what time do you close",
+        "are dogs allowed",
+        "can I pay by card"
+      ],
+      "name": [
+        "under Naidoo",
+        "booking for Van Wyk",
+        "the Smith family",
+        "Mrs Dlamini"
+      ],
+      "order_words": [
+        "takeaway",
+        "collect",
+        "delivery",
+        "pre-order"
+      ],
+      "party": [
+        "table for 4",
+        "we're 3",
+        "2 people",
+        "2 adults and 1 child",
+        "party of 8"
+      ],
+      "phone": [
+        "082 12345678",
+        "+27 82 123 4567",
+        "WhatsApp 072 12345678"
+      ],
+      "time": [
+        "19:30",
+        "half past seven",
+        "quarter to eight",
+        "around 7pm",
+        "12 noon",
+        "just now"
+      ]
+    },
+    "af": {
+      "appointment_words": [
+        "afspraak maak",
+        "by die dokter",
+        "haarafspraak",
+        "konsultasie"
+      ],
+      "booking_words": [
+        "tafel bespreek",
+        "bespreking",
+        "kamer bespreek",
+        "tafel vir 4"
+      ],
+      "change_words": [
+        "afspraak skuif",
+        "bespreking kanselleer",
+        "halfuur later",
+        "na Vrydag skuif"
+      ],
+      "date": [
+        "môre",
+        "oormôre",
+        "hierdie Vrydag",
+        "volgende Dinsdag",
+        "25/11"
+      ],
+      "false_friends": [
+        "3de vloer",
+        "eenheid 12",
+        "60 min masseer",
+        "nommer 4"
+      ],
+      "inquiry_words": [
+        "hoeveel kos",
+        "het julle",
+        "hoe laat maak julle toe",
+        "kan ek met kaart betaal"
+      ],
+      "name": [
+        "op die naam Van Wyk",
+        "Botha",
+        "familie Pretorius"
+      ],
+      "order_words": [
+        "wegneem",
+        "kom haal",
+        "aflewering",
+        "vooraf bestel"
+      ],
+      "party": [
+        "tafel vir 4",
+        "ons is drie",
+        "twee mense",
+        "2 volwassenes en 1 kind"
+      ],
+      "phone": [
+        "082 12345678",
+        "+27 82 123 4567",
+        "12345678"
+      ],
+      "time": [
+        "19:30",
+        "halfagt",
+        "kwart oor sewe",
+        "kwart voor agt",
+        "om twaalfuur"
+      ]
+    }
+  }
+}

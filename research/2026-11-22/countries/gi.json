@@ -1,0 +1,50 @@
+{
+  "country": "gi",
+  "parent": "gb-ie",
+  "name": {
+    "en": "Gibraltar",
+    "native": "Gibraltar",
+    "zh": "直布羅陀"
+  },
+  "lang": "en",
+  "differs_from_parent": {
+    "calling_code": "+350",
+    "currency": "直布羅陀鎊，與英鎊 1:1，英鎊也通用；附近常見歐元",
+    "time_zone": "UTC+1（夏令 UTC+2），比英國快 1 小時，與西班牙同",
+    "language": "英語官方；日常常說 Llanito（英西混用）與西班牙語",
+    "driving": "靠右行駛，與英國相反"
+  },
+  "habits": {
+    "en": "Open in English; locals often mix in Spanish (Llanito), follow them. The clock matches Spain, an hour ahead of London.",
+    "zh": "先用英語；當地人常英西夾雜（Llanito），跟著對方說。時間與西班牙相同，比倫敦快一小時。"
+  },
+  "vocab": {
+    "bank": [
+      "pound",
+      "sterling"
+    ],
+    "delivery": [
+      "post office",
+      "PO box"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "GMT 換算",
+      "reason": {
+        "zh": "直布羅陀用中歐時間，比英國快一小時"
+      }
+    }
+  ],
+  "same_as_parent": false,
+  "sources": [
+    "https://www.gibraltar.gov.gi/",
+    "https://en.wikipedia.org/wiki/Gibraltar_pound",
+    "https://en.wikipedia.org/wiki/Llanito",
+    "https://en.wikipedia.org/wiki/Telephone_numbers_in_Gibraltar"
+  ],
+  "uncertain": [
+    "Llanito 在電話上對陌生人使用的比例無統計。",
+    "常用付款 App 與到府投遞習慣未查。"
+  ]
+}

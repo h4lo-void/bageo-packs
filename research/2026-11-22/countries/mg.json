@@ -1,0 +1,136 @@
+{
+  "country": "mg",
+  "parent": "ke-tz-et-mg-ht",
+  "name": {
+    "en": "Madagascar",
+    "native": "Madagasikara",
+    "zh": "馬達加斯加"
+  },
+  "lang": "mg",
+  "hello": {
+    "hello": "Halo?",
+    "hello_again": "Halo, mahare ve?"
+  },
+  "delivery": {
+    "en": "Parcels: the gardien, a neighbour, or a Paositra Malagasy office",
+    "zh": "包裹交給 gardien，或到馬達加斯加郵局、交給鄰居"
+  },
+  "readback": {
+    "en": "Numbers go in short groups; 0 as zéro; amounts in ariary, not francs",
+    "zh": "電話分短組唸，0 可唸 zéro；金額用阿里亞里，不要說成法郎"
+  },
+  "fraud": {
+    "en": "An MVola or Orange Money secret-code request, or a fake parcel fee, is a scam",
+    "zh": "要 MVola 或 Orange Money 密碼，或假包裹補費的都是詐騙"
+  },
+  "habits": {
+    "en": "Malagasy mixes with French; follow the caller. Stay respectful with strangers. Not M-Pesa or askari.",
+    "zh": "馬達加斯加語常夾法語，跟對方語言回。對陌生人保持敬稱。不用 M-Pesa、askari。"
+  },
+  "stall_local": {
+    "en": "Get stuck on the MVola app, a power cut, weak signal, or missing glasses.",
+    "zh": "卡在 MVola App、停電、訊號弱或找不到眼鏡。"
+  },
+  "vocab": {
+    "bank": [
+      "MVola",
+      "Orange Money",
+      "code"
+    ],
+    "delivery": [
+      "gardien",
+      "Paositra",
+      "voisin"
+    ]
+  },
+  "avoid_words": [
+    {
+      "word": "M-Pesa",
+      "reason": {
+        "en": "East African mobile money",
+        "zh": "東非行動錢包"
+      }
+    },
+    {
+      "word": "askari",
+      "reason": {
+        "en": "Swahili gate-guard term",
+        "zh": "斯瓦希里語門衛用語"
+      }
+    },
+    {
+      "word": "boda",
+      "reason": {
+        "en": "East African motorbike-taxi term",
+        "zh": "東非摩托車計程車用語"
+      }
+    },
+    {
+      "word": "Telebirr",
+      "reason": {
+        "en": "Ethiopian mobile money",
+        "zh": "衣索比亞行動錢包"
+      }
+    }
+  ],
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Like {owner} with a close friend: easy Malagasy, short warm lines, a real reaction plus a follow-up (eka), varied.",
+        "zh": "像{owner}跟好朋友聊：用輕鬆馬達加斯加語，句子短而熱絡，真反應並多接一句（如 eka），每次換說法。"
+      },
+      "2": {
+        "en": "Warm, unhurried Malagasy; after they explain, add a caring remark (eka); follow French if they use it, varied.",
+        "zh": "溫和不急的馬達加斯加語；對方說完，順口加一句（如 eka）；對方用法語就跟，每次換說法。"
+      },
+      "3": {
+        "en": "Everyday Malagasy with peers, more formal with strangers. Reply in one full sentence, not a word or two; French if they switch.",
+        "zh": "日常對熟人用馬達加斯加語，對陌生人較正式。用一句完整的話回應；對方改法語再跟。"
+      },
+      "4": {
+        "en": "Courteous titles and complete sentences; take up their main point first; follow French if that is the language in use, varied.",
+        "zh": "斯文有禮：用敬稱，句子完整，先接對方重點；對方用法語就用法語，每次換說法。"
+      },
+      "5": {
+        "en": "Crisp business tone in Malagasy or French as used: titles, brisk and structured; answer each point in full, varied.",
+        "zh": "俐落公事口吻，用對方的馬達加斯加語或法語：加稱謂，明快有條理；每個重點都完整回應，每次換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s upbeat helper in easy Malagasy: short lively lines; react warmly, then say you will pass it on, varied.",
+        "zh": "{owner}活潑的小幫手，用輕鬆馬達加斯加語：句子短而有活力，先熱絡回應，再說會轉告，每次換說法。"
+      },
+      "2": {
+        "en": "A gentle, unhurried assistant: show you understand, then note the message for {owner}; follow French if they use it, varied.",
+        "zh": "溫柔不急的助理：先表明聽懂，再記下來轉給{owner}；對方用法語就跟，每次換說法。"
+      },
+      "3": {
+        "en": "A natural assistant: easy with peers, formal with strangers. Full-sentence replies before confirming the relay.",
+        "zh": "自然幹練的助理：對熟輕鬆、對陌生人較正式。先用完整句子回應，再確認會轉達。"
+      },
+      "4": {
+        "en": "An attentive secretary: polite titles, complete sentences; take up why they called, then offer to pass it on, varied.",
+        "zh": "周到的秘書：用敬稱，句子完整，先承接來意再說會轉告，每次換說法。"
+      },
+      "5": {
+        "en": "Senior assistant in polite Malagasy, or French if used: respectful titles, orderly; settle each point, then confirm the relay.",
+        "zh": "資深秘書口吻，依對方用馬達加斯加語或法語：用敬稱、有條理；逐點講清楚，再確認轉給{owner}。"
+      }
+    }
+  },
+  "same_as_parent": false,
+  "sources": [
+    "https://www.paositramalagasy.mg/",
+    "https://www.lexpress.mg/2025/08/mobile-money-des-escrocs-ciblent-les.html"
+  ],
+  "uncertain": [
+    "接聽 Halo／Allô 很常見；hello_again 所用 mahare ve 是依馬達加斯加語「聽得到嗎」整理，未找到官方通話範本。",
+    "MVola 防詐細節部分來自當地媒體，不是行動錢包官網專頁。",
+    "Orange Money 與 MVola 的使用比重，此次未比較官方數據。"
+  ],
+  "talk_style_diff": {
+    "en": "Do not use Swahili or Haitian Creole. Stay in Malagasy, allow French if the caller uses it, and speak of MVola or Orange Money and ariary, not M-Pesa.",
+    "zh": "不要用斯瓦希里語或海地克里奧爾語。留在馬達加斯加語，對方夾法語就跟著回。付款說 MVola 或 Orange Money 與阿里亞里，不是 M-Pesa。"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Bermuda",
+  "name_local": "Bermuda",
+  "iso": "bm",
+  "calling_code": "+1-441",
+  "languages": [
+    "en"
+  ],
+  "prevalence_note": "The Government of Bermuda has warned about a fraudulent WhatsApp message posing as the Bermuda Post Office and keeps a page on avoiding and reporting scams; police and the bankers' association have run joint scam warnings.",
+  "cross_border_note": "Bermuda (+1-441) uses NANP numbering, so spoofed +1 calls and overseas WhatsApp numbers can pass for local contacts.",
+  "scams": [
+    {
+      "id": "bm_post_office_whatsapp_duty",
+      "typology": "fake_customs_parcel",
+      "name": "Fake Bermuda Post Office WhatsApp",
+      "name_en": "WhatsApp message posing as Bermuda Post Office demanding customs duty via a link",
+      "prevalence": "high",
+      "lang": "en",
+      "context_keywords": [
+        "Bermuda Post Office",
+        "customs duty",
+        "WhatsApp message"
+      ],
+      "red_flag_keywords": [
+        {
+          "text": "pay duty through this link",
+          "weight": 2,
+          "hard": true
+        },
+        {
+          "text": "parcel will be returned",
+          "weight": 2,
+          "hard": false
+        }
+      ],
+      "signals_en": "A WhatsApp message claims the Bermuda Post Office is holding a parcel until duty is paid through a link.",
+      "legit_en": "The Government of Bermuda has flagged this WhatsApp message as fraudulent; check only with the Post Office directly.",
+      "bait_tactics": [
+        "Ask which Bermuda post office branch holds it and repeat the branch name back",
+        "Say duty is only ever paid at the counter in person"
+      ],
+      "sources": [
+        "https://www.gov.bm/news/public-advisory-beware-fraudulent-whatsapp-message-claiming-be-bermuda-post-office",
+        "https://www.gov.bm/articles/how-avoid-and-report-scams"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,835 @@
+{
+  "region": "gulf",
+  "countries": [
+    "sa",
+    "ae",
+    "qa",
+    "kw",
+    "bh",
+    "om",
+    "ye"
+  ],
+  "region_name_zh": "沙烏地與海灣國家",
+  "region_name": "Saudi Arabia and the Gulf States",
+  "languages": [
+    {
+      "code": "ar",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    }
+  ],
+  "ai_language_tip": "Open in polite Arabic (Gulf colloquial is understood everywhere; Modern Standard is fine); in the UAE and Qatar many staff are South Asian or Filipino and answer more easily in English — switch if the reply comes back in English.",
+  "english_ok": "often — Widely used in the UAE, Qatar and Bahrain service sector and hotels; less in Saudi and Omani small shops, government lines and outside big cities.",
+  "politeness": "Greet with 'As-salamu alaykum' or 'Marhaba', ask after them briefly, say you call on behalf of someone; use titles (Ustaz/Ustaza, Doctor); close with thanks ('shukran', 'ya'tik al-afiya').",
+  "name_tip": "Bookings go under first name + family name or 'Abu/Umm + eldest son' informally; spell Arabic names in English letters if the system is English; many families book under the husband's or company name.",
+  "phone_tip": "Mobiles start 05 (Saudi 05x 1234 567, UAE 05x 123 4567) or 8 digits in Qatar, Kuwait, Bahrain and Oman (e.g. 12345678); WhatsApp on the same mobile is the default follow-up channel.",
+  "time_tip": "12-hour clock with 'sabahan/masa'an' or 'al-sobh/al-lail' plus 'nus' (:30), 'rub' (:15), 'illa rub' (:45); people also anchor times to prayers ('after Maghrib', 'after Isha') — always convert to a clock time and read back.",
+  "number_tip": "Arabic-Indic digits (٠–٩) appear in Saudi and Kuwait writing, Western digits in the UAE; numbers are read in pairs or groups; confirm digit by digit.",
+  "avoid_calling": "Avoid Friday midday prayer (about 11:30–13:30), each prayer time briefly (shops may close ~20 min, especially in Saudi), the afternoon split-shift break (about 13:00–16:30) at small shops, and the iftar hour in Ramadan.",
+  "closed_days": "Weekend is Friday–Saturday in Saudi, Qatar, Kuwait, Bahrain and Oman, Saturday–Sunday for UAE government (private firms choose); many shops open Friday after prayers; Eid al-Fitr and Eid al-Adha bring multi-day closures; national days differ by country.",
+  "booking_channels": "Restaurants via Eat App, SevenRooms, MyTable (Saudi) or phone/WhatsApp; delivery via HungerStation, Jahez, Talabat, Keeta, Careem, Deliveroo; health via Sehhaty (Saudi), Dubai Health app and private clinic lines; rides via Uber and Careem; salons via WhatsApp or Fresha.",
+  "voice_menu": "Telecoms, banks, airlines, Aramex/SMSA and government lines (e.g. Saudi MOH 937) use Arabic/English IVR; restaurants, salons and small shops answer in person or on WhatsApp.",
+  "callback_habits": "Businesses confirm by WhatsApp or SMS and often call back from a staff mobile; clinics send reminders the day before; delivery drivers phone or WhatsApp on arrival.",
+  "types": {
+    "activity": {
+      "before_dialing_zh": "沙漠遊、遊艇、主題樂園與活動多以網站或平台預付；小型行程商用 WhatsApp 接單。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Pickup from hotel included or extra"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Minimum group size or age limit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "kids_detail",
+        "pickup_place",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport copy for boat or border tours"
+        }
+      ],
+      "usually_asked": [
+        "Activity and date",
+        "Number of adults and children's ages",
+        "Hotel or pickup area",
+        "Name and WhatsApp",
+        "Payment in advance"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "沙龍與美容院男女分開，女性沙龍多半只服務女性；常用 WhatsApp 或 Fresha 類平台預約，到府服務（home service）也很普遍。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for bridal or Eid packages"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Ladies-only salon; men cannot enter"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Home service surcharge and area coverage"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup",
+        "for_whom"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Asks for photos of the client"
+        }
+      ],
+      "usually_asked": [
+        "Service (hair, nails, henna, threading, makeup)",
+        "Preferred stylist",
+        "Date and time",
+        "At the salon or home service",
+        "Name and WhatsApp number"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期或取消通常回原本的管道（App 或 WhatsApp）最快；高峰時段取消可能被扣訂金。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Late cancellation keeps the deposit"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "New time offered by message"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "name",
+        "time",
+        "phone"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details again to rebook"
+        }
+      ],
+      "usually_asked": [
+        "Original booking date and time",
+        "Name or booking reference",
+        "New time wanted",
+        "Mobile number"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立醫療多經官方 App（沙烏地 Sehhaty、杜拜 Dubai Health 等）預約；私立診所電話可約，但會先問保險公司與身分證件。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Insurance approval needed before the visit; otherwise self-pay price"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Appointment confirmed by SMS or WhatsApp the day before"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Female doctor requested"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID / Iqama / Emirates ID number or insurance card number"
+        },
+        {
+          "handle": "owner_only",
+          "what": "Asks date of birth of the patient"
+        }
+      ],
+      "usually_asked": [
+        "Insurance company or cash (self-pay)",
+        "New or returning patient (file number)",
+        "Reason for visit or department",
+        "Patient name, and male or female doctor preference",
+        "Mobile number"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行、航空客服都有阿拉伯語／英語語音選單，常要身分驗證，代打電話通常無法完成。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Press a key to choose Arabic or English"
+        }
+      ],
+      "must_have": [
+        "question",
+        "reference_no"
+      ],
+      "nice_to_have": [
+        "name",
+        "phone"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks ID number, OTP or account PIN"
+        }
+      ],
+      "usually_asked": [
+        "Account or order number",
+        "Account holder identity check",
+        "Nature of the problem"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "政府服務幾乎全在官方平台（沙烏地 Absher、阿聯酋各 emirate 入口），學校詢問可打電話但多要求先上網登記。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Service only available online on the government portal or app"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "item",
+        "reference_no",
+        "time"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks national ID / Iqama / Emirates ID number"
+        }
+      ],
+      "usually_asked": [
+        "What the question is about",
+        "Applicant or student details (grade, age)",
+        "Reference or application number",
+        "Name and mobile"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "冷氣、清潔、水電多用平台或 WhatsApp 預約；地址常以區（district）、建物名稱與地標描述，沙烏地有國家地址（National Address）短碼。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit or inspection fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Female cleaners only, or crew gender"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "decline",
+          "what": "Demands full prepayment before visit to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Service needed (AC, cleaning, plumbing, pest control)",
+        "District, building/villa, floor and landmark",
+        "Preferred day and time window",
+        "Name and mobile",
+        "Photos via WhatsApp"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "飯店英語通行，但會要護照或身分證與信用卡；沙烏地已不強制未婚伴侶證明，但各國規定仍可能有差。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Tourism dirham / municipality fee added per night (UAE)"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Credit card pre-authorisation at check-in"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "for_whom",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or ID number, or card number by phone"
+        }
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates",
+        "Number of adults and children",
+        "Room type and bed",
+        "Guest name as on passport/ID",
+        "Phone or email for confirmation"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "詢問營業時間要注意週五禮拜時段與齋戒月作息會大幅改變；很多店也會叫你看 Instagram 或 WhatsApp。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Hours change during Ramadan and on Friday midday"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Details posted on Instagram or Google Maps"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "What exactly you want to know",
+        "Branch or district",
+        "Date you plan to come"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "寵物診所與美容多在大城市，電話或 WhatsApp 可約；寵物友善場所有限。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Vaccination record required for grooming or boarding"
+        }
+      ],
+      "must_have": [
+        "time",
+        "pet_detail",
+        "item",
+        "phone"
+      ],
+      "nice_to_have": [
+        "name",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet type, breed, size and age",
+        "Service (vet, grooming, boarding)",
+        "Date and time",
+        "Owner name and mobile"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多透過 Bayut、Property Finder 等平台，看房要事先約仲介；租金常一年分張支票（cheques）付款。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Number of rent cheques and agency fee"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Family-only building or bachelors allowed"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport, visa or ID copy"
+        },
+        {
+          "handle": "decline",
+          "what": "Asks deposit before viewing"
+        }
+      ],
+      "usually_asked": [
+        "Listing or reference number",
+        "Area, size and budget",
+        "Family or single",
+        "Viewing time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "車輛保養多到原廠中心（agency）預約；手機、家電維修常走 WhatsApp 傳照片報價。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Inspection fee before quote"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Spare parts need ordering, several days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "address",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks to leave phone passcode"
+        }
+      ],
+      "usually_asked": [
+        "Car make, model and year or device model",
+        "Problem description (photos via WhatsApp)",
+        "Plate number for car service",
+        "Drop-off time",
+        "Name and mobile"
+      ]
+    },
+    "restaurant": {
+      "before_dialing_zh": "海灣國家晚餐偏晚（約 20:00～23:00），週四、週五晚與齋戒月開齋（iftar）時段最滿；高級餐廳多用 App 或網站訂位並可能要求信用卡擔保，家庭區（family section）在沙烏地仍常見。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Large-group or iftar/suhoor set menu needs a deposit or a minimum spend"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Booking link sent by SMS or WhatsApp from an app such as Eat App, SevenRooms or MyTable"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Smart-casual or no-shorts dress rule at hotel restaurants"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "seating_pref",
+        "kids_detail",
+        "allergy",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card number to guarantee a weekend or iftar booking"
+        }
+      ],
+      "usually_asked": [
+        "Date and time (evening slots run late, often 21:00–22:30)",
+        "Number of guests and children",
+        "Indoor or terrace, family section or singles area (Saudi)",
+        "Name and mobile number (WhatsApp)",
+        "Special occasion or cake"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕、花店、椰棗與烏德香店常接電話或 WhatsApp 訂貨；節日（Eid、國慶日）前要提早。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Advance payment by bank transfer or payment link"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Custom cake needs 2–3 days"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "address",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Requests transfer to a personal account"
+        }
+      ],
+      "usually_asked": [
+        "Product, size and quantity",
+        "Message or name on cake/flowers",
+        "Pickup or delivery date",
+        "Name and mobile",
+        "Payment method"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "外送平台極普及（沙烏地 HungerStation、Jahez；阿聯酋與科威特等 Talabat、Deliveroo、Careem）；直接打電話叫外帶仍常見於在地餐館與烘焙店。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Order through the app instead"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Minimum order for delivery to the area"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "allergy",
+        "address"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Items and quantities",
+        "Pickup or delivery, and the area/district",
+        "Spice level or sauce",
+        "Name and mobile",
+        "Cash, card or app payment"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Aramex、SMSA、Emirates Post、SPL 等多以網站、App 或 WhatsApp 機器人查件，客服熱線有語音選單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Tracking via website or WhatsApp bot"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks OTP or national ID to release the parcel"
+        }
+      ],
+      "usually_asked": [
+        "Tracking or order number",
+        "Recipient name and mobile",
+        "Delivery area and address",
+        "Reschedule delivery day"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "叫車多用 Uber、Careem 或在地 App；機場接送與司機包車可電話預約，需講清楚航班與航廈。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price vs meter, and airport fee"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "for_whom"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details by phone"
+        }
+      ],
+      "usually_asked": [
+        "Pickup location (building name and landmark) and time",
+        "Destination or flight and terminal",
+        "Number of passengers and bags",
+        "Name and mobile"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "ar": {
+      "appointment_words": [
+        "حجز موعد",
+        "موعد عند الدكتور",
+        "موعد صالون",
+        "موعد صيانة السيارة",
+        "استشارة"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "أبي أحجز",
+        "حجز غرفة",
+        "تأكيد الحجز",
+        "حجز رحلة"
+      ],
+      "change_words": [
+        "تأجيل الموعد",
+        "إلغاء الحجز",
+        "تغيير الوقت",
+        "نخليها بكرة",
+        "بعد نص ساعة"
+      ],
+      "date": [
+        "اليوم",
+        "بكرة",
+        "بعد بكرة",
+        "الخميس الجاي",
+        "٢٥ نوفمبر",
+        "25/11"
+      ],
+      "false_friends": [
+        "الدور ٣",
+        "فيلا ١٢",
+        "مخرج ١٠",
+        "وجبة رقم ٢",
+        "ساعتين مساج",
+        "بوابة ٤"
+      ],
+      "inquiry_words": [
+        "متى تفتحون؟",
+        "كم السعر؟",
+        "فيه توصيل؟",
+        "فيه قسم عوائل؟",
+        "تقبلون شبكة؟"
+      ],
+      "name": [
+        "باسم أبو فهد",
+        "باسم العائلة",
+        "الاسم الأول والأخير",
+        "باسم الشركة",
+        "حجز باسم الزوجة"
+      ],
+      "order_words": [
+        "طلب سفري",
+        "توصيل للبيت",
+        "استلام من الفرع",
+        "طلب مسبق",
+        "طلب كيكة"
+      ],
+      "party": [
+        "طاولة لـ ٤",
+        "٢ كبار و ٢ أطفال",
+        "نحن ٦ أشخاص",
+        "شخصين",
+        "عائلة ٥ أشخاص"
+      ],
+      "phone": [
+        "050 123 4567",
+        "055 123 4567",
+        "+966 5 1234 5678",
+        "واتساب 12345678"
+      ],
+      "time": [
+        "الساعة ٨ ونص بالليل",
+        "٩ وربع",
+        "١٠ إلا ربع",
+        "بعد صلاة العشاء",
+        "بعد المغرب",
+        "8:30 PM"
+      ]
+    },
+    "en": {
+      "appointment_words": [
+        "book an appointment",
+        "doctor appointment",
+        "salon booking",
+        "car service slot",
+        "consultation"
+      ],
+      "booking_words": [
+        "table reservation",
+        "book a table for 4",
+        "room booking",
+        "confirm booking",
+        "desert safari booking"
+      ],
+      "change_words": [
+        "reschedule",
+        "cancel booking",
+        "change the time",
+        "move to tomorrow",
+        "30 mins later"
+      ],
+      "date": [
+        "today",
+        "tomorrow",
+        "this Thursday",
+        "25 Nov",
+        "25/11",
+        "next weekend"
+      ],
+      "false_friends": [
+        "Villa 12",
+        "Floor 3",
+        "Exit 41",
+        "Gate 4",
+        "Combo 2",
+        "60 min massage"
+      ],
+      "inquiry_words": [
+        "what time do you open?",
+        "price?",
+        "do you deliver to Al Barsha?",
+        "family section available?",
+        "card accepted?"
+      ],
+      "name": [
+        "under the name Khan",
+        "Mr Ahmed",
+        "Family Ali",
+        "booking for my wife",
+        "company name"
+      ],
+      "order_words": [
+        "takeaway order",
+        "delivery",
+        "pickup from branch",
+        "pre-order",
+        "cake order"
+      ],
+      "party": [
+        "table for 4",
+        "2 adults 2 kids",
+        "we are 6",
+        "for 2 persons",
+        "family of 5"
+      ],
+      "phone": [
+        "050 123 4567",
+        "+971 50 123 4567",
+        "WhatsApp 12345678",
+        "055 1234 567"
+      ],
+      "time": [
+        "8:30 pm",
+        "9.15 pm",
+        "after Isha",
+        "around 9",
+        "quarter to 10",
+        "21:00"
+      ]
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "region": "jp",
+  "lang": "zh-CN",
+  "hello": {
+    "hello": "喂？",
+    "hello_again": "喂，我在听。"
+  },
+  "habits": {
+    "en": "In Japan, Mandarin speakers drop in 在留卡, 区役所, 住民票, 転入届, 国保, plus Suica or PASMO and 便利店.",
+    "zh": "在日普通話常夾入在留卡、區役所、住民票、國保、Suica、便利店等當地詞。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Casual Mandarin with friends; 便利店 and train-card names are used as is, with no extra translation.",
+        "zh": "朋友之間用普通話閒聊，便利店、Suica 等詞不必另譯。"
+      },
+      "2": {
+        "en": "Easygoing but clear; 区役所 errands or 国保 fees come out in mixed Chinese and Japanese wording.",
+        "zh": "語氣輕鬆仍清楚，區役所、國保相關事用中日夾雜說法。"
+      },
+      "3": {
+        "en": "Neutral everyday tone; 転入届 or 住民票 are treated as ordinary tasks and named directly.",
+        "zh": "平常語氣，轉入屆、住民票當成例行事項直接說。"
+      },
+      "4": {
+        "en": "Polite 您 and a slightly slower pace, keeping official Japanese nouns and adding a short gloss.",
+        "zh": "用「您」並放慢速度，日語公文名詞先保留再短補一句。"
+      },
+      "5": {
+        "en": "Formal Mandarin for city-hall or school matters, wording close to official living-guide terms.",
+        "zh": "對區役所或學校改用鄭重普通話，用語靠近生活手冊。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "If {owner} is on a train, take the message; do not ask them to pick up mid-ride.",
+        "zh": "若 {owner} 在電車上，先記下留言，不要請對方在車廂裡接聽。"
+      },
+      "2": {
+        "en": "A friendly relay for {owner}; keep Suica or PASMO details exactly as the caller said them.",
+        "zh": "替 {owner} 輕鬆傳話，Suica、PASMO 細節按原詞記下。"
+      },
+      "3": {
+        "en": "A steady taker for {owner}; confirm 転入届 deadlines or 住民票 steps before hanging up.",
+        "zh": "穩妥代 {owner} 收訊，核對轉入屆期限或住民票步驟。"
+      },
+      "4": {
+        "en": "A polite secretary for {owner}, restating 区役所 and 国保 points so nothing is dropped.",
+        "zh": "為 {owner} 有禮複述區役所與國保要點，以免遺漏。"
+      },
+      "5": {
+        "en": "A formal aide for {owner}; record 在留卡 wording carefully and relay it afterwards.",
+        "zh": "以鄭重口吻為 {owner} 紀錄在留卡用語，之後轉達。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "喂！便利店能充 Suica 吗？",
+      "喂，听着呢。区役所那件事我记下了。",
+      "喂，转入届十四天内要交，住民票我去办。",
+      "您好，国保的事我听清楚了，谢谢来电。",
+      "您好，关于在留卡更新，我会按说明准备。"
+    ],
+    "a": [
+      "喂！他在电车上不方便接，你说，我转告。",
+      "喂，我听着。PASMO 还是 Suica，您说一声就行。",
+      "喂，我记下了：先办转入届，再取住民票。",
+      "您好，我会把区役所和国保要点转告 {owner}。",
+      "您好，关于在留卡手续，我会完整转达后回复。"
+    ]
+  },
+  "diff_from_home": [
+    "用語以簡體普通話為主，夾入在留卡、區役所或市役所、住民票、轉入屆、國保等日本行政詞。",
+    "交通常直接說 Suica、PASMO；日常購物常說便利店，不必改成「超商」。",
+    "電車上通常不講電話，留言轉達比要求立刻接聽更符合乘車禮儀。",
+    "搬入後須在十四日內辦轉入屆，這是官方生活指引中的期限，對話裡常被直接提起。",
+    "與在日英語使用者相比，這裡以普通話為主幹，日語專有詞多以漢字或卡名插入，而不是英語裡常見的 san 稱呼習慣。"
+  ],
+  "sources": [
+    "https://www.moj.go.jp/isa/content/001450886.pdf",
+    "https://www.tokyometro.jp/lang_sc/support/manners/"
+  ],
+  "uncertain": [
+    "各地區役所櫃檯實際夾用日語的程度不一；本組未把未見於官方手冊的口頭混合句當成通例。"
+  ]
+}

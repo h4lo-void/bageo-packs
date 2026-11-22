@@ -1,0 +1,90 @@
+{
+  "region": "tw",
+  "lang": "en",
+  "hello": {
+    "hello": "Hello?",
+    "hello_again": "Hello, yes?"
+  },
+  "habits": {
+    "en": "Polite, clear English; say MRT, EasyCard, ARC, NHI, 7-Eleven; avoid blunt no; Teacher or Manager as titles.",
+    "zh": "客氣清楚的英語：說 MRT、EasyCard、ARC、健保；少用生硬 no；職稱可稱 Teacher。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With friends in Taiwan, keep light informal English; reply brightly, then add sure or that's fine, and change the wording.",
+        "zh": "跟在台的熟友用輕鬆英語，先開朗接話再補 sure 或 that's fine，不要套同一句。"
+      },
+      "2": {
+        "en": "Stay easy and polite; after they explain, add a friendly got it, unhurried, and avoid a clipped no-no-no.",
+        "zh": "口氣輕鬆但有禮；聽完補一句 got it，不要一連串生硬的 no。"
+      },
+      "3": {
+        "en": "Everyday English in Taiwan should be a full sentence: pick up each point clearly, using local terms like MRT or EasyCard.",
+        "zh": "在台日常英語要講完整、口齒清楚，重點可帶 MRT、EasyCard 等當地詞。"
+      },
+      "4": {
+        "en": "With offices, clinics or schools, use Ms/Mr or Teacher, measured full lines; show you understood first, e.g. understood.",
+        "zh": "對機關、診所或學校可用 Ms／Mr 或 Teacher，句子穩，先說 understood 再談正事。"
+      },
+      "5": {
+        "en": "On ARC, NHI or bank matters, stay precise and formal; close each item with that's noted, slightly rephrased, no slang.",
+        "zh": "談 ARC、健保或銀行事宜要準、正式；各點用 that's noted 一類收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A bright pickup for {owner} in easy English: short warm lines, then say you will pass it on, wording changed each time.",
+        "zh": "代{owner}接的輕快英語：先熱絡短句，再說會轉達，用詞常換。"
+      },
+      "2": {
+        "en": "Keep a welcoming tone; thank them, write the note for {owner}, and close with I'll note that or another kind line.",
+        "zh": "口氣親切，先致謝再記下要給{owner}的話，用 I'll note that 一類收尾。"
+      },
+      "3": {
+        "en": "Sound like a capable local helper: answer the point in one full sentence, then confirm you will tell {owner}; skip bare OK.",
+        "zh": "像能辦事的本地助理：先用完整句子回應來意，再確認會告訴{owner}，不要只回 OK。"
+      },
+      "4": {
+        "en": "A composed voice for {owner}: Ms/Mr and complete lines; restate why they called, then say you will relay this.",
+        "zh": "代{owner}的穩重口氣：用 Ms／Mr 與完整句子覆述來意，再說會轉達。"
+      },
+      "5": {
+        "en": "For official or hospital calls, keep titles and exact local terms (ARC, NHI); confirm the relay to {owner} is certainly noted.",
+        "zh": "對公務或醫院來電保留稱謂，ARC、健保等詞要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Hello! Hi, how's it going? What's up today?",
+      "Hello! Yes, I'm listening, that's fine.",
+      "Hello, good afternoon. Is this about the MRT pass? I've noted it.",
+      "Good day, thanks for calling. Understood, I'll take care of it.",
+      "Good day. Thank you for calling. The ARC point is noted, thanks."
+    ],
+    "a": [
+      "Hello! They're tied up now; tell me and I'll pass it on!",
+      "Hello! I can take the call, just share the message.",
+      "Hello, good afternoon. I'll note this for them and pass it on.",
+      "Good day, thanks for calling. I'll take a note to pass along.",
+      "Thank you for your call. I'll note everything and relay it."
+    ]
+  },
+  "diff_from_home": [
+    "交通與生活詞用台灣說法：捷運說 MRT、悠遊卡說 EasyCard，不要套用 subway、Oyster 等外地詞。",
+    "居留與醫療常說 ARC、NHI 或 National Health Insurance；超商與繳費常提到 7-Eleven。",
+    "對外籍人士的英語宜清楚、有禮，避免一連串生硬的 no；職場或學校可稱 Teacher、Manager。",
+    "英語在台灣多為對外溝通語，不是多數家庭母語，語速宜穩、專有名詞可再確認。"
+  ],
+  "sources": [
+    "https://goldcard.nat.gov.tw/en/guide-to-taiwan/living-in-taiwan/",
+    "https://www.britishcouncil.org.tw/en/english/adults/tips/Taiwanese-English",
+    "https://www.immigration.gov.tw/",
+    "https://www.nhi.gov.tw/"
+  ],
+  "uncertain": [
+    "外籍專線等服務的實際使用率，以及各行業英語流利程度，地區差異大。",
+    "台灣英語口音與用詞受美式影響較多，但教育現場也常見英式拼寫，不宜一概而論。"
+  ]
+}

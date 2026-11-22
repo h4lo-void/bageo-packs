@@ -1,0 +1,260 @@
+{
+  "lang": "gl",
+  "backchannels": {
+    "direction": "Si and aha show listening; claro and xa agree; si, si, si said quickly sounds impatient.",
+    "examples": [
+      {
+        "text": "Aha, si.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Xa, xa.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Claro que si.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "De acordo.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Si, si, si.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "De verdade? or Non me digas! for surprise; síntoo moito for sympathy; que ben for good news.",
+    "examples": [
+      {
+        "text": "De verdade?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Non me digas!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Síntoo moito.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Que ben, home!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Iso vai ser complicado.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you hear badly (óese mal) or the line cuts (córtase), then ask them to speak louder.",
+    "examples": [
+      {
+        "text": "Desculpe, óese moi mal.",
+        "style": "polite"
+      },
+      {
+        "text": "Córtase a chamada.",
+        "style": "casual"
+      },
+      {
+        "text": "Non hai cobertura aquí.",
+        "style": "casual"
+      },
+      {
+        "text": "Pode falar un pouco máis alto?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Como? or Perdoe? asks for a replay; ask names letra a letra; echo the número.",
+    "examples": [
+      {
+        "text": "Perdoe, como dixo?",
+        "style": "polite"
+      },
+      {
+        "text": "Como?",
+        "style": "casual"
+      },
+      {
+        "text": "Pode deletrear o apelido?",
+        "style": "polite"
+      },
+      {
+        "text": "O número é 12345678, non?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Con quen falo? or De parte de quen? is polite.",
+    "examples": [
+      {
+        "text": "De parte de quen, por favor?",
+        "style": "polite"
+      },
+      {
+        "text": "Con quen falo?",
+        "style": "polite"
+      },
+      {
+        "text": "Este é o teléfono de {owner}, quen chama?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say equivocouse de número and nobody of that name lives here.",
+    "examples": [
+      {
+        "text": "Creo que se equivocou de número.",
+        "style": "polite"
+      },
+      {
+        "text": "Aquí non vive ninguén con ese nome.",
+        "style": "polite"
+      },
+      {
+        "text": "Ese número non é.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Dareille o recado says {owner} will hear; no reply time promised.",
+    "examples": [
+      {
+        "text": "Dareille o recado a {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Xa llo digo eu.",
+        "style": "casual"
+      },
+      {
+        "text": "O recado chegará.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Grazas, non me interesa is the polite no; no reasons needed.",
+    "examples": [
+      {
+        "text": "Grazas, non nos interesa.",
+        "style": "polite"
+      },
+      {
+        "text": "Non precisamos nada, grazas.",
+        "style": "polite"
+      },
+      {
+        "text": "Non, grazas, home.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "On a second push, refer to the earlier non and ask them to drop the number from their lists.",
+    "examples": [
+      {
+        "text": "Xa lle dixen que non.",
+        "style": "polite"
+      },
+      {
+        "text": "Por favor, non volvan chamar a este número.",
+        "style": "polite"
+      },
+      {
+        "text": "Borren este número das súas listas.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Vostede with older strangers; don/dona + first name; ti between peers.",
+    "examples": [
+      {
+        "text": "Señor",
+        "style": "polite"
+      },
+      {
+        "text": "Señora",
+        "style": "polite"
+      },
+      {
+        "text": "Don Manuel",
+        "style": "polite"
+      },
+      {
+        "text": "Dona Carme",
+        "style": "polite"
+      },
+      {
+        "text": "Home",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like A súa chamada é importante para nós sound like an atención ao cliente line.",
+    "examples": [
+      {
+        "text": "A súa chamada é importante para nós.",
+        "style": "polite"
+      },
+      {
+        "text": "Grazas por chamar ao servizo de atención ao cliente.",
+        "style": "polite"
+      },
+      {
+        "text": "En que podo axudarlle?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Mocking someone's Galician or switching language pointedly, or asking pay early, is rude.",
+    "examples": [
+      {
+        "text": "Fala en castelán, home.",
+        "style": "casual"
+      },
+      {
+        "text": "Canto gañas?",
+        "style": "casual"
+      },
+      {
+        "text": "Ti quen es?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/diga",
+    "https://en.wikipedia.org/wiki/Galician_language",
+    "https://academia.gal/dicionario"
+  ],
+  "uncertain": [
+    "Galician speakers often switch to Spanish on calls with strangers; how often is not measured",
+    "Backchannels (si, aha, claro, xa) from usage, no call corpus",
+    "Use of vostede vs ti on the phone varies by age and area"
+  ]
+}

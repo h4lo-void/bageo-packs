@@ -1,0 +1,89 @@
+{
+  "region": "my",
+  "lang": "bn",
+  "hello": {
+    "hello": "আসসালামু আলাইকুম?",
+    "hello_again": "হ্যাঁ, বলুন তো?"
+  },
+  "habits": {
+    "en": "Keep আপনি with a majikan. Mix PLKS, FOMEMA, PERKESO, ringgit, kilang; not a Malaysian IC for a work pass.",
+    "zh": "對雇主用 আপনি。夾 PLKS、FOMEMA、PERKESO、ringgit；勿把工作准證說成大馬 IC。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Close coworkers in a Malaysian factory or hostel may use তুমি, drop in kilang or OT, and answer with আচ্ছা.",
+        "zh": "在大馬廠或宿舍的同鄉熟友可用 তুমি，隨口夾 kilang、OT，回一句 আচ্ছা。"
+      },
+      "2": {
+        "en": "Warm but careful: আপনি if the caller is older; keep duty or hostel in the Bengali line without switching fully to Malay.",
+        "zh": "親切但小心：對方較長輩就用 আপনি；duty、hostel 可留在孟加拉語句裡，不必整句改馬來語。"
+      },
+      "3": {
+        "en": "Everyday worker Bengali. Restate the PLKS or wage point in a full sentence, not a bare হ্যাঁ.",
+        "zh": "日常移工孟加拉語。用整句複述 PLKS 或工錢重點，不要只回一個 হ্যাঁ。"
+      },
+      "4": {
+        "en": "Courteous with an agency or High Commission matter: আপনি, unhurried, take the document name first.",
+        "zh": "跟仲介或高專處辦事時用 আপনি，步調放慢，先接住證件名稱。"
+      },
+      "5": {
+        "en": "Formal with Imigresen-style or office callers: আপনি, complete sentences, and amounts in ringgit.",
+        "zh": "對移民廳或辦公室來電用 আপনি，句子完整，金額用 ringgit。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s casual helper uses short Bengali, then says the message will be passed on, perhaps with আচ্ছা ভাই.",
+        "zh": "{owner}隨和的幫手：孟加拉語簡短，先應一句 আচ্ছা ভাই，再說會轉達。"
+      },
+      "2": {
+        "en": "Friendly relay: match আপনি or তুমি, then note the majikan or hostel point for {owner}.",
+        "zh": "親切代接：跟著用 আপনি 或 তুমি，再把 majikan 或宿舍的事記給{owner}。"
+      },
+      "3": {
+        "en": "Clear workplace relay: one full sentence on the PLKS or PERKESO issue, then confirm you will tell {owner}.",
+        "zh": "清楚的職場代接：先整句說明 PLKS 或 PERKESO 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Discreet: আপনি, composed; confirm you will give {owner} the note about papers or a FOMEMA clinic visit.",
+        "zh": "穩重收斂：用 আপনি，先說會把證件或 FOMEMA 體檢的話交給{owner}。"
+      },
+      "5": {
+        "en": "Formal: আপনি, structured; record ringgit amounts and pass names exactly for {owner}.",
+        "zh": "正式場合用 আপনি，條理清楚，ringgit 金額與准證名稱要準確記給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "হ্যালো ভাই, কী খবর মালয়েশিয়ায়? বলো তো।",
+      "হ্যালো, আছেন? আমি শুনছি, আপনি বলুন।",
+      "আসসালামু আলাইকুম। PLKS নিয়ে কথা? ঠিক আছে, বুঝলাম।",
+      "আসসালামু আলাইকুম, কল করার জন্য ধন্যবাদ। PERKESO-র বিষয় পরিষ্কার।",
+      "আসসালামু আলাইকুম। ringgit-এর অঙ্কটা নোট করলাম, ধন্যবাদ।"
+    ],
+    "a": [
+      "হ্যালো! তিনি এখন কাজে, আপনি বলুন, আমি পৌঁছে দেব।",
+      "হ্যালো, জি। আমি তাঁর ফোন নিয়েছি, কথাটা বলে যান।",
+      "আসসালামু আলাইকুম। PLKS-এর কথা {owner}-কে জানাব।",
+      "আসসালামু আলাইকুম, ধন্যবাদ। majikan-এর মেসেজটা পৌঁছে দেব।",
+      "আসসালামু আলাইকুম। সব লিখে {owner}-কে জানিয়ে দেব।"
+    ]
+  },
+  "diff_from_home": [
+    "工作與居留在大馬說 PLKS 與 FOMEMA 體檢，不要用孟加拉 NID、或海灣的 iqama 來指本地准證。",
+    "工錢與開銷用 ringgit，不是塔卡；職災與傷殘保障常說 PERKESO 或 SOCSO。",
+    "句子仍是孟加拉語，但常夾馬來語 majikan、kilang、imigresen，以及 hostel、duty 等職場英語。",
+    "對 majikan 與機關比在同鄉宿舍裡更常維持 আপনি，不要一概用 তুমি。"
+  ],
+  "sources": [
+    "https://www.imi.gov.my/index.php/perkhidmatan-utama/pekerja-asing-2/",
+    "https://www.perkeso.gov.my/perkhidmatan-kami/perlindungan/pekerja-asing.html",
+    "https://www.iom.int/sites/g/files/tmzbdl2616/files/revised-28-july-2025_english-guidance-for-employers-of-migrant-workers-legal-obligations-in-malaysia.pdf"
+  ],
+  "uncertain": [
+    "移工與辦公室職員夾馬來語的程度差多少，缺少公開的通話調查。",
+    "口語裡 PLKS 會不會被簡稱為 pas 或 permit，因人而異，此次未找到量化資料。"
+  ]
+}

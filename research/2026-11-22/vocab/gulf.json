@@ -1,0 +1,392 @@
+{
+  "region": "gulf",
+  "vocab": {
+    "ar": {
+      "bank": [
+        {
+          "term": "أبشر",
+          "en": "Absher, Saudi government e-services app often linked with bank checks (أبشر)"
+        },
+        {
+          "term": "STC Pay",
+          "en": "Saudi digital wallet, now STC Bank (STC Pay)"
+        },
+        {
+          "term": "رمز التحقق",
+          "en": "verification code sent by SMS (رمز التحقق)"
+        },
+        {
+          "term": "آيبان",
+          "en": "IBAN (آيبان)"
+        },
+        {
+          "term": "صراف",
+          "en": "ATM, Gulf usage (صراف)"
+        },
+        {
+          "term": "حوالة",
+          "en": "money transfer (حوالة)"
+        },
+        {
+          "term": "رصيد",
+          "en": "balance (رصيد)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "مندوب",
+          "en": "delivery driver, Gulf usage (مندوب)"
+        },
+        {
+          "term": "طلبات",
+          "en": "Talabat delivery app (طلبات)"
+        },
+        {
+          "term": "هنقرستيشن",
+          "en": "HungerStation app in Saudi Arabia (هنقرستيشن)"
+        },
+        {
+          "term": "العنوان الوطني",
+          "en": "Saudi national address (العنوان الوطني)"
+        },
+        {
+          "term": "مكاني",
+          "en": "Makani building number, Dubai (مكاني)"
+        },
+        {
+          "term": "الشحنة",
+          "en": "shipment (الشحنة)"
+        }
+      ],
+      "government": [
+        {
+          "term": "الهوية الوطنية",
+          "en": "Saudi national ID (الهوية الوطنية)"
+        },
+        {
+          "term": "الإقامة",
+          "en": "residence permit for expatriates (الإقامة)"
+        },
+        {
+          "term": "الهوية الإماراتية",
+          "en": "Emirates ID (الهوية الإماراتية)"
+        },
+        {
+          "term": "نفاذ",
+          "en": "Nafath national login (نفاذ)"
+        },
+        {
+          "term": "توكلنا",
+          "en": "Tawakkalna Saudi app (توكلنا)"
+        },
+        {
+          "term": "البطاقة المدنية",
+          "en": "Kuwait or Qatar civil ID (البطاقة المدنية)"
+        }
+      ],
+      "health": [
+        {
+          "term": "صيدلية",
+          "en": "pharmacy, Gulf (صيدلية)"
+        },
+        {
+          "term": "مستوصف",
+          "en": "small clinic, Gulf usage (مستوصف)"
+        },
+        {
+          "term": "صحتي",
+          "en": "Sehhaty Saudi health app (صحتي)"
+        },
+        {
+          "term": "التأمين الطبي",
+          "en": "medical insurance (التأمين الطبي)"
+        },
+        {
+          "term": "موعد",
+          "en": "appointment (موعد)"
+        },
+        {
+          "term": "وصفة",
+          "en": "prescription (وصفة)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "شريحة",
+          "en": "SIM card, Gulf usage (شريحة)"
+        },
+        {
+          "term": "باقة",
+          "en": "package or plan (باقة)"
+        },
+        {
+          "term": "شحن رصيد",
+          "en": "top-up credit (شحن رصيد)"
+        },
+        {
+          "term": "مسبقة الدفع",
+          "en": "prepaid (مسبقة الدفع)"
+        },
+        {
+          "term": "فوترة",
+          "en": "postpaid billing (فوترة)"
+        },
+        {
+          "term": "تغطية",
+          "en": "coverage (تغطية)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "مدى",
+          "en": "mada Saudi debit network (مدى)"
+        },
+        {
+          "term": "كاش",
+          "en": "cash, spoken (كاش)"
+        },
+        {
+          "term": "أبل باي",
+          "en": "Apple Pay, very common (أبل باي)"
+        },
+        {
+          "term": "تابي",
+          "en": "Tabby buy-now-pay-later (تابي)"
+        },
+        {
+          "term": "تمارا",
+          "en": "Tamara buy-now-pay-later (تمارا)"
+        },
+        {
+          "term": "فاتورة",
+          "en": "bill or invoice (فاتورة)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "أوبر",
+          "en": "Uber (أوبر)"
+        },
+        {
+          "term": "كريم",
+          "en": "Careem app (كريم)"
+        },
+        {
+          "term": "مترو",
+          "en": "metro in Riyadh, Dubai, Doha (مترو)"
+        },
+        {
+          "term": "زحمة",
+          "en": "traffic jam (زحمة)"
+        },
+        {
+          "term": "سيارة",
+          "en": "car (سيارة)"
+        },
+        {
+          "term": "موقف",
+          "en": "parking spot (موقف)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "شقة",
+          "en": "flat, Gulf (شقة)"
+        },
+        {
+          "term": "فيلا",
+          "en": "villa (فيلا)"
+        },
+        {
+          "term": "حارس",
+          "en": "building guard (حارس)"
+        },
+        {
+          "term": "إيجار",
+          "en": "rent (إيجار)"
+        },
+        {
+          "term": "المالك",
+          "en": "landlord (المالك)"
+        },
+        {
+          "term": "إيجاري",
+          "en": "Ejari tenancy registration, Dubai (إيجاري)"
+        }
+      ],
+      "school": [
+        {
+          "term": "مدرسة",
+          "en": "school, Gulf (مدرسة)"
+        },
+        {
+          "term": "روضة",
+          "en": "kindergarten, Gulf (روضة)"
+        },
+        {
+          "term": "مدرسة عالمية",
+          "en": "international school (مدرسة عالمية)"
+        },
+        {
+          "term": "دروس خصوصية",
+          "en": "private lessons (دروس خصوصية)"
+        },
+        {
+          "term": "الفصل الدراسي",
+          "en": "semester (الفصل الدراسي)"
+        },
+        {
+          "term": "رسوم دراسية",
+          "en": "school fees (رسوم دراسية)"
+        }
+      ],
+      "money": [
+        {
+          "term": "ريال",
+          "en": "riyal, Saudi, Qatari or Omani (ريال)"
+        },
+        {
+          "term": "درهم",
+          "en": "UAE dirham (درهم)"
+        },
+        {
+          "term": "دينار",
+          "en": "Kuwaiti or Bahraini dinar (دينار)"
+        },
+        {
+          "term": "هللة",
+          "en": "halala, Saudi cent (هللة)"
+        },
+        {
+          "term": "فلس",
+          "en": "fils (فلس)"
+        },
+        {
+          "term": "ألف",
+          "en": "thousand, Gulf (ألف)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "اليوم",
+          "en": "today (اليوم)"
+        },
+        {
+          "term": "بكرة",
+          "en": "tomorrow, spoken (بكرة)"
+        },
+        {
+          "term": "أمس",
+          "en": "yesterday (أمس)"
+        },
+        {
+          "term": "بعد الصلاة",
+          "en": "after prayer time, used as a time marker (بعد الصلاة)"
+        },
+        {
+          "term": "الويكند",
+          "en": "weekend, Friday-Saturday (الويكند)"
+        },
+        {
+          "term": "رمضان",
+          "en": "Ramadan, shorter working hours (رمضان)"
+        }
+      ],
+      "work": [
+        {
+          "term": "دوام",
+          "en": "working hours or shift (دوام)"
+        },
+        {
+          "term": "راتب",
+          "en": "salary (راتب)"
+        },
+        {
+          "term": "إجازة",
+          "en": "leave, Gulf (إجازة)"
+        },
+        {
+          "term": "مدير",
+          "en": "manager (مدير)"
+        },
+        {
+          "term": "كفيل",
+          "en": "sponsor in the visa system (كفيل)"
+        },
+        {
+          "term": "نهاية الخدمة",
+          "en": "end-of-service gratuity (نهاية الخدمة)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "إزيك",
+      "use_instead": "كيفك أو شلونك",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "عايز",
+      "use_instead": "أبغى أو أبي",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "أوي",
+      "use_instead": "وايد أو مرة",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "بتاع",
+      "use_instead": "حق",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "بواب",
+      "use_instead": "حارس",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "جنيه",
+      "use_instead": "ريال أو درهم",
+      "where_it_is_from": "EG"
+    },
+    {
+      "word": "كيفاش",
+      "use_instead": "كيف",
+      "where_it_is_from": "MA"
+    },
+    {
+      "word": "برشا",
+      "use_instead": "وايد",
+      "where_it_is_from": "TN"
+    },
+    {
+      "word": "شو بدك",
+      "use_instead": "وش تبي",
+      "where_it_is_from": "LB"
+    },
+    {
+      "word": "ميكروباص",
+      "use_instead": "أوبر أو كريم",
+      "where_it_is_from": "EG"
+    }
+  ],
+  "sources": [
+    "https://www.absher.sa/",
+    "https://uaepass.ae/",
+    "https://www.stc.com.sa/",
+    "https://www.etisalat.ae/",
+    "https://u.ae/",
+    "https://www.rta.ae/",
+    "https://www.sehhaty.sa/",
+    "https://www.nafath.sa/",
+    "https://www.talabat.com/uae"
+  ],
+  "uncertain": [
+    "此區七國方言不一：沙烏地、科威特、阿聯常用 وايد/مرة，葉門與阿曼口語不同；本檔偏海灣通用口語。",
+    "沙烏地官網（sama.gov.sa、tawakkalna.gov.sa、nafath.sa、stcpay.com.sa）從主機連不上，未能逐頁核對。",
+    "STC Pay 已改組為 STC Bank，民眾口語仍說 STC Pay。",
+    "葉門的支付與政府服務和其餘六國差別很大，本檔未分開。"
+  ]
+}

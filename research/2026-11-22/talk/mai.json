@@ -1,0 +1,274 @@
+{
+  "lang": "mai",
+  "backchannels": {
+    "direction": "हँ and बुझलहुँ show you follow; ठीक छै accepts; a hurried हँ हँ can sound like you are not really listening.",
+    "examples": [
+      {
+        "text": "हँ.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "हँ, बुझलहुँ.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "ठीक छै.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "अच्छा, सएह.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "बेस.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "हँ हँ.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "बाप रे for shock, बड्ड दुख भेल for sympathy, बड्ड नीक for good news; tone carries most of it.",
+    "examples": [
+      {
+        "text": "सच्चे?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "बाप रे!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "बड्ड दुख भेल.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "बड्ड नीक!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "बधाई हो!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ई कठिन अछि.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice is not coming well (आवाज नीक सँ नहि आबि रहल); ask them to speak a bit louder (कनी जोर सँ).",
+    "examples": [
+      {
+        "text": "आवाज नीक सँ नहि आबि रहल अछि.",
+        "style": "polite"
+      },
+      {
+        "text": "नेटवर्क खराब अछि.",
+        "style": "casual"
+      },
+      {
+        "text": "आवाज कटि रहल अछि.",
+        "style": "casual"
+      },
+      {
+        "text": "कनी जोर सँ बाजू.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "फेर सँ कहू asks for a repeat; names are commonly spelled in English letters on the phone.",
+    "examples": [
+      {
+        "text": "फेर सँ कहू ने.",
+        "style": "polite"
+      },
+      {
+        "text": "की कहलियै?",
+        "style": "casual"
+      },
+      {
+        "text": "नाम के स्पेलिंग कहू.",
+        "style": "polite"
+      },
+      {
+        "text": "नंबर फेर सँ कहू, 12345678 ने?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Use अपने (high honorific) with unknown adults; के बजैत छी? is the everyday who-is-speaking.",
+    "examples": [
+      {
+        "text": "के बजैत छी?",
+        "style": "casual"
+      },
+      {
+        "text": "अपने के छी?",
+        "style": "polite"
+      },
+      {
+        "text": "कतय सँ फोन केलहुँ?",
+        "style": "polite"
+      },
+      {
+        "text": "ई {owner} के फोन अछि. अपने के?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Just say the number is wrong; the English wrong number is also widely used in Mithila.",
+    "examples": [
+      {
+        "text": "गलत नंबर लागि गेल.",
+        "style": "polite"
+      },
+      {
+        "text": "एतय ओहि नाम के केओ नहि छथि.",
+        "style": "polite"
+      },
+      {
+        "text": "रॉन्ग नंबर अछि.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Verb endings like देबनि mark respect for the absent person; use them when relaying to {owner}.",
+    "examples": [
+      {
+        "text": "हम हुनका कहि देबनि.",
+        "style": "polite"
+      },
+      {
+        "text": "{owner} के खबरि कऽ देबनि.",
+        "style": "polite"
+      },
+      {
+        "text": "अहाँक बात पहुँचा देब.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "नहि चाही (don't want) with धन्यवाद is enough; सौख नहि (no interest) is the softer form.",
+    "examples": [
+      {
+        "text": "नहि चाही, धन्यवाद.",
+        "style": "polite"
+      },
+      {
+        "text": "हमरा सौख नहि अछि.",
+        "style": "polite"
+      },
+      {
+        "text": "एखन किछु नहि चाही.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Restate नहि plainly and ask them not to call again, but keep अहाँ/अपने rather than तों.",
+    "examples": [
+      {
+        "text": "हम पहिने कहि देलहुँ जे नहि. फेर फोन नहि करू.",
+        "style": "polite"
+      },
+      {
+        "text": "ई नंबर अपन लिस्ट सँ हटा दियौ.",
+        "style": "polite"
+      },
+      {
+        "text": "नहि माने नहि.",
+        "style": "casual"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Three tiers: अपने (highest), अहाँ (polite), तों (intimate); kin terms like भैया or दीदी by age.",
+    "examples": [
+      {
+        "text": "अपने,",
+        "style": "polite"
+      },
+      {
+        "text": "भैया,",
+        "style": "casual"
+      },
+      {
+        "text": "दीदी,",
+        "style": "casual"
+      },
+      {
+        "text": "बाबा,",
+        "style": "polite"
+      },
+      {
+        "text": "बाबूजी,",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Hindi-style corporate lines translated into Maithili sound like an automated helpline.",
+    "examples": [
+      {
+        "text": "अपनेक कॉल हमरा सभ लेल महत्वपूर्ण अछि.",
+        "style": "polite"
+      },
+      {
+        "text": "हम अपनेक की सहायता कऽ सकैत छी?",
+        "style": "polite"
+      },
+      {
+        "text": "हमर सेवा चुनबाक लेल धन्यवाद.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Avoid तों with strangers, asking income early, and requesting Aadhaar or OTP digits.",
+    "examples": [
+      {
+        "text": "तों के छें?",
+        "style": "casual"
+      },
+      {
+        "text": "कतेक कमाइ छी?",
+        "style": "casual"
+      },
+      {
+        "text": "पहिने आधार नंबर बताउ.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikivoyage.org/wiki/Maithili_phrasebook",
+    "https://en.wikipedia.org/wiki/Maithili_language",
+    "https://en.wiktionary.org/wiki/%E0%A4%B9%E0%A4%81",
+    "https://en.wikipedia.org/wiki/Indian_honorifics"
+  ],
+  "uncertain": [
+    "邁蒂利語動詞會同時標示說話對象與第三者的敬級，例句的詞尾（如 देबनि）依語法概述撰寫，未經母語語料核對。",
+    "印度比哈爾與尼泊爾的邁蒂利語用詞有差異，本檔以天城文與比哈爾常見寫法為主；Tirhuta 字母未使用。",
+    "Wikivoyage 片語集多為拉丁轉寫且條目不全，附和聲與拒絕推銷的口語頻率沒有其他來源可對照。"
+  ]
+}

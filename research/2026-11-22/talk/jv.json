@@ -1,0 +1,261 @@
+{
+  "lang": "jv",
+  "backchannels": {
+    "direction": "Krama nggih/inggih shows polite listening; ngoko hooh, he'em only with peers; iya iya wis sounds dismissive.",
+    "examples": [
+      {
+        "text": "Nggih.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Inggih, leres.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Hooh.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "He'em.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Iya iya wis.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Lho, tenane? or Mosok to? for surprise; ndherek prihatin for sympathy; waduh for a snag.",
+    "examples": [
+      {
+        "text": "Lho, tenane?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Mosok to?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Kula ndherek prihatin.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Kula ndherek bungah.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "Waduh, rada angel niku.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (swantenipun mboten cetha) or the signal breaks; ask politely for banter.",
+    "examples": [
+      {
+        "text": "Nyuwun sewu, swantenipun mboten patos cetha.",
+        "style": "polite"
+      },
+      {
+        "text": "Sinyale elek.",
+        "style": "casual"
+      },
+      {
+        "text": "Swarane pedhot-pedhot.",
+        "style": "casual"
+      },
+      {
+        "text": "Saged langkung banter sekedhik?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Pripun? in krama, piye? in ngoko asks for a replay; get the asma spelled out and echo the nomer.",
+    "examples": [
+      {
+        "text": "Pripun, Pak?",
+        "style": "polite"
+      },
+      {
+        "text": "Piye?",
+        "style": "casual"
+      },
+      {
+        "text": "Asmanipun dipuneja pripun?",
+        "style": "polite"
+      },
+      {
+        "text": "Nomeripun 12345678, leres?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Krama sinten asks who politely; ngoko sapa only with familiar callers.",
+    "examples": [
+      {
+        "text": "Nyuwun sewu, menika saking sinten nggih?",
+        "style": "polite"
+      },
+      {
+        "text": "Menika nomeripun {owner}, panjenengan sinten?",
+        "style": "polite"
+      },
+      {
+        "text": "Sapa iki?",
+        "style": "casual"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say salah nomer, with nyuwun pangapunten, and that nobody so named is here.",
+    "examples": [
+      {
+        "text": "Nyuwun pangapunten, menawi salah nomer.",
+        "style": "polite"
+      },
+      {
+        "text": "Mriki mboten wonten ingkang asmanipun makaten.",
+        "style": "polite"
+      },
+      {
+        "text": "Salah nomer, Mas.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Krama aturaken / sampekaken says {owner} will be told; leave out any reply time.",
+    "examples": [
+      {
+        "text": "Mangke kula aturaken dhateng {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Pesenipun badhe kula sampekaken.",
+        "style": "polite"
+      },
+      {
+        "text": "Mengko tak kandhani.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Matur nuwun first, then mboten minat; Javanese avoid a sharp no and soften with nggih.",
+    "examples": [
+      {
+        "text": "Matur nuwun, kula mboten minat.",
+        "style": "polite"
+      },
+      {
+        "text": "Sampun, matur nuwun, mboten perlu nggih.",
+        "style": "polite"
+      },
+      {
+        "text": "Ora usah, suwun.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Second push: recall the earlier refusal in krama and ask that this nomer be dipunbusak.",
+    "examples": [
+      {
+        "text": "Kula sampun matur mboten minat.",
+        "style": "polite"
+      },
+      {
+        "text": "Sampun nelpon nomer menika malih nggih.",
+        "style": "polite"
+      },
+      {
+        "text": "Nomer menika mugi dipunbusak saking dhaftar.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Panjenengan for strangers; Pakdhe/Budhe for elders, Dhik or Le for the young; ngoko kowe only with intimates.",
+    "examples": [
+      {
+        "text": "Pakdhe",
+        "style": "polite"
+      },
+      {
+        "text": "Budhe",
+        "style": "polite"
+      },
+      {
+        "text": "Panjenengan",
+        "style": "polite"
+      },
+      {
+        "text": "Dhik",
+        "style": "casual"
+      },
+      {
+        "text": "Le",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Krama lines like Wonten ingkang saged kula biyantu? sound like a layanan pelanggan desk.",
+    "examples": [
+      {
+        "text": "Matur nuwun sampun ngubungi layanan pelanggan kami.",
+        "style": "polite"
+      },
+      {
+        "text": "Wonten ingkang saged kula biyantu?",
+        "style": "polite"
+      },
+      {
+        "text": "Telpon panjenengan wigati sanget kagem kami.",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Ngoko kowe to elders or strangers, or asking religion or pay early, breaks unggah-ungguh.",
+    "examples": [
+      {
+        "text": "Kowe ki sapa?",
+        "style": "casual"
+      },
+      {
+        "text": "Gajimu pira?",
+        "style": "casual"
+      },
+      {
+        "text": "Agamamu apa?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://en.wikipedia.org/wiki/Javanese_language",
+    "https://en.wiktionary.org/wiki/nggih",
+    "https://en.wiktionary.org/wiki/matur_nuwun",
+    "https://en.wiktionary.org/wiki/panjenengan"
+  ],
+  "uncertain": [
+    "Support basis: Bageo lists jv in 附件_15_各語言講電話小動作.json (field languages) and 附件_14_地區第二語言補組合.json (field supported_languages); Gemini Live's official language table does not list Javanese",
+    "Krama vs ngoko choice depends on age and status the AI cannot see; krama used as safe default",
+    "Many Javanese speakers switch to Indonesian with unknown callers; frequency of that switch is unknown",
+    "Backchannels (nggih, inggih, hooh, he'em) from dictionaries and usage, no call corpus"
+  ]
+}

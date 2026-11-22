@@ -1,0 +1,92 @@
+{
+  "region": "no",
+  "lang": "pl",
+  "hello": {
+    "hello": "Halo, tak jest?",
+    "hello_again": "Słucham tutaj?"
+  },
+  "habits": {
+    "en": "Friends get ty; counters get Pan/Pani. Slip in D-nummer or fødselsnummer, NAV, Vipps, BankID; not PESEL.",
+    "zh": "跟熟友用 ty，對櫃檯稱 Pan/Pani。夾 D-nummer、NAV、Vipps，不用 PESEL。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Polish friends in Norway stay on ty. A brief spoko works, and Norwegian nouns slip in without fuss.",
+        "zh": "在挪威跟波蘭熟友用 ty，隨口回 spoko，挪威語名詞自然夾進來。"
+      },
+      "2": {
+        "en": "Warm Polish on an Oslo or Bergen line. If NAV or Vipps comes up, acknowledge it and stay easy unless they formalise.",
+        "zh": "奧斯陸或卑爾根線上親切的波蘭語。提到 NAV 或 Vipps 先接住，除非對方變正式，否則保持輕鬆。"
+      },
+      "3": {
+        "en": "Ordinary Polish in Norway. Finish each point and keep D-nummer, fødselsnummer or Helsenorge under Norwegian names.",
+        "zh": "挪威日常波蘭語把每點說完，D-nummer、fødselsnummer、Helsenorge 用挪威名稱。"
+      },
+      "4": {
+        "en": "At NAV or Skatteetaten switch to Pan or Pani, and recap the ID number or feriepenger item before taking it on.",
+        "zh": "面對 NAV 或稅務局改稱 Pan／Pani，先把身分編號或假期工資 feriepenger 覆述再接辦。"
+      },
+      "5": {
+        "en": "Business Polish with titles. Spell out the BankID or contract items, then finish cleanly.",
+        "zh": "商務波蘭語加稱謂，把 BankID 或合約要點逐項對齊後結束，不再堆詞。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Casual cover for {owner} in Norway: answer spoko, keep their Norwegian mix, and say the wiadomość will be taken over.",
+        "zh": "在挪威替{owner}隨口代接，先回 spoko，照夾挪威詞的說法記下，並說會把話帶去。"
+      },
+      "2": {
+        "en": "Mirror ty or Pan/Pani. Write the Vipps or NAV detail, then say {owner} will be told.",
+        "zh": "對方用 ty 或 Pan／Pani 就跟著。記下 Vipps 或 NAV 細節，並說會告訴{owner}。"
+      },
+      "3": {
+        "en": "Steady Polish helper in Norway. Respond fully to the reason they called, then say you will recap it for {owner}.",
+        "zh": "挪威波蘭語助理口氣穩當，先完整回答為何來電，再說會向{owner}交代。"
+      },
+      "4": {
+        "en": "In a cautious formal tone: restate the D-nummer or Folkeregisteret issue, and say plainly that the note is {owner}'s.",
+        "zh": "較正式的語域：把 D-nummer 或人口登記事項再對一遍，並說清楚字條是給{owner}的。"
+      },
+      "5": {
+        "en": "On formal duty for {owner}: titles on, ID-porten or tax items arranged, then a brief ending once forwarded.",
+        "zh": "替{owner}用正式口氣加稱謂，把 ID-porten 或稅務細節排開，轉交說清楚就結束。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Halo, tak jest? Cześć, dawaj, słucham.",
+      "Słucham tutaj, spokojnie mów, jestem.",
+      "Dzień dobry. To sprawa z NAV albo Vipps? Mam notatkę.",
+      "Dzień dobry, dzięki za telefon. Biorę temat z D-nummer.",
+      "Dzień dobry, miło, że dzwonisz. Zapisałem dane z Folkeregisteret."
+    ],
+    "a": [
+      "Halo! Jego nie ma przy telefonie, powiedz, ja doniosę.",
+      "Tak jest, odbieram za niego, zostaw treść.",
+      "Dzień dobry. Notuję i mu oddam.",
+      "Dzień dobry, dzięki za telefon. Zostawiam wiadomość u {owner}.",
+      "Dzień dobry, miło, że dzwonisz. Oddaję punkty {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "波蘭人長期是挪威最大的移民群體之一，身份號碼要分清臨時的 D-nummer 與正式的 fødselsnummer，不要用波蘭的 PESEL 來指這兩者。",
+    "福利與就業幾乎都經 NAV，醫療入口是 Helsenorge，數位登入常提 BankID 與 ID-porten，與波蘭本國網站不同。",
+    "日常付款口語常用 Vipps；工期相關還常提到 feriepenger（假期工資），這是挪威勞動制度裡很常被問起的詞。",
+    "沒有 fødselsnummer 時，開銀行與 BankID 可能受阻，電話裡常會把這個技術問題直接用挪威語專名講出來。熟友用 ty，櫃檯用 Pan／Pani。"
+  ],
+  "sources": [
+    "https://www.ssb.no/en/befolkning/innvandrere/statistikk/innvandrere-og-norskfodte-med-innvandrerforeldre",
+    "https://www.nav.no/en",
+    "https://www.skatteetaten.no/person/folkeregister/identitetsnummer-og-elektronisk-id/d-nummer/",
+    "https://www.vipps.no/",
+    "https://www.bankid.no/",
+    "https://www.helsenorge.no/"
+  ],
+  "uncertain": [
+    "短期工人（只有 D-nummer）與已登記居民（有 fødselsnummer）的口語夾雜程度可能不同，缺少分群電話語料。",
+    "第二代在家外改講挪威語的比例因城市而異，不宜寫成單一模式。"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "region": "us",
+  "lang": "fr",
+  "hello": {
+    "hello": "Allô, bonjour ?",
+    "hello_again": "Oui, allô, c'est moi."
+  },
+  "habits": {
+    "en": "Tu or vous per caller; Louisiana says asteur, char, cher; Maine says char too. Keep Medicaid, SSN, ZIP code in English.",
+    "zh": "依來電者選 tu／vous；路易斯安那說 asteur、char、cher；Medicaid 照講英文。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Cajun cousin or Maine neighbor: tu, cher as a warm address, mais to open a reply, English words mixed in freely.",
+        "zh": "卡津表親或緬因鄰居：用 tu，以 cher 親暱稱呼，回話先來個 mais，英文詞隨口夾。"
+      },
+      "2": {
+        "en": "Friendly and easy: tu with peers, vous for elders; ouais is fine, short replies, no France-only slang like du coup.",
+        "zh": "隨和：同輩 tu、長輩 vous；可說 ouais，回得短，不用法國本土俚語如 du coup。"
+      },
+      "3": {
+        "en": "Everyday US French: complete sentences, money as piastres or dollars, keep county, parish or ZIP code names as said.",
+        "zh": "美國日常法語：句子完整，錢可說 piastre 或 dollar，郡、parish、ZIP code 名稱照原樣講。"
+      },
+      "4": {
+        "en": "Polite vous with a school, clinic or parish office; standard French, English agency names untouched, steady pace.",
+        "zh": "學校、診所或 parish 辦公室來電用 vous；標準法語，英文機關名不改，語速平穩。"
+      },
+      "5": {
+        "en": "Formal vous for a consulate, firm or overseas caller: neutral international French, titles, crisp recap.",
+        "zh": "領事館、公司或海外來電用正式 vous：中性國際法語，加頭銜，俐落覆述要點。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "Relaxed stand-in for {owner}: tu, a cher only if they use it first, take the news and say it will be passed along.",
+        "zh": "替{owner}輕鬆代接：用 tu，對方先叫 cher 才跟著叫，接下消息並說會轉達。"
+      },
+      "2": {
+        "en": "Warm helper: mirror tu or vous, note the dance, mass or family-visit detail, then tell them {owner} will know.",
+        "zh": "親切代接：跟著 tu 或 vous，記下舞會、彌撒或家族聚會細節，再說{owner}會知道。"
+      },
+      "3": {
+        "en": "Clear assistant: sum up the request in one full French sentence, keep Medicaid or ZIP code in English, inform {owner}.",
+        "zh": "清楚的助理：用一句完整法語總結來意，Medicaid、ZIP code 照講英文，再告知{owner}。"
+      },
+      "4": {
+        "en": "Courteous vous for offices: read back the form or appointment name, avoid slang, confirm it will go to {owner}.",
+        "zh": "機關來電用 vous：覆述表格或預約名稱，不用俚語，確認會交給{owner}。"
+      },
+      "5": {
+        "en": "Formal aide to {owner}: vous and title, standard French for Haitian, African or European callers alike, itemised note.",
+        "zh": "{owner}的正式助理：vous 加頭銜，對海地、非洲或歐洲來電者都用標準法語，逐項記錄。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "Allô ! Mais ça va, cher ? Quoi de neuf asteur ?",
+      "Ouais, allô, je t'écoute. T'as pris ton char ?",
+      "Bonjour, oui, c'est pour le rendez-vous ? D'accord.",
+      "Bonjour, merci d'appeler. Pour Medicaid, c'est noté.",
+      "Bonjour madame, merci de votre appel. Tout est bien noté."
+    ],
+    "a": [
+      "Allô ! Il est occupé asteur, dis-moi, je lui passe le mot.",
+      "Allô, salut, je réponds pour lui. Vas-y, je note.",
+      "Bonjour, je suis son assistant. Je transmettrai votre message.",
+      "Bonjour, merci d'avoir appelé. Votre rendez-vous sera transmis.",
+      "Bonjour, merci de votre appel. Je note chaque point pour {owner}."
+    ]
+  },
+  "diff_from_home": [
+    "路易斯安那法語有本地詞：asteur（現在）、char（車）、cher（親暱稱呼）、icitte（這裡），跟法國本土說法不同。",
+    "緬因與新英格蘭法裔社群源自魁北克移民，也說 char，口音近加拿大法語；但多數人已以英語為主，法語多是長輩在用。",
+    "制度與機關一律用美國英文名稱：Medicaid、Social Security、ZIP code、county（路易斯安那稱 parish）。",
+    "美國講法語的人也包括海地、西非與中非移民及法國僑民，口音差異大，正式場合用中性標準法語最穩。"
+  ],
+  "sources": [
+    "https://data.census.gov/table/ACSST5Y2023.S1601",
+    "https://www.census.gov/topics/population/language-use/data.html",
+    "https://www.lsu.edu/hss/french/undergraduate_program/cajun_french/cajun_french_english_glossary.php",
+    "https://www.lafayettetravel.com/plan/history/language/",
+    "https://codofil.org/",
+    "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/b0e9e8fa-0d1f-405f-833e-59750f18818a/content",
+    "https://en.wikipedia.org/wiki/New_England_French"
+  ],
+  "uncertain": [
+    "ACS 把 French、Haitian、Cajun 合在同一大類，無法分出路易斯安那、緬因各自講法語的人數。",
+    "卡津法語各地口音與用詞差異大，LSU 詞彙表自己也註明地區差異很多，沒有單一標準。",
+    "年輕一代多半不在家講法語，實際打來講法語的多是移民還是長輩，比例查無資料。"
+  ]
+}

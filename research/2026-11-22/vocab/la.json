@@ -1,0 +1,426 @@
+{
+  "region": "la",
+  "vocab": {
+    "lo": {
+      "bank": [
+        {
+          "term": "BCEL",
+          "en": "Banque pour le Commerce Extérieur Lao, the bank most people use (BCEL)"
+        },
+        {
+          "term": "BCEL One",
+          "en": "BCEL mobile banking app (BCEL One)"
+        },
+        {
+          "term": "ບັນຊີ",
+          "en": "bank account (ບັນຊີ)"
+        },
+        {
+          "term": "ເລກບັນຊີ",
+          "en": "account number (ເລກບັນຊີ)"
+        },
+        {
+          "term": "ໂອນເງິນ",
+          "en": "transfer money (ໂອນເງິນ)"
+        },
+        {
+          "term": "ບັດ ATM",
+          "en": "ATM card (ບັດ ATM)"
+        },
+        {
+          "term": "LDB",
+          "en": "Lao Development Bank (LDB)"
+        },
+        {
+          "term": "ຖອນເງິນ",
+          "en": "withdraw cash (ຖອນເງິນ)"
+        }
+      ],
+      "delivery": [
+        {
+          "term": "ພັດສະດຸ",
+          "en": "parcel (ພັດສະດຸ)"
+        },
+        {
+          "term": "ອານຸສິດ",
+          "en": "Anousith Express courier, collected at its branches (ອານຸສິດ)"
+        },
+        {
+          "term": "HAL",
+          "en": "HAL Express courier (HAL)"
+        },
+        {
+          "term": "ໄປຮັບທີ່ສາຂາ",
+          "en": "collect it at the courier branch (ໄປຮັບທີ່ສາຂາ)"
+        },
+        {
+          "term": "ຄ່າສົ່ງ",
+          "en": "shipping fee (ຄ່າສົ່ງ)"
+        },
+        {
+          "term": "ບ້ານ",
+          "en": "village name, the core of a Lao address (ບ້ານ)"
+        },
+        {
+          "term": "ເມືອງ",
+          "en": "district in an address (ເມືອງ)"
+        },
+        {
+          "term": "ແຂວງ",
+          "en": "province (ແຂວງ)"
+        }
+      ],
+      "government": [
+        {
+          "term": "ບັດປະຈຳຕົວ",
+          "en": "ID card (ບັດປະຈຳຕົວ)"
+        },
+        {
+          "term": "ສຳມະໂນຄົວ",
+          "en": "family registration book (ສຳມະໂນຄົວ)"
+        },
+        {
+          "term": "ນາຍບ້ານ",
+          "en": "village chief, signs local paperwork (ນາຍບ້ານ)"
+        },
+        {
+          "term": "ໜັງສືຜ່ານແດນ",
+          "en": "passport (ໜັງສືຜ່ານແດນ)"
+        },
+        {
+          "term": "ໃບຂັບຂີ່",
+          "en": "driving licence (ໃບຂັບຂີ່)"
+        },
+        {
+          "term": "ອາກອນ",
+          "en": "tax (ອາກອນ)"
+        },
+        {
+          "term": "ຫ້ອງການເມືອງ",
+          "en": "district office (ຫ້ອງການເມືອງ)"
+        }
+      ],
+      "health": [
+        {
+          "term": "ໂຮງໝໍ",
+          "en": "hospital (ໂຮງໝໍ)"
+        },
+        {
+          "term": "ຄລີນິກ",
+          "en": "private clinic (ຄລີນິກ)"
+        },
+        {
+          "term": "ຮ້ານຂາຍຢາ",
+          "en": "pharmacy (ຮ້ານຂາຍຢາ)"
+        },
+        {
+          "term": "ທ່ານໝໍ",
+          "en": "doctor (ທ່ານໝໍ)"
+        },
+        {
+          "term": "ຢາ",
+          "en": "medicine (ຢາ)"
+        },
+        {
+          "term": "ໃບສັ່ງຢາ",
+          "en": "prescription (ໃບສັ່ງຢາ)"
+        },
+        {
+          "term": "ປະກັນສັງຄົມ",
+          "en": "social security / health cover (ປະກັນສັງຄົມ)"
+        }
+      ],
+      "telecom": [
+        {
+          "term": "Unitel",
+          "en": "largest mobile operator (Unitel)"
+        },
+        {
+          "term": "ລາວໂທລະຄົມ",
+          "en": "Lao Telecom, LTC (ລາວໂທລະຄົມ)"
+        },
+        {
+          "term": "ETL",
+          "en": "state operator ETL (ETL)"
+        },
+        {
+          "term": "T-Plus",
+          "en": "operator formerly Beeline Laos (T-Plus)"
+        },
+        {
+          "term": "ເຕີມເງິນ",
+          "en": "top up phone credit (ເຕີມເງິນ)"
+        },
+        {
+          "term": "ແພັກເກັດເນັດ",
+          "en": "data package (ແພັກເກັດເນັດ)"
+        },
+        {
+          "term": "ຊິມ",
+          "en": "SIM card (ຊິມ)"
+        },
+        {
+          "term": "ສັນຍານ",
+          "en": "signal (ສັນຍານ)"
+        }
+      ],
+      "payment": [
+        {
+          "term": "ເງິນສົດ",
+          "en": "cash (ເງິນສົດ)"
+        },
+        {
+          "term": "ສະແກນ QR",
+          "en": "scan to pay, mostly via BCEL One (ສະແກນ QR)"
+        },
+        {
+          "term": "Umoney",
+          "en": "Unitel's e-wallet, renamed in 2026 (Umoney)"
+        },
+        {
+          "term": "M moneyX",
+          "en": "LTC e-wallet (M moneyX)"
+        },
+        {
+          "term": "ໂອນໃຫ້",
+          "en": "pay by transfer to someone (ໂອນໃຫ້)"
+        },
+        {
+          "term": "ໃບບິນ",
+          "en": "receipt / bill (ໃບບິນ)"
+        }
+      ],
+      "transport": [
+        {
+          "term": "ລົດເມ",
+          "en": "bus (ລົດເມ)"
+        },
+        {
+          "term": "ລົດຕຸ໊ກຕຸ໊ກ",
+          "en": "tuk-tuk (ລົດຕຸ໊ກຕຸ໊ກ)"
+        },
+        {
+          "term": "LOCA",
+          "en": "local ride-hailing app (LOCA)"
+        },
+        {
+          "term": "ລົດໄຟລາວ-ຈີນ",
+          "en": "Laos–China railway (ລົດໄຟລາວ-ຈີນ)"
+        },
+        {
+          "term": "ສະຖານີລົດໄຟ",
+          "en": "railway station (ສະຖານີລົດໄຟ)"
+        },
+        {
+          "term": "ລົດຈັກ",
+          "en": "motorbike (ລົດຈັກ)"
+        },
+        {
+          "term": "ລົດຕິດ",
+          "en": "traffic jam (ລົດຕິດ)"
+        }
+      ],
+      "housing": [
+        {
+          "term": "ເຮືອນ",
+          "en": "house (ເຮືອນ)"
+        },
+        {
+          "term": "ຫ້ອງເຊົ່າ",
+          "en": "rented room (ຫ້ອງເຊົ່າ)"
+        },
+        {
+          "term": "ຄ່າເຊົ່າ",
+          "en": "rent (ຄ່າເຊົ່າ)"
+        },
+        {
+          "term": "ເຈົ້າຂອງເຮືອນ",
+          "en": "landlord (ເຈົ້າຂອງເຮືອນ)"
+        },
+        {
+          "term": "ປະຕູຮົ້ວ",
+          "en": "fence gate (ປະຕູຮົ້ວ)"
+        },
+        {
+          "term": "ຄ່າໄຟ",
+          "en": "electricity bill (ຄ່າໄຟ)"
+        },
+        {
+          "term": "ຄ່ານ້ຳ",
+          "en": "water bill (ຄ່ານ້ຳ)"
+        }
+      ],
+      "school": [
+        {
+          "term": "ໂຮງຮຽນ",
+          "en": "school (ໂຮງຮຽນ)"
+        },
+        {
+          "term": "ອະນຸບານ",
+          "en": "kindergarten (ອະນຸບານ)"
+        },
+        {
+          "term": "ຄູ",
+          "en": "teacher (ຄູ)"
+        },
+        {
+          "term": "ຮຽນພິເສດ",
+          "en": "extra paid lessons (ຮຽນພິເສດ)"
+        },
+        {
+          "term": "ສອບເສັງ",
+          "en": "exam (ສອບເສັງ)"
+        },
+        {
+          "term": "ມັດທະຍົມ",
+          "en": "secondary school (ມັດທະຍົມ)"
+        },
+        {
+          "term": "ມະຫາວິທະຍາໄລ",
+          "en": "university (ມະຫາວິທະຍາໄລ)"
+        }
+      ],
+      "money": [
+        {
+          "term": "ກີບ",
+          "en": "Lao kip (ກີບ)"
+        },
+        {
+          "term": "ພັນ",
+          "en": "thousand (ພັນ)"
+        },
+        {
+          "term": "ໝື່ນ",
+          "en": "ten thousand (ໝື່ນ)"
+        },
+        {
+          "term": "ແສນ",
+          "en": "hundred thousand (ແສນ)"
+        },
+        {
+          "term": "ລ້ານ",
+          "en": "million, common because kip amounts are large (ລ້ານ)"
+        },
+        {
+          "term": "ໂດລາ",
+          "en": "US dollar, used for rent and big purchases (ໂດລາ)"
+        }
+      ],
+      "time_words": [
+        {
+          "term": "ມື້ນີ້",
+          "en": "today (ມື້ນີ້)"
+        },
+        {
+          "term": "ມື້ອື່ນ",
+          "en": "tomorrow (ມື້ອື່ນ)"
+        },
+        {
+          "term": "ມື້ຮື",
+          "en": "day after tomorrow (ມື້ຮື)"
+        },
+        {
+          "term": "ມື້ວານ",
+          "en": "yesterday (ມື້ວານ)"
+        },
+        {
+          "term": "ຕອນແລງ",
+          "en": "evening (ຕອນແລງ)"
+        },
+        {
+          "term": "ບຸນປີໃໝ່",
+          "en": "Lao New Year in April (ບຸນປີໃໝ່)"
+        },
+        {
+          "term": "ວັນພັກ",
+          "en": "day off / holiday (ວັນພັກ)"
+        }
+      ],
+      "work": [
+        {
+          "term": "ວຽກ",
+          "en": "work / job (ວຽກ)"
+        },
+        {
+          "term": "ເງິນເດືອນ",
+          "en": "monthly salary (ເງິນເດືອນ)"
+        },
+        {
+          "term": "ຫົວໜ້າ",
+          "en": "boss / supervisor (ຫົວໜ້າ)"
+        },
+        {
+          "term": "ລາພັກ",
+          "en": "take leave (ລາພັກ)"
+        },
+        {
+          "term": "ຫ້ອງການ",
+          "en": "office (ຫ້ອງການ)"
+        },
+        {
+          "term": "ປະຊຸມ",
+          "en": "meeting (ປະຊຸມ)"
+        }
+      ]
+    }
+  },
+  "avoid": [
+    {
+      "word": "ครับ / ค่ะ",
+      "use_instead": "ເຈົ້າ",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "PromptPay",
+      "use_instead": "BCEL One QR",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "บัตรประชาชน",
+      "use_instead": "ບັດປະຈຳຕົວ",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "ทะเบียนบ้าน",
+      "use_instead": "ສຳມະໂນຄົວ",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "AIS / dtac",
+      "use_instead": "Unitel / LTC / ETL",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "Kerry Express",
+      "use_instead": "ອານຸສິດ / HAL",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "Grab",
+      "use_instead": "LOCA",
+      "where_it_is_from": "TH"
+    },
+    {
+      "word": "ไปรษณีย์ไทย",
+      "use_instead": "ໄປສະນີລາວ",
+      "where_it_is_from": "TH"
+    }
+  ],
+  "sources": [
+    "https://www.laosshop.co/help/shipping",
+    "https://loca.la/blog/locaandmmoneyxofficiallylaunch/",
+    "https://laotiantimes.com/2026/01/29/umoney-launches-new-brand-identity-positions-itself-as-a-digital-financial-companion/",
+    "https://lca.logcluster.org/lao-peoples-democratic-republic-34-telecommunications",
+    "https://kpl.gov.la/En/detail.aspx/detail.aspx?id=95130",
+    "https://www.bcel.com.la/",
+    "https://www.unitel.com.la/",
+    "https://www.laotel.com/",
+    "https://www.etllao.com/"
+  ],
+  "uncertain": [
+    "寮語沒有詞頻表，各詞（例如 ມື້ຮື、ຮຽນພິເສດ）未經語料庫或母語者核對。",
+    "泰銖與美元在寮國部分交易中也會用到，但官方幣是 kip；談金額要確認幣別。",
+    "外送 App 在寮國變動快，查不到哪個平台目前最常用，因此不列外送品牌。",
+    "LTC 錢包名稱已從 M-Money 改為 M moneyX，民眾口語可能仍說舊名。"
+  ]
+}

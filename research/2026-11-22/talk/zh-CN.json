@@ -1,0 +1,335 @@
+{
+  "lang": "zh-CN",
+  "backchannels": {
+    "direction": "Mainland talk treats 嗯 as a continuer; 对 and 是吗 show alignment. A clipped 哦 or 嗯哼 can sound distracted.",
+    "examples": [
+      {
+        "text": "嗯嗯。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "哦。",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "对。",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "是吗。",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "好的。",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "哦，知道了。",
+        "style": "casual",
+        "function": "dismissive"
+      },
+      {
+        "text": "嗯哼，我在聽。",
+        "style": "casual",
+        "function": "listening"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "真的吗 is the shared surprise; 真的假的 sounds Taiwan-leaning. Good news often gets a doubled 恭喜恭喜.",
+    "examples": [
+      {
+        "text": "真的吗？",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "啊？这么巧？",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "哎呀，那真是不容易。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "听着挺让人担心的。",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "太棒了！",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "恭喜恭喜。",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "这个恐怕有点为难。",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "听不清楚 and 信号不好 are the ordinary mobile complaints; 声音断断续续 points to a dropping signal.",
+    "examples": [
+      {
+        "text": "不好意思，我听不清楚。",
+        "style": "polite"
+      },
+      {
+        "text": "信号不太好，你声音断断续续的。",
+        "style": "casual"
+      },
+      {
+        "text": "最后一句我没听清。",
+        "style": "casual"
+      },
+      {
+        "text": "能再大一点声吗？",
+        "style": "polite"
+      },
+      {
+        "text": "电话里有杂音。",
+        "style": "casual"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "请再说一遍 is the form taught in Mainland phone primers; names are 怎么写, numbers 再报一遍.",
+    "examples": [
+      {
+        "text": "不好意思，请再说一遍。",
+        "style": "polite"
+      },
+      {
+        "text": "什么？我没听懂。",
+        "style": "casual"
+      },
+      {
+        "text": "名字怎么写，能说一下吗？",
+        "style": "polite"
+      },
+      {
+        "text": "号码能再报一遍吗？是 12345678 吗？",
+        "style": "polite"
+      },
+      {
+        "text": "你刚才说什么？",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "请问是哪位 and 您哪位 are both current; 您 is more usual than in Taiwan with an unknown caller.",
+    "examples": [
+      {
+        "text": "请问是哪位？",
+        "style": "polite"
+      },
+      {
+        "text": "您哪位？",
+        "style": "polite"
+      },
+      {
+        "text": "这里是 {owner} 的电话，请问您是？",
+        "style": "polite"
+      },
+      {
+        "text": "你是谁呀？",
+        "style": "casual"
+      },
+      {
+        "text": "请问怎么称呼？",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "A Mainland primer uses 你打错了; 您打错了 is more formal. The caller's list is not usually questioned.",
+    "examples": [
+      {
+        "text": "不好意思，您打错了。",
+        "style": "polite"
+      },
+      {
+        "text": "你打错了，这儿没有这个人。",
+        "style": "casual"
+      },
+      {
+        "text": "这个号码没有您要找的人。",
+        "style": "polite"
+      },
+      {
+        "text": "打错电话了。",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "我会转告 is the default verb; 转达 is a shade more formal. Do not fix a return-call time for {owner}.",
+    "examples": [
+      {
+        "text": "我会转告他。",
+        "style": "polite"
+      },
+      {
+        "text": "我跟她说一声。",
+        "style": "casual"
+      },
+      {
+        "text": "我会跟 {owner} 说。",
+        "style": "polite"
+      },
+      {
+        "text": "这事我帮你带到。",
+        "style": "casual"
+      },
+      {
+        "text": "我帮你转达一下。",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "不需要，谢谢 and 没兴趣 close a pitch quickly; a long justification tends to keep the caller talking.",
+    "examples": [
+      {
+        "text": "不需要，谢谢。",
+        "style": "polite"
+      },
+      {
+        "text": "我们没有这个需要，谢谢。",
+        "style": "polite"
+      },
+      {
+        "text": "没兴趣，谢谢。",
+        "style": "casual"
+      },
+      {
+        "text": "这个不用了。",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "Restate 不需要 and add 请不要再打过来; 从名单里删掉 appears when the same number keeps ringing.",
+    "examples": [
+      {
+        "text": "我已经说过不需要了，请不要再打过来。",
+        "style": "polite"
+      },
+      {
+        "text": "请把这个号码从名单里删掉。",
+        "style": "polite"
+      },
+      {
+        "text": "别再打了。",
+        "style": "casual"
+      },
+      {
+        "text": "这是最后一次拒绝，请不要再联系。",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "您 plus 先生 or 女士 is the polite pattern with strangers; 女士 is safer than 小姐 for adult women in formal talk.",
+    "examples": [
+      {
+        "text": "赵先生。",
+        "style": "polite"
+      },
+      {
+        "text": "吴女士。",
+        "style": "polite"
+      },
+      {
+        "text": "张老师。",
+        "style": "polite"
+      },
+      {
+        "text": "经理您好。",
+        "style": "polite"
+      },
+      {
+        "text": "阿姨您好。",
+        "style": "polite"
+      },
+      {
+        "text": "您方便说一下吗？",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "客服 lines such as 您的来电对我们非常重要 or 请问有什么可以帮您 do not belong on a private Mainland mobile.",
+    "examples": [
+      {
+        "text": "您的来电对我们非常重要。",
+        "style": "polite"
+      },
+      {
+        "text": "很高兴为您服务。",
+        "style": "polite"
+      },
+      {
+        "text": "请问有什么可以帮您？",
+        "style": "polite"
+      },
+      {
+        "text": "感谢您的来电，祝您生活愉快。",
+        "style": "polite"
+      },
+      {
+        "text": "我这边会尽快为您处理。",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "A barked 喂！你谁啊, asking 结婚了吗 or income at once, or saying a recording already started, all feel aggressive.",
+    "examples": [
+      {
+        "text": "结婚了吗？一个月拿多少钱？",
+        "style": "casual"
+      },
+      {
+        "text": "喂！你谁啊？",
+        "style": "casual"
+      },
+      {
+        "text": "先把身份证号报给我。",
+        "style": "polite"
+      },
+      {
+        "text": "我已经在录音了，你自己注意。",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://language.chinadaily.com.cn/a/202311/14/WS655334dba31090682a5ee1b3.html",
+    "https://en.wikivoyage.org/wiki/Chinese_phrasebook",
+    "https://doi.org/10.1016/0378-2166(95)00036-4",
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/%E5%97%A8",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested"
+  ],
+  "uncertain": [
+    "本檔例句用簡化字，反映中國大陸口語；「您」在禮貌場合比台灣更常見，但親友仍多用「你」。",
+    "正式場合稱成年女性時，書面與部分媒體更推「女士」而非「小姐」；電話口語仍有人用「小姐」，界線因地因人而異。",
+    "中國大陸各地口音與語氣詞（啊／哦／嗯）差異大，這裡只寫通用普通話，不涵蓋方言。粵語等不作為 AI 要講的語言。"
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "region": "am",
+  "countries": [
+    "am"
+  ],
+  "region_name_zh": "亞美尼亞",
+  "region_name": "Armenia",
+  "languages": [
+    {
+      "code": "hy",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary (widely understood)"
+    }
+  ],
+  "ai_language_tip": "Start in Eastern Armenian (hy); Russian is widely understood and an easy fallback; English is common among younger staff in central Yerevan, weaker elsewhere.",
+  "english_ok": "sometimes — Good in central Yerevan restaurants, hotels and tech-facing services; limited in clinics, garages and regions.",
+  "politeness": "Warm and personal; formal 'Դուք'; open with 'Բարև Ձեզ'; address as 'պարոն …' / 'տիկին …'; close with 'Շնորհակալություն, ցտեսություն'.",
+  "name_tip": "Bookings usually under first name, or surname (most end in -յան / -yan, not gendered); Latin spellings vary, so spell slowly.",
+  "phone_tip": "National numbers 8 digits after 0: mobile 0XX XX XX XX (e.g. 091 12345678, 077, 093, 094, 095, 096, 098, 099, 041, 043, 055), Yerevan landline 010; international +374; WhatsApp, Viber and Telegram common.",
+  "time_tip": "Spoken 'ութն անց կես' = 8:30 (half past eight, no German trap); written 24h ('19:30'); read back in 24h.",
+  "number_tip": "Mobile numbers are read 3-2-2-2 ('իննսունմեկ, քսաներեք…'); Russian numerals also heard.",
+  "avoid_calling": "Avoid restaurant peaks and calls after 21:00; Sundays for offices; 31 Dec–7 Jan holidays slow everything.",
+  "closed_days": "Shops and restaurants open daily; offices closed weekends; holidays include 31 Dec–2 Jan, 6 January (Christmas), 28 January, 8 March, 24 April (remembrance day), 1 May, 9 May, 28 May, 5 July, 21 September, 31 December.",
+  "booking_channels": "Rez, Reserve.am and RezUTa for restaurant tables; Doctor Yan for doctor appointments; Yandex Eats (via Yandex Go), Glovo-type apps for delivery; phone, WhatsApp, Viber and Instagram widely used by small businesses.",
+  "voice_menu": "Telecom operators (Team, Viva, Ucom), banks and utilities use IVR; small businesses answer directly.",
+  "callback_habits": "Restaurants and salons confirm by call or messenger; platforms send SMS.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "葉里溫餐廳電話、Instagram 私訊或 Rez、Reserve.am、RezUTa 線上訂位皆常見；夏季露台與週末晚上需早訂，宴席常要預先點菜單。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Banquet menu set in advance with a per-head price"
+        },
+        {
+          "handle": "ai_can_answer",
+          "what": "Instant confirmation through Rez"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for a deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time of the table",
+        "Number of guests",
+        "Terrace, hall or separate room",
+        "Name and mobile or WhatsApp/Viber"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "私人醫療中心與牙醫電話或 Doctor Yan App 預約普遍；國家補助醫療需在多科診所（պոլիկլինիկա）登記家庭醫師，自費價格常在電話中報。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Doctor Yan for open slots"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "State-covered only with family-doctor referral"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or social card number"
+        }
+      ],
+      "usually_asked": [
+        "Doctor or specialty",
+        "Patient name and age",
+        "Paid or state-covered through the polyclinic",
+        "First visit or follow-up",
+        "Mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲多以 Instagram、電話或 Rez 預約，熱門師傅週末難約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for bridal styling"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service and hair length",
+        "Preferred master",
+        "Day and time",
+        "Name and mobile"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車（ավտոսերվիս）與家電維修電話先約，多數小型車廠也接直接上門。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Parts ordered from abroad take extra days"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Car make, model and year or appliance",
+        "What is wrong",
+        "When it can be brought in",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂外帶常見，外送多經 Yandex Eats（Yandex Go）或 Glovo 類 App，店家會問大樓入口與樓層。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Delivery through Yandex Eats only"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and portions",
+        "Pickup or delivery time",
+        "Building entrance and floor for delivery",
+        "Name and phone"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "蛋糕與甜點（如 gata）店多以 Instagram 或電話接訂，需先付訂金；花店可電話留花。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment required for custom cakes"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and size or weight",
+        "Pickup day",
+        "Name and phone",
+        "Prepayment by card or bank transfer"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多打電話或發 WhatsApp／Viber 訊息；Rez 預約可在 App 內修改。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Banquet deposit not refunded if cancelled late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original day and time",
+        "Name on the booking",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "打電話問價格與營業時間很普遍，也常被引導到 Instagram 頁面看價目。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Price list on Instagram"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "The exact question",
+        "Which day",
+        "Quantity or number of people"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "葉里溫飯店與民宿（B&B、guest house）電話或 Email 訂房；Dilijan、Jermuk 等度假地夏季週末需早訂。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cash discount in guest houses"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Arrival and departure dates",
+        "Number of guests",
+        "Room type",
+        "Guest names as in passports and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "酒莊品酒、修道院一日遊與 Tatev 纜車行程可電話或訊息訂，旅行社常包車接送。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Hotel pickup included or not"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date",
+        "Number of people",
+        "Tour or winery",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多電話叫或在 list.am 找師傅；會問大樓、樓層與電梯。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Visit fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Address, building and entrance",
+        "Floor and lift",
+        "Job",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "葉里溫寵物醫院與美容電話預約，其他地區選擇少。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Home visit by vet"
+        }
+      ],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet kind, breed, weight",
+        "Vaccination, grooming or illness",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "HayPost 與快遞查件以官網追蹤為主，國際包裹常需到郵局領取並出示證件。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to online tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Tracking number",
+        "Recipient name",
+        "Post office or address",
+        "Phone"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信（Team、Viva、Ucom）與銀行客服需本人核身。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only the holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or card data"
+        }
+      ],
+      "usually_asked": [
+        "Account or SIM holder",
+        "Problem",
+        "Contract number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "葉里溫叫車多用 Yandex Go、gg 等 App，也有電話叫車；城際包車（如去 Sevan、Dilijan）可電話約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Fixed price for an intercity day trip"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers and luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 list.am 刊登，直接打給屋主或仲介約看，常收一個月押金。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Deposit and agent fee"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport"
+        }
+      ],
+      "usually_asked": [
+        "Which list.am listing",
+        "Viewing time",
+        "Who will live there",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "證件、登記多需親臨或經 e-gov 入口辦理，電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport or social card number"
+        }
+      ],
+      "usually_asked": [
+        "Which service",
+        "Who it is for",
+        "Application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "hy": {
+      "appointment_words": [
+        "գրանցվել բժշկի մոտ",
+        "հերթագրում",
+        "վարսավիրի մոտ գրանցվել",
+        "խորհրդատվություն"
+      ],
+      "booking_words": [
+        "սեղան ամրագրել",
+        "ամրագրում",
+        "համար ամրագրել",
+        "սեղան 4 հոգու համար"
+      ],
+      "change_words": [
+        "տեղափոխել այցը",
+        "չեղարկել ամրագրումը",
+        "կես ժամ ուշ",
+        "ուրբաթ տեղափոխել"
+      ],
+      "date": [
+        "վաղը",
+        "վաղը չէ մյուս օրը",
+        "այս ուրբաթ",
+        "հաջորդ երեքշաբթի",
+        "25.11",
+        "նոյեմբերի 25"
+      ],
+      "false_friends": [
+        "3-րդ հարկ",
+        "բնակարան 45",
+        "մերսում 60 րոպե",
+        "8 համարի ավտոբուս"
+      ],
+      "inquiry_words": [
+        "ինչ արժե",
+        "ունե՞ք",
+        "մինչև ժամը քանիսն եք աշխատում",
+        "քարտով կարելի՞ է"
+      ],
+      "name": [
+        "Արամի անունով",
+        "Անի անունով",
+        "Պետրոսյան",
+        "պարոն Հակոբյան"
+      ],
+      "order_words": [
+        "տանելու համար",
+        "պատվեր",
+        "առաքում",
+        "նախնական պատվեր"
+      ],
+      "party": [
+        "4 հոգու համար",
+        "երեք հոգի ենք",
+        "երկու հոգի",
+        "2 մեծ 1 երեխա"
+      ],
+      "phone": [
+        "091 12345678",
+        "+374 91 12345678",
+        "12345678"
+      ],
+      "time": [
+        "ժամը 19:30",
+        "յոթն անց կես",
+        "երեկոյան ժամը յոթին",
+        "ժամը 12-ին"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться к врачу",
+        "на маникюр",
+        "на консультацию"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "номер на двоих"
+      ],
+      "change_words": [
+        "перенести",
+        "отменить бронь",
+        "на полчаса позже"
+      ],
+      "date": [
+        "завтра",
+        "в пятницу",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "кв. 45",
+        "массаж 60 мин"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть в наличии?",
+        "до скольки работаете"
+      ],
+      "name": [
+        "на имя Арам",
+        "на имя Ани",
+        "Петросян"
+      ],
+      "order_words": [
+        "с собой",
+        "доставка",
+        "предзаказ"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих"
+      ],
+      "phone": [
+        "091 12345678",
+        "+374 77 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "к семи вечера"
+      ]
+    }
+  }
+}

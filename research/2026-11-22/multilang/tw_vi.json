@@ -1,0 +1,90 @@
+{
+  "region": "tw",
+  "lang": "vi",
+  "hello": {
+    "hello": "A-lô?",
+    "hello_again": "A-lô, vâng?"
+  },
+  "habits": {
+    "en": "Vietnamese with compatriots; mix 健保, 仲介, 阿嬤 or bà, 機台; polite anh/chị; workers often northern, spouses often southern.",
+    "zh": "同鄉講越南語，常夾健保、仲介、阿嬤或 bà；移工多北部音，配偶多南部音。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "With Vietnamese friends in Taiwan, keep casual anh/em talk; reply brightly, then add rồi or được rồi, and change the wording.",
+        "zh": "跟在台同鄉用輕鬆 anh／em，先開朗接話再補 rồi 或 được rồi，不要套同一句。"
+      },
+      "2": {
+        "en": "If they use anh, chị or bác, follow that kinship term; unhurried, and after they explain add a kind tốt, rephrased each time.",
+        "zh": "對方用 anh、chị 或 bác 就跟著稱，不催促；聽完補一句 tốt，並換著說。"
+      },
+      "3": {
+        "en": "Daily Vietnamese in Taiwan should be complete: pick up each point with tôi hiểu or tôi đã ghi, including mixed terms like 機台.",
+        "zh": "在台日常越南語要講完整：用 tôi hiểu、tôi đã ghi 接住重點，包含機台等夾用詞。"
+      },
+      "4": {
+        "en": "With 仲介, clinics or a new employer, keep anh/chị and careful full lines; show you understood first, e.g. tôi đã rõ.",
+        "zh": "對仲介、診所或新雇主用 anh／chị，句子穩，先說 tôi đã rõ 再談安排。"
+      },
+      "5": {
+        "en": "On 健保, residence or labour issues, stay precise; close each item with tôi đã ghi nhận, slightly rephrased, no slang.",
+        "zh": "談健保、居留或勞動事宜要準、少口語；各點用 tôi đã ghi nhận 一類收束並換說法。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "A bright pickup for {owner} in casual Vietnamese: short warm lines, then tôi sẽ chuyển, wording changed each time.",
+        "zh": "代{owner}接的輕快越南語：先熱絡短句，再說會 tôi sẽ chuyển，用詞常換。"
+      },
+      "2": {
+        "en": "Mirror anh/chị; thank them gently, write the note for {owner}, and close with tôi ghi lại or another kind line.",
+        "zh": "跟著用 anh／chị，先溫和致謝，再記下要給{owner}的話，用 tôi ghi lại 一類收尾。"
+      },
+      "3": {
+        "en": "Handle it like a steady coworker: answer the point in one full sentence, then confirm you will tell {owner}; skip bare ừ.",
+        "zh": "像穩當的同事：先用完整句子回應來意，再確認會告訴{owner}，不要只回 ừ。"
+      },
+      "4": {
+        "en": "A careful voice for {owner} with agencies: polite anh/chị and complete lines; restate the request, then tôi sẽ chuyển lại.",
+        "zh": "代{owner}對仲介：用禮貌 anh／chị 與完整句子覆述來意，再說 tôi sẽ chuyển lại。"
+      },
+      "5": {
+        "en": "For hospital or labour calls, keep titles and local terms (健保, 居留) exact; confirm the relay to {owner} is đã ghi nhận.",
+        "zh": "對醫院或勞動正式來電，健保、居留等詞要準，確認已記下並轉給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "A-lô! Khỏe không? Cứ nói, hôm nay 阿嬤 sao rồi?",
+      "A-lô, vâng! Tôi đang nghe, được rồi.",
+      "A-lô, xin chào. Việc 健保 gì ạ? Tôi đã ghi lại.",
+      "Xin chào, cảm ơn đã gọi. Tôi đã rõ, tôi sẽ lo.",
+      "Xin chào, cảm ơn cuộc gọi. Tôi đã ghi nhận, xin cảm ơn."
+    ],
+    "a": [
+      "A-lô! Hiện đang bận; cứ nói, tôi sẽ chuyển!",
+      "A-lô! Tôi nhận máy, bạn cứ nhắn lại giúp.",
+      "A-lô, xin chào. Tôi ghi lời nhắn rồi chuyển giúp.",
+      "Xin chào, cảm ơn đã gọi. Tôi ghi lại để chuyển tiếp.",
+      "Xin chào, cảm ơn cuộc gọi. Tôi ghi đủ và chuyển lại."
+    ]
+  },
+  "diff_from_home": [
+    "常把台灣制度與親屬詞嵌入越南語，如健保、仲介、阿嬤，工廠場景也會夾「機台」等中文詞。",
+    "移工多來自北部、配偶多來自南部，口音與用詞不同，不宜當成單一「越南話」。",
+    "官方溝通可走勞動部、1955 與仲介；健保署亦有越南語加保說明，電話裡常提到居留與健保手續。",
+    "對長輩與陌生人以 anh／chị 等親屬稱謂定輩分，電話裡也常先用對的稱呼再談事情。"
+  ],
+  "sources": [
+    "https://fw.wda.gov.tw/",
+    "https://www.cna.com.tw/news/aopl/202406303002.aspx",
+    "https://www.mohw.gov.tw/cp-16-58348-1.html",
+    "https://www.mol.gov.tw/"
+  ],
+  "uncertain": [
+    "中越混碼詞除「機台」「健保」等職場與制度例子外，完整借詞表缺乏公開的大規模語料。",
+    "配偶與移工在電話敬語上的差異，多見報導與仲介說明，量化調查有限。"
+  ]
+}

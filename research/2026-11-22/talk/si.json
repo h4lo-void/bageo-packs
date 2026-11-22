@@ -1,0 +1,264 @@
+{
+  "lang": "si",
+  "backchannels": {
+    "direction": "ඔව් and හා show listening; හරි agrees; repeated හරි හරි can sound like cutting short.",
+    "examples": [
+      {
+        "text": "ඔව්.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "හා.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "හරි.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "ඔව් ඇත්ත.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "හරි හරි.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "ඇත්තද? for surprise; අනේ for pity or dismay; හරිම සතුටුයි for good news.",
+    "examples": [
+      {
+        "text": "ඇත්තද?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "අම්මෝ!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "අනේ, කනගාටුයි.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "හරිම සතුටුයි!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "ටිකක් අමාරුයි.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say the voice isn't clear (හරියට ඇහෙන්නේ නෑ) or the signal is poor; request සද්දෙන් speech.",
+    "examples": [
+      {
+        "text": "හරියට ඇහෙන්නේ නෑ.",
+        "style": "polite"
+      },
+      {
+        "text": "සිග්නල් අඩුයි.",
+        "style": "casual"
+      },
+      {
+        "text": "කටහඬ කැඩෙනවා.",
+        "style": "polite"
+      },
+      {
+        "text": "ටිකක් සද්දෙන් කතා කරන්න පුළුවන්ද?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "මොකක්ද? or ආයෙත් කියන්න asks for a replay; for numbers read them back to confirm.",
+    "examples": [
+      {
+        "text": "සමාවෙන්න, මොකක්ද කිව්වේ?",
+        "style": "polite"
+      },
+      {
+        "text": "ආයෙත් කියන්න පුළුවන්ද?",
+        "style": "polite"
+      },
+      {
+        "text": "නම අකුරෙන් කියන්න.",
+        "style": "polite"
+      },
+      {
+        "text": "අංකය 12345678 නේද?",
+        "style": "polite"
+      },
+      {
+        "text": "මොකක්?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "කවුද කතා කරන්නේ? with a softener; you may add this is {owner}'s line.",
+    "examples": [
+      {
+        "text": "කවුද කතා කරන්නේ කියලා දැනගන්න පුළුවන්ද?",
+        "style": "polite"
+      },
+      {
+        "text": "කොහෙන්ද කතා කරන්නේ?",
+        "style": "polite"
+      },
+      {
+        "text": "මේ {owner}ගේ නම්බර් එක, කවුද?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "State වැරදි අංකයක් and that no such person lives here.",
+    "examples": [
+      {
+        "text": "සමාවෙන්න, වැරදි අංකයක්.",
+        "style": "polite"
+      },
+      {
+        "text": "මෙහෙ ඒ නමින් කෙනෙක් නෑ.",
+        "style": "polite"
+      },
+      {
+        "text": "රෝන්ග් නම්බර්.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "කියන්නම් says you'll tell {owner}; avoid committing to a time.",
+    "examples": [
+      {
+        "text": "{owner}ට පණිවිඩය කියන්නම්.",
+        "style": "polite"
+      },
+      {
+        "text": "මම කියන්නම්.",
+        "style": "casual"
+      },
+      {
+        "text": "පණිවිඩය දෙන්නම්.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "ස්තූතියි first, then අවශ්‍ය නෑ; keep a mild, unhurried voice.",
+    "examples": [
+      {
+        "text": "ස්තූතියි, අපිට අවශ්‍ය නෑ.",
+        "style": "polite"
+      },
+      {
+        "text": "කැමැත්තක් නෑ, ස්තූතියි.",
+        "style": "polite"
+      },
+      {
+        "text": "එපා, තෑන්ක්ස්.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, say you already declined and ask not to call this number again.",
+    "examples": [
+      {
+        "text": "මම කලින්ම කිව්වා අවශ්‍ය නෑ කියලා.",
+        "style": "polite"
+      },
+      {
+        "text": "කරුණාකරලා මේ අංකයට ආයෙත් කතා කරන්න එපා.",
+        "style": "polite"
+      },
+      {
+        "text": "මේ අංකය ලැයිස්තුවෙන් අයින් කරන්න.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "මහත්තයා / නෝනා for strangers; අයියා, අක්කා, අන්කල්, ආන්ටි for warmth; avoid තෝ.",
+    "examples": [
+      {
+        "text": "මහත්තයා",
+        "style": "polite"
+      },
+      {
+        "text": "නෝනා",
+        "style": "polite"
+      },
+      {
+        "text": "අයියා",
+        "style": "casual"
+      },
+      {
+        "text": "අක්කා",
+        "style": "casual"
+      },
+      {
+        "text": "සර්",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like ඔබගේ ඇමතුම අපට වැදගත් sound like a mobile-operator recording.",
+    "examples": [
+      {
+        "text": "ඔබගේ ඇමතුම අපට වැදගත්.",
+        "style": "polite"
+      },
+      {
+        "text": "පාරිභෝගික සේවාව අමතා ඇති ඔබට ස්තූතියි.",
+        "style": "polite"
+      },
+      {
+        "text": "මට ඔබට උදව් කළ හැක්කේ කෙසේද?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using තෝ/උඹ with strangers, or asking caste, pay or wedding plans early, is offensive.",
+    "examples": [
+      {
+        "text": "උඹ කවුද?",
+        "style": "casual"
+      },
+      {
+        "text": "මොන කුලයද?",
+        "style": "casual"
+      },
+      {
+        "text": "පඩිය කීයද?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/%E0%B6%86%E0%B6%BA%E0%B7%94%E0%B6%B6%E0%B7%9D%E0%B7%80%E0%B6%B1%E0%B7%8A",
+    "https://en.wikipedia.org/wiki/Sinhala_language",
+    "https://en.wikipedia.org/wiki/Sinhalese_language"
+  ],
+  "uncertain": [
+    "Spoken vs literary Sinhala differ; examples use spoken forms",
+    "Backchannel set (ඔව්, හා, හරි, අනේ) from usage descriptions, no call corpus",
+    "Choice of pronoun for 'you' (ඔබ formal, ඔයා casual, mahattaya) is delicate; mahattaya/nona used as safe default"
+  ]
+}

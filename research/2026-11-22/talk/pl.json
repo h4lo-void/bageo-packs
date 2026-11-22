@@ -1,0 +1,335 @@
+{
+  "lang": "pl",
+  "backchannels": {
+    "direction": "Liesenfeld's Polish tokens are mhm, tak and aha; no often marks noticing. Stacked tak, tak can sound rushed.",
+    "examples": [
+      {
+        "text": "Mhm, tak.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Tak.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "aha",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "No.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Właśnie.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Dobrze.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Tak, tak.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Serio? and Naprawdę? take surprise; Szkoda is everyday sympathy, shorter than Bardzo mi przykro.",
+    "examples": [
+      {
+        "text": "Serio?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Naprawdę?",
+        "style": "polite",
+        "function": "surprise"
+      },
+      {
+        "text": "Szkoda.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Bardzo mi przykro.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Świetnie!",
+        "style": "casual",
+        "function": "joy"
+      },
+      {
+        "text": "Gratulacje.",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "To będzie trudne.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Źle pana or panią słyszę is the careful complaint; Słaba łączność names a poor mobile link.",
+    "examples": [
+      {
+        "text": "Źle pana słyszę.",
+        "style": "polite"
+      },
+      {
+        "text": "Źle panią słyszę.",
+        "style": "polite"
+      },
+      {
+        "text": "Słaba łączność.",
+        "style": "casual"
+      },
+      {
+        "text": "Może pan mówić trochę głośniej?",
+        "style": "polite"
+      },
+      {
+        "text": "Nie dosłyszałem końca.",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Czy może pan powtórzyć, proszę is the careful replay; przeliterować covers a name, and a number is said still once more.",
+    "examples": [
+      {
+        "text": "Czy może pan powtórzyć, proszę?",
+        "style": "polite"
+      },
+      {
+        "text": "Co? Nie zrozumiałem.",
+        "style": "casual"
+      },
+      {
+        "text": "Czy może pan przeliterować nazwisko?",
+        "style": "polite"
+      },
+      {
+        "text": "Proszę powtórzyć numer. Czy to 12345678?",
+        "style": "polite"
+      },
+      {
+        "text": "Co pan powiedział?",
+        "style": "polite"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "Kto mówi, proszę and Z kim rozmawiam are the usual probes; Może się pan przedstawić is stiffer. Name {owner}'s phone.",
+    "examples": [
+      {
+        "text": "Kto mówi, proszę?",
+        "style": "polite"
+      },
+      {
+        "text": "Z kim rozmawiam?",
+        "style": "polite"
+      },
+      {
+        "text": "To telefon {owner}. Kto dzwoni?",
+        "style": "polite"
+      },
+      {
+        "text": "Kto to?",
+        "style": "casual"
+      },
+      {
+        "text": "Może się pan przedstawić?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Pomyłka and Źle się pan połączył close the matter; Nie ma tu nikogo o tym nazwisku covers a mismatched name.",
+    "examples": [
+      {
+        "text": "Przepraszam, pomyłka.",
+        "style": "polite"
+      },
+      {
+        "text": "Źle się pan połączył.",
+        "style": "polite"
+      },
+      {
+        "text": "Nie ma tu nikogo o tym nazwisku.",
+        "style": "polite"
+      },
+      {
+        "text": "Zły numer.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Przekażę and Przekażę wiadomość {owner} pass the news along; they do not, alone, set an hour to ring back.",
+    "examples": [
+      {
+        "text": "Przekażę.",
+        "style": "polite"
+      },
+      {
+        "text": "Przekażę {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Powiem mu.",
+        "style": "casual"
+      },
+      {
+        "text": "Przekażę wiadomość.",
+        "style": "polite"
+      },
+      {
+        "text": "Powiem jej.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Nie, dziękuję, nie jestem zainteresowany or zainteresowana follows gender; Nie potrzebujemy tego is briefer.",
+    "examples": [
+      {
+        "text": "Nie, dziękuję, nie jestem zainteresowany.",
+        "style": "polite"
+      },
+      {
+        "text": "Nie, dziękuję, nie jestem zainteresowana.",
+        "style": "polite"
+      },
+      {
+        "text": "Nie potrzebujemy tego, dziękuję.",
+        "style": "polite"
+      },
+      {
+        "text": "Nie, to nie dla nas.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "After a first odmowa, Polish often adds Proszę więcej nie dzwonić pod ten numer, still with pan or pani.",
+    "examples": [
+      {
+        "text": "Już odmówiłem. Proszę więcej nie dzwonić pod ten numer.",
+        "style": "polite"
+      },
+      {
+        "text": "Proszę usunąć ten numer z państwa listy.",
+        "style": "polite"
+      },
+      {
+        "text": "Proszę już nie dzwonić.",
+        "style": "casual"
+      },
+      {
+        "text": "To ostateczna odmowa. Proszę się więcej nie kontaktować.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "pan or pani plus the surname, with third-person verbs, is still the default with strangers; ty waits for familiars.",
+    "examples": [
+      {
+        "text": "Panie Kowalski.",
+        "style": "polite"
+      },
+      {
+        "text": "Pani Nowak.",
+        "style": "polite"
+      },
+      {
+        "text": "Panie doktorze.",
+        "style": "polite"
+      },
+      {
+        "text": "Dzień dobry, pani.",
+        "style": "polite"
+      },
+      {
+        "text": "Cześć, Ania.",
+        "style": "casual"
+      },
+      {
+        "text": "Czy pan może…",
+        "style": "polite"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Pana rozmowa jest dla nas ważna and W czym mogę pomóc are centre scripts, odd on a private komórka.",
+    "examples": [
+      {
+        "text": "Pana rozmowa jest dla nas ważna.",
+        "style": "polite"
+      },
+      {
+        "text": "W czym mogę pomóc?",
+        "style": "polite"
+      },
+      {
+        "text": "Dziękujemy za telefon, jesteśmy do państwa dyspozycji.",
+        "style": "polite"
+      },
+      {
+        "text": "Państwa zadowolenie jest naszym priorytetem.",
+        "style": "polite"
+      },
+      {
+        "text": "Czy mogę jeszcze w czymś pomóc?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Switching to ty too soon, a late call, or asking for a PESEL at the start all feel like overstepping.",
+    "examples": [
+      {
+        "text": "Jesteś żonaty? Ile zarabiasz?",
+        "style": "casual"
+      },
+      {
+        "text": "Kim ty jesteś? Mów szybciej.",
+        "style": "casual"
+      },
+      {
+        "text": "Najpierw proszę podać adres i numer PESEL.",
+        "style": "polite"
+      },
+      {
+        "text": "Już nagrywam tę rozmowę.",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://www.isca-archive.org/interspeech_2022/liesenfeld22_interspeech.pdf",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction",
+    "https://en.wiktionary.org/wiki/wrong_number",
+    "https://en.wiktionary.org/wiki/I%27m_not_interested",
+    "https://en.wiktionary.org/wiki/I_don%27t_understand",
+    "https://en.wiktionary.org/wiki/uh-huh",
+    "https://en.wiktionary.org/wiki/aha"
+  ],
+  "uncertain": [
+    "pan／pani 搭配第三人稱動詞，對陌生人仍是常態；年輕人對同齡有時用 ty，代接時若不知關係，較穩妥用 pan／pani。",
+    "Wiktionary 以 pomyłka 對譯 wrong number，口語也常說 pomyłka numeru 或 źle się pan połączył，實際哪一種最多未量化。",
+    "zainteresowany／zainteresowana 有陰陽性，拒絕推銷時「Nie, dziękuję, nie jestem zainteresowany／a」需依說話者性別選擇。"
+  ]
+}

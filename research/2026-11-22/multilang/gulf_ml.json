@@ -1,0 +1,89 @@
+{
+  "region": "gulf",
+  "lang": "ml",
+  "hello": {
+    "hello": "ഹലോ?",
+    "hello_again": "അതെ, പറയൂ."
+  },
+  "habits": {
+    "en": "Gulf Malayalam mixes English and Arabic work words: iqama, visa, leave, camp, family status. Polite with strangers.",
+    "zh": "海灣馬拉雅拉姆語常夾 iqama、visa、leave、camp。對生人偏客氣，不把工作詞硬譯回喀拉拉說法。"
+  },
+  "talk_style": {
+    "persona": {
+      "1": {
+        "en": "Keralite friend: relaxed, teasing; visa or camp sit in the Malayalam sentence like ordinary nouns.",
+        "zh": "喀拉拉熟友語氣輕鬆、愛調侃；visa、camp 像普通名詞一樣進馬拉雅拉姆語句。"
+      },
+      "2": {
+        "en": "Easygoing community tone: polite if they are older; after they speak, a short ശരി, ID terms left in English or Arabic.",
+        "zh": "社群隨和口氣：對年長仍客氣；聽完短短說 ശരി，證件詞維持英文或阿拉伯語。"
+      },
+      "3": {
+        "en": "Everyday Gulf Malayalam. Finish the point fully; leave and family status stay as work English, not fully Malayalamised.",
+        "zh": "海灣日常馬拉雅拉姆語。把重點說完整；leave、family status 維持職場英語，不必全譯成喀拉拉用語。"
+      },
+      "4": {
+        "en": "Polite address with offices. Keep iqama or Emirates ID, sentences fuller, less dialect slang.",
+        "zh": "對機關較客氣。iqama、Emirates ID 照留，句子較完整，少用很土的方言俚語。"
+      },
+      "5": {
+        "en": "Formal and careful. Quote dirham and visa exactly, close each item in a complete line.",
+        "zh": "正式謹慎。dirham 與 visa 要說準，各項用完整句子收住。"
+      }
+    },
+    "assistant": {
+      "1": {
+        "en": "{owner}'s informal pickup: warm Kerala-style brevity, then you'll pass the message, work words left as said.",
+        "zh": "{owner}隨興代接：帶喀拉拉式的熱絡短句，再把話帶去，工作詞照對方的叫法。"
+      },
+      "2": {
+        "en": "Kind stand-in: stay polite, leave camp or iqama untouched, and tell them {owner} will hear it.",
+        "zh": "客氣代接：保持禮貌，camp、iqama 不改寫，並說會讓{owner}知道。"
+      },
+      "3": {
+        "en": "Community assistant. Recap the visa or leave point in full Malayalam, then confirm you will tell {owner}.",
+        "zh": "社群代接。先用完整馬拉雅拉姆語重述 visa 或 leave 的事，再確認會告訴{owner}。"
+      },
+      "4": {
+        "en": "Composed secretary: note the purpose, keep Gulf official words, confirm the handover politely.",
+        "zh": "沉穩秘書：記下目的，海灣官方用詞照留，再客氣確認轉交。"
+      },
+      "5": {
+        "en": "Formal deputy: exact about iqama and dirham, then confirm the note for {owner}.",
+        "zh": "正式代表：把 iqama 與 dirham 說準，再確認已記下給{owner}。"
+      }
+    }
+  },
+  "bubble_lines": {
+    "p": [
+      "ഹലോ! എന്തുണ്ട്? പറയ്, എന്താ കാര്യം?",
+      "ഹലോ, അതെ. ഞാൻ കേൾക്കുന്നു, പറയൂ.",
+      "ഹലോ, നമസ്കാരം. iqama കാര്യമാണോ? മനസ്സിലായി.",
+      "നമസ്കാരം, വിളിച്ചതിന് നന്ദി. visa കാര്യം വ്യക്തമാണ്.",
+      "നമസ്കാരം, നന്ദി. dirham കാര്യം ഞാൻ ശ്രദ്ധിച്ചു."
+    ],
+    "a": [
+      "ഹലോ! അവർ ഇല്ല, എന്നോട് പറയൂ, ഞാൻ പറയാം.",
+      "ഹലോ, അതെ. ഞാൻ അവരുടെ ഫോൺ എടുക്കുന്നു, പറയൂ.",
+      "ഹലോ, നമസ്കാരം. {owner}നോട് ഞാൻ പറയാം.",
+      "നമസ്കാരം, വിളിച്ചതിന് നന്ദി. സന്ദേശം ഞാൻ എത്തിക്കാം.",
+      "നമസ്കാരം, നന്ദി. എല്ലാം എഴുതി അവരോട് പറയാം."
+    ]
+  },
+  "diff_from_home": [
+    "海灣馬拉雅拉姆語大量夾用英語與阿拉伯語工作詞（iqama、visa、leave、camp、family status），與喀拉拉本邦日常用語不同。",
+    "喀拉拉僑民在阿聯酋、卡達、沙烏地、科威特人數很多，同鄉電話裡常保留家鄉口語，但證件名不翻譯。",
+    "對生人與機關偏客氣；熟友才用更隨便的稱呼。",
+    "對方改講英語的情況很常見，尤其在公司線上，跟著切換即可。"
+  ],
+  "sources": [
+    "https://doi.org/10.7302/4562",
+    "https://u.ae/en/information-and-services/visa-and-emirates-id/emirates-id",
+    "https://www.gov.uk/guidance/living-in-the-united-arab-emirates"
+  ],
+  "uncertain": [
+    "「Gulf Malayalam」作為接觸變體的研究多於詞彙層，電話開場的固定習慣缺少專門調查。",
+    "不同海灣國家喀拉拉社群的英語切換比例可能不同，不宜寫成單一模式。"
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "region": "ao-mz-gw-cv-st",
+  "countries": [
+    "ao",
+    "mz",
+    "gw",
+    "cv",
+    "st"
+  ],
+  "region_name_zh": "非洲葡語國家",
+  "region_name": "Lusophone Africa",
+  "languages": [
+    {
+      "code": "pt",
+      "use": "main"
+    }
+  ],
+  "ai_language_tip": "用歐洲葡語詞（telemóvel、marcação），不要套巴西的 'você' 或 'celular'；安哥拉、莫三比克口音與用詞和里斯本不同，對方改用克里奧爾語時不要硬轉，改回葡語或請店家改用葡語。",
+  "english_ok": "sometimes — 維德角薩爾、博阿維斯塔與馬普托、羅安達旅館較常聽懂英語；內陸市鎮與幾內亞比索、聖多美多數店家仍以葡語為主。",
+  "politeness": "開場用 Bom dia / Boa tarde 加 o senhor / a senhora；莫三比克與安哥拉也常用 irmão、chefe 作客氣稱呼，但代訂時仍用第三人稱。結尾 muito obrigado(a)。",
+  "name_tip": "報名用一個名加一個姓即可（如 Manuel Costa、Amina dos Santos）；葡語複合姓較長時，先報訂位時用的那個姓再逐字拼。",
+  "phone_tip": "安哥拉全國 9 位、市話以 2 開頭、手機多為 9 開頭（923 123 456）；莫三比克手機常寫 84 123 4567，馬普托市話 21 開頭；維德角與聖多美為 7 位；幾內亞比索手機 9 開頭。國際冠碼 +244 / +258 / +245 / +238 / +239。朗讀請分組，不要連念。",
+  "time_tip": "書面多用 24 小時（19h、19:30）；口語「sete e meia da noite」。區內晚餐多在 19:00 前後，比里斯本早，不要逕自改成 20h30。",
+  "number_tip": "數字用歐洲葡語：6 說 seis（不要說巴西的 meia）；16/17/19 用 dezasseis、dezassete、dezanove。金額先講貨幣：安哥拉 kwanza、莫三比克 metical、維德角 escudo。",
+  "avoid_calling": "避開午餐約 12:00–15:00、晚餐高峰 19:00–20:30，以及平日 18:30 後打給政府與小作坊；週日上午許多店休或只做彌撒時段。",
+  "closed_days": "各國獨立日不同（安哥拉 11 月 11 日、莫三比克 6 月 25 日、維德角 7 月 5 日等）；耶誕、新年、耶穌受難日常見公休。維德角旅遊島飯店多全日營業，市區小館則常週日休息。",
+  "booking_channels": "多數餐廳、診所與維修是電話加 WhatsApp；羅安達有人試用 OCULHA 訂位（查證時官網回 503，不能當成穩定通路）。馬普托外送有本地 App（如 TáAqui，可付 M-Pesa／e-Mola），維德角普拉亞有 Deliiv。旅館常用 Booking.com。安哥拉市區出行可見 Yango。",
+  "voice_menu": "銀行、Unitel／Movicel、Vodacom Moçambique（含 M-Pesa）與部分政府熱線有按鍵語音；街邊餐館和診所櫃台多直接接聽。",
+  "callback_habits": "小店幾乎都用 WhatsApp 回覆與確認；診所有時改發短訊；旅館與航空相關多電郵加 WhatsApp。不要假設會再打電話回來。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "羅安達、馬普托熱門館常用 WhatsApp 或電話留桌，晚餐約 19:00；不要套用葡萄牙 TheFork。維德角旅遊島也可問飯店代訂。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and sitting hour (almoço around 12:30 vs jantar around 19:00, earlier than in Portugal)",
+        "Party size and whether a cadeira de bebé is needed",
+        "Indoor sala versus esplanada or quintal",
+        "Name and a local mobile in that country's format",
+        "Whether payment will be Multicaixa (Angola), M-Pesa (Mozambique) or cash"
+      ],
+      "may_come_up": [
+        {
+          "what": "Restaurant asks for a Multicaixa or M-Pesa payment to 'secure' the table to a personal number",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Only cash or a local debit network, no foreign card",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Wants the booking under a hotel name on Sal or in Maputo",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Demands an immediate transfer to an unlabelled personal wallet before any confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "公私診所多半電話或 WhatsApp 掛號，很少統一預約 App；要問保險或現金、以及要看的科別。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "Whether the visit is a first consulta or a return / exam follow-up",
+        "Patient's full name as on the identity document and a callback number",
+        "Preferred morning or afternoon slot",
+        "Cash, insurance or a company account"
+      ],
+      "may_come_up": [
+        {
+          "what": "Clinic only takes walk-in numbers on the day and will not pre-book",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Asks which document to bring (BI, passaporte or cartão de utente)",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests a medical history or test result to be read out in full on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "髮廊與指甲店幾乎都靠 WhatsApp 約時間，電話能打通也常被轉去訊息確認造型與時長。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Service type (cabelo, unhas, barba, tranças) and roughly how long",
+        "Date and hour, plus an alternative if the stylist is booked",
+        "Name and WhatsApp number used for the reminder"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stylist is known only by a first name and works from home",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "A deposit via Multicaixa or M-Pesa is requested for a bridal booking",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for a photo ID to be sent to a private chat before any appointment is noted",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車、手機與冷氣行多半電話先問有沒有零件，再約人到店或上門；確認多用 WhatsApp 傳照片。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What is broken and the make or model if known",
+        "Bring-in versus a visit at the compound or office",
+        "When the owner can leave the item or receive the technician"
+      ],
+      "may_come_up": [
+        {
+          "what": "Workshop is on generator only in the evening and wants a morning drop-off",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Quote will be sent as a WhatsApp voice note rather than a written price",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for a remote 'diagnostic fee' to a personal Multicaixa before seeing the device",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "外帶多直接打電話或 WhatsApp 點餐；馬普托可試 TáAqui，維德角普拉亞可試 Deliiv，其他城市常是店家自己送。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Dishes and quantities, including spicy level if it is a local plate (muamba, matapa, cachupa)",
+        "Collection time versus delivery to a bairro or predio",
+        "Name and a number the rider can call at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "Delivery is only inside one city district and not to the next bairro",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Payment on delivery must be cash or M-Pesa, not a foreign card",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Rider asks to be paid into a different personal wallet than the shop named",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "電器與布料店常接受 WhatsApp 問存貨再留貨；較少購物車結帳，電話只為確認型號與取貨日。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Exact model, size or fabric and how many",
+        "Collect in store versus informal delivery",
+        "Name to put on the set-aside goods"
+      ],
+      "may_come_up": [
+        {
+          "what": "Item is in another city and would be sent by coach or candongueiro-style cargo",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Shop can only reserve until close of the next business day",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests a full bank transfer to a private account to 'lock' stock sight unseen",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "改期或取消多半回到原 WhatsApp 對話或再打電話，說原時間與名字即可；旅遊島餐廳取消規則較嚴。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original date, hour and the name the booking is under",
+        "The new time that would work, or that it should be cancelled",
+        "Party size if that also changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "Venue says a no-show fee was already agreed for a weekend table",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Only the person who sent the first WhatsApp can change it",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for an extra transfer to 'process the change' before any new slot is noted",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問營業、能不能刷卡或有沒有某道菜，直接打或傳 WhatsApp 最快；不要只依賴過時網頁。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The concrete question (hours, Multicaixa or M-Pesa, a dish, a spare part)",
+        "The day they plan to come if it affects the answer",
+        "A number if the shop will reply after checking the kitchen or storeroom"
+      ],
+      "may_come_up": [
+        {
+          "what": "Answer differs by country: Multicaixa is Angola-centric, M-Pesa is common in Mozambique",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Staff prefer to reply in a voice note on WhatsApp",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Unknown caller asks the owner to read out card or wallet PINs to 'verify' a booking",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "旅遊島與羅安達、馬普托飯店常用 Booking.com 或官網，小旅館則 WhatsApp 問空房；入住時多半還要再傳護照照片。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Check-in and check-out dates and how many guests",
+        "Room type and whether breakfast is included",
+        "Name as on the passport and a WhatsApp number",
+        "Payment: bank transfer, Multicaixa or cash at arrival"
+      ],
+      "may_come_up": [
+        {
+          "what": "Property on Sal or Boa Vista is listed on Booking.com and wants the same reference",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Generator hours or water cuts are mentioned for an inland guesthouse",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Asks for a scan of the passport and a transfer to a personal account before any written confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "跳島、沙灘活動與國家公園導覽多經旅遊社或 WhatsApp 訂，小團常要先付訂金；天氣不佳會改期。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which tour or activity and the date, including a weather backup",
+        "Number of adults and children and pickup point (hotel or jetty)",
+        "Name and a mobile that works on the island"
+      ],
+      "may_come_up": [
+        {
+          "what": "Boat leaves only if a minimum number of guests is reached",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Park or island fee is cash-only on arrival",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Operator demands a full prepaid transfer with no company name or receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "水電、冷氣與清潔多靠熟人或 WhatsApp 約上門；要講清 bairro、門牌與是否有門房。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The job (ar condicionado, canalização, limpeza) and preferred visit window",
+        "Bairro, building and how the technician is let in",
+        "Name and a number that will answer at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "Technician will only quote after seeing a photo on WhatsApp",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Access depends on a porteiro or condomínio pass",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone asks for the door code and a remote prepayment before any visit is scheduled",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "獸醫與寵物美容在大城市用電話或 WhatsApp 預約，小城鎮常是當日到場抽號，要說明動物種類與疫苗。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "Species, size and the reason for the visit",
+        "Whether it is a first visit or a vaccination follow-up",
+        "Owner name and a reachable mobile"
+      ],
+      "may_come_up": [
+        {
+          "what": "Clinic sees animals only in the morning before the heat",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Proof of rabies vaccine may be asked for a boarding stay",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Requests payment to a personal wallet to 'reserve a kennel' with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "跨國與國內包裹常要打電話或 WhatsApp 問轉運站，單號格式因物流而異；不要套用歐美快遞 App 的流程。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "Waybill or reference and the destination city",
+        "Name on the parcel and a local contact number",
+        "Whether collection is at a depot or a home in a named bairro"
+      ],
+      "may_come_up": [
+        {
+          "what": "Parcel is waiting in Luanda or Maputo and needs a local pick-up authorisation",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Duty or a cash on-delivery balance is due in kwanza or metical",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A message asks for a wallet top-up to 'release' a parcel the caller cannot identify",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "銀行、Unitel、Vodacom 與 M-Pesa／Multicaixa 客服用電話加語音選單，要先備妥合約或錢包號碼，不要在電話裡報密碼。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which company and the account, SIM or wallet label",
+        "The problem in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "IVR is in Portuguese only and English is not offered",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "They ask the customer to go to an agência with the BI",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for the Multicaixa PIN, M-Pesa PIN or one-time code on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "羅安達可用 Yango 叫車，不必先打電話；其他城市仍多靠街邊的士或 WhatsApp 約熟司機。機場接送常由旅館代叫。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (bairro, hotel or airport) and the time",
+        "How many passengers and bags",
+        "A number the driver can call on arrival at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "Yango or a similar app is available in the city, so a phone dispatch is unnecessary",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Road to the airport may need an earlier set-off in rain or peak hours",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for a full prepayment to a personal wallet before sharing any plate number",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房多經仲介或房東 WhatsApp 約時間，要帶身份證明；描述地址時用 bairro 與地標，不要只報一個門牌數字。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and whether it is rent or sale",
+        "Name and a number the agent can call at the gate",
+        "Budget currency (kwanza, metical or escudo) if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "Agent wants a copy of the BI before opening the door",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Building has a condomínio fee that is not in the listed rent",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone demands a reservation fee into a personal account before any accompanied visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公立單位與學校窗口常要本人到場取號，電話多只能問文件與開放時間；語氣用正式葡語。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which office or school and the purpose (certidão, matrícula, visa support)",
+        "The person's name as on the BI or passport",
+        "Whether a number is drawn only in person and at which hour"
+      ],
+      "may_come_up": [
+        {
+          "what": "Many services require the applicant to appear with originals, and the phone only confirms the checklist",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "A lunch shutdown around 12:00–14:30 is common at municipal counters",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be from a ministry asks for a wallet payment to 'speed up' a file",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "pt": {
+      "party": [
+        "mesa para 4",
+        "somos 3 adultos",
+        "2 adultos e 1 criança",
+        "para duas pessoas",
+        "grupo de 6",
+        "1 pessoa"
+      ],
+      "time": [
+        "às 19h",
+        "sete e meia da noite",
+        "ao almoço às 13h",
+        "amanhã às 10h",
+        "por volta das 19h30",
+        "16h em ponto"
+      ],
+      "date": [
+        "amanhã",
+        "depois de amanhã",
+        "nesta sexta",
+        "no sábado à noite",
+        "11 de novembro",
+        "25 de junho"
+      ],
+      "name": [
+        "em nome de Manuel Costa",
+        "Amina dos Santos",
+        "família Pereira",
+        "João Baptista",
+        "Nzinga Manuel"
+      ],
+      "phone": [
+        "923 123 456",
+        "o telemóvel 84 123 4567",
+        "12345678",
+        "21 123 456"
+      ],
+      "booking_words": [
+        "reservar mesa",
+        "marcar uma mesa",
+        "pedir mesa na esplanada",
+        "reservar quarto",
+        "segurar um lugar"
+      ],
+      "appointment_words": [
+        "marcar consulta",
+        "fazer uma marcação",
+        "marcar cabeleireiro",
+        "levar o carro à oficina",
+        "marcar o técnico"
+      ],
+      "order_words": [
+        "pedir para levar",
+        "encomendar entrega",
+        "reservar na loja",
+        "mandar vir a comida",
+        "guardar um"
+      ],
+      "change_words": [
+        "adiar a marcação",
+        "passar para mais tarde",
+        "cancelar a reserva",
+        "desmarcar a consulta",
+        "trocar o dia"
+      ],
+      "inquiry_words": [
+        "aceitam Multicaixa?",
+        "estão abertos no feriado?",
+        "tem matapa hoje?",
+        "fazem entrega no bairro?",
+        "qual é o preço?"
+      ],
+      "false_friends": [
+        "2.º andar",
+        "casa 12 do bairro",
+        "massa de 30 min",
+        "pack de 4",
+        "linha 2 do predio"
+      ]
+    }
+  }
+}

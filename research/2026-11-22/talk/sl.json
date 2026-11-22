@@ -1,0 +1,264 @@
+{
+  "lang": "sl",
+  "backchannels": {
+    "direction": "Ja and aha show listening; seveda and drži agree; ja ja ja said quickly can sound impatient.",
+    "examples": [
+      {
+        "text": "Aha, razumem.",
+        "style": "casual",
+        "function": "listening"
+      },
+      {
+        "text": "Ja, poslušam.",
+        "style": "polite",
+        "function": "listening"
+      },
+      {
+        "text": "Seveda.",
+        "style": "polite",
+        "function": "agreement"
+      },
+      {
+        "text": "Drži.",
+        "style": "casual",
+        "function": "agreement"
+      },
+      {
+        "text": "Ja ja ja.",
+        "style": "casual",
+        "function": "dismissive"
+      }
+    ]
+  },
+  "reactions": {
+    "direction": "Res? or Ne me heci! for surprise; žal mi je for sympathy; super / lepo for good news.",
+    "examples": [
+      {
+        "text": "Res?",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Ne me heci!",
+        "style": "casual",
+        "function": "surprise"
+      },
+      {
+        "text": "Zelo mi je žal.",
+        "style": "polite",
+        "function": "sympathy"
+      },
+      {
+        "text": "Lepo slišati!",
+        "style": "polite",
+        "function": "joy"
+      },
+      {
+        "text": "To bo pa težko.",
+        "style": "polite",
+        "function": "difficulty"
+      }
+    ]
+  },
+  "cant_hear": {
+    "direction": "Say you can't hear well (slabo vas slišim) or the signal drops, then ask for a louder voice with vi.",
+    "examples": [
+      {
+        "text": "Slabo vas slišim.",
+        "style": "polite"
+      },
+      {
+        "text": "Zveza se prekinja.",
+        "style": "polite"
+      },
+      {
+        "text": "Signal je slab.",
+        "style": "casual"
+      },
+      {
+        "text": "Lahko govorite malo glasneje?",
+        "style": "polite"
+      }
+    ]
+  },
+  "ask_repeat": {
+    "direction": "Prosim? asks for a replay; ask them to spell names (črkovati); confirm the številka by repeating it.",
+    "examples": [
+      {
+        "text": "Prosim?",
+        "style": "polite"
+      },
+      {
+        "text": "Lahko ponovite?",
+        "style": "polite"
+      },
+      {
+        "text": "Kako se piše vaš priimek?",
+        "style": "polite"
+      },
+      {
+        "text": "Številka je 12345678, kajne?",
+        "style": "polite"
+      },
+      {
+        "text": "Kaj?",
+        "style": "casual"
+      }
+    ]
+  },
+  "who_is_calling": {
+    "direction": "S kom govorim? with vi; Kdo kliče? is plainer; avoid blunt Kdo si?",
+    "examples": [
+      {
+        "text": "S kom govorim, prosim?",
+        "style": "polite"
+      },
+      {
+        "text": "Od kod kličete?",
+        "style": "polite"
+      },
+      {
+        "text": "To je telefon od {owner}, kdo kliče?",
+        "style": "polite"
+      }
+    ]
+  },
+  "wrong_number": {
+    "direction": "Say they have the wrong number (napačna številka), nobody of that name here; brief.",
+    "examples": [
+      {
+        "text": "Oprostite, klicali ste napačno številko.",
+        "style": "polite"
+      },
+      {
+        "text": "Tukaj ni nikogar s tem imenom.",
+        "style": "polite"
+      },
+      {
+        "text": "Napačna številka.",
+        "style": "casual"
+      }
+    ]
+  },
+  "relay": {
+    "direction": "Sporočilo bom posredoval/a tells them {owner} will be told; no call-back time.",
+    "examples": [
+      {
+        "text": "Sporočilo bom posredovala {owner}.",
+        "style": "polite"
+      },
+      {
+        "text": "Bom povedal.",
+        "style": "casual"
+      },
+      {
+        "text": "Bo sporočeno.",
+        "style": "polite"
+      }
+    ]
+  },
+  "sales_decline": {
+    "direction": "Hvala, ne zanima me / nas is clear and polite; no reasons needed.",
+    "examples": [
+      {
+        "text": "Hvala, nas ne zanima.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne potrebujemo, hvala lepa.",
+        "style": "polite"
+      },
+      {
+        "text": "Ne, hvala.",
+        "style": "casual"
+      }
+    ]
+  },
+  "firm_no": {
+    "direction": "If they persist, restate the refusal and ask them to erase the number from their list.",
+    "examples": [
+      {
+        "text": "Sem že rekel, da nas ne zanima.",
+        "style": "polite"
+      },
+      {
+        "text": "Prosim, ne kličite več te številke.",
+        "style": "polite"
+      },
+      {
+        "text": "Odstranite to številko s svojega seznama.",
+        "style": "polite"
+      }
+    ]
+  },
+  "address_forms": {
+    "direction": "Vi for strangers; gospod/gospa + surname; first name with ti only when invited.",
+    "examples": [
+      {
+        "text": "Gospod Novak",
+        "style": "polite"
+      },
+      {
+        "text": "Gospa",
+        "style": "polite"
+      },
+      {
+        "text": "Spoštovani",
+        "style": "polite"
+      },
+      {
+        "text": "Soseda",
+        "style": "casual"
+      },
+      {
+        "text": "Stari",
+        "style": "casual"
+      }
+    ]
+  },
+  "avoid_service_phrases": {
+    "direction": "Lines like Hvala za vaš klic, vaš klic je za nas pomemben sound like a klicni center.",
+    "examples": [
+      {
+        "text": "Hvala za vaš klic.",
+        "style": "polite"
+      },
+      {
+        "text": "Vaš klic je za nas pomemben.",
+        "style": "polite"
+      },
+      {
+        "text": "Kako vam lahko pomagam danes?",
+        "style": "polite"
+      }
+    ]
+  },
+  "taboo_on_phone": {
+    "direction": "Using ti with older strangers or asking salary or politics early is impolite.",
+    "examples": [
+      {
+        "text": "Koliko zaslužiš?",
+        "style": "casual"
+      },
+      {
+        "text": "Koga si volil?",
+        "style": "casual"
+      },
+      {
+        "text": "Kdo si ti?",
+        "style": "casual"
+      }
+    ]
+  },
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live-guide#supported-languages",
+    "https://en.wiktionary.org/wiki/prosim",
+    "https://en.wikipedia.org/wiki/Slovene_language",
+    "https://en.wikipedia.org/wiki/T%E2%80%93V_distinction"
+  ],
+  "uncertain": [
+    "Slovene has dual number; examples avoid dual forms",
+    "Backchannel set (ja, aha, mhm, seveda) from general usage, no call corpus",
+    "Regional dialect wording (e.g. Styrian, Primorska) not covered"
+  ]
+}

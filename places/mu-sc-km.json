@@ -1,0 +1,857 @@
+{
+  "region": "mu-sc-km",
+  "countries": [
+    "mu",
+    "sc",
+    "km"
+  ],
+  "region_name_zh": "西印度洋島國",
+  "region_name": "Western Indian Ocean islands",
+  "languages": [
+    {
+      "code": "fr",
+      "use": "main"
+    },
+    {
+      "code": "en",
+      "use": "common"
+    },
+    {
+      "code": "ar",
+      "use": "some"
+    }
+  ],
+  "ai_language_tip": "模里西斯、塞席爾可作法語或英語，用 vous／Sir-Madam，不要用克里奧爾語（不在支援清單）。葛摩場合可改用阿拉伯語或法語。模里西斯法語帶島國詞，不要整段套用巴黎口語。",
+  "english_ok": "often — 模里西斯與塞席爾旅館、餐廳與診所英語普遍；葛摩行政場合法語與阿拉伯語較強，英語較不穩定。",
+  "politeness": "法語開場 Bonjour 加 vous；英語 Good morning 加 a short greeting before the request。葛摩對陌生人也保持正式。結尾 merci / thank you。",
+  "name_tip": "報名加姓（如 Aisha Ramkissoon、Jean-Luc Morel）；印裔、克里奧爾與穆斯林姓名都常見，先用訂位已寫的拼法再逐字拼。",
+  "phone_tip": "模里西斯 8 位，手機多以 5 開頭（5 123 4567），市話常見 2 開頭；塞席爾與葛摩多為 7 位。國際冠碼 +230 / +248 / +269。朗讀分組。",
+  "time_tip": "書面 24 小時與 12 小時並用；模里西斯、塞席爾晚餐多在 19:00–20:30。口語英語用 am/pm，法語用 19h30。",
+  "number_tip": "模里西斯盧比、塞席爾盧比、葛摩法郎不要混用。模里西斯商店常掃 MCB Juice 或 my.t money 的 QR，不要把它們說成三國通用。",
+  "avoid_calling": "避開 12:00–13:30 午餐與 19:00–21:00 晚餐高峰；週日上午許多市區店較晚開。葛摩避開週五中午禮拜時段。",
+  "closed_days": "模里西斯公共假期多（獨立／共和紀念日、勞動節、耶誕，以及印裔與穆斯林節日，以總理府公告為準）；塞席爾與葛摩假期不完全相同，葛摩在開齋節、古爾邦節更常全休。",
+  "booking_channels": "模里西斯餐廳可用 Bookatable 或 Eat App 留桌，也可打電話；外送有 Ordermanzer、Hungry Dodo 等本地 App，沒有 Uber Eats。診所、水電與多數小店靠 WhatsApp。塞席爾渡假村常用旅館 App 或櫃檯訂餐。葛摩多為電話與 WhatsApp。支付在模里西斯常見 Juice。",
+  "voice_menu": "模里西斯銀行（含 MCB）、電信 my.t／Emtel 與部分公營事業有語音選單；塞席爾與葛摩多數小店仍人工接聽。",
+  "callback_habits": "Bookatable／Eat App 會即時確認；小店與診所多用 WhatsApp。渡假村訂餐常在入住 App 或櫃檯回覆，不一定另打電話。",
+  "types": {
+    "restaurant": {
+      "phone_booking": "often",
+      "before_dialing_zh": "模里西斯可用 Bookatable 或 Eat App 留桌，熱門海灘餐廳週末常要先訂；塞席爾渡假村多經櫃檯或旅館 App，葛摩則以電話、WhatsApp 為主。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "usually_asked": [
+        "Date and sitting (lunch around 12:30 vs dinner around 19:30–20:30)",
+        "Party size and a high chair if needed",
+        "Indoor, veranda or seaside table",
+        "Name and an 8-digit Mauritius mobile, or the local format in Seychelles or Comoros",
+        "Whether a deposit or pre-order is required on Bookatable"
+      ],
+      "may_come_up": [
+        {
+          "what": "A Bookatable or Eat App reference already exists and should be used",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "The table is in a resort restaurant and non-residents must be announced",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "Juice or a card guarantee is requested for a Saturday evening table in Grand Baie",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A transfer to a personal Juice or mobile number is demanded before any written confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "clinic": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "模里西斯私立診所常用電話或 WhatsApp 掛號，有時有診所網頁；塞席爾、葛摩多半直接打電話。要帶保險卡或現金。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "for_whom",
+        "visit_type"
+      ],
+      "nice_to_have": [
+        "item",
+        "backup",
+        "staff_pref"
+      ],
+      "usually_asked": [
+        "First visit or follow-up and the specialty",
+        "Patient name and a local callback number",
+        "Cash, private insurance or a company account"
+      ],
+      "may_come_up": [
+        {
+          "what": "Some surgeries only book mornings and close early on Saturday",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A third party is asked to recite a full medical history on the call",
+          "handle": "owner_only"
+        }
+      ]
+    },
+    "beauty": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "沙龍多用 WhatsApp 或電話預約，渡假村水療則走旅館櫃檯或專屬 App。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "duration",
+        "backup"
+      ],
+      "usually_asked": [
+        "Hair, nails or spa treatment and the duration",
+        "Day and hour, plus a second choice",
+        "Whether the guest is staying in a named resort"
+      ],
+      "may_come_up": [
+        {
+          "what": "A resort spa slot may be reserved only for in-house guests at peak hours",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal-wallet deposit is demanded with no salon name on the transfer",
+          "handle": "decline"
+        }
+      ]
+    },
+    "repair": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "修車與家電多打電話或 WhatsApp 約，模里西斯市區較容易約到；外島零件常要等船期。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "address",
+        "spec",
+        "backup"
+      ],
+      "usually_asked": [
+        "What failed and the make",
+        "Drop-off versus a visit at the residence",
+        "A window that works, including ferry timing if it is another island"
+      ],
+      "may_come_up": [
+        {
+          "what": "A part must wait for the next freight from the main island",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A remote fee to a personal account is demanded before the item is inspected",
+          "handle": "decline"
+        }
+      ]
+    },
+    "takeout": {
+      "phone_booking": "often",
+      "before_dialing_zh": "模里西斯可用 Hungry Dodo、Ordermanzer 等本地外送，或直接 WhatsApp 給餐廳；塞席爾、葛摩多半自己取餐或請旅館代叫。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "address",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Dishes and portions, including a local plate if named (dholl puri, grilled fish, langouste)",
+        "Collection versus delivery in a named town (Port Louis, Grand Baie, Victoria)",
+        "A number the rider can call at the gate"
+      ],
+      "may_come_up": [
+        {
+          "what": "International apps such as Uber Eats are not present; use a local service or the restaurant itself",
+          "handle": "ai_can_answer"
+        },
+        {
+          "what": "Delivery may stop early outside the main towns",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "The rider asks to be paid into a personal Juice account that is not the restaurant's",
+          "handle": "decline"
+        }
+      ]
+    },
+    "shop_order": {
+      "phone_booking": "often",
+      "before_dialing_zh": "商店留貨用 WhatsApp 最常見；模里西斯較大連鎖才有網站庫存，電話只確認取貨日。",
+      "for_whom_matters": false,
+      "must_have": [
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "pickup",
+        "substitute"
+      ],
+      "usually_asked": [
+        "Item, size and quantity",
+        "Collect in store versus a courier between towns",
+        "Name for the set-aside goods"
+      ],
+      "may_come_up": [
+        {
+          "what": "Stock is in Port Louis and would be sent to another town the next day",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to a private number is required before they confirm stock",
+          "handle": "decline"
+        }
+      ]
+    },
+    "change": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "Bookatable 或 Eat App 的訂位在同一平台改；WhatsApp 訂的就回原對話。渡假村訂餐改期要經櫃檯。",
+      "for_whom_matters": true,
+      "must_have": [
+        "orig_time",
+        "name",
+        "phone",
+        "time"
+      ],
+      "nice_to_have": [
+        "party",
+        "reference_no"
+      ],
+      "usually_asked": [
+        "Original date, hour and the name or booking reference",
+        "The new slot or a cancellation",
+        "New headcount if it changes"
+      ],
+      "may_come_up": [
+        {
+          "what": "A deposit or pre-order already paid on Bookatable may have its own cancellation rule",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "An extra transfer is demanded only to change the hour",
+          "handle": "decline"
+        }
+      ]
+    },
+    "inquiry": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "問是否營業、收不收 Juice 或能不能帶小孩，直接打或傳 WhatsApp；渡假村餐廳先問櫃檯較準。",
+      "for_whom_matters": false,
+      "must_have": [
+        "question",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "time"
+      ],
+      "usually_asked": [
+        "The exact question (hours, Juice or card, a dish, a ferry-day closure)",
+        "The day they plan to come",
+        "A number for a later reply"
+      ],
+      "may_come_up": [
+        {
+          "what": "A beach restaurant may close on a public holiday even if a hotel nearby stays open",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Someone asks the owner to read a Juice PIN or card code aloud",
+          "handle": "decline"
+        }
+      ]
+    },
+    "hotel": {
+      "phone_booking": "often",
+      "before_dialing_zh": "模里西斯與塞席爾渡假村多用官網、Booking.com 或集團 App；小賓館 WhatsApp 問空房。葛摩也是電話與訊息為主。",
+      "for_whom_matters": true,
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "room_type",
+        "budget",
+        "backup"
+      ],
+      "usually_asked": [
+        "Arrival and departure dates and the number of guests",
+        "Room or villa type and meal plan",
+        "Name as on the passport and a WhatsApp number"
+      ],
+      "may_come_up": [
+        {
+          "what": "A resort may already have the booking in its guest app and only needs a dinner seating",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A passport scan plus a transfer to a personal account is demanded before confirmation",
+          "handle": "decline"
+        }
+      ]
+    },
+    "activity": {
+      "phone_booking": "often",
+      "before_dialing_zh": "跳島、潛水與山路行程多經旅遊社或旅館櫃檯預訂，天氣不佳會改期；不要只在社群留言就當成已確認。",
+      "for_whom_matters": false,
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup",
+        "budget"
+      ],
+      "usually_asked": [
+        "Which excursion and the date, with a weather backup",
+        "Adults and children and the pickup (hotel or jetty)",
+        "A mobile that works on the island"
+      ],
+      "may_come_up": [
+        {
+          "what": "The boat leaves only with a minimum number of guests",
+          "handle": "ask_owner"
+        },
+        {
+          "what": "A marine-park fee may be cash-only",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Full prepayment to an unnamed personal wallet is required with no receipt",
+          "handle": "decline"
+        }
+      ]
+    },
+    "home_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "模里西斯水電與清潔幾乎都用 WhatsApp 約，地址要寫鎮名與門牌；外島要把船班時間算進去。",
+      "for_whom_matters": true,
+      "must_have": [
+        "time",
+        "address",
+        "name",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "backup",
+        "spec"
+      ],
+      "usually_asked": [
+        "The job and a visit window",
+        "Town, residence and how to enter the gate",
+        "A number that will answer on the day"
+      ],
+      "may_come_up": [
+        {
+          "what": "A technician on Rodrigues or a Seychelles island may only travel on certain ferry days",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A door code and a remote prepayment are demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "pet": {
+      "phone_booking": "often",
+      "before_dialing_zh": "模里西斯獸醫可電話或 WhatsApp 預約；塞席爾、葛摩選擇較少，通常先打電話問當天門診。",
+      "for_whom_matters": false,
+      "must_have": [
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "item",
+        "backup"
+      ],
+      "usually_asked": [
+        "Species, size and the reason for the visit",
+        "First visit or vaccination",
+        "Owner name and a local number"
+      ],
+      "may_come_up": [
+        {
+          "what": "Import or boarding may need a veterinary certificate",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A personal transfer is demanded to reserve a kennel with no clinic name",
+          "handle": "decline"
+        }
+      ]
+    },
+    "tracking": {
+      "phone_booking": "often",
+      "before_dialing_zh": "海運與空運到島後常要打電話給代理行或郵局，單號加上航班或船舶名稱較有用。",
+      "for_whom_matters": true,
+      "must_have": [
+        "reference_no",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "item",
+        "address"
+      ],
+      "usually_asked": [
+        "Waybill or tracking number and the arrival island",
+        "Name on the consignment and a local contact",
+        "Collection depot versus a home delivery in a named town"
+      ],
+      "may_come_up": [
+        {
+          "what": "A customs or freight balance may be due in local rupees before release",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A wallet top-up is requested to 'release' an unidentified parcel",
+          "handle": "decline"
+        }
+      ]
+    },
+    "customer_service": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "模里西斯銀行與 my.t／Emtel 有語音選單與 App；不要在電話裡報 Juice 密碼。塞席爾、葛摩多半人工接聽。",
+      "for_whom_matters": true,
+      "must_have": [
+        "question",
+        "name",
+        "phone",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "usually_asked": [
+        "Which bank or operator and the account or SIM",
+        "The issue in one sentence",
+        "The name on the contract and a callback number"
+      ],
+      "may_come_up": [
+        {
+          "what": "They may ask the customer to visit a branch with an ID card",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "Anyone asks for a Juice PIN, card code or one-time SMS on the call",
+          "handle": "decline"
+        }
+      ]
+    },
+    "transport": {
+      "phone_booking": "rarely",
+      "before_dialing_zh": "模里西斯叫車有本地 App 與旅館計程車，很多行程仍用電話約司機；塞席爾、葛摩更常由旅館代叫，不要假設有 Uber。",
+      "for_whom_matters": true,
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "party",
+        "vehicle_plate"
+      ],
+      "usually_asked": [
+        "Pickup and drop-off (hotel, airport, town) and the time",
+        "Passengers and luggage, including ferry connections",
+        "A number the driver can call"
+      ],
+      "may_come_up": [
+        {
+          "what": "A hotel car may be priced per trip rather than by an app meter",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A driver asks for the full fare to a personal Juice account before sharing a plate",
+          "handle": "decline"
+        }
+      ]
+    },
+    "property": {
+      "phone_booking": "yes",
+      "before_dialing_zh": "看房經仲介 WhatsApp 或電話約，模里西斯常見；要帶身份證明，地址用鎮名與 residence 名稱。",
+      "for_whom_matters": true,
+      "must_have": [
+        "visit_type",
+        "time",
+        "name",
+        "phone",
+        "address"
+      ],
+      "nice_to_have": [
+        "budget",
+        "floor_elevator"
+      ],
+      "usually_asked": [
+        "Viewing time and rent or sale",
+        "Name and a number at the gate",
+        "Budget in the local rupee or Comorian franc if asked"
+      ],
+      "may_come_up": [
+        {
+          "what": "The agent may want to see an ID before entering a gated residence",
+          "handle": "ask_owner"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A reservation fee to a personal account is demanded before any visit",
+          "handle": "decline"
+        }
+      ]
+    },
+    "government_school": {
+      "phone_booking": "often",
+      "before_dialing_zh": "公家窗口與學校多用電話問文件，正式手續仍要本人到場；模里西斯假期多，先問當天是否辦公。",
+      "for_whom_matters": true,
+      "must_have": [
+        "name",
+        "for_whom",
+        "question",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "item"
+      ],
+      "usually_asked": [
+        "Which office or school and the purpose",
+        "The person's name as on the ID or passport",
+        "Whether attendance in person is required and from which hour"
+      ],
+      "may_come_up": [
+        {
+          "what": "A public holiday unique to Mauritius may close a counter that is open in Seychelles the same day",
+          "handle": "ai_can_answer"
+        }
+      ],
+      "sensitive_asked": [
+        {
+          "what": "A caller claiming to be from an office asks for a personal transfer to speed up a file",
+          "handle": "decline"
+        }
+      ]
+    }
+  },
+  "how_owners_write": {
+    "fr": {
+      "party": [
+        "table pour 4 à Grand Baie",
+        "nous sommes 3",
+        "2 adultes et 1 enfant",
+        "pour deux personnes",
+        "un groupe de 8",
+        "une personne"
+      ],
+      "time": [
+        "à 20h",
+        "huit heures du soir",
+        "pour le déjeuner à 12h30",
+        "vers 10h",
+        "à 16h",
+        "après 19h"
+      ],
+      "date": [
+        "demain",
+        "après-demain",
+        "ce samedi",
+        "vendredi prochain",
+        "le 12 mars",
+        "le 1er mai"
+      ],
+      "name": [
+        "au nom de Aisha Ramkissoon",
+        "Jean-Luc Morel",
+        "famille Chan",
+        "Nadia Begum",
+        "Paul Hoareau"
+      ],
+      "phone": [
+        "5 123 4567",
+        "le mobile 5 765 4321",
+        "12345678",
+        "le 212 3456"
+      ],
+      "booking_words": [
+        "réserver une table via Bookatable",
+        "prendre une table",
+        "garder une table côté mer",
+        "réserver une chambre",
+        "bloquer une place"
+      ],
+      "appointment_words": [
+        "prendre rendez-vous à la clinique",
+        "fixer une consultation",
+        "rendez-vous au salon",
+        "déposer la voiture au garage",
+        "faire venir un technicien"
+      ],
+      "order_words": [
+        "commander sur Hungry Dodo",
+        "prendre à emporter",
+        "faire livrer à Curepipe",
+        "mettre de côté",
+        "préparer un plat"
+      ],
+      "change_words": [
+        "modifier la réservation Bookatable",
+        "décaler d'une heure",
+        "annuler la table",
+        "reporter la consultation",
+        "changer de jour"
+      ],
+      "inquiry_words": [
+        "vous prenez Juice ?",
+        "vous ouvrez le jour férié ?",
+        "il reste du dholl puri ?",
+        "vous livrez à Flic en Flac ?",
+        "quel est le tarif ?"
+      ],
+      "false_friends": [
+        "appartement 12",
+        "2e étage",
+        "massage 60 min",
+        "pack de 4",
+        "résidence bloc C"
+      ]
+    },
+    "en": {
+      "party": [
+        "table for 4 in Grand Baie",
+        "we are 3 adults",
+        "2 adults and 1 child",
+        "just two of us",
+        "a group of 8",
+        "one person"
+      ],
+      "time": [
+        "at 20:00",
+        "eight in the evening",
+        "for lunch at 12:30",
+        "around 10 am",
+        "at 16:00",
+        "after 19:00"
+      ],
+      "date": [
+        "tomorrow",
+        "the day after tomorrow",
+        "this Saturday",
+        "next Friday",
+        "12 March",
+        "1 May"
+      ],
+      "name": [
+        "under Aisha Ramkissoon",
+        "Jean-Luc Morel",
+        "the Chan family",
+        "Nadia Begum",
+        "Paul Hoareau"
+      ],
+      "phone": [
+        "5 123 4567",
+        "mobile 5 765 4321",
+        "12345678",
+        "the landline 212 3456"
+      ],
+      "booking_words": [
+        "book a table on Bookatable",
+        "reserve a seaside table",
+        "keep a table",
+        "book a room",
+        "set a place aside"
+      ],
+      "appointment_words": [
+        "book a clinic appointment",
+        "fix a consultation",
+        "book the salon",
+        "drop the car at the garage",
+        "ask a technician to come"
+      ],
+      "order_words": [
+        "order on Hungry Dodo",
+        "take away",
+        "deliver to Curepipe",
+        "put one aside",
+        "prepare a dish"
+      ],
+      "change_words": [
+        "change the Bookatable booking",
+        "move it by an hour",
+        "cancel the table",
+        "postpone the consultation",
+        "change the day"
+      ],
+      "inquiry_words": [
+        "do you take Juice?",
+        "are you open on the public holiday?",
+        "is there dholl puri left?",
+        "do you deliver to Flic en Flac?",
+        "what is the price?"
+      ],
+      "false_friends": [
+        "apartment 12",
+        "2nd floor",
+        "massage 60 min",
+        "pack of 4",
+        "residence block C"
+      ]
+    },
+    "ar": {
+      "party": [
+        "طاولة لأربعة في موروني",
+        "نحن 3 أشخاص",
+        "بالغان وطفل",
+        "شخصان فقط",
+        "مجموعة من 6",
+        "شخص واحد"
+      ],
+      "time": [
+        "الساعة 19:30",
+        "الثامنة مساء",
+        "الغداء عند 12:30",
+        "حوالي العاشرة صباحا",
+        "الساعة 16:00",
+        "بعد المغرب"
+      ],
+      "date": [
+        "غدا",
+        "بعد غد",
+        "يوم السبت",
+        "الجمعة القادمة",
+        "12 مارس",
+        "عيد الفطر"
+      ],
+      "name": [
+        "باسم عائشة رمكيشون",
+        "جان لوك موريل",
+        "عائلة ناصر",
+        "نادية بيجوم",
+        "أحمد قمر"
+      ],
+      "phone": [
+        "12345678",
+        "رقمي 5 123 4567",
+        "واتساب 5 765 4321",
+        "الهاتف 212 3456"
+      ],
+      "booking_words": [
+        "حجز طاولة",
+        "تأكيد مكان",
+        "حجز غرفة",
+        "حجز طاولة قرب البحر",
+        "طلب طاولة"
+      ],
+      "appointment_words": [
+        "موعد في العيادة",
+        "حجز كشف",
+        "موعد في الصالون",
+        "أخذ السيارة للورشة",
+        "طلب فني"
+      ],
+      "order_words": [
+        "طلب للأكل الخارجي",
+        "توصيل إلى المنزل",
+        "تجهيز طبق",
+        "حجز سلعة في المتجر",
+        "طلب وجبة"
+      ],
+      "change_words": [
+        "تغيير الموعد",
+        "تأخير ساعة",
+        "إلغاء الطاولة",
+        "تأجيل الكشف",
+        "تغيير اليوم"
+      ],
+      "inquiry_words": [
+        "هل تقبلون التحويل؟",
+        "هل تفتحون يوم العيد؟",
+        "هل بقي السمك؟",
+        "هل توصلون إلى موروني؟",
+        "ما هو السعر؟"
+      ],
+      "false_friends": [
+        "الشقة 12",
+        "الطابق 2",
+        "مساج 60 دقيقة",
+        "علبة من 4",
+        "الإقامة المبنى ج"
+      ]
+    }
+  }
+}

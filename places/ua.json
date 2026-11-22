@@ -1,0 +1,729 @@
+{
+  "region": "ua",
+  "countries": [
+    "ua"
+  ],
+  "region_name_zh": "烏克蘭",
+  "region_name": "Ukraine",
+  "languages": [
+    {
+      "code": "uk",
+      "use": "main"
+    },
+    {
+      "code": "ru",
+      "use": "secondary"
+    }
+  ],
+  "ai_language_tip": "Open in Ukrainian (uk); service in Ukrainian is the legal default for businesses. Many people also understand Russian, but do not switch unless the other side does; English works mainly in Kyiv/Lviv central venues and international hotels.",
+  "english_ok": "sometimes — Younger staff in Kyiv, Lviv and Odesa city centres and hotels often manage; clinics, repair shops and state offices mostly Ukrainian only.",
+  "politeness": "Formal 'Ви'; open with 'Добрий день' and say on whose behalf you call; first name + patronymic for older staff; close with 'Дякую, до побачення'. Direct and practical.",
+  "name_tip": "Booking 'на прізвище …' (surname); many surnames are not gendered (-енко, -ук) but some are (-ський/-ська); spell Latin names letter by letter, expect Cyrillic transcription.",
+  "phone_tip": "Mobile 0XX XXX XX XX (10 digits with 0, e.g. 067 12345678), international +380; confirmations by SMS, Viber or Telegram.",
+  "time_tip": "24-hour in writing; speech 'о пів на восьму' = 7:30 (half TO eight) and 'за п'ятнадцять восьма' = 7:45; always read back in 24h ('о дев'ятнадцятій тридцять').",
+  "number_tip": "Phone numbers are read in 3-3-2-2 groups (operator code, then hundreds, then two pairs) as whole numbers, so read back group by group; collective numerals for people ('нас троє', 'на двох').",
+  "avoid_calling": "Avoid restaurant peaks 13:00 and 19:00–21:00, calls after 21:00, and periods of air-raid alerts when staff may be in shelters; curfew hours vary by city under martial law.",
+  "closed_days": "Most shops, restaurants and salons open 7 days; state offices close weekends; under martial law most public holidays are not days off, so business mostly continues.",
+  "booking_channels": "Helsi (and similar e-health apps) for doctors; Expirenza and venue websites/Instagram for restaurant tables; Glovo and Bolt Food for delivery; Nova Poshta app for parcels; phone, Viber and Telegram dominant for small businesses; Diia for state services.",
+  "voice_menu": "Mobile operators (Kyivstar, Vodafone, lifecell), banks, Nova Poshta and utilities use IVR or chat bots; small venues answer directly.",
+  "callback_habits": "Clinics send SMS/Helsi reminders; small businesses confirm in Viber/Telegram; restaurants may call back on the day for big tables.",
+  "types": {
+    "restaurant": {
+      "before_dialing_zh": "烏克蘭餐廳多接電話或 Instagram／Telegram 訂位；宵禁使晚間營業提早結束，訂位時間要確認。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Closing time earlier due to curfew"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Deposit for banquets"
+        }
+      ],
+      "must_have": [
+        "time",
+        "party",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "allergy",
+        "seating_pref",
+        "kids_detail",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card details for deposit"
+        }
+      ],
+      "usually_asked": [
+        "Date and time",
+        "Number of guests",
+        "Hall or terrace",
+        "Name and mobile"
+      ]
+    },
+    "clinic": {
+      "before_dialing_zh": "公立基層醫療須先與家庭醫師簽聲明（декларація）並透過 Helsi 等 eHealth 系統預約；私人診所電話預約很普遍。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Helsi online slot"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Referral (направлення) needed for specialist"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "for_whom",
+        "visit_type",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "backup"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks tax ID (РНОКПП) or passport data"
+        }
+      ],
+      "usually_asked": [
+        "Declaration with family doctor or paid visit",
+        "Specialist and complaint",
+        "First visit or follow-up",
+        "Patient name and date of birth",
+        "Callback mobile"
+      ]
+    },
+    "beauty": {
+      "before_dialing_zh": "美髮、美甲常用 Instagram 私訊或電話預約並指定師傅（майстер）。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment for long procedures"
+        }
+      ],
+      "must_have": [
+        "time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "staff_pref",
+        "visit_type",
+        "duration"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Service",
+        "Preferred master",
+        "Date and time",
+        "Name and phone"
+      ]
+    },
+    "repair": {
+      "before_dialing_zh": "修車廠（СТО）與家電維修普遍電話預約；停電期間發電機、行動電源維修需求高。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Diagnostic fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "vehicle_plate",
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks VIN or full plate"
+        }
+      ],
+      "usually_asked": [
+        "Car or appliance model",
+        "Problem",
+        "Preferred day",
+        "Name and phone"
+      ]
+    },
+    "takeout": {
+      "before_dialing_zh": "電話訂自取（самовивіз／з собою）常見；外送以 Glovo、Bolt Food 為主。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Pickup discount"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "customization",
+        "substitute",
+        "address"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Dishes and quantity",
+        "Pickup time",
+        "Name and phone",
+        "Cash or card"
+      ]
+    },
+    "shop_order": {
+      "before_dialing_zh": "花店、蛋糕、藥局可電話預留；許多商家寄送靠 Nova Poshta。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment or cash on delivery (накладений платіж)"
+        }
+      ],
+      "must_have": [
+        "spec",
+        "pickup",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "substitute",
+        "budget"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Item and quantity",
+        "Pickup or Nova Poshta branch",
+        "Name and phone",
+        "Prepayment"
+      ]
+    },
+    "change": {
+      "before_dialing_zh": "改期多可電話或 Viber 處理，建議至少提前一天。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Lost prepayment if late"
+        }
+      ],
+      "must_have": [
+        "orig_time",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "time",
+        "reference_no",
+        "party"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Original date and time",
+        "Name",
+        "New time",
+        "Phone"
+      ]
+    },
+    "inquiry": {
+      "before_dialing_zh": "價格、營業時間、有無發電機或停電時是否營業，都可直接電話問。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Works during blackouts (генератор/Starlink)"
+        }
+      ],
+      "must_have": [
+        "question"
+      ],
+      "nice_to_have": [
+        "time",
+        "party",
+        "spec"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Question",
+        "Date if relevant",
+        "Number of people"
+      ]
+    },
+    "hotel": {
+      "before_dialing_zh": "小旅館電話與 Booking 並行；空襲警報時須說明防空避難處。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Shelter (укриття) available on site"
+        },
+        {
+          "handle": "ask_owner",
+          "what": "Prepayment"
+        }
+      ],
+      "must_have": [
+        "checkin_out",
+        "guests",
+        "room_type",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "budget",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and card details"
+        }
+      ],
+      "usually_asked": [
+        "Check-in/out dates",
+        "Guests",
+        "Room type",
+        "Guest name and phone"
+      ]
+    },
+    "activity": {
+      "before_dialing_zh": "導覽、浴場、運動場可電話訂；戶外活動受警報影響可能臨時取消。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Cancellation during air-raid alert"
+        }
+      ],
+      "must_have": [
+        "time",
+        "guests",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "duration",
+        "backup"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Date and time",
+        "People",
+        "Activity",
+        "Name and phone"
+      ]
+    },
+    "home_service": {
+      "before_dialing_zh": "水電、清潔、搬家多電話叫，必問地址、樓層、電梯（停電時電梯不能用）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Call-out fee"
+        }
+      ],
+      "must_have": [
+        "item",
+        "address",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "floor_elevator",
+        "spec",
+        "budget"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks door code"
+        }
+      ],
+      "usually_asked": [
+        "Address, entrance, floor, flat",
+        "Lift working or not",
+        "Job description",
+        "Time",
+        "Name and phone"
+      ]
+    },
+    "pet": {
+      "before_dialing_zh": "獸醫與美容可電話預約。",
+      "for_whom_matters": false,
+      "may_come_up": [],
+      "must_have": [
+        "item",
+        "pet_detail",
+        "time",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "visit_type",
+        "staff_pref"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pet type, breed, weight",
+        "Service or symptoms",
+        "Time",
+        "Owner name and phone"
+      ]
+    },
+    "tracking": {
+      "before_dialing_zh": "Nova Poshta、Ukrposhta、Meest 查件以 App、網站和聊天機器人為主，需運單號（ЕН）。",
+      "for_whom_matters": false,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to app tracking"
+        }
+      ],
+      "must_have": [
+        "reference_no",
+        "item",
+        "name",
+        "phone"
+      ],
+      "nice_to_have": [
+        "address",
+        "question"
+      ],
+      "phone_booking": "rarely",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks SMS code for pickup"
+        }
+      ],
+      "usually_asked": [
+        "Waybill number (ЕН)",
+        "Recipient name",
+        "Branch or address",
+        "Phone on the order"
+      ]
+    },
+    "customer_service": {
+      "before_dialing_zh": "電信、銀行客服有語音選單並須本人驗證，代打只能問一般資訊。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "decline",
+          "what": "Only holder can proceed"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "item"
+      ],
+      "phone_booking": "no",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks card data or SMS code"
+        }
+      ],
+      "usually_asked": [
+        "Account holder",
+        "Problem",
+        "Contract or order number"
+      ]
+    },
+    "transport": {
+      "before_dialing_zh": "計程車以 Uklon、Bolt 等 App 為主，地方車行仍接電話；民航機場自 2022 年起停飛，城際與跨境接駁多電話或 Viber 預約。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Driver calls on arrival"
+        }
+      ],
+      "must_have": [
+        "pickup_place",
+        "dropoff_place",
+        "time",
+        "party",
+        "for_whom",
+        "phone"
+      ],
+      "nice_to_have": [
+        "spec",
+        "question"
+      ],
+      "phone_booking": "yes",
+      "sensitive_asked": [],
+      "usually_asked": [
+        "Pickup address and time",
+        "Destination",
+        "Passengers, luggage",
+        "Phone"
+      ]
+    },
+    "property": {
+      "before_dialing_zh": "租屋多在 OLX、DIM.RIA 刊登，直接打給房東或仲介約看房。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ask_owner",
+          "what": "Agent commission and deposit"
+        }
+      ],
+      "must_have": [
+        "time",
+        "for_whom",
+        "phone",
+        "item"
+      ],
+      "nice_to_have": [
+        "reference_no",
+        "budget",
+        "question"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks passport and income"
+        }
+      ],
+      "usually_asked": [
+        "Which listing",
+        "Viewing time",
+        "Who will live there, pets",
+        "Phone"
+      ]
+    },
+    "government_school": {
+      "before_dialing_zh": "國家服務多走 Diia 或 ЦНАП（行政服務中心）線上排隊；學校、幼兒園電話只答一般問題。",
+      "for_whom_matters": true,
+      "may_come_up": [
+        {
+          "handle": "ai_can_answer",
+          "what": "Directs to Diia"
+        }
+      ],
+      "must_have": [
+        "question",
+        "for_whom"
+      ],
+      "nice_to_have": [
+        "time",
+        "item",
+        "reference_no"
+      ],
+      "phone_booking": "often",
+      "sensitive_asked": [
+        {
+          "handle": "owner_only",
+          "what": "Asks tax ID or document numbers"
+        }
+      ],
+      "usually_asked": [
+        "Which service",
+        "Who it is for",
+        "Application number"
+      ]
+    }
+  },
+  "how_owners_write": {
+    "uk": {
+      "appointment_words": [
+        "записатися на прийом",
+        "запис до лікаря",
+        "записатися на стрижку",
+        "на консультацію",
+        "запис на СТО"
+      ],
+      "booking_words": [
+        "забронювати столик",
+        "бронь",
+        "резерв",
+        "забронювати номер",
+        "столик на вечір"
+      ],
+      "change_words": [
+        "перенести запис",
+        "скасувати бронь",
+        "на пів години пізніше",
+        "перенести на п'ятницю",
+        "змінити час"
+      ],
+      "date": [
+        "завтра",
+        "післязавтра",
+        "в цю п'ятницю",
+        "наступного вівторка",
+        "25.11",
+        "25 листопада"
+      ],
+      "false_friends": [
+        "3 поверх",
+        "під'їзд 2",
+        "кв. 45",
+        "відділення №12",
+        "масаж 60 хв",
+        "маршрутка 8"
+      ],
+      "inquiry_words": [
+        "дізнатися ціну",
+        "чи є в наявності",
+        "до котрої працюєте",
+        "чи є генератор",
+        "оплата карткою?"
+      ],
+      "name": [
+        "на прізвище Шевченко",
+        "на ім'я Олена",
+        "Коваленко",
+        "родина Бондаренків",
+        "пан Мельник"
+      ],
+      "order_words": [
+        "замовлення на самовивіз",
+        "з собою",
+        "відкласти товар",
+        "передзамовлення",
+        "доставка Новою поштою"
+      ],
+      "party": [
+        "столик на 4",
+        "нас троє",
+        "на двох",
+        "2 дорослих і 1 дитина",
+        "5 осіб",
+        "компанія 8 людей"
+      ],
+      "phone": [
+        "067 12345678",
+        "+380 67 12345678",
+        "050 12345678",
+        "12345678"
+      ],
+      "time": [
+        "о 19:30",
+        "о пів на восьму",
+        "за п'ятнадцять восьма",
+        "на сьому вечора",
+        "о 12:00",
+        "зранку о 9"
+      ]
+    },
+    "ru": {
+      "appointment_words": [
+        "записаться на приём",
+        "запись к врачу",
+        "на маникюр",
+        "на консультацию",
+        "запись на СТО"
+      ],
+      "booking_words": [
+        "забронировать столик",
+        "бронь",
+        "резерв",
+        "забронировать номер",
+        "столик на вечер"
+      ],
+      "change_words": [
+        "перенести запись",
+        "отменить бронь",
+        "на полчаса позже",
+        "перенести на пятницу",
+        "поменять время"
+      ],
+      "date": [
+        "завтра",
+        "послезавтра",
+        "в эту пятницу",
+        "в следующий вторник",
+        "25.11"
+      ],
+      "false_friends": [
+        "3 этаж",
+        "подъезд 2",
+        "отделение №12",
+        "массаж 60 мин",
+        "кв. 45"
+      ],
+      "inquiry_words": [
+        "сколько стоит",
+        "есть в наличии?",
+        "до скольки работаете",
+        "есть генератор?",
+        "картой можно?"
+      ],
+      "name": [
+        "на фамилию Шевченко",
+        "на имя Елена",
+        "Коваленко",
+        "семья Бондаренко"
+      ],
+      "order_words": [
+        "на самовывоз",
+        "с собой",
+        "отложить",
+        "предзаказ",
+        "отправить Новой почтой"
+      ],
+      "party": [
+        "столик на 4",
+        "нас трое",
+        "на двоих",
+        "2 взрослых и ребёнок",
+        "5 человек"
+      ],
+      "phone": [
+        "067 12345678",
+        "+380 50 12345678",
+        "12345678"
+      ],
+      "time": [
+        "в 19:30",
+        "в половине восьмого",
+        "без пятнадцати восемь",
+        "к семи вечера",
+        "в 12:00"
+      ]
+    }
+  }
+}
