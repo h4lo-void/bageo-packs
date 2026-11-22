@@ -13,6 +13,7 @@ Also in `README.zh-TW.md` (繁體中文).
 - `art/<region>.json`: SVG mascot drawings for the 64 non-built-in regions, downloaded on demand by the console once a region is reviewed.
 - `scams/`: isolated country phone-scam intelligence (`country_scams.json` and `countries/<iso>.json` for 112 countries) plus extra-language scam keywords and own-matter phrases (`keywords.json`).
 - `voices/`: regional voice pack lines (`lines.json`) and release voice-pack manifest (`bageo-voices-index.json`).
+- `prompts/<language>.json`: reworded prompt texts, the words Bageo tells the AI during a call. Only the texts that should differ from the ones built into Bageo; see [prompts/README.md](prompts/README.md).
 - `source/`: English source strings, notes and `glossary.json`. Do not edit source text here (update in `bageo-call` first).
 - `templates/`: templates for adding or editing a region or language.
 

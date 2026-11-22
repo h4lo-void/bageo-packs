@@ -13,6 +13,7 @@ English: [README.md](README.md).
 - `art/<地區>.json`：64 區非內建八哥小動畫 SVG 資料，控制台在該區通過審閱後按需下載。
 - `scams/`：隔離出來的各國電信詐騙資料（`country_scams.json` 與 `countries/<國碼>.json`，共 112 國）與核心九語以外的詐騙／正常來電關鍵字（`keywords.json`）。
 - `voices/`：各地區語音包試聽／拒接台詞（`lines.json`）與語音包索引（`bageo-voices-index.json`）。
+- `prompts/<語言>.json`：改寫過的提示詞，也就是通話中 Bageo 交代 AI 的話。只放要跟 Bageo 內建不一樣的那幾段，見 [prompts/README.zh-TW.md](prompts/README.zh-TW.md)。
 - `source/`：英文原文、說明與固定用詞表（`glossary.json`）。請勿直接改這裡（原文由 `bageo-call` 同步）。
 - `templates/`：新增地區、語言或名稱檔的範本。
 
