@@ -6726,5 +6726,50 @@
     "where": "a button in the talk-style mascot box when a region's scene art is not downloaded yet. English: Download local scene",
     "who": "the owner",
     "placeholders": []
+  },
+  "ph_fit_untested": {
+    "where": "a line in the phone box of the console, shown for a phone that has not been tested. English: Call audio not tested yet: call this phone from another phone and talk to the AI for about 20 seconds. Bageo then adjusts it by itself.",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_adjusted": {
+    "where": "a line in the phone box of the console, shown after Bageo changed the settings itself. English: Call audio was adjusted automatically",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_problem": {
+    "where": "a line in the phone box of the console, shown when no setting worked. The quoted name is the title of a section in the guide. English: Call audio has a problem and all settings were tried. See “First use on a new phone” in the guide.",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_unsupported": {
+    "where": "a line in the phone box of the console, shown for a phone that cannot play the AI into a call. English: This phone cannot send the AI's voice into calls",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_ask": {
+    "where": "a question in the phone box of the console, answered with the Yes and No buttons. English: Did you hear the AI's voice on the last call?",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_yes": {
+    "where": "a button in the phone box of the console, the answer to whether the AI was heard. English: Yes",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_no": {
+    "where": "a button in the phone box of the console, the answer to whether the AI was heard. English: No",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_retest": {
+    "where": "a line in the phone box of the console, shown after Bageo picked other settings to try. English: Other call audio settings are ready. Call this phone again to test them.",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "ph_fit_noted": {
+    "where": "a line in the phone box of the console, shown after the owner said the AI was not heard. English: Noted: this phone's call audio has a problem",
+    "who": "the owner",
+    "placeholders": []
   }
 }
