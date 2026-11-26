@@ -385,6 +385,38 @@
       "status": "ai_checked",
       "back": "Transcript / recording"
     },
+    "notify.n_fit_adjusted": {
+      "status": "ai_checked",
+      "back": "Bageo itself adjusted the sound of calls. Now it works."
+    },
+    "notify.n_fit_failed_title": {
+      "status": "ai_checked",
+      "back": "Fault in the sound of calls"
+    },
+    "notify.n_fit_ok": {
+      "status": "ai_checked",
+      "back": "The sound of calls works well."
+    },
+    "notify.n_fit_problem": {
+      "status": "ai_checked",
+      "back": "The sound of calls has a fault and all settings have been tried. See “First use on a new phone” in the guide."
+    },
+    "notify.n_fit_result_title": {
+      "status": "ai_checked",
+      "back": "Result of the test of the sound of calls"
+    },
+    "notify.n_fit_test_body": {
+      "status": "ai_checked",
+      "back": "This phone has not yet been tested. Call it from another phone and speak with the AI for about 20 seconds. Then Bageo itself will adjust the sound of calls."
+    },
+    "notify.n_fit_test_title": {
+      "status": "ai_checked",
+      "back": "New phone: test the sound of calls"
+    },
+    "notify.n_fit_unsupported": {
+      "status": "ai_checked",
+      "back": "This phone cannot send the voice of the AI into calls."
+    },
     "notify.n_hidden": {
       "status": "ai_checked",
       "back": "Hidden number"
@@ -6072,6 +6104,42 @@
     "console.vp_working": {
       "status": "ai_checked",
       "back": "Downloading…"
+    },
+    "console.ph_fit_untested": {
+      "status": "ai_checked",
+      "back": "The sound of calls has not yet been tested: call this phone from another phone and speak with the AI for about 20 seconds. Then Bageo itself will adjust it."
+    },
+    "console.ph_fit_adjusted": {
+      "status": "ai_checked",
+      "back": "The sound of calls was adjusted automatically"
+    },
+    "console.ph_fit_problem": {
+      "status": "ai_checked",
+      "back": "The sound of calls has a fault and all settings have been tried. See “First use on a new phone” in the guide."
+    },
+    "console.ph_fit_unsupported": {
+      "status": "ai_checked",
+      "back": "This phone cannot send the voice of the AI into calls"
+    },
+    "console.ph_fit_ask": {
+      "status": "ai_checked",
+      "back": "Did you hear the voice of the AI in the last call?"
+    },
+    "console.ph_fit_yes": {
+      "status": "ai_checked",
+      "back": "Yes"
+    },
+    "console.ph_fit_no": {
+      "status": "ai_checked",
+      "back": "No"
+    },
+    "console.ph_fit_retest": {
+      "status": "ai_checked",
+      "back": "Other settings for the sound of calls are ready. Call this phone again to test them."
+    },
+    "console.ph_fit_noted": {
+      "status": "ai_checked",
+      "back": "Noted: the sound of calls of this phone has a fault"
     }
   }
 }

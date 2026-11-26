@@ -796,5 +796,45 @@
     "where": "task summary when a voicemail could not be transcribed",
     "who": "the owner",
     "placeholders": []
+  },
+  "n_fit_test_title": {
+    "where": "title of the notification sent when a new phone is connected and has not been tested",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_test_body": {
+    "where": "text of the notification sent when a new phone is connected and has not been tested",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_result_title": {
+    "where": "title of the notification with the result of the call audio test",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_failed_title": {
+    "where": "title of the notification sent when the call audio does not work",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_ok": {
+    "where": "text of the notification when the call audio test passed",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_adjusted": {
+    "where": "text of the notification when Bageo changed the settings and the test then passed",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_problem": {
+    "where": "text of the notification when no call audio setting worked. The quoted name is the title of a section in the guide",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_unsupported": {
+    "where": "text of the notification for a phone that cannot play the AI into a call",
+    "who": "the owner",
+    "placeholders": []
   }
 }
