@@ -44,8 +44,8 @@
           "hard": true
         }
       ],
-      "signals_en": "On 20 November 2025 Greenland Police said it was receiving many contacts from worried people who had been sent a mail purporting to be a summons from Interpol-Europol, the Danish national police and the national police commissioner. The mail claimed the recipient was a suspect in a serious case involving possession or sharing of sexual abuse material involving children. The Police stated plainly that these mails are fraud: they are sent by criminals who use extortion to try to obtain money. Recipients are told to delete the mail, not to enter into a dialogue with the sender, not to follow any links, and not to pay if money is demanded. The Police also said people who are unsure whether a mail is genuinely from them may contact Greenland Police through the official channels published on the Police site.",
-      "legit_en": "Greenland Police does not start a criminal case by sending an unsolicited mail that demands a payment or asks the recipient to follow a link in order to answer a summons. A genuine approach from the Police in Greenland can be checked on the official politi.gl channels, not by replying to the same message.",
+      "signals_en": "On 20 Nov 2025 Greenland Police warned of extortion emails pretending to be Interpol-Europol and Danish police summonses alleging child abuse material. Police say they are scams: delete them, do not reply, click links or pay.",
+      "legit_en": "Greenland Police do not open criminal cases with unsolicited emails demanding payment or link clicks to answer a summons. Verify any genuine Greenland police contact via official politi.gl channels, never by replying.",
       "bait_tactics": [
         "Do not reply, pay, or follow a link in a mail that claims to be a summons from Interpol-Europol or the Danish national police.",
         "Delete the message, and if certainty is still needed, contact Greenland Police only through a channel published on the official Police site.",
@@ -90,7 +90,7 @@
           "hard": false
         }
       ],
-      "signals_en": "On 11 November 2025 GrønlandsBANKEN said it had found a Danish Facebook profile using Nykredit's name and logo to offer cheap loans, and that the profile was aimed especially at people in Greenland. The bank stressed that neither Nykredit nor GrønlandsBANKEN will ever contact customers through social media, that personal or bank information should never be shared on Facebook, and that a fake page should be reported to Facebook and not followed through its links.",
+      "signals_en": "On 11 Nov 2025 GrønlandsBANKEN warned of a Danish Facebook profile using Nykredit's name and logo to pitch cheap loans in Greenland. Neither bank contacts customers on social media; never share data there or follow its links.",
       "legit_en": "A genuine loan from GrønlandsBANKEN or from Nykredit is not arranged through an unsolicited Facebook profile. Those banks, according to the Nuuk bank's notice, do not approach customers on social media to collect personal or account data.",
       "bait_tactics": [
         "Do not send personal or bank information to a Facebook profile that offers a loan, even if it uses a familiar Danish bank logo.",
@@ -118,26 +118,26 @@
         {
           "text": "we handle your compensation, send your details on Messenger",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "give your account number so the payout can be sent",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "share your MitID or SMS code in this chat",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "official compensation office wrote to you on Facebook",
           "weight": 2,
-          "hard": true
+          "hard": false
         }
       ],
-      "signals_en": "On 4 September 2026 GrønlandsBANKEN said it had become aware of fraud attempts aimed at people who may be covered by the compensation scheme in the contraception case known as Spiralsagen. It described a case in which a person was contacted via Messenger by someone claiming to represent that matter, and was asked for personal information and later for an account number. The bank noted that applications for compensation go through Patienterstatningen, and that an online application is made by logging in with MitID, along official routes on that board's website. It warned people not to share MitID data, MitID or SMS codes, passwords, a civil-registration number unless the recipient's identity is certain, or an account number in reply to an unsolicited approach, and to break off and contact the real authority through official details if in doubt. On 10 September 2026 Naalakkersuisut issued its own warning about fraud in connection with those compensation payments, including approaches via Messenger, and said that people who have applied will not be contacted via Messenger about their application, and should not hand over personal or sensitive information in such messages.",
-      "legit_en": "Naalakkersuisut has said that applicants are not contacted via Messenger about a compensation application. According to GrønlandsBANKEN, a genuine online application goes through Patienterstatningen with a MitID login on that board's official site, not through an unsolicited chat that then asks for an account number or a MitID code.",
+      "signals_en": "In Sep 2026 GrønlandsBANKEN and Naalakkersuisut warned of Messenger scammers posing as Spiralsagen compensation staff to steal personal data, account numbers and MitID/SMS codes. Real claims use Patienterstatningen with MitID online.",
+      "legit_en": "Naalakkersuisut confirms applicants are never contacted via Messenger about compensation. GrønlandsBANKEN notes real claims go through Patienterstatningen using MitID on its official site, not chats asking for account numbers or codes.",
       "bait_tactics": [
         "End an unsolicited Messenger or Facebook approach that claims to handle the compensation, and do not send personal data, a civil-registration number, an account number or a MitID or SMS code in that chat.",
         "If the person still needs to check a real application, use only the official Patienterstatningen route described by the bank, with MitID on that board's own site.",

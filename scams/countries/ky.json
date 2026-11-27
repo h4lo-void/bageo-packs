@@ -59,12 +59,12 @@
         {
           "text": "verify your transactions via this link",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "provide your banking details",
           "weight": 2,
-          "hard": true
+          "hard": false
         }
       ],
       "signals_en": "A text flags unusual activity on a local bank account and links to a fake verification page, or an audio-only call claims to be the bank or local police and asks for banking data.",

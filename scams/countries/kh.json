@@ -26,17 +26,17 @@
         {
           "text": "send money now, I am in an emergency",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "transfer through Bakong for the Bank",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "this official NBC account needs a donation",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "do not tell the rest of the family",
@@ -44,8 +44,8 @@
           "hard": false
         }
       ],
-      "signals_en": "The November 2025 NBC notice, as carried by Open Development Cambodia, says fraudsters are using the Bank's name, logo and pictures of its leadership to spread false information, and that common ruses include impersonating relatives or bank staff to request money transfers. Complementary press accounts of the Bank's warning add that cloned or stolen accounts on Telegram, Facebook and TikTok, as well as telephone calls, are used to claim an emergency and to push a transfer through a mobile-banking app, an e-wallet, or a banking agent.",
-      "legit_en": "The National Bank of Cambodia does not solicit donations, investments or emergency transfers through informal social-media accounts that display its logo or the faces of its officers. A genuine request from a relative should be confirmed on a known number or in person, not on a newly cloned Telegram or Facebook account.",
+      "signals_en": "NBC's Nov 2025 notice warns scammers use the Bank's name, logo and leadership photos or cloned Telegram, Facebook and TikTok accounts and calls to impersonate relatives or bank staff, claiming an emergency to push Bakong/wallet transfers.",
+      "legit_en": "The National Bank of Cambodia does not seek donations, investments or emergency transfers via informal social accounts showing its logo or officers. Verify relative requests on a known number or in person, not cloned chats.",
       "bait_tactics": [
         "Say the transfer will be made only after the supposed relative is reached on a number already stored by the household, not on the chat that made the request.",
         "If the message shows an NBC logo or a senior official's photograph, say the Bank's own published channels will be used to see whether such an appeal exists.",
@@ -90,8 +90,8 @@
           "hard": false
         }
       ],
-      "signals_en": "The same NBC public notice lists, among common scams, fake prizes or jobs that require advance payments, and attempts to persuade people to sell their bank accounts for a high fee. The Bank urged the public not to click unverified links or investment platforms, and not to transfer money, hand over personal details, or sell a bank account. Earlier Bank comments, as reported in 2024, had already flagged a Telegram account that falsely used an 'NBC Investment' label to promote unregulated trading in gold, currency and digital assets.",
-      "legit_en": "A licensed bank or the National Bank itself does not ask a member of the public to pay a fee to collect a prize or to start a job, and it does not buy private bank accounts. Selling or lending an account can draw the holder into illegal activity. Investment products should be checked through the Bank's official channels, not a Telegram handle that borrows its name.",
+      "signals_en": "NBC warns of fake prizes or jobs demanding upfront fees, offers to buy private bank accounts for high pay, and unverified investment links—including a 2024 fake 'NBC Investment' Telegram pitching gold, currency and crypto trading.",
+      "legit_en": "Licensed banks and the NBC never ask for upfront fees for prizes or jobs, and never buy private bank accounts (selling or lending one risks criminal liability). Verify investment offers via official Bank channels, not Telegram.",
       "bait_tactics": [
         "Refuse to pay an advance fee for a prize or a job that was offered only on social media.",
         "Say a bank account will not be sold, lent or handed to any buyer, whatever fee is promised.",

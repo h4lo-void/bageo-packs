@@ -44,12 +44,12 @@
           "hard": false
         }
       ],
-      "signals_en": "The FIU report says the first stage is a call or WhatsApp message from someone claiming to work for a known payment-service provider. The pretext is a locked, hacked or dormant wallet, a required upgrade, or a new account with added benefits. The caller may use a fake app link, a spoofed mail address, or bits of real personal information, and then asks for credentials and OTPs. The second stage is unauthorised control of the wallet and the funds in it. Red flags include being told to credit the wallet urgently, to ignore SMS notices, or to change personal account data on the spot.",
-      "legit_en": "A genuine payment-service provider in Guyana does not ask a customer, on an unexpected call or WhatsApp chat, to read out an OTP, install an unofficial app, or switch off the handset so that messages cannot be seen. A real account problem is handled inside the provider's official application or office, using details the customer already has.",
+      "signals_en": "Guyana's FIU reports callers or WhatsApp contacts pose as payment staff claiming a locked/dormant wallet or upgrade, using fake app links or partial personal data to steal logins and OTPs, then seizing funds and urging SMS be ignored.",
+      "legit_en": "A real payment provider in Guyana never asks on an unexpected call or WhatsApp chat for an OTP, an unofficial app install, or powering off your phone to hide SMS. Real issues are handled inside the official app or office.",
       "bait_tactics": [
         "Refuse to read out an OTP or access code on a WhatsApp call that the provider did not arrange.",
         "Say the wallet will be looked at only inside the official app or at a branch the customer already uses, not through a fresh download sent in the chat.",
-        "If the caller tells the person to ignore incoming SMS or to power off the phone, treat that instruction itself as a reason to hang up and contact the provider independently."
+        "Say the signal is breaking up and the verification text has not arrived yet, and ask the caller to repeat the wallet steps slowly while the battery finishes charging."
       ],
       "sources": [
         "https://fiu.gov.gy/wp-content/uploads/2025/10/Typology-Report-Account-Takeovers-Mobile-Payment-Services.pdf"
@@ -90,8 +90,8 @@
           "hard": false
         }
       ],
-      "signals_en": "CIRT.gy's 2024 alert, pointing to the Post Office's own scam notice, describes a text about a package waiting for pickup and a link to a site that resembles the official postal page but is not guypost.gy. The page asks for credit-card details to make a small payment. The Corporation has said those texts and mails are not its messages, and that its systems were not compromised.",
-      "legit_en": "The Guyana Post Office Corporation does not send texts that demand a card payment through a link in order to release a parcel. A genuine question about a package is made on guypost.gy or through the Corporation's listed contact path, not on a look-alike address supplied in a message.",
+      "signals_en": "CIRT.gy and the Guyana Post Office Corporation warn of texts about a waiting parcel linking to a lookalike site (not guypost.gy) that asks for credit-card details for a small fee. GPOC confirmed these messages are fake and uncompromised.",
+      "legit_en": "The Guyana Post Office Corporation does not send texts demanding a card payment via a link to release a parcel. Real parcel queries go through guypost.gy or listed GPOC contacts, never a lookalike link in a text.",
       "bait_tactics": [
         "Leave the link unopened and say any parcel question will be asked on the official Post Office site, typed in by hand.",
         "Ask which official tracking number the sender claims to hold, without entering a card number on a page that arrived by text.",

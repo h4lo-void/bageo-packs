@@ -1040,7 +1040,7 @@
             {
               "text": "pay a fee to release",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "claim your winnings",
@@ -2266,8 +2266,8 @@
               "hard": false
             }
           ],
-          "signals_en": "On 20 October 2023 the CBA warned of a fraudulent website posing as the financial supervisory authority of Aruba. It said the site was designed to trick visitors, especially people who had already been victims of fraud, into providing personal information such as emails, names and addresses, or into calling telephone numbers starting with the area code +284, which the Bank links to one-ring fraud. It noted that the domain was similar to the official CBA site and to the Aruban Financial Intelligence Unit site, and that warning signs include a site that claims to be an Aruban public authority yet talks about the financial stability of the United States, uses the wrong area code (+284 instead of +297), or uses a visiting address of another institution. The Bank tells people not to enter personal information unless they are sure they are on the legitimate site, and to contact the real authority directly if they are unsure.",
-          "legit_en": "The official site of the Centrale Bank van Aruba is the Bank's own published domain, and genuine Aruban official numbers use +297. The Bank and the FIU do not collect a fraud victim's details through a lookalike supervisor site, and they do not ask that person to call back on a +284 number.",
+          "signals_en": "On 20 Oct 2023 the CBA warned of a fake Aruban financial-supervisor site stealing emails, names and addresses (often from past fraud victims) or pushing +284 one-ring callbacks instead of +297, copying CBA/FIU domains and wrong addresses.",
+          "legit_en": "The Centrale Bank van Aruba's real site is its own published domain, and genuine Aruban official numbers use +297. Neither the CBA nor the FIU collects victim details via a lookalike site or asks for +284 callbacks.",
           "bait_tactics": [
             "Do not enter a name, address or email on a site that only resembles the CBA or the FIU, and do not call back a +284 number from that page.",
             "Check the address against the Bank's published domain, and raise any doubt through a contact route found on that official site, not through the lookalike page.",
@@ -2312,8 +2312,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The CBA warned the public about two fraudulent websites. The first, presenting itself as an Aruba Financial Services Commission, purported to be the single regulatory body for financial services in Aruba and used the Bank's own address and telephone numbers as its contact information; the British Virgin Islands Financial Services Commission and IOSCO had already issued alerts on that site. The second posed as a commercial bank and used the name of a former Aruban commercial bank. The CBA said it had reason to believe the two sites were linked or run by the same people, and that it had received reports that the first site had urged people to open an account on the second in order to invest, for example in securities or derivatives, or to receive a reimbursement of costs, and that some people had lost significant amounts of money. It urged the public not to click links related to those sites and not to enter personal information there.",
-          "legit_en": "The Centrale Bank van Aruba is the supervisor. A former bank's name on a new website, or a commission that merely copies the CBA's contact details, is not a licensed Aruban institution. A genuine refund or investment account is opened only with a firm that can be verified through official Aruban channels, not through an unsolicited lookalike site.",
+          "signals_en": "CBA warned of two linked scam sites: a fake Aruba Financial Services Commission copying CBA's address/numbers (also flagged by BVI FSC and IOSCO) and a fake former commercial bank urging victims to open accounts to invest or claim refunds.",
+          "legit_en": "Centrale Bank van Aruba is the supervisor; a former bank name or copied CBA contacts on a new site do not make it licensed. Genuine refund or investment accounts open only with firms verified via official Aruban channels.",
           "bait_tactics": [
             "Refuse to open an account or to send money for an investment or a reimbursement on a site that is not the customer's known bank or the CBA.",
             "Treat copied official contact details or the recycled name of a former bank as a warning sign, not as proof.",
@@ -2372,8 +2372,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The Åland fraud page says a common thread is that the person is talked into handing over money, personal data, or account and card details, and gets nothing of the kind that was promised, or a product that does not match what was offered. It also states that offenders sometimes pretend to be officials, including police. The Finnish national police pages give the same general warning about impersonation and say that if bank codes have already been given, the bank should be contacted first.",
-          "legit_en": "The Åland police tell people who have already sent money to contact that bank at once and then file a crime report, which can be done in the police e-service or at the station. They do not ask anyone, on an unexpected call, to read out bank codes or to move funds to an account the caller dictates.",
+          "signals_en": "Åland police warn of callers posing as officials or police to talk victims into sending money, personal data, or card/account codes for promised goods or services. Finnish police add that victims who shared bank codes should alert their bank first.",
+          "legit_en": "Åland police advise anyone who sent money to call their bank immediately and file a report at the station or via the police e-service. They never ask on an unexpected call for bank codes or transfers to another account.",
           "bait_tactics": [
             "Avsluta samtalet och gör en ev. anmälan via polisens nättjänst eller genom att gå till polisstationen, inte via det nummer som just visades i displayen.",
             "Säg att bankkoder, kortuppgifter eller en brådskande överföring aldrig lämnas till någon som ringer upp och säger sig vara myndighet.",
@@ -3972,7 +3972,7 @@
               "hard": true
             },
             {
-              "text": "code reçu par SMS",
+              "text": "code colis reçu par SMS",
               "weight": 2,
               "hard": true
             }
@@ -5081,17 +5081,17 @@
             {
               "text": "confirm your card security code",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "customer records wiped by a technical error",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "quote the three-digit code on the card",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "log in on this recovery site",
@@ -5099,7 +5099,7 @@
               "hard": false
             }
           ],
-          "signals_en": "WA ScamNet describes an out-of-the-blue email, text, social-media message or call that copies a bank or utility's branding, claims a foreign purchase or a lost customer file, and then asks the person to confirm a password, account number or card security code, sometimes on a look-alike web address.",
+          "signals_en": "WA ScamNet warns of unsolicited emails, texts, social messages or calls copying bank or utility branding, claiming a foreign purchase or lost file to demand passwords, account numbers or card security codes, often via lookalike links.",
           "legit_en": "Australian banks and the WA service do not ask Territory residents to hand over a card security code or password in an unexpected message. A real check starts from the organisation's published website or from WA ScamNet, not from the link in the message.",
           "bait_tactics": [
             "Say a Home Island or West Island household will only use the contact path printed by WA Consumer Protection for the Indian Ocean Territories.",
@@ -5731,17 +5731,17 @@
             {
               "text": "give your BSP PIN on WhatsApp",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "read the one-time passcode aloud",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "full card number and security code",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "join this Google Meet with the bank",
@@ -5749,8 +5749,8 @@
               "hard": false
             }
           ],
-          "signals_en": "CIFIU says scammers have been contacting BSP customers through WhatsApp and Google Meet, sometimes showing a bank logo, and may try other calling apps. The official advice is to end the session at once, because the voice could be recorded and later imitated, and never to hand over a password, PIN, one-time passcode or full card details. BSP does not use those apps to reach customers.",
-          "legit_en": "Bank of South Pacific in the Cook Islands does not contact customers on WhatsApp or calling apps. A genuine payments or fraud query goes through the bank's published support channels, and the bank will not ask for a password, PIN, one-time passcode or full card details in a chat.",
+          "signals_en": "CIFIU warns scammers contact BSP customers on WhatsApp and Google Meet (sometimes using a bank logo) to demand passwords, PINs, OTPs or card details, and may record voices to imitate them. BSP never uses calling apps to reach customers.",
+          "legit_en": "Bank of South Pacific Cook Islands never contacts customers on WhatsApp or calling apps. Real fraud or payment queries go through published bank channels and never ask for passwords, PINs, OTPs or full card details in chat.",
           "bait_tactics": [
             "End the WhatsApp or Google Meet session and say any bank query will be raised only through the official BSP Cook Islands channel, not through a calling app.",
             "Refuse to speak a PIN, a one-time passcode or a card number, and say the voice will not be recorded for a 'verification'.",
@@ -5796,8 +5796,8 @@
               "hard": false
             }
           ],
-          "signals_en": "BSP Cook Islands, with CIFIU, describes advance-fee fraud in which a person pays up front for a loan, investment, gift or community grant that never arrives. One published example is a Facebook advertisement promising that a small Cook Islands dollar deposit into a local 'agent' account will come back many times larger within a day, sometimes dressed up with scripted 'local' videos, altered bank-balance images, or names of well-known people.",
-          "legit_en": "A genuine Cook Islands bank or licensed lender does not ask for an upfront fee into a private 'agent' account before releasing a loan, prize or investment return, and has no need of crypto or gift cards. CIFIU tells the public to pause, verify independently, and report to the Police and the Unit.",
+          "signals_en": "BSP Cook Islands and CIFIU warn of advance-fee scams for loans, grants, gifts or investments, such as Facebook ads promising huge same-day payouts after a small NZD/CKD deposit to a local 'agent' account, using fake videos or celebrity names.",
+          "legit_en": "A real Cook Islands bank or licensed lender never demands an upfront fee into a private 'agent' account, crypto or gift cards before releasing a loan, prize or return. CIFIU advises pausing, verifying and reporting to Police.",
           "bait_tactics": [
             "Say the supposed return will be checked with CIFIU or the bank before any deposit is made into an agent account.",
             "Ask why a lawful payment would have to travel by crypto, a gift card or a personal 'agent' account rather than a published bank channel.",
@@ -6880,8 +6880,8 @@
               "hard": true
             }
           ],
-          "signals_en": "CBCS says fraudsters pose as experienced investment experts, actively recruit new participants on social media, add them to chat groups for so-called trading, and promote offers that sound too good to be true, including vaguely described products presented as free but meant to take money through a fraudulent scheme. It advises the public not to respond to investment opportunities from anyone who is not authorised by CBCS as an investment institution or securities broker, and to check the Bank's public register of supervised institutions.",
-          "legit_en": "A firm that may lawfully offer investments or securities brokerage in Curaçao appears on the CBCS register. A licensed institution does not need to recruit clients through an informal Facebook or WhatsApp trading group, and does not guarantee a high return in a short time.",
+          "signals_en": "CBCS warns fraudsters pose as expert advisers on social media, add targets to trading chat groups, and push too-good-to-be-true or 'free' products to steal funds. Only CBCS-authorised brokers on its public register may offer investments.",
+          "legit_en": "Firms lawfully offering investments or brokerage in Curaçao appear on the CBCS register. Licensed institutions do not recruit via informal Facebook or WhatsApp trading groups or guarantee high short-term returns.",
           "bait_tactics": [
             "Say any investment offer will be checked against the CBCS register of supervised institutions before money is sent.",
             "Refuse to join a trading chat or to pay for a supposedly free product, and ask for a licence number that can be verified on the Bank's site.",
@@ -6908,17 +6908,17 @@
             {
               "text": "your payout depends on recruiting others",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "returns with no clear source of income",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "pay an extra deposit in 72 hours or lose the account",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "crypto or e-wallet with no transparent valuation",
@@ -6926,8 +6926,8 @@
               "hard": false
             }
           ],
-          "signals_en": "In its 17 September 2026 notice CBCS pointed to programmes promoted on social media that used subscription-style participation, rewards for recruiting new participants, token-related incentives and several compensation levels, features it describes as common in pyramid schemes. It also flagged virtual or crypto assets and e-wallets offered without a clear regulatory status or valuation. In a 9 November 2026 consumer notice it said a named programme was requiring a further payment within 72 hours to verify an account, with a threat that the account and earlier funds could otherwise be lost; the Bank treated this as a serious warning sign that a pyramid-like structure may be under strain, and said an extra deposit does not guarantee that earlier money can be recovered. It advised people not to give in to short deadlines or threats, and to keep records of the messages and payments.",
-          "legit_en": "Raising funds from the public for collective investment, or offering certain virtual-asset services, requires authorisation from CBCS where the rules apply. A supervised institution does not make a client's existing balance depend on recruiting new participants, or on a rushed extra verification payment after the first deposit.",
+          "signals_en": "CBCS (Sep & Nov 2026) warned of social-media pyramid schemes with recruitment rewards, multi-level pay, and unapproved crypto/e-wallets, plus a scheme demanding an extra deposit within 72 hours to 'verify' an account or lose prior funds.",
+          "legit_en": "Collective investment and covered virtual-asset services require CBCS authorisation. Supervised firms never tie balances to recruiting new members or demand a rushed extra verification deposit after an initial payment.",
           "bait_tactics": [
             "Refuse a rushed extra payment that is said to be the only way to keep or unlock funds already sent.",
             "Ask whether the programme is on the CBCS register, and why income would depend on bringing in new participants or on an informal token wallet.",
@@ -6986,8 +6986,8 @@
               "hard": false
             }
           ],
-          "signals_en": "Scamwatch, which the National Anti-Scam Centre runs for Australia including the external territories, describes pitches that promise large, low-risk payouts, often through a fake trading site, a social-media 'romance baiting' chat moved onto a private app, an AI celebrity endorsement, or a later demand for a fee before funds can be withdrawn.",
-          "legit_en": "A lawful offer of financial advice in Australia, including Christmas Island, comes from a holder of an Australian financial services licence who can be looked up on ASIC registers. Real platforms do not invent a last-minute tax or release fee to unlock the client's own money.",
+          "signals_en": "NASC Scamwatch warns Australian territories of pitches promising large, low-risk payouts via fake trading sites, romance-baiting moved to private apps, AI celebrity endorsements, or later fees demanded before funds can be withdrawn.",
+          "legit_en": "Lawful financial advice in Australia and Christmas Island comes from an AFS-licensed holder verifiable on ASIC registers. Real platforms do not invent last-minute tax or release fees to unlock a client's own money.",
           "bait_tactics": [
             "Ask for the AFS licence number and say it will be verified on the ASIC registers, not on any site the caller sends.",
             "Refuse to move the discussion from a government or bank app onto WhatsApp, LINE or a private 'trading room'.",
@@ -9057,8 +9057,8 @@
               "hard": false
             }
           ],
-          "signals_en": "A video circulating on social and other digital channels appears to show the Reserve Bank Governor recommending an automatic trading product said to be run by the Bank. The Bank says the remarks were generated by AI, that it does not run or endorse such a platform, and that people fronting as agents may ask the viewer to open a link and hand over personal information, or may follow up by telephone.",
-          "legit_en": "The Reserve Bank of Fiji does not operate or endorse an automatic-trading product for the public, and it does not recruit investors through social-media videos or cold calls. A genuine enquiry about whether a scheme is approved goes to the Bank through the contact path published on rbf.gov.fj, not through a link or number attached to the clip.",
+          "signals_en": "An AI-generated video on social media falsely shows Fiji's Reserve Bank Governor endorsing an automated trading platform run by the Bank. RBF says it runs no such platform, and agents may follow up via links or calls to steal data.",
+          "legit_en": "The Reserve Bank of Fiji does not run or endorse public auto-trading platforms or recruit via social videos or cold calls. Verify scheme approvals directly via contacts published on rbf.gov.fj, not links on a clip.",
           "bait_tactics": [
             "Say any investment will be confirmed with the Reserve Bank using the contact details on its own website, not a link under the video.",
             "Ask the caller to name the licence or Companies Act approval the platform claims to hold, and decline to give personal details on the same call.",
@@ -9103,7 +9103,7 @@
               "hard": false
             }
           ],
-          "signals_en": "After an FCCC media release, the Reserve Bank warned that a Facebook operation called Elite Society, like other social-media investment invitations, is not approved by the Bank. Schemes that pool members' money for a promised benefit, without day-to-day control by those members, are managed investment schemes that must be approved under the Companies Act 2015.",
+          "signals_en": "Following an FCCC release, the Reserve Bank warned that Facebook scheme Elite Society and similar social-media investment groups lack RBF approval; pooling member funds without daily member control requires Companies Act 2015 approval.",
           "legit_en": "A lawful managed investment scheme in Fiji is one the Reserve Bank has approved. The Bank invites the public to ask it whether a social-media offer is legitimate before any money is paid into a Facebook group or to an unapproved promoter.",
           "bait_tactics": [
             "Say the Facebook offer will be referred to the Reserve Bank for a check on approval before any contribution is paid.",
@@ -9149,8 +9149,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The Consumer Council describes a call in which someone pretends to be from the Police Cybercrime Unit, says a mobile number was put on a list in error, and sends a link. A later call claims the person's bank account has been blocked and must be unblocked by handing over login credentials; the stolen access is then used to empty the account, and in the reported case the person's Facebook account was also taken over to ask friends for a mobile-wallet transfer.",
-          "legit_en": "The Consumer Council states that the Fiji Police Force and the Cybercrime Unit do not ask for login credentials, banking details or other personal information over the telephone, and do not tell people to follow a link. A real police matter is handled through official Police channels or, if needed, in person.",
+          "signals_en": "Consumer Council warns of callers posing as the Police Cybercrime Unit, claiming a number was mislisted and sending a link, then phoning again to say the bank account is blocked and demanding logins to empty it and hijack Facebook.",
+          "legit_en": "The Consumer Council notes Fiji Police and its Cybercrime Unit never request logins, banking details or personal info by phone, nor send links to follow. Real police matters use official Police channels or in-person visits.",
           "bait_tactics": [
             "End the unexpected call and say a Police matter will be taken up only at a published Fiji Police channel, never via a number or link supplied by the caller.",
             "Refuse to type a banking password or one-time code into a page that arrived during the call.",
@@ -9208,8 +9208,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The Office of the President advised the public that certain social-media accounts, pages and online content claiming affiliation with the President or the Office are not authorised official platforms. It had also seen misleading and potentially AI-generated content, including altered images, distorted versions of official seals or logos, fabricated announcements, and scam-related posts with inaccurate information and noticeable grammatical or spelling errors. It asked people to rely only on verified government channels, namely the official Office of the President Facebook page and the official government website, and to verify information before sharing it.",
-          "legit_en": "Official national announcements, statements, press releases and public updates from the Office of the President are published through that Office's official Facebook page and the official government website. A page that only looks official, or that uses a seal in a scam-related post, is not a government channel.",
+          "signals_en": "The FSM Office of the President warned of unauthorised social pages and potentially AI-generated posts using distorted seals, fake announcements and grammar errors for scams, urging reliance only on the official Facebook page and gov site.",
+          "legit_en": "Official announcements and press updates from the FSM Office of the President appear only on its verified Facebook page and the official government website. A page using a seal in a scam post is not official.",
           "bait_tactics": [
             "Do not treat a social-media page as official merely because it uses a presidential or national seal, and check the claim against the government's published site or the official Facebook page named in the announcement.",
             "Refuse any request in such a post for personal or banking information, or for a payment.",
@@ -9236,17 +9236,17 @@
             {
               "text": "a large sum is already waiting if you send your details",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "reply with your name, address, phone and account number",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "cash this cheque and pass the money on",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "unsolicited mail asking for a charitable donation",
@@ -9254,8 +9254,8 @@
               "hard": false
             }
           ],
-          "signals_en": "A 20 August 2010 FSM Information Services release quoted the Banking Commissioner and an assistant attorney general, and said the Banking Board, the National Police Financial Intelligence Unit and the Department of Justice had seen an increase in email crime aimed at getting enough personal information to steal money. The Unit listed warning signs that still describe the method in that notice: unsolicited or spam messages, links in such mail, mail from unknown people, promises of money, requests for personal or financial information, requests to cash a cheque from the sender, and requests for charitable donations. The National Police advised anyone who thought they had been a victim of an email crime to contact them. This entry is dated to that 2010 notice; it is not presented as a fresh 2026 case count.",
-          "legit_en": "A genuine incoming transfer or official payment in the FSM is not released only after a person answers an unexpected email with account and identity details, or cashes a cheque for a stranger. Unexpected offers of a large sum from an unknown sender should be treated as the government described: if it sounds too good to be true, it probably is.",
+          "signals_en": "An Aug 2010 FSM notice (Banking Board, Police FIU, DOJ) warned of email scams promising money to steal personal/bank data, flagging spam links, unknown senders, requests for account details, cheques to cash, or fake charity appeals.",
+          "legit_en": "A real transfer or official payment in the FSM never requires replying to an unexpected email with account/ID details or cashing a stranger's cheque. As the government noted, unsolicited windfalls too good to be true are scams.",
           "bait_tactics": [
             "Do not reply with identity or account details, and do not cash a cheque or collect a transfer just because an unexpected email promised a large sum.",
             "Ignore links in unsolicited mail, and check any real payment only through the customer's own bank or a known transfer office.",
@@ -9314,8 +9314,8 @@
               "hard": false
             }
           ],
-          "signals_en": "An unexpected text, sometimes with a well-known name or a number that looks local, urges the recipient to open a link quickly, update details or pay a fee. The official warning says many people have already given up personal numbers, card data, e-mail addresses or mailbox passwords, and that this is organised crime designed to create haste.",
-          "legit_en": "The joint notice states that banks, insurers, Posta, Samleikin and other authorities never ask customers to hand over secret or personal information in a text message. A genuine check is started by the person contacting the institution themselves, not by following the link in the message. A card can be blocked in netbank if the bank counter is closed.",
+          "signals_en": "An unexpected text with a familiar name or local-looking number urges the recipient to click a link, update details or pay a fee. Officials warn organised criminals use haste to steal personal numbers, card data, emails and passwords.",
+          "legit_en": "Banks, insurers, Posta, Samleikin and authorities never ask for secret or personal data via text. Real checks start when the customer contacts the institution directly—not via an SMS link—or blocks a card in netbank.",
           "bait_tactics": [
             "Læg røret på og ring selv til pengeinstituttet eller den myndighed, der siges at være afsender, via en kontaktvej du allerede kender, ikke via linket i sms'en.",
             "Sig at hemmelige oplysninger eller kort data aldrig afgives i en uventet sms, uanset hvilket navn der står som afsender.",
@@ -10405,8 +10405,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The caller says fraudulent activity has been seen on an account and tells the person to open online banking and confirm a one-time password to the caller. The RGP says no financial losses had been reported in that particular batch of calls, and that the display can be made to look as if it comes from a trusted firm.",
-          "legit_en": "The RGP states that banks already hold a customer's PIN, username, password and one-time password material, and will not telephone an existing customer to ask for those details. A genuine check is done by hanging up and contacting the bank in person or with details already on a card or official letter.",
+          "signals_en": "Caller claims fraud on an account and tells the victim to open online banking and read out a one-time password. RGP notes caller ID can be spoofed to resemble a trusted bank, even when no losses were reported in that specific batch.",
+          "legit_en": "RGP notes banks already hold customer PINs, usernames, passwords and OTPs and will not phone to ask for them. To verify, end the call and contact the bank in person or via details on a card or official letter.",
           "bait_tactics": [
             "End the call and ring the bank only on a number already printed on a card or a statement, not on the number that just appeared on the screen.",
             "Say that a one-time password, PIN or login secret is never spoken to an unsolicited caller, even if the display looks like a bank.",
@@ -10452,8 +10452,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The GFSC describes recent local cases in which the caller claims the person is already a victim of fraud and then asks for details that would let the caller take over the desktop and open a false website to start payments. A separate RGP notice has also warned about requests to install a remote-access tool such as Team Viewer.",
-          "legit_en": "Neither a Gibraltar bank nor the police will ask for login secrets or for remote control of a computer during an unexpected call, and they will not tell someone to send money to another account. The GFSC advice is to hang up and call back only with contact details from a statement or from the regulated-entities register on the Commission's own site.",
+          "signals_en": "GFSC warns of local calls claiming the victim was defrauded and seeking details to take over their desktop and open a fake payment site. A separate RGP alert also warns against requests to install remote-access tools like TeamViewer.",
+          "legit_en": "Neither Gibraltar banks nor the RGP ask for logins, remote desktop control, or transfers on an unexpected call. GFSC advises ending the call and ringing back only via a statement or its regulated-entities register.",
           "bait_tactics": [
             "Refuse any request to install a remote-access program or to open a site the caller dictates, and close the session if one has already been started.",
             "Say that the Royal Gibraltar Police and the banks do not take desktop control in an inbound fraud call, and that the matter can be reported through the police's own published route.",
@@ -10513,8 +10513,8 @@
               "hard": true
             }
           ],
-          "signals_en": "On 20 November 2025 Greenland Police said it was receiving many contacts from worried people who had been sent a mail purporting to be a summons from Interpol-Europol, the Danish national police and the national police commissioner. The mail claimed the recipient was a suspect in a serious case involving possession or sharing of sexual abuse material involving children. The Police stated plainly that these mails are fraud: they are sent by criminals who use extortion to try to obtain money. Recipients are told to delete the mail, not to enter into a dialogue with the sender, not to follow any links, and not to pay if money is demanded. The Police also said people who are unsure whether a mail is genuinely from them may contact Greenland Police through the official channels published on the Police site.",
-          "legit_en": "Greenland Police does not start a criminal case by sending an unsolicited mail that demands a payment or asks the recipient to follow a link in order to answer a summons. A genuine approach from the Police in Greenland can be checked on the official politi.gl channels, not by replying to the same message.",
+          "signals_en": "On 20 Nov 2025 Greenland Police warned of extortion emails pretending to be Interpol-Europol and Danish police summonses alleging child abuse material. Police say they are scams: delete them, do not reply, click links or pay.",
+          "legit_en": "Greenland Police do not open criminal cases with unsolicited emails demanding payment or link clicks to answer a summons. Verify any genuine Greenland police contact via official politi.gl channels, never by replying.",
           "bait_tactics": [
             "Do not reply, pay, or follow a link in a mail that claims to be a summons from Interpol-Europol or the Danish national police.",
             "Delete the message, and if certainty is still needed, contact Greenland Police only through a channel published on the official Police site.",
@@ -10559,7 +10559,7 @@
               "hard": false
             }
           ],
-          "signals_en": "On 11 November 2025 GrønlandsBANKEN said it had found a Danish Facebook profile using Nykredit's name and logo to offer cheap loans, and that the profile was aimed especially at people in Greenland. The bank stressed that neither Nykredit nor GrønlandsBANKEN will ever contact customers through social media, that personal or bank information should never be shared on Facebook, and that a fake page should be reported to Facebook and not followed through its links.",
+          "signals_en": "On 11 Nov 2025 GrønlandsBANKEN warned of a Danish Facebook profile using Nykredit's name and logo to pitch cheap loans in Greenland. Neither bank contacts customers on social media; never share data there or follow its links.",
           "legit_en": "A genuine loan from GrønlandsBANKEN or from Nykredit is not arranged through an unsolicited Facebook profile. Those banks, according to the Nuuk bank's notice, do not approach customers on social media to collect personal or account data.",
           "bait_tactics": [
             "Do not send personal or bank information to a Facebook profile that offers a loan, even if it uses a familiar Danish bank logo.",
@@ -10587,26 +10587,26 @@
             {
               "text": "we handle your compensation, send your details on Messenger",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "give your account number so the payout can be sent",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "share your MitID or SMS code in this chat",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "official compensation office wrote to you on Facebook",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
-          "signals_en": "On 4 September 2026 GrønlandsBANKEN said it had become aware of fraud attempts aimed at people who may be covered by the compensation scheme in the contraception case known as Spiralsagen. It described a case in which a person was contacted via Messenger by someone claiming to represent that matter, and was asked for personal information and later for an account number. The bank noted that applications for compensation go through Patienterstatningen, and that an online application is made by logging in with MitID, along official routes on that board's website. It warned people not to share MitID data, MitID or SMS codes, passwords, a civil-registration number unless the recipient's identity is certain, or an account number in reply to an unsolicited approach, and to break off and contact the real authority through official details if in doubt. On 10 September 2026 Naalakkersuisut issued its own warning about fraud in connection with those compensation payments, including approaches via Messenger, and said that people who have applied will not be contacted via Messenger about their application, and should not hand over personal or sensitive information in such messages.",
-          "legit_en": "Naalakkersuisut has said that applicants are not contacted via Messenger about a compensation application. According to GrønlandsBANKEN, a genuine online application goes through Patienterstatningen with a MitID login on that board's official site, not through an unsolicited chat that then asks for an account number or a MitID code.",
+          "signals_en": "In Sep 2026 GrønlandsBANKEN and Naalakkersuisut warned of Messenger scammers posing as Spiralsagen compensation staff to steal personal data, account numbers and MitID/SMS codes. Real claims use Patienterstatningen with MitID online.",
+          "legit_en": "Naalakkersuisut confirms applicants are never contacted via Messenger about compensation. GrønlandsBANKEN notes real claims go through Patienterstatningen using MitID on its official site, not chats asking for account numbers or codes.",
           "bait_tactics": [
             "End an unsolicited Messenger or Facebook approach that claims to handle the compensation, and do not send personal data, a civil-registration number, an account number or a MitID or SMS code in that chat.",
             "If the person still needs to check a real application, use only the official Patienterstatningen route described by the bank, with MitID on that board's own site.",
@@ -11151,12 +11151,12 @@
             {
               "text": "buy gift cards and send the code",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "meet to sign documents for your winnings",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
           "signals_en": "A caller says the owner won a large sum, drops the names of the Governor's office or Guam Homeland Security, and asks for gift-card codes or a meeting to sign papers.",
@@ -11251,12 +11251,12 @@
               "hard": false
             }
           ],
-          "signals_en": "The FIU report says the first stage is a call or WhatsApp message from someone claiming to work for a known payment-service provider. The pretext is a locked, hacked or dormant wallet, a required upgrade, or a new account with added benefits. The caller may use a fake app link, a spoofed mail address, or bits of real personal information, and then asks for credentials and OTPs. The second stage is unauthorised control of the wallet and the funds in it. Red flags include being told to credit the wallet urgently, to ignore SMS notices, or to change personal account data on the spot.",
-          "legit_en": "A genuine payment-service provider in Guyana does not ask a customer, on an unexpected call or WhatsApp chat, to read out an OTP, install an unofficial app, or switch off the handset so that messages cannot be seen. A real account problem is handled inside the provider's official application or office, using details the customer already has.",
+          "signals_en": "Guyana's FIU reports callers or WhatsApp contacts pose as payment staff claiming a locked/dormant wallet or upgrade, using fake app links or partial personal data to steal logins and OTPs, then seizing funds and urging SMS be ignored.",
+          "legit_en": "A real payment provider in Guyana never asks on an unexpected call or WhatsApp chat for an OTP, an unofficial app install, or powering off your phone to hide SMS. Real issues are handled inside the official app or office.",
           "bait_tactics": [
             "Refuse to read out an OTP or access code on a WhatsApp call that the provider did not arrange.",
             "Say the wallet will be looked at only inside the official app or at a branch the customer already uses, not through a fresh download sent in the chat.",
-            "If the caller tells the person to ignore incoming SMS or to power off the phone, treat that instruction itself as a reason to hang up and contact the provider independently."
+            "Say the signal is breaking up and the verification text has not arrived yet, and ask the caller to repeat the wallet steps slowly while the battery finishes charging."
           ],
           "sources": [
             "https://fiu.gov.gy/wp-content/uploads/2025/10/Typology-Report-Account-Takeovers-Mobile-Payment-Services.pdf"
@@ -11297,8 +11297,8 @@
               "hard": false
             }
           ],
-          "signals_en": "CIRT.gy's 2024 alert, pointing to the Post Office's own scam notice, describes a text about a package waiting for pickup and a link to a site that resembles the official postal page but is not guypost.gy. The page asks for credit-card details to make a small payment. The Corporation has said those texts and mails are not its messages, and that its systems were not compromised.",
-          "legit_en": "The Guyana Post Office Corporation does not send texts that demand a card payment through a link in order to release a parcel. A genuine question about a package is made on guypost.gy or through the Corporation's listed contact path, not on a look-alike address supplied in a message.",
+          "signals_en": "CIRT.gy and the Guyana Post Office Corporation warn of texts about a waiting parcel linking to a lookalike site (not guypost.gy) that asks for credit-card details for a small fee. GPOC confirmed these messages are fake and uncompromised.",
+          "legit_en": "The Guyana Post Office Corporation does not send texts demanding a card payment via a link to release a parcel. Real parcel queries go through guypost.gy or listed GPOC contacts, never a lookalike link in a text.",
           "bait_tactics": [
             "Leave the link unopened and say any parcel question will be asked on the official Post Office site, typed in by hand.",
             "Ask which official tracking number the sender claims to hold, without entering a card number on a page that arrived by text.",
@@ -12863,7 +12863,7 @@
               "hard": true
             },
             {
-              "text": "enter card details",
+              "text": "enter card details for parcel",
               "weight": 2,
               "hard": true
             }
@@ -14710,17 +14710,17 @@
             {
               "text": "send money now, I am in an emergency",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "transfer through Bakong for the Bank",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "this official NBC account needs a donation",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "do not tell the rest of the family",
@@ -14728,8 +14728,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The November 2025 NBC notice, as carried by Open Development Cambodia, says fraudsters are using the Bank's name, logo and pictures of its leadership to spread false information, and that common ruses include impersonating relatives or bank staff to request money transfers. Complementary press accounts of the Bank's warning add that cloned or stolen accounts on Telegram, Facebook and TikTok, as well as telephone calls, are used to claim an emergency and to push a transfer through a mobile-banking app, an e-wallet, or a banking agent.",
-          "legit_en": "The National Bank of Cambodia does not solicit donations, investments or emergency transfers through informal social-media accounts that display its logo or the faces of its officers. A genuine request from a relative should be confirmed on a known number or in person, not on a newly cloned Telegram or Facebook account.",
+          "signals_en": "NBC's Nov 2025 notice warns scammers use the Bank's name, logo and leadership photos or cloned Telegram, Facebook and TikTok accounts and calls to impersonate relatives or bank staff, claiming an emergency to push Bakong/wallet transfers.",
+          "legit_en": "The National Bank of Cambodia does not seek donations, investments or emergency transfers via informal social accounts showing its logo or officers. Verify relative requests on a known number or in person, not cloned chats.",
           "bait_tactics": [
             "Say the transfer will be made only after the supposed relative is reached on a number already stored by the household, not on the chat that made the request.",
             "If the message shows an NBC logo or a senior official's photograph, say the Bank's own published channels will be used to see whether such an appeal exists.",
@@ -14774,8 +14774,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The same NBC public notice lists, among common scams, fake prizes or jobs that require advance payments, and attempts to persuade people to sell their bank accounts for a high fee. The Bank urged the public not to click unverified links or investment platforms, and not to transfer money, hand over personal details, or sell a bank account. Earlier Bank comments, as reported in 2024, had already flagged a Telegram account that falsely used an 'NBC Investment' label to promote unregulated trading in gold, currency and digital assets.",
-          "legit_en": "A licensed bank or the National Bank itself does not ask a member of the public to pay a fee to collect a prize or to start a job, and it does not buy private bank accounts. Selling or lending an account can draw the holder into illegal activity. Investment products should be checked through the Bank's official channels, not a Telegram handle that borrows its name.",
+          "signals_en": "NBC warns of fake prizes or jobs demanding upfront fees, offers to buy private bank accounts for high pay, and unverified investment links—including a 2024 fake 'NBC Investment' Telegram pitching gold, currency and crypto trading.",
+          "legit_en": "Licensed banks and the NBC never ask for upfront fees for prizes or jobs, and never buy private bank accounts (selling or lending one risks criminal liability). Verify investment offers via official Bank channels, not Telegram.",
           "bait_tactics": [
             "Refuse to pay an advance fee for a prize or a job that was offered only on social media.",
             "Say a bank account will not be sold, lent or handed to any buyer, whatever fee is promised.",
@@ -14816,26 +14816,26 @@
             {
               "text": "confirm your password or PIN on this call",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "read the online purchase or security code aloud",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "open this link to reopen your locked account",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "move the money to another account to keep it safe",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
-          "signals_en": "ANZ's Kiribati fraud guide tells customers to be wary of unexpected phone calls that pretend to come from a legitimate organisation, and never to follow links or download attachments in unexpected emails, texts or social-media messages. It says not to reach internet banking by following a link, and to type the published Kiribati address in the browser instead. It also warns against sharing or confirming passwords, card details, internet-banking or app login data after an unexpected call or in a link, and describes phishing signs such as a push to pay a bill or verify details, a claim that the account is locked, texts from overseas numbers, and requests to confirm information that is said to have been stolen or to need updating. A companion Pacific guide for Kiribati says ANZ will not ask for a password, PIN or security code over the phone, will not request remote access, and will not leave a pre-recorded message with instructions, and that those secrets should not be given to anyone, including someone who claims to be bank staff or the Police.",
-          "legit_en": "A genuine ANZ query in Kiribati is not started by asking the customer to follow an unexpected link or to read out a password, PIN or one-time code. The bank's own guides say to hang up and call back on the number published by the organisation, and to report the approach to the bank and, where relevant, to the Police.",
+          "signals_en": "ANZ Kiribati guides warn against unexpected calls/texts posing as trusted bodies, overseas phishing links, claims of locked accounts or stolen data, and requests for passwords, PINs, card data, OTPs or remote access—even by fake Police.",
+          "legit_en": "A genuine ANZ query in Kiribati never starts with an unexpected link or request for passwords, PINs or OTPs. ANZ's guides advise ending the call, calling back on the published number, and reporting it to ANZ and Police.",
           "bait_tactics": [
             "Refuse to confirm a password, PIN, card number or one-time code, and say any real bank query can be raised only after hanging up and using the published ANZ Kiribati channel.",
             "Decline to follow a link in an unexpected text or email, and type the official Kiribati banking address only if the customer chooses to check the account.",
@@ -14881,8 +14881,8 @@
               "hard": true
             }
           ],
-          "signals_en": "The ANZ Kiribati fraud guide describes remote-access fraud in which someone phones, texts or emails to claim there is a problem with the internet connection, that the device needs maintenance, that the person is being hacked, or that unauthorised transactions have been seen and can be stopped. It says the caller may even offer a step-by-step walk-through, including logging into ANZ Internet Banking or the ANZ Pacific App, and tells customers never to give a stranger access to their devices. The Pacific Banking Safely Guide for Kiribati adds: do not let an unexpected caller talk you into installing software for remote access, even if they say they are from the Police, your phone company or the bank; hang up and call the organisation back on its listed number.",
-          "legit_en": "ANZ says it will not request remote access to a computer or phone. The Police or a phone company in Kiribati do not need a customer to install a remote-control tool after an unexpected call in order to protect a bank account. A real fault or fraud query is checked on the organisation's published number, not by handing over the screen.",
+          "signals_en": "ANZ Kiribati warns of callers/messages claiming a connection fault, maintenance need, hack or fraud, offering a walk-through of ANZ Internet Banking or the Pacific App to gain remote device access, even posing as Police or telcos.",
+          "legit_en": "ANZ will never ask for remote access to a computer or phone, and Kiribati Police or telcos do not need remote-control tools installed after a surprise call. Verify any fault or fraud alert via published official numbers.",
           "bait_tactics": [
             "Refuse to install remote-access software or to share the screen, even if the caller names the Police, a phone company or ANZ.",
             "End the call and, if the customer still wants to check, use only a number published by that organisation.",
@@ -15511,12 +15511,12 @@
             {
               "text": "verify your transactions via this link",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "provide your banking details",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
           "signals_en": "A text flags unusual activity on a local bank account and links to a fake verification page, or an audio-only call claims to be the bank or local police and asks for banking data.",
@@ -20224,17 +20224,17 @@
             {
               "text": "bank that is not on the APRA list",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "deposit outside the government safety net",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "insurance from an unlicensed operator",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "community scheme instead of an authorised ADI",
@@ -20242,8 +20242,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The Australian Government told Norfolk Island residents that some local financial activity may be run by operators who are not authorised under the Banking Act or the Insurance Act as they extend to the island. Money placed with those operators is not protected by the Financial Claims Scheme.",
-          "legit_en": "Lawful banking, general insurance and superannuation businesses on Norfolk Island must be authorised by APRA and appear in APRA's published licensing material. A genuine authorised deposit-taking institution does not need to ask a customer to move funds into an unofficial 'community bank' to keep the money safe.",
+          "signals_en": "The Australian Government warned Norfolk Island residents that some local financial operators lack authorisation under the Banking Act or Insurance Act, leaving money placed with them unprotected by the Financial Claims Scheme.",
+          "legit_en": "Lawful banking, general insurance and super firms on Norfolk Island must be APRA-authorised and listed on APRA's registers. Genuine authorised institutions never ask customers to move funds to an unofficial 'community bank'.",
           "bait_tactics": [
             "Ask for the institution's APRA authorisation and say the name will be read from APRA's own licensing pages, not from a flyer the caller supplies.",
             "Refuse to shift a deposit or premium into an informal island 'bank' or a privately run purse that cannot point to the Financial Claims Scheme.",
@@ -21076,7 +21076,7 @@
               "hard": false
             }
           ],
-          "signals_en": "Unsolicited mail, sometimes made to look as if it came from a known person or organisation, presses the recipient to follow an unfamiliar link, open an attachment, re-enter a password, or pay a fee. The official notice says several users have already been caught by this wave.",
+          "signals_en": "Unsolicited emails mimicking known people or organisations urge recipients to open unfamiliar links or attachments, re-enter passwords, or pay a fee. Niue's official notice warns several users have already been caught by this wave.",
           "legit_en": "Niue's government tells people not to follow the link or reply. A genuine check goes through Telecom Niue's ICT team or helpdesk using contact details the government has already published, not any address inside the suspicious message.",
           "bait_tactics": [
             "Leave the message unopened and ask Telecom Niue's ICT team, through the helpdesk route printed on the government notice, whether the sender is genuine.",
@@ -21914,8 +21914,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The central bank described offers, spread on WhatsApp, Facebook and Telegram, that promise extremely high returns in a very short time, such as turning a five-figure kina sum into a far larger payout within 28 hours, or returns on the order of several hundred percent. The promoters are not registered financial-service providers, give little explanation of how the money is used, press for early or larger payments, and ask for direct bank transfers. The Bank said these arrangements often work as Ponzi or pyramid schemes, and that it had not licensed any virtual-asset service provider or cryptocurrency investment platform.",
-          "legit_en": "A person who wants to place money with a financial-service provider in Papua New Guinea can check the provider's licence or registration with the Bank of PNG. A supervised firm does not promise overnight multi-fold profits, and a loss on an unlicensed scheme may leave the investor with no formal recourse.",
+          "signals_en": "Bank of PNG warned of WhatsApp, Facebook and Telegram schemes promising huge payouts within 28 hours or hundreds of percent via direct bank transfers. Unregistered promoters run Ponzi/pyramid schemes; BPNG has licensed no crypto VASPs.",
+          "legit_en": "Before placing money in Papua New Guinea, check the provider's licence with the Bank of PNG. Supervised firms never promise overnight multi-fold profits, and losses on unlicensed schemes may leave investors with no recourse.",
           "bait_tactics": [
             "Say the offer will be compared with the Bank of Papua New Guinea's licensed-institution lists before any kina is sent.",
             "Ask why a supervised investment would need a direct credit into an account named only in a WhatsApp group.",
@@ -21962,8 +21962,8 @@
               "hard": false
             }
           ],
-          "signals_en": "At a NICTA and DICT cyber-awareness event in October 2025, the Securities Commission set out tactics it sees in investment-scam complaints: websites with suspicious addresses, phishing links that appear in search results and ask for personal information, and unregulated trading applications that the person is urged to download and fund. The Commission said people still fall for these methods even after warnings from SCPNG and the Bank of PNG, and it urged people to confirm any promoter with both agencies first.",
-          "legit_en": "A genuine securities offer in Papua New Guinea can be checked with the Securities Commission and the Bank of PNG before any application is downloaded or any personal data is typed into a search-result page. Official agencies do not recruit investors through an unregulated app sent in a chat.",
+          "signals_en": "In Oct 2025 the Securities Commission (SCPNG) warned of suspicious investment sites, search-result phishing links stealing personal data, and unregulated trading apps urged for download and funding, advising checks with SCPNG and BPNG.",
+          "legit_en": "Verify any securities offer in Papua New Guinea with SCPNG and the Bank of PNG before downloading an app or entering personal data on a search link. Official agencies never recruit investors via unregulated chat apps.",
           "bait_tactics": [
             "Say the entity will be verified with the Securities Commission and the Bank of PNG before an app is installed.",
             "Refuse to type passwords or identity documents into a page that appeared as a search result or arrived in a message.",
@@ -23211,12 +23211,12 @@
             {
               "text": "send money for my emergency",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "pay a fee so the prize can be released",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "we should move to WhatsApp",
@@ -23229,8 +23229,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The official release says contact often starts with a friend request and frequent messages, that the person may refuse to meet or to do a video call, and that the request for money comes only after trust has been built. Families are asked to watch for unusual transfers or changes in an older relative's behaviour.",
-          "legit_en": "The FIU tells people not to accept friend requests from strangers, not to share personal or money information online, and not to send funds to someone they know only through a network. A genuine concern can be raised with family or reported to the Bureau of Public Safety or the Office of the Special Prosecutor through those offices' own published channels.",
+          "signals_en": "Palau's FIU reports romance scams start with stranger friend requests and frequent chats while refusing video calls or meetings, then ask for money once trust builds. Families should watch for odd transfers by older relatives.",
+          "legit_en": "Palau's FIU advises rejecting stranger friend requests, never sharing personal or money details online, and never sending funds to online-only contacts. Raise concerns with family, Bureau of Public Safety, or Special Prosecutor.",
           "bait_tactics": [
             "Do not send money, a remittance or account details to someone known only through a messaging app, and say no transfer will be made until the story has been checked with family or an official office in Palau.",
             "Ask why a video call or an in-person meeting is being refused, and offer to continue only after that check.",
@@ -23669,7 +23669,7 @@
             {
               "text": "appeler pour récupérer votre gain",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
           "signals_en": "A text announces a win and urges the owner to call a number or click a link that triggers premium charges.",
@@ -24373,8 +24373,8 @@
               "hard": false
             }
           ],
-          "signals_en": "SIFIU, via the Central Bank, says victims are approached on Facebook, WhatsApp or by telephone with a false job, grant, investment, romance or inheritance story, and are asked for bank details. They may then be told to put cash or a mobile transfer into another local account, whose holder is told to withdraw it and send it on. After several such hops, the money is taken from an account that the organiser can use with a Visa debit card that a resident has already posted abroad.",
-          "legit_en": "CBSI tells the public not to give bank details, or a Visa debit card, to someone met online. A genuine employer, bank or government office in the Solomon Islands does not ask a private person to receive unexplained deposits and pass them along, and doing so can amount to money laundering even if the holder was misled.",
+          "signals_en": "SIFIU/CBSI warn victims are lured on Facebook, WhatsApp or phone via fake jobs, grants, romance or inheritances to share bank details and hop cash/mobile transfers through local accounts until withdrawn abroad with a posted Visa debit.",
+          "legit_en": "CBSI warns never to give bank details or a Visa debit card to an online contact. Real Solomon Islands employers, banks or agencies never ask individuals to receive and forward unexplained deposits, which can be money laundering.",
           "bait_tactics": [
             "Refuse to hand over a Visa debit card or account details to anyone introduced only on Facebook or WhatsApp.",
             "Ask why cash would have to be taken out and then walked through several other local accounts if the payment were genuine.",
@@ -24419,8 +24419,8 @@
               "hard": false
             }
           ],
-          "signals_en": "CBSI announced that a Facebook account impersonating the sitting Governor had been created and was circulating. The Bank states that the Governor does not maintain a personalised official Facebook account that carries those profile pictures, and the public should not engage with, reply to, or add the fake profile.",
-          "legit_en": "Communications that truly come from CBSI go through the Bank's website, its official social-media pages, or its published office email, not a personal Facebook profile in the Governor's name. The Bank asked the public to report suspect accounts to the Bank or to local authorities.",
+          "signals_en": "CBSI warned that a fake Facebook profile impersonating the sitting Governor is circulating. The Bank states the Governor does not maintain a personal official Facebook account with those photos and urges the public not to engage or add it.",
+          "legit_en": "Genuine CBSI communications use the Bank's website, official social pages or published office email—never a personal Facebook profile in the Governor's name. Report suspect accounts to CBSI or local authorities.",
           "bait_tactics": [
             "Do not add or reply to a Facebook profile that claims to be the Governor; use only the Central Bank pages listed on cbsi.com.sb.",
             "If the profile asks for money or personal details, say the matter will be raised with the Bank through its published office channel.",
@@ -24465,7 +24465,7 @@
               "hard": false
             }
           ],
-          "signals_en": "The Royal Solomon Islands Police Force published a warning that a Gmail account bearing the Commissioner's name had been sent to some people, pressing them for an immediate response about a court decision or case file. The Commissioner said the address and the signature were wrong, and that this kind of mail might lead into a money scheme.",
+          "signals_en": "The Royal Solomon Islands Police Force warned of a Gmail account using the Commissioner's name demanding an urgent reply on a court decision or case file. The Commissioner noted the address and signature are fake and may precede fraud.",
           "legit_en": "A genuine RSIPF message does not arrive from an informal Gmail address in the Commissioner's name, and it does not demand money to influence a court or police file. The Force told the public to delete or ignore such mail.",
           "bait_tactics": [
             "Leave the Gmail unanswered and say any real police question will be checked at a Police station or through a published RSIPF channel.",
@@ -25376,8 +25376,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The caller claims to be from Økokrim, a police district or a bank, often with an apparently official display, and asks the person in Svalbard to share BankID, a password or other sensitive details, or to move money at once. Økokrim has said its own staff numbers have been misused in this way.",
-          "legit_en": "Politiet, Økokrim and the banks do not ask anyone, including residents of Longyearbyen, to read out a BankID code or to move funds to a 'safe account' during an unexpected call. A real check is started by the person hanging up and using the agency's official channel, or by contacting Sysselmesteren.",
+          "signals_en": "Caller poses as Økokrim, police or a bank—often spoofing official staff numbers—and presses people in Svalbard to share BankID, passwords or sensitive details, or to transfer money immediately.",
+          "legit_en": "Politiet, Økokrim and banks never ask anyone—including Longyearbyen residents—for BankID codes or 'safe account' transfers on an unexpected call. End the call and verify via official agency channels or Sysselmesteren.",
           "bait_tactics": [
             "Avslutt samtalen og slå opp Sysselmesteren eller banken på offisiell nettside, ikke på nummeret som vises i displayet.",
             "Si at BankID aldri oppgis på uanmeldt telefon, uansett hvem som ringer.",
@@ -26846,8 +26846,8 @@
               "hard": false
             }
           ],
-          "signals_en": "The Central Bank, in a warning carried by the state news agency TATOLI in January 2024, said scammers use Facebook, WhatsApp, Instagram, email and websites to dangle bogus jobs or to pose as a real firm promising a large sum, and then ask the person to send money first. The Bank published a list of 31 social-media accounts that had been spreading such scams, and told people not to send money to an unknown destination or to hand over bank, ATM or identity details.",
-          "legit_en": "A genuine employer or licensed firm in Timor-Leste does not require an advance membership fee or a prize 'release' payment into an unknown account, and does not ask for ATM, bank-card or identity details in a Facebook or WhatsApp chat. The Central Bank asked people who had already paid to come forward to the Bank.",
+          "signals_en": "In Jan 2024 Timor-Leste's Central Bank (via TATOLI) warned of scams on Facebook, WhatsApp, Instagram, email and web offering fake jobs or big prizes requiring upfront payment, listing 31 scam accounts seeking money, bank, ATM or ID data.",
+          "legit_en": "A real employer or licensed firm in Timor-Leste never charges an advance membership or prize-release fee into an unknown account, nor asks for ATM, card or ID details via Facebook or WhatsApp. BCTL asks victims to come forward.",
           "bait_tactics": [
             "Diga que qualquer pagamento só será considerado depois de confirmar, no sítio do Banco Central, se a entidade tem autorização.",
             "Recuse enviar dados do cartão, do ATM ou do bilhete de identidade através do Facebook ou do WhatsApp.",
@@ -26893,8 +26893,8 @@
               "hard": false
             }
           ],
-          "signals_en": "TATOLI, quoting the Central Bank's official page in January 2025, said illegal online lending, transfer and investment activity is typically not licensed by the Bank, is sold through SMS, WhatsApp and Facebook, offers easy terms and large sums, and asks for an administrative fee before anything is provided. Promoters may demand contact numbers, photographs, video, location data or personal documents, and may use intimidation if the person does not follow instructions. The Bank told people to delete or block such messages, even when they are written in Tetum, and to deal only with lawfully established institutions.",
-          "legit_en": "Borrowing, sending or investing money in Timor-Leste should go through an institution that holds a BCTL or other relevant authorisation, which the public is told to verify first. A licensed lender does not demand a preliminary administrative charge in a private chat, and does not collect identity documents under threat. The Bank directed people with a problem to the national police and to PCIC.",
+          "signals_en": "In Jan 2025 BCTL warned of unlicensed online loans, transfers and investments via SMS, WhatsApp and Facebook offering easy terms for an upfront admin fee, then demanding photos, videos, location or IDs—even in Tetum—using intimidation.",
+          "legit_en": "Borrowing, sending or investing in Timor-Leste must go through a BCTL-authorised firm verified first. Licensed lenders do not demand upfront admin fees in chat or collect IDs under threat. Report issues to national police and PCIC.",
           "bait_tactics": [
             "Diga que o crédito ou o investimento será confirmado junto de uma instituição já estabelecida em Timor-Leste, e não por SMS.",
             "Recuse pagar uma taxa administrativa antecipada ou enviar fotografias e documentos por WhatsApp.",
@@ -27161,26 +27161,26 @@
             {
               "text": "join this group, the return is guaranteed",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "move your crypto from the exchange into our app",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "pay a fee or tax before you can withdraw",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "bring in family or church members to earn more",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
-          "signals_en": "NRBT's 3 December 2025 notice described a fraudulent cryptocurrency platform circulated mainly on Facebook, impersonating a legitimate trading service and aimed at people in Tonga and in the Tongan diaspora. It listed fake platforms with fabricated profits, pressure to invest more, and blocked withdrawals followed by demands for extra taxes or withdrawal fees that still do not release the money, and it stressed that crypto payments have no legal protection and are not reversible. The 10 February 2026 joint notice with the FMA added that people are invited into investment groups on WhatsApp, Viber and similar apps, promised extremely high returns, and encouraged to recruit friends and family; they are then told to open a cryptocurrency exchange account, fund it from their bank, and move the crypto into a so-called trading account on a fake app that may also contain malware. Small early withdrawals can be used to build trust before a full withdrawal is blocked. The 21 April 2026 NRBT warning placed the same family of schemes in a wider rise of Ponzi and pyramid offers promoted through social media, messaging apps, community networks, churches, workplaces and family connections, which is an offence under the Banking Act 2020.",
-          "legit_en": "Taking funds from the public for investment or lending in Tonga is banking business and, under the Banking Act 2020, may be done only by a holder of an NRBT banking licence. A licensed institution does not require a customer to move money into an unofficial trading app, to recruit relatives, or to pay a fee before a withdrawal. Crypto payments, NRBT notes, have no such legal protection.",
+          "signals_en": "NRBT and FMA (2025-2026) warned of Facebook, WhatsApp and Viber crypto Ponzi/pyramid groups promising huge returns, recruitment bonuses and fake trading apps (some with malware), blocking withdrawals to demand extra taxes or fees.",
+          "legit_en": "Under Tonga's Banking Act 2020, taking public funds for investment or lending requires an NRBT banking licence. Licensed firms never mandate unofficial trading apps, recruiting relatives, or withdrawal fees; crypto lacks legal protection.",
           "bait_tactics": [
             "Refuse to download an unofficial trading app, to send crypto into it, or to pay a fee that is said to unlock a withdrawal.",
             "Ask whether the person or firm holds an NRBT banking licence, and why a lawful investment would need recruitment of family, church or workplace contacts.",
@@ -27209,17 +27209,17 @@
             {
               "text": "I love you, please send money for an emergency",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "pay a fee before the gift or package can be released",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "chip in as a partner in this business",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "leave Messenger and continue on WhatsApp or Viber",
@@ -27227,8 +27227,8 @@
               "hard": false
             }
           ],
-          "signals_en": "On 17 April 2026 NRBT alerted the public to a continued rise in romance scams. It listed red flags: strong feelings professed after only a few days or weeks; eventual requests for money for fake emergencies, medical bills, travel to visit, or a package or gift; repeated excuses for avoiding a meeting or a camera, often with a story of working overseas, for example on an oil rig, in the military or as a foreign businessperson; pressure to move from a safer messaging app such as Facebook Messenger to a private app such as WhatsApp or Viber; unusual payment methods including cryptocurrency, gift cards or unconventional wire transfers; an offer of a business partnership that requires the person to pay in; and a lavish gift that can be collected only after a fee is sent. It told the public not to send money, bank details or cards to someone met only online, not to share a passport or address, not to trust stories of high-value gifts, inheritances or secret investments, and not to trust caller ID, which can be made to look local. Victims are told to contact their bank at once and to file a report with the Tonga Police Cybercrime Unit.",
-          "legit_en": "A genuine relative, partner or business counterpart in or from Tonga does not need a fee in crypto or gift cards before a package can be released, and a bank will not ask a customer to send card details to someone known only from a short online courtship. NRBT says not to send money or personal documents to a person who has not been met in real life.",
+          "signals_en": "On 17 Apr 2026 NRBT warned of romance scams: fast love confessions, overseas worker stories avoiding cameras, pressure to move to WhatsApp/Viber, and requests for crypto or gift cards for emergencies, gifts, travel or business deals.",
+          "legit_en": "A genuine relative, partner or business contact in Tonga never demands crypto or gift cards to release a parcel, and banks never ask you to send card details to an online courtship contact. NRBT warns against sending money or IDs.",
           "bait_tactics": [
             "Refuse to send money, card details, a passport image or a fee for a gift, fare or medical story to someone who has not been met in person.",
             "Decline to move the conversation onto a private app solely at the other person's insistence, and treat a refusal to use a camera as a warning sign from the Bank's list.",
@@ -27255,17 +27255,17 @@
             {
               "text": "complete this TCC gift questionnaire with your bank details",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "Constitution Day prize if you open this unofficial link",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "enter internet-banking data to claim the telecom gift",
               "weight": 2,
-              "hard": true
+              "hard": false
             },
             {
               "text": "TCC branding on a page that is not the official telecom site",
@@ -27273,8 +27273,8 @@
               "hard": false
             }
           ],
-          "signals_en": "On 20 November 2026 NRBT warned the public about an online scam then circulating in Tonga on social media that fraudulently used the branding of Tonga Communications Corporation. The promotion was presented as a TCC Constitution Day Gifts questionnaire and claimed participants could win a cash gift. The Bank said the promotion was designed to collect personal and banking information, and that it had already affected a number of customers' bank accounts through internet banking. It urged the public not to follow suspicious links that may compromise a device or a messaging account, and said anyone who may have been reached or compromised should contact their own bank at once and also Tonga Police and the relevant authorities.",
-          "legit_en": "Tonga Communications Corporation does not need a customer's internet-banking details in a social-media questionnaire in order to run a genuine promotion. A real telecom or bank matter is raised through that institution's published channels, not through an unofficial prize form that carries a copied logo.",
+          "signals_en": "On 20 Nov 2026 NRBT warned of a social-media scam misusing Tonga Communications Corporation (TCC) branding as a Constitution Day cash-gift questionnaire to harvest personal and internet-banking data, already hitting several bank accounts.",
+          "legit_en": "Tonga Communications Corporation never needs customer internet-banking details in a social-media questionnaire for a real promotion. Genuine telecom or bank issues use published channels, not unofficial prize forms with copied logos.",
           "bait_tactics": [
             "Do not fill in a Constitution Day or telecom gift form that asks for personal or banking information, and do not follow the accompanying link.",
             "Treat copied TCC branding on a social-media post as a reason to stop, and check any real offer only on the telecom's own published site.",
@@ -29890,8 +29890,8 @@
               "hard": true
             }
           ],
-          "signals_en": "The Central Bank of Samoa describes a pattern in which a person is persuaded, often with a promise of a high commission or fast money, to give account details and then to act as a middleman. Separate third-party depositors, who are also being misled, are told to pay into that account; once the funds arrive they are transferred onward, usually overseas, which the Bank says is meant to hide the trail. The Bank and the Money Laundering Prevention Authority warn that knowingly accepting deposits and passing the money on may be a money-laundering offence under the Crimes Act 2013, and tell the public to consult their own financial institution before sharing account details or making such transfers. Suspicious reports are analysed and referred to the Samoa Police Service.",
-          "legit_en": "A licensed bank or money-transfer operator in Samoa does not ask a private customer to collect other people's deposits and then send them on for a commission. A genuine query about a credit or a compliance check is raised through the institution's published channels, not through an unsolicited WhatsApp or Facebook approach.",
+          "signals_en": "Central Bank of Samoa warns people are offered fast money or commission to lend bank accounts as middlemen: misled third parties deposit funds that are wired onward overseas. CBS and MLPA warn this may be money laundering under Crimes Act.",
+          "legit_en": "Licensed banks and money-transfer operators in Samoa never ask customers to collect third-party deposits and forward them for a commission. Raise real credit or compliance queries via published channels, not WhatsApp or Facebook.",
           "bait_tactics": [
             "Refuse to lend the account or to accept deposits for someone met only online, and say any unusual credit will be raised first with the customer's own bank in Samoa.",
             "Ask why a lawful payment would have to pass through a private account and then leave the country the same day.",
@@ -29936,8 +29936,8 @@
               "hard": true
             }
           ],
-          "signals_en": "The Central Bank of Samoa says people may be approached through WhatsApp or Facebook with supposed prizes, investment opportunities or fast-money deals, often using emotional pressure, urgency and false promises. A longer scams page on the Bank's site also warns that residents are being led to expect large sums from unknown sources reached by internet, email or mobile phone. SamCERT, the national computer emergency team, separately advises caution about unsolicited investment offers, phishing messages and requests that appear to come from a bank, and says reports can be made to SamCERT and to the Police Cybercrime Unit.",
-          "legit_en": "A genuine investment, prize or bank payment in Samoa is not released only after a private chat on WhatsApp or Facebook, and a licensed institution does not need a customer to send passwords, codes or full account details in that chat. The Bank tells the public to speak to their own financial institution first.",
+          "signals_en": "Central Bank of Samoa warns of WhatsApp/Facebook prizes, investments and fast-money deals using urgency and pressure, plus emails/calls promising large unknown sums. SamCERT also warns of phishing and fake bank messages.",
+          "legit_en": "Genuine investments, prizes or bank payments in Samoa are never released only after a private WhatsApp or Facebook chat, and licensed firms never ask for passwords, codes or full account details there. Speak to your own bank first.",
           "bait_tactics": [
             "Decline to send banking details or codes in a social-media chat, and say the offer will be checked with the customer's bank or the Central Bank before any money moves.",
             "Ask for a published licence or a callback through the institution's official number, rather than continuing in the same thread.",
@@ -30289,7 +30289,7 @@
             {
               "text": "transmettre le code reçu",
               "weight": 2,
-              "hard": true
+              "hard": false
             }
           ],
           "signals_en": "A message claims a La Poste contest win or parcel fee and asks for card data or a code received by text.",

@@ -44,8 +44,8 @@
           "hard": false
         }
       ],
-      "signals_en": "The caller says fraudulent activity has been seen on an account and tells the person to open online banking and confirm a one-time password to the caller. The RGP says no financial losses had been reported in that particular batch of calls, and that the display can be made to look as if it comes from a trusted firm.",
-      "legit_en": "The RGP states that banks already hold a customer's PIN, username, password and one-time password material, and will not telephone an existing customer to ask for those details. A genuine check is done by hanging up and contacting the bank in person or with details already on a card or official letter.",
+      "signals_en": "Caller claims fraud on an account and tells the victim to open online banking and read out a one-time password. RGP notes caller ID can be spoofed to resemble a trusted bank, even when no losses were reported in that specific batch.",
+      "legit_en": "RGP notes banks already hold customer PINs, usernames, passwords and OTPs and will not phone to ask for them. To verify, end the call and contact the bank in person or via details on a card or official letter.",
       "bait_tactics": [
         "End the call and ring the bank only on a number already printed on a card or a statement, not on the number that just appeared on the screen.",
         "Say that a one-time password, PIN or login secret is never spoken to an unsolicited caller, even if the display looks like a bank.",
@@ -91,8 +91,8 @@
           "hard": false
         }
       ],
-      "signals_en": "The GFSC describes recent local cases in which the caller claims the person is already a victim of fraud and then asks for details that would let the caller take over the desktop and open a false website to start payments. A separate RGP notice has also warned about requests to install a remote-access tool such as Team Viewer.",
-      "legit_en": "Neither a Gibraltar bank nor the police will ask for login secrets or for remote control of a computer during an unexpected call, and they will not tell someone to send money to another account. The GFSC advice is to hang up and call back only with contact details from a statement or from the regulated-entities register on the Commission's own site.",
+      "signals_en": "GFSC warns of local calls claiming the victim was defrauded and seeking details to take over their desktop and open a fake payment site. A separate RGP alert also warns against requests to install remote-access tools like TeamViewer.",
+      "legit_en": "Neither Gibraltar banks nor the RGP ask for logins, remote desktop control, or transfers on an unexpected call. GFSC advises ending the call and ringing back only via a statement or its regulated-entities register.",
       "bait_tactics": [
         "Refuse any request to install a remote-access program or to open a site the caller dictates, and close the session if one has already been started.",
         "Say that the Royal Gibraltar Police and the banks do not take desktop control in an inbound fraud call, and that the matter can be reported through the police's own published route.",

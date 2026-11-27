@@ -44,8 +44,8 @@
           "hard": false
         }
       ],
-      "signals_en": "The Office of the President advised the public that certain social-media accounts, pages and online content claiming affiliation with the President or the Office are not authorised official platforms. It had also seen misleading and potentially AI-generated content, including altered images, distorted versions of official seals or logos, fabricated announcements, and scam-related posts with inaccurate information and noticeable grammatical or spelling errors. It asked people to rely only on verified government channels, namely the official Office of the President Facebook page and the official government website, and to verify information before sharing it.",
-      "legit_en": "Official national announcements, statements, press releases and public updates from the Office of the President are published through that Office's official Facebook page and the official government website. A page that only looks official, or that uses a seal in a scam-related post, is not a government channel.",
+      "signals_en": "The FSM Office of the President warned of unauthorised social pages and potentially AI-generated posts using distorted seals, fake announcements and grammar errors for scams, urging reliance only on the official Facebook page and gov site.",
+      "legit_en": "Official announcements and press updates from the FSM Office of the President appear only on its verified Facebook page and the official government website. A page using a seal in a scam post is not official.",
       "bait_tactics": [
         "Do not treat a social-media page as official merely because it uses a presidential or national seal, and check the claim against the government's published site or the official Facebook page named in the announcement.",
         "Refuse any request in such a post for personal or banking information, or for a payment.",
@@ -72,17 +72,17 @@
         {
           "text": "a large sum is already waiting if you send your details",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "reply with your name, address, phone and account number",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "cash this cheque and pass the money on",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "unsolicited mail asking for a charitable donation",
@@ -90,8 +90,8 @@
           "hard": false
         }
       ],
-      "signals_en": "A 20 August 2010 FSM Information Services release quoted the Banking Commissioner and an assistant attorney general, and said the Banking Board, the National Police Financial Intelligence Unit and the Department of Justice had seen an increase in email crime aimed at getting enough personal information to steal money. The Unit listed warning signs that still describe the method in that notice: unsolicited or spam messages, links in such mail, mail from unknown people, promises of money, requests for personal or financial information, requests to cash a cheque from the sender, and requests for charitable donations. The National Police advised anyone who thought they had been a victim of an email crime to contact them. This entry is dated to that 2010 notice; it is not presented as a fresh 2026 case count.",
-      "legit_en": "A genuine incoming transfer or official payment in the FSM is not released only after a person answers an unexpected email with account and identity details, or cashes a cheque for a stranger. Unexpected offers of a large sum from an unknown sender should be treated as the government described: if it sounds too good to be true, it probably is.",
+      "signals_en": "An Aug 2010 FSM notice (Banking Board, Police FIU, DOJ) warned of email scams promising money to steal personal/bank data, flagging spam links, unknown senders, requests for account details, cheques to cash, or fake charity appeals.",
+      "legit_en": "A real transfer or official payment in the FSM never requires replying to an unexpected email with account/ID details or cashing a stranger's cheque. As the government noted, unsolicited windfalls too good to be true are scams.",
       "bait_tactics": [
         "Do not reply with identity or account details, and do not cash a cheque or collect a transfer just because an unexpected email promised a large sum.",
         "Ignore links in unsolicited mail, and check any real payment only through the customer's own bank or a known transfer office.",
