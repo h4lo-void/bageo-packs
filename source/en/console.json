@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "source": "a1a43f5",
+  "source": "eec327d",
   "strings": {
     "a2hs_android": "Android: Chrome menu ⋮ → Add to Home screen.",
     "a2hs_desktop": "Computer: the install icon at the right of the address bar (Chrome, Edge).",
@@ -385,6 +385,9 @@
     "end_normal": "The AI answered and talked, and the call ended normally.",
     "end_spam": "Judged a sales or scam call, so the AI kept the caller talking to waste their time.",
     "end_voicemail": "The AI failed and the call went to voicemail.",
+    "er_abroad_body": "The SIM you picked is from {sim}, but the number is in {dest}. Your carrier may charge for an international call.",
+    "er_abroad_ok": "Call anyway",
+    "er_abroad_title": "This is an international call",
     "er_ans_absent": "You weren't there, no answer",
     "er_ans_timeout": "No answer in time",
     "er_as_assistant": "As assistant",
@@ -413,6 +416,7 @@
     "er_err_not_found": "That errand or contact no longer exists.",
     "er_err_not_on_call": "The call has ended, so the AI can't pass this on.",
     "er_err_question_closed": "That question was already answered or has timed out.",
+    "er_err_sim_other_country": "This SIM is from a different country than the number.",
     "er_err_sim_unknown": "This phone hasn't taken a call yet, so the system doesn't know which SIMs it has. Call it once, then try again.",
     "er_err_task_too_long": "That's too long: at most 1,000 characters.",
     "er_err_text_too_long": "That's too long. Please shorten it.",
