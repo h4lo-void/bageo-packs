@@ -151,6 +151,14 @@
     "vm_no_reply": "Geen antwoord nodig (alleen een bericht)",
     "vm_no_transcript": "Een bericht van ongeveer {}; het kon niet worden getranscribeerd. Luister naar de opname",
     "vm_task_failed": "Voicemail (kon niet worden getranscribeerd; moet bekeken worden)"
+,
+    "h_ai_fail_announced": "de AI kon geen verbinding maken; de beller hoorde de melding dat je niet bereikbaar was en toen werd de oproep beëindigd",
+    "h_urgent_scam_words": "de beller zei dat het dringend was, maar zei ook dingen die alleen oplichters zeggen (zoals om een code of geldovermaking vragen), dus de telefoon heeft de eigenaar niet gebeld; het nummer kan nep zijn, dus het punt onder “Te doen” is: terugbellen op het nummer dat de eigenaar heeft opgeslagen om te controleren, en nooit een code geven of geld sturen",
+    "s_ai_fail_matter_played": "De AI kon niet starten; na ongeveer {} hoorde de beller de melding dat je niet bereikbaar was en eindigde de oproep",
+    "s_ai_fail_todo_key": "Voer een geldige Gemini-sleutel in in de console",
+    "s_ai_fail_todo_quota": "Controleer het quotum in Google AI Studio, of wissel de sleutel in de console",
+    "s_ai_fail_why_key": "De Gemini-sleutel is ongeldig",
+    "s_ai_fail_why_quota": "Gemini-quotum op of uitgavenlimiet bereikt"
   },
   "lists": {
     "ap_weekdays": [

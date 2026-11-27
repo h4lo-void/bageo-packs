@@ -150,7 +150,14 @@
     "vm_no_choice": "Inget svarssätt valdes (samtalet tog slut tidigare)",
     "vm_no_reply": "Inget svar behövs (bara ett meddelande)",
     "vm_no_transcript": "Ett meddelande på ungefär {}; det gick inte att transkribera. Lyssna på inspelningen",
-    "vm_task_failed": "Röstmeddelande (kunde inte transkriberas; behöver ses över)"
+    "vm_task_failed": "Röstmeddelande (kunde inte transkriberas; behöver ses över)",
+    "h_ai_fail_announced": "AI:n kunde inte ansluta; den som ringde hörde meddelandet om att numret inte nås och samtalet avslutades",
+    "h_urgent_scam_words": "den som ringde sa att det var brådskande men sa också saker som bara bedragare säger (till exempel bad om en kod eller en penningöverföring), så telefonen ringde inte upp ägaren; numret kan vara falskt, så uppgiften är att ringa tillbaka till numret som ägaren har sparat för att kontrollera, och aldrig lämna ut en kod eller skicka pengar",
+    "s_ai_fail_matter_played": "AI:n kunde inte starta; efter cirka {} hörde den som ringde meddelandet om att numret inte nås och samtalet avslutades",
+    "s_ai_fail_todo_key": "Ange en giltig Gemini-nyckel i kontrollpanelen",
+    "s_ai_fail_todo_quota": "Kontrollera kvoten i Google AI Studio eller byt nyckel i kontrollpanelen",
+    "s_ai_fail_why_key": "Gemini-nyckeln är inte giltig",
+    "s_ai_fail_why_quota": "Gemini-kvoten slut eller utgiftstaket nått"
   },
   "lists": {
     "ap_weekdays": [

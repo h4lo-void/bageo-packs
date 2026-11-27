@@ -150,7 +150,14 @@
     "vm_no_choice": "No s'ha triat mètode de resposta (la trucada ha acabat aviat)",
     "vm_no_reply": "No cal resposta (només deixar missatge)",
     "vm_no_transcript": "Missatge d'uns {}; no s'ha pogut transcriure. Escolta la gravació",
-    "vm_task_failed": "Bústia de veu (no s'ha pogut transcriure; cal revisar)"
+    "vm_task_failed": "Bústia de veu (no s'ha pogut transcriure; cal revisar)",
+    "h_ai_fail_announced": "L'AI no s'ha pogut connectar; qui trucava ha sentit el missatge de no disponible i la trucada s'ha acabat",
+    "h_urgent_scam_words": "qui trucava ha dit que era urgent, però també ha dit coses que només diuen els estafadors (com demanar un codi o un enviament de diners), així que el telèfon no us ha trucat; el número pot ser fals, així que torneu la trucada al número que teniu desat per comprovar-ho, i no doneu mai cap codi ni envieu diners",
+    "s_ai_fail_matter_played": "L'AI no ha pogut començar; després d'uns {} qui trucava ha sentit el missatge de no disponible i la trucada s'ha acabat",
+    "s_ai_fail_todo_key": "Introduïu una clau de Gemini vàlida a la consola",
+    "s_ai_fail_todo_quota": "Comproveu la quota a Google AI Studio o canvieu la clau a la consola",
+    "s_ai_fail_why_key": "La clau de Gemini no és vàlida",
+    "s_ai_fail_why_quota": "Quota de Gemini exhaurida o límit de despesa assolit"
   },
   "lists": {
     "ap_weekdays": [

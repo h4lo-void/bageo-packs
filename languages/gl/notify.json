@@ -150,7 +150,14 @@
     "vm_no_choice": "Non escolleu método de resposta (a chamada rematou cedo)",
     "vm_no_reply": "Non cómpre resposta (só deixar mensaxe)",
     "vm_no_transcript": "Mensaxe duns {}; non se puido transcribir. Escoite a gravación",
-    "vm_task_failed": "Caixa de voz (non se puido transcribir; cómpre revisar)"
+    "vm_task_failed": "Caixa de voz (non se puido transcribir; cómpre revisar)",
+    "h_ai_fail_announced": "A AI non puido conectarse; quen chamaba escoitou a mensaxe de non dispoñible e despois colgouse a chamada",
+    "h_urgent_scam_words": "quen chamaba dixo que era urxente pero tamén dixo cousas que só din os estafadores (como pedir un código ou unha transferencia de diñeiro), así que o teléfono non chamou ao propietario; o número pode ser falso, así que a tarefa pendente é devolverlle a chamada ao número que o propietario gardou para comprobalo, e nunca dar un código nin enviar diñeiro",
+    "s_ai_fail_matter_played": "A AI non puido arrincar; tras uns {} quen chamaba escoitou a mensaxe de non dispoñible e a chamada rematou",
+    "s_ai_fail_todo_key": "Introduza unha chave de Gemini válida na consola",
+    "s_ai_fail_todo_quota": "Comprobe a cota en Google AI Studio ou cambie a chave na consola",
+    "s_ai_fail_why_key": "A chave de Gemini non é válida",
+    "s_ai_fail_why_quota": "Esgotouse a cota de Gemini ou acadouse o límite de gasto"
   },
   "lists": {
     "ap_weekdays": [

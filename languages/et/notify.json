@@ -149,7 +149,14 @@
     "vm_no_choice": "Vastamise viisi ei valitud (kõne lõppes vara)",
     "vm_no_reply": "Vastust pole vaja (ainult teade)",
     "vm_no_transcript": "Teade pikkusega umbes {}; transkribeerimine ebaõnnestus. Kuula salvestist",
-    "vm_task_failed": "Kõnepost (transkribeerimine ebaõnnestus; vajab ülevaatamist)"
+    "vm_task_failed": "Kõnepost (transkribeerimine ebaõnnestus; vajab ülevaatamist)",
+    "h_ai_fail_announced": "AI ei saanud ühendust; helistaja kuulis teadet „pole saadaval“ ja kõne lõpetati",
+    "h_urgent_scam_words": "helistaja ütles, et asi on kiire, aga ütles ka asju, mida ütlevad ainult petised (näiteks küsis koodi või rahaülekannet), seega telefon sulle ei helistanud; number võib olla võltsitud, seega helista kontrollimiseks tagasi salvestatud numbrile ja ära kunagi anna koodi ega saada raha",
+    "s_ai_fail_matter_played": "AI ei saanud käivituda; umbes {} pärast kuulis helistaja teadet „pole saadaval“ ja kõne lõppes",
+    "s_ai_fail_todo_key": "Sisesta konsooli kehtiv Gemini võti",
+    "s_ai_fail_todo_quota": "Kontrolli kvooti Google AI Studios või vaheta konsoolis võtit",
+    "s_ai_fail_why_key": "Gemini võti pole kehtiv",
+    "s_ai_fail_why_quota": "Gemini kvoot on otsas või kulupiir on täis"
   },
   "lists": {
     "ap_weekdays": [

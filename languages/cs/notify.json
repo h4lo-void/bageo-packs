@@ -150,7 +150,14 @@
     "vm_no_choice": "Nevybrán žádný způsob odpovědi (hovor skončil dřív)",
     "vm_no_reply": "Odpověď není potřeba (jen vzkaz)",
     "vm_no_transcript": "Vzkaz dlouhý zhruba {}; nepodařilo se ho přepsat. Poslechněte si nahrávku",
-    "vm_task_failed": "Hlasová zpráva (nepodařilo se ji přepsat; je třeba se na ni podívat)"
+    "vm_task_failed": "Hlasová zpráva (nepodařilo se ji přepsat; je třeba se na ni podívat)",
+    "h_ai_fail_announced": "AI se nedokázalo připojit; volající slyšel zprávu o nedostupnosti a hovor byl ukončen",
+    "h_urgent_scam_words": "volající řekl, že je to naléhavé, ale také říkal věci, které říkají jen podvodníci (například žádal kód nebo převod peněz), takže vám telefon nevolal; číslo může být podvržené, proto pro ověření zavolejte zpět na číslo, které máte uložené, a nikdy nedávejte kód ani neposílejte peníze",
+    "s_ai_fail_matter_played": "AI se nepodařilo spustit; po asi {} volající slyšel zprávu o nedostupnosti a hovor skončil",
+    "s_ai_fail_todo_key": "Zadejte platný klíč Gemini v konzoli",
+    "s_ai_fail_todo_quota": "Zkontrolujte kvótu v Google AI Studio, nebo změňte klíč v konzoli",
+    "s_ai_fail_why_key": "Klíč Gemini není platný",
+    "s_ai_fail_why_quota": "Kvóta Gemini vyčerpána nebo dosažen limit útraty"
   },
   "lists": {
     "ap_weekdays": [

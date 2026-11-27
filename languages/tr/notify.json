@@ -150,7 +150,14 @@
     "vm_no_choice": "Yanıt yöntemi seçilmedi (arama erken bitti)",
     "vm_no_reply": "Yanıt gerekmiyor (yalnızca mesaj)",
     "vm_no_transcript": "Yaklaşık {} süren bir mesaj; yazıya dökülemedi. Kaydı dinleyin",
-    "vm_task_failed": "Sesli mesaj (yazıya dökülemedi; bakılması gerekiyor)"
+    "vm_task_failed": "Sesli mesaj (yazıya dökülemedi; bakılması gerekiyor)",
+    "h_ai_fail_announced": "Yapay zekâ bağlanamadı; arayan ulaşılamıyor mesajını duydu, sonra arama kapandı",
+    "h_urgent_scam_words": "arayan acil olduğunu söyledi ama yalnızca dolandırıcıların söylediği şeyleri de söyledi (örneğin kod ya da para transferi istedi), bu yüzden telefon sahibini aramadı; numara sahte olabilir, bu nedenle yapılacak iş sahibinin kayıtlı numarasını arayıp kontrol etmektir — asla kod vermeyin ve para göndermeyin",
+    "s_ai_fail_matter_played": "Yapay zekâ başlatılamadı; yaklaşık {} sonra arayan ulaşılamıyor mesajını duydu ve arama kapandı",
+    "s_ai_fail_todo_key": "Konsola geçerli bir Gemini anahtarı girin",
+    "s_ai_fail_todo_quota": "Google AI Studio'daki kotayı kontrol edin veya konsoldaki anahtarı değiştirin",
+    "s_ai_fail_why_key": "Gemini anahtarı geçersiz",
+    "s_ai_fail_why_quota": "Gemini kotası doldu veya harcama sınırına ulaşıldı"
   },
   "lists": {
     "ap_weekdays": [

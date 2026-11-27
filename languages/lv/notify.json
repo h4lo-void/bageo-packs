@@ -150,7 +150,14 @@
     "vm_no_choice": "Atbildes veids nav izvēlēts (zvans beidzās agri)",
     "vm_no_reply": "Atbilde nav jāsniedz (tikai ziņojums)",
     "vm_no_transcript": "Ziņojums apm. {}; neizdevās transkribēt. Klausieties ierakstu",
-    "vm_task_failed": "Balss pasts (neizdevās transkribēt; jāpārbauda)"
+    "vm_task_failed": "Balss pasts (neizdevās transkribēt; jāpārbauda)",
+    "h_ai_fail_announced": "AI nevarēja pieslēgties; zvanītājs dzirdēja paziņojumu, ka pakalpojums nav pieejams, un zvans tika pārtraukts",
+    "h_urgent_scam_words": "zvanītājs teica, ka ir steidzami, bet vienlaikus teica to, ko saka tikai krāpnieki (piemēram, prasīja kodu vai naudas pārskaitījumu), tāpēc tālrunis saimniekam nezvanīja; numurs var būt viltots, tāpēc uzdevums ir piezvanīt atpakaļ uz saglabāto numuru un pārbaudīt, un nekad nenodot kodu un nepārskaitīt naudu",
+    "s_ai_fail_matter_played": "AI nevarēja sākt; pēc apmēram {} zvanītājs dzirdēja paziņojumu, ka pakalpojums nav pieejams, un zvans beidzās",
+    "s_ai_fail_todo_key": "Ievadiet derīgu Gemini atslēgu konsolē",
+    "s_ai_fail_todo_quota": "Pārbaudiet kvotu Google AI Studio vai nomainiet atslēgu konsolē",
+    "s_ai_fail_why_key": "Gemini atslēga nav derīga",
+    "s_ai_fail_why_quota": "Gemini kvota izsmelta vai sasniegts izdevumu limits"
   },
   "lists": {
     "ap_weekdays": [

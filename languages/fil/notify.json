@@ -150,7 +150,14 @@
     "vm_no_choice": "Walang piniling paraan ng pagsagot (maagang natapos ang tawag)",
     "vm_no_reply": "Hindi kailangan ng sagot (mensahe lang)",
     "vm_no_transcript": "Mensaheng mga {}; hindi na-transcribe. Pakinggan ang recording",
-    "vm_task_failed": "Voicemail (hindi na-transcribe; kailangang tingnan)"
+    "vm_task_failed": "Voicemail (hindi na-transcribe; kailangang tingnan)",
+    "h_ai_fail_announced": "Hindi nakakonekta ang AI; narinig ng tumatawag ang anunsyo ng hindi maabot, saka ibinaba ang tawag",
+    "h_urgent_scam_words": "sabi ng tumatawag ay urgent ito pero may sinabi rin silang mga sinasabi lang ng scammer (tulad ng paghingi ng code o pagpapadala ng pera), kaya hindi tumawag ang phone sa may-ari; posibleng peke ang numero, kaya ang gagawin ay tawagan sila pabalik sa numero ng may-ari na naka-save para tsekahin, at huwag kailanman magbigay ng code o magpadala ng pera",
+    "s_ai_fail_matter_played": "Hindi nakapagsimula ang AI; pagkatapos ng mga {} narinig ng tumatawag ang anunsyo ng hindi maabot at natapos ang tawag",
+    "s_ai_fail_todo_key": "Maglagay ng wastong Gemini key sa console",
+    "s_ai_fail_todo_quota": "Tingnan ang quota sa Google AI Studio, o palitan ang key sa console",
+    "s_ai_fail_why_key": "Hindi wasto ang Gemini key",
+    "s_ai_fail_why_quota": "Naubos ang Gemini quota o umabot na sa limit ng gagastusin"
   },
   "lists": {
     "ap_weekdays": [

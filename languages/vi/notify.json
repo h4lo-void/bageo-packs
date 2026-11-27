@@ -150,7 +150,14 @@
     "vm_no_choice": "Chưa chọn cách trả lời (cuộc gọi kết thúc sớm)",
     "vm_no_reply": "Không cần trả lời (chỉ để lại lời nhắn)",
     "vm_no_transcript": "Tin nhắn dài khoảng {}; không chuyển thành văn bản được. Hãy nghe ghi âm",
-    "vm_task_failed": "Tin nhắn thoại (không chuyển thành văn bản được; cần xem lại)"
+    "vm_task_failed": "Tin nhắn thoại (không chuyển thành văn bản được; cần xem lại)",
+    "h_ai_fail_announced": "AI không kết nối được; người gọi nghe thông báo không liên lạc được rồi cuộc gọi kết thúc",
+    "h_urgent_scam_words": "người gọi nói là việc gấp nhưng cũng nói những điều chỉ kẻ lừa đảo mới nói (như xin mã hoặc chuyển tiền), nên điện thoại không gọi cho chủ máy; số có thể bị giả, vì vậy việc cần làm là gọi lại số chủ máy đã lưu để kiểm tra, và tuyệt đối không đưa mã hay chuyển tiền",
+    "s_ai_fail_matter_played": "AI không khởi động được; sau khoảng {} người gọi nghe thông báo không liên lạc được và cuộc gọi kết thúc",
+    "s_ai_fail_todo_key": "Nhập khóa Gemini hợp lệ trong bảng điều khiển",
+    "s_ai_fail_todo_quota": "Kiểm tra hạn mức trong Google AI Studio, hoặc đổi khóa trong bảng điều khiển",
+    "s_ai_fail_why_key": "Khóa Gemini không hợp lệ",
+    "s_ai_fail_why_quota": "Hết hạn mức Gemini hoặc đã chạm hạn mức chi tiêu"
   },
   "lists": {
     "ap_weekdays": [

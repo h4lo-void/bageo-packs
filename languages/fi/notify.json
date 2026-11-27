@@ -150,7 +150,14 @@
     "vm_no_choice": "Vastaustapaa ei valittu (puhelu päättyi ennen aikojaan)",
     "vm_no_reply": "Vastausta ei tarvita (vain viesti)",
     "vm_no_transcript": "Noin {} pituinen viesti; sitä ei voitu litteroida. Kuuntele tallenne",
-    "vm_task_failed": "Vastaajaviesti (ei voitu litteroida; vaatii tarkistuksen)"
+    "vm_task_failed": "Vastaajaviesti (ei voitu litteroida; vaatii tarkistuksen)",
+    "h_ai_fail_announced": "Tekoäly ei saanut yhteyttä; soittaja kuuli ”ei tavoitettavissa” -ilmoituksen, minkä jälkeen puhelu lopetettiin",
+    "h_urgent_scam_words": "soittaja sanoi asian olevan kiireellinen mutta sanoi myös asioita, joita vain huijarit sanovat (kuten koodin tai rahansiirron pyytämisen), joten puhelin ei soittanut omistajalle; numero voi olla väärennetty, joten hoidettava asia on soittaa takaisin omistajan tallentamalla numerolla tarkistaakseen, eikä koskaan antaa koodia tai lähettää rahaa",
+    "s_ai_fail_matter_played": "Tekoäly ei käynnistynyt; noin {} jälkeen soittaja kuuli ”ei tavoitettavissa” -ilmoituksen ja puhelu päättyi",
+    "s_ai_fail_todo_key": "Anna kelvollinen Gemini-avain hallintasivulla",
+    "s_ai_fail_todo_quota": "Tarkista kiintiö Google AI Studiossa tai vaihda avain hallintasivulla",
+    "s_ai_fail_why_key": "Gemini-avain ei ole kelvollinen",
+    "s_ai_fail_why_quota": "Gemini-kiintiö loppui tai kulukatto tuli vastaan"
   },
   "lists": {
     "ap_weekdays": [

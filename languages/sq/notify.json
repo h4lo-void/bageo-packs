@@ -150,7 +150,14 @@
     "vm_no_choice": "Nuk u zgjodh mënyrë përgjigjeje (thirrja u mbyll herët)",
     "vm_no_reply": "S'ka nevojë për përgjigje (vetëm mesazh)",
     "vm_no_transcript": "Mesazh rreth {}; nuk u transkriptua dot. Dëgjoni regjistrimin",
-    "vm_task_failed": "Posta zanore (nuk u transkriptua dot; kontrollojeni)"
+    "vm_task_failed": "Posta zanore (nuk u transkriptua dot; kontrollojeni)",
+    "h_ai_fail_announced": "AI nuk u lidh dot; telefonuesi dëgjoi mesazhin e mosdisponueshmërisë dhe thirrja u mbyll",
+    "h_urgent_scam_words": "telefonuesi tha se ishte urgjente, por tha edhe gjëra që i thonë vetëm mashtruesit (si kërkesa për kod ose transferim parash), ndaj telefoni nuk e thirri pronarin; numri mund të jetë i falsifikuar, prandaj detyra është ta telefononi përsëri në numrin që pronari ka ruajtur për ta verifikuar — mos jepni kurrë kod dhe mos dërgoni para",
+    "s_ai_fail_matter_played": "AI nuk nisi dot; pas rreth {} telefonuesi dëgjoi mesazhin e mosdisponueshmërisë dhe thirrja mbaroi",
+    "s_ai_fail_todo_key": "Vendosni një çelës Gemini të vlefshëm në konsolë",
+    "s_ai_fail_todo_quota": "Kontrolloni kuotën në Google AI Studio ose ndryshoni çelësin në konsolë",
+    "s_ai_fail_why_key": "Çelësi Gemini nuk është i vlefshëm",
+    "s_ai_fail_why_quota": "Kuota e Gemini u shpenzua ose u arrit kufiri i shpenzimeve"
   },
   "lists": {
     "ap_weekdays": [

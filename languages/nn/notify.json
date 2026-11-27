@@ -151,6 +151,14 @@
     "vm_no_reply": "Treng ikkje svar (berre leggje att beskjed)",
     "vm_no_transcript": "Melding på ca. {}; kunne ikkje skrivast ut. Høyr opptaket",
     "vm_task_failed": "Telefonsvarar (kunne ikkje skrivast ut; må sjekkast)"
+,
+    "h_ai_fail_announced": "AI kunne ikkje kople til; oppringjaren høyrde «ikkje tilgjengeleg»-meldinga, og deretter vart samtalen avslutta",
+    "h_urgent_scam_words": "oppringjaren sa det hasta, men sa også ting berre svindlarar seier (som å be om ein kode eller pengeoverføring), så telefonen ringde ikkje eigaren; nummeret kan vera forfalska, så oppgåva er å ringa tilbake på nummeret eigaren har lagra for å sjekka, og aldri gje ein kode eller senda pengar",
+    "s_ai_fail_matter_played": "AI kunne ikkje starta; etter omtrent {} høyrde oppringjaren «ikkje tilgjengeleg»-meldinga, og samtalen vart avslutta",
+    "s_ai_fail_todo_key": "Skriv inn ein gyldig Gemini-nøkkel i konsollen",
+    "s_ai_fail_todo_quota": "Sjekk kvoten i Google AI Studio, eller byt nøkkelen i konsollen",
+    "s_ai_fail_why_key": "Gemini-nøkkelen er ikkje gyldig",
+    "s_ai_fail_why_quota": "Gemini-kvoten er brukt opp, eller utgiftsgrensa er nådd"
   },
   "lists": {
     "ap_weekdays": [

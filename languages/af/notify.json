@@ -150,7 +150,14 @@
     "vm_no_choice": "Geen antwoordmetode gekies nie (oproep het vroeg geëindig)",
     "vm_no_reply": "Geen antwoord nodig nie (slegs boodskap)",
     "vm_no_transcript": "'n Boodskap van sowat {}; kon nie getranskribeer word nie. Luister na die opname",
-    "vm_task_failed": "Stemboodskap (kon nie getranskribeer word nie; moet nagegaan word)"
+    "vm_task_failed": "Stemboodskap (kon nie getranskribeer word nie; moet nagegaan word)",
+    "h_ai_fail_announced": "Die AI kon nie koppel nie; die beller het gehoor dat dit nie beskikbaar is nie, en toe is die oproep beëindig",
+    "h_urgent_scam_words": "die beller het gesê dit is dringend, maar ook dinge gesê wat net swendelaars sê (soos om 'n kode of 'n geldoorbetaling te vra), so die foon het jou nie gebel nie; die nommer kan vervals wees, so die taak is om terug te bel op die nommer wat jy gestoor het om dit te kontroleer, en nooit 'n kode te gee of geld te stuur nie",
+    "s_ai_fail_matter_played": "Die AI kon nie begin nie; ná ongeveer {} het die beller gehoor dat dit nie beskikbaar is nie en die oproep het geëindig",
+    "s_ai_fail_todo_key": "Voer 'n geldige Gemini-sleutel in die konsole in",
+    "s_ai_fail_todo_quota": "Kontroleer die kwota in Google AI Studio, of verander die sleutel in die konsole",
+    "s_ai_fail_why_key": "Die Gemini-sleutel is nie geldig nie",
+    "s_ai_fail_why_quota": "Gemini-kwota opgebruik of bestedingslimiet bereik"
   },
   "lists": {
     "ap_weekdays": [
