@@ -6213,7 +6213,7 @@
     },
     "console.ev_ai_fail_announced": {
       "status": "ai_checked",
-      "back": "Not-available message played"
+      "back": "Message \"not reachable\" played"
     },
     "console.ev_ai_fail_key": {
       "status": "ai_checked",
@@ -6541,7 +6541,7 @@
     },
     "notify.h_ai_fail_announced": {
       "status": "ai_checked",
-      "back": "The AI could not connect; the caller heard the not-available message, then the call was ended"
+      "back": "The AI could not connect; the caller heard the message \"not reachable\", then the call was hung up"
     },
     "notify.h_urgent_scam_words": {
       "status": "ai_checked",
@@ -6549,7 +6549,7 @@
     },
     "notify.s_ai_fail_matter_played": {
       "status": "ai_checked",
-      "back": "The AI could not start; after about {} the caller heard the not-available message and the call ended"
+      "back": "The AI could not start; after about {} the caller heard the message \"not reachable\" and the call ended"
     },
     "notify.s_ai_fail_todo_key": {
       "status": "ai_checked",
