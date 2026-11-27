@@ -150,7 +150,14 @@
     "vm_no_choice": "Engin svarleið valin (símtali lauk snemma)",
     "vm_no_reply": "Engin þörf á svari (aðeins skilaboð)",
     "vm_no_transcript": "Skilaboð í um {}; ekki tókst að skrifa þau upp. Hlustaðu á upptökuna",
-    "vm_task_failed": "Talhólf (uppskrift mistókst; þarf að skoða)"
+    "vm_task_failed": "Talhólf (uppskrift mistókst; þarf að skoða)",
+    "h_ai_fail_announced": "AI náði ekki tengingu; viðmælandinn heyrði tilkynninguna um ótiltækt númer og símtalinu var hætt",
+    "h_urgent_scam_words": "viðmælandinn sagði þetta áríðandi en sagði líka hluti sem aðeins svindlarar segja (eins og að biðja um kóða eða færslu af peningum), því síminn hringdi ekki í eigandann; númerið getur verið falsað, því verkefnið er að hringja til baka á númerinu sem eigandinn geymir til að athuga, og aldrei gefa upp kóða eða senda peninga",
+    "s_ai_fail_matter_played": "AI kom ekki af stað; eftir um {} heyrði viðmælandinn tilkynninguna um ótiltækt númer og símtalinu lauk",
+    "s_ai_fail_todo_key": "Settu inn gildan Gemini-lykil í stjórnborðið",
+    "s_ai_fail_todo_quota": "Athugaðu kvótuna í Google AI Studio eða skiptu um lykil í stjórnborðinu",
+    "s_ai_fail_why_key": "Gemini-lykillinn er ógildur",
+    "s_ai_fail_why_quota": "Gemini-kvóta er uppurð eða kostnaðarlimit náð"
   },
   "lists": {
     "ap_weekdays": [

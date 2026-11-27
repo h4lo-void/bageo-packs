@@ -151,6 +151,14 @@
     "vm_no_reply": "Ingen svar nødvendig (kun melding)",
     "vm_no_transcript": "En melding på ca. {}; kunne ikke transkriberes. Lytt til opptaket",
     "vm_task_failed": "Talepostkasse (kunne ikke transkriberes; bør sjekkes)"
+,
+    "h_ai_fail_announced": "AI-en kunne ikke koble til; oppringeren hørte «ikke tilgjengelig»-meldingen, deretter ble samtalen avsluttet",
+    "h_urgent_scam_words": "oppringeren sa det hastet, men sa også ting bare svindlere sier (som å be om en kode eller pengeoverføring), så telefonen ringte ikke eieren; nummeret kan være forfalsket, så gjøremålet er å ringe tilbake på nummeret eieren har lagret for å sjekke, og aldri gi en kode eller sende penger",
+    "s_ai_fail_matter_played": "AI-en kunne ikke starte; etter omtrent {} hørte oppringeren «ikke tilgjengelig»-meldingen, og samtalen ble avsluttet",
+    "s_ai_fail_todo_key": "Skriv inn en gyldig Gemini-nøkkel i konsollen",
+    "s_ai_fail_todo_quota": "Sjekk kvoten i Google AI Studio, eller bytt nøkkelen i konsollen",
+    "s_ai_fail_why_key": "Gemini-nøkkelen er ikke gyldig",
+    "s_ai_fail_why_quota": "Gemini-kvoten er brukt opp, eller utgiftsgrensen er nådd"
   },
   "lists": {
     "ap_weekdays": [

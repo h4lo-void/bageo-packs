@@ -150,7 +150,14 @@
     "vm_no_choice": "Nem választott válaszmódot (a hívás korán véget ért)",
     "vm_no_reply": "Nincs szükség válaszra (csak üzenet)",
     "vm_no_transcript": "Nagyjából {} hosszú üzenet; nem sikerült leírni. Hallgassa meg a felvételt",
-    "vm_task_failed": "Hangüzenet (nem sikerült leírni; érdemes ránézni)"
+    "vm_task_failed": "Hangüzenet (nem sikerült leírni; érdemes ránézni)",
+    "h_ai_fail_announced": "Az AI nem tudott csatlakozni; a hívó meghallgatta az „elérhetetlen” közleményt, majd a hívás befejeződött",
+    "h_urgent_scam_words": "a hívó sürgősnek mondta, de olyan dolgokat is mondott, amelyeket csak csalók mondanak (például kódot kért vagy pénzküldést), ezért a telefon nem hívta a tulajdonost; a szám hamis lehet, ezért a teendő: hívja vissza őket a tulajdonos által mentett számon, hogy ellenőrizze, és soha ne adjon kódot vagy küldjön pénzt",
+    "s_ai_fail_matter_played": "Az AI nem tudott elindulni; körülbelül {} után a hívó meghallgatta az „elérhetetlen” közleményt, és a hívás véget ért",
+    "s_ai_fail_todo_key": "Adjon meg egy érvényes Gemini kulcsot a webes konzolon",
+    "s_ai_fail_todo_quota": "Ellenőrizze a kvótát a Google AI Studióban, vagy változtassa meg a kulcsot a webes konzolon",
+    "s_ai_fail_why_key": "A Gemini kulcs nem érvényes",
+    "s_ai_fail_why_quota": "A Gemini kvóta elfogyott, vagy elérte a költési limitet"
   },
   "lists": {
     "ap_weekdays": [

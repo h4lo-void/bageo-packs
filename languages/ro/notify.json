@@ -151,6 +151,14 @@
     "vm_no_reply": "Nu este nevoie de răspuns (doar mesaj)",
     "vm_no_transcript": "Un mesaj de aproximativ {}; nu a putut fi transcris. Ascultă înregistrarea",
     "vm_task_failed": "Mesaj vocal (nu a putut fi transcris; trebuie verificat)"
+,
+    "h_ai_fail_announced": "AI nu s-a putut conecta; apelantul a auzit mesajul de indisponibilitate, iar apoi apelul s-a încheiat",
+    "h_urgent_scam_words": "apelantul a spus că e urgent, dar a spus și lucruri pe care le spun doar escrocii (precum cererea unui cod sau a unui transfer de bani), deci telefonul nu l-a sunat pe proprietar; numărul poate fi fals, așa că la „De făcut” este: sună înapoi pe numărul salvat de proprietar pentru verificare și nu da niciodată un cod și nu trimite bani",
+    "s_ai_fail_matter_played": "AI nu a putut porni; după aproximativ {} apelantul a auzit mesajul de indisponibilitate și apelul s-a încheiat",
+    "s_ai_fail_todo_key": "Introdu o cheie Gemini validă în consolă",
+    "s_ai_fail_todo_quota": "Verifică cota în Google AI Studio sau schimbă cheia în consolă",
+    "s_ai_fail_why_key": "Cheia Gemini nu este validă",
+    "s_ai_fail_why_quota": "Cota Gemini epuizată sau limita de cheltuieli atinsă"
   },
   "lists": {
     "ap_weekdays": [

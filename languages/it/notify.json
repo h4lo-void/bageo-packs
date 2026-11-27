@@ -150,7 +150,14 @@
     "vm_no_choice": "Nessun metodo di risposta scelto (la chiamata è finita prima)",
     "vm_no_reply": "Nessuna risposta necessaria (solo un messaggio)",
     "vm_no_transcript": "Un messaggio di circa {}; non è stato possibile trascriverlo. Ascolta la registrazione",
-    "vm_task_failed": "Messaggio in segreteria (non trascrivibile; da controllare)"
+    "vm_task_failed": "Messaggio in segreteria (non trascrivibile; da controllare)",
+    "h_ai_fail_announced": "L'AI non è riuscita a collegarsi; chi ha chiamato ha sentito l'avviso di non disponibilità, poi la chiamata è stata chiusa",
+    "h_urgent_scam_words": "chi ha chiamato ha detto che era urgente ma ha anche detto cose che dicono solo i truffatori (come chiedere un codice o un bonifico), quindi il telefono non ha chiamato il proprietario; il numero potrebbe essere falso, quindi la cosa da fare è richiamarlo sul numero salvato dal proprietario per verificare, e non dare mai alcun codice né inviare denaro",
+    "s_ai_fail_matter_played": "L'AI non è riuscita a partire; dopo circa {} chi ha chiamato ha sentito l'avviso di non disponibilità e la chiamata è finita",
+    "s_ai_fail_todo_key": "Inserisci una chiave Gemini valida nella console web",
+    "s_ai_fail_todo_quota": "Controlla la quota in Google AI Studio, oppure cambia la chiave nella console web",
+    "s_ai_fail_why_key": "La chiave Gemini non è valida",
+    "s_ai_fail_why_quota": "Quota Gemini esaurita o limite di spesa raggiunto"
   },
   "lists": {
     "ap_weekdays": [

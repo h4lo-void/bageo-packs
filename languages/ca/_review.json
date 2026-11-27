@@ -1679,7 +1679,7 @@
     },
     "console.end_ai_fail": {
       "status": "ai_checked",
-      "back": "The AI could not connect, so the call was hung up. The caller heard nothing."
+      "back": "The AI could not connect, so the call was hung up."
     },
     "console.end_voicemail": {
       "status": "ai_checked",
@@ -2239,11 +2239,11 @@
     },
     "console.f_simlang_h": {
       "status": "ai_checked",
-      "back": "Only for a phone with a SIM from another country: calls to that SIM start in the language picked here. Needs phone app 1.0 or later."
+      "back": "Only needed when a phone has a SIM from another region: calls to that SIM open in the language you pick here. Needs the phone app 1.0 or newer."
     },
     "console.sl_country": {
       "status": "ai_checked",
-      "back": "SIM country"
+      "back": "SIM region"
     },
     "console.sl_lang": {
       "status": "ai_checked",
@@ -2251,11 +2251,11 @@
     },
     "console.sl_pick": {
       "status": "ai_checked",
-      "back": "Choose a country"
+      "back": "Choose a region"
     },
     "console.sl_add": {
       "status": "ai_checked",
-      "back": "Add a SIM country"
+      "back": "Add a SIM region"
     },
     "console.sl_remove": {
       "status": "ai_checked",
@@ -3371,7 +3371,7 @@
     },
     "console.raw_health": {
       "status": "ai_checked",
-      "back": "Raw /health data (for troubleshooting)"
+      "back": "Technical details (for troubleshooting)"
     },
     "console.ev_hello_reattach": {
       "status": "ai_checked",
@@ -5718,11 +5718,11 @@
     },
     "console.f_home_country": {
       "status": "ai_checked",
-      "back": "Country you live in"
+      "back": "Region"
     },
     "console.f_home_country_h": {
       "status": "ai_checked",
-      "back": "The AI follows this country's everyday habits, such as where parcels go. Automatic: from the phone number."
+      "back": "The AI follows this region's way of speaking and everyday habits. Automatic: from the phone number."
     },
     "console.hc_auto": {
       "status": "ai_checked",
@@ -5906,7 +5906,7 @@
     },
     "console.ab_say_h": {
       "status": "ai_checked",
-      "back": "Up to 3 each. The AI uses your phrases now and then and avoids the others."
+      "back": "Press Enter or add a comma after each phrase; the AI uses your phrases now and then and avoids the others."
     },
     "console.ab_asks": {
       "status": "ai_checked",
@@ -6159,6 +6159,442 @@
     "console.ph_fit_noted": {
       "status": "ai_checked",
       "back": "Noted: this phone's call audio has a problem"
+    },
+    "console.bk_app_note": {
+      "status": "ai_checked",
+      "back": "Backups are kept inside Bageo and are deleted with the app. To keep one, tap Download and save it on your phone."
+    },
+    "console.bk_calls_phone": {
+      "status": "ai_checked",
+      "back": "Include call records and recordings"
+    },
+    "console.bk_encrypt_h_phone": {
+      "status": "ai_checked",
+      "back": "Protects the copies you save to the cloud or send elsewhere."
+    },
+    "console.bk_err_read_failed": {
+      "status": "ai_checked",
+      "back": "Could not read this file. Please pick it again."
+    },
+    "console.bk_exp_keys_h_phone": {
+      "status": "ai_checked",
+      "back": "Turn this on when you move to a new phone. Leave it off when you show your settings to someone."
+    },
+    "console.d_live_dlg": {
+      "status": "ai_checked",
+      "back": "Live conversation"
+    },
+    "console.d_live_phone": {
+      "status": "ai_checked",
+      "back": "The call is still going. The summary appears after it ends."
+    },
+    "console.d_live_wait": {
+      "status": "ai_checked",
+      "back": "Once the AI picks up, what both sides say shows up here."
+    },
+    "console.d_tr_btn": {
+      "status": "ai_checked",
+      "back": "Translate"
+    },
+    "console.d_tr_busy": {
+      "status": "ai_checked",
+      "back": "Translating…"
+    },
+    "console.d_tr_fail": {
+      "status": "ai_checked",
+      "back": "Could not translate: the phone has no offline translation for this language and the summary service did not answer."
+    },
+    "console.d_tr_get": {
+      "status": "ai_checked",
+      "back": "Download"
+    },
+    "console.d_tr_hide": {
+      "status": "ai_checked",
+      "back": "Hide translation"
+    },
+    "console.d_tr_need": {
+      "status": "ai_checked",
+      "back": "This phone has no offline translation for {langs} yet. Download it to translate on the phone without using quota."
+    },
+    "console.er_need_phone": {
+      "status": "ai_checked",
+      "back": "Your phone is not ready yet. Wait a few seconds; if it stays, reopen the app."
+    },
+    "console.err_try_again": {
+      "status": "ai_checked",
+      "back": "That did not work. Please try again."
+    },
+    "console.ev_ai_fail_announced": {
+      "status": "ai_checked",
+      "back": "Not-available message played"
+    },
+    "console.ev_ai_fail_key": {
+      "status": "ai_checked",
+      "back": "Gemini key not valid"
+    },
+    "console.ev_ai_fail_quota": {
+      "status": "ai_checked",
+      "back": "Gemini quota used up or spending cap reached"
+    },
+    "console.f_keep_h_phone": {
+      "status": "ai_checked",
+      "back": "Calls and recordings, errands and to-dos older than this are deleted automatically."
+    },
+    "console.m_ai_off_desc": {
+      "status": "ai_checked",
+      "back": "Original phone mode restored; calls ring normally."
+    },
+    "console.m_ai_off_tag": {
+      "status": "ai_checked",
+      "back": "Normal phone"
+    },
+    "console.m_ai_on_desc": {
+      "status": "ai_checked",
+      "back": "Incoming calls are answered and screened by AI."
+    },
+    "console.m_ai_on_tag": {
+      "status": "ai_checked",
+      "back": "Active"
+    },
+    "console.m_ai_title": {
+      "status": "ai_checked",
+      "back": "AI answering"
+    },
+    "console.m_autosaved": {
+      "status": "ai_checked",
+      "back": "Saved"
+    },
+    "console.m_btn_allow": {
+      "status": "ai_checked",
+      "back": "Allow"
+    },
+    "console.m_btn_set": {
+      "status": "ai_checked",
+      "back": "Set"
+    },
+    "console.m_callback": {
+      "status": "ai_checked",
+      "back": "Call back"
+    },
+    "console.m_chk_battery": {
+      "status": "ai_checked",
+      "back": "Unrestricted battery"
+    },
+    "console.m_chk_battery_d": {
+      "status": "ai_checked",
+      "back": "Prevents Android from putting Bageo to sleep while idle."
+    },
+    "console.m_chk_dialer": {
+      "status": "ai_checked",
+      "back": "Default phone app"
+    },
+    "console.m_chk_dialer_d": {
+      "status": "ai_checked",
+      "back": "Set to Bageo while AI answers; restored automatically when off."
+    },
+    "console.m_chk_dnd": {
+      "status": "ai_checked",
+      "back": "Do Not Disturb access"
+    },
+    "console.m_chk_dnd_d": {
+      "status": "ai_checked",
+      "back": "Lets Bageo restore your ringer cleanly when switching modes."
+    },
+    "console.m_chk_module": {
+      "status": "ai_checked",
+      "back": "System module"
+    },
+    "console.m_chk_module_d": {
+      "status": "ai_checked",
+      "back": "Enable the Bageo module in Magisk or KernelSU and reboot."
+    },
+    "console.m_chk_perms": {
+      "status": "ai_checked",
+      "back": "Phone and microphone permissions"
+    },
+    "console.m_chk_perms_d": {
+      "status": "ai_checked",
+      "back": "Needed to answer calls, read caller ID and show notifications."
+    },
+    "console.m_chk_screening": {
+      "status": "ai_checked",
+      "back": "Call screening role"
+    },
+    "console.m_chk_screening_d": {
+      "status": "ai_checked",
+      "back": "Keeps incoming calls silent while AI answers."
+    },
+    "console.m_chk_sms": {
+      "status": "ai_checked",
+      "back": "Send booking confirmation texts"
+    },
+    "console.m_chk_sms_d": {
+      "status": "ai_checked",
+      "back": "Lets Bageo text callers whether their booking went through."
+    },
+    "console.m_daily_sound": {
+      "status": "ai_checked",
+      "back": "Daily sound mode"
+    },
+    "console.m_daily_sound_h": {
+      "status": "ai_checked",
+      "back": "Keep message, media and alarm sounds audible; mute calls only."
+    },
+    "console.m_dial": {
+      "status": "ai_checked",
+      "back": "Make a call"
+    },
+    "console.m_dnd_any": {
+      "status": "ai_checked",
+      "back": "Trigger on any Do Not Disturb mode"
+    },
+    "console.m_dnd_auto": {
+      "status": "ai_checked",
+      "back": "Auto-switch AI with Do Not Disturb"
+    },
+    "console.m_dnd_auto_h": {
+      "status": "ai_checked",
+      "back": "Turn AI answering on with Do Not Disturb and off when it ends."
+    },
+    "console.m_dnd_settings": {
+      "status": "ai_checked",
+      "back": "System Do Not Disturb settings"
+    },
+    "console.m_empty_calls": {
+      "status": "ai_checked",
+      "back": "When calls come in, summaries, transcripts and recordings appear here."
+    },
+    "console.m_er_need_ai": {
+      "status": "ai_checked",
+      "back": "Turn on AI answering first so Bageo can place this call."
+    },
+    "console.m_er_sim": {
+      "status": "ai_checked",
+      "back": "SIM card"
+    },
+    "console.m_er_turn_on": {
+      "status": "ai_checked",
+      "back": "Turn on AI answering"
+    },
+    "console.m_open_phone": {
+      "status": "ai_checked",
+      "back": "Open Phone app"
+    },
+    "console.m_perms_card": {
+      "status": "ai_checked",
+      "back": "Permissions and system health"
+    },
+    "console.m_persist_notif": {
+      "status": "ai_checked",
+      "back": "Show ongoing notification while AI is active"
+    },
+    "console.m_ready_ok": {
+      "status": "ai_checked",
+      "back": "Ready"
+    },
+    "console.m_setup_title": {
+      "status": "ai_checked",
+      "back": "Finish setup to get started"
+    },
+    "console.m_sg_about": {
+      "status": "ai_checked",
+      "back": "About you and status note"
+    },
+    "console.m_sg_about_d": {
+      "status": "ai_checked",
+      "back": "Status note, frequent callers, phrases and info the AI can share"
+    },
+    "console.m_sg_adv": {
+      "status": "ai_checked",
+      "back": "Permissions and advanced"
+    },
+    "console.m_sg_adv_d": {
+      "status": "ai_checked",
+      "back": "Permission check, SIM cards, Wi-Fi console and version"
+    },
+    "console.m_sg_adv_d_phone": {
+      "status": "ai_checked",
+      "back": "Permission check, SIM cards and version"
+    },
+    "console.m_sg_basics": {
+      "status": "ai_checked",
+      "back": "Basics and voice"
+    },
+    "console.m_sg_basics_d": {
+      "status": "ai_checked",
+      "back": "Your name, language, identity, AI voice and API key"
+    },
+    "console.m_sg_data": {
+      "status": "ai_checked",
+      "back": "Appearance, backup and packs"
+    },
+    "console.m_sg_data_d": {
+      "status": "ai_checked",
+      "back": "Theme, app language, backups, updates and voice downloads"
+    },
+    "console.m_sg_notify": {
+      "status": "ai_checked",
+      "back": "External alerts and calendar"
+    },
+    "console.m_sg_notify_d": {
+      "status": "ai_checked",
+      "back": "Notification channels, appointment confirmation and calendar"
+    },
+    "console.m_sg_phone": {
+      "status": "ai_checked",
+      "back": "Priority calls and phone alerts"
+    },
+    "console.m_sg_phone_d": {
+      "status": "ai_checked",
+      "back": "Whitelist handling, daily sound, DND sync and local notifications"
+    },
+    "console.m_sg_scam": {
+      "status": "ai_checked",
+      "back": "Scam protection and blocked calls"
+    },
+    "console.m_sg_scam_d": {
+      "status": "ai_checked",
+      "back": "Scam checks, time-wasting mode and rejection voice"
+    },
+    "console.m_sg_style": {
+      "status": "ai_checked",
+      "back": "Speaking style and answering"
+    },
+    "console.m_sg_style_d": {
+      "status": "ai_checked",
+      "back": "Tone slider, ring delay, background sound and unknown callers"
+    },
+    "console.m_sims_title": {
+      "status": "ai_checked",
+      "back": "SIM cards in this phone"
+    },
+    "console.m_summary_notif": {
+      "status": "ai_checked",
+      "back": "Local call summary notifications"
+    },
+    "console.m_summary_notif_h": {
+      "status": "ai_checked",
+      "back": "Show a notification on this phone with the summary and a call-back button."
+    },
+    "console.m_sync_btn": {
+      "status": "ai_checked",
+      "back": "Sync contacts"
+    },
+    "console.m_sync_desc": {
+      "status": "ai_checked",
+      "back": "Import contacts from this phone so caller names show up automatically."
+    },
+    "console.m_sync_done": {
+      "status": "ai_checked",
+      "back": "Synced: {added} added, {merged} updated"
+    },
+    "console.m_sync_running": {
+      "status": "ai_checked",
+      "back": "Syncing…"
+    },
+    "console.m_sync_starred": {
+      "status": "ai_checked",
+      "back": "Add starred contacts to Whitelist"
+    },
+    "console.m_sync_title": {
+      "status": "ai_checked",
+      "back": "Phone contacts"
+    },
+    "console.m_takeover": {
+      "status": "ai_checked",
+      "back": "Take over"
+    },
+    "console.m_theme_auto": {
+      "status": "ai_checked",
+      "back": "System"
+    },
+    "console.m_theme_label": {
+      "status": "ai_checked",
+      "back": "Appearance"
+    },
+    "console.m_wl_ai": {
+      "status": "ai_checked",
+      "back": "Let AI handle all calls normally"
+    },
+    "console.m_wl_forward": {
+      "status": "ai_checked",
+      "back": "Forward or merge to another number"
+    },
+    "console.m_wl_ring": {
+      "status": "ai_checked",
+      "back": "Ring this phone directly for Whitelist"
+    },
+    "console.m_wl_title": {
+      "status": "ai_checked",
+      "back": "Priority and urgent calls"
+    },
+    "console.m_wl_urgent": {
+      "status": "ai_checked",
+      "back": "AI screens first, offer takeover when urgent"
+    },
+    "console.note_use": {
+      "status": "ai_checked",
+      "back": "Use this note on calls"
+    },
+    "console.ph_app_ver_diff": {
+      "status": "ai_checked",
+      "back": "Differs from Bageo {v}"
+    },
+    "console.set_not_loaded": {
+      "status": "ai_checked",
+      "back": "The settings are still loading. Try again in a moment."
+    },
+    "console.ts_get_art": {
+      "status": "ai_checked",
+      "back": "Download local scene"
+    },
+    "console.urg_why_scam_words": {
+      "status": "ai_checked",
+      "back": "the caller sounded like a scam, so you were not called"
+    },
+    "notify.h_ai_fail_announced": {
+      "status": "ai_checked",
+      "back": "The AI could not connect; the caller heard the not-available message, then the call ended"
+    },
+    "notify.h_urgent_scam_words": {
+      "status": "ai_checked",
+      "back": "the caller said it was urgent but also said things only scammers say, so the phone did not call the owner; the number may be faked, so call back on the saved number to check and never give a code or send money"
+    },
+    "notify.s_ai_fail_matter_played": {
+      "status": "ai_checked",
+      "back": "The AI could not start; after about {} the caller heard the not-available message and the call ended"
+    },
+    "notify.s_ai_fail_todo_key": {
+      "status": "ai_checked",
+      "back": "Enter a valid Gemini key in the console"
+    },
+    "notify.s_ai_fail_todo_quota": {
+      "status": "ai_checked",
+      "back": "Check the quota in Google AI Studio, or change the key in the console"
+    },
+    "notify.s_ai_fail_why_key": {
+      "status": "ai_checked",
+      "back": "The Gemini key is not valid"
+    },
+    "notify.s_ai_fail_why_quota": {
+      "status": "ai_checked",
+      "back": "Gemini quota used up or spending cap reached"
+    },
+    "desktop.connect": {
+      "status": "ai_checked",
+      "back": "Connect"
+    },
+    "desktop.found_hint": {
+      "status": "ai_checked",
+      "back": "Your password is only sent after you click Connect."
+    },
+    "desktop.lang_unreviewed": {
+      "status": "ai_checked",
+      "back": "Translation waiting for a native speaker to confirm."
+    },
+    "desktop.r_found": {
+      "status": "ai_checked",
+      "back": "Found Bageo at {address}."
     }
   }
 }

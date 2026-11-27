@@ -150,7 +150,14 @@
     "vm_no_choice": "Nije odabran način odgovora (poziv je rano završio)",
     "vm_no_reply": "Odgovor nije potreban (samo poruka)",
     "vm_no_transcript": "Poruka od oko {}; prijepis nije uspio. Poslušajte snimku",
-    "vm_task_failed": "Govorna pošta (prijepis nije uspio; provjerite)"
+    "vm_task_failed": "Govorna pošta (prijepis nije uspio; provjerite)",
+    "h_ai_fail_announced": "AI se nije uspio povezati; pozivatelj je čuo poruku o nedostupnosti, a zatim je poziv prekinut",
+    "h_urgent_scam_words": "pozivatelj je rekao da je hitno, ali izgovorio je i stvari koje govore samo prevaranti (poput traženja koda ili prijenosa novca), pa telefon nije nazvao vlasnika; broj je možda krivotvoren, pa je zadatak nazvati ih natrag na broju koji je vlasnik spremio radi provjere, i nikad ne dati kod niti poslati novac",
+    "s_ai_fail_matter_played": "AI se nije uspio pokrenuti; nakon oko {} pozivatelj je čuo poruku o nedostupnosti i poziv je završio",
+    "s_ai_fail_todo_key": "Unesite valjani Gemini ključ u web-konzolu",
+    "s_ai_fail_todo_quota": "Provjerite kvotu u Google AI Studiju ili promijenite ključ u web-konzoli",
+    "s_ai_fail_why_key": "Gemini ključ nije valjan",
+    "s_ai_fail_why_quota": "Gemini kvota je potrošena ili je dostignut limit potrošnje"
   },
   "lists": {
     "ap_weekdays": [

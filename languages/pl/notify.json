@@ -151,6 +151,14 @@
     "vm_no_reply": "Odpowiedź niepotrzebna (tylko wiadomość)",
     "vm_no_transcript": "Wiadomość trwa około {}; nie udało się jej zapisać tekstem. Posłuchaj nagrania",
     "vm_task_failed": "Poczta głosowa (nie udało się zapisać tekstem; trzeba rzucić okiem)"
+,
+    "h_ai_fail_announced": "AI nie mogło się połączyć; dzwoniący usłyszał komunikat o niedostępności, a następnie rozmowa została zakończona",
+    "h_urgent_scam_words": "dzwoniący mówił, że sprawa jest pilna, ale mówił też rzeczy, których używają tylko oszuści (np. proszenie o kod lub przelew), dlatego telefon nie zadzwonił do właściciela; numer może być podszyty, więc w polu „Do zrobienia” jest: oddzwonić na numer zapisany przez właściciela, żeby sprawdzić, i nigdy nie podawać kodu ani nie wysyłać pieniędzy",
+    "s_ai_fail_matter_played": "AI nie mogło się uruchomić; po około {} dzwoniący usłyszał komunikat o niedostępności i rozmowa została zakończona",
+    "s_ai_fail_todo_key": "Wpisz poprawny klucz Gemini w konsoli",
+    "s_ai_fail_todo_quota": "Sprawdź limit w Google AI Studio albo zmień klucz w konsoli",
+    "s_ai_fail_why_key": "Klucz Gemini jest nieprawidłowy",
+    "s_ai_fail_why_quota": "Wyczerpany limit Gemini lub osiągnięty limit wydatków"
   },
   "lists": {
     "ap_weekdays": [

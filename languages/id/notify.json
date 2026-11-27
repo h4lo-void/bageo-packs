@@ -150,7 +150,14 @@
     "vm_no_choice": "Tidak ada cara balasan yang dipilih (telepon berakhir lebih awal)",
     "vm_no_reply": "Tidak perlu dibalas (hanya pesan)",
     "vm_no_transcript": "Pesan sekitar {}; tidak bisa ditranskripsikan. Dengarkan rekaman",
-    "vm_task_failed": "Pesan suara (tidak bisa ditranskripsikan; perlu dicek)"
+    "vm_task_failed": "Pesan suara (tidak bisa ditranskripsikan; perlu dicek)",
+    "h_ai_fail_announced": "AI gagal tersambung; penelepon mendengar pengumuman tidak tersedia, lalu telepon diakhiri",
+    "h_urgent_scam_words": "penelepon bilang mendesak, tetapi juga mengatakan hal-hal yang hanya dikatakan penipu (seperti meminta kode atau transfer uang), jadi ponsel tidak menelepon pemilik; nomornya mungkin palsu, jadi tindak lanjutnya adalah menelepon balik lewat nomor yang tersimpan pada pemilik untuk memastikan, dan jangan pernah memberi kode atau mengirim uang",
+    "s_ai_fail_matter_played": "AI tidak bisa mulai; setelah sekitar {} penelepon mendengar pengumuman tidak tersedia dan telepon berakhir",
+    "s_ai_fail_todo_key": "Masukkan kunci Gemini yang valid di konsol web",
+    "s_ai_fail_todo_quota": "Periksa kuota di Google AI Studio, atau ganti kunci di konsol web",
+    "s_ai_fail_why_key": "Kunci Gemini tidak valid",
+    "s_ai_fail_why_quota": "Kuota Gemini habis atau batas pengeluaran tercapai"
   },
   "lists": {
     "ap_weekdays": [

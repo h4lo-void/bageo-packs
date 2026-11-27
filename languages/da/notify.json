@@ -150,7 +150,14 @@
     "vm_no_choice": "Ingen svarmåde valgt (opkaldet sluttede tidligt)",
     "vm_no_reply": "Intet svar nødvendigt (kun en besked)",
     "vm_no_transcript": "En besked på cirka {}; den kunne ikke transskriberes. Lyt til optagelsen",
-    "vm_task_failed": "Telefonsvarerbesked (kunne ikke transskriberes; skal ses på)"
+    "vm_task_failed": "Telefonsvarerbesked (kunne ikke transskriberes; skal ses på)",
+    "h_ai_fail_announced": "AI'en kunne ikke oprette forbindelse; den, der ringede, hørte beskeden om utilgængelighed, og opkaldet blev afsluttet",
+    "h_urgent_scam_words": "den, der ringede, sagde, at det hastede, men sagde også ting, som kun svindlere siger (fx bad om en kode eller en pengeoverførsel), så telefonen ringede ikke til dig; nummeret kan være forfalsket, så ring tilbage på det nummer, du har gemt, for at tjekke, og giv aldrig en kode eller send penge",
+    "s_ai_fail_matter_played": "AI'en kunne ikke starte; efter ca. {} hørte den, der ringede, beskeden om utilgængelighed, og opkaldet sluttede",
+    "s_ai_fail_todo_key": "Indtast en gyldig Gemini-nøgle i konsollen",
+    "s_ai_fail_todo_quota": "Tjek kvoten i Google AI Studio, eller skift nøglen i konsollen",
+    "s_ai_fail_why_key": "Gemini-nøglen er ikke gyldig",
+    "s_ai_fail_why_quota": "Gemini-kvoten er brugt op, eller grænsen for forbrug er nået"
   },
   "lists": {
     "ap_weekdays": [
