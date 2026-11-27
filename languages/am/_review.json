@@ -6609,6 +6609,22 @@
     "desktop.r_found": {
       "status": "ai_checked",
       "back": "Found Bageo at {address}."
+    },
+    "console.er_abroad_title": {
+      "status": "ai_checked",
+      "back": "This is an international call"
+    },
+    "console.er_abroad_body": {
+      "status": "ai_checked",
+      "back": "The SIM you picked is from {sim}, but the number is in {dest}. The phone company may charge a fee for an international call."
+    },
+    "console.er_abroad_ok": {
+      "status": "ai_checked",
+      "back": "Call anyway"
+    },
+    "console.er_err_sim_other_country": {
+      "status": "ai_checked",
+      "back": "This SIM is a different country from the number."
     }
   }
 }

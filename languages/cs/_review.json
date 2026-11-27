@@ -6614,6 +6614,22 @@
     "desktop.r_found": {
       "status": "ai_checked",
       "back": "Found Bageo at {address}."
+    },
+    "console.er_abroad_title": {
+      "status": "ai_checked",
+      "back": "This is an international call"
+    },
+    "console.er_abroad_body": {
+      "status": "ai_checked",
+      "back": "The chosen SIM card is from the country {sim}, but the number is from the country {dest}. Your carrier may charge for an international call."
+    },
+    "console.er_abroad_ok": {
+      "status": "ai_checked",
+      "back": "Call anyway"
+    },
+    "console.er_err_sim_other_country": {
+      "status": "ai_checked",
+      "back": "This SIM card is from a different country than the number."
     }
   }
 }
