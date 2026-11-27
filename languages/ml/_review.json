@@ -2219,11 +2219,11 @@
     },
     "console.f_simlang": {
       "status": "ai_checked",
-      "back": "Main language for each SIM"
+      "back": "Languages for each SIM"
     },
     "console.f_simlang_h": {
       "status": "ai_checked",
-      "back": "Only needed when a phone has a SIM from another region: calls to that SIM open in the language you pick here. Needs the phone app 1.0 or newer."
+      "back": "Calls to this SIM start in the main language; a call from abroad will be in the second language set for that region, otherwise in the language of that country. Needs the phone app 1.0 or newer."
     },
     "console.sl_country": {
       "status": "ai_checked",
@@ -2248,6 +2248,34 @@
     "console.sl_empty": {
       "status": "ai_checked",
       "back": "Nothing set: every call starts in the language above."
+    },
+    "console.sl_lang_sim": {
+      "status": "ai_checked",
+      "back": "The language of the SIM region"
+    },
+    "console.sl_region": {
+      "status": "ai_checked",
+      "back": "Region"
+    },
+    "console.sl_region_sim": {
+      "status": "ai_checked",
+      "back": "Just like the SIM"
+    },
+    "console.sl_region_none": {
+      "status": "ai_checked",
+      "back": "Not set"
+    },
+    "console.sl_second1": {
+      "status": "ai_checked",
+      "back": "Second language 1"
+    },
+    "console.sl_second2": {
+      "status": "ai_checked",
+      "back": "Second language 2"
+    },
+    "console.sl_second_none": {
+      "status": "ai_checked",
+      "back": "None"
     },
     "console.f_owner": {
       "status": "ai_checked",
@@ -2516,7 +2544,7 @@
     },
     "console.f_reply_lang_h": {
       "status": "ai_checked",
-      "back": "When the caller speaks another language, the AI switches to it."
+      "back": "The AI switches only when the caller clearly speaks another language in full sentences. A quick hello or unclear words are not counted."
     },
     "console.f_status": {
       "status": "ai_checked",
