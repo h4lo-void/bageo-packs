@@ -45,8 +45,8 @@
           "hard": true
         }
       ],
-      "signals_en": "CBCS says fraudsters pose as experienced investment experts, actively recruit new participants on social media, add them to chat groups for so-called trading, and promote offers that sound too good to be true, including vaguely described products presented as free but meant to take money through a fraudulent scheme. It advises the public not to respond to investment opportunities from anyone who is not authorised by CBCS as an investment institution or securities broker, and to check the Bank's public register of supervised institutions.",
-      "legit_en": "A firm that may lawfully offer investments or securities brokerage in Curaçao appears on the CBCS register. A licensed institution does not need to recruit clients through an informal Facebook or WhatsApp trading group, and does not guarantee a high return in a short time.",
+      "signals_en": "CBCS warns fraudsters pose as expert advisers on social media, add targets to trading chat groups, and push too-good-to-be-true or 'free' products to steal funds. Only CBCS-authorised brokers on its public register may offer investments.",
+      "legit_en": "Firms lawfully offering investments or brokerage in Curaçao appear on the CBCS register. Licensed institutions do not recruit via informal Facebook or WhatsApp trading groups or guarantee high short-term returns.",
       "bait_tactics": [
         "Say any investment offer will be checked against the CBCS register of supervised institutions before money is sent.",
         "Refuse to join a trading chat or to pay for a supposedly free product, and ask for a licence number that can be verified on the Bank's site.",
@@ -73,17 +73,17 @@
         {
           "text": "your payout depends on recruiting others",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "returns with no clear source of income",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "pay an extra deposit in 72 hours or lose the account",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "crypto or e-wallet with no transparent valuation",
@@ -91,8 +91,8 @@
           "hard": false
         }
       ],
-      "signals_en": "In its 17 September 2026 notice CBCS pointed to programmes promoted on social media that used subscription-style participation, rewards for recruiting new participants, token-related incentives and several compensation levels, features it describes as common in pyramid schemes. It also flagged virtual or crypto assets and e-wallets offered without a clear regulatory status or valuation. In a 9 November 2026 consumer notice it said a named programme was requiring a further payment within 72 hours to verify an account, with a threat that the account and earlier funds could otherwise be lost; the Bank treated this as a serious warning sign that a pyramid-like structure may be under strain, and said an extra deposit does not guarantee that earlier money can be recovered. It advised people not to give in to short deadlines or threats, and to keep records of the messages and payments.",
-      "legit_en": "Raising funds from the public for collective investment, or offering certain virtual-asset services, requires authorisation from CBCS where the rules apply. A supervised institution does not make a client's existing balance depend on recruiting new participants, or on a rushed extra verification payment after the first deposit.",
+      "signals_en": "CBCS (Sep & Nov 2026) warned of social-media pyramid schemes with recruitment rewards, multi-level pay, and unapproved crypto/e-wallets, plus a scheme demanding an extra deposit within 72 hours to 'verify' an account or lose prior funds.",
+      "legit_en": "Collective investment and covered virtual-asset services require CBCS authorisation. Supervised firms never tie balances to recruiting new members or demand a rushed extra verification deposit after an initial payment.",
       "bait_tactics": [
         "Refuse a rushed extra payment that is said to be the only way to keep or unlock funds already sent.",
         "Ask whether the programme is on the CBCS register, and why income would depend on bringing in new participants or on an informal token wallet.",

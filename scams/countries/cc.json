@@ -26,17 +26,17 @@
         {
           "text": "confirm your card security code",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "customer records wiped by a technical error",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "quote the three-digit code on the card",
           "weight": 2,
-          "hard": true
+          "hard": false
         },
         {
           "text": "log in on this recovery site",
@@ -44,7 +44,7 @@
           "hard": false
         }
       ],
-      "signals_en": "WA ScamNet describes an out-of-the-blue email, text, social-media message or call that copies a bank or utility's branding, claims a foreign purchase or a lost customer file, and then asks the person to confirm a password, account number or card security code, sometimes on a look-alike web address.",
+      "signals_en": "WA ScamNet warns of unsolicited emails, texts, social messages or calls copying bank or utility branding, claiming a foreign purchase or lost file to demand passwords, account numbers or card security codes, often via lookalike links.",
       "legit_en": "Australian banks and the WA service do not ask Territory residents to hand over a card security code or password in an unexpected message. A real check starts from the organisation's published website or from WA ScamNet, not from the link in the message.",
       "bait_tactics": [
         "Say a Home Island or West Island household will only use the contact path printed by WA Consumer Protection for the Indian Ocean Territories.",
