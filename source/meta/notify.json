@@ -336,6 +336,11 @@
     "who": "the summary model and the owner",
     "placeholders": []
   },
+  "h_ai_fail_announced": {
+    "where": "how the call ended: the AI never connected, the caller heard the not-available message and the system hung up, one line for the summary model",
+    "who": "the summary model and the owner",
+    "placeholders": []
+  },
   "h_ai_fail_hangup": {
     "where": "how the call ended: the AI never connected and the system hung up, one line for the summary model",
     "who": "the summary model and the owner",
@@ -395,6 +400,11 @@
     "who": "the summary model and the owner",
     "placeholders": []
   },
+  "h_urgent_scam_words": {
+    "where": "how the call ended: urgent caller who also said words only scammers say, so the owner was not called; names the to-do label of the summary",
+    "who": "the summary model and the owner",
+    "placeholders": []
+  },
   "h_urgent_transfer": {
     "where": "how the call ended: urgent caller, the owner alerted; names the to-do label of the summary",
     "who": "the summary model and the owner",
@@ -440,6 +450,46 @@
     "who": "the owner",
     "placeholders": []
   },
+  "n_fit_adjusted": {
+    "where": "text of the call audio notification: Bageo changed the phone's audio settings by itself and it works now",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_failed_title": {
+    "where": "title of the notification when a phone's call audio turns bad after it worked",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_ok": {
+    "where": "text of the call audio notification: the test found the call audio works",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_problem": {
+    "where": "text of the call audio notification: the call audio has a problem although all settings were tried; points to the guide section First use on a new phone, which exists in English, Traditional and Simplified Chinese",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_result_title": {
+    "where": "title of the notification with the result of the first call audio test of a phone",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_test_body": {
+    "where": "text of that notification: how to test the call audio of the new phone (call it from another phone, talk to the AI about 20 seconds)",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_test_title": {
+    "where": "title of the notification for a new phone whose call audio has not been tested: the owner should call it once from another phone",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "n_fit_unsupported": {
+    "where": "text of the call audio notification: the phone cannot send the AI's voice into calls",
+    "who": "the owner",
+    "placeholders": []
+  },
   "n_hidden": {
     "where": "stands in for a hidden caller number in notifications and cards",
     "who": "the owner",
@@ -457,12 +507,12 @@
   },
   "n_named_number": {
     "where": "number and contact name in the title of a notification",
-    "same_ok": true,
     "who": "the owner",
     "placeholders": [
       "{number}",
       "{name}"
-    ]
+    ],
+    "same_ok": true
   },
   "n_number": {
     "where": "row label for the phone number on notification and appointment cards",
@@ -549,8 +599,35 @@
       "{}"
     ]
   },
+  "s_ai_fail_matter_played": {
+    "where": "fallback summary when the AI never answered and the caller heard the not-available message: what happened on the call",
+    "who": "the owner",
+    "placeholders": [
+      "{}"
+    ]
+  },
   "s_ai_fail_prefix": {
     "where": "first line above a summary when the AI never answered",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "s_ai_fail_todo_key": {
+    "where": "fallback summary when the AI never answered: what to do about the invalid key",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "s_ai_fail_todo_quota": {
+    "where": "fallback summary when the AI never answered: what to do about the quota or spending cap",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "s_ai_fail_why_key": {
+    "where": "fallback summary when the AI never answered: the cause, the Gemini key is not valid",
+    "who": "the owner",
+    "placeholders": []
+  },
+  "s_ai_fail_why_quota": {
+    "where": "fallback summary when the AI never answered: the cause, Gemini quota or spending cap",
     "who": "the owner",
     "placeholders": []
   },
@@ -794,46 +871,6 @@
   },
   "vm_task_failed": {
     "where": "task summary when a voicemail could not be transcribed",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_test_title": {
-    "where": "title of the notification sent when a new phone is connected and has not been tested",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_test_body": {
-    "where": "text of the notification sent when a new phone is connected and has not been tested",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_result_title": {
-    "where": "title of the notification with the result of the call audio test",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_failed_title": {
-    "where": "title of the notification sent when the call audio does not work",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_ok": {
-    "where": "text of the notification when the call audio test passed",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_adjusted": {
-    "where": "text of the notification when Bageo changed the settings and the test then passed",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_problem": {
-    "where": "text of the notification when no call audio setting worked. The quoted name is the title of a section in the guide",
-    "who": "the owner",
-    "placeholders": []
-  },
-  "n_fit_unsupported": {
-    "where": "text of the notification for a phone that cannot play the AI into a call",
     "who": "the owner",
     "placeholders": []
   }
