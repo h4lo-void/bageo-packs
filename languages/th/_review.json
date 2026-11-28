@@ -4377,11 +4377,11 @@
     },
     "console.er_redial_h": {
       "status": "ai_checked",
-      "back": "If nobody answers or the line is busy, redials every minute up to 30 times"
+      "back": "If the call does not get through (no answer, busy, or voicemail), it redials after {gap} seconds until someone answers, for up to {min} minutes."
     },
     "console.er_redial_wait": {
       "status": "ai_checked",
-      "back": "Redial until answered: attempt {n} went unanswered, calling again at {time}"
+      "back": "Redial until answered: attempt {n} did not get through, will call again at {time}"
     },
     "console.er_via": {
       "status": "ai_checked",
@@ -6638,6 +6638,134 @@
     "console.er_err_sim_other_country": {
       "status": "ai_checked",
       "back": "This SIM is a different country from the number."
+    },
+    "console.er_at": {
+      "status": "ai_checked",
+      "back": "Date and time"
+    },
+    "console.er_at_h": {
+      "status": "ai_checked",
+      "back": "In the time zone of the computer running Bageo: {zone}. Up to {days} days in advance."
+    },
+    "console.er_err_bad_grab_min": {
+      "status": "ai_checked",
+      "back": "Enter the minutes as a whole number from {low} to {high}."
+    },
+    "console.er_err_bad_time": {
+      "status": "ai_checked",
+      "back": "This time is not clear. Please choose again."
+    },
+    "console.er_err_line_reserved": {
+      "status": "ai_checked",
+      "back": "This phone is close to the time booked by \"{who}\" ({when}). Please choose another phone."
+    },
+    "console.er_err_line_taken": {
+      "status": "ai_checked",
+      "back": "This phone is already booked by \"{who}\" at that time ({when}). Please choose another phone or time."
+    },
+    "console.er_err_need_line": {
+      "status": "ai_checked",
+      "back": "A scheduled call needs a line to call out from."
+    },
+    "console.er_err_need_time": {
+      "status": "ai_checked",
+      "back": "Choose the date and time to call."
+    },
+    "console.er_err_not_scheduled": {
+      "status": "ai_checked",
+      "back": "This call has already started or ended, so the time cannot be changed."
+    },
+    "console.er_err_number_taken": {
+      "status": "ai_checked",
+      "back": "\"{who}\" ({when}) is already redialing this number at that time. Please choose another time."
+    },
+    "console.er_err_past_time": {
+      "status": "ai_checked",
+      "back": "This time has passed. Please choose a later time."
+    },
+    "console.er_err_time_skipped": {
+      "status": "ai_checked",
+      "back": "This time does not exist because the clock skips it when switching to summer time. Please choose another time."
+    },
+    "console.er_err_too_far": {
+      "status": "ai_checked",
+      "back": "You can schedule up to {days} days ahead."
+    },
+    "console.er_err_too_many_open": {
+      "status": "ai_checked",
+      "back": "There are {max} AI calls that have not ended. Cancel some or wait for them to end."
+    },
+    "console.er_grab_min": {
+      "status": "ai_checked",
+      "back": "Keep redialing for"
+    },
+    "console.er_line_held": {
+      "status": "ai_checked",
+      "back": "{name} (phone booked by \"{who}\", {when})"
+    },
+    "console.er_move": {
+      "status": "ai_checked",
+      "back": "Change time"
+    },
+    "console.er_move_save": {
+      "status": "ai_checked",
+      "back": "Save"
+    },
+    "console.er_moved": {
+      "status": "ai_checked",
+      "back": "Time changed"
+    },
+    "console.er_phone_pick": {
+      "status": "ai_checked",
+      "back": "Choose a line"
+    },
+    "console.er_redial_min": {
+      "status": "ai_checked",
+      "back": "Redial until answered · {min} minutes"
+    },
+    "console.er_sch_at": {
+      "status": "ai_checked",
+      "back": "Scheduled for {when} ({left})"
+    },
+    "console.er_scheduled_ok": {
+      "status": "ai_checked",
+      "back": "Scheduled. It will call out by itself at that time."
+    },
+    "console.er_st_scheduled": {
+      "status": "ai_checked",
+      "back": "Scheduled"
+    },
+    "console.er_when": {
+      "status": "ai_checked",
+      "back": "When to call"
+    },
+    "console.er_when_later": {
+      "status": "ai_checked",
+      "back": "At a set date and time"
+    },
+    "console.er_when_later_d": {
+      "status": "ai_checked",
+      "back": "It will call out at that time. Choose the line to call out from."
+    },
+    "console.er_when_now": {
+      "status": "ai_checked",
+      "back": "Now"
+    },
+    "console.err_mcp_token_too_short": {
+      "status": "ai_checked",
+      "back": "The Token must have at least 24 characters."
+    },
+    "console.ippair_new_app": {
+      "status": "ai_checked",
+      "back": "The phone needs the latest version of the Bageo app to pair."
+    },
+    "console.mcp_tok_short": {
+      "status": "ai_checked",
+      "back": "This Token is short and easy to guess. Change it to a Token at least 24 characters long."
+    },
+    "console.ph_link_unchecked": {
+      "status": "ai_checked",
+      "back": "Connection not verified: update the Bageo app on this phone"
     }
   }
 }
