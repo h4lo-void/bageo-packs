@@ -80,6 +80,20 @@ jobs:
           cp "$GITHUB_WORKSPACE/data/voices/bageo-voices-index.json" "$GITHUB_WORKSPACE/out/bageo-voices-index.json"
           cp "$GITHUB_WORKSPACE/data/voices"/voices-*.zip "$GITHUB_WORKSPACE/out/"
 
+      - name: Sign the three indexes
+        working-directory: bageo-call
+        env:
+          BAGEO_PACKS_SIGNING_KEY: ${{ secrets.BAGEO_PACKS_SIGNING_KEY }}
+        run: |
+          if [ -z "$BAGEO_PACKS_SIGNING_KEY" ]; then
+            echo "The repository secret BAGEO_PACKS_SIGNING_KEY is not set; nothing is published without signatures." >&2
+            exit 1
+          fi
+          for index in bageo-pack-index.json bageo-extras-index.json bageo-voices-index.json; do
+            cargo run -p bageo-packs --release -- sign-index "$GITHUB_WORKSPACE/out/$index"
+            test -s "$GITHUB_WORKSPACE/out/$index.sig"
+          done
+
       - name: Attach release files
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
